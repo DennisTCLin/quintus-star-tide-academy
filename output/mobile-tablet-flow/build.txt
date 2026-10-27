@@ -1,0 +1,54 @@
+
+> quintus-ocean-academy@1.0.0 build
+> npm run audit:content && npm run build:zhuyin && npm run check:pronunciation && tsc -b && vite build && npm run build:server
+
+
+> quintus-ocean-academy@1.0.0 audit:content
+> node scripts/content-audit.mjs
+
+{"status":"PASS","static":5018,"generated":23192,"pools":42,"approvedStatic":5018,"approvedTemplates":42,"findings":0,"durationMs":317,"report":"output/content-audit/report.json"}
+
+> quintus-ocean-academy@1.0.0 build:zhuyin
+> node scripts/pack-zhuyin.mjs
+
+Packed 21293 phrases and 2884 characters into 1030 shared syllables: /Users/dennistclin/.codex/worktrees/feifei-photo/星潮網站開發/src/data/interface-zhuyin-packed.json
+
+> quintus-ocean-academy@1.0.0 check:pronunciation
+> node scripts/check-pronunciation.mjs && node scripts/pack-zhuyin.mjs --check
+
+Pronunciation checks passed: 21138 source runs, 165 curated lessons, 389 reviewed context rules.
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 290 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                1.81 kB │ gzip:   0.98 kB
+dist/assets/readability.v-trv-R25v.css         1.35 kB │ gzip:   0.57 kB
+dist/assets/AdminConsole.v-DC7GNqzd.css       11.74 kB │ gzip:   2.82 kB
+dist/assets/TerritoryPage.v-XpGSXE-r.css      30.00 kB │ gzip:   6.46 kB
+dist/assets/IslandApp.v-ewABikei.css          75.22 kB │ gzip:  14.34 kB
+dist/assets/index.v-7OLHUjhp.css             326.38 kB │ gzip:  66.38 kB
+dist/assets/subject-catalog.v-DRvuTgF7.js      3.80 kB │ gzip:   2.02 kB
+dist/assets/territory.v-DQ57f921.js            5.48 kB │ gzip:   3.11 kB
+dist/assets/RoomEditor.v-Qw4J_M8Y.js          10.71 kB │ gzip:   4.17 kB
+dist/assets/AdminConsole.v-D0gK1So9.js        33.39 kB │ gzip:  10.49 kB
+dist/assets/TerritoryPage.v-BWYf3W1E.js       36.06 kB │ gzip:  13.01 kB
+dist/assets/IslandApp.v-BBPEkyBt.js          209.07 kB │ gzip:  68.70 kB
+dist/assets/readability.v-Z-JA7QHd.js      1,259.81 kB │ gzip: 497.19 kB
+dist/assets/index.v-DEZn9rBU.js            2,767.84 kB │ gzip: 619.28 kB
+
+✓ built in 2.04s
+[plugin builtin:vite-reporter]
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+> quintus-ocean-academy@1.0.0 build:server
+> esbuild server/game.ts --bundle --platform=node --format=esm --outfile=build/game.mjs
+
+
+  build/game.mjs   6.4mb ⚠️
+  build/game.css  10.0kb
+
+⚡ Done in 32ms

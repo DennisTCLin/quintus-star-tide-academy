@@ -1,0 +1,53 @@
+{
+  "baseline": "2221c23",
+  "scope": "Read-only next-batch concept inventory; proposals are not implemented",
+  "existing": {
+    "grade4Chinese": {
+      "curated": 10,
+      "generated": 48,
+      "generatedFocus": "four-stop route order"
+    },
+    "grade4Social": {
+      "curated": 10,
+      "generated": 361,
+      "generatedFocus": "map scale arithmetic"
+    }
+  },
+  "candidate": {
+    "totalQuestions": 16,
+    "chinese": {
+      "concepts": [
+        "integrate main points and title",
+        "compare information and cite evidence"
+      ],
+      "questionsPerConcept": 4,
+      "skill": "chinese",
+      "ids": "c1-g4-chinese-01..08"
+    },
+    "social": {
+      "concepts": [
+        "use complete fictional map information",
+        "compare past and present evidence"
+      ],
+      "questionsPerConcept": 4,
+      "skill": "social",
+      "ids": "c1-g4-social-01..08"
+    }
+  },
+  "constraints": [
+    "Original fictional self-contained situations, no textbook or teacher endorsement claim",
+    "Balance answer positions on new IDs; never reorder old questions to rebalance",
+    "Keep n1 generators and selection contract; verify six distinct allocated IDs/save/reload",
+    "Before editing, add frozen snapshot of published grade2 c1 semantics including format/hint/explanation from2221c23. Root checked current c1-semantics-f012644 fixture: no c1-g2 items; explorer initially misstated coverage and was corrected.",
+    "Review new Taiwan readings; regenerate canonical and packed dictionaries; no assertion that finite content is infinite"
+  ],
+  "sources": [
+    "src/questions.ts",
+    "src/scenario-generator.ts",
+    "src/learning-catalog.ts",
+    "src/learning.ts",
+    "src/__tests__/learning-id-compatibility.test.ts",
+    "src/__tests__/fixtures/c1-semantics-f012644.json"
+  ],
+  "generatedAt": "2026-10-24T19:33:33.136818+00:00"
+}

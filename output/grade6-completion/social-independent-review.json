@@ -1,0 +1,1017 @@
+{
+  "verdict": "FAIL",
+  "scope": {
+    "candidates_manually_read": 96,
+    "coverage_structurally_checked": 620,
+    "unique_coverage_keys": 620,
+    "canonical_targets_resolve": true,
+    "candidate_four_distinct_options": true,
+    "source_text_read": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      10
+    ],
+    "source_text_spot_checked": [
+      7,
+      9
+    ],
+    "source_image_read": [
+      "10-1.png"
+    ],
+    "limits": "Not a page-by-page independent audit of all originals; source8 scan not reread. Findings are reproducible counterexamples; no claim that remaining 421 duplicate mappings are all semantically valid."
+  },
+  "findings": [
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(四)乙",
+      "issue": "原題為人行道行政執行，現錯連上級委辦事項；鋪人行道不是必然上級委辦。"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五1(1)",
+      "issue": "判讀文章時代，不等於殖民經濟利益歸誰。"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五2(1)",
+      "issue": "由管制制度短文辨認商品，不能連到增加政府收入。"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五2(2)",
+      "issue": "原題辨認非專賣商品，不能連到專賣目的。"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "六6",
+      "issue": "辨認成立者，不等於辨認成立目的。"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三1(1)",
+      "issue": "具體項目分類，不等於哪類項目數量最多。"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二14",
+      "issue": "原題重點是否接受代工，現連到投入研發人才的通用建議而未測此辨識。"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二15",
+      "issue": "辨認行政機關不是辨認委辦事項。"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一9",
+      "issue": "政府層級與作為依據的法律是不同考點。"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二7",
+      "issue": "原題非專賣商品辨認，錯連到專賣收入目的。"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三2(1)",
+      "issue": "原題文字已給桃園與機場，不必依賴地圖即可改寫作答。"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三2(3)",
+      "issue": "原題已提供西部基隆高雄交通線索，可以自足文字題保留。"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "九1",
+      "issue": "原九1–3雖開放填寫，限定高雄十大建設已有有限客觀解，並非個人規劃；可合為組合題。"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "三1-E",
+      "issue": "美援物資生活情境判讀年代，不是辨認非美援基建。"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(五)-50至60年代",
+      "issue": "原格為發展重心；不能用同時期輸出產品題替代。"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(五)-80年代-產品",
+      "issue": "以附明確原整理表脈絡保留產品辨識，不偷換成品牌經營建議。"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一1",
+      "issue": "日治期間長度不同於馬關條約年份。"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "四6",
+      "issue": "新增原格菸酒分類；原鴉片食鹽樟腦組合未涵蓋。"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "四5",
+      "issue": "蔗糖產業管制與專賣的區別未在現有題測量。"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "三5(2)",
+      "issue": "保留原格民國42年時間判斷，不只問政策目的。"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二6",
+      "issue": "日本兒童學校辨認與臺灣兒童學校辨認是不同作答任務。"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "六2",
+      "issue": "解除戒嚴年份，不等於在已給年份時認總統。"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)甲",
+      "issue": "恢復原題解釋憲法任務，而非最高司法機關名稱。"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)己",
+      "issue": "訴訟審判職權與憲法解釋是不同辨識任務。"
+    }
+  ],
+  "proposedCandidates": [
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(四)乙",
+      "prompt": "臺北市人行道地磚需要重新鋪設，依法辦理這項地方道路行政工作的機關是哪一個？",
+      "correct": "臺北市政府",
+      "wrong": [
+        "臺北市議會",
+        "考試院",
+        "司法院"
+      ],
+      "explanation": "市政府負責執行地方行政工作；議會負責議決預算與監督等。"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五1(1)",
+      "prompt": "一段歷史文字稱臺灣人為「做日本國民的臺灣人」，並批評當時臺灣人知識不足。這段文字的時代背景最可能是哪一時期？",
+      "correct": "日治時期",
+      "wrong": [
+        "荷治時期",
+        "鄭氏統治時期",
+        "清領時期"
+      ],
+      "explanation": "文字中的日本國民身分是判斷日治背景的線索。"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五2(1)",
+      "prompt": "一段日治時期專賣提案說，某物品只許特許藥舖販賣，已有吸食習慣者須領憑證購買。文中的物品最可能是什麼？",
+      "correct": "鴉片",
+      "wrong": [
+        "食鹽",
+        "樟腦",
+        "茶葉"
+      ],
+      "explanation": "特許藥舖、吸食習慣與憑證購買，是辨認鴉片管制的線索。"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五2(2)",
+      "prompt": "下列哪一項不屬於日治時期臺灣總督府的專賣商品？",
+      "correct": "茶葉",
+      "wrong": [
+        "鴉片",
+        "食鹽",
+        "樟腦"
+      ],
+      "explanation": "鴉片、食鹽及樟腦曾為專賣項目；茶葉是一般產業商品。"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "六6",
+      "prompt": "1895年成立臺灣民主國的，主要是哪一群人？",
+      "correct": "臺灣部分官員與民眾",
+      "wrong": [
+        "日本政府派出的殖民官員",
+        "荷蘭商人與西班牙軍隊",
+        "聯合國派來的官員"
+      ],
+      "explanation": "割臺消息傳來後，臺灣部分官民成立臺灣民主國以抗拒日本接收。"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三1(1)",
+      "prompt": "十大建設中的蘇澳港與鐵路電氣化，屬於哪一類建設？",
+      "correct": "交通建設",
+      "wrong": [
+        "能源建設",
+        "重工業建設",
+        "初等教育建設"
+      ],
+      "explanation": "港口與鐵路主要改善交通運輸。"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二14",
+      "prompt": "關於新竹科學園區發展的產業，下列哪項說法較正確？",
+      "correct": "企業可從事高科技產品研發、生產及代工",
+      "wrong": [
+        "園區企業一律不得接受代工訂單",
+        "園區只從事傳統稻作農業",
+        "園區與電子資訊產業無關"
+      ],
+      "explanation": "新竹科學園區聚集科技產業，代工也是企業可能採取的經營方式。"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二15",
+      "prompt": "下列哪一個屬於地方行政機關？",
+      "correct": "鄉公所",
+      "wrong": [
+        "立法院",
+        "司法院",
+        "縣議會"
+      ],
+      "explanation": "鄉公所辦理地方行政事務，縣議會屬地方立法機關。"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一9",
+      "prompt": "我國政府的組織依治理層級，主要可分為哪兩部分？",
+      "correct": "中央政府與地方政府",
+      "wrong": [
+        "軍隊與學校",
+        "企業與家庭",
+        "法院與醫院"
+      ],
+      "explanation": "中央與地方是政府的不同治理層級；行政、立法是職能分工。"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二7",
+      "prompt": "下列哪一項不是日治時期總督府實施專賣的商品？",
+      "correct": "鹿皮",
+      "wrong": [
+        "鴉片",
+        "食鹽",
+        "樟腦"
+      ],
+      "explanation": "鴉片、食鹽、樟腦曾實施專賣，鹿皮不屬這些專賣商品。"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三2(1)",
+      "prompt": "十大建設在桃園興建的國際機場，當時稱為什麼？",
+      "correct": "中正國際機場",
+      "wrong": [
+        "小港國際機場",
+        "松山機場",
+        "花蓮機場"
+      ],
+      "explanation": "中正國際機場位於桃園，後更名為臺灣桃園國際機場。"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三2(3)",
+      "prompt": "十大建設中，連接基隆到高雄的重要高速公路是哪一條？",
+      "correct": "中山高速公路",
+      "wrong": [
+        "北宜高速公路",
+        "蘇花公路",
+        "中部橫貫公路"
+      ],
+      "explanation": "中山高速公路是十大建設的交通項目，沿臺灣西部連接基隆與高雄。"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "九1",
+      "prompt": "若要參觀十大建設中的重工業建設，下列哪一組位於高雄的設施符合主題？",
+      "correct": "造船廠、鋼鐵廠與石油化學工業設施",
+      "wrong": [
+        "科學園區、總統府與臺北帝國大學",
+        "中部橫貫公路、石門水庫與臺北車站",
+        "烏山頭水庫、嘉南大圳與橋頭糖廠"
+      ],
+      "explanation": "十大建設在高雄包含造船、鋼鐵與石化相關重工業項目。"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "三1-E",
+      "prompt": "長輩回憶童年時，把美援麵粉袋改做衣褲，衣服上還留著袋子的字樣。這最能反映臺灣哪個年代的生活？",
+      "correct": "民國40年代",
+      "wrong": [
+        "清領末期",
+        "日治初期",
+        "民國90年代"
+      ],
+      "explanation": "民國40年代美援物資進入臺灣，當時部分家庭把麵粉袋再利用製成衣物。"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(五)-50至60年代",
+      "prompt": "民國50至60年代，臺灣政府先後採取哪一組措施，促進工業生產、出口與基礎設施發展？",
+      "correct": "成立加工出口區及推動十大建設",
+      "wrong": [
+        "設立公學校及推動皇民化",
+        "簽訂馬關條約及成立臺灣民主國",
+        "實施保甲制度及鴉片專賣"
+      ],
+      "explanation": "加工出口區及十大建設是這段時期的重要經濟措施。"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(五)-80年代-產品",
+      "prompt": "一份臺灣產業發展整理表把民國80年代以後的重點寫為「發展自有品牌」。下列哪組是表中所指的品牌外銷產品？",
+      "correct": "電腦與自行車等產品",
+      "wrong": [
+        "只有糖、米與香蕉等農產品",
+        "只供本地使用的未加工礦石",
+        "只供家用的手工代工零件"
+      ],
+      "explanation": "原整理表以電腦與自行車等品牌產品，對照早期農產品與工業代工產品。"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一1",
+      "prompt": "臺灣自1895年進入日治時期，到1945年日本戰敗為止，約經過多少年？",
+      "correct": "50年",
+      "wrong": [
+        "10年",
+        "100年",
+        "200年"
+      ],
+      "explanation": "1945減去1895等於50，日治時期約半世紀。"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "四6",
+      "prompt": "除了鴉片、食鹽與樟腦，日治時期臺灣總督府還將哪一組商品納入專賣？",
+      "correct": "菸與酒",
+      "wrong": [
+        "鹿皮與茶葉",
+        "甘蔗與稻米",
+        "香蕉與鳳梨"
+      ],
+      "explanation": "菸與酒先後被納入日治專賣制度，成為專賣收入的重要來源。"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "四5",
+      "prompt": "下列哪一項是日治時期臺灣的重要產業商品，但不屬於鴉片、食鹽、樟腦那類總督府專賣商品？",
+      "correct": "蔗糖",
+      "wrong": [
+        "鴉片",
+        "食鹽",
+        "樟腦"
+      ],
+      "explanation": "糖業受到殖民政府管理與業者收購制度影響，但不可把產業管制直接等同專賣。"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "三5(2)",
+      "prompt": "臺灣戰後實施「耕者有其田」政策，是從哪一年開始？",
+      "correct": "1953年（民國42年）",
+      "wrong": [
+        "1895年（民國成立前）",
+        "1935年（民國24年）",
+        "1987年（民國76年）"
+      ],
+      "explanation": "政府於1953年實施耕者有其田政策，協助佃農取得耕地。"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二6",
+      "prompt": "日治初期，主要供在臺日本兒童就讀的初等學校稱為什麼？",
+      "correct": "小學校",
+      "wrong": [
+        "公學校",
+        "師範學校",
+        "醫學校"
+      ],
+      "explanation": "日治初期小學校主要招收日本兒童，公學校主要招收臺灣兒童；後來制度有所變動。"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "六2",
+      "prompt": "臺灣地區是在西元哪一年解除戒嚴？",
+      "correct": "1987年",
+      "wrong": [
+        "1945年",
+        "1949年",
+        "1996年"
+      ],
+      "explanation": "臺灣地區自1987年7月15日起解除戒嚴。"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)甲",
+      "prompt": "依中華民國憲法，解釋憲法是哪一院的職權？",
+      "correct": "司法院",
+      "wrong": [
+        "立法院",
+        "考試院",
+        "監察院"
+      ],
+      "explanation": "憲法第78條規定司法院解釋憲法，相關憲法審判依現行法律辦理。"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)己",
+      "prompt": "在中央政府五院分工中，各級法院依法辦理訴訟審判，屬於哪一院所屬的司法體系？",
+      "correct": "司法院",
+      "wrong": [
+        "行政院",
+        "考試院",
+        "監察院"
+      ],
+      "explanation": "司法院為最高司法機關，各級法院依法審理訴訟案件。"
+    }
+  ],
+  "ledgerPatches": [
+    {
+      "source": 3,
+      "locator": "一7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "三1-A"
+      },
+      "reason": "家庭代工錯誤連到耕者有其田；同家庭代工題。"
+    },
+    {
+      "source": 2,
+      "locator": "三(四)乙",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)乙"
+      },
+      "reason": "原題為人行道行政執行，現錯連上級委辦事項；鋪人行道不是必然上級委辦。"
+    },
+    {
+      "source": 10,
+      "locator": "五1(1)",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "五1(1)"
+      },
+      "reason": "判讀文章時代，不等於殖民經濟利益歸誰。"
+    },
+    {
+      "source": 10,
+      "locator": "五2(1)",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "五2(1)"
+      },
+      "reason": "由管制制度短文辨認商品，不能連到增加政府收入。"
+    },
+    {
+      "source": 10,
+      "locator": "五2(2)",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "五2(2)"
+      },
+      "reason": "原題辨認非專賣商品，不能連到專賣目的。"
+    },
+    {
+      "source": 10,
+      "locator": "六6",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "六6"
+      },
+      "reason": "辨認成立者，不等於辨認成立目的。"
+    },
+    {
+      "source": 4,
+      "locator": "三1(1)",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "三1(1)"
+      },
+      "reason": "具體項目分類，不等於哪類項目數量最多。"
+    },
+    {
+      "source": 4,
+      "locator": "三1(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "三1(1)"
+      },
+      "reason": "保留蘇澳港及鐵路電氣化的交通分類考點。"
+    },
+    {
+      "source": 4,
+      "locator": "二14",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "二14"
+      },
+      "reason": "原題重點是否接受代工，現連到投入研發人才的通用建議而未測此辨識。"
+    },
+    {
+      "source": 7,
+      "locator": "二15",
+      "status": "candidate",
+      "canonical": {
+        "source": 7,
+        "locator": "二15"
+      },
+      "reason": "辨認行政機關不是辨認委辦事項。"
+    },
+    {
+      "source": 5,
+      "locator": "一9",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "一9"
+      },
+      "reason": "政府層級與作為依據的法律是不同考點。"
+    },
+    {
+      "source": 4,
+      "locator": "一8",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "一9"
+      },
+      "reason": "保留中央與地方層級辨識。"
+    },
+    {
+      "source": 6,
+      "locator": "一9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "一9"
+      },
+      "reason": "保留中央與地方層級辨識。"
+    },
+    {
+      "source": 9,
+      "locator": "一9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "一9"
+      },
+      "reason": "保留中央與地方層級辨識。"
+    },
+    {
+      "source": 3,
+      "locator": "二7",
+      "status": "candidate",
+      "canonical": {
+        "source": 3,
+        "locator": "二7"
+      },
+      "reason": "原題非專賣商品辨認，錯連到專賣收入目的。"
+    },
+    {
+      "source": 10,
+      "locator": "三2(1)",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "三2(1)"
+      },
+      "reason": "原題文字已給桃園與機場，不必依賴地圖即可改寫作答。"
+    },
+    {
+      "source": 10,
+      "locator": "三2(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "三1(2)"
+      },
+      "reason": "原題高雄工廠判重工業，可依文字改寫，無須圖資。"
+    },
+    {
+      "source": 10,
+      "locator": "三2(3)",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "三2(3)"
+      },
+      "reason": "原題已提供西部基隆高雄交通線索，可以自足文字題保留。"
+    },
+    {
+      "source": 5,
+      "locator": "九1",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "九1"
+      },
+      "reason": "原九1–3雖開放填寫，限定高雄十大建設已有有限客觀解，並非個人規劃；可合為組合題。"
+    },
+    {
+      "source": 5,
+      "locator": "九2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "九1"
+      },
+      "reason": "三個客觀高雄十大建設項目合為組合題。"
+    },
+    {
+      "source": 5,
+      "locator": "九3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "九1"
+      },
+      "reason": "三個客觀高雄十大建設項目合為組合題。"
+    },
+    {
+      "source": 1,
+      "locator": "三1-E",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "三1-E"
+      },
+      "reason": "美援物資生活情境判讀年代，不是辨認非美援基建。"
+    },
+    {
+      "source": 2,
+      "locator": "三(五)-50至60年代",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-50至60年代"
+      },
+      "reason": "原格為發展重心；不能用同時期輸出產品題替代。"
+    },
+    {
+      "source": 2,
+      "locator": "三(五)-80年代-產品",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-80年代-產品"
+      },
+      "reason": "以附明確原整理表脈絡保留產品辨識，不偷換成品牌經營建議。"
+    },
+    {
+      "source": 3,
+      "locator": "一1",
+      "status": "candidate",
+      "canonical": {
+        "source": 3,
+        "locator": "一1"
+      },
+      "reason": "日治期間長度不同於馬關條約年份。"
+    },
+    {
+      "source": 6,
+      "locator": "一1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "一1"
+      },
+      "reason": "保留日治五十年判斷。"
+    },
+    {
+      "source": 9,
+      "locator": "一1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "一1"
+      },
+      "reason": "保留日治五十年判斷。"
+    },
+    {
+      "source": 5,
+      "locator": "四6",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "四6"
+      },
+      "reason": "新增原格菸酒分類；原鴉片食鹽樟腦組合未涵蓋。"
+    },
+    {
+      "source": 6,
+      "locator": "四6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四6"
+      },
+      "reason": "相同菸酒專賣分類。"
+    },
+    {
+      "source": 9,
+      "locator": "四6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四6"
+      },
+      "reason": "相同菸酒專賣分類。"
+    },
+    {
+      "source": 5,
+      "locator": "四5",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "四5"
+      },
+      "reason": "蔗糖產業管制與專賣的區別未在現有題測量。"
+    },
+    {
+      "source": 4,
+      "locator": "三5(2)",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "三5(2)"
+      },
+      "reason": "保留原格民國42年時間判斷，不只問政策目的。"
+    },
+    {
+      "source": 9,
+      "locator": "二6",
+      "status": "candidate",
+      "canonical": {
+        "source": 9,
+        "locator": "二6"
+      },
+      "reason": "日本兒童學校辨認與臺灣兒童學校辨認是不同作答任務。"
+    },
+    {
+      "source": 10,
+      "locator": "六2",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "六2"
+      },
+      "reason": "解除戒嚴年份，不等於在已給年份時認總統。"
+    },
+    {
+      "source": 10,
+      "locator": "七1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 10,
+        "locator": "六8"
+      },
+      "reason": "同為從背景辨認二二八事件；原錯連事件長期影響。"
+    },
+    {
+      "source": 2,
+      "locator": "三(三)甲",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)甲"
+      },
+      "reason": "恢復原題解釋憲法任務，而非最高司法機關名稱。"
+    },
+    {
+      "source": 2,
+      "locator": "三(三)己",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)己"
+      },
+      "reason": "訴訟審判職權與憲法解釋是不同辨識任務。"
+    },
+    {
+      "source": 3,
+      "locator": "五5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)己"
+      },
+      "reason": "保留訴訟審判任務。"
+    },
+    {
+      "source": 4,
+      "locator": "三2(6)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)己"
+      },
+      "reason": "保留訴訟審判任務。"
+    },
+    {
+      "source": 10,
+      "locator": "三5(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)己"
+      },
+      "reason": "保留訴訟審判任務。"
+    }
+  ],
+  "candidateRevisions": [
+    {
+      "source": 1,
+      "locator": "四1",
+      "instruction": "Restore full ordering of five original events: 1945接收→1947二二八→1949政府遷臺→1987解嚴→1996直選. Current candidate drops 1949 while claiming all five response units."
+    },
+    {
+      "source": 3,
+      "locator": "六1",
+      "instruction": "Restore full five-event ordering rather than earliest only: 1894甲午→1937皇民化→1947二二八→1949戒嚴→1996直選. Current earliest-only candidate cannot cover 六2–六5."
+    },
+    {
+      "source": 2,
+      "locator": "三(三)甲",
+      "instruction": "Original is 解釋憲法. Current 最高司法機關 asks different task. Restore constitution interpretation question; add separate candidate 三(三)己 for 訴訟審判 and map 3五5、4三2(6)、10三5(4) to it. 4三2(8)、7一14、10六9 can map to restored 甲."
+    },
+    {
+      "source": 4,
+      "locator": "三3(1)",
+      "instruction": "Replace fabricated cheerful quotation 留了多年的辮子剪掉後，頭部清爽多了 with faithful self-contained paraphrase: 一段日治初期的回憶提到，一家人在祖先神位前哭泣後，由父親剪去孩子的辮子。這段文字描寫哪一項生活變化？ correct=剪去傳統髮辮; wrong=解除纏足/開始使用新臺幣/參加總統直選; explanation=文中抓起辮子剪去的行為，反映日治時期剪辮的變化。 Original excerpt is sorrow/identity conflict, not invented joyful清爽 quotation."
+    }
+  ],
+  "additionalFindings": [
+    {
+      "source": 1,
+      "locator": "三1-E",
+      "issue": "Original flour-sack clothes narrative asks era; mapped to 美援建設非網路. Recognizing material-aid era differs from infrastructure exclusion. Can create dated 民國40年代美援物資情境 question."
+    },
+    {
+      "source": 2,
+      "locator": "三(五)-50至60年代",
+      "issue": "Original development focus asks 加工出口區及十大建設, existing canonical asks exported products 成衣鞋家電. Need separate development-focus item; keep -產品 on current export item."
+    },
+    {
+      "source": 2,
+      "locator": "三(五)-80年代-產品",
+      "issue": "Original era/product pairing 自有品牌電腦腳踏車 converted to advice 品質品牌行銷. Distinct task; retain source pairing with temporal qualification or honest pending, not claim source fully covered by advice."
+    },
+    {
+      "source": 3,
+      "locator": "一1",
+      "issue": "Original and 6一1/9一1 test 日治五十年. 1895-only canonical does not retain duration, especially 9一1 false 百年. Add 1895–1945 duration question or extend canonical."
+    },
+    {
+      "source": 5,
+      "locator": "四6",
+      "issue": "菸酒專賣 absent from canonical5四1 options/explanation (only鴉片食鹽樟腦). Retain tobacco/alcohol classification; also6四6/9四6."
+    },
+    {
+      "source": 5,
+      "locator": "四5",
+      "issue": "蔗糖 not專賣 classification absent from5四1; distinct from finance purpose. Avoid treating every product in grid as same knowledge."
+    },
+    {
+      "source": 4,
+      "locator": "三5(2)",
+      "issue": "Original asks1953 start date耕者有其田, mapped to policy purpose. Temporal task lost."
+    },
+    {
+      "source": 6,
+      "locator": "二6",
+      "issue": "OriginalTaiwan公學校 retained indirectly in1一6; 9二6 Japan小學校 appears only explanation, not tested. Under strict different-task contract add Japanese pupil school item."
+    },
+    {
+      "source": 10,
+      "locator": "六2",
+      "issue": "Original asks解嚴年, mapped to who president with year supplied in prompt. Distinct recall task; add date/year item."
+    },
+    {
+      "source": 10,
+      "locator": "七1",
+      "issue": "Original identify二二八 from passage; mapped to effect after event already named. Should map to identification candidate10六8 or create source-specific passage recognition."
+    }
+  ],
+  "statusCorrections": {
+    "from": "missing_image",
+    "to": "requires_image_asset",
+    "records": [
+      [
+        4,
+        "二10"
+      ],
+      [
+        4,
+        "二13"
+      ],
+      [
+        8,
+        "二4"
+      ],
+      [
+        8,
+        "二15"
+      ],
+      [
+        10,
+        "三2(1)"
+      ],
+      [
+        10,
+        "三2(2)"
+      ],
+      [
+        10,
+        "三2(3)"
+      ]
+    ],
+    "note": "Last three instead recoverable without image as proposed. Original assets exist; do not state missing originals."
+  },
+  "evidenceAdditions": [
+    {
+      "url": "https://www.th.gov.tw/Epaper_Content/236/9080/",
+      "claim": "酒與菸專賣，酒於大正年間納入。"
+    },
+    {
+      "url": "https://www.th.gov.tw/Epaper_Content/236/7783/",
+      "claim": "1905年刻煙草專賣。"
+    },
+    {
+      "url": "https://tcmb.culture.tw/zh-tw/detail?id=702725&indexCode=Culture_Media",
+      "claim": "1953年實施耕者有其田。"
+    },
+    {
+      "url": "https://www.president.gov.tw/Page/284/1241",
+      "claim": "憲法35、36、77、78等機關職權。"
+    }
+  ],
+  "finalScopeNote": "All known reproducible mandatory findings have concrete candidates, remaps, or revision instructions. This does not assert no unknown defects: source8 image and remaining duplicate-source pairs not exhaustively compared. Strong semantic completion cannot be PASS until root rechecks remaining original-to-canonical task equivalence."
+}

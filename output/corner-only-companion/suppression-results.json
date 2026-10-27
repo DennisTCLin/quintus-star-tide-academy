@@ -1,0 +1,42 @@
+[
+  {
+    "engine": "webkit",
+    "viewport": [
+      390,
+      844
+    ],
+    "coursePickerSuppressed": true,
+    "leaderboardSuppressed": true,
+    "homeRestores": true
+  },
+  {
+    "engine": "webkit",
+    "viewport": [
+      1024,
+      768
+    ],
+    "coursePickerSuppressed": true,
+    "leaderboardSuppressed": true,
+    "homeRestores": true
+  },
+  {
+    "engine": "chromium",
+    "viewport": [
+      390,
+      844
+    ],
+    "coursePickerSuppressed": true,
+    "leaderboardSuppressed": true,
+    "homeRestores": true
+  },
+  {
+    "engine": "chromium",
+    "viewport": [
+      1024,
+      768
+    ],
+    "coursePickerSuppressed": true,
+    "leaderboardSuppressed": true,
+    "homeRestores": true
+  }
+]

@@ -1,0 +1,39 @@
+
+> quintus-ocean-academy@1.0.0 build
+> npm run build:zhuyin && npm run check:pronunciation && tsc -b && vite build && npm run build:server
+
+
+> quintus-ocean-academy@1.0.0 build:zhuyin
+> node scripts/pack-zhuyin.mjs
+
+Packed 6193 phrases and 1702 characters into 855 shared syllables: /Users/dennistclin/.codex/worktrees/monster-expansion/星潮網站開發/src/data/interface-zhuyin-packed.json
+
+> quintus-ocean-academy@1.0.0 check:pronunciation
+> node scripts/check-pronunciation.mjs && node scripts/pack-zhuyin.mjs --check
+
+Pronunciation checks passed: 6132 source runs, 165 curated lessons, 298 reviewed context rules.
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 170 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                             1.63 kB │ gzip:   0.94 kB
+dist/assets/game-view.v-DjQLQpAC.css        1.26 kB │ gzip:   0.54 kB
+dist/assets/TerritoryPage.v-XpGSXE-r.css   30.00 kB │ gzip:   6.46 kB
+dist/assets/IslandApp.v--k-RY2Cj.css       35.48 kB │ gzip:   7.44 kB
+dist/assets/index.v-C9F0Q1C_.css          273.10 kB │ gzip:  56.91 kB
+dist/assets/RoomEditor.v-COGstUU8.js       10.67 kB │ gzip:   4.15 kB
+dist/assets/TerritoryPage.v-BMZzeR7_.js    36.02 kB │ gzip:  13.02 kB
+dist/assets/IslandApp.v-bVKLQzoj.js        58.75 kB │ gzip:  20.34 kB
+dist/assets/game-view.v-D9NSiGrJ.js       409.29 kB │ gzip: 156.63 kB
+dist/assets/index.v-BRQQNG5y.js           416.48 kB │ gzip: 135.93 kB
+
+✓ built in 439ms
+
+> quintus-ocean-academy@1.0.0 build:server
+> esbuild server/game.ts --bundle --platform=node --format=esm --outfile=build/game.mjs
+
+
+  build/game.mjs  583.6kb
+
+⚡ Done in 7ms

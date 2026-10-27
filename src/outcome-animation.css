@@ -1,0 +1,27 @@
+.outcome-scene { position:relative; height:180px; max-width:680px; margin:0 auto 18px; overflow:hidden; border-radius:16px; isolation:isolate; background:#0a2c42; border:1px solid #d6d19360; }
+.outcome-defeat { border-color:#9dc4e680; }
+.outcome-scenery,.outcome-scenery > * { position:absolute; inset:0; width:100%; height:100%; }
+.outcome-poster,.outcome-media { object-fit:cover; }
+.outcome-shade { background:linear-gradient(0deg,#061c33a0,transparent 60%); }
+.outcome-companion { position:absolute; height:92%; width:55%; object-fit:contain; left:22.5%; bottom:0; filter:drop-shadow(0 6px 10px #071c3380); transform-origin:50% 85%; }
+.outcome-victory[data-playing="true"] .outcome-companion { animation:outcome-cheer 4s ease-out both; }
+.outcome-defeat[data-playing="true"] .outcome-companion { animation:outcome-rest 4s ease-in-out both; }
+.family-app .outcome-toggle { position:absolute; right:8px; bottom:8px; min-height:44px; min-width:44px; padding:6px 10px; font-size:14px; color:#e7f6fc; background:#092b40eb; border:1px solid #9fded3a0; border-radius:10px; }
+.quiz-victory .victory-intro { display:block; text-align:center; }
+.quiz-victory .victory-copy h1 { margin-bottom:8px; }
+.quiz-victory .victory-copy p { margin:5px 0; }
+.quiz-victory .victory-score span { display:inline-block; }
+.quiz-result-failed .result-panel { border-color:#a0c8e6!important; }
+.quiz-result-failed .result-panel > h1 { font-size:clamp(24px,3vw,36px); margin:8px 0; }
+.quiz-result-failed .result-panel > p { line-height:1.7; }
+@keyframes outcome-cheer { 0%,100% {transform:translateY(0) scale(1)} 20% {transform:translateY(-10px) scale(1.04) rotate(-3deg)} 40% {transform:translateY(0) scale(1)} 60% {transform:translateY(-6px) rotate(3deg)} }
+@keyframes outcome-rest { 0%,100% {transform:translateY(0) rotate(0)} 35% {transform:translateY(5px) rotate(-4deg)} 70% {transform:translateY(2px) rotate(-1deg)} }
+@media(max-width:600px) {
+ .outcome-scene { height:120px; margin-bottom:12px; }
+ .quiz-victory .victory-copy h1 { font-size:25px; }
+ .quiz-victory .victory-copy p { margin:4px 0; }
+ .quiz-victory .victory-score span { margin-left:10px; }
+ .quiz-victory .victory-next { margin-top:12px; }
+ .family-app .outcome-toggle { font-size:12px; right:4px; bottom:4px; }
+}
+@media(prefers-reduced-motion:reduce) { .outcome-companion { animation:none!important; } }

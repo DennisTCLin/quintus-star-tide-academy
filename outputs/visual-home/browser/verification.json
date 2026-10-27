@@ -1,0 +1,22 @@
+{
+  "base": "http://127.0.0.1:4301",
+  "checks": [
+    "real account open once and original data preserved",
+    "free move/rotate/undo/redo/skins save",
+    "priced furniture crafting and persistent goal",
+    "tabletop attachment follows dragged table",
+    "storage cancel restores entire group",
+    "unsaved navigation and logout cancel",
+    "insufficient materials starts fresh learning",
+    "touch tap-to-place and second-device reload",
+    "grade two annotated controls at 320 and 390"
+  ],
+  "widthsWithoutOverflow": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "pageErrors": [],
+  "scope": "Isolated new QA account only"
+}

@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "name": "webkit live bundle animated 星鑄裁決者",
+      "pass": true
+    },
+    {
+      "name": "webkit live bundle animated 斷空刃鷲",
+      "pass": true
+    },
+    {
+      "name": "webkit live bundle animated 冰冠九首龍",
+      "pass": true
+    },
+    {
+      "name": "webkit live bundle animated 滄溟王座獸",
+      "pass": true
+    },
+    {
+      "name": "chromium live bundle animated 星鑄裁決者",
+      "pass": true
+    },
+    {
+      "name": "chromium live bundle animated 斷空刃鷲",
+      "pass": true
+    },
+    {
+      "name": "chromium live bundle animated 冰冠九首龍",
+      "pass": true
+    },
+    {
+      "name": "chromium live bundle animated 滄溟王座獸",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "liveFrontend": true,
+  "mockApi": true,
+  "playerWrites": false,
+  "physicalIPad": false
+}

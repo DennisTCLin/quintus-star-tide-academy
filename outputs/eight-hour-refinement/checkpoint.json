@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "status": "completed",
+  "startedAt": "2026-10-24T18:29:13Z",
+  "deadline": "2026-10-25T02:29:13Z",
+  "timezone": "Asia/Taipei",
+  "automationId": "automation",
+  "workspace": "/Users/dennistclin/.codex/worktrees/feifei-photo/星潮網站開發",
+  "branch": "codex/eight-hour-refinement",
+  "baseline": "944af9a",
+  "councilSession": "/Users/dennistclin/.codex/plugins/cache/personal-local/codex-council/.codex-council/sessions/20261024T182913Z-1-4-ux",
+  "phase": "Eight-hour window complete; final report saved; automation PAUSED; remaining verification limits recorded",
+  "completed": [
+    "Six Council opinions, two scoring reviews, Leonardo and bounded tie clarification saved",
+    "Baseline build and PostgreSQL:45files407tests PASS",
+    "Tablet baseline browser geometry and screenshots saved",
+    "16 science inquiry questions,4concepts; fresh read-only review PASS",
+    "Frozen semantics for42pools/23192n1questions",
+    "Focused4files28tests PASS; build PASS",
+    "Tablet answers fit first1180px view;320phone nooverflow; once-only double tap and3error defeat confirmed",
+    "Phone and reduced-motion recovery QA PASS",
+    "Fresh UI review PASS",
+    "Merged ElementGuide final c9b3f005; integrated source3fb21d8",
+    "Full PostgreSQL48files425tests, build PASS",
+    "Grade4 c1 live question reload/resume and ElementGuide browser integration PASS",
+    "Batch1 production SUCCESS,5/5 asset hashes match,public login no browser errors",
+    "Atlas visibility loading/cache ownership; fresh review PASS;49files430tests/build PASS",
+    "Island320offscreen still→visible frames→greet play→pause frame stable verified",
+    "Batch2 production SUCCESS,5/5JS/CSS hashes match,public login renders expected new script",
+    "Batch3 independent content112segments and allocation1978batches PASS;33targetedtests/build PASS",
+    "Batch3 merged coordinator fd71527 preserving learning-first home",
+    "Batch3 full PostgreSQL50files439tests/build PASS; c1-grade2 reload/resume and no browser errors",
+    "Batch3 production SUCCESS healthz200/all5hashes match/public login PASS",
+    "Batch4 lazy import fault no longer blanks app; grade1/2 phone/tablet/desktop back/retry UI checked",
+    "Batch4 room API503/recovery retains draft/undo; same-snapshot redo regression fixed with first-open ack guard",
+    "Batch4 independent review PASS;4newtests;fullPostgres51files443tests/build PASS",
+    "Batch4 production SUCCESS homepage/healthz200,5/5JS/CSS hashes match,public login expectedscript/0consoleerrors",
+    "Batch5 full4268phrases/1590chars lossless runtime packing; deterministic generation/stale gate",
+    "Batch5 independent19411inputs zero differences; fullPostgres52files448tests/buildPASS; grades1/2/4 browserPASS",
+    "Batch5 mainJS825587→630784bytes; samegzip230850→218592; no real-device latency claim",
+    "Batch5 production SUCCESS homepage/healthz200/all5hashes match/publiclogin expectedentry0errors",
+    "Batch6 16grade4Chinese/socialcontexts;content/Taiwan-readingreviewPASS;32publishedc1fullfieldfixture",
+    "Batch6 independentall16active/pending/3error/no-double-answerPASS;32crossgrade rejects;53files455tests/buildPASS",
+    "Batch6 isolatedQAChinese01answer/reloaddisabled andSocial01render;320/820/1280nooverflow",
+    "Batch6 production SUCCESS homepage/healthz200,5/5JS/CSS hashes match,publiclogin expectedentry/0errors",
+    "Batch7 tablet landscapeSocial01lastanswer1086.7/888.3→685.7 at1024/1180;28pxtext100pxtargets",
+    "Batch7 notice-grid regression reproduced/fixed;current+legacy detail metadata preserved;fresh verifierPASS",
+    "Batch7 grades1/2/4phoneportraitlandscape/reducedmotion/three-error-defeat/six-answer-success checked;54files458tests/buildPASS",
+    "Batch7 production SUCCESS homepage/healthz200/all5assetshashesmatch/publiclogin0errors",
+    "Batch8 66 arithmetic pairs/every step and terminal contract tests; independent816questions/32eligible PASS",
+    "Batch8 browser320/820/1024/1440 nooverflow;fasttapcap/replay/next/3errorrecovery/rewardrevisionstate/reducedmotion PASS",
+    "Batch8 fullPostgres55files464tests/build PASS; MOE count-on wording correction and voicefallback",
+    "Batch8 production SUCCESS homepage/healthz200/all5assetshashesmatch/publiclogin0errors",
+    "Batch9 54word/sentence listening gates,26letter-shape tasks preserved;freshreview526questions/162speechPartsPASS",
+    "Batch9 voyage+buff replay no cloudwrite;doubleanswer once;320/820/1024/1440nooverflow;threewrongdefeat;56files468tests/buildPASS",
+    "Batch9 productionSUCCESS homepage/healthz200,5/5assetshashesmatch/publicloginexpectedentry0errors;grade2ruby/picturegatesretained",
+    "Batch10 16Englishcontexts/4concepts;132segmentsreviewed,3pronunciation+1onlyscopefixes;48priorc1fullfixture",
+    "Batch10 independent7200allocations/25200questions,48runs/240answers/16pending/32crossgraderejectsPASS;57files475tests/buildPASS",
+    "Batch10 productionSUCCESS homepage/healthz200,5/5assetshashesmatch/publicloginexpectedentry0errors",
+    "Batch11 currentcourse resume/reward/static future routes;448case independentreviewPASS;58files480tests/buildPASS",
+    "Batch11 browser320/820/1024/1440nooverflow;54px+targets,grade2ruby,offline/reconnect;navigation/listen zero writes",
+    "Batch11 productionSUCCESS homepage/healthz200,5/5assetshashesmatch,publicloginexpectedentry0errors",
+    "Batch12 fourgrade4courses mixedreviews;independent49860questions/14236batches PASS;59files486tests/build PASS",
+    "Batch12 actualUI6reviews/reload/doubleclickonce/0coins0mastery/+20eligibleXP/pendingreward;320/820/1024/1440nooverflow",
+    "Batch12 productionSUCCESS source6aa2212/deploy20cb40a1;homepagehealthz200/5assetshashesmatch/publiclogin0errors",
+    "Batch13 stickykeyedvideo admission;independentlifecyclePASS;59files490tests/buildPASS",
+    "Batch13 pausedclip1,153,363bodybytes→0;offscreen5.199→5.435resume/0newrequests;reducedmotion/failurefallback/4viewportPASS",
+    "Batch13 productionSUCCESS source2470614/deployc65b3a56;homepagehealthz200/all5hashesmatch/publiclogin0errors",
+    "Batch14 MOE差額correction;only1existingphrasechanged/1wordadded;59files491tests/buildPASS;grade2fourviewportsPASS",
+    "Batch14 productionSUCCESS source386a7d2/deploy3e9e8228;homepagehealthz200/all5hashesmatch/publiclogin0errors",
+    "Batch15 composite mask removed,loading/error nativeemoji;desktopSafari exactfox/counterattack and4viewport/faultQA PASS;59files491tests/build/freshreviewPASS",
+    "Batch15 productionSUCCESS source0fd99d0/deploy1b89bc96;homepagehealthz200/all5hashesmatch/publiclogin0errors",
+    "Batch16 actualstage visibilitygate; independent31,104eventsequences PASS;60files495tests/buildPASS;quiz/arena/offscreen/reentry/reducedmotion checked",
+    "Batch16 productionSUCCESS sourceb3629aa/deploy5897f2db;homepagehealthz200/all5hashesmatch/publiclogin0errors;QAwholefamilyrevision94/hashunchanged",
+    "Course-controls source5413c94 productionSUCCESS64607246;rootintegratedbuild/realQA320grid/fourviewportdock/unchangedfamilyPASS,health200/5hashes/publiclogin0errors",
+    "Math54c6088 rootintegrated;6question/3error actualUI andindependentcontent/serverreviewsPASS;notyetdeployed",
+    "CombinedMathIsland/keypad/arena productionSUCCESS63e9ce9/a44bcfe5;roothealth200/8hashmatch/publiclogin0errors;bothcoordinatorsnotified",
+    "FinalMathreleaseevidence9a62e08 integrated;46publisherhashesverifiedagainstrootbuild;release slotfree",
+    "Batch18 demo replay ownership: old actualReact/browser FAIL versus patched PASS; 5 regression tests; fresh426assertions; fullPostgres65files533tests/buildPASS",
+    "Batch18 runtimefe950d3/Railway95fb3b95 SUCCESS; homepagehealth200,8/8JSCSShashesmatch,publicloginnewentry0errors",
+    "Batch19 strict Taiwan voice/shared ownership: fullPostgres66files546tests/build/fresh8events30assertions PASS; actualReact voicefixture and localapp smoke PASS",
+    "Batch19 85ca3b8/61508becSUCCESS,health200/8compiledSHAmatch/publicbrowser0errors",
+    "Batch20 rarity544e234 integration:67files556tests/build,root4HTTPfamilies V1/V2,independent5819assertions;gallery100decode;4viewportUI/fix320catalogoverflowPASS",
+    "Batch20 2e7f50a/a301902f SUCCESS;114HTTP/112SHA match;publiclogin and50-entrygallery0errors;finalreportdraftsaved",
+    "Batch21 actual503 negativepagination reproduced; pending/503/empty/recovery320browser/build/syntaxPASS;all8compiled+backendhash unchanged",
+    "Batch21 741bd65/67ad370eSUCCESS;13HTTP11SHAmatch;productionpaging/filter0errors;no gameplay/backend changes",
+    "Eight-hour window closed; final67ad370e stillSUCCESS/homepagehealth200/expectedBunvaiGa entry; automationPAUSED confirmed;QAserver/tabclosed"
+  ],
+  "findings": [
+    "Grade-two learning-origin ruby flex items fragment sentences",
+    "Grade-one start/resume and question controls below first viewport",
+    "Generated n1 IDs need frozen semantic fixtures",
+    "Island atlases preload offscreen despite paused RAF"
+  ],
+  "pending": [
+    "Original iPad hardware recheck and actual sentence-by-sentence audio audition remain unverified",
+    "Textbook/teacher coverage review not supplied; new Math visual design remains separately awaiting its chat approval"
+  ],
+  "releaseOwner": "No release in progress; all three chats have latest741bd65 baseline; future publication must retain V1/V2,c1,Math/voice",
+  "limitations": [
+    "Textbook source files not supplied",
+    "Real tablet hardware measurements not yet available"
+  ],
+  "excludedBranches": [
+    "codex/companion-closeup-pilot@411317d:local prototype only; user acceptance pending"
+  ],
+  "production": {
+    "source": "741bd6520b830bd99101c27a2902f1e3bbe0da0f",
+    "deployment": "67ad370e-f4ae-4acd-a907-05ece0a24dd9",
+    "status": "SUCCESS",
+    "health": 200,
+    "assetHashes": "11/11 SHA matches (8 compiled + 3 gallery changes),13HTTP PASS; remaining104 gallery files originally verified in Batch20 with only these3 subsequently changed",
+    "browser": "Gallery production page2/filter reset1/3/0errors; main expected index.v-BunvaiGa.js checked overHTTP, compiled code byteidentical to Batch20 publiclogin verification",
+    "verifiedAt": "2026-10-25T02:25:39.599918+00:00",
+    "directBackendHash": "Not obtained: Railway SSH has no registered keys. No credential/access changes made; exact source archive build and successful service health verified."
+  },
+  "nextBatchCandidates": [],
+  "automationFinalization": "Completed after deadline; automation PAUSED via app tool and local configuration verified. No further scheduled implementation.",
+  "updatedAt": "2026-10-25T02:49:26.849090+00:00",
+  "qaEnvironment": {
+    "url": "http://localhost:4276",
+    "serverSession": null,
+    "database": "six_battle_ui_20261025",
+    "account": "qa_math_root_20261025",
+    "browserTab": null,
+    "note": "Owned localQA server82672(port4276) stopped and tab23 closed after finalization; isolated database saved; user localhost4186 untouched."
+  },
+  "testEnvironment": {
+    "port": 55432,
+    "database": "eight_refinement_batch13_test",
+    "initialized": true,
+    "lastFullSuite": "67files556tests PASS onintegratedbuild",
+    "note": "Fresh emptyDBconcurrentDDLrace documented; do not pointtestsatrealfamilies/localQA"
+  },
+  "userRequestedRepairs": [
+    {
+      "at": "2026-10-25T00:16:12.676400+00:00",
+      "request": "Restore one coralflare card to Quintus; explicitly authorized outside automated QA",
+      "result": "Production owned.coralflare=1, firstAcquired=null; otherfamilydata/verified/legacyarchive unchanged",
+      "scope": "This specific repair only; automated optimization stillmustnotmodifyrealchildaccounts",
+      "evidence": "outputs/companion-restoration/coralflare-applied.json andcoralflare-production-proof.png,localonly",
+      "runtimeDeploymentUnchanged": true
+    }
+  ],
+  "coordination": {
+    "at": "2026-10-25T00:42:37.417661+00:00",
+    "thread": "01a16e35-3819-7511-b690-a6051f664171",
+    "baselineSent": "8ea08f9",
+    "runtime": "b3629aa8f88735e301d2604717b67f72356fbd0f",
+    "avoidEditing": [
+      "src/App.tsx home entry and quiz actions",
+      "related quiz/family CSS"
+    ],
+    "request": "Other chat reports user-requested choose subject before starting, answer/next controls accessible without downward drag",
+    "narrowPictureScope": "Coordinator accepted and reports fixed using minmax(0,1fr)+shrinkable pictures;6browsercases/17relatedtests/buildPASS reported;fresh verifier in progress, not independently confirmed here",
+    "beforeNextRelease": "Read coordinator completion and merge latest baseline; do not redeploy older8ea08f9 over their work",
+    "updatedAt": "2026-10-25T02:25:39.599918+00:00",
+    "releaseChecksRequested": "Full PostgreSQL suite plus existing/pending run, offline/cancel/roomdraft, tablet landscape/Safari safearea and explanation occlusion",
+    "reportedValidation": "60files495tests/build and10independentcasesPASS reported; production verification pending",
+    "humanAuthorization": "User explicitly authorized coordinating all three chats together after async clarification; no further messaging permission needed within this scope",
+    "layoutRuntime": "5413c94",
+    "layoutBranch": "codex/course-choice-quiz-controls",
+    "layoutPendingDeployment": null,
+    "localIntegration": "2f2e194 merge of5413c94; buildPASS;320picture scrollWidth335→320;fourviewportdock/shortexplanation checked;QAwholefamilyrevision94identical",
+    "integrationEvidence": "course-controls-integration-browser.json",
+    "layoutFinalTip": "c46a752",
+    "layoutStatus": "SUCCESS/roothealthhashpublicbrowser independentlyconfirmed;coordinatorproductionfixture2cases reportedPASS",
+    "layoutFinalIntegrated": "60ec1d6 merge ofc46a752 finalreleaseevidence",
+    "combinedRuntime": "63e9ce9b8908a061fa4ef6ceac172d4764311314",
+    "battlePatch": "35:08c58d8 cherry-picked63e9ce9;rootverified4viewport/startend;author18petfixture/58testsPASS",
+    "deploymentAttempt": "First502 orphan9e5bda0e REMOVED byplatform; samearchive retrya44bcfe5SUCCESS, no duplicate pending",
+    "combinedReleaseVerifiedAt": "2026-10-25T01:15:20.054386+00:00",
+    "mathFinalTip": "9a62e08",
+    "mathReleaseSlot": "released",
+    "latestRelease": "741bd65/67ad370eSUCCESS;both authorized coordinators notified at10:24Taipei;source2e7f50a gameplay unchanged",
+    "finalization": "Both coordinators acknowledge latest741bd65; no further runtime deployment reported. Final handoff notification follows report commit."
+  },
+  "relatedWork": [
+    {
+      "thread": "01a16e50-8e57-7993-8419-9b101001409c",
+      "title": "用 Higgsfield 重新生成語音",
+      "requestVerifiedByReadThread": "User asks integrate Math Island from https://claude.ai/artifact/8GvDqzBBgETCYTh6cX38Mr",
+      "status": "Original Math integration and shared voice/replay fixes released; visual branch acknowledged FF741bd65. New island visual art/spec remain unconnected, pending human Council approval in that chat.",
+      "workspaceObserved": "/Users/dennistclin/.codex/worktrees/battle-performance/星潮網站開發",
+      "overlap": "Root implementation complete and all scopes released. No concurrent writer remains from this eight-hour run.",
+      "integrationRule": "Merge final course-choice-quiz-controls first; preserve c1/onceonly/cloudcompatibility; coordinate release slot, isolatedQAonly, deadline10:29:13Taipei",
+      "notification": "Direct coordination now explicitly human-authorized; latest layout branch/runtime/pendingdeployment sent",
+      "sourceStatus": "Reported three open units: counting within10, number decomposition/composition, addition within10; teaching/practice/guardian and island challenge. Prior wrong-link conclusion superseded; root has not independently inspected artifact.",
+      "existingCandidate": "origin/jeremy/exam-g1-trial@9911e59, separate unmerged prototype; inspect diff/content/readers before reuse, never treat as already-live.",
+      "branch": "codex/math-island-integration",
+      "soleWriterScope": [
+        "src/island/*",
+        "App entry/CourseSelection",
+        "adventure validations/ledgers/activejourney conflicts",
+        "server/game.ts and cloud.mjs commands",
+        "tests/zhuyin"
+      ]
+    }
+  ],
+  "mathReview": {
+    "snapshot": "54c6088",
+    "contentProbe": "8f5696:448independentanswerpatternsPASS;54c6088:10800generatedquestions/938segments/203sharedTaiwanphrasesPASS;no actualvoiceaudition",
+    "blockers": [],
+    "writer": "Completed integration/replay/voice changes handed off; any new visual redesign belongs to its own chat.",
+    "contractReview": "8f5696:203casesPASS; crossdayearned spark+5 deliberate delayedclaim semantics fixed in54regression; no newcompletionstar/dayquota, replay noincrement",
+    "rootValidation": "8f fullPostgreSQL64files526tests;54 affected4files33tests andbuildPASS; actualUI3errorfailure/6of6success/gachaentry/fourviewports/0errors;b808keyboard32039082010241440min52/69.5/75.33/105.33/117.33×56PASS;63battle4viewport/emptyselectedteam/startendPASS",
+    "integration": "2dbe16a",
+    "qa": "newlocalqa_math_root_20261025,onlyfirstlessonfixtureunlocked;failure3answers0rewardthen6correct=60coins60XP1pack1star;other3profiles/existingqa_evidence94unchanged",
+    "pronunciationSource": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=2895&la=0&powerMode=0",
+    "remaining": "None for completed integration/release",
+    "bundleCost": "InitialJS670352→699080raw; samegzip9 234528→245576. Island51,330JS+30,389CSS lazy. Byteaccountingonly;notdeviceperformance.",
+    "finalEvidenceTip": "9a62e08 proof-only;46/46 publisherassetchecks,all46reportedhashesmatchrootlocalbuild;rootindependentremote8compiledchecksretained"
+  },
+  "rewardVisibility": {
+    "source": "Other chat new user issue: points/gacha appear missing afterplaying",
+    "confirmedCode": "5413 LearningJourney precedes RewardChoice; claim/draw still present",
+    "action": "Mathwriter accepted purepresentation reorder RewardChoice before LearningJourney plus persistentresultgachaentry; no realaccount alterations"
+  },
+  "demoPlayback": {
+    "baseline": "a87fc33",
+    "files": [
+      "src/island/IslandApp.tsx",
+      "src/island/speech.ts",
+      "src/__tests__/island-speech-playback.test.ts"
+    ],
+    "reproduction": "Old actual React step0 replay emits no new utterance; late old end advances replay tostep1. Muted1500ms replay then original1600ms expiry advances in100ms.",
+    "fix": "demo identity dependency/callback guard plus scoped cleanup, single timer ownership, synchronous speech error fallback",
+    "verification": "Browser realReact old FAIL/newPASS: firststep/repeatedreplay/oldend+error/currentend/skip/leave/unmount; unit19/19,full65files533tests,build;fresh426assertionsPASS",
+    "cloudAudit": "island-cloud-rules10/10; no duplicate-reward counterexample. Network interruption not browser tested this batch. No cloud mutations by fixture.",
+    "evidence": "outputs/eight-hour-refinement/demo-playback-browser.json",
+    "limits": [
+      "Mock speech engine callbacks; no actual audio or physical iPad audition",
+      "Fixture static asset paths not tested; real app smoke separate",
+      "Existing SSR window assumption and Taiwan fallback outside this lifecycle patch"
+    ],
+    "status": "Released95fb3b95SUCCESS,8/8 compiledassetsmatch,publicbrowser0errors",
+    "productionEvidence": [
+      "demo-production-check.json",
+      "demo-production-browser.json",
+      "demo-playback-app-smoke.json"
+    ]
+  },
+  "rarityPending": {
+    "commit": "544e234",
+    "branch": "codex/creature-rarity-redesign",
+    "source": "Authorizedchat35 relay only; fourthchat direct messaging not human-authorized",
+    "status": "Accepted, integrated and released as 2e7f50a/a301902f; production verification PASS",
+    "reported": "65files538tests isolatedPostgres/no-file-parallelism/buildPASS;50review-onlyconcepts;native rarity stats + V2reader; no unaccepted411317d",
+    "rollbackConstraint": "Permanent after V2 release: never deploy a V1-only reader"
+  },
+  "taiwanSpeech": {
+    "status": "Released61508becSUCCESS;8compiledSHAmatch/publicbrowser0errors",
+    "evidence": "taiwan-speech-verification.json",
+    "browser": "taiwan-speech-browser.json",
+    "app": "taiwan-speech-app-smoke.json",
+    "risks": [
+      "No actual audio audition or physical iPad; voice availability depends on device",
+      "No whole-site pronunciation perfection claim",
+      "Fixture pre log overflows at320; actual game304client304scroll, notice272wide fit; no runtimeCSSchanged",
+      "Page guide replacing a demonstration stops its old watchdog; press replay to resume visualdemo",
+      "Global SSR window assumption unchanged; not SSR application"
+    ]
+  },
+  "rarityIntegration": {
+    "source": "544e234",
+    "verification": "rarity-integration-verification.json",
+    "http": "rarity-http-result.json",
+    "browser": "rarity-integration-browser.json",
+    "gallery": "rarity-gallery-browser.json",
+    "status": "released and production verified",
+    "rollback": "Once V2 saves exist, neverdeployV1-onlyreader. Retain V1/V2 readers in any forwardfix/rollback, deploy client+servertogether. NoXPmigration/accountrestoration.",
+    "runtime": "2e7f50aa6d71e0b27f65127bc7f29d263fd9d4bd",
+    "deployment": "a301902f-a7a5-48d0-abe7-1cb8ad5d1c74",
+    "productionEvidence": "rarity-production-check.json",
+    "productionBrowser": "rarity-production-browser.json"
+  },
+  "finalReport": {
+    "path": "outputs/eight-hour-refinement/final-report.md",
+    "status": "final",
+    "updatedAt": "2026-10-25T02:49:26.849090+00:00"
+  },
+  "galleryFailure": {
+    "at": "2026-10-25T02:21:31.406564+00:00",
+    "base": "c54a23e",
+    "scope": [
+      "public/creature-design-review/index.html",
+      "public/creature-design-review/gallery.js",
+      "public/creature-design-review/style.css"
+    ],
+    "reproduction": "Actual browser HTTP503 then previous button: status -11–0 and page0/0; hidden pages overridden by CSS flex",
+    "fix": "Native disabled filter/page controls until nonempty manifest renders; honor hidden CSS; reject empty/non-array manifests to existing error UI",
+    "verification": "Build/pronunciation/syntax PASS; actual browser pending/503/empty/recovery, next page13–24 then monster25 reset1/3,320nooverflow",
+    "runtimeUnchanged": {
+      "compiledAssets": "8/8 SHA identical to Batch20",
+      "serverSHA256": "526fca9753e56291e539920c557d0b0c635975cf8e4e34df5d3f06eb65379128",
+      "gameplay": "No src/server changes; prior67files556tests remains applicable, no redundant whole suite run for isolated static gallery"
+    },
+    "browserEvidence": "gallery-failure-browser.json",
+    "limits": "Synthetic local HTTP failures; no real child accounts. Production fault injection not performed.",
+    "source": "741bd6520b830bd99101c27a2902f1e3bbe0da0f",
+    "deployment": "67ad370e-f4ae-4acd-a907-05ece0a24dd9",
+    "status": "Released and production verified",
+    "fixtureCleanup": "4278 fixture stopped; tab51 closed; viewport reset; QA tab23 marked handoff",
+    "productionEvidence": [
+      "gallery-failure-production-check.json",
+      "gallery-failure-production-browser.json"
+    ]
+  },
+  "automationVerified": {
+    "at": "2026-10-25T02:49:26.849090+00:00",
+    "status": "PAUSED",
+    "id": "automation",
+    "updatedAtEpochMs": 1792896480629,
+    "evidence": "Tool returned PAUSED and automation.toml confirmed PAUSED"
+  },
+  "finalizedAt": "2026-10-25T02:49:26.849090+00:00",
+  "implementationDeadlineReached": true,
+  "lastProductCommit": {
+    "source": "741bd6520b830bd99101c27a2902f1e3bbe0da0f",
+    "committedAt": "2026-10-25T10:21:31+08:00"
+  },
+  "afterDeadlineActions": "Read-only current deployment/homepage/health check; report and checkpoint finalization; automation pause; owned QA cleanup. No product implementation or deployment.",
+  "finalHealthEvidence": "outputs/eight-hour-refinement/final-health-check.json"
+}

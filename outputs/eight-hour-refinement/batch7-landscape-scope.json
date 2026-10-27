@@ -1,0 +1,108 @@
+{
+  "source": "faaa6de",
+  "status": "read-only before measurements; no implementation",
+  "question": "c1-g4-social-01",
+  "landscape1180": {
+    "answerBounds": [
+      {
+        "bottom": 754.6875,
+        "height": 119.59375,
+        "top": 635.09375
+      },
+      {
+        "bottom": 754.6875,
+        "height": 119.59375,
+        "top": 635.09375
+      },
+      {
+        "bottom": 888.28125,
+        "height": 119.59375,
+        "top": 768.6875
+      },
+      {
+        "bottom": 888.28125,
+        "height": 119.59375,
+        "top": 768.6875
+      }
+    ],
+    "headingBottom": 467.09375,
+    "headingTop": 265.5,
+    "height": 820,
+    "scrollY": 0,
+    "width": 1180
+  },
+  "landscape1024": {
+    "answers": [
+      {
+        "rect": {
+          "bottom": 972.6953125,
+          "height": 100,
+          "left": 81,
+          "right": 505,
+          "top": 872.6953125,
+          "width": 424,
+          "x": 81,
+          "y": 872.6953125
+        },
+        "text": "先向東，再向北"
+      },
+      {
+        "rect": {
+          "bottom": 972.6953125,
+          "height": 100,
+          "left": 519,
+          "right": 943,
+          "top": 872.6953125,
+          "width": 424,
+          "x": 519,
+          "y": 872.6953125
+        },
+        "text": "先向北，再向東"
+      },
+      {
+        "rect": {
+          "bottom": 1086.6953125,
+          "height": 100,
+          "left": 81,
+          "right": 505,
+          "top": 986.6953125,
+          "width": 424,
+          "x": 81,
+          "y": 986.6953125
+        },
+        "text": "先向西，再向北"
+      },
+      {
+        "rect": {
+          "bottom": 1086.6953125,
+          "height": 100,
+          "left": 519,
+          "right": 943,
+          "top": 986.6953125,
+          "width": 424,
+          "x": 519,
+          "y": 986.6953125
+        },
+        "text": "先向東，再向南"
+      }
+    ],
+    "heading": {
+      "bottom": 755.6953125,
+      "height": 100.796875,
+      "left": 81,
+      "right": 943,
+      "top": 654.8984375,
+      "width": 862,
+      "x": 81,
+      "y": 654.8984375
+    },
+    "height": 768,
+    "scrollWidth": 1024,
+    "scrollY": 0,
+    "width": 1024
+  },
+  "limitations": [
+    "Viewport emulation only",
+    "One grade4 question sampled"
+  ]
+}

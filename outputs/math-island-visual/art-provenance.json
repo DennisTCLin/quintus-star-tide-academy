@@ -1,0 +1,73 @@
+{
+  "provider": "Higgsfield",
+  "model": "gpt_image_2_5",
+  "job_id": "7995699b-3dc8-4792-bb0f-77bf0be003af",
+  "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_011928_7995699b-3dc8-4792-bb0f-77bf0be003af.png",
+  "reference": "public/assets/hero-ocean.jpg",
+  "estimated_credits": 2.75,
+  "source_dimensions": [
+    2688,
+    1520
+  ],
+  "processing": "WebP encoding and destination crops only; no generated text or UI",
+  "crop_boxes": {
+    "counting-bay": [
+      0,
+      320,
+      896,
+      1260
+    ],
+    "candy-island": [
+      896,
+      300,
+      1792,
+      1240
+    ],
+    "duck-dock": [
+      1792,
+      300,
+      2688,
+      1240
+    ]
+  },
+  "files": [
+    {
+      "path": "public/assets/math-island/archipelago.webp",
+      "bytes": 318378,
+      "sha256": "2a1468441b4d4bbdfe971493ec35c8ca69fc484e17181ba5ae16bdd3f564bcbd",
+      "dimensions": [
+        1536,
+        869
+      ]
+    },
+    {
+      "path": "public/assets/math-island/candy-island.webp",
+      "bytes": 140656,
+      "sha256": "c495571502ae44b4cbfbf6f81a84f02f4b0c29224ecb2a08463a1acb9089395d",
+      "dimensions": [
+        640,
+        671
+      ]
+    },
+    {
+      "path": "public/assets/math-island/counting-bay.webp",
+      "bytes": 129164,
+      "sha256": "259830edc502d90ba5ab556fcdc938e21bbb8a482013f8550ab621452d2c4e8c",
+      "dimensions": [
+        640,
+        671
+      ]
+    },
+    {
+      "path": "public/assets/math-island/duck-dock.webp",
+      "bytes": 146122,
+      "sha256": "72212f78dee27a73692ac19ed22dedacfd97f21f8c09efb5cc1f00355711f270",
+      "dimensions": [
+        640,
+        671
+      ]
+    }
+  ],
+  "total_bytes": 734320,
+  "status": "Integrated and locally verified; deployment recorded separately"
+}

@@ -1,0 +1,478 @@
+{
+  "summary": {
+    "reviewed": 50,
+    "needsRevision": 2,
+    "assetNotes": 3,
+    "answerErrors": 0,
+    "scope": "逐題原圖與裁切座標核對，未修改候選或repo"
+  },
+  "records": [
+    {
+      "index": 0,
+      "source": 6,
+      "page": 2,
+      "locator": "三1(1)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 1,
+      "source": 6,
+      "page": 2,
+      "locator": "三1(2)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 2,
+      "source": 6,
+      "page": 2,
+      "locator": "三1(3)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 3,
+      "source": 6,
+      "page": 2,
+      "locator": "三1(4)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 4,
+      "source": 6,
+      "page": 2,
+      "locator": "三2(1)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 5,
+      "source": 6,
+      "page": 2,
+      "locator": "三2(2)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 6,
+      "source": 6,
+      "page": 2,
+      "locator": "三2(3)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 7,
+      "source": 6,
+      "page": 3,
+      "locator": "三3(2)",
+      "verdict": "needs_revision",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。",
+      "finding": "未開冷氣圖只顯示補氣路徑，沒有標示門外空氣一定比室內冷。風扇排氣不能保證引入較冷空氣；正解含未提供條件。",
+      "suggestedFix": "題幹補「假設門外空氣比室內涼」；或正解改「房門外的空氣」並刪除較涼斷言。"
+    },
+    {
+      "index": 8,
+      "source": 6,
+      "page": 3,
+      "locator": "三3(3)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 9,
+      "source": 6,
+      "page": 3,
+      "locator": "四2(1)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 10,
+      "source": 6,
+      "page": 3,
+      "locator": "四2(2)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 11,
+      "source": 7,
+      "page": 2,
+      "locator": "二6",
+      "verdict": "pass_with_asset_note",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。",
+      "finding": "原裁圖93×28像素，符號可辨但輸出原尺寸過小。",
+      "suggestedFix": "依原PDF等比例提高渲染解析度後裁切，勿用AI補畫。"
+    },
+    {
+      "index": 12,
+      "source": 7,
+      "page": 2,
+      "locator": "三一2",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 13,
+      "source": 7,
+      "page": 2,
+      "locator": "三一3",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 14,
+      "source": 7,
+      "page": 2,
+      "locator": "三一4",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 15,
+      "source": 7,
+      "page": 2,
+      "locator": "三一5",
+      "verdict": "pass",
+      "answerCheck": "獨立數線：丙外側標1020；丁所在向低壓方向下一條為1016，再下一條是右下方標示1012的長線。1016正確。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 16,
+      "source": 7,
+      "page": 2,
+      "locator": "三一7",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 17,
+      "source": 7,
+      "page": 3,
+      "locator": "三三1",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 18,
+      "source": 7,
+      "page": 3,
+      "locator": "三三2",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 19,
+      "source": 8,
+      "page": 1,
+      "locator": "三1(1)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 20,
+      "source": 8,
+      "page": 1,
+      "locator": "三1(2)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 21,
+      "source": 8,
+      "page": 1,
+      "locator": "三1(3)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 22,
+      "source": 8,
+      "page": 2,
+      "locator": "三2(1)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 23,
+      "source": 8,
+      "page": 2,
+      "locator": "三2(2)",
+      "verdict": "pass",
+      "answerCheck": "原圖9/17為熱帶低氣壓符號，9/18轉輕颱；香港天文台2014年回顧明述9/17低壓、翌晨熱帶風暴。補正9/18合理。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。",
+      "evidenceUrl": "https://www.hko.gov.hk/tc/publica/tc/tc2014/section2.htm"
+    },
+    {
+      "index": 24,
+      "source": 8,
+      "page": 2,
+      "locator": "三2(3)",
+      "verdict": "pass",
+      "answerCheck": "另核氣象署資料：9/21約10時先掠鵝鑾鼻，22時再掠三貂角；限定最先與屏東正確。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。",
+      "evidenceUrl": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=201416"
+    },
+    {
+      "index": 25,
+      "source": 8,
+      "page": 2,
+      "locator": "三2(4)",
+      "verdict": "pass",
+      "answerCheck": "另核氣象署資料：9/21約10時先掠鵝鑾鼻，22時再掠三貂角；限定最先與屏東正確。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。",
+      "evidenceUrl": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=201416"
+    },
+    {
+      "index": 26,
+      "source": 8,
+      "page": 2,
+      "locator": "三3(1)",
+      "verdict": "pass_with_asset_note",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。",
+      "finding": "原裁圖107×106像素，數字偏小；高壓判讀與1024答案正確。",
+      "suggestedFix": "至少提高2–3倍原PDF渲染解析度，保持全部等壓線及數字。"
+    },
+    {
+      "index": 27,
+      "source": 8,
+      "page": 2,
+      "locator": "三3(5)",
+      "verdict": "pass_with_asset_note",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。",
+      "finding": "原裁圖107×106像素，數字偏小；高壓判讀與1024答案正確。",
+      "suggestedFix": "至少提高2–3倍原PDF渲染解析度，保持全部等壓線及數字。"
+    },
+    {
+      "index": 28,
+      "source": 9,
+      "page": 1,
+      "locator": "二1(1)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 29,
+      "source": 9,
+      "page": 1,
+      "locator": "二1(2)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 30,
+      "source": 9,
+      "page": 1,
+      "locator": "二1(3)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 31,
+      "source": 9,
+      "page": 2,
+      "locator": "三1(1)",
+      "verdict": "needs_revision",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。",
+      "finding": "裁圖未保留原題候選水溫，題幹卻問「所有可能水溫」，沒有有限候選集合；例如80°C也可能，所列不是所有可能值。",
+      "suggestedFix": "題幹補「①從6、70、90°C選；②從4、8、65°C選」，或將裁圖下緣延至1208保留候選數值。"
+    },
+    {
+      "index": 32,
+      "source": 9,
+      "page": 3,
+      "locator": "三2(1)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 33,
+      "source": 9,
+      "page": 3,
+      "locator": "三2(2)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 34,
+      "source": 10,
+      "page": 2,
+      "locator": "第二關2",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 35,
+      "source": 10,
+      "page": 2,
+      "locator": "第三關1",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 36,
+      "source": 10,
+      "page": 2,
+      "locator": "第三關2",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 37,
+      "source": 10,
+      "page": 2,
+      "locator": "第三關3",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 38,
+      "source": 10,
+      "page": 2,
+      "locator": "第三關4",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 39,
+      "source": 10,
+      "page": 3,
+      "locator": "第八關5",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 40,
+      "source": 10,
+      "page": 3,
+      "locator": "第八關6",
+      "verdict": "pass",
+      "answerCheck": "獨立比對四個手寫地點周邊等壓線：左下ㄈ處線距最小；ㄅ在1030高壓附近，ㄆ及ㄇ附近更疏。限定只比較線距後ㄈ正確。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 41,
+      "source": 10,
+      "page": 3,
+      "locator": "第八關7",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 42,
+      "source": 10,
+      "page": 3,
+      "locator": "第八關9",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 43,
+      "source": 10,
+      "page": 4,
+      "locator": "第九關2",
+      "verdict": "pass",
+      "answerCheck": "另核氣象署動態：9/28 08時生成、10/3 12:40高雄小港登陸。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。",
+      "evidenceUrl": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=202418"
+    },
+    {
+      "index": 44,
+      "source": 10,
+      "page": 4,
+      "locator": "第九關3",
+      "verdict": "pass",
+      "answerCheck": "另核氣象署動態：9/28 08時生成、10/3 12:40高雄小港登陸。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。",
+      "evidenceUrl": "https://rdc28.cwa.gov.tw/TDB/public/typhoon_detail?typhoon_id=202418"
+    },
+    {
+      "index": 45,
+      "source": 10,
+      "page": 4,
+      "locator": "第九關4",
+      "verdict": "pass",
+      "answerCheck": "原圖10/3高雄登陸附近為灰色中度颱風符號；並非黑色強烈或空心輕度，候選中度正確。官方YouTube網址本次抓取被節流，未假稱讀取該影片；圖本身足以支持。",
+      "cropCheck": "未見已填答案或個資；裁圖保留必需標示。"
+    },
+    {
+      "index": 46,
+      "source": 9,
+      "page": 1,
+      "locator": "二2(4)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "文字題無需圖資。"
+    },
+    {
+      "index": 47,
+      "source": 10,
+      "page": 4,
+      "locator": "第十關1",
+      "verdict": "pass",
+      "answerCheck": "已另讀博物館：托里切利約1643、格里克約1650。先後與人物正確。精確半球公開演示年份依不同場次可不同，但不影響本題先後。",
+      "cropCheck": "文字題無需圖資。",
+      "evidenceUrl": "https://catalogue.museogalileo.it/indepth/AirPump.html"
+    },
+    {
+      "index": 48,
+      "source": 10,
+      "page": 4,
+      "locator": "第十關2",
+      "verdict": "pass",
+      "answerCheck": "已另讀博物館：托里切利約1643、格里克約1650。先後與人物正確。精確半球公開演示年份依不同場次可不同，但不影響本題先後。",
+      "cropCheck": "文字題無需圖資。",
+      "evidenceUrl": "https://catalogue.museogalileo.it/indepth/AirPump.html"
+    },
+    {
+      "index": 49,
+      "source": 9,
+      "page": 4,
+      "locator": "五6(2)",
+      "verdict": "pass",
+      "answerCheck": "已逐題對照原卷圖像，答案與圖示或改編科學條件相符。",
+      "cropCheck": "文字題無需圖資。"
+    }
+  ]
+}

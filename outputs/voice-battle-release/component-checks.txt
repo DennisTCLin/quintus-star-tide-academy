@@ -1,0 +1,22 @@
+PASS 自動換題僅送出一次
+PASS 失敗後不自動重送
+PASS 手動重試可繼續
+PASS 暫停取消換題
+PASS 恢復後換題
+PASS 離線取消等待中的換題
+PASS 重新連線後可換題
+PASS 離開題目取消換題
+PASS 背景頁面不自動換題
+PASS 回到頁面才換題
+PASS 聲調題完整錄音來源傳到播放入口
+PASS 錯誤訂正不推進也不發獎勵
+PASS 三題訂正後一次補到半份
+PASS 結算後移除重領入口
+PASS 英文補練保留逐項發音
+PASS 聽英文選項不送出答案
+PASS 補練選答案先停止舊聲音
+PASS 離開補練題停止該題錄音
+PASS 補練離開不會取消後來開始的學伴麥克風
+PASS 圖集每個選項使用不同裁切
+PASS 二年級選項保留注音
+COMPLETE: all component checks passed

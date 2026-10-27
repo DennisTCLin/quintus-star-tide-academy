@@ -1,0 +1,61 @@
+{
+  "source": "acf93a66976fa50e98a57a135b8ee77d141e6516",
+  "deployment": "db27caf3-22c3-4bfd-9850-004253ed1629",
+  "railwayStatus": "SUCCESS",
+  "checkedAt": "2026-10-24T19:13:44.799579+00:00",
+  "http": {
+    "/": 200,
+    "/api/health": 401,
+    "/healthz": 200
+  },
+  "assets": [
+    {
+      "path": "/assets/TerritoryPage.v-XpGSXE-r.css",
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "status": 200,
+      "actualSha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "matches": true
+    },
+    {
+      "path": "/assets/RoomEditor.v-M-OioqWb.js",
+      "bytes": 10424,
+      "sha256": "e7bcc026b633f49ed60cabae0e4b58689c7a2c6c331aca04b9f7605b6c47fa7b",
+      "status": 200,
+      "actualSha256": "e7bcc026b633f49ed60cabae0e4b58689c7a2c6c331aca04b9f7605b6c47fa7b",
+      "matches": true
+    },
+    {
+      "path": "/assets/index.v-DwHh9gbF.js",
+      "bytes": 822862,
+      "sha256": "ad469a0a8d27f94394d899d24a3df4ee55d795be99eb9a3c44d2e13806b041c9",
+      "status": 200,
+      "actualSha256": "ad469a0a8d27f94394d899d24a3df4ee55d795be99eb9a3c44d2e13806b041c9",
+      "matches": true
+    },
+    {
+      "path": "/assets/TerritoryPage.v-C5U6xRmx.js",
+      "bytes": 35956,
+      "sha256": "10070a44813086b22ba30e6196ea9ac5e7d3f2172557f64abb2bfda550af16a0",
+      "status": 200,
+      "actualSha256": "10070a44813086b22ba30e6196ea9ac5e7d3f2172557f64abb2bfda550af16a0",
+      "matches": true
+    },
+    {
+      "path": "/assets/index.v-BqPtCdyb.css",
+      "bytes": 225696,
+      "sha256": "e8c3ce4a09b3055d868100b3dcb919a72c792199a70ea2d85368896442998beb",
+      "status": 200,
+      "actualSha256": "e8c3ce4a09b3055d868100b3dcb919a72c792199a70ea2d85368896442998beb",
+      "matches": true
+    }
+  ],
+  "allAssetsMatch": true,
+  "healthBody": "{\"ok\":true,\"service\":\"quintus-ocean-academy\"}",
+  "browser": {
+    "publicLoginRendered": true,
+    "script": "index.v-DwHh9gbF.js",
+    "consoleErrors": 0,
+    "realChildDataUsed": false
+  }
+}

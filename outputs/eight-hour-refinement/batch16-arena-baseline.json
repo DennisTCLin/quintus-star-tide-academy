@@ -1,0 +1,20 @@
+{
+  "initialFrame": "100% 0%",
+  "next": {
+    "frames": [
+      "background-image: url(\"/assets/battle/tideglow-idle.webp?v=01767464c8a8\"); background-size: 600% 400%; background-position: 60% 100%;",
+      "background-image: url(\"/assets/battle/pebblefin-idle.webp?v=86a0f2fb8e9c\"); background-size: 600% 400%; background-position: 60% 100%;"
+    ],
+    "rect": {
+      "bottom": -226.625,
+      "height": 340,
+      "left": 27,
+      "right": 293,
+      "top": -566.625,
+      "width": 266,
+      "x": 27,
+      "y": -566.625
+    },
+    "reduced": false
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "pass": true,
+  "releaseCommit": "2b2c114",
+  "assets": [
+    "game-view.v-Bta4ju3d.js",
+    "TerritoryPage.v-XpGSXE-r.css",
+    "IslandApp.v--k-RY2Cj.css",
+    "IslandApp.v-PFzSDk08.js",
+    "game-view.v-CNifi8gA.css",
+    "index.v-k3rX_POx.css",
+    "AdminConsole.v-C5bhmU2L.js",
+    "AdminConsole.v-BM6oZDwE.css",
+    "TerritoryPage.v-CWLEQDrk.js",
+    "index.v-6FPDRFCh.js",
+    "RoomEditor.v-BscEQiTZ.js"
+  ],
+  "checks": [
+    {
+      "name": "All 11 production JS/CSS assets match integrated build",
+      "pass": true
+    },
+    {
+      "name": "Admin page is available",
+      "pass": true
+    },
+    {
+      "name": "Admin entry serves integrated build",
+      "pass": true
+    },
+    {
+      "name": "Health endpoint is healthy",
+      "pass": true
+    },
+    {
+      "name": "Anonymous session rejected",
+      "pass": true
+    },
+    {
+      "name": "Anonymous students rejected",
+      "pass": true
+    },
+    {
+      "name": "Anonymous grants rejected",
+      "pass": true
+    },
+    {
+      "name": "Anonymous users rejected",
+      "pass": true
+    },
+    {
+      "name": "Anonymous audit rejected",
+      "pass": true
+    },
+    {
+      "name": "Anonymous standard preview rejected",
+      "pass": true
+    },
+    {
+      "name": "Anonymous standard grant rejected",
+      "pass": true
+    },
+    {
+      "name": "Anonymous star preview rejected",
+      "pass": true
+    },
+    {
+      "name": "Anonymous star grant rejected",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13 production login page has no overflow or JS error",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7) production login page has no overflow or JS error",
+      "pass": true
+    }
+  ],
+  "productionAuthenticatedGrantTest": false,
+  "productionStudentDataChanged": false,
+  "physicalDevice": false
+}

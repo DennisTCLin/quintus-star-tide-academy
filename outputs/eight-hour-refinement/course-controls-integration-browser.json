@@ -1,0 +1,361 @@
+{
+  "source": "5413c94",
+  "picture": {
+    "emptyRuby": 0,
+    "options": [
+      {
+        "name": "選擇 水彩",
+        "rect": {
+          "bottom": 1287.421875,
+          "height": 162.5,
+          "left": 31,
+          "right": 155,
+          "top": 1124.921875,
+          "width": 124,
+          "x": 31,
+          "y": 1124.921875
+        }
+      },
+      {
+        "name": "選擇 畫筆",
+        "rect": {
+          "bottom": 1287.421875,
+          "height": 162.5,
+          "left": 165,
+          "right": 289,
+          "top": 1124.921875,
+          "width": 124,
+          "x": 165,
+          "y": 1124.921875
+        }
+      },
+      {
+        "name": "選擇 剪刀",
+        "rect": {
+          "bottom": 1459.921875,
+          "height": 162.5,
+          "left": 31,
+          "right": 155,
+          "top": 1297.421875,
+          "width": 124,
+          "x": 31,
+          "y": 1297.421875
+        }
+      },
+      {
+        "name": "選擇 彩色筆",
+        "rect": {
+          "bottom": 1459.921875,
+          "height": 162.5,
+          "left": 165,
+          "right": 289,
+          "top": 1297.421875,
+          "width": 124,
+          "x": 165,
+          "y": 1297.421875
+        }
+      }
+    ],
+    "pictures": [
+      {
+        "bottom": 1218.421875,
+        "height": 76.5,
+        "left": 42,
+        "right": 144,
+        "top": 1141.921875,
+        "width": 102,
+        "x": 42,
+        "y": 1141.921875
+      },
+      {
+        "bottom": 1218.421875,
+        "height": 76.5,
+        "left": 176,
+        "right": 278,
+        "top": 1141.921875,
+        "width": 102,
+        "x": 176,
+        "y": 1141.921875
+      },
+      {
+        "bottom": 1390.921875,
+        "height": 76.5,
+        "left": 42,
+        "right": 144,
+        "top": 1314.421875,
+        "width": 102,
+        "x": 42,
+        "y": 1314.421875
+      },
+      {
+        "bottom": 1390.921875,
+        "height": 76.5,
+        "left": 176,
+        "right": 278,
+        "top": 1314.421875,
+        "width": 102,
+        "x": 176,
+        "y": 1314.421875
+      }
+    ],
+    "scrollWidth": 320,
+    "width": 320
+  },
+  "dock": [
+    {
+      "buttons": [
+        {
+          "name": "看解說",
+          "rect": {
+            "bottom": 727,
+            "height": 50,
+            "left": 13,
+            "right": 149,
+            "top": 677,
+            "width": 136,
+            "x": 13,
+            "y": 677
+          }
+        },
+        {
+          "name": "➜ 下一題",
+          "rect": {
+            "bottom": 729,
+            "height": 54,
+            "left": 157,
+            "right": 307,
+            "top": 675,
+            "width": 150,
+            "x": 157,
+            "y": 675
+          }
+        }
+      ],
+      "dock": {
+        "bottom": 740,
+        "height": 107.796875,
+        "left": 0,
+        "right": 320,
+        "top": 632.203125,
+        "width": 320,
+        "x": 0,
+        "y": 632.203125
+      },
+      "explanation": {
+        "bottom": 359.59375,
+        "height": 118.796875,
+        "left": 31,
+        "right": 289,
+        "top": 240.796875,
+        "width": 258,
+        "x": 31,
+        "y": 240.796875
+      },
+      "images": [
+        {
+          "complete": true,
+          "width": 640
+        }
+      ],
+      "question": "8 − 1 = ?",
+      "scrollWidth": 320,
+      "viewport": [
+        320,
+        740
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "name": "看解說",
+          "rect": {
+            "bottom": 1165,
+            "height": 50,
+            "left": 577.1953125,
+            "right": 663.1953125,
+            "top": 1115,
+            "width": 86,
+            "x": 577.1953125,
+            "y": 1115
+          }
+        },
+        {
+          "name": "➜ 下一題",
+          "rect": {
+            "bottom": 1167,
+            "height": 54,
+            "left": 675.1953125,
+            "right": 801,
+            "top": 1113,
+            "width": 125.8046875,
+            "x": 675.1953125,
+            "y": 1113
+          }
+        }
+      ],
+      "dock": {
+        "bottom": 1180,
+        "height": 80,
+        "left": 0,
+        "right": 820,
+        "top": 1100,
+        "width": 820,
+        "x": 0,
+        "y": 1100
+      },
+      "explanation": {
+        "bottom": 701.296875,
+        "height": 90,
+        "left": 43,
+        "right": 777,
+        "top": 611.296875,
+        "width": 734,
+        "x": 43,
+        "y": 611.296875
+      },
+      "images": [
+        {
+          "complete": true,
+          "width": 640
+        }
+      ],
+      "question": "8 − 1 = ?",
+      "scrollWidth": 820,
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "name": "看解說",
+          "rect": {
+            "bottom": 753,
+            "height": 50,
+            "left": 719.1953125,
+            "right": 805.1953125,
+            "top": 703,
+            "width": 86,
+            "x": 719.1953125,
+            "y": 703
+          }
+        },
+        {
+          "name": "➜ 下一題",
+          "rect": {
+            "bottom": 755,
+            "height": 54,
+            "left": 817.1953125,
+            "right": 943,
+            "top": 701,
+            "width": 125.8046875,
+            "x": 817.1953125,
+            "y": 701
+          }
+        }
+      ],
+      "dock": {
+        "bottom": 768,
+        "height": 80,
+        "left": 62,
+        "right": 962,
+        "top": 688,
+        "width": 900,
+        "x": 62,
+        "y": 688
+      },
+      "explanation": {
+        "bottom": 358.8984375,
+        "height": 90,
+        "left": 439.453125,
+        "right": 955.453125,
+        "top": 268.8984375,
+        "width": 516,
+        "x": 439.453125,
+        "y": 268.8984375
+      },
+      "images": [
+        {
+          "complete": true,
+          "width": 640
+        }
+      ],
+      "question": "8 − 1 = ?",
+      "scrollWidth": 1024,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "name": "看解說",
+          "rect": {
+            "bottom": 985,
+            "height": 50,
+            "left": 927.1953125,
+            "right": 1013.1953125,
+            "top": 935,
+            "width": 86,
+            "x": 927.1953125,
+            "y": 935
+          }
+        },
+        {
+          "name": "➜ 下一題",
+          "rect": {
+            "bottom": 987,
+            "height": 54,
+            "left": 1025.1953125,
+            "right": 1151,
+            "top": 933,
+            "width": 125.8046875,
+            "x": 1025.1953125,
+            "y": 933
+          }
+        }
+      ],
+      "dock": {
+        "bottom": 1000,
+        "height": 80,
+        "left": 270,
+        "right": 1170,
+        "top": 920,
+        "width": 900,
+        "x": 270,
+        "y": 920
+      },
+      "explanation": {
+        "bottom": 474.796875,
+        "height": 90,
+        "left": 888.625,
+        "right": 1384.9921875,
+        "top": 384.796875,
+        "width": 496.3671875,
+        "x": 888.625,
+        "y": 384.796875
+      },
+      "images": [
+        {
+          "complete": true,
+          "width": 640
+        }
+      ],
+      "question": "8 − 1 = ?",
+      "scrollWidth": 1440,
+      "viewport": [
+        1440,
+        1000
+      ]
+    }
+  ],
+  "errors": [],
+  "limits": "Local real QA account only; no new answers or next submitted. Current short math explanation tested, not all long explanations or physical iPad.",
+  "statePreservation": {
+    "familyEqual": true,
+    "revision": 94
+  },
+  "freshCoursePicker": "Not repeated with current local QA family; Qingqing is still onboarding, other profiles have active/pending journeys. Relies on coordinator fixtures and fresh verifier evidence."
+}

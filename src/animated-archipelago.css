@@ -1,0 +1,76 @@
+.archipelago { margin:20px 0; min-width:0; }
+.archipelago-scene { position:relative; isolation:isolate; aspect-ratio:5456/3072; border:1px solid #91bec8; border-radius:24px; overflow:hidden; background:#12364c; }
+.archipelago-scene > img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; pointer-events:none; }
+.family-app .archipelago-stop { position:absolute; left:var(--map-x); top:var(--map-y); transform:translate(-50%,-50%); display:flex; align-items:center; gap:7px; min-width:48px; min-height:48px; padding:5px 12px 5px 5px;  }
+.family-app .archipelago-stop:disabled { opacity:.85; cursor:default; }
+.archipelago-number { display:grid; place-items:center; width:32px; height:32px; border-radius:50%; background:var(--island-tone); color:#082e3c; font-size:20px; flex-shrink:0; font-weight:800; }
+.archipelago-stop-name { white-space:nowrap; }
+.archipelago-toolbar { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-top:12px; }
+.archipelago-toolbar p { font-size:15px; margin:0; flex:1 1 180px; min-width:0; overflow-wrap:anywhere; line-height:2; }
+.family-app .archipelago-toolbar button { font-size:15px; flex-shrink:0; }
+.subject-islands.has-archipelago .subject-island-grid { gap:12px; margin-top:18px; }
+.family-app .has-archipelago .subject-island-card { border:1px solid #456c7b; border-radius:20px; padding:16px 10px; background:#0c2c40; height:100%; }
+.has-archipelago .subject-island-art { width:76px; height:76px; aspect-ratio:1; }
+.has-archipelago .subject-island-element { display:flex; align-items:center; gap:8px; border:0; padding:0; margin:8px 0; }
+.has-archipelago .subject-island-element .archipelago-number { width:26px; height:26px; font-size:16px; }
+.has-archipelago .subject-island-ready { min-height:32px; }
+.has-archipelago .subject-island-name { margin:4px 0; }
+.subject-island-residents { margin:12px 0; min-width:0; }
+.subject-island-residents > summary { cursor:pointer; padding:10px 6px; min-height:48px; font-size:14px; color:#c8edf0; line-height:2; }
+.subject-island-residents > summary:focus-visible { outline:3px solid #ffd681; }
+@media(max-width:650px) {
+ .archipelago-scene { border-radius:18px; }
+ .has-archipelago .subject-island-subject { font-size:20px; }
+}
+@media(max-width:360px) {
+ .subject-islands.has-archipelago .subject-island-grid { grid-template-columns:minmax(0,1fr); }
+ .family-app .has-archipelago .subject-island-card { padding:14px; }
+ .has-archipelago .subject-island-art { display:none; }
+}
+
+/* Ivory cartographic plaques echo the architecture, with quiet elemental accents. */
+.archipelago-scene { box-shadow:0 12px 40px #03182230; }
+.archipelago-atmosphere { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; overflow:hidden; }
+.archipelago-streams { animation:archipelago-flow 1.65s linear infinite; }
+.archipelago-water { opacity:.52; }
+.archipelago-ripples ellipse { transform-box:fill-box; transform-origin:center; animation:archipelago-ripple 5.5s ease-out infinite; }
+.archipelago-ripples ellipse:nth-child(2n) { animation-delay:-2.7s; }
+.archipelago-mist { animation:archipelago-mist 8s ease-in-out infinite alternate; opacity:.4; }
+.archipelago-ember { animation:archipelago-ember 4s ease-in-out infinite alternate; }
+@keyframes archipelago-flow { to { transform:translateY(48px); } }
+@keyframes archipelago-ripple { from { transform:scale(.65); opacity:0; } 25% { opacity:.4; } to { transform:scale(1.4); opacity:0; } }
+@keyframes archipelago-mist { from { transform:translate(-4px,2px); opacity:.25; } to { transform:translate(6px,-4px); opacity:.55; } }
+@keyframes archipelago-ember { from { opacity:.25; } to { opacity:.65; } }
+.family-app .archipelago-stop {
+ gap:6px; padding:7px 13px 7px 8px; min-height:48px;
+ border:1px solid #ac8950; border-radius:8px 18px 8px 18px;
+ background:linear-gradient(135deg,#fffbeaef,#f3e3c4f5); color:#183b48;
+ font-size:clamp(14px,1.2vw,19px); letter-spacing:.035em; font-weight:700;
+ box-shadow:0 2px 0 #83633965,0 5px 14px #17374435,inset 0 0 0 3px #fff9e580;
+ transition:background .16s,box-shadow .16s;
+}
+.family-app .archipelago-stop::after { content:''; position:absolute; left:calc(50% - 4px); bottom:-5px; width:8px; height:8px; background:#f3e3c4; border-right:1px solid #ac8950; border-bottom:1px solid #ac8950; transform:rotate(45deg); }
+.family-app .archipelago-stop:hover:not(:disabled) { background:#fff9e7; box-shadow:0 3px 0 #83633965,0 6px 20px #17374450,inset 0 0 0 3px #fffef3; }
+.family-app .archipelago-stop.is-current { outline:2px solid #fff9e3; outline-offset:4px; }
+.family-app .archipelago-stop:focus-visible { outline:3px solid #123c53; outline-offset:4px; z-index:2; }
+.archipelago-stop .archipelago-number { width:24px; height:24px; border:1px solid #8a774d55; background:var(--island-tone); font-size:14px; color:#21414b; }
+.archipelago-toolbar p { color:#b8d9df; }
+@media(max-width:650px) {
+ .family-app .archipelago-stop { max-width:27%; min-width:48px; padding:7px 6px; font-size:12px; gap:0; border-radius:6px 12px 6px 12px; letter-spacing:0; }
+ .archipelago-stop .archipelago-number { display:none; }
+ .archipelago-stop-name { display:block; white-space:normal; line-height:1.5; }
+ .archipelago-stop ruby { font-size:inherit; }
+ .archipelago-water { opacity:.42; }
+ .archipelago-mist { display:none; }
+}
+@media(prefers-reduced-motion:reduce) {
+ .archipelago-atmosphere { display:none; }
+ .family-app .archipelago-stop { transition:none; }
+}
+.family-app .archipelago-stop .auto-ruby rt { color:#315564; }
+/* The annotated subject cards remain directly below the compact map. */
+@media(max-width:650px) {
+ .archipelago-stop .auto-ruby rt { display:none; }
+ .family-app .archipelago-stop { font-size:14px; }
+ .archipelago-stop .auto-ruby { line-height:1.5; }
+}

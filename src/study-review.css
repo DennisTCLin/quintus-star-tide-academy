@@ -1,0 +1,14 @@
+.study-entry { margin-block: 1.5rem; }
+.study-entry h2 { margin-top: 0; }
+.study-session { max-width: 56rem; margin-inline: auto; padding: clamp(1rem, 4vw, 2.5rem); overflow-wrap: anywhere; }
+.study-session h1 { font-size: clamp(1.4rem, 4vw, 2rem); line-height: 1.8; }
+.study-session .answer-grid { margin-block: 1.5rem; }
+.study-session .answer-grid button { min-height: 4rem; }
+.study-session .answer-explanation { line-height: 1.9; }
+.study-session .f-actions { gap: .75rem; flex-wrap: wrap; margin-block: 1rem; }
+.study-session button { min-height: 48px; }
+.study-eyebrow { color: #9ee8dd; }
+.study-complete { border-top: 1px solid #81bac966; margin-top: 1.5rem; padding-top: 1rem; }
+.study-summary dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.study-summary dd { margin: .5rem 0; font-size: 1.4rem; color: #a7f3e7; }
+@media(max-width: 480px) { .study-session .answer-grid { grid-template-columns: 1fr; } .study-session .f-actions > button { width: 100%; } }

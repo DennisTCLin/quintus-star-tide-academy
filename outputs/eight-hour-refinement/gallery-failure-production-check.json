@@ -1,0 +1,98 @@
+{
+  "at": "2026-10-25T02:24:26.996996+00:00",
+  "source": "741bd6520b830bd99101c27a2902f1e3bbe0da0f",
+  "deployment": "67ad370e-f4ae-4acd-a907-05ece0a24dd9",
+  "entry": "assets/index.v-BunvaiGa.js",
+  "checks": [
+    {
+      "path": "",
+      "httpSuccess": true,
+      "bytes": 1142,
+      "expectedEntry": true
+    },
+    {
+      "path": "healthz",
+      "httpSuccess": true,
+      "bytes": 45,
+      "ok": true
+    },
+    {
+      "path": "assets/interface-zhuyin-packed.v-DnOSP5ix.js",
+      "httpSuccess": true,
+      "bytes": 360223,
+      "sha256": "c8c77a159c514eba94d83b816b26ec17fba96907223ea83c03b5aa563af6fc30",
+      "match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "httpSuccess": true,
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "match": true
+    },
+    {
+      "path": "assets/RoomEditor.v-laVvV7-3.js",
+      "httpSuccess": true,
+      "bytes": 10683,
+      "sha256": "84b7193fe79d6c8675032c520e6754e95a1a44effd245be2387329f64fc35474",
+      "match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-Dmi1jCUk.js",
+      "httpSuccess": true,
+      "bytes": 36036,
+      "sha256": "79082ba36486e4b08e139611c6924e1dd20020258da91f44c9802df2b7b52d75",
+      "match": true
+    },
+    {
+      "path": "assets/index.v-bopND3Ot.css",
+      "httpSuccess": true,
+      "bytes": 234594,
+      "sha256": "e38a90938b6647b51f8738b2a9a9d97bd793acd39bbf8a2649dd25817981e4e6",
+      "match": true
+    },
+    {
+      "path": "assets/IslandApp.v-Cd-XlE4F.js",
+      "httpSuccess": true,
+      "bytes": 52287,
+      "sha256": "287b5d24d1ac404344bc5f0b928cfe49fcaa26d651b8acd583ec48e8347fcc2a",
+      "match": true
+    },
+    {
+      "path": "assets/index.v-BunvaiGa.js",
+      "httpSuccess": true,
+      "bytes": 340878,
+      "sha256": "b60dbdbcd2bef677fff927ca736d44019de8879ee7a269ca7a804c61ba99f894",
+      "match": true
+    },
+    {
+      "path": "assets/IslandApp.v-C2zdfX0C.css",
+      "httpSuccess": true,
+      "bytes": 30389,
+      "sha256": "af720e980d2716e6735ee9a7858601fbc83a378f8b961aae0766501cf8acc810",
+      "match": true
+    },
+    {
+      "path": "creature-design-review/index.html",
+      "httpSuccess": true,
+      "bytes": 1523,
+      "sha256": "0fad23921e0f8e1110143d91af9bd111f66e9d875d7885b37cd92d35fc140d3a",
+      "match": true
+    },
+    {
+      "path": "creature-design-review/gallery.js",
+      "httpSuccess": true,
+      "bytes": 3230,
+      "sha256": "c3207cf4bf1b78ac11b3c5c56bf6ef2dd0a4d0a80f997fbab700bad5ab5c4e07",
+      "match": true
+    },
+    {
+      "path": "creature-design-review/style.css",
+      "httpSuccess": true,
+      "bytes": 2914,
+      "sha256": "13abab7a7278bea25a20d7ea374c6882fa35dc6a78e379c837217cc6040914e0",
+      "match": true
+    }
+  ],
+  "scope": "8 compiled assets plus 3 changed gallery files. Unchanged 100 artwork and manifest verified in Batch20, not redownloaded."
+}

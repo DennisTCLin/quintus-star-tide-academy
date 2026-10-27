@@ -1,0 +1,34 @@
+{
+  "sourceCommit": "3d2b192",
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "verifiedAt": "2026-10-24T17:40:07.231Z",
+  "publicAssetsChecked": 100,
+  "publicAssetsMatched": 100,
+  "failed": [],
+  "bundleMatch": true,
+  "localScripts": [
+    "/assets/star-tide-dragon-icon-32.png",
+    "/assets/star-tide-dragon-icon-192.png",
+    "/assets/star-tide-dragon-apple-touch.png",
+    "/assets/index.v-D4ufWxE6.js",
+    "/assets/index.v-CqOALs9U.css"
+  ],
+  "remoteScripts": [
+    "/assets/star-tide-dragon-icon-32.png",
+    "/assets/star-tide-dragon-icon-192.png",
+    "/assets/star-tide-dragon-apple-touch.png",
+    "/assets/index.v-D4ufWxE6.js",
+    "/assets/index.v-CqOALs9U.css"
+  ],
+  "deploymentId": "569196ea-6378-48ec-85fa-43294296bf9f",
+  "deploymentStatus": "SUCCESS",
+  "health": {
+    "status": 200,
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "browser": {
+    "productionLoginRendered": true,
+    "heading": "歡迎回到星潮"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "read-only nextscope;noimplementation",
+  "priority": 1,
+  "scope": "Make course selection honest when another voyage is active or reward ispending",
+  "reproduction": "LocalQAQuintusactiveSocial01settled:click開始英文 onhome returnedSocial01. No startcommand sent;label contradictsbehavior. ReproducedBatch10browserbeforequittingoldrun.",
+  "source": "src/App.tsx course-section around997–1013:allcoursebuttons label開始c.name butanyactive/pendingrun navigateslearn",
+  "bounds": [
+    "Keep existingactivevoyage andrewards safe; no automaticabandon/reset",
+    "Use clearresume/finishreward explanation andselectedcourseintent; avoidsilentlyroutingtoanothercourse",
+    "Grade1listen/icons,grade2ruby,tablet≥48pxtargets",
+    "Testactive samecourse/differentcourse/pendingreward/noactive/offline;no unintendedcloudwrite;browserQA"
+  ],
+  "implementationNotes": [
+    "begin() onlyguardspendingreward;server rejectsactive-runstart. Preserveexistingserverguards.",
+    "Home topCTA already correctly says繼續/領獎;coursecardlabels arethecontradictorysurface.",
+    "Preferboundedpresentation/intentconfirmation correction usingactualrun.course;do not silentlyabandonrun or claimnewcoursestarted.",
+    "A historicalgrade1wordsrunmaynotbeinvisibleCOURSES;lookupmusthandlelegacywithoutunknownlabel."
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "receivedOn": "2026-10-26",
+  "grade": 4,
+  "semester": 1,
+  "assessment": "第一次評量",
+  "publisher": "康軒",
+  "publisherEvidence": "家長提供檔名分類；新卷卷面未印出版社，非出版社官方認證",
+  "answerEvidence": "逐頁渲染與題文語意核對，非官方解答；含明示改編題",
+  "sources": [
+    {
+      "file": "小四國文康軒考卷1.pdf",
+      "sha256": "75a34559d86626fc98c8ba0e8f4f215f42b52aa7fed20d2cac594ea41a22b8c6",
+      "pages": 2,
+      "sourceId": "dd114",
+      "status": "byte-identical-existing-source",
+      "newUniqueQuestions": 0
+    },
+    {
+      "file": "小四國文康軒考卷2.pdf",
+      "sha256": "1e7e3de8c6030a1d6eff12f09a0c3312da3eb008bce754a5a10d81b5923c3d50",
+      "pages": 2,
+      "sourceId": "dd113",
+      "status": "byte-identical-existing-source",
+      "newUniqueQuestions": 0
+    },
+    {
+      "file": "小四國文康軒考卷3.pdf",
+      "sha256": "95386b4bdd0ca6e2ddc690e8623ec53c2a92a4d8d4bc5a522d88a98f1dc5482f",
+      "pages": 2,
+      "sourceId": "wx112",
+      "status": "new-source",
+      "newUniqueQuestions": 34
+    },
+    {
+      "file": "小四國文康軒考卷4.pdf",
+      "sha256": "c7bf2ed0fb45c68041a5997243b6962fb54c41eb82fda5df918645e5592b76d7",
+      "pages": 2,
+      "sourceId": "sw112",
+      "status": "byte-identical-existing-source",
+      "newUniqueQuestions": 0
+    },
+    {
+      "file": "小四國文康軒考卷5.pdf",
+      "sha256": "dfe2c5eb82af0ac031a97af2ab14501bbcf74eb6a5e4576cb3da997bdfd35b72",
+      "pages": 2,
+      "sourceId": "wx111",
+      "status": "byte-identical-existing-source",
+      "newUniqueQuestions": 0
+    },
+    {
+      "file": "小四國文康軒考卷6.pdf",
+      "sha256": "568ae85c84b2718b7dad1c60247506af5f1e1f1645f97599ffa3e4539d9f564d",
+      "pages": 2,
+      "sourceId": "dl111",
+      "status": "byte-identical-existing-source",
+      "newUniqueQuestions": 0
+    },
+    {
+      "file": "小四國文康軒考卷7.pdf",
+      "sha256": "35b503e0f341e921b6cca965b474ddd5af7320a5ab9cbce6f2b439036df05748",
+      "pages": 2,
+      "sourceId": "wx109",
+      "status": "new-source",
+      "newUniqueQuestions": 19
+    },
+    {
+      "file": "小四國文康軒考卷8.pdf",
+      "sha256": "5b7cd2971f8e0a6af9e06aa61e90ef1d4015c395c78451d80bfbe67a7e1c1ca7",
+      "pages": 2,
+      "sourceId": "sw109",
+      "status": "new-source",
+      "newUniqueQuestions": 26
+    }
+  ],
+  "candidateRows": 81,
+  "newUniqueQuestions": 79,
+  "duplicateQuestions": [
+    {
+      "sourceRowId": "cx1-sw109-2-1b",
+      "retainedMasteryId": "cx1-dl111-2-10"
+    },
+    {
+      "sourceRowId": "cx1-sw109-2-3",
+      "retainedMasteryId": "cx1-wx111-2-12"
+    }
+  ],
+  "excluded": {
+    "all": "需課文但未附課文、開放造句及作文；未轉入的國字注音題不得用隱藏文字層推斷",
+    "wx112": "第五大題1、4、6、8、9、11；第三大題2改為辨識重複詞組，避免刪詞雙解",
+    "wx109": "第四大題1、5、6、8；第六大題語用判斷及第九大題",
+    "sw109": "第四大題2（凌晨的時段邊界）、5、6（課文依賴）、9（本批未收錄）"
+  },
+  "routing": "既有四年級康軒國語分流；敦化校籍與Here We Go 7分流另有待辦，不宣稱已套用",
+  "reviewCorrections": [
+    "移除可接受異體寫法「稱贊」「三嵗」干擾選項",
+    "移除缺少原句時同樣成立的「情事」干擾選項",
+    "原配對題拆為獨立單題後，陽光不以「柔柔」為干擾，微風不以「暖暖」為干擾",
+    "保留原卷異體字「開朖／偁讚」，但改問課本常用的標準字形，明示異體字意義",
+    "刪詞題明定保留「長久流傳」的語意"
+  ],
+  "verification": {
+    "sourceReview": "PASS: six new-source pages, 81 rows; independent read-only verifier; reported variant/ambiguity fixes rechecked",
+    "focusedTests": "PASS:11/11 after final text corrections including rendered reading passages",
+    "fullTests": "PASS:115 files/838 tests before final wording corrections; affected tests rerun after",
+    "build": "PASS: final build including pronunciation/type checks",
+    "authenticatedLocal": "PASS: complete reading passage, server-hidden answer/future questions, correct answer,20 points and mastery persisted",
+    "production": "PASS:16 exact asset hashes; health200; adminHTML200; protected endpoints401 anonymously",
+    "rollback": "Retain new question IDs for active sessions and review history if temporarily disabling allocation."
+  },
+  "deployment": {
+    "runtimeCommit": "1f60fa5",
+    "id": "086c8972-967d-4ee9-8b08-85961bab43a0",
+    "status": "SUCCESS"
+  }
+}

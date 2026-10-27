@@ -1,0 +1,15 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/ipad-next-button/星潮網站開發
+
+
+ Test Files  125 passed | 22 skipped (147)
+      Tests  859 passed | 177 skipped (1036)
+   Start at  20:29:07
+   Duration  7.98s (tests 45%, import 38%, transform 16%, worker 1%)
+
+    Isolate  147 workers spawned · ~90ms startup each (spawn + environment, per file)
+             at least ~925ms faster with isolate: false — reuses workers across files instead of one per file

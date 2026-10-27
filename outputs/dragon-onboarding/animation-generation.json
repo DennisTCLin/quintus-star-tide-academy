@@ -1,0 +1,172 @@
+{
+  "provider": "Higgsfield",
+  "model": "seedance_2_5",
+  "reference": "https://quintus-star-tide-academy-production.up.railway.app/assets/star-tide-dragon.png",
+  "estimatedCredits": 140,
+  "names": [
+    "welcome",
+    "listening",
+    "thinking",
+    "speaking",
+    "cheering"
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "03000c01-a2e3-4197-8e05-bf119884b445",
+      "status": "pending",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "job_id": "97481c30-3ff1-4641-88ff-93bec2976c09",
+      "status": "pending",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "job_id": "63317392-3b2b-429c-ac8e-56824d6353d0",
+      "status": "pending",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "job_id": "097a5529-8358-4bda-832b-6c4393457b84",
+      "status": "pending",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "job_id": "b4e2ec5d-4a18-483e-9509-8e765d258df8",
+      "status": "pending",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Seedance 2.5 backend expects schema-key media roles"
+        }
+      }
+    }
+  ],
+  "requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "resolution": "720p",
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "count": 1,
+        "prompt": "Create an animated web-game mascot state from the EXACT reference character: cyan and teal baby ocean dragon head and shoulder bust, creamy pale face and muzzle, one large navy blue eye, swept teal fins, pale yellow ear details, and small golden four-point stars. Preserve the original clean 2D vector-like shaded illustration, silhouette, proportions, recognizable face and color palette. It is a bust emblem, NOT a full-bodied animal; no new hands, human limbs, clothing or accessories. Fixed camera, no camera pan/zoom/cuts. Single centered mascot fills about 78 percent of a square canvas with margin around all tips. Flat solid dark navy background #082b3d, same color everywhere with no scenery, texture, smoke or text, and stable lighting. Smooth restrained hand-drawn character animation with real independent facial and fin movement, not a rigid image sliding or rotating. Start and finish at matching neutral reference pose for a calm seamless loop. No letters, captions, UI, logos other than the mascot itself, and no audio. STATE welcome: The dragon looks kindly at the viewer and waves its existing small curved pectoral fin at lower left twice in a friendly hello. One natural eye blink and a soft warm smile; swept head fins follow slightly, then settle. Fin visibly articulates while head stays mostly steady.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/star-tide-dragon.png"
+          }
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "resolution": "720p",
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "count": 1,
+        "prompt": "Create an animated web-game mascot state from the EXACT reference character: cyan and teal baby ocean dragon head and shoulder bust, creamy pale face and muzzle, one large navy blue eye, swept teal fins, pale yellow ear details, and small golden four-point stars. Preserve the original clean 2D vector-like shaded illustration, silhouette, proportions, recognizable face and color palette. It is a bust emblem, NOT a full-bodied animal; no new hands, human limbs, clothing or accessories. Fixed camera, no camera pan/zoom/cuts. Single centered mascot fills about 78 percent of a square canvas with margin around all tips. Flat solid dark navy background #082b3d, same color everywhere with no scenery, texture, smoke or text, and stable lighting. Smooth restrained hand-drawn character animation with real independent facial and fin movement, not a rigid image sliding or rotating. Start and finish at matching neutral reference pose for a calm seamless loop. No letters, captions, UI, logos other than the mascot itself, and no audio. STATE listening: The dragon attentively tilts its head slightly toward the viewer, raises its ear-fin to listen, gives one slow blink and a tiny receptive nod. Mouth remains closed in a soft smile. Calm interested expression, not a speaking motion. Head and ear fins articulate independently, then return to neutral.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/star-tide-dragon.png"
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "resolution": "720p",
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "count": 1,
+        "prompt": "Create an animated web-game mascot state from the EXACT reference character: cyan and teal baby ocean dragon head and shoulder bust, creamy pale face and muzzle, one large navy blue eye, swept teal fins, pale yellow ear details, and small golden four-point stars. Preserve the original clean 2D vector-like shaded illustration, silhouette, proportions, recognizable face and color palette. It is a bust emblem, NOT a full-bodied animal; no new hands, human limbs, clothing or accessories. Fixed camera, no camera pan/zoom/cuts. Single centered mascot fills about 78 percent of a square canvas with margin around all tips. Flat solid dark navy background #082b3d, same color everywhere with no scenery, texture, smoke or text, and stable lighting. Smooth restrained hand-drawn character animation with real independent facial and fin movement, not a rigid image sliding or rotating. Start and finish at matching neutral reference pose for a calm seamless loop. No letters, captions, UI, logos other than the mascot itself, and no audio. STATE thinking: The dragon looks gently upward with its eye, furrows its brow just slightly in curious thought, blinks, then returns gaze to the viewer with a small realizing smile. Mouth remains nearly closed. Subtle real eyebrow and pupil animation; golden stars remain in their usual positions, no thought bubble.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/star-tide-dragon.png"
+          }
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "resolution": "720p",
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "count": 1,
+        "prompt": "Create an animated web-game mascot state from the EXACT reference character: cyan and teal baby ocean dragon head and shoulder bust, creamy pale face and muzzle, one large navy blue eye, swept teal fins, pale yellow ear details, and small golden four-point stars. Preserve the original clean 2D vector-like shaded illustration, silhouette, proportions, recognizable face and color palette. It is a bust emblem, NOT a full-bodied animal; no new hands, human limbs, clothing or accessories. Fixed camera, no camera pan/zoom/cuts. Single centered mascot fills about 78 percent of a square canvas with margin around all tips. Flat solid dark navy background #082b3d, same color everywhere with no scenery, texture, smoke or text, and stable lighting. Smooth restrained hand-drawn character animation with real independent facial and fin movement, not a rigid image sliding or rotating. Start and finish at matching neutral reference pose for a calm seamless loop. No letters, captions, UI, logos other than the mascot itself, and no audio. STATE talking: The dragon speaks silently in a warm friendly manner. Its small mouth clearly opens and closes several times through distinct readable speech shapes with slight jaw motion while its eyes stay attentive; one natural blink, gentle facial expression. No tongue sticking out, no loud shouting, no exaggerated teeth, no body bouncing. Mouth motion is the primary action, then returns to closed smile.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/star-tide-dragon.png"
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "resolution": "720p",
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "count": 1,
+        "prompt": "Create an animated web-game mascot state from the EXACT reference character: cyan and teal baby ocean dragon head and shoulder bust, creamy pale face and muzzle, one large navy blue eye, swept teal fins, pale yellow ear details, and small golden four-point stars. Preserve the original clean 2D vector-like shaded illustration, silhouette, proportions, recognizable face and color palette. It is a bust emblem, NOT a full-bodied animal; no new hands, human limbs, clothing or accessories. Fixed camera, no camera pan/zoom/cuts. Single centered mascot fills about 78 percent of a square canvas with margin around all tips. Flat solid dark navy background #082b3d, same color everywhere with no scenery, texture, smoke or text, and stable lighting. Smooth restrained hand-drawn character animation with real independent facial and fin movement, not a rigid image sliding or rotating. Start and finish at matching neutral reference pose for a calm seamless loop. No letters, captions, UI, logos other than the mascot itself, and no audio. STATE encouraging: The dragon gives two small happy nods, closes its eye briefly in a bright reassuring smile, and lifts its existing curved pectoral fin once in a supportive cheer. Cheerful but gentle, never shaking rapidly. Keep all facial proportions stable and return to neutral.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/star-tide-dragon.png"
+          }
+        ]
+      }
+    }
+  ]
+}

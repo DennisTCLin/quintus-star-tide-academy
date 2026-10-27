@@ -1,0 +1,32 @@
+{
+  "before": {
+    "status": 200,
+    "id": "c1-g4-english-01",
+    "keys": [
+      "id",
+      "grade",
+      "course",
+      "subject",
+      "skill",
+      "level",
+      "prompt",
+      "options",
+      "hint"
+    ],
+    "revision": 78,
+    "review": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "after": {
+    "id": "c1-g4-english-01",
+    "answer": 0,
+    "explanationVisible": true,
+    "revision": 79
+  }
+}

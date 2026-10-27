@@ -1,0 +1,16 @@
+{
+  "status": "SUCCESS",
+  "deploymentId": "f928551e-a119-43de-9bff-042e2b48c41e",
+  "runtimeCommit": "d800dc7027fd28c4acec6b2816a34879f9f9a6a1",
+  "pullRequest": 15,
+  "verifiedAt": "2026-10-27T08:12:33.917861+00:00",
+  "url": "https://quintus-star-tide-academy-production.up.railway.app/",
+  "productionBrowserChecks": 36,
+  "changedFileHashesVerified": 7,
+  "unchangedMediaSamplesVerified": 6,
+  "health": true,
+  "anonymousStateStatus": 401,
+  "playerWrites": false,
+  "physicalDevicesTested": false,
+  "visualReview": "Published WebKit iPad and settled Chromium phone show original page behind transparent corner character; no bottom strip."
+}

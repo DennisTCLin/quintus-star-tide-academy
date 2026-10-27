@@ -1,0 +1,90 @@
+{
+  "status": "Implemented with Council synthesis and browser verification",
+  "base": "741bd6520b830bd99101c27a2902f1e3bbe0da0f",
+  "scope": [
+    "Math Island map",
+    "unit hub",
+    "question stage chrome",
+    "result and parent panels"
+  ],
+  "palette": {
+    "ocean": "#09283b",
+    "surface": "#12364c",
+    "mint": "#8ce8df",
+    "gold": "#ffd681",
+    "text": "#effbff",
+    "muted": "#adccd9"
+  },
+  "typography": {
+    "family": "inherit main site Traditional Chinese stack",
+    "title": "clamp 28–40px bold",
+    "question": "22–26px plus existing zhuyin",
+    "body": "16–18px",
+    "answers": "28–40px tabular numerals"
+  },
+  "layout": [
+    "Main-site navigation unchanged",
+    "Map heading plus clear choice instruction",
+    "Three illustrated destinations in desktop grid; one per row on phones",
+    "Each destination: art, title, topic, labeled stage progress and visible action",
+    "Unreleased units separated below the three playable islands",
+    "Unit scenic banner, existing guardian, three labeled stages",
+    "Question content on quiet contrast surface; no decorative countable objects"
+  ],
+  "principles": [
+    "One shared ocean world, not a second app palette",
+    "Destination art is decorative; all labels and state remain HTML",
+    "Interaction feedback serves learning, no looping decoration while answering",
+    "Existing companion artwork reused without identity changes"
+  ],
+  "contracts_to_preserve": [
+    "six questions for scored rounds",
+    "three wrong answers stop scored rounds",
+    "server-authoritative rewards and progress",
+    "min 44px touch targets",
+    "manual read aloud and zhuyin",
+    "prefers-reduced-motion and in-app reduced setting",
+    "cloud resume and existing offline fix",
+    "V1/V2 voyage readers and native rarity stats; never release a V1-only reader after V2 writes"
+  ],
+  "visual_checks": [
+    "320,390,820,1440 widths",
+    "keyboard visible focus",
+    "missing artwork keeps navigation usable",
+    "learn demonstration",
+    "normal question",
+    "boss keypad",
+    "failed result",
+    "contrast of dark surfaces and pale teaching scenes",
+    "console errors and image weights"
+  ],
+  "coordination": {
+    "IslandApp.tsx": "handoff received; visual writer may proceed after pending Council acceptance",
+    "publication": "coordinator reports 741bd65 deployed; verify latest baseline before visual release"
+  },
+  "generation": {
+    "provider": "Higgsfield",
+    "model": "gpt_image_2_5",
+    "job_id": "7995699b-3dc8-4792-bb0f-77bf0be003af",
+    "estimated_credits": 2.75,
+    "reference": "public/assets/hero-ocean.jpg",
+    "purpose": "three island panorama, reusable destination crops",
+    "status": "completed"
+  },
+  "council_preflight": {
+    "mode": "standard",
+    "profile": "compact",
+    "members": 6,
+    "reviewers": 3,
+    "browser_evidence": 1,
+    "estimate_range": [
+      21879,
+      39382
+    ],
+    "billing_tokens": false
+  },
+  "baseline_verification": {
+    "tests": "native-creature-growth + island-cloud-rules",
+    "passed": 18
+  }
+}

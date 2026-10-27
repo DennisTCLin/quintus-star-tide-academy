@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "scope": "Resolution of all mandatory findings from /tmp/science6-verifier.json plus four added candidates and changed fields; prior full 173-candidate textual science review retained.",
+  "verifiedNewCandidates": [
+    "5/p3/三三2",
+    "8/p2/四2(5)",
+    "6/p1/一1",
+    "10/p1/第一關10"
+  ],
+  "verifiedTextCorrections": [
+    "5/三六3 explicitly begins with room-temperature water",
+    "5/一7 explicitly qualifies geostationary weather satellite",
+    "10/第二關5 explicitly orders conductivity fast to slow"
+  ],
+  "verifiedLedgerCorrections": [
+    "5/三三2 own canonical and all three control-variable subitems",
+    "8/四2(5) own flooding canonical",
+    "6/一1 own fair-weather canonical",
+    "10/第一關10 own material-dependent-expansion canonical",
+    "9/三1(2)-冰水 to 2/一3(1)",
+    "9/四2(1)-傳導 to 5/四6",
+    "Five stale subitem originalSummary strings now describe original heat-source controls, balloon cooling and cap conduction correctly"
+  ],
+  "structuralChecks": {
+    "candidateTotal": 207,
+    "eachHasFourDistinctOptions": true,
+    "all610LedgerCanonicalTargetsResolve": true
+  },
+  "remainingBlockingFindings": [],
+  "limits": [
+    "Not an exhaustive visual re-review of source PDFs or all excluded, pending, ambiguous and image-dependent items. Previous visual sample covers six original pages only.",
+    "No official answer key was available.",
+    "PASS applies to scoped content and correction resolution, not website behavior, importer behavior, publication, or independent completeness certification of every source item."
+  ],
+  "fileSha256": {
+    "scripts/imports/grade6-science-curated.json": "4ccf4362e521de7bbd6d4a4b7cfaa132b7aef834216a1bead5c51583c24c5842",
+    "output/grade6-completion/science-coverage-raw.json": "c812484b9d53d41089b2440faedb3cfb2789a0d402b87231e7fff08934156b85"
+  }
+}

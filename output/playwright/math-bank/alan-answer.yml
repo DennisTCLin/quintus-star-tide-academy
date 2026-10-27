@@ -1,0 +1,105 @@
+- generic [ref=f1e12]:
+  - link "跳到主要內容" [ref=f1e13] [cursor=pointer]:
+    - /url: "#family-main"
+  - status [ref=f1e14]:
+    - generic [ref=f1e15]:
+      - text: alan ·
+      - generic [ref=f1e680]: ☁
+      - text: 已儲存至雲端
+    - button "登出" [ref=f1e20] [cursor=pointer]
+  - main [ref=f1e96]:
+    - region "答題怪物戰鬥" [ref=f1e501]:
+      - generic [ref=f1e502]:
+        - generic [ref=f1e503]:
+          - generic [ref=f1e504]: ⚔️
+          - text: 答對就出招
+        - button "暫停背景音樂" [pressed] [ref=f1e590] [cursor=pointer]:
+          - generic [ref=f1e591]: Ⅱ
+          - text: 暫停音樂
+      - generic [ref=f1e508]:
+        - generic [ref=f1e510]:
+          - generic [ref=f1e511]:
+            - strong [ref=f1e512]: 潮光獸
+            - meter "夥伴生命" [ref=f1e513]
+            - generic [ref=f1e515]: 100 / 100
+          - generic [ref=f1e516]:
+            - strong [ref=f1e517]: 銀羅盤龍
+            - meter "怪物體力" [ref=f1e518]
+            - generic [ref=f1e520]: 103 / 112
+        - img "潮光獸" [ref=f1e525]
+        - generic [ref=f1e527]:
+          - img "銀羅盤龍" [ref=f1e530]
+          - generic: −9
+        - status:
+          - generic: ✦
+          - text: 升級！Lv.2
+      - status [ref=f1e531]: 攻擊命中！夥伴 +10 XP
+      - group [ref=f1e532]:
+        - generic "夥伴成長與戰鬥說明" [ref=f1e533] [cursor=pointer]
+    - generic [ref=f1e595]:
+      - button "回到港口" [ref=f1e596] [cursor=pointer]:
+        - generic [ref=f1e597]: ⛵
+      - generic "第 1 題，共 6 題" [ref=f1e601]:
+        - generic [ref=f1e602]: ✓
+        - generic [ref=f1e603]: "2"
+        - generic [ref=f1e604]: "3"
+        - generic [ref=f1e605]: "4"
+        - generic [ref=f1e606]: "5"
+        - generic [ref=f1e607]: "6"
+      - generic "累計答錯 0 題，三題即失敗" [ref=f1e608]: ❤️❤️❤️ 0 / 3
+    - generic [ref=f1e609]:
+      - generic [ref=f1e610]:
+        - strong [ref=f1e611]:
+          - generic [ref=f1e612]: 🎯
+          - text: 已答對 1 題 · 目標 4 題
+        - generic [ref=f1e616]: 這題已保存
+      - group [ref=f1e621]:
+        - generic [ref=f1e622]:
+          - paragraph [ref=f1e623]: 試卷題・文心國小 112學年度四上・翰林・第1頁 1-1（選填題改編）
+          - generic [ref=f1e624]:
+            - generic [ref=f1e625]: 挑戰 1 / 6
+            - generic [ref=f1e626]: 4 年級
+          - heading "下面哪個金額寫成「元」時，是七位數？" [level=1] [ref=f1e627]
+          - generic [ref=f1e628]:
+            - button "播放題目聲音" [ref=f1e629] [cursor=pointer]:
+              - generic [ref=f1e630]: 👂
+              - generic [ref=f1e635]: 聽題目
+              - generic [ref=f1e636]: ▶
+            - button "🛡️ 護盾" [disabled] [ref=f1e642]:
+              - generic [ref=f1e643]: 🛡️
+              - text: 護盾
+          - generic [ref=f1e648]:
+            - button "選擇 217萬元" [disabled] [ref=f1e649]:
+              - generic [ref=f1e650]: 217萬元
+            - button "選擇 70萬元" [disabled] [ref=f1e652]:
+              - generic [ref=f1e653]: 70萬元
+            - button "選擇 17萬元" [disabled] [ref=f1e655]:
+              - generic [ref=f1e656]: 17萬元
+            - button "選擇 1000萬元" [disabled] [ref=f1e658]:
+              - generic [ref=f1e659]: 1000萬元
+          - button "💡 提示" [disabled] [ref=f1e662]:
+            - generic [ref=f1e663]: 💡
+            - text: 提示
+          - status [ref=f1e667]:
+            - generic [ref=f1e668]: 新題探索 · 依本場挑戰安排
+            - button "聽出題說明" [ref=f1e669] [cursor=pointer]:
+              - generic [ref=f1e670]: 🔊
+          - paragraph [ref=f1e674]: 每題只能選一次。答錯或超時三次即失敗；六題答對 4 題才通關。每兩場成功換一張券。
+    - generic "自動換題" [ref=f1e688]:
+      - status [ref=f1e689]:
+        - text: 答對了！夥伴出招！
+        - generic [ref=f1e690]: 動作結束後繼續下一題
+      - button "Ⅱ 暫停換題" [ref=f1e691] [cursor=pointer]:
+        - generic [ref=f1e692]: Ⅱ
+        - text: 暫停換題
+    - button "⏹ 結束航程" [ref=f1e675] [cursor=pointer]:
+      - generic [ref=f1e676]: ⏹
+      - text: 結束航程
+  - contentinfo [ref=f1e465]:
+    - generic [ref=f1e466]:
+      - img "星潮學院 Star Tide Academy — 星潮小龍" [ref=f1e467]:
+        - generic [aria-hidden] [ref=f1e468]:
+          - strong [ref=f1e469]: 星潮學院
+          - generic [ref=f1e470]: STAR TIDE ACADEMY
+      - generic [ref=f1e471]: 測試航海員
+    - generic [ref=f1e472]: 學習點數不扣除，休息後再一起出發。

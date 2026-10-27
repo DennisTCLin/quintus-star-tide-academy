@@ -1,0 +1,1938 @@
+{
+  "themes": [
+    {
+      "id": "market",
+      "title": "果菜市場",
+      "icon": "🍓",
+      "image": "/assets/market.png",
+      "items": [
+        {
+          "id": "market-0",
+          "word": "香蕉",
+          "zy": "ㄒㄧㄤ ㄐㄧㄠ",
+          "pin": [
+            0.075,
+            0.12
+          ],
+          "pos": 0
+        },
+        {
+          "id": "market-1",
+          "word": "蘋果",
+          "zy": "ㄆㄧㄥˊ ㄍㄨㄛˇ",
+          "pin": [
+            0.405,
+            0.12
+          ],
+          "pos": 1
+        },
+        {
+          "id": "market-2",
+          "word": "西瓜",
+          "zy": "ㄒㄧ ㄍㄨㄚ",
+          "pin": [
+            0.68,
+            0.12
+          ],
+          "pos": 2
+        },
+        {
+          "id": "market-3",
+          "word": "草莓",
+          "zy": "ㄘㄠˇ ㄇㄟˊ",
+          "pin": [
+            0.065,
+            0.4
+          ],
+          "pos": 3
+        },
+        {
+          "id": "market-4",
+          "word": "葡萄",
+          "zy": "ㄆㄨˊ ㄊㄠˊ",
+          "pin": [
+            0.39,
+            0.4
+          ],
+          "pos": 4
+        },
+        {
+          "id": "market-5",
+          "word": "玉米",
+          "zy": "ㄩˋ ㄇㄧˇ",
+          "pin": [
+            0.69,
+            0.4
+          ],
+          "pos": 5
+        },
+        {
+          "id": "market-6",
+          "word": "南瓜",
+          "zy": "ㄋㄢˊ ㄍㄨㄚ",
+          "pin": [
+            0.04,
+            0.63
+          ],
+          "pos": 6
+        },
+        {
+          "id": "market-7",
+          "word": "紅蘿蔔",
+          "zy": "ㄏㄨㄥˊ ㄌㄨㄛˊ ˙ㄅㄛ",
+          "pin": [
+            0.37,
+            0.65
+          ],
+          "pos": 7
+        },
+        {
+          "id": "market-8",
+          "word": "番茄",
+          "zy": "ㄈㄢ ㄑㄧㄝˊ",
+          "pin": [
+            0.7,
+            0.65
+          ],
+          "pos": 8
+        }
+      ]
+    },
+    {
+      "id": "breakfast",
+      "title": "早餐小館",
+      "icon": "🥐",
+      "image": "/assets/breakfast.png",
+      "items": [
+        {
+          "id": "breakfast-0",
+          "word": "麵包",
+          "zy": "ㄇㄧㄢˋ ㄅㄠ",
+          "pin": [
+            0.07,
+            0.06
+          ],
+          "pos": 0
+        },
+        {
+          "id": "breakfast-1",
+          "word": "牛奶",
+          "zy": "ㄋㄧㄡˊ ㄋㄞˇ",
+          "pin": [
+            0.42,
+            0.045
+          ],
+          "pos": 1
+        },
+        {
+          "id": "breakfast-2",
+          "word": "雞蛋",
+          "zy": "ㄐㄧ ㄉㄢˋ",
+          "pin": [
+            0.68,
+            0.13
+          ],
+          "pos": 2
+        },
+        {
+          "id": "breakfast-3",
+          "word": "豆漿",
+          "zy": "ㄉㄡˋ ㄐㄧㄤ",
+          "pin": [
+            0.09,
+            0.385
+          ],
+          "pos": 3
+        },
+        {
+          "id": "breakfast-4",
+          "word": "包子",
+          "zy": "ㄅㄠ ˙ㄗ",
+          "pin": [
+            0.38,
+            0.39
+          ],
+          "pos": 4
+        },
+        {
+          "id": "breakfast-5",
+          "word": "饅頭",
+          "zy": "ㄇㄢˊ ˙ㄊㄡ",
+          "pin": [
+            0.66,
+            0.39
+          ],
+          "pos": 5
+        },
+        {
+          "id": "breakfast-6",
+          "word": "飯糰",
+          "zy": "ㄈㄢˋ ㄊㄨㄢˊ",
+          "pin": [
+            0.06,
+            0.67
+          ],
+          "pos": 6
+        },
+        {
+          "id": "breakfast-7",
+          "word": "地瓜",
+          "zy": "ㄉㄧˋ ㄍㄨㄚ",
+          "pin": [
+            0.37,
+            0.69
+          ],
+          "pos": 7
+        },
+        {
+          "id": "breakfast-8",
+          "word": "餅乾",
+          "zy": "ㄅㄧㄥˇ ㄍㄢ",
+          "pin": [
+            0.68,
+            0.69
+          ],
+          "pos": 8
+        }
+      ]
+    },
+    {
+      "id": "ocean",
+      "title": "海底尋寶",
+      "icon": "🐙",
+      "image": "/assets/ocean.png",
+      "items": [
+        {
+          "id": "ocean-0",
+          "word": "螃蟹",
+          "zy": "ㄆㄤˊ ㄒㄧㄝˋ",
+          "pin": [
+            0.05,
+            0.075
+          ],
+          "pos": 0
+        },
+        {
+          "id": "ocean-1",
+          "word": "海星",
+          "zy": "ㄏㄞˇ ㄒㄧㄥ",
+          "pin": [
+            0.39,
+            0.07
+          ],
+          "pos": 1
+        },
+        {
+          "id": "ocean-2",
+          "word": "貝殼",
+          "zy": "ㄅㄟˋ ㄎㄜˊ",
+          "pin": [
+            0.72,
+            0.055
+          ],
+          "pos": 2
+        },
+        {
+          "id": "ocean-3",
+          "word": "水母",
+          "zy": "ㄕㄨㄟˇ ㄇㄨˇ",
+          "pin": [
+            0.06,
+            0.34
+          ],
+          "pos": 3
+        },
+        {
+          "id": "ocean-4",
+          "word": "章魚",
+          "zy": "ㄓㄤ ㄩˊ",
+          "pin": [
+            0.39,
+            0.35
+          ],
+          "pos": 4
+        },
+        {
+          "id": "ocean-5",
+          "word": "海龜",
+          "zy": "ㄏㄞˇ ㄍㄨㄟ",
+          "pin": [
+            0.69,
+            0.36
+          ],
+          "pos": 5
+        },
+        {
+          "id": "ocean-6",
+          "word": "小魚",
+          "zy": "ㄒㄧㄠˇ ㄩˊ",
+          "pin": [
+            0.06,
+            0.69
+          ],
+          "pos": 6
+        },
+        {
+          "id": "ocean-7",
+          "word": "龍蝦",
+          "zy": "ㄌㄨㄥˊ ㄒㄧㄚ",
+          "pin": [
+            0.39,
+            0.66
+          ],
+          "pos": 7
+        },
+        {
+          "id": "ocean-8",
+          "word": "海馬",
+          "zy": "ㄏㄞˇ ㄇㄚˇ",
+          "pin": [
+            0.77,
+            0.63
+          ],
+          "pos": 8
+        }
+      ]
+    },
+    {
+      "id": "bath",
+      "title": "泡泡浴室",
+      "icon": "🫧",
+      "image": "/assets/bath.png",
+      "items": [
+        {
+          "id": "bath-0",
+          "word": "牙刷",
+          "zy": "ㄧㄚˊ ㄕㄨㄚ",
+          "pin": [
+            0.2,
+            0.06
+          ],
+          "pos": 0
+        },
+        {
+          "id": "bath-1",
+          "word": "毛巾",
+          "zy": "ㄇㄠˊ ㄐㄧㄣ",
+          "pin": [
+            0.42,
+            0.065
+          ],
+          "pos": 1
+        },
+        {
+          "id": "bath-2",
+          "word": "肥皂",
+          "zy": "ㄈㄟˊ ㄗㄠˋ",
+          "pin": [
+            0.69,
+            0.1
+          ],
+          "pos": 2
+        },
+        {
+          "id": "bath-3",
+          "word": "梳子",
+          "zy": "ㄕㄨ ˙ㄗ",
+          "pin": [
+            0.17,
+            0.42
+          ],
+          "pos": 3
+        },
+        {
+          "id": "bath-4",
+          "word": "鏡子",
+          "zy": "ㄐㄧㄥˋ ˙ㄗ",
+          "pin": [
+            0.43,
+            0.33
+          ],
+          "pos": 4
+        },
+        {
+          "id": "bath-5",
+          "word": "浴缸",
+          "zy": "ㄩˋ ㄍㄤ",
+          "pin": [
+            0.7,
+            0.36
+          ],
+          "pos": 5
+        },
+        {
+          "id": "bath-6",
+          "word": "拖鞋",
+          "zy": "ㄊㄨㄛ ㄒㄧㄝˊ",
+          "pin": [
+            0.09,
+            0.7
+          ],
+          "pos": 6
+        },
+        {
+          "id": "bath-7",
+          "word": "水桶",
+          "zy": "ㄕㄨㄟˇ ㄊㄨㄥˇ",
+          "pin": [
+            0.43,
+            0.65
+          ],
+          "pos": 7
+        },
+        {
+          "id": "bath-8",
+          "word": "蓮蓬頭",
+          "zy": "ㄌㄧㄢˊ ˙ㄆㄥ ㄊㄡˊ",
+          "pin": [
+            0.71,
+            0.63
+          ],
+          "pos": 8
+        }
+      ]
+    },
+    {
+      "id": "toys",
+      "title": "玩具小屋",
+      "icon": "🧸",
+      "image": "/assets/toys.png",
+      "items": [
+        {
+          "id": "toys-0",
+          "word": "積木",
+          "zy": "ㄐㄧ ㄇㄨˋ",
+          "pin": [
+            0.16,
+            0.29
+          ],
+          "pos": 0
+        },
+        {
+          "id": "toys-1",
+          "word": "火車",
+          "zy": "ㄏㄨㄛˇ ㄔㄜ",
+          "pin": [
+            0.39,
+            0.09
+          ],
+          "pos": 1
+        },
+        {
+          "id": "toys-2",
+          "word": "飛機",
+          "zy": "ㄈㄟ ㄐㄧ",
+          "pin": [
+            0.7,
+            0.09
+          ],
+          "pos": 2
+        },
+        {
+          "id": "toys-3",
+          "word": "機器人",
+          "zy": "ㄐㄧ ㄑㄧˋ ㄖㄣˊ",
+          "pin": [
+            0.11,
+            0.36
+          ],
+          "pos": 3
+        },
+        {
+          "id": "toys-4",
+          "word": "布偶",
+          "zy": "ㄅㄨˋ ㄡˇ",
+          "pin": [
+            0.39,
+            0.36
+          ],
+          "pos": 4
+        },
+        {
+          "id": "toys-5",
+          "word": "皮球",
+          "zy": "ㄆㄧˊ ㄑㄧㄡˊ",
+          "pin": [
+            0.7,
+            0.4
+          ],
+          "pos": 5
+        },
+        {
+          "id": "toys-6",
+          "word": "拼圖",
+          "zy": "ㄆㄧㄣ ㄊㄨˊ",
+          "pin": [
+            0.055,
+            0.68
+          ],
+          "pos": 6
+        },
+        {
+          "id": "toys-7",
+          "word": "陀螺",
+          "zy": "ㄊㄨㄛˊ ㄌㄨㄛˊ",
+          "pin": [
+            0.4,
+            0.69
+          ],
+          "pos": 7
+        },
+        {
+          "id": "toys-8",
+          "word": "小鼓",
+          "zy": "ㄒㄧㄠˇ ㄍㄨˇ",
+          "pin": [
+            0.7,
+            0.68
+          ],
+          "pos": 8
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "title": "森林音樂室",
+      "icon": "🎵",
+      "image": "/assets/music.png",
+      "items": [
+        {
+          "id": "music-0",
+          "word": "鋼琴",
+          "zy": "ㄍㄤ ㄑㄧㄣˊ",
+          "pin": [
+            0.07,
+            0.08
+          ],
+          "pos": 0
+        },
+        {
+          "id": "music-1",
+          "word": "小提琴",
+          "zy": "ㄒㄧㄠˇ ㄊㄧˊ ㄑㄧㄣˊ",
+          "pin": [
+            0.4,
+            0.065
+          ],
+          "pos": 1
+        },
+        {
+          "id": "music-2",
+          "word": "吉他",
+          "zy": "ㄐㄧˊ ㄊㄚ",
+          "pin": [
+            0.78,
+            0.07
+          ],
+          "pos": 2
+        },
+        {
+          "id": "music-3",
+          "word": "喇叭",
+          "zy": "ㄌㄚˇ ㄅㄚ",
+          "pin": [
+            0.04,
+            0.42
+          ],
+          "pos": 3
+        },
+        {
+          "id": "music-4",
+          "word": "木琴",
+          "zy": "ㄇㄨˋ ㄑㄧㄣˊ",
+          "pin": [
+            0.39,
+            0.44
+          ],
+          "pos": 4
+        },
+        {
+          "id": "music-5",
+          "word": "鈴鼓",
+          "zy": "ㄌㄧㄥˊ ㄍㄨˇ",
+          "pin": [
+            0.72,
+            0.42
+          ],
+          "pos": 5
+        },
+        {
+          "id": "music-6",
+          "word": "三角鐵",
+          "zy": "ㄙㄢ ㄐㄧㄠˇ ㄊㄧㄝˇ",
+          "pin": [
+            0.06,
+            0.68
+          ],
+          "pos": 6
+        },
+        {
+          "id": "music-7",
+          "word": "直笛",
+          "zy": "ㄓˊ ㄉㄧˊ",
+          "pin": [
+            0.38,
+            0.7
+          ],
+          "pos": 7
+        },
+        {
+          "id": "music-8",
+          "word": "沙鈴",
+          "zy": "ㄕㄚ ㄌㄧㄥˊ",
+          "pin": [
+            0.74,
+            0.67
+          ],
+          "pos": 8
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "title": "彩色美勞室",
+      "icon": "🎨",
+      "image": "/assets/art.png",
+      "items": [
+        {
+          "id": "art-0",
+          "word": "剪刀",
+          "zy": "ㄐㄧㄢˇ ㄉㄠ",
+          "pin": [
+            0.095,
+            0.3
+          ],
+          "pos": 0
+        },
+        {
+          "id": "art-1",
+          "word": "白膠",
+          "zy": "ㄅㄞˊ ㄐㄧㄠ",
+          "pin": [
+            0.41,
+            0.26
+          ],
+          "pos": 1
+        },
+        {
+          "id": "art-2",
+          "word": "蠟筆",
+          "zy": "ㄌㄚˋ ㄅㄧˇ",
+          "pin": [
+            0.64,
+            0.15
+          ],
+          "pos": 2
+        },
+        {
+          "id": "art-3",
+          "word": "彩色筆",
+          "zy": "ㄘㄞˇ ㄙㄜˋ ㄅㄧˇ",
+          "pin": [
+            0.075,
+            0.57
+          ],
+          "pos": 3
+        },
+        {
+          "id": "art-4",
+          "word": "水彩",
+          "zy": "ㄕㄨㄟˇ ㄘㄞˇ",
+          "pin": [
+            0.39,
+            0.37
+          ],
+          "pos": 4
+        },
+        {
+          "id": "art-5",
+          "word": "畫筆",
+          "zy": "ㄏㄨㄚˋ ㄅㄧˇ",
+          "pin": [
+            0.68,
+            0.36
+          ],
+          "pos": 5
+        },
+        {
+          "id": "art-6",
+          "word": "白紙",
+          "zy": "ㄅㄞˊ ㄓˇ",
+          "pin": [
+            0.05,
+            0.66
+          ],
+          "pos": 6
+        },
+        {
+          "id": "art-7",
+          "word": "黏土",
+          "zy": "ㄋㄧㄢˊ ㄊㄨˇ",
+          "pin": [
+            0.39,
+            0.67
+          ],
+          "pos": 7
+        },
+        {
+          "id": "art-8",
+          "word": "貼紙",
+          "zy": "ㄊㄧㄝ ㄓˇ",
+          "pin": [
+            0.7,
+            0.66
+          ],
+          "pos": 8
+        }
+      ]
+    },
+    {
+      "id": "clothes",
+      "title": "小兔衣帽間",
+      "icon": "🧣",
+      "image": "/assets/clothes.png",
+      "items": [
+        {
+          "id": "clothes-0",
+          "word": "帽子",
+          "zy": "ㄇㄠˋ ˙ㄗ",
+          "pin": [
+            0.2,
+            0.06
+          ],
+          "pos": 0
+        },
+        {
+          "id": "clothes-1",
+          "word": "外套",
+          "zy": "ㄨㄞˋ ㄊㄠˋ",
+          "pin": [
+            0.42,
+            0.05
+          ],
+          "pos": 1
+        },
+        {
+          "id": "clothes-2",
+          "word": "雨衣",
+          "zy": "ㄩˇ ㄧ",
+          "pin": [
+            0.69,
+            0.05
+          ],
+          "pos": 2
+        },
+        {
+          "id": "clothes-3",
+          "word": "圍巾",
+          "zy": "ㄨㄟˊ ㄐㄧㄣ",
+          "pin": [
+            0.2,
+            0.4
+          ],
+          "pos": 3
+        },
+        {
+          "id": "clothes-4",
+          "word": "手套",
+          "zy": "ㄕㄡˇ ㄊㄠˋ",
+          "pin": [
+            0.44,
+            0.42
+          ],
+          "pos": 4
+        },
+        {
+          "id": "clothes-5",
+          "word": "襪子",
+          "zy": "ㄨㄚˋ ˙ㄗ",
+          "pin": [
+            0.69,
+            0.42
+          ],
+          "pos": 5
+        },
+        {
+          "id": "clothes-6",
+          "word": "雨鞋",
+          "zy": "ㄩˇ ㄒㄧㄝˊ",
+          "pin": [
+            0.2,
+            0.63
+          ],
+          "pos": 6
+        },
+        {
+          "id": "clothes-7",
+          "word": "裙子",
+          "zy": "ㄑㄩㄣˊ ˙ㄗ",
+          "pin": [
+            0.43,
+            0.65
+          ],
+          "pos": 7
+        },
+        {
+          "id": "clothes-8",
+          "word": "褲子",
+          "zy": "ㄎㄨˋ ˙ㄗ",
+          "pin": [
+            0.7,
+            0.63
+          ],
+          "pos": 8
+        }
+      ]
+    },
+    {
+      "id": "garden",
+      "title": "小小生態花園",
+      "icon": "🦋",
+      "image": "/assets/garden.png",
+      "items": [
+        {
+          "id": "garden-0",
+          "word": "蝴蝶",
+          "zy": "ㄏㄨˊ ㄉㄧㄝˊ",
+          "pin": [
+            0.045,
+            0.12
+          ],
+          "pos": 0
+        },
+        {
+          "id": "garden-1",
+          "word": "蜜蜂",
+          "zy": "ㄇㄧˋ ㄈㄥ",
+          "pin": [
+            0.37,
+            0.06
+          ],
+          "pos": 1
+        },
+        {
+          "id": "garden-2",
+          "word": "蝸牛",
+          "zy": "ㄍㄨㄚ ㄋㄧㄡˊ",
+          "pin": [
+            0.7,
+            0.08
+          ],
+          "pos": 2
+        },
+        {
+          "id": "garden-3",
+          "word": "螞蟻",
+          "zy": "ㄇㄚˇ ㄧˇ",
+          "pin": [
+            0.045,
+            0.39
+          ],
+          "pos": 3
+        },
+        {
+          "id": "garden-4",
+          "word": "蜻蜓",
+          "zy": "ㄑㄧㄥ ㄊㄧㄥˊ",
+          "pin": [
+            0.39,
+            0.34
+          ],
+          "pos": 4
+        },
+        {
+          "id": "garden-5",
+          "word": "瓢蟲",
+          "zy": "ㄆㄧㄠˊ ㄔㄨㄥˊ",
+          "pin": [
+            0.76,
+            0.4
+          ],
+          "pos": 5
+        },
+        {
+          "id": "garden-6",
+          "word": "蜘蛛",
+          "zy": "ㄓ ㄓㄨ",
+          "pin": [
+            0.04,
+            0.66
+          ],
+          "pos": 6
+        },
+        {
+          "id": "garden-7",
+          "word": "蚱蜢",
+          "zy": "ㄓㄚˋ ㄇㄥˇ",
+          "pin": [
+            0.39,
+            0.69
+          ],
+          "pos": 7
+        },
+        {
+          "id": "garden-8",
+          "word": "毛毛蟲",
+          "zy": "ㄇㄠˊ ㄇㄠˊ ㄔㄨㄥˊ",
+          "pin": [
+            0.73,
+            0.69
+          ],
+          "pos": 8
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "title": "溫暖生活小屋",
+      "icon": "🏡",
+      "image": "/assets/home.png",
+      "items": [
+        {
+          "id": "home-0",
+          "word": "檯燈",
+          "zy": "ㄊㄞˊ ㄉㄥ",
+          "pin": [
+            0.305,
+            0.24
+          ],
+          "pos": 0
+        },
+        {
+          "id": "home-1",
+          "word": "時鐘",
+          "zy": "ㄕˊ ㄓㄨㄥ",
+          "pin": [
+            0.39,
+            0.08
+          ],
+          "pos": 1
+        },
+        {
+          "id": "home-2",
+          "word": "電話",
+          "zy": "ㄉㄧㄢˋ ㄏㄨㄚˋ",
+          "pin": [
+            0.71,
+            0.08
+          ],
+          "pos": 2
+        },
+        {
+          "id": "home-3",
+          "word": "枕頭",
+          "zy": "ㄓㄣˇ ˙ㄊㄡ",
+          "pin": [
+            0.07,
+            0.4
+          ],
+          "pos": 3
+        },
+        {
+          "id": "home-4",
+          "word": "棉被",
+          "zy": "ㄇㄧㄢˊ ㄅㄟˋ",
+          "pin": [
+            0.39,
+            0.4
+          ],
+          "pos": 4
+        },
+        {
+          "id": "home-5",
+          "word": "書包",
+          "zy": "ㄕㄨ ㄅㄠ",
+          "pin": [
+            0.71,
+            0.4
+          ],
+          "pos": 5
+        },
+        {
+          "id": "home-6",
+          "word": "鑰匙",
+          "zy": "ㄧㄠˋ ˙ㄕ",
+          "pin": [
+            0.07,
+            0.7
+          ],
+          "pos": 6
+        },
+        {
+          "id": "home-7",
+          "word": "眼鏡",
+          "zy": "ㄧㄢˇ ㄐㄧㄥˋ",
+          "pin": [
+            0.39,
+            0.7
+          ],
+          "pos": 7
+        },
+        {
+          "id": "home-8",
+          "word": "扇子",
+          "zy": "ㄕㄢˋ ˙ㄗ",
+          "pin": [
+            0.71,
+            0.7
+          ],
+          "pos": 8
+        }
+      ]
+    },
+    {
+      "id": "camp",
+      "title": "森林小營地",
+      "icon": "🏕️",
+      "image": "/assets/camp.png",
+      "items": [
+        {
+          "id": "camp-0",
+          "word": "小兔看書",
+          "zy": "ㄒㄧㄠˇ ㄊㄨˋ ㄎㄢˋ ㄕㄨ",
+          "pin": [
+            0.085,
+            0.2
+          ],
+          "pos": 0
+        },
+        {
+          "id": "camp-1",
+          "word": "小熊喝牛奶",
+          "zy": "ㄒㄧㄠˇ ㄒㄩㄥˊ ㄏㄜ ㄋㄧㄡˊ ㄋㄞˇ",
+          "pin": [
+            0.605,
+            0.165
+          ],
+          "pos": 1
+        },
+        {
+          "id": "camp-2",
+          "word": "小豬跳繩",
+          "zy": "ㄒㄧㄠˇ ㄓㄨ ㄊㄧㄠˋ ㄕㄥˊ",
+          "pin": [
+            0.96,
+            0.145
+          ],
+          "pos": 2
+        },
+        {
+          "id": "camp-3",
+          "word": "小猴刷牙",
+          "zy": "ㄒㄧㄠˇ ㄏㄡˊ ㄕㄨㄚ ㄧㄚˊ",
+          "pin": [
+            0.31,
+            0.46
+          ],
+          "pos": 3
+        },
+        {
+          "id": "camp-4",
+          "word": "小鴨撐傘",
+          "zy": "ㄒㄧㄠˇ ㄧㄚ ㄔㄥ ㄙㄢˇ",
+          "pin": [
+            0.62,
+            0.57
+          ],
+          "pos": 4
+        },
+        {
+          "id": "camp-5",
+          "word": "烏龜吃葡萄",
+          "zy": "ㄨ ㄍㄨㄟ ㄔ ㄆㄨˊ ㄊㄠˊ",
+          "pin": [
+            0.95,
+            0.44
+          ],
+          "pos": 5
+        },
+        {
+          "id": "camp-6",
+          "word": "大象放風箏",
+          "zy": "ㄉㄚˋ ㄒㄧㄤˋ ㄈㄤˋ ㄈㄥ ㄓㄥ",
+          "pin": [
+            0.055,
+            0.68
+          ],
+          "pos": 6
+        },
+        {
+          "id": "camp-7",
+          "word": "小兔拿玉米",
+          "zy": "ㄒㄧㄠˇ ㄊㄨˋ ㄋㄚˊ ㄩˋ ㄇㄧˇ",
+          "pin": [
+            0.625,
+            0.86
+          ],
+          "pos": 7
+        },
+        {
+          "id": "camp-8",
+          "word": "小熊玩球",
+          "zy": "ㄒㄧㄠˇ ㄒㄩㄥˊ ㄨㄢˊ ㄑㄧㄡˊ",
+          "pin": [
+            0.95,
+            0.89
+          ],
+          "pos": 8
+        }
+      ]
+    }
+  ],
+  "tones": [
+    {
+      "id": "tone-ma-1",
+      "group": "ma",
+      "tone": 1,
+      "word": "媽",
+      "zy": "ㄇㄚ",
+      "end": 0.626
+    },
+    {
+      "id": "tone-ma-2",
+      "group": "ma",
+      "tone": 2,
+      "word": "麻",
+      "zy": "ㄇㄚˊ",
+      "end": 0.646
+    },
+    {
+      "id": "tone-ma-3",
+      "group": "ma",
+      "tone": 3,
+      "word": "馬",
+      "zy": "ㄇㄚˇ",
+      "end": 0.616
+    },
+    {
+      "id": "tone-ma-4",
+      "group": "ma",
+      "tone": 4,
+      "word": "罵",
+      "zy": "ㄇㄚˋ",
+      "end": 0.496
+    },
+    {
+      "id": "tone-ba-1",
+      "group": "ba",
+      "tone": 1,
+      "word": "八",
+      "zy": "ㄅㄚ",
+      "end": 0.59
+    },
+    {
+      "id": "tone-ba-2",
+      "group": "ba",
+      "tone": 2,
+      "word": "拔",
+      "zy": "ㄅㄚˊ",
+      "end": 0.566
+    },
+    {
+      "id": "tone-ba-3",
+      "group": "ba",
+      "tone": 3,
+      "word": "靶",
+      "zy": "ㄅㄚˇ",
+      "end": 0.648
+    },
+    {
+      "id": "tone-ba-4",
+      "group": "ba",
+      "tone": 4,
+      "word": "爸",
+      "zy": "ㄅㄚˋ",
+      "end": 0.513
+    },
+    {
+      "id": "tone-yi-1",
+      "group": "yi",
+      "tone": 1,
+      "word": "衣",
+      "zy": "ㄧ",
+      "end": 0.524
+    },
+    {
+      "id": "tone-yi-2",
+      "group": "yi",
+      "tone": 2,
+      "word": "姨",
+      "zy": "ㄧˊ",
+      "end": 0.541
+    },
+    {
+      "id": "tone-yi-3",
+      "group": "yi",
+      "tone": 3,
+      "word": "椅",
+      "zy": "ㄧˇ",
+      "end": 0.52
+    },
+    {
+      "id": "tone-yi-4",
+      "group": "yi",
+      "tone": 4,
+      "word": "意",
+      "zy": "ㄧˋ",
+      "end": 0.463
+    },
+    {
+      "id": "tone-tang-1",
+      "group": "tang",
+      "tone": 1,
+      "word": "湯",
+      "zy": "ㄊㄤ",
+      "end": 0.664
+    },
+    {
+      "id": "tone-tang-2",
+      "group": "tang",
+      "tone": 2,
+      "word": "糖",
+      "zy": "ㄊㄤˊ",
+      "end": 0.607
+    },
+    {
+      "id": "tone-tang-3",
+      "group": "tang",
+      "tone": 3,
+      "word": "躺",
+      "zy": "ㄊㄤˇ",
+      "end": 0.757
+    },
+    {
+      "id": "tone-tang-4",
+      "group": "tang",
+      "tone": 4,
+      "word": "燙",
+      "zy": "ㄊㄤˋ",
+      "end": 0.566
+    },
+    {
+      "id": "tone-wu-1",
+      "group": "wu",
+      "tone": 1,
+      "word": "烏",
+      "zy": "ㄨ",
+      "end": 0.597
+    },
+    {
+      "id": "tone-wu-2",
+      "group": "wu",
+      "tone": 2,
+      "word": "無",
+      "zy": "ㄨˊ",
+      "end": 0.454
+    },
+    {
+      "id": "tone-wu-3",
+      "group": "wu",
+      "tone": 3,
+      "word": "五",
+      "zy": "ㄨˇ",
+      "end": 0.522
+    },
+    {
+      "id": "tone-wu-4",
+      "group": "wu",
+      "tone": 4,
+      "word": "物",
+      "zy": "ㄨˋ",
+      "end": 0.444
+    }
+  ],
+  "medials": [
+    {
+      "id": "medial-l2-0",
+      "group": "l2",
+      "level": "simple",
+      "word": "梨",
+      "zy": "ㄌㄧˊ",
+      "medial": "ㄧ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=13936&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/1857.mp3",
+      "bytes": 60094,
+      "description": "字詞:梨,注音:ㄌㄧˊ,木部+7畫 共11畫,釋義:植物名。薔薇科梨屬，落葉喬木。葉互生，呈卵形或長橢圓形。開白花。果實呈球形，亦稱為「梨」，汁多，皮色與果肉質感因品種而有不同。　△梨樹　◎",
+      "firstSilenceStart": 0.351474,
+      "firstSilenceEnd": 1.282721,
+      "playbackEnd": 0.471
+    },
+    {
+      "id": "medial-l2-1",
+      "group": "l2",
+      "level": "simple",
+      "word": "爐",
+      "zy": "ㄌㄨˊ",
+      "medial": "ㄨ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=15262&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/2075.mp3",
+      "bytes": 57079,
+      "description": "字詞:爐,注音:ㄌㄨˊ,火部+16畫 共20畫,釋義:供燃燒用的器具設備。[例]火爐、瓦斯爐　△爐子",
+      "firstSilenceStart": 0.359592,
+      "firstSilenceEnd": 1.161723,
+      "playbackEnd": 0.48
+    },
+    {
+      "id": "medial-l2-2",
+      "group": "l2",
+      "level": "simple",
+      "word": "驢",
+      "zy": "ㄌㄩˊ",
+      "medial": "ㄩ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=15701&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/2172.mp3",
+      "bytes": 62832,
+      "description": "字詞:驢,注音:ㄌㄩˊ,馬部+16畫 共26畫,釋義:動物名。哺乳綱奇蹄目馬科。外形像馬而體形較小，耳朵較長，毛多為灰褐色，尾部像牛尾。性溫馴，能負物及供坐騎。[例]小毛驢　△驢子　◎",
+      "firstSilenceStart": 0.382041,
+      "firstSilenceEnd": 1.254603,
+      "playbackEnd": 0.502
+    },
+    {
+      "id": "medial-n3-0",
+      "group": "n3",
+      "level": "simple",
+      "word": "你",
+      "zy": "ㄋㄧˇ",
+      "medial": "ㄧ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=12572&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/1639.mp3",
+      "bytes": 59345,
+      "description": "字詞:你,注音:ㄋㄧˇ,人部+5畫 共7畫,釋義:第二人稱代詞。亦指對方。[例]你我他",
+      "firstSilenceStart": 0.467574,
+      "firstSilenceEnd": 1.265669,
+      "playbackEnd": 0.588
+    },
+    {
+      "id": "medial-n3-1",
+      "group": "n3",
+      "level": "simple",
+      "word": "努",
+      "zy": "ㄋㄨˇ",
+      "medial": "ㄨ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=12939&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/1712.mp3",
+      "bytes": 54523,
+      "description": "字詞:努,注音:ㄋㄨˇ,力部+5畫 共7畫,釋義:1.使力、盡力。[例]努力\n2.突起、鼓出。[例]努嘴",
+      "firstSilenceStart": 0.409977,
+      "firstSilenceEnd": 1.238639,
+      "playbackEnd": 0.53
+    },
+    {
+      "id": "medial-n3-2",
+      "group": "n3",
+      "level": "simple",
+      "word": "女",
+      "zy": "ㄋㄩˇ",
+      "medial": "ㄩ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=13083&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/1731.mp3",
+      "bytes": 55408,
+      "description": "字詞:女,注音:ㄋㄩˇ,女部+0畫 共3畫,釋義:1.女性、女人。與「男」相對。[例]才女、新女性\r\n2.女兒。[例]生兒育女\r\n3.二十八星宿之一，北方玄武宿的第二宿，共有四顆星。",
+      "firstSilenceStart": 0.40263,
+      "firstSilenceEnd": 1.158322,
+      "playbackEnd": 0.523
+    },
+    {
+      "id": "medial-l4-0",
+      "group": "l4",
+      "level": "simple",
+      "word": "力",
+      "zy": "ㄌㄧˋ",
+      "medial": "ㄧ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=14109&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/1890.mp3",
+      "bytes": 56314,
+      "description": "字詞:力,注音:ㄌㄧˋ,力部+0畫 共2畫,釋義:1.改變物體運動狀態（靜止或運行速度）的效能稱為「力」，計算單位為「牛頓」。[例] 動力、離心力、地球引力\r\n2.人和動物體內筋肉運動所產生的效能。[例]臂力、體力\r\n3.事物所具有的效能或作用。[例]火力、風力、水力\r\n4.才能、能力。[例]智力、實力、理解力\r\n5.權勢。[例]權力\r\n6.盡其所能的。[例]據理力爭、力拚到底\r\n7.姓。",
+      "firstSilenceStart": 0.319274,
+      "firstSilenceEnd": 1.248027,
+      "playbackEnd": 0.439
+    },
+    {
+      "id": "medial-l4-1",
+      "group": "l4",
+      "level": "simple",
+      "word": "路",
+      "zy": "ㄌㄨˋ",
+      "medial": "ㄨ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=15338&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/2102.mp3",
+      "bytes": 56377,
+      "description": "字詞:路,注音:ㄌㄨˋ,足部+6畫 共13畫,釋義:1.供人馬舟車等行走的道路。[例]馬路、鐵路、高速公路\n2.運輸的線道。[例]陸路、水路\n3.路線。[例]五路公車、兵分三路\n4.方法、途徑。[例]生路、活路、門路\n5.條理、紋理。[例]思路、紋路\n6.種類。[例]各路人馬\n7.姓。",
+      "firstSilenceStart": 0.353515,
+      "firstSilenceEnd": 1.156961,
+      "playbackEnd": 0.474
+    },
+    {
+      "id": "medial-l4-2",
+      "group": "l4",
+      "level": "simple",
+      "word": "綠",
+      "zy": "ㄌㄩˋ",
+      "medial": "ㄩ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=15762&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/2185.mp3",
+      "bytes": 57815,
+      "description": "字詞:綠,注音:ㄌㄩˋ,糸部+8畫 共14畫,釋義:1.像青草、樹葉的顏色。可用藍色和黃色顏料混合而成。[例]墨綠、紅配綠、紅紅綠綠\n2.綠色的。[例]綠苔、紅花綠葉、綠意盎然\n3.形容因生氣、著急或受驚嚇時的臉部表情。[例]見到自家停車位又被占用時，他當場氣得臉都綠了。",
+      "firstSilenceStart": 0.347483,
+      "firstSilenceEnd": 1.189887,
+      "playbackEnd": 0.467
+    },
+    {
+      "id": "medial-xian1-0",
+      "group": "xian1",
+      "level": "blend",
+      "word": "先",
+      "zy": "ㄒㄧㄢ",
+      "medial": "ㄧ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=27274&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/3998.mp3",
+      "bytes": 62475,
+      "description": "字詞:先,注音:ㄒㄧㄢ,儿部+4畫 共6畫,釋義:1.時間或次序在前的。與「後」相對。[例]先發後至、爭先恐後、先走一步\n2.首要的。[例]先務\n3.暫時。[例]你先不要慌，我們慢慢想辦法來解決。\n4.尊稱已去世的尊長。[例]先父、先人、先聖先賢",
+      "firstSilenceStart": 0.601406,
+      "firstSilenceEnd": 1.375873,
+      "playbackEnd": 0.721
+    },
+    {
+      "id": "medial-xian1-1",
+      "group": "xian1",
+      "level": "blend",
+      "word": "宣",
+      "zy": "ㄒㄩㄢ",
+      "medial": "ㄩ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=28560&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/4156.mp3",
+      "bytes": 59451,
+      "description": "字詞:宣,注音:ㄒㄩㄢ,宀部+6畫 共9畫,釋義:1.散播、發揚。[例]宣傳、宣揚\n2.發散、疏通。[例]宣洩\n3.表達、說明。[例]心照不宣\n4.以君王的命令傳召臣下。[例]宣見\n5.姓。",
+      "firstSilenceStart": 0.536644,
+      "firstSilenceEnd": 1.195465,
+      "playbackEnd": 0.657
+    },
+    {
+      "id": "medial-jian4-0",
+      "group": "jian4",
+      "level": "blend",
+      "word": "箭",
+      "zy": "ㄐㄧㄢˋ",
+      "medial": "ㄧ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=23105&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/3313.mp3",
+      "bytes": 61962,
+      "description": "字詞:箭,注音:ㄐㄧㄢˋ,竹部+9畫 共15畫,釋義:1.一種搭在弓上發射的杵狀武器。頭尖，末梢有羽毛。[例]弓箭　◎\n2.比喻快速。[例]箭步\n3.量詞。古代計算距離的單位。[例]一箭之地\n4.→箭竹",
+      "firstSilenceStart": 0.44254,
+      "firstSilenceEnd": 1.16458,
+      "playbackEnd": 0.563
+    },
+    {
+      "id": "medial-jian4-1",
+      "group": "jian4",
+      "level": "blend",
+      "word": "卷",
+      "zy": "ㄐㄩㄢˋ",
+      "medial": "ㄩ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=24222&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/3495.mp3",
+      "bytes": 59796,
+      "description": "字詞:卷,注音:ㄐㄩㄢˋ,卩部+6畫 共8畫,釋義:1.古時書籍寫在竹簡、絹帛或紙上，捲起來收藏，因此通稱書籍為「卷」。[例]手不釋卷 、開卷有益\n2.書籍的分篇。[例]卷一、卷上\n3.可以捲起來的書、畫。[例]經卷、手卷、畫卷\n4.公私機構的文件。[例]卷宗、案卷、文卷\n5.考試測驗的題紙。[例]試卷、考卷\n6.量詞。計算字畫書籍的單位。[例]藏書三萬卷",
+      "firstSilenceStart": 0.328617,
+      "firstSilenceEnd": 1.122222,
+      "playbackEnd": 0.449
+    },
+    {
+      "id": "medial-qian2-0",
+      "group": "qian2",
+      "level": "blend",
+      "word": "前",
+      "zy": "ㄑㄧㄢˊ",
+      "medial": "ㄧ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=25160&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/3665.mp3",
+      "bytes": 61320,
+      "description": "字詞:前,注音:ㄑㄧㄢˊ,刀部+7畫 共9畫,釋義:1.位置在正面或靠近開頭的。與「後」相對。[例]前門、前方、面前　◎\n2.時間或次序較早的。與「後」相對。[例]前天、前三名、史無前例\n3.已成為歷史的。[例]前清、前蘇聯、前亞東關係協會\n4.前任的簡稱。[例]前妻、前總理\n5.未來的。[例]前程、前途、前景看好\n6.向正面行進。[例]勇往直前、畏縮不前",
+      "firstSilenceStart": 0.541043,
+      "firstSilenceEnd": 1.318458,
+      "playbackEnd": 0.661
+    },
+    {
+      "id": "medial-qian2-1",
+      "group": "qian2",
+      "level": "blend",
+      "word": "全",
+      "zy": "ㄑㄩㄢˊ",
+      "medial": "ㄩ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=26030&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/3788.mp3",
+      "bytes": 59850,
+      "description": "字詞:全,注音:ㄑㄩㄢˊ,入部+4畫 共6畫,釋義:1.完整、完備。[例]十全、齊全、文武雙全\n2.整個、全體。[例]全家、全神貫注、全軍覆沒\n3.保持完好。[例]苟全、全身而退\n4.完全、都。表示範圍。[例]全自動化、全無音訊\n5.姓。",
+      "firstSilenceStart": 0.556599,
+      "firstSilenceEnd": 1.101859,
+      "playbackEnd": 0.677
+    },
+    {
+      "id": "medial-dian3-0",
+      "group": "dian3",
+      "level": "blend",
+      "word": "點",
+      "zy": "ㄉㄧㄢˇ",
+      "medial": "ㄧ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=8812&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/1200.mp3",
+      "bytes": 58355,
+      "description": "字詞:點,注音:ㄉㄧㄢˇ,黑部+5畫 共17畫,釋義:1.句讀的標誌。[例]逗點、標點\n\t\n2.非正餐食品的簡稱。[例]西點、茶點\n\t\n3.一定的地方或標準。[例]起點、沸點\n\t\n4.短暫的接觸。[例]蜻蜓點水、畫龍點睛\n\t\n5.體積或數量微小的。[例]斑點、一點小事\n\t\n6.事物具備的特定意義部分。[例]特點、優點、重點\n\t\n7.小數點。如33.5讀作三十三點五。\n\t\n8.國字筆畫名稱。　◎\n\t\n9.量詞：(1) 計算條文項目的單位。[例]這個主題，可分下列三點來說明。　(2) 「點鐘」的縮稱。計算時間的單位。一點鐘為一小時。[例]明天早上十點我們校門口見。",
+      "firstSilenceStart": 0.545986,
+      "firstSilenceEnd": 1.148073,
+      "playbackEnd": 0.666
+    },
+    {
+      "id": "medial-dian3-1",
+      "group": "dian3",
+      "level": "blend",
+      "word": "短",
+      "zy": "ㄉㄨㄢˇ",
+      "medial": "ㄨ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=9584&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/1281.mp3",
+      "bytes": 61589,
+      "description": "字詞:短,注音:ㄉㄨㄢˇ,矢部+7畫 共12畫,釋義:1.事物兩端的距離小的。與「長」相對：(1)指空間。[例]一百公尺是短距離的賽跑，所以要全力衝刺。◎　(2)指時間。[例]冬季白天短，下午不到六點，天就暗了。\n\t\n2.缺少。[例]事情就算短他一個，照樣得如期完成。\n\t\n3.過失、缺點。[例]護短、說長道短、截長補短\n",
+      "firstSilenceStart": 0.46839,
+      "firstSilenceEnd": 0.99873,
+      "playbackEnd": 0.588
+    },
+    {
+      "id": "medial-tian2-0",
+      "group": "tian2",
+      "level": "blend",
+      "word": "田",
+      "zy": "ㄊㄧㄢˊ",
+      "medial": "ㄧ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=11248&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/1477.mp3",
+      "bytes": 64496,
+      "description": "字詞:田,注音:ㄊㄧㄢˊ,田部+0畫 共5畫,釋義:1.用來耕種的土地。[例]稻田、蔗田、梯田\n2.蘊藏資源的地帶。[例]煤田、鹽田、油田\n3.打獵。[例]田獵\n4.姓。",
+      "firstSilenceStart": 0.586803,
+      "firstSilenceEnd": 1.165714,
+      "playbackEnd": 0.707
+    },
+    {
+      "id": "medial-tian2-1",
+      "group": "tian2",
+      "level": "blend",
+      "word": "團",
+      "zy": "ㄊㄨㄢˊ",
+      "medial": "ㄨ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=11817&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/1546.mp3",
+      "bytes": 62727,
+      "description": "字詞:團,注音:ㄊㄨㄢˊ,囗部+11畫 共14畫,釋義:1.圓球形的物體。[例]紙團、麵團\n2.因特定性質或共同目的而組織聚集的人群。[例]社團、旅行團、合唱團\n3.結合、聚集。[例]團結、團聚、團圓\n4.搓弄、揉合。[例]團泥球、團紙團\n5.同類性質的物體大量結集的聚合物。[例]雲團、星團、冷氣團\n6.量詞。計算團狀物的單位。[例]一團毛線、兩團泥巴",
+      "firstSilenceStart": 0.57229,
+      "firstSilenceEnd": 1.315057,
+      "playbackEnd": 0.692
+    },
+    {
+      "id": "medial-lie4-0",
+      "group": "lie4",
+      "level": "blend",
+      "word": "列",
+      "zy": "ㄌㄧㄝˋ",
+      "medial": "ㄧ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=14299&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/1931.mp3",
+      "bytes": 56484,
+      "description": "字詞:列,注音:ㄌㄧㄝˋ,刀部+4畫 共6畫,釋義:1.行次、行伍。[例]行列\n2.依次擺置。[例]排列、陳列\n3.類別、範圍。[例]系列、討論之列\n4.安排、放入。[例]列入考慮\n5.各、眾。[例]列國、列祖列宗\n6.量詞。計算成行成列的人或物的單位。[例]一列火車",
+      "firstSilenceStart": 0.344535,
+      "firstSilenceEnd": 1.322222,
+      "playbackEnd": 0.465
+    },
+    {
+      "id": "medial-lie4-1",
+      "group": "lie4",
+      "level": "blend",
+      "word": "略",
+      "zy": "ㄌㄩㄝˋ",
+      "medial": "ㄩ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=15806&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/2190.mp3",
+      "bytes": 61598,
+      "description": "字詞:略,注音:ㄌㄩㄝˋ,田部+6畫 共11畫,釋義:1.計謀、計畫。[例]謀略、戰略、策略\n2.概要、重點。[例]要略、史略\n3.奪取、攻占。[例]侵略、攻略\n4.省去、簡化。[例]忽略、省略、略過不提\n5.大致、稍微。[例]約略估計、略有所聞、略知一二",
+      "firstSilenceStart": 0.395692,
+      "firstSilenceEnd": 1.284127,
+      "playbackEnd": 0.516
+    },
+    {
+      "id": "medial-guide-yu",
+      "word": "迂",
+      "zy": "ㄩ",
+      "medial": "ㄩ",
+      "group": "guide",
+      "level": "guide",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=44129&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/6423.mp3",
+      "bytes": 46906,
+      "description": "字詞:迂,注音:ㄩ,辵部+3畫 共7畫,釋義:1.曲折。[例]迂迴、迂曲\n2.言行誇張荒誕而不切實際。[例]迂腐、迂儒",
+      "firstSilenceStart": 0.357506,
+      "firstSilenceEnd": 0.869252,
+      "playbackEnd": 0.478
+    }
+  ],
+  "pairs": [
+    {
+      "id": "pair-c-ch-0",
+      "group": "c-ch-0",
+      "level": "c-ch",
+      "word": "粗",
+      "zy": "ㄘㄨ",
+      "focus": "ㄘ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=38248&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/5491.mp3",
+      "bytes": 62525,
+      "description": "字詞:粗,注音:ㄘㄨ,米部+5畫 共11畫,釋義:1.顆粒較大。與「細」相對。[例]粗沙、粗鹽\r\n2.長條物橫切面較大。與「細」相對。[例]粗繩、粗線　◎\r\n3.聲音較厚重。[例]粗聲、粗嗓子\r\n4.不周密、不仔細。[例]粗心、粗略\r\n5.不精緻、不細膩。與「精」相對。[例]粗糙、粗劣、粗茶淡飯\r\n6.魯莽、不文雅。[例]粗魯、粗話、粗野\r\n7.稍微、略微。[例]粗具規模",
+      "firstSilenceStart": 0.495193,
+      "firstSilenceEnd": 1.218277,
+      "playbackEnd": 0.615
+    },
+    {
+      "id": "pair-c-ch-1",
+      "group": "c-ch-0",
+      "level": "c-ch",
+      "word": "出",
+      "zy": "ㄔㄨ",
+      "focus": "ㄔ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=32448&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/4801.mp3",
+      "bytes": 62697,
+      "description": "字詞:出,注音:ㄔㄨ,凵部+3畫 共5畫,釋義:1.自裡面到外面。與「入」、「進」相對。[例]出門、出外、足不出戶\n2.給付、支付。[例]支出、入不敷出\n3.來到。[例]出席、出場、出庭\n4.生產、產製。[例]出米、出題\n5.發行。[例]出版、出書、出唱片\n6.發散、發洩。[例]出汗、出氣\n7.表現、顯露。[例]出頭、出名、水落石出\n8.超過、超越。[例]出界、出線\n9.發生、產生。[例]出問題、出車禍、出紕漏\n10.脫離、離開。[例]出家、出軌\n11.放在動詞後面，表示動作的趨向或效果。[例]拿出、想出辦法、走出傷悲",
+      "firstSilenceStart": 0.497596,
+      "firstSilenceEnd": 1.175147,
+      "playbackEnd": 0.618
+    },
+    {
+      "id": "pair-c-ch-2",
+      "group": "c-ch-1",
+      "level": "c-ch",
+      "word": "擦",
+      "zy": "ㄘㄚ",
+      "focus": "ㄘ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=37879&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/5437.mp3",
+      "bytes": 69909,
+      "description": "字詞:擦,注音:ㄘㄚ,手部+14畫 共17畫,釋義:1.兩物相摩。[例]摩擦、擦撞、摩拳擦掌\n2.揩、拭。[例]擦黑板、擦皮鞋、擦乾淨　◎\n3.塗抹。[例]擦粉、擦藥、擦油\n4.貼近、靠近。[例]擦身而過\n5.擦抹的用具。[例]板擦、橡皮擦",
+      "firstSilenceStart": 0.524535,
+      "firstSilenceEnd": 1.168617,
+      "playbackEnd": 0.645
+    },
+    {
+      "id": "pair-c-ch-3",
+      "group": "c-ch-1",
+      "level": "c-ch",
+      "word": "插",
+      "zy": "ㄔㄚ",
+      "focus": "ㄔ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31532&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/4656.mp3",
+      "bytes": 63954,
+      "description": "字詞:插,注音:ㄔㄚ,手部+9畫 共12畫,釋義:1.把片狀物或條形物放進或刺入其他物體中。[例]插卡、插秧、插翅難飛　◎\n2.中途加入或加入既有事物的中間。[例]插班、插花、插話",
+      "firstSilenceStart": 0.50263,
+      "firstSilenceEnd": 1.116871,
+      "playbackEnd": 0.623
+    },
+    {
+      "id": "pair-c-ch-4",
+      "group": "c-ch-2",
+      "level": "c-ch",
+      "word": "草",
+      "zy": "ㄘㄠˇ",
+      "focus": "ㄘ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=38061&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/5465.mp3",
+      "bytes": 64812,
+      "description": "字詞:草,注音:ㄘㄠˇ,艸部+6畫 共10畫,釋義:1.草本植物的總稱。[例]草木、花草、碧草如茵\n2.田野、荒野。[例]草澤、草莽\n3.底稿、文稿。[例]起草、擬草、草稿\n4.馬虎、粗率、不細膩。[例]潦草、草率\n5.初步的、尚未決定的。[例]草案、草圖、草約\n6.用草做成的。[例]草蓆、草繩、草房\n7.一種書法字體。[例]草書、狂草、草體",
+      "firstSilenceStart": 0.612109,
+      "firstSilenceEnd": 1.334104,
+      "playbackEnd": 0.732
+    },
+    {
+      "id": "pair-c-ch-5",
+      "group": "c-ch-2",
+      "level": "c-ch",
+      "word": "吵",
+      "zy": "ㄔㄠˇ",
+      "focus": "ㄔ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31795&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/4691.mp3",
+      "bytes": 58428,
+      "description": "字詞:吵,注音:ㄔㄠˇ,口部+4畫 共7畫,釋義:1.聲音雜亂。[例]吵雜、吵鬧\n2.攪擾。[例]小聲一點，別把孩子吵醒了！\n3.爭執、爭鬧。[例]爭吵、吵架",
+      "firstSilenceStart": 0.558821,
+      "firstSilenceEnd": 1.085442,
+      "playbackEnd": 0.679
+    },
+    {
+      "id": "pair-zh-z-0",
+      "group": "zh-z-0",
+      "level": "zh-z",
+      "word": "豬",
+      "zy": "ㄓㄨ",
+      "focus": "ㄓ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=30510&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/4504.mp3",
+      "bytes": 57917,
+      "description": "字詞:豬,注音:ㄓㄨ,豕部+8畫 共15畫,釋義:動物名。哺乳類偶蹄目豬科。頭、耳大，眼小，四肢短小，軀體肥滿，鼻與口吻皆長。肉可食，皮可製革，鬃毛可製刷子。　◎",
+      "firstSilenceStart": 0.429796,
+      "firstSilenceEnd": 0.869297,
+      "playbackEnd": 0.55
+    },
+    {
+      "id": "pair-zh-z-1",
+      "group": "zh-z-0",
+      "level": "zh-z",
+      "word": "租",
+      "zy": "ㄗㄨ",
+      "focus": "ㄗ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=37350&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/5373.mp3",
+      "bytes": 59539,
+      "description": "字詞:租,注音:ㄗㄨ,禾部+5畫 共10畫,釋義:1.田賦。[例]田租\n2.出借房屋、物品等所收取的報酬費用。[例]房租、收租\n3.稅捐。[例]地租\n4.以一定的代價出借或借用他人物品、房地等。[例]出租、租車、租賃",
+      "firstSilenceStart": 0.41678,
+      "firstSilenceEnd": 0.921406,
+      "playbackEnd": 0.537
+    },
+    {
+      "id": "pair-zh-z-2",
+      "group": "zh-z-1",
+      "level": "zh-z",
+      "word": "找",
+      "zy": "ㄓㄠˇ",
+      "focus": "ㄓ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=29661&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/4357.mp3",
+      "bytes": 58103,
+      "description": "字詞:找,注音:ㄓㄠˇ,手部+4畫 共7畫,釋義:1.尋覓、探求。[例]尋找、找工作、找麻煩　◎\n2.退回差額。[例]找錢、找零",
+      "firstSilenceStart": 0.497415,
+      "firstSilenceEnd": 0.901859,
+      "playbackEnd": 0.617
+    },
+    {
+      "id": "pair-zh-z-3",
+      "group": "zh-z-1",
+      "level": "zh-z",
+      "word": "早",
+      "zy": "ㄗㄠˇ",
+      "focus": "ㄗ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=37127&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/5332.mp3",
+      "bytes": 61653,
+      "description": "字詞:早,注音:ㄗㄠˇ,日部+2畫 共6畫,釋義:1.天剛亮的時候。與「晚」相對。[例]清早、早上、一大早\n2.晨間的。[例]早飯、早操、早班\n3.較原時間提前，未到適當或預定時間的。[例]早婚、早產、早退\n4.初時的、時間在前的。[例]早期\n5.不晚。[例]由於天色尚早，他決定在此多留一會。",
+      "firstSilenceStart": 0.55551,
+      "firstSilenceEnd": 1.293469,
+      "playbackEnd": 0.676
+    },
+    {
+      "id": "pair-zh-z-4",
+      "group": "zh-z-2",
+      "level": "zh-z",
+      "word": "摘",
+      "zy": "ㄓㄞ",
+      "focus": "ㄓ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=29561&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/4342.mp3",
+      "bytes": 58411,
+      "description": "字詞:摘,注音:ㄓㄞ,手部+11畫 共14畫,釋義:1.採取。[例]摘下、採摘、摘花　◎\n2.拿下。類似摘的動作。[例]摘帽、摘星、摘烏紗\n3.選取。[例]摘錄、尋章摘句\n4.指出、舉發。[例]指摘、摘奸發伏\n5.借貸。[例]東摘西借",
+      "firstSilenceStart": 0.459138,
+      "firstSilenceEnd": 1.031383,
+      "playbackEnd": 0.579
+    },
+    {
+      "id": "pair-zh-z-5",
+      "group": "zh-z-2",
+      "level": "zh-z",
+      "word": "栽",
+      "zy": "ㄗㄞ",
+      "focus": "ㄗ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=37041&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/5320.mp3",
+      "bytes": 62727,
+      "description": "字詞:栽,注音:ㄗㄞ,木部+6畫 共10畫,釋義:1.種植。[例]栽樹、栽花、栽種\n2.安上。[例]栽贓\n3.跌倒。[例]栽跟頭\n4.可栽種的植物幼苗。[例]樹栽、桃栽",
+      "firstSilenceStart": 0.545215,
+      "firstSilenceEnd": 1.217007,
+      "playbackEnd": 0.665
+    },
+    {
+      "id": "pair-m-f-0",
+      "group": "m-f-0",
+      "level": "m-f",
+      "word": "媽",
+      "zy": "ㄇㄚ",
+      "focus": "ㄇ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=3518&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/0527.mp3",
+      "bytes": 61507,
+      "description": "字詞:媽,注音:ㄇㄚ,女部+10畫 共13畫,釋義:稱謂：(1) 對母親的稱呼，常疊用。[例]媽媽、爸媽　(2) 對與母親同輩的女性尊長的稱呼。[例]舅媽、姨媽、姑媽　(3) 北方人對僕婦的稱呼。同「嬤」。　(4) 對年長婦女的尊稱。大媽",
+      "firstSilenceStart": 0.505442,
+      "firstSilenceEnd": 1.292381,
+      "playbackEnd": 0.625
+    },
+    {
+      "id": "pair-m-f-1",
+      "group": "m-f-0",
+      "level": "m-f",
+      "word": "發",
+      "zy": "ㄈㄚ",
+      "focus": "ㄈ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=5102&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/0805.mp3",
+      "bytes": 61770,
+      "description": "字詞:發,注音:ㄈㄚ,癶部+7畫 共12畫,釋義:1.放射。[例]發射、彈無虛發、百發百中\r\n2.散開。[例]發汗、揮發、蒸發\r\n3.開始行動或啟動。[例]發動、出發、朝發夕至\r\n4.送出、交付。與「收」相對。[例]發信、發稿、發薪\r\n5.打開、揭露。[例]發掘、揭發、發人隱私\r\n6.顯現在外：(1) 現象的表現。[例]發黃、發臭　(2) 情感的展露。[例]發怒、發嗔、發笑　(3) 病狀的顯露。[例]發病、發熱、發冷\r\n7.表達。[例]發言、發表\r\n8.一種食品處理法，使體積擴大或膨脹。[例]發麵、發海帶、發魷魚\r\n9.興旺、興起。[例]發達、發跡、暴發戶\r\n10. 量詞：(1) 計算槍、炮、子彈等數量的單位。[例]手槍裡還剩下四發子彈。　(2) 計算槍、炮、子彈發射數量的單位。[例]射炮十二發",
+      "firstSilenceStart": 0.480952,
+      "firstSilenceEnd": 1.379229,
+      "playbackEnd": 0.601
+    },
+    {
+      "id": "pair-m-f-2",
+      "group": "m-f-1",
+      "level": "m-f",
+      "word": "忙",
+      "zy": "ㄇㄤˊ",
+      "focus": "ㄇ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=4275&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/0666.mp3",
+      "bytes": 65149,
+      "description": "字詞:忙,注音:ㄇㄤˊ,心部+3畫 共6畫,釋義:1.事情多而沒有空閒。[例]農忙、忙碌\r\n2.急迫。[例]不慌不忙、手忙腳亂\r\n3.趕緊。[例]急忙、連忙\r\n4.做，急迫不停地做。[例]最近你都在忙些什麼？",
+      "firstSilenceStart": 0.45873,
+      "firstSilenceEnd": 1.158776,
+      "playbackEnd": 0.579
+    },
+    {
+      "id": "pair-m-f-3",
+      "group": "m-f-1",
+      "level": "m-f",
+      "word": "房",
+      "zy": "ㄈㄤˊ",
+      "focus": "ㄈ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=5967&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/0899.mp3",
+      "bytes": 54036,
+      "description": "字詞:房,注音:ㄈㄤˊ,戶部+4畫 共8畫,釋義:1.人所居住活動的建築物。[例]樓房、平房、房屋　△房子\n2.居室中的一間。[例]書房、臥房、客房\n3.構造或作用像房子的物體。[例]心房、蜂房、花房\n4.家族的分支。[例]大房、二房、遠房\n5.妻室、妻子。[例]正房、偏房、填房\n6.量詞：(1) 計算妻妾的單位。[例]兩房側室。　(2) 計算親戚家數的單位。[例]三房親戚、五房兄弟。\n7.姓。",
+      "firstSilenceStart": 0.351111,
+      "firstSilenceEnd": 0.982494,
+      "playbackEnd": 0.471
+    },
+    {
+      "id": "pair-m-f-4",
+      "group": "m-f-2",
+      "level": "m-f",
+      "word": "木",
+      "zy": "ㄇㄨˋ",
+      "focus": "ㄇ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=4988&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/0790.mp3",
+      "bytes": 56828,
+      "description": "字詞:木,注音:ㄇㄨˋ,木部+0畫 共4畫,釋義:1.木本植物的通稱。[例]樹木、花木\r\n2.木材。[例]朽木不可雕\r\n3.棺材。[例]行將就木\r\n4.用木材製成的。[例]木椅、木屋\r\n5.性情樸實。[例]剛毅木訥\r\n6.沒有知覺的。[例]麻木\r\n7.呆笨的。[例]鈍頭木腦\r\n8.五行之一。",
+      "firstSilenceStart": 0.422086,
+      "firstSilenceEnd": 1.176689,
+      "playbackEnd": 0.542
+    },
+    {
+      "id": "pair-m-f-5",
+      "group": "m-f-2",
+      "level": "m-f",
+      "word": "父",
+      "zy": "ㄈㄨˋ",
+      "focus": "ㄈ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=6505&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/0984.mp3",
+      "bytes": 53598,
+      "description": "字詞:父,注音:ㄈㄨˋ,父部+0畫 共4畫,釋義:稱謂：(1) 對爸爸的稱呼。[例]父親、養父、家父　(2) 用以尊稱親族中男性的長輩。[例]伯父、叔父、舅父　(3) 對老年人的尊稱。[例]父老",
+      "firstSilenceStart": 0.435918,
+      "firstSilenceEnd": 1.047664,
+      "playbackEnd": 0.556
+    },
+    {
+      "id": "pair-en-eng-0",
+      "group": "en-eng-0",
+      "level": "en-eng",
+      "word": "真",
+      "zy": "ㄓㄣ",
+      "focus": "ㄣ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=29969&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/4419.mp3",
+      "bytes": 56825,
+      "description": "字詞:真,注音:ㄓㄣ,目部+5畫 共10畫,釋義:1.自然、本性。[例]天真、返璞歸真\n2.原來的樣子。[例]寫真、傳真、失真\n3.本來的、不虛假的。與「假」相對。[例]真相、真心、真理\n4.的確、實在。[例]真好、真棒",
+      "firstSilenceStart": 0.526304,
+      "firstSilenceEnd": 1.147166,
+      "playbackEnd": 0.646
+    },
+    {
+      "id": "pair-en-eng-1",
+      "group": "en-eng-0",
+      "level": "en-eng",
+      "word": "蒸",
+      "zy": "ㄓㄥ",
+      "focus": "ㄥ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=30276&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/4480.mp3",
+      "bytes": 58644,
+      "description": "字詞:蒸,注音:ㄓㄥ,艸部+10畫 共14畫,釋義:1.熱氣上升。[例]蒸發\n2.一種烹飪方法。利用水蒸汽的熱力把食物加熱或煮熟。[例]蒸魚、蒸餃",
+      "firstSilenceStart": 0.519637,
+      "firstSilenceEnd": 1.132925,
+      "playbackEnd": 0.64
+    },
+    {
+      "id": "pair-en-eng-2",
+      "group": "en-eng-1",
+      "level": "en-eng",
+      "word": "盆",
+      "zy": "ㄆㄣˊ",
+      "focus": "ㄣ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=2829&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/0377.mp3",
+      "bytes": 54589,
+      "description": "字詞:盆,注音:ㄆㄣˊ,皿部+4畫 共9畫,釋義:1.底小口大，形狀像盤而較深的盛物容器，多用陶、木、金屬等製成。[例]臉盆、澡盆、花盆\n2.量詞。計算盆裝物的單位。[例]一盆花、兩盆水",
+      "firstSilenceStart": 0.458776,
+      "firstSilenceEnd": 0.978685,
+      "playbackEnd": 0.579
+    },
+    {
+      "id": "pair-en-eng-3",
+      "group": "en-eng-1",
+      "level": "en-eng",
+      "word": "朋",
+      "zy": "ㄆㄥˊ",
+      "focus": "ㄥ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=2892&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/0401.mp3",
+      "bytes": 54372,
+      "description": "字詞:朋,注音:ㄆㄥˊ,月部+4畫 共8畫,釋義:1.友人。[例]朋友、親朋好友\n2.集結、勾結。[例]朋黨、朋比為奸\n3.相比、相類。[例]碩大無朋",
+      "firstSilenceStart": 0.571247,
+      "firstSilenceEnd": 1.217098,
+      "playbackEnd": 0.691
+    },
+    {
+      "id": "pair-en-eng-4",
+      "group": "en-eng-2",
+      "level": "en-eng",
+      "word": "陳",
+      "zy": "ㄔㄣˊ",
+      "focus": "ㄣ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=32033&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/4740.mp3",
+      "bytes": 59502,
+      "description": "字詞:陳,注音:ㄔㄣˊ,阜部+8畫 共11畫,釋義:1.排列。[例]陳設、陳列\r\n2.述說。[例]陳述、陳訴\r\n3.舊的、年代久遠的。[例]陳跡、陳規、陳年老酒\r\n4.古國名。周朝分封舜後代媯滿所建的諸侯國。故址約在今河南舊開封以東至安徽省舊毫之間。\r\n5.朝代名。（西元557∼589）南朝之一，陳霸先代梁而稱帝，建都建康，擁有長江以南的地區，為南朝版圖最小的王朝。後為隋所滅。\r\n6.姓。",
+      "firstSilenceStart": 0.513061,
+      "firstSilenceEnd": 1.020181,
+      "playbackEnd": 0.633
+    },
+    {
+      "id": "pair-en-eng-5",
+      "group": "en-eng-2",
+      "level": "en-eng",
+      "word": "城",
+      "zy": "ㄔㄥˊ",
+      "focus": "ㄥ",
+      "page": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=32338&q=1",
+      "audio": "https://dict.concised.moe.edu.tw/sound/word/4783.mp3",
+      "bytes": 60524,
+      "description": "字詞:城,注音:ㄔㄥˊ,土部+6畫 共9畫,釋義:1.古時環繞京師或某一都市、區域以供防守的高大圍牆。[例]城郭、內城、外城\n2.都市。[例]京城、城鎮\n3.姓。",
+      "firstSilenceStart": 0.538639,
+      "firstSilenceEnd": 1.112608,
+      "playbackEnd": 0.659
+    }
+  ]
+}

@@ -1,0 +1,7216 @@
+{
+  "records": [
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "一1",
+      "status": "existing",
+      "canonical": {
+        "source": 1,
+        "locator": "一1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認日治後期皇民化運動"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "一2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 7,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "專賣制度目的"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "一3",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "一3"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "警察被美化為哪種形象"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "一4",
+      "status": "existing",
+      "canonical": {
+        "source": 1,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認油畫家"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "一5",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "辨認解嚴後生活情境"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "一6",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "一6"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "臺灣兒童就讀學校"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "一7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 8,
+        "locator": "一15"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "六十年代末設立科學園區"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "一8",
+      "status": "existing",
+      "canonical": {
+        "source": 1,
+        "locator": "一8"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認限制地租的政策"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "一9",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "一9"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "辨認日治生活情境組合"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "一10",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "一10"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "戰爭末期轟炸臺灣的一方"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一11",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "一11"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "辨認不是二二八成因的選項"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一12",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "一12"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "發布解嚴令的總統"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一13",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "一13"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "政府組織的根本法律"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一14",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "立法院由何種人組成，選項民意代表與立法委員重疊"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一15",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "辨認非中央行政機關工作"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一16",
+      "status": "duplicate",
+      "canonical": {
+        "source": 6,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認原住民族武裝抵抗事件"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一17",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "一17"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "警察與保甲統治措施組合"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一18",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "日本戰敗與政府接收時間"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一19",
+      "status": "existing",
+      "canonical": {
+        "source": 1,
+        "locator": "一19"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "民國85年後總統如何產生"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一20",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)丙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "防疫行政規劃的中央機關"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一21",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "一21"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "馬關條約簽約雙方代表"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一22",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "一22"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "十大建設的能源危機背景"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一23",
+      "status": "existing",
+      "canonical": {
+        "source": 1,
+        "locator": "一23"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "嘉南大圳工程師"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一24",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "一24"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "氣爆捐款調查與糾正機關"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "一25",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二13"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認不屬十大建設者"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二1(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一6"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治初期設立的公學校，主要招收哪一群學生？"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二1(2)",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "二1(2)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：日治時期，臺灣除初等教育外，也設置哪些培養專業人才的學校？"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二1(3)",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "二1(3)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：對日治時期教育制度的描述，哪項較正確？"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二1(4)",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "二1(4)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：日治時期部分臺灣青年為了接受較高教育，採取了什麼方式？"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二2(1)",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "二2(1)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：戰後臺灣為改革幣制、穩定經濟，於1949年發行哪種貨幣？"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二2(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一23"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪位工程師規劃並參與嘉南大圳建設，改善嘉南平原的灌溉？"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二2(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後初期的土地改革包括三七五減租、公地放領與耕者有其田。下列哪一項不屬於這三項政策？"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二2(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治初期，總督府為掌握土地與人口、便利徵稅和統治，進行哪一組調查？"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二3(1)",
+      "status": "ambiguous",
+      "reason": "原卷僅概括經濟困境，未給產業範圍、成本比較或統計資料；工資與環保意識也非必然負面。僅補出卷年代不足以形成原任務的唯一客觀判斷。",
+      "originalSummary": "判斷臺灣經濟現況困境：工資上漲"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二3(2)",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "判斷臺灣經濟現況困境：基層勞動力缺乏"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二3(3)",
+      "status": "ambiguous",
+      "reason": "原卷僅概括經濟困境，未給產業範圍、成本比較或統計資料；工資與環保意識也非必然負面。僅補出卷年代不足以形成原任務的唯一客觀判斷。",
+      "originalSummary": "判斷臺灣經濟現況困境：製造成本過高"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二3(4)",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "判斷臺灣經濟現況困境：戰爭不斷"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二4(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 9,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：《月夜愁》、《望春風》、《雨夜花》的作曲者是哪位臺灣音樂家？"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二4(2)",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(2)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：哪位臺灣人以醫學研究聞名，是首位取得現代醫學博士學位的臺灣人？"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二4(3)",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(3)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：日治時期，林獻堂等人推動臺灣議會設置請願運動，希望達成什麼目標？"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二4(4)",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(4)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：日治時期的苗栗事件，與哪一位人物有關？"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二4(5)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(2)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪位臺灣人以醫學研究聞名，是首位取得現代醫學博士學位的臺灣人？"
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "二4(6)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪位醫師曾在臺北大稻埕行醫，並與同道成立臺灣文化協會，為臺灣人爭取權利？"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "三1-A",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "三1-A"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：民國五、六十年代的「客廳即工廠」主要是指什麼？"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "三1-B",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "剛從中國大陸撤退指1949（民38），選項卻僅民40年代等，年代不精確。"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "三1-C",
+      "status": "ambiguous",
+      "reason": "赤腳上學、有人監視村民缺獨有年代線索，不能唯一區分日治初期、後期或戒嚴時期。",
+      "originalSummary": "赤腳上學與村中監視的描述不足以唯一判定日治初期。"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "三1-D",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "三1-D"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：日治後期臺灣首次地方選舉在1935年舉行。當時的選舉與今日普選相比，有什麼限制？"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "三1-E",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "三1-E"
+      },
+      "reason": "美援物資生活情境判讀年代，不是辨認非美援基建。",
+      "originalSummary": "考點：民國40年代，美援協助臺灣改善電力、交通與水利。下列哪項不是當時的援助建設？"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "三2(1)",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "三2(1)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：臺灣產業發展逐漸重視電子、資訊等需要密集研發與技術人才的領域，這類通常稱為什麼產業？"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "三2(2)",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "三2(2)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：臺灣產業參與國際貿易，與其他國家洽談貿易協議的主要目的之一是什麼？"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "三2(3)",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "三2(3)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：為了兼顧經濟發展與環境，綠能產業主要著重哪一方向？"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "四1",
+      "status": "candidate",
+      "canonical": {
+        "source": 1,
+        "locator": "四1"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：下列臺灣歷史事件，哪一組依發生時間由早到晚排列正確？"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "四2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列臺灣歷史事件，哪一組依發生時間由早到晚排列正確？"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "四3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列臺灣歷史事件，哪一組依發生時間由早到晚排列正確？"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "四4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列臺灣歷史事件，哪一組依發生時間由早到晚排列正確？"
+    },
+    {
+      "source": 1,
+      "page": 4,
+      "locator": "四5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列臺灣歷史事件，哪一組依發生時間由早到晚排列正確？"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一1",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "一1"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "馬關條約割臺原因"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一2",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "一2"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "民主國瓦解後仍有武裝抵抗"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一17"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "警察與商會制度的說法是否正確"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一4",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "一4"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "日治休假休閒活動"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二1(4)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "禁止臺灣人留學的說法是否正確"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "將日本戰敗誤寫第一次世界大戰"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一7",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "一7"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "戒嚴限制自由的種類，含工作與教育"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一8",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一19"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "1996直選與2000輪替"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一9",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "1949戒嚴令居家及外出皆須帶證件否則一律拘捕之敘述"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一10",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "各地含區都必有行政與立法機關之敘述"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一11",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "一11"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "耕者有其田讓佃農擁地"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 10,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "把戰後援助國誤作聯合國"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一13",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "三1-A"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "客廳即工廠的作用"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二1",
+      "status": "ambiguous",
+      "reason": "原題以造橋鋪路排除警察職務，但殖民警察可能參與地方工程；未取得足以絕對排除的職掌史料。",
+      "originalSummary": "辨認不屬警察工作的事項"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二2",
+      "status": "existing",
+      "canonical": {
+        "source": 2,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "土地人口調查目的"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認不是皇民化工作者"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二4",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "二4"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "殖民農業開發目的"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二1(2)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "日治教育制度正確敘述"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "二二八事件與影響"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認非二二八主要成因"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二8",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "二8"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "辨認非政府成立主要目的"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "解嚴後新政黨與電視臺"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二10",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "二10"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "地方行政機關執行委辦事項"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二11",
+      "status": "existing",
+      "canonical": {
+        "source": 2,
+        "locator": "二11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認非土地改革政策"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二12",
+      "status": "ambiguous",
+      "reason": "「提供出口市場」與美援、對美貿易相互關係未定義；不能以未查到特定政策當成從未提供。",
+      "originalSummary": "辨認美援項目，出口市場是否可列援助有歧義"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二13",
+      "status": "existing",
+      "canonical": {
+        "source": 2,
+        "locator": "二13"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "十大建設分類不含高科技園區"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(一)1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一23"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪位工程師規劃並參與嘉南大圳建設，改善嘉南平原的灌溉？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(一)2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(2)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪位臺灣人以醫學研究聞名，是首位取得現代醫學博士學位的臺灣人？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(一)3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(4)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期的苗栗事件，與哪一位人物有關？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(一)4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期，余清芳等人參與領導的武裝抗日事件是哪一個？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(一)5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 6,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1930年，莫那魯道參與領導的原住民族抗日事件是哪一個？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(一)6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(3)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期，林獻堂等人推動臺灣議會設置請願運動，希望達成什麼目標？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(二)1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期，哪位藝術家以油畫描繪臺灣家鄉風光與人物？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(二)2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 9,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：《月夜愁》、《望春風》、《雨夜花》的作曲者是哪位臺灣音樂家？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(二)3",
+      "status": "existing",
+      "canonical": {
+        "source": 2,
+        "locator": "三(二)3"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：以雕塑表現臺灣農耕生活，創作《歸途》的藝術家是哪一位？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)甲",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)甲"
+      },
+      "reason": "恢復原題解釋憲法任務，而非最高司法機關名稱。",
+      "originalSummary": "考點：依中華民國憲政制度，哪一院是最高司法機關？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)乙",
+      "status": "existing",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)乙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法制度，對違法失職的公務人員提出彈劾，是哪個機關的職權？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)丙",
+      "status": "existing",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)丙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法所定的中央政府分工，哪一院是國家最高行政機關？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)丁",
+      "status": "existing",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)丁"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法所定的中央政府分工，審議國家預算案是哪個機關的重要職權？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)戊",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)戊"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：依中華民國憲法，誰對外代表國家？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)己",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)己"
+      },
+      "reason": "訴訟審判職權與憲法解釋是不同辨識任務。",
+      "originalSummary": "考點：依中華民國憲政制度，哪一院是最高司法機關？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)庚",
+      "status": "existing",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)庚"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法制度，哪一院是國家最高考試機關，掌理國家考試等事項？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)辛",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)辛"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：制定國家法律與審議法律案，是哪一院的重要職權？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)壬",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)壬"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：依中華民國憲法，誰統率全國陸海空軍？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(三)癸",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)癸"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：中央政府年度總預算案由哪一院提出，再送立法院審議？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(四)甲",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)甲"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：臺北市政府提出年度預算案後，應由哪個機關審議？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(四)乙",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)乙"
+      },
+      "reason": "原題為人行道行政執行，現錯連上級委辦事項；鋪人行道不是必然上級委辦。",
+      "originalSummary": "考點：地方行政機關除辦理地方事務外，也可能依法辦理哪一類工作？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(四)丙",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丙"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：市議員在議會質詢市政府官員，主要是在履行哪項職責？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(四)丁",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丁"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：臺北市議會依法可以辦理哪一項工作？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(四)戊",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)戊"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：地方政府清除積水與防治病媒蚊，主要是為了什麼？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(五)-40年代",
+      "status": "existing",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：民國40年代，臺灣發展紡織等民生工業，主要希望達到哪個目標？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(五)-40年代-產品",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代-產品"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：戰後初期臺灣曾以哪一組產品外銷，賺取外匯？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(五)-50至60年代",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-50至60年代-發展措施"
+      },
+      "reason": "逐項核對原作答任務，分別保留發展措施、產品、品牌策略或機關職權，不以不同考點取代。",
+      "originalSummary": "民國50至60年代發展措施：加工出口區及十大建設"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(五)-50至60年代-產品",
+      "status": "existing",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-50至60年代"
+      },
+      "reason": "逐項核對原作答任務，分別保留發展措施、產品、品牌策略或機關職權，不以不同考點取代。",
+      "originalSummary": "民國50至60年代出口產品：成衣、鞋類及家電"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(五)-70年代",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "三2(1)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣產業發展逐漸重視電子、資訊等需要密集研發與技術人才的領域，這類通常稱為什麼產業？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(五)-70年代-產品",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "三2(1)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣產業發展逐漸重視電子、資訊等需要密集研發與技術人才的領域，這類通常稱為什麼產業？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(五)-80年代",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "三2(2)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣產業參與國際貿易，與其他國家洽談貿易協議的主要目的之一是什麼？"
+    },
+    {
+      "source": 2,
+      "page": 2,
+      "locator": "三(五)-80年代-產品",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-80年代-產品"
+      },
+      "reason": "以附明確原整理表脈絡保留產品辨識，不偷換成品牌經營建議。",
+      "originalSummary": "考點：臺灣企業若由替別人代工轉向經營自有品牌，還需要特別重視什麼？"
+    },
+    {
+      "source": 2,
+      "page": 3,
+      "locator": "四1",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "四1"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：某篇2023年經濟展望文章列出戰爭、通膨、需求減弱與地緣政治風險。依這份清單，哪項不是文中列出的挑戰？"
+    },
+    {
+      "source": 2,
+      "page": 3,
+      "locator": "四2",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "四2"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：一篇2023年展望文章說：「升息雖能抑制通膨，也可能降低購買力，使企業投資意願下降。」哪項最符合這段文字？"
+    },
+    {
+      "source": 2,
+      "page": 3,
+      "locator": "四3",
+      "status": "candidate",
+      "canonical": {
+        "source": 2,
+        "locator": "四3"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：一篇2023年經濟展望文章指出，俄羅斯與烏克蘭是農產品、礦物及能源的重要出口地，戰爭使供應不穩。依這段文字，戰爭可能造成哪種影響？"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一1",
+      "status": "candidate",
+      "canonical": {
+        "source": 3,
+        "locator": "一1"
+      },
+      "reason": "日治期間長度不同於馬關條約年份。",
+      "originalSummary": "馬關條約與50年殖民統治"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "皇民化完全消除民族自覺之絕對敘述"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二2(1)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "1949貨幣與土地改革"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "一戰與二戰混淆"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 8,
+        "locator": "一15"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "科學園區誤稱加工出口區"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一6",
+      "status": "candidate",
+      "canonical": {
+        "source": 3,
+        "locator": "一6"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "星期日與週休二日混淆"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "三1-A"
+      },
+      "reason": "家庭代工錯誤連到耕者有其田；同家庭代工題。",
+      "originalSummary": "家庭代工"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一8",
+      "status": "candidate",
+      "canonical": {
+        "source": 3,
+        "locator": "一8"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "糖業產量與不公平收購"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "耕者有其田"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一10",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一6"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "公學校小學校招收對象顛倒"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一11",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一19"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "首次總統直選"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 6,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "文化協會爭平等"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一13",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "解嚴與權利保障的過度概括敘述"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一14",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二13"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "十大建設港口項目"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一15",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "二4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "基隆港與淡水港混淆"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二1",
+      "status": "existing",
+      "canonical": {
+        "source": 3,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "臺灣民主國總統"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "土地人口調查"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二1(2)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "現代教育制度"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二8"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "政府目的"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代-產品"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "農產品出口組合"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一23"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "嘉南大圳"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二7",
+      "status": "candidate",
+      "canonical": {
+        "source": 3,
+        "locator": "二7"
+      },
+      "reason": "原題非專賣商品辨認，錯連到專賣收入目的。",
+      "originalSummary": "專賣項目鹿皮是否適用"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二8",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丁"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "地方代表職責與中央預算混淆"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "二二八影響"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二10",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "三2(2)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "自由貿易協定目的"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二11",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "皇民化與穿西裝混淆"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丁"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "地方行政與議會辨認"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二13",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一22"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "能源危機"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二14",
+      "status": "existing",
+      "canonical": {
+        "source": 3,
+        "locator": "二14"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "美援與網路建設混淆"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "二15",
+      "status": "existing",
+      "canonical": {
+        "source": 3,
+        "locator": "二15"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "中部橫貫公路"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "三1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(4)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期的苗栗事件，與哪一位人物有關？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "三2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期，余清芳等人參與領導的武裝抗日事件是哪一個？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "三3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 6,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1930年，莫那魯道參與領導的原住民族抗日事件是哪一個？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "三4",
+      "status": "ambiguous",
+      "reason": "「使民族革命運動更加興盛」是欠缺比較範圍的因果評價，配對排除法不能代替證據。",
+      "originalSummary": "苗栗事件「民族革命運動更加興盛」是因果評價，沒有獨立答案證據。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "三5",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "西來庵後「轉為非武裝為主」可作歷史趨勢但非絕對終止；待課本指定論述與史料交叉核對。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "三6",
+      "status": "ambiguous",
+      "reason": "原選項把政策檢討與從此不再大規模抵抗綁在一起，後者過度絕對；若只保留前半則改變原完整配對任務。",
+      "originalSummary": "霧社後政策檢討可證，但「不再發生大規模抵抗」過度絕對，不匯入此完整敘述。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 9,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：《月夜愁》、《望春風》、《雨夜花》的作曲者是哪位臺灣音樂家？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(二)3"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：以雕塑表現臺灣農耕生活，創作《歸途》的藝術家是哪一位？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(2)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪位臺灣人以醫學研究聞名，是首位取得現代醫學博士學位的臺灣人？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期，哪位藝術家以油畫描繪臺灣家鄉風光與人物？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "五1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)丙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法所定的中央政府分工，哪一院是國家最高行政機關？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "五2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)乙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法制度，對違法失職的公務人員提出彈劾，是哪個機關的職權？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "五3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)辛"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：制定國家法律與審議法律案，是哪一院的重要職權？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "五4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)庚"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法制度，哪一院是國家最高考試機關，掌理國家考試等事項？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "五5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)己"
+      },
+      "reason": "保留訴訟審判任務。",
+      "originalSummary": "考點：依中華民國憲政制度，哪一院是最高司法機關？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "六1",
+      "status": "candidate",
+      "canonical": {
+        "source": 3,
+        "locator": "六1"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：下列歷史事件，哪個發生得最早？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "六2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "六1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列歷史事件，哪個發生得最早？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "六3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "六1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列歷史事件，哪個發生得最早？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "六4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "六1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列歷史事件，哪個發生得最早？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "六5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "六1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列歷史事件，哪個發生得最早？"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "七1",
+      "status": "open_ended",
+      "reason": "原卷確為個人感想、生活改善提案或自行規畫行程，沒有唯一答案；維持開放作答，不改成另一道辨識題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "七2",
+      "status": "open_ended",
+      "reason": "原卷確為個人感想、生活改善提案或自行規畫行程，沒有唯一答案；維持開放作答，不改成另一道辨識題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "七3(1)",
+      "status": "open_ended",
+      "reason": "原卷確為個人感想、生活改善提案或自行規畫行程，沒有唯一答案；維持開放作答，不改成另一道辨識題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "七3(2)",
+      "status": "open_ended",
+      "reason": "原卷確為個人感想、生活改善提案或自行規畫行程，沒有唯一答案；維持開放作答，不改成另一道辨識題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "民主國瓦解是否結束武裝抗爭"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "日本取得利益但不建設的錯誤敘述"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一17"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "警察保甲"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二1(4)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "留學限制"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "地方立法機關監督民意"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(3)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "林獻堂蔣渭水請願"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一6"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "公學校臺灣兒童"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一8",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "一9"
+      },
+      "reason": "保留中央與地方層級辨識。",
+      "originalSummary": "中央與地方政府憲法依據"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一9",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "一9"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "把清末基隆新竹鐵路寫成日治首條"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一10",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "一10"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "臺灣民報是否政令宣導"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一11",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "一11"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "美麗島事件被說成全島性衝突"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "民生工業減少進口"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一13",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)庚"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考試院彈劾是否正確"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一14",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "一14"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "科學園區與人才培育"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一15",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "殖民統治是否一直民主開放"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一16",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "三1-A"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "客廳即工廠發起年代與官職混淆"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "二1",
+      "status": "existing",
+      "canonical": {
+        "source": 4,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "二二八影響"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "二2",
+      "status": "existing",
+      "canonical": {
+        "source": 4,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戰爭結束接收"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "二3",
+      "status": "existing",
+      "canonical": {
+        "source": 4,
+        "locator": "二3"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "1949遷臺原因"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "二4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一22"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "能源危機"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一7"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戒嚴限制自由類別"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二6",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "二6"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "立法機關代表如何產生"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)甲"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "地方預算審查者"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二8",
+      "status": "ambiguous",
+      "reason": "查到美援參與海埔新生地相關開發的研究線索，不能斷言美援不含填海造陸；原四選一無可靠排除項。",
+      "originalSummary": "美援是否包括填海造陸"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二9",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "二9"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "藝術文化傳播管道"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二10",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "看農田灌溉前後漫畫辨認建設"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二11",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "耕者有其田目的"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一7"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戒嚴時仍可經商"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二13",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "看專賣諷刺漫畫辨認商品"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二14",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "二14"
+      },
+      "reason": "原題重點是否接受代工，現連到投入研發人才的通用建議而未測此辨識。",
+      "originalSummary": "科技園區與代工"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "二15",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "二15"
+      },
+      "reason": "逐項核對原作答任務，分別保留發展措施、產品、品牌策略或機關職權，不以不同考點取代。",
+      "originalSummary": "自有品牌經營策略：品質、研發與行銷"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "二16",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一23"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認八田與一"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三1(1)",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "三1(1)"
+      },
+      "reason": "具體項目分類，不等於哪類項目數量最多。",
+      "originalSummary": "考點：十大建設的項目中，哪類建設所占數量最多？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三1(2)",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "三1(2)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：十大建設中的大型造船廠與石油化學工業，主要屬於哪一類建設？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三1(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "三1(1)"
+      },
+      "reason": "保留蘇澳港及鐵路電氣化的交通分類考點。",
+      "originalSummary": "考點：十大建設的項目中，哪類建設所占數量最多？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三1(4)",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "三1(4)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：十大建設中，哪一項屬於能源建設？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三1(5)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "三1(2)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：十大建設中的大型造船廠與石油化學工業，主要屬於哪一類建設？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三2(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)丁"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法所定的中央政府分工，審議國家預算案是哪個機關的重要職權？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三2(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)乙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法制度，對違法失職的公務人員提出彈劾，是哪個機關的職權？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三2(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)丙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法所定的中央政府分工，哪一院是國家最高行政機關？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三2(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)癸"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：中央政府年度總預算案由哪一院提出，再送立法院審議？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三2(5)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)壬"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依中華民國憲法，誰統率全國陸海空軍？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三2(6)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)己"
+      },
+      "reason": "保留訴訟審判任務。",
+      "originalSummary": "考點：依中華民國憲政制度，哪一院是最高司法機關？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三2(7)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)庚"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法制度，哪一院是國家最高考試機關，掌理國家考試等事項？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三2(8)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)甲"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依中華民國憲政制度，哪一院是最高司法機關？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三3(1)",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "三3(1)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：一篇描寫日治初期臺灣人的文章說：「留了多年的辮子剪掉後，頭部清爽多了。」這段文字反映哪種變化？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三3(2)",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "三3(2)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：清朝統治時，男性留辮與哪一項政策背景有關？"
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "三3(3)",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "三3(3)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：下列對基督宗教傳入臺灣的說法，哪一項正確？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "三4(1)",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "三4(1)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：1960年代臺灣設立加工出口區，主要希望達到什麼目的？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "三4(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一22"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1970年代國際能源危機與交通需求增加時，臺灣政府推動哪一項大型建設計畫？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "三4(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 8,
+        "locator": "一15"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：民國69年成立、協助臺灣發展電子與資訊等高科技產業的是哪個園區？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "三5(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：民國40年代，臺灣發展紡織等民生工業，主要希望達到哪個目標？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "三5(2)",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "三5(2)"
+      },
+      "reason": "保留原格民國42年時間判斷，不只問政策目的。",
+      "originalSummary": "考點：「耕者有其田」政策希望讓承租私有耕地的農民發生什麼改變？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "三5(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "二15"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列哪條交通路線是在民國40年代開始修築、穿越中央山脈連接臺灣東西部的公路？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "三5(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二2(1)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後臺灣為改革幣制、穩定經濟，於1949年發行哪種貨幣？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "三6(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代-產品"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後初期臺灣曾以哪一組產品外銷，賺取外匯？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "三6(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：「耕者有其田」政策希望讓承租私有耕地的農民發生什麼改變？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "三6(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 10,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後民國40年代，哪個國家的經濟援助協助臺灣改善基礎設施？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "三6(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "二14"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：民國40年代，美援協助臺灣改善電力、交通與水利。下列哪項不是當時的援助建設？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "四1",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "四1"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：戰爭期間擴大鋁等金屬生產，可供哪種軍需製造使用？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "四2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 7,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期，總督府藉由專賣制度、開採礦藏與開發林木，主要希望增加什麼？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "四3",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "四3"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：興建新式製糖工廠，對製糖生產的直接影響是什麼？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "四4",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "四4"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：修築鐵路與港口，對商品運輸有何直接幫助？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "四5",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "四5"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：興建灌溉水利設施，對稻作農業有什麼主要幫助？"
+    },
+    {
+      "source": 4,
+      "page": 4,
+      "locator": "四6",
+      "status": "candidate",
+      "canonical": {
+        "source": 4,
+        "locator": "四6"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：殖民時期興建發電設施，對工業生產的直接幫助是什麼？"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "殖民建設是否以臺灣需要優先"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "一10"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "臺灣民報"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 7,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "食鹽專賣"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一4",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "一4"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "日治電力工程誤寫石門"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一5",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "一5"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "西堤是否日治西餐廳"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一6",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "一6"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "統一時間制度"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "二二八被誤稱太陽花"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一8",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "一8"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "1996當選政黨"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一9",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "一9"
+      },
+      "reason": "政府層級與作為依據的法律是不同考點。",
+      "originalSummary": "政府目的與中央地方"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一10",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丁"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "把地方議會說成行政機關"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一11",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戰後物資輸出及通膨"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 10,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "把美援寫成日本援助"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一13",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "三1-A"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "家庭代工時代"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一14",
+      "status": "duplicate",
+      "canonical": {
+        "source": 8,
+        "locator": "一15"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "科學園區與科技人才"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "二1",
+      "status": "existing",
+      "canonical": {
+        "source": 5,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "蔣渭水"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "二2",
+      "status": "existing",
+      "canonical": {
+        "source": 5,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "余清芳"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "二3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一23"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "嘉南大圳"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "二4",
+      "status": "existing",
+      "canonical": {
+        "source": 5,
+        "locator": "二4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "基隆港"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "二5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 9,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "鄧雨賢"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "二6",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "二6"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "原住民族教育所"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "二7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一12"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "解嚴總統"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "二8",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "二8"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "2016第幾次輪替"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "二9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)辛"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "立法院職權"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "二10",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)甲"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "司法院職權"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "二11",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "二11"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "石門水庫"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "二12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "二15"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "中橫"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "二13",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "三1(4)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "十大建設能源項目"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "二14",
+      "status": "ambiguous",
+      "reason": "電子零件及產品範圍過大，「世界領導」沒有市占、產量、技術等衡量指標；加年份仍不足。",
+      "originalSummary": "目前電子產品世界領導地位但未定義衡量指標"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "三1",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "判斷皇民化措施：說日語"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "三2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：改日本姓名"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "三3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：穿漢服"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "三4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：參拜神社"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "三5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：崇拜日本為祖國"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "三6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：順應日本風俗"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "四1",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "判斷專賣項目：鴉片"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "四2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷專賣項目：樟腦"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "四3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷專賣項目：食鹽"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "四4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷專賣項目：銅礦"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "四5",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "四5"
+      },
+      "reason": "蔗糖產業管制與專賣的區別未在現有題測量。",
+      "originalSummary": "判斷專賣項目：蔗糖"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "四6",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "四6"
+      },
+      "reason": "新增原格菸酒分類；原鴉片食鹽樟腦組合未涵蓋。",
+      "originalSummary": "判斷專賣項目：菸酒"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "五1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷日治休閒活動：公園休憩"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "五2",
+      "status": "ambiguous",
+      "reason": "政府提倡哪些休閒活動與某活動是否存在不同；未有足以排除出國旅遊的政策或普及率依據。",
+      "originalSummary": "判斷日治休閒活動：出國旅遊"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "五3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷日治休閒活動：電影欣賞"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "五4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷日治休閒活動：戶外活動"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "五5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷日治休閒活動：音樂會"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "五6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷日治休閒活動：藝術展覽"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "六1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一19"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1996年，臺灣總統與副總統選舉的重要改變是什麼？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "六2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 8,
+        "locator": "二14"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：2000年臺灣首次總統選舉政黨輪替，由哪個政黨的候選人當選？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "六3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在1987年解嚴後，民主發展逐步出現哪一項變化？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "六4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二2(1)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後臺灣為改革幣制、穩定經濟，於1949年發行哪種貨幣？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "六5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在1987年解嚴後，民主發展逐步出現哪一項變化？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "六6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在1987年解嚴後，民主發展逐步出現哪一項變化？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "六7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在1987年解嚴後，民主發展逐步出現哪一項變化？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "七1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丁"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺北市議會依法可以辦理哪一項工作？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "七2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：市議員在議會質詢市政府官員，主要是在履行哪項職責？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "七3",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "七3"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：地方政府設置公共圖書館，主要屬於哪一類公共服務？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "七4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)甲"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺北市政府提出年度預算案後，應由哪個機關審議？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "七5",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "七5"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：地方政府規劃公車專用道，主要是改善哪一類公共服務？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "七6",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "七6"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：地方政府提供職業訓練，主要希望協助民眾達成什麼？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "七7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：市議員在議會質詢市政府官員，主要是在履行哪項職責？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "八1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：「耕者有其田」政策希望讓承租私有耕地的農民發生什麼改變？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "八2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二2(1)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後臺灣為改革幣制、穩定經濟，於1949年發行哪種貨幣？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "八3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：民國40年代，臺灣發展紡織等民生工業，主要希望達到哪個目標？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "八4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 10,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後民國40年代，哪個國家的經濟援助協助臺灣改善基礎設施？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "八5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代-產品"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後初期臺灣曾以哪一組產品外銷，賺取外匯？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "八6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "二14"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：民國40年代，美援協助臺灣改善電力、交通與水利。下列哪項不是當時的援助建設？"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "九1",
+      "status": "candidate",
+      "reason": "原九1–3雖開放填寫，限定高雄十大建設已有有限客觀解，並非個人規劃；可合為組合題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。",
+      "canonical": {
+        "source": 5,
+        "locator": "九1"
+      }
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "九2",
+      "status": "duplicate",
+      "reason": "三個客觀高雄十大建設項目合為組合題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。",
+      "canonical": {
+        "source": 5,
+        "locator": "九1"
+      }
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "九3",
+      "status": "duplicate",
+      "reason": "三個客觀高雄十大建設項目合為組合題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。",
+      "canonical": {
+        "source": 5,
+        "locator": "九1"
+      }
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "一1"
+      },
+      "reason": "保留日治五十年判斷。",
+      "originalSummary": "1895與50年日治"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一3"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "警察千手觀音形象是否全為服務協助"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一23"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "嘉南大圳"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一4",
+      "status": "candidate",
+      "canonical": {
+        "source": 6,
+        "locator": "一4"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "縱貫鐵路端點寫成基隆臺中"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一5",
+      "status": "candidate",
+      "canonical": {
+        "source": 6,
+        "locator": "一5"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "衛生改革仍保留纏足之說法"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一6",
+      "status": "existing",
+      "canonical": {
+        "source": 6,
+        "locator": "一6"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "帝大與臺大"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戰後二二八"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一8",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一19"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "2020是否首次直選"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "一9"
+      },
+      "reason": "保留中央與地方層級辨識。",
+      "originalSummary": "政府組織層級"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一10",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二10"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "地方行政職責"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一11",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戰後物資運往日本支持對日戰爭之錯誤敘述"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 10,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "美援"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一13",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "三1-A"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "家庭代工"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一14",
+      "status": "duplicate",
+      "canonical": {
+        "source": 8,
+        "locator": "一15"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "新竹園區名稱"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "二1",
+      "status": "existing",
+      "canonical": {
+        "source": 6,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "文化協會"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "二2",
+      "status": "existing",
+      "canonical": {
+        "source": 6,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "霧社事件"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "二3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "日月潭電力工程"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "二4",
+      "status": "candidate",
+      "canonical": {
+        "source": 6,
+        "locator": "二4"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "橋頭糖廠"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "二5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "日治西餐廳波麗路"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "二6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一6"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "臺灣兒童公學校"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "二7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一12"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "解嚴總統"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "二8",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "二二八"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "二9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)乙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "監察職權"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "二10",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)丙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "行政院職權"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "二11",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "二11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "石門水庫"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "二12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "二15"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "中橫"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "二13",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "地熱與LED皆可涉及綠能，原單選存在歧義"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "二14",
+      "status": "ambiguous",
+      "reason": "自行車「世界領導地位」無衡量指標；不能為補題另換成特定出口排名任務。",
+      "originalSummary": "目前自行車全球領導但未定義指標"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "三1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：說漢語"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "三2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：改日本姓名"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "三3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：穿和服"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "三4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：參拜神社"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "三5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：崇拜中國為祖國"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "三6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：順應中國風俗"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "四1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷專賣項目：金礦"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "四2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷專賣項目：木柴"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "四3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷專賣項目：食鹽"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "四4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷專賣項目：鴉片"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "四5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷專賣項目：樟腦"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "四6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四6"
+      },
+      "reason": "相同菸酒專賣分類。",
+      "originalSummary": "判斷專賣項目：菸酒"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "五1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認陳澄波是否藝術家"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "五2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(二)3"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認黃土水是否藝術家"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "五3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 9,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認鄧雨賢是否藝術家"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "五4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(2)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認杜聰明是否藝術家"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "五5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(3)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認林獻堂是否藝術家"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "五6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "辨認蔣渭水是否藝術家"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "六1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一19"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1996年，臺灣總統與副總統選舉的重要改變是什麼？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "六2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 8,
+        "locator": "二14"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：2000年臺灣首次總統選舉政黨輪替，由哪個政黨的候選人當選？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "六3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在1987年解嚴後，民主發展逐步出現哪一項變化？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "六4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在1987年解嚴後，民主發展逐步出現哪一項變化？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "六5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在1987年解嚴後，民主發展逐步出現哪一項變化？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "六6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在1987年解嚴後，民主發展逐步出現哪一項變化？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "六7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二2(1)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後臺灣為改革幣制、穩定經濟，於1949年發行哪種貨幣？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "七1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "七3"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：地方政府設置公共圖書館，主要屬於哪一類公共服務？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "七2",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "蒐集民意也可由行政機關進行，不能只以立法機關專屬排除。"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "七3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "七5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：地方政府規劃公車專用道，主要是改善哪一類公共服務？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "七4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)甲"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺北市政府提出年度預算案後，應由哪個機關審議？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "七5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：市議員在議會質詢市政府官員，主要是在履行哪項職責？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "七6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)戊"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：地方政府清除積水與防治病媒蚊，主要是為了什麼？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "七7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "七6"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：地方政府提供職業訓練，主要希望協助民眾達成什麼？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "八1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：「耕者有其田」政策希望讓承租私有耕地的農民發生什麼改變？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "八2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二2(1)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後臺灣為改革幣制、穩定經濟，於1949年發行哪種貨幣？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "八3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：民國40年代，臺灣發展紡織等民生工業，主要希望達到哪個目標？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "八4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 10,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後民國40年代，哪個國家的經濟援助協助臺灣改善基礎設施？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "八5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代-產品"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後初期臺灣曾以哪一組產品外銷，賺取外匯？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "八6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "二14"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：民國40年代，美援協助臺灣改善電力、交通與水利。下列哪項不是當時的援助建設？"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "九1",
+      "status": "open_ended",
+      "reason": "原卷確為個人感想、生活改善提案或自行規畫行程，沒有唯一答案；維持開放作答，不改成另一道辨識題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "九2",
+      "status": "open_ended",
+      "reason": "原卷確為個人感想、生活改善提案或自行規畫行程，沒有唯一答案；維持開放作答，不改成另一道辨識題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。"
+    },
+    {
+      "source": 6,
+      "page": 2,
+      "locator": "九3",
+      "status": "open_ended",
+      "reason": "原卷確為個人感想、生活改善提案或自行規畫行程，沒有唯一答案；維持開放作答，不改成另一道辨識題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "甲午戰爭與馬關割臺"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "西來庵"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "殖民國家誤為法國"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 7,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "專賣制度"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一23"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "八田與一"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一6"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "公學小學對象顛倒"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二9"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "藝術傳播"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一8",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一7"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戒嚴原因誤為防日本支持者"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一9",
+      "status": "candidate",
+      "canonical": {
+        "source": 7,
+        "locator": "一9"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "自由中國批評對象"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一10",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "耕者有其田"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一11",
+      "status": "duplicate",
+      "canonical": {
+        "source": 10,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "美援建設"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戰後物資外運與通膨"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一13",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)壬"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "總統與五院"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一14",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)甲"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "立法院與司法院混淆"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一15",
+      "status": "ambiguous",
+      "reason": "越南投資因素包含人力、土地、產業鏈及市場等；原「主要因原料大國」涉及跨企業主因，官方一般投資環境尚不足唯一判定。",
+      "originalSummary": "越南設廠因原料大國之未限定現況敘述"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一16",
+      "status": "ambiguous",
+      "reason": "「取代資訊產業成為主要發展產業」沒有定義取代與主要的尺度；只加109年仍不足，不能任意改成產業名稱題。",
+      "originalSummary": "綠能取代資訊產業之未限定現況敘述"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "二1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "非皇民化項目"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "二2",
+      "status": "existing",
+      "canonical": {
+        "source": 7,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "非武裝抗爭方法"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "二3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 6,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "武裝與非武裝區分"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "二4",
+      "status": "existing",
+      "canonical": {
+        "source": 7,
+        "locator": "二4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "統治控制措施"
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "二5",
+      "status": "existing",
+      "canonical": {
+        "source": 7,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "政府財政收入措施"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "日治休閒組合"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二1(2)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "日治學校類型"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二8",
+      "status": "duplicate",
+      "canonical": {
+        "source": 6,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "不可能的日治生活情境"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一7"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戒嚴限制"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二10",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戰敗接收時間"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二11",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二3"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "1949遷臺與戒嚴"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "二二八非總統民選"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二13",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "美麗島訴求"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二14",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丁"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "非地方行政人員"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二15",
+      "status": "candidate",
+      "canonical": {
+        "source": 7,
+        "locator": "二15"
+      },
+      "reason": "辨認行政機關不是辨認委辦事項。",
+      "originalSummary": "鄉公所"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二16",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "非土地改革作法"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二17",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代-產品"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戰後農產出口"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二18",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "非民生工業"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二19",
+      "status": "ambiguous",
+      "reason": "四個選項皆涉及戰後經濟發展；初步重整未界定年代，土地改革與耕者有其田又重疊。",
+      "originalSummary": "初步重整階段無明確界定，土地改革與耕者有其田並列"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二20",
+      "status": "candidate",
+      "canonical": {
+        "source": 7,
+        "locator": "二20"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "LED方向是否寫反"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二21",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "三2(2)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "貿易協定好處"
+    },
+    {
+      "source": 7,
+      "page": 2,
+      "locator": "二22",
+      "status": "candidate",
+      "canonical": {
+        "source": 7,
+        "locator": "二22"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "引進移工目的"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "三1(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1895年，部分官民成立臺灣民主國，最初推舉誰擔任總統？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "三1(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪位醫師曾在臺北大稻埕行醫，並與同道成立臺灣文化協會，為臺灣人爭取權利？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "三1(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(3)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期，林獻堂等人推動臺灣議會設置請願運動，希望達成什麼目標？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "三1(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一21"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1895年簽訂《馬關條約》時，清朝與日本的主要談判代表是哪一組？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "三2(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期，哪位藝術家以油畫描繪臺灣家鄉風光與人物？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "三2(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 9,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：《月夜愁》、《望春風》、《雨夜花》的作曲者是哪位臺灣音樂家？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "三2(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(2)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪位臺灣人以醫學研究聞名，是首位取得現代醫學博士學位的臺灣人？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "三2(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(二)3"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：以雕塑表現臺灣農耕生活，創作《歸途》的藝術家是哪一位？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四1(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "四3"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：興建新式製糖工廠，對製糖生產的直接影響是什麼？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四1(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 7,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期，總督府藉由專賣制度、開採礦藏與開發林木，主要希望增加什麼？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四1(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰爭期間擴大鋁等金屬生產，可供哪種軍需製造使用？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四1(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "四6"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：殖民時期興建發電設施，對工業生產的直接幫助是什麼？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四1(5)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "四5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：興建灌溉水利設施，對稻作農業有什麼主要幫助？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四1(6)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "四4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：修築鐵路與港口，對商品運輸有何直接幫助？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四2(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)戊"
+      },
+      "reason": "逐項核對原作答任務，分別保留發展措施、產品、品牌策略或機關職權，不以不同考點取代。",
+      "originalSummary": "總統職權：對外代表國家"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四2(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)丙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法所定的中央政府分工，哪一院是國家最高行政機關？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四2(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)丁"
+      },
+      "reason": "逐項核對原作答任務，分別保留發展措施、產品、品牌策略或機關職權，不以不同考點取代。",
+      "originalSummary": "立法院職權：審查國家預算"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四2(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)己"
+      },
+      "reason": "逐項核對原作答任務，分別保留發展措施、產品、品牌策略或機關職權，不以不同考點取代。",
+      "originalSummary": "司法體系職權：依法審理訴訟案件"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四2(5)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)庚"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法制度，哪一院是國家最高考試機關，掌理國家考試等事項？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四2(6)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一24"
+      },
+      "reason": "逐項核對原作答任務，分別保留發展措施、產品、品牌策略或機關職權，不以不同考點取代。",
+      "originalSummary": "監察院職權：糾正行政機關不當施政"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四3(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一22"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1970年代國際能源危機與交通需求增加時，臺灣政府推動哪一項大型建設計畫？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四3(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 7,
+        "locator": "二22"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1989年政府開始以專案方式引進營造業移工，主要是為了什麼？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四3(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 7,
+        "locator": "二22"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1989年政府開始以專案方式引進營造業移工，主要是為了什麼？"
+    },
+    {
+      "source": 7,
+      "page": 3,
+      "locator": "四3(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一22"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1970年代國際能源危機與交通需求增加時，臺灣政府推動哪一項大型建設計畫？"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丁"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "地方行政立法混淆"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 6,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "解除纏足"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 10,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戰後日本援助誤寫"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一4",
+      "status": "candidate",
+      "canonical": {
+        "source": 8,
+        "locator": "一4"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "查緝私菸導火線"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "日本殖民統治與總督府"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "三1-A"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "家庭代工"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "美麗島是否發生解嚴後"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一8",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二1(3)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "教育不平等"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)壬"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "五院"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一10",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "皇民化同說臺語日語"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一11",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一22"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "能源危機十大建設"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一12",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "LED產值世界之冠未附統計時間"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一13",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二1(4)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "留學"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一14",
+      "status": "candidate",
+      "canonical": {
+        "source": 8,
+        "locator": "一14"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "美麗島前是否已有投票"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "一15",
+      "status": "existing",
+      "canonical": {
+        "source": 8,
+        "locator": "一15"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "新竹科學園區"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "二1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)壬"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "總統統軍"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "二2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戰爭與戰後政府民眾隔閡"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "二3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 6,
+        "locator": "一6"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "臺北帝大今天校名"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "二4",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "報刊數量圖與解嚴"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "二5",
+      "status": "candidate",
+      "canonical": {
+        "source": 8,
+        "locator": "二5"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "工資上漲生產成本提高後的調整"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "二6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "與蔣渭水無關事件"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "二7",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "目前自行車世界領導未附指標"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "二8",
+      "status": "ambiguous",
+      "reason": "與生活「最密切」無比較標準；行政層級分類雖可出題，會變更本題原任務。",
+      "originalSummary": "政府機關何者與人民生活最密切但選項層級相異"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "二9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二13"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "非十大建設"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "二10",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "二4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "殖民農業建設"
+    },
+    {
+      "source": 8,
+      "page": 1,
+      "locator": "二11",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "非戰後政府民眾隔閡成因"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "二12",
+      "status": "candidate",
+      "canonical": {
+        "source": 8,
+        "locator": "二12"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "通膨舊臺幣"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "二13",
+      "status": "existing",
+      "canonical": {
+        "source": 8,
+        "locator": "二13"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "公地放領"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "二14",
+      "status": "existing",
+      "canonical": {
+        "source": 8,
+        "locator": "二14"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "首次輪替政黨"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "二15",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "黃虎旗辨認民主國總統"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三1(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一23"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪位工程師規劃並參與嘉南大圳建設，改善嘉南平原的灌溉？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三1(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 9,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：《月夜愁》、《望春風》、《雨夜花》的作曲者是哪位臺灣音樂家？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三1(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(二)3"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：以雕塑表現臺灣農耕生活，創作《歸途》的藝術家是哪一位？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三1(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期，哪位藝術家以油畫描繪臺灣家鄉風光與人物？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三2(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "七3"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：地方政府設置公共圖書館，主要屬於哪一類公共服務？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三2(2)",
+      "status": "candidate",
+      "canonical": {
+        "source": 8,
+        "locator": "三2(2)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：地方政府提供長者關懷及福利服務，主要屬於哪一類工作？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三2(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)戊"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：地方政府清除積水與防治病媒蚊，主要是為了什麼？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三2(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "七5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：地方政府規劃公車專用道，主要是改善哪一類公共服務？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三3(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列臺灣歷史事件，哪一組依發生時間由早到晚排列正確？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三3(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列臺灣歷史事件，哪一組依發生時間由早到晚排列正確？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三3(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列臺灣歷史事件，哪一組依發生時間由早到晚排列正確？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三3(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列臺灣歷史事件，哪一組依發生時間由早到晚排列正確？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三4(1)",
+      "status": "candidate",
+      "canonical": {
+        "source": 8,
+        "locator": "三4(1)"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：1895年成立臺灣民主國，當時主要是為了什麼？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三4(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治後期，日本為配合戰爭，推行哪一項要求臺灣人效忠日本的同化運動？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三4(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二4(3)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期，林獻堂等人推動臺灣議會設置請願運動，希望達成什麼目標？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "三4(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在《馬關條約》簽訂後進入日治時期，條約簽訂於哪一年？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "四1(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪一組做法符合日治後期皇民化運動推行的內容？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "四1(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪一組做法符合日治後期皇民化運動推行的內容？"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "四2(1)",
+      "status": "ambiguous",
+      "reason": "原圖表頭疑似互換：佃農38升65、自耕農37降14。不能自行修表後當原資料。",
+      "originalSummary": "影像表頭寫佃農，但數值1951年38至1963年65上升；自耕農37降至14，與題意及歷史趨勢矛盾，疑表頭錯置。"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "四2(2)",
+      "status": "ambiguous",
+      "reason": "承上表頭錯置，政策推論不可靠，等待正確表格來源。",
+      "originalSummary": "承上使用疑似表頭錯置表格推論政策，不採答案；應先更正來源或取得答案說明。"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "一1"
+      },
+      "reason": "保留日治五十年判斷。",
+      "originalSummary": "日治100年敘述是否正確"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 6,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "文化協會"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "二4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "高雄港是否臺日門戶"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一4",
+      "status": "existing",
+      "canonical": {
+        "source": 9,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "下淡水溪鐵橋"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 6,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "衛生防疫改革"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一9"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "是否禁止西方文化"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戰敗接收"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一8",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一19"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "2019是否首次直選"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "一9"
+      },
+      "reason": "保留中央與地方層級辨識。",
+      "originalSummary": "政府層級"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一10",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丁"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "政府公所是否立法機關"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一11",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "戰後凋敝"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 10,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "日本援助錯誤"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一13",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "三1-A"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "家庭代工是否罕見"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一14",
+      "status": "duplicate",
+      "canonical": {
+        "source": 8,
+        "locator": "一15"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "科學園區"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二1",
+      "status": "existing",
+      "canonical": {
+        "source": 9,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "警察制度"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "西來庵"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一23"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "嘉南大圳"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 6,
+        "locator": "二4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "橋頭糖廠"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二5",
+      "status": "existing",
+      "canonical": {
+        "source": 9,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "鄧雨賢"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二6",
+      "status": "candidate",
+      "canonical": {
+        "source": 9,
+        "locator": "二6"
+      },
+      "reason": "日本兒童學校辨認與臺灣兒童學校辨認是不同作答任務。",
+      "originalSummary": "日籍兒童小學校"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一12"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "解嚴總統"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二8",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "二二八"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)辛"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "立法院"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二10",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)甲"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "司法院"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二11",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "二11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "石門水庫"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "二15"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "中橫"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二13",
+      "status": "duplicate",
+      "canonical": {
+        "source": 7,
+        "locator": "二20"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "LED照明"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "二14",
+      "status": "ambiguous",
+      "reason": "與第5卷二14相同，世界領導地位無指標，不能只限定108年就認為可唯一判讀。",
+      "originalSummary": "電子產品世界領導未定指標"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "三1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：說日語"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "三2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：改日本姓名"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "三3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：穿西服"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "三4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：參拜神社"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "三5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：崇拜日本為祖國"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "三6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷皇民化措施：順應日本風俗"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "四1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷專賣項目：木柴"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "四2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷專賣項目：鴉片"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "四3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷專賣項目：食鹽"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "四4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷專賣項目：金礦"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "四5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷專賣項目：樟腦"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "四6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "四6"
+      },
+      "reason": "相同菸酒專賣分類。",
+      "originalSummary": "判斷專賣項目：菸酒"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "五1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷日治休閒活動：戶外活動"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "五2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷日治休閒活動：藝術欣賞"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "五3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷日治休閒活動：公園休憩"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "五4",
+      "status": "ambiguous",
+      "reason": "當時主要休閒活動的母群與普及程度沒有資料，不能直接排除出國旅遊。",
+      "originalSummary": "判斷日治休閒活動：出國旅遊"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "五5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷日治休閒活動：音樂欣賞"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "五6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "判斷日治休閒活動：網咖手遊"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "六1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在1987年解嚴後，民主發展逐步出現哪一項變化？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "六2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在1987年解嚴後，民主發展逐步出現哪一項變化？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "六3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在1987年解嚴後，民主發展逐步出現哪一項變化？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "六4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在1987年解嚴後，民主發展逐步出現哪一項變化？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "六5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一19"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1996年，臺灣總統與副總統選舉的重要改變是什麼？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "六6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 8,
+        "locator": "二14"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：2000年臺灣首次總統選舉政黨輪替，由哪個政黨的候選人當選？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "六7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 8,
+        "locator": "一14"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣戰後第一屆縣市長選舉，從哪一年開始分批舉行？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "七1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "七3"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：地方政府設置公共圖書館，主要屬於哪一類公共服務？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "七2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：市議員在議會質詢市政府官員，主要是在履行哪項職責？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "七3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丁"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺北市議會依法可以辦理哪一項工作？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "七4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)甲"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺北市政府提出年度預算案後，應由哪個機關審議？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "七5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)丙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：市議員在議會質詢市政府官員，主要是在履行哪項職責？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "七6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(四)戊"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：地方政府清除積水與防治病媒蚊，主要是為了什麼？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "八1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：「耕者有其田」政策希望讓承租私有耕地的農民發生什麼改變？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "八2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "二2(1)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後臺灣為改革幣制、穩定經濟，於1949年發行哪種貨幣？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "八3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：民國40年代，臺灣發展紡織等民生工業，主要希望達到哪個目標？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "八4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 10,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後民國40年代，哪個國家的經濟援助協助臺灣改善基礎設施？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "八5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-40年代-產品"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戰後初期臺灣曾以哪一組產品外銷，賺取外匯？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "八6",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "二14"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：民國40年代，美援協助臺灣改善電力、交通與水利。下列哪項不是當時的援助建設？"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "八7",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "「戰後」時間範圍過廣，臺灣後來確曾援外，不能當所有戰後時段都錯。"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "九1",
+      "status": "open_ended",
+      "reason": "原卷確為個人感想、生活改善提案或自行規畫行程，沒有唯一答案；維持開放作答，不改成另一道辨識題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "九2",
+      "status": "open_ended",
+      "reason": "原卷確為個人感想、生活改善提案或自行規畫行程，沒有唯一答案；維持開放作答，不改成另一道辨識題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。"
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "九3",
+      "status": "open_ended",
+      "reason": "原卷確為個人感想、生活改善提案或自行規畫行程，沒有唯一答案；維持開放作答，不改成另一道辨識題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "一(一)1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "一8"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1996年首次總統、副總統直接選舉，當選總統的是誰？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "一(一)2-總統",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "屬出卷當時的現況、預測或現任人物，不作無時間限定的現況題。"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "一(一)2-行政院長",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "屬出卷當時的現況、預測或現任人物，不作無時間限定的現況題。"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "一(一)3-年",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "一(一)3-年"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：中華民國第15任總統、副總統選舉於哪一天投票？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "一(一)3-月",
+      "status": "duplicate",
+      "canonical": {
+        "source": 10,
+        "locator": "一(一)3-年"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：中華民國第15任總統、副總統選舉於哪一天投票？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "一(二)-1",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "一(二)-1"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：產業推動節能減碳，所說的「減碳」主要是減少哪類排放？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "一(二)-2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 7,
+        "locator": "二20"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：以適當的LED照明取代較耗電的傳統照明，主要希望達成什麼效果？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "一(二)-3",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "一(二)-3"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：2011至2015年政府推動的「建置低碳島專案計畫」，以哪一個離島縣為對象？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "一(二)-4",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "一(二)-4"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "考點：畜牧場將糞尿發酵產生的沼氣回收發電，屬於哪一種做法？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "二1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 9,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "鄧雨賢"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "二2",
+      "status": "existing",
+      "canonical": {
+        "source": 10,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "十大建設最多分類"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "二3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)甲"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "司法院"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "二4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 9,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "警察制度"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "二5",
+      "status": "existing",
+      "canonical": {
+        "source": 10,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "美援國家"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三1甲",
+      "status": "existing",
+      "canonical": {
+        "source": 10,
+        "locator": "三1甲"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺南億載金城的興築，屬於哪個時期的近代化建設？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三1乙",
+      "status": "duplicate",
+      "canonical": {
+        "source": 6,
+        "locator": "二4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期臺灣第一座新式製糖工廠設於哪裡？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三1丙",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期為供應工業用電而興建的重要水力發電工程，是哪一項？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三1丁",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "一9"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：清領末期臺灣鐵路建設完成後，主要連接哪兩地？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三1戊",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "清末臺北電報建設可查，但原題未提供具體路線及年代，先保留史料核對。"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三1己",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一23"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪位工程師規劃並參與嘉南大圳建設，改善嘉南平原的灌溉？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三2(1)",
+      "status": "candidate",
+      "reason": "原題文字已給桃園與機場，不必依賴地圖即可改寫作答。",
+      "originalSummary": "原題需要圖表或圖片辨識；本批未建立可供網頁使用的原圖資產，不猜測答案。",
+      "canonical": {
+        "source": 10,
+        "locator": "三2(1)"
+      }
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三2(2)",
+      "status": "duplicate",
+      "reason": "原題高雄工廠判重工業，可依文字改寫，無須圖資。",
+      "originalSummary": "原題需要圖表或圖片辨識；本批未建立可供網頁使用的原圖資產，不猜測答案。",
+      "canonical": {
+        "source": 4,
+        "locator": "三1(2)"
+      }
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三2(3)",
+      "status": "candidate",
+      "reason": "原題已提供西部基隆高雄交通線索，可以自足文字題保留。",
+      "originalSummary": "原題需要圖表或圖片辨識；本批未建立可供網頁使用的原圖資產，不猜測答案。",
+      "canonical": {
+        "source": 10,
+        "locator": "三2(3)"
+      }
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三5(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)乙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法制度，對違法失職的公務人員提出彈劾，是哪個機關的職權？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三5(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)庚"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：依憲法制度，哪一院是國家最高考試機關，掌理國家考試等事項？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三5(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)辛"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：制定國家法律與審議法律案，是哪一院的重要職權？"
+    },
+    {
+      "source": 10,
+      "page": 1,
+      "locator": "三5(4)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)己"
+      },
+      "reason": "保留訴訟審判任務。",
+      "originalSummary": "考點：依中華民國憲政制度，哪一院是最高司法機關？"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "四1",
+      "status": "candidate",
+      "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+      "originalSummary": "幸安校史確認為日治小學校，但尚未取得該校學生族群招生的直接史料，不直接推定所有學生均日籍。"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "四2-措施1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪一組做法符合日治後期皇民化運動推行的內容？"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "四2-措施2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "三1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪一組做法符合日治後期皇民化運動推行的內容？"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五1(1)",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "五1(1)"
+      },
+      "reason": "判讀文章時代，不等於殖民經濟利益歸誰。",
+      "originalSummary": "考點：日治時期總督府推動臺灣產業開發時，主要優先考量哪一方的統治與經濟利益？"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五1(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 5,
+        "locator": "二1"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：哪位醫師曾在臺北大稻埕行醫，並與同道成立臺灣文化協會，為臺灣人爭取權利？"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五1(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 7,
+        "locator": "二2"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期，臺灣人爭取平等待遇時，下列哪一項屬於非武裝方式？"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五2(1)",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "五2(1)"
+      },
+      "reason": "由管制制度短文辨認商品，不能連到增加政府收入。",
+      "originalSummary": "考點：日治時期，總督府藉由專賣制度、開採礦藏與開發林木，主要希望增加什麼？"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五2(2)",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "五2(2)"
+      },
+      "reason": "原題辨認非專賣商品，不能連到專賣目的。",
+      "originalSummary": "考點：日治時期，總督府藉由專賣制度、開採礦藏與開發林木，主要希望增加什麼？"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五2(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 7,
+        "locator": "二5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：日治時期，總督府藉由專賣制度、開採礦藏與開發林木，主要希望增加什麼？"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五3(1)",
+      "status": "ambiguous",
+      "reason": "原卷僅概括經濟困境，未給產業範圍、成本比較或統計資料；工資與環保意識也非必然負面。僅補出卷年代不足以形成原任務的唯一客觀判斷。",
+      "originalSummary": "勾選經濟現況或提出方案；原題未提供統計年代或客觀判準"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五3(2)",
+      "status": "ambiguous",
+      "reason": "找到中階技術人力缺工資料，不能直接證明原題「基層勞動力」是否過剩；尚缺同範圍統計依據。",
+      "originalSummary": "勾選經濟現況或提出方案；原題未提供統計年代或客觀判準"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五3(3)",
+      "status": "ambiguous",
+      "reason": "原卷僅概括經濟困境，未給產業範圍、成本比較或統計資料；工資與環保意識也非必然負面。僅補出卷年代不足以形成原任務的唯一客觀判斷。",
+      "originalSummary": "勾選經濟現況或提出方案；原題未提供統計年代或客觀判準"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五3(4)",
+      "status": "ambiguous",
+      "reason": "原卷僅概括經濟困境，未給產業範圍、成本比較或統計資料；工資與環保意識也非必然負面。僅補出卷年代不足以形成原任務的唯一客觀判斷。",
+      "originalSummary": "勾選經濟現況或提出方案；原題未提供統計年代或客觀判準"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五3(5)",
+      "status": "ambiguous",
+      "reason": "原卷僅概括經濟困境，未給產業範圍、成本比較或統計資料；工資與環保意識也非必然負面。僅補出卷年代不足以形成原任務的唯一客觀判斷。",
+      "originalSummary": "勾選經濟現況或提出方案；原題未提供統計年代或客觀判準"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五3(6)",
+      "status": "open_ended",
+      "reason": "原卷確為個人感想、生活改善提案或自行規畫行程，沒有唯一答案；維持開放作答，不改成另一道辨識題。",
+      "originalSummary": "勾選經濟現況或提出方案；原題未提供統計年代或客觀判準"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五4(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "三3(1)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：一篇描寫日治初期臺灣人的文章說：「留了多年的辮子剪掉後，頭部清爽多了。」這段文字反映哪種變化？"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五4(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "三3(2)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：清朝統治時，男性留辮與哪一項政策背景有關？"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五4(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 4,
+        "locator": "三3(3)"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：下列對基督宗教傳入臺灣的說法，哪一項正確？"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "五5(1)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一7"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：戒嚴時期，臺灣民眾哪一類自由受到嚴格限制？"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "五5(2)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一5"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：臺灣在1987年解嚴後，民主發展逐步出現哪一項變化？"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "五5(3)",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一19"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1996年，臺灣總統與副總統選舉的重要改變是什麼？"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "六1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 6,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "日治基隆高雄交通"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "六2",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "六2"
+      },
+      "reason": "解除戒嚴年份，不等於在已給年份時認總統。",
+      "originalSummary": "解除戒嚴年"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "六3",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)丙"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "防疫行政院"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "六4",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "耕者有其田"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "六5",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(五)-50至60年代"
+      },
+      "reason": "逐項核對原作答任務，分別保留發展措施、產品、品牌策略或機關職權，不以不同考點取代。",
+      "originalSummary": "五六十年代外銷產品"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "六6",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "六6"
+      },
+      "reason": "辨認成立者，不等於辨認成立目的。",
+      "originalSummary": "臺灣民主國由何種人士成立"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "六7",
+      "status": "duplicate",
+      "canonical": {
+        "source": 3,
+        "locator": "一8"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "蔗農收入與收購價格"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "六8",
+      "status": "candidate",
+      "canonical": {
+        "source": 10,
+        "locator": "六8"
+      },
+      "reason": "採原題可獨立作答的核心知識，重新撰寫為唯一答案；排除原題錯誤敘述。",
+      "originalSummary": "悲情城市事件背景"
+    },
+    {
+      "source": 10,
+      "page": 3,
+      "locator": "六9",
+      "status": "duplicate",
+      "canonical": {
+        "source": 2,
+        "locator": "三(三)甲"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "解釋憲法機關"
+    },
+    {
+      "source": 10,
+      "page": 4,
+      "locator": "六10",
+      "status": "existing",
+      "canonical": {
+        "source": 10,
+        "locator": "六10"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "1946至1947物價表"
+    },
+    {
+      "source": 10,
+      "page": 4,
+      "locator": "六11",
+      "status": "duplicate",
+      "canonical": {
+        "source": 7,
+        "locator": "二22"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "1989初引移工目的"
+    },
+    {
+      "source": 10,
+      "page": 4,
+      "locator": "六12",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一19"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "首次總統直選年"
+    },
+    {
+      "source": 10,
+      "page": 4,
+      "locator": "七1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 10,
+        "locator": "六8"
+      },
+      "reason": "同為從背景辨認二二八事件；原錯連事件長期影響。",
+      "originalSummary": "考點：二二八事件造成許多民眾傷亡，對臺灣社會帶來哪一項長期影響？"
+    },
+    {
+      "source": 10,
+      "page": 4,
+      "locator": "七2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 8,
+        "locator": "一4"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：1947年二二八事件的直接導火線，與哪一項衝突有關？"
+    },
+    {
+      "source": 10,
+      "page": 4,
+      "locator": "七3-因素1",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：二二八事件發生前，哪一組情況加深戰後臺灣民眾對政府的不滿？"
+    },
+    {
+      "source": 10,
+      "page": 4,
+      "locator": "七3-因素2",
+      "status": "duplicate",
+      "canonical": {
+        "source": 1,
+        "locator": "一11"
+      },
+      "reason": "與指定題目測量同一核心知識，不重複匯入。",
+      "originalSummary": "考點：二二八事件發生前，哪一組情況加深戰後臺灣民眾對政府的不滿？"
+    },
+    {
+      "source": 10,
+      "page": 4,
+      "locator": "七4",
+      "status": "open_ended",
+      "reason": "原卷確為個人感想、生活改善提案或自行規畫行程，沒有唯一答案；維持開放作答，不改成另一道辨識題。",
+      "originalSummary": "開放式書寫或個人規劃，沒有單一標準答案，不直接轉為選擇題。"
+    }
+  ]
+}

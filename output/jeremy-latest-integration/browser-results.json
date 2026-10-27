@@ -1,0 +1,95 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "chromium six grade maps at 320px"
+    },
+    {
+      "name": "chromium six grade maps at 393px"
+    },
+    {
+      "name": "chromium six grade maps at 768px"
+    },
+    {
+      "name": "chromium six grade maps at 834px"
+    },
+    {
+      "name": "chromium six grade maps at 1024px"
+    },
+    {
+      "name": "chromium six grade maps at 1440px"
+    },
+    {
+      "name": "chromium teaching pause, replay and step controls"
+    },
+    {
+      "name": "chromium six-question teaching, wrong-first correction and mastery"
+    },
+    {
+      "name": "chromium practice, guardian completion and persisted rewards"
+    },
+    {
+      "name": "chromium reload resumes same saved question"
+    },
+    {
+      "name": "chromium switch confirmation retains earned progress and rewards"
+    },
+    {
+      "name": "chromium home animated islands, companion launcher, collection and lottery retained"
+    },
+    {
+      "name": "chromium other players unchanged"
+    },
+    {
+      "name": "webkit six grade maps at 320px"
+    },
+    {
+      "name": "webkit six grade maps at 393px"
+    },
+    {
+      "name": "webkit six grade maps at 768px"
+    },
+    {
+      "name": "webkit six grade maps at 834px"
+    },
+    {
+      "name": "webkit six grade maps at 1024px"
+    },
+    {
+      "name": "webkit six grade maps at 1440px"
+    },
+    {
+      "name": "webkit teaching pause, replay and step controls"
+    },
+    {
+      "name": "webkit six-question teaching, wrong-first correction and mastery"
+    },
+    {
+      "name": "webkit practice, guardian completion and persisted rewards"
+    },
+    {
+      "name": "webkit reload resumes same saved question"
+    },
+    {
+      "name": "webkit switch confirmation retains earned progress and rewards"
+    },
+    {
+      "name": "webkit home animated islands, companion launcher, collection and lottery retained"
+    },
+    {
+      "name": "webkit other players unchanged"
+    }
+  ],
+  "pageErrors": [],
+  "contextTeardownErrors": [
+    {
+      "message": "/127.0.0.1:62424/api/state due to access control checks.",
+      "stack": "Fetch API cannot load http://127.0.0.1:62424/api/state due to access control checks.\n    at Rt (http://127.0.0.1:62424/assets/index.v-CiG1hF-g.js:9:138933)\n    at _ (http://127.0.0.1:62424/assets/index.v-CiG1hF-g.js:9:140004)\n    at i (http://127.0.0.1:62424/assets/index.v-CiG1hF-g.js:9:140574)",
+      "url": "http://127.0.0.1:62424/",
+      "lastCheck": "webkit practice, guardian completion and persisted rewards"
+    }
+  ],
+  "realLocalPostgres": true,
+  "physicalDevice": false,
+  "productionMutations": false
+}

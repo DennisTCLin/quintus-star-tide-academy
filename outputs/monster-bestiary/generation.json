@@ -1,0 +1,161 @@
+{
+  "provider": "Higgsfield",
+  "model": "gpt_image_2_5",
+  "estimatedCredits": 16.5,
+  "requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "background": "transparent",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create a production-ready RPG monster sprite sheet for a children's star-ocean fantasy game. TRANSPARENT BACKGROUND, actual alpha channel, no checkerboard painted into the image. EXACT regular 3-column by 2-row grid of equal square cells. Exactly FIVE separate full-body creatures, one centered in each cell: top-left METAL, top-middle WOOD, top-right WATER, bottom-left FIRE, bottom-middle EARTH, bottom-right must remain completely empty and transparent. Every creature has a readable distinctive silhouette, looks toward the LEFT in a three-quarter view ready for a friendly battle, entire body/tail/claws/wings inside its own cell with 12% transparent padding, no overlaps across cells. Premium hand-painted 3D stylized fantasy game art, luminous eyes, polished sculptural detail, soft cool blue rim light. Attractive and formidable but child-friendly, no gore, no humans, no writing, numbers, frames, UI, floor, background, or cast shadow. Each elemental variant must have UNIQUE anatomical features and material structure, not recolors. Young nimble cloud-spirit family, compact rounded floating bodies with tiny talons, expressive mischievous faces. METAL: ivory cloud griffin with swept gold feather blades and a silver beak. WOOD: mint cloud deer with branching leafy antlers and a fluffy moss mane. WATER: sapphire cloud manta with transparent fin ears and curling water tail. FIRE: warm coral cloud fox with flame ears and ember curls. EARTH: sandy cloud ram with sandstone curled horns and floating ochre pebbles."
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "background": "transparent",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create a production-ready RPG monster sprite sheet for a children's star-ocean fantasy game. TRANSPARENT BACKGROUND, actual alpha channel, no checkerboard painted into the image. EXACT regular 3-column by 2-row grid of equal square cells. Exactly FIVE separate full-body creatures, one centered in each cell: top-left METAL, top-middle WOOD, top-right WATER, bottom-left FIRE, bottom-middle EARTH, bottom-right must remain completely empty and transparent. Every creature has a readable distinctive silhouette, looks toward the LEFT in a three-quarter view ready for a friendly battle, entire body/tail/claws/wings inside its own cell with 12% transparent padding, no overlaps across cells. Premium hand-painted 3D stylized fantasy game art, luminous eyes, polished sculptural detail, soft cool blue rim light. Attractive and formidable but child-friendly, no gore, no humans, no writing, numbers, frames, UI, floor, background, or cast shadow. Each elemental variant must have UNIQUE anatomical features and material structure, not recolors. Mature majestic storm-warden family, winged aerial beasts with regal layered cloud bodies, substantially bigger and more elaborate anatomy than tiny cloud spirits. METAL: armored silver storm eagle with golden blade wings and crown crest. WOOD: emerald forest cloud dragon with long branching antlers and leafy feather wings. WATER: deep blue cyclone leviathan with broad wave fins, pearl horns and a curling translucent tail. FIRE: crimson storm phoenix with broad blazing wings and golden tail streamers. EARTH: huge sandstone storm bison with rockplate shoulders, spiral horns and a suspended sand vortex body."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "background": "transparent",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create a production-ready RPG monster sprite sheet for a children's star-ocean fantasy game. TRANSPARENT BACKGROUND, actual alpha channel, no checkerboard painted into the image. EXACT regular 3-column by 2-row grid of equal square cells. Exactly FIVE separate full-body creatures, one centered in each cell: top-left METAL, top-middle WOOD, top-right WATER, bottom-left FIRE, bottom-middle EARTH, bottom-right must remain completely empty and transparent. Every creature has a readable distinctive silhouette, looks toward the LEFT in a three-quarter view ready for a friendly battle, entire body/tail/claws/wings inside its own cell with 12% transparent padding, no overlaps across cells. Premium hand-painted 3D stylized fantasy game art, luminous eyes, polished sculptural detail, soft cool blue rim light. Attractive and formidable but child-friendly, no gore, no humans, no writing, numbers, frames, UI, floor, background, or cast shadow. Each elemental variant must have UNIQUE anatomical features and material structure, not recolors. Young tide-crab family, rounded shells, expressive little eye stalks, sturdy legs and two distinctive claws, cute brave crustaceans. METAL: brushed silver hermit crab with gold gearlike shell ridges and shield claws. WOOD: mossy green mangrove crab with sprouting twig horns, mushroom shell and branch claws. WATER: turquoise lagoon crab with translucent seashell, pearly bubbles and wave-shaped pincers. FIRE: red ember crab with small volcanic shell vents and glowing orange magma claws. EARTH: tan dune crab with rounded sandstone shell, amber mineral nodes and shovel claws."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "background": "transparent",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create a production-ready RPG monster sprite sheet for a children's star-ocean fantasy game. TRANSPARENT BACKGROUND, actual alpha channel, no checkerboard painted into the image. EXACT regular 3-column by 2-row grid of equal square cells. Exactly FIVE separate full-body creatures, one centered in each cell: top-left METAL, top-middle WOOD, top-right WATER, bottom-left FIRE, bottom-middle EARTH, bottom-right must remain completely empty and transparent. Every creature has a readable distinctive silhouette, looks toward the LEFT in a three-quarter view ready for a friendly battle, entire body/tail/claws/wings inside its own cell with 12% transparent padding, no overlaps across cells. Premium hand-painted 3D stylized fantasy game art, luminous eyes, polished sculptural detail, soft cool blue rim light. Attractive and formidable but child-friendly, no gore, no humans, no writing, numbers, frames, UI, floor, background, or cast shadow. Each elemental variant must have UNIQUE anatomical features and material structure, not recolors. Mature colossal reef-warden crab family, formidable broad armored shells, large articulated legs, huge asymmetric pincers, elegant fantastical silhouettes. METAL: silver fortress crab carrying a golden spired steel citadel shell and massive blade claws. WOOD: ancient emerald mangrove king crab carrying a miniature bonsai canopy, bark plates and twisting root claws. WATER: royal cobalt abyss crab with a cathedral of translucent ice-blue coral and gigantic crescent wave claws. FIRE: dark ruby volcano king crab carrying a branching obsidian caldera with flowing lava seams and bright ember claws. EARTH: giant ochre canyon crab with layered mesa shell, tall amber crystal monoliths and enormous stone hammer claws."
+      }
+    },
+    {
+      "index": 4,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "background": "transparent",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create a production-ready RPG monster sprite sheet for a children's star-ocean fantasy game. TRANSPARENT BACKGROUND, actual alpha channel, no checkerboard painted into the image. EXACT regular 3-column by 2-row grid of equal square cells. Exactly FIVE separate full-body creatures, one centered in each cell: top-left METAL, top-middle WOOD, top-right WATER, bottom-left FIRE, bottom-middle EARTH, bottom-right must remain completely empty and transparent. Every creature has a readable distinctive silhouette, looks toward the LEFT in a three-quarter view ready for a friendly battle, entire body/tail/claws/wings inside its own cell with 12% transparent padding, no overlaps across cells. Premium hand-painted 3D stylized fantasy game art, luminous eyes, polished sculptural detail, soft cool blue rim light. Attractive and formidable but child-friendly, no gore, no humans, no writing, numbers, frames, UI, floor, background, or cast shadow. Each elemental variant must have UNIQUE anatomical features and material structure, not recolors. Young crystal-golem family, short sturdy expressive creatures with two arms and two legs, gemstone core chests, floating accent shards, playful strong poses. METAL: silver faceted golem with gold geometric shoulders, small polished horns and a white diamond heart. WOOD: jade crystal golem with interwoven green vines, leafy ears and green gem heart. WATER: translucent aquamarine golem with flowing fin-like arms and a sapphire bubble heart. FIRE: ruby obsidian golem with flickering flame crest and orange glowing seams. EARTH: amber sandstone golem with squat layered rock feet and geode shoulders."
+      }
+    },
+    {
+      "index": 5,
+      "params": {
+        "model": "gpt_image_2_5",
+        "variant": "flare",
+        "quality": "high",
+        "resolution": "2k",
+        "background": "transparent",
+        "aspect_ratio": "3:2",
+        "count": 1,
+        "prompt": "Create a production-ready RPG monster sprite sheet for a children's star-ocean fantasy game. TRANSPARENT BACKGROUND, actual alpha channel, no checkerboard painted into the image. EXACT regular 3-column by 2-row grid of equal square cells. Exactly FIVE separate full-body creatures, one centered in each cell: top-left METAL, top-middle WOOD, top-right WATER, bottom-left FIRE, bottom-middle EARTH, bottom-right must remain completely empty and transparent. Every creature has a readable distinctive silhouette, looks toward the LEFT in a three-quarter view ready for a friendly battle, entire body/tail/claws/wings inside its own cell with 12% transparent padding, no overlaps across cells. Premium hand-painted 3D stylized fantasy game art, luminous eyes, polished sculptural detail, soft cool blue rim light. Attractive and formidable but child-friendly, no gore, no humans, no writing, numbers, frames, UI, floor, background, or cast shadow. Each elemental variant must have UNIQUE anatomical features and material structure, not recolors. Mature towering crystal-colossus family, substantial guardian silhouettes with powerful arms and legs, elaborate unique armor silhouettes, glowing core chests and crystalline crowns. METAL: regal platinum colossus with a golden halo of blade crystals, angular shield pauldrons and diamond core. WOOD: towering ancient jade treant colossus with giant branching crystal antlers, emerald foliage and vine arms. WATER: tall sapphire glacier colossus with swept translucent fin helmet, flowing aqua crystal cape and ice gauntlets. FIRE: monumental obsidian ruby colossus with six horned lava crown, flaring shoulder vents and bright molten fists. EARTH: massive sandstone geode colossus with a terraced mountain crown, clustered amber pillars and huge granite fists."
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "452b43b8-b276-435c-855b-3b39c0ac6511",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261024_162414_452b43b8-b276-435c-855b-3b39c0ac6511.png"
+    },
+    {
+      "index": 1,
+      "job_id": "d1ddfeef-5b65-4fce-98a1-943a146dd7bc",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261024_162414_d1ddfeef-5b65-4fce-98a1-943a146dd7bc.png"
+    },
+    {
+      "index": 2,
+      "job_id": "bc784949-6068-485a-95f7-0ce67f5bf9ab",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261024_162413_bc784949-6068-485a-95f7-0ce67f5bf9ab.png"
+    },
+    {
+      "index": 3,
+      "job_id": "decd8e85-2724-43ee-9e25-8af502fd1f47",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261024_162413_decd8e85-2724-43ee-9e25-8af502fd1f47.png"
+    },
+    {
+      "index": 4,
+      "job_id": "6bb4efd0-e397-413f-80eb-c62b5d14d1d5",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261024_162414_6bb4efd0-e397-413f-80eb-c62b5d14d1d5.png"
+    },
+    {
+      "index": 5,
+      "job_id": "e9436f62-23d1-466a-b877-14b68315895b",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261024_162413_e9436f62-23d1-466a-b877-14b68315895b.png"
+    }
+  ],
+  "definitions": [
+    [
+      "cloud-scout",
+      "Young nimble cloud-spirit family, compact rounded floating bodies with tiny talons, expressive mischievous faces. METAL: ivory cloud griffin with swept gold feather blades and a silver beak. WOOD: mint cloud deer with branching leafy antlers and a fluffy moss mane. WATER: sapphire cloud manta with transparent fin ears and curling water tail. FIRE: warm coral cloud fox with flame ears and ember curls. EARTH: sandy cloud ram with sandstone curled horns and floating ochre pebbles."
+    ],
+    [
+      "cloud-warden",
+      "Mature majestic storm-warden family, winged aerial beasts with regal layered cloud bodies, substantially bigger and more elaborate anatomy than tiny cloud spirits. METAL: armored silver storm eagle with golden blade wings and crown crest. WOOD: emerald forest cloud dragon with long branching antlers and leafy feather wings. WATER: deep blue cyclone leviathan with broad wave fins, pearl horns and a curling translucent tail. FIRE: crimson storm phoenix with broad blazing wings and golden tail streamers. EARTH: huge sandstone storm bison with rockplate shoulders, spiral horns and a suspended sand vortex body."
+    ],
+    [
+      "crab-scout",
+      "Young tide-crab family, rounded shells, expressive little eye stalks, sturdy legs and two distinctive claws, cute brave crustaceans. METAL: brushed silver hermit crab with gold gearlike shell ridges and shield claws. WOOD: mossy green mangrove crab with sprouting twig horns, mushroom shell and branch claws. WATER: turquoise lagoon crab with translucent seashell, pearly bubbles and wave-shaped pincers. FIRE: red ember crab with small volcanic shell vents and glowing orange magma claws. EARTH: tan dune crab with rounded sandstone shell, amber mineral nodes and shovel claws."
+    ],
+    [
+      "crab-warden",
+      "Mature colossal reef-warden crab family, formidable broad armored shells, large articulated legs, huge asymmetric pincers, elegant fantastical silhouettes. METAL: silver fortress crab carrying a golden spired steel citadel shell and massive blade claws. WOOD: ancient emerald mangrove king crab carrying a miniature bonsai canopy, bark plates and twisting root claws. WATER: royal cobalt abyss crab with a cathedral of translucent ice-blue coral and gigantic crescent wave claws. FIRE: dark ruby volcano king crab carrying a branching obsidian caldera with flowing lava seams and bright ember claws. EARTH: giant ochre canyon crab with layered mesa shell, tall amber crystal monoliths and enormous stone hammer claws."
+    ],
+    [
+      "golem-scout",
+      "Young crystal-golem family, short sturdy expressive creatures with two arms and two legs, gemstone core chests, floating accent shards, playful strong poses. METAL: silver faceted golem with gold geometric shoulders, small polished horns and a white diamond heart. WOOD: jade crystal golem with interwoven green vines, leafy ears and green gem heart. WATER: translucent aquamarine golem with flowing fin-like arms and a sapphire bubble heart. FIRE: ruby obsidian golem with flickering flame crest and orange glowing seams. EARTH: amber sandstone golem with squat layered rock feet and geode shoulders."
+    ],
+    [
+      "golem-warden",
+      "Mature towering crystal-colossus family, substantial guardian silhouettes with powerful arms and legs, elaborate unique armor silhouettes, glowing core chests and crystalline crowns. METAL: regal platinum colossus with a golden halo of blade crystals, angular shield pauldrons and diamond core. WOOD: towering ancient jade treant colossus with giant branching crystal antlers, emerald foliage and vine arms. WATER: tall sapphire glacier colossus with swept translucent fin helmet, flowing aqua crystal cape and ice gauntlets. FIRE: monumental obsidian ruby colossus with six horned lava crown, flaring shoulder vents and bright molten fists. EARTH: massive sandstone geode colossus with a terraced mountain crown, clustered amber pillars and huge granite fists."
+    ]
+  ]
+}

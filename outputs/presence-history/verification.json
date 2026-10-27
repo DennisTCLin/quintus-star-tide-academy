@@ -1,0 +1,63 @@
+{
+  "runtimeCommit": "ce2d096",
+  "route": "Relay",
+  "checks": {
+    "build": "PASS",
+    "fullSuite": {
+      "status": "PASS",
+      "files": 38,
+      "tests": 361,
+      "database": "isolated local PostgreSQL"
+    },
+    "independentReview": {
+      "status": "PASS",
+      "regressionsFixed": [
+        "practice-only learning",
+        "restored collection with unknown acquisition dates",
+        "territory-only saved progress"
+      ]
+    },
+    "browser": {
+      "status": "PASS",
+      "viewport": {
+        "width": 320,
+        "height": 640
+      },
+      "grade": 1,
+      "states": [
+        "precise historical time, offline",
+        "saved activity, time unknown",
+        "no recoverable time"
+      ],
+      "screenshot": "mobile-320.png"
+    },
+    "migration": {
+      "status": "PASS",
+      "source": "same-account retained member sessions or exact same-account draw receipt ID and companion match",
+      "preserves": [
+        "newer last-seen time",
+        "game saves",
+        "rewards",
+        "revision",
+        "offline status"
+      ],
+      "invalidRequestsDoNotRecord": true
+    },
+    "production": {
+      "status": "PASS",
+      "deployment": "505bb4aa-db65-493b-864a-1d9f007ba67a",
+      "railwayStatus": "SUCCESS",
+      "health": "PASS",
+      "allFourRuntimeAssetsByteIdentical": true,
+      "browser": {
+        "status": "PASS",
+        "previouslyUnknownFriendsRecovered": 3,
+        "reportedPlayer": "feifei",
+        "lastSeenRelative": "50 minutes ago",
+        "onlineFriends": 0,
+        "observation": "Existing authenticated production UI after reload; no login as the reported player and no game mutations."
+      }
+    }
+  },
+  "rollback": "Redeploy the preceding castle version 2a25e90; retain genuine recovered last-seen rows. No player save rollback is needed."
+}

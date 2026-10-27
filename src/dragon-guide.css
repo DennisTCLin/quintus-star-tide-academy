@@ -1,0 +1,38 @@
+.family-app .dragon-guide { display:grid; grid-template-columns:minmax(220px,.85fr) minmax(0,1.15fr); gap:clamp(16px,3vw,40px); align-items:center; padding:24px 0; }
+.dragon-guide-scene { min-width:0; text-align:center; position:relative; }
+.dragon-mascot { position:relative; width:min(100%,390px); aspect-ratio:1; margin:auto; isolation:isolate; }
+.dragon-moon { position:absolute; inset:13%; border:1px solid #9ce8df66; border-radius:50%; background:radial-gradient(ellipse,#21637899,transparent 72%); box-shadow:0 0 80px #56cbbc18; }
+.dragon-character { position:absolute; inset:4%; width:92%; height:92%; object-fit:contain; border-radius:50%; }
+.dragon-star { position:absolute; color:#f6d794; font-size:2.2rem; pointer-events:none; }
+.star-one { top:17%; right:8%; }.star-two { left:8%; bottom:22%; font-size:1.4rem; }
+.dragon-voice-wave { display:flex; position:absolute; left:50%; bottom:2%; transform:translateX(-50%); align-items:center; gap:5px; height:25px; opacity:0; }
+.dragon-voice-wave i { width:5px; height:8px; border-radius:4px; background:#97eee1; }
+.mood-speaking .dragon-voice-wave { opacity:1; }.mood-speaking .dragon-voice-wave i { animation:dragon-voice .6s ease-in-out alternate infinite; }
+.mood-speaking .dragon-voice-wave i:nth-child(2n) { animation-delay:.2s; }.mood-speaking .dragon-voice-wave i:nth-child(3) { animation-delay:.4s; }
+.dragon-nameplate { color:#f6d794; letter-spacing:.08em; margin:12px 0; }.dragon-nameplate small { display:block; color:#a6cad5; font-size:.8rem; letter-spacing:.03em; margin-top:8px; }
+.dragon-conversation { min-width:0; }.dragon-last-choice { text-align:right; color:#d5f7f0; font-size:.95rem; margin:0 6px 12px; }.dragon-last-choice > span { color:#a4c5cd; margin-right:8px; }
+.dragon-bubble { position:relative; padding:24px 28px; background:linear-gradient(135deg,#edfafa,#d4eee9); color:#113e51; border-radius:28px 28px 28px 7px; box-shadow:0 10px 32px #01182666; }
+.dragon-bubble::before { content:''; position:absolute; left:-12px; bottom:22px; border:13px solid transparent; border-right-color:#e2f4f0; border-left:0; }
+.dragon-eyebrow { color:#366b77; font-size:.85rem; margin:0 0 12px; }.family-app .dragon-line { margin:0; font-size:clamp(1.15rem,2.5vw,1.55rem); line-height:1.85; overflow-wrap:anywhere; outline:none; }
+.family-app .dragon-listen { display:inline-flex; align-items:center; gap:10px; min-height:52px; margin-top:18px; color:#0c5264; border:1px solid #67989f; background:#ffffff8c; padding:8px 16px; border-radius:30px; }.dragon-listen > span { font-size:1.7rem; }
+.dragon-replies { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-top:22px; }
+.dragon-reply { min-width:0; position:relative; padding-bottom:44px; background:#123e50; border:1px solid #76bcc7; border-radius:20px; overflow:hidden; }
+.family-app .dragon-choice { display:flex; flex-direction:column; gap:8px; align-items:center; width:100%; min-height:104px; padding:14px 6px 10px; border:0; border-radius:0; color:#edfaf7; background:transparent; font-size:1rem; }
+.dragon-choice-art { font-size:2.5rem; line-height:1.25; }.family-app .dragon-choice-listen { position:absolute; bottom:0; left:0; width:100%; min-height:44px; border:0; border-radius:0; border-top:1px solid #629aab55; background:#082c3f; }
+.family-app .dragon-choice:hover:not(:disabled), .family-app .dragon-choice:focus-visible { background:#247180; }.family-app .dragon-choice:focus-visible { outline:3px solid #f6d794; outline-offset:-4px; }
+.dragon-guide-footer { display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; margin-top:20px; }.dragon-guide-footer > span { font-size:.75rem; color:#a6cad5; }.family-app .dragon-continue { background:#98e8dc; color:#103b4c; min-height:50px; font-weight:700; }
+.dragon-error { color:#ffdcab; font-size:.9rem; line-height:1.6; }.dragon-error button { min-height:44px; }
+.harbor-dragon { margin:20px 0; background:#082c3fd9; border:1px solid #80c5cc66; border-radius:24px; padding:0 20px; }.family-app .harbor-dragon-toggle { width:100%; display:flex; align-items:center; gap:16px; text-align:left; padding:10px 0; border:0; background:transparent; }.harbor-dragon-toggle > span:last-child { margin-left:auto; }
+@keyframes dragon-voice { to { height:24px; } }
+@media(max-width:700px) { .family-app .dragon-guide { grid-template-columns:1fr; gap:8px; padding:14px 0; }.dragon-mascot { max-width:210px; }.dragon-nameplate { margin:0 0 12px; }.dragon-nameplate small { display:none; }.dragon-bubble { padding:20px; }.dragon-bubble::before { display:none; }.dragon-replies { gap:8px; }.family-app .dragon-choice { font-size:.88rem; }.dragon-choice-art { font-size:2.1rem; }.harbor-dragon { padding:0 12px; }.dragon-guide-footer > span { flex-basis:100%; } }
+.dragon-reduced *, .dragon-reduced *::before { animation:none!important; }
+@media(prefers-reduced-motion:reduce) { .dragon-guide *, .dragon-guide *::before { animation:none!important; } }
+
+.family-app .dragon-bubble .dragon-line { color:#123e51; }.family-app .dragon-bubble .dragon-eyebrow { color:#366b77; }
+.family-app .dragon-bubble .auto-ruby rt { color:#3b6470; }
+
+.family-app .dragon-continue .auto-ruby rt, .family-app .starter-action .auto-ruby rt { color:#254c58; }
+
+.family-app .dragon-listen:hover:not(:disabled), .family-app .dragon-listen:focus-visible { background:#fff; color:#0c5264; border-color:#0c5264; }
+.family-app .dragon-listen:focus-visible { outline:3px solid #0c5264; outline-offset:3px; }
+.dragon-reply:not(:has(.dragon-choice-listen)) { padding-bottom:0; }

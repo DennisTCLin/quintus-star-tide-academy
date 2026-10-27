@@ -1,0 +1,59 @@
+{
+  "verdict": "PASS",
+  "scope": "Read-only final grade-six integration falsification; did not reread individual question content.",
+  "baseline": "f97ac5d",
+  "checks": {
+    "baselineFullObjects": {
+      "oldCount": 100,
+      "currentCount": 721,
+      "missing": 0,
+      "changed": 0,
+      "method": "Parsed baseline git-show and current generated bank; compared complete question objects by id, including options/order, explanations and examSources."
+    },
+    "currentQuestionOptions": "All721 have exactly4 options",
+    "coverageCommand": "node scripts/check-grade6-coverage.mjs: PASS;30 sources,1807 response units,721 questions,no issues",
+    "finalBuildLog": "tmp/grade6-final-build.log completed content audit,pronunciation,TypeScript,Vite and server esbuild successfully; bundle-size warning remains nonblocking",
+    "finalTestsLog": {
+      "passedFiles": 108,
+      "skippedFiles": 21,
+      "passedTests": 761,
+      "skippedTests": 171
+    },
+    "browserEvidence": {
+      "standardRecords": 12,
+      "longReadingRecords": 4,
+      "widths": [
+        390,
+        820,
+        1180,
+        1440
+      ],
+      "reportedOverflow": false,
+      "reportedPageErrors": [],
+      "method": "Read result JSON and QA scripts; did not independently rerun browser."
+    },
+    "stateSafety": "Seed scripts hardcode localhost:55432/alston_english_browser and assert synthetic display_name English QA; UI automation targets127.0.0.1:4199. No production access performed by verifier.",
+    "coreStateLogic": "No diff from baseline in server/,learning-engine.ts,adventure.ts,mastered-questions.ts,study-review.ts.",
+    "performance": "80KiB assertion is explicitly only the complete-static-nonmath seen-history fixture; preflight saved68565 bytes. Test also records localNode timing, not device timing. Production request size rules unchanged."
+  },
+  "findings": [],
+  "limitations": [
+    "Production account history cannot be independently proven untouched solely from repository and local logs; inspected operations target synthetic local identity and no reviewed code change alters production state semantics.",
+    "Coverage validation proves structural consistency and resolvable duplicate chains, not full semantic duplicate correctness or exhaustive source transcription. Duplicate chains intentionally may terminate at an excluded source record for identical unimplemented exam files.",
+    "No blanket performance maximum established:80KiB covers this test fixture, not all possible family histories,full mastery or production request payloads.",
+    "21 test files and171 tests skipped; do not describe all932 tests as passed.",
+    "Browser result files cover16 viewport cases across3 sampled course questions and1 long-reading question,not every new question or physicaliPad hardware.",
+    "Build/test logs reviewed,not independently rerun;coverage validator independently rerun.",
+    "No deployment or production health check performed.",
+    "Baseline diff includes other already-integrated task changes; this PASS concerns grade-six scripts/tests/data integration only."
+  ],
+  "fileSha256": {
+    "scripts/imports/build-grade6-supplement.py": "d47bdcf00ad625546fc24c3e503f6f3f1a42f3213b5f391563531c4e0da20049",
+    "scripts/imports/build-grade6-coverage.py": "1ff9a9d8ee4ffb538aca46b35213ee223dec332702a6f65e6c4a3c4af147dd76",
+    "scripts/check-grade6-coverage.mjs": "538fd8cee2dea7332b99c91d7665d4369b76a995867094b991a7203650514661",
+    "src/__tests__/grade6-supplement.test.ts": "29b1b9904b59dfa371099e4fc6e4f1df9f883e1c8e76bc660832b0278c0d92d8",
+    "src/__tests__/grade6-coverage.test.mjs": "0e06baf8a1f0009f31a54010bfc7cb4116ac3bb61d542c75325dc935abc7c229",
+    "src/__tests__/learning-performance.test.ts": "32657fdd9a96a8ed3f9de4bacd20d1253defeb28d29c42728f6b1f866e4b4da1",
+    "docs/content-review/grade6-completion.md": "49bd7da24864a4c06c1d4957301c2d2a81920d48c8f31e64796e31727e0f0aae"
+  }
+}

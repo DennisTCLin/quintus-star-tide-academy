@@ -1,0 +1,7 @@
+.question-figure{margin:1rem 0;max-width:100%;min-width:0;padding:.7rem;border:1px solid #92d5df80;border-radius:1rem;background:#fff;color:#153848}
+.question-figure img{display:block;width:auto;max-width:100%;height:auto;margin:auto;object-fit:contain}
+.question-figure figcaption{margin-top:.5rem;text-align:center}
+.question-figure a{display:inline-flex;align-items:center;min-height:44px;padding:.25rem .75rem;color:#064e65;text-decoration:underline;font-weight:700}
+.question-figure button{min-height:44px}
+.question-figure figcaption a{color:#064e65}
+.question-figure p{color:#153848}

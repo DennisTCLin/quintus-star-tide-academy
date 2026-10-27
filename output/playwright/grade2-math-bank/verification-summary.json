@@ -1,0 +1,53 @@
+{
+  "runtimeCommit": "4d56c388345149c621102650902be02398c30aae",
+  "date": "2026-10-26",
+  "route": "Relay; root sole writer, read-only source explorer and fresh verifier",
+  "questions": 172,
+  "sourceCounts": [
+    35,
+    28,
+    38,
+    34,
+    37
+  ],
+  "sources": "docs/grade2-math-source-manifest.json",
+  "mapping": {
+    "yongchun": {
+      "grade": 2,
+      "math": "南一"
+    },
+    "nantun": {
+      "grade": 2,
+      "math": "南一"
+    }
+  },
+  "checks": {
+    "sourceReview": "PASS: all 12 pages and 172 prompt/answer pairs; hidden stale answer text ignored",
+    "build": "PASS",
+    "pronunciation": "PASS",
+    "focused": "17/17 PASS with TEST_DATABASE_URL=postgres://localhost:55432/star_tide_grade2_math_qa",
+    "cloudIndependentRepeat": "11/11 PASS with explicit isolated TEST_DATABASE_URL",
+    "full": "114 files / 835 tests PASS using TEST_DATABASE_URL=postgres://localhost:55432/star_tide_grade2_math_serial npm test -- --silent --no-file-parallelism",
+    "mobile": "WebKit320: correct grade/publisher/source, ruby present, no horizontal overflow, answer/explanation hidden, correct submission,20 points preserved after reload",
+    "verifier": "PASS: no blockers",
+    "diffCheck": "PASS",
+    "production": "PASS:16 exact asset hashes, health200/ok, /admin200, anonymous protected endpoints401"
+  },
+  "testHarnessNotes": [
+    "Initial parallel full run hit existing shared-database setup and identity/rate-limit interference. Final whole suite ran serially on a clean database.",
+    "Updated previous grade1/4 tests that assumed grade2 had no exam sources, preserving grade-isolation assertions.",
+    "Local browser console logged initial expected anonymous401 and an in-flight fetch aborted during reload; reloaded authenticated state confirmed persisted points."
+  ],
+  "limits": [
+    "Publisher classification comes from parent file labels, not publisher text on the papers.",
+    "Historical first assessments do not establish all current115 school-year semester coverage.",
+    "Manual ruler/drawing and unreconstructed image questions remain inactive as listed in source manifest.",
+    "Content/source API flows tested with synthetic local children; no production child state or credentials used."
+  ],
+  "rollback": "Disable new grade2 math publisher priority if needed, but retain the new question IDs to preserve active sessions and review records.",
+  "deployment": {
+    "id": "657fda0b-67da-48e5-97db-7b12021e247d",
+    "status": "SUCCESS",
+    "source": "immutable git archive 4d56c38"
+  }
+}

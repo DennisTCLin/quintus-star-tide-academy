@@ -1,0 +1,282 @@
+{
+  "createdAt": "2026-10-24",
+  "provider": "Higgsfield",
+  "purpose": "Companion battle presentation",
+  "arena": {
+    "model": "gpt_image_2_5",
+    "job_id": "263c2406-3606-41ad-a41c-0a31210d5cbf",
+    "status": "accepted",
+    "output": "public/assets/battle/star-ocean-arena.webp",
+    "quotedCredits": 0.25
+  },
+  "autosprite": {
+    "status": "failed",
+    "reason": "Provider returned failed without diagnostic reason",
+    "quotedCreditsEach": 2,
+    "job_ids": [
+      "7010ce3e-68a0-42f5-b86e-805ce6002110",
+      "3cf072dc-2ebd-4aab-8906-97f942733cc9",
+      "a87c84ef-c857-4859-8d2a-f44e768691df",
+      "843e8521-1e91-4919-b22e-d6f007dbcb38",
+      "93c7aae7-f0d9-43d6-9d0e-2d2297a8a927",
+      "d4701362-f3e6-42b0-a4b3-e15260101a2c"
+    ]
+  },
+  "firstVideoAttempt": {
+    "model": "seedance1_5",
+    "status": "rejected-local-qa",
+    "reason": "Motion clips character silhouette at frame boundary",
+    "quotedCreditsEach": 4.8,
+    "job_ids": [
+      "67fe7244-31ee-480f-bc00-8fde00b5b6ac",
+      "44742940-a625-4eb3-95d6-9c67778da770",
+      "ed4188ac-727b-4856-bf3d-18efe6abef74",
+      "5cef22eb-f783-4f5c-826a-99d1fe1ebb8b",
+      "3e08cce8-2444-4e36-835f-0720caa05a48",
+      "97c7a229-2558-4c9e-8616-b11b80cb3d44"
+    ]
+  },
+  "paddedVideoAttempt": [
+    {
+      "index": 0,
+      "job_id": "3f4bb560-7ff2-440e-af5e-e5eef82ded1a",
+      "pet": "tideglow",
+      "kind": "idle",
+      "params": {
+        "model": "seedance1_5",
+        "duration": 4,
+        "aspect_ratio": "1:1",
+        "resolution": "720p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "a80853d7-ab8e-4665-b1f7-242d6a49eebd"
+          },
+          {
+            "role": "end_image",
+            "value": "a80853d7-ab8e-4665-b1f7-242d6a49eebd"
+          }
+        ],
+        "prompt": "Animate exactly the reference character, a small turquoise aquatic dragon with warm cream belly, for a polished children's turn-based battle game. A quiet seamless idle loop: tiny breathing, one gentle blink, a small ear movement. The tail stays in its resting silhouette. No stepping or jump. Start and end in the identical stance. Preserve the exact reference canvas framing: character occupies only the middle 50 percent of image; the huge empty magenta margins must remain unchanged throughout. No zoom, no camera motion, no reframing, no character enlargement. Full body, ears, paws and entire tail always comfortably visible; fixed scale and locked orthographic three-quarter side camera. Absolutely flat solid RGB #FF00FF background with no gradient or shadow. Preserve character identity and colors, no text, no particles, no environment, no added props. Silky clean motion suitable for a sprite atlas."
+      },
+      "status": "accepted",
+      "quotedCredits": 4.8
+    },
+    {
+      "index": 1,
+      "job_id": "d125ac1b-342a-4c21-80f9-fb09069d808f",
+      "pet": "tideglow",
+      "kind": "attack",
+      "params": {
+        "model": "seedance1_5",
+        "duration": 4,
+        "aspect_ratio": "1:1",
+        "resolution": "720p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "a80853d7-ab8e-4665-b1f7-242d6a49eebd"
+          },
+          {
+            "role": "end_image",
+            "value": "a80853d7-ab8e-4665-b1f7-242d6a49eebd"
+          }
+        ],
+        "prompt": "Animate exactly the reference character, a small turquoise aquatic dragon with warm cream belly, for a polished children's turn-based battle game. One compact game attack animation: brace and lean back slightly, then a decisive short forward head-and-front-paw strike toward screen right at 2 seconds, then settle back into the identical starting stance. Feet keep the same ground anchor. Tail stays curled close to the body; no broad tail whip. No running or travelling. Preserve the exact reference canvas framing: character occupies only the middle 50 percent of image; the huge empty magenta margins must remain unchanged throughout. No zoom, no camera motion, no reframing, no character enlargement. Full body, ears, paws and entire tail always comfortably visible; fixed scale and locked orthographic three-quarter side camera. Absolutely flat solid RGB #FF00FF background with no gradient or shadow. Preserve character identity and colors, no text, no particles, no environment, no added props. Silky clean motion suitable for a sprite atlas."
+      },
+      "status": "accepted",
+      "quotedCredits": 4.8
+    },
+    {
+      "index": 2,
+      "job_id": "e510a585-9d48-48be-a4c6-d00419461bea",
+      "pet": "pebblefin",
+      "kind": "idle",
+      "params": {
+        "model": "seedance1_5",
+        "duration": 4,
+        "aspect_ratio": "1:1",
+        "resolution": "720p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "809d69b8-c500-488d-bddb-041d0eecee70"
+          },
+          {
+            "role": "end_image",
+            "value": "809d69b8-c500-488d-bddb-041d0eecee70"
+          }
+        ],
+        "prompt": "Animate exactly the reference character, a round moss-and-stone forest turtle companion, for a polished children's turn-based battle game. A quiet seamless idle loop: tiny breathing, one gentle blink, a small ear movement. The tail stays in its resting silhouette. No stepping or jump. Start and end in the identical stance. Preserve the exact reference canvas framing: character occupies only the middle 50 percent of image; the huge empty magenta margins must remain unchanged throughout. No zoom, no camera motion, no reframing, no character enlargement. Full body, ears, paws and entire tail always comfortably visible; fixed scale and locked orthographic three-quarter side camera. Absolutely flat solid RGB #FF00FF background with no gradient or shadow. Preserve character identity and colors, no text, no particles, no environment, no added props. Silky clean motion suitable for a sprite atlas."
+      },
+      "status": "accepted",
+      "quotedCredits": 4.8
+    },
+    {
+      "index": 3,
+      "job_id": "6b91d970-9e9b-469c-a331-e8d8a90e56ee",
+      "pet": "pebblefin",
+      "kind": "attack",
+      "params": {
+        "model": "seedance1_5",
+        "duration": 4,
+        "aspect_ratio": "1:1",
+        "resolution": "720p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "809d69b8-c500-488d-bddb-041d0eecee70"
+          },
+          {
+            "role": "end_image",
+            "value": "809d69b8-c500-488d-bddb-041d0eecee70"
+          }
+        ],
+        "prompt": "Animate exactly the reference character, a round moss-and-stone forest turtle companion, for a polished children's turn-based battle game. One compact game attack animation: brace and lean back slightly, then a decisive short forward head-and-front-paw strike toward screen right at 2 seconds, then settle back into the identical starting stance. Feet keep the same ground anchor. Tail stays curled close to the body; no broad tail whip. No running or travelling. Preserve the exact reference canvas framing: character occupies only the middle 50 percent of image; the huge empty magenta margins must remain unchanged throughout. No zoom, no camera motion, no reframing, no character enlargement. Full body, ears, paws and entire tail always comfortably visible; fixed scale and locked orthographic three-quarter side camera. Absolutely flat solid RGB #FF00FF background with no gradient or shadow. Preserve character identity and colors, no text, no particles, no environment, no added props. Silky clean motion suitable for a sprite atlas."
+      },
+      "status": "accepted",
+      "quotedCredits": 4.8
+    },
+    {
+      "index": 4,
+      "job_id": "b54be5f8-8228-41c6-8c66-73ef271f9ddb",
+      "pet": "foamferret",
+      "kind": "idle",
+      "params": {
+        "model": "seedance1_5",
+        "duration": 4,
+        "aspect_ratio": "1:1",
+        "resolution": "720p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "c11fe7cb-3d65-4e79-9e43-c7ff0bf8fef4"
+          },
+          {
+            "role": "end_image",
+            "value": "c11fe7cb-3d65-4e79-9e43-c7ff0bf8fef4"
+          }
+        ],
+        "prompt": "Animate exactly the reference character, a small long-eared lavender-blue magical ferret, for a polished children's turn-based battle game. A quiet seamless idle loop: tiny breathing, one gentle blink, a small ear movement. The tail stays in its resting silhouette. No stepping or jump. Start and end in the identical stance. Preserve the exact reference canvas framing: character occupies only the middle 50 percent of image; the huge empty magenta margins must remain unchanged throughout. No zoom, no camera motion, no reframing, no character enlargement. Full body, ears, paws and entire tail always comfortably visible; fixed scale and locked orthographic three-quarter side camera. Absolutely flat solid RGB #FF00FF background with no gradient or shadow. Preserve character identity and colors, no text, no particles, no environment, no added props. Silky clean motion suitable for a sprite atlas."
+      },
+      "status": "accepted",
+      "quotedCredits": 4.8
+    },
+    {
+      "index": 5,
+      "job_id": "deea4e8b-92a4-41af-835d-53a70b9cdd2a",
+      "pet": "foamferret",
+      "kind": "attack",
+      "params": {
+        "model": "seedance1_5",
+        "duration": 4,
+        "aspect_ratio": "1:1",
+        "resolution": "720p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "c11fe7cb-3d65-4e79-9e43-c7ff0bf8fef4"
+          },
+          {
+            "role": "end_image",
+            "value": "c11fe7cb-3d65-4e79-9e43-c7ff0bf8fef4"
+          }
+        ],
+        "prompt": "Animate exactly the reference character, a small long-eared lavender-blue magical ferret, for a polished children's turn-based battle game. One compact game attack animation: brace and lean back slightly, then a decisive short forward head-and-front-paw strike toward screen right at 2 seconds, then settle back into the identical starting stance. Feet keep the same ground anchor. Tail stays curled close to the body; no broad tail whip. No running or travelling. Preserve the exact reference canvas framing: character occupies only the middle 50 percent of image; the huge empty magenta margins must remain unchanged throughout. No zoom, no camera motion, no reframing, no character enlargement. Full body, ears, paws and entire tail always comfortably visible; fixed scale and locked orthographic three-quarter side camera. Absolutely flat solid RGB #FF00FF background with no gradient or shadow. Preserve character identity and colors, no text, no particles, no environment, no added props. Silky clean motion suitable for a sprite atlas."
+      },
+      "status": "accepted",
+      "quotedCredits": 4.8
+    }
+  ],
+  "billingNote": "Quotes only. Actual charges or refunds have not been verified.",
+  "packaging": {
+    "framesPerClip": 24,
+    "columns": 6,
+    "rows": 4,
+    "cellSize": 320,
+    "format": "webp",
+    "recipe": "scripts/pack-battle-sprites.cjs",
+    "keyColor": "#ff00ff",
+    "sharedCropAcrossClips": true,
+    "cleanup": "Keep connected character and antialiased edge; remove detached keyed artifacts; feather pebblefin hand glow only outside complete silhouette."
+  },
+  "outputs": [
+    {
+      "path": "public/assets/battle/foamferret-attack.webp",
+      "bytes": 425262,
+      "width": 1920,
+      "height": 1280,
+      "alpha": true,
+      "sha256": "a63522edfbfd9d983d91614f2a5d89fbe5ab00fedf67653beeefbc2ee4641aa0"
+    },
+    {
+      "path": "public/assets/battle/foamferret-idle.webp",
+      "bytes": 445824,
+      "width": 1920,
+      "height": 1280,
+      "alpha": true,
+      "sha256": "db5932506f580dd68a7574a8a3e9801136d9a4d26f74a6fc345e4ae5c7578854"
+    },
+    {
+      "path": "public/assets/battle/pebblefin-attack.webp",
+      "bytes": 335832,
+      "width": 1920,
+      "height": 1280,
+      "alpha": true,
+      "sha256": "b1b20e3e3f03d97ce750c9ff26487c9aefa34e3ba1f3ac08f9ca883063ff70dd"
+    },
+    {
+      "path": "public/assets/battle/pebblefin-idle.webp",
+      "bytes": 354830,
+      "width": 1920,
+      "height": 1280,
+      "alpha": true,
+      "sha256": "86a0f2fb8e9c632d2891042f5e7226d03a9967dee1e7eea1c1ac541d890665e0"
+    },
+    {
+      "path": "public/assets/battle/star-ocean-arena.webp",
+      "bytes": 286598,
+      "width": 1344,
+      "height": 752,
+      "alpha": false,
+      "sha256": "d5313dbf88a895474d7844f0181e6d3de56f6d6ce6c8fcd86cb0af563782cf91"
+    },
+    {
+      "path": "public/assets/battle/tideglow-attack.webp",
+      "bytes": 444018,
+      "width": 1920,
+      "height": 1280,
+      "alpha": true,
+      "sha256": "a48aae4f127b5910b7f347bfe873c953e20138b3096783fe07183439fe7153bb"
+    },
+    {
+      "path": "public/assets/battle/tideglow-idle.webp",
+      "bytes": 461104,
+      "width": 1920,
+      "height": 1280,
+      "alpha": true,
+      "sha256": "01767464c8a83b94c4f501b3309beb692053a2fbd0e85a15dc761bb820ff0456"
+    }
+  ],
+  "keyposes": {
+    "model": "gpt_image_2_5",
+    "quotedCreditsEach": 0.25,
+    "jobs": {
+      "tideglow": "0f0232c3-23f8-44d2-bb08-8f5e82ea39bc",
+      "pebblefin": "6fd0c09d-6f2f-46fe-ab49-2280977fba99",
+      "foamferret": "e07d29b6-bdcc-4a9b-a4da-a1a46c1c5e60"
+    }
+  }
+}

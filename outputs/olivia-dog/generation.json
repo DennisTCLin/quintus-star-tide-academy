@@ -1,0 +1,29 @@
+{
+  "provider": "Higgsfield",
+  "model": "seedance_2_5",
+  "jobId": "9a1133fe-f3a0-4b68-a986-f515b48b792d",
+  "status": "completed",
+  "credits": 35,
+  "sourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_033851_9a1133fe-f3a0-4b68-a986-f515b48b792d.mp4",
+  "params": {
+    "model": "seedance_2_5",
+    "mode": "omni_reference",
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "1:1",
+    "generate_audio": false,
+    "count": 1,
+    "medias": [
+      {
+        "role": "image",
+        "value": "8974c1bd-27fc-4f7b-ae45-3efc3a3b6255"
+      }
+    ],
+    "prompt": "Animate the exact dog mascot in the reference as a polished hand-painted 2D character animation for a children's website. Preserve its identity: buttery-yellow round pear body with no neck, tiny paws and feet, two very long asymmetrical floppy dog ears with red inset patches, black dot eyes and puppy mouth, pink cheeks, blue cyan striped tall party hat topped with a red flower and yellow center. It is a DOG. Do not redesign it or change its colors. Full body always visible including flower, ears, feet with generous 15 percent margin. Locked frontal camera, no cuts or zooms. Solid uniform warm ivory background (#fff8e8), no floor, no shadows, no props, no letters. Five-second smooth gentle loop: begin in the reference neutral pose, breathe softly, blink once, wiggle both floppy ears, raise one tiny paw and wave hello twice with a happy closed mouth, make a tiny delighted bounce, then return exactly to the same neutral front-facing pose by the end. Minimal slow motion that is readable at small icon sizes. Keep paint texture and dark hand-drawn outlines stable, no morphing or extra limbs. No speech, no audio."
+  },
+  "websiteVideo": "public/assets/olivia-dog/hello-v1.mp4",
+  "poster": "public/assets/olivia-dog/poster-v1.png",
+  "videoBytes": 218600,
+  "durationSeconds": 5.041667,
+  "review": "Five sampled frames inspected: original hand-drawn yellow dog, asymmetric ears, striped party hat, red flower preserved; blink and paw wave visible. One greeting clip replayed for interactive reactions; rest and reduced motion use the original still."
+}

@@ -1,0 +1,6 @@
+### Result
+{"ruby":0,"overflow":false,"choices":"洗手\n吃點心\n收玩具\n穿鞋子"}
+### Ran Playwright code
+```js
+await (async page => { await page.getByRole("button",{name:"繼續挑戰",exact:true}).click(); await page.getByRole("button",{name:"▶ 開始這題",exact:true}).click(); await page.locator("[data-answer-option]").first().waitFor(); const ruby=await page.locator("ruby,rt").count();const text=await page.locator(".answer-grid").innerText(); const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);if(ruby||overflow||!/[\u3400-\u9fff]/.test(text))throw Error(JSON.stringify({ruby,overflow,text})); await page.screenshot({path:"output/playwright/grade2-plain/quiz-390.png"});return {ruby,overflow,choices:text}; })(page);
+```

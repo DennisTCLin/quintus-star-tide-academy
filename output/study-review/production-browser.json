@@ -1,0 +1,17 @@
+{
+  "anonymousOnly": true,
+  "checks": [
+    {
+      "path": "/",
+      "loginRendered": true,
+      "overflow": false
+    },
+    {
+      "path": "/admin",
+      "loginRendered": true,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

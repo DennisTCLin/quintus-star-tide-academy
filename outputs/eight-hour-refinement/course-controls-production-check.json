@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-25T00:56:03.470622+00:00",
+  "source": "5413c948b80a9ae906f3ba7b24feb06dcb8f66c9",
+  "deployment": "64607246-f850-43b7-93b7-4851d19da1db",
+  "status": "SUCCESS",
+  "checks": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 1046,
+      "expectedEntry": true
+    },
+    {
+      "path": "healthz",
+      "status": 200,
+      "bytes": 45
+    },
+    {
+      "path": "assets/index.v-Bfyszyet.js",
+      "status": 200,
+      "bytes": 670352,
+      "match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-eo1l1tYh.js",
+      "status": 200,
+      "bytes": 35956,
+      "match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "bytes": 30002,
+      "match": true
+    },
+    {
+      "path": "assets/RoomEditor.v-CoIAYD9V.js",
+      "status": 200,
+      "bytes": 10629,
+      "match": true
+    },
+    {
+      "path": "assets/index.v-CeU7gHxp.css",
+      "status": 200,
+      "bytes": 233862,
+      "match": true
+    }
+  ],
+  "entry": "assets/index.v-Bfyszyet.js"
+}

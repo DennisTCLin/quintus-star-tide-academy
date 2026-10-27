@@ -1,0 +1,105 @@
+- generic [ref=f1e740]:
+  - link "跳到主要內容" [ref=f1e741] [cursor=pointer]:
+    - /url: "#family-main"
+  - status [ref=f1e742]:
+    - generic [ref=f1e743]:
+      - text: quintus ·
+      - generic [ref=f1e1397]: ☁
+      - text: 已儲存至雲端
+    - button "登出" [ref=f1e748] [cursor=pointer]
+  - main [ref=f1e823]:
+    - region "答題怪物戰鬥" [ref=f1e1218]:
+      - generic [ref=f1e1219]:
+        - generic [ref=f1e1220]:
+          - generic [ref=f1e1221]: ⚔️
+          - text: 答對就出招
+        - button "暫停背景音樂" [pressed] [ref=f1e1307] [cursor=pointer]:
+          - generic [ref=f1e1308]: Ⅱ
+          - text: 暫停音樂
+      - generic [ref=f1e1225]:
+        - generic [ref=f1e1227]:
+          - generic [ref=f1e1228]:
+            - strong [ref=f1e1229]: 潮光獸
+            - meter "夥伴生命" [ref=f1e1230]
+            - generic [ref=f1e1232]: 100 / 100
+          - generic [ref=f1e1233]:
+            - strong [ref=f1e1234]: 金晶幼像
+            - meter "怪物體力" [ref=f1e1235]
+            - generic [ref=f1e1237]: 95 / 112
+        - img "潮光獸" [ref=f1e1242]
+        - generic [ref=f1e1244]:
+          - img "金晶幼像" [ref=f1e1247]
+          - generic: −17
+        - status:
+          - generic: ✦
+          - text: 升級！Lv.2
+      - status [ref=f1e1248]: 攻擊命中！夥伴 +10 XP
+      - group [ref=f1e1249]:
+        - generic "夥伴成長與戰鬥說明" [ref=f1e1250] [cursor=pointer]
+    - generic [ref=f1e1312]:
+      - button "回到港口" [ref=f1e1313] [cursor=pointer]:
+        - generic [ref=f1e1314]: ⛵
+      - generic "第 1 題，共 6 題" [ref=f1e1318]:
+        - generic [ref=f1e1319]: ✓
+        - generic [ref=f1e1320]: "2"
+        - generic [ref=f1e1321]: "3"
+        - generic [ref=f1e1322]: "4"
+        - generic [ref=f1e1323]: "5"
+        - generic [ref=f1e1324]: "6"
+      - generic "累計答錯 0 題，三題即失敗" [ref=f1e1325]: ❤️❤️❤️ 0 / 3
+    - generic [ref=f1e1326]:
+      - generic [ref=f1e1327]:
+        - strong [ref=f1e1328]:
+          - generic [ref=f1e1329]: 🎯
+          - text: 已答對 1 題 · 目標 4 題
+        - generic [ref=f1e1333]: 這題已保存
+      - group [ref=f1e1338]:
+        - generic [ref=f1e1339]:
+          - paragraph [ref=f1e1340]: 試卷題・大墩國小 113學年度四上・康軒・第1頁 1-1（選填題改編）
+          - generic [ref=f1e1341]:
+            - generic [ref=f1e1342]: 挑戰 1 / 6
+            - generic [ref=f1e1343]: 4 年級
+          - heading "8000003 的正確讀法是什麼？" [level=1] [ref=f1e1344]
+          - generic [ref=f1e1345]:
+            - button "播放題目聲音" [ref=f1e1346] [cursor=pointer]:
+              - generic [ref=f1e1347]: 👂
+              - generic [ref=f1e1352]: 聽題目
+              - generic [ref=f1e1353]: ▶
+            - button "🛡️ 護盾" [disabled] [ref=f1e1359]:
+              - generic [ref=f1e1360]: 🛡️
+              - text: 護盾
+          - generic [ref=f1e1365]:
+            - button "選擇 八百萬零三" [disabled] [ref=f1e1366]:
+              - generic [ref=f1e1367]: 八百萬零三
+            - button "選擇 八千萬零三" [disabled] [ref=f1e1369]:
+              - generic [ref=f1e1370]: 八千萬零三
+            - button "選擇 八百萬三千" [disabled] [ref=f1e1372]:
+              - generic [ref=f1e1373]: 八百萬三千
+            - button "選擇 八百零三萬" [disabled] [ref=f1e1375]:
+              - generic [ref=f1e1376]: 八百零三萬
+          - button "💡 提示" [disabled] [ref=f1e1379]:
+            - generic [ref=f1e1380]: 💡
+            - text: 提示
+          - status [ref=f1e1384]:
+            - generic [ref=f1e1385]: 新題探索 · 依本場挑戰安排
+            - button "聽出題說明" [ref=f1e1386] [cursor=pointer]:
+              - generic [ref=f1e1387]: 🔊
+          - paragraph [ref=f1e1391]: 每題只能選一次。答錯或超時三次即失敗；六題答對 4 題才通關。每兩場成功換一張券。
+    - generic "自動換題" [ref=f1e1405]:
+      - status [ref=f1e1406]:
+        - text: 答對了！夥伴出招！
+        - generic [ref=f1e1407]: 動作結束後繼續下一題
+      - button "Ⅱ 暫停換題" [ref=f1e1408] [cursor=pointer]:
+        - generic [ref=f1e1409]: Ⅱ
+        - text: 暫停換題
+    - button "⏹ 結束航程" [ref=f1e1392] [cursor=pointer]:
+      - generic [ref=f1e1393]: ⏹
+      - text: 結束航程
+  - contentinfo [ref=f1e1182]:
+    - generic [ref=f1e1183]:
+      - img "星潮學院 Star Tide Academy — 星潮小龍" [ref=f1e1184]:
+        - generic [aria-hidden] [ref=f1e1185]:
+          - strong [ref=f1e1186]: 星潮學院
+          - generic [ref=f1e1187]: STAR TIDE ACADEMY
+      - generic [ref=f1e1188]: 測試航海員
+    - generic [ref=f1e1189]: 學習點數不扣除，休息後再一起出發。

@@ -1,0 +1,48 @@
+{
+  "reviewer": "background_final_verifier",
+  "scope": "Independent read-only lifecycle review, regression execution, and in-memory actual React 18 production/WebKit adversarial probes",
+  "reviewedFixCommit": "7267c6e67ec05c72bc74b74d6631570560dbef14",
+  "sourceBlobs": {
+    "src/online-battle.ts": "6cc1f4d12df4d52200e4dc14520999ba696cb4f5",
+    "src/__tests__/online-battle-lifecycle.test.ts": "b823b7000aa612d964609d3d36d9b361d02e31ff"
+  },
+  "physicalDevice": false,
+  "checks": [
+    {
+      "name": "Committed lifecycle regression suite",
+      "pass": true,
+      "count": 10
+    },
+    {
+      "name": "Same-task hidden, visible, button click while fresh GET pending sends zero POST",
+      "pass": true
+    },
+    {
+      "name": "Status 0 and 503 old action closure is blocked before render and after a fresh GET before render",
+      "pass": true
+    },
+    {
+      "name": "Uncertain retry preserves original command payload",
+      "pass": true
+    },
+    {
+      "name": "Player switch ignores previous player GET and POST success/failure",
+      "pass": true
+    },
+    {
+      "name": "Resumed late POST statuses 0, 503 and 409 refresh and retain only uncertain commands",
+      "pass": true
+    },
+    {
+      "name": "Unmounted late completion causes no refresh and removes timers/listeners",
+      "pass": true
+    },
+    {
+      "name": "In-memory React/WebKit probes have no JavaScript exceptions",
+      "pass": true
+    }
+  ],
+  "evidence": "Independent verifier tool transcript and messages; probes use mocked in-memory requests, no production or database writes. Full application API/DB browser checks are recorded separately in verification.json.",
+  "sourceReviewPass": true,
+  "integratedCandidate": "54329aa701c73874666858233b92af0d0ef2bcea"
+}

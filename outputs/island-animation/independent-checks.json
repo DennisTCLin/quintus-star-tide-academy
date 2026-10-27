@@ -1,0 +1,116 @@
+[
+  {
+    "check": "both articulated canvases change pixels",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "unregistered is stationary",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "greeting ground position fixed",
+    "status": "PASS",
+    "details": {
+      "sampleCount": 47,
+      "footMin": 135,
+      "footMax": 151,
+      "cssSize": "66.7656px"
+    }
+  },
+  {
+    "check": "plot hit area 200 sampled points",
+    "status": "PASS",
+    "details": []
+  },
+  {
+    "check": "unmounted actor count zero",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "unmount stops live and detached draw calls",
+    "status": "PASS",
+    "details": {
+      "before": {
+        "live": 172,
+        "detached": 0
+      },
+      "after": {
+        "live": 172,
+        "detached": 0
+      }
+    }
+  },
+  {
+    "check": "normal interactions no data writes",
+    "status": "PASS",
+    "details": []
+  },
+  {
+    "check": "all-corrupt no portrait sliding",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "all-corrupt fallback visible",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "all-corrupt no runtime errors",
+    "status": "PASS",
+    "details": []
+  },
+  {
+    "check": "all-corrupt no data writes",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "idle-404 no portrait sliding",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "idle-404 fallback visible",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "idle-404 no runtime errors",
+    "status": "PASS",
+    "details": []
+  },
+  {
+    "check": "idle-404 no data writes",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "portrait-404 no portrait sliding",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "portrait-404 fallback visible",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "portrait-404 no runtime errors",
+    "status": "PASS",
+    "details": []
+  },
+  {
+    "check": "portrait failures use fallback symbols",
+    "status": "FAIL",
+    "details": 4
+  },
+  {
+    "check": "portrait-404 no data writes",
+    "status": "PASS",
+    "details": null
+  }
+]

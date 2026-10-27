@@ -1,0 +1,11 @@
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/school-question-bank/星潮網站開發
+
+
+ Test Files  133 passed | 22 skipped (155)
+      Tests  905 passed | 180 skipped (1085)
+   Start at  01:38:50
+   Duration  7.66s (tests 48%, import 42%, transform 10%, worker 1%)
+
+    Isolate  155 workers spawned · ~68ms startup each (spawn + environment, per file)
+             at least ~747ms faster with isolate: false — reuses workers across files instead of one per file

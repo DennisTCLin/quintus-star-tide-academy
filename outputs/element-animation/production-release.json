@@ -1,0 +1,38 @@
+{
+  "base": "https://quintus-star-tide-academy-production.up.railway.app",
+  "runtimeCommit": "19fd981153d9420a119f2606fd1d4956b59f659f",
+  "deployment": "738ef7eb-66c2-4d41-b494-cbe2a23406c4",
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "allAssetsByteIdentical": true,
+  "assets": [
+    {
+      "path": "/assets/RoomEditor.v-Dp_CL8td.js",
+      "bytes": 10424,
+      "sha256": "e2e13d9b6da22f250d78a38171bdd540f6e6cfb469b0aa58d7e860fa2cee807d"
+    },
+    {
+      "path": "/assets/TerritoryPage.v-D209sSNe.js",
+      "bytes": 35479,
+      "sha256": "a6dbd0456e2461d12a8eb0865844ad204f046c767fca2b1aad9fb6de8f7fe0ef"
+    },
+    {
+      "path": "/assets/index.v-B2ektx6O.js",
+      "bytes": 761883,
+      "sha256": "ad63cca34acee679a8d443399002f05cacce8823ecc3e89a1d34f9e20d0f6f1e"
+    },
+    {
+      "path": "/assets/TerritoryPage.v-XpGSXE-r.css",
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    {
+      "path": "/assets/index.v-DjNpAAqo.css",
+      "bytes": 221391,
+      "sha256": "033f40ba13a02a3662b8e817edb45c342562736977455ae6d7ba9d726c7fd133"
+    }
+  ],
+  "result": "PASS"
+}

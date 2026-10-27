@@ -1,0 +1,29 @@
+{
+  "status": "read-only confirmed; no Batch14 implementation",
+  "source": "src/LearningBuildPanel.tsx:127",
+  "display": "可補齊目前庫存差額",
+  "actual": [
+    "ㄔㄚˋ",
+    "ㄜˊ"
+  ],
+  "expected": [
+    "ㄔㄚ",
+    "ㄜˊ"
+  ],
+  "authority": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31530&q=1",
+  "authorityCheckedByRoot": true,
+  "route": "add phrase override;regenerate canonical/packed;verify fullsentence longest-match notjustshortword",
+  "scope": "grade2 ruby presentation; no questionID/content/economy/schema changes",
+  "tests": [
+    "exactword andfullruntimeparagraph annotation",
+    "canonical/packed lossless equivalence",
+    "dictdelta onlyexpectedreadings",
+    "actualgrade2 buildingpanel whenmaterialsgoalshown",
+    "fullbuild/pronunciation/freshreview/releasechecks"
+  ],
+  "limitations": [
+    "thisconfirmedzhuyinerror only,notfullsiteaudit",
+    "no evidence thatOSvoice reads差額wrong; paragraphhasnoownspeechentry",
+    "Nohumanlisteningclaim"
+  ]
+}

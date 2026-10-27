@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-26",
+  "branch": "codex/jeremy-math-island-integration",
+  "base": "8db09b6f1601dd9a337af8317b2adfe170414c88",
+  "source": "68b7bb317725965ef05d5f537a6954ad51517c6c",
+  "ancestor": "54aac4b91d02655286d21b18d5cf009a16c01b27",
+  "units": 110,
+  "activities": 370,
+  "familySchemaVersion": 9,
+  "fullDefaultTests": {
+    "passed": 859,
+    "databaseSkipped": 177
+  },
+  "isolatedDatabaseTests": {
+    "suites": 23,
+    "passed": 180,
+    "overlapWithDefault": 3,
+    "eachDatabaseDropped": true
+  },
+  "uniqueTestsPassed": 1036,
+  "browserFlowChecks": 26,
+  "voiceAndKeypadChecks": 4,
+  "phoneLayoutChecks": 6,
+  "build": "PASS",
+  "independentReview": "PASS",
+  "existingReviewedPhraseChanges": 0,
+  "mathPhrasesAdded": 38,
+  "priorUntrackedFilesPreserved": 256,
+  "productionMutations": false,
+  "deployed": false,
+  "mainUntouched": true,
+  "physicalDeviceAudio": "NOT VERIFIED",
+  "curriculumAlignment": "Jeremy Hanlin curriculum; Jay Nan I/current year alignment not verified",
+  "webkitReloadCancellationCount": 1
+}

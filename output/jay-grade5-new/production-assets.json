@@ -1,0 +1,94 @@
+{
+  "mainCommit": "76b875b4cdb118be3ba39ef0c8a00f8e497f4b18",
+  "stagedCodeCommit": "e91fcdb330baafef6e1536ef7e64551950f5ad57",
+  "changedFilesVerified": 9,
+  "unchangedMediaAndAssetsMatchPreviousVerifiedRelease": 186,
+  "unchangedImageSamples": 4,
+  "verifiedFiles": [
+    {
+      "path": "index.html",
+      "bytes": 1813,
+      "sha256": "daba3d098def73f2749cfa0edce3d93c6a35803e8c413f2535652bb83da868ce",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "assets/index.v-B0pcKD8f.js",
+      "bytes": 3025427,
+      "sha256": "79ae603a33b11d5b5f2652d4fbca099fedf575514e96156ffd2613d0fca1fb5c",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/subject-catalog.v-DQ52R7fY.js",
+      "bytes": 3806,
+      "sha256": "c84db567242ecb4008ea99ad8ca1261552f688b6a0b0919ee863957de66064ea",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/territory.v-BvR6Q3jv.js",
+      "bytes": 5481,
+      "sha256": "199892d77ffae89f162a7a71d77ad65aef8200a09ffcbce04ca7fe8bd4721664",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/AdminConsole.v-gLI8fJWd.js",
+      "bytes": 33398,
+      "sha256": "1e9ba406903d46611c432c8af49ef85de98cf6ebb0465d83d5bf175df6ede4e4",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/readability.v-D4O0f-zj.js",
+      "bytes": 1399516,
+      "sha256": "24d3f296edc1f39b7dc875b3d1c0a19f02fc5ee8e5a2d659e9cfa9ae0c1378dc",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/IslandApp.v-6zx5UDyM.js",
+      "bytes": 209071,
+      "sha256": "3871a477e791fea4673c5787c84e6d63eb3e199d87c9f9098aafccac0e2b40d0",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/TerritoryPage.v-BfNu5fhZ.js",
+      "bytes": 36069,
+      "sha256": "325bd628a861df462fcd42325d0326ff71e396422c6ea58b6391901be1dfc68c",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/RoomEditor.v-O3XB9qlT.js",
+      "bytes": 10713,
+      "sha256": "a9be2765fe14097949aff465c091a1ede9d6cb248d2f519744a1b7708f09414d",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-29.webp",
+      "bytes": 148144,
+      "sha256": "e29132f2bb575972856db6dfa9004358535f125b64b920ea9e1ff62731e58eaf",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-05.webp",
+      "bytes": 104970,
+      "sha256": "ba370558f1cfd80b62523c8810c2a1e88d2d379262c504f3e679ce0f12caf6d4",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-17.webp",
+      "bytes": 125588,
+      "sha256": "faf10632821ad235932c68c15f8e30a804f4f3496c869b394758e57b1e89b0c7",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/companion-launcher-v3/bow.png",
+      "bytes": 346058,
+      "sha256": "425d1ebbb9f6f6ec43bca04ca366aade1aa5236ad60b5888d142b31195166f5e",
+      "contentType": "image/png"
+    }
+  ],
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "unauthenticatedStateStatus": 401,
+  "studentWritesPerformed": false,
+  "note": "All changed release files and 4 unchanged image samples (including PR9 bow.png) downloaded and verified; other files byte-identical to previously verified release. No claim of downloading every unchanged asset again."
+}

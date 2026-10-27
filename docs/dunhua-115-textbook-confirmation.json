@@ -1,0 +1,53 @@
+{
+  "confirmedOn": "2026-10-26",
+  "student": {
+    "username": "brownie",
+    "name": "林軒凱",
+    "grade": 4,
+    "school": "臺北市松山區敦化國民小學"
+  },
+  "schoolYear": 115,
+  "source": {
+    "file": "敦化國小_5-1、教科書一覽表.pdf",
+    "sha256": "4f6029c7c5db6df3a8ce199976fddac760284db51fe9da2e7de98b96a532540e",
+    "page": 1,
+    "verification": "文字擷取與整頁渲染核對"
+  },
+  "grade4": {
+    "chinese": {
+      "publisher": "康軒"
+    },
+    "math": {
+      "publisher": "南一"
+    },
+    "science": {
+      "publisher": "康軒"
+    },
+    "social": {
+      "publisher": "康軒"
+    },
+    "english": {
+      "publisher": "翰林",
+      "series": "Here We Go",
+      "books": [
+        7,
+        8
+      ]
+    }
+  },
+  "downloadPriorities": [
+    {
+      "subject": "english",
+      "target": "翰林 Here We Go 7；附答案與聽力音檔或逐字稿",
+      "reason": "現有翰林四上來源依Here We Go 3比對，不能只按出版社套用"
+    }
+  ],
+  "alreadyAvailable": [
+    "四上康軒國語",
+    "四上康軒自然",
+    "四上康軒社會",
+    "四上南一數學：10份來源、319題去重後題目"
+  ],
+  "optional": "敦化國小同科同冊歷屆試卷及老師公布考試範圍；可補第二次評量以擴展完整學期",
+  "runtimeRouting": "已加入敦化學校識別，Brownie登入後依帳號套用。數學南一、國語自然社會康軒；英文依Here We Go 7冊次限制，待補前使用通用題，不混用第3冊。既有進度與進行中的題號保留。"
+}

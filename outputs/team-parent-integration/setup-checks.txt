@@ -1,0 +1,22 @@
+PASS QA server serves the exact local candidate build
+PASS iPhone 13-feifei: progress values belong to signed-in profile
+PASS iPhone 13-feifei: parent has no document overflow
+PASS iPhone 13-feifei: 320px cards, labels and ruby
+PASS iPhone 13-feifei: 390px cards, labels and ruby
+PASS iPhone 13-feifei: keyboard Space and Enter toggle the focused card
+PASS iPhone 13-feifei: selection supports zero, up to three, and cancellation
+PASS iPhone 13-feifei: duo uses new picker and requires matching team sizes
+PASS iPhone 13-feifei: no floating companion obscures team selection
+PASS iPhone 13-feifei: selected team can enter a battle
+PASS iPhone 13-feifei: selecting and starting local battle preserves learning and resources
+PASS iPad (gen 7)-feifei: progress values belong to signed-in profile
+PASS iPad (gen 7)-feifei: parent has no document overflow
+PASS iPad (gen 7)-feifei: 768px cards, labels and ruby
+PASS iPad (gen 7)-feifei: 1024px cards, labels and ruby
+PASS iPad (gen 7)-feifei: keyboard Space and Enter toggle the focused card
+PASS iPad (gen 7)-feifei: selection supports zero, up to three, and cancellation
+PASS iPad (gen 7)-feifei: duo uses new picker and requires matching team sizes
+PASS iPad (gen 7)-feifei: no floating companion obscures team selection
+PASS iPad (gen 7)-feifei: selected team can enter a battle
+PASS iPad (gen 7)-feifei: selecting and starting local battle preserves learning and resources
+PASS No application JavaScript exceptions

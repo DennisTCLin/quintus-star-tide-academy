@@ -1,0 +1,53 @@
+{
+  "site": "http://localhost:4293/",
+  "noAccountAccess": true,
+  "checks": [
+    {
+      "name": "Safe iPad entry renders login with explicit mode notice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Safe mode requests no videos",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Safe page has no runtime errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Safe page has no horizontal overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Exit returns to normal URL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Blocked entry still shows readable static recovery",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Entry recovery retries script and reaches safe login",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Render failure shows working recovery actions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Render recovery actually restarts application in safe mode",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "pass": true,
+  "physicalDevice": "Not tested; WebKit iPad emulation only"
+}

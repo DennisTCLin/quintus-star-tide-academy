@@ -1,0 +1,55 @@
+{
+  "url": "https://quintus-star-tide-academy-production.up.railway.app/",
+  "runtime": "16c7f02fcbf8e0eac8c11d2e40870d4818cf4e5b",
+  "deployment": "67dc60cf-526a-4307-8ef4-2edd1c4f6e60",
+  "status": "SUCCESS",
+  "browser": "Safari Private Browsing",
+  "profiles": {
+    "doudou": {
+      "ownedNames": {
+        "白金晶皇": true,
+        "蒼木雲龍": true,
+        "泡珠潮蟹": true,
+        "砂丘岩蟹": true
+      },
+      "counts": [
+        "1",
+        "1",
+        "1",
+        "0",
+        "1"
+      ]
+    },
+    "feifei": {
+      "ownedNames": {
+        "青枝雲鹿": true,
+        "銀甲齒輪蟹": true
+      },
+      "counts": [
+        "1",
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "quintus": {
+      "ownedNames": {
+        "青枝雲鹿": true,
+        "赤晶幼像": true,
+        "山嶽琥珀王": true,
+        "砂丘岩蟹": true
+      },
+      "counts": [
+        "0",
+        "1",
+        "0",
+        "1",
+        "2"
+      ]
+    }
+  },
+  "noGameMutations": true,
+  "loggedOut": true,
+  "excludedEvidence": "IAB identity changed to Sunny during concurrent verification; discarded that capture; private Safari evidence is authoritative."
+}

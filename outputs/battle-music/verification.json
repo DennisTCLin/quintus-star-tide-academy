@@ -1,0 +1,31 @@
+{
+  "checks": [
+
+    "Homepage uses in-a-dreamworld.mp3; collection decodes and plays full Beat Lab at 30% with loop",
+
+    "Collection to team selection keeps the same playing audio without restart or overlap",
+    "Manual pause persists through filters, typing and both companion pages",
+    "Narration and hidden-tab events pause music, then restore it",
+    "Explicit pause survives narration, visibility and homepage track changes",
+    "Arena switches to full 80-second Battle loop; manual pause and narration work; exit restores Beat Lab",
+    "Arena music ends after the actual player/CPU battle and final animation",
+    "Quiz battle plays Battle; real question recording ducks/resumes it, preserves pause, and question change keeps the same track",
+    "Quiz won and failed states stop battle music; restarting an active run restores it",
+    "Grade 2 / 320px: controls fit, targets at least 44px, no page overflow",
+    "Grade 2 / 320px: arena and quiz music controls fit; quiz answers remain reachable",
+    "Grade 2 / 390px: controls fit, targets at least 44px, no page overflow",
+    "Grade 2 / 390px: arena and quiz music controls fit; quiz answers remain reachable",
+    "Default autoplay policy: silent until interaction, then collection and arena tracks play correctly"
+  ],
+  "pageErrors": [],
+  "companionAudio": {
+    "duration": 144.609365,
+    "volume": 0.3,
+    "loop": true
+  },
+  "battleAudio": {
+    "duration": 80,
+    "volume": 0.3,
+    "loop": true
+  }
+}

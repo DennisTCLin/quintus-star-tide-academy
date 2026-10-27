@@ -1,0 +1,14 @@
+{
+  "base": "https://quintus-star-tide-academy-production.up.railway.app",
+  "earnedViaTwoVoyages": true,
+  "lostResponseSameIdRetry": true,
+  "oneTicketOneCard": true,
+  "crossDevice": true,
+  "reloadRecovery": true,
+  "profileIsolation": true,
+  "equipUsesNextVoyage": true,
+  "originalXpPreserved": true,
+  "logoutClearsResult": true,
+  "errors": [],
+  "withoutAbortSignalTimeout": false
+}

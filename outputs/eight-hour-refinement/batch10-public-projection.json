@@ -1,0 +1,40 @@
+{
+  "before": {
+    "status": 200,
+    "id": "c1-g4-english-01",
+    "keys": [
+      "id",
+      "grade",
+      "course",
+      "subject",
+      "skill",
+      "level",
+      "prompt",
+      "options",
+      "hint"
+    ],
+    "revision": 61
+  },
+  "after": {
+    "status": 200,
+    "id": "c1-g4-english-01",
+    "keys": [
+      "id",
+      "grade",
+      "course",
+      "subject",
+      "skill",
+      "level",
+      "prompt",
+      "options",
+      "hint",
+      "answer",
+      "explanation"
+    ],
+    "revision": 62,
+    "answers": [
+      true
+    ]
+  },
+  "result": "PASS:unanswered answer/explanation hidden;oneanswer revealed after doubleclick"
+}

@@ -1,0 +1,15 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run --maxWorkers=2
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/feifei-photo/星潮網站開發
+
+
+ Test Files  138 passed | 23 skipped (161)
+      Tests  935 passed | 193 skipped (1128)
+   Start at  13:52:32
+   Duration  25.72s (import 49%, tests 45%, transform 5%, worker 1%)
+
+    Isolate  161 workers spawned · ~52ms startup each (spawn + environment, per file)
+             at least ~4.13s faster with isolate: false — reuses workers across files instead of one per file

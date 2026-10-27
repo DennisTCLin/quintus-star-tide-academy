@@ -1,0 +1,37 @@
+{
+  "provider": "Higgsfield",
+  "reference": "existing authorized hero-ocean.jpg",
+  "jobs": [
+    {
+      "id": "bd3cbfff-5787-4605-b566-afae28e4f883",
+      "model": "nano_banana_2_1",
+      "purpose": "island background",
+      "credits_quote": 2
+    },
+    {
+      "id": "ebe64248-2b09-4249-8a72-4a769b35030e",
+      "model": "nano_banana_2_1",
+      "purpose": "16-building atlas",
+      "credits_quote": 2
+    },
+    {
+      "id": "cb177727-f85e-4764-9b20-f0a99a1d6450",
+      "model": "image_background_remover",
+      "purpose": "transparent atlas",
+      "credits_quote": 1
+    }
+  ],
+  "status": "all completed and visually inspected",
+  "assets": [
+    {
+      "file": "public/assets/territory/island.webp",
+      "bytes": 401812
+    },
+    {
+      "file": "public/assets/territory/buildings.webp",
+      "bytes": 782792
+    }
+  ],
+  "processing": "WebP encoding only; transparency supplied by Higgsfield",
+  "special_game_executor": "not available in connected tools; game artwork via Higgsfield and gameplay implemented in existing website"
+}

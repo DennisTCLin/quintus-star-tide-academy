@@ -1,0 +1,45 @@
+{
+  "cases": [
+    {
+      "case": "lost-response-idempotent-retry-and-offline-recovery",
+      "result": "pass"
+    },
+    {
+      "case": "real-build-upgrade-move-store-resident-commission-achievement-theme",
+      "result": "pass"
+    },
+    {
+      "case": "reload-second-device",
+      "result": "pass"
+    },
+    {
+      "case": "layout-reduced-motion-map-zoom-root-font-change",
+      "width": 1440,
+      "player": "quintus",
+      "result": "pass"
+    },
+    {
+      "case": "layout-reduced-motion-map-zoom-root-font-change",
+      "width": 768,
+      "player": "quintus",
+      "result": "pass"
+    },
+    {
+      "case": "layout-reduced-motion-map-zoom-root-font-change",
+      "width": 390,
+      "player": "qingqing",
+      "result": "pass"
+    },
+    {
+      "case": "layout-reduced-motion-map-zoom-root-font-change",
+      "width": 320,
+      "player": "feifei",
+      "result": "pass"
+    }
+  ],
+  "errors": [],
+  "preserved": "all four profiles excluding additive territory; verified scores identical",
+  "synthetic_scope": "populated layout only; gameplay on real PostgreSQL",
+  "base_url": "http://127.0.0.1:4287",
+  "font_test_note": "Root font size change does not enlarge all fixed-pixel text; separate text-only simulation evidence covers that."
+}

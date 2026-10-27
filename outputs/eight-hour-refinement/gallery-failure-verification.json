@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-25T02:21:31.406564+00:00",
+  "base": "c54a23e",
+  "scope": [
+    "public/creature-design-review/index.html",
+    "public/creature-design-review/gallery.js",
+    "public/creature-design-review/style.css"
+  ],
+  "reproduction": "Actual browser HTTP503 then previous button: status -11–0 and page0/0; hidden pages overridden by CSS flex",
+  "fix": "Native disabled filter/page controls until nonempty manifest renders; honor hidden CSS; reject empty/non-array manifests to existing error UI",
+  "verification": "Build/pronunciation/syntax PASS; actual browser pending/503/empty/recovery, next page13–24 then monster25 reset1/3,320nooverflow",
+  "runtimeUnchanged": {
+    "compiledAssets": "8/8 SHA identical to Batch20",
+    "serverSHA256": "526fca9753e56291e539920c557d0b0c635975cf8e4e34df5d3f06eb65379128",
+    "gameplay": "No src/server changes; prior67files556tests remains applicable, no redundant whole suite run for isolated static gallery"
+  },
+  "browserEvidence": "gallery-failure-browser.json",
+  "limits": "Synthetic local HTTP failures; no real child accounts. Production fault injection not performed."
+}

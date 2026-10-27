@@ -1,0 +1,117 @@
+[
+  {
+    "case": "dirty-room-cancel-decline-error-retry-doubletap",
+    "result": "PASS",
+    "confirmations": 3,
+    "commands": [
+      {
+        "type": "start",
+        "player": "qingqing",
+        "course": "math",
+        "practice": false
+      },
+      {
+        "type": "start",
+        "player": "qingqing",
+        "course": "math",
+        "practice": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "case": "english-320x740",
+    "result": "PASS",
+    "dock": {
+      "x": 0,
+      "y": 632.203125,
+      "width": 320,
+      "height": 107.796875
+    },
+    "explanation": {
+      "x": 31,
+      "y": 240.890625,
+      "width": 258,
+      "height": 118.796875
+    },
+    "errors": []
+  },
+  {
+    "case": "english-390x844",
+    "result": "PASS",
+    "dock": {
+      "x": 0,
+      "y": 736.203125,
+      "width": 390,
+      "height": 107.796875
+    },
+    "explanation": {
+      "x": 31,
+      "y": 292.90625,
+      "width": 328,
+      "height": 118.796875
+    },
+    "errors": []
+  },
+  {
+    "case": "english-820x1180",
+    "result": "PASS",
+    "dock": {
+      "x": 0,
+      "y": 1100,
+      "width": 820,
+      "height": 80
+    },
+    "explanation": {
+      "x": 43,
+      "y": 610.78125,
+      "width": 734,
+      "height": 90
+    },
+    "errors": []
+  },
+  {
+    "case": "english-1024x768",
+    "result": "PASS",
+    "dock": {
+      "x": 62,
+      "y": 688,
+      "width": 900,
+      "height": 80
+    },
+    "explanation": {
+      "x": 439.453125,
+      "y": 269.390625,
+      "width": 516,
+      "height": 90
+    },
+    "errors": []
+  },
+  {
+    "case": "english-1440x900",
+    "result": "PASS",
+    "dock": {
+      "x": 270,
+      "y": 820,
+      "width": 900,
+      "height": 80
+    },
+    "explanation": {
+      "x": 888.625,
+      "y": 334.78125,
+      "width": 496.359375,
+      "height": 90
+    },
+    "errors": []
+  },
+  {
+    "case": "terminal-won",
+    "result": "PASS",
+    "errors": []
+  },
+  {
+    "case": "terminal-failed",
+    "result": "PASS",
+    "errors": []
+  }
+]

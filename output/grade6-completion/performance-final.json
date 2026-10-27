@@ -1,0 +1,13 @@
+{
+  "environment": "local Node; not phone hardware",
+  "iterations": 100,
+  "p50ms": 1.3277499999999804,
+  "p95ms": 2.1827089999999885,
+  "maxMs": 4.919040999999993,
+  "saveBytes": 69332,
+  "generatedByGrade": {
+    "1": 290,
+    "2": 7556,
+    "4": 15346
+  }
+}

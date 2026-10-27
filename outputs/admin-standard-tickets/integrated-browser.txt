@@ -1,0 +1,31 @@
+PASS iPhone 13: ordinary tickets are clearly distinguished from premium stars
+PASS iPhone 13: no horizontal overflow at 320
+PASS iPhone 13: no horizontal overflow at 390
+PASS iPhone 13: preview freezes type and does not grant
+PASS iPhone 13: reconnect and reload issue only ordinary balance exactly once
+PASS iPhone 13: premium grant leaves ordinary balance and learning unchanged
+PASS iPhone 13: receipts identify both ticket types
+PASS iPhone 13: untyped legacy pending remains premium and replays without extra grant
+PASS iPhone 13: delegated star permission does not expose ordinary grants
+PASS iPhone 13: no JavaScript exceptions
+PASS iPad (gen 7): ordinary tickets are clearly distinguished from premium stars
+PASS iPad (gen 7): no horizontal overflow at 768
+PASS iPad (gen 7): no horizontal overflow at 1024
+PASS iPad (gen 7): preview freezes type and does not grant
+PASS iPad (gen 7): reconnect and reload issue only ordinary balance exactly once
+PASS iPad (gen 7): premium grant leaves ordinary balance and learning unchanged
+PASS iPad (gen 7): receipts identify both ticket types
+PASS iPad (gen 7): untyped legacy pending remains premium and replays without extra grant
+PASS iPad (gen 7): delegated star permission does not expose ordinary grants
+PASS iPad (gen 7): no JavaScript exceptions
+Starting server 1/1: exec node outputs/admin-standard-tickets/qa-server.mjs
+Waiting for server on port 4331...
+Server ready on port 4331
+
+All 1 server(s) ready
+Running: /tmp/star-tide-admin-standard-venv/bin/python outputs/admin-standard-tickets/verify-browser.py
+
+
+Stopping 1 server(s)...
+Server 1 stopped
+All servers stopped

@@ -1,0 +1,77 @@
+[
+  {
+    "engine": "chromium",
+    "cpuThrottle": 1,
+    "changes": [
+      40,
+      40
+    ],
+    "video": [
+      {
+        "muted": true,
+        "inline": true,
+        "time": 2.2249,
+        "paused": false
+      },
+      {
+        "muted": true,
+        "inline": true,
+        "time": 2.2249,
+        "paused": false
+      }
+    ],
+    "offscreenStopped": true,
+    "reenteredResumed": true,
+    "physicalIPad": false
+  },
+  {
+    "engine": "chromium",
+    "cpuThrottle": 4,
+    "changes": [
+      40,
+      40
+    ],
+    "video": [
+      {
+        "muted": true,
+        "inline": true,
+        "time": 2.5566,
+        "paused": false
+      },
+      {
+        "muted": true,
+        "inline": true,
+        "time": 2.5533,
+        "paused": false
+      }
+    ],
+    "offscreenStopped": true,
+    "reenteredResumed": true,
+    "physicalIPad": false
+  },
+  {
+    "engine": "webkit",
+    "cpuThrottle": 1,
+    "changes": [
+      40,
+      40
+    ],
+    "video": [
+      {
+        "muted": true,
+        "inline": true,
+        "time": 2.7012390409994094,
+        "paused": false
+      },
+      {
+        "muted": true,
+        "inline": true,
+        "time": 2.701336792331487,
+        "paused": false
+      }
+    ],
+    "offscreenStopped": true,
+    "reenteredResumed": true,
+    "physicalIPad": false
+  }
+]

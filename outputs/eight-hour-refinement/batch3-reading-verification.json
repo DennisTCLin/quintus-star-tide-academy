@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "content": {
+    "newItems": 16,
+    "concepts": [
+      "sequence",
+      "position",
+      "reference",
+      "cause"
+    ],
+    "reviewedTextSegments": 112,
+    "independentReview": "PASS",
+    "deviceAudioListening": "UNKNOWN",
+    "teacherReview": "UNKNOWN"
+  },
+  "allocation": {
+    "sixQuestionMix": "2 short passages + 4 pictures",
+    "fullReviewCoverage": "115/115 after600 allocations for count1 and count6",
+    "independentBatches": 1978,
+    "singleVsBatch": "type rhythm matches; arbitrary partial exhaustion may produce different IDs due to batch deduplication"
+  },
+  "browser": {
+    "environment": "isolated local QA; no real child progress",
+    "tablet": {
+      "viewport": [
+        820,
+        1180
+      ],
+      "horizontalOverflow": false,
+      "answerHeight": 100,
+      "lastAnswerBottom": 1078.524,
+      "questionHeight": 63
+    },
+    "phone": {
+      "viewport": [
+        320,
+        740
+      ],
+      "horizontalOverflow": false,
+      "answerHeight": 100,
+      "questionWraps": true,
+      "verticalScrollingRequired": true
+    },
+    "flow": [
+      "old run resumes with prior67HP",
+      "ended QA run through confirmation UI",
+      "new words run starts reading01",
+      "correct response locks answers",
+      "next two questions are picture/audio with listen-before-answer gate",
+      "question4 is reading02",
+      "integrated home hero before training confirmed",
+      "reload and resume restores reading02 at question4 with prior answers"
+    ],
+    "pronunciation": "complete visible ruby; speech button works and audio completion unlocks old picture answers; no human listening claim",
+    "consoleErrors": 0
+  },
+  "rollback": "Retain c1-g2-words reader/catalog once new IDs issued; never reset progress.",
+  "integratedTests": {
+    "files": 50,
+    "tests": 439,
+    "database": "isolated local PostgreSQL",
+    "status": "PASS"
+  },
+  "build": "PASS"
+}

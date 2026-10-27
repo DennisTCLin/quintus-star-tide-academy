@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "check": "at least one free-ground pointer greeting"
+    },
+    {
+      "check": "hover preserves transparent art"
+    },
+    {
+      "check": "direct map greeting"
+    },
+    {
+      "check": "hidden document stops simulation"
+    },
+    {
+      "check": "visible event does not resume offscreen map"
+    },
+    {
+      "check": "visible onscreen resumes"
+    },
+    {
+      "check": "headless desktop frame pacing",
+      "samples": 120,
+      "p95": 16.700000000000728,
+      "max": 16.800000000000182
+    },
+    {
+      "check": "cosmetic interactions send zero commands"
+    },
+    {
+      "check": "night works with residents"
+    },
+    {
+      "check": "app reduced preference stops JS"
+    },
+    {
+      "check": "app reduced status"
+    },
+    {
+      "check": "player picker offers four profiles"
+    },
+    {
+      "check": "switch uses second player exact ownership"
+    },
+    {
+      "check": "new catalog and garden residents rendered"
+    },
+    {
+      "check": "new catalog art loads"
+    },
+    {
+      "check": "new catalog uses lightweight thumbnails"
+    }
+  ],
+  "issues": [],
+  "errors": [],
+  "visibilityNote": "visibility event simulated; browser paint/frame pacing real Chromium"
+}

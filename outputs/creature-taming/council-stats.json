@@ -1,0 +1,1081 @@
+{
+  "session": {
+    "id": "20261024T170511Z-council-session",
+    "mode": "deep",
+    "session_type": "frontend",
+    "status": "completed",
+    "final_state": "build",
+    "token_budget": "compact",
+    "frontend_review": true,
+    "skill_review": false
+  },
+  "counts": {
+    "roles": 6,
+    "reviewers": 6,
+    "evidence_runners": 1,
+    "artifact_files": 55,
+    "member_files": 6,
+    "review_files": 10,
+    "evidence_files": 1
+  },
+  "pre_execution_estimate": {
+    "label": "pre_execution_estimate",
+    "total_tokens": 25409,
+    "input_tokens": 21962,
+    "output_tokens": 3447,
+    "range": {
+      "low": 19056,
+      "high": 34302
+    },
+    "components": {
+      "static_protocol_input_tokens": 1828,
+      "member_input_tokens": 4908,
+      "member_output_tokens": 1260,
+      "reviewer_input_tokens": 12012,
+      "reviewer_output_tokens": 1050,
+      "synthesis_input_tokens": 3214,
+      "synthesis_output_tokens": 437,
+      "scoring_stats_overhead_tokens": 385,
+      "context_duplication_tokens": 0,
+      "frontend_browser_evidence_tokens": 315,
+      "alter_tuning_prompt_tokens": 0,
+      "forge_rebrief_overhead_tokens": 0
+    },
+    "assumptions": {
+      "chars_per_token": 4,
+      "mode_factor": 1.75,
+      "budget_factor": 1.0,
+      "reasoning_factor": 1.1,
+      "history_multiplier": 1.0,
+      "context_tokens_hint": 0,
+      "counts": {
+        "members": 6,
+        "reviewers": 6,
+        "evidence_runners": 1,
+        "active_alters": 0
+      },
+      "note": "Forecast includes duplicated context across agents, expected prompts/outputs, synthesis, scoring/stats overhead, and optional browser evidence. It is not real Codex billing usage."
+    }
+  },
+  "post_execution_estimate": {
+    "label": "post_execution_estimate",
+    "source": "saved prompts, saved outputs, scoring artifacts, and estimated tool overhead",
+    "coverage": "partial",
+    "total_tokens": 9387,
+    "input_tokens": 3310,
+    "output_tokens": 4357,
+    "components": {
+      "member_input_tokens": 1190,
+      "member_output_tokens": 1057,
+      "reviewer_input_tokens": 1754,
+      "reviewer_output_tokens": 2236,
+      "synthesis_input_tokens": 366,
+      "synthesis_output_tokens": 739,
+      "browser_evidence_tokens": 325,
+      "scorer_stats_artifact_tokens": 1110,
+      "estimated_tool_overhead_tokens": 610
+    },
+    "files": {
+      "member_inputs": [
+        {
+          "path": "prompts/members/01-ada.md",
+          "characters": 776,
+          "words": 63,
+          "estimated_tokens": 194
+        },
+        {
+          "path": "prompts/members/02-grace.md",
+          "characters": 780,
+          "words": 63,
+          "estimated_tokens": 195
+        },
+        {
+          "path": "prompts/members/03-hypatia.md",
+          "characters": 788,
+          "words": 64,
+          "estimated_tokens": 197
+        },
+        {
+          "path": "prompts/members/04-florence.md",
+          "characters": 796,
+          "words": 65,
+          "estimated_tokens": 199
+        },
+        {
+          "path": "prompts/members/05-turing.md",
+          "characters": 778,
+          "words": 64,
+          "estimated_tokens": 195
+        },
+        {
+          "path": "prompts/members/06-seymour.md",
+          "characters": 840,
+          "words": 70,
+          "estimated_tokens": 210
+        }
+      ],
+      "member_outputs": [
+        {
+          "path": "members/01-ada-principal-architect.md",
+          "characters": 676,
+          "words": 82,
+          "estimated_tokens": 169
+        },
+        {
+          "path": "members/02-grace-reliability-engineer.md",
+          "characters": 723,
+          "words": 86,
+          "estimated_tokens": 181
+        },
+        {
+          "path": "members/03-hypatia-security-governance.md",
+          "characters": 693,
+          "words": 86,
+          "estimated_tokens": 174
+        },
+        {
+          "path": "members/04-florence-product-operator.md",
+          "characters": 683,
+          "words": 79,
+          "estimated_tokens": 171
+        },
+        {
+          "path": "members/05-turing-contrarian-red-team.md",
+          "characters": 714,
+          "words": 83,
+          "estimated_tokens": 179
+        },
+        {
+          "path": "members/06-seymour-performance-engineer.md",
+          "characters": 729,
+          "words": 90,
+          "estimated_tokens": 183
+        }
+      ],
+      "reviewer_inputs": [
+        {
+          "path": "prompts/reviewers/bias-auditor.md",
+          "characters": 1089,
+          "words": 72,
+          "estimated_tokens": 273
+        },
+        {
+          "path": "prompts/reviewers/coverage-integrator.md",
+          "characters": 1110,
+          "words": 72,
+          "estimated_tokens": 278
+        },
+        {
+          "path": "prompts/reviewers/implementation-gatekeeper.md",
+          "characters": 1128,
+          "words": 72,
+          "estimated_tokens": 282
+        },
+        {
+          "path": "prompts/reviewers/leonardo-da-vinci-brutally-honest-ux-ui-critic.md",
+          "characters": 1448,
+          "words": 106,
+          "estimated_tokens": 362
+        },
+        {
+          "path": "prompts/reviewers/performance-impact-reviewer.md",
+          "characters": 1134,
+          "words": 72,
+          "estimated_tokens": 284
+        },
+        {
+          "path": "prompts/reviewers/rubric-reviewer.md",
+          "characters": 1098,
+          "words": 72,
+          "estimated_tokens": 275
+        }
+      ],
+      "reviewer_outputs": [
+        {
+          "path": "reviews/bias-auditor.md",
+          "characters": 676,
+          "words": 105,
+          "estimated_tokens": 169
+        },
+        {
+          "path": "reviews/coverage-integrator.md",
+          "characters": 836,
+          "words": 111,
+          "estimated_tokens": 209
+        },
+        {
+          "path": "reviews/implementation-contract-check.md",
+          "characters": 1350,
+          "words": 180,
+          "estimated_tokens": 338
+        },
+        {
+          "path": "reviews/implementation-gatekeeper.md",
+          "characters": 823,
+          "words": 114,
+          "estimated_tokens": 206
+        },
+        {
+          "path": "reviews/leonardo-contract-check.md",
+          "characters": 1322,
+          "words": 164,
+          "estimated_tokens": 331
+        },
+        {
+          "path": "reviews/leonardo-da-vinci-brutally-honest-ux-ui-critic.md",
+          "characters": 945,
+          "words": 120,
+          "estimated_tokens": 237
+        },
+        {
+          "path": "reviews/leonardo-ux-ui-critic.md",
+          "characters": 179,
+          "words": 28,
+          "estimated_tokens": 45
+        },
+        {
+          "path": "reviews/performance-impact-reviewer.md",
+          "characters": 763,
+          "words": 106,
+          "estimated_tokens": 191
+        },
+        {
+          "path": "reviews/rubric-reviewer.md",
+          "characters": 787,
+          "words": 103,
+          "estimated_tokens": 197
+        },
+        {
+          "path": "reviews/security-contract-check.md",
+          "characters": 1249,
+          "words": 167,
+          "estimated_tokens": 313
+        }
+      ],
+      "synthesis_inputs": [
+        {
+          "path": "prompts/chairman-synthesis.md",
+          "characters": 371,
+          "words": 41,
+          "estimated_tokens": 93
+        },
+        {
+          "path": "prompts/synthesis-inputs.json",
+          "characters": 1090,
+          "words": 65,
+          "estimated_tokens": 273
+        }
+      ],
+      "synthesis_outputs": [
+        {
+          "path": "final.md",
+          "characters": 2956,
+          "words": 72,
+          "estimated_tokens": 739
+        }
+      ],
+      "browser_outputs": [
+        {
+          "path": "evidence-runners/bob-browser-customer-tester.md",
+          "characters": 1297,
+          "words": 146,
+          "estimated_tokens": 325
+        }
+      ],
+      "scoring_stats": [
+        {
+          "path": "reviews/reviews.example.json",
+          "characters": 745,
+          "words": 77,
+          "estimated_tokens": 187
+        },
+        {
+          "path": "preflight-estimate.json",
+          "characters": 3045,
+          "words": 255,
+          "estimated_tokens": 762
+        },
+        {
+          "path": "preflight-estimate.md",
+          "characters": 643,
+          "words": 90,
+          "estimated_tokens": 161
+        }
+      ]
+    },
+    "missing_data": [
+      "partial output: reviews/leonardo-ux-ui-critic.md"
+    ],
+    "unmeasured_overhead_note": "No access to actual Codex billing/API usage, cached input, hidden system prompts, or exact tool-call token accounting. Tool overhead is estimated.",
+    "is_actual_codex_usage": false
+  },
+  "artifact_only_tokens": {
+    "label": "artifact_only_tokens",
+    "source": "saved local session artifact text only",
+    "method": "ceil(total_characters / 4)",
+    "characters": 137742,
+    "words": 14077,
+    "total_tokens": 34436,
+    "estimated_tokens": 34436,
+    "is_actual_codex_usage": false,
+    "limitation": "Artifact-only tokens are not comparable to full session cost because they exclude unsaved prompt/output/tool overhead.",
+    "top_artifacts": [
+      {
+        "path": "reviews/aggregated-input.json",
+        "characters": 36087,
+        "words": 3762,
+        "estimated_tokens": 9022
+      },
+      {
+        "path": "reviews/scores.json",
+        "characters": 9757,
+        "words": 1030,
+        "estimated_tokens": 2440
+      },
+      {
+        "path": "session.json",
+        "characters": 7394,
+        "words": 587,
+        "estimated_tokens": 1849
+      },
+      {
+        "path": "reviews/performance-impact-reviewer.json",
+        "characters": 6041,
+        "words": 701,
+        "estimated_tokens": 1511
+      },
+      {
+        "path": "reviews/leonardo-da-vinci-brutally-honest-ux-ui-critic.json",
+        "characters": 5982,
+        "words": 578,
+        "estimated_tokens": 1496
+      }
+    ],
+    "file_breakdown": [
+      {
+        "path": "brief.md",
+        "characters": 146,
+        "words": 20,
+        "estimated_tokens": 37
+      },
+      {
+        "path": "candidates.md",
+        "characters": 4278,
+        "words": 510,
+        "estimated_tokens": 1070
+      },
+      {
+        "path": "compiled-context.json",
+        "characters": 228,
+        "words": 13,
+        "estimated_tokens": 57
+      },
+      {
+        "path": "concrete-contract.md",
+        "characters": 4327,
+        "words": 524,
+        "estimated_tokens": 1082
+      },
+      {
+        "path": "context-capsule.json",
+        "characters": 1039,
+        "words": 69,
+        "estimated_tokens": 260
+      },
+      {
+        "path": "decision-context.md",
+        "characters": 1871,
+        "words": 192,
+        "estimated_tokens": 468
+      },
+      {
+        "path": "decision-ledger.json",
+        "characters": 228,
+        "words": 20,
+        "estimated_tokens": 57
+      },
+      {
+        "path": "evidence-runners/baseline-browser.json",
+        "characters": 2377,
+        "words": 255,
+        "estimated_tokens": 595
+      },
+      {
+        "path": "evidence-runners/bob-browser-customer-tester.md",
+        "characters": 1297,
+        "words": 146,
+        "estimated_tokens": 325
+      },
+      {
+        "path": "final.md",
+        "characters": 2956,
+        "words": 72,
+        "estimated_tokens": 739
+      },
+      {
+        "path": "members/01-ada-principal-architect.md",
+        "characters": 676,
+        "words": 82,
+        "estimated_tokens": 169
+      },
+      {
+        "path": "members/02-grace-reliability-engineer.md",
+        "characters": 723,
+        "words": 86,
+        "estimated_tokens": 181
+      },
+      {
+        "path": "members/03-hypatia-security-governance.md",
+        "characters": 693,
+        "words": 86,
+        "estimated_tokens": 174
+      },
+      {
+        "path": "members/04-florence-product-operator.md",
+        "characters": 683,
+        "words": 79,
+        "estimated_tokens": 171
+      },
+      {
+        "path": "members/05-turing-contrarian-red-team.md",
+        "characters": 714,
+        "words": 83,
+        "estimated_tokens": 179
+      },
+      {
+        "path": "members/06-seymour-performance-engineer.md",
+        "characters": 729,
+        "words": 90,
+        "estimated_tokens": 183
+      },
+      {
+        "path": "preflight-estimate.json",
+        "characters": 3045,
+        "words": 255,
+        "estimated_tokens": 762
+      },
+      {
+        "path": "preflight-estimate.md",
+        "characters": 643,
+        "words": 90,
+        "estimated_tokens": 161
+      },
+      {
+        "path": "prompts/chairman-synthesis.md",
+        "characters": 371,
+        "words": 41,
+        "estimated_tokens": 93
+      },
+      {
+        "path": "prompts/members/01-ada.md",
+        "characters": 776,
+        "words": 63,
+        "estimated_tokens": 194
+      },
+      {
+        "path": "prompts/members/02-grace.md",
+        "characters": 780,
+        "words": 63,
+        "estimated_tokens": 195
+      },
+      {
+        "path": "prompts/members/03-hypatia.md",
+        "characters": 788,
+        "words": 64,
+        "estimated_tokens": 197
+      },
+      {
+        "path": "prompts/members/04-florence.md",
+        "characters": 796,
+        "words": 65,
+        "estimated_tokens": 199
+      },
+      {
+        "path": "prompts/members/05-turing.md",
+        "characters": 778,
+        "words": 64,
+        "estimated_tokens": 195
+      },
+      {
+        "path": "prompts/members/06-seymour.md",
+        "characters": 840,
+        "words": 70,
+        "estimated_tokens": 210
+      },
+      {
+        "path": "prompts/reviewers/bias-auditor.md",
+        "characters": 1089,
+        "words": 72,
+        "estimated_tokens": 273
+      },
+      {
+        "path": "prompts/reviewers/coverage-integrator.md",
+        "characters": 1110,
+        "words": 72,
+        "estimated_tokens": 278
+      },
+      {
+        "path": "prompts/reviewers/implementation-gatekeeper.md",
+        "characters": 1128,
+        "words": 72,
+        "estimated_tokens": 282
+      },
+      {
+        "path": "prompts/reviewers/leonardo-da-vinci-brutally-honest-ux-ui-critic.md",
+        "characters": 1448,
+        "words": 106,
+        "estimated_tokens": 362
+      },
+      {
+        "path": "prompts/reviewers/performance-impact-reviewer.md",
+        "characters": 1134,
+        "words": 72,
+        "estimated_tokens": 284
+      },
+      {
+        "path": "prompts/reviewers/rubric-reviewer.md",
+        "characters": 1098,
+        "words": 72,
+        "estimated_tokens": 275
+      },
+      {
+        "path": "prompts/synthesis-inputs.json",
+        "characters": 1090,
+        "words": 65,
+        "estimated_tokens": 273
+      },
+      {
+        "path": "reviews/aggregated-input.json",
+        "characters": 36087,
+        "words": 3762,
+        "estimated_tokens": 9022
+      },
+      {
+        "path": "reviews/bias-auditor.json",
+        "characters": 4208,
+        "words": 492,
+        "estimated_tokens": 1052
+      },
+      {
+        "path": "reviews/bias-auditor.md",
+        "characters": 676,
+        "words": 105,
+        "estimated_tokens": 169
+      },
+      {
+        "path": "reviews/coverage-integrator.json",
+        "characters": 5242,
+        "words": 583,
+        "estimated_tokens": 1311
+      },
+      {
+        "path": "reviews/coverage-integrator.md",
+        "characters": 836,
+        "words": 111,
+        "estimated_tokens": 209
+      },
+      {
+        "path": "reviews/implementation-contract-check.md",
+        "characters": 1350,
+        "words": 180,
+        "estimated_tokens": 338
+      },
+      {
+        "path": "reviews/implementation-gatekeeper.json",
+        "characters": 5148,
+        "words": 580,
+        "estimated_tokens": 1287
+      },
+      {
+        "path": "reviews/implementation-gatekeeper.md",
+        "characters": 823,
+        "words": 114,
+        "estimated_tokens": 206
+      },
+      {
+        "path": "reviews/leonardo-contract-check.md",
+        "characters": 1322,
+        "words": 164,
+        "estimated_tokens": 331
+      },
+      {
+        "path": "reviews/leonardo-da-vinci-brutally-honest-ux-ui-critic.json",
+        "characters": 5982,
+        "words": 578,
+        "estimated_tokens": 1496
+      },
+      {
+        "path": "reviews/leonardo-da-vinci-brutally-honest-ux-ui-critic.md",
+        "characters": 945,
+        "words": 120,
+        "estimated_tokens": 237
+      },
+      {
+        "path": "reviews/leonardo-ux-ui-critic.md",
+        "characters": 179,
+        "words": 28,
+        "estimated_tokens": 45
+      },
+      {
+        "path": "reviews/performance-impact-reviewer.json",
+        "characters": 6041,
+        "words": 701,
+        "estimated_tokens": 1511
+      },
+      {
+        "path": "reviews/performance-impact-reviewer.md",
+        "characters": 763,
+        "words": 106,
+        "estimated_tokens": 191
+      },
+      {
+        "path": "reviews/reviews.example.json",
+        "characters": 745,
+        "words": 77,
+        "estimated_tokens": 187
+      },
+      {
+        "path": "reviews/rubric-reviewer.json",
+        "characters": 5152,
+        "words": 589,
+        "estimated_tokens": 1288
+      },
+      {
+        "path": "reviews/rubric-reviewer.md",
+        "characters": 787,
+        "words": 103,
+        "estimated_tokens": 197
+      },
+      {
+        "path": "reviews/scores.json",
+        "characters": 9757,
+        "words": 1030,
+        "estimated_tokens": 2440
+      },
+      {
+        "path": "reviews/security-contract-check.md",
+        "characters": 1249,
+        "words": 167,
+        "estimated_tokens": 313
+      },
+      {
+        "path": "router-decision.json",
+        "characters": 555,
+        "words": 57,
+        "estimated_tokens": 139
+      },
+      {
+        "path": "run-manifest.json",
+        "characters": 1124,
+        "words": 95,
+        "estimated_tokens": 281
+      },
+      {
+        "path": "session.json",
+        "characters": 7394,
+        "words": 587,
+        "estimated_tokens": 1849
+      },
+      {
+        "path": "telemetry.json",
+        "characters": 1498,
+        "words": 115,
+        "estimated_tokens": 375
+      }
+    ]
+  },
+  "delta": {
+    "post_minus_pre_tokens": -16022,
+    "ratio_post_to_pre": 0.3694
+  },
+  "calibration_recommendation": {
+    "action": "do_not_calibrate",
+    "ratio": 0.3694,
+    "message": "Post estimate is partial; persist complete prompts and outputs before updating future multipliers."
+  },
+  "missing_unmeasured_data": {
+    "coverage": "partial",
+    "missing_data": [
+      "partial output: reviews/leonardo-ux-ui-critic.md"
+    ],
+    "unmeasured_overhead_note": "No access to actual Codex billing/API usage, cached input, hidden system prompts, or exact tool-call token accounting. Tool overhead is estimated."
+  },
+  "estimated_artifact_usage": {
+    "label": "estimated artifact tokens",
+    "source": "saved local session artifact text only",
+    "method": "ceil(total_characters / 4)",
+    "characters": 137742,
+    "words": 14077,
+    "estimated_tokens": 34436,
+    "is_actual_codex_usage": false,
+    "limitation": "Artifact-only tokens are not comparable to full session cost because they exclude unsaved prompt/output/tool overhead."
+  },
+  "top_artifacts": [
+    {
+      "path": "reviews/aggregated-input.json",
+      "characters": 36087,
+      "words": 3762,
+      "estimated_tokens": 9022
+    },
+    {
+      "path": "reviews/scores.json",
+      "characters": 9757,
+      "words": 1030,
+      "estimated_tokens": 2440
+    },
+    {
+      "path": "session.json",
+      "characters": 7394,
+      "words": 587,
+      "estimated_tokens": 1849
+    },
+    {
+      "path": "reviews/performance-impact-reviewer.json",
+      "characters": 6041,
+      "words": 701,
+      "estimated_tokens": 1511
+    },
+    {
+      "path": "reviews/leonardo-da-vinci-brutally-honest-ux-ui-critic.json",
+      "characters": 5982,
+      "words": 578,
+      "estimated_tokens": 1496
+    }
+  ],
+  "file_breakdown": [
+    {
+      "path": "brief.md",
+      "characters": 146,
+      "words": 20,
+      "estimated_tokens": 37
+    },
+    {
+      "path": "candidates.md",
+      "characters": 4278,
+      "words": 510,
+      "estimated_tokens": 1070
+    },
+    {
+      "path": "compiled-context.json",
+      "characters": 228,
+      "words": 13,
+      "estimated_tokens": 57
+    },
+    {
+      "path": "concrete-contract.md",
+      "characters": 4327,
+      "words": 524,
+      "estimated_tokens": 1082
+    },
+    {
+      "path": "context-capsule.json",
+      "characters": 1039,
+      "words": 69,
+      "estimated_tokens": 260
+    },
+    {
+      "path": "decision-context.md",
+      "characters": 1871,
+      "words": 192,
+      "estimated_tokens": 468
+    },
+    {
+      "path": "decision-ledger.json",
+      "characters": 228,
+      "words": 20,
+      "estimated_tokens": 57
+    },
+    {
+      "path": "evidence-runners/baseline-browser.json",
+      "characters": 2377,
+      "words": 255,
+      "estimated_tokens": 595
+    },
+    {
+      "path": "evidence-runners/bob-browser-customer-tester.md",
+      "characters": 1297,
+      "words": 146,
+      "estimated_tokens": 325
+    },
+    {
+      "path": "final.md",
+      "characters": 2956,
+      "words": 72,
+      "estimated_tokens": 739
+    },
+    {
+      "path": "members/01-ada-principal-architect.md",
+      "characters": 676,
+      "words": 82,
+      "estimated_tokens": 169
+    },
+    {
+      "path": "members/02-grace-reliability-engineer.md",
+      "characters": 723,
+      "words": 86,
+      "estimated_tokens": 181
+    },
+    {
+      "path": "members/03-hypatia-security-governance.md",
+      "characters": 693,
+      "words": 86,
+      "estimated_tokens": 174
+    },
+    {
+      "path": "members/04-florence-product-operator.md",
+      "characters": 683,
+      "words": 79,
+      "estimated_tokens": 171
+    },
+    {
+      "path": "members/05-turing-contrarian-red-team.md",
+      "characters": 714,
+      "words": 83,
+      "estimated_tokens": 179
+    },
+    {
+      "path": "members/06-seymour-performance-engineer.md",
+      "characters": 729,
+      "words": 90,
+      "estimated_tokens": 183
+    },
+    {
+      "path": "preflight-estimate.json",
+      "characters": 3045,
+      "words": 255,
+      "estimated_tokens": 762
+    },
+    {
+      "path": "preflight-estimate.md",
+      "characters": 643,
+      "words": 90,
+      "estimated_tokens": 161
+    },
+    {
+      "path": "prompts/chairman-synthesis.md",
+      "characters": 371,
+      "words": 41,
+      "estimated_tokens": 93
+    },
+    {
+      "path": "prompts/members/01-ada.md",
+      "characters": 776,
+      "words": 63,
+      "estimated_tokens": 194
+    },
+    {
+      "path": "prompts/members/02-grace.md",
+      "characters": 780,
+      "words": 63,
+      "estimated_tokens": 195
+    },
+    {
+      "path": "prompts/members/03-hypatia.md",
+      "characters": 788,
+      "words": 64,
+      "estimated_tokens": 197
+    },
+    {
+      "path": "prompts/members/04-florence.md",
+      "characters": 796,
+      "words": 65,
+      "estimated_tokens": 199
+    },
+    {
+      "path": "prompts/members/05-turing.md",
+      "characters": 778,
+      "words": 64,
+      "estimated_tokens": 195
+    },
+    {
+      "path": "prompts/members/06-seymour.md",
+      "characters": 840,
+      "words": 70,
+      "estimated_tokens": 210
+    },
+    {
+      "path": "prompts/reviewers/bias-auditor.md",
+      "characters": 1089,
+      "words": 72,
+      "estimated_tokens": 273
+    },
+    {
+      "path": "prompts/reviewers/coverage-integrator.md",
+      "characters": 1110,
+      "words": 72,
+      "estimated_tokens": 278
+    },
+    {
+      "path": "prompts/reviewers/implementation-gatekeeper.md",
+      "characters": 1128,
+      "words": 72,
+      "estimated_tokens": 282
+    },
+    {
+      "path": "prompts/reviewers/leonardo-da-vinci-brutally-honest-ux-ui-critic.md",
+      "characters": 1448,
+      "words": 106,
+      "estimated_tokens": 362
+    },
+    {
+      "path": "prompts/reviewers/performance-impact-reviewer.md",
+      "characters": 1134,
+      "words": 72,
+      "estimated_tokens": 284
+    },
+    {
+      "path": "prompts/reviewers/rubric-reviewer.md",
+      "characters": 1098,
+      "words": 72,
+      "estimated_tokens": 275
+    },
+    {
+      "path": "prompts/synthesis-inputs.json",
+      "characters": 1090,
+      "words": 65,
+      "estimated_tokens": 273
+    },
+    {
+      "path": "reviews/aggregated-input.json",
+      "characters": 36087,
+      "words": 3762,
+      "estimated_tokens": 9022
+    },
+    {
+      "path": "reviews/bias-auditor.json",
+      "characters": 4208,
+      "words": 492,
+      "estimated_tokens": 1052
+    },
+    {
+      "path": "reviews/bias-auditor.md",
+      "characters": 676,
+      "words": 105,
+      "estimated_tokens": 169
+    },
+    {
+      "path": "reviews/coverage-integrator.json",
+      "characters": 5242,
+      "words": 583,
+      "estimated_tokens": 1311
+    },
+    {
+      "path": "reviews/coverage-integrator.md",
+      "characters": 836,
+      "words": 111,
+      "estimated_tokens": 209
+    },
+    {
+      "path": "reviews/implementation-contract-check.md",
+      "characters": 1350,
+      "words": 180,
+      "estimated_tokens": 338
+    },
+    {
+      "path": "reviews/implementation-gatekeeper.json",
+      "characters": 5148,
+      "words": 580,
+      "estimated_tokens": 1287
+    },
+    {
+      "path": "reviews/implementation-gatekeeper.md",
+      "characters": 823,
+      "words": 114,
+      "estimated_tokens": 206
+    },
+    {
+      "path": "reviews/leonardo-contract-check.md",
+      "characters": 1322,
+      "words": 164,
+      "estimated_tokens": 331
+    },
+    {
+      "path": "reviews/leonardo-da-vinci-brutally-honest-ux-ui-critic.json",
+      "characters": 5982,
+      "words": 578,
+      "estimated_tokens": 1496
+    },
+    {
+      "path": "reviews/leonardo-da-vinci-brutally-honest-ux-ui-critic.md",
+      "characters": 945,
+      "words": 120,
+      "estimated_tokens": 237
+    },
+    {
+      "path": "reviews/leonardo-ux-ui-critic.md",
+      "characters": 179,
+      "words": 28,
+      "estimated_tokens": 45
+    },
+    {
+      "path": "reviews/performance-impact-reviewer.json",
+      "characters": 6041,
+      "words": 701,
+      "estimated_tokens": 1511
+    },
+    {
+      "path": "reviews/performance-impact-reviewer.md",
+      "characters": 763,
+      "words": 106,
+      "estimated_tokens": 191
+    },
+    {
+      "path": "reviews/reviews.example.json",
+      "characters": 745,
+      "words": 77,
+      "estimated_tokens": 187
+    },
+    {
+      "path": "reviews/rubric-reviewer.json",
+      "characters": 5152,
+      "words": 589,
+      "estimated_tokens": 1288
+    },
+    {
+      "path": "reviews/rubric-reviewer.md",
+      "characters": 787,
+      "words": 103,
+      "estimated_tokens": 197
+    },
+    {
+      "path": "reviews/scores.json",
+      "characters": 9757,
+      "words": 1030,
+      "estimated_tokens": 2440
+    },
+    {
+      "path": "reviews/security-contract-check.md",
+      "characters": 1249,
+      "words": 167,
+      "estimated_tokens": 313
+    },
+    {
+      "path": "router-decision.json",
+      "characters": 555,
+      "words": 57,
+      "estimated_tokens": 139
+    },
+    {
+      "path": "run-manifest.json",
+      "characters": 1124,
+      "words": 95,
+      "estimated_tokens": 281
+    },
+    {
+      "path": "session.json",
+      "characters": 7394,
+      "words": 587,
+      "estimated_tokens": 1849
+    },
+    {
+      "path": "telemetry.json",
+      "characters": 1498,
+      "words": 115,
+      "estimated_tokens": 375
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "problems": []
+  }
+}

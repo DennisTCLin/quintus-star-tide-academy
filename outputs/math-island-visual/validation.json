@@ -1,0 +1,57 @@
+{
+  "scope": "Math Island presentation and local Higgsfield artwork; no server/schema/reward/API changes",
+  "baseline": "741bd6520b830bd99101c27a2902f1e3bbe0da0f",
+  "automated": {
+    "build": "PASS",
+    "pronunciation": "5330 source runs; 165 curated lessons; 212 reviewed context rules",
+    "postgres_tests": {
+      "files": 67,
+      "tests": 556,
+      "failed": 0
+    },
+    "diff_check": "PASS"
+  },
+  "browser": {
+    "runner": "root via CUA Chrome, equivalent browser evidence runner; not a Council voter",
+    "account": "synthetic local QA only",
+    "map_widths": [
+      320,
+      390,
+      820,
+      1440
+    ],
+    "navigation": [
+      "three independent units",
+      "visible locked-stage prerequisites",
+      "unreleased units disclosure",
+      "parent page",
+      "keyboard focus: 4px gold outline"
+    ],
+    "round": "Resumed 1/6 cloud boss round, answered remaining five via visible questions, finished 6/6 and reloaded completed stage. Result +60 coins/+1 ticket/+60 XP/+2 material packs matched UI. No server changes.",
+    "scenes": "9 learn scenes and 8 supported exam scenes at 320px; layout, colors, answered rendering. Not all transitions or every numeric permutation exercised.",
+    "edge": "Actual IslandApp in isolated fixture: offline disables three destinations, online re-enables; reduced class yields 0s animations; missing art hides broken image and preserves 266x404 cards plus usable unit navigation.",
+    "console": "No errors on actual application flow (intentional missing-art fixture errors excluded).",
+    "references": [
+      "map-browser.json",
+      "final-map-browser.json",
+      "scenes-browser.json",
+      "edge-browser.json"
+    ]
+  },
+  "limitations": [
+    "No child usability study",
+    "No physical-device/Safari testing",
+    "No audio quality listening study; clicked manual read control, existing speech tests passed",
+    "No measured network/LCP/CLS improvement; fixed aspect ratios and local WebP verified structurally",
+    "Three-wrong stop and V1/V2 contracts covered by existing test suite, not repeated in this visual browser run",
+    "Offline tested at component boundary; mid-request network loss not simulated"
+  ],
+  "performance": {
+    "art_total_bytes": 734320,
+    "three_destination_images_bytes": 415942,
+    "images": "Local WebP; first eager, remaining lazy; fixed dimensions/aspect; decorative HTML images",
+    "new_dependency": false,
+    "new_video": false
+  },
+  "release": "ready for push and coordinated deployment"
+}

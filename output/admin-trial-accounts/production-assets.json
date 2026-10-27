@@ -1,0 +1,106 @@
+{
+  "runtimeCommit": "452ecda51cefdd9349f8d9e939c4562ab392171e",
+  "hashes": [
+    {
+      "path": "index.html",
+      "bytes": 1813,
+      "sha256": "e3069fcd1ac949e776dc63e1cb140bb4339963ac3468e15381b3759bb1a69ecd"
+    },
+    {
+      "path": "assets/subject-catalog.v-BnXQmHwa.js",
+      "bytes": 3806,
+      "sha256": "051426f5e3cf807b521e491d70a60b6b3ff1a639689a7a2743a5404df31e59ea"
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    {
+      "path": "assets/AdminConsole.v-CMK57Cc3.js",
+      "bytes": 41680,
+      "sha256": "4e43e737e2ebf8bd146bc68cd38d1f5c5ffab0cdcf4391ec31dc80decd194f2f"
+    },
+    {
+      "path": "assets/territory.v-Cm-avLX8.js",
+      "bytes": 5481,
+      "sha256": "681786617734e9a2975fd329e126a0d798cbd5fc40be77ce9bd9a1387459efe6"
+    },
+    {
+      "path": "assets/IslandApp.v-ewABikei.css",
+      "bytes": 75228,
+      "sha256": "1f3075c2c9cea7488955e8fa9f47f5725994e126b443c9ad56400b217e873fcb"
+    },
+    {
+      "path": "assets/IslandApp.v-BmElA3zb.js",
+      "bytes": 209071,
+      "sha256": "9ae98c734792422bba5728ef8b33879d83ca7aac5c0c1507ca1cfd2d6d1ad441"
+    },
+    {
+      "path": "assets/TerritoryPage.v-BH7uVBdj.js",
+      "bytes": 36069,
+      "sha256": "69fed7faed644230a5008aa13a0ae06814ac598f598d5e246461f019bb5d5576"
+    },
+    {
+      "path": "assets/readability.v-Bkro4j_V.js",
+      "bytes": 1402789,
+      "sha256": "9e3a2e444a096dd0fbf82f8df7683cb1e1de65da919da8575bcdd6f082bee678"
+    },
+    {
+      "path": "assets/index.v-BgaGPIWp.js",
+      "bytes": 3025427,
+      "sha256": "c2276f9ba73691f67290001f548c3c6798d14b5332d8c2a04b317e44933369a5"
+    },
+    {
+      "path": "assets/index.v-7OLHUjhp.css",
+      "bytes": 326382,
+      "sha256": "89cb78d9493500805b69f6785dd8c02c2245aa1f18597cbb01374e0b0835d1b6"
+    },
+    {
+      "path": "assets/AdminConsole.v-DPjcfd6M.css",
+      "bytes": 13175,
+      "sha256": "36a83240a51c71bf51f33431dc57fe6a0027ab0ce5fcd5f351c9d14006cd3964"
+    },
+    {
+      "path": "assets/RoomEditor.v-Lolfpuvv.js",
+      "bytes": 10713,
+      "sha256": "5b4c856fa081290c6b4d6fe70ccf3c45b48742e7229c282539660ad3a1bea061"
+    },
+    {
+      "path": "assets/readability.v-trv-R25v.css",
+      "bytes": 1350,
+      "sha256": "564b4a934c945b91b532d11da78e63d9621ec826c51623c3e54c036141017e8a"
+    },
+    {
+      "path": "assets/companion-launcher-v3/bow.png",
+      "bytes": 346058,
+      "sha256": "425d1ebbb9f6f6ec43bca04ca366aade1aa5236ad60b5888d142b31195166f5e"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-01-entrance.mp4",
+      "bytes": 352744,
+      "sha256": "0147b9e62b08df61e2a80a4f97462e4450f605aca56ca07e85329e1be6cd32fc"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-30.webp",
+      "bytes": 115210,
+      "sha256": "98c8db73d4eec7f33b885221f8d1d5ac244411d39395e407426c440ef878bf1a"
+    }
+  ],
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "anonymousGuards": [
+    {
+      "path": "api/state",
+      "status": 401
+    },
+    {
+      "path": "api/admin/trials",
+      "status": 401
+    }
+  ],
+  "productionPlayerWrites": false,
+  "scope": "all compiled files and three unchanged media samples; public source and staged bytes also verified"
+}

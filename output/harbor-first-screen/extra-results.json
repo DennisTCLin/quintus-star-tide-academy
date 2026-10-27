@@ -1,0 +1,18 @@
+[
+  {
+    "engine": "chromium",
+    "keyboardAndDialogFocus": true,
+    "reducedMotion": true,
+    "text200PercentNoHorizontalOverflow": true
+  },
+  {
+    "engine": "webkit",
+    "keyboardAndDialogFocus": true,
+    "reducedMotion": true,
+    "text200PercentNoHorizontalOverflow": true
+  },
+  {
+    "activeTimedResumeKeepsRunIndexDeadline": true,
+    "foregroundPreservesClock": true
+  }
+]

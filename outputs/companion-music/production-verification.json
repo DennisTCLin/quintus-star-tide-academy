@@ -1,0 +1,32 @@
+{
+  "base": "https://quintus-star-tide-academy-production.up.railway.app",
+  "commit": "b255eef",
+  "deployment": "9641d37b-5458-4a8f-9545-1745367d263e",
+  "assets": [
+    {
+      "path": "/assets/index.v-Djrg5Tgt.js",
+      "bytes": 427131,
+      "sha256": "0d8074769f2f480f86f11739f6d4725f6d1546ca63d1d03187eaec84595d4e4d",
+      "mime": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "/assets/index.v-B2dzKRKs.css",
+      "bytes": 140268,
+      "sha256": "c533bec90b9c48608cd6f79b218e396e0671a531965e6bb74609aab806a6360a",
+      "mime": "text/css; charset=utf-8"
+    },
+    {
+      "path": "/assets/beat-lab.mp3?v=c6e7efaf70a7",
+      "bytes": 2893367,
+      "sha256": "c6e7efaf70a76dc652d2bf4c959b2ebcb45a311fde9297526b2a2567cafa08a6",
+      "mime": "audio/mpeg"
+    }
+  ],
+  "checks": [
+    "Production health check 200",
+    "Live JS, CSS and MP3 exactly match tested build; audio MIME and range delivery correct",
+    "Live collection page plays Beat Lab after interaction under default autoplay policy",
+    "Live team selection plays once, pause persists across pages, entering battle stops music, 390px fits"
+  ],
+  "pageErrors": []
+}

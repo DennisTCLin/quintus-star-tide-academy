@@ -1,0 +1,213 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "webkit: pet renders frames and completes",
+      "pass": true
+    },
+    {
+      "name": "webkit: feed renders frames and completes",
+      "pass": true
+    },
+    {
+      "name": "webkit: play renders frames and completes",
+      "pass": true
+    },
+    {
+      "name": "webkit: highfive renders frames and completes",
+      "pass": true
+    },
+    {
+      "name": "webkit: bubbles renders frames and completes",
+      "pass": true
+    },
+    {
+      "name": "webkit: rest loops with muted inline playback",
+      "pass": true
+    },
+    {
+      "name": "webkit: silent post-start freeze returns visible still",
+      "pass": true
+    },
+    {
+      "name": "webkit: signaled post-start freeze returns visible still",
+      "pass": true
+    },
+    {
+      "name": "webkit: background keeps a visible still",
+      "pass": true
+    },
+    {
+      "name": "webkit: foreground resumes animation",
+      "pass": true
+    },
+    {
+      "name": "webkit: pause and resume retain character",
+      "pass": true
+    },
+    {
+      "name": "webkit: no overflow 390",
+      "pass": true
+    },
+    {
+      "name": "webkit: no overflow 834",
+      "pass": true
+    },
+    {
+      "name": "webkit: no overflow 1194",
+      "pass": true
+    },
+    {
+      "name": "webkit: pending preserves visible dog while loading",
+      "pass": true
+    },
+    {
+      "name": "webkit: pending cannot lock care indefinitely",
+      "pass": true
+    },
+    {
+      "name": "webkit: no-frame preserves visible dog while loading",
+      "pass": true
+    },
+    {
+      "name": "webkit: no-frame cannot lock care indefinitely",
+      "pass": true
+    },
+    {
+      "name": "webkit: rejected preserves visible dog while loading",
+      "pass": true
+    },
+    {
+      "name": "webkit: rejected cannot lock care indefinitely",
+      "pass": true
+    },
+    {
+      "name": "webkit: broken-video preserves visible dog while loading",
+      "pass": true
+    },
+    {
+      "name": "webkit: broken-video cannot lock care indefinitely",
+      "pass": true
+    },
+    {
+      "name": "webkit: failed action still uses original dog drawing",
+      "pass": true
+    },
+    {
+      "name": "webkit: advancing decoded frame works without frame callback API",
+      "pass": true
+    },
+    {
+      "name": "webkit: other child keeps tideglow under reduced motion",
+      "pass": true
+    },
+    {
+      "name": "chromium: pet renders frames and completes",
+      "pass": true
+    },
+    {
+      "name": "chromium: feed renders frames and completes",
+      "pass": true
+    },
+    {
+      "name": "chromium: play renders frames and completes",
+      "pass": true
+    },
+    {
+      "name": "chromium: highfive renders frames and completes",
+      "pass": true
+    },
+    {
+      "name": "chromium: bubbles renders frames and completes",
+      "pass": true
+    },
+    {
+      "name": "chromium: rest loops with muted inline playback",
+      "pass": true
+    },
+    {
+      "name": "chromium: silent post-start freeze returns visible still",
+      "pass": true
+    },
+    {
+      "name": "chromium: signaled post-start freeze returns visible still",
+      "pass": true
+    },
+    {
+      "name": "chromium: background keeps a visible still",
+      "pass": true
+    },
+    {
+      "name": "chromium: foreground resumes animation",
+      "pass": true
+    },
+    {
+      "name": "chromium: pause and resume retain character",
+      "pass": true
+    },
+    {
+      "name": "chromium: no overflow 390",
+      "pass": true
+    },
+    {
+      "name": "chromium: no overflow 834",
+      "pass": true
+    },
+    {
+      "name": "chromium: no overflow 1194",
+      "pass": true
+    },
+    {
+      "name": "chromium: pending preserves visible dog while loading",
+      "pass": true
+    },
+    {
+      "name": "chromium: pending cannot lock care indefinitely",
+      "pass": true
+    },
+    {
+      "name": "chromium: no-frame preserves visible dog while loading",
+      "pass": true
+    },
+    {
+      "name": "chromium: no-frame cannot lock care indefinitely",
+      "pass": true
+    },
+    {
+      "name": "chromium: rejected preserves visible dog while loading",
+      "pass": true
+    },
+    {
+      "name": "chromium: rejected cannot lock care indefinitely",
+      "pass": true
+    },
+    {
+      "name": "chromium: broken-video preserves visible dog while loading",
+      "pass": true
+    },
+    {
+      "name": "chromium: broken-video cannot lock care indefinitely",
+      "pass": true
+    },
+    {
+      "name": "chromium: failed action still uses original dog drawing",
+      "pass": true
+    },
+    {
+      "name": "chromium: advancing decoded frame works without frame callback API",
+      "pass": true
+    },
+    {
+      "name": "chromium: other child keeps tideglow under reduced motion",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript exceptions",
+      "pass": true
+    }
+  ],
+  "physicalDevice": false,
+  "legacyEngine": false,
+  "scope": "Modern WebKit and Chromium with synthetic API fixture and deterministic media faults. No production account login or state writes.",
+  "url": "http://127.0.0.1:4334"
+}

@@ -1,0 +1,39 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run --no-file-parallelism
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/school-question-bank/星潮網站開發
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs (11 tests | 11 skipped) 2517ms
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API
+AssertionError: expected 429 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 429
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:19:102
+     17|    const made=await provisionChildAccount(api.pool,{username,grade,pas…
+     18|    await api.pool.query('UPDATE game_states SET family=$2 WHERE accoun…
+     19|    clients[username]=await call('login',{username,password:'0742'});ex…
+       |                                                                                                      ^
+     20|   }
+     21|  },30000);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 110 passed (111)
+      Tests  792 passed | 11 skipped (803)
+   Start at  22:29:27
+   Duration  55.62s (tests 88%, import 11%, transform 1%)
+
+    Isolate  111 workers spawned · ~52ms startup each (spawn + environment, per file)
+             at least ~5.76s faster with isolate: false — reuses workers across files instead of one per file
+

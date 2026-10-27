@@ -1,0 +1,74 @@
+.course-section .section-title { justify-content: space-between; flex-direction: row; align-items: center; }
+.family-app .course-listen { width: 56px; min-width: 56px; min-height: 56px; padding: 8px; }
+.course-current { display: flex; align-items: center; gap: 18px; padding: 20px; border: 1px solid #76c5c1; border-radius: 18px; background: #143f50; }
+.course-current-copy { flex: 1; min-width: 0; }
+.course-current-copy strong { font-size: 22px; line-height: 1.7; }
+.course-current-copy p { margin: 6px 0 0; line-height: 1.8; color: var(--f-muted); }
+.course-current > button { min-height: 56px; max-width: 100%; white-space: normal; }
+.course-availability { margin: 16px 0 12px; line-height: 1.8; color: var(--f-muted); }
+.family-app .course-card.course-preview { border-style: dashed; background: #102b3e; cursor: default; }
+.course-next-label { color: #b8d6e0; font-size: 14px; margin-top: auto; }
+.grade-2 .course-current { padding-top: 25px; }
+@media (max-width: 700px) {
+  .course-current { flex-wrap: wrap; gap: 12px; padding: 16px; }
+  .course-current > .course-icon { font-size: 36px; }
+  .course-current-copy { flex-basis: calc(100% - 60px); }
+  .course-current-copy strong { font-size: 20px; }
+  .course-current > button { flex-basis: 100%; }
+  .course-grid .course-preview:last-child .course-next-label { grid-column: 2; }
+}
+
+/* Dedicated island layout avoids legacy course-card last-child/full-row rules. */
+.subject-island-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;align-items:start;margin:24px -8px 0}
+.family-app .subject-island-card{display:flex;flex-direction:column;align-items:center;position:relative;text-align:center;width:100%;min-width:0;margin:0;padding:0 8px 24px;border:1px solid transparent;border-radius:110px 110px 24px 24px;background:transparent;box-shadow:none;color:var(--f-text);font:inherit;cursor:pointer;gap:0;overflow-wrap:anywhere;white-space:normal;transform:none}
+.family-app .subject-island-card:hover:not(:disabled):not(.course-preview){background:#8ce8df0b;border-color:#8ce8df44;transform:none}
+.family-app .subject-island-card:focus-visible,.subject-island-panorama>summary:focus-visible{outline:3px solid #ffd681;outline-offset:4px}
+.subject-island-art{display:block;position:relative;isolation:isolate;width:100%;aspect-ratio:1/1.1}
+.subject-island-art img{width:100%;height:100%;object-fit:contain;position:relative;z-index:1;background:radial-gradient(ellipse,#173e50 20%,transparent 68%);filter:drop-shadow(0 12px 18px #03162188)}
+.subject-island-art img[hidden]{display:none}
+.subject-island-fallback{position:absolute;inset:0;display:grid;place-items:center;font-size:42px;color:var(--island-tone);z-index:-1}
+.subject-island-art:has(img:not([hidden])) .subject-island-fallback{visibility:hidden}
+.subject-island-element{color:var(--island-tone);border:1px solid var(--island-tone);border-radius:30px;padding:4px 12px;font-size:14px;line-height:1.6;margin:8px 0 15px}
+.subject-island-subject{font-size:clamp(22px,2.2vw,30px);line-height:1.7;display:block}
+.subject-island-name{font-size:15px;line-height:1.9;color:#bed7e1;margin:8px 0 12px}
+.subject-island-zy{font-size:16px;line-height:1.8;color:#c3dbe4;letter-spacing:1px;margin-top:4px}
+.subject-island-action{color:#8ce8df;font-size:16px;line-height:1.8}
+.family-app .subject-island-card:disabled,.family-app .subject-island-card.course-preview{opacity:1;cursor:default}
+.subject-island-card:disabled .subject-island-action,.subject-island-card.course-preview .subject-island-action{color:#b7cad3}
+.subject-island-math{min-width:0}.subject-island-math>summary{list-style:none}.subject-island-math>summary::-webkit-details-marker{display:none}.subject-island-math>summary[aria-disabled=true]{cursor:default}
+.subject-math-modes{display:flex;flex-direction:column;gap:10px;margin:8px 0;padding:10px;border:1px solid #638794;border-radius:16px;background:#103348}
+.family-app .subject-math-modes button{display:flex;flex-direction:column;width:100%;min-height:64px;white-space:normal;padding:14px 8px;gap:8px;background:#1d4c5d;color:#f0fbff;border:1px solid #6f9aa2;border-radius:12px;line-height:1.9}
+.subject-math-modes b{font-size:19px;color:#a3eee6}.subject-math-modes span{font-size:14px}
+.subject-island-note{font-size:15px;line-height:2;color:#bdd4df;text-align:center;margin:22px 0}
+.subject-island-panorama{margin:24px auto 0;max-width:1100px}.subject-island-panorama>summary{cursor:pointer;min-height:48px;padding:12px;color:#bfe2e6;text-align:center}.subject-island-panorama>img{display:block;width:100%;height:auto;border-radius:20px;margin-top:18px}.subject-island-panorama p{font-size:15px;line-height:2;color:#bdd4df;text-align:center}
+.grade-2 .subject-island-subject{line-height:2.3}.grade-2 .subject-island-element{padding-top:10px}.grade-2 .subject-island-name{line-height:2.5}
+@media(max-width:1100px){.subject-island-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.subject-island-art{aspect-ratio:1/1}}
+@media(max-width:650px){.subject-island-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 6px;margin:18px -6px 0}.family-app .subject-island-card{padding:0 3px 18px}.subject-island-subject{font-size:22px}.subject-island-element{font-size:13px;padding:4px 10px;margin-bottom:12px}.subject-island-name,.subject-island-action{font-size:14px}.subject-island-zy{font-size:16px;letter-spacing:0}.subject-island-note{font-size:14px;text-align:left}.subject-math-modes{padding:6px}.subject-math-modes b{font-size:17px}.subject-math-modes span{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.subject-islands *{animation:none!important;transition:none!important}}
+
+#adventure-islands{scroll-margin-top:24px;margin-top:28px}
+.islands-eyebrow{color:#98e2dd;font-size:15px;letter-spacing:.12em}
+.subject-islands .section-title h2{margin:8px 0}
+.subject-island-destination{min-width:0}
+.family-app .subject-island-card.is-current{border-color:var(--island-tone);background:#16435466}
+.island-challenge-progress{display:flex;flex-direction:column;gap:8px;width:100%;max-width:480px;margin:10px auto;color:#d9eef3;font-size:14px;line-height:1.7}
+.island-challenge-progress>span{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.island-challenge-progress progress{display:block;width:100%;height:10px;border:0;border-radius:12px;overflow:hidden;background:#365768;accent-color:var(--island-tone,#94e7dd)}
+.island-challenge-progress progress::-webkit-progress-bar{background:#365768;border-radius:12px}
+.island-challenge-progress progress::-webkit-progress-value{background:var(--island-tone,#94e7dd);border-radius:12px}
+.island-challenge-progress progress::-moz-progress-bar{background:var(--island-tone,#94e7dd);border-radius:12px}
+.island-challenge-progress small{font-size:13px;color:#bdd4df;text-align:left}
+.course-current .island-challenge-progress{margin-left:0;max-width:600px}
+.subject-island-ready{font-size:14px;color:#bdd4df;min-height:90px;display:flex;align-items:center}
+.family-app .subject-island-action{display:block;border-radius:999px;padding:8px 14px;margin-top:12px;background:#164b5c;color:#b8fff4;font-weight:700}
+.family-app .subject-math-extra{display:flex;flex-direction:column;gap:6px;width:100%;min-height:64px;margin-top:10px;padding:12px 8px;white-space:normal;border:1px solid #668994;background:#11394b;border-radius:16px;color:#d9f8f4;line-height:1.7}
+.subject-math-extra small{font-size:13px;font-weight:400;color:#bed7e1}
+.island-switch-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+@media(max-width:650px){.island-challenge-progress{font-size:13px}.islands-eyebrow{font-size:13px}.subject-islands .section-title h2{font-size:23px}.family-app .subject-island-action{padding:7px 10px;font-size:14px}}
+.subject-islands .section-title{gap:12px;min-width:0}
+.subject-islands .section-title>div{min-width:0;flex:1}
+.subject-islands .section-title h2{overflow-wrap:anywhere;white-space:normal}
+.subject-island-grid{margin-left:0;margin-right:0}
+.math-last-progress{font-size:13px;color:#bdd4df;margin:14px 4px}
+@media(max-width:360px){.subject-island-grid{grid-template-columns:1fr;gap:24px}.subject-island-art{max-width:220px}.subject-island-ready{min-height:32px}.subject-island-destination{padding:0 8px}.island-collection-strip img{max-width:80px;margin-inline:auto}}
+.subject-islands .auto-ruby{white-space:normal}

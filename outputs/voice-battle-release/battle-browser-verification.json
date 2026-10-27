@@ -1,0 +1,66 @@
+{
+  "engine": "WebKit iPad touch emulation",
+  "localSyntheticAccountOnly": true,
+  "checks": [
+    {
+      "name": "Return from another island opens pending review",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Wrong correction awards nothing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Partial correction 1 awards nothing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Partial correction 2 awards nothing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All corrections settle half reward once",
+      "pass": true,
+      "detail": {
+        "xp": 30,
+        "coins": 30,
+        "skipped": false
+      }
+    },
+    {
+      "name": "Original failure history and other rewards preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No repeat claim button remains",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Reload retains receipt without repeating reward",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Battle review has no horizontal overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No JavaScript runtime exception; reload recovers",
+      "pass": true,
+      "detail": [
+        {
+          "name": "Fetch API cannot load http",
+          "message": "/localhost:4293/api/state due to access control checks."
+        }
+      ]
+    }
+  ],
+  "status": "PASS"
+}

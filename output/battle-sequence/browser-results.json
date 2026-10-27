@@ -1,0 +1,71 @@
+{
+  "results": [
+    {
+      "mode": "sequence",
+      "question": 1,
+      "clip": "nebulafox-1",
+      "noOldSpell": true
+    },
+    {
+      "mode": "sequence",
+      "question": 2,
+      "clip": "nebulafox-2",
+      "noOldSpell": true
+    },
+    {
+      "mode": "sequence",
+      "question": 3,
+      "clip": "nebulafox-1",
+      "noOldSpell": true
+    },
+    {
+      "mode": "sequence",
+      "question": 4,
+      "clip": "nebulafox-2",
+      "noOldSpell": true
+    },
+    {
+      "mode": "sequence",
+      "question": 5,
+      "clip": "nebulafox-1",
+      "noOldSpell": true
+    },
+    {
+      "mode": "sequence",
+      "question": 6,
+      "clip": "nebulafox-3",
+      "noOldSpell": true
+    },
+    {
+      "mode": "sequencepractice",
+      "question": 1,
+      "clip": "nebulafox-1",
+      "noOldSpell": true
+    },
+    {
+      "mode": "sequencepractice",
+      "question": 2,
+      "monsterCounter": true,
+      "noUltimate": true
+    },
+    {
+      "mode": "sequencepractice",
+      "question": 3,
+      "clip": "nebulafox-1",
+      "noOldSpell": true
+    },
+    {
+      "mode": "sequencepractice",
+      "question": 4,
+      "monsterCounter": true,
+      "noUltimate": true
+    },
+    {
+      "mode": "sequencepractice",
+      "question": 5,
+      "monsterCounter": true,
+      "noUltimate": true
+    }
+  ],
+  "errors": []
+}

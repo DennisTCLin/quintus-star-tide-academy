@@ -1,0 +1,6 @@
+### Result
+[{"width":320,"ruby":0,"overflow":false},{"width":390,"ruby":0,"overflow":false},{"width":768,"ruby":0,"overflow":false}]
+### Ran Playwright code
+```js
+await (async page => { const results=[]; for(const width of [320,390,768]) { await page.setViewportSize({width,height:900}); const ruby=await page.locator("ruby,rt").count(); const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth); if(ruby||overflow)throw Error(JSON.stringify({width,ruby,overflow})); results.push({width,ruby,overflow}); await page.screenshot({path:`output/playwright/grade2-plain/home-${width}.png`}); } return results; })(page);
+```

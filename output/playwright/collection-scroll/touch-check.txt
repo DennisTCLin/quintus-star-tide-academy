@@ -1,0 +1,6 @@
+### Result
+{"down":297,"up":9,"background":0}
+### Ran Playwright code
+```js
+await (async (page) => {const c=await page.context().newCDPSession(page);const b=page.locator(".social-scroll-body");const box=await b.boundingBox();const x=box.x+box.width/2,y=box.y+box.height-70;await c.send("Input.dispatchTouchEvent",{type:"touchStart",touchPoints:[{x,y}]});for(let i=1;i<=12;i++){await c.send("Input.dispatchTouchEvent",{type:"touchMove",touchPoints:[{x,y:y-i*25}]});await new Promise(r=>setTimeout(r,20));}await c.send("Input.dispatchTouchEvent",{type:"touchEnd",touchPoints:[]});const down=await b.evaluate(e=>e.scrollTop);if(down<=100)throw Error("Swipe did not scroll");await c.send("Input.dispatchTouchEvent",{type:"touchStart",touchPoints:[{x,y:box.y+70}]});for(let i=1;i<=12;i++){await c.send("Input.dispatchTouchEvent",{type:"touchMove",touchPoints:[{x,y:box.y+70+i*25}]});await new Promise(r=>setTimeout(r,20));}await c.send("Input.dispatchTouchEvent",{type:"touchEnd",touchPoints:[]});const up=await b.evaluate(e=>e.scrollTop);if(up>=down)throw Error("Reverse swipe failed");return {down,up,background:await page.evaluate(()=>scrollY)};})(page);
+```

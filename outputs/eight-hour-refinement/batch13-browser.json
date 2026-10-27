@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "label": "目前片段：護盾挑戰。探險船升起知識護盾，穿越友善的訓練浪潮",
+      "overflow": false,
+      "poster": "/assets/hero-shield-desktop-poster.jpg?v=729c8ec36fb1",
+      "videos": 0,
+      "viewport": [
+        320,
+        740
+      ]
+    },
+    {
+      "label": "目前片段：星鯨巡遊。星鯨穿過浮島，在暮色星海留下溫柔光跡",
+      "overflow": false,
+      "poster": "/assets/hero-starwhale-desktop-poster.jpg?v=1d8b5adb584f",
+      "videos": 0,
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "label": "目前片段：流星許願。流星掠過寧靜港灣，陪航海員許下新願望",
+      "overflow": false,
+      "poster": "/assets/hero-meteor-desktop-poster.jpg?v=c422cfd6c552",
+      "videos": 0,
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "label": "目前片段：夥伴領航。潮光獸點亮航線，知識星圖在海面展開",
+      "overflow": false,
+      "poster": "/assets/hero-companion-desktop-poster.jpg?v=4d1747d34812",
+      "videos": 0,
+      "viewport": [
+        1024,
+        768
+      ]
+    }
+  ],
+  "offscreen": {
+    "heroBottom": -2205.7265625,
+    "scrollY": 3139,
+    "video": [
+      {
+        "paused": true,
+        "src": "/assets/hero-starwhale-desktop.mp4?v=d80ef2b491bc",
+        "time": 5.199339
+      }
+    ]
+  },
+  "returned": {
+    "heroBottom": 426.7734375,
+    "scrollY": 506.5,
+    "video": [
+      {
+        "paused": false,
+        "src": "/assets/hero-starwhale-desktop.mp4?v=d80ef2b491bc",
+        "time": 5.43465
+      }
+    ]
+  },
+  "reduced": {
+    "button": "已依減少動態設定顯示靜態圖片",
+    "disabled": true,
+    "reduced": true,
+    "videos": 0
+  },
+  "failure": {
+    "label": "這段影片無法播放，目前顯示靜態圖片",
+    "posterVisible": true,
+    "videos": 0,
+    "injected503": true
+  },
+  "failureRecovery": {
+    "button": "暫停首頁航線影片",
+    "videos": [
+      {
+        "paused": false,
+        "readyState": 4,
+        "src": "/assets/hero-companion-desktop.mp4?v=59dee1235519"
+      }
+    ]
+  },
+  "consoleErrors": []
+}

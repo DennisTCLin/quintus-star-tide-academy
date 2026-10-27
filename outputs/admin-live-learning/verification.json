@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "integrationBase": "1ea8463",
+  "route": "Codex Hyper Relay: read-only explorer, root writer, fresh read-only verifier",
+  "build": "npm run build: content audit, pronunciation check, TypeScript, Vite, server bundle PASS",
+  "focused": {"files": 4, "tests": 46, "status": "PASS"},
+  "full": {"files": 122, "tests": 884, "status": "PASS", "database": "fresh isolated local PostgreSQL", "command": "TEST_DATABASE_URL=<isolated local database> npm test -- --maxWorkers=1"},
+  "browser": {"engine": "WebKit", "devices": ["iPhone 13", "iPad (gen 7)"], "widths": [320, 390, 768, 1024], "physicalDevice": false, "details": "browser-verification.json"},
+  "production": {"authenticatedStudentTest": false, "studentDataChanged": false, "details": "verify-production.py (run after deployment)"},
+  "rollback": "Revert the admin feature and follow-up CSS/test commits; no schema migration or game-data migration is introduced."
+}

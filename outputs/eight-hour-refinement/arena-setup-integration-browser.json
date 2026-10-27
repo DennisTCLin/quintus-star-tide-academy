@@ -1,0 +1,74 @@
+{
+  "runtime": "63e9ce9",
+  "viewports": [
+    {
+      "guideOpen": false,
+      "learningJourney": false,
+      "scrollWidth": 320,
+      "start": [
+        {
+          "disabled": false,
+          "height": 54,
+          "text": "⚔️ 開始對戰",
+          "width": 216
+        }
+      ],
+      "width": 320
+    },
+    {
+      "guideOpen": false,
+      "learningJourney": false,
+      "scrollWidth": 820,
+      "start": [
+        {
+          "disabled": false,
+          "height": 54,
+          "text": "⚔️ 開始對戰",
+          "width": 141.8046875
+        }
+      ],
+      "width": 820
+    },
+    {
+      "guideOpen": false,
+      "learningJourney": false,
+      "scrollWidth": 1024,
+      "start": [
+        {
+          "disabled": false,
+          "height": 54,
+          "text": "⚔️ 開始對戰",
+          "width": 141.8046875
+        }
+      ],
+      "width": 1024
+    },
+    {
+      "guideOpen": false,
+      "learningJourney": false,
+      "scrollWidth": 1440,
+      "start": [
+        {
+          "disabled": false,
+          "height": 54,
+          "text": "⚔️ 開始對戰",
+          "width": 141.8046875
+        }
+      ],
+      "width": 1440
+    }
+  ],
+  "emptyTeamDisabled": true,
+  "selectedTeamEnabled": true,
+  "startReachedBattle": true,
+  "initialHP": [
+    100,
+    100
+  ],
+  "battleActors": [
+    "潮光獸",
+    "石礁鰭"
+  ],
+  "longTeamStickyCoveredByAuthorFixture": true,
+  "rootNoAttackSubmitted": true
+}

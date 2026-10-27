@@ -1,0 +1,88 @@
+{
+  "mainCommit": "9932328aede64f8b5d95bce930aea3aa2b25c6a0",
+  "stagedCodeCommit": "b3fd97a20f1a9a33d8457a5dcf3fdf50a7c908fd",
+  "changedFilesVerified": 9,
+  "unchangedMediaAndAssetsMatchPreviousVerifiedRelease": 185,
+  "unchangedImageSamples": 3,
+  "verifiedFiles": [
+    {
+      "path": "index.html",
+      "bytes": 1813,
+      "sha256": "a2fe1dc00d3d4dc0d9641f0bf4140cff855161212aa40436c362183a298c2bfe",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "assets/territory.v-DQ57f921.js",
+      "bytes": 5481,
+      "sha256": "2410d5fc8aaa8cd5b0846b65a8534b54101b40ae231fbcdb0a6d6f158d70002e",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/TerritoryPage.v-4DkNS1YM.js",
+      "bytes": 36069,
+      "sha256": "4ea4461fa2fb1eb4297cf1bf0749faf0e1e300560ed0f85fc5373d7c701a0f04",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/IslandApp.v-BSVb272A.js",
+      "bytes": 209071,
+      "sha256": "235647fb2102815036301a8b54994caf4bf53bbb3409e369aca0b55fa500886d",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/RoomEditor.v-BriqAA02.js",
+      "bytes": 10713,
+      "sha256": "48433645c92f098f0d5848200d2ffad11c8f4e80620cee226fbc347e0e81034d",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/index.v-BMDjMVUW.js",
+      "bytes": 2764731,
+      "sha256": "5667f90d8e015a9c6b09fffec661b5b99afcf8c3d408c4ec4387c601a0d46092",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/subject-catalog.v-DRvuTgF7.js",
+      "bytes": 3806,
+      "sha256": "f3c15db316eb53b3b745670353a3954280dc9f230a8e94945fe83a143c27d243",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/readability.v-Z-JA7QHd.js",
+      "bytes": 1259814,
+      "sha256": "2fc9632a636d9aecc1cd3a1607bac25a46df077944204a5f8afdab0563ce9df9",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/AdminConsole.v-nSoPCV_c.js",
+      "bytes": 33398,
+      "sha256": "d11fa707e114b230429293061824acdccddcbf669944ce90beea870e1b6b8c5f",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-29.webp",
+      "bytes": 148144,
+      "sha256": "e29132f2bb575972856db6dfa9004358535f125b64b920ea9e1ff62731e58eaf",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-05.webp",
+      "bytes": 104970,
+      "sha256": "ba370558f1cfd80b62523c8810c2a1e88d2d379262c504f3e679ce0f12caf6d4",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-17.webp",
+      "bytes": 125588,
+      "sha256": "faf10632821ad235932c68c15f8e30a804f4f3496c869b394758e57b1e89b0c7",
+      "contentType": "image/webp"
+    }
+  ],
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "unauthenticatedStateStatus": 401,
+  "studentWritesPerformed": false,
+  "note": "All changed release files and3 unchanged image samples downloaded and verified; other files byte-identical to previously verified release. No claim of downloading every unchanged asset again."
+}

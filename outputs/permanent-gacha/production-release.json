@@ -1,0 +1,20 @@
+{
+  "base": "https://quintus-star-tide-academy-production.up.railway.app",
+  "commit": "1073138",
+  "assets": [
+    {
+      "path": "/assets/index.v-CQsBtdEe.js",
+      "bytes": 490864,
+      "sha256": "32ec1430c784069baee2bb99f6368dc4a372fde97b0d0404e488b809253dc669"
+    },
+    {
+      "path": "/assets/index.v-BIfqMgg3.css",
+      "bytes": 167791,
+      "sha256": "4004e51d81faebba9d89df6ccf1f631bb2fa34ce578d3002b8ceaf99e5c7ec8d"
+    }
+  ],
+  "preservedMonsterAssets": 30,
+  "deployment": "33e74091-1eb5-4943-8b9a-fa4086f690b3",
+  "status": "SUCCESS",
+  "unitTests": 273
+}

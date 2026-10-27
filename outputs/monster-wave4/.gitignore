@@ -1,0 +1,26 @@
+# Task-local raw assets, signed URLs, and paid-job control records.
+/source/
+/*-jobs.json
+/padded-references.json
+/reframe-references.json
+/submission-errors.jsonl
+/credit-block.json
+/*probe.py
+/matte-coreml-repeat.py
+/matte-before-key.json
+/debug-capture-flow.py
+/__pycache__/
+/media-audit/*.jpg
+/media-audit/[0-9]*.json
+/capture-browser/*.png
+/capture-flow/*.png
+/battle-browser/*.png
+/qa/*.png
+
+/credit-resume.json
+
+/database/*.txt
+
+# Superseded early RGB-only packing scratch artifacts; use matte-videos.py.
+/pack-assets.py
+/packed.json

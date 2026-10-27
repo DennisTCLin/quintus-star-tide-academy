@@ -1,0 +1,161 @@
+{
+  "grade": 4,
+  "semester": 1,
+  "publisher": "南一",
+  "publisherEvidence": "依家長分類及檔名；卷面未印出版社，不能視為出版社官方驗證",
+  "scope": "歷屆四上期中／第一次評量；115學年度實際評量範圍待確認",
+  "rawQuestions": 324,
+  "uniqueQuestions": 319,
+  "sources": [
+    {
+      "id": "nm1",
+      "file": "小四數學南一1.pdf",
+      "school": "民權國小",
+      "year": 112,
+      "pages": 4,
+      "sha256": "bdd04d192ce284828e1337a467eb2cf407717779d141ce9855f30d8747e8c5fa",
+      "questions": 36
+    },
+    {
+      "id": "nm2",
+      "file": "小四數學南一2.pdf",
+      "school": "內湖國小",
+      "year": 112,
+      "pages": 3,
+      "sha256": "14dab7a790e91f850347f11c7f48d755ccc762dd1d3d51116e1cc2c9a27b1f98",
+      "questions": 29
+    },
+    {
+      "id": "nm3",
+      "file": "小四數學南一3.pdf",
+      "school": "太平國小",
+      "year": 112,
+      "pages": 2,
+      "sha256": "17fe7876eef504a3a48966dadeb94b0b45a8ee3081dd9a6bea271f562810e95a",
+      "questions": 31
+    },
+    {
+      "id": "nm4",
+      "file": "小四數學南一4.pdf",
+      "school": "民權國小",
+      "year": 111,
+      "pages": 2,
+      "sha256": "bd9a42a4e7bb32694256222cddca384678da799598d673204385adead1c05184",
+      "questions": 27
+    },
+    {
+      "id": "nm5",
+      "file": "小四數學南一5.pdf",
+      "school": "雙蓮國小",
+      "year": 111,
+      "pages": 3,
+      "sha256": "6c8738294db8f79176e979f40ed06266d01ee66aae29fa434e06a1855c474c2f",
+      "questions": 31
+    },
+    {
+      "id": "nm6",
+      "file": "小四數學南一6.pdf",
+      "school": "民權國小",
+      "year": 101,
+      "pages": 2,
+      "sha256": "3fa8cb0b829c6e5b3f40f980e48865d2e17aee5f78ce8142ab6de4d3d288a2d9",
+      "questions": 33
+    },
+    {
+      "id": "nm7",
+      "file": "小四數學南一7.pdf",
+      "school": "懷生國小",
+      "year": 108,
+      "pages": 2,
+      "sha256": "02820d7110ec901470c950575f5c27ec8096e3f4a3fc737b19b9c5a0e96e4edf",
+      "questions": 33
+    },
+    {
+      "id": "nm8",
+      "file": "小四數學南一8.docx",
+      "school": "延平國小",
+      "year": 108,
+      "pages": null,
+      "sha256": "452fb7c6eaada18bd3fd8b39220c505baf8859f33d7b0ddbc2552971cb1e22d5",
+      "questions": 42
+    },
+    {
+      "id": "nm9",
+      "file": "小四數學南一9.doc",
+      "school": "碧湖國小",
+      "year": 108,
+      "pages": null,
+      "sha256": "ef1f6aa57e42105f7f0eb70aede0c56d2ea7d1b60ca27590e33a5df709ebb9af",
+      "questions": 29
+    },
+    {
+      "id": "nm10",
+      "file": "小四數學南一10.doc",
+      "school": "舊莊國小",
+      "year": 108,
+      "pages": null,
+      "sha256": "0e1e10ea29bea657b23d9914a1668a6186a86edb2a5a51cfdf5804e60f63fdb7",
+      "questions": 33
+    }
+  ],
+  "duplicates": [
+    {
+      "retained": "mx1-nm1-1-2",
+      "merged": [
+        "mx1-nm4-1-1"
+      ]
+    },
+    {
+      "retained": "mx1-nm1-3-2b",
+      "merged": [
+        "mx1-nm8-2-4"
+      ]
+    },
+    {
+      "retained": "mx1-nm1-3-3b",
+      "merged": [
+        "mx1-nm10-3-4"
+      ]
+    },
+    {
+      "retained": "mx1-nm7-2-6a",
+      "merged": [
+        "mx1-nm8-2-2a"
+      ]
+    },
+    {
+      "retained": "mx1-nm7-2-6b",
+      "merged": [
+        "mx1-nm8-2-2b"
+      ]
+    }
+  ],
+  "exclusions": [
+    "需圖片判斷、實際測量、畫圖及作圖題未匯入，避免缺少條件",
+    "nm1 1-7 鈔票張數文字破損",
+    "nm4 2-1 固定點術語不明確",
+    "nm4 4-1 卡片數量與題幹矛盾",
+    "nm9 1-2 34566有幾個1000與選項不相符"
+  ],
+  "adaptations": [
+    "計算、填空、是非與應用題轉為可自動評分選擇題",
+    "比較題允許等號，整數除法明示商及餘數",
+    "nm3兩種購物方案分題；nm5明示10月新增數量",
+    "鐘面指針題明示鐘面情境；歷史價格與匯率僅為題目設定",
+    "Word文件重新排版會改變頁碼，page=null，保留章節題號"
+  ],
+  "verification": {
+    "method": "逐頁視覺核對，逐題獨立驗算；nm1–nm5與nm6–nm10分別獨立審查",
+    "reviewedRows": 324,
+    "sourcePagesRendered": 27,
+    "wordRendering": "使用系統中文字型修正缺字；每份Word渲染3頁",
+    "dataSha256": "7f65eaaa73182ef530cbae1810b06983068363a6ef9152595b6336ef864ffcc5",
+    "fullTests": "116 files / 847 tests PASS",
+    "production": "16 exact asset hashes, health200, protected endpoints401 anonymously"
+  },
+  "deployment": {
+    "runtimeCommit": "d035397b94787bcda1dee3364cdaca5126d68448",
+    "id": "80ca24e1-886a-46a3-874c-7b1ca992f2de",
+    "status": "SUCCESS"
+  }
+}

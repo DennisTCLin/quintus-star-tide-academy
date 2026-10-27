@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-26",
+  "sourceFiles": 10,
+  "rawRows": 268,
+  "distinctNewQuestions": 203,
+  "previousQuestions": 83,
+  "totalQuestions": 286,
+  "duplicates": "所有10份檔案與先前卷及本批均無位元相同；題目依出版社、題幹、選項集合、閱讀材料合併並保留全部定位。",
+  "answerPolicy": "無官方答案卷；人工解題並由唯讀驗證者逐題複核。",
+  "scope": "地圖、自然環境、傳統住屋與器物；只取各卷交集，不代表115學年度完整考試範圍。",
+  "schools": [
+    "yongchun",
+    "nantun",
+    "dunhua"
+  ],
+  "sources": [
+    {
+      "file": "小四社會康軒1.pdf",
+      "sha256": "1ba4c39460ccc1a3bbcd063953349fea4abd9ad74db7944ed9ebe511954aebe0",
+      "pages": 4,
+      "duplicates": [],
+      "id": "ksn1",
+      "school": "民權國小",
+      "academicYear": 114,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 39,
+      "visualPagesReviewed": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "file": "小四社會康軒2.pdf",
+      "sha256": "5ae818648cda6aa041f735e57f07d98ad2df683452b83a040dd9ca98e5809c0c",
+      "pages": 2,
+      "duplicates": [],
+      "id": "ksn2",
+      "school": "民權國小",
+      "academicYear": 113,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 30,
+      "visualPagesReviewed": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "小四社會康軒3.pdf",
+      "sha256": "f8ced0b97e0b1b72a0c495a96f96ad8bfd6be493e66eabf57c2542f4a943b507",
+      "pages": 4,
+      "duplicates": [],
+      "id": "ksn3",
+      "school": "河堤國小",
+      "academicYear": 112,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 25,
+      "visualPagesReviewed": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "file": "小四社會康軒4.pdf",
+      "sha256": "e3735d516b16467eec8019d87d2bbc8ec3fe6b04a5f20b23af08bd351d3dc73e",
+      "pages": 2,
+      "duplicates": [],
+      "id": "ksn4",
+      "school": "敦化國小",
+      "academicYear": 112,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 33,
+      "visualPagesReviewed": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "小四社會康軒5.pdf",
+      "sha256": "68db32ff2692936f66d3db7575eb9d3110d23b577273e0873892b068bfad9a90",
+      "pages": 2,
+      "duplicates": [],
+      "id": "ksn5",
+      "school": "實踐國小",
+      "academicYear": 112,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 38,
+      "visualPagesReviewed": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "小四社會康軒6.pdf",
+      "sha256": "87fcd7baeaa879f183200983d8df81d78d7b655191cb77f2c36ae70ab645d764",
+      "pages": 2,
+      "duplicates": [],
+      "id": "ksn6",
+      "school": "太平國小",
+      "academicYear": 112,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 26,
+      "visualPagesReviewed": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "小四社會康軒7.pdf",
+      "sha256": "7520148e34067162c3c7b66c5aff87f9abe587ddfe9892f9479e110cc67fb59c",
+      "pages": 2,
+      "duplicates": [],
+      "id": "ksn7",
+      "school": "舊莊國小",
+      "academicYear": 112,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 27,
+      "visualPagesReviewed": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "小四社會康軒8.pdf",
+      "sha256": "b517b62b10f805e440ea56abd51e4f813ebb16ec6aba2586da7cfbfec58b9e81",
+      "pages": 3,
+      "duplicates": [],
+      "id": "ksn8",
+      "school": "民權國小",
+      "academicYear": 111,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 17,
+      "visualPagesReviewed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "file": "小四社會康軒9.pdf",
+      "sha256": "0fb07483e1dd3dd33a67f2255c671c4b9add54010dec783d76be5fd35862d82b",
+      "pages": 3,
+      "duplicates": [],
+      "id": "ksn9",
+      "school": "成德國小",
+      "academicYear": 110,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 19,
+      "visualPagesReviewed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "file": "小四社會康軒10.pdf",
+      "sha256": "67150c16a4ad105e95aea5b017ff2187d17304f4149dad973d832691d7628337",
+      "pages": 2,
+      "duplicates": [],
+      "id": "ksn10",
+      "school": "延平國小",
+      "academicYear": 110,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 14,
+      "visualPagesReviewed": [
+        1,
+        2
+      ]
+    }
+  ],
+  "adaptationPolicy": [
+    "題意整理轉選擇，選項輪替；同義核心概念共用題幹以合併來源。",
+    "圖表轉錄為足夠的文字數據；閱讀材料補為完整短文。",
+    "ksn2 2-6 將原卷單純烤肉活動改為明示遺留垃圾，避免活動本身被錯判。",
+    "ksn7 6-2 僅比較原圖中清楚可辨的1月16.6℃與7月28.9℃。",
+    "ksn10 5-2 原文錯寫臺北市蘆洲，改編只保留蘆洲李氏古宅地名。",
+    "ksn10 4-3 一條龍與單伸手小題定位複核後分別為②與④。"
+  ],
+  "excluded": [
+    "未補齊圖像條件的地圖／圖例／器物辨識題。",
+    "ksn6 2-8 最防震建材：僅憑材料不足以決定抗震。",
+    "ksn6 2-9 水庫是否調節氣候：錯項不嚴謹。",
+    "ksn6 2-15 長輩護龍房間配置缺條件。",
+    "ksn7 2-4 電子地圖四選項皆可成立。",
+    "ksn7 2-8 冰店生意不能只從氣候唯一推定。",
+    "ksn8 2-9 魚筌海中使用不能一概判錯；2-11 博物館是否有傳統器物不確定。",
+    "舊版宗教、老街、都市聚落及農具等不在目前單元交集。",
+    "未有充分條件的地方稱號、現況營運、歷史住戶長幼配置及絕對化說法。"
+  ],
+  "supportingReferences": [
+    "https://digitalmaster.knsh.com.tw/el/society/digital1-midterm/index.html",
+    "https://knowlegde.gov.taipei/News_Content.aspx?n=E2774B2FD4A88AD0&s=8EEB8FD24FCFCCD4&sms=D8939B9274D1E899",
+    "https://web.arte.gov.tw/publicart/unit1/U1_2_2_1_.html"
+  ],
+  "verification": {
+    "source1to5": "14頁165rows逐題唯讀複核；垃圾解析來源錯述與桃葉用詞已修正",
+    "source6to10": "12頁103rows逐題唯讀複核；延平兩個小題locator已修正",
+    "runtime": "獨立唯讀複核PASS；來源定位、原ID保留、去重答案一致；完整測試與正式部署另記驗收檔。"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "runtime": "15a54da76c11c0701c0278e4ddbc04ae2a028367",
+  "files": [
+    {
+      "path": "server/school-roster.mjs",
+      "sha256": "670033928364cad76ef3c9f16550322819f13141fb1dc0b507ea99568b06d3fb"
+    },
+    {
+      "path": "server/trial-accounts.mjs",
+      "sha256": "fc4bc43eb168ad310ff1b915739de72e02b19e81295ed7498ffce9170100ce10"
+    },
+    {
+      "path": "server/trial-curricula.mjs",
+      "sha256": "09a76b0151d250a9702bac7218c2260017ca5f6df666c0200bc80d21f00aa42e"
+    },
+    {
+      "path": "build/game.mjs",
+      "sha256": "b0c4703ead405c09e7a1565b4c543a134af4ec2e57174b99f53e87013b837295"
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "898bee509e6b1805952be0b83707ffda70f95cccd2b74fd241be455d09ee2d35"
+    }
+  ]
+}

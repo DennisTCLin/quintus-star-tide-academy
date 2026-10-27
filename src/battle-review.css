@@ -1,0 +1,18 @@
+.battle-review { margin:1.25rem 0; padding:clamp(16px,3vw,28px); border:1px solid #75b7c3; border-radius:24px; background:#10394a; color:#e8f9fc; }
+.battle-review h2,.battle-review h3 { margin:.5rem 0 1rem; color:inherit; }
+.battle-review p,.battle-review small { line-height:1.8; }
+.battle-review small { display:block; color:#bcd5df; margin-top:1rem; }
+.battle-review-reward { color:#ffe092; }
+.battle-review-choices { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin:16px 0; }
+.battle-review-choices button { min-width:0; min-height:72px; padding:16px; border:2px solid #8ddcd7; border-radius:18px; background:#e5f8ef; color:#123d4a; font-size:1.25rem; }
+.battle-review-choices img { display:block; max-width:100%; max-height:160px; margin:0 auto 8px; object-fit:contain; }
+.battle-review details { margin-top:18px; }
+.battle-review li { margin-bottom:12px; }
+.battle-review .auto-ruby { white-space:normal; }
+.quiz-next-dock small { display:block; font-size:.8em; }
+@media(max-width:360px) { .battle-review-choices { grid-template-columns:1fr; } }
+
+.battle-review .battle-review-choices rt, .battle-review .battle-review-choices .phonetic-line { color:#315364; }
+
+.battle-review .battle-review-choices .option-listen { background:#123e50; color:#e9f7f3; padding:10px; }
+.battle-review .battle-review-choices .option-answer-cue { color:inherit; font-size:16px; }

@@ -1,0 +1,50 @@
+[
+  {
+    "engine": "webkit",
+    "grade": 1,
+    "viewport": [
+      390,
+      844
+    ],
+    "dockUnlockedForReady": true,
+    "readyCTAVisible": true,
+    "answerAdvances": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "grade": 2,
+    "viewport": [
+      820,
+      1180
+    ],
+    "dockUnlockedForReady": true,
+    "readyCTAVisible": true,
+    "answerAdvances": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "grade": 1,
+    "viewport": [
+      390,
+      844
+    ],
+    "dockUnlockedForReady": true,
+    "readyCTAVisible": true,
+    "answerAdvances": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "grade": 2,
+    "viewport": [
+      820,
+      1180
+    ],
+    "dockUnlockedForReady": true,
+    "readyCTAVisible": true,
+    "answerAdvances": true,
+    "errors": []
+  }
+]

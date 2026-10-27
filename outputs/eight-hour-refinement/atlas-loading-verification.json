@@ -1,0 +1,45 @@
+{
+  "change": "Visibility-gated habitat atlas ownership",
+  "testedSourceBase": "fc5f36b",
+  "review": "Fresh independent read-only PASS",
+  "tests": {
+    "targetedFiles": 2,
+    "targetedTests": 8,
+    "fullFiles": 49,
+    "fullTests": 430,
+    "skipped": 0,
+    "postgres": true,
+    "build": "PASS"
+  },
+  "fileBytes": {
+    "tideglow": 878114,
+    "cometcrane": 943550,
+    "total": 1821664
+  },
+  "requests": {
+    "offscreenInitialBefore": 6,
+    "offscreenInitialAfter": 0,
+    "scope": "two registered companions in current batch; source + fake Image tests, not browser network timing"
+  },
+  "browser": {
+    "viewport": "320x740",
+    "initialMapTop": 1441,
+    "initialAnimation": "still",
+    "initialCanvasFrame": null,
+    "initialHabitat": "is-resting",
+    "visibleAfterScroll": "frames",
+    "greeting": {
+      "clip": "play",
+      "frame": 5,
+      "mood": "hello"
+    },
+    "pausedFrameStable": 6,
+    "horizontalOverflow": false,
+    "consoleErrors": []
+  },
+  "limits": [
+    "Existing pending requests may finish while paused; no cancellation guarantee",
+    "File sizes are not measured transfer time or real-device memory",
+    "React StrictMode lifecycle reviewed, not mounted by unit tests"
+  ]
+}

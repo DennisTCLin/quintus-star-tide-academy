@@ -1,0 +1,33 @@
+{
+  "implementation": "3f5eb1e034383c73b7c0757e361cb0ff6e421791",
+  "provision": {
+    "created": true,
+    "idempotent": true,
+    "grade": 4,
+    "existingAccountsPreserved": 24,
+    "existingMembersPreserved": 6,
+    "allOriginalAccountStateAndLoginHashesUnchanged": true,
+    "starterUntouched": true,
+    "at": "2026-10-25T07:02:23.155Z"
+  },
+  "browser": {
+    "login": 200,
+    "username": "Brownie",
+    "displayName": "林軒凱",
+    "grade": 4,
+    "starterUntouched": true,
+    "revision": 0,
+    "pageErrors": [],
+    "overflow": false,
+    "verificationSessionLoggedOut": true
+  },
+  "localTests": {
+    "files": 4,
+    "tests": 17,
+    "result": "PASS"
+  },
+  "build": "PASS",
+  "independentReview": "PASS",
+  "sshKeyRevoked": true,
+  "avatarDeployment": "Pending coordinated release by tideglow integration owner; integrated as afc860b"
+}

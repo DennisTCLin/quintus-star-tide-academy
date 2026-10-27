@@ -1,0 +1,45 @@
+{
+  "base": "http://127.0.0.1:4241",
+  "checks": [
+    {
+      "player": "qingqing",
+      "width": 320,
+      "question": "g1-en-v1-001",
+      "speech": {
+        "text": "Find the lowercase letter A.",
+        "lang": "en-US"
+      },
+      "PASS": true
+    },
+    {
+      "player": "doudou",
+      "width": 390,
+      "question": "g1-en-v1-007",
+      "speech": {
+        "text": "Say hello to your friend.",
+        "lang": "en-US"
+      },
+      "PASS": true
+    },
+    {
+      "player": "qingqing",
+      "width": 1440,
+      "question": "g1-en-v1-008",
+      "speech": {
+        "text": "I am blank years old.",
+        "lang": "en-US"
+      },
+      "PASS": true
+    },
+    {
+      "realEnglishVoyage": true,
+      "fiveAnswers": true,
+      "xp": 50,
+      "verifiedScore": 100,
+      "reload": true,
+      "PASS": true
+    }
+  ],
+  "errors": [],
+  "speechNote": "Verified en-US speech calls with a browser spy; actual voice sound depends on installed device voices."
+}

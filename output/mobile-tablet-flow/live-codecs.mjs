@@ -1,0 +1,4 @@
+import {createCompanionVoiceProvider} from '../../server/companion-voice-provider.mjs';import {readFileSync,writeFileSync} from 'node:fs';
+const provider=createCompanionVoiceProvider(),results=[];
+for(const engine of ['chromium','webkit']){const meta=JSON.parse(readFileSync(`output/mobile-tablet-flow/${engine}-capture.json`));const bytes=readFileSync(`output/mobile-tablet-flow/${engine}-capture.${meta.extension}`);const transcript=await provider.transcribe({bytes,mime:meta.mime,extension:meta.extension==='mp4'?'m4a':meta.extension});results.push({engine,mime:meta.mime,bytes:bytes.length,transcript,passed:transcript.includes('海龜'),syntheticInput:true});}
+writeFileSync('output/mobile-tablet-flow/live-codecs.json',JSON.stringify(results,null,2)+'\n');console.log(JSON.stringify(results));if(results.some(x=>!x.passed))process.exitCode=1;

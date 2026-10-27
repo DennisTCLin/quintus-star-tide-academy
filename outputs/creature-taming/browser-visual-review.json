@@ -1,0 +1,60 @@
+{
+  "role": "Bob - non-voting Browser Customer Tester",
+  "source_candidate": "Candidate E / concrete release contract",
+  "result": "PASS",
+  "target_url": "http://127.0.0.1:4241",
+  "viewports": [
+    "320x568",
+    "390x844",
+    "1440x1000"
+  ],
+  "grades": [
+    1,
+    2
+  ],
+  "normalViewportScreenshotsVisuallyInspected": [
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-qingqing-320x568-lv1-quiz.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-qingqing-320x568-lv1-detail-bottom.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-qingqing-1440x1000-lv1-training.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-feifei-320x568-lv1-stats.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-feifei-320x568-lv1-detail.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-feifei-390x844-lv5-bestiary.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-qingqing-320x568-lv1-bestiary-cards.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-feifei-320x568-lv1-bestiary-cards.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-joined-result.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-duplicate-result.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-joined-390-result.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-duplicate-390-result.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-escaped-learning-success.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-legacy-result.png",
+    "/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/outputs/creature-taming/browser-recruit-arena-actual-maxhp.png"
+  ],
+  "keyObservedResults": [
+    "Rarity and gold level badges, labeled stats, and executable skill descriptions remain readable at tested widths.",
+    "All30 monsters, six rarity filters, element/family/form conjunction, empty state, reset, modal keyboard and restored focus pass.",
+    "Joined, duplicate, miss, quota, legacy, practice, old-day and capacity outcomes preserve successful-learning messaging.",
+    "Five wrong answers each corrected, plus hint, finish successfully with capture eligibility. Normal and reduced-motion paths pass.",
+    "Real early defeat with Lv1 SSS companion after4 correct answers waits until fifth completion before capture.",
+    "New recruit equip updates immediately and survives fixture reload; XP40→50 raises growth toLv2 while current run staysLv1; collection and arena agree, actual maxHP108."
+  ],
+  "resolvedProductFindings": [
+    {
+      "finding": "390px grade2 learning-origin overflow",
+      "resolution": "Root wraps the ruby text/audio layout; all6 viewport/grade checks pass."
+    },
+    {
+      "finding": "320px grade2 joined/duplicate capture card text extends beyond narrow column",
+      "resolution": "Root changed mobile result to portrait above full-width wrapping text. Normal320/390 viewport screenshots visually inspected; text clipping assertions pass."
+    },
+    {
+      "finding": "Arena description still claimed equal HP",
+      "resolution": "Root changed copy to 能力成長; screenshot confirms wording and unequal108/100 actual maxima."
+    }
+  ],
+  "openBlockers": [],
+  "limits": [
+    "API responses were generated from current build/game.mjs and intercepted in isolated browser contexts; these checks do not prove production persistence, transaction concurrency, or deployment. Root owns separate real PostgreSQL and live API evidence.",
+    "Chrome headless only; no Safari or physical-device testing. Keyboard checks cover native modal opening, background exclusion, tab behavior, Escape, close, and restored opener focus; browser-chrome focus is allowed.",
+    "Supplemental element-only screenshots can include offscreen fixed skip-link composition artifacts; viewport screenshots and observed viewport geometry are the visual acceptance evidence."
+  ]
+}

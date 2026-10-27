@@ -1,0 +1,96 @@
+{
+  "at": "2026-10-25T06:26:22.648573+00:00",
+  "deployment": "6abed637-05be-4dd7-9764-44fef7777030",
+  "runtime": "c56c70a4b04ad3affc005c2c96b0ba813b02bd05",
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "indexMatchesLocal": true,
+  "assets": [
+    {
+      "path": "/assets/index.v-BzAGRfkP.js",
+      "bytes": 356600,
+      "sha256": "fe4df0092bf9b94a42200aa23892d8e4b0db346a252c4e718e317a91f656fbfb",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/game-view.v-dkY3ot1r.js",
+      "bytes": 373893,
+      "sha256": "edeab03d5cb49900a231e6fc499d4716311c0af353f98b0231a61ba55330255b",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/game-view.v-CNifi8gA.css",
+      "bytes": 973,
+      "sha256": "18d7f1eb99c0d8ff50deeead3888d21938085cdc4b3cc105556e79a6c5abb894",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/index.v-DEfJZmI5.css",
+      "bytes": 242291,
+      "sha256": "107bf8319fd035beacf21c6cc702698f21e1e3f729386c6b87d135c790a176b0",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/dragon-guide/welcome.mp4",
+      "bytes": 90035,
+      "sha256": "2d322dfe8febfeb9d0298a65fb848cb7008e7e47daf9b8f9ed8f6feff3936bbb",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/dragon-guide/welcome-poster.webp",
+      "bytes": 19242,
+      "sha256": "def4396d91b23888920f30ca02f33a9d453bfb6488e7194fccf541896c46b815",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/dragon-guide/listening.mp4",
+      "bytes": 98236,
+      "sha256": "b8ce68ebbcb3b5e54cd015c18e0a3e8138ba0e9c23c58ab1bf4bbf8714c42077",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/dragon-guide/listening-poster.webp",
+      "bytes": 19802,
+      "sha256": "dddb164f74ac439dea8bfce8f382392eb66ceea2bf2451ecbd3b21fa056ea7bc",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/dragon-guide/thinking.mp4",
+      "bytes": 77279,
+      "sha256": "7893040afd9deb5d0cc0a00fcb5b48f8da0d05fbc806d066e42aad5a1543e2bb",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/dragon-guide/thinking-poster.webp",
+      "bytes": 19738,
+      "sha256": "2af207cc059cdf7a569bc5b72d029bb76264565675a16ae95120b4d7f9a2b7c9",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/dragon-guide/speaking.mp4",
+      "bytes": 80560,
+      "sha256": "8ccd7d34f310bd03f7c327a2f3a27acdcc7a2c6dfab1a23cc00f250917ba30b6",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/dragon-guide/speaking-poster.webp",
+      "bytes": 21768,
+      "sha256": "aaed0ebfaf32a467139c40992487f6cc5c1f454a78e22200a2f5ece2f52ebb22",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/dragon-guide/cheering.mp4",
+      "bytes": 90181,
+      "sha256": "f5b288f80aff32f3134a5001eae309341a83d70bcc99feb1aeceebe4547cc3b6",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/dragon-guide/cheering-poster.webp",
+      "bytes": 18630,
+      "sha256": "b1ef5417c693c5a43265b4fc5744b3318a7ce89f015dbb0050305a32c28fafac",
+      "matchesLocal": true
+    }
+  ]
+}

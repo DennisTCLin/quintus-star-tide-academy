@@ -1,0 +1,34 @@
+{
+  "keyConfigured": true,
+  "anonymous": true,
+  "noDatabaseAccess": true,
+  "cases": [
+    {
+      "choice": "pet",
+      "status": "PASS",
+      "reply": {
+        "line": "你的摸摸很溫柔讓我心情很舒服。",
+        "reply": "pet",
+        "variant": "warm"
+      }
+    },
+    {
+      "choice": "feed",
+      "status": "PASS",
+      "reply": {
+        "line": "收到你的點心，心情很舒服。",
+        "reply": "feed",
+        "variant": "warm"
+      }
+    },
+    {
+      "choice": "play",
+      "status": "PASS",
+      "reply": {
+        "line": "星光球玩球，和你一起很開心！",
+        "reply": "play",
+        "variant": "playful"
+      }
+    }
+  ]
+}

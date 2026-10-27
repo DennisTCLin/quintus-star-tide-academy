@@ -1,0 +1,71 @@
+{
+  "result": "PASS",
+  "tests": {
+    "files": 56,
+    "cases": 468,
+    "database": "isolated star_tide_test",
+    "build": "PASS",
+    "finalRun": "2026-10-25 05:36 Asia/Taipei"
+  },
+  "independentReview": {
+    "agent": "eight_ui_verifier",
+    "result": "PASS",
+    "staticQuestions": 526,
+    "eligible": 54,
+    "actualSpeechPartsChecked": 162,
+    "otherGradesEligible": 0
+  },
+  "scope": "54 grade1 English word/sentence questions;26letter-shape tasks unchanged; no answer key/bank import in new frontend helper",
+  "interaction": "Separate sibling actions in voyage and buff; 4listen clicks preserve whole family SHA/revision/receipts in each; double answer one revision/receipt in each",
+  "pronunciationSources": [
+    "https://dict.concised.moe.edu.tw/dictView.jsp?ID=29548&la=0&powerMode=0"
+  ],
+  "pronunciation": "7 new text runs manually reviewed;這個 neutral個 matches MOE.4624phrases1621chars831syllables199context rules; deterministic packed checks pass.",
+  "browser": "18 recorded checks;320/820/1024/1440 no horizontal overflow;120px target heights,64/80px listen widths;long sentence wrap;eliminated answer/listen both disabled;three wrong voyage answers defeat/HP0;buff letter task no audio,word task receivesbuff only after correct answer;0consoleerrors;grade2picture retains4originalaudio-gatedchoices,528ruby/noemptyreadings,noEnglishlistencontrols",
+  "qaState": "Only qa_evidence_20261025 localhost4276. Voyage English failed with3errors, two futurequestions were validated local-only Tom/welcome fixtures. Battle ended viaUI. Otherprofiles unchanged. Viewport reset and tab23 handed off. Final tab23 shows Feifei picturequestion2 active/unanswered; no answer submitted.",
+  "limitations": [
+    "No physical device/human voice listening or educational efficacy measurement",
+    "Missing voice handled by dedicated source-reviewed messages and existing voice unit tests, not browser OS emulation",
+    "12 maintained UI scripts only updated to data-answer-option selectors and AST-parsed; not executed; all browser actions viaCUA",
+    "Fixed-dialog positions in helper include page scroll; screenshot used for fit evidence"
+  ],
+  "assets": [
+    {
+      "file": "RoomEditor.v-Dq01KbFA.js",
+      "bytes": 10629,
+      "gzip9": 4074,
+      "sha256": "e6d391dcc0fe2e884838f449860a1edd3acbcb7260f31dee6a1d75ac9fc501e5"
+    },
+    {
+      "file": "TerritoryPage.v-BSsMvH6T.js",
+      "bytes": 35956,
+      "gzip9": 12776,
+      "sha256": "378785b90a001bcfe722987b9d11b46e8705cc1a78d71afd06930a8e26059abf"
+    },
+    {
+      "file": "TerritoryPage.v-XpGSXE-r.css",
+      "bytes": 30002,
+      "gzip9": 6405,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    {
+      "file": "index.v-BwwHgZ6C.js",
+      "bytes": 657205,
+      "gzip9": 228172,
+      "sha256": "e402f2ae852f747c6572b5c26847b50da3fe39e2037116896291c7dc63307892"
+    },
+    {
+      "file": "index.v-Df3IK6FU.css",
+      "bytes": 231222,
+      "gzip9": 48361,
+      "sha256": "8e7e611bcfbd4b3085921d7e1146dd7904899f4071350a637644b9a994c568a3"
+    }
+  ],
+  "payloadDeltaVersusBatch8": {
+    "mainJsRawBytes": 1831,
+    "mainJsGzip9Bytes": 743,
+    "mainCssRawBytes": 782,
+    "mainCssGzip9Bytes": 154,
+    "claim": "emitted sizes only, not network or device latency"
+  }
+}

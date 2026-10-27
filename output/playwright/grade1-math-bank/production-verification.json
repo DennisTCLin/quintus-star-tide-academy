@@ -1,0 +1,66 @@
+{
+  "commit": "6fda3342ebb276a3f3311a3c7ea2d305f3280b21",
+  "checkedAt": "2026-10-25T12:57:42.759499+00:00",
+  "anonymousOnly": true,
+  "assets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/IslandApp.v--k-RY2Cj.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/IslandApp.v-C1Q9x97-.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/RoomEditor.v-B6vvyu5v.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-DNhUp0Bj.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/game-view.v-DjQLQpAC.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/game-view.v-afzla7Im.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/index.v-CQ0LCg-A.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/index.v-VcisUJ9u.js",
+      "status": 200,
+      "sha256Match": true
+    }
+  ],
+  "health": {
+    "status": 200,
+    "body": {
+      "ok": true,
+      "service": "quintus-ocean-academy"
+    }
+  },
+  "unauthenticatedStateStatus": 401,
+  "passed": true
+}

@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-10-24T19:29:41.048Z",
+  "baseline": "073008e",
+  "canonicalSha256": "50d86b24587616931b9cb1826fda29331ca58a47faed26c9b7449e827ddc2e4e",
+  "comparisons": 5860,
+  "mismatches": 0,
+  "checksum": 1157940,
+  "timing": {
+    "environment": "Node v22.23.1 darwin/arm64, local CPU; no device/browser latency claim",
+    "warmupRounds": 5,
+    "pairedAlternatingRounds": 21,
+    "before": {
+      "medianMs": 0.8002079999999978,
+      "minMs": 0.6939590000000067,
+      "maxMs": 1.1891250000000042,
+      "samplesMs": [
+        0.7953749999999928,
+        0.9118330000000014,
+        0.7686670000000078,
+        0.8897499999999923,
+        0.7636669999999981,
+        1.1891250000000042,
+        0.9340420000000051,
+        0.8844589999999926,
+        0.9027499999999975,
+        0.842250000000007,
+        1.0217090000000013,
+        0.9756670000000014,
+        0.7951659999999947,
+        0.707792000000012,
+        0.7507920000000183,
+        0.8304169999999829,
+        0.6939590000000067,
+        0.8002079999999978,
+        0.7393749999999955,
+        0.7930000000000064,
+        0.7448339999999973
+      ]
+    },
+    "after": {
+      "medianMs": 0.8886669999999981,
+      "minMs": 0.6761669999999924,
+      "maxMs": 1.2068340000000006,
+      "samplesMs": [
+        0.8886669999999981,
+        0.8280409999999989,
+        1.0342080000000067,
+        0.7672080000000108,
+        0.9511669999999981,
+        1.2068340000000006,
+        1.123708999999991,
+        0.9087090000000018,
+        0.9509160000000065,
+        0.9139169999999979,
+        0.8801249999999925,
+        0.9128749999999997,
+        0.6761669999999924,
+        0.8886670000000123,
+        0.801542000000012,
+        0.765749999999997,
+        0.8634589999999776,
+        0.7902079999999785,
+        0.9646669999999915,
+        0.7499579999999924,
+        0.8319590000000119
+      ]
+    }
+  },
+  "beforeAssets": {
+    "index.v-t_CJJJcT.css": {
+      "bytes": 226174,
+      "gzip9": 47564,
+      "sha256": "728896aedd21ffdd9a807aeee8926479c44ce5be5c48994b515c70b74bf505b8"
+    },
+    "TerritoryPage.v-XpGSXE-r.css": {
+      "bytes": 30002,
+      "gzip9": 6405,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    "TerritoryPage.v-DhCiPnW1.js": {
+      "bytes": 35956,
+      "gzip9": 12775,
+      "sha256": "f2e88073d1f8b4bad415b72376d30e3fa655139a81f90b670f7d9cf459fb1a62"
+    },
+    "RoomEditor.v-DSNT-eU1.js": {
+      "bytes": 10629,
+      "gzip9": 4073,
+      "sha256": "0b45b73f74d4544a8ba879db72be3f4367ed72656c092af5fd52eee8e11c4b2a"
+    },
+    "index.v-Bs6WdTIz.js": {
+      "bytes": 825587,
+      "gzip9": 230850,
+      "sha256": "91755c4c991eb392a68a7b26f2edaaaba47419e42533b6d721a3d92ac6800a77"
+    }
+  },
+  "afterAssets": {
+    "RoomEditor.v-CAkbd5AC.js": {
+      "bytes": 10629,
+      "gzip9": 4073,
+      "sha256": "7af92de69d4249fc6b77a9e4d5ea71123eb7dbf54a57d06c3ab4337f90697667"
+    },
+    "TerritoryPage.v-CL_G-lLA.js": {
+      "bytes": 35956,
+      "gzip9": 12775,
+      "sha256": "dd15fb77c09fb2f8b69065894cbc6317590ef8edf9662db00477a639af2c77bf"
+    },
+    "TerritoryPage.v-XpGSXE-r.css": {
+      "bytes": 30002,
+      "gzip9": 6405,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    "index.v-Ctx9NoHa.js": {
+      "bytes": 630784,
+      "gzip9": 218592,
+      "sha256": "1c61a98802676fc400fc682f1dbc012c1e9595b3451d4220e6600e4cc6f7d349"
+    },
+    "index.v-t_CJJJcT.css": {
+      "bytes": 226174,
+      "gzip9": 47564,
+      "sha256": "728896aedd21ffdd9a807aeee8926479c44ce5be5c48994b515c70b74bf505b8"
+    }
+  },
+  "compression": "Both before and after: Python gzip.compress level9 mtime0; local encoded byte count, not server transfer size."
+}

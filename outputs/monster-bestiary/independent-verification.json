@@ -1,0 +1,398 @@
+{
+  "reviewer": "independent monster_release_verifier",
+  "verdict": "PASS",
+  "reviewedCommit": "c2a8d23",
+  "targetedTests": 43,
+  "selectionAndAbandonCycles": 3000,
+  "mobileCases": 60,
+  "viewportWidth": 320,
+  "grade": 2,
+  "minimumHudArtworkGapPx": 39.55197753906248,
+  "pageErrors": [],
+  "securityViolations": [],
+  "dialogEscapeRestoresFocus": true,
+  "dialogHorizontalOverflow": 0,
+  "cloud": {
+    "url": "http://127.0.0.1:4199",
+    "isolatedAccount": "qa_verify_monster_8d6ae1e9b0ac",
+    "result": "PASS",
+    "checks": [
+      "server selects and persists variant",
+      "cross-device identity",
+      "wrong-answer shield, five corrected hits and 50XP",
+      "bestiary and return preserve progress",
+      "reload preserves completed encounter and pending reward",
+      "claim one star",
+      "next voyage uses a different family"
+    ],
+    "pageErrors": []
+  },
+  "musicEvidenceReviewed": 14,
+  "limitations": [
+    "No physical iOS/Safari or VoiceOver testing",
+    "Root font-size 200% is not full browser zoom verification",
+    "CSS zoom to an effective width below 320px showed overflow; outside current viewport coverage"
+  ],
+  "hudClearanceCases": [
+    {
+      "id": "cloud-scout-metal",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 85.05610351562501
+    },
+    {
+      "id": "cloud-scout-wood",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 79.19160156250001
+    },
+    {
+      "id": "cloud-scout-water",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 89.35673828124999
+    },
+    {
+      "id": "cloud-scout-fire",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 77.4322509765625
+    },
+    {
+      "id": "cloud-scout-earth",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 82.3193359375
+    },
+    {
+      "id": "crab-scout-metal",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 68.0257568359375
+    },
+    {
+      "id": "crab-scout-wood",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 81.92836914062502
+    },
+    {
+      "id": "crab-scout-water",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 89.35673828124999
+    },
+    {
+      "id": "crab-scout-fire",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 79.19160156250001
+    },
+    {
+      "id": "crab-scout-earth",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 84.07868652343751
+    },
+    {
+      "id": "golem-scout-metal",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 78.99611816406252
+    },
+    {
+      "id": "golem-scout-wood",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 78.01870117187502
+    },
+    {
+      "id": "golem-scout-water",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 80.75546874999998
+    },
+    {
+      "id": "golem-scout-fire",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 76.06386718750002
+    },
+    {
+      "id": "golem-scout-earth",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 77.04128417968752
+    },
+    {
+      "id": "cloud-warden-metal",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 67.80134277343751
+    },
+    {
+      "id": "cloud-warden-wood",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 68.00957031249999
+    },
+    {
+      "id": "cloud-warden-water",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 68.84248046875001
+    },
+    {
+      "id": "cloud-warden-fire",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 66.55197753906248
+    },
+    {
+      "id": "cloud-warden-earth",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 67.3848876953125
+    },
+    {
+      "id": "crab-warden-metal",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 41.426025390625
+    },
+    {
+      "id": "crab-warden-wood",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 71.13298339843749
+    },
+    {
+      "id": "crab-warden-water",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 71.34121093750002
+    },
+    {
+      "id": "crab-warden-fire",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 40.3848876953125
+    },
+    {
+      "id": "crab-warden-earth",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 40.59311523437498
+    },
+    {
+      "id": "golem-warden-metal",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 69.25893554687502
+    },
+    {
+      "id": "golem-warden-wood",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 68.84248046875001
+    },
+    {
+      "id": "golem-warden-water",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 43.09184570312499
+    },
+    {
+      "id": "golem-warden-fire",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 39.55197753906248
+    },
+    {
+      "id": "golem-warden-earth",
+      "won": false,
+      "stageHeight": 350,
+      "gap": 67.80134277343751
+    },
+    {
+      "id": "cloud-scout-metal",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 85.05610351562501
+    },
+    {
+      "id": "cloud-scout-wood",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 79.19160156250001
+    },
+    {
+      "id": "cloud-scout-water",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 89.35673828124999
+    },
+    {
+      "id": "cloud-scout-fire",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 77.4322509765625
+    },
+    {
+      "id": "cloud-scout-earth",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 82.3193359375
+    },
+    {
+      "id": "crab-scout-metal",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 68.0257568359375
+    },
+    {
+      "id": "crab-scout-wood",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 81.92836914062502
+    },
+    {
+      "id": "crab-scout-water",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 89.35673828124999
+    },
+    {
+      "id": "crab-scout-fire",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 79.19160156250001
+    },
+    {
+      "id": "crab-scout-earth",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 84.07868652343751
+    },
+    {
+      "id": "golem-scout-metal",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 78.99611816406252
+    },
+    {
+      "id": "golem-scout-wood",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 78.01870117187502
+    },
+    {
+      "id": "golem-scout-water",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 80.75546874999998
+    },
+    {
+      "id": "golem-scout-fire",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 76.06386718750002
+    },
+    {
+      "id": "golem-scout-earth",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 77.04128417968752
+    },
+    {
+      "id": "cloud-warden-metal",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 67.80134277343751
+    },
+    {
+      "id": "cloud-warden-wood",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 68.00957031249999
+    },
+    {
+      "id": "cloud-warden-water",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 68.84248046875001
+    },
+    {
+      "id": "cloud-warden-fire",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 66.55197753906248
+    },
+    {
+      "id": "cloud-warden-earth",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 67.3848876953125
+    },
+    {
+      "id": "crab-warden-metal",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 41.426025390625
+    },
+    {
+      "id": "crab-warden-wood",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 71.13298339843749
+    },
+    {
+      "id": "crab-warden-water",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 71.34121093750002
+    },
+    {
+      "id": "crab-warden-fire",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 40.3848876953125
+    },
+    {
+      "id": "crab-warden-earth",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 40.59311523437498
+    },
+    {
+      "id": "golem-warden-metal",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 69.25893554687502
+    },
+    {
+      "id": "golem-warden-wood",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 68.84248046875001
+    },
+    {
+      "id": "golem-warden-water",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 43.09184570312499
+    },
+    {
+      "id": "golem-warden-fire",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 39.55197753906248
+    },
+    {
+      "id": "golem-warden-earth",
+      "won": true,
+      "stageHeight": 350,
+      "gap": 67.80134277343751
+    }
+  ]
+}

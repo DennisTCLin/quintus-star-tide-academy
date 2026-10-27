@@ -1,0 +1,98 @@
+- generic [ref=e47]:
+  - link "跳到主要內容" [ref=e48] [cursor=pointer]:
+    - /url: "#family-main"
+  - status [ref=e49]:
+    - generic [ref=e50]:
+      - text: alan ·
+      - generic [ref=e708]: ☁
+      - text: 已儲存至雲端
+    - button "登出" [ref=e55] [cursor=pointer]
+  - main [ref=e131]:
+    - region "答題怪物戰鬥" [ref=e535]:
+      - generic [ref=e536]:
+        - generic [ref=e537]:
+          - generic [ref=e538]: ⚔️
+          - text: 答對就出招
+        - button "暫停背景音樂" [pressed] [ref=e624] [cursor=pointer]:
+          - generic [ref=e625]: Ⅱ
+          - text: 暫停音樂
+      - generic [ref=e542]:
+        - generic [ref=e544]:
+          - generic [ref=e545]:
+            - strong [ref=e546]: 潮光獸
+            - meter "夥伴生命" [ref=e547]
+            - generic [ref=e549]: 100 / 100
+          - generic [ref=e550]:
+            - strong [ref=e551]: 砂丘岩蟹
+            - meter "怪物體力" [ref=e552]
+            - generic [ref=e554]: 90 / 100
+        - img "潮光獸" [ref=e559]
+        - generic [ref=e561]:
+          - img "砂丘岩蟹" [ref=e564]
+          - generic: −10
+      - status [ref=e565]: 攻擊命中！夥伴 +10 XP
+      - group [ref=e566]:
+        - generic "夥伴成長與戰鬥說明" [ref=e567] [cursor=pointer]
+    - generic [ref=e629]:
+      - button "回到港口" [ref=e630] [cursor=pointer]:
+        - generic [ref=e631]: ⛵
+      - generic "第 1 題，共 6 題" [ref=e635]:
+        - generic [ref=e636]: ✓
+        - generic [ref=e637]: "2"
+        - generic [ref=e638]: "3"
+        - generic [ref=e639]: "4"
+        - generic [ref=e640]: "5"
+        - generic [ref=e641]: "6"
+      - generic "累計答錯 0 題，三題即失敗" [ref=e642]: ❤️❤️❤️ 0 / 3
+    - generic [ref=e643]:
+      - generic [ref=e644]:
+        - strong [ref=e645]:
+          - generic [ref=e646]: 🎯
+          - text: 已答對 1 題 · 目標 4 題
+        - generic [ref=e650]: 這題已保存
+      - group [ref=e655]:
+        - generic [ref=e656]:
+          - paragraph [ref=e657]: 試卷題・大墩國小 113學年度四上・康軒・第1頁 1-1（是非題改編）
+          - generic [ref=e658]:
+            - generic [ref=e659]: 挑戰 1 / 6
+            - generic [ref=e660]: 4 年級
+          - heading "氣候是一個地區長時間的天氣平均狀況。這個說法正確嗎？" [level=1] [ref=e661]
+          - generic [ref=e662]:
+            - button "播放題目聲音" [ref=e663] [cursor=pointer]:
+              - generic [ref=e664]: 👂
+              - generic [ref=e669]: 聽題目
+              - generic [ref=e670]: ▶
+            - button "🛡️ 護盾" [disabled] [ref=e676]:
+              - generic [ref=e677]: 🛡️
+              - text: 護盾
+          - generic [ref=e682]:
+            - button "選擇 正確" [disabled] [ref=e683]:
+              - generic [ref=e684]: 正確
+            - button "選擇 不正確" [disabled] [ref=e686]:
+              - generic [ref=e687]: 不正確
+          - button "💡 提示" [disabled] [ref=e690]:
+            - generic [ref=e691]: 💡
+            - text: 提示
+          - status [ref=e695]:
+            - generic [ref=e696]: 新題探索 · 依本場挑戰安排
+            - button "聽出題說明" [ref=e697] [cursor=pointer]:
+              - generic [ref=e698]: 🔊
+          - paragraph [ref=e702]: 每題只能選一次。答錯或超時三次即失敗；六題答對 4 題才通關。每兩場成功換一張券。
+    - generic "自動換題" [ref=e716]:
+      - status [ref=e717]:
+        - text: 答對了！夥伴出招！
+        - generic [ref=e718]: 動作結束後繼續下一題
+      - button "Ⅱ 暫停換題" [ref=e719] [cursor=pointer]:
+        - generic [ref=e720]: Ⅱ
+        - text: 暫停換題
+    - button "⏹ 結束航程" [ref=e703] [cursor=pointer]:
+      - generic [ref=e704]: ⏹
+      - text: 結束航程
+  - contentinfo [ref=e499]:
+    - generic [ref=e500]:
+      - img "星潮學院 Star Tide Academy — 星潮小龍" [ref=e501]:
+        - generic [aria-hidden] [ref=e502]:
+          - strong [ref=e503]: 星潮學院
+          - generic [ref=e504]: STAR TIDE ACADEMY
+      - generic [ref=e505]: 測試航海員
+    - generic [ref=e506]: 學習點數不扣除，休息後再一起出發。

@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-25T02:48:30.479518+00:00",
+  "deadline": "2026-10-25T02:29:13Z",
+  "source": "741bd6520b830bd99101c27a2902f1e3bbe0da0f",
+  "deployment": "67ad370e-f4ae-4acd-a907-05ece0a24dd9",
+  "deploymentStatus": "SUCCESS",
+  "scope": "Post-deadline read-only verification; no implementation, build, deployment or account requests",
+  "checks": [
+    {
+      "path": "",
+      "status": 200,
+      "moduleScripts": [
+        "/assets/index.v-BunvaiGa.js"
+      ]
+    },
+    {
+      "path": "healthz",
+      "status": 200,
+      "health": {
+        "ok": true,
+        "service": "quintus-ocean-academy"
+      }
+    }
+  ],
+  "automation": {
+    "id": "automation",
+    "status": "PAUSED",
+    "updatedAtEpochMs": 1792896480629
+  },
+  "probeCorrection": "Initial URL regex also counted modulepreload, causing assertion failure; HTML parser restricted to module script tags passes. No product failure."
+}

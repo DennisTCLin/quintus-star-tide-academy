@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-25T06:23:07.724483+00:00",
+  "build": "PASS",
+  "testFiles": 80,
+  "tests": 632,
+  "database": "isolated local PostgreSQL",
+  "vocabularyPairs": 9216,
+  "liveProviderCases": 6,
+  "grade1Ruby": 0,
+  "grade2Phone": {
+    "width": 390,
+    "scrollWidth": 390,
+    "ruby": 65,
+    "empty": 0,
+    "speechBackground": "rgb(255, 255, 255)",
+    "speechColor": "rgb(12, 82, 100)"
+  },
+  "speakingObserved": "mood-speaking + speaking.mp4 + 再聽一次",
+  "consoleErrors": [],
+  "profileAfterDuplicateDraw": {
+    "feifei": {
+      "pebblefin": 1,
+      "coins": 0,
+      "tickets": 0
+    },
+    "qingqing": {
+      "pearlbadger": 1,
+      "coins": 0,
+      "tickets": 0
+    }
+  },
+  "limitations": [
+    "No physical iPad test",
+    "No microphone input",
+    "Device speech quality depends on installed Taiwan voice",
+    "AI uses reviewed word vocabulary; not every future sentence semantics provably correct"
+  ]
+}

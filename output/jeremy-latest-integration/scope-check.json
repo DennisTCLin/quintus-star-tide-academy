@@ -1,0 +1,29 @@
+{
+  "maintainedBase": "426c03733d3e1ce78836ea1a2c18f25069c78313",
+  "selectedIntegrationBase": "b8dc364c8ff93f4e7de93a4ac55eb2d96ba10ee1",
+  "jeremySource": "68b7bb317725965ef05d5f537a6954ad51517c6c",
+  "protectedFilesUnchanged": [
+    "src/quiz-console.css",
+    "src/cloud.ts",
+    "src/presence.ts",
+    "server/school-roster.mjs",
+    "package.json",
+    "package-lock.json",
+    "vite.config.ts",
+    "server.mjs",
+    "src/TideglowCompanion.tsx"
+  ],
+  "excludedSourceFilesRemainAbsent": [
+    "src/browser-id.ts"
+  ],
+  "allPublicAssetsUnchanged": true,
+  "mathAndValidatorsMatchSelectedDraft": true,
+  "AppLineChanges": {
+    "added": 5,
+    "removed": 5
+  },
+  "reviewedDictionaryValuesChanged": 0,
+  "newMathPhrases": 38,
+  "productionWrites": false,
+  "council": "Not run; user declined multi-member review"
+}

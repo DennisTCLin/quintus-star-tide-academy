@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: stylized-concept. Asset type: premium 3D fantasy game UI asset for a children's star-ocean adventure, a magnificent celestial capsule vending machine, straight-on orthographic front view, isolated on a genuine transparent background. Square image. The entire object fully visible with a little clean transparent margin. A finely crafted teal enamel and polished warm champagne-gold brass machine, tasteful astronomical instrument detailing, a huge round transparent glass globe in the upper two thirds, glass refraction, soft aqua inner glow. The globe must be EMPTY: absolutely no capsules, balls, characters, text, symbols, logos or items inside it. Clear smooth glass chamber with only subtle edge reflections; it is for software-animated capsules to be placed inside later. The globe sits on a compact ornate deep navy blue metal pedestal, two small symmetrical gold feet, beautiful curved gold ocean-wave filigree and engraved constellation details, strong dimensional bevels, realistically lit textured materials, coherent premium animated feature-film rendering. On the pedestal upper front, one LARGE circular EMPTY recessed dark-blue socket with gold rim, centered, with NO lever, NO knob, NO handle -- a software animated knob will be placed there. Below it, one small dark capsule output slot, centered, subtle aqua rim light. Star crown/astrolabe crest at top; elegant side columns frame the globe without obscuring it. Camera entirely level and frontal, no three-quarter angle, symmetrical silhouette. Machine fills 88 percent of square canvas height. Globe center approximately x50%, y34%, diameter about52% canvas; pedestal spans x23%-77%, y62%-87%; circular socket center around x50%, y72%, diameter15% canvas; output slot at x50%, y83%. Soft cinematic studio light, gold highlights from upper left, seafoam rim light, navy shadows; sharp silhouette and richly detailed 3D rendering, restrained jewel tones, no background, no floor, no cast shadow outside the asset, no writing or watermark. Avoid flat vector style, cheap plastic, cartoon outline, candy colors, existing copyrighted characters, photographic real-world branding, any text.",
+  "source": "/Users/dennistclin/.codex/generated_images/01a16e50-8e57-7993-8419-9b101001409c/exec-a130f1f4-1384-4025-ba45-c702e0c0dc6c.png",
+  "asset": "public/assets/gacha/starwish-machine.webp",
+  "design": {
+    "outcome": "Premium star-ocean gacha art and complete interactive turn/mix/drop/open/reveal animation.",
+    "baseline": "3bd1e97",
+    "route": "Relay: animation/data timing and cross-device receipt contract need independent verification",
+    "palette": {
+      "midnight": "#071d31",
+      "lagoon": "#0e3c50",
+      "seafoam": "#94f1e1",
+      "brass": "#eac588",
+      "pearl": "#f3efe4"
+    },
+    "type": "PingFang TC / system, restrained 28–42px heading and 16–18px copy, grade2 ruby preserved",
+    "layout": "Illustrated machine in left theatre, compact ticket console on right; stacked on mobile. Revealed partner replaces the machine within the same stage.",
+    "scope": "GachaMachine, own CSS and new static art; preserve server draws, probabilities, receipts, music, progression and starter flow.",
+    "done": "Visible full sequence even for instant API; honest pending/failure; one command; stable response receipt vs newer snapshots; skip/reduced/unmount safe; 320–1440px; actual cloud recovery and production release."
+  }
+}

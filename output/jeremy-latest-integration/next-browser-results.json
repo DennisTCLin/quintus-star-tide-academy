@@ -1,0 +1,2743 @@
+{
+  "pass": true,
+  "layoutChecks": [
+    {
+      "engine": "chromium",
+      "width": 320,
+      "height": 568,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 568,
+      "docWidth": 320,
+      "docHeight": 568,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 568,
+        "height": 492
+      },
+      "reading": {
+        "top": 229,
+        "bottom": 321.8125,
+        "height": 92.8125
+      },
+      "next": {
+        "top": 515,
+        "bottom": 559,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "height": 568,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 568,
+      "docWidth": 320,
+      "docHeight": 568,
+      "banner": {
+        "top": 0,
+        "bottom": 110,
+        "height": 110
+      },
+      "main": {
+        "top": 110,
+        "bottom": 568,
+        "height": 458
+      },
+      "reading": {
+        "top": 258,
+        "bottom": 322,
+        "height": 64
+      },
+      "next": {
+        "top": 515,
+        "bottom": 559,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "height": 568,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 568,
+      "docWidth": 320,
+      "docHeight": 568,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 568,
+        "height": 492
+      },
+      "reading": {
+        "top": 229,
+        "bottom": 321.8125,
+        "height": 92.8125
+      },
+      "next": {
+        "top": 515,
+        "bottom": 559,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "height": 568,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 568,
+      "docWidth": 320,
+      "docHeight": 568,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 568,
+        "height": 492
+      },
+      "reading": {
+        "top": 224,
+        "bottom": 321.8125,
+        "height": 97.8125
+      },
+      "next": {
+        "top": 515,
+        "bottom": 559,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "height": 568,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 568,
+      "docWidth": 320,
+      "docHeight": 568,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 568,
+        "height": 568
+      },
+      "reading": {
+        "top": 209,
+        "bottom": 321.8125,
+        "height": 112.8125
+      },
+      "next": {
+        "top": 515,
+        "bottom": 559,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 393,
+      "height": 740,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 740,
+      "docWidth": 393,
+      "docHeight": 740,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 740,
+        "height": 664
+      },
+      "reading": {
+        "top": 358,
+        "bottom": 479.40625,
+        "height": 121.40625
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 393,
+      "height": 740,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 740,
+      "docWidth": 393,
+      "docHeight": 740,
+      "banner": {
+        "top": 0,
+        "bottom": 110,
+        "height": 110
+      },
+      "main": {
+        "top": 110,
+        "bottom": 740,
+        "height": 630
+      },
+      "reading": {
+        "top": 366,
+        "bottom": 479.40625,
+        "height": 113.40625
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 393,
+      "height": 740,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 740,
+      "docWidth": 393,
+      "docHeight": 740,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 740,
+        "height": 664
+      },
+      "reading": {
+        "top": 358,
+        "bottom": 479.40625,
+        "height": 121.40625
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 393,
+      "height": 740,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 740,
+      "docWidth": 393,
+      "docHeight": 740,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 740,
+        "height": 664
+      },
+      "reading": {
+        "top": 262,
+        "bottom": 479.40625,
+        "height": 217.40625
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 393,
+      "height": 740,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 740,
+      "docWidth": 393,
+      "docHeight": 740,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 740,
+        "height": 740
+      },
+      "reading": {
+        "top": 307,
+        "bottom": 479.40625,
+        "height": 172.40625
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "height": 940,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 940,
+      "docWidth": 768,
+      "docHeight": 940,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 940,
+        "height": 864
+      },
+      "reading": {
+        "top": 426,
+        "bottom": 649.546875,
+        "height": 223.546875
+      },
+      "next": {
+        "top": 879,
+        "bottom": 923,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "height": 940,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 940,
+      "docWidth": 768,
+      "docHeight": 940,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 940,
+        "height": 864
+      },
+      "reading": {
+        "top": 426,
+        "bottom": 649.546875,
+        "height": 223.546875
+      },
+      "next": {
+        "top": 879,
+        "bottom": 923,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "height": 940,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 940,
+      "docWidth": 768,
+      "docHeight": 940,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 940,
+        "height": 864
+      },
+      "reading": {
+        "top": 426,
+        "bottom": 649.546875,
+        "height": 223.546875
+      },
+      "next": {
+        "top": 879,
+        "bottom": 923,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "height": 940,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 940,
+      "docWidth": 768,
+      "docHeight": 940,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 940,
+        "height": 864
+      },
+      "reading": {
+        "top": 266,
+        "bottom": 489.546875,
+        "height": 223.546875
+      },
+      "next": {
+        "top": 879,
+        "bottom": 923,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "height": 940,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 940,
+      "docWidth": 768,
+      "docHeight": 940,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 940,
+        "height": 940
+      },
+      "reading": {
+        "top": 450,
+        "bottom": 673.546875,
+        "height": 223.546875
+      },
+      "next": {
+        "top": 879,
+        "bottom": 923,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 834,
+      "height": 1194,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 1194,
+      "docWidth": 834,
+      "docHeight": 1194,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1194,
+        "height": 1118
+      },
+      "reading": {
+        "top": 597,
+        "bottom": 826.828125,
+        "height": 229.828125
+      },
+      "next": {
+        "top": 1133,
+        "bottom": 1177,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 834,
+      "height": 1194,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 1194,
+      "docWidth": 834,
+      "docHeight": 1194,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1194,
+        "height": 1118
+      },
+      "reading": {
+        "top": 597,
+        "bottom": 826.828125,
+        "height": 229.828125
+      },
+      "next": {
+        "top": 1133,
+        "bottom": 1177,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 834,
+      "height": 1194,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 1194,
+      "docWidth": 834,
+      "docHeight": 1194,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1194,
+        "height": 1118
+      },
+      "reading": {
+        "top": 597,
+        "bottom": 826.828125,
+        "height": 229.828125
+      },
+      "next": {
+        "top": 1133,
+        "bottom": 1177,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 834,
+      "height": 1194,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 1194,
+      "docWidth": 834,
+      "docHeight": 1194,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1194,
+        "height": 1118
+      },
+      "reading": {
+        "top": 266,
+        "bottom": 495.828125,
+        "height": 229.828125
+      },
+      "next": {
+        "top": 1133,
+        "bottom": 1177,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 834,
+      "height": 1194,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 1194,
+      "docWidth": 834,
+      "docHeight": 1194,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 1194,
+        "height": 1194
+      },
+      "reading": {
+        "top": 552,
+        "bottom": 781.828125,
+        "height": 229.828125
+      },
+      "next": {
+        "top": 1133,
+        "bottom": 1177,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "height": 748,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 748,
+        "height": 672
+      },
+      "reading": {
+        "top": 365,
+        "bottom": 495,
+        "height": 130
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "height": 748,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 748,
+        "height": 672
+      },
+      "reading": {
+        "top": 365,
+        "bottom": 495,
+        "height": 130
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "height": 748,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 748,
+        "height": 672
+      },
+      "reading": {
+        "top": 365,
+        "bottom": 495,
+        "height": 130
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "height": 748,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 748,
+        "height": 672
+      },
+      "reading": {
+        "top": 266,
+        "bottom": 495,
+        "height": 229
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "height": 748,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 748,
+        "height": 748
+      },
+      "reading": {
+        "top": 313,
+        "bottom": 495,
+        "height": 182
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1180,
+      "height": 820,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 820,
+      "docWidth": 1180,
+      "docHeight": 820,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 820,
+        "height": 744
+      },
+      "reading": {
+        "top": 388,
+        "bottom": 567,
+        "height": 179
+      },
+      "next": {
+        "top": 759,
+        "bottom": 803,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1180,
+      "height": 820,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 820,
+      "docWidth": 1180,
+      "docHeight": 820,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 820,
+        "height": 744
+      },
+      "reading": {
+        "top": 388,
+        "bottom": 567,
+        "height": 179
+      },
+      "next": {
+        "top": 759,
+        "bottom": 803,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1180,
+      "height": 820,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 820,
+      "docWidth": 1180,
+      "docHeight": 820,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 820,
+        "height": 744
+      },
+      "reading": {
+        "top": 388,
+        "bottom": 567,
+        "height": 179
+      },
+      "next": {
+        "top": 759,
+        "bottom": 803,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1180,
+      "height": 820,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 820,
+      "docWidth": 1180,
+      "docHeight": 820,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 820,
+        "height": 744
+      },
+      "reading": {
+        "top": 266,
+        "bottom": 511.796875,
+        "height": 245.796875
+      },
+      "next": {
+        "top": 759,
+        "bottom": 803,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1180,
+      "height": 820,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 820,
+      "docWidth": 1180,
+      "docHeight": 820,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 820,
+        "height": 820
+      },
+      "reading": {
+        "top": 336,
+        "bottom": 567,
+        "height": 231
+      },
+      "next": {
+        "top": 759,
+        "bottom": 803,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "height": 1024,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 1024,
+      "docWidth": 1366,
+      "docHeight": 1024,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1024,
+        "height": 948
+      },
+      "reading": {
+        "top": 529,
+        "bottom": 771,
+        "height": 242
+      },
+      "next": {
+        "top": 963,
+        "bottom": 1007,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "height": 1024,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 1024,
+      "docWidth": 1366,
+      "docHeight": 1024,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1024,
+        "height": 948
+      },
+      "reading": {
+        "top": 529,
+        "bottom": 771,
+        "height": 242
+      },
+      "next": {
+        "top": 963,
+        "bottom": 1007,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "height": 1024,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 1024,
+      "docWidth": 1366,
+      "docHeight": 1024,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1024,
+        "height": 948
+      },
+      "reading": {
+        "top": 529,
+        "bottom": 771,
+        "height": 242
+      },
+      "next": {
+        "top": 963,
+        "bottom": 1007,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "height": 1024,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 1024,
+      "docWidth": 1366,
+      "docHeight": 1024,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1024,
+        "height": 948
+      },
+      "reading": {
+        "top": 266,
+        "bottom": 511.796875,
+        "height": 245.796875
+      },
+      "next": {
+        "top": 963,
+        "bottom": 1007,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "height": 1024,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 1024,
+      "docWidth": 1366,
+      "docHeight": 1024,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 1024,
+        "height": 1024
+      },
+      "reading": {
+        "top": 484,
+        "bottom": 729.796875,
+        "height": 245.796875
+      },
+      "next": {
+        "top": 963,
+        "bottom": 1007,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 812,
+      "height": 375,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 375,
+      "docWidth": 812,
+      "docHeight": 375,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 375,
+        "height": 299
+      },
+      "reading": {
+        "top": 250,
+        "bottom": 314,
+        "height": 64
+      },
+      "next": {
+        "top": 314,
+        "bottom": 358,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 812,
+      "height": 375,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 375,
+      "docWidth": 812,
+      "docHeight": 375,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 375,
+        "height": 299
+      },
+      "reading": {
+        "top": 250,
+        "bottom": 314,
+        "height": 64
+      },
+      "next": {
+        "top": 314,
+        "bottom": 358,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 812,
+      "height": 375,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 375,
+      "docWidth": 812,
+      "docHeight": 375,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 375,
+        "height": 299
+      },
+      "reading": {
+        "top": 250,
+        "bottom": 314,
+        "height": 64
+      },
+      "next": {
+        "top": 314,
+        "bottom": 358,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 812,
+      "height": 375,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 375,
+      "docWidth": 812,
+      "docHeight": 375,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 375,
+        "height": 299
+      },
+      "reading": {
+        "top": 250,
+        "bottom": 314,
+        "height": 64
+      },
+      "next": {
+        "top": 314,
+        "bottom": 358,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 812,
+      "height": 375,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 375,
+      "docWidth": 812,
+      "docHeight": 375,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 375,
+        "height": 375
+      },
+      "reading": {
+        "top": 174,
+        "bottom": 254,
+        "height": 80
+      },
+      "next": {
+        "top": 314,
+        "bottom": 358,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "height": 748,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 748,
+        "height": 672
+      },
+      "reading": {
+        "top": 365,
+        "bottom": 495,
+        "height": 130
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 393,
+      "height": 740,
+      "mode": "finished",
+      "kind": "correct-paused",
+      "viewport": 740,
+      "docWidth": 393,
+      "docHeight": 740,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 740,
+        "height": 664
+      },
+      "reading": {
+        "top": 358,
+        "bottom": 475.40625,
+        "height": 117.40625
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "height": 748,
+      "mode": "finished",
+      "kind": "correct-paused",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 748,
+        "height": 672
+      },
+      "reading": {
+        "top": 365,
+        "bottom": 491,
+        "height": 126
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 834,
+      "height": 1194,
+      "mode": "finished",
+      "kind": "correct-paused",
+      "viewport": 1194,
+      "docWidth": 834,
+      "docHeight": 1194,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1194,
+        "height": 1118
+      },
+      "reading": {
+        "top": 597,
+        "bottom": 738.03125,
+        "height": 141.03125
+      },
+      "next": {
+        "top": 1133,
+        "bottom": 1177,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "chromium",
+      "width": 812,
+      "height": 375,
+      "mode": "finished",
+      "kind": "correct-paused",
+      "viewport": 375,
+      "docWidth": 812,
+      "docHeight": 375,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 375,
+        "height": 299
+      },
+      "reading": {
+        "top": 250,
+        "bottom": 314,
+        "height": 64
+      },
+      "next": {
+        "top": 314,
+        "bottom": 358,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "height": 568,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 568,
+      "docWidth": 320,
+      "docHeight": 568,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 568,
+        "height": 492
+      },
+      "reading": {
+        "top": 229,
+        "bottom": 321.8125,
+        "height": 92.8125
+      },
+      "next": {
+        "top": 515,
+        "bottom": 559,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "height": 568,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 568,
+      "docWidth": 320,
+      "docHeight": 568,
+      "banner": {
+        "top": 0,
+        "bottom": 110,
+        "height": 110
+      },
+      "main": {
+        "top": 110,
+        "bottom": 568,
+        "height": 458
+      },
+      "reading": {
+        "top": 258,
+        "bottom": 322,
+        "height": 64
+      },
+      "next": {
+        "top": 515,
+        "bottom": 559,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "height": 568,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 568,
+      "docWidth": 320,
+      "docHeight": 568,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 568,
+        "height": 492
+      },
+      "reading": {
+        "top": 229,
+        "bottom": 321.8125,
+        "height": 92.8125
+      },
+      "next": {
+        "top": 515,
+        "bottom": 559,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "height": 568,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 568,
+      "docWidth": 320,
+      "docHeight": 568,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 568,
+        "height": 492
+      },
+      "reading": {
+        "top": 224,
+        "bottom": 321.8125,
+        "height": 97.8125
+      },
+      "next": {
+        "top": 515,
+        "bottom": 559,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "height": 568,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 568,
+      "docWidth": 320,
+      "docHeight": 568,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 568,
+        "height": 568
+      },
+      "reading": {
+        "top": 209,
+        "bottom": 321.8125,
+        "height": 112.8125
+      },
+      "next": {
+        "top": 515,
+        "bottom": 559,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 393,
+      "height": 740,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 740,
+      "docWidth": 393,
+      "docHeight": 740,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 740,
+        "height": 664
+      },
+      "reading": {
+        "top": 358,
+        "bottom": 479.40625,
+        "height": 121.40625
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 393,
+      "height": 740,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 740,
+      "docWidth": 393,
+      "docHeight": 740,
+      "banner": {
+        "top": 0,
+        "bottom": 110,
+        "height": 110
+      },
+      "main": {
+        "top": 110,
+        "bottom": 740,
+        "height": 630
+      },
+      "reading": {
+        "top": 366,
+        "bottom": 479.40625,
+        "height": 113.40625
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 393,
+      "height": 740,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 740,
+      "docWidth": 393,
+      "docHeight": 740,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 740,
+        "height": 664
+      },
+      "reading": {
+        "top": 358,
+        "bottom": 479.40625,
+        "height": 121.40625
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 393,
+      "height": 740,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 740,
+      "docWidth": 393,
+      "docHeight": 740,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 740,
+        "height": 664
+      },
+      "reading": {
+        "top": 262,
+        "bottom": 479.40625,
+        "height": 217.40625
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 393,
+      "height": 740,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 740,
+      "docWidth": 393,
+      "docHeight": 740,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 740,
+        "height": 740
+      },
+      "reading": {
+        "top": 307,
+        "bottom": 479.40625,
+        "height": 172.40625
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "height": 940,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 940,
+      "docWidth": 768,
+      "docHeight": 940,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 940,
+        "height": 864
+      },
+      "reading": {
+        "top": 426,
+        "bottom": 649.484375,
+        "height": 223.484375
+      },
+      "next": {
+        "top": 879,
+        "bottom": 923,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "height": 940,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 940,
+      "docWidth": 768,
+      "docHeight": 940,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 940,
+        "height": 864
+      },
+      "reading": {
+        "top": 426,
+        "bottom": 649.484375,
+        "height": 223.484375
+      },
+      "next": {
+        "top": 879,
+        "bottom": 923,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "height": 940,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 940,
+      "docWidth": 768,
+      "docHeight": 940,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 940,
+        "height": 864
+      },
+      "reading": {
+        "top": 426,
+        "bottom": 649.484375,
+        "height": 223.484375
+      },
+      "next": {
+        "top": 879,
+        "bottom": 923,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "height": 940,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 940,
+      "docWidth": 768,
+      "docHeight": 940,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 940,
+        "height": 864
+      },
+      "reading": {
+        "top": 266,
+        "bottom": 489.484375,
+        "height": 223.484375
+      },
+      "next": {
+        "top": 879,
+        "bottom": 923,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "height": 940,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 940,
+      "docWidth": 768,
+      "docHeight": 940,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 940,
+        "height": 940
+      },
+      "reading": {
+        "top": 450,
+        "bottom": 673.484375,
+        "height": 223.484375
+      },
+      "next": {
+        "top": 879,
+        "bottom": 923,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 834,
+      "height": 1194,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 1194,
+      "docWidth": 834,
+      "docHeight": 1194,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1194,
+        "height": 1118
+      },
+      "reading": {
+        "top": 597,
+        "bottom": 826.828125,
+        "height": 229.828125
+      },
+      "next": {
+        "top": 1133,
+        "bottom": 1177,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 834,
+      "height": 1194,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 1194,
+      "docWidth": 834,
+      "docHeight": 1194,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1194,
+        "height": 1118
+      },
+      "reading": {
+        "top": 597,
+        "bottom": 826.828125,
+        "height": 229.828125
+      },
+      "next": {
+        "top": 1133,
+        "bottom": 1177,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 834,
+      "height": 1194,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 1194,
+      "docWidth": 834,
+      "docHeight": 1194,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1194,
+        "height": 1118
+      },
+      "reading": {
+        "top": 597,
+        "bottom": 826.828125,
+        "height": 229.828125
+      },
+      "next": {
+        "top": 1133,
+        "bottom": 1177,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 834,
+      "height": 1194,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 1194,
+      "docWidth": 834,
+      "docHeight": 1194,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1194,
+        "height": 1118
+      },
+      "reading": {
+        "top": 266,
+        "bottom": 495.828125,
+        "height": 229.828125
+      },
+      "next": {
+        "top": 1133,
+        "bottom": 1177,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 834,
+      "height": 1194,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 1194,
+      "docWidth": 834,
+      "docHeight": 1194,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 1194,
+        "height": 1194
+      },
+      "reading": {
+        "top": 552,
+        "bottom": 781.828125,
+        "height": 229.828125
+      },
+      "next": {
+        "top": 1133,
+        "bottom": 1177,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "height": 748,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 748,
+        "height": 672
+      },
+      "reading": {
+        "top": 365,
+        "bottom": 495,
+        "height": 130
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "height": 748,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 748,
+        "height": 672
+      },
+      "reading": {
+        "top": 365,
+        "bottom": 495,
+        "height": 130
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "height": 748,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 748,
+        "height": 672
+      },
+      "reading": {
+        "top": 365,
+        "bottom": 495,
+        "height": 130
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "height": 748,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 748,
+        "height": 672
+      },
+      "reading": {
+        "top": 266,
+        "bottom": 495,
+        "height": 229
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "height": 748,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 748,
+        "height": 748
+      },
+      "reading": {
+        "top": 313,
+        "bottom": 495,
+        "height": 182
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1180,
+      "height": 820,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 820,
+      "docWidth": 1180,
+      "docHeight": 820,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 820,
+        "height": 744
+      },
+      "reading": {
+        "top": 388,
+        "bottom": 567,
+        "height": 179
+      },
+      "next": {
+        "top": 759,
+        "bottom": 803,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1180,
+      "height": 820,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 820,
+      "docWidth": 1180,
+      "docHeight": 820,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 820,
+        "height": 744
+      },
+      "reading": {
+        "top": 388,
+        "bottom": 567,
+        "height": 179
+      },
+      "next": {
+        "top": 759,
+        "bottom": 803,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1180,
+      "height": 820,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 820,
+      "docWidth": 1180,
+      "docHeight": 820,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 820,
+        "height": 744
+      },
+      "reading": {
+        "top": 388,
+        "bottom": 567,
+        "height": 179
+      },
+      "next": {
+        "top": 759,
+        "bottom": 803,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1180,
+      "height": 820,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 820,
+      "docWidth": 1180,
+      "docHeight": 820,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 820,
+        "height": 744
+      },
+      "reading": {
+        "top": 266,
+        "bottom": 511.796875,
+        "height": 245.796875
+      },
+      "next": {
+        "top": 759,
+        "bottom": 803,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1180,
+      "height": 820,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 820,
+      "docWidth": 1180,
+      "docHeight": 820,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 820,
+        "height": 820
+      },
+      "reading": {
+        "top": 336,
+        "bottom": 567,
+        "height": 231
+      },
+      "next": {
+        "top": 759,
+        "bottom": 803,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "height": 1024,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 1024,
+      "docWidth": 1366,
+      "docHeight": 1024,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1024,
+        "height": 948
+      },
+      "reading": {
+        "top": 529,
+        "bottom": 771,
+        "height": 242
+      },
+      "next": {
+        "top": 963,
+        "bottom": 1007,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "height": 1024,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 1024,
+      "docWidth": 1366,
+      "docHeight": 1024,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1024,
+        "height": 948
+      },
+      "reading": {
+        "top": 529,
+        "bottom": 771,
+        "height": 242
+      },
+      "next": {
+        "top": 963,
+        "bottom": 1007,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "height": 1024,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 1024,
+      "docWidth": 1366,
+      "docHeight": 1024,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1024,
+        "height": 948
+      },
+      "reading": {
+        "top": 529,
+        "bottom": 771,
+        "height": 242
+      },
+      "next": {
+        "top": 963,
+        "bottom": 1007,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "height": 1024,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 1024,
+      "docWidth": 1366,
+      "docHeight": 1024,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1024,
+        "height": 948
+      },
+      "reading": {
+        "top": 266,
+        "bottom": 511.796875,
+        "height": 245.796875
+      },
+      "next": {
+        "top": 963,
+        "bottom": 1007,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "height": 1024,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 1024,
+      "docWidth": 1366,
+      "docHeight": 1024,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 1024,
+        "height": 1024
+      },
+      "reading": {
+        "top": 484,
+        "bottom": 729.796875,
+        "height": 245.796875
+      },
+      "next": {
+        "top": 963,
+        "bottom": 1007,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 812,
+      "height": 375,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 375,
+      "docWidth": 812,
+      "docHeight": 375,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 375,
+        "height": 299
+      },
+      "reading": {
+        "top": 250,
+        "bottom": 314,
+        "height": 64
+      },
+      "next": {
+        "top": 314,
+        "bottom": 358,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 812,
+      "height": 375,
+      "mode": "pending",
+      "kind": "wrong",
+      "viewport": 375,
+      "docWidth": 812,
+      "docHeight": 375,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 375,
+        "height": 299
+      },
+      "reading": {
+        "top": 250,
+        "bottom": 314,
+        "height": 64
+      },
+      "next": {
+        "top": 314,
+        "bottom": 358,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 812,
+      "height": 375,
+      "mode": "active",
+      "kind": "wrong",
+      "viewport": 375,
+      "docWidth": 812,
+      "docHeight": 375,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 375,
+        "height": 299
+      },
+      "reading": {
+        "top": 250,
+        "bottom": 314,
+        "height": 64
+      },
+      "next": {
+        "top": 314,
+        "bottom": 358,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 812,
+      "height": 375,
+      "mode": "active",
+      "kind": "expanded",
+      "viewport": 375,
+      "docWidth": 812,
+      "docHeight": 375,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 375,
+        "height": 299
+      },
+      "reading": {
+        "top": 250,
+        "bottom": 314,
+        "height": 64
+      },
+      "next": {
+        "top": 314,
+        "bottom": 358,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 812,
+      "height": 375,
+      "mode": "none",
+      "kind": "wrong",
+      "viewport": 375,
+      "docWidth": 812,
+      "docHeight": 375,
+      "banner": null,
+      "main": {
+        "top": 0,
+        "bottom": 375,
+        "height": 375
+      },
+      "reading": {
+        "top": 174,
+        "bottom": 254,
+        "height": 80
+      },
+      "next": {
+        "top": 314,
+        "bottom": 358,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "height": 748,
+      "mode": "finished",
+      "kind": "wrong",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 748,
+        "height": 672
+      },
+      "reading": {
+        "top": 365,
+        "bottom": 495,
+        "height": 130
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 393,
+      "height": 740,
+      "mode": "finished",
+      "kind": "correct-paused",
+      "viewport": 740,
+      "docWidth": 393,
+      "docHeight": 740,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 740,
+        "height": 664
+      },
+      "reading": {
+        "top": 358,
+        "bottom": 475.40625,
+        "height": 117.40625
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "height": 748,
+      "mode": "finished",
+      "kind": "correct-paused",
+      "viewport": 748,
+      "docWidth": 1024,
+      "docHeight": 748,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 748,
+        "height": 672
+      },
+      "reading": {
+        "top": 365,
+        "bottom": 491,
+        "height": 126
+      },
+      "next": {
+        "top": 687,
+        "bottom": 731,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 834,
+      "height": 1194,
+      "mode": "finished",
+      "kind": "correct-paused",
+      "viewport": 1194,
+      "docWidth": 834,
+      "docHeight": 1194,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 1194,
+        "height": 1118
+      },
+      "reading": {
+        "top": 597,
+        "bottom": 738.03125,
+        "height": 141.03125
+      },
+      "next": {
+        "top": 1133,
+        "bottom": 1177,
+        "height": 44
+      },
+      "canTap": true
+    },
+    {
+      "engine": "webkit",
+      "width": 812,
+      "height": 375,
+      "mode": "finished",
+      "kind": "correct-paused",
+      "viewport": 375,
+      "docWidth": 812,
+      "docHeight": 375,
+      "banner": {
+        "top": 0,
+        "bottom": 76,
+        "height": 76
+      },
+      "main": {
+        "top": 76,
+        "bottom": 375,
+        "height": 299
+      },
+      "reading": {
+        "top": 250,
+        "bottom": 314,
+        "height": 64
+      },
+      "next": {
+        "top": 314,
+        "bottom": 358,
+        "height": 44
+      },
+      "canTap": true
+    }
+  ],
+  "errors": [],
+  "navigationCancellationErrors": [
+    "/127.0.0.1:62424/api/state due to access control checks."
+  ],
+  "manualAndAutomaticAdvance": true,
+  "doubleClickAdvancesOnce": true,
+  "reloadPreservesIndex": true,
+  "otherPlayersUnchanged": true,
+  "realLocalPostgres": true,
+  "friendNotifications": "synthetic responses only",
+  "physicalDevice": false,
+  "productionMutations": false
+}

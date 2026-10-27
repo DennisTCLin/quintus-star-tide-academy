@@ -1,0 +1,31 @@
+{
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "entry": "/assets/index.v-B58D5qNs.js",
+  "assetBytesMatch": [
+    {
+      "file": "room.webp",
+      "sha256": "36b5f0577ffad7b84be456d68e1d9ce0df151b416bbb5dceb1f39cc5a8471cdf"
+    },
+    {
+      "file": "table-0.webp",
+      "sha256": "b8267fa530bee215d2df1319ebf7812e91e4a797d7286489e6459d3a18271852"
+    },
+    {
+      "file": "globe-0.webp",
+      "sha256": "e37de6561b3493bbb3f1d4c25f6313c2d523a489dfceba6e93c8828494611b1b"
+    },
+    {
+      "file": "wall-moon.webp",
+      "sha256": "a1c1a8bcb7619a25de7a39d2debaf21e40fe5562dd239ab2ba8e7db2fe8a4871"
+    },
+    {
+      "file": "floor-wood.webp",
+      "sha256": "1fc69b01cc1acd7280f7a40b1e56254f86e17fe57749b09b04ac9bb1ba2656a7"
+    }
+  ],
+  "deployment": "21468e85-dd24-408c-aa4c-a196ab1d342d",
+  "source": "4ac980e623f77d27b0cf7ca1d071d44ae9f03922"
+}

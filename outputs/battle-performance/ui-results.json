@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "One player move on double-click; HP at impact; controls lock; exactly one CPU reply",
+    "quintus/320: layout, targets, reduced-motion player/CPU sequence",
+    "feifei/320: layout, targets, reduced-motion player/CPU sequence",
+    "quintus/390: layout, targets, reduced-motion player/CPU sequence",
+    "feifei/390: layout, targets, reduced-motion player/CPU sequence",
+    "quintus/768: layout, targets, reduced-motion player/CPU sequence",
+    "feifei/768: layout, targets, reduced-motion player/CPU sequence",
+    "quintus/1440: layout, targets, reduced-motion player/CPU sequence",
+    "feifei/1440: layout, targets, reduced-motion player/CPU sequence",
+    "tideglow: idle frames advance, attack sheet plays, square geometry, idle resumes",
+    "pebblefin: idle frames advance, attack sheet plays, square geometry, idle resumes",
+    "foamferret: idle frames advance, attack sheet plays, square geometry, idle resumes",
+    "320px grade2 longest name 曙光六角龍: ruby and HUD/title separation",
+    "blockSheets: static companion and complete player/CPU turn remain usable",
+    "malformedSheets: static companion and complete player/CPU turn remain usable"
+  ],
+  "errors": []
+}

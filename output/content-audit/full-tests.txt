@@ -1,0 +1,16 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run --silent --no-file-parallelism
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/school-question-bank/星潮網站開發
+
+
+ Test Files  120 passed (120)
+      Tests  871 passed (871)
+   Start at  10:20:24
+   Duration  70.00s (tests 87%, import 11%, transform 1%)
+
+    Isolate  120 workers spawned · ~50ms startup each (spawn + environment, per file)
+             at least ~5.99s faster with isolate: false — reuses workers across files instead of one per file
+

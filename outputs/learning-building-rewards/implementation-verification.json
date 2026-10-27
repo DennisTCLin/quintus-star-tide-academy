@@ -1,0 +1,30 @@
+{
+  "feature": "Ongoing learning XP and territory materials",
+  "date": "2026-10-25",
+  "baseline": "7c5436f",
+  "rules": {
+    "xpPerEligibleQuestion": 10,
+    "dailyQuestionXpLimit": null,
+    "eligibility": "Distinct canonical question ID per player per Taipei day, current-day non-practice voyage; hints, corrections and reviews qualify",
+    "materialsEveryQuestions": 5,
+    "materials": { "wood": 20, "stone": 12, "star": 6 },
+    "dailyCompletionRewardsUnchanged": 3,
+    "totalCompanionXpLimitUnchanged": 10000000
+  },
+  "preservation": [
+    "Optional additive profile.learningRewards; original profiles, scores, companions and territory retained",
+    "Partial question progress persists across days",
+    "Unopened territory and per-resource full warehouse retain pending materials",
+    "Existing passive production and peaceful commissions retained",
+    "No retroactive reward grants for previously completed questions"
+  ],
+  "validation": {
+    "fullSuite": "310 tests in 31 files passed, including real PostgreSQL and authenticated sibling access rejection",
+    "build": "Pronunciation checks, TypeScript, Vite and server bundle passed",
+    "independentReview": "Read-only verifier found no blocking correctness issue; repeated live-status announcement corrected with cumulative pack count",
+    "browser": "See browser-verification.json and verify-learning-rewards.py; isolated QA accounts only",
+    "knownBuildWarning": "Existing main chunk warning; 600.12 kB / 180.55 kB gzip"
+  },
+  "rollback": "Do not roll back to a backend that validates growth.credited <= 15: it rejects new saved ledgers. Any rollback must retain the expanded canonical-question validation and optional learningRewards support. No database schema migration is required.",
+  "release": "Pending coordinated integration with monster and latest gacha branches; no production completion claimed by this record."
+}

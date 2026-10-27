@@ -1,0 +1,25 @@
+{
+  "base": "https://quintus-star-tide-academy-production.up.railway.app",
+  "account": "qa_island_9213d2bf6947",
+  "starter": "compasscrab",
+  "checks": [
+    "isolated account created",
+    "cloud command accepted",
+    "cloud command accepted",
+    "cloud command accepted",
+    "exactly the owned starter lives on island",
+    "resident matches cloud-owned starter",
+    "new Higgsfield castle loads",
+    "live resident moves",
+    "live greeting",
+    "live pause works",
+    "visual play preserves all cloud game data",
+    "reload restores owned resident",
+    "second device login",
+    "second device displays same cloud companion",
+    "second device reduced motion works",
+    "production mobile no page overflow",
+    "no browser runtime errors"
+  ],
+  "pageErrors": []
+}

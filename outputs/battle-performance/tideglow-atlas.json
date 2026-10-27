@@ -1,0 +1,30 @@
+{
+  "pet": "tideglow",
+  "boundaryPixels": 0,
+  "detachedPixelsRemoved": 14950,
+  "effectEdgeFadePixels": null,
+  "crop": {
+    "left": 124,
+    "top": 81,
+    "width": 768,
+    "height": 768
+  },
+  "clips": [
+    {
+      "kind": "idle",
+      "src": "/assets/battle/tideglow-idle.webp",
+      "columns": 6,
+      "rows": 4,
+      "frames": 24,
+      "bytes": 461104
+    },
+    {
+      "kind": "attack",
+      "src": "/assets/battle/tideglow-attack.webp",
+      "columns": 6,
+      "rows": 4,
+      "frames": 24,
+      "bytes": 444018
+    }
+  ]
+}

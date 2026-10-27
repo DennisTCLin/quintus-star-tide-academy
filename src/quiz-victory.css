@@ -1,0 +1,40 @@
+/* A completed journey becomes a decision screen; the combat record stays below. */
+.family-app.quiz-result-ready .family-main { display:flex; flex-direction:column; gap:16px; width:min(1000px,calc(100% - 32px)); margin-top:16px; }
+.family-app.quiz-result-ready > .resource-ribbon { display:none; }
+.family-app.quiz-result-ready .family-main > .result-panel { order:0; width:100%; max-width:none; box-sizing:border-box; margin:0; padding:clamp(18px,3vw,32px); border-color:#dfbf76; }
+.family-app.quiz-result-ready .family-main > .quiz-encounter { order:2; width:100%; margin:0; }
+.family-app.quiz-result-ready .family-main > .notice { order:-1; }
+.result-panel[hidden] { display:none!important; }
+.victory-intro { display:grid; grid-template-columns:minmax(120px,200px) minmax(0,1fr); gap:24px; align-items:center; text-align:left; }
+.victory-portrait { position:relative; display:grid; place-items:center; width:100%; aspect-ratio:1; border-radius:50%; background:radial-gradient(circle,#ffe2a029,transparent 70%); }
+.victory-portrait img { width:100%; height:100%; object-fit:contain; filter:drop-shadow(0 8px 18px #031a2b99); }
+.victory-portrait span { position:absolute; z-index:1; color:#ffdf91; font-size:26px; top:8%; left:0; }
+.victory-portrait span:last-child { top:auto; left:auto; bottom:8%; right:0; font-size:18px; }
+.quiz-victory .victory-copy h1 { color:#ffe3a5; font-size:clamp(28px,4vw,44px); margin:0 0 12px; line-height:1.4; }
+.quiz-victory .victory-copy p { margin:8px 0; line-height:1.7; }
+.victory-score { color:#a0efe4; font-weight:700; }
+.victory-score span { display:inline-block; margin-left:16px; }
+.victory-reward { color:#cee9ed; font-size:16px; }
+.victory-next { max-width:620px; margin:20px auto 0; }
+.family-app .victory-continue { display:flex; align-items:center; justify-content:center; gap:24px; width:100%; min-height:64px; font-size:24px; }
+.victory-next-hint { margin:12px 0; font-size:15px; line-height:1.65; color:#c6e6e9; }
+.victory-secondary { display:flex; gap:12px; }
+.family-app .victory-secondary button { flex:1; min-width:0; min-height:48px; font-size:17px; padding:10px; }
+.victory-records { margin-top:24px; padding-top:12px; border-top:1px solid #77cfd844; text-align:left; }
+.victory-records > summary { min-height:48px; align-content:center; cursor:pointer; color:#bedde6; }
+.victory-records > .voice-button { display:none; }
+.family-app.quiz-result-ready .quiz-encounter-info > summary { font-size:15px; }
+@media(max-width:600px) {
+ .family-app.quiz-result-ready .family-main { width:calc(100% - 24px); margin-top:10px; gap:12px; }
+ .family-app.quiz-result-ready .family-main > .result-panel { padding:16px; }
+ .victory-intro { grid-template-columns:88px minmax(0,1fr); gap:12px; }
+ .quiz-victory .victory-copy h1 { font-size:26px; margin-bottom:6px; }
+ .quiz-victory .victory-copy p { font-size:14px; margin:5px 0; }
+ .victory-score span { display:block; margin-left:0; }
+ .victory-next { margin-top:18px; }
+ .family-app .victory-continue { min-height:60px; font-size:22px; }
+ .family-app .victory-secondary button { font-size:15px; }
+ .victory-next-hint { font-size:14px; }
+ .victory-records { margin-top:18px; }
+}
+@media(max-width:360px) { .victory-intro { grid-template-columns:64px minmax(0,1fr); gap:10px; } .quiz-victory .victory-copy h1 { font-size:23px; } }

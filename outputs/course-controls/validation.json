@@ -1,0 +1,29 @@
+{
+  "base": "8ea08f9",
+  "scope": "Course choice before generic fresh departure; fixed settled-answer actions; narrow picture options. Frontend only, no score or API schema change.",
+  "build": "PASS",
+  "pronunciation": "PASS (4747 source runs, 165 curated, 203 rules)",
+  "unitIntegration": {
+    "files": 60,
+    "tests": 495,
+    "result": "PASS",
+    "database": "isolated eight_refinement_batch13_test"
+  },
+  "targeted": {
+    "files": 3,
+    "tests": 17,
+    "result": "PASS"
+  },
+  "browser": "local-browser.json: 6 isolated-fixture cases, no real player writes, zero page errors",
+  "diffCheck": "PASS",
+  "independentReview": {
+    "result": "PASS",
+    "cases": 10,
+    "pageErrors": 0,
+    "scope": "Local Chromium and isolated API fixtures; no real player writes. Physical Safari and full long-reading readability not additionally verified.",
+    "evidence": [
+      "independent-browser.json",
+      "independent-additional.json"
+    ]
+  }
+}

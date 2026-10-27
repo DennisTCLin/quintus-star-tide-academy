@@ -1,0 +1,89 @@
+[
+  {
+    "course": "math",
+    "width": 320,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "math",
+    "width": 390,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "math",
+    "width": 820,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "fixture": "regular",
+    "listenInvoked": true,
+    "spokenText": "櫃子由上到下依序是：書本、空格、法國號、笛子、其他樂器、鼓。從下往上數，笛子在第幾層？",
+    "syntheticSpeechOnly": true
+  },
+  {
+    "course": "math",
+    "answered": true,
+    "pointsPersistedAfterReload": true
+  },
+  {
+    "course": "math",
+    "width": 320,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "math",
+    "width": 390,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "math",
+    "width": 820,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "fixture": "long",
+    "listenInvoked": true,
+    "spokenText": "動物從左到右依序是：松鼠、猴子、狗、大象、豬、雞、兔子、山羊、老虎、烏龜。猴子從左邊數排第幾位？",
+    "syntheticSpeechOnly": true
+  },
+  {
+    "course": "math",
+    "answered": true,
+    "pointsPersistedAfterReload": true
+  },
+  {
+    "course": "math",
+    "width": 320,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "math",
+    "width": 390,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "math",
+    "width": 820,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "fixture": "visual",
+    "listenInvoked": true,
+    "spokenText": "從左邊開始數，黑色正方形在第幾個？",
+    "syntheticSpeechOnly": true
+  },
+  {
+    "course": "math",
+    "answered": true,
+    "pointsPersistedAfterReload": true
+  }
+]

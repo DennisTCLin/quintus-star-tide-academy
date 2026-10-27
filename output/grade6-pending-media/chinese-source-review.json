@@ -1,0 +1,27 @@
+{
+  "status": "complete_review_with_unresolved_sources",
+  "reviewedOriginalRows": 110,
+  "newCandidates": 24,
+  "counts": {
+    "open_ended": 40,
+    "candidate": 24,
+    "missing_passage": 33,
+    "ambiguous": 7,
+    "pending_verification": 1,
+    "duplicate": 5
+  },
+  "baseCuratedSHA256": "d63ddf01958531b28d1edf580061bbb11195887e47d3c87447ddb337994627a4",
+  "repositoryModified": false,
+  "validation": "All candidate fields nonempty; exactly four distinct choices; 110 unique disposition keys; candidate/disposition correspondence exact. Manual source and answer checks complete for candidates.",
+  "sourceReview": [
+    "Read original extracted PDFs1–5 and7; visual renders6 all4 pages and10 all2 pages; DOCX9 XML full text; original7 render. Source8 identical to7 per prior source audit.",
+    "MOE concise/mini preferred over historical revised readings; explicit standard in 拿捏、怨恨、剖; accepted variants never used as distractors.",
+    "Publisher searches for 冬天的基隆山、木瓜山、說話也要停看聽、東海岸鐵路、沉城之謎、神奇的藍絲帶、跑道 returned catalogue/teaching descriptions rather than the exact complete texts. Missing text statuses describe evidence not retrieved, not proof texts are unavailable."
+  ],
+  "limitations": [
+    "Original modern reading questions with absent lesson text remain marked missing_passage; no answer-option reverse engineering.",
+    "24 candidates include 2 classical blanks cross-verified using official Examination Yuan exam (moex.gov.tw), and 蘭亭集序 using National Palace Museum (npm.gov.tw); all pronunciation sources are MOE.",
+    "Source6 三填答4 deliberately reduces open extraction to one word recognition, using exact supplied stanza. Root may retain open_ended if adaptation scope disallows this."
+  ],
+  "outOfScopeTraceabilityRisk": "Confirmed source10 two old quote attributions incorrect; detailed actual-source investigation in provenance-findings.json."
+}

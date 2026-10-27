@@ -1,0 +1,11 @@
+### Result
+{"webkit":true,"grade1":true,"width":320,"overflow":false,"starBalance":0,"normalBalance":2,"emptyDisabled":true,"reloadReceipt":true}
+### Ran Playwright code
+```js
+await (async page => { await page.setViewportSize({width:320,height:700}); await page.emulateMedia({reducedMotion:'reduce'}); await page.locator('.star-invitation').scrollIntoViewIfNeeded(); await page.screenshot({path:'output/playwright/star-ticket/webkit-grade1-320.png'}); if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)) throw Error('overflow'); await page.getByRole('button',{name:'用 1 張星耀特邀券轉扭蛋',exact:true}).click(); await page.getByRole('button',{name:'確認轉扭蛋',exact:true}).click(); await page.locator('.gacha-machine[data-phase=revealed]').waitFor(); const state=await page.evaluate(async()=>await (await fetch('/api/state')).json()); if(state.family.profiles.qingqing.starTickets!==0 || state.family.profiles.qingqing.tickets!==2) throw Error('balance'); if(!await page.getByRole('button',{name:'用 1 張星耀特邀券轉扭蛋',exact:true}).isDisabled()) throw Error('empty should disable'); await page.reload(); await page.getByRole('button',{name:'扭蛋',exact:true}).click(); const persisted=await page.evaluate(async()=>await (await fetch('/api/state')).json()); if(persisted.family.profiles.qingqing.lastDraw.ticketKind!=='star') throw Error('receipt missing'); return {webkit:true,grade1:true,width:320,overflow:false,starBalance:0,normalBalance:2,emptyDisabled:true,reloadReceipt:true}; })(page);
+```
+### Page
+- Page URL: http://127.0.0.1:4316/
+- Page Title: 星潮學院｜一起向星海出發
+### Events
+- New console entries: .playwright-cli/console-2026-10-25T14-02-57-960Z.log#L2-L5

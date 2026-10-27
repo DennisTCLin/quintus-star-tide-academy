@@ -1,0 +1,28 @@
+{
+  "commit": "8821aab7009017eb80dcd965823bd20cc1e90db9",
+  "preservedFiles": 1793,
+  "validatedDistFiles": 1805,
+  "uploadBytes": 10287603,
+  "serverBundleSha256": "9abce78081437187932823d08d1bbbcb9ca434266edaec4102c2dff69482da9e",
+  "deployment": "8197fb83-16ab-4045-aa49-093d75d67de5",
+  "previousDeployment": "c4222730-62e9-4078-b493-631324d07135",
+  "project": "c54c10ea-8ba1-49bb-9a40-bcdacef64f29",
+  "service": "33cc03ca-0f08-4307-bfbb-d79550f51efa",
+  "environment": "production",
+  "authorization": "User: 完成後就上吧",
+  "uploadMethod": "Existing prebuilt-runtime Docker release, retained public files restored with byte and SHA256 checks",
+  "existingAssetsVerifiedDuringBuild": 1793,
+  "databaseRestoredOrReset": false,
+  "state": "SUCCESS",
+  "firstAttempt": "8197fb83-16ab-4045-aa49-093d75d67de5",
+  "firstAttemptObservation": "Built and pushed, then container stayed INITIALIZING for more than seven minutes; retried same deployment.",
+  "retry": {
+    "id": "b732faa0-b949-423e-8e2c-2435e23726bc",
+    "state": "REMOVED",
+    "reason": "First deployment became healthy and served verified version; canceled redundant retry before it went live."
+  },
+  "publishedFileHashChecks": 21,
+  "publishedAssetBrowserChecks": 14,
+  "browserIdentity": "synthetic API interception, no real accounts",
+  "physicalDeviceTested": false
+}

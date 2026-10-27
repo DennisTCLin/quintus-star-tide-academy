@@ -1,0 +1,169 @@
+{
+  "verdict": "FAIL until ledger corrections integrated; 173 candidate content otherwise PASS with source10 第二關5 direction correction",
+  "scope": {
+    "candidateItemsRead": 173,
+    "candidateFields": [
+      "prompt",
+      "correct",
+      "wrong (all three)",
+      "explanation"
+    ],
+    "ledgerRowsStructurallyChecked": 610,
+    "duplicateSummariesRead": 250,
+    "visualOriginalPages": [
+      "5-3",
+      "8-2",
+      "6-1",
+      "9-3",
+      "10-1",
+      "9-2"
+    ],
+    "limits": [
+      "Not an exhaustive visual reread of all 32 content pages; cannot certify every image/pending item correctly excluded.",
+      "No official answer key available.",
+      "Existing first30 read for canonical context; active repo may change under root."
+    ]
+  },
+  "structural": {
+    "all173HaveFourDistinctOptions": true,
+    "allCanonicalTargetsResolve": true,
+    "all610LedgerLocatorsUnique": true
+  },
+  "newCandidates": [
+    {
+      "source": 5,
+      "page": 3,
+      "locator": "三三2",
+      "prompt": "用同一鐵尺上不同位置的等量奶油，比較距離熱水遠近與融化先後。下列哪組條件應保持相同？",
+      "correct": "燒杯大小、熱水量與熱水溫度",
+      "wrong": [
+        "每次使用不同溫度的熱水",
+        "同時改變尺的材質與奶油量",
+        "讓各位置使用不同種類奶油"
+      ],
+      "explanation": "只比較距離熱源的位置時，熱源的水量、溫度及容器等條件應保持相同，避免干擾。"
+    },
+    {
+      "source": 8,
+      "page": 2,
+      "locator": "四2(5)",
+      "prompt": "颱風帶來豪大雨，若雨水超過地面排水能力，可能造成哪種災害？",
+      "correct": "積水或淹水",
+      "wrong": [
+        "地下水位必定降低",
+        "河川水位一定下降",
+        "土壤含水量必定減少"
+      ],
+      "explanation": "大量雨水若無法及時排出，可能形成積水或淹水。"
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一1",
+      "prompt": "高氣壓中的下沉氣流通常較不利於雲的發展。這種情況下，天氣較可能如何？",
+      "correct": "較晴朗穩定",
+      "wrong": [
+        "雲層持續增厚並形成廣泛降雨",
+        "氣流持續上升而形成積雨雲",
+        "水氣必定立刻凝結成霧"
+      ],
+      "explanation": "下沉氣流通常使空氣增溫，較不利凝結成雲；實際天氣仍受水氣、地形等因素影響。"
+    }
+  ],
+  "ledgerPatches": [
+    {
+      "source": 5,
+      "locator": "三三2",
+      "status": "candidate",
+      "canonical": {
+        "source": 5,
+        "locator": "三三2"
+      },
+      "reason": "Original butter/iron-ruler control-variable inference is distinct from dew/frost temperature experiment."
+    },
+    {
+      "source": 5,
+      "locators": [
+        "三三2-燒杯大小",
+        "三三2-水量",
+        "三三2-水溫"
+      ],
+      "canonical": {
+        "source": 5,
+        "locator": "三三2"
+      },
+      "reason": "Must keep water temperature fixed, unlike current canonical explicitly changing it."
+    },
+    {
+      "source": 8,
+      "locator": "四2(5)",
+      "status": "candidate",
+      "canonical": {
+        "source": 8,
+        "locator": "四2(5)"
+      },
+      "reason": "Flooding risk is not liquid/solid precipitation definition."
+    },
+    {
+      "source": 6,
+      "locator": "一1",
+      "status": "candidate",
+      "canonical": {
+        "source": 6,
+        "locator": "一1"
+      },
+      "reason": "Original includes fair-weather relationship missing from pressure-value-only canonical."
+    },
+    {
+      "source": 9,
+      "locator": "四2(1)-傳導",
+      "canonical": {
+        "source": 5,
+        "locator": "四6"
+      },
+      "reason": "Original second blank asks cap material reducing conduction, not lid blocking airflow."
+    },
+    {
+      "source": 9,
+      "locator": "三1(2)-冰水",
+      "canonical": {
+        "source": 2,
+        "locator": "一3(1)"
+      },
+      "reason": "Original second blank asks cold water balloon shrink, not heating expansion."
+    }
+  ],
+  "nonblockingPrecisionSuggestions": [
+    {
+      "source": 5,
+      "locator": "三六3",
+      "suggestion": "Add 常溫 to starting water: 教室25°C，常溫水加冰塊後...; classroom temperature alone does not guarantee initial water temperature."
+    },
+    {
+      "source": 5,
+      "locator": "一7",
+      "suggestion": "Use 地球同步（地球靜止）氣象衛星 to make fixed-view specialization explicit; same for existing9一10.",
+      "reference": "https://science.nasa.gov/earth/earth-observatory/catalog-of-earth-satellite-orbits/"
+    }
+  ],
+  "otherLedgerConcern": {
+    "source": 10,
+    "locator": "第一關10",
+    "currentCanonical": {
+      "source": 10,
+      "locator": "第一關5"
+    },
+    "finding": "Original says thermal-expansion magnitude depends on particle/material properties; canonical only says most matter expands/contracts. Consider own material-dependent expansion statement or broader existing9一1; not same proposition.",
+    "visualVerified": true
+  },
+  "sources": [
+    "https://climate.cwa.gov.tw/SeasonalClimate?subpage=Summer",
+    "https://science.nasa.gov/earth/earth-observatory/catalog-of-earth-satellite-orbits/"
+  ],
+  "rootCorrectionAccepted": {
+    "source": 10,
+    "locator": "第二關5",
+    "requiredWording": "導熱速度由快到慢已確認為C、A、D、B",
+    "note": "Original frozen text lacks explicit sorting direction. Root reports corrected repo wording; acceptable once present."
+  }
+}

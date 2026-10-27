@@ -1,0 +1,26 @@
+{
+  "method": "Python gzip.compress, level9, mtime0",
+  "postInlineSvgBuild": {
+    "index.v-*.js": [
+      {
+        "name": "index.v-CBC0O5ey.js",
+        "bytes": 583009,
+        "gzipBytes": 181362
+      }
+    ],
+    "index.v-*.css": [
+      {
+        "name": "index.v-DjGVDsK_.css",
+        "bytes": 321817,
+        "gzipBytes": 64654
+      }
+    ],
+    "game-view.v-*.js": [
+      {
+        "name": "game-view.v-Cbk9314s.js",
+        "bytes": 1029082,
+        "gzipBytes": 395110
+      }
+    ]
+  }
+}

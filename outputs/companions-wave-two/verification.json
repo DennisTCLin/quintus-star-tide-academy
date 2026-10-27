@@ -1,0 +1,72 @@
+{
+  "sourceCommit": "3d2b192",
+  "deploymentId": "569196ea-6378-48ec-85fa-43294296bf9f",
+  "catalog": {
+    "added": 50,
+    "total": 135,
+    "drawBase": 105,
+    "elements": {
+      "金": 10,
+      "木": 10,
+      "水": 10,
+      "火": 10,
+      "土": 10
+    },
+    "rarities": {
+      "E": 12,
+      "D": 10,
+      "C": 8,
+      "B": 7,
+      "A": 5,
+      "S": 4,
+      "SS": 3,
+      "SSS": 1
+    }
+  },
+  "build": "PASS",
+  "fullSuite": {
+    "command": "TEST_DATABASE_URL=<isolated local database> npm test -- --no-file-parallelism",
+    "files": 39,
+    "passed": 366,
+    "failed": 0,
+    "skipped": 0
+  },
+  "art": {
+    "provider": "Higgsfield",
+    "model": "gpt_image_2_5",
+    "full": 50,
+    "thumbnails": 50,
+    "publishedBytes": 8112102,
+    "allContactSheetsVisuallyReviewed": true,
+    "edgeAlphaOver128": 0
+  },
+  "independentReview": {
+    "status": "PASS",
+    "legacy85ObjectsUnchanged": true,
+    "all50EquipAndXpRoundtrip": true,
+    "entryAnimationFinding": "Fixed with keyed entry wrapper; verified idle to windup without opacity restart",
+    "mergedCastlePresence": "PASS"
+  },
+  "browser": {
+    "desktopFirst12ImagesLoaded": true,
+    "allSixLocomotionStylesObserved": true,
+    "newSeriesAndElementRarityFilters": true,
+    "gradeTwoMobile": {
+      "viewport": 390,
+      "pageWidth": 390,
+      "dialogWidth": 352,
+      "山脊岩犛": [
+        "ㄕㄢ",
+        "ㄐㄧˇ",
+        "ㄧㄢˊ",
+        "ㄌㄧˊ"
+      ]
+    },
+    "battleGuardTitle": "鈴環守護",
+    "correctBattleQuiz": "7×6=42, granted knowledge shield",
+    "entryOpacityIdle": 1,
+    "entryOpacityWindup": 1,
+    "equippedAfterReload": "w2-worldtortoise"
+  },
+  "animationScope": "Six CSS locomotion families with existing five-element combat effects; not fifty independently rendered video clips."
+}

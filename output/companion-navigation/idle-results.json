@@ -1,0 +1,48 @@
+[
+  {
+    "label": "main-49bf714",
+    "seconds": 300.0,
+    "visibility": "visible",
+    "api": {
+      "state": {
+        "requests": 108,
+        "responseBodyBytes": 694224,
+        "responseHeaderBytes": 25488
+      },
+      "online-battle": {
+        "requests": 100,
+        "responseBodyBytes": 6700,
+        "responseHeaderBytes": 23600
+      },
+      "presence": {
+        "requests": 30,
+        "responseBodyBytes": 8100,
+        "responseHeaderBytes": 7080
+      }
+    },
+    "totalResponseBodyBytes": 709024
+  },
+  {
+    "label": "companion-navigation-clearance",
+    "seconds": 300.0,
+    "visibility": "visible",
+    "api": {
+      "state": {
+        "requests": 108,
+        "responseBodyBytes": 694224,
+        "responseHeaderBytes": 25488
+      },
+      "online-battle": {
+        "requests": 100,
+        "responseBodyBytes": 6700,
+        "responseHeaderBytes": 23600
+      },
+      "presence": {
+        "requests": 30,
+        "responseBodyBytes": 8100,
+        "responseHeaderBytes": 7080
+      }
+    },
+    "totalResponseBodyBytes": 709024
+  }
+]

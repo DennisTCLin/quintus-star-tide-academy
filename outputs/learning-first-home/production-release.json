@@ -1,0 +1,38 @@
+{
+  "deployment": "32982222-d974-4d37-904a-e6463b2e0170",
+  "deploymentStatus": "SUCCESS",
+  "source": "90633415eb9615cf5a5dd441d641781a81794904",
+  "health": 200,
+  "files": [
+    {
+      "file": "RoomEditor.v-Bqs7J9mo.js",
+      "bytes": 10424,
+      "sha256": "7da4fd026c282c28e57044d74dda1150fea110f3d92838b48493d4a7f5c55131",
+      "matches": true
+    },
+    {
+      "file": "TerritoryPage.v-XpGSXE-r.css",
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "matches": true
+    },
+    {
+      "file": "TerritoryPage.v-uXVhuNJL.js",
+      "bytes": 35956,
+      "sha256": "294ce0ab502ad96bffa08302e16a2f69236c71158a5b04b5b9eb9a1b52470fa7",
+      "matches": true
+    },
+    {
+      "file": "index.v-BqPtCdyb.css",
+      "bytes": 225696,
+      "sha256": "e8c3ce4a09b3055d868100b3dcb919a72c792199a70ea2d85368896442998beb",
+      "matches": true
+    },
+    {
+      "file": "index.v-D5gULON2.js",
+      "bytes": 800733,
+      "sha256": "3b6cd0ab9799e35c579034cb75688449931d6507c85748297fa3c197b39cdf5a",
+      "matches": true
+    }
+  ]
+}

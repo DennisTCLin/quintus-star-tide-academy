@@ -1,0 +1,45 @@
+{
+  "status": "released-and-verified",
+  "runtimeCommit": "cb4bb77ab0a579d575a204c7363b61185fe2ffd1",
+  "build": "PASS",
+  "automated": {
+    "files": 90,
+    "tests": 689,
+    "result": "PASS"
+  },
+  "componentChecks": 21,
+  "voiceBrowserChecks": 16,
+  "battleBrowserChecks": 10,
+  "independentReview": "PASS; English choice playback, scoped voice cancellation, resume routing, rewards/auth verified",
+  "physicalIpad": "UNKNOWN: seventh-generation iPad / iPadOS 18.7.10 original freeze and recovery still require physical-device confirmation; WebKit emulation passed.",
+  "legacyNote": "Only new runs with a saved remediation allowance can receive top-up. Legacy corrections do not retroactively award resources.",
+  "production": {
+    "deployment": "fcf15771-cea8-4d88-b302-5412fef80c15",
+    "status": "SUCCESS",
+    "entry": "/assets/index.v-WrRLk5OD.js",
+    "hashHealthChecks": 29,
+    "anonymousWebkitChecks": 9,
+    "passed": true,
+    "verifiedAt": "2026-10-25T08:19:10.874531+00:00"
+  },
+  "recovery": {
+    "build": "PASS",
+    "localAnonymousWebkitChecks": 9,
+    "normalVoiceRegressionChecks": 16,
+    "independentReview": "PASS after fixing same-origin link for double-leading-slash routes",
+    "physicalDevice": "UNKNOWN: physical iPad 7 / iPadOS 18.7.10 recovery still requires user confirmation",
+    "safeUrl": "https://quintus-star-tide-academy-production.up.railway.app/?safe=1",
+    "productionAnonymousWebkitChecks": 9
+  },
+  "coreRelease": {
+    "runtimeCommit": "d49a0da357b6435c5fe08dcb69029499605b6324",
+    "production": {
+      "deployment": "4de41f9d-b0ca-4bda-836d-04932271f3aa",
+      "status": "SUCCESS",
+      "entry": "/assets/index.v-8Oafifvn.js",
+      "hashHealthChecks": 23,
+      "anonymousWebkitChecks": 5,
+      "passed": true
+    }
+  }
+}

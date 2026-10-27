@@ -1,0 +1,479 @@
+{
+  "startedAt": "2026-10-24T22:01:35.807Z",
+  "checks": [
+    {
+      "label": "context01-1024",
+      "answerButtons": [
+        {
+          "bottom": 571.6953125,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 Wednesday",
+          "text": "Wednesday",
+          "top": 471.6953125,
+          "width": 282.546875
+        },
+        {
+          "bottom": 571.6953125,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 Monday",
+          "text": "Monday",
+          "top": 471.6953125,
+          "width": 282.546875
+        },
+        {
+          "bottom": 685.6953125,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 Friday",
+          "text": "Friday",
+          "top": 585.6953125,
+          "width": 282.546875
+        },
+        {
+          "bottom": 685.6953125,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 Sunday",
+          "text": "Sunday",
+          "top": 585.6953125,
+          "width": 282.546875
+        }
+      ],
+      "choiceAudio": 0,
+      "heading": "Art club meets on Monday. Music club meets on Wednesday. Ben joins music club. Which day should he come?",
+      "overflow": false,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "label": "context01-doubleclick-settled",
+      "answerButtons": [
+        {
+          "bottom": 571.6953125,
+          "disabled": true,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 Wednesday",
+          "text": "Wednesday",
+          "top": 471.6953125,
+          "width": 282.546875
+        },
+        {
+          "bottom": 571.6953125,
+          "disabled": true,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 Monday",
+          "text": "Monday",
+          "top": 471.6953125,
+          "width": 282.546875
+        },
+        {
+          "bottom": 685.6953125,
+          "disabled": true,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 Friday",
+          "text": "Friday",
+          "top": 585.6953125,
+          "width": 282.546875
+        },
+        {
+          "bottom": 685.6953125,
+          "disabled": true,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 Sunday",
+          "text": "Sunday",
+          "top": 585.6953125,
+          "width": 282.546875
+        }
+      ],
+      "choiceAudio": 0,
+      "heading": "Art club meets on Monday. Music club meets on Wednesday. Ben joins music club. Which day should he come?",
+      "overflow": false,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "label": "context01-reloaded-still-settled",
+      "answerButtons": [
+        {
+          "bottom": 571.6953125,
+          "disabled": true,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 Wednesday",
+          "text": "Wednesday",
+          "top": 471.6953125,
+          "width": 282.546875
+        },
+        {
+          "bottom": 571.6953125,
+          "disabled": true,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 Monday",
+          "text": "Monday",
+          "top": 471.6953125,
+          "width": 282.546875
+        },
+        {
+          "bottom": 685.6953125,
+          "disabled": true,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 Friday",
+          "text": "Friday",
+          "top": 585.6953125,
+          "width": 282.546875
+        },
+        {
+          "bottom": 685.6953125,
+          "disabled": true,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 Sunday",
+          "text": "Sunday",
+          "top": 585.6953125,
+          "width": 282.546875
+        }
+      ],
+      "choiceAudio": 0,
+      "heading": "Art club meets on Monday. Music club meets on Wednesday. Ben joins music club. Which day should he come?",
+      "overflow": false,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "label": "longest-context15-1024",
+      "answerButtons": [
+        {
+          "bottom": 672.4921875,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 North",
+          "text": "North",
+          "top": 572.4921875,
+          "width": 282.546875
+        },
+        {
+          "bottom": 672.4921875,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 East",
+          "text": "East",
+          "top": 572.4921875,
+          "width": 282.546875
+        },
+        {
+          "bottom": 786.4921875,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 West",
+          "text": "West",
+          "top": 686.4921875,
+          "width": 282.546875
+        },
+        {
+          "bottom": 786.4921875,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 South",
+          "text": "South",
+          "top": 686.4921875,
+          "width": 282.546875
+        }
+      ],
+      "choiceAudio": 0,
+      "heading": "The shop is directly north of the park. The library is directly south of the park. Ken walks from the shop to the park and then to the library. Which direction does he go?",
+      "overflow": false,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "label": "longest-context15-820",
+      "answerButtons": [
+        {
+          "bottom": 1073.4921875,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 North",
+          "text": "North",
+          "top": 973.4921875,
+          "width": 360
+        },
+        {
+          "bottom": 1073.4921875,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 East",
+          "text": "East",
+          "top": 973.4921875,
+          "width": 360
+        },
+        {
+          "bottom": 1187.4921875,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 West",
+          "text": "West",
+          "top": 1087.4921875,
+          "width": 360
+        },
+        {
+          "bottom": 1187.4921875,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 South",
+          "text": "South",
+          "top": 1087.4921875,
+          "width": 360
+        }
+      ],
+      "choiceAudio": 0,
+      "heading": "The shop is directly north of the park. The library is directly south of the park. Ken walks from the shop to the park and then to the library. Which direction does he go?",
+      "overflow": false,
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "label": "longest-context15-320",
+      "answerButtons": [
+        {
+          "bottom": 1199.796875,
+          "disabled": false,
+          "font": "21px",
+          "height": 100,
+          "label": "選擇 North",
+          "text": "North",
+          "top": 1099.796875,
+          "width": 124
+        },
+        {
+          "bottom": 1199.796875,
+          "disabled": false,
+          "font": "21px",
+          "height": 100,
+          "label": "選擇 East",
+          "text": "East",
+          "top": 1099.796875,
+          "width": 124
+        },
+        {
+          "bottom": 1309.796875,
+          "disabled": false,
+          "font": "21px",
+          "height": 100,
+          "label": "選擇 West",
+          "text": "West",
+          "top": 1209.796875,
+          "width": 124
+        },
+        {
+          "bottom": 1309.796875,
+          "disabled": false,
+          "font": "21px",
+          "height": 100,
+          "label": "選擇 South",
+          "text": "South",
+          "top": 1209.796875,
+          "width": 124
+        }
+      ],
+      "choiceAudio": 0,
+      "heading": "The shop is directly north of the park. The library is directly south of the park. Ken walks from the shop to the park and then to the library. Which direction does he go?",
+      "overflow": false,
+      "viewport": [
+        320,
+        740
+      ]
+    },
+    {
+      "label": "longest-context15-1440",
+      "answerButtons": [
+        {
+          "bottom": 785.4921875,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 North",
+          "text": "North",
+          "top": 685.4921875,
+          "width": 241.1796875
+        },
+        {
+          "bottom": 785.4921875,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 East",
+          "text": "East",
+          "top": 685.4921875,
+          "width": 241.1875
+        },
+        {
+          "bottom": 899.4921875,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 West",
+          "text": "West",
+          "top": 799.4921875,
+          "width": 241.1796875
+        },
+        {
+          "bottom": 899.4921875,
+          "disabled": false,
+          "font": "23px",
+          "height": 100,
+          "label": "選擇 South",
+          "text": "South",
+          "top": 799.4921875,
+          "width": 241.1875
+        }
+      ],
+      "choiceAudio": 0,
+      "heading": "The shop is directly north of the park. The library is directly south of the park. Ken walks from the shop to the park and then to the library. Which direction does he go?",
+      "overflow": false,
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "label": "longest-choice-context12-320",
+      "answerButtons": [
+        {
+          "bottom": 1162.578125,
+          "disabled": false,
+          "font": "21px",
+          "height": 134.78125,
+          "label": "選擇 I can answer it.",
+          "text": "I can answer it.",
+          "top": 1027.796875,
+          "width": 124
+        },
+        {
+          "bottom": 1162.578125,
+          "disabled": false,
+          "font": "21px",
+          "height": 134.78125,
+          "label": "選擇 The book is on the desk.",
+          "text": "The book is on the desk.",
+          "top": 1027.796875,
+          "width": 124
+        },
+        {
+          "bottom": 1340.953125,
+          "disabled": false,
+          "font": "21px",
+          "height": 168.375,
+          "label": "選擇 See you tomorrow.",
+          "text": "See you tomorrow.",
+          "top": 1172.578125,
+          "width": 124
+        },
+        {
+          "bottom": 1340.953125,
+          "disabled": false,
+          "font": "21px",
+          "height": 168.375,
+          "label": "選擇 Could you say that again, please?",
+          "text": "Could you say that again, please?",
+          "top": 1172.578125,
+          "width": 124
+        }
+      ],
+      "choiceAudio": 0,
+      "heading": "Lucy did not hear the teacher's question clearly. She wants the teacher to repeat it. What can she say?",
+      "overflow": false,
+      "viewport": [
+        320,
+        740
+      ]
+    },
+    {
+      "label": "longest-choice-context12-1024",
+      "answerButtons": [
+        {
+          "bottom": 591.2890625,
+          "disabled": false,
+          "font": "23px",
+          "height": 119.59375,
+          "label": "選擇 I can answer it.",
+          "text": "I can answer it.",
+          "top": 471.6953125,
+          "width": 282.546875
+        },
+        {
+          "bottom": 591.2890625,
+          "disabled": false,
+          "font": "23px",
+          "height": 119.59375,
+          "label": "選擇 The book is on the desk.",
+          "text": "The book is on the desk.",
+          "top": 471.6953125,
+          "width": 282.546875
+        },
+        {
+          "bottom": 724.8828125,
+          "disabled": false,
+          "font": "23px",
+          "height": 119.59375,
+          "label": "選擇 See you tomorrow.",
+          "text": "See you tomorrow.",
+          "top": 605.2890625,
+          "width": 282.546875
+        },
+        {
+          "bottom": 724.8828125,
+          "disabled": false,
+          "font": "23px",
+          "height": 119.59375,
+          "label": "選擇 Could you say that again, please?",
+          "text": "Could you say that again, please?",
+          "top": 605.2890625,
+          "width": 282.546875
+        }
+      ],
+      "choiceAudio": 0,
+      "heading": "Lucy did not hear the teacher's question clearly. She wants the teacher to repeat it. What can she say?",
+      "overflow": false,
+      "viewport": [
+        1024,
+        768
+      ]
+    }
+  ],
+  "limitations": [
+    "Viewport emulation only; no physical device or human listening."
+  ],
+  "consoleErrors": [],
+  "completedAt": "2026-10-24T22:02:57.392Z",
+  "fixture": "Onlylocalhostqa_evidence_20261025:futurequestionsindex1=context15,index2=context12;validatedfamily,otherprofiles unchanged. CurrentquintusEnglishquestion3context12activeunanswered."
+}

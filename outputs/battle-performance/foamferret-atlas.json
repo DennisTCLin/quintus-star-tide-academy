@@ -1,0 +1,30 @@
+{
+  "pet": "foamferret",
+  "boundaryPixels": 0,
+  "detachedPixelsRemoved": 43336,
+  "effectEdgeFadePixels": null,
+  "crop": {
+    "left": 133,
+    "top": 105,
+    "width": 731,
+    "height": 731
+  },
+  "clips": [
+    {
+      "kind": "idle",
+      "src": "/assets/battle/foamferret-idle.webp",
+      "columns": 6,
+      "rows": 4,
+      "frames": 24,
+      "bytes": 445824
+    },
+    {
+      "kind": "attack",
+      "src": "/assets/battle/foamferret-attack.webp",
+      "columns": 6,
+      "rows": 4,
+      "frames": 24,
+      "bytes": 425262
+    }
+  ]
+}

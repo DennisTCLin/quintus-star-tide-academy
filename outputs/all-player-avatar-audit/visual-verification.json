@@ -1,0 +1,58 @@
+{
+  "renderMatrix": [
+    {
+      "width": 900,
+      "players": 7,
+      "surfacesPerPlayer": 3,
+      "sameSourceAndCrop": true,
+      "allLoaded": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "players": 7,
+      "surfacesPerPlayer": 3,
+      "sameSourceAndCrop": true,
+      "allLoaded": true,
+      "overflow": false
+    }
+  ],
+  "productionPhotos": [
+    {
+      "path": "/players/alan.jpg?v=1",
+      "status": 200,
+      "matchesGitAsset": true
+    },
+    {
+      "path": "/players/brownie.jpg?v=1",
+      "status": 200,
+      "matchesGitAsset": true
+    },
+    {
+      "path": "/players/doudou.jpg?v=1",
+      "status": 200,
+      "matchesGitAsset": true
+    },
+    {
+      "path": "/players/feifei.jpg?v=1",
+      "status": 200,
+      "matchesGitAsset": true
+    },
+    {
+      "path": "/players/jimmy.jpg?v=1",
+      "status": 200,
+      "matchesGitAsset": true
+    },
+    {
+      "path": "/players/qingqing.jpg?v=1",
+      "status": 200,
+      "matchesGitAsset": true
+    },
+    {
+      "path": "/players/quintus.jpg?v=1",
+      "status": 200,
+      "matchesGitAsset": true
+    }
+  ],
+  "method": "Latest source account-context renders using read-only production identities and production CSS/photos; no real player gameplay actions."
+}

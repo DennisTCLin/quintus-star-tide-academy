@@ -1,0 +1,60 @@
+{
+  "result": "PASS",
+  "tests": {
+    "files": 55,
+    "cases": 464,
+    "database": "isolated star_tide_test",
+    "build": "PASS"
+  },
+  "independentReview": {
+    "agent": "eight_ui_verifier",
+    "cases": 816,
+    "eligible": 32,
+    "answerGates": "All unrevealed hidden;eligible totals exact;no scoring/state blocker",
+    "findingFixed": "Count-on-specific no-voice fallback instead of nonexistent recorded arithmetic audio"
+  },
+  "arithmetic": "All66nonnegativepairs total<=10, each0..b step, overshoot/noninteger/NaN guard",
+  "pronunciationSources": [
+    "https://dict.concised.moe.edu.tw/dictView.jsp?ID=35410",
+    "https://dict.mini.moe.edu.tw/SearchIndex/word_detail?wordID=D0000959"
+  ],
+  "pronunciation": "New source runs manually checked;數一次 shǔ/解說 jiěshuō overrides;no claim of human listening",
+  "limitations": [
+    "Zero-addition is supported/tested but currentgeneratedbank does not issue zeroaddition",
+    "System prefers-reduced-motion CSS inspected;globalpause tested inbrowser",
+    "No actualtablethardware or childlearning efficacy measurement",
+    "No unavailablevoice browser emulation;dedicatedfallback source-reviewed"
+  ],
+  "assets": [
+    {
+      "file": "RoomEditor.v-CK1DWqaS.js",
+      "bytes": 10629,
+      "gzip9": 4071,
+      "sha256": "34f682d0cae1d83b9a4705221c0d4d6aca84ad9bad61a58c53f8d6d3e1214bf9"
+    },
+    {
+      "file": "TerritoryPage.v-BEt_745k.js",
+      "bytes": 35956,
+      "gzip9": 12775,
+      "sha256": "2fc38c6a49e433c421ea10e0bcdf80efaf5604695451e3326a1c17233d0afeb6"
+    },
+    {
+      "file": "TerritoryPage.v-XpGSXE-r.css",
+      "bytes": 30002,
+      "gzip9": 6405,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    {
+      "file": "index.v-Bx_T8Wy0.css",
+      "bytes": 230440,
+      "gzip9": 48207,
+      "sha256": "de93c8e8302960095f396560ad3f9fa880c11ce9e83986e9860387ff06548bac"
+    },
+    {
+      "file": "index.v-l9sP2ynl.js",
+      "bytes": 655374,
+      "gzip9": 227429,
+      "sha256": "af20a6fffb725e40a2c5633e56b0b19e892d67295d355a5d0f2ad2876ab33e28"
+    }
+  ]
+}

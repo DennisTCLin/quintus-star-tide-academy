@@ -1,0 +1,53 @@
+[
+  {
+    "check": "mount 0",
+    "rafs": 1,
+    "observers": 2
+  },
+  {
+    "check": "unmount 0",
+    "rafs": 0,
+    "observers": 0
+  },
+  {
+    "check": "mount 1",
+    "rafs": 1,
+    "observers": 2
+  },
+  {
+    "check": "unmount 1",
+    "rafs": 0,
+    "observers": 0
+  },
+  {
+    "check": "mount 2",
+    "rafs": 1,
+    "observers": 2
+  },
+  {
+    "check": "unmount 2",
+    "rafs": 0,
+    "observers": 0
+  },
+  {
+    "check": "live ownership refresh without reload",
+    "ids": [
+      "otter"
+    ]
+  },
+  {
+    "check": "player switch without reload",
+    "ids": [
+      "foamferret",
+      "mistotter"
+    ],
+    "expected": [
+      "foamferret",
+      "mistotter"
+    ]
+  },
+  {
+    "check": "no commands for visual behavior",
+    "commands": []
+  }
+]

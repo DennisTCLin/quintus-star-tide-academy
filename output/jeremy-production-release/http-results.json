@@ -1,0 +1,119 @@
+{
+  "commit": "8821aab7009017eb80dcd965823bd20cc1e90db9",
+  "deployment": "8197fb83-16ab-4045-aa49-093d75d67de5",
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "publicFilesMatched": [
+    {
+      "path": "index.html",
+      "sha256": "9afcb7f1d4fc001b442dd82df06585cd1749594a535fb76e6bf6693f1a0b1d8d",
+      "pass": true
+    },
+    {
+      "path": "assets/AdminConsole.v-DC7GNqzd.css",
+      "sha256": "fd016cb0607032dae9d119af9d70d718a0e4340fdc0c8549bdd015f0383adf5f",
+      "pass": true
+    },
+    {
+      "path": "assets/index.v-mlvzAXLH.css",
+      "sha256": "fdbc86a5ddcc2c26ced6523a9909c00b2b9a7496591a1111ca65f02f9c7ff72c",
+      "pass": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "pass": true
+    },
+    {
+      "path": "assets/game-view.v-DvEeucgR.js",
+      "sha256": "07c6cfb839afbcc35e34124db56522e59729d0eaa4e0e13a2d3bc11a73543535",
+      "pass": true
+    },
+    {
+      "path": "assets/AdminConsole.v-CGb-P8IU.js",
+      "sha256": "bb08e6c26eb3532ed6fef7957e9839bc6912413fb45df9145585ef17842eaa3c",
+      "pass": true
+    },
+    {
+      "path": "assets/RoomEditor.v-Jmh_Fgoo.js",
+      "sha256": "6d3fd0dae65dca833a5e4280f0e1665402d8fc28036e72fbfe51523055f356b6",
+      "pass": true
+    },
+    {
+      "path": "assets/IslandApp.v-ewABikei.css",
+      "sha256": "1f3075c2c9cea7488955e8fa9f47f5725994e126b443c9ad56400b217e873fcb",
+      "pass": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-CCKrSBiN.js",
+      "sha256": "14d5b72b4b2fbf341c771abe93fb6d23ffc939a34c7d35d32cc9a84b355952c1",
+      "pass": true
+    },
+    {
+      "path": "assets/index.v-CiG1hF-g.js",
+      "sha256": "440405f1ce3eb5971cefe2f4660dcfa232f7078c73ccfc09e8db674da72be058",
+      "pass": true
+    },
+    {
+      "path": "assets/game-view.v-DjQLQpAC.css",
+      "sha256": "80bebb3fd3f3c62f510a09a4b9fb05b662fcb31faeedda3a3c418afe6fc5343a",
+      "pass": true
+    },
+    {
+      "path": "assets/IslandApp.v-CZWS0u5i.js",
+      "sha256": "45e8ceb70b4f7891e2e6ba17541b68d5d1d6e29404c92c24f4cfc2b9be3a74f6",
+      "pass": true
+    },
+    {
+      "path": "assets/feifei-bow/v1/highfive.mp4",
+      "sha256": "f23fc9c423985290933c7ccfd70e7f0c939e8e3349796bfe097ecabcd7a90591",
+      "pass": true
+    },
+    {
+      "path": "assets/feifei-bow/v1/bubbles.mp4",
+      "sha256": "72f75dc2c148d8d7ff9c0b393ab3b82e453a3deacd835e3ea7b7848492184f7e",
+      "pass": true
+    },
+    {
+      "path": "assets/feifei-bow/v1/rest.mp4",
+      "sha256": "1eecf9ccf7068bf27e18a2254fcac82ad7454199ad138442c05c558ecf07d52a",
+      "pass": true
+    },
+    {
+      "path": "assets/olivia-dog/actions-v2/highfive.mp4",
+      "sha256": "0504dab6efa4769dc5f3fceb852567bcffede947ac0e03aad2ea9eb66b614cc7",
+      "pass": true
+    },
+    {
+      "path": "assets/olivia-dog/actions-v2/bubbles.mp4",
+      "sha256": "70ab3e69514d18655eaa9c011f3f00a7a00c0ae45c9deee36ba0ff36ee4b405f",
+      "pass": true
+    },
+    {
+      "path": "assets/olivia-dog/actions-v2/rest.mp4",
+      "sha256": "33f1cb9a298b0d96ed41ec2ee219692b692673968fd0c0bb0eac73589b2031de",
+      "pass": true
+    },
+    {
+      "path": "assets/tideglow-guide/actions-v2/highfive.mp4",
+      "sha256": "d142c8e2d56540e9a241716c9df378279e11a6f0f2335a0fc5b8ae14e8987fa1",
+      "pass": true
+    },
+    {
+      "path": "assets/tideglow-guide/actions-v2/bubbles.mp4",
+      "sha256": "3a3d816577952f9c4f5035bbda408c399197129b85fa3dea1ace89fe1c35ec1d",
+      "pass": true
+    },
+    {
+      "path": "assets/tideglow-guide/actions-v2/rest.mp4",
+      "sha256": "6dfcb64fb40392c44266a2e34bfd4730a50bf3d5cea8ac68040a56663224a961",
+      "pass": true
+    }
+  ],
+  "unauthenticatedStateStatus": 401,
+  "productionMutations": false,
+  "pass": true
+}

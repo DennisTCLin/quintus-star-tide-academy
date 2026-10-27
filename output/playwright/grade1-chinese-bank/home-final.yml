@@ -1,0 +1,333 @@
+- generic [ref=f4e3]:
+  - link "跳到主要內容" [ref=f4e4] [cursor=pointer]:
+    - /url: "#family-main"
+  - status [ref=f4e5]:
+    - generic [ref=f4e6]:
+      - text: sunny ·
+      - generic [ref=f4e7]: ☁
+      - text: 已儲存至雲端
+    - button "登出" [ref=f4e11] [cursor=pointer]
+  - banner [ref=f4e12]:
+    - button "回到星潮學院港口" [ref=f4e13] [cursor=pointer]:
+      - img "星潮學院 Star Tide Academy — 星潮小龍" [ref=f4e14]:
+        - generic [aria-hidden] [ref=f4e15]:
+          - strong [ref=f4e16]: 星潮學院
+          - generic [ref=f4e17]: STAR TIDE ACADEMY
+    - button "目前登入的航海員" [disabled] [ref=f4e18]:
+      - generic [ref=f4e20]:
+        - text: Synthetic school QA
+        - generic [ref=f4e21]: 1 年級
+    - button "好友 0 人在線" [ref=f4e413] [cursor=pointer]:
+      - generic [ref=f4e25]:
+        - text: 好友
+        - generic [ref=f4e26]: 0 人在線
+      - generic [aria-hidden] [ref=f4e27]: ⌄
+    - generic [ref=f4e28]:
+      - generic "可用星幣" [ref=f4e29]:
+        - generic [ref=f4e30]: 🟡
+        - text: "0"
+      - generic "星願券" [ref=f4e34]:
+        - generic [ref=f4e35]: 🎟️
+        - text: "0"
+    - button "聽這頁說明" [ref=f4e39] [cursor=pointer]:
+      - generic [ref=f4e40]: 🔊
+  - region "建材庫存" [ref=f4e44]:
+    - button "查看領地，庫存：靈木 0、雲石 0、星砂 0" [ref=f4e45] [cursor=pointer]:
+      - generic [ref=f4e46]:
+        - text: 建材庫存
+        - generic [ref=f4e47]: 領地 →
+      - generic [ref=f4e48]:
+        - generic [ref=f4e52]: 靈木
+        - strong [ref=f4e53]: "0"
+      - generic [ref=f4e54]:
+        - generic [ref=f4e58]: 雲石
+        - strong [ref=f4e59]: "0"
+      - generic [ref=f4e60]:
+        - generic [ref=f4e64]: 星砂
+        - strong [ref=f4e65]: "0"
+  - navigation "主要導覽" [ref=f4e66]:
+    - button "港口" [ref=f4e67] [cursor=pointer]
+    - button "夥伴" [ref=f4e69] [cursor=pointer]
+    - button "排行" [ref=f4e71] [cursor=pointer]
+    - button "扭蛋" [ref=f4e73] [cursor=pointer]
+    - button "交換" [ref=f4e75] [cursor=pointer]
+    - button "對戰" [ref=f4e77] [cursor=pointer]
+    - button "領地" [ref=f4e79] [cursor=pointer]
+    - button "家長" [ref=f4e84] [cursor=pointer]
+  - main [ref=f4e86]:
+    - generic [ref=f4e87]:
+      - region "首頁航線影片":
+        - generic [aria-hidden]:
+          - generic: ✧
+        - group "首頁航線影片輪播控制" [ref=f4e88]:
+          - group "選擇航線片段" [ref=f4e89]:
+            - button "顯示第 1 段：破浪啟航" [ref=f4e90] [cursor=pointer]:
+              - strong [ref=f4e91]: 破浪啟航
+            - button "顯示第 2 段：夥伴領航" [ref=f4e92] [cursor=pointer]:
+              - strong [ref=f4e93]: 夥伴領航
+            - button "顯示第 3 段：護盾挑戰" [ref=f4e94] [cursor=pointer]:
+              - strong [ref=f4e95]: 護盾挑戰
+            - button "顯示第 4 段：星鯨巡遊" [ref=f4e96] [cursor=pointer]:
+              - strong [ref=f4e97]: 星鯨巡遊
+            - button "顯示第 5 段：極光群島" [ref=f4e98] [cursor=pointer]:
+              - strong [ref=f4e99]: 極光群島
+            - button "顯示第 6 段：流星許願" [pressed] [ref=f4e100] [cursor=pointer]:
+              - strong [ref=f4e101]: 流星許願
+          - button "暫停首頁航線影片" [ref=f4e414] [cursor=pointer]:
+            - generic [ref=f4e104]: Ⅱ
+        - paragraph: 目前片段：流星許願。流星掠過寧靜港灣，陪航海員許下新願望
+      - generic [ref=f4e108]:
+        - button "暫停背景音樂" [pressed] [ref=f4e415] [cursor=pointer]:
+          - generic [ref=f4e110]: Ⅱ
+          - text: 暫停音樂
+        - generic [ref=f4e114]: Synthetic school QA 的航海誌
+        - heading "👂 🧩 ✨ 一起去冒險" [active] [level=1] [ref=f4e116]:
+          - generic [ref=f4e117]: 👂
+          - generic [ref=f4e121]: 🧩
+          - generic [ref=f4e125]: ✨
+          - text: 一起去冒險
+        - paragraph [ref=f4e129]: 點下方的島嶼，選喜歡的科目出發。
+        - button "🏝️ 選一座島出發" [ref=f4e130] [cursor=pointer]
+        - button "繼續挑戰" [ref=f4e131] [cursor=pointer]
+    - status [ref=f4e132]: 臺中市永春國小・1 年級國語・康軒版：優先練習家長提供的一上歷屆試卷，從拼音、辨音、聲調出發；題目使用裝置朗讀，115學年度範圍待確認。
+    - status [ref=f4e133]: 臺中市永春國小・1 年級數學・翰林版：優先練習家長提供的一上第一次評量歷屆題；115學年度範圍待確認。
+    - region "選擇航線" [ref=f4e134]:
+      - generic [ref=f4e135]:
+        - generic [ref=f4e136]:
+          - text: 下一站，由你決定
+          - heading "點一座島，開始冒險" [level=2] [ref=f4e137]
+        - button "聽航線說明" [ref=f4e138] [cursor=pointer]:
+          - generic [ref=f4e139]: 🔊
+      - generic "目前這一趟" [ref=f4e143]:
+        - generic [ref=f4e145]: 🐚
+        - generic [ref=f4e149]:
+          - strong [ref=f4e150]: 辨音
+          - generic [ref=f4e151]:
+            - generic [ref=f4e152]:
+              - generic [ref=f4e153]: 挑戰中
+              - generic [ref=f4e154]: 0 / 6 題
+            - progressbar "辨音挑戰進度" [ref=f4e155]
+            - generic [ref=f4e156]: 還有 6 題
+        - button "繼續辨音" [ref=f4e157] [cursor=pointer]:
+          - generic [ref=f4e158]: ▶
+          - text: 繼續辨音
+      - status [ref=f4e162]: 點目前的島繼續；想換一座島，也可以點選。
+      - generic [ref=f4e163]:
+        - group "群島冒險地圖" [ref=f4e164]:
+          - img "五座漂浮在雲海上的冒險島嶼"
+          - button "從群島開始數學" [ref=f4e165] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f4e166]: "1"
+          - button "從群島開始拼音" [ref=f4e167] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f4e168]: "2"
+          - button "從群島開始英文入門" [ref=f4e169] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f4e170]: "3"
+          - button "從群島開始聲調" [ref=f4e171] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f4e172]: "4"
+          - button "從群島繼續辨音挑戰" [ref=f4e173] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f4e174]: "5"
+        - generic [ref=f4e175]:
+          - paragraph [ref=f4e176]: 點島上的編號，或選下方科目出發。
+          - button "Ⅱ 暫停動畫" [ref=f4e177] [cursor=pointer]:
+            - generic [ref=f4e178]: Ⅱ
+            - text: 暫停動畫
+      - generic [ref=f4e182]:
+        - generic [ref=f4e183]:
+          - button "開始數學" [ref=f4e184] [cursor=pointer]:
+            - generic [ref=f4e185]:
+              - generic [aria-hidden] [ref=f4e186]: "1"
+              - text: 金
+            - strong [ref=f4e187]: 數學
+            - generic [ref=f4e188]: ㄕㄨˋ ㄒㄩㄝˊ
+            - generic [ref=f4e189]: 星械島
+            - generic [ref=f4e190]: 準備出發
+            - generic [ref=f4e191]: 前往這座島 →
+          - button "去數學島" [ref=f4e192] [cursor=pointer]:
+            - generic [ref=f4e193]: 動手玩數學 →
+            - generic [ref=f4e194]: 看示範、玩小遊戲
+          - group [ref=f4e195]:
+            - generic "看島上夥伴" [ref=f4e196] [cursor=pointer]
+            - text: ⌄
+        - generic [ref=f4e197]:
+          - button "開始拼音" [ref=f4e198] [cursor=pointer]:
+            - generic [ref=f4e199]:
+              - generic [aria-hidden] [ref=f4e200]: "2"
+              - text: 木
+            - strong [ref=f4e201]: 拼音
+            - generic [ref=f4e202]: ㄆㄧㄣ ㄧㄣ
+            - generic [ref=f4e203]: 森語島
+            - generic [ref=f4e204]: 準備出發
+            - generic [ref=f4e205]: 前往這座島 →
+          - group [ref=f4e206]:
+            - generic "看島上夥伴" [ref=f4e207] [cursor=pointer]
+            - text: ⌄
+        - generic [ref=f4e208]:
+          - button "開始英文入門" [ref=f4e209] [cursor=pointer]:
+            - generic [ref=f4e210]:
+              - generic [aria-hidden] [ref=f4e211]: "3"
+              - text: 水
+            - strong [ref=f4e212]: 英文入門
+            - generic [ref=f4e213]: ㄧㄥ ㄨㄣˊ ㄖㄨˋ ㄇㄣˊ
+            - generic [ref=f4e214]: 潮語島
+            - generic [ref=f4e215]: 準備出發
+            - generic [ref=f4e216]: 前往這座島 →
+          - group [ref=f4e217]:
+            - generic "看島上夥伴" [ref=f4e218] [cursor=pointer]
+            - text: ⌄
+        - generic [ref=f4e219]:
+          - button "開始聲調" [ref=f4e220] [cursor=pointer]:
+            - generic [ref=f4e221]:
+              - generic [aria-hidden] [ref=f4e222]: "4"
+              - text: 火
+            - strong [ref=f4e223]: 聲調
+            - generic [ref=f4e224]: ㄕㄥ ㄉㄧㄠˋ
+            - generic [ref=f4e225]: 鳴焰島
+            - generic [ref=f4e226]: 準備出發
+            - generic [ref=f4e227]: 前往這座島 →
+          - group [ref=f4e228]:
+            - generic "看島上夥伴" [ref=f4e229] [cursor=pointer]
+            - text: ⌄
+        - generic [ref=f4e230]:
+          - button "繼續辨音挑戰" [ref=f4e231] [cursor=pointer]:
+            - generic [ref=f4e232]:
+              - generic [aria-hidden] [ref=f4e233]: "5"
+              - text: 土
+            - strong [ref=f4e234]: 辨音
+            - generic [ref=f4e235]: ㄅㄧㄢˋ ㄧㄣ
+            - generic [ref=f4e236]: 回聲島
+            - generic [ref=f4e237]:
+              - generic [ref=f4e238]:
+                - generic [ref=f4e239]: 挑戰中
+                - generic [ref=f4e240]: 0 / 6 題
+              - progressbar "辨音挑戰進度" [ref=f4e241]
+              - generic [ref=f4e242]: 還有 6 題
+            - generic [ref=f4e243]: 繼續挑戰 →
+          - group [ref=f4e244]:
+            - generic "看島上夥伴" [ref=f4e245] [cursor=pointer]
+            - text: ⌄
+      - paragraph [ref=f4e246]: 進度條記錄本趟已回答的題數；挑戰成功還要達成答對要求。完成挑戰，有機會邀請島上的怪物成為夥伴。星願券的抽選不受島嶼屬性影響。
+    - button [ref=f4e247] [cursor=pointer]:
+      - generic [ref=f4e248]:
+        - strong [ref=f4e249]: 潮光獸陪你一起學
+        - text: 摸摸、餵點心，或聊聊今天的冒險
+      - generic [ref=f4e251]: ✦
+    - region "夥伴陪練" [ref=f4e255]:
+      - generic [ref=f4e256]:
+        - generic [ref=f4e257]:
+          - strong [ref=f4e258]: 你的冒險還在這裡
+          - generic [ref=f4e259]: 潮光獸 · 第 1 / 6 題
+        - button "▶ 繼續挑戰" [ref=f4e260] [cursor=pointer]:
+          - generic [ref=f4e261]: ▶
+          - text: 繼續挑戰
+        - button "聽出發說明" [ref=f4e265] [cursor=pointer]:
+          - generic [ref=f4e266]: 🔊
+      - generic "夥伴的家" [ref=f4e270]:
+        - generic [ref=f4e271]:
+          - generic [ref=f4e272]:
+            - text: 和你一起住在星海
+            - heading "潮光獸的家" [level=2] [ref=f4e273]
+          - progressbar "下一份學習建材" [ref=f4e274]:
+            - generic [aria-hidden] [ref=f4e275]: ✦
+            - generic [aria-hidden] [ref=f4e276]: ✦
+            - generic [aria-hidden] [ref=f4e277]: ✦
+            - generic [aria-hidden] [ref=f4e278]: ✦
+            - generic [aria-hidden] [ref=f4e279]: ✦
+            - generic [ref=f4e280]: 0/5
+        - generic [ref=f4e281]:
+          - button "我的領地" [pressed] [ref=f4e282] [cursor=pointer]
+          - button "城堡房間" [ref=f4e283] [cursor=pointer]
+        - generic [ref=f4e284]:
+          - img "你的城堡、花園與已建成的領地" [ref=f4e285]
+          - button "進入城堡房間" [ref=f4e286] [cursor=pointer]
+          - button "和潮光獸打招呼" [ref=f4e288] [cursor=pointer]:
+            - generic [ref=f4e289]: 潮光獸
+          - generic [ref=f4e290]:
+            - button "佈置領地" [ref=f4e291] [cursor=pointer]
+            - button "進屋佈置" [ref=f4e292] [cursor=pointer]
+        - button "挑選想要的家具" [ref=f4e293] [cursor=pointer]:
+          - generic [ref=f4e295]:
+            - generic [ref=f4e296]: 下一個小心願
+            - generic [ref=f4e297]: 挑選喜歡的家具
+          - generic [ref=f4e298]: 去看看 ›
+      - generic [ref=f4e300]:
+        - generic [ref=f4e301]:
+          - heading "潮光獸" [level=2] [ref=f4e302]
+          - generic "稀有度 E 級，等級 1" [ref=f4e303]:
+            - generic [ref=f4e304]:
+              - generic [ref=f4e305]: 稀有度
+              - text: E
+              - generic [ref=f4e306]: 級
+            - strong [ref=f4e307]: Lv.1
+        - generic [ref=f4e308]:
+          - generic [ref=f4e309]: 再 50 XP 升到 Lv.2
+          - generic [ref=f4e310]: 0 / 50 XP
+        - progressbar "潮光獸升級進度" [ref=f4e311]
+      - generic [ref=f4e312]:
+        - generic [ref=f4e313]:
+          - heading "選擇陪練夥伴" [level=3] [ref=f4e314]
+          - generic [ref=f4e315]: 已擁有 1 位
+        - group "選擇陪練夥伴" [ref=f4e316]:
+          - button "選擇潮光獸陪練，Lv.1" [pressed] [ref=f4e317] [cursor=pointer]:
+            - generic [ref=f4e318]:
+              - generic [ref=f4e319]: 潮光獸
+              - generic "稀有度 E 級，等級 1" [ref=f4e320]:
+                - generic [ref=f4e321]:
+                  - text: E
+                  - generic [ref=f4e322]: 級
+                - strong [ref=f4e323]: Lv.1
+              - generic [ref=f4e324]:
+                - generic [ref=f4e325]: ✓
+                - text: 已選擇
+      - complementary "先前航程" [ref=f4e329]:
+        - generic [ref=f4e330]:
+          - strong [ref=f4e331]: 還有一趟挑戰進行中 · 潮光獸
+          - paragraph [ref=f4e332]: 本趟仍由潮光獸完成；潮光獸已準備好陪你開始下一趟。 已獲得的經驗值保留給潮光獸。
+      - group [ref=f4e333]:
+        - generic "今日已完成 0 道成長題 · 經驗持續累積" [ref=f4e334] [cursor=pointer]
+    - button "建造自己的領地 種樹、蓋城堡，和夥伴一起住下來。" [ref=f4e335] [cursor=pointer]:
+      - generic [ref=f4e337]: ⛰️
+      - generic [ref=f4e341]:
+        - generic [ref=f4e342]: 建造自己的領地
+        - generic [ref=f4e343]: 種樹、蓋城堡，和夥伴一起住下來。
+      - generic [ref=f4e345]: ➜
+    - generic [ref=f4e349]:
+      - generic [ref=f4e350]:
+        - generic [ref=f4e351]: "0"
+        - generic [ref=f4e352]: 星幣
+      - generic [ref=f4e353]:
+        - generic [ref=f4e354]: 1 / 185
+        - generic [ref=f4e355]: 夥伴
+      - generic [ref=f4e356]:
+        - generic [ref=f4e357]: "0"
+        - generic [ref=f4e358]: 星願券
+    - generic [ref=f4e359]:
+      - generic [ref=f4e360]:
+        - img "潮光獸" [ref=f4e362]
+        - generic [ref=f4e363]:
+          - text: 同行夥伴
+          - heading "潮光獸" [level=2] [ref=f4e364]
+          - paragraph [ref=f4e365]:
+            - generic [ref=f4e366]: 🛡️
+            - text: 護盾
+          - button "🐾 認識夥伴" [ref=f4e370] [cursor=pointer]:
+            - generic [ref=f4e371]: 🐾
+            - text: 認識夥伴
+      - generic [ref=f4e375]:
+        - generic [ref=f4e376]: 🌟
+        - heading "每天一點點" [level=2] [ref=f4e381]
+        - paragraph [ref=f4e382]:
+          - generic [ref=f4e383]: 👂
+          - text: →
+          - generic [ref=f4e387]: 🖼️
+          - text: →
+          - generic [ref=f4e391]: 🐾
+        - button "🔊" [ref=f4e395] [cursor=pointer]
+  - contentinfo [ref=f4e400]:
+    - generic [ref=f4e401]:
+      - img "星潮學院 Star Tide Academy — 星潮小龍" [ref=f4e402]:
+        - generic [aria-hidden] [ref=f4e403]:
+          - strong [ref=f4e404]: 星潮學院
+          - generic [ref=f4e405]: STAR TIDE ACADEMY
+      - generic [ref=f4e406]: Synthetic school QA
+    - generic [ref=f4e407]: 學習點數不扣除，休息後再一起出發。
+  - button "找潮光獸，摸摸或聊聊天" [ref=f4e409] [cursor=pointer]:
+    - generic [ref=f4e412]: 陪你一起學

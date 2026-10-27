@@ -1,0 +1,29 @@
+{
+  "status": "PUBLISHED_PASS",
+  "baseline": "698b09a801c42e5f4d876ce1b9273c45605126dd",
+  "scope": "Jasper authenticated account -> xingan grade1; KangHsuan Chinese159, Hanlin math134",
+  "officialSource": "https://www.haps.tp.edu.tw/nss/p/100",
+  "schoolYear": "115 semester1",
+  "unitPassed": 931,
+  "databaseGatedSkippedInUnitRun": 193,
+  "isolatedDatabasePassed": 21,
+  "browserChecksPassed": 16,
+  "browserEngines": [
+    "webkit",
+    "chromium"
+  ],
+  "widths": [
+    320,
+    375,
+    820
+  ],
+  "productionPlayerWrites": false,
+  "preservation": "Existing question catalog/IDs, progress/reward algorithms and DB schema untouched; regression compares old voyage/mastery/rewards and other profiles, full authenticated six-question Chinese and math voyages with reload.",
+  "firstDatabaseAttempt": "20PASS/1 synthetic fixture flow failure because winning correctly triggered pending capture; corrected test to use capture-skip before next course, no product change.",
+  "falsification": "Root Solo: wrong authenticated slot cannot inherit school; other grades and English have no new exam routing; mastered IDs excluded and exhaustion falls back to general; previous active run preserved; existing bank files unchanged. No independent agent review.",
+  "deployment": "1d4df211-730b-45df-af82-749f242f04a6",
+  "runtime": "15a54da76c11c0701c0278e4ddbc04ae2a028367",
+  "mergedUnitPassed": 935,
+  "productionEvidence": "output/stable-companion-dock/production-release.json",
+  "verificationLimit": "Server/build sources hashed in staged artifact; deployment succeeded. Direct remote server-file SHA read unavailable because Railway CLI has no registered SSH key. No key was created."
+}

@@ -1,0 +1,296 @@
+{
+  "engine": "WebKit iPad touch emulation; synthetic mic, real MediaRecorder; local fixture AI",
+  "checks": [
+    {
+      "name": "21 component interaction checks",
+      "pass": true,
+      "detail": [
+        "PASS 自動換題僅送出一次",
+        "PASS 失敗後不自動重送",
+        "PASS 手動重試可繼續",
+        "PASS 暫停取消換題",
+        "PASS 恢復後換題",
+        "PASS 離線取消等待中的換題",
+        "PASS 重新連線後可換題",
+        "PASS 離開題目取消換題",
+        "PASS 背景頁面不自動換題",
+        "PASS 回到頁面才換題",
+        "PASS 聲調題完整錄音來源傳到播放入口",
+        "PASS 錯誤訂正不推進也不發獎勵",
+        "PASS 三題訂正後一次補到半份",
+        "PASS 結算後移除重領入口",
+        "PASS 英文補練保留逐項發音",
+        "PASS 聽英文選項不送出答案",
+        "PASS 補練選答案先停止舊聲音",
+        "PASS 離開補練題停止該題錄音",
+        "PASS 補練離開不會取消後來開始的學伴麥克風",
+        "PASS 圖集每個選項使用不同裁切",
+        "PASS 二年級選項保留注音",
+        "COMPLETE: all component checks passed"
+      ]
+    },
+    {
+      "name": "Kiki microphone instruction served",
+      "pass": true
+    },
+    {
+      "name": "iPad WebKit record/send/reply releases microphone",
+      "pass": true
+    },
+    {
+      "name": "Reply replays on touch gesture",
+      "pass": true
+    },
+    {
+      "name": "Second voice turn retains child conversation context",
+      "pass": true
+    },
+    {
+      "name": "Conversation survives authenticated reload",
+      "pass": true
+    },
+    {
+      "name": "Cancel releases audio tracks",
+      "pass": true
+    },
+    {
+      "name": "Closing panel releases audio tracks",
+      "pass": true
+    },
+    {
+      "name": "Denied permission displays recovery action",
+      "pass": true
+    },
+    {
+      "name": "Typing fallback works after denied microphone",
+      "pass": true
+    },
+    {
+      "name": "Different child has separate conversation",
+      "pass": true
+    },
+    {
+      "name": "Grade 2 touch layout 320x760",
+      "pass": true,
+      "detail": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "panelClient": 302,
+        "panelScroll": 302,
+        "mic": {
+          "x": 25,
+          "y": 518.46875,
+          "width": 270,
+          "height": 114.125,
+          "bottom": 632.59375
+        },
+        "height": 760
+      }
+    },
+    {
+      "name": "Grade 2 touch layout 390x844",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "panelClient": 372,
+        "panelScroll": 372,
+        "mic": {
+          "x": 25,
+          "y": 486.96875,
+          "width": 340,
+          "height": 114.125,
+          "bottom": 601.09375
+        },
+        "height": 844
+      }
+    },
+    {
+      "name": "Grade 2 touch layout 768x1024",
+      "pass": true,
+      "detail": {
+        "viewport": 768,
+        "documentWidth": 768,
+        "panelClient": 428,
+        "panelScroll": 428,
+        "mic": {
+          "x": 343,
+          "y": 501.765625,
+          "width": 384,
+          "height": 114.125,
+          "bottom": 615.890625
+        },
+        "height": 1024
+      }
+    },
+    {
+      "name": "Grade 2 touch layout 1024x768",
+      "pass": true,
+      "detail": {
+        "viewport": 1024,
+        "documentWidth": 1024,
+        "panelClient": 428,
+        "panelScroll": 428,
+        "mic": {
+          "x": 599,
+          "y": 501.765625,
+          "width": 384,
+          "height": 114.125,
+          "bottom": 615.890625
+        },
+        "height": 768
+      }
+    },
+    {
+      "name": "No JavaScript runtime exception; reload recovers",
+      "pass": true,
+      "detail": [
+        {
+          "name": "Fetch API cannot load http",
+          "message": "/localhost:4293/api/state due to access control checks."
+        }
+      ]
+    }
+  ],
+  "navigationDiagnostics": [
+    {
+      "name": "Fetch API cannot load http",
+      "message": "/localhost:4293/api/state due to access control checks."
+    }
+  ],
+  "status": "PASS",
+  "recordingEvents": [
+    {
+      "event": "fixed-audio",
+      "path": "/assets/tideglow-voice/kiki-20261025/microphone.mp3"
+    },
+    {
+      "event": "fixed-audio",
+      "path": "/assets/tideglow-voice/kiki-20261025/microphone.mp3"
+    },
+    {
+      "event": "transcribe",
+      "mime": "audio/mp4",
+      "bytes": 14242
+    },
+    {
+      "event": "speech"
+    },
+    {
+      "event": "transcribe",
+      "mime": "audio/mp4",
+      "bytes": 10428
+    },
+    {
+      "event": "speech"
+    },
+    {
+      "event": "fixed-audio",
+      "path": "/assets/tideglow-voice/kiki-20261025/microphone.mp3"
+    },
+    {
+      "event": "fixed-audio",
+      "path": "/assets/tideglow-voice/kiki-20261025/microphone.mp3"
+    },
+    {
+      "event": "transcribe",
+      "mime": "audio/mp4",
+      "bytes": 14242
+    },
+    {
+      "event": "speech"
+    },
+    {
+      "event": "transcribe",
+      "mime": "audio/mp4",
+      "bytes": 10428
+    },
+    {
+      "event": "speech"
+    },
+    {
+      "event": "speech"
+    },
+    {
+      "event": "fixed-audio",
+      "path": "/assets/tideglow-voice/kiki-20261025/microphone.mp3"
+    },
+    {
+      "event": "fixed-audio",
+      "path": "/assets/tideglow-voice/kiki-20261025/microphone.mp3"
+    },
+    {
+      "event": "transcribe",
+      "mime": "audio/mp4",
+      "bytes": 14185
+    },
+    {
+      "event": "speech"
+    },
+    {
+      "event": "transcribe",
+      "mime": "audio/mp4",
+      "bytes": 10406
+    },
+    {
+      "event": "speech"
+    },
+    {
+      "event": "speech"
+    },
+    {
+      "event": "fixed-audio",
+      "path": "/assets/tideglow-voice/kiki-20261025/microphone.mp3"
+    },
+    {
+      "event": "fixed-audio",
+      "path": "/assets/tideglow-voice/kiki-20261025/microphone.mp3"
+    },
+    {
+      "event": "transcribe",
+      "mime": "audio/mp4",
+      "bytes": 14185
+    },
+    {
+      "event": "speech"
+    },
+    {
+      "event": "transcribe",
+      "mime": "audio/mp4",
+      "bytes": 10406
+    },
+    {
+      "event": "speech"
+    },
+    {
+      "event": "speech"
+    },
+    {
+      "event": "fixed-audio",
+      "path": "/assets/tideglow-voice/kiki-20261025/microphone.mp3"
+    },
+    {
+      "event": "fixed-audio",
+      "path": "/assets/tideglow-voice/kiki-20261025/microphone.mp3"
+    },
+    {
+      "event": "transcribe",
+      "mime": "audio/mp4",
+      "bytes": 14400
+    },
+    {
+      "event": "speech"
+    },
+    {
+      "event": "transcribe",
+      "mime": "audio/mp4",
+      "bytes": 10412
+    },
+    {
+      "event": "speech"
+    },
+    {
+      "event": "speech"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "post-response-final-validator-recheck",
+  "newProviderCall": false,
+  "cases": [
+    {
+      "choice": "pet",
+      "line": "你的摸摸很溫柔讓我心情很舒服。",
+      "finalResult": "ACCEPT_AI"
+    },
+    {
+      "choice": "feed",
+      "line": "收到你的點心，心情很舒服。",
+      "finalResult": "ACCEPT_AI"
+    },
+    {
+      "choice": "play",
+      "line": "星光球玩球，和你一起很開心！",
+      "finalResult": "USE_REVIEWED_FALLBACK"
+    }
+  ]
+}

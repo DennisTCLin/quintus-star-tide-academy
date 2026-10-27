@@ -1,0 +1,25 @@
+.reward-choice { margin: 1.5rem 0; padding: clamp(1rem, 3vw, 2rem); border: 1px solid #426574; border-radius: 24px; background: #0b2a3c; text-align: left; }
+.reward-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.reward-heading h2 { margin: 0; }
+.reward-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+.reward-option { display: flex; flex-direction: column; align-items: flex-start; gap: .65rem; padding: 1.25rem; min-height: 180px; border: 2px solid #6b91a2; border-radius: 18px; background: #15394d; color: #f4fbff; text-align: left; }
+.reward-option strong { font-size: clamp(1.25rem, 3vw, 1.65rem); }
+.reward-option > span:last-child { font-size: 1rem; line-height: 1.8; }
+.reward-option.reward-save { border-color: #e6c66b; background: #263d43; }
+.reward-icon { font-size: 2rem; line-height: 1; }
+.reward-option:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+.reward-option:disabled { opacity: .6; cursor: wait; }
+.reward-progress { margin: 1.25rem 0 .25rem; }
+.reward-stars { display: flex; align-items: center; gap: .5rem; font-size: 2.4rem; color: #a8c3cf; }
+.reward-stars .filled { color: #ffdb7c; }
+.reward-arrow { margin-left: .5rem; font-size: 1.4rem; }
+.reward-progress p { margin: .35rem 0; font-size: 1rem; line-height: 1.8; }
+.reward-outcome { color: #ffe59b; font-size: 1.35rem; line-height: 1.8; }
+.pending-reward-banner { margin: 1rem 0; padding: 1rem; border: 1px solid #e6c66b; border-radius: 16px; }
+@media (max-width: 520px) { .reward-options { grid-template-columns: 1fr; } .reward-option { min-height: 0; } }
+
+.family-app .result-panel.reward-pending > .pet-art,
+.family-app .result-panel.reward-pending > .voice-button { display: none; }
+.family-app .result-panel.reward-pending { padding: clamp(1rem, 3vw, 2rem); }
+.family-app .result-panel.reward-pending h1 { margin: .25rem 0; }
+.family-app .result-panel.reward-pending > p { margin: .75rem 0; }

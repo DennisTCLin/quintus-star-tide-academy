@@ -1,0 +1,11 @@
+{
+  "samples": 1000,
+  "profiles": 4,
+  "speciesPerProfile": 55,
+  "creditedPerProfile": 5,
+  "p50Ms": 0.17858400000000074,
+  "p95Ms": 0.28837500000000205,
+  "maxMs": 1.4504580000000011,
+  "serializedBytes": 9992,
+  "scope": "Local normalization benchmark, not production capacity"
+}

@@ -1,0 +1,28 @@
+{
+  "provider": "Higgsfield",
+  "model": "gpt_image_2_5",
+  "jobId": "44a13fc3-5c93-44d5-9177-0b5ea1d7a917",
+  "reference": "https://quintus-star-tide-academy-production.up.railway.app/assets/star-tide-dragon.png",
+  "sourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_080550_44a13fc3-5c93-44d5-9177-0b5ea1d7a917.png",
+  "layout": [
+    [
+      "pet",
+      "feed",
+      "play"
+    ],
+    [
+      "highfive",
+      "bubbles",
+      "rest"
+    ]
+  ],
+  "style": "ocean enamel, mint light, star gold; matching academy dragon",
+  "size": [
+    768,
+    512
+  ],
+  "bytes": 61096,
+  "sha256": "f215b2fb722d905f1187f077446635a6f25c79c8843be089a8e0562fc7ef5174",
+  "sourceLocal": "outputs/tideglow-care/actions-source.png",
+  "delivery": "single shared WebP atlas; no new video downloads"
+}

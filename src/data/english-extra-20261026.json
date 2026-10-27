@@ -1,0 +1,661 @@
+[
+  {
+    "id": "ex2-he-cd114-A1",
+    "sourceId": "he-cd114",
+    "locator": "A1",
+    "page": 1,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "A: ___ B: No, I’m not good.",
+    "options": [
+      "Can you read?",
+      "Are you Teddy?",
+      "Are you OK?"
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Are you OK? asks how someone is feeling."
+  },
+  {
+    "id": "ex2-he-cd114-A2",
+    "sourceId": "he-cd114",
+    "locator": "A2",
+    "page": 1,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Are you full?",
+    "options": [
+      "Yes, I do.",
+      "Yes, I can.",
+      "Yes, I am."
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Answer Are you…? with Yes, I am."
+  },
+  {
+    "id": "ex2-he-cd114-A3",
+    "sourceId": "he-cd114",
+    "locator": "A3",
+    "page": 1,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Are you a teacher?",
+    "options": [
+      "No, I am a student.",
+      "You are my teacher.",
+      "Yes, I am full."
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "A student answers no to being a teacher."
+  },
+  {
+    "id": "ex2-he-cd114-A4",
+    "sourceId": "he-cd114",
+    "locator": "A4",
+    "page": 1,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "___ the weather at Taipei 101? It’s sunny and hot.",
+    "options": [
+      "How’s",
+      "Where’s",
+      "What’s"
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "How’s the weather? asks about weather."
+  },
+  {
+    "id": "ex2-he-cd114-D1",
+    "sourceId": "he-cd114",
+    "locator": "D1",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the correct sentence: he / happy / ? / Is",
+    "options": [
+      "He happy is?",
+      "Is happy he?",
+      "Is he happy?"
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Use the standard English word order."
+  },
+  {
+    "id": "ex2-he-cd114-D2",
+    "sourceId": "he-cd114",
+    "locator": "D2",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the correct sentence: sunny / . / in / It’s / Taiwan",
+    "options": [
+      "It’s Taiwan sunny in.",
+      "It’s sunny in Taiwan.",
+      "Sunny Taiwan in it’s."
+    ],
+    "answer": 1,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Use the standard English word order."
+  },
+  {
+    "id": "ex2-he-cd114-F1",
+    "sourceId": "he-cd114",
+    "locator": "F1",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "How is the weather on Day 3?",
+    "options": [
+      "Sunny and hot.",
+      "Rainy and cool.",
+      "Windy and warm."
+    ],
+    "answer": 1,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Match the activity and weather in the table.",
+    "passage": "Day 1: sunny and hot — go to the beach and swim.\nDay 2: windy and warm — fly a kite in the park.\nDay 3: rainy and cool — stay home and read a book."
+  },
+  {
+    "id": "ex2-he-cd114-F2",
+    "sourceId": "he-cd114",
+    "locator": "F2",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Which day is best for flying a kite according to the table?",
+    "options": [
+      "Day 2.",
+      "Day 3.",
+      "Day 1."
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Match the activity and weather in the table.",
+    "passage": "Day 1: sunny and hot — go to the beach and swim.\nDay 2: windy and warm — fly a kite in the park.\nDay 3: rainy and cool — stay home and read a book."
+  },
+  {
+    "id": "ex2-he-cd114-F3",
+    "sourceId": "he-cd114",
+    "locator": "F3",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "What does the table suggest on a sunny and hot day?",
+    "options": [
+      "Go to the beach and swim.",
+      "Stay home and read.",
+      "Fly a kite."
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Match the activity and weather in the table.",
+    "passage": "Day 1: sunny and hot — go to the beach and swim.\nDay 2: windy and warm — fly a kite in the park.\nDay 3: rainy and cool — stay home and read a book."
+  },
+  {
+    "id": "ex2-he-tz114-5-1",
+    "sourceId": "he-tz114",
+    "locator": "5-1",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "How’s the weather in Shulin? It’s ___.",
+    "options": [
+      "white",
+      "tall",
+      "warm"
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Warm describes weather."
+  },
+  {
+    "id": "ex2-he-tz114-5-2",
+    "sourceId": "he-tz114",
+    "locator": "5-2",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Who’s she? She’s my ___.",
+    "options": [
+      "brother",
+      "sister",
+      "grandpa"
+    ],
+    "answer": 1,
+    "hint": "Read the question and all the clues.",
+    "explanation": "She refers to the sister."
+  },
+  {
+    "id": "ex2-he-tz114-5-3",
+    "sourceId": "he-tz114",
+    "locator": "5-3",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Is he a doctor? No, he’s ___. He’s a nurse.",
+    "options": [
+      "not",
+      "a doctor",
+      "can"
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "No, he’s not. He’s a nurse."
+  },
+  {
+    "id": "ex2-he-tz114-5-4",
+    "sourceId": "he-tz114",
+    "locator": "5-4",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Let’s ___! One, two, three.",
+    "options": [
+      "count",
+      "no",
+      "fun"
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "One, two, three are used when counting."
+  },
+  {
+    "id": "ex2-he-tz114-5-6",
+    "sourceId": "he-tz114",
+    "locator": "5-6",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Mom, I’m ___. I want to eat. Lunch is ready.",
+    "options": [
+      "nice",
+      "small",
+      "hungry"
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Hungry means wanting food."
+  },
+  {
+    "id": "ex2-he-tz114-5-8",
+    "sourceId": "he-tz114",
+    "locator": "5-8",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "I have ___ idea.",
+    "options": [
+      "not",
+      "a",
+      "an"
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Use an before the vowel sound in idea."
+  },
+  {
+    "id": "ex2-he-tz114-7-1",
+    "sourceId": "he-tz114",
+    "locator": "7-1",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the correct sentence: Are / thirsty / you / ?",
+    "options": [
+      "Are you thirsty?",
+      "You thirsty are?",
+      "Thirsty are you."
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Use the standard English word order."
+  },
+  {
+    "id": "ex2-he-tz114-7-2",
+    "sourceId": "he-tz114",
+    "locator": "7-2",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the correct sentence: How’s / weather / the / ?",
+    "options": [
+      "The weather how’s.",
+      "How’s weather the?",
+      "How’s the weather?"
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Use the standard English word order."
+  },
+  {
+    "id": "ex2-he-tz114-7-3",
+    "sourceId": "he-tz114",
+    "locator": "7-3",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the correct sentence: No / she / isn’t / .",
+    "options": [
+      "She no isn’t.",
+      "No, she isn’t.",
+      "No, isn’t she."
+    ],
+    "answer": 1,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Use the standard English word order."
+  },
+  {
+    "id": "ex2-he-tz114-7-4",
+    "sourceId": "he-tz114",
+    "locator": "7-4",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the correct sentence: Let’s / fun / have / !",
+    "options": [
+      "Let’s have fun!",
+      "Have let’s fun!",
+      "Let’s fun have!"
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Use the standard English word order."
+  },
+  {
+    "id": "ex2-he-tz114-7-5",
+    "sourceId": "he-tz114",
+    "locator": "7-5",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the correct sentence: Watch / out / !",
+    "options": [
+      "Out watch!",
+      "Watch is out!",
+      "Watch out!"
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Use the standard English word order."
+  },
+  {
+    "id": "ex2-he-tz114-8-1",
+    "sourceId": "he-tz114",
+    "locator": "8-1",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "True or False: It is sunny and warm at first.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "The first sentence about weather says sunny and warm.",
+    "passage": "I’m Amy. It’s sunny and warm today. I play with Ella and Ryan. Later, it’s hot and I’m thirsty. Then, it’s rainy, and we go home. I’m tired but happy. My brother, Leo, is sad. He can’t play outside."
+  },
+  {
+    "id": "ex2-he-tz114-8-2",
+    "sourceId": "he-tz114",
+    "locator": "8-2",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "True or False: Amy plays with Ella and Ryan.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 1,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Amy names Ella and Ryan.",
+    "passage": "I’m Amy. It’s sunny and warm today. I play with Ella and Ryan. Later, it’s hot and I’m thirsty. Then, it’s rainy, and we go home. I’m tired but happy. My brother, Leo, is sad. He can’t play outside."
+  },
+  {
+    "id": "ex2-he-tz114-8-3",
+    "sourceId": "he-tz114",
+    "locator": "8-3",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "True or False: Later, it gets cold and Amy is thirsty.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Amy says it gets hot and she is thirsty, not cold.",
+    "passage": "I’m Amy. It’s sunny and warm today. I play with Ella and Ryan. Later, it’s hot and I’m thirsty. Then, it’s rainy, and we go home. I’m tired but happy. My brother, Leo, is sad. He can’t play outside."
+  },
+  {
+    "id": "ex2-he-tz114-8-4",
+    "sourceId": "he-tz114",
+    "locator": "8-4",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "True or False: Amy is not tired.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Amy says she is tired but happy.",
+    "passage": "I’m Amy. It’s sunny and warm today. I play with Ella and Ryan. Later, it’s hot and I’m thirsty. Then, it’s rainy, and we go home. I’m tired but happy. My brother, Leo, is sad. He can’t play outside."
+  },
+  {
+    "id": "ex2-he-tz114-8-5",
+    "sourceId": "he-tz114",
+    "locator": "8-5",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "True or False: Leo can play outside.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Leo cannot play outside.",
+    "passage": "I’m Amy. It’s sunny and warm today. I play with Ella and Ryan. Later, it’s hot and I’m thirsty. Then, it’s rainy, and we go home. I’m tired but happy. My brother, Leo, is sad. He can’t play outside."
+  },
+  {
+    "id": "ex2-he-my113-E-1",
+    "sourceId": "he-my113",
+    "locator": "E-1",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the number: ten.",
+    "options": [
+      "11",
+      "9",
+      "10"
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Ten means 10."
+  },
+  {
+    "id": "ex2-he-my113-E-2",
+    "sourceId": "he-my113",
+    "locator": "E-2",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the number: fifteen.",
+    "options": [
+      "14",
+      "15",
+      "16"
+    ],
+    "answer": 1,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Fifteen means 15."
+  },
+  {
+    "id": "ex2-he-my113-E-3",
+    "sourceId": "he-my113",
+    "locator": "E-3",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the number: seventeen.",
+    "options": [
+      "17",
+      "18",
+      "16"
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Seventeen means 17."
+  },
+  {
+    "id": "ex2-he-my113-E-4",
+    "sourceId": "he-my113",
+    "locator": "E-4",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the number: nineteen.",
+    "options": [
+      "20",
+      "18",
+      "19"
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Nineteen means 19."
+  },
+  {
+    "id": "ex2-he-my113-E-5",
+    "sourceId": "he-my113",
+    "locator": "E-5",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the number: twenty.",
+    "options": [
+      "19",
+      "20",
+      "21"
+    ],
+    "answer": 1,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Twenty means 20."
+  },
+  {
+    "id": "ex2-he-my113-E-6",
+    "sourceId": "he-my113",
+    "locator": "E-6",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the number: eighteen.",
+    "options": [
+      "18",
+      "19",
+      "17"
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Eighteen means 18."
+  },
+  {
+    "id": "ex2-he-my113-G1",
+    "sourceId": "he-my113",
+    "locator": "G1",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "It’s ___.（溫暖）",
+    "options": [
+      "cold",
+      "rainy",
+      "warm"
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Warm means 溫暖."
+  },
+  {
+    "id": "ex2-he-my113-G2",
+    "sourceId": "he-my113",
+    "locator": "G2",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "It’s ___.（寒冷）",
+    "options": [
+      "sunny",
+      "cold",
+      "hot"
+    ],
+    "answer": 1,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Cold means 寒冷."
+  },
+  {
+    "id": "ex2-he-my113-G3",
+    "sourceId": "he-my113",
+    "locator": "G3",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Are you ___?（口渴）Yes, I am.",
+    "options": [
+      "thirsty",
+      "hungry",
+      "full"
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Thirsty means 口渴."
+  },
+  {
+    "id": "ex2-he-my113-G4a",
+    "sourceId": "he-my113",
+    "locator": "G4a",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Is she ___?（生氣）No, she’s not.",
+    "options": [
+      "happy",
+      "full",
+      "angry"
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Angry means 生氣."
+  },
+  {
+    "id": "ex2-he-my113-G4b",
+    "sourceId": "he-my113",
+    "locator": "G4b",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "She’s ___.（累）",
+    "options": [
+      "happy",
+      "tired",
+      "hungry"
+    ],
+    "answer": 1,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Tired means 累."
+  },
+  {
+    "id": "ex2-he-my113-H-1",
+    "sourceId": "he-my113",
+    "locator": "H-1",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the contraction of “How is”.",
+    "options": [
+      "How’s",
+      "Who’s",
+      "What’s"
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "How’s is the contraction of How is."
+  },
+  {
+    "id": "ex2-he-my113-H-2",
+    "sourceId": "he-my113",
+    "locator": "H-2",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the contraction of “Who is”.",
+    "options": [
+      "How’s",
+      "What’s",
+      "Who’s"
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "Who’s is the contraction of Who is."
+  },
+  {
+    "id": "ex2-he-my113-H-3",
+    "sourceId": "he-my113",
+    "locator": "H-3",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the contraction of “she is”.",
+    "options": [
+      "it’s",
+      "she’s",
+      "he’s"
+    ],
+    "answer": 1,
+    "hint": "Read the question and all the clues.",
+    "explanation": "she’s is the contraction of she is."
+  },
+  {
+    "id": "ex2-he-my113-H-4",
+    "sourceId": "he-my113",
+    "locator": "H-4",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the contraction of “is not”.",
+    "options": [
+      "isn’t",
+      "aren’t",
+      "wasn’t"
+    ],
+    "answer": 0,
+    "hint": "Read the question and all the clues.",
+    "explanation": "isn’t is the contraction of is not."
+  },
+  {
+    "id": "ex2-he-my113-H-5",
+    "sourceId": "he-my113",
+    "locator": "H-5",
+    "page": 2,
+    "kind": "筆試題整理／轉選擇（歧義選項與線索修訂）",
+    "prompt": "Choose the contraction of “What is”.",
+    "options": [
+      "Who’s",
+      "How’s",
+      "What’s"
+    ],
+    "answer": 2,
+    "hint": "Read the question and all the clues.",
+    "explanation": "What’s is the contraction of What is."
+  }
+]

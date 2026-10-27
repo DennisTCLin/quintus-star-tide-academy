@@ -1,0 +1,12 @@
+{
+  "deployment": "4aea1536-c00f-4279-bcd2-ed2833451d53",
+  "commit": "ea9c320",
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "matchingPublicAssetHashes": 7,
+  "unitTestsPassed": 28,
+  "build": "PASS",
+  "localBrowserChecksPassed": 40
+}

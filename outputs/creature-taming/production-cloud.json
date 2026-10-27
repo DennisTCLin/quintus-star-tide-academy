@@ -1,0 +1,49 @@
+{
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "isolatedAccount": "qa_taming_ee4b31c151f5",
+  "result": "PASS",
+  "starter": "covegecko",
+  "monster": "cloud-scout-metal",
+  "capture": {
+    "monster": "cloud-scout-metal",
+    "chance": 30,
+    "outcome": "escaped"
+  },
+  "monsterHpAfterAnswers": [
+    79,
+    58,
+    37,
+    16,
+    0
+  ],
+  "commandUiRoundTripMs": [
+    929.7,
+    176.2,
+    148.1,
+    145.6,
+    147.8,
+    150.5,
+    277.9,
+    143.8,
+    204.4,
+    153.3,
+    199.5,
+    1364.3,
+    215.0
+  ],
+  "checks": [
+    "natural E/D onboarding",
+    "frozen real combat stats",
+    "wrong-answer shield and correction",
+    "five completed answers +50XP and one material pack",
+    "server capture result +quota committed",
+    "cross-device outcome/ownership/materials preserved",
+    "refresh cannot reroll capture",
+    "reward claim remains one star",
+    "next encounter different family and current companion"
+  ],
+  "pageErrors": [],
+  "backgroundSyncRetries": [
+    "poll busy, no command sent"
+  ]
+}

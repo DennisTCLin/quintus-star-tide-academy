@@ -1,0 +1,21 @@
+{
+  "source": "f012644",
+  "measurement": "local built files and Python gzip; not page load timing",
+  "javascript": [
+    {
+      "asset": "index.v-Xa4qCYXI.js",
+      "bytes": 800733,
+      "gzipBytes": 224685
+    },
+    {
+      "asset": "RoomEditor.v-Ci5hCAlx.js",
+      "bytes": 10424,
+      "gzipBytes": 3993
+    },
+    {
+      "asset": "TerritoryPage.v-DiQnvcKp.js",
+      "bytes": 35956,
+      "gzipBytes": 12776
+    }
+  ]
+}

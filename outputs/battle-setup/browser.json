@@ -1,0 +1,80 @@
+{
+  "scope": "Local isolated fixture with 18 companions; no production writes",
+  "checks": [
+    {
+      "button": {
+        "bottom": 153,
+        "height": 66,
+        "left": 52,
+        "right": 268,
+        "top": 87,
+        "width": 216,
+        "x": 52,
+        "y": 87
+      },
+      "enabled": true,
+      "guideOpen": false,
+      "hit": true,
+      "homePanel": false,
+      "scrollWidth": 320,
+      "size": [
+        320,
+        740
+      ],
+      "startCount": 1
+    },
+    {
+      "button": {
+        "bottom": 470.1875,
+        "height": 66,
+        "left": 597.1953125,
+        "right": 762,
+        "top": 404.1875,
+        "width": 164.8046875,
+        "x": 597.1953125,
+        "y": 404.1875
+      },
+      "enabled": false,
+      "guideOpen": false,
+      "hit": true,
+      "homePanel": false,
+      "scrollWidth": 820,
+      "size": [
+        820,
+        1180
+      ],
+      "startCount": 1
+    },
+    {
+      "button": {
+        "bottom": 183.8984375,
+        "height": 66,
+        "left": 1119.1953125,
+        "right": 1284,
+        "top": 117.8984375,
+        "width": 164.8046875,
+        "x": 1119.1953125,
+        "y": 117.8984375
+      },
+      "enabled": true,
+      "guideOpen": false,
+      "hit": true,
+      "homePanel": false,
+      "scrollWidth": 1440,
+      "size": [
+        1440,
+        900
+      ],
+      "startCount": 1
+    }
+  ],
+  "duo": {
+    "emptyOpponentDisabled": true,
+    "matchingTeamEnabled": true,
+    "arenaStarted": true,
+    "setupRemoved": true
+  },
+  "guideExpands": true,
+  "errors": [],
+  "limits": "Chromium; no physical Safari test"
+}

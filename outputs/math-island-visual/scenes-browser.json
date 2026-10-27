@@ -1,0 +1,286 @@
+[
+  {
+    "game": "count",
+    "mode": "learn",
+    "clipped": [],
+    "overflow": false,
+    "sceneBackground": "rgb(118, 200, 214)",
+    "sceneColor": "rgb(22, 52, 74)",
+    "sceneWidth": 250,
+    "targets": [
+      {
+        "h": 44,
+        "w": 44
+      },
+      {
+        "h": 44,
+        "w": 44
+      },
+      {
+        "h": 44,
+        "w": 44
+      },
+      {
+        "h": 44,
+        "w": 44
+      },
+      {
+        "h": 44,
+        "w": 44
+      },
+      {
+        "h": 44,
+        "w": 44
+      }
+    ],
+    "text": "🐢\n🐢\n🐢\n🐢\n🐢\n🐢",
+    "width": 320
+  },
+  {
+    "game": "find",
+    "mode": "learn",
+    "clipped": [],
+    "overflow": false,
+    "sceneBackground": "rgba(0, 0, 0, 0)",
+    "sceneColor": "rgb(22, 52, 74)",
+    "sceneWidth": 250,
+    "targets": [
+      {
+        "h": 78,
+        "w": 78
+      },
+      {
+        "h": 78,
+        "w": 78
+      },
+      {
+        "h": 78,
+        "w": 78
+      },
+      {
+        "h": 78,
+        "w": 78
+      }
+    ],
+    "text": "●\n●\n●\n●\n●\n●\n●\n●\n●\n●\n8\n7\n10\n9",
+    "width": 320
+  },
+  {
+    "game": "split",
+    "mode": "learn",
+    "clipped": [],
+    "overflow": false,
+    "sceneBackground": "rgb(243, 231, 223)",
+    "sceneColor": "rgb(22, 52, 74)",
+    "sceneWidth": 250,
+    "targets": [
+      {
+        "h": 52,
+        "w": 52
+      },
+      {
+        "h": 52,
+        "w": 52
+      },
+      {
+        "h": 52,
+        "w": 52
+      }
+    ],
+    "text": "🍬\n🍬\n🍬\n\n點糖果，給小熊 2 顆\n\n🐻\n0\n🐰",
+    "width": 320
+  },
+  {
+    "game": "merge",
+    "mode": "learn",
+    "clipped": [],
+    "overflow": false,
+    "sceneBackground": "rgb(229, 238, 219)",
+    "sceneColor": "rgb(22, 52, 74)",
+    "sceneWidth": 250,
+    "targets": [
+      {
+        "h": 56,
+        "w": 150.6640625
+      }
+    ],
+    "text": "🐣\n🐣\n🧺\n2\n+\n🐣\n🐣\n🧺\n2\n🧺 倒在一起",
+    "width": 320
+  },
+  {
+    "game": "zero",
+    "mode": "learn",
+    "clipped": [],
+    "overflow": false,
+    "sceneBackground": "rgb(243, 231, 223)",
+    "sceneColor": "rgb(22, 52, 74)",
+    "sceneWidth": 250,
+    "targets": [
+      {
+        "h": 112,
+        "w": 78
+      },
+      {
+        "h": 112,
+        "w": 78
+      },
+      {
+        "h": 112,
+        "w": 78
+      }
+    ],
+    "text": "　\n🍪\n🍪\n🍪\n🍪\n🍪\n🍪\n🍪\n🍪",
+    "width": 320
+  },
+  {
+    "game": "boat",
+    "mode": "learn",
+    "clipped": [],
+    "overflow": false,
+    "sceneBackground": "rgb(213, 237, 240)",
+    "sceneColor": "rgb(22, 52, 74)",
+    "sceneWidth": 250,
+    "targets": [
+      {
+        "h": 56,
+        "w": 150.6640625
+      }
+    ],
+    "text": "🦆\n🦆\n⛵\n🦶 跳上船！",
+    "width": 320
+  },
+  {
+    "game": "hop",
+    "mode": "learn",
+    "clipped": [],
+    "overflow": false,
+    "sceneBackground": "rgb(213, 237, 240)",
+    "sceneColor": "rgb(22, 52, 74)",
+    "sceneWidth": 250,
+    "targets": [
+      {
+        "h": 56,
+        "w": 130.6640625
+      }
+    ],
+    "text": "0\n🦆\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n🦆 跳一格",
+    "width": 320
+  },
+  {
+    "game": "add",
+    "mode": "learn",
+    "clipped": [],
+    "overflow": false,
+    "sceneBackground": "rgba(0, 0, 0, 0)",
+    "sceneColor": "rgb(255, 255, 255)",
+    "sceneWidth": 250,
+    "targets": [],
+    "text": "7\n🟡\n🟡\n🟡\n🟡\n🟡\n🟡\n🟡\n+\n3\n🔵\n🔵\n🔵\n=\n?",
+    "width": 320
+  },
+  {
+    "game": "ten",
+    "mode": "learn",
+    "clipped": [],
+    "overflow": false,
+    "sceneBackground": "rgba(0, 0, 0, 0)",
+    "sceneColor": "rgb(255, 255, 255)",
+    "sceneWidth": 250,
+    "targets": [
+      {
+        "h": 44,
+        "w": 44
+      },
+      {
+        "h": 44,
+        "w": 44
+      },
+      {
+        "h": 44,
+        "w": 44
+      },
+      {
+        "h": 44,
+        "w": 44
+      },
+      {
+        "h": 44,
+        "w": 44
+      }
+    ],
+    "text": "⭐\n⭐\n⭐\n⭐\n⭐\n\n點空格，把框框裝滿",
+    "width": 320
+  },
+  {
+    "game": "count",
+    "mode": "exam",
+    "clipped": [],
+    "overflow": false,
+    "sceneColor": "rgb(22, 52, 74)",
+    "text": "🐢\n🐢\n🐢\n🐢\n🐢\n🐢",
+    "width": 320
+  },
+  {
+    "game": "find",
+    "mode": "exam",
+    "clipped": [],
+    "overflow": false,
+    "sceneColor": "rgb(22, 52, 74)",
+    "text": "●\n●\n●\n●\n●\n●\n●\n●\n●\n●\n\n有\n個",
+    "width": 320
+  },
+  {
+    "game": "split",
+    "mode": "exam",
+    "clipped": [],
+    "overflow": false,
+    "sceneColor": "rgb(22, 52, 74)",
+    "text": "3\n2",
+    "width": 320
+  },
+  {
+    "game": "merge",
+    "mode": "exam",
+    "clipped": [],
+    "overflow": false,
+    "sceneColor": "rgb(22, 52, 74)",
+    "text": "2\n2",
+    "width": 320
+  },
+  {
+    "game": "zero",
+    "mode": "exam",
+    "clipped": [],
+    "overflow": false,
+    "sceneColor": "rgb(22, 52, 74)",
+    "text": "　\n🍪\n🍪\n🍪\n🍪\n🍪\n🍪\n🍪\n🍪",
+    "width": 320
+  },
+  {
+    "game": "boat",
+    "mode": "exam",
+    "clipped": [],
+    "overflow": false,
+    "sceneColor": "rgb(22, 52, 74)",
+    "text": "答：\n隻",
+    "width": 320
+  },
+  {
+    "game": "add",
+    "mode": "exam",
+    "clipped": [],
+    "overflow": false,
+    "sceneColor": "rgb(22, 52, 74)",
+    "text": "7 + 3 =",
+    "width": 320
+  },
+  {
+    "game": "ten",
+    "mode": "exam",
+    "clipped": [],
+    "overflow": false,
+    "sceneColor": "rgb(22, 52, 74)",
+    "text": "10\n5",
+    "width": 320
+  }
+]

@@ -1,0 +1,82 @@
+#math-island .isl-upper { background:#fffdf3; color:#173e50; border-radius:20px; padding:20px; min-width:0; }
+#math-island .isl-upper rt { color:#426372; }
+#math-island .isl-upper-diagram { display:grid; place-items:center; min-width:0; margin:8px auto 20px; width:100%; }
+#math-island .isl-math-svg { width:100%; max-width:500px; max-height:280px; overflow:visible; }
+#math-island .isl-upper-demo-prompt { font-size:19px; line-height:1.9; margin-bottom:16px; }
+#math-island .isl-math-place,#math-island .isl-math-money,#math-island .isl-math-quantities { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:10px; width:100%; }
+#math-island .isl-math-place > div { display:grid; text-align:center; border:1px solid #85aaa8; border-radius:10px; overflow:hidden; min-width:46px; }
+#math-island .isl-math-place small { padding:4px; background:#d9ece5; font-size:13px; }
+#math-island .isl-math-place b { font-size:30px; padding:8px; }
+#math-island .isl-upper .is-focus { outline:3px solid #cc683c; outline-offset:2px; }
+#math-island .isl-math-money > div { display:grid; place-items:center; gap:8px; padding:10px; }
+#math-island .isl-math-money > div > span { display:grid; place-items:center; min-width:64px; min-height:64px; border-radius:50%; border:3px solid #94712d; background:#f6dfa2; font-size:24px; font-weight:800; }
+#math-island .isl-math-money small { font-size:12px; }
+#math-island .isl-math-columns { text-align:right; font-size:32px; font-variant-numeric:tabular-nums; letter-spacing:.15em; min-width:140px; }
+#math-island .isl-math-columns > div { border-top:3px solid #173e50; padding:8px; }
+#math-island .isl-math-quantities > span { display:grid; gap:8px; padding:16px; background:#d9ece5; border-radius:14px; text-align:center; }
+#math-island .isl-math-quantities b { font-size:26px; overflow-wrap:anywhere; }
+#math-island .isl-math-quantities p { font-size:22px; overflow-wrap:anywhere; text-align:center; }
+#math-island .isl-math-groups { display:flex; flex-wrap:wrap; justify-content:center; gap:10px; }
+#math-island .isl-math-groups > div { padding:10px; border:2px solid #85aaa8; border-radius:12px; max-width:120px; }
+#math-island .isl-math-groups > div > div { display:flex; flex-wrap:wrap; gap:4px; margin-top:8px; }
+#math-island .isl-math-groups i { width:14px; height:14px; border-radius:50%; }
+#math-island .isl-math-groups > p { flex-basis:100%; font-size:15px; text-align:center; }
+#math-island .isl-math-fractions { width:100%; display:grid; gap:20px; }
+#math-island .isl-math-fractions p { font-size:16px; margin-bottom:10px; }
+#math-island .isl-math-wholes { display:inline-block; padding:12px; background:#bde5df; border-radius:12px; margin-bottom:10px; }
+#math-island .isl-math-fraction-bar { display:grid; border:2px solid #173e50; height:52px; background:#fff; }
+#math-island .isl-math-fraction-bar i { border-right:1px solid #173e50; }
+#math-island .isl-math-fraction-bar .filled,#math-island .isl-math-fraction-grid .filled { background:#167b91; }
+#math-island .isl-math-fraction-bar .filled { animation:isl-math-fill .4s ease both; }
+@keyframes isl-math-fill { from {opacity:.15;transform:scaleY(.2);} to {opacity:1;transform:scaleY(1);} }
+#math-island .isl-math-fraction-grid { width:100%; max-width:320px; display:grid; border:1px solid #173e50; }
+#math-island .isl-math-fraction-grid i { aspect-ratio:1; border:1px solid #8caeac; background:#fff; }
+#math-island .isl-math-fraction-grid .partial { background:#bde5df; }
+#math-island .isl-math-table { border-collapse:collapse; width:100%; max-width:360px; text-align:center; }
+#math-island .isl-math-table th,#math-island .isl-math-table td { border:1px solid #85aaa8; padding:10px; }
+#math-island .isl-math-table th { background:#d9ece5; }
+#math-island .isl-math-calendar { width:100%; max-width:360px; text-align:center; }
+#math-island .isl-math-calendar > div { display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); gap:3px; margin-top:12px; }
+#math-island .isl-math-calendar span { padding:5px 0; background:#e5eee6; border-radius:6px; }
+#math-island .isl-math-calendar .filled { background:#167b91; color:#fff; }
+#math-island .isl-math-pattern { display:flex; flex-wrap:wrap; gap:12px; justify-content:center; font-size:32px; }
+#math-island .isl-upper-work { padding:0; margin:16px 0; list-style:none; display:grid; gap:10px; }
+#math-island .isl-upper-work li { display:flex; align-items:flex-start; gap:10px; padding:12px; background:#e6efe6; border-radius:12px; font-size:17px; line-height:1.9; }
+#math-island .isl-upper-work li.current { border-left:4px solid #167b91; }
+#math-island .isl-upper-work li > span:first-child { flex:none; display:grid; place-items:center; width:26px; height:26px; border-radius:50%; background:#167b91; color:white; margin-top:4px; }
+#math-island .isl-upper-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; width:100%; margin-top:18px; }
+#math-island .isl-upper-option { display:flex; align-items:center; gap:10px; min-height:72px; min-width:0; padding:14px; background:#fff; color:#173e50; border:2px solid #80a5a2; border-radius:14px; font-size:22px; line-height:1.8; text-align:left; overflow-wrap:anywhere; }
+#math-island .isl-upper-option-number { flex:none; display:grid; place-items:center; width:26px; height:26px; border-radius:50%; background:#e5eee6; font-size:15px; }
+#math-island .isl-upper-option.right { background:#d9f0d9; border-color:#287849; }
+#math-island .isl-upper-option.wrong { background:#f9e2d7; border-color:#b95836; }
+#math-island .isl-upper-option:disabled { opacity:.7; }
+#math-island .isl-upper-option.right:disabled { opacity:1; }
+#math-island .isl-upper-explanation { margin-top:16px; padding:14px; background:#e5eee6; border-radius:12px; font-size:18px; line-height:1.9; }
+#math-island .isl-upper-tool { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:10px; width:100%; padding:12px; border:1px solid #80a5a2; border-radius:12px; font-size:16px; }
+#math-island .isl-upper-tool > .isl-zy { grid-column:1/-1; }
+#math-island .isl-upper-tool input { width:100%; min-width:0; height:48px; accent-color:#167b91; }
+#math-island .isl-math-highlight { filter:drop-shadow(0 0 3px #cc683c); }
+#math-island .isl-math-angle-ray,#math-island .isl-math-clock-hand { transition:x2 .35s ease,y2 .35s ease; }
+#math-island .isl-math-trace { stroke-dasharray:800; stroke-dashoffset:0; animation:isl-math-draw .7s ease both; }
+@keyframes isl-math-draw { from {stroke-dashoffset:800;} to {stroke-dashoffset:0;} }
+@media(max-width:520px) { #math-island .isl-upper { padding:14px 10px; } #math-island .isl-upper-options { grid-template-columns:minmax(0,1fr); } #math-island .isl-upper-option { font-size:20px; min-height:64px; } }
+@media(prefers-reduced-motion:reduce) { #math-island .isl-upper * { animation:none!important; transition:none!important; } }
+#math-island.reduced .isl-upper * { animation:none!important; transition:none!important; }
+#math-island .isl-stage .isl-scene.isl-upper { display:block; width:100%; padding:20px; }
+@media(max-width:600px) {
+  #math-island .isl-stage .isl-scene.isl-upper { padding:14px 10px; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-journey { padding:10px; gap:7px; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-journey-location { gap:8px; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-journey h2 { font-size:20px; line-height:1.4; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-journey-chapter { font-size:12px; gap:3px 7px; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-journey-place { display:none; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-change-island { min-height:52px; min-width:78px; font-size:15px; padding:6px 9px; gap:3px; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-journey-steps li { min-height:32px; padding:4px; gap:5px; font-size:13px; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-step-number { width:20px; height:20px; font-size:12px; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-question-status { font-size:16px; gap:6px; line-height:1.5; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-earned { font-size:12px; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-question-progress { height:6px; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-journey .isl-ability.compact { padding:0; margin:0; border:0; background:none; gap:4px; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-journey .isl-ability-heading { font-size:12px; line-height:1.5; }
+  #math-island:not([data-grade="1"]):not([data-grade="2"]) .isl-journey .isl-ability progress { height:5px; }
+}

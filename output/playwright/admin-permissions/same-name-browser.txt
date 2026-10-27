@@ -1,0 +1,12 @@
+### Result
+{"sameNamePendingIsolated":true,"pendingKeys":1,"privateReasonVisible":false}
+### Ran Playwright code
+```js
+await (async (page) => { await page.getByRole("textbox",{name:"鼓勵原因",exact:true}).fill("同名帳號隔離測試"); await page.getByRole("button",{name:"預覽發放",exact:true}).click(); await page.route("**/api/admin/tickets/grant",route=>route.abort(),{times:1}); await page.getByRole("button",{name:"確認發放",exact:true}).click(); await page.getByRole("alert").waitFor(); const keys=await page.evaluate(()=>Object.keys(sessionStorage).filter(k=>k.startsWith("star-tide-admin-pending-grant-v2:"))); await page.getByRole("button",{name:"登出",exact:true}).click(); await page.getByRole("textbox",{name:"管理員帳號",exact:true}).fill("qa_same_name"); await page.getByRole("textbox",{name:"密碼",exact:true}).fill("local-second-changed"); await page.getByRole("button",{name:"登入管理艙",exact:true}).click(); await page.locator(".admin-student").waitFor(); if(await page.getByRole("region",{name:"確認發放",exact:true}).count())throw Error("pending leaked to same name"); return {sameNamePendingIsolated:true,pendingKeys:keys.length,privateReasonVisible:(await page.locator("main").innerText()).includes("同名帳號隔離測試")}; })(page);
+```
+### Page
+- Page URL: http://127.0.0.1:4391/admin
+- Page Title: 星潮學院｜一起向星海出發
+- Console: 1 errors, 0 warnings
+### Events
+- New console entries: .playwright-cli/console-2026-10-25T15-23-31-090Z.log#L3

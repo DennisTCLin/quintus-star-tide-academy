@@ -1,0 +1,46 @@
+{
+  "off": {
+    "animation": "none",
+    "hp": "霧ㄨˋ潮ㄔㄠˊ獺ㄊㄚˋ稀ㄒㄧ有ㄧㄡˇ度ㄉㄨˋE級ㄐㄧˊLv.1星ㄒㄧㄥ光ㄍㄨㄤ突ㄊㄨˊ擊ㄐㄧˊ100 / 100ATK 22 · DEF 8赤ㄔˋ晶ㄐㄧㄥ幼ㄧㄡˋ像ㄒㄧㄤˋ稀ㄒㄧ有ㄧㄡˇ度ㄉㄨˋE級ㄐㄧˊLv.1火ㄏㄨㄛˇ屬ㄕㄨˇ性ㄒㄧㄥˋ · 初ㄔㄨ階ㄐㄧㄝ74 / 100ATK 22 · DEF 8",
+    "phase": "idle",
+    "playState": "running",
+    "reduced": true,
+    "section": {
+      "bottom": 456.5,
+      "height": 982,
+      "left": 12,
+      "right": 308,
+      "top": -525.5,
+      "width": 296,
+      "x": 12,
+      "y": -525.5
+    },
+    "stage": {
+      "bottom": -197.25,
+      "height": 260,
+      "left": 23,
+      "right": 297,
+      "top": -457.25,
+      "width": 274,
+      "x": 23,
+      "y": -457.25
+    }
+  },
+  "on": {
+    "animation": "duel-breathe",
+    "hp": "霧ㄨˋ潮ㄔㄠˊ獺ㄊㄚˋ稀ㄒㄧ有ㄧㄡˇ度ㄉㄨˋE級ㄐㄧˊLv.1星ㄒㄧㄥ光ㄍㄨㄤ突ㄊㄨˊ擊ㄐㄧˊ100 / 100ATK 22 · DEF 8赤ㄔˋ晶ㄐㄧㄥ幼ㄧㄡˋ像ㄒㄧㄤˋ稀ㄒㄧ有ㄧㄡˇ度ㄉㄨˋE級ㄐㄧˊLv.1火ㄏㄨㄛˇ屬ㄕㄨˇ性ㄒㄧㄥˋ · 初ㄔㄨ階ㄐㄧㄝ74 / 100ATK 22 · DEF 8",
+    "phase": "idle",
+    "playState": "running",
+    "reduced": false,
+    "stage": {
+      "bottom": 473.75,
+      "height": 260,
+      "left": 23,
+      "right": 297,
+      "top": 213.75,
+      "width": 274,
+      "x": 23,
+      "y": 213.75
+    }
+  }
+}

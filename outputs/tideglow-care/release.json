@@ -1,0 +1,29 @@
+{
+  "status": "released-and-verified",
+  "sourceCommit": "8898b301bbe0144ef03908af8d7a15047909bfee",
+  "runtimeCommit": "24d417eaae810332e327161ad2c7d3e4653929b8",
+  "baseline": "e59ad81 / cb4bb77 recovery",
+  "branch": "codex/tideglow-care-release",
+  "deployment": "7f087340-abf7-4e9c-bf97-b5b62f00aea2",
+  "deploymentStatus": "SUCCESS",
+  "entry": "/assets/index.v-BCZYdiSC.js",
+  "fullTests": {
+    "files": 91,
+    "passed": 696,
+    "skipped": 0,
+    "isolatedLocalDatabase": true,
+    "workers": 1
+  },
+  "build": "PASS",
+  "localBrowserChecks": 10,
+  "integratedBrowserChecks": 7,
+  "productionHealthAndHashChecks": 36,
+  "newKikiClips": 6,
+  "oldKikiClipsPreserved": 7,
+  "newArtBytes": 61096,
+  "newAudioBytes": 224142,
+  "physicalIpad": "Not tested on a physical device. Local Chromium viewport and synthetic microphone checks passed.",
+  "pronunciationAudio": "File decode and exact phrase mapping verified; no manual word-by-word listening review.",
+  "productionBrowser": "Read-only shell check of new entry, safe notice and zero video; existing authenticated page closed without gameplay or companion actions. No personal data retained.",
+  "verifiedAt": "2026-10-25T08:25:32.290273+00:00"
+}

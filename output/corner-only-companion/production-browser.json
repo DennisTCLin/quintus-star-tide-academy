@@ -1,0 +1,552 @@
+{
+  "checks": [
+    {
+      "engine": "webkit",
+      "mascot": "dog",
+      "viewport": [
+        320,
+        568
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "dog",
+      "viewport": [
+        390,
+        844
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "dog",
+      "viewport": [
+        820,
+        1180
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "dog",
+      "viewport": [
+        1024,
+        768
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "dog",
+      "viewport": [
+        1440,
+        900
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "dog",
+      "viewport": [
+        844,
+        390
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "bow",
+      "viewport": [
+        320,
+        568
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "bow",
+      "viewport": [
+        390,
+        844
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "bow",
+      "viewport": [
+        820,
+        1180
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "bow",
+      "viewport": [
+        1024,
+        768
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "bow",
+      "viewport": [
+        1440,
+        900
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "bow",
+      "viewport": [
+        844,
+        390
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "tideglow",
+      "viewport": [
+        320,
+        568
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "tideglow",
+      "viewport": [
+        390,
+        844
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "tideglow",
+      "viewport": [
+        820,
+        1180
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "tideglow",
+      "viewport": [
+        1024,
+        768
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "tideglow",
+      "viewport": [
+        1440,
+        900
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "webkit",
+      "mascot": "tideglow",
+      "viewport": [
+        844,
+        390
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "dog",
+      "viewport": [
+        320,
+        568
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "dog",
+      "viewport": [
+        390,
+        844
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "dog",
+      "viewport": [
+        820,
+        1180
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "dog",
+      "viewport": [
+        1024,
+        768
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "dog",
+      "viewport": [
+        1440,
+        900
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "dog",
+      "viewport": [
+        844,
+        390
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "bow",
+      "viewport": [
+        320,
+        568
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "bow",
+      "viewport": [
+        390,
+        844
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "bow",
+      "viewport": [
+        820,
+        1180
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "bow",
+      "viewport": [
+        1024,
+        768
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "bow",
+      "viewport": [
+        1440,
+        900
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "bow",
+      "viewport": [
+        844,
+        390
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "tideglow",
+      "viewport": [
+        320,
+        568
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "tideglow",
+      "viewport": [
+        390,
+        844
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "tideglow",
+      "viewport": [
+        820,
+        1180
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "tideglow",
+      "viewport": [
+        1024,
+        768
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "tideglow",
+      "viewport": [
+        1440,
+        900
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    },
+    {
+      "engine": "chromium",
+      "mascot": "tideglow",
+      "viewport": [
+        844,
+        390
+      ],
+      "normalDocumentScroll": true,
+      "noBottomStrip": true,
+      "transparentContainers": true,
+      "stableCornerAcrossScroll": true,
+      "navAndLastControlAccessible": true,
+      "panelFocusNoLayoutShift": true,
+      "keyboardAndInputFocus": true
+    }
+  ],
+  "dogImageAlpha": {
+    "transparentPixels": 127492,
+    "pixels": 230400
+  },
+  "apiFixtures": true,
+  "productionPlayerWrites": false,
+  "physicalIPad": false,
+  "pageErrors": []
+}

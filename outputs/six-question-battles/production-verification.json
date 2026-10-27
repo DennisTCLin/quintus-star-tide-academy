@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-24T18:07:47.606Z",
+  "sourceCommit": "9e94a19d4a55cc01f7381e82a05c25e6ef152dcf",
+  "deploymentId": "0f2db9f3-1906-4793-a02e-6a9dc330f3a9",
+  "deploymentStatus": "SUCCESS",
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "healthStatus": 200,
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "pageStatus": 200,
+  "expected": [
+    "/assets/index.v-HmM1-go6.js",
+    "/assets/index.v-Bv1UHPbu.css"
+  ],
+  "actual": [
+    "/assets/index.v-HmM1-go6.js",
+    "/assets/index.v-Bv1UHPbu.css"
+  ],
+  "assets": [
+    {
+      "asset": "/assets/index.v-HmM1-go6.js",
+      "status": 200,
+      "bytes": 725463,
+      "sha256": "f2a34b2e5191253cf686bc8c812e6295b90cc45adc2b41a5c0185b7755a34a4f",
+      "matchesLocal": true
+    },
+    {
+      "asset": "/assets/index.v-Bv1UHPbu.css",
+      "status": 200,
+      "bytes": 197987,
+      "sha256": "758855a3da92c2954ce7d10c4461715f890e1398b8b3f31aa6c5c4506346f5c1",
+      "matchesLocal": true
+    }
+  ],
+  "productionWrites": false,
+  "pass": true
+}

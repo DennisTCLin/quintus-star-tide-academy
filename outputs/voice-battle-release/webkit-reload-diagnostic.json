@@ -1,0 +1,10 @@
+{
+  "errors": [
+    {
+      "message": "/localhost:4293/api/state due to access control checks.",
+      "stack": "Fetch API cannot load http://localhost:4293/api/state due to access control checks.\n    at Je (http://localhost:4293/assets/index.v-BDtkWl8m.js:9:64105)\n    at _ (http://localhost:4293/assets/index.v-BDtkWl8m.js:9:65176)\n    at i (http://localhost:4293/assets/index.v-BDtkWl8m.js:9:65746)",
+      "name": "Fetch API cannot load http"
+    }
+  ],
+  "failed": []
+}

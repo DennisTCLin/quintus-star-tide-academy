@@ -1,0 +1,140 @@
+[
+  {
+    "file": "src/__tests__/admin-access.test.mjs",
+    "exitCode": 0,
+    "passed": 17,
+    "isolatedDatabase": "star_tide_jeremy_test_00_20261026"
+  },
+  {
+    "file": "src/__tests__/admin-console.test.mjs",
+    "exitCode": 0,
+    "passed": 16,
+    "isolatedDatabase": "star_tide_jeremy_test_01_20261026"
+  },
+  {
+    "file": "src/__tests__/admin-live-reports.test.mjs",
+    "exitCode": 0,
+    "passed": 10,
+    "isolatedDatabase": "star_tide_jeremy_test_02_20261026"
+  },
+  {
+    "file": "src/__tests__/capture-cloud.test.mjs",
+    "exitCode": 0,
+    "passed": 7,
+    "isolatedDatabase": "star_tide_jeremy_test_03_20261026"
+  },
+  {
+    "file": "src/__tests__/child-account.test.mjs",
+    "exitCode": 0,
+    "passed": 6,
+    "isolatedDatabase": "star_tide_jeremy_test_04_20261026"
+  },
+  {
+    "file": "src/__tests__/cloud.test.mjs",
+    "exitCode": 0,
+    "passed": 27,
+    "isolatedDatabase": "star_tide_jeremy_test_05_20261026"
+  },
+  {
+    "file": "src/__tests__/companion-voice-cloud.test.mjs",
+    "exitCode": 0,
+    "passed": 7,
+    "isolatedDatabase": "star_tide_jeremy_test_06_20261026"
+  },
+  {
+    "file": "src/__tests__/dragon-cloud.test.mjs",
+    "exitCode": 0,
+    "passed": 6,
+    "isolatedDatabase": "star_tide_jeremy_test_07_20261026"
+  },
+  {
+    "file": "src/__tests__/home-decor-cloud.test.mjs",
+    "exitCode": 0,
+    "passed": 3,
+    "isolatedDatabase": "star_tide_jeremy_test_08_20261026"
+  },
+  {
+    "file": "src/__tests__/island-api.test.mjs",
+    "exitCode": 0,
+    "passed": 6,
+    "isolatedDatabase": "star_tide_jeremy_test_09_20261026"
+  },
+  {
+    "file": "src/__tests__/mastered-cloud.test.mjs",
+    "exitCode": 0,
+    "passed": 1,
+    "isolatedDatabase": "star_tide_jeremy_test_10_20261026"
+  },
+  {
+    "file": "src/__tests__/online-battle.test.mjs",
+    "exitCode": 0,
+    "passed": 10,
+    "isolatedDatabase": "star_tide_jeremy_test_11_20261026"
+  },
+  {
+    "file": "src/__tests__/player-friends.test.mjs",
+    "exitCode": 0,
+    "passed": 7,
+    "isolatedDatabase": "star_tide_jeremy_test_12_20261026"
+  },
+  {
+    "file": "src/__tests__/player-logins.test.mjs",
+    "exitCode": 0,
+    "passed": 6,
+    "isolatedDatabase": "star_tide_jeremy_test_13_20261026"
+  },
+  {
+    "file": "src/__tests__/presence-history.test.mjs",
+    "exitCode": 0,
+    "passed": 10,
+    "isolatedDatabase": "star_tide_jeremy_test_14_20261026"
+  },
+  {
+    "file": "src/__tests__/presence.test.mjs",
+    "exitCode": 0,
+    "passed": 9,
+    "isolatedDatabase": "star_tide_jeremy_test_15_20261026"
+  },
+  {
+    "file": "src/__tests__/ready-screen-cloud.test.mjs",
+    "exitCode": 0,
+    "passed": 3,
+    "isolatedDatabase": "star_tide_jeremy_test_16_20261026"
+  },
+  {
+    "file": "src/__tests__/remediation-cloud.test.mjs",
+    "exitCode": 0,
+    "passed": 3,
+    "isolatedDatabase": "star_tide_jeremy_test_17_20261026"
+  },
+  {
+    "file": "src/__tests__/schema-migration.test.mjs",
+    "exitCode": 0,
+    "passed": 1,
+    "isolatedDatabase": "star_tide_jeremy_test_18_20261026"
+  },
+  {
+    "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+    "exitCode": 0,
+    "passed": 17,
+    "isolatedDatabase": "star_tide_jeremy_test_19_20261026"
+  },
+  {
+    "file": "src/__tests__/study-review-cloud.test.mjs",
+    "exitCode": 0,
+    "passed": 4,
+    "isolatedDatabase": "star_tide_jeremy_test_20_20261026"
+  },
+  {
+    "file": "src/__tests__/subject-islands-cloud.test.mjs",
+    "exitCode": 0,
+    "passed": 2,
+    "isolatedDatabase": "star_tide_jeremy_test_21_20261026"
+  },
+  {
+    "file": "src/__tests__/tiered-cloud.test.mjs",
+    "exitCode": 0,
+    "passed": 2,
+    "isolatedDatabase": "star_tide_jeremy_test_22_20261026"
+  }
+]

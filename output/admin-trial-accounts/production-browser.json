@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "check": "actual anonymous login portal",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "role": "super_admin",
+      "check": "published UI gate and form defaults",
+      "syntheticAdminApi": true,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "role": "staff",
+      "check": "published UI gate and form defaults",
+      "syntheticAdminApi": true,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "check": "actual anonymous login portal",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "role": "super_admin",
+      "check": "published UI gate and form defaults",
+      "syntheticAdminApi": true,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "role": "staff",
+      "check": "published UI gate and form defaults",
+      "syntheticAdminApi": true,
+      "pass": true
+    }
+  ],
+  "productionCreates": 0,
+  "physicalIPadTested": false
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "localhost Chromium-independent HTTP calls; local PostgreSQL, four isolated accounts; not production capacity guarantee",
+  "commands": 64,
+  "concurrentFamilies": 4,
+  "p50ms": 4.7924580000000105,
+  "p95ms": 5.922333000000094,
+  "maxMs": 6.301082999999949,
+  "familyStateBytes": 3935,
+  "territoryStateBytes": 307
+}

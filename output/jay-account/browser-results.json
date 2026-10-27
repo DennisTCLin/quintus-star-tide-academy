@@ -1,0 +1,25 @@
+{
+  "engine": "WebKit",
+  "grade": 5,
+  "onboardingCompleted": true,
+  "homeWidths": [
+    393,
+    834
+  ],
+  "noOverflow": true,
+  "mathIslandOnly": true,
+  "completedQuestions": [
+    "g5-warmup-common-multiple-2",
+    "g5-warmup-common-multiple-3",
+    "g5-warmup-common-multiple-4",
+    "g5-warmup-common-multiple-5",
+    "g5-warmup-common-multiple-6",
+    "g5-warmup-common-multiple-7"
+  ],
+  "status": "won",
+  "reloadPreserved": true,
+  "navigationCancellationMessages": [
+    "/127.0.0.1:47739/api/state due to access control checks.",
+    "/127.0.0.1:47739/api/state due to access control checks."
+  ]
+}

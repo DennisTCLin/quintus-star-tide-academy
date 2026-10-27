@@ -1,0 +1,70 @@
+- generic [ref=f1e12]:
+  - link "跳到主要內容" [ref=f1e13] [cursor=pointer]:
+    - /url: "#family-main"
+  - status [ref=f1e14]:
+    - generic [ref=f1e15]:
+      - text: sunny ·
+      - generic [ref=f1e442]: ☁
+      - text: 已儲存至雲端
+    - button "登出" [ref=f1e20] [cursor=pointer]
+  - main [ref=f1e95]:
+    - region "答題怪物戰鬥" [ref=f1e446]:
+      - generic [ref=f1e448]:
+        - generic [ref=f1e449]: ⚔️
+        - text: 答對就出招
+      - generic [ref=f1e453]:
+        - generic [ref=f1e455]:
+          - generic [ref=f1e456]:
+            - strong [ref=f1e457]: 潮光獸
+            - meter "夥伴生命" [ref=f1e458]
+            - generic [ref=f1e460]: 100 / 100
+          - generic [ref=f1e461]:
+            - strong [ref=f1e462]: 蕨尾靈螈
+            - meter "怪物體力" [ref=f1e463]
+            - generic [ref=f1e465]: 100 / 100
+        - img "潮光獸" [ref=f1e470]
+        - img "蕨尾靈螈" [ref=f1e475]
+      - status [ref=f1e476]: 每題只作答一次；答對攻擊，答錯或超時扣血。累計三錯就結束這場。
+      - group [ref=f1e477]:
+        - generic "夥伴成長與戰鬥說明" [ref=f1e478] [cursor=pointer]
+    - generic [ref=f1e479]:
+      - paragraph [ref=f1e480]: 初階挑戰 · 第 1 / 6 題
+      - heading "準備好了嗎？" [level=1] [ref=f1e481]
+      - strong [ref=f1e482]:
+        - generic [ref=f1e483]: 🎯
+        - text: 答對 4 / 6 題就贏
+      - paragraph [ref=f1e487]: 目前答對 0 題。
+      - paragraph [ref=f1e488]: ❤️ 答錯或超時三次，這場就結束。答對的星幣會保留。
+      - button "🔊 聽這場規則" [ref=f1e489] [cursor=pointer]:
+        - generic [ref=f1e490]: 🔊
+        - text: 聽這場規則
+      - group "選擇節奏" [ref=f1e494]:
+        - generic [ref=f1e496] [cursor=pointer]:
+          - radio "⏳ 限時挑戰" [checked] [ref=f1e497]
+          - text: ⏳ 限時挑戰
+        - generic [ref=f1e498] [cursor=pointer]:
+          - radio "🌱 慢慢想（不計時）" [ref=f1e499]
+          - generic [ref=f1e500]: 🌱
+          - text: 慢慢想（不計時）
+      - paragraph [ref=f1e504]: 每題先留讀題／聽題時間，再有 90 秒作答。離開畫面或重新整理，本題仍會計時。
+      - paragraph [ref=f1e505]: 1 年級 · 本場題目難度 1 / 3
+      - generic [ref=f1e506]:
+        - button "▶ 開始這題" [ref=f1e507] [cursor=pointer]:
+          - generic [ref=f1e508]: ▶
+          - text: 開始這題
+        - button "⛵ 回港口" [ref=f1e512] [cursor=pointer]:
+          - generic [ref=f1e513]: ⛵
+          - text: 回港口
+        - button "⏹ 結束這場" [ref=f1e517] [cursor=pointer]:
+          - generic [ref=f1e518]: ⏹
+          - text: 結束這場
+  - contentinfo [ref=f1e410]:
+    - generic [ref=f1e411]:
+      - img "星潮學院 Star Tide Academy — 星潮小龍" [ref=f1e412]:
+        - generic [aria-hidden] [ref=f1e413]:
+          - strong [ref=f1e414]: 星潮學院
+          - generic [ref=f1e415]: STAR TIDE ACADEMY
+      - generic [ref=f1e416]: Synthetic school QA
+    - generic [ref=f1e417]: 學習點數不扣除，休息後再一起出發。
+  - button "找潮光獸，摸摸或聊聊天" [ref=f1e523] [cursor=pointer]:
+    - generic [ref=f1e526]: 陪你一起學

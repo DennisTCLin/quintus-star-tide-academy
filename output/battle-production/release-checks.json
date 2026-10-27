@@ -1,0 +1,66 @@
+{
+  "at": "2026-10-26T04:49:21.134378+00:00",
+  "status": "deployed_and_verified",
+  "route": "Hyper Relay: root writer, read-only explorer and fresh verifier",
+  "originalMedia": {
+    "characters": 55,
+    "clips": 165,
+    "rosterNow": 185,
+    "otherCharacters": "Own art and elemental effects; no borrowed identities",
+    "newHiggsfieldCredits": 0
+  },
+  "surfaces": [
+    "learning",
+    "practice",
+    "CPU",
+    "same-device duo",
+    "online friends",
+    "battle quiz support"
+  ],
+  "rules": "Production server rules, schemas and progress unchanged",
+  "checks": {
+    "build": "PASS",
+    "unit": {
+      "passed": 776,
+      "skipped": 171,
+      "reason": "Database suites require explicit isolated database"
+    },
+    "targetedWithIsolatedDatabase": {
+      "passed": 32
+    },
+    "browser": [
+      "CPU three clips and CPU reply",
+      "320px reduced and failed media",
+      "quiz and practice HP at impact plus automatic next",
+      "ultimate completed before automatic next",
+      "monster counterattack original art",
+      "duo both sides and no stale video after handoff",
+      "online five moves on both clients with exactly one server turn each and unchanged learning",
+      "WebKit 820px playback and cleanup"
+    ],
+    "independentReview": "PASS after automatic-advance and numeric-key collision fixes"
+  },
+  "rollbackDeployment": "ef4eb2d4-90ee-4db3-b78f-2f6aca768d31",
+  "limitations": [
+    "No real physical phone/tablet tested",
+    "No real-player production battle or progress mutation during QA",
+    "130 newer creatures use existing effects, not new generated movies"
+  ],
+  "production": {
+    "url": "https://quintus-star-tide-academy-production.up.railway.app/",
+    "deploymentId": "7549683e-adde-4cf9-bc0d-ededbe718a43",
+    "railwayStatus": "SUCCESS",
+    "sourceCommit": "079da2d63989cd1e50ad7e17ccd83c6191cd80bd",
+    "health": 200,
+    "entryBundleHashesMatched": 4,
+    "clipsHeadAndRangeVerified": 165,
+    "posterHashesVerified": 165,
+    "fullVideoHashSamples": 3,
+    "existingAssetsRestoredAndHashVerified": 1363,
+    "releaseMethod": "Incremental CLI archive with recorded Docker restore wrapper; all original accepted videos unchanged",
+    "cliOutcome": "CLI connection response failed; inspected same deployment ID and confirmed subsequent BUILDING then SUCCESS; did not resubmit it",
+    "githubConnection": "Attempt refused repository access; no GitHub source authorization granted",
+    "runtimeReleaseFinished": true,
+    "verifiedAt": "2026-10-26T04:58:06.311703+00:00"
+  }
+}

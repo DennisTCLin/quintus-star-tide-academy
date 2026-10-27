@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "sourceRows": 373,
+  "newUniqueQuestions": 196,
+  "totalScienceQuestions": 326,
+  "sourcePagesReviewed": 23,
+  "focused": {
+    "files": 2,
+    "tests": 9,
+    "status": "PASS"
+  },
+  "fullSuite": {
+    "files": 118,
+    "tests": 857,
+    "initialPassed": 856,
+    "initialFailed": 1,
+    "failure": "Synthetic mastery fixture included 2 deduplicated non-surviving IDs. Fixed by filtering through questionById.",
+    "affectedSuiteRerun": {
+      "tests": 14,
+      "status": "PASS"
+    }
+  },
+  "build": "PASS",
+  "independentRuntimeReview": "science_runtime_verify; all findings fixed",
+  "deployment": "Pending integration by authorized coordinator; no production claim",
+  "limitations": [
+    "No teacher review",
+    "115 academic-year exam scope pending confirmation"
+  ]
+}

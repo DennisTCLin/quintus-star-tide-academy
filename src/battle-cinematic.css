@@ -1,0 +1,21 @@
+.battle-cinematic { position:absolute; inset:0; z-index:4; pointer-events:none; background:#061828; opacity:0; transition:opacity .16s ease; overflow:hidden; }
+.battle-cinematic.is-ready { opacity:1; }
+.battle-cinematic video { width:100%; height:100%; object-fit:contain; display:block; }
+.battle-cinematic.cinematic-settle { opacity:0; transition:opacity .5s ease; }
+.cinematic-name { position:absolute; bottom:12px; inset-inline:12px; text-align:center; font-size:clamp(15px,2.5vw,24px); font-weight:800; color:#fff3d7; text-shadow:0 2px 8px #001421; letter-spacing:.08em; }
+.duel-stage:has(.battle-cinematic.is-ready:not(.cinematic-settle)) .duel-combatant { z-index:5; }
+.duel-stage:has(.battle-cinematic.is-ready:not(.cinematic-settle)) .duel-body,
+.duel-stage:has(.battle-cinematic.is-ready:not(.cinematic-settle)) .duel-summon-circle,
+.duel-stage:has(.battle-cinematic.is-ready:not(.cinematic-settle)) .duel-charge { opacity:0; }
+.duel-stage:has(.battle-cinematic.is-ready) .duel-stage-title { opacity:0; }
+.quiz-stage .battle-cinematic { z-index:2; }
+.quiz-stage .quiz-hud { z-index:7; }
+@media (prefers-reduced-motion:reduce) { .battle-cinematic { display:none; } }
+
+/* Reviewed footage already contains the spell. Keep HUD and damage numbers,
+   but never stack the legacy SVG, rings or motes over that footage. */
+.duel-stage.has-cinematic .duel-effect-layer,
+.duel-stage.has-cinematic .duel-charge,
+.duel-stage.has-cinematic .duel-shield,
+.duel-stage.has-cinematic .duel-impact-ring,
+.duel-stage.has-cinematic .duel-mote { display:none; }

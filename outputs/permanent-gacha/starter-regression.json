@@ -1,0 +1,23 @@
+{
+  "base": "http://127.0.0.1:4240",
+  "fixtures": [
+    {
+      "player": "quintus",
+      "width": 1440,
+      "reduced": "no-preference",
+      "PASS": true
+    },
+    {
+      "player": "feifei",
+      "width": 320,
+      "reduced": "reduce",
+      "PASS": true
+    },
+    {
+      "player": "qingqing",
+      "width": 390,
+      "reduced": "reduce",
+      "PASS": true
+    }
+  ]
+}

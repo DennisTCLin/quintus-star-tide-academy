@@ -1,0 +1,68 @@
+{
+  "source": "origin/jeremy/exam-g1-trial@9911e59",
+  "baseline": "0f565b5",
+  "integratedLayout": "c46a752",
+  "independentVerifier": {
+    "suites": 8,
+    "tests": 100,
+    "result": "PASS"
+  },
+  "apiCases": 3,
+  "browserFlows": [
+    "count-lesson-complete-4-of-5",
+    "wrong-first-correction-no-extra-coins",
+    "reload-resume-question-2",
+    "help-persists",
+    "resume-boundary-demo",
+    "split-demo",
+    "boat-demo",
+    "six-question-progress",
+    "third-mistake-stops-with-honest-feedback",
+    "sound-question-countable-dots",
+    "gacha-entry-from-result",
+    "reduced-motion-none",
+    "guardian-keypad-selection-then-confirm",
+    "keypad-320-390-820-1024-1440"
+  ],
+  "realChildDataModified": false,
+  "physicalSafariAudio": "not verified",
+  "final_review_fixes": {
+    "challenge_questions": 6,
+    "max_mistakes": 3,
+    "guided_lesson_completion_reward": false,
+    "manual_speech_independent_of_auto": true,
+    "sound_question_visual_fallback": true,
+    "honest_failure_feedback": true,
+    "tests": {
+      "files": 64,
+      "passed": 528
+    },
+    "build": "PASS"
+  },
+  "initialFullSuite": {
+    "files": 63,
+    "tests": 521,
+    "result": "PASS"
+  },
+  "fullSuite": {
+    "files": 64,
+    "tests": 528,
+    "result": "PASS",
+    "runtime": "63e9ce9b8908a061fa4ef6ceac172d4764311314"
+  },
+  "integratedBattleSetup": "08c58d8 (cherry-picked as 63e9ce9)",
+  "release": {
+    "runtime": "63e9ce9b8908a061fa4ef6ceac172d4764311314",
+    "deployment": "a44bcfe5-4977-46d9-8fef-7b2e0ab3e5a0",
+    "status": "SUCCESS",
+    "health": 200,
+    "assetHashes": "46/46 match",
+    "proof": "production-verification.json",
+    "initialUpload502": "9e5bda0e-0955-4751-ae13-816795f9d371 automatically REMOVED"
+  },
+  "independentFinalReview": {
+    "challengeSequences": "448 content / 203 server probes reported PASS by coordinator",
+    "pronunciations": "203 shared phrases / 938 script segments / 10800 generated questions reported PASS",
+    "productionBrowser": "public login page, expected compiled entry, zero console errors; no real account modified"
+  }
+}

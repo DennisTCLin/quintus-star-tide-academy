@@ -1,0 +1,9 @@
+.safe-mode-notice, .app-recovery, .app-startup-status { color: #ecfbff; font-family: system-ui, sans-serif; }
+.safe-mode-notice { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 12px 20px; background: #12364c; border-bottom: 1px solid #8ce8df; }
+.safe-mode-notice a, .app-recovery-actions a, .app-recovery-actions button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 8px 16px; color: #082638; background: #a4f1e8; border: 0; border-radius: 12px; font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; }
+.safe-mode-notice a:focus-visible, .app-recovery-actions a:focus-visible, .app-recovery-actions button:focus-visible { outline: 3px solid #ffdb87; outline-offset: 4px; }
+.app-recovery { max-width: 640px; margin: 8vh auto; padding: 24px; background: #12364c; border-radius: 20px; line-height: 1.7; }
+.app-recovery h1 { color: inherit; }
+.app-startup-status { padding: 20px; text-align: center; }
+.app-recovery-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+html[data-safe-mode="true"] *, html[data-safe-mode="true"] *::before, html[data-safe-mode="true"] *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }

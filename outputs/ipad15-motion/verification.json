@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "base": "079da2d",
+  "route": "Hyper Relay",
+  "build": "PASS",
+  "fullSuite": {
+    "files": 132,
+    "tests": 953,
+    "isolatedPostgres": true
+  },
+  "browserChecks": 81,
+  "faultChecks": 13,
+  "integratedAssets": 24,
+  "integratedUiChecks": 9,
+  "independentReview": "PASS",
+  "physicalIPadOS1541": "UNKNOWN; unavailable",
+  "realStudentDataChanged": false
+}

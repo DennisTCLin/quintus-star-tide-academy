@@ -1,0 +1,43 @@
+{
+  "runtimeCommit": "5413c948b80a9ae906f3ba7b24feb06dcb8f66c9",
+  "deploymentId": "64607246-f850-43b7-93b7-4851d19da1db",
+  "deploymentStatus": "SUCCESS",
+  "checkedAt": "2026-10-25T00:55:37.217674+00:00",
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "health": 200,
+  "indexMatchesLocal": true,
+  "assets": [
+    {
+      "asset": "RoomEditor.v-CoIAYD9V.js",
+      "sha256": "0cb7fc58e654b0735e2927a1a121fdea82c0172d77e66652062c26e04caa5abe",
+      "bytes": 10629,
+      "matchesLocal": true
+    },
+    {
+      "asset": "TerritoryPage.v-XpGSXE-r.css",
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "bytes": 30002,
+      "matchesLocal": true
+    },
+    {
+      "asset": "TerritoryPage.v-eo1l1tYh.js",
+      "sha256": "8918c18558ce1d510fc738ad9276b2ea161ae068b3742ee5fc0269b8c63a8f9f",
+      "bytes": 35956,
+      "matchesLocal": true
+    },
+    {
+      "asset": "index.v-Bfyszyet.js",
+      "sha256": "3074e08fded18168777d083b64390ecb4ec4c17584911fc85f3d431ac63c7cfb",
+      "bytes": 670352,
+      "matchesLocal": true
+    },
+    {
+      "asset": "index.v-CeU7gHxp.css",
+      "sha256": "2d05f3f29e852b2b60328c188ead6abfb0cfb03acaaebd46d97e842f8d8f3b85",
+      "bytes": 233862,
+      "matchesLocal": true
+    }
+  ],
+  "browserEvidence": "production-browser.json",
+  "scope": "Live frontend with isolated API fixtures; no real player writes"
+}

@@ -1,0 +1,11 @@
+.answer-grid.with-choice-audio { grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr)); gap:12px; }
+.answer-option { display:grid; grid-template-columns:minmax(0,1fr) 80px; gap:10px; min-width:0; }
+.answer-grid .answer-option > button { width:100%; min-width:0; }
+.answer-grid .option-listen { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; padding:10px; background:#123e50; border-color:#6daeb8; color:#e9f7f3; }
+.answer-grid .option-listen span { font-size:30px; }
+.answer-grid .option-listen small { font-size:18px; }
+.answer-grid .option-answer-cue { display:block; font-size:16px; line-height:1.5; margin-top:8px; color:inherit; }
+.answer-option .choice-content { overflow-wrap:anywhere; }
+@media(max-width:400px) {
+ .answer-option { grid-template-columns:minmax(0,1fr) 64px; gap:8px; }
+}

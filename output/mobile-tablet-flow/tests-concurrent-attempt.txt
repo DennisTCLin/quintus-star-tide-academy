@@ -1,0 +1,49 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/feifei-photo/星潮網站開發
+
+ ❯ src/__tests__/readability.test.ts (13 tests | 1 failed) 5332ms
+   × keeps reviewed readings inside generated sentence entries after rebuilding 5324ms
+ ❯ src/__tests__/upper-math-server.test.ts (3 tests | 1 failed) 5671ms
+   ❯ All-grade authoritative math progress (3)
+     × finishes every unit and every stage with save/reload, hidden future answers and once-only rewards 5667ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/readability.test.ts > keeps reviewed readings inside generated sentence entries after rebuilding
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/__tests__/readability.test.ts:99:1
+     97| });
+     98|
+     99| it("keeps reviewed readings inside generated sentence entries after re…
+       | ^
+    100|   for (const [word, expected] of Object.entries(reviewedReadings.phras…
+    101|     expect(syllables(word).map(x => x.zy), word).toEqual(expected);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  src/__tests__/upper-math-server.test.ts > All-grade authoritative math progress > finishes every unit and every stage with save/reload, hidden future answers and once-only rewards
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/__tests__/upper-math-server.test.ts:12:3
+     10| const day='2026-10-26';
+     11| describe('All-grade authoritative math progress',()=>{
+     12|   it('finishes every unit and every stage with save/reload, hidden fut…
+       |   ^
+     13|     let family=newFamily();
+     14|     const id='qingqing',other=structuredClone(family.profiles.doudou);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  2 failed | 134 passed | 22 skipped (158)
+      Tests  2 failed | 918 passed | 181 skipped (1101)
+   Start at  13:02:05
+   Duration  12.87s (tests 52%, import 40%, transform 8%)
+
+    Isolate  158 workers spawned · ~95ms startup each (spawn + environment, per file)
+             at least ~1.06s faster with isolate: false — reuses workers across files instead of one per file

@@ -1,0 +1,59 @@
+{
+  "source": "073008e04ff6e8000fd22cc8aa534110baeebeba",
+  "deployment": "8661b4a6-2a34-48d7-9f24-5e6365421f98",
+  "railwayStatus": "SUCCESS",
+  "checkedAt": "2026-10-24T19:21:15.104247+00:00",
+  "http": {
+    "/": 200,
+    "/healthz": 200
+  },
+  "assets": [
+    {
+      "path": "/assets/index.v-t_CJJJcT.css",
+      "bytes": 226174,
+      "sha256": "728896aedd21ffdd9a807aeee8926479c44ce5be5c48994b515c70b74bf505b8",
+      "status": 200,
+      "actualSha256": "728896aedd21ffdd9a807aeee8926479c44ce5be5c48994b515c70b74bf505b8",
+      "matches": true
+    },
+    {
+      "path": "/assets/TerritoryPage.v-XpGSXE-r.css",
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "status": 200,
+      "actualSha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "matches": true
+    },
+    {
+      "path": "/assets/TerritoryPage.v-DhCiPnW1.js",
+      "bytes": 35956,
+      "sha256": "f2e88073d1f8b4bad415b72376d30e3fa655139a81f90b670f7d9cf459fb1a62",
+      "status": 200,
+      "actualSha256": "f2e88073d1f8b4bad415b72376d30e3fa655139a81f90b670f7d9cf459fb1a62",
+      "matches": true
+    },
+    {
+      "path": "/assets/RoomEditor.v-DSNT-eU1.js",
+      "bytes": 10629,
+      "sha256": "0b45b73f74d4544a8ba879db72be3f4367ed72656c092af5fd52eee8e11c4b2a",
+      "status": 200,
+      "actualSha256": "0b45b73f74d4544a8ba879db72be3f4367ed72656c092af5fd52eee8e11c4b2a",
+      "matches": true
+    },
+    {
+      "path": "/assets/index.v-Bs6WdTIz.js",
+      "bytes": 825587,
+      "sha256": "91755c4c991eb392a68a7b26f2edaaaba47419e42533b6d721a3d92ac6800a77",
+      "status": 200,
+      "actualSha256": "91755c4c991eb392a68a7b26f2edaaaba47419e42533b6d721a3d92ac6800a77",
+      "matches": true
+    }
+  ],
+  "allAssetsMatch": true,
+  "browser": {
+    "publicLoginRendered": true,
+    "script": "index.v-Bs6WdTIz.js",
+    "consoleErrors": 0,
+    "realChildDataUsed": false
+  }
+}

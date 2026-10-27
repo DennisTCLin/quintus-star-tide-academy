@@ -1,0 +1,175 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "motion": "idle",
+      "spriteDimensionsAndChangingFrames": "PASS"
+    },
+    {
+      "motion": "greet",
+      "spriteDimensionsAndChangingFrames": "PASS"
+    },
+    {
+      "motion": "pet",
+      "spriteDimensionsAndChangingFrames": "PASS"
+    },
+    {
+      "motion": "feed",
+      "spriteDimensionsAndChangingFrames": "PASS"
+    },
+    {
+      "motion": "play",
+      "spriteDimensionsAndChangingFrames": "PASS"
+    },
+    {
+      "motion": "highfive",
+      "spriteDimensionsAndChangingFrames": "PASS"
+    },
+    {
+      "motion": "bubbles",
+      "spriteDimensionsAndChangingFrames": "PASS"
+    },
+    {
+      "motion": "rest",
+      "spriteDimensionsAndChangingFrames": "PASS"
+    },
+    {
+      "motion": "listening",
+      "spriteDimensionsAndChangingFrames": "PASS"
+    },
+    {
+      "motion": "thinking",
+      "spriteDimensionsAndChangingFrames": "PASS"
+    },
+    {
+      "motion": "speaking",
+      "spriteDimensionsAndChangingFrames": "PASS"
+    },
+    {
+      "motion": "cheering",
+      "spriteDimensionsAndChangingFrames": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "motion": "idle",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "motion": "greet",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "motion": "pet",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "motion": "feed",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "motion": "play",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "motion": "highfive",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "motion": "bubbles",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "motion": "rest",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "motion": "listening",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "motion": "thinking",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "motion": "speaking",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "webkit",
+      "motion": "cheering",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "chromium",
+      "motion": "idle",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "chromium",
+      "motion": "greet",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "chromium",
+      "motion": "pet",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "chromium",
+      "motion": "feed",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "chromium",
+      "motion": "play",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "chromium",
+      "motion": "highfive",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "chromium",
+      "motion": "bubbles",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "chromium",
+      "motion": "rest",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "chromium",
+      "motion": "listening",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "chromium",
+      "motion": "thinking",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "chromium",
+      "motion": "speaking",
+      "decodedPlayback": "PASS"
+    },
+    {
+      "engine": "chromium",
+      "motion": "cheering",
+      "decodedPlayback": "PASS"
+    }
+  ],
+  "physicalIPad": false,
+  "websiteIntegration": false
+}

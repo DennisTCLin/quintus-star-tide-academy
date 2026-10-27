@@ -1,0 +1,25 @@
+{
+  "provider": "Higgsfield",
+  "index": 0,
+  "job_id": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8",
+  "status": "completed",
+  "type": "image",
+  "model": "gpt_image_2_5",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_082920_b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8.png",
+  "params": {
+    "model": "gpt_image_2_5",
+    "quality": "high",
+    "resolution": "1k",
+    "background": "opaque",
+    "aspect_ratio": "1:1",
+    "count": 1,
+    "medias": [
+      {
+        "role": "image",
+        "value": "2bc1df54-f0dd-42f3-940d-a5bc2666d2cc"
+      }
+    ],
+    "prompt": "Refine the SAME brown bow-wearing character in the reference into an even cuter version. Most important explicit change: BOTH EYES MUST BE PURE BLACK, solid deep black oval eyes with just one or two tiny white catchlights. No brown irises, no brown gradients inside eyes, no colored irises. Preserve the character identity and warm polished 2D hand-painted cartoon animation style. Make the body noticeably shorter and rounder, softly plump like a cuddly mochi, one unified head/body without neck. Eyes slightly wider apart and gently expressive, very tiny black button nose, tiny happy curved mouth, soft rosy rounded cheeks, a slight endearing head tilt. Shorter little arms and tiny feet, one little paw waving. Keep the large soft pink bow with a cyan-blue center knot, small triangular ears with pink interiors and a small orange accent on viewer-left ear tip. Preserve cocoa brown body and EXACTLY two asymmetrical buttery yellow patches: viewer-left mid-flank semicircle and viewer-right lower belly rounded patch. Orange-gold paw and foot tips stay. Charming child-friendly softness, subtly rounded ears, gentle clean dark brown outlines, smooth softly shaded warm painted colors and only very light paper texture. Not rough crayon strokes, not realistic fur, not plastic or glossy 3D. Full body centered, generous margins, warm ivory background and a very faint soft grounding shadow. One character only, no text, no new accessories. The result should look like the same beloved mascot, now rounder, sweeter and with unmistakably black eyes."
+  },
+  "image": "outputs/feifei-companion/feifei-character-v3.png"
+}

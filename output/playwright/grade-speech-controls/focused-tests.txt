@@ -1,0 +1,13 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/read-aloud-policy.test.ts src/__tests__/course-selection.test.ts src/__tests__/island-collection.test.ts src/__tests__/dragon-guide.test.ts src/__tests__/hero-carousel.test.ts
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/school-question-bank/星潮網站開發
+
+
+ Test Files  5 passed (5)
+      Tests  34 passed (34)
+   Start at  22:26:22
+   Duration  249ms (import 35%, transform 33%, tests 31%, worker 2%)
+

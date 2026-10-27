@@ -1,0 +1,50 @@
+{
+  "source": "386a7d29d6f3fe24b0ea9bc228d7f3fe08a80225",
+  "deployment": "3e9e8228-1945-4d20-8b1f-b3e27ca6ca9c",
+  "status": "SUCCESS",
+  "checkedAt": "2026-10-25T00:02:52.177276+00:00",
+  "assets": {
+    "index.v-DM_kJs13.css": {
+      "status": 200,
+      "bytes": 232387,
+      "sha256": "9e44fd7e4fe6d484a877c8f117da233604d020d7def4b2e15ba91bdf0084694a",
+      "match": true
+    },
+    "index.v-Bkz445wd.js": {
+      "status": 200,
+      "bytes": 668477,
+      "sha256": "5d5b4589b9e2da4f37b1f9c0eb449ab894f160ca500ed4d6f21943479b5a1e57",
+      "match": true
+    },
+    "RoomEditor.v-CHEEXrKp.js": {
+      "status": 200,
+      "bytes": 10629,
+      "sha256": "e91b464f812bec0c81510aa564b203b2f19d4ad07893d3225f876072594ef70b",
+      "match": true
+    },
+    "TerritoryPage.v-XpGSXE-r.css": {
+      "status": 200,
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "match": true
+    },
+    "TerritoryPage.v-Dss35ZCD.js": {
+      "status": 200,
+      "bytes": 35956,
+      "sha256": "23c4ed8be3d11772bc1866402f581746849b1a9533dacd28f6d8d19559c66651",
+      "match": true
+    }
+  },
+  "homepage": 200,
+  "entry": "index.v-Bkz445wd.js",
+  "expectedEntryPresent": true,
+  "health": 200,
+  "healthBody": "{\"ok\":true,\"service\":\"quintus-ocean-academy\"}",
+  "browser": {
+    "page": "public login",
+    "heading": "歡迎回到星潮",
+    "entry": "https://quintus-star-tide-academy-production.up.railway.app/assets/index.v-Bkz445wd.js",
+    "consoleErrors": 0,
+    "realChildLogin": false
+  }
+}

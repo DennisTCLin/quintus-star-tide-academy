@@ -1,0 +1,28 @@
+{
+  "victory": {
+    "fps": 8,
+    "size": 480,
+    "cellHeight": 270,
+    "columns": 4,
+    "perSheet": 16,
+    "frames": 32,
+    "sheets": [
+      "/assets/outcome-motion-v1/victory-0.jpg",
+      "/assets/outcome-motion-v1/victory-1.jpg"
+    ],
+    "duration": 4
+  },
+  "defeat": {
+    "fps": 8,
+    "size": 480,
+    "cellHeight": 270,
+    "columns": 4,
+    "perSheet": 16,
+    "frames": 32,
+    "sheets": [
+      "/assets/outcome-motion-v1/defeat-0.jpg",
+      "/assets/outcome-motion-v1/defeat-1.jpg"
+    ],
+    "duration": 4
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sourceRows": 104,
+  "publishers": {
+    "康軒": 59,
+    "翰林": 45
+  },
+  "build": "PASS",
+  "fullTests": {
+    "files": 102,
+    "tests": 756,
+    "result": "PASS",
+    "database": "isolated real PostgreSQL"
+  },
+  "independentReadOnlyReview": "PASS; 104 answers and source locators, publisher isolation and generic test scope checked",
+  "browser": {
+    "environment": "local isolated PostgreSQL with synthetic accounts only",
+    "alan": "Hanlin114 G1 source displayed; correct answer saved;320px no overflow",
+    "quintus": "Kang112 E2 source displayed; correct answer saved;390px no overflow"
+  },
+  "production": {
+    "status": "SUCCESS",
+    "deployment": "c16eb812-8bba-4dce-bd1d-578df05916fa",
+    "commit": "8a1eaf057c04f8ccc06dbe02d983bb5aec56ed1a",
+    "checks": "10 asset SHA256 matches; health200/ok; unauthenticated state401"
+  }
+}

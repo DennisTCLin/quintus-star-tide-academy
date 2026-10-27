@@ -1,0 +1,352 @@
+{
+  "runtime": "63e9ce9b8908a061fa4ef6ceac172d4764311314",
+  "deployment": "a44bcfe5-4977-46d9-8fef-7b2e0ab3e5a0",
+  "checkedAt": "2026-10-25T01:16:06.994063+00:00",
+  "base": "https://quintus-star-tide-academy-production.up.railway.app/",
+  "healthStatus": 200,
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "matched": 46,
+  "checked": 46,
+  "expected": 46,
+  "assets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 1142,
+      "sha256": "89b461b08d3eb82b7eb83632e997699738877b9161a987fd5ecf2a70f29b036f",
+      "matches": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-d9QN8XbB.js",
+      "status": 200,
+      "bytes": 36006,
+      "sha256": "c4be4068c2d07dd2d0042cfbac351f01f4d6bf82a4f4d3e9d13f014b23decefa",
+      "matches": true
+    },
+    {
+      "path": "assets/star-tide-dragon-apple-touch.png",
+      "status": 200,
+      "bytes": 42606,
+      "sha256": "463373196ccf81cf6bad8b67e6a1028f9017ba3e063b162980b2de8755687b72",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-companion-mobile-poster.jpg",
+      "status": 200,
+      "bytes": 100010,
+      "sha256": "6409dffc99d1f1ddb9d0ceb80c6584a276ec0c1bc630c3cbc3120cf4f0a0a985",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-meteor-mobile-poster.jpg",
+      "status": 200,
+      "bytes": 44595,
+      "sha256": "0dad3ea4bf98c8b84e2c5ebb92c4a459e4830d588d4c90faaadbe7f25ebe8a53",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-departure-desktop.mp4",
+      "status": 200,
+      "bytes": 1627792,
+      "sha256": "6749bb1f1bd57a4d996077f30bb30602a1fc6c30db818f075cda1c84fc4605e7",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-aurora-mobile-poster.jpg",
+      "status": 200,
+      "bytes": 41736,
+      "sha256": "504c93ef615978ee28ed6e26a99d6c150ce5b74bcdcbe461fdc32a96d42a515c",
+      "matches": true
+    },
+    {
+      "path": "assets/coralflare-companion.png",
+      "status": 200,
+      "bytes": 393782,
+      "sha256": "569ac509d10f2c80a0f31742d95ff4445d6ae5ca3ffc5d9cbb2bc21875ebd1b7",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-departure-mobile.mp4",
+      "status": 200,
+      "bytes": 1340040,
+      "sha256": "e4076f4c977007ce529103b9cd89111f1f6500f221c91a9892978a0032c29b54",
+      "matches": true
+    },
+    {
+      "path": "assets/index.v-WyQEizus.css",
+      "status": 200,
+      "bytes": 234459,
+      "sha256": "9ec12507fe92e80794b7a233ecccfe5b892c9c3a065be4fac7a69b4d8c86ed7e",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-meteor-mobile.mp4",
+      "status": 200,
+      "bytes": 680029,
+      "sha256": "e76d6f976d45639c77d00e8351dc965151205b9d2e149126b8274e29e493ee00",
+      "matches": true
+    },
+    {
+      "path": "assets/interface-zhuyin-packed.v-BUveLmTo.js",
+      "status": 200,
+      "bytes": 358940,
+      "sha256": "8984ea80728e44f4765a4682ab3a9522b97b39a55f53387c068b6ac06c76701a",
+      "matches": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-shield-mobile.mp4",
+      "status": 200,
+      "bytes": 2471987,
+      "sha256": "3d443ecdb05881f7942e7031f897b7bd5cd21d6b1cc5ace5518a312316d9bc51",
+      "matches": true
+    },
+    {
+      "path": "assets/index.v-B68F7zfN.js",
+      "status": 200,
+      "bytes": 340140,
+      "sha256": "ef8dbc78c29f8a0d5574901510c61fbd7e7e01d2115dd2b4e7572713b9090ec5",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-shield-mobile-poster.jpg",
+      "status": 200,
+      "bytes": 116361,
+      "sha256": "4ff330cf25fe128c3bfce6bcaa9ecacaaa5c7b36570ed65585ad0a848bf01c9f",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-shield-desktop-poster.jpg",
+      "status": 200,
+      "bytes": 98737,
+      "sha256": "729c8ec36fb1b775f3c1080be701f4f05e63f812d760c82e6ed010bf1521cb3a",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-companion-desktop.mp4",
+      "status": 200,
+      "bytes": 1153363,
+      "sha256": "59dee1235519959d8d7f0335d4cc953d2c3cbc6a4f9142551660981addee97e8",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-aurora-mobile.mp4",
+      "status": 200,
+      "bytes": 661838,
+      "sha256": "0cf4cf93574a86cfadba65c99341be3d9761e15b16f88e2b2315af20804f8686",
+      "matches": true
+    },
+    {
+      "path": "assets/star-tide-dragon.png",
+      "status": 200,
+      "bytes": 76461,
+      "sha256": "32aada42c8919c6274d4dab1ef253d4d1efc8c6a70497b1696c7af623b0e2522",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-departure-mobile-poster.jpg",
+      "status": 200,
+      "bytes": 78955,
+      "sha256": "66fc9e4bf8003e5f2ce61ba2b2f6569c92535cd4342763cf1c19f2cbda1b83a8",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-companion-desktop-poster.jpg",
+      "status": 200,
+      "bytes": 57526,
+      "sha256": "4d1747d34812f81a6439a05f5953bf3b24c10d1d4c2b5917a038eeecc72fa124",
+      "matches": true
+    },
+    {
+      "path": "assets/cloudsail-companion.png",
+      "status": 200,
+      "bytes": 534004,
+      "sha256": "e467c7f472c3cc1e665fe34584b1fffa9fd491ca86516c103f90f5391e5f6b50",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-aurora-desktop.mp4",
+      "status": 200,
+      "bytes": 1289586,
+      "sha256": "8aec5fc6f65ff8edc40c034bcc38d65b04890ef2b8968df166be97d6315c1070",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-starwhale-mobile.mp4",
+      "status": 200,
+      "bytes": 498040,
+      "sha256": "e13e2914497b07110ed52df3482b247585748027af92a3daed0afdfa773a982b",
+      "matches": true
+    },
+    {
+      "path": "assets/star-tide-dragon-icon-192.png",
+      "status": 200,
+      "bytes": 47366,
+      "sha256": "92645fa8ea9fccbe1d1d1871b1ebdfd9673e9ef54244a453d87879f40efd24ce",
+      "matches": true
+    },
+    {
+      "path": "assets/in-a-dreamworld.mp3",
+      "status": 200,
+      "bytes": 2779696,
+      "sha256": "d43ca2a743adbb87fb60dddd6a48ffc2def0af8a4faff345cb173ec9bc479db6",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-aurora-desktop-poster.jpg",
+      "status": 200,
+      "bytes": 80443,
+      "sha256": "bcfcb271eb12138b9a565b5982d09512259d7db8ad704caacfcffb5168129051",
+      "matches": true
+    },
+    {
+      "path": "assets/star-tide-dragon-icon-32.png",
+      "status": 200,
+      "bytes": 2576,
+      "sha256": "263b06ede3f043b069e81be4db58471054140e642fe638686e9e54208301faa3",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-shield-desktop.mp4",
+      "status": 200,
+      "bytes": 2409160,
+      "sha256": "5fab7031140166928a3a7bc4652c59ef24964becee33773738962df001848bb8",
+      "matches": true
+    },
+    {
+      "path": "assets/indie-air.mp3",
+      "status": 200,
+      "bytes": 2895457,
+      "sha256": "cf0cc6a17afcee9126ed5604485579c3f5212ebbb63d3cb548bd5de00b5e8b1b",
+      "matches": true
+    },
+    {
+      "path": "assets/tideglow-companion.png",
+      "status": 200,
+      "bytes": 257656,
+      "sha256": "ba59a555c79c034b592c12fa0a2f2d047a341ce69f2fbbb0fa6e6b0321eccf21",
+      "matches": true
+    },
+    {
+      "path": "assets/brand-icons.svg",
+      "status": 200,
+      "bytes": 20701,
+      "sha256": "ad3d52bb38d1e3ee902f7d2da7c9c8b8077d4a11fce9753ffe570980c3bab2e5",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-companion-mobile.mp4",
+      "status": 200,
+      "bytes": 1764195,
+      "sha256": "faa45de61aba599f8d45f139405de7bdd14ab41b942a9fae74a99e0a3e0de1ce",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-departure-desktop-poster.jpg",
+      "status": 200,
+      "bytes": 136877,
+      "sha256": "1e410a814e85a8275b905eb1e155e5b84065256026cda8ee7f8538116c63aa80",
+      "matches": true
+    },
+    {
+      "path": "assets/beat-lab.mp3",
+      "status": 200,
+      "bytes": 2893367,
+      "sha256": "c6e7efaf70a76dc652d2bf4c959b2ebcb45a311fde9297526b2a2567cafa08a6",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-starwhale-mobile-poster.jpg",
+      "status": 200,
+      "bytes": 33307,
+      "sha256": "1ddd92dba72c6677d0f50a4c1980bf0e3bf33b085b6c7fee33608fd8d38a2085",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-ocean.jpg",
+      "status": 200,
+      "bytes": 500026,
+      "sha256": "271d4c7822ea54fe8f29f1696978b1d3cc34b42588c688d6f1182f67db177834",
+      "matches": true
+    },
+    {
+      "path": "assets/IslandApp.v-C2zdfX0C.css",
+      "status": 200,
+      "bytes": 30389,
+      "sha256": "af720e980d2716e6735ee9a7858601fbc83a378f8b961aae0766501cf8acc810",
+      "matches": true
+    },
+    {
+      "path": "assets/RoomEditor.v-aM344Su6.js",
+      "status": 200,
+      "bytes": 10683,
+      "sha256": "1d96e2c0c1aa15d55ff48ee62d3b26b959f1fcbab56ad8d1dfeb4ad2b71179e0",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-starwhale-desktop-poster.jpg",
+      "status": 200,
+      "bytes": 66080,
+      "sha256": "1d8b5adb584f539a5c636edca2059225b810e0fefe5152b4c78245e269c81788",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-meteor-desktop.mp4",
+      "status": 200,
+      "bytes": 1294586,
+      "sha256": "525f809e36163364cf230c875ba13d681333d316632c5c32e2925d597b496dec",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-meteor-desktop-poster.jpg",
+      "status": 200,
+      "bytes": 81400,
+      "sha256": "c422cfd6c552036f4f33f05be18a8d3c983bb4eb540df34253175478d36cddfa",
+      "matches": true
+    },
+    {
+      "path": "assets/hero-starwhale-desktop.mp4",
+      "status": 200,
+      "bytes": 935455,
+      "sha256": "d80ef2b491bce7b1d91cfaf473665dce0fb564e891197c32442222bffb5a94bb",
+      "matches": true
+    },
+    {
+      "path": "assets/IslandApp.v-C2HfYlVA.js",
+      "matches": true,
+      "status": 200,
+      "bytes": 51330,
+      "sha256": "09bb12f42dc1adf9431e45936fe4315b5c9421cc10cf80ef87984ae5ab14f8c9"
+    },
+    {
+      "path": "assets/battle-music.mp3",
+      "matches": true,
+      "status": 200,
+      "bytes": 1601351,
+      "sha256": "6dd6833cd7a3cab4c44109324a2c44dc3069a522b7a91e9b5cf5dfa35a9e5f56"
+    }
+  ],
+  "transportRetries": [
+    {
+      "path": "assets/IslandApp.v-C2HfYlVA.js",
+      "initialError": "TimeoutError: The read operation timed out",
+      "retry": "curl",
+      "matches": true
+    },
+    {
+      "path": "assets/battle-music.mp3",
+      "initialError": "TimeoutError: The read operation timed out",
+      "retry": "curl",
+      "matches": true
+    }
+  ]
+}

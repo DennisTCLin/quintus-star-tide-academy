@@ -1,0 +1,287 @@
+{
+  "checkedAt": "2026-10-25T08:18:14.962Z",
+  "environment": "Local synthetic-family QA, in-app Chromium; viewport emulation, not physical iPad",
+  "checks": [
+    {
+      "name": "highfive completes once and celebrates",
+      "pass": true
+    },
+    {
+      "name": "bubbles complete in 3-1-2 order",
+      "pass": true
+    },
+    {
+      "name": "rest cancels bubble targets",
+      "pass": true
+    },
+    {
+      "check": "final keyboard highfive completes 1/1 and celebrates",
+      "pass": true
+    },
+    {
+      "check": "care-to-talk clears bubble targets",
+      "pass": true
+    },
+    {
+      "check": "synthetic microphone opens after care and stops on return to care",
+      "pass": true,
+      "tracks": [
+        1,
+        0
+      ]
+    },
+    {
+      "check": "paused star-ball game completes 3/3 with zero video",
+      "pass": true
+    },
+    {
+      "check": "close and reopen clears round and selection",
+      "pass": true
+    },
+    {
+      "check": "grade-one has six image buttons, no ruby, 60px bubble targets at 1024",
+      "pass": true
+    },
+    {
+      "check": "final progress distinguishes ☆☆☆, ★☆☆ and completed 3/3",
+      "pass": true
+    }
+  ],
+  "layouts": [
+    {
+      "buttons": [
+        {
+          "client": 128,
+          "height": 118,
+          "scroll": 128,
+          "width": 130
+        },
+        {
+          "client": 128,
+          "height": 118,
+          "scroll": 128,
+          "width": 130
+        },
+        {
+          "client": 128,
+          "height": 118,
+          "scroll": 128,
+          "width": 130
+        },
+        {
+          "client": 128,
+          "height": 118,
+          "scroll": 128,
+          "width": 130
+        },
+        {
+          "client": 126,
+          "height": 120,
+          "scroll": 126,
+          "width": 130
+        },
+        {
+          "client": 128,
+          "height": 120,
+          "scroll": 128,
+          "width": 130
+        }
+      ],
+      "document": 320,
+      "icons": true,
+      "panel": [
+        302,
+        302
+      ],
+      "viewport": 320
+    },
+    {
+      "buttons": [
+        {
+          "client": 105,
+          "height": 118,
+          "scroll": 105,
+          "width": 106.6640625
+        },
+        {
+          "client": 105,
+          "height": 118,
+          "scroll": 105,
+          "width": 106.6640625
+        },
+        {
+          "client": 105,
+          "height": 118,
+          "scroll": 105,
+          "width": 106.6640625
+        },
+        {
+          "client": 105,
+          "height": 120,
+          "scroll": 105,
+          "width": 106.6640625
+        },
+        {
+          "client": 103,
+          "height": 120,
+          "scroll": 103,
+          "width": 106.6640625
+        },
+        {
+          "client": 105,
+          "height": 120,
+          "scroll": 105,
+          "width": 106.6640625
+        }
+      ],
+      "document": 390,
+      "icons": true,
+      "panel": [
+        372,
+        372
+      ],
+      "viewport": 390
+    },
+    {
+      "buttons": [
+        {
+          "client": 106,
+          "height": 135.5,
+          "scroll": 106,
+          "width": 108.21875
+        },
+        {
+          "client": 106,
+          "height": 135.5,
+          "scroll": 106,
+          "width": 108.2265625
+        },
+        {
+          "client": 106,
+          "height": 135.5,
+          "scroll": 106,
+          "width": 108.2265625
+        },
+        {
+          "client": 106,
+          "height": 137.5,
+          "scroll": 106,
+          "width": 108.21875
+        },
+        {
+          "client": 104,
+          "height": 137.5,
+          "scroll": 104,
+          "width": 108.2265625
+        },
+        {
+          "client": 106,
+          "height": 137.5,
+          "scroll": 106,
+          "width": 108.2265625
+        }
+      ],
+      "document": 768,
+      "icons": true,
+      "panel": [
+        742,
+        742
+      ],
+      "viewport": 768
+    },
+    {
+      "buttons": [
+        {
+          "client": 144,
+          "height": 135.5,
+          "scroll": 144,
+          "width": 145.9375
+        },
+        {
+          "client": 144,
+          "height": 135.5,
+          "scroll": 144,
+          "width": 145.9375
+        },
+        {
+          "client": 144,
+          "height": 135.5,
+          "scroll": 144,
+          "width": 145.9375
+        },
+        {
+          "client": 144,
+          "height": 137.5,
+          "scroll": 144,
+          "width": 145.9375
+        },
+        {
+          "client": 142,
+          "height": 137.5,
+          "scroll": 142,
+          "width": 145.9375
+        },
+        {
+          "client": 144,
+          "height": 137.5,
+          "scroll": 144,
+          "width": 145.9375
+        }
+      ],
+      "document": 1024,
+      "icons": true,
+      "panel": [
+        958,
+        958
+      ],
+      "viewport": 1024
+    },
+    {
+      "buttons": [
+        {
+          "client": 144,
+          "height": 135.5,
+          "scroll": 144,
+          "width": 145.9375
+        },
+        {
+          "client": 144,
+          "height": 135.5,
+          "scroll": 144,
+          "width": 145.9375
+        },
+        {
+          "client": 144,
+          "height": 135.5,
+          "scroll": 144,
+          "width": 145.9375
+        },
+        {
+          "client": 144,
+          "height": 137.5,
+          "scroll": 144,
+          "width": 145.9375
+        },
+        {
+          "client": 142,
+          "height": 137.5,
+          "scroll": 142,
+          "width": 145.9375
+        },
+        {
+          "client": 144,
+          "height": 137.5,
+          "scroll": 144,
+          "width": 145.9375
+        }
+      ],
+      "document": 1440,
+      "icons": true,
+      "panel": [
+        958,
+        958
+      ],
+      "viewport": 1440
+    }
+  ]
+}

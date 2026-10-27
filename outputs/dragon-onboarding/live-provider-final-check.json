@@ -1,0 +1,59 @@
+{
+  "at": "2026-10-25T06:21:27.308Z",
+  "rows": [
+    {
+      "choice": "sea",
+      "milliseconds": 1061,
+      "result": {
+        "line": "大海和海浪很美，可以一起看看小魚喔！",
+        "reply": "ready",
+        "variant": "warm"
+      }
+    },
+    {
+      "choice": "nervous",
+      "milliseconds": 764,
+      "result": {
+        "line": "不用急，慢慢休息，我們一起看看大海和小魚。",
+        "reply": "nervous",
+        "variant": "warm"
+      }
+    },
+    {
+      "choice": "help",
+      "milliseconds": 1044,
+      "result": {
+        "line": "我們可以一起試試點選圖片和耳朵，聽聽聲音喔！",
+        "reply": "help",
+        "variant": "warm"
+      }
+    },
+    {
+      "choice": "rest",
+      "milliseconds": 1033,
+      "result": {
+        "line": "休息一下，我們可以看看美麗的大海和海浪。",
+        "reply": "rest",
+        "variant": "warm"
+      }
+    },
+    {
+      "choice": "sky",
+      "milliseconds": 1010,
+      "result": {
+        "line": "天空和雲朵很美麗，我們可以一起看看吧！",
+        "reply": "ready",
+        "variant": "warm"
+      }
+    },
+    {
+      "choice": "friend",
+      "milliseconds": 1088,
+      "result": {
+        "line": "小龍和你一起看看大海和海浪，真美麗！",
+        "reply": "friend",
+        "variant": "warm"
+      }
+    }
+  ]
+}

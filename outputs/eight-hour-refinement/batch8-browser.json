@@ -1,0 +1,731 @@
+{
+  "startedAt": "2026-10-24T21:02:06.271Z",
+  "checks": [
+    {
+      "case": "before-answer",
+      "panels": 0
+    },
+    {
+      "label": "open-start4",
+      "added": 0,
+      "animation": [],
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 50,
+          "label": "停止並收起解說",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "再加一顆星星",
+          "w": 572
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "重新數一次",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "聽目前的數量",
+          "w": 56
+        }
+      ],
+      "overflow": false,
+      "panel": {
+        "bottom": 1051.296875,
+        "height": 340,
+        "left": 43,
+        "right": 777,
+        "top": 711.296875,
+        "width": 734,
+        "x": 43,
+        "y": 711.296875
+      },
+      "stars": 4,
+      "total": "4",
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "label": "double-tap-two-steps",
+      "added": 2,
+      "animation": [
+        {
+          "duration": "0.28s",
+          "name": "count-on-join"
+        },
+        {
+          "duration": "0.28s",
+          "name": "count-on-join"
+        }
+      ],
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 50,
+          "label": "停止並收起解說",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "再加一顆星星",
+          "w": 572
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "重新數一次",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "聽目前的數量",
+          "w": 56
+        }
+      ],
+      "overflow": false,
+      "panel": {
+        "bottom": 825.296875,
+        "height": 344,
+        "left": 43,
+        "right": 777,
+        "top": 481.296875,
+        "width": 734,
+        "x": 43,
+        "y": 481.296875
+      },
+      "stars": 6,
+      "total": "6",
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "label": "double-tap-reaches-eight-cap",
+      "added": 4,
+      "animation": [
+        {
+          "duration": "0.28s",
+          "name": "count-on-join"
+        },
+        {
+          "duration": "0.28s",
+          "name": "count-on-join"
+        },
+        {
+          "duration": "0.28s",
+          "name": "count-on-join"
+        },
+        {
+          "duration": "0.28s",
+          "name": "count-on-join"
+        }
+      ],
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 50,
+          "label": "停止並收起解說",
+          "w": 56
+        },
+        {
+          "disabled": true,
+          "h": 65,
+          "label": "再加一顆星星",
+          "w": 572
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "重新數一次",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "聽目前的數量",
+          "w": 56
+        }
+      ],
+      "overflow": false,
+      "panel": {
+        "bottom": 821.296875,
+        "height": 344,
+        "left": 43,
+        "right": 777,
+        "top": 477.296875,
+        "width": 734,
+        "x": 43,
+        "y": 477.296875
+      },
+      "stars": 8,
+      "total": "8",
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "label": "one-step-viewport",
+      "added": 1,
+      "animation": [
+        {
+          "duration": "0.28s",
+          "name": "count-on-join"
+        }
+      ],
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 50,
+          "label": "停止並收起解說",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "再加一顆星星",
+          "w": 112
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "重新數一次",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "聽目前的數量",
+          "w": 56
+        }
+      ],
+      "overflow": false,
+      "panel": {
+        "bottom": 861.09375,
+        "height": 298,
+        "left": 31,
+        "right": 289,
+        "top": 563.09375,
+        "width": 258,
+        "x": 31,
+        "y": 563.09375
+      },
+      "stars": 5,
+      "total": "5",
+      "viewport": [
+        320,
+        740
+      ]
+    },
+    {
+      "label": "one-step-viewport",
+      "added": 1,
+      "animation": [
+        {
+          "duration": "0.28s",
+          "name": "count-on-join"
+        }
+      ],
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 50,
+          "label": "停止並收起解說",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "再加一顆星星",
+          "w": 354
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "重新數一次",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "聽目前的數量",
+          "w": 56
+        }
+      ],
+      "overflow": false,
+      "panel": {
+        "bottom": 369.8984375,
+        "height": 340,
+        "left": 439.453125,
+        "right": 955.453125,
+        "top": 29.8984375,
+        "width": 516,
+        "x": 439.453125,
+        "y": 29.8984375
+      },
+      "stars": 5,
+      "total": "5",
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "label": "one-step-viewport",
+      "added": 1,
+      "animation": [
+        {
+          "duration": "0.28s",
+          "name": "count-on-join"
+        }
+      ],
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 50,
+          "label": "停止並收起解說",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "再加一顆星星",
+          "w": 334.3671875
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "重新數一次",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "聽目前的數量",
+          "w": 56
+        }
+      ],
+      "overflow": false,
+      "panel": {
+        "bottom": 511.296875,
+        "height": 340,
+        "left": 888.625,
+        "right": 1384.9921875,
+        "top": 171.296875,
+        "width": 496.3671875,
+        "x": 888.625,
+        "y": 171.296875
+      },
+      "stars": 5,
+      "total": "5",
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "label": "one-step-viewport",
+      "added": 1,
+      "animation": [
+        {
+          "duration": "0.28s",
+          "name": "count-on-join"
+        }
+      ],
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 50,
+          "label": "停止並收起解說",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "再加一顆星星",
+          "w": 572
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "重新數一次",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "聽目前的數量",
+          "w": 56
+        }
+      ],
+      "overflow": false,
+      "panel": {
+        "bottom": 821.296875,
+        "height": 340,
+        "left": 43,
+        "right": 777,
+        "top": 481.296875,
+        "width": 734,
+        "x": 43,
+        "y": 481.296875
+      },
+      "stars": 5,
+      "total": "5",
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "label": "polls-preserve-one-step",
+      "added": 1,
+      "animation": [
+        {
+          "duration": "0.28s",
+          "name": "count-on-join"
+        }
+      ],
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 50,
+          "label": "停止並收起解說",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "再加一顆星星",
+          "w": 572
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "重新數一次",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "聽目前的數量",
+          "w": 56
+        }
+      ],
+      "overflow": false,
+      "panel": {
+        "bottom": 821.296875,
+        "height": 340,
+        "left": 43,
+        "right": 777,
+        "top": 481.296875,
+        "width": 734,
+        "x": 43,
+        "y": 481.296875
+      },
+      "stars": 5,
+      "total": "5",
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "case": "close",
+      "panels": 0
+    },
+    {
+      "label": "reopen-reset",
+      "added": 0,
+      "animation": [],
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 50,
+          "label": "停止並收起解說",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "再加一顆星星",
+          "w": 572
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "重新數一次",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "聽目前的數量",
+          "w": 56
+        }
+      ],
+      "overflow": false,
+      "panel": {
+        "bottom": 1051.296875,
+        "height": 340,
+        "left": 43,
+        "right": 777,
+        "top": 711.296875,
+        "width": 734,
+        "x": 43,
+        "y": 711.296875
+      },
+      "stars": 4,
+      "total": "4",
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "case": "subtraction-settled-hidden",
+      "panels": 0
+    },
+    {
+      "label": "third-wrong-result-phone",
+      "added": 1,
+      "animation": [
+        {
+          "duration": "0.28s",
+          "name": "count-on-join"
+        }
+      ],
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 50,
+          "label": "停止並收起解說",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "再加一顆星星",
+          "w": 116
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "重新數一次",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "聽目前的數量",
+          "w": 56
+        }
+      ],
+      "overflow": false,
+      "panel": {
+        "bottom": 678.1953125,
+        "height": 298,
+        "left": 29,
+        "right": 291,
+        "top": 380.1953125,
+        "width": 262,
+        "x": 29,
+        "y": 380.1953125
+      },
+      "stars": 5,
+      "total": "5",
+      "viewport": [
+        320,
+        740
+      ]
+    },
+    {
+      "case": "failure-recovery-works",
+      "panelCount": 0,
+      "heading": "5 + 5 = ?"
+    },
+    {
+      "label": "sixth-correct-pending-reduced",
+      "added": 2,
+      "animation": [
+        {
+          "duration": "0s",
+          "name": "none"
+        },
+        {
+          "duration": "0s",
+          "name": "none"
+        }
+      ],
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 50,
+          "label": "停止並收起解說",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "再加一顆星星",
+          "w": 116
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "重新數一次",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "聽目前的數量",
+          "w": 56
+        }
+      ],
+      "overflow": false,
+      "panel": {
+        "bottom": 413.5390625,
+        "height": 298,
+        "left": 29,
+        "right": 291,
+        "top": 115.5390625,
+        "width": 262,
+        "x": 29,
+        "y": 115.5390625
+      },
+      "stars": 3,
+      "total": "3",
+      "viewport": [
+        320,
+        740
+      ]
+    },
+    {
+      "label": "pending-poll-retains-step2",
+      "added": 2,
+      "animation": [
+        {
+          "duration": "0s",
+          "name": "none"
+        },
+        {
+          "duration": "0s",
+          "name": "none"
+        }
+      ],
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 50,
+          "label": "停止並收起解說",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "再加一顆星星",
+          "w": 116
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "重新數一次",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "聽目前的數量",
+          "w": 56
+        }
+      ],
+      "overflow": false,
+      "panel": {
+        "bottom": 413.5390625,
+        "height": 298,
+        "left": 29,
+        "right": 291,
+        "top": 115.5390625,
+        "width": 262,
+        "x": 29,
+        "y": 115.5390625
+      },
+      "stars": 3,
+      "total": "3",
+      "viewport": [
+        320,
+        740
+      ]
+    },
+    {
+      "label": "reward-revision-retains-step2",
+      "added": 2,
+      "animation": [
+        {
+          "duration": "0s",
+          "name": "none"
+        },
+        {
+          "duration": "0s",
+          "name": "none"
+        }
+      ],
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 50,
+          "label": "停止並收起解說",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "再加一顆星星",
+          "w": 116
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "重新數一次",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 65,
+          "label": "聽目前的數量",
+          "w": 56
+        }
+      ],
+      "overflow": false,
+      "panel": {
+        "bottom": -509.9609375,
+        "height": 298,
+        "left": 29,
+        "right": 291,
+        "top": -807.9609375,
+        "width": 262,
+        "x": 29,
+        "y": -807.9609375
+      },
+      "stars": 3,
+      "total": "3",
+      "viewport": [
+        320,
+        740
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "note": "Isolated localhost QA account only. Active 4+4 wrong, 9−7 wrong, 4+5 third wrong. Recovery clicked. Validated local fixture placed six existing addition IDs at question6 to test pending reward; other QA profiles checked unchanged. Final1+8 answered via browser; demo remained step2 after normal polls and reward revision. No production children accessed."
+}

@@ -1,0 +1,12 @@
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/monster-expansion/星潮網站開發
+
+
+ Test Files  98 passed (98)
+      Tests  739 passed (739)
+   Start at  19:44:44
+   Duration  51.39s (tests 91%, import 7%, transform 1%)
+
+    Isolate  98 workers spawned · ~52ms startup each (spawn + environment, per file)
+             at least ~5.03s faster with isolate: false — reuses workers across files instead of one per file
+

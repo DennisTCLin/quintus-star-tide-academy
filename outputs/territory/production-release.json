@@ -1,0 +1,45 @@
+{
+  "base": "https://quintus-star-tide-academy-production.up.railway.app",
+  "commit": "444af84",
+  "deployment": "a93dde47-4b4c-4c6a-b522-5e18bb14bac7",
+  "health": "{\"ok\":true,\"service\":\"quintus-ocean-academy\"}",
+  "allAssetsByteIdentical": true,
+  "assets": [
+    {
+      "path": "assets/TerritoryPage.v-BtGJ8UWL.js",
+      "bytes": 21418,
+      "sha256": "f6bb05b1fe6cbcb507e449bbcb92b8c6424131c2b453c14d576fb058a4e2ea88",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/index.v-BU0jIIe_.js",
+      "bytes": 519641,
+      "sha256": "31a30499462f5a193fa182e0a05f5612c6e8e70647a38f42f6efb090af9df2e7",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/TerritoryPage.v-5PgLoXkm.css",
+      "bytes": 18226,
+      "sha256": "97cf594f72cf99e717ea7e6664d6105f718bc63d4e98897c5c51e34d42f1755e",
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "assets/index.v-DRg_K7un.css",
+      "bytes": 168752,
+      "sha256": "03e3ec74ce6ae74d002d33c16277e425f0a4b0542631cde61845e8a874be5fc3",
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "assets/territory/island.webp",
+      "bytes": 401812,
+      "sha256": "fa392c927fa6c72a5a46c4638bee13e078b067e768245eb3efdc6162d7a5c972",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/territory/buildings.webp",
+      "bytes": 782792,
+      "sha256": "6544c389049a687be978f3fb8604dfcf45ac2530be341cb73ba0c5594bdf57cd",
+      "contentType": "image/webp"
+    }
+  ]
+}

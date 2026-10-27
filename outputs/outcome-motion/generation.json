@@ -1,0 +1,52 @@
+{
+  "provider": "Higgsfield",
+  "model": "seedance1_5",
+  "quotedCreditsEach": 4.8,
+  "quotedTotal": 9.6,
+  "duration": 4,
+  "role": "Shared outcome VFX background; actual run companion composited by the application, not generated into the footage.",
+  "jobs": [
+    {
+      "kind": "victory",
+      "job_id": "22e29e59-2dee-45dd-b942-31c6680439cb",
+      "status": "completed",
+      "params": {
+        "model": "seedance1_5",
+        "duration": 4,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/battle/star-ocean-arena.webp?v=d5313dbf88a8"
+          }
+        ],
+        "prompt": "A four-second magical victory celebration VFX background for a premium child-friendly fantasy learning game. Keep the reference moonlit teal ocean arena and fixed camera perfectly consistent. No characters, creatures, people, text, letters, logos, UI or numbers. At 0-1 second warm golden light traces the outer circular stone platform; at 1-3 seconds elegant golden star-shaped motes and turquoise ribbons gently rise around the left and right frame edges, forming a radiant laurel-like arc; at 3-4 seconds sparkles settle into a calm warm glow. Keep the central 40 percent of the composition empty and low contrast to overlay an existing companion character. No rapid flashes, explosions, shake or zoom. Luminous deep navy, turquoise, pale gold; refined storybook 3D game illustration, joyful and welcoming."
+      },
+      "output_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_061201_22e29e59-2dee-45dd-b942-31c6680439cb.mp4"
+    },
+    {
+      "kind": "defeat",
+      "job_id": "2257cb66-6c48-42ec-8b7d-35a51a9d34f6",
+      "status": "completed",
+      "params": {
+        "model": "seedance1_5",
+        "duration": 4,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/battle/star-ocean-arena.webp?v=d5313dbf88a8"
+          }
+        ],
+        "prompt": "A four-second gentle recovery VFX background after an unsuccessful challenge in a premium child-friendly fantasy learning game. Keep the reference moonlit turquoise ocean arena and fixed camera exactly consistent, same stone platform and horizon. No characters, people, creatures, text, letters, logos, numbers or UI. At 0-1 seconds the warm arena light gently dims, never black; at 1-3 seconds a soft turquoise and lavender ring of reassuring light slowly gathers around the outer platform with a few drifting particles, like a safe resting sanctuary; at 3-4 seconds it settles into a peaceful steady glow with a small warm ray of hope from the horizon. Keep the central 40 percent empty and low contrast for overlaying an existing companion. Calm rather than triumphant, no starburst/confetti/fireworks, no frightening elements or harsh red, no rapid flashes/shake/zoom. Refined storybook 3D fantasy game illustration."
+      },
+      "output_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_061202_2257cb66-6c48-42ec-8b7d-35a51a9d34f6.mp4"
+    }
+  ]
+}

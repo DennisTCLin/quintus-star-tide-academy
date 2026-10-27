@@ -1,0 +1,4 @@
+<!doctype html><html><meta name="viewport" content="width=device-width,initial-scale=1"><body><div id="root" style="width:320px;height:320px"></div><script type="module">
+import React from 'react';import{createRoot}from'react-dom/client';import Actor from '/src/TideglowActor.tsx';import '/src/tideglow-companion.css';
+const root=createRoot(document.getElementById('root'));window.showMotion=motion=>root.render(React.createElement(Actor,{mascot:'bow',motion,reduced:false,nonce:Date.now()}));window.showMotion('idle');
+</script></body></html>

@@ -1,0 +1,34 @@
+{
+  "checks": [
+    {
+      "check": "safe entry has no video and has recovery exit",
+      "pass": true
+    },
+    {
+      "check": "safe mode highfive completes with zero video",
+      "pass": true
+    },
+    {
+      "check": "safe care to synthetic mic starts exactly one track",
+      "pass": true
+    },
+    {
+      "check": "return to care releases mic and all safe videos remain absent",
+      "pass": true
+    },
+    {
+      "check": "safe exit returns to normal mode with videos",
+      "pass": true
+    },
+    {
+      "check": "normal mode care to synthetic mic has one track and no stale targets",
+      "pass": true
+    },
+    {
+      "check": "closing normal mode mic releases track",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "environment": "Chromium at 768x1024, synthetic family/microphone; not physical iPad"
+}

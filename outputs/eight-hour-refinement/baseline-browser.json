@@ -1,0 +1,23 @@
+{
+  "case": "grade-one-tablet-baseline",
+  "url": "http://localhost:4276",
+  "viewport": {
+    "width": 820,
+    "height": 1180
+  },
+  "home": {
+    "scrollWidth": 820,
+    "scrollHeight": 3760,
+    "continueButtonY": 1553,
+    "heroContinueY": 2063,
+    "firstCourseY": 2512
+  },
+  "activeChallenge": {
+    "questionPanelY": 1052,
+    "firstAnswerY": 1548,
+    "scrollHeight": 2282
+  },
+  "interpretation": "Learning start/resume and answers are below first viewport; this is layout evidence, not a child usability study. Existing settled answer buttons correctly disabled.",
+  "screenshot": "outputs/eight-hour-refinement/baseline-grade-one-tablet-home.png",
+  "hardware": "Desktop browser with viewport override; not real iPad performance."
+}

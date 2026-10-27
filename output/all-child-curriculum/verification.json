@@ -1,0 +1,27 @@
+{
+  "status": "PASS_NO_PRODUCT_ROUTING_DEFECT_FOUND",
+  "baseline": "b13d8aa",
+  "runtimeSource": "d800dc7027fd28c4acec6b2816a34879f9f9a6a1",
+  "confirmedChildren": 10,
+  "suppliedSubjectLanes": 42,
+  "completeVoyageAnswers": 252,
+  "battleQuestionAnswers": 42,
+  "legacyPracticeAnswers": 30,
+  "unitPassed": 945,
+  "databaseGatedSkippedInUnitRun": 213,
+  "isolatedDatabasePassed": 20,
+  "independentUnitPassed": 10,
+  "productChanges": [],
+  "preservation": "State/login overlay leaves every stored family field/value unchanged; old voyage includes answered question and advancement; all original/new mastery retained; other profiles exactly preserved; coins/tickets retained; historical practice awards neither coins nor tickets.",
+  "knownLimits": [
+    "Current roster/program behavior validated, not actual production database identities or slots; no SSH key created",
+    "Publisher routing does not certify all school exam units; existing English legacy-compatible scope remains unchanged",
+    "Brownie English excluded"
+  ],
+  "coverageAdded": "Olivia doudou was absent from older API suite; now covered explicitly without treating generic grade1 provisioning default qingqing as her identity.",
+  "fixtureCorrections": [
+    "Existing synthetic grade6 voyage is allocated with school then saved without school for overlay check; grade6 has no generic fallback",
+    "Untimed direct-start voyage answers without readyQuestion, which requires timed challenge"
+  ],
+  "rollback": "No runtime/schema/source question changes; tests and evidence only. Existing xingan validator, PR8 banks, PR14 cloud fix and corner-only companion retained."
+}

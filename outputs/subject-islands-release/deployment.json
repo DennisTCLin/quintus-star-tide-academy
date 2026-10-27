@@ -1,0 +1,147 @@
+{
+  "verifiedAt": "2026-10-25T05:50:48.556425+00:00",
+  "sourceCommit": "416c82535568db37cecbee1084fb2694ae0fc656",
+  "deployment": "b879f0e7-df55-4625-930c-0263fd9d02b3",
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "healthStatus": 200,
+  "indexMatchesLocal": true,
+  "assets": [
+    {
+      "path": "/assets/RoomEditor.v-Bb24qlCb.js",
+      "status": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "bytes": 10674,
+      "sha256": "a42f06e7ba60d438e6a2d961c4b526e797a6a755c94b198dd103cb9ab4ad8ddb",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/IslandApp.v-BJBdgdUu.js",
+      "status": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "bytes": 56115,
+      "sha256": "314443fd1961e801a048724d3a8e1ce86f109bdf60bddab949dfa726177295c3",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/index.v-DO3HH_Wc.js",
+      "status": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "bytes": 345099,
+      "sha256": "cb3a48d7214d3172b0f510c02e8f5b8c892b8413b5de5962126ad3e64ab39477",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/game-view.v-BW5rtuk2.js",
+      "status": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "bytes": 369161,
+      "sha256": "050e3d891ec0c37fcb9f0a5ca15eb03a53900ad2ebda5679367d0df94cc68f60",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/TerritoryPage.v-D9eIvx_T.js",
+      "status": 200,
+      "mime": "text/javascript; charset=utf-8",
+      "bytes": 36027,
+      "sha256": "3771b554c8889fb04e49b4e94d4710a425b02889a8808f94d0ef1566e761141c",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "mime": "text/css; charset=utf-8",
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/index.v-DxNBvfLU.css",
+      "status": 200,
+      "mime": "text/css; charset=utf-8",
+      "bytes": 239084,
+      "sha256": "b130e453ed562f170be4b2a6f50d76f13d71236ddcf04125e861b936dbfcc99e",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/IslandApp.v-DEHy44tm.css",
+      "status": 200,
+      "mime": "text/css; charset=utf-8",
+      "bytes": 35464,
+      "sha256": "60127c8e1aa188f1684e3cde524cf82696326a6da1d816464a2fea42fb465720",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/game-view.v-CNifi8gA.css",
+      "status": 200,
+      "mime": "text/css; charset=utf-8",
+      "bytes": 973,
+      "sha256": "18d7f1eb99c0d8ff50deeead3888d21938085cdc4b3cc105556e79a6c5abb894",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/subject-islands/wood.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 120400,
+      "sha256": "ddf13dff284bfa027bd8b92ab255748baa726465ffbbc15200d21a5b4593c9a6",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/subject-islands/water.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 128064,
+      "sha256": "c3fae02e502f8886d6c46765c3414afeb165b4d5145af222f36a244c50054a05",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/subject-islands/earth.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 113124,
+      "sha256": "7494861e6e2a984a12d2e63331ccc17cf74dbe4c567666ab519eda5252fae6a6",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/subject-islands/panorama.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 321578,
+      "sha256": "0dfb692c6ea0b1e4ab64a3126e8448411037ba4a4735ea3bc155b5bd196ae02e",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/subject-islands/fire.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 132120,
+      "sha256": "681e046bd503f99bdd758687c8362b66e31936f1e8f1241a7d3b8a75628bb16a",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/subject-islands/metal.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "bytes": 109832,
+      "sha256": "6e953fc1d0ed8dd68a6c6be6c7bd6c4a5f1462fcd323b1582126a22aa5c0ab3c",
+      "matchesLocal": true
+    }
+  ],
+  "tests": {
+    "files": 73,
+    "passed": 598,
+    "skipped": 0,
+    "independentTargetedPassed": 49
+  },
+  "authenticatedProductionGameplayTested": false,
+  "physicalIpadTested": false,
+  "railwayStatus": "SUCCESS",
+  "productionBrowser": {
+    "existingAuthenticatedSession": true,
+    "readOnlyHarborChecked": true,
+    "allFiveIslandImagesLoaded": true,
+    "existingMathRunContinuationVisible": true,
+    "consoleErrors": 0,
+    "screenshot": "production-islands.png"
+  }
+}

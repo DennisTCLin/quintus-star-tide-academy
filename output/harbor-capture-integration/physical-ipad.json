@@ -1,0 +1,14 @@
+{
+  "status": "passed-human-confirmed-icons",
+  "device": "iPad Air 13-inch (M3)",
+  "iPadOS": "26.5.2",
+  "observed": "ErrorBoundary immediately after login on HTTP LAN preview",
+  "reproducedCause": "crypto.randomUUID unavailable outside secure contexts",
+  "desktopWebKitLANAfterFix": "PASS: login reaches harbor; native randomUUID remains unavailable",
+  "preview": "frozen integration build plus cryptographic UUID fallback on LAN4374",
+  "simulatedWebKitIsNotPhysicalEvidence": true,
+  "publicationBlocked": false,
+  "physicalRetest": "User confirms 聽說明 and cloud icons both render completely on the corrected preview",
+  "confirmedDate": "2026-10-27 Asia/Taipei",
+  "releaseNote": "Physical icon gate cleared; full integration release still requires upstream readiness and final merge checks."
+}

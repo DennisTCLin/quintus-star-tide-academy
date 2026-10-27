@@ -1,0 +1,161 @@
+{
+  "actions": [
+    [
+      "highfive",
+      "The fox-dragon raises one front paw with the paw pad facing the viewer, reaches toward an illustrated friendly human hand entering from the lower right, makes a clear single high-five palm contact with a tiny golden sparkle, then lowers the paw. The palm contact is the central action. NOT waving hello. Keep the other three paws stable. The human hand exits after contact."
+    ],
+    [
+      "bubbles",
+      "The fox-dragon holds a small turquoise bubble wand in one front paw, brings its round ring close to its mouth, visibly puckers and blows through it. Three large translucent rainbow soap bubbles emerge from the wand and float up; the creature watches them with delight. Clearly BLOWING SOAP BUBBLES, no balls, no batting or catching. Other paws remain stable."
+    ],
+    [
+      "rest",
+      "Within the first second the fox-dragon lowers its body and lies down comfortably on the carpet with front paws tucked under its chin, curls its luminous tail around its body, closes BOTH EYES fully, and STAYS ASLEEP for the rest of the shot. Slow visible belly breathing, ears relaxed. Keep eyes closed, no waking, no standing up, no greeting. Calm restful sleeping pose held for at least the final three seconds."
+    ]
+  ],
+  "requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          }
+        ],
+        "prompt": "The fox-dragon raises one front paw with the paw pad facing the viewer, reaches toward an illustrated friendly human hand entering from the lower right, makes a clear single high-five palm contact with a tiny golden sparkle, then lowers the paw. The palm contact is the central action. NOT waving hello. Keep the other three paws stable. The human hand exits after contact. Preserve EXACTLY the turquoise fox-dragon identity, cream muzzle/chest, gold star pendant, large fin ears, four paws and one luminous curled tail, and the ornate golden castle room/carpet and painterly 3D illustration style in the reference. Locked camera, unchanged framing and scale, entire body and tail within frame. No camera zoom, cuts, text, logos, extra limbs or extra characters except a hand when explicitly requested. Silent five-second readable action."
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          }
+        ],
+        "prompt": "The fox-dragon holds a small turquoise bubble wand in one front paw, brings its round ring close to its mouth, visibly puckers and blows through it. Three large translucent rainbow soap bubbles emerge from the wand and float up; the creature watches them with delight. Clearly BLOWING SOAP BUBBLES, no balls, no batting or catching. Other paws remain stable. Preserve EXACTLY the turquoise fox-dragon identity, cream muzzle/chest, gold star pendant, large fin ears, four paws and one luminous curled tail, and the ornate golden castle room/carpet and painterly 3D illustration style in the reference. Locked camera, unchanged framing and scale, entire body and tail within frame. No camera zoom, cuts, text, logos, extra limbs or extra characters except a hand when explicitly requested. Silent five-second readable action."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          }
+        ],
+        "prompt": "Within the first second the fox-dragon lowers its body and lies down comfortably on the carpet with front paws tucked under its chin, curls its luminous tail around its body, closes BOTH EYES fully, and STAYS ASLEEP for the rest of the shot. Slow visible belly breathing, ears relaxed. Keep eyes closed, no waking, no standing up, no greeting. Calm restful sleeping pose held for at least the final three seconds. Preserve EXACTLY the turquoise fox-dragon identity, cream muzzle/chest, gold star pendant, large fin ears, four paws and one luminous curled tail, and the ornate golden castle room/carpet and painterly 3D illustration style in the reference. Locked camera, unchanged framing and scale, entire body and tail within frame. No camera zoom, cuts, text, logos, extra limbs or extra characters except a hand when explicitly requested. Silent five-second readable action."
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "18d6452f-fcde-49d7-9247-1c97bfa60ad3"
+    },
+    {
+      "index": 1,
+      "job_id": "30de9fcc-37d8-4b77-9f3c-c50af1488812"
+    },
+    {
+      "index": 2,
+      "job_id": "f5373833-95f2-4aa3-a0d1-c83d8e23af6d"
+    }
+  ],
+  "estimatedCredits": 22.5,
+  "completed": [
+    {
+      "index": 0,
+      "job_id": "18d6452f-fcde-49d7-9247-1c97bfa60ad3",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_043458_18d6452f-fcde-49d7-9247-1c97bfa60ad3.mp4"
+    },
+    {
+      "index": 1,
+      "job_id": "30de9fcc-37d8-4b77-9f3c-c50af1488812",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_043458_30de9fcc-37d8-4b77-9f3c-c50af1488812.mp4"
+    },
+    {
+      "index": 2,
+      "job_id": "f5373833-95f2-4aa3-a0d1-c83d8e23af6d",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_043458_f5373833-95f2-4aa3-a0d1-c83d8e23af6d.mp4"
+    }
+  ],
+  "restTrimSeconds": 2,
+  "assets": [
+    {
+      "path": "public/assets/tideglow-guide/actions-v2/bubbles.jpg",
+      "bytes": 76465,
+      "sha256": "97575433fc884e665131c809e72c015ca22299bf72ee059c80162ef3c6a341e8"
+    },
+    {
+      "path": "public/assets/tideglow-guide/actions-v2/bubbles.mp4",
+      "bytes": 648887,
+      "sha256": "3a3d816577952f9c4f5035bbda408c399197129b85fa3dea1ace89fe1c35ec1d"
+    },
+    {
+      "path": "public/assets/tideglow-guide/actions-v2/feed.jpg",
+      "bytes": 88629,
+      "sha256": "6bf51a217f4fd0948e5f74348e5c70be8261412a83e242102f64b8b6ae721afb"
+    },
+    {
+      "path": "public/assets/tideglow-guide/actions-v2/highfive.jpg",
+      "bytes": 76937,
+      "sha256": "2d034654ea38a174a198d5e3444e7685c557d71ba0d2514a810ebb3d378e4099"
+    },
+    {
+      "path": "public/assets/tideglow-guide/actions-v2/highfive.mp4",
+      "bytes": 735727,
+      "sha256": "d142c8e2d56540e9a241716c9df378279e11a6f0f2335a0fc5b8ae14e8987fa1"
+    },
+    {
+      "path": "public/assets/tideglow-guide/actions-v2/pet.jpg",
+      "bytes": 86221,
+      "sha256": "e4957e9149e97f94b1ac4b5e996b771e28cee165a26005da3680d07eabb9daa3"
+    },
+    {
+      "path": "public/assets/tideglow-guide/actions-v2/play.jpg",
+      "bytes": 82345,
+      "sha256": "69ca80eadbbdf5877152a1523d9add4be90a6b6e4234ca2c32152f0cbf36c2b7"
+    },
+    {
+      "path": "public/assets/tideglow-guide/actions-v2/rest.jpg",
+      "bytes": 72797,
+      "sha256": "d3b9e05808c3305c6314bfaf87b5947de690beb97d8e655f78e914446e6c44e3"
+    },
+    {
+      "path": "public/assets/tideglow-guide/actions-v2/rest.mp4",
+      "bytes": 610007,
+      "sha256": "6dfcb64fb40392c44266a2e34bfd4730a50bf3d5cea8ac68040a56663224a961"
+    }
+  ]
+}

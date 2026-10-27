@@ -1,0 +1,167 @@
+{
+  "voice": "Kiki",
+  "pitchProcessing": false,
+  "clips": [
+    {
+      "index": 0,
+      "name": "welcome",
+      "params": {
+        "model": "seed_audio",
+        "voice_id": "2d51d9d0-b2a4-5e8b-9c63-f310adafd5f7",
+        "voice_type": "preset",
+        "prompt": "你好，我是潮光獸！點點我的頭，或選一個圖案吧。",
+        "format": "mp3",
+        "pitch_rate": 0,
+        "speech_rate": 0,
+        "loudness_rate": 0
+      },
+      "job_id": "078b6051-c4eb-4323-98a1-237f188abba5",
+      "status": "completed",
+      "type": "audio",
+      "model": "seed_audio",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_074104_078b6051-c4eb-4323-98a1-237f188abba5.mp3",
+      "sha256": "4ae13602645c4fc4bc80eeef8affc57180e77524b98324d2416cbce171123e68",
+      "bytes": 52269,
+      "duration": 6.456,
+      "path": "public/assets/tideglow-voice/kiki-20261025/welcome.mp3"
+    },
+    {
+      "index": 1,
+      "name": "microphone",
+      "params": {
+        "model": "seed_audio",
+        "voice_id": "2d51d9d0-b2a4-5e8b-9c63-f310adafd5f7",
+        "voice_type": "preset",
+        "prompt": "按麥克風，和我分享今天的事吧。",
+        "format": "mp3",
+        "pitch_rate": 0,
+        "speech_rate": 0,
+        "loudness_rate": 0
+      },
+      "job_id": "7b8e2b42-3ce3-4266-804a-914a1fb19c8a",
+      "status": "completed",
+      "type": "audio",
+      "model": "seed_audio",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_074104_7b8e2b42-3ce3-4266-804a-914a1fb19c8a.mp3",
+      "sha256": "bf3f9e4f4d822b567a716d942647d2855aa9871a2fad2c64d0687ba89de43189",
+      "bytes": 47469,
+      "duration": 5.856,
+      "path": "public/assets/tideglow-voice/kiki-20261025/microphone.mp3"
+    },
+    {
+      "index": 2,
+      "name": "pet",
+      "params": {
+        "model": "seed_audio",
+        "voice_id": "2d51d9d0-b2a4-5e8b-9c63-f310adafd5f7",
+        "voice_type": "preset",
+        "prompt": "輕輕摸摸，好舒服！",
+        "format": "mp3",
+        "pitch_rate": 0,
+        "speech_rate": 0,
+        "loudness_rate": 0
+      },
+      "job_id": "21ffe57f-c1c6-459b-bfec-c6e6ee0b0b07",
+      "status": "completed",
+      "type": "audio",
+      "model": "seed_audio",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_074104_21ffe57f-c1c6-459b-bfec-c6e6ee0b0b07.mp3",
+      "sha256": "9f5d8eece659c7121047502241bc48513c42534af62bd921c3a6c281152ae29b",
+      "bytes": 28269,
+      "duration": 3.456,
+      "path": "public/assets/tideglow-voice/kiki-20261025/pet.mp3"
+    },
+    {
+      "index": 3,
+      "name": "feed",
+      "params": {
+        "model": "seed_audio",
+        "voice_id": "2d51d9d0-b2a4-5e8b-9c63-f310adafd5f7",
+        "voice_type": "preset",
+        "prompt": "星星點心，慢慢吃。",
+        "format": "mp3",
+        "pitch_rate": 0,
+        "speech_rate": 0,
+        "loudness_rate": 0
+      },
+      "job_id": "ab25a34b-8d03-456f-bafc-30b3393970af",
+      "status": "completed",
+      "type": "audio",
+      "model": "seed_audio",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_074104_ab25a34b-8d03-456f-bafc-30b3393970af.mp3",
+      "sha256": "12cf7c4beef3642d28a2ab31ee7e8385c00eeaf1676a276b9443c9210c960187",
+      "bytes": 25773,
+      "duration": 3.144,
+      "path": "public/assets/tideglow-voice/kiki-20261025/feed.mp3"
+    },
+    {
+      "index": 4,
+      "name": "play",
+      "params": {
+        "model": "seed_audio",
+        "voice_id": "2d51d9d0-b2a4-5e8b-9c63-f310adafd5f7",
+        "voice_type": "preset",
+        "prompt": "接到了！星光球又亮起來了。",
+        "format": "mp3",
+        "pitch_rate": 0,
+        "speech_rate": 0,
+        "loudness_rate": 0
+      },
+      "job_id": "03829e71-e210-462f-98d2-67095188dbee",
+      "status": "completed",
+      "type": "audio",
+      "model": "seed_audio",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_074104_03829e71-e210-462f-98d2-67095188dbee.mp3",
+      "sha256": "89884b964fdfc0e8c8c92e1ed3979a6076cdd42776ce18235204b9535e582b28",
+      "bytes": 32301,
+      "duration": 3.96,
+      "path": "public/assets/tideglow-voice/kiki-20261025/play.mp3"
+    },
+    {
+      "index": 5,
+      "name": "cheer",
+      "params": {
+        "model": "seed_audio",
+        "voice_id": "2d51d9d0-b2a4-5e8b-9c63-f310adafd5f7",
+        "voice_type": "preset",
+        "prompt": "三顆星星都亮了！這一小局完成，謝謝你陪我玩。",
+        "format": "mp3",
+        "pitch_rate": 0,
+        "speech_rate": 0,
+        "loudness_rate": 0
+      },
+      "job_id": "ec28802f-68ee-4cdd-88f4-a771255eccc7",
+      "status": "completed",
+      "type": "audio",
+      "model": "seed_audio",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_074104_ec28802f-68ee-4cdd-88f4-a771255eccc7.mp3",
+      "sha256": "f18ced4fd9f7ec0b4169cd8345475b9f2e2c1a31c9de3b0b95b4a138fc0ae52a",
+      "bytes": 52269,
+      "duration": 6.456,
+      "path": "public/assets/tideglow-voice/kiki-20261025/cheer.mp3"
+    },
+    {
+      "index": 6,
+      "name": "rest",
+      "params": {
+        "model": "seed_audio",
+        "voice_id": "2d51d9d0-b2a4-5e8b-9c63-f310adafd5f7",
+        "voice_type": "preset",
+        "prompt": "休息一下也很棒，準備好再回來。",
+        "format": "mp3",
+        "pitch_rate": 0,
+        "speech_rate": 0,
+        "loudness_rate": 0
+      },
+      "job_id": "e040b413-81c2-47ed-aa25-85695e5b43c1",
+      "status": "completed",
+      "type": "audio",
+      "model": "seed_audio",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_074142_e040b413-81c2-47ed-aa25-85695e5b43c1.mp3",
+      "sha256": "226a2b10b788253dddefb380f5d93113d72e5d6504f636a22313e730588a38cb",
+      "bytes": 39405,
+      "duration": 4.848,
+      "path": "public/assets/tideglow-voice/kiki-20261025/rest.mp3"
+    }
+  ]
+}

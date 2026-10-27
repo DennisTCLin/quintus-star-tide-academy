@@ -1,0 +1,79 @@
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: max-content;
+  max-width: 100%;
+  text-align: left;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+.brand-logo .brand-logo-mark {
+  display: block;
+  width: 64px;
+  height: 64px;
+  flex: none;
+  object-fit: contain;
+}
+.brand-logo .brand-wordmark {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  white-space: nowrap;
+}
+.brand-logo .brand-name {
+  color: #effaff;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: .12em;
+}
+.brand-logo .brand-english {
+  color: #c5e4f2;
+  font-size: 8px;
+  letter-spacing: .18em;
+}
+.brand-logo .brand-tagline {
+  margin-top: 2px;
+  padding-top: 5px;
+  border-top: 1px solid #d8bd7a80;
+  color: #dcebf2;
+  font-size: 9px;
+  letter-spacing: .25em;
+}
+.brand-logo--welcome {
+  gap: 18px;
+  margin-inline: auto;
+}
+.brand-logo--welcome .brand-logo-mark {
+  width: 120px;
+  height: 120px;
+}
+.brand-logo--welcome .brand-name { font-size: 40px; }
+.brand-logo--welcome .brand-english { font-size: 12px; }
+.brand-logo--welcome .brand-tagline {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 8px;
+}
+.family-footer-brand {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.brand-logo--footer .brand-logo-mark { width: 38px; height: 38px; }
+.brand-logo--footer .brand-name { font-size: 17px; }
+.brand-logo--footer .brand-english { font-size: 6px; }
+@media (max-width: 600px) {
+  .brand-logo--header { gap: 6px; }
+  .brand-logo--header .brand-logo-mark { width: 42px; height: 42px; }
+  .brand-logo--header .brand-name { font-size: 20px; }
+  .brand-logo--header .brand-english { font-size: 6px; }
+  .brand-logo--header .brand-tagline { display: none; }
+  .brand-logo--welcome { gap: 10px; }
+  .brand-logo--welcome .brand-logo-mark { width: 90px; height: 90px; }
+  .brand-logo--welcome .brand-name { font-size: 30px; }
+  .brand-logo--welcome .brand-english { font-size: 9px; }
+  .brand-logo--welcome .brand-tagline { font-size: 10px; }
+}

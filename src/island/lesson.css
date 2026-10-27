@@ -1,0 +1,34 @@
+#math-island .isl-lesson { width:100%; }
+#math-island .isl-lesson-status { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px; font-size:16px; }
+#math-island .isl-lesson > progress { width:100%; height:7px; accent-color:#8adac6; border:0; border-radius:10px; margin-bottom:14px; }
+#math-island .isl-lesson-caption { min-height:100px; padding:14px; border:1px solid #527c8c; border-radius:14px; background:#143749; font-size:22px; }
+#math-island .isl-stage.teaching .isl-journey { position:static; }
+#math-island .isl-lesson-controls { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin:14px 0; }
+#math-island .isl-lesson-controls button { display:flex; align-items:center; justify-content:center; gap:6px; padding:8px 6px; min-height:52px; border:1px solid #7799a6; border-radius:12px; background:#173b4c; color:#effaff; font:inherit; font-size:16px; cursor:pointer; }
+#math-island .isl-lesson-controls .isl-zy { white-space:nowrap; }
+@media(min-width:1100px) { #math-island .isl-lesson-controls { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+#math-island .isl-lesson-controls button.isl-lesson-play { background:#f5c96a; border-color:#f5c96a; color:#193d4c; font-weight:800; }
+#math-island .isl-lesson-controls button:disabled { opacity:.45; cursor:default; }
+#math-island .isl-lesson-controls button:focus-visible { outline:3px solid #ffdd8d; outline-offset:3px; }
+#math-island .isl-lesson-frame .isl-teach-point { outline:3px solid #a76616; outline-offset:3px; border-radius:8px; background-color:#ffe2a0; animation:isl-teach-point .75s ease-out; }
+#math-island .isl-lesson-frame .isl-obj.on .isl-badge { animation:isl-teach-count .55s ease-out; }
+#math-island .isl-lesson-frame .isl-semester .isl-cue { display:none; }
+#math-island .isl-lesson-frame .isl-plate .isl-things > span,#math-island .isl-lesson-frame .isl-basket.big .isl-things > span { animation:isl-teach-arrive .7s ease-out; }
+#math-island .isl-lesson-frame .isl-coin,#math-island .isl-lesson-frame .isl-counters > span,
+#math-island .isl-lesson-frame .isl-ten-cells > span,#math-island .isl-lesson-frame .isl-ruler > span,
+#math-island .isl-lesson-frame .isl-compose-parts g { transition:transform .7s ease,opacity .5s ease,background-color .5s ease; }
+#math-island .isl-lesson-frame .taken,#math-island .isl-lesson-frame .isl-removed { transform:translateY(-15px); }
+#math-island .isl-lesson-frame .isl-paths path.isl-teach-point { background:none; outline:none; stroke:#a55b12; stroke-dasharray:500; animation:isl-teach-path 1.2s ease-out; }
+#math-island .isl-lesson-frame .isl-clock .isl-teach-point { outline:none; stroke:#a55b12; stroke-width:9; filter:drop-shadow(0 0 3px #ffda7d); }
+#math-island .isl-lesson-frame .isl-column-sum[data-teach-column="0"] > div:not(.isl-column-answer) > :nth-child(2),
+#math-island .isl-lesson-frame .isl-column-sum[data-teach-column="1"] > div:not(.isl-column-answer) > :nth-child(3) { background:#ffe2a0; outline:2px solid #a76616; border-radius:5px; }
+#math-island .isl-lesson-frame .isl-teach-stroke { stroke:#ad5b11; stroke-width:6; stroke-dasharray:60; animation:isl-teach-path .75s ease-out; }
+#math-island .isl-lesson-frame .isl-teach-arrive { animation:isl-teach-arrive .6s ease-out backwards; }
+#math-island .isl-lesson[data-paused=true] .isl-lesson-frame * { animation-play-state:paused; }
+@keyframes isl-teach-point { from { box-shadow:0 0 0 10px #eeb65e70; } to { box-shadow:0 0 0 0 #eeb65e00; } }
+@keyframes isl-teach-count { from { transform:scale(.35);opacity:.2; } to { transform:scale(1);opacity:1; } }
+@keyframes isl-teach-path { from { stroke-dashoffset:500; } to { stroke-dashoffset:0; } }
+@keyframes isl-teach-arrive { from { opacity:0; transform:translateX(-20px) scale(.7); } to { opacity:1; transform:translateX(0) scale(1); } }
+@media(max-width:680px) { #math-island .isl-lesson-caption { font-size:20px; } #math-island .isl-lesson-controls button { flex:1 1 100px; font-size:16px; } }
+#math-island .isl-lesson[data-reduced=true] .isl-lesson-frame * { animation:none!important; transition:none!important; }
+@media(prefers-reduced-motion:reduce) { #math-island .isl-lesson-frame * { animation:none!important; transition:none!important; } }

@@ -1,0 +1,86 @@
+{
+  "commit": "626dbd56b9de46f7166932591ced5a4dbc979adb",
+  "checkedAt": "2026-10-25T14:14:51.265670+00:00",
+  "anonymousOnly": true,
+  "assets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/IslandApp.v--k-RY2Cj.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/IslandApp.v-CiOTCuDr.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/RoomEditor.v-D8RtjEpE.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-B53g2Mtm.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/game-view.v-BulwSqWr.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/game-view.v-T2peyUdc.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/index.v-B6UNtUOI.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/index.v-Dm3gxV-M.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/subject-islands/panorama-v2-1600.webp",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/subject-islands/panorama-v2-2560.webp",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/subject-islands/panorama-v2-4096.webp",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/subject-islands/panorama-v2-960.webp",
+      "status": 200,
+      "sha256Match": true
+    }
+  ],
+  "health": {
+    "status": 200,
+    "body": {
+      "ok": true,
+      "service": "quintus-ocean-academy"
+    }
+  },
+  "unauthenticatedStateStatus": 401,
+  "passed": true
+}

@@ -1,0 +1,46 @@
+{
+  "sourceBaseline": "b61d7f3",
+  "questionCount": 16,
+  "courses": {
+    "chinese": 8,
+    "social": 8
+  },
+  "concepts": [
+    "mainIdea",
+    "comparison",
+    "mapInformation",
+    "changeOverTime"
+  ],
+  "publishedFrozen": {
+    "baseline": "2221c23",
+    "grade2": 16,
+    "grade4": 16,
+    "fields": "all serialized LearningQuestion fields, including format/hint/explanation"
+  },
+  "checks": {
+    "content": "PASS:16answers unique and supported by supplied fictional evidence;112text segments plus spoken map prompt and revised explanation reviewed",
+    "contractVerifier": "PASS:all16active/pending/one-answer/three-error defeat;32cross-grade rejects;public projection retains speechText",
+    "fullPostgres": "PASS:53files455tests",
+    "build": "PASS",
+    "browser": "batch6-browser.json",
+    "pronunciation": "PASS:4595phrases/1621chars;197reviewedrules;packed roundtrip"
+  },
+  "corrections": [
+    "借還",
+    "寫著",
+    "上方為北",
+    "長椅",
+    "重蓋",
+    "種稻",
+    "的東西/更多東西 (noun only; 東西南北 unchanged)",
+    "便宜"
+  ],
+  "spokenMap": "symbols replaced by explicit names in speechText; spoken explanation also names shapes; road routes expressed as words",
+  "limitations": [
+    "Not teacher-reviewed or textbook-specific",
+    "Actual OS speech not listened; pronunciation annotations and spoken input only",
+    "Real tablet hardware not measured",
+    "Browser samples Chinese01 and Social01; all16 covered by contracts/content review"
+  ],
+  "createdAt": "2026-10-24T20:06:00.881911+00:00"
+}

@@ -1,0 +1,74 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/school-question-bank/星潮網站開發
+
+ ❯ src/__tests__/tideglow-care-gestures.test.ts (4 tests | 4 failed) 8ms
+   ❯ care gesture and cancellation regressions (4)
+     × does not pet twice after holding a completed swipe (reduced=true) 5ms
+     × does not pet twice after holding a completed swipe (reduced=false) 1ms
+     × does not swallow the next keyboard activation after a cancelled swipe 1ms
+     × rest interrupts an animation immediately and frees the next action 0ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 4 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/tideglow-care-gestures.test.ts > care gesture and cancellation regressions > does not pet twice after holding a completed swipe (reduced=true)
+ FAIL  src/__tests__/tideglow-care-gestures.test.ts > care gesture and cancellation regressions > does not pet twice after holding a completed swipe (reduced=false)
+TypeError: (0 , import_ReadAloud.allowsReadAloud) is not a function
+ ❯ Object.TideglowPanel src/__tests__/tideglow-care-gestures.test.ts:33:3
+     31|   };
+     32|   const module = { exports: {} as any };
+     33|   new Function('require', 'module', 'exports', 'setTimeout', 'clearTim…
+       |   ^
+     34|   const render = () => { cursor = 0; return module.exports.TideglowPan…
+     35|   const nodes = (n: any): any[] => n && typeof n === 'object' ? [n, ..…
+ ❯ render src/__tests__/tideglow-care-gestures.test.ts:34:60
+ ❯ find src/__tests__/tideglow-care-gestures.test.ts:36:58
+ ❯ Object.touch src/__tests__/tideglow-care-gestures.test.ts:37:38
+ ❯ src/__tests__/tideglow-care-gestures.test.ts:44:7
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/4]⎯
+
+ FAIL  src/__tests__/tideglow-care-gestures.test.ts > care gesture and cancellation regressions > does not swallow the next keyboard activation after a cancelled swipe
+TypeError: (0 , import_ReadAloud.allowsReadAloud) is not a function
+ ❯ Object.TideglowPanel src/__tests__/tideglow-care-gestures.test.ts:33:3
+     31|   };
+     32|   const module = { exports: {} as any };
+     33|   new Function('require', 'module', 'exports', 'setTimeout', 'clearTim…
+       |   ^
+     34|   const render = () => { cursor = 0; return module.exports.TideglowPan…
+     35|   const nodes = (n: any): any[] => n && typeof n === 'object' ? [n, ..…
+ ❯ render src/__tests__/tideglow-care-gestures.test.ts:34:60
+ ❯ find src/__tests__/tideglow-care-gestures.test.ts:36:58
+ ❯ Object.touch src/__tests__/tideglow-care-gestures.test.ts:37:38
+ ❯ src/__tests__/tideglow-care-gestures.test.ts:54:7
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/4]⎯
+
+ FAIL  src/__tests__/tideglow-care-gestures.test.ts > care gesture and cancellation regressions > rest interrupts an animation immediately and frees the next action
+TypeError: (0 , import_ReadAloud.allowsReadAloud) is not a function
+ ❯ Object.TideglowPanel src/__tests__/tideglow-care-gestures.test.ts:33:3
+     31|   };
+     32|   const module = { exports: {} as any };
+     33|   new Function('require', 'module', 'exports', 'setTimeout', 'clearTim…
+       |   ^
+     34|   const render = () => { cursor = 0; return module.exports.TideglowPan…
+     35|   const nodes = (n: any): any[] => n && typeof n === 'object' ? [n, ..…
+ ❯ render src/__tests__/tideglow-care-gestures.test.ts:34:60
+ ❯ find src/__tests__/tideglow-care-gestures.test.ts:36:58
+ ❯ Object.touch src/__tests__/tideglow-care-gestures.test.ts:37:38
+ ❯ src/__tests__/tideglow-care-gestures.test.ts:60:7
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/4]⎯
+
+
+ Test Files  1 failed | 92 passed | 17 skipped (110)
+      Tests  4 failed | 679 passed | 116 skipped (799)
+   Start at  22:25:37
+   Duration  2.26s (tests 44%, import 38%, transform 16%, worker 1%)
+
+    Isolate  110 workers spawned · ~69ms startup each (spawn + environment, per file)
+             at least ~516ms faster with isolate: false — reuses workers across files instead of one per file
+

@@ -1,0 +1,75 @@
+{
+  "at": "2026-10-25T02:00:31.359212+00:00",
+  "source": "85ca3b80ae02603d3a91d2fbd038e3af773f13d6",
+  "deployment": "61508bec-a104-4fdc-8ee4-5da3b776da68",
+  "entry": "assets/index.v-CiVLeBgr.js",
+  "checks": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 1142,
+      "expectedEntry": true
+    },
+    {
+      "path": "healthz",
+      "status": 200,
+      "bytes": 45
+    },
+    {
+      "path": "assets/IslandApp.v-BPXClk5N.js",
+      "status": 200,
+      "bytes": 51576,
+      "sha256": "3afd6bab022dcc5347b1f98486fcb3f2c17aa8fae49aac6af08948d20fbd8f66",
+      "match": true
+    },
+    {
+      "path": "assets/IslandApp.v-C2zdfX0C.css",
+      "status": 200,
+      "bytes": 30389,
+      "sha256": "af720e980d2716e6735ee9a7858601fbc83a378f8b961aae0766501cf8acc810",
+      "match": true
+    },
+    {
+      "path": "assets/RoomEditor.v-BLEAUY1B.js",
+      "status": 200,
+      "bytes": 10683,
+      "sha256": "3ef719dbb37a1ff5bb7086b74acd80988aeeb0eafb186ab14be292d17302537f",
+      "match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-p3JH1Snh.js",
+      "status": 200,
+      "bytes": 36006,
+      "sha256": "d31140dbe937f5c0dbb46775d20f6a7cfb215df64abd947f3c922cb08b2fa052",
+      "match": true
+    },
+    {
+      "path": "assets/index.v-CiVLeBgr.js",
+      "status": 200,
+      "bytes": 340303,
+      "sha256": "e7b9a426c89474254998fa0bd40e7e5b6f822e0e6157533b1902f4c595670d2f",
+      "match": true
+    },
+    {
+      "path": "assets/index.v-WyQEizus.css",
+      "status": 200,
+      "bytes": 234459,
+      "sha256": "9ec12507fe92e80794b7a233ecccfe5b892c9c3a065be4fac7a69b4d8c86ed7e",
+      "match": true
+    },
+    {
+      "path": "assets/interface-zhuyin-packed.v-DrtvwuYC.js",
+      "status": 200,
+      "bytes": 359129,
+      "sha256": "934d7044666c75e056f750fc4f7f1acdacf098fca2c85e26f2f0351f2f04d7c6",
+      "match": true
+    }
+  ]
+}

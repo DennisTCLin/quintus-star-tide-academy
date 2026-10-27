@@ -1,0 +1,32 @@
+{
+  "recommendation": "build",
+  "ranking": "A/E effective tie; synthesis of reliability, hierarchy and scoped architecture",
+  "session": "/Users/dennistclin/.codex/plugins/cache/personal-local/codex-council/.codex-council/sessions/20261025T050359Z-higgsfield",
+  "pre_execution_estimate": {
+    "label": "pre_execution_estimate",
+    "total_tokens": 29172,
+    "range": {
+      "low": 21879,
+      "high": 39382
+    }
+  },
+  "post_execution_estimate": {
+    "label": "post_execution_estimate",
+    "coverage": "partial",
+    "total_tokens": 9052,
+    "missing_data": [
+      "partial output: reviews/leonardo-ux-ui-critic.md"
+    ],
+    "is_actual_codex_usage": false
+  },
+  "artifact_only_tokens": {
+    "label": "artifact_only_tokens",
+    "total_tokens": 21125,
+    "is_actual_codex_usage": false
+  },
+  "validation": {
+    "ok": true,
+    "problems": []
+  },
+  "note": "Partial estimate; inherited conversation and tool calls not fully recorded. Not billing usage or measured savings."
+}

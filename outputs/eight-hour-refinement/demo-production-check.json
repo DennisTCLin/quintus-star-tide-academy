@@ -1,0 +1,75 @@
+{
+  "at": "2026-10-25T01:28:55.738Z",
+  "source": "fe950d3",
+  "deployment": "95fb3b95-7076-4879-8095-5ae80266a07b",
+  "entry": "assets/index.v-kaG3L5Ba.js",
+  "checks": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 1142,
+      "expectedEntry": true
+    },
+    {
+      "path": "healthz",
+      "status": 200,
+      "bytes": 45
+    },
+    {
+      "path": "assets/IslandApp.v-BSMgpwqa.js",
+      "status": 200,
+      "bytes": 51474,
+      "sha256": "ffb67b5dfe726e56b77b127753cedf36615b43e77314e33c5f710b3af20ff333",
+      "match": true
+    },
+    {
+      "path": "assets/IslandApp.v-C2zdfX0C.css",
+      "status": 200,
+      "bytes": 30389,
+      "sha256": "af720e980d2716e6735ee9a7858601fbc83a378f8b961aae0766501cf8acc810",
+      "match": true
+    },
+    {
+      "path": "assets/RoomEditor.v-Bq0dDcxY.js",
+      "status": 200,
+      "bytes": 10683,
+      "sha256": "2cd1a878054b124843ac898f743a2b5f14a076e981996fb24cee709f9400b536",
+      "match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-cJJTkEc3.js",
+      "status": 200,
+      "bytes": 36006,
+      "sha256": "846cec66e00c66a4bd3f0107a838304dfa99b428fabf2d647a6c55e501faf15e",
+      "match": true
+    },
+    {
+      "path": "assets/index.v-WyQEizus.css",
+      "status": 200,
+      "bytes": 234459,
+      "sha256": "9ec12507fe92e80794b7a233ecccfe5b892c9c3a065be4fac7a69b4d8c86ed7e",
+      "match": true
+    },
+    {
+      "path": "assets/index.v-kaG3L5Ba.js",
+      "status": 200,
+      "bytes": 340140,
+      "sha256": "936a01965caf4b82a5ebc2080d9ce9bc32133f3b8aa26614ad5015dd9c34b0e3",
+      "match": true
+    },
+    {
+      "path": "assets/interface-zhuyin-packed.v-BUveLmTo.js",
+      "status": 200,
+      "bytes": 358940,
+      "sha256": "8984ea80728e44f4765a4682ab3a9522b97b39a55f53387c068b6ac06c76701a",
+      "match": true
+    }
+  ]
+}

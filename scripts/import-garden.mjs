@@ -1,0 +1,13 @@
+import {writeFile,copyFile,mkdir} from 'node:fs/promises';
+import {pathToFileURL} from 'node:url';
+const source=process.argv[2];
+if(!source)throw Error('Pass the reviewed garden source directory');
+const mod=async file=>import(pathToFileURL(`${source}/${file}`));
+const {THEMES}=await mod('content.js');
+const {TONE_ITEMS,TONE_AUDIO_END}=await mod('tones.js');
+const {MEDIAL_DATA}=await mod('medial-data.js');
+const {PAIR_DATA}=await mod('pair-data.js');
+await writeFile('src/data/garden.json',JSON.stringify({themes:THEMES,tones:TONE_ITEMS.map(x=>({...x,end:TONE_AUDIO_END[x.id]})),medials:MEDIAL_DATA,pairs:PAIR_DATA},null,2));
+await mkdir('public/garden/scenes',{recursive:true});
+for(const t of THEMES)await copyFile(`${source}${t.image}`,`public/garden/scenes/${t.id}.png`);
+for(const f of ['engine.js','bubble-core.js','companions.js'])await copyFile(`${source}/${f}`,`src/vendor/garden/${f}`);

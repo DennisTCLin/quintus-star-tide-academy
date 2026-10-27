@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-26 Asia/Taipei",
+  "sourceCommit": "6fbd05983cfc2818ce8512f2aa03bbd76fff6bcd",
+  "deployment": "29502c2c-4540-4326-96ca-07e0f0d83098",
+  "status": "SUCCESS",
+  "previousDeployment": "1109e0fe-a07c-40d2-aa63-17932371c099",
+  "site": "https://quintus-star-tide-academy-production.up.railway.app",
+  "checks": {
+    "tests": "758 passed, 171 database-dependent skipped",
+    "build": "PASS",
+    "independentReadOnlyReview": "PASS: 18 tests, Chromium five profile slots, sleep loop and poster, dog preservation",
+    "productionAssets": "40 PASS; retried one transient download timeout",
+    "productionBrowser": "PASS: six distinct actions, full game targets, rest loop, pause/reduced, 12 decode checks, 390/820/1440, all five profile slots and Olivia regression"
+  },
+  "mediaCredits": 22.5,
+  "scope": "Shared Tideglow care actions; no changes to authentication, profile selection, dog media, voice or stored progress. Browser uses synthetic API fixtures; physical iPad not tested in this release.",
+  "rollback": "Restore previous deployment; no migration."
+}

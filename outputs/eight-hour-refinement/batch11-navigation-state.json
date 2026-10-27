@@ -1,0 +1,21 @@
+{
+  "scope": "localQA only; reload/select/2narrations/viewport/resume",
+  "unchanged": true,
+  "revision": 66,
+  "receipts": "63",
+  "familySha": "771bfb5c315b2d5e6de7d26c737c39a585a28ec656bfbe08b25e1a219707963b",
+  "pending": {
+    "unchanged": true,
+    "revision": 73,
+    "receipts": "70",
+    "familySha": "8b3eb5ba20ca1eeb9215d6d85b45168fa7831c10746183476c790b99472a62af"
+  },
+  "start": {
+    "course": "science",
+    "revision": 75,
+    "receipts": "72",
+    "delta": 1,
+    "otherProfilesUnchanged": true,
+    "note": "dblclick attempt navigated on first click; second target vanished. Not proof of two DOM events; independent begin double-invocation probe covers synchronous guard."
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "checks": [
+    {
+      "label": "grade4-active-1024",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 54,
+          "label": "繼續英文",
+          "w": 141.8046875
+        }
+      ],
+      "current": "🔤英文 · 第 3 / 6 題先繼續這一趟，下一趟再選。▶ 繼續英文",
+      "overflow": false,
+      "previews": 5,
+      "radarButtons": 0,
+      "ruby": 0,
+      "startButtons": 0,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "label": "grade4-active-320",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 54,
+          "label": "繼續英文",
+          "w": 258
+        }
+      ],
+      "current": "🔤英文 · 第 3 / 6 題先繼續這一趟，下一趟再選。▶ 繼續英文",
+      "overflow": false,
+      "previews": 5,
+      "radarButtons": 0,
+      "ruby": 0,
+      "startButtons": 0,
+      "viewport": [
+        320,
+        760
+      ]
+    },
+    {
+      "label": "grade4-active-820",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 54,
+          "label": "繼續英文",
+          "w": 141.8046875
+        }
+      ],
+      "current": "🔤英文 · 第 3 / 6 題先繼續這一趟，下一趟再選。▶ 繼續英文",
+      "overflow": false,
+      "previews": 5,
+      "radarButtons": 0,
+      "ruby": 0,
+      "startButtons": 0,
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "label": "grade4-active-1440",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 54,
+          "label": "繼續英文",
+          "w": 141.8046875
+        }
+      ],
+      "current": "🔤英文 · 第 3 / 6 題先繼續這一趟，下一趟再選。▶ 繼續英文",
+      "overflow": false,
+      "previews": 5,
+      "radarButtons": 0,
+      "ruby": 0,
+      "startButtons": 0,
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "label": "grade4-settled-still-active",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 54,
+          "label": "繼續英文",
+          "w": 141.8046875
+        }
+      ],
+      "current": "🔤英文 · 第 3 / 6 題先繼續這一趟，下一趟再選。▶ 繼續英文",
+      "overflow": false,
+      "previews": 5,
+      "radarButtons": 0,
+      "ruby": 0,
+      "startButtons": 0,
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "label": "grade4-pending-reload",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 54,
+          "label": "領取英文獎勵",
+          "w": 141.8046875
+        }
+      ],
+      "current": "🔤英文 · 已完成先領好獎勵，再選下一趟。🎁 領取獎勵",
+      "overflow": false,
+      "previews": 5,
+      "radarButtons": 0,
+      "ruby": 0,
+      "startButtons": 0,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "label": "grade4-reward-saved-new-routes",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 185,
+          "label": "開始數學",
+          "w": 182.3984375
+        },
+        {
+          "disabled": false,
+          "h": 185,
+          "label": "開始國語",
+          "w": 182.3984375
+        },
+        {
+          "disabled": false,
+          "h": 185,
+          "label": "開始英文",
+          "w": 182.3984375
+        },
+        {
+          "disabled": false,
+          "h": 185,
+          "label": "開始自然",
+          "w": 182.3984375
+        },
+        {
+          "disabled": false,
+          "h": 185,
+          "label": "開始社會",
+          "w": 182.3984375
+        }
+      ],
+      "overflow": false,
+      "previews": 0,
+      "radarButtons": 5,
+      "ruby": 0,
+      "startButtons": 5,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "label": "grade2-active-320",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 66,
+          "label": "繼續詞語",
+          "w": 258
+        }
+      ],
+      "current": "📖詞ㄘˊ語ㄩˇ · 第ㄉㄧˋ 2 / 6 題ㄊㄧˊ先ㄒㄧㄢ繼ㄐㄧˋ續ㄒㄩˋ這ㄓㄜˋ一ㄧ趟ㄊㄤˋ，下ㄒㄧㄚˋ一ㄧ趟ㄊㄤˋ再ㄗㄞˋ選ㄒㄩㄢˇ。▶ 繼ㄐㄧˋ續ㄒㄩˋ詞ㄘˊ語ㄩˇ",
+      "overflow": false,
+      "previews": 5,
+      "radarButtons": 0,
+      "ruby": 87,
+      "startButtons": 0,
+      "viewport": [
+        320,
+        760
+      ]
+    },
+    {
+      "label": "grade2-active-820",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 66,
+          "label": "繼續詞語",
+          "w": 152.140625
+        }
+      ],
+      "current": "📖詞ㄘˊ語ㄩˇ · 第ㄉㄧˋ 2 / 6 題ㄊㄧˊ先ㄒㄧㄢ繼ㄐㄧˋ續ㄒㄩˋ這ㄓㄜˋ一ㄧ趟ㄊㄤˋ，下ㄒㄧㄚˋ一ㄧ趟ㄊㄤˋ再ㄗㄞˋ選ㄒㄩㄢˇ。▶ 繼ㄐㄧˋ續ㄒㄩˋ詞ㄘˊ語ㄩˇ",
+      "overflow": false,
+      "previews": 5,
+      "radarButtons": 0,
+      "ruby": 87,
+      "startButtons": 0,
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "label": "grade2-active-1024",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 66,
+          "label": "繼續詞語",
+          "w": 152.140625
+        }
+      ],
+      "current": "📖詞ㄘˊ語ㄩˇ · 第ㄉㄧˋ 2 / 6 題ㄊㄧˊ先ㄒㄧㄢ繼ㄐㄧˋ續ㄒㄩˋ這ㄓㄜˋ一ㄧ趟ㄊㄤˋ，下ㄒㄧㄚˋ一ㄧ趟ㄊㄤˋ再ㄗㄞˋ選ㄒㄩㄢˇ。▶ 繼ㄐㄧˋ續ㄒㄩˋ詞ㄘˊ語ㄩˇ",
+      "overflow": false,
+      "previews": 5,
+      "radarButtons": 0,
+      "ruby": 87,
+      "startButtons": 0,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "label": "grade2-server-offline",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": true,
+          "h": 66,
+          "label": "繼續詞語",
+          "w": 152.140625
+        }
+      ],
+      "current": "📖詞ㄘˊ語ㄩˇ · 第ㄉㄧˋ 2 / 6 題ㄊㄧˊ先ㄒㄧㄢ繼ㄐㄧˋ續ㄒㄩˋ這ㄓㄜˋ一ㄧ趟ㄊㄤˋ，下ㄒㄧㄚˋ一ㄧ趟ㄊㄤˋ再ㄗㄞˋ選ㄒㄩㄢˇ。▶ 繼ㄐㄧˋ續ㄒㄩˋ詞ㄘˊ語ㄩˇ",
+      "overflow": false,
+      "previews": 5,
+      "radarButtons": 0,
+      "ruby": 91,
+      "startButtons": 0,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "label": "grade1-failed-server-offline",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": true,
+          "h": 201.390625,
+          "label": "開始英文入門",
+          "w": 141
+        },
+        {
+          "disabled": true,
+          "h": 201.390625,
+          "label": "開始聲調",
+          "w": 141
+        },
+        {
+          "disabled": true,
+          "h": 155,
+          "label": "開始拼音",
+          "w": 141
+        },
+        {
+          "disabled": true,
+          "h": 155,
+          "label": "開始辨音",
+          "w": 141
+        },
+        {
+          "disabled": true,
+          "h": 117,
+          "label": "開始數學",
+          "w": 292
+        }
+      ],
+      "overflow": false,
+      "previews": 0,
+      "radarButtons": 0,
+      "ruby": 0,
+      "startButtons": 5,
+      "viewport": [
+        320,
+        760
+      ]
+    },
+    {
+      "label": "grade1-auto-reconnected",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 201.390625,
+          "label": "開始英文入門",
+          "w": 141
+        },
+        {
+          "disabled": false,
+          "h": 201.390625,
+          "label": "開始聲調",
+          "w": 141
+        },
+        {
+          "disabled": false,
+          "h": 155,
+          "label": "開始拼音",
+          "w": 141
+        },
+        {
+          "disabled": false,
+          "h": 155,
+          "label": "開始辨音",
+          "w": 141
+        },
+        {
+          "disabled": false,
+          "h": 117,
+          "label": "開始數學",
+          "w": 292
+        }
+      ],
+      "overflow": false,
+      "previews": 0,
+      "radarButtons": 0,
+      "ruby": 0,
+      "startButtons": 5,
+      "viewport": [
+        320,
+        760
+      ]
+    },
+    {
+      "label": "grade1-active-math-320-reduced",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 54,
+          "label": "繼續數學",
+          "w": 258
+        }
+      ],
+      "current": "🔢數學 · 第 1 / 6 題先繼續這一趟，下一趟再選。▶ 繼續數學",
+      "overflow": false,
+      "previews": 5,
+      "radarButtons": 0,
+      "ruby": 0,
+      "startButtons": 0,
+      "viewport": [
+        320,
+        760
+      ]
+    },
+    {
+      "label": "grade1-active-math-820-reduced",
+      "buttons": [
+        {
+          "disabled": false,
+          "h": 56,
+          "label": "聽航線說明",
+          "w": 56
+        },
+        {
+          "disabled": false,
+          "h": 54,
+          "label": "繼續數學",
+          "w": 141.8046875
+        }
+      ],
+      "current": "🔢數學 · 第 1 / 6 題先繼續這一趟，下一趟再選。▶ 繼續數學",
+      "overflow": false,
+      "previews": 5,
+      "radarButtons": 0,
+      "ruby": 0,
+      "startButtons": 0,
+      "viewport": [
+        820,
+        1180
+      ]
+    }
+  ],
+  "notes": [
+    "Only isolated localhost4276 qa_evidence_20261025; no real child progress",
+    "Actual six-question English completion -> pending -> claim -> new science; no schema changes",
+    "Offline reproduced by stopping local server; grade2 resume and grade1 starts disabled; auto-poll recovered before manual confirm could click",
+    "Final reload dev error log empty; no human listening / physical tablet claim",
+    "Legacy grade1 five-question words and busy guarded by independent render/handler probes, not browser fixture"
+  ],
+  "finalConsoleErrors": []
+}

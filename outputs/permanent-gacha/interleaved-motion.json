@@ -1,0 +1,75 @@
+{
+  "commands": [
+    {
+      "id": "7ae9b92c-a6a8-4bcf-9509-efe5fac37585",
+      "revision": 0,
+      "command": {
+        "type": "draw",
+        "player": "quintus"
+      }
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "observed_buttons": [
+    "♫ 播放音樂",
+    "🔊",
+    "用 1 張券轉扭蛋",
+    "去完成五題"
+  ],
+  "observed_dialog": "用 1 張星願券轉扭蛋？\n\n一定得到 1 張夥伴卡，可能重複。\n\n目前 2 張，確認後剩 1 張。\n不扣星幣和學習經驗。\n\n先不轉\n確認轉扭蛋",
+  "post_fixture": {
+    "family_lastDraw": {
+      "id": "later-device-Y",
+      "pet": "pebblefin",
+      "duplicate": false,
+      "copies": 1
+    },
+    "result": {
+      "receiptId": "7ae9b92c-a6a8-4bcf-9509-efe5fac37585",
+      "kind": "pet",
+      "pet": "covegecko",
+      "duplicate": false,
+      "copies": 1,
+      "amount": 0,
+      "guaranteed": true
+    }
+  },
+  "after_interleaved_response": {
+    "label": "這次扭蛋 · 已存到雲端",
+    "pet": "灣光守宮",
+    "text": "這次扭蛋 · 已存到雲端\n\n灣光守宮\n\nE 級 · 土\n\n收到了新夥伴\n\n目前持有 1 張\n\n選牠陪練\n🔊\n 聽結果\n查看收藏",
+    "heading_active": true,
+    "heading_box": {
+      "x": 14,
+      "y": 432.25,
+      "width": 362,
+      "height": 36
+    },
+    "heading_in_viewport": true
+  },
+  "subsequent_gets": 1,
+  "after_poll": {
+    "label": "這次扭蛋 · 已存到雲端",
+    "pet": "灣光守宮",
+    "text": "這次扭蛋 · 已存到雲端\n\n灣光守宮\n\nE 級 · 土\n\n收到了新夥伴\n\n目前持有 1 張\n\n選牠陪練\n🔊\n 聽結果\n查看收藏"
+  },
+  "after_reload": {
+    "label": "最近一次扭蛋 · 已存到雲端",
+    "pet": "石礁鰭",
+    "text": "最近一次扭蛋 · 已存到雲端\n\n石礁鰭\n\nE 級 · 土\n\n收到了新夥伴\n\n目前持有 1 張\n\n選牠陪練\n🔊\n 聽結果\n查看收藏",
+    "heading_active": false,
+    "active_element": {
+      "tag": "BUTTON",
+      "text": "扭蛋"
+    }
+  },
+  "traded_away": {
+    "label": "最近一次扭蛋 · 已存到雲端",
+    "pet": "灣光守宮",
+    "text": "最近一次扭蛋 · 已存到雲端\n\n灣光守宮\n\nE 級 · 土\n\n遇見熟悉的夥伴\n\n目前持有 0 張\n\n這張卡已離開收藏，可以到夥伴卡冊看看。\n\n🔊\n 聽結果\n查看收藏",
+    "equip_count": 0,
+    "trade_button_count": 0
+  },
+  "status": "all assertions passed"
+}

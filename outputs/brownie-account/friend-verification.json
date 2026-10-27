@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-25T07:10:29.785Z",
+  "players": 7,
+  "added": 12,
+  "totalDirectedEdges": 42,
+  "idempotent": true,
+  "existingEdgesPreserved": true,
+  "gameStateRecordsUnchanged": 25,
+  "friendCounts": [
+    {
+      "username": "alan",
+      "otherFriends": 6
+    },
+    {
+      "username": "brownie",
+      "otherFriends": 6
+    },
+    {
+      "username": "feifei",
+      "otherFriends": 6
+    },
+    {
+      "username": "jimmy",
+      "otherFriends": 6
+    },
+    {
+      "username": "olivia",
+      "otherFriends": 6
+    },
+    {
+      "username": "quintus",
+      "otherFriends": 6
+    },
+    {
+      "username": "sunny",
+      "otherFriends": 6
+    }
+  ],
+  "apiVerification": {
+    "httpsFriendsStatus": 200,
+    "brownieOtherFriends": 6,
+    "allSixExpectedPlayersPresent": true,
+    "verificationSessionLoggedOut": true
+  },
+  "sshKeyRevoked": true
+}

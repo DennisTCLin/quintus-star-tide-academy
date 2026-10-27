@@ -1,0 +1,23 @@
+{
+  "status": "knownexistinglimitation;notimplemented",
+  "source": "src/learning-engine.ts review branch around270–292",
+  "evidence": "Freshverifier7200allocations/25200issued:all16newcontextsreachablefirsttime butreviewcount0;size>0 choosesonlygenerated pools,excludesstaticc1",
+  "scope": "Evaluate honest mixed reviews ofexhaustedcuratedcontexts+eligiblegeneratedquestions,withpersistent boundedcursor;no newreward flags;retain no withinbatchduplicates and grade/course ownership",
+  "needed": "Independentoracle forcompletecoverage acrossg4courses/grade1English andgrade2speciallanes,partialhistory/exhaustion/maxcounter/save/battleexclusions;do not claimspacedrepetition unlessscheduleactuallyimplemented",
+  "readOnlyInventoryAfterBatch11": {
+    "source": "learning-engine.ts273–290",
+    "candidate": "For nonmath courses with both curated seen and eligible generated pools, evaluate a 1curated:3generated persistent review rhythm, with lane-specific ordinal; static-only stays static, math remains generated only, grade2words special2picture:1passage unchanged. Not implemented or accepted as final design.",
+    "requiredOracles": [
+      "All current c1 and old curated IDs reachable as truthful reviews,notnew-reward",
+      "Full coverage for each grade/course/skill level including finite pool cycles; saved-state restore and MAX_COUNT boundary",
+      "No duplicate within six around fresh→review transitions",
+      "Respect existing static/math exclusion and old question semantics",
+      "Battle exclusions/adventure1025–1028 boundedretry behavior; no silent duplicate or unexpected new failure"
+    ],
+    "notes": [
+      "MAX_COUNT10million is divisibleby4; candidate cadence canwrap withoutnew schema, but verify lane coverage ratherthan assume",
+      "Review progress per-day guard currentlylimitslevelupdates; keep economy unchanged",
+      "Do not claim spaced repetition: candidate is mixed revisit coverage only"
+    ]
+  }
+}

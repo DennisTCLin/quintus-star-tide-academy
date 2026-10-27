@@ -1,0 +1,141 @@
+{
+  "pass": true,
+  "sourceCommit": "54329aa701c73874666858233b92af0d0ef2bcea",
+  "physicalDevice": false,
+  "lifecycle": "Synthetic Page Visibility and PageTransition events; real WebKit networking, API and PostgreSQL",
+  "checks": [
+    {
+      "name": "Independent phone/tablet sessions join the same real battle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 0: hiding invalidates connectivity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 0: resume starts a fresh read before stale read finishes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 0: commands stay paused while resume snapshot is pending",
+      "pass": true,
+      "detail": {
+        "heldReads": 2,
+        "released": [
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "name": "Client 0: stale background reply cannot regress displayed round",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 0: lifecycle changes cause no extra move",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 1: hiding invalidates connectivity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 1: resume starts a fresh read before stale read finishes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 1: commands stay paused while resume snapshot is pending",
+      "pass": true,
+      "detail": {
+        "heldReads": 2,
+        "released": [
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "name": "Client 1: stale background reply cannot regress displayed round",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 1: lifecycle changes cause no extra move",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Resume while POST is in flight stays paused",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Late POST completion cannot bypass the fresh-read barrier",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Late successful POST resumes latest round without another command",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 0: offline/background replay keeps original command",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 0: replay after opponent move never damages twice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 1: offline/background replay keeps original command",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 1: replay after opponent move never damages twice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Pagehide pauses commands even before visibility changes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Persisted pageshow requires a fresh server snapshot",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Returning after the turn deadline shows a settled result",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No learning or reward mutation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Command receipts are unique",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No application JavaScript exception",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "diagnostics": []
+}

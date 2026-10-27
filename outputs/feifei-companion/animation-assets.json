@@ -1,0 +1,218 @@
+[
+  {
+    "motion": "idle",
+    "label": "待機",
+    "video": "animations-v1/idle.mp4",
+    "poster": "animations-v1/idle.jpg",
+    "duration": 7.083333,
+    "sha256": "9130ef7ccb0fea6cbc152886ff660af2a58d83bdb1466d900c58b9623882da69",
+    "loop": true,
+    "sprite": {
+      "file": "frames-v1/idle.jpg",
+      "fps": 10,
+      "frameCount": 70,
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "columns": 8,
+      "rows": 9
+    }
+  },
+  {
+    "motion": "greet",
+    "label": "打招呼",
+    "video": "animations-v1/greet.mp4",
+    "poster": "animations-v1/greet.jpg",
+    "duration": 5.041667,
+    "sha256": "5d95698d7632348a234db4f762767c425660ce480a8a302a5577522c9523ea8b",
+    "loop": false,
+    "sprite": {
+      "file": "frames-v1/greet.jpg",
+      "fps": 10,
+      "frameCount": 50,
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "columns": 8,
+      "rows": 7
+    }
+  },
+  {
+    "motion": "pet",
+    "label": "摸摸",
+    "video": "animations-v1/pet.mp4",
+    "poster": "animations-v1/pet.jpg",
+    "duration": 5.041667,
+    "sha256": "0004f821179cd200625693ed082bb5db15ab5ecda020ea6f1e05a8777d145a49",
+    "loop": false,
+    "sprite": {
+      "file": "frames-v1/pet.jpg",
+      "fps": 10,
+      "frameCount": 50,
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "columns": 8,
+      "rows": 7
+    }
+  },
+  {
+    "motion": "feed",
+    "label": "吃點心",
+    "video": "animations-v1/feed.mp4",
+    "poster": "animations-v1/feed.jpg",
+    "duration": 5.041667,
+    "sha256": "e40c374e341a72a2710ddf55a374a20414b97f85f93427bb8b920d4c1d3c1359",
+    "loop": false,
+    "sprite": {
+      "file": "frames-v1/feed.jpg",
+      "fps": 10,
+      "frameCount": 50,
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "columns": 8,
+      "rows": 7
+    }
+  },
+  {
+    "motion": "play",
+    "label": "接星光球",
+    "video": "animations-v1/play.mp4",
+    "poster": "animations-v1/play.jpg",
+    "duration": 5.041667,
+    "sha256": "801878867aa665bf51446126268e0be8d637080e025297854640d00bfdaed372",
+    "loop": false,
+    "sprite": {
+      "file": "frames-v1/play.jpg",
+      "fps": 10,
+      "frameCount": 50,
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "columns": 8,
+      "rows": 7
+    }
+  },
+  {
+    "motion": "highfive",
+    "label": "擊掌",
+    "video": "animations-v1/highfive.mp4",
+    "poster": "animations-v1/highfive.jpg",
+    "duration": 5.041667,
+    "sha256": "f23fc9c423985290933c7ccfd70e7f0c939e8e3349796bfe097ecabcd7a90591",
+    "loop": false,
+    "sprite": {
+      "file": "frames-v1/highfive.jpg",
+      "fps": 10,
+      "frameCount": 50,
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "columns": 8,
+      "rows": 7
+    }
+  },
+  {
+    "motion": "bubbles",
+    "label": "吹泡泡",
+    "video": "animations-v1/bubbles.mp4",
+    "poster": "animations-v1/bubbles.jpg",
+    "duration": 5.041667,
+    "sha256": "72f75dc2c148d8d7ff9c0b393ab3b82e453a3deacd835e3ea7b7848492184f7e",
+    "loop": false,
+    "sprite": {
+      "file": "frames-v1/bubbles.jpg",
+      "fps": 10,
+      "frameCount": 50,
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "columns": 8,
+      "rows": 7
+    }
+  },
+  {
+    "motion": "rest",
+    "label": "一起休息",
+    "video": "animations-v1/rest.mp4",
+    "poster": "animations-v1/rest.jpg",
+    "duration": 6.083333,
+    "sha256": "1eecf9ccf7068bf27e18a2254fcac82ad7454199ad138442c05c558ecf07d52a",
+    "loop": true,
+    "sprite": {
+      "file": "frames-v1/rest.jpg",
+      "fps": 10,
+      "frameCount": 60,
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "columns": 8,
+      "rows": 8
+    }
+  },
+  {
+    "motion": "listening",
+    "label": "聆聽",
+    "video": "animations-v1/listening.mp4",
+    "poster": "animations-v1/listening.jpg",
+    "duration": 5.041667,
+    "sha256": "72c0f7cbd81e8b06eba55e5630345b3cd555f3b88ca83475009247b6a985361c",
+    "loop": true,
+    "sprite": {
+      "file": "frames-v1/listening.jpg",
+      "fps": 10,
+      "frameCount": 50,
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "columns": 8,
+      "rows": 7
+    }
+  },
+  {
+    "motion": "thinking",
+    "label": "思考",
+    "video": "animations-v1/thinking.mp4",
+    "poster": "animations-v1/thinking.jpg",
+    "duration": 5.041667,
+    "sha256": "7d9998d3a13b81f2d87c42cf014f69128c3cc27585267fc118b5c6fb0b60cf83",
+    "loop": true,
+    "sprite": {
+      "file": "frames-v1/thinking.jpg",
+      "fps": 10,
+      "frameCount": 50,
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "columns": 8,
+      "rows": 7
+    }
+  },
+  {
+    "motion": "speaking",
+    "label": "說話",
+    "video": "animations-v1/speaking.mp4",
+    "poster": "animations-v1/speaking.jpg",
+    "duration": 5.041667,
+    "sha256": "0072aa50246c33f943ec0b3dac7349359c8eca9630feb12a9cdfb8ef26ea30f0",
+    "loop": true,
+    "sprite": {
+      "file": "frames-v1/speaking.jpg",
+      "fps": 10,
+      "frameCount": 50,
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "columns": 8,
+      "rows": 7
+    }
+  },
+  {
+    "motion": "cheering",
+    "label": "歡呼",
+    "video": "animations-v1/cheering.mp4",
+    "poster": "animations-v1/cheering.jpg",
+    "duration": 5.041667,
+    "sha256": "9f37597e9a398a938d7e52361c44cfed5f1ccd8fafd7f6e061e429cf2df5fccc",
+    "loop": false,
+    "sprite": {
+      "file": "frames-v1/cheering.jpg",
+      "fps": 10,
+      "frameCount": 50,
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "columns": 8,
+      "rows": 7
+    }
+  }
+]

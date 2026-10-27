@@ -1,0 +1,644 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "fixture": "short",
+      "viewport": [
+        320,
+        568
+      ],
+      "pass": true,
+      "stageHeight": 169,
+      "readingHeight": 134
+    },
+    {
+      "engine": "chromium",
+      "fixture": "short",
+      "viewport": [
+        375,
+        667
+      ],
+      "pass": true,
+      "stageHeight": 200,
+      "readingHeight": 134
+    },
+    {
+      "engine": "chromium",
+      "fixture": "short",
+      "viewport": [
+        390,
+        844
+      ],
+      "pass": true,
+      "stageHeight": 257,
+      "readingHeight": 137
+    },
+    {
+      "engine": "chromium",
+      "fixture": "short",
+      "viewport": [
+        820,
+        1180
+      ],
+      "pass": true,
+      "stageHeight": 459,
+      "readingHeight": 151
+    },
+    {
+      "engine": "chromium",
+      "fixture": "short",
+      "viewport": [
+        1180,
+        820
+      ],
+      "pass": true,
+      "stageHeight": 249,
+      "readingHeight": 168
+    },
+    {
+      "engine": "chromium",
+      "fixture": "short",
+      "viewport": [
+        1366,
+        768
+      ],
+      "pass": true,
+      "stageHeight": 233,
+      "readingHeight": 168
+    },
+    {
+      "engine": "chromium",
+      "fixture": "short",
+      "viewport": [
+        812,
+        375
+      ],
+      "pass": true,
+      "stageHeight": 72,
+      "readingHeight": 81
+    },
+    {
+      "engine": "chromium",
+      "fixture": "ruby",
+      "viewport": [
+        320,
+        568
+      ],
+      "pass": true,
+      "stageHeight": 165,
+      "readingHeight": 113
+    },
+    {
+      "engine": "chromium",
+      "fixture": "ruby",
+      "viewport": [
+        375,
+        667
+      ],
+      "pass": true,
+      "stageHeight": 200,
+      "readingHeight": 125
+    },
+    {
+      "engine": "chromium",
+      "fixture": "ruby",
+      "viewport": [
+        390,
+        844
+      ],
+      "pass": true,
+      "stageHeight": 257,
+      "readingHeight": 131
+    },
+    {
+      "engine": "chromium",
+      "fixture": "ruby",
+      "viewport": [
+        820,
+        1180
+      ],
+      "pass": true,
+      "stageHeight": 459,
+      "readingHeight": 100
+    },
+    {
+      "engine": "chromium",
+      "fixture": "ruby",
+      "viewport": [
+        1180,
+        820
+      ],
+      "pass": true,
+      "stageHeight": 249,
+      "readingHeight": 109
+    },
+    {
+      "engine": "chromium",
+      "fixture": "ruby",
+      "viewport": [
+        1366,
+        768
+      ],
+      "pass": true,
+      "stageHeight": 233,
+      "readingHeight": 109
+    },
+    {
+      "engine": "chromium",
+      "fixture": "ruby",
+      "viewport": [
+        812,
+        375
+      ],
+      "pass": true,
+      "stageHeight": 86,
+      "readingHeight": 81
+    },
+    {
+      "engine": "chromium",
+      "fixture": "long",
+      "viewport": [
+        320,
+        568
+      ],
+      "pass": true,
+      "stageHeight": 105,
+      "readingHeight": 119
+    },
+    {
+      "engine": "chromium",
+      "fixture": "long",
+      "viewport": [
+        375,
+        667
+      ],
+      "pass": true,
+      "stageHeight": 200,
+      "readingHeight": 136
+    },
+    {
+      "engine": "chromium",
+      "fixture": "long",
+      "viewport": [
+        390,
+        844
+      ],
+      "pass": true,
+      "stageHeight": 257,
+      "readingHeight": 209
+    },
+    {
+      "engine": "chromium",
+      "fixture": "long",
+      "viewport": [
+        820,
+        1180
+      ],
+      "pass": true,
+      "stageHeight": 459,
+      "readingHeight": 363
+    },
+    {
+      "engine": "chromium",
+      "fixture": "long",
+      "viewport": [
+        1180,
+        820
+      ],
+      "pass": true,
+      "stageHeight": 249,
+      "readingHeight": 213
+    },
+    {
+      "engine": "chromium",
+      "fixture": "long",
+      "viewport": [
+        1366,
+        768
+      ],
+      "pass": true,
+      "stageHeight": 233,
+      "readingHeight": 177
+    },
+    {
+      "engine": "chromium",
+      "fixture": "long",
+      "viewport": [
+        812,
+        375
+      ],
+      "pass": true,
+      "stageHeight": 65,
+      "readingHeight": 83
+    },
+    {
+      "engine": "chromium",
+      "fixture": "image",
+      "viewport": [
+        320,
+        568
+      ],
+      "pass": true,
+      "stageHeight": 165,
+      "readingHeight": 119
+    },
+    {
+      "engine": "chromium",
+      "fixture": "image",
+      "viewport": [
+        375,
+        667
+      ],
+      "pass": true,
+      "stageHeight": 200,
+      "readingHeight": 167
+    },
+    {
+      "engine": "chromium",
+      "fixture": "image",
+      "viewport": [
+        390,
+        844
+      ],
+      "pass": true,
+      "stageHeight": 257,
+      "readingHeight": 241
+    },
+    {
+      "engine": "chromium",
+      "fixture": "image",
+      "viewport": [
+        820,
+        1180
+      ],
+      "pass": true,
+      "stageHeight": 459,
+      "readingHeight": 363
+    },
+    {
+      "engine": "chromium",
+      "fixture": "image",
+      "viewport": [
+        1180,
+        820
+      ],
+      "pass": true,
+      "stageHeight": 249,
+      "readingHeight": 213
+    },
+    {
+      "engine": "chromium",
+      "fixture": "image",
+      "viewport": [
+        1366,
+        768
+      ],
+      "pass": true,
+      "stageHeight": 233,
+      "readingHeight": 177
+    },
+    {
+      "engine": "chromium",
+      "fixture": "image",
+      "viewport": [
+        812,
+        375
+      ],
+      "pass": true,
+      "stageHeight": 86,
+      "readingHeight": 87
+    },
+    {
+      "engine": "chromium",
+      "fixture": "english",
+      "viewport": [
+        320,
+        568
+      ],
+      "pass": true,
+      "stageHeight": 134,
+      "readingHeight": 113
+    },
+    {
+      "engine": "chromium",
+      "fixture": "english",
+      "viewport": [
+        375,
+        667
+      ],
+      "pass": true,
+      "stageHeight": 200,
+      "readingHeight": 149
+    },
+    {
+      "engine": "chromium",
+      "fixture": "english",
+      "viewport": [
+        390,
+        844
+      ],
+      "pass": true,
+      "stageHeight": 257,
+      "readingHeight": 172
+    },
+    {
+      "engine": "chromium",
+      "fixture": "english",
+      "viewport": [
+        820,
+        1180
+      ],
+      "pass": true,
+      "stageHeight": 459,
+      "readingHeight": 151
+    },
+    {
+      "engine": "chromium",
+      "fixture": "english",
+      "viewport": [
+        1180,
+        820
+      ],
+      "pass": true,
+      "stageHeight": 249,
+      "readingHeight": 168
+    },
+    {
+      "engine": "chromium",
+      "fixture": "english",
+      "viewport": [
+        1366,
+        768
+      ],
+      "pass": true,
+      "stageHeight": 233,
+      "readingHeight": 159
+    },
+    {
+      "engine": "chromium",
+      "fixture": "english",
+      "viewport": [
+        812,
+        375
+      ],
+      "pass": true,
+      "stageHeight": 68,
+      "readingHeight": 81
+    },
+    {
+      "engine": "chromium",
+      "fixture": "pictures",
+      "viewport": [
+        320,
+        568
+      ],
+      "pass": true,
+      "stageHeight": 169,
+      "readingHeight": 93
+    },
+    {
+      "engine": "chromium",
+      "fixture": "pictures",
+      "viewport": [
+        375,
+        667
+      ],
+      "pass": true,
+      "stageHeight": 200,
+      "readingHeight": 93
+    },
+    {
+      "engine": "chromium",
+      "fixture": "pictures",
+      "viewport": [
+        390,
+        844
+      ],
+      "pass": true,
+      "stageHeight": 257,
+      "readingHeight": 96
+    },
+    {
+      "engine": "chromium",
+      "fixture": "pictures",
+      "viewport": [
+        820,
+        1180
+      ],
+      "pass": true,
+      "stageHeight": 459,
+      "readingHeight": 100
+    },
+    {
+      "engine": "chromium",
+      "fixture": "pictures",
+      "viewport": [
+        1180,
+        820
+      ],
+      "pass": true,
+      "stageHeight": 249,
+      "readingHeight": 109
+    },
+    {
+      "engine": "chromium",
+      "fixture": "pictures",
+      "viewport": [
+        1366,
+        768
+      ],
+      "pass": true,
+      "stageHeight": 233,
+      "readingHeight": 109
+    },
+    {
+      "engine": "chromium",
+      "fixture": "pictures",
+      "viewport": [
+        812,
+        375
+      ],
+      "pass": true,
+      "stageHeight": 65,
+      "readingHeight": 78
+    },
+    {
+      "engine": "chromium",
+      "fixture": "englishlong",
+      "viewport": [
+        320,
+        568
+      ],
+      "pass": true,
+      "stageHeight": 103,
+      "readingHeight": 64
+    },
+    {
+      "engine": "chromium",
+      "fixture": "englishlong",
+      "viewport": [
+        375,
+        667
+      ],
+      "pass": true,
+      "stageHeight": 159,
+      "readingHeight": 113
+    },
+    {
+      "engine": "chromium",
+      "fixture": "englishlong",
+      "viewport": [
+        390,
+        844
+      ],
+      "pass": true,
+      "stageHeight": 257,
+      "readingHeight": 131
+    },
+    {
+      "engine": "chromium",
+      "fixture": "englishlong",
+      "viewport": [
+        820,
+        1180
+      ],
+      "pass": true,
+      "stageHeight": 459,
+      "readingHeight": 100
+    },
+    {
+      "engine": "chromium",
+      "fixture": "englishlong",
+      "viewport": [
+        1180,
+        820
+      ],
+      "pass": true,
+      "stageHeight": 249,
+      "readingHeight": 109
+    },
+    {
+      "engine": "chromium",
+      "fixture": "englishlong",
+      "viewport": [
+        1366,
+        768
+      ],
+      "pass": true,
+      "stageHeight": 233,
+      "readingHeight": 109
+    },
+    {
+      "engine": "chromium",
+      "fixture": "englishlong",
+      "viewport": [
+        812,
+        375
+      ],
+      "pass": true,
+      "stageHeight": 65,
+      "readingHeight": 77
+    },
+    {
+      "engine": "webkit",
+      "fixture": "short",
+      "viewport": [
+        390,
+        844
+      ],
+      "pass": true,
+      "stageHeight": 257,
+      "readingHeight": 137
+    },
+    {
+      "engine": "webkit",
+      "fixture": "short",
+      "viewport": [
+        820,
+        1180
+      ],
+      "pass": true,
+      "stageHeight": 459,
+      "readingHeight": 151
+    },
+    {
+      "engine": "webkit",
+      "fixture": "short",
+      "viewport": [
+        1180,
+        820
+      ],
+      "pass": true,
+      "stageHeight": 249,
+      "readingHeight": 168
+    },
+    {
+      "engine": "webkit",
+      "fixture": "image",
+      "viewport": [
+        390,
+        844
+      ],
+      "pass": true,
+      "stageHeight": 257,
+      "readingHeight": 241
+    },
+    {
+      "engine": "webkit",
+      "fixture": "image",
+      "viewport": [
+        820,
+        1180
+      ],
+      "pass": true,
+      "stageHeight": 459,
+      "readingHeight": 363
+    },
+    {
+      "engine": "webkit",
+      "fixture": "image",
+      "viewport": [
+        1180,
+        820
+      ],
+      "pass": true,
+      "stageHeight": 249,
+      "readingHeight": 213
+    },
+    {
+      "engine": "webkit",
+      "fixture": "english",
+      "viewport": [
+        390,
+        844
+      ],
+      "pass": true,
+      "stageHeight": 257,
+      "readingHeight": 172
+    },
+    {
+      "engine": "webkit",
+      "fixture": "english",
+      "viewport": [
+        820,
+        1180
+      ],
+      "pass": true,
+      "stageHeight": 459,
+      "readingHeight": 151
+    },
+    {
+      "engine": "webkit",
+      "fixture": "english",
+      "viewport": [
+        1180,
+        820
+      ],
+      "pass": true,
+      "stageHeight": 249,
+      "readingHeight": 168
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "baseline": {
+    "fault": "isolated localhost4277 returns503 for TerritoryPage JS",
+    "result": "React root disappears; dynamic import TypeError in console"
+  },
+  "recovery": {
+    "territoryFailure": "visible fallback, header and nav retained",
+    "roomFailure": "visible fallback for grade1, speech control and back work",
+    "retry": "browser retained failed module error after asset restored; fallback stayed usable",
+    "automaticReload": false,
+    "back": "returns to harbor with existing learning progress",
+    "tablet": {
+      "viewport": [
+        820,
+        1180
+      ],
+      "overflow": false,
+      "actionHeight": 77.25,
+      "lastActionBottom": 986.531
+    },
+    "phone": {
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "actionHeights": [
+        77.25,
+        73.25
+      ]
+    },
+    "desktopViewport": [
+      1280,
+      720
+    ]
+  },
+  "editor": {
+    "initialChairZIndex": 690,
+    "dirtyChairZIndex": 700,
+    "api503": "dirty700 retained; actions disabled; explicit draft-preserved message",
+    "reconnected": "dirty700 and undo retained",
+    "undo": 690,
+    "redoAfterUnchangedPolls": 700,
+    "saved": "cloud success and editing closes;700 retained"
+  },
+  "newRegressionTests": {
+    "count": 4,
+    "cases": [
+      "same clean snapshot preserves undo/redo",
+      "identical first-open clears waiting flag before later remote change",
+      "dirty save ignores old poll then accepts new revision",
+      "failed-save and absent snapshot"
+    ]
+  },
+  "verification": {
+    "independentReview": "PASS after first-open flag fix",
+    "build": "PASS",
+    "postgresFiles": 51,
+    "postgresTests": 443
+  },
+  "limits": [
+    "No real tablet hardware measurement",
+    "Browser may cache failed chunk URLs; no guarantee retry succeeds",
+    "Runtime render crashes and missing main entry remain outside local import recovery",
+    "Audio controls exercised, not human pronunciation listening"
+  ]
+}

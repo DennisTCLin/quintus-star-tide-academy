@@ -1,0 +1,693 @@
+### Page
+- Page URL: http://127.0.0.1:4387/
+- Page Title: 星潮學院｜一起向星海出發
+- Console: 1 errors, 0 warnings
+### Snapshot
+```yaml
+- generic [ref=e47]:
+  - link "跳 ㄊㄧㄠˋ 到 ㄉㄠˋ 主 ㄓㄨˇ 要 ㄧㄠˋ 內 ㄋㄟˋ 容 ㄖㄨㄥˊ" [ref=e48] [cursor=pointer]:
+    - /url: "#family-main"
+    - generic [ref=e49]:
+      - text: 跳
+      - generic [ref=e50]: ㄊㄧㄠˋ
+    - generic [ref=e51]:
+      - text: 到
+      - generic [ref=e52]: ㄉㄠˋ
+    - generic [ref=e53]:
+      - text: 主
+      - generic [ref=e54]: ㄓㄨˇ
+    - generic [ref=e55]:
+      - text: 要
+      - generic [ref=e56]: ㄧㄠˋ
+    - generic [ref=e57]:
+      - text: 內
+      - generic [ref=e58]: ㄋㄟˋ
+    - generic [ref=e59]:
+      - text: 容
+      - generic [ref=e60]: ㄖㄨㄥˊ
+  - status [ref=e61]:
+    - generic [ref=e62]:
+      - text: jimmy ·
+      - generic [ref=e4801]: ☁
+      - generic [ref=e4805]:
+        - text: 已
+        - generic [ref=e4806]: ㄧˇ
+      - generic [ref=e4807]:
+        - text: 儲
+        - generic [ref=e4808]: ㄔㄨˊ
+      - generic [ref=e4809]:
+        - text: 存
+        - generic [ref=e4810]: ㄘㄨㄣˊ
+      - generic [ref=e4811]:
+        - text: 至
+        - generic [ref=e4812]: ㄓˋ
+      - generic [ref=e4813]:
+        - text: 雲
+        - generic [ref=e4814]: ㄩㄣˊ
+      - generic [ref=e4815]:
+        - text: 端
+        - generic [ref=e4816]: ㄉㄨㄢ
+    - button "登出" [ref=e79] [cursor=pointer]:
+      - generic [ref=e80]:
+        - text: 登
+        - generic [ref=e81]: ㄉㄥ
+      - generic [ref=e82]:
+        - text: 出
+        - generic [ref=e83]: ㄔㄨ
+  - main [ref=e229]:
+    - region "答題怪物戰鬥" [ref=e3969]:
+      - generic [ref=e3970]:
+        - generic [ref=e3971]:
+          - generic [ref=e3972]: ⚔️
+          - generic [ref=e3976]:
+            - text: 答
+            - generic [ref=e3977]: ㄉㄚˊ
+          - generic [ref=e3978]:
+            - text: 對
+            - generic [ref=e3979]: ㄉㄨㄟˋ
+          - generic [ref=e3980]:
+            - text: 就
+            - generic [ref=e3981]: ㄐㄧㄡˋ
+          - generic [ref=e3982]:
+            - text: 出
+            - generic [ref=e3983]: ㄔㄨ
+          - generic [ref=e3984]:
+            - text: 招
+            - generic [ref=e3985]: ㄓㄠ
+        - button "暫停背景音樂" [pressed] [ref=e4414] [cursor=pointer]:
+          - generic [ref=e4415]: Ⅱ
+          - generic [ref=e4419]:
+            - text: 暫
+            - generic [ref=e4420]: ㄓㄢˋ
+          - generic [ref=e4421]:
+            - text: 停
+            - generic [ref=e4422]: ㄊㄧㄥˊ
+          - generic [ref=e4423]:
+            - text: 音
+            - generic [ref=e4424]: ㄧㄣ
+          - generic [ref=e4425]:
+            - text: 樂
+            - generic [ref=e4426]: ㄩㄝˋ
+      - generic [ref=e3986]:
+        - generic [ref=e3988]:
+          - generic [ref=e3989]:
+            - strong [ref=e3990]:
+              - generic [ref=e3991]:
+                - text: 潮
+                - generic [ref=e3992]: ㄔㄠˊ
+              - generic [ref=e3993]:
+                - text: 光
+                - generic [ref=e3994]: ㄍㄨㄤ
+              - generic [ref=e3995]:
+                - text: 獸
+                - generic [ref=e3996]: ㄕㄡˋ
+            - meter "夥伴生命" [ref=e3997]
+            - generic [ref=e3999]: 100 / 100
+          - generic [ref=e4000]:
+            - strong [ref=e4001]:
+              - generic [ref=e4002]:
+                - text: 碧
+                - generic [ref=e4003]: ㄅㄧˋ
+              - generic [ref=e4004]:
+                - text: 波
+                - generic [ref=e4005]: ㄅㄛ
+              - generic [ref=e4006]:
+                - text: 雲
+                - generic [ref=e4007]: ㄩㄣˊ
+              - generic [ref=e4008]:
+                - text: 鰭
+                - generic [ref=e4009]: ㄑㄧˊ
+            - meter "怪物體力" [ref=e4010]
+            - generic [ref=e4012]: 95 / 112
+        - img "潮光獸" [ref=e4017]
+        - img "碧波雲鰭" [ref=e4022]
+      - status [ref=e4023]:
+        - generic [ref=e4024]:
+          - text: 每
+          - generic [ref=e4025]: ㄇㄟˇ
+        - generic [ref=e4026]:
+          - text: 題
+          - generic [ref=e4027]: ㄊㄧˊ
+        - generic [ref=e4028]:
+          - text: 只
+          - generic [ref=e4029]: ㄓˇ
+        - generic [ref=e4030]:
+          - text: 作
+          - generic [ref=e4031]: ㄗㄨㄛˋ
+        - generic [ref=e4818]:
+          - text: 答
+          - generic [ref=e4819]: ㄉㄚˊ
+        - generic [ref=e4034]:
+          - text: 一
+          - generic [ref=e4035]: ㄧ
+        - generic [ref=e4036]:
+          - text: 次
+          - generic [ref=e4037]: ㄘˋ
+        - text: ；
+        - generic [ref=e4820]:
+          - text: 答
+          - generic [ref=e4821]: ㄉㄚˊ
+        - generic [ref=e4822]:
+          - text: 對
+          - generic [ref=e4823]: ㄉㄨㄟˋ
+        - generic [ref=e4824]:
+          - text: 攻
+          - generic [ref=e4825]: ㄍㄨㄥ
+        - generic [ref=e4826]:
+          - text: 擊
+          - generic [ref=e4827]: ㄐㄧˊ
+        - text: ，
+        - generic [ref=e4828]:
+          - text: 答
+          - generic [ref=e4829]: ㄉㄚˊ
+        - generic [ref=e4830]:
+          - text: 錯
+          - generic [ref=e4831]: ㄘㄨㄛˋ
+        - generic [ref=e4832]:
+          - text: 或
+          - generic [ref=e4833]: ㄏㄨㄛˋ
+        - generic [ref=e4834]:
+          - text: 超
+          - generic [ref=e4835]: ㄔㄠ
+        - generic [ref=e4836]:
+          - text: 時
+          - generic [ref=e4837]: ㄕˊ
+        - generic [ref=e4838]:
+          - text: 扣
+          - generic [ref=e4839]: ㄎㄡˋ
+        - generic [ref=e4840]:
+          - text: 血
+          - generic [ref=e4841]: ㄒㄧㄝˇ
+        - text: 。
+        - generic [ref=e4842]:
+          - text: 累
+          - generic [ref=e4843]: ㄌㄟˇ
+        - generic [ref=e4844]:
+          - text: 計
+          - generic [ref=e4845]: ㄐㄧˋ
+        - generic [ref=e4846]:
+          - text: 三
+          - generic [ref=e4847]: ㄙㄢ
+        - generic [ref=e4848]:
+          - text: 錯
+          - generic [ref=e4849]: ㄘㄨㄛˋ
+        - generic [ref=e4850]:
+          - text: 就
+          - generic [ref=e4851]: ㄐㄧㄡˋ
+        - generic [ref=e4852]:
+          - text: 結
+          - generic [ref=e4853]: ㄐㄧㄝˊ
+        - generic [ref=e4854]:
+          - text: 束
+          - generic [ref=e4855]: ㄕㄨˋ
+        - generic [ref=e4856]:
+          - text: 這
+          - generic [ref=e4857]: ㄓㄜˋ
+        - generic [ref=e4858]:
+          - text: 場
+          - generic [ref=e4859]: ㄔㄤˇ
+        - text: 。
+      - group [ref=e4078]:
+        - generic "夥 ㄏㄨㄛˇ 伴 ㄅㄢˋ 成 ㄔㄥˊ 長 ㄓㄤˇ 與 ㄩˇ 戰 ㄓㄢˋ 鬥 ㄉㄡˋ 說 ㄕㄨㄛ 明 ㄇㄧㄥˊ" [ref=e4079] [cursor=pointer]:
+          - generic [ref=e4080]:
+            - text: 夥
+            - generic [ref=e4081]: ㄏㄨㄛˇ
+          - generic [ref=e4082]:
+            - text: 伴
+            - generic [ref=e4083]: ㄅㄢˋ
+          - generic [ref=e4084]:
+            - text: 成
+            - generic [ref=e4085]: ㄔㄥˊ
+          - generic [ref=e4086]:
+            - text: 長
+            - generic [ref=e4087]: ㄓㄤˇ
+          - generic [ref=e4088]:
+            - text: 與
+            - generic [ref=e4089]: ㄩˇ
+          - generic [ref=e4090]:
+            - text: 戰
+            - generic [ref=e4091]: ㄓㄢˋ
+          - generic [ref=e4092]:
+            - text: 鬥
+            - generic [ref=e4093]: ㄉㄡˋ
+          - generic [ref=e4094]:
+            - text: 說
+            - generic [ref=e4095]: ㄕㄨㄛ
+          - generic [ref=e4096]:
+            - text: 明
+            - generic [ref=e4097]: ㄇㄧㄥˊ
+    - generic [ref=e4427]:
+      - button "回到港口" [ref=e4428] [cursor=pointer]:
+        - generic [ref=e4429]: ⛵
+      - generic "第 2 題，共 6 題" [ref=e4860]:
+        - generic [ref=e4434]: ✓
+        - generic [ref=e4435]: "2"
+        - generic [ref=e4436]: "3"
+        - generic [ref=e4437]: "4"
+        - generic [ref=e4438]: "5"
+        - generic [ref=e4439]: "6"
+      - generic "累計答錯 0 題，三題即失敗" [ref=e4440]: ❤️❤️❤️ 0 / 3
+    - generic [ref=e4441]:
+      - generic [ref=e4442]:
+        - strong [ref=e4443]:
+          - generic [ref=e4444]: 🎯
+          - generic [ref=e4448]:
+            - text: 已
+            - generic [ref=e4449]: ㄧˇ
+          - generic [ref=e4450]:
+            - text: 答
+            - generic [ref=e4451]: ㄉㄚˊ
+          - generic [ref=e4452]:
+            - text: 對
+            - generic [ref=e4453]: ㄉㄨㄟˋ
+          - text: "1"
+          - generic [ref=e4454]:
+            - text: 題
+            - generic [ref=e4455]: ㄊㄧˊ
+          - text: ·
+          - generic [ref=e4456]:
+            - text: 目
+            - generic [ref=e4457]: ㄇㄨˋ
+          - generic [ref=e4458]:
+            - text: 標
+            - generic [ref=e4459]: ㄅㄧㄠ
+          - text: "4"
+          - generic [ref=e4460]:
+            - text: 題
+            - generic [ref=e4461]: ㄊㄧˊ
+        - generic [ref=e4462]:
+          - generic [ref=e4861]: 🌱
+          - generic [ref=e4865]:
+            - text: 慢
+            - generic [ref=e4866]: ㄇㄢˋ
+          - generic [ref=e4867]:
+            - text: 慢
+            - generic [ref=e4868]: ㄇㄢˋ
+          - generic [ref=e4869]:
+            - text: 想
+            - generic [ref=e4870]: ㄒㄧㄤˇ
+          - text: ·
+          - generic [ref=e4871]:
+            - text: 不
+            - generic [ref=e4872]: ㄅㄨˋ
+          - generic [ref=e4873]:
+            - text: 計
+            - generic [ref=e4874]: ㄐㄧˋ
+          - generic [ref=e4875]:
+            - text: 時
+            - generic [ref=e4876]: ㄕˊ
+      - group [ref=e4479]:
+        - generic [ref=e4480]:
+          - paragraph [ref=e4481]:
+            - generic [ref=e4482]:
+              - text: 試
+              - generic [ref=e4483]: ㄕˋ
+            - generic [ref=e4484]:
+              - text: 卷
+              - generic [ref=e4485]: ㄐㄩㄢˇ
+            - generic [ref=e4486]:
+              - text: 題
+              - generic [ref=e4487]: ㄊㄧˊ
+            - text: ・
+            - generic [ref=e4488]:
+              - text: 四
+              - generic [ref=e4489]: ㄙˋ
+            - generic [ref=e4490]:
+              - text: 維
+              - generic [ref=e4491]: ㄨㄟˊ
+            - generic [ref=e4492]:
+              - text: 國
+              - generic [ref=e4493]: ㄍㄨㄛˊ
+            - generic [ref=e4494]:
+              - text: 小
+              - generic [ref=e4495]: ㄒㄧㄠˇ
+            - text: "110"
+            - generic [ref=e4496]:
+              - text: 學
+              - generic [ref=e4497]: ㄒㄩㄝˊ
+            - generic [ref=e4498]:
+              - text: 年
+              - generic [ref=e4499]: ㄋㄧㄢˊ
+            - generic [ref=e4500]:
+              - text: 度
+              - generic [ref=e4501]: ㄉㄨˋ
+            - generic [ref=e4502]:
+              - text: 二
+              - generic [ref=e4503]: ㄦˋ
+            - generic [ref=e4504]:
+              - text: 上
+              - generic [ref=e4505]: ㄕㄤˋ
+            - text: ・
+            - generic [ref=e4506]:
+              - text: 康
+              - generic [ref=e4507]: ㄎㄤ
+            - generic [ref=e4508]:
+              - text: 軒
+              - generic [ref=e4509]: ㄒㄩㄢ
+            - text: ・
+            - generic [ref=e4510]:
+              - text: 第
+              - generic [ref=e4511]: ㄉㄧˋ
+            - text: "2"
+            - generic [ref=e4512]:
+              - text: 頁
+              - generic [ref=e4513]: ㄧㄝˋ
+            - generic [ref=e4514]:
+              - text: 四
+              - generic [ref=e4515]: ㄙˋ
+            - text: 4（
+            - generic [ref=e4516]:
+              - text: 字
+              - generic [ref=e4517]: ㄗˋ
+            - generic [ref=e4518]:
+              - text: 詞
+              - generic [ref=e4519]: ㄘˊ
+            - generic [ref=e4520]:
+              - text: 句
+              - generic [ref=e4521]: ㄐㄩˋ
+            - generic [ref=e4522]:
+              - text: 意
+              - generic [ref=e4523]: ㄧˋ
+            - generic [ref=e4524]:
+              - text: 選
+              - generic [ref=e4525]: ㄒㄩㄢˇ
+            - generic [ref=e4526]:
+              - text: 擇
+              - generic [ref=e4527]: ㄗㄜˊ
+            - generic [ref=e4528]:
+              - text: 改
+              - generic [ref=e4529]: ㄍㄞˇ
+            - generic [ref=e4530]:
+              - text: 編
+              - generic [ref=e4531]: ㄅㄧㄢ
+            - text: ）
+          - generic [ref=e4532]:
+            - generic [ref=e4533]:
+              - generic [ref=e4534]:
+                - text: 挑
+                - generic [ref=e4535]: ㄊㄧㄠˇ
+              - generic [ref=e4536]:
+                - text: 戰
+                - generic [ref=e4537]: ㄓㄢˋ
+              - text: 2 / 6
+            - generic [ref=e4538]:
+              - text: "2"
+              - generic [ref=e4539]:
+                - text: 年
+                - generic [ref=e4540]: ㄋㄧㄢˊ
+              - generic [ref=e4541]:
+                - text: 級
+                - generic [ref=e4542]: ㄐㄧˊ
+          - heading "牆角有一隻小□在睡覺。" [active] [level=1] [ref=e4877]
+          - generic [ref=e4544]:
+            - button "播放題目聲音" [ref=e4545] [cursor=pointer]:
+              - generic [ref=e4546]: 👂
+              - generic [ref=e4551]:
+                - generic [ref=e4552]:
+                  - text: 聽
+                  - generic [ref=e4553]: ㄊㄧㄥ
+                - generic [ref=e4554]:
+                  - text: 題
+                  - generic [ref=e4555]: ㄊㄧˊ
+                - generic [ref=e4556]:
+                  - text: 目
+                  - generic [ref=e4557]: ㄇㄨˋ
+              - generic [ref=e4558]: ▶
+            - button "🛡️ 護 ㄏㄨˋ 盾 ㄉㄨㄣˋ" [ref=e4564] [cursor=pointer]:
+              - generic [ref=e4565]: 🛡️
+              - generic [ref=e4569]:
+                - text: 護
+                - generic [ref=e4570]: ㄏㄨˋ
+              - generic [ref=e4571]:
+                - text: 盾
+                - generic [ref=e4572]: ㄉㄨㄣˋ
+          - paragraph [ref=e4878]:
+            - generic [ref=e4879]:
+              - text: 點
+              - generic [ref=e4880]: ㄉㄧㄢˇ
+            - generic [ref=e4881]:
+              - text: 選
+              - generic [ref=e4882]: ㄒㄩㄢˇ
+            - generic [ref=e4883]:
+              - text: 答
+              - generic [ref=e4884]: ㄉㄚˊ
+            - generic [ref=e4885]:
+              - text: 案
+              - generic [ref=e4886]: ㄢˋ
+            - text: ，
+            - generic [ref=e4887]:
+              - text: 立
+              - generic [ref=e4888]: ㄌㄧˋ
+            - generic [ref=e4889]:
+              - text: 即
+              - generic [ref=e4890]: ㄐㄧˊ
+            - generic [ref=e4891]:
+              - text: 送
+              - generic [ref=e4892]: ㄙㄨㄥˋ
+            - generic [ref=e4893]:
+              - text: 出
+              - generic [ref=e4894]: ㄔㄨ
+          - generic [ref=e4590]:
+            - button "選擇 喵" [ref=e4895] [cursor=pointer]:
+              - generic [ref=e4592]: 喵
+            - button "選擇 貓" [ref=e4896] [cursor=pointer]:
+              - generic [ref=e4595]: 貓
+          - button "💡 提 ㄊㄧˊ 示 ㄕˋ" [ref=e4601] [cursor=pointer]:
+            - generic [ref=e4602]: 💡
+            - generic [ref=e4606]:
+              - text: 提
+              - generic [ref=e4607]: ㄊㄧˊ
+            - generic [ref=e4608]:
+              - text: 示
+              - generic [ref=e4609]: ㄕˋ
+          - status [ref=e4610]:
+            - generic [ref=e4611]:
+              - generic [ref=e4612]:
+                - text: 新
+                - generic [ref=e4613]: ㄒㄧㄣ
+              - generic [ref=e4614]:
+                - text: 題
+                - generic [ref=e4615]: ㄊㄧˊ
+              - generic [ref=e4616]:
+                - text: 探
+                - generic [ref=e4617]: ㄊㄢˋ
+              - generic [ref=e4618]:
+                - text: 索
+                - generic [ref=e4619]: ㄙㄨㄛˇ
+              - text: ·
+              - generic [ref=e4620]:
+                - text: 依
+                - generic [ref=e4621]: ㄧ
+              - generic [ref=e4622]:
+                - text: 本
+                - generic [ref=e4623]: ㄅㄣˇ
+              - generic [ref=e4624]:
+                - text: 場
+                - generic [ref=e4625]: ㄔㄤˇ
+              - generic [ref=e4626]:
+                - text: 挑
+                - generic [ref=e4627]: ㄊㄧㄠˇ
+              - generic [ref=e4628]:
+                - text: 戰
+                - generic [ref=e4629]: ㄓㄢˋ
+              - generic [ref=e4630]:
+                - text: 安
+                - generic [ref=e4631]: ㄢ
+              - generic [ref=e4632]:
+                - text: 排
+                - generic [ref=e4633]: ㄆㄞˊ
+            - button "聽出題說明" [ref=e4634] [cursor=pointer]:
+              - generic [ref=e4635]: 🔊
+          - paragraph [ref=e4639]:
+            - generic [ref=e4640]:
+              - text: 每
+              - generic [ref=e4641]: ㄇㄟˇ
+            - generic [ref=e4642]:
+              - text: 題
+              - generic [ref=e4643]: ㄊㄧˊ
+            - generic [ref=e4644]:
+              - text: 只
+              - generic [ref=e4645]: ㄓˇ
+            - generic [ref=e4646]:
+              - text: 能
+              - generic [ref=e4647]: ㄋㄥˊ
+            - generic [ref=e4648]:
+              - text: 選
+              - generic [ref=e4649]: ㄒㄩㄢˇ
+            - generic [ref=e4650]:
+              - text: 一
+              - generic [ref=e4651]: ㄧ
+            - generic [ref=e4652]:
+              - text: 次
+              - generic [ref=e4653]: ㄘˋ
+            - text: 。
+            - generic [ref=e4654]:
+              - text: 答
+              - generic [ref=e4655]: ㄉㄚˊ
+            - generic [ref=e4656]:
+              - text: 錯
+              - generic [ref=e4657]: ㄘㄨㄛˋ
+            - generic [ref=e4658]:
+              - text: 或
+              - generic [ref=e4659]: ㄏㄨㄛˋ
+            - generic [ref=e4660]:
+              - text: 超
+              - generic [ref=e4661]: ㄔㄠ
+            - generic [ref=e4662]:
+              - text: 時
+              - generic [ref=e4663]: ㄕˊ
+            - generic [ref=e4664]:
+              - text: 三
+              - generic [ref=e4665]: ㄙㄢ
+            - generic [ref=e4666]:
+              - text: 次
+              - generic [ref=e4667]: ㄘˋ
+            - generic [ref=e4668]:
+              - text: 即
+              - generic [ref=e4669]: ㄐㄧˊ
+            - generic [ref=e4670]:
+              - text: 失
+              - generic [ref=e4671]: ㄕ
+            - generic [ref=e4672]:
+              - text: 敗
+              - generic [ref=e4673]: ㄅㄞˋ
+            - text: ；
+            - generic [ref=e4674]:
+              - text: 六
+              - generic [ref=e4675]: ㄌㄧㄡˋ
+            - generic [ref=e4676]:
+              - text: 題
+              - generic [ref=e4677]: ㄊㄧˊ
+            - generic [ref=e4678]:
+              - text: 答
+              - generic [ref=e4679]: ㄉㄚˊ
+            - generic [ref=e4680]:
+              - text: 對
+              - generic [ref=e4681]: ㄉㄨㄟˋ
+            - text: "4"
+            - generic [ref=e4682]:
+              - text: 題
+              - generic [ref=e4683]: ㄊㄧˊ
+            - generic [ref=e4684]:
+              - text: 才
+              - generic [ref=e4685]: ㄘㄞˊ
+            - generic [ref=e4686]:
+              - text: 通
+              - generic [ref=e4687]: ㄊㄨㄥ
+            - generic [ref=e4688]:
+              - text: 關
+              - generic [ref=e4689]: ㄍㄨㄢ
+            - text: 。
+            - generic [ref=e4690]:
+              - text: 每
+              - generic [ref=e4691]: ㄇㄟˇ
+            - generic [ref=e4692]:
+              - text: 兩
+              - generic [ref=e4693]: ㄌㄧㄤˇ
+            - generic [ref=e4694]:
+              - text: 場
+              - generic [ref=e4695]: ㄔㄤˇ
+            - generic [ref=e4696]:
+              - text: 成
+              - generic [ref=e4697]: ㄔㄥˊ
+            - generic [ref=e4698]:
+              - text: 功
+              - generic [ref=e4699]: ㄍㄨㄥ
+            - generic [ref=e4700]:
+              - text: 換
+              - generic [ref=e4701]: ㄏㄨㄢˋ
+            - generic [ref=e4702]:
+              - text: 一
+              - generic [ref=e4703]: ㄧ
+            - generic [ref=e4704]:
+              - text: 張
+              - generic [ref=e4705]: ㄓㄤ
+            - generic [ref=e4706]:
+              - text: 券
+              - generic [ref=e4707]: ㄑㄩㄢˋ
+            - text: 。
+    - button "⏹ 結 ㄐㄧㄝˊ 束 ㄕㄨˋ 航 ㄏㄤˊ 程 ㄔㄥˊ" [ref=e4708] [cursor=pointer]:
+      - generic [ref=e4709]: ⏹
+      - generic [ref=e4713]:
+        - text: 結
+        - generic [ref=e4714]: ㄐㄧㄝˊ
+      - generic [ref=e4715]:
+        - text: 束
+        - generic [ref=e4716]: ㄕㄨˋ
+      - generic [ref=e4717]:
+        - text: 航
+        - generic [ref=e4718]: ㄏㄤˊ
+      - generic [ref=e4719]:
+        - text: 程
+        - generic [ref=e4720]: ㄔㄥˊ
+  - contentinfo [ref=e1446]:
+    - generic [ref=e1447]:
+      - img "星潮學院 Star Tide Academy — 星潮小龍" [ref=e1448]:
+        - generic [aria-hidden] [ref=e1449]:
+          - strong [ref=e1450]: 星潮學院
+          - generic [ref=e1451]: STAR TIDE ACADEMY
+      - generic [ref=e1452]:
+        - generic [ref=e1453]:
+          - text: 測
+          - generic [ref=e1454]: ㄘㄜˋ
+        - generic [ref=e1455]:
+          - text: 試
+          - generic [ref=e1456]: ㄕˋ
+        - generic [ref=e1457]:
+          - text: 航
+          - generic [ref=e1458]: ㄏㄤˊ
+        - generic [ref=e1459]:
+          - text: 海
+          - generic [ref=e1460]: ㄏㄞˇ
+        - generic [ref=e1461]:
+          - text: 員
+          - generic [ref=e1462]: ㄩㄢˊ
+    - generic [ref=e1463]:
+      - generic [ref=e1464]:
+        - text: 學
+        - generic [ref=e1465]: ㄒㄩㄝˊ
+      - generic [ref=e1466]:
+        - text: 習
+        - generic [ref=e1467]: ㄒㄧˊ
+      - generic [ref=e1468]:
+        - text: 點
+        - generic [ref=e1469]: ㄉㄧㄢˇ
+      - generic [ref=e1470]:
+        - text: 數
+        - generic [ref=e1471]: ㄕㄨˋ
+      - generic [ref=e1472]:
+        - text: 不
+        - generic [ref=e1473]: ㄅㄨˋ
+      - generic [ref=e1474]:
+        - text: 扣
+        - generic [ref=e1475]: ㄎㄡˋ
+      - generic [ref=e1476]:
+        - text: 除
+        - generic [ref=e1477]: ㄔㄨˊ
+      - text: ，
+      - generic [ref=e1478]:
+        - text: 休
+        - generic [ref=e1479]: ㄒㄧㄡ
+      - generic [ref=e1480]:
+        - text: 息
+        - generic [ref=e1481]: ㄒㄧˊ
+      - generic [ref=e1482]:
+        - text: 後
+        - generic [ref=e1483]: ㄏㄡˋ
+      - generic [ref=e1484]:
+        - text: 再
+        - generic [ref=e1485]: ㄗㄞˋ
+      - generic [ref=e1486]:
+        - text: 一
+        - generic [ref=e1487]: ㄧ
+      - generic [ref=e1488]:
+        - text: 起
+        - generic [ref=e1489]: ㄑㄧˇ
+      - generic [ref=e1490]:
+        - text: 出
+        - generic [ref=e1491]: ㄔㄨ
+      - generic [ref=e1492]:
+        - text: 發
+        - generic [ref=e1493]: ㄈㄚ
+      - text: 。
+```

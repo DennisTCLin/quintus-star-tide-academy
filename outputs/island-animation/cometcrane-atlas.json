@@ -1,0 +1,36 @@
+{
+  "pet": "cometcrane",
+  "crop": {
+    "left": 258,
+    "top": 109,
+    "width": 597,
+    "height": 597
+  },
+  "cell": 160,
+  "clips": {
+    "idle": {
+      "src": "/assets/island-motion/cometcrane-idle.webp?v=030bc017f1fc",
+      "columns": 6,
+      "rows": 8,
+      "frames": 48,
+      "cell": 160,
+      "seconds": 4
+    },
+    "walk": {
+      "src": "/assets/island-motion/cometcrane-walk.webp?v=1432b5bc8115",
+      "columns": 6,
+      "rows": 4,
+      "frames": 23,
+      "cell": 160,
+      "seconds": 1.9166666666666667
+    },
+    "play": {
+      "src": "/assets/island-motion/cometcrane-play.webp?v=a6a4b7182ea5",
+      "columns": 6,
+      "rows": 8,
+      "frames": 48,
+      "cell": 160,
+      "seconds": 4
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "runtime": "19999495c441bb4c7f2195b8a94929d7e262ae52",
+  "deployment": "af83e502-1d35-44ef-93c7-83d2871fa618",
+  "status": "SUCCESS",
+  "productionChecks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "players/alan.jpg",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "players/jimmy.jpg",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/index.v-DvfdBMx5.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/IslandApp.v-Dweg8xZc.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-BXtZHRcl.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/index.v-AkUm1SUy.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/IslandApp.v-DEHy44tm.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/game-view.v-CNifi8gA.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/RoomEditor.v-bvDf5RAf.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/game-view.v-BW5rtuk2.js",
+      "status": 200,
+      "sha256Match": true
+    }
+  ]
+}

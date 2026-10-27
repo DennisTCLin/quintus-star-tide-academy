@@ -1,0 +1,203 @@
+{
+  "pass": true,
+  "cases": [
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "course": "math",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "course": "chinese",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "course": "english",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "course": "social",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "course": "science",
+      "result": "resumed pending corrections without mutation"
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "course": "math",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "course": "chinese",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "course": "english",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "course": "social",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "course": "science",
+      "result": "resumed pending corrections without mutation"
+    },
+    {
+      "engine": "chromium",
+      "width": 393,
+      "course": "math",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "chromium",
+      "width": 393,
+      "course": "chinese",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "chromium",
+      "width": 393,
+      "course": "english",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "chromium",
+      "width": 393,
+      "course": "social",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "chromium",
+      "width": 393,
+      "course": "science",
+      "result": "resumed pending corrections without mutation"
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "course": "math",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "course": "chinese",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "course": "english",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "course": "social",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "course": "science",
+      "result": "resumed pending corrections without mutation"
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "course": "math",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "course": "chinese",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "course": "english",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "course": "social",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "course": "science",
+      "result": "resumed pending corrections without mutation"
+    },
+    {
+      "engine": "webkit",
+      "width": 393,
+      "course": "math",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "webkit",
+      "width": 393,
+      "course": "chinese",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "webkit",
+      "width": 393,
+      "course": "english",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "webkit",
+      "width": 393,
+      "course": "social",
+      "result": "confirmed switch, 6 questions, progress and rewards preserved, reload preserved"
+    },
+    {
+      "engine": "webkit",
+      "width": 393,
+      "course": "science",
+      "result": "resumed pending corrections without mutation"
+    }
+  ],
+  "errors": [],
+  "navigationCancellationErrors": [
+    "/127.0.0.1:47830/api/state due to access control checks.",
+    "/127.0.0.1:47830/api/state due to access control checks.",
+    "/127.0.0.1:47830/api/state due to access control checks.",
+    "/127.0.0.1:47830/api/state due to access control checks.",
+    "/127.0.0.1:47830/api/state due to access control checks.",
+    "/127.0.0.1:47830/api/state due to access control checks.",
+    "/127.0.0.1:47830/api/state due to access control checks.",
+    "/127.0.0.1:47830/api/state due to access control checks.",
+    "/127.0.0.1:47830/api/state due to access control checks.",
+    "/127.0.0.1:47830/api/state due to access control checks.",
+    "/127.0.0.1:47830/api/state due to access control checks.",
+    "/127.0.0.1:47830/api/state due to access control checks."
+  ],
+  "realLocalPostgres": true,
+  "physicalIPad": false,
+  "productionMutations": false
+}

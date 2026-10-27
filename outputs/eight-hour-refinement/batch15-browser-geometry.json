@@ -1,0 +1,154 @@
+[
+  {
+    "fallback": 0,
+    "foe": [
+      {
+        "box": {
+          "height": 155.3182373046875,
+          "width": 140.8936767578125,
+          "x": 199.83441162109375,
+          "y": 277.2984924316406
+        },
+        "complete": false,
+        "mask": "none",
+        "naturalWidth": 0,
+        "opacity": "1",
+        "src": null,
+        "tag": "DIV"
+      },
+      {
+        "box": {
+          "height": 155.3182373046875,
+          "width": 140.8936767578125,
+          "x": 199.83441162109375,
+          "y": 277.2984924316406
+        },
+        "complete": true,
+        "mask": "none",
+        "naturalWidth": 640,
+        "opacity": "1",
+        "src": "/assets/monsters/cloud-scout-fire.webp?v=82e19a5a7587",
+        "tag": "IMG"
+      }
+    ],
+    "overflow": false,
+    "viewport": [
+      1024,
+      768
+    ]
+  },
+  {
+    "fallback": 0,
+    "foe": [
+      {
+        "box": {
+          "height": 142.26348876953125,
+          "width": 265.634765625,
+          "x": 475.9091796875,
+          "y": 259.49859619140625
+        },
+        "complete": false,
+        "mask": "none",
+        "naturalWidth": 0,
+        "opacity": "1",
+        "src": null,
+        "tag": "DIV"
+      },
+      {
+        "box": {
+          "height": 142.26348876953125,
+          "width": 265.634765625,
+          "x": 475.9091796875,
+          "y": 259.49859619140625
+        },
+        "complete": true,
+        "mask": "none",
+        "naturalWidth": 640,
+        "opacity": "1",
+        "src": "/assets/monsters/cloud-scout-fire.webp?v=82e19a5a7587",
+        "tag": "IMG"
+      }
+    ],
+    "overflow": false,
+    "viewport": [
+      820,
+      1180
+    ]
+  },
+  {
+    "fallback": 0,
+    "foe": [
+      {
+        "box": {
+          "height": 116.41024780273438,
+          "width": 117.27197265625,
+          "x": 178.887451171875,
+          "y": 309.2866516113281
+        },
+        "complete": false,
+        "mask": "none",
+        "naturalWidth": 0,
+        "opacity": "1",
+        "src": null,
+        "tag": "DIV"
+      },
+      {
+        "box": {
+          "height": 116.41024780273438,
+          "width": 117.27197265625,
+          "x": 178.887451171875,
+          "y": 309.2866516113281
+        },
+        "complete": true,
+        "mask": "none",
+        "naturalWidth": 640,
+        "opacity": "1",
+        "src": "/assets/monsters/cloud-scout-fire.webp?v=82e19a5a7587",
+        "tag": "IMG"
+      }
+    ],
+    "overflow": false,
+    "viewport": [
+      320,
+      740
+    ]
+  },
+  {
+    "fallback": 0,
+    "foe": [
+      {
+        "box": {
+          "height": 339.5821533203125,
+          "width": 302.5567626953125,
+          "x": 474.81146240234375,
+          "y": 333.7464599609375
+        },
+        "complete": false,
+        "mask": "none",
+        "naturalWidth": 0,
+        "opacity": "1",
+        "src": null,
+        "tag": "DIV"
+      },
+      {
+        "box": {
+          "height": 339.5821533203125,
+          "width": 302.5567626953125,
+          "x": 474.81146240234375,
+          "y": 333.7464599609375
+        },
+        "complete": true,
+        "mask": "none",
+        "naturalWidth": 640,
+        "opacity": "1",
+        "src": "/assets/monsters/cloud-scout-fire.webp?v=82e19a5a7587",
+        "tag": "IMG"
+      }
+    ],
+    "overflow": false,
+    "viewport": [
+      1440,
+      900
+    ]
+  }
+]

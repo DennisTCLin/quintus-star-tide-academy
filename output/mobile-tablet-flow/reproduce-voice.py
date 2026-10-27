@@ -1,0 +1,8 @@
+from playwright.sync_api import sync_playwright,expect
+from pathlib import Path
+import json
+f=next(x for x in json.loads(Path('/tmp/star-tide-flow-private/accounts.json').read_text()) if x['engine']=='webkit' and x['grade']==4 and x['state']=='new')
+with sync_playwright() as p:
+ b=p.webkit.launch();c=b.new_context(**p.devices['iPad Pro 11']);page=c.new_page();page.goto('http://localhost:4388');page.get_by_placeholder('英文字母、數字或底線').fill(f['username']);page.get_by_placeholder('請輸入密碼').fill(f['password']);page.get_by_role('button',name='登入，繼續冒險 →').click();page.locator('.tide-launch').click();page.locator('.tide-tabs button').nth(1).click();expect(page.locator('.tide-mic')).to_be_enabled()
+ page.route('**/api/companion-talk/speech',lambda r:r.fulfill(status=503,content_type='application/json',body='{"error":"語音暫時無法播放"}'))
+ page.locator('.tide-voice-details').filter(has=page.locator('textarea')).locator('summary').click();page.locator('textarea').fill('我喜歡海龜');page.locator('.tide-voice-chat form button').click();expect(page.locator('.tide-voice-turn')).to_be_visible();expect(page.locator('.tide-voice-chat .tide-error')).to_be_visible();result={'grade':4,'engine':'webkit','error':page.locator('.tide-voice-chat .tide-error').inner_text(),'replyPlaybackButtons':page.locator('.tide-voice-turn button').count()};assert result['replyPlaybackButtons']==0;Path('output/mobile-tablet-flow/before-voice-recovery.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));page.screenshot(path='output/mobile-tablet-flow/before-voice-recovery.png');print('REPRODUCED: failed voice cannot be replayed in grade 4');b.close()

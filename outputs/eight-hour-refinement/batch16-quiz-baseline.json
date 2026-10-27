@@ -1,0 +1,31 @@
+{
+  "foeAnimation": {
+    "name": "duel-breathe",
+    "playState": "running"
+  },
+  "reduced": false,
+  "section": {
+    "bottom": 456.5,
+    "height": 982,
+    "left": 12,
+    "right": 308,
+    "top": -525.5,
+    "width": 296,
+    "x": 12,
+    "y": -525.5
+  },
+  "stage": {
+    "bottom": -197.25,
+    "height": 260,
+    "left": 23,
+    "right": 297,
+    "top": -457.25,
+    "width": 274,
+    "x": 23,
+    "y": -457.25
+  },
+  "viewport": [
+    320,
+    740
+  ]
+}

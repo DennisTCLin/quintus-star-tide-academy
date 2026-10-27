@@ -1,0 +1,66 @@
+{
+  "checks": [
+    [
+      "quintus",
+      1440,
+      "normal",
+      "PASS"
+    ],
+    [
+      "quintus",
+      320,
+      "normal",
+      "PASS"
+    ],
+    [
+      "feifei",
+      390,
+      "normal",
+      "PASS"
+    ],
+    [
+      "feifei",
+      320,
+      "normal",
+      "PASS"
+    ],
+    [
+      "qingqing",
+      390,
+      "normal",
+      "PASS"
+    ],
+    [
+      "feifei",
+      390,
+      "zoom200",
+      "PASS"
+    ],
+    [
+      "active/failure/delay/offline",
+      "PASS"
+    ],
+    [
+      "broken-art",
+      "PASS"
+    ],
+    [
+      "pending-reward selection",
+      "PASS"
+    ]
+  ],
+  "metrics": {
+    "collapsedPortraits": {
+      "requests": 4,
+      "bytes": 454272
+    },
+    "keyboardFocusAfterSave": true,
+    "expandedAndScrolledPortraits": {
+      "requests": 55,
+      "bytes": 5342586
+    },
+    "pendingPaintMs4xCPU": 25.600000381469727,
+    "simulatedServerDelayMs": 350
+  },
+  "scope": "Local intercepted fixtures; image bytes include only character art URLs. Not production capacity."
+}

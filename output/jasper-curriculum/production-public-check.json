@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "deployment": "1d4df211-730b-45df-af82-749f242f04a6",
+  "runtime": "15a54da76c11c0701c0278e4ddbc04ae2a028367",
+  "verifiedFiles": [
+    {
+      "path": "index.html",
+      "bytes": 1725,
+      "sha256": "13ff597c4ce2e0bbf41ba972fbf00681279adcb2bf671331b07ae3701d2b6a3b",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "assets/index.v-BQmqip1I.js",
+      "bytes": 3027726,
+      "sha256": "53587215b62cf4384a4ab5b89ae3eda1fd249a02a157a2f68888f7b5a6e337ff",
+      "contentType": "text/javascript; charset=utf-8"
+    }
+  ],
+  "productionChildWrites": false,
+  "serverVerification": "Server/build sources hashed in staged artifact; deployment succeeded. Direct remote server-file SHA read unavailable because Railway CLI has no registered SSH key. No key was created.",
+  "note": "School routing/validation is server-authoritative and may be tree-shaken from client chunks. Do not use raw xingan substring presence in client JavaScript as deployment oracle."
+}

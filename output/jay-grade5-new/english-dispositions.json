@@ -1,0 +1,211 @@
+[
+  {
+    "sourceTag": "english1",
+    "pagesReviewed": [
+      1,
+      2,
+      3
+    ],
+    "sections": [
+      {
+        "section": "A–D聽力；E依D聽力作答",
+        "status": "excluded",
+        "reason": "未提供錄音，筆試E也依賴D答案"
+      },
+      {
+        "section": "F1–3飲食",
+        "status": "excluded",
+        "reason": "本批限定國家及交通交集"
+      },
+      {
+        "section": "F4–6",
+        "status": "included",
+        "reason": "國家be from與交通does句型"
+      },
+      {
+        "section": "G世界地圖8國",
+        "status": "included-or-duplicate",
+        "reason": "國名詞彙改明確中文提示；日本新加坡英美取自此卷，其餘跨卷覆蓋，不留下缺圖題"
+      },
+      {
+        "section": "H1/2個人回答",
+        "status": "excluded",
+        "reason": "答案因人而異"
+      },
+      {
+        "section": "H3–6",
+        "status": "included",
+        "reason": "圖像交通與國旗用明確文字提示補齊"
+      },
+      {
+        "section": "H7名人表格",
+        "status": "duplicate-or-excluded",
+        "reason": "國名由其他題覆蓋，不沿用女王95歲現任等已過時陳述"
+      }
+    ]
+  },
+  {
+    "sourceTag": "english2",
+    "pagesReviewed": [
+      1,
+      2,
+      3
+    ],
+    "sections": [
+      {
+        "section": "A–D及E",
+        "status": "excluded",
+        "reason": "缺錄音；E依D聽力作答"
+      },
+      {
+        "section": "Fa–d飲食、Fh課文諺語",
+        "status": "excluded",
+        "reason": "非本批國家交通交集"
+      },
+      {
+        "section": "Fe–g",
+        "status": "included",
+        "reason": "國家be from與交通do/does"
+      },
+      {
+        "section": "G交通圓餅圖",
+        "status": "included",
+        "reason": "視覺核對並完整文字化40人交通資料；不沿用原題回家/上學不一致說法"
+      },
+      {
+        "section": "H地圖國旗",
+        "status": "duplicate",
+        "reason": "8國名由英1G與英5E覆蓋，旗幟配合不轉猜圖"
+      }
+    ]
+  },
+  {
+    "sourceTag": "english3",
+    "pagesReviewed": [
+      1,
+      2,
+      3
+    ],
+    "sections": [
+      {
+        "section": "I–VI聽力",
+        "status": "excluded",
+        "reason": "無錄音；未擅自轉成原聽力"
+      },
+      {
+        "section": "VII課文語句",
+        "status": "excluded",
+        "reason": "課文記憶／諺語／非單元交集，不強推書本系列"
+      },
+      {
+        "section": "VIII",
+        "status": "included",
+        "reason": "Joe步行、Jack印度、同學機車、Cindy西班牙及騎車等原圖核實後用文字提示"
+      },
+      {
+        "section": "IX1–4",
+        "status": "excluded",
+        "reason": "飲食／主人／星期非本批範圍"
+      },
+      {
+        "section": "IX5",
+        "status": "included",
+        "reason": "國家問答一致性"
+      },
+      {
+        "section": "X國家人數交通表",
+        "status": "included",
+        "reason": "日本6計程車、美4飛機、臺2汽車、澳3火車、加5公車原圖核實，明確文字化"
+      }
+    ]
+  },
+  {
+    "sourceTag": "english4",
+    "pagesReviewed": [
+      1,
+      2
+    ],
+    "sections": [
+      {
+        "section": "I–III",
+        "status": "excluded",
+        "reason": "依錄音；未提供音檔"
+      },
+      {
+        "section": "IV1–6",
+        "status": "included",
+        "reason": "國家與交通句型"
+      },
+      {
+        "section": "V1–3",
+        "status": "included",
+        "reason": "日本、步行、印度圖像補成明確文字提示"
+      },
+      {
+        "section": "V4",
+        "status": "excluded",
+        "reason": "課文諺語和新公園情境接合無唯一預期，且非國家交通核心"
+      },
+      {
+        "section": "VI自介繪圖",
+        "status": "excluded",
+        "reason": "個人開放答案及繪圖"
+      },
+      {
+        "section": "VII口說",
+        "status": "excluded",
+        "reason": "本次不新增口試評分"
+      }
+    ]
+  },
+  {
+    "sourceTag": "english5",
+    "pagesReviewed": [
+      1,
+      2,
+      3
+    ],
+    "sections": [
+      {
+        "section": "A–D",
+        "status": "excluded",
+        "reason": "缺錄音"
+      },
+      {
+        "section": "E1–10",
+        "status": "included",
+        "reason": "國名4、from及交通5"
+      },
+      {
+        "section": "F1–3",
+        "status": "excluded",
+        "reason": "飲食／課程／位置不列此批"
+      },
+      {
+        "section": "F4–8",
+        "status": "included",
+        "reason": "國家交通；F7原We/They語境可能重疊，改明確第三人稱描述Eric和Betty"
+      },
+      {
+        "section": "G1/4",
+        "status": "excluded",
+        "reason": "飲食／課文慣用語不列此批"
+      },
+      {
+        "section": "G2/3",
+        "status": "included",
+        "reason": "原旗為新加坡、原圖捷運，完整文字提示"
+      },
+      {
+        "section": "H閱讀",
+        "status": "included-partial",
+        "reason": "只問Kenji/Mike國家與平常/星期五交通，科目喜好等非交集不收；necessary passage完整重寫"
+      },
+      {
+        "section": "I個人回答",
+        "status": "excluded",
+        "reason": "答案因人而異"
+      }
+    ]
+  }
+]

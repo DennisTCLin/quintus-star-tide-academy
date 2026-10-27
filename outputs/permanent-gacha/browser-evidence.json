@@ -1,0 +1,688 @@
+{
+  "cases": [
+    {
+      "name": "layout-320",
+      "width": 320,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 1張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋每次都會得到夥伴卡，也可能是重複卡。✦新朋友，等你相遇扭蛋完成後，夥伴會在這裡登場。每隻夥伴都能陪你答題、一起升級。一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 320,
+      "viewport_width": 320,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": false,
+      "ruby_count": 0,
+      "initial_screenshot": "/tmp/gacha-final-layout-320-initial.png",
+      "modal_initial_focus": "gacha-cancel",
+      "modal_text": "用 1 張星願券轉扭蛋？一定得到 1 張夥伴卡，可能重複。目前 1 張，確認後剩 0 張。不扣星幣和學習經驗。先不轉確認轉扭蛋",
+      "modal_horizontal_fit": {
+        "x": 16,
+        "y": 259.453125,
+        "width": 288,
+        "height": 381.078125
+      },
+      "tab_sequence": [
+        {
+          "tag": "BUTTON",
+          "cls": "f-primary",
+          "inDialog": true
+        },
+        {
+          "tag": "BODY",
+          "cls": "",
+          "inDialog": false
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "gacha-cancel",
+          "inDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "f-primary",
+          "inDialog": true
+        }
+      ],
+      "escape_restores_trigger": true,
+      "escape_closes": true,
+      "cancel_restores_trigger": true,
+      "commands_after_cancel": 0,
+      "screenshot": "/tmp/gacha-final-layout-320.png",
+      "status": "observed",
+      "console_errors": []
+    },
+    {
+      "name": "layout-390",
+      "width": 390,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 1張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋每次都會得到夥伴卡，也可能是重複卡。✦新朋友，等你相遇扭蛋完成後，夥伴會在這裡登場。每隻夥伴都能陪你答題、一起升級。一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 390,
+      "viewport_width": 390,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": false,
+      "ruby_count": 0,
+      "initial_screenshot": "/tmp/gacha-final-layout-390-initial.png",
+      "modal_initial_focus": "gacha-cancel",
+      "modal_text": "用 1 張星願券轉扭蛋？一定得到 1 張夥伴卡，可能重複。目前 1 張，確認後剩 0 張。不扣星幣和學習經驗。先不轉確認轉扭蛋",
+      "modal_horizontal_fit": {
+        "x": 16,
+        "y": 277.453125,
+        "width": 358,
+        "height": 345.078125
+      },
+      "tab_sequence": [
+        {
+          "tag": "BUTTON",
+          "cls": "f-primary",
+          "inDialog": true
+        },
+        {
+          "tag": "BODY",
+          "cls": "",
+          "inDialog": false
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "gacha-cancel",
+          "inDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "f-primary",
+          "inDialog": true
+        }
+      ],
+      "escape_restores_trigger": true,
+      "escape_closes": true,
+      "cancel_restores_trigger": true,
+      "commands_after_cancel": 0,
+      "screenshot": "/tmp/gacha-final-layout-390.png",
+      "status": "observed",
+      "console_errors": []
+    },
+    {
+      "name": "layout-1440",
+      "width": 1440,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 1張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋每次都會得到夥伴卡，也可能是重複卡。✦新朋友，等你相遇扭蛋完成後，夥伴會在這裡登場。每隻夥伴都能陪你答題、一起升級。一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 1440,
+      "viewport_width": 1440,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": false,
+      "ruby_count": 0,
+      "initial_screenshot": "/tmp/gacha-final-layout-1440-initial.png",
+      "modal_initial_focus": "gacha-cancel",
+      "modal_text": "用 1 張星願券轉扭蛋？一定得到 1 張夥伴卡，可能重複。目前 1 張，確認後剩 0 張。不扣星幣和學習經驗。先不轉確認轉扭蛋",
+      "modal_horizontal_fit": {
+        "x": 440,
+        "y": 300.453125,
+        "width": 560,
+        "height": 299.078125
+      },
+      "tab_sequence": [
+        {
+          "tag": "BUTTON",
+          "cls": "f-primary",
+          "inDialog": true
+        },
+        {
+          "tag": "BODY",
+          "cls": "",
+          "inDialog": false
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "gacha-cancel",
+          "inDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "f-primary",
+          "inDialog": true
+        }
+      ],
+      "escape_restores_trigger": true,
+      "escape_closes": true,
+      "cancel_restores_trigger": true,
+      "commands_after_cancel": 0,
+      "screenshot": "/tmp/gacha-final-layout-1440.png",
+      "status": "observed",
+      "console_errors": []
+    },
+    {
+      "name": "zero-ticket",
+      "width": 390,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 0張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋還沒有星願券，先和夥伴完成五題吧。✦新朋友，等你相遇扭蛋完成後，夥伴會在這裡登場。每隻夥伴都能陪你答題、一起升級。一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 390,
+      "viewport_width": 390,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": true,
+      "ruby_count": 0,
+      "initial_screenshot": "/tmp/gacha-final-zero-ticket-initial.png",
+      "earn_text": "一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券",
+      "earn_button": "去完成五題",
+      "destination_headings": [
+        "知識，讓我們航向更遠的星海。"
+      ],
+      "destination_text": "已選擇的陪練夥伴潮光獸Lv.1再 50 XP 升到 Lv.20 / 50 XPLv.2 解鎖元素突擊開始陪練選擇陪練夥伴已擁有 1 位潮光獸Lv.1✓ 已選擇今日還有 15 題可獲得經驗 · 成長規則每天前 15 道不同完成題各 +10 XP；提示、訂正與複習同樣有效。練習航程和跨日舊航程不發經驗值。夥伴等級跟著帳號保存。01破浪啟航02夥伴領航03護盾挑戰04星鯨巡遊05極光群島06流星許願Ⅱ目前片段：流星許願。流星掠過寧靜港灣，陪航海員許下新願望♫ 播放音樂 Bob 測試 的航海誌知識，讓我們航向更遠的星海。完成五道挑戰，收集星願，和你的夥伴一起成長。⛵ 出發0精熟點1 / 55夥伴15今日新題獎勵選擇航線5 題 · 每天可以選 3 次完成獎勵🔢數學分數、幾何與計算➜📖國語閱讀與詞語➜🔤英文字彙與句型➜🌱自然觀察與推理➜🧭社會地圖與生活➜同行夥伴潮光獸🛡️ 護盾🐾 認識夥伴五科航海羅盤數學國語英文自然社會數學待探索10國語待探索10英文待探索10自然待探索10社會待探索10",
+      "commands": [],
+      "screenshot": "/tmp/gacha-final-zero-ticket.png",
+      "status": "observed",
+      "console_errors": []
+    },
+    {
+      "name": "daily-cap",
+      "width": 390,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 0張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋還沒有星願券，明天可再答題領獎；現在也能陪練。✦新朋友，等你相遇扭蛋完成後，夥伴會在這裡登場。每隻夥伴都能陪你答題、一起升級。一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天的完成獎勵已用完，明天再領；現在仍可繼續陪練。繼續陪練☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 390,
+      "viewport_width": 390,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": true,
+      "ruby_count": 0,
+      "initial_screenshot": "/tmp/gacha-final-daily-cap-initial.png",
+      "earn_text": "一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天的完成獎勵已用完，明天再領；現在仍可繼續陪練。繼續陪練☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券",
+      "earn_button": "繼續陪練",
+      "destination_headings": [
+        "知識，讓我們航向更遠的星海。"
+      ],
+      "destination_text": "已選擇的陪練夥伴潮光獸Lv.1再 50 XP 升到 Lv.20 / 50 XPLv.2 解鎖元素突擊開始陪練選擇陪練夥伴已擁有 1 位潮光獸Lv.1✓ 已選擇今日還有 15 題可獲得經驗 · 成長規則每天前 15 道不同完成題各 +10 XP；提示、訂正與複習同樣有效。練習航程和跨日舊航程不發經驗值。夥伴等級跟著帳號保存。01破浪啟航02夥伴領航03護盾挑戰04星鯨巡遊05極光群島06流星許願Ⅱ目前片段：破浪啟航。星潮船穿過晨光海峽，航向漂浮島嶼♫ 播放音樂 Bob 測試 的航海誌知識，讓我們航向更遠的星海。完成五道挑戰，收集星願，和你的夥伴一起成長。⛵ 出發0精熟點1 / 55夥伴15今日新題獎勵選擇航線5 題 · 每天可以選 3 次完成獎勵🔢數學分數、幾何與計算➜📖國語閱讀與詞語➜🔤英文字彙與句型➜🌱自然觀察與推理➜🧭社會地圖與生活➜同行夥伴潮光獸🛡️ 護盾🐾 認識夥伴五科航海羅盤數學國語英文自然社會數學待探索10國語待探索10英文待探索10自然待探索10社會待探索10",
+      "commands": [],
+      "screenshot": "/tmp/gacha-final-daily-cap.png",
+      "status": "observed",
+      "console_errors": []
+    },
+    {
+      "name": "pending-reward",
+      "width": 390,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 1張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋每次都會得到夥伴卡，也可能是重複卡。✦新朋友，等你相遇扭蛋完成後，夥伴會在這裡登場。每隻夥伴都能陪你答題、一起升級。一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。上一趟的完成獎勵還沒領，先去選好獎勵。領取完成獎勵☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 390,
+      "viewport_width": 390,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": false,
+      "ruby_count": 0,
+      "initial_screenshot": "/tmp/gacha-final-pending-reward-initial.png",
+      "earn_text": "一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。上一趟的完成獎勵還沒領，先去選好獎勵。領取完成獎勵☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券",
+      "earn_button": "領取完成獎勵",
+      "destination_headings": [
+        "🎉 完成挑戰"
+      ],
+      "destination_text": "⚔️ 答對就出招再答對 -1 題，突破這一關潮光獸Lv.1 · 星光突擊珊瑚巨蟹0 / 100巨蟹收起了大鉗，再接再厲！Lv.10 / 50 XPLv.2 解鎖元素突擊 · 再 50 XP 升級成長規則 · 今日剩 15 題今日還有 15 題可成長 · 每題 +10 XP（每天前 15 道不同題目）訂正、提示與複習同樣有效；同題一天一次。等級與經驗值跟著你的帳號保存。🎉 完成挑戰五題完成！答對和訂正的努力，都記錄好了。🔊選一個獎勵🔊試手氣，還是慢慢存？⭐存一顆星一定 +1，兩顆換一張券🎟️試手氣一半機會拿券，也可能沒有☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券⛵ 回港口",
+      "commands": [],
+      "screenshot": "/tmp/gacha-final-pending-reward.png",
+      "status": "observed",
+      "console_errors": []
+    },
+    {
+      "name": "success-reload",
+      "width": 390,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 1張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋每次都會得到夥伴卡，也可能是重複卡。✦新朋友，等你相遇扭蛋完成後，夥伴會在這裡登場。每隻夥伴都能陪你答題、一起升級。一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 390,
+      "viewport_width": 390,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": false,
+      "ruby_count": 0,
+      "initial_screenshot": "/tmp/gacha-final-success-reload-initial.png",
+      "modal_initial_focus": "gacha-cancel",
+      "modal_text": "用 1 張星願券轉扭蛋？一定得到 1 張夥伴卡，可能重複。目前 1 張，確認後剩 0 張。不扣星幣和學習經驗。先不轉確認轉扭蛋",
+      "modal_horizontal_fit": {
+        "x": 16,
+        "y": 277.453125,
+        "width": 358,
+        "height": 345.078125
+      },
+      "tab_sequence": [
+        {
+          "tag": "BUTTON",
+          "cls": "f-primary",
+          "inDialog": true
+        },
+        {
+          "tag": "BODY",
+          "cls": "",
+          "inDialog": false
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "gacha-cancel",
+          "inDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "f-primary",
+          "inDialog": true
+        }
+      ],
+      "escape_restores_trigger": true,
+      "escape_closes": true,
+      "cancel_restores_trigger": true,
+      "commands_after_cancel": 0,
+      "confirm_controls": [
+        "先不轉",
+        "確認轉扭蛋"
+      ],
+      "draw_commands": [
+        {
+          "id": "557cb0c2-1907-458b-92d6-3533ec443347",
+          "revision": 0,
+          "command": {
+            "type": "draw",
+            "player": "quintus"
+          }
+        }
+      ],
+      "after_draw_text": "最近一次扭蛋 · 已存到雲端灣光守宮E 級 · 土收到了新夥伴目前持有 1 張選牠陪練🔊 聽結果查看收藏",
+      "tickets_after_draw": 0,
+      "reload_result_text": "最近一次扭蛋 · 已存到雲端灣光守宮E 級 · 土收到了新夥伴目前持有 1 張選牠陪練🔊 聽結果查看收藏",
+      "reload_result_count": 1,
+      "screenshot": "/tmp/gacha-final-success-reload.png",
+      "status": "observed",
+      "console_errors": []
+    },
+    {
+      "name": "duplicate",
+      "width": 390,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 1張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋每次都會得到夥伴卡，也可能是重複卡。最近一次扭蛋 · 已存到雲端灣光守宮E 級 · 土遇見熟悉的夥伴目前持有 2 張選牠陪練🔊 聽結果查看收藏看看可交換的夥伴重複卡會留在收藏中，可和家人一起選卡交換；需要雙方確認。一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 390,
+      "viewport_width": 390,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": false,
+      "ruby_count": 0,
+      "initial_screenshot": "/tmp/gacha-final-duplicate-initial.png",
+      "result_text": "最近一次扭蛋 · 已存到雲端灣光守宮E 級 · 土遇見熟悉的夥伴目前持有 2 張選牠陪練🔊 聽結果查看收藏看看可交換的夥伴重複卡會留在收藏中，可和家人一起選卡交換；需要雙方確認。",
+      "equip_count": 1,
+      "trade_button_count": 1,
+      "screenshot": "/tmp/gacha-final-duplicate.png",
+      "status": "observed",
+      "console_errors": []
+    },
+    {
+      "name": "traded-away",
+      "width": 390,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 1張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋每次都會得到夥伴卡，也可能是重複卡。最近一次扭蛋 · 已存到雲端灣光守宮E 級 · 土遇見熟悉的夥伴目前持有 0 張這張卡已離開收藏，可以到夥伴卡冊看看。🔊 聽結果查看收藏重複卡會留在收藏中，可和家人一起選卡交換；需要雙方確認。一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 390,
+      "viewport_width": 390,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": false,
+      "ruby_count": 0,
+      "initial_screenshot": "/tmp/gacha-final-traded-away-initial.png",
+      "result_text": "最近一次扭蛋 · 已存到雲端灣光守宮E 級 · 土遇見熟悉的夥伴目前持有 0 張這張卡已離開收藏，可以到夥伴卡冊看看。🔊 聽結果查看收藏重複卡會留在收藏中，可和家人一起選卡交換；需要雙方確認。",
+      "equip_count": 0,
+      "trade_button_count": 0,
+      "screenshot": "/tmp/gacha-final-traded-away.png",
+      "status": "observed",
+      "console_errors": []
+    },
+    {
+      "name": "equip",
+      "width": 390,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 1張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋每次都會得到夥伴卡，也可能是重複卡。最近一次扭蛋 · 已存到雲端灣光守宮E 級 · 土收到了新夥伴目前持有 1 張選牠陪練🔊 聽結果查看收藏一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 390,
+      "viewport_width": 390,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": false,
+      "ruby_count": 0,
+      "initial_screenshot": "/tmp/gacha-final-equip-initial.png",
+      "equip_label": "選牠陪練",
+      "equip_commands": [
+        {
+          "id": "3b20ef26-dba2-4c8a-a51a-9845fe8bcf30",
+          "revision": 0,
+          "command": {
+            "type": "equip",
+            "player": "quintus",
+            "pet": "covegecko"
+          }
+        }
+      ],
+      "after_equip_headings": [
+        "知識，讓我們航向更遠的星海。"
+      ],
+      "equipped": "covegecko",
+      "run_companion_before": null,
+      "run_companion_after": null,
+      "screenshot": "/tmp/gacha-final-equip.png",
+      "status": "observed",
+      "console_errors": []
+    },
+    {
+      "name": "equip-active-voyage",
+      "width": 390,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 1張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋每次都會得到夥伴卡，也可能是重複卡。最近一次扭蛋 · 已存到雲端灣光守宮E 級 · 土收到了新夥伴目前持有 1 張選牠下趟陪練本趟仍由原夥伴完成，經驗值也保留給牠。🔊 聽結果查看收藏一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 390,
+      "viewport_width": 390,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": false,
+      "ruby_count": 0,
+      "initial_screenshot": "/tmp/gacha-final-equip-active-voyage-initial.png",
+      "equip_label": "選牠下趟陪練",
+      "equip_commands": [
+        {
+          "id": "904e05fc-6f60-47d0-acf9-b02f3d0a4edf",
+          "revision": 0,
+          "command": {
+            "type": "equip",
+            "player": "quintus",
+            "pet": "covegecko"
+          }
+        }
+      ],
+      "after_equip_headings": [
+        "知識，讓我們航向更遠的星海。"
+      ],
+      "equipped": "covegecko",
+      "run_companion_before": "tideglow",
+      "run_companion_after": "tideglow",
+      "screenshot": "/tmp/gacha-final-equip-active-voyage.png",
+      "status": "observed",
+      "console_errors": []
+    },
+    {
+      "name": "grade2-320",
+      "width": 320,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 1張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋每次都會得到夥伴卡，也可能是重複卡。最近一次扭蛋 · 已存到雲端灣光守宮E 級 · 土收到了新夥伴目前持有 1 張選牠陪練🔊 聽結果查看收藏一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 320,
+      "viewport_width": 320,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": false,
+      "ruby_count": 260,
+      "initial_screenshot": "/tmp/gacha-final-grade2-320-initial.png",
+      "modal_initial_focus": "gacha-cancel",
+      "modal_text": "用 1 張星願券轉扭蛋？一定得到 1 張夥伴卡，可能重複。目前 1 張，確認後剩 0 張。不扣星幣和學習經驗。先不轉確認轉扭蛋",
+      "modal_horizontal_fit": {
+        "x": 16,
+        "y": 185.046875,
+        "width": 288,
+        "height": 529.90625
+      },
+      "tab_sequence": [
+        {
+          "tag": "BUTTON",
+          "cls": "f-primary",
+          "inDialog": true
+        },
+        {
+          "tag": "BODY",
+          "cls": "",
+          "inDialog": false
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "gacha-cancel",
+          "inDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "cls": "f-primary",
+          "inDialog": true
+        }
+      ],
+      "escape_restores_trigger": true,
+      "escape_closes": true,
+      "cancel_restores_trigger": true,
+      "commands_after_cancel": 0,
+      "screenshot": "/tmp/gacha-final-grade2-320.png",
+      "status": "observed",
+      "console_errors": []
+    },
+    {
+      "name": "reduced-motion",
+      "width": 390,
+      "reduced_motion": "reduce",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 1張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋每次都會得到夥伴卡，也可能是重複卡。最近一次扭蛋 · 已存到雲端灣光守宮E 級 · 土收到了新夥伴目前持有 1 張選牠陪練🔊 聽結果查看收藏一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 390,
+      "viewport_width": 390,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": false,
+      "ruby_count": 0,
+      "initial_screenshot": "/tmp/gacha-final-reduced-motion-initial.png",
+      "animations": [],
+      "screenshot": "/tmp/gacha-final-reduced-motion.png",
+      "status": "observed",
+      "console_errors": []
+    },
+    {
+      "name": "broken-result-art",
+      "width": 390,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 1張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋每次都會得到夥伴卡，也可能是重複卡。最近一次扭蛋 · 已存到雲端✦灣光守宮E 級 · 土收到了新夥伴目前持有 1 張選牠陪練🔊 聽結果查看收藏一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 390,
+      "viewport_width": 390,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": false,
+      "ruby_count": 0,
+      "initial_screenshot": "/tmp/gacha-final-broken-result-art-initial.png",
+      "result_img_count": 0,
+      "fallback_text": "✦",
+      "result_name": "灣光守宮",
+      "equip_enabled": true,
+      "screenshot": "/tmp/gacha-final-broken-result-art.png",
+      "status": "observed",
+      "console_errors": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ]
+    },
+    {
+      "name": "odds-grade2-320",
+      "width": 320,
+      "reduced_motion": "no-preference",
+      "nav": [
+        "港口",
+        "夥伴",
+        "排行",
+        "扭蛋",
+        "交換",
+        "對戰",
+        "家長"
+      ],
+      "initial_text": "星海扭蛋機把答題得到的星願，變成一起冒險的夥伴。♫ 播放音樂🔊✦🎟️ 1張星願券1 張券 → 1 張夥伴卡用 1 張券轉扭蛋每次都會得到夥伴卡，也可能是重複卡。最近一次扭蛋 · 已存到雲端灣光守宮E 級 · 土收到了新夥伴目前持有 1 張選牠陪練🔊 聽結果查看收藏一起答題，慢慢存星願完成五題 → 選「存一顆星」 → 兩顆星換一張券。今天還有 3 次完成獎勵；也能選試手氣，有一半機會拿券。去完成五題☆☆→ 🎟️已存 0 / 2 顆星 · 集滿自動換 1 張券看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "document_width": 320,
+      "viewport_width": 320,
+      "overflow_elements": [],
+      "broken_images": [],
+      "draw_disabled": false,
+      "ruby_count": 260,
+      "initial_screenshot": "/tmp/gacha-final-odds-grade2-320-initial.png",
+      "odds_text": "看看有哪些夥伴與機率自己的初始夥伴以外，共 54 種。每隻都是 1 / 54（約 1.85%），同一隻可能再次出現。階級影響收藏價格，對戰體力都一樣；每隻都能練等。各階級抽取機率階級種類機率E1629.63%D1018.52%C814.81%B712.96%A59.26%S47.41%SS35.56%SSS11.85%以上是這台常設扭蛋機的機率；新玩家第一次的免費扭蛋另有 E 級 80%、D 級 20% 的規則。",
+      "expanded_document_width": 320,
+      "table_box": {
+        "x": 14,
+        "y": 882.484375,
+        "width": 292,
+        "height": 478.125
+      },
+      "screenshot": "/tmp/gacha-final-odds-grade2-320.png",
+      "status": "observed",
+      "console_errors": []
+    }
+  ],
+  "console_errors": [
+    {
+      "case": "broken-result-art",
+      "error": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "case": "broken-result-art",
+      "error": "Failed to load resource: net::ERR_FAILED"
+    }
+  ],
+  "page_errors": [],
+  "commands": [
+    {
+      "case": "success-reload",
+      "id": "557cb0c2-1907-458b-92d6-3533ec443347",
+      "revision": 0,
+      "command": {
+        "type": "draw",
+        "player": "quintus"
+      }
+    },
+    {
+      "case": "equip",
+      "id": "3b20ef26-dba2-4c8a-a51a-9845fe8bcf30",
+      "revision": 0,
+      "command": {
+        "type": "equip",
+        "player": "quintus",
+        "pet": "covegecko"
+      }
+    },
+    {
+      "case": "equip-active-voyage",
+      "id": "904e05fc-6f60-47d0-acf9-b02f3d0a4edf",
+      "revision": 0,
+      "command": {
+        "type": "equip",
+        "player": "quintus",
+        "pet": "covegecko"
+      }
+    }
+  ]
+}

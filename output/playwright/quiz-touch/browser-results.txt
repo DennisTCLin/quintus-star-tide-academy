@@ -1,0 +1,46 @@
+### Result
+{"browser":"WebKit","results":["pause stops automatic advance","paused next advances immediately exactly once","rapid taps and timer share single flight","one failed automatic attempt recovers","persistent failure stops retry loop and keeps next enabled","manual retry remains available","offline blocks timer and manual action","online recovery resumes automatic advance","busy blocks automatic advance","busy recovery resumes automatic advance","hidden page cancels pending timer","visible page resumes timer","unmount cancels pending advance","grade2 320px primary is visible large and contained"],"layout":{"x":13,"right":194.328125,"bottom":553.109375,"height":68.5,"view":568,"overflow":false}}
+### Ran Playwright code
+```js
+await (async page => {
+  const base = 'http://localhost:4326/output/playwright/quiz-touch/harness.html';
+  const results = [];
+  const assert = (v, message) => { if (!v) throw Error(message); results.push(message); };
+  const calls = () => page.evaluate(() => window.qa.calls());
+  const open = async query => { await page.goto(base + '?' + query); await page.locator('.quiz-next-primary').waitFor(); };
+  const pause = () => page.locator('.quiz-next-pause').click();
+  const next = () => page.locator('.quiz-next-primary');
+  await page.setViewportSize({width:1024,height:768});
+  await open('delay=300'); await pause(); await page.waitForTimeout(1600);
+  assert(await calls()===0,'pause stops automatic advance');
+  await page.screenshot({path:'output/playwright/quiz-touch/paused-ipad.png'});
+  await next().click(); await page.waitForTimeout(400);
+  assert(await calls()===1 && await page.getByRole('heading',{name:'已完成第 2 題'}).count()===1,'paused next advances immediately exactly once');
+  await open('delay=600');
+  await page.locator('.quiz-next-primary').evaluate(el => { el.click(); el.click(); el.click(); });
+  await page.waitForTimeout(1800); assert(await calls()===1,'rapid taps and timer share single flight');
+  await open('fail=1'); await page.waitForTimeout(3500);
+  assert(await calls()===2 && await page.getByRole('heading',{name:'已完成第 2 題'}).count()===1,'one failed automatic attempt recovers');
+  await open('fail=always'); await page.waitForTimeout(3800);
+  assert(await calls()===2 && await next().isEnabled(),'persistent failure stops retry loop and keeps next enabled');
+  await next().click(); await page.waitForTimeout(200); assert(await calls()===3,'manual retry remains available');
+  await open(''); await page.evaluate(() => window.qa.setOnline(false)); await page.waitForTimeout(1600);
+  assert(await calls()===0 && await next().isDisabled(),'offline blocks timer and manual action');
+  await page.evaluate(() => window.qa.setOnline(true)); await page.waitForTimeout(1600); assert(await calls()===1,'online recovery resumes automatic advance');
+  await open(''); await page.evaluate(() => window.qa.setBusy(true)); await page.waitForTimeout(1600); assert(await calls()===0,'busy blocks automatic advance');
+  await page.evaluate(() => window.qa.setBusy(false)); await page.waitForTimeout(1600); assert(await calls()===1,'busy recovery resumes automatic advance');
+  await open(''); await page.evaluate(() => { Object.defineProperty(document,'visibilityState',{configurable:true,value:'hidden'}); document.dispatchEvent(new Event('visibilitychange')); }); await page.waitForTimeout(1500);
+  assert(await calls()===0,'hidden page cancels pending timer');
+  await page.evaluate(() => { Object.defineProperty(document,'visibilityState',{configurable:true,value:'visible'}); document.dispatchEvent(new Event('visibilitychange')); }); await page.waitForTimeout(1500); assert(await calls()===1,'visible page resumes timer');
+  await open(''); await page.evaluate(() => window.qa.setShown(false)); await page.waitForTimeout(1600); assert(await calls()===0,'unmount cancels pending advance');
+  await page.setViewportSize({width:320,height:568}); await open('grade=2'); await pause();
+  const layout=await page.locator('.quiz-next-primary').evaluate(el=>{const r=el.getBoundingClientRect();return {x:r.x,right:r.right,bottom:r.bottom,height:r.height,view:innerHeight,overflow:document.documentElement.scrollWidth>innerWidth};});
+  assert(layout.x>=0&&layout.right<=320&&layout.bottom<=layout.view&&layout.height>=60&&!layout.overflow,'grade2 320px primary is visible large and contained');
+  await page.screenshot({path:'output/playwright/quiz-touch/paused-320.png'});
+  return {browser:'WebKit',results,layout};
+})(page);
+```
+### Page
+- Page URL: http://localhost:4326/output/playwright/quiz-touch/harness.html?grade=2
+- Page Title: Quiz continuation QA
+- HTTP status: 304 Not Modified

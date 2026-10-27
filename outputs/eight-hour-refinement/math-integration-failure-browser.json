@@ -1,0 +1,96 @@
+{
+  "runtime": "8f5696d",
+  "fixture": "qa_math_root_20261025",
+  "result": "three wrong first answers stops at3of6; no rewards; gacha entry navigates",
+  "viewports": [
+    {
+      "buttons": [
+        {
+          "height": 56,
+          "right": 227.328125,
+          "text": "🏝️ 回小島"
+        },
+        {
+          "height": 56,
+          "right": 227.328125,
+          "text": "🗺️ 回地圖"
+        },
+        {
+          "height": 56,
+          "right": 227.328125,
+          "text": "🎟️ 去扭蛋"
+        }
+      ],
+      "heading": "先休息一下，再來挑戰！",
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "buttons": [
+        {
+          "height": 56,
+          "right": 330.6640625,
+          "text": "🏝️ 回小島"
+        },
+        {
+          "height": 56,
+          "right": 477.328125,
+          "text": "🗺️ 回地圖"
+        },
+        {
+          "height": 56,
+          "right": 623.9921875,
+          "text": "🎟️ 去扭蛋"
+        }
+      ],
+      "heading": "先休息一下，再來挑戰！",
+      "scrollWidth": 820,
+      "width": 820
+    },
+    {
+      "buttons": [
+        {
+          "height": 56,
+          "right": 432.6640625,
+          "text": "🏝️ 回小島"
+        },
+        {
+          "height": 56,
+          "right": 579.328125,
+          "text": "🗺️ 回地圖"
+        },
+        {
+          "height": 56,
+          "right": 725.9921875,
+          "text": "🎟️ 去扭蛋"
+        }
+      ],
+      "heading": "先休息一下，再來挑戰！",
+      "scrollWidth": 1024,
+      "width": 1024
+    },
+    {
+      "buttons": [
+        {
+          "height": 56,
+          "right": 640.6640625,
+          "text": "🏝️ 回小島"
+        },
+        {
+          "height": 56,
+          "right": 787.328125,
+          "text": "🗺️ 回地圖"
+        },
+        {
+          "height": 56,
+          "right": 933.9921875,
+          "text": "🎟️ 去扭蛋"
+        }
+      ],
+      "heading": "先休息一下，再來挑戰！",
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  ],
+  "actualAudioAudition": false
+}

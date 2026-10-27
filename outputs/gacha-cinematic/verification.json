@@ -1,0 +1,97 @@
+{
+  "request": "Redesign the permanent gacha screen and add a visible complete turning/reveal animation.",
+  "route": "Relay: read-only explorer, single root writer, fresh read-only falsification verifier.",
+  "base": "3bd1e97",
+  "integrations": {
+    "pronunciation": "7c5436f (runtime e2deaa1, English and territory included)",
+    "friends": "18ee858"
+  },
+  "art": {
+    "tool": "built-in image_gen",
+    "path": "public/assets/gacha/starwish-machine.webp",
+    "bytes": 327082,
+    "promptRecord": "art-direction.json",
+    "sha256": "a9ee8fdfbf5f4ca2940a676680f06f9ee9729224424a06cbbf2f36ba5da78ed2"
+  },
+  "rootChecks": {
+    "build": "PASS",
+    "unitAndDatabase": {
+      "result": "PASS",
+      "files": 32,
+      "tests": 314,
+      "command": "TEST_DATABASE_URL=<isolated local PostgreSQL> npm test"
+    },
+    "cloudRecovery": {
+      "result": "PASS",
+      "report": "cloud/results.json"
+    },
+    "pronunciation": {
+      "result": "PASS",
+      "sourceRuns": 2876,
+      "curatedLessons": 165,
+      "reviewedRules": 138,
+      "preservedReviewedOverrides": true,
+      "newCopyReview": {
+        "source": "Taiwan MOE Concised Dictionary 2014_20260929, plus manual contextual review",
+        "checkedNewPhrases": 50,
+        "notes": "Existing 138 reviewed context rules preserved. New copy includes 模樣 (ㄇㄛˊㄧㄤˋ), 熟悉 (ㄕㄡˊㄒㄧ), 暫時 (ㄓㄢˋㄕˊ), 膠囊, 轉動, 恢復; new friends relative-time wording included.",
+        "reference": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=3667"
+      }
+    },
+    "browserPresentation": {
+      "result": "PASS",
+      "cases": 16,
+      "pageErrors": 0,
+      "report": "browser-verification.json",
+      "shortScreens": [
+        "320x568 grade2",
+        "390x667"
+      ]
+    }
+  },
+  "visualContract": {
+    "sequence": "650 ms crank, 1250 ms tumble, await successful receipt, 750 ms eject, 850 ms open and reveal",
+    "minimumNormalSequenceMs": 3500,
+    "reducedMotion": "Static real receipt; OS changes also skip current motion",
+    "skip": "Skips only presentation, continues waiting for real receipt",
+    "cleanup": "Sequence epoch and timer wake cancel local presentation on unmount",
+    "repeatClicks": "Synchronous lock throughout sequence; no animation-created draw retries",
+    "crossDevice": "Exact callback receipt remains visible even when family lastDraw is newer"
+  },
+  "independentReview": {
+    "result": "PASS after one reproduced and fixed mobile reveal finding",
+    "report": "independent-verification.json",
+    "fix": "Current result heading is adjacent to partner art in stage; focused stage centered. Independent320x568 grade2 and390x667 rechecks passed.",
+    "remainingActionableFindings": 0
+  },
+  "scopePreserved": [
+    "Starter machine and onboarding",
+    "Server draw probabilities and ticket charging",
+    "Command receipt/retry protocol",
+    "Current voyage companion and XP",
+    "Existing music behavior"
+  ],
+  "remainingLimits": [
+    "No physical iPhone/Safari visual run in this turn; browser checks use Chromium.",
+    "Existing main bundle size warning remains."
+  ],
+  "rollback": "Revert only new GachaMachine/CSS/art presentation while preserving latest merged baseline and additive presence tables.",
+  "preview": {
+    "path": "gacha-animation-preview.mp4",
+    "kind": "Actual browser recording with isolated API fixture, no live learner draw",
+    "bytes": 1228306
+  },
+  "runtimeCommit": "3fee23b2f5097254e6aaef8545fe9deffd416ecd",
+  "production": {
+    "result": "PASS",
+    "runtimeCommit": "3fee23b",
+    "deployment": "858cfb1e-e9dc-4f3d-bc2d-f05bc979535a",
+    "railwayStatus": "SUCCESS",
+    "assetComparison": "Five JS/CSS/image files byte identical; root references new bundle; image/webp and immutable cache correct.",
+    "releaseReport": "production-release.json",
+    "browserReport": "production-browser/browser-verification.json",
+    "browserCases": 3,
+    "cloudRecoveryReport": "production-cloud/results.json",
+    "realCloudFlow": "New isolated QA account earned ticket normally, lost first draw response, same ID retry, one ticket/card, two-device/reload recovery and current voyage XP retained."
+  }
+}

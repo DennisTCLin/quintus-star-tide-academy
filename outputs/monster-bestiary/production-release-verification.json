@@ -1,0 +1,236 @@
+{
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "checkedAt": "2026-10-24T16:40:45.972963+00:00",
+  "deploymentId": "42c2dde4-275e-4418-a12c-a99490076b9f",
+  "commit": "c2a8d23",
+  "result": "PASS",
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "bundles": [
+    {
+      "file": "index.v-COWwvlOS.js",
+      "sha256": "45bd2bffe7b00e69792480a57214e676773b49877ff18be003ebf69d705ec3f3",
+      "bytes": 479225
+    },
+    {
+      "file": "index.v-eM1wJb5x.css",
+      "sha256": "0bcde9999ca21b84e2aa0dd650bd4b5c6bd7b75a0cb4c281021ad62805c2ab3e",
+      "bytes": 163601
+    }
+  ],
+  "monsterAssetVersion": "82e19a5a7587",
+  "assets": [
+    {
+      "id": "cloud-scout-metal",
+      "sha256": "fbdea71b03cd98fa3ffb91dac1a1f4ee9bbcbd8287cb899fa8acf5f86751928c",
+      "bytes": 191720,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "cloud-scout-wood",
+      "sha256": "c35622f3fe7daa0a5718cfb68ce1590c8f02a6b8d196fbbf91d787c39793b781",
+      "bytes": 204400,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "cloud-scout-water",
+      "sha256": "b209e95b752d754e8817fb908ef9f52dff7a40256da592b2a4dcabe1eb53517a",
+      "bytes": 189978,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "cloud-scout-fire",
+      "sha256": "80a232833d2023bc2293fc6c3e3fa5934decd111d415f99f4e0b83c7e25f517f",
+      "bytes": 182602,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "cloud-scout-earth",
+      "sha256": "73ae5c3bbacb60450f4c4c717970316828d876dbebd4edadf0c86c1d8e4cc9b2",
+      "bytes": 194086,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "cloud-warden-metal",
+      "sha256": "026b06fed516f20811b7b6aa346f1d6779045598324ff022db5114d29700ffc9",
+      "bytes": 220900,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "cloud-warden-wood",
+      "sha256": "d19ee5b50f21816517f172626b0cc690103dc267b325e0eb8745354a5a8bd469",
+      "bytes": 224082,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "cloud-warden-water",
+      "sha256": "0c61e0c3411e4456909d29d5493b45682164740d9d3eef8dffe263832e788d17",
+      "bytes": 228164,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "cloud-warden-fire",
+      "sha256": "f6e03963bdfc36907c1b9fba22e7bdd6d8320ba379d738d2e93c4d91cc6747e0",
+      "bytes": 209058,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "cloud-warden-earth",
+      "sha256": "9c55a8de04e620a7b05f7bcb2b65c21378b5d9944392a731a1734666250bd66f",
+      "bytes": 203652,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "crab-scout-metal",
+      "sha256": "ed7da899448cded2427c4c44cfb352fc3e20908a91a0fe07ca75f489ec6e4f03",
+      "bytes": 175006,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "crab-scout-wood",
+      "sha256": "c1def30a0d49e33c0dac445f1e6a37dd1f2b52acc49517d2930b411bc8ce2419",
+      "bytes": 209810,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "crab-scout-water",
+      "sha256": "05b612dc8e35a95dc64f0c8765440bd7de8f7375bcb1249a3b2b9bb9d474c503",
+      "bytes": 193812,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "crab-scout-fire",
+      "sha256": "b09d5574f5a021c20e85903c406154aa68b95cc89add62797458bb9f63ab9d3c",
+      "bytes": 193282,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "crab-scout-earth",
+      "sha256": "ff191df2781ca8cb11d1a99ae7a584cdf52d248ce430fe8d9c245542fedf7b3b",
+      "bytes": 199186,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "crab-warden-metal",
+      "sha256": "1563e13b2f085deac42f9746bca2fe80402525629e76c29fd30555c4f323f2c7",
+      "bytes": 211200,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "crab-warden-wood",
+      "sha256": "a0f5164f8ab5e857d128f2a4eac8c18087fc5d03a9bded310be31d70ab9afd88",
+      "bytes": 230832,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "crab-warden-water",
+      "sha256": "926ec1482e321079cf4a813a7521b7046525a7a19308816eaf0a43eaf06f3026",
+      "bytes": 224672,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "crab-warden-fire",
+      "sha256": "e0b5c994a63e6d03841d7f4397f105b245d605c28cd5f805eaf17eede31bb921",
+      "bytes": 225048,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "crab-warden-earth",
+      "sha256": "ef2feaec2180972cd106094e017d936d4fd9e7dfcc279bb0918fd87d438496e8",
+      "bytes": 226910,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "golem-scout-metal",
+      "sha256": "039b245cfc0fa99d08e4ead483c2b23023a0b024ca15048f5c5c0c1c2cde8f20",
+      "bytes": 175070,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "golem-scout-wood",
+      "sha256": "b53d254b1572ae1e9b026e566678652083bda3c57e45b4502254a2412fa646a3",
+      "bytes": 183506,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "golem-scout-water",
+      "sha256": "72559936dafea451a766cfb5b3fc52668b8b0c166261c3fd1266d3f34b03bf8c",
+      "bytes": 197624,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "golem-scout-fire",
+      "sha256": "6fcbef540a31edb8d5a75ea943c0788a8a9f1b171d6c0c83718720b458ff8f18",
+      "bytes": 186242,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "golem-scout-earth",
+      "sha256": "519af4e8b45f0094a98c65d503ab3b24285a85baa5b763acfd7d89caf585b922",
+      "bytes": 187548,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "golem-warden-metal",
+      "sha256": "743042c4f61b0a134a77eb0c5e629b2a36f0f4f3e87e2378881496ffafa3972d",
+      "bytes": 205170,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "golem-warden-wood",
+      "sha256": "cdbd5b321f8bf87819fcc519336fecfe278f2410db642aa6255510f83b50c6ca",
+      "bytes": 230880,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "golem-warden-water",
+      "sha256": "bb2957c0a41e194716d9ffab06aee24c103df4305f27c441ca3ab23d42129563",
+      "bytes": 227650,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "golem-warden-fire",
+      "sha256": "c64c683c8e43ece9c048c43ac42fd9af431024dd540139f8c0ec1367cd564c20",
+      "bytes": 217318,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    },
+    {
+      "id": "golem-warden-earth",
+      "sha256": "daaba951374934ec30276813264c72e416ac6a48784a1421779439dc2977aab0",
+      "bytes": 228410,
+      "contentType": "image/webp",
+      "cacheControl": "public, max-age=31536000, immutable"
+    }
+  ]
+}

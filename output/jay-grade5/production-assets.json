@@ -1,0 +1,88 @@
+{
+  "mainCommit": "fe88d9357c7654dd1d7c3586562befc24223edd5",
+  "stagedCodeCommit": "58e4dc6a318edf38524867ad2c9f2b9e85854184",
+  "changedFilesVerified": 9,
+  "unchangedMediaAndAssetsMatchPreviousVerifiedRelease": 185,
+  "unchangedImageSamples": 3,
+  "verifiedFiles": [
+    {
+      "path": "index.html",
+      "bytes": 1813,
+      "sha256": "05cf2f0be04cd3b77e7a7f0d80f5d70c3ebf46ffe19c9ee70ffa70e44fa927bb",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "assets/RoomEditor.v-CH8canWw.js",
+      "bytes": 10713,
+      "sha256": "7857eefbe232859e08741aef402fa54286b56eed69012c0203f78c391d04d339",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/readability.v-skpJSiPq.js",
+      "bytes": 1099246,
+      "sha256": "848b5407112f352de719662a386183a099e7ae78a6a88414a6152e548b8dc104",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/territory.v-VWTeTjUR.js",
+      "bytes": 5481,
+      "sha256": "0114638d32d345dbb5ad3aae4bc31a00ab5c43ba635c0a53ebbba6c8d96ca547",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/subject-catalog.v-BfMQGqS0.js",
+      "bytes": 3806,
+      "sha256": "d3bd63e6c9f1d7c5fa6cb0ba936454f98d21fb67ccaecf2dca4298d600268c52",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/TerritoryPage.v-2YY-obB1.js",
+      "bytes": 36069,
+      "sha256": "854d4629c9ae7f1b516a18477d9ae83abe25823c3c312b716550a48f39cd0084",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/index.v-BaVXvLqM.js",
+      "bytes": 2533784,
+      "sha256": "125e0a251519e992c78f4051f0d1afc57eba9d2ded3f841e9f7e79f9aa19f822",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/IslandApp.v-CRb8yV0C.js",
+      "bytes": 209071,
+      "sha256": "5ecf26c22863b273790699ea32ac57de7500e070700c72085f11dcd979eeb133",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/AdminConsole.v-CyzWUITK.js",
+      "bytes": 33398,
+      "sha256": "0cdc0c778bce43b43dd6df0f5626c0edb5cd3e41e327b5002dd3b610db0307d0",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-29.webp",
+      "bytes": 148144,
+      "sha256": "e29132f2bb575972856db6dfa9004358535f125b64b920ea9e1ff62731e58eaf",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-05.webp",
+      "bytes": 104970,
+      "sha256": "ba370558f1cfd80b62523c8810c2a1e88d2d379262c504f3e679ce0f12caf6d4",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-17.webp",
+      "bytes": 125588,
+      "sha256": "faf10632821ad235932c68c15f8e30a804f4f3496c869b394758e57b1e89b0c7",
+      "contentType": "image/webp"
+    }
+  ],
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "unauthenticatedStateStatus": 401,
+  "studentWritesPerformed": false,
+  "note": "Initial all194 network read timed out. Final gate verifies all changed files and sample unchanged images; identical asset hashes were already verified in previous release and matched again in packaging. Does not claim all194 re-downloaded this run."
+}

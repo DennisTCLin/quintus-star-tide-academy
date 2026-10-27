@@ -1,0 +1,234 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "dog pet decoded visible inline frame",
+      "pass": true
+    },
+    {
+      "name": "dog pet completes and unlocks",
+      "pass": true
+    },
+    {
+      "name": "dog feed decoded visible inline frame",
+      "pass": true
+    },
+    {
+      "name": "dog feed completes and unlocks",
+      "pass": true
+    },
+    {
+      "name": "dog play decoded visible inline frame",
+      "pass": true
+    },
+    {
+      "name": "dog play completes and unlocks",
+      "pass": true
+    },
+    {
+      "name": "dog highfive decoded visible inline frame",
+      "pass": true
+    },
+    {
+      "name": "dog highfive completes and unlocks",
+      "pass": true
+    },
+    {
+      "name": "dog bubbles decoded visible inline frame",
+      "pass": true
+    },
+    {
+      "name": "dog bubbles completes and unlocks",
+      "pass": true
+    },
+    {
+      "name": "dog rest stays visible through full loop",
+      "pass": true
+    },
+    {
+      "name": "dog landscape fits",
+      "pass": true
+    },
+    {
+      "name": "dog pause retains sleeping pose",
+      "pass": true
+    },
+    {
+      "name": "dog resumes after pause",
+      "pass": true
+    },
+    {
+      "name": "dog stalled video falls back without blank rectangle",
+      "pass": true
+    },
+    {
+      "name": "dog recovers after stalled playback",
+      "pass": true
+    },
+    {
+      "name": "dog works without video frame callback API",
+      "pass": true
+    },
+    {
+      "name": "dog reduced retains visible sleeping image",
+      "pass": true
+    },
+    {
+      "name": "dog pending retains visible sleeping image",
+      "pass": true
+    },
+    {
+      "name": "dog pending does not lock controls",
+      "pass": true
+    },
+    {
+      "name": "dog rejected retains visible sleeping image",
+      "pass": true
+    },
+    {
+      "name": "dog rejected does not lock controls",
+      "pass": true
+    },
+    {
+      "name": "dog broken retains visible sleeping image",
+      "pass": true
+    },
+    {
+      "name": "dog broken does not lock controls",
+      "pass": true
+    },
+    {
+      "name": "tideglow pet decoded visible inline frame",
+      "pass": true
+    },
+    {
+      "name": "tideglow pet completes and unlocks",
+      "pass": true
+    },
+    {
+      "name": "tideglow feed decoded visible inline frame",
+      "pass": true
+    },
+    {
+      "name": "tideglow feed completes and unlocks",
+      "pass": true
+    },
+    {
+      "name": "tideglow play decoded visible inline frame",
+      "pass": true
+    },
+    {
+      "name": "tideglow play completes and unlocks",
+      "pass": true
+    },
+    {
+      "name": "tideglow highfive decoded visible inline frame",
+      "pass": true
+    },
+    {
+      "name": "tideglow highfive completes and unlocks",
+      "pass": true
+    },
+    {
+      "name": "tideglow bubbles decoded visible inline frame",
+      "pass": true
+    },
+    {
+      "name": "tideglow bubbles completes and unlocks",
+      "pass": true
+    },
+    {
+      "name": "tideglow rest stays visible through full loop",
+      "pass": true
+    },
+    {
+      "name": "tideglow landscape fits",
+      "pass": true
+    },
+    {
+      "name": "tideglow pause retains sleeping pose",
+      "pass": true
+    },
+    {
+      "name": "tideglow resumes after pause",
+      "pass": true
+    },
+    {
+      "name": "tideglow stalled video falls back without blank rectangle",
+      "pass": true
+    },
+    {
+      "name": "tideglow recovers after stalled playback",
+      "pass": true
+    },
+    {
+      "name": "tideglow works without video frame callback API",
+      "pass": true
+    },
+    {
+      "name": "tideglow reduced retains visible sleeping image",
+      "pass": true
+    },
+    {
+      "name": "tideglow pending retains visible sleeping image",
+      "pass": true
+    },
+    {
+      "name": "tideglow pending does not lock controls",
+      "pass": true
+    },
+    {
+      "name": "tideglow rejected retains visible sleeping image",
+      "pass": true
+    },
+    {
+      "name": "tideglow rejected does not lock controls",
+      "pass": true
+    },
+    {
+      "name": "tideglow broken retains visible sleeping image",
+      "pass": true
+    },
+    {
+      "name": "tideglow broken does not lock controls",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript exceptions",
+      "pass": true
+    },
+    {
+      "name": "/assets/olivia-dog/actions-v2/highfive.mp4 Safari byte ranges",
+      "pass": true
+    },
+    {
+      "name": "/assets/olivia-dog/actions-v2/bubbles.mp4 Safari byte ranges",
+      "pass": true
+    },
+    {
+      "name": "/assets/olivia-dog/actions-v2/rest.mp4 Safari byte ranges",
+      "pass": true
+    },
+    {
+      "name": "/assets/tideglow-guide/actions-v2/highfive.mp4 Safari byte ranges",
+      "pass": true
+    },
+    {
+      "name": "/assets/tideglow-guide/actions-v2/bubbles.mp4 Safari byte ranges",
+      "pass": true
+    },
+    {
+      "name": "/assets/tideglow-guide/actions-v2/rest.mp4 Safari byte ranges",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "engine": "Playwright modern WebKit, iPad touch/viewport/UA emulation",
+  "physicalIPad": false,
+  "actualIPadOS15Engine": false,
+  "realAccountMutations": false,
+  "deployment": "ef4eb2d4-90ee-4db3-b78f-2f6aca768d31",
+  "runtimeSource": "7b054a3",
+  "unitTests": "26 passed"
+}

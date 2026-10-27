@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "testedSourceCommit": "e1a081924c591b77e896e7acd00bfe21ddecf96d",
+  "checkedAt": "2026-10-26T04:43:34.335476+00:00",
+  "build": "PASS content+pronunciation+tsc+Vite+server",
+  "unit": {
+    "passed": 772,
+    "skipped": 171,
+    "filesPassed": 109,
+    "filesSkipped": 21
+  },
+  "database": {
+    "passed": 21,
+    "isolated": true
+  },
+  "webKitViewports": 16,
+  "completeSixQuestionRuns": 3,
+  "coverage": {
+    "sources": 30,
+    "responseUnits": 1807,
+    "registeredQuestions": 721
+  },
+  "existingQuestionsHashesUnchanged": true,
+  "coordinatedCommits": [
+    "0978165",
+    "aeb59bf",
+    "c796384",
+    "6fbd059",
+    "7853dae"
+  ],
+  "limitations": [
+    "Not physical iPad test",
+    "No production learner state mutations",
+    "Source coverage excludes documented missing materials and ambiguous items"
+  ]
+}

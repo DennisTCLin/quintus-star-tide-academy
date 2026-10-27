@@ -1,0 +1,262 @@
+[
+  {
+    "id": "j5-29232271912586c4c4",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read the timetable.\nKen's timetable: 7:30 a.m. get up; 7:50 a.m. go jogging; 9:30 a.m. play basketball; 12:00 noon have lunch; 1:45 p.m. watch TV; 3:30 p.m. ride a bike; 6:00 p.m. take a shower; 7:30 p.m. have dinner; 9:15 p.m. study English; 11:00 p.m. go to bed.\nKen plays basketball at 9:30 a.m. Is this true?",
+    "options": [
+      {
+        "text": "He never plays basketball."
+      },
+      {
+        "text": "Yes, it is."
+      },
+      {
+        "text": "No, it is not."
+      },
+      {
+        "text": "He plays at 11:00 p.m."
+      }
+    ]
+  },
+  {
+    "id": "j5-b2c211effc02575bb7",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read the timetable.\nKen's timetable: 7:30 a.m. get up; 7:50 a.m. go jogging; 9:30 a.m. play basketball; 12:00 noon have lunch; 1:45 p.m. watch TV; 3:30 p.m. ride a bike; 6:00 p.m. take a shower; 7:30 p.m. have dinner; 9:15 p.m. study English; 11:00 p.m. go to bed.\nWhat does Ken do at 6:00 p.m.?",
+    "options": [
+      {
+        "text": "He takes a shower."
+      },
+      {
+        "text": "He has dinner."
+      },
+      {
+        "text": "He gets up."
+      },
+      {
+        "text": "He studies English."
+      }
+    ]
+  },
+  {
+    "id": "j5-35dafd4851a474b280",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read the timetable.\nKen's timetable: 7:30 a.m. get up; 7:50 a.m. go jogging; 9:30 a.m. play basketball; 12:00 noon have lunch; 1:45 p.m. watch TV; 3:30 p.m. ride a bike; 6:00 p.m. take a shower; 7:30 p.m. have dinner; 9:15 p.m. study English; 11:00 p.m. go to bed.\nWhen does Ken ride a bike?",
+    "options": [
+      {
+        "text": "In the afternoon."
+      },
+      {
+        "text": "At midnight."
+      },
+      {
+        "text": "Before breakfast."
+      },
+      {
+        "text": "At 11:00 p.m."
+      }
+    ]
+  },
+  {
+    "id": "j5-5fb9160208465311b5",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read the timetable.\nKen's timetable: 7:30 a.m. get up; 7:50 a.m. go jogging; 9:30 a.m. play basketball; 12:00 noon have lunch; 1:45 p.m. watch TV; 3:30 p.m. ride a bike; 6:00 p.m. take a shower; 7:30 p.m. have dinner; 9:15 p.m. study English; 11:00 p.m. go to bed.\nKen goes to bed at twelve o'clock. Is this true?",
+    "options": [
+      {
+        "text": "Yes, at noon."
+      },
+      {
+        "text": "No, he goes to bed at eleven."
+      },
+      {
+        "text": "Yes, at twelve."
+      },
+      {
+        "text": "No, at six."
+      }
+    ]
+  },
+  {
+    "id": "j5-7856f3e29b7843dc40",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read the timetable.\nKen's timetable: 7:30 a.m. get up; 7:50 a.m. go jogging; 9:30 a.m. play basketball; 12:00 noon have lunch; 1:45 p.m. watch TV; 3:30 p.m. ride a bike; 6:00 p.m. take a shower; 7:30 p.m. have dinner; 9:15 p.m. study English; 11:00 p.m. go to bed.\nWhat time does Ken have dinner?",
+    "options": [
+      {
+        "text": "At seven thirty in the morning."
+      },
+      {
+        "text": "At six in the evening."
+      },
+      {
+        "text": "At twelve noon."
+      },
+      {
+        "text": "At seven thirty in the evening."
+      }
+    ]
+  },
+  {
+    "id": "j5-93c2a08bb7bacb6a3e",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read the timetable.\nKen's timetable: 7:30 a.m. get up; 7:50 a.m. go jogging; 9:30 a.m. play basketball; 12:00 noon have lunch; 1:45 p.m. watch TV; 3:30 p.m. ride a bike; 6:00 p.m. take a shower; 7:30 p.m. have dinner; 9:15 p.m. study English; 11:00 p.m. go to bed.\nWhat does Ken do at 9:15 p.m.?",
+    "options": [
+      {
+        "text": "He has lunch."
+      },
+      {
+        "text": "He rides a bike."
+      },
+      {
+        "text": "He studies English."
+      },
+      {
+        "text": "He goes jogging."
+      }
+    ]
+  },
+  {
+    "id": "j5-3e1b56baee53a86064",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Choose the correct word: What does Rocky ____ in his free time?",
+    "options": [
+      {
+        "text": "does"
+      },
+      {
+        "text": "doing"
+      },
+      {
+        "text": "to do"
+      },
+      {
+        "text": "do"
+      }
+    ]
+  },
+  {
+    "id": "j5-990a86a12038662509",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Choose the correct word: What ____ Rocky do in his free time?",
+    "options": [
+      {
+        "text": "do"
+      },
+      {
+        "text": "is"
+      },
+      {
+        "text": "are"
+      },
+      {
+        "text": "does"
+      }
+    ]
+  },
+  {
+    "id": "j5-1d861038686768b8d7",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read: Jane says, \"My sister reads books on weekends. She loves Shakespeare.\"\nWhat does Jane's sister do on weekends?",
+    "options": [
+      {
+        "text": "She goes jogging."
+      },
+      {
+        "text": "She reads books."
+      },
+      {
+        "text": "She rides a bike."
+      },
+      {
+        "text": "She plays basketball."
+      }
+    ]
+  },
+  {
+    "id": "j5-0e722eae211bf0da7a",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read: Ben plays online games at four thirty. He has dinner at seven. Then he plays online games again at nine.\nWhat time does Ben play online games again after dinner?",
+    "options": [
+      {
+        "text": "At 4:30."
+      },
+      {
+        "text": "At 7:00."
+      },
+      {
+        "text": "At 11:20."
+      },
+      {
+        "text": "At 9:00."
+      }
+    ]
+  },
+  {
+    "id": "j5-91426b6de55ebe338c",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read: Ben plays online games at four thirty. He has dinner at seven o'clock. He plays online games again at nine.\nWhat time does Ben have dinner?",
+    "options": [
+      {
+        "text": "At 4:30."
+      },
+      {
+        "text": "At 9:00."
+      },
+      {
+        "text": "At 11:20."
+      },
+      {
+        "text": "At 7:00."
+      }
+    ]
+  },
+  {
+    "id": "j5-99a1697e32dc054bba",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read: Ben first plays online games at four thirty. He has dinner at seven. Then he plays online games again at nine.\nWhat time does Ben first play online games?",
+    "options": [
+      {
+        "text": "At 7:00."
+      },
+      {
+        "text": "At 9:00."
+      },
+      {
+        "text": "At 11:20."
+      },
+      {
+        "text": "At 4:30."
+      }
+    ]
+  },
+  {
+    "id": "j5-f6d1e50724df8f1209",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read: Ed walks the dog at four fifteen. He has dinner at six thirty. Then he plays basketball at seven forty-five.\nWhat time does Ed play basketball?",
+    "options": [
+      {
+        "text": "At 9:50."
+      },
+      {
+        "text": "At 7:45."
+      },
+      {
+        "text": "At 4:15."
+      },
+      {
+        "text": "At 6:30."
+      }
+    ]
+  }
+]

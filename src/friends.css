@@ -1,0 +1,43 @@
+.friends-presence { position: relative; flex: none; min-width: 0; }
+.family-app .friends-toggle { display:flex;align-items:center;gap:9px;padding:10px 14px;min-height:48px;border-radius:18px;white-space:nowrap;text-align:left; }
+.friends-toggle b {display:block;font-size:12px;font-weight:500;color:var(--f-muted);}
+.presence-dot {display:inline-block;width:9px;height:9px;flex:none;border-radius:50%;background:#839ba8;}
+.presence-dot.is-online {background:#7ff1bd;box-shadow:0 0 0 3px #7ff1bd1c;}
+.family-app .social-dialog {position:fixed;inset:0;margin:auto;box-sizing:border-box;width:min(440px,calc(100% - 24px));max-width:calc(100% - 24px);max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px);overflow:auto;overscroll-behavior:contain;padding:20px;border:1px solid #648e9d;border-radius:22px;background:#102e41;color:#eaf9ff;box-shadow:0 18px 50px #00101bcc;}
+.social-dialog::backdrop {background:#00101bb3;}
+.family-app .social-dialog.social-wide {width:min(880px,calc(100% - 24px));}
+.social-dialog-heading {display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px;}
+.social-dialog-heading h2 {font-size:22px;line-height:1.5;margin:0;min-width:0;overflow-wrap:anywhere;}
+.social-dialog-heading button {flex:none;min-width:44px;min-height:44px;}
+.social-dialog p {font-size:15px;line-height:1.7;overflow-wrap:anywhere;}
+.friends-list {list-style:none;padding:0;margin:10px 0;}
+.friends-list li+li {border-top:1px solid #456071;}
+.family-app .friend-row {display:flex;align-items:center;gap:12px;width:100%;min-width:0;padding:14px 2px;text-align:left;border:0;background:transparent;border-radius:8px;}
+.friend-row>span:last-child {margin-left:auto;}
+.friend-avatar {position:relative;flex:none;}
+.friend-avatar .player-avatar {width:44px;height:44px;}
+.friend-avatar>.presence-dot {position:absolute;bottom:1px;right:0;outline:3px solid #102e41;}
+.friend-copy {display:grid;gap:4px;min-width:0;}
+.friend-copy strong {font-size:16px;overflow-wrap:anywhere;}
+.friend-copy>span {font-size:13px;color:#b6d0dc;}
+.friend-copy>.friend-online {color:#95f7c8;}
+.friend-detail {margin:18px 0;display:grid;justify-items:center;gap:10px;}
+.friend-detail .player-avatar {width:72px;height:72px;}
+.social-pet-select {display:grid;gap:8px;margin:14px 0;min-width:0;}
+.family-app .social-pet-select select {width:100%;min-width:0;max-width:100%;font-size:16px;padding:12px;background:#173e50;color:#eefaff;border:1px solid #7ab5be;border-radius:12px;}
+.social-actions {display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:16px 0;}
+.family-app .social-invite {width:100%;background:#8ce9e0;color:#082b39;margin-top:10px;}
+.online-battle-banner {position:sticky;top:0;z-index:30;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding:12px 20px;background:#173f52;border-block:1px solid #74b5b8;max-width:1280px;margin:auto;box-sizing:border-box;}
+.online-battle-banner>span {min-width:0;overflow-wrap:anywhere;}
+.social-battle-actions {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;position:sticky;bottom:-20px;background:#102e41;padding:12px 0;z-index:3;}
+.family-app .social-battle-actions button {min-width:0;min-height:52px;padding:10px;}
+.family-app .social-leave {margin-top:14px;}
+@media (max-width:1100px) {.family-header {flex-wrap:wrap;}.family-header .friends-presence {margin-left:auto;}}
+@media (max-width:600px) {
+  .family-header .friends-presence {order:3;margin-left:0;}
+  .family-header .wallet {flex:1;justify-content:flex-end;gap:12px;min-width:0;flex-wrap:wrap;}
+  .family-app .friends-toggle {padding:7px 10px;border-radius:14px;font-size:13px;}
+  .family-app .social-dialog {padding:16px;}
+  .social-dialog-heading h2 {font-size:19px;}
+  .social-battle-actions {bottom:-16px;}
+}

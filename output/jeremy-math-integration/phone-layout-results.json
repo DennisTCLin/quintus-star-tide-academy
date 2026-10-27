@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "chromium 320px readable stage labels and non-covering progress"
+    },
+    {
+      "name": "chromium 393px readable stage labels and non-covering progress"
+    },
+    {
+      "name": "chromium 680px readable stage labels and non-covering progress"
+    },
+    {
+      "name": "webkit 320px readable stage labels and non-covering progress"
+    },
+    {
+      "name": "webkit 393px readable stage labels and non-covering progress"
+    },
+    {
+      "name": "webkit 680px readable stage labels and non-covering progress"
+    }
+  ]
+}

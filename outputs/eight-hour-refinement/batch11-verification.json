@@ -1,0 +1,264 @@
+{
+  "at": "2026-10-24T22:35:20.928880+00:00",
+  "base": "3c2495d",
+  "scope": "Honest course intent; resume/claim actual current voyage; static future routes; no automatic abandon",
+  "tests": {
+    "postgres": "58files480tests PASS",
+    "focused": "course-selection + zhuyin packing 2files10tests PASS",
+    "build": "PASS",
+    "diffCheck": "PASS"
+  },
+  "independentReview": {
+    "stateCases": 448,
+    "doubleInvocation": "actual begin function immediate English→math: one start/learn due pending ref",
+    "finding": "Preview border overridden by later CSS; fixed selector specificity and browser verified 5dashed backgrounds",
+    "final": "PASS"
+  },
+  "dictionary": {
+    "phrases": 4790,
+    "characters": 1627,
+    "added": {
+      "下一趟": [
+        "ㄒㄧㄚˋ",
+        "ㄧ",
+        "ㄊㄤˋ"
+      ],
+      "下一趟再選": [
+        "ㄒㄧㄚˋ",
+        "ㄧ",
+        "ㄊㄤˋ",
+        "ㄗㄞˋ",
+        "ㄒㄩㄢˇ"
+      ],
+      "下一趟可以選": [
+        "ㄒㄧㄚˋ",
+        "ㄧ",
+        "ㄊㄤˋ",
+        "ㄎㄜˇ",
+        "ㄧˇ",
+        "ㄒㄩㄢˇ"
+      ],
+      "你的航線": [
+        "ㄋㄧˇ",
+        "˙ㄉㄜ",
+        "ㄏㄤˊ",
+        "ㄒㄧㄢˋ"
+      ],
+      "先繼續這一趟": [
+        "ㄒㄧㄢ",
+        "ㄐㄧˋ",
+        "ㄒㄩˋ",
+        "ㄓㄜˋ",
+        "ㄧ",
+        "ㄊㄤˋ"
+      ],
+      "先領好獎勵": [
+        "ㄒㄧㄢ",
+        "ㄌㄧㄥˇ",
+        "ㄏㄠˇ",
+        "ㄐㄧㄤˇ",
+        "ㄌㄧˋ"
+      ],
+      "再選下一趟": [
+        "ㄗㄞˋ",
+        "ㄒㄩㄢˇ",
+        "ㄒㄧㄚˋ",
+        "ㄧ",
+        "ㄊㄤˋ"
+      ],
+      "按禮物": [
+        "ㄢˋ",
+        "ㄌㄧˇ",
+        "ㄨˋ"
+      ],
+      "暫時無法朗讀航線說明": [
+        "ㄓㄢˋ",
+        "ㄕˊ",
+        "ㄨˊ",
+        "ㄈㄚˇ",
+        "ㄌㄤˇ",
+        "ㄉㄨˊ",
+        "ㄏㄤˊ",
+        "ㄒㄧㄢˋ",
+        "ㄕㄨㄛ",
+        "ㄇㄧㄥˊ"
+      ],
+      "每趟六題": [
+        "ㄇㄟˇ",
+        "ㄊㄤˋ",
+        "ㄌㄧㄡˋ",
+        "ㄊㄧˊ"
+      ],
+      "目前的航線": [
+        "ㄇㄨˋ",
+        "ㄑㄧㄢˊ",
+        "˙ㄉㄜ",
+        "ㄏㄤˊ",
+        "ㄒㄧㄢˋ"
+      ],
+      "目前這一趟": [
+        "ㄇㄨˋ",
+        "ㄑㄧㄢˊ",
+        "ㄓㄜˋ",
+        "ㄧ",
+        "ㄊㄤˋ"
+      ],
+      "答錯三題就休息": [
+        "ㄉㄚˊ",
+        "ㄘㄨㄛˋ",
+        "ㄙㄢ",
+        "ㄊㄧˊ",
+        "ㄐㄧㄡˋ",
+        "ㄒㄧㄡ",
+        "ㄒㄧˊ"
+      ],
+      "繼續原來的題目": [
+        "ㄐㄧˋ",
+        "ㄒㄩˋ",
+        "ㄩㄢˊ",
+        "ㄌㄞˊ",
+        "˙ㄉㄜ",
+        "ㄊㄧˊ",
+        "ㄇㄨˋ"
+      ],
+      "聽航線說明": [
+        "ㄊㄧㄥ",
+        "ㄏㄤˊ",
+        "ㄒㄧㄢˋ",
+        "ㄕㄨㄛ",
+        "ㄇㄧㄥˊ"
+      ],
+      "聽音找圖": [
+        "ㄊㄧㄥ",
+        "ㄧㄣ",
+        "ㄓㄠˇ",
+        "ㄊㄨˊ"
+      ],
+      "請依照圖案和文字操作": [
+        "ㄑㄧㄥˇ",
+        "ㄧ",
+        "ㄓㄠˋ",
+        "ㄊㄨˊ",
+        "ㄢˋ",
+        "ㄏㄜˊ",
+        "ㄨㄣˊ",
+        "ㄗˋ",
+        "ㄘㄠ",
+        "ㄗㄨㄛˋ"
+      ],
+      "請等一下": [
+        "ㄑㄧㄥˇ",
+        "ㄉㄥˇ",
+        "ㄧ",
+        "ㄒㄧㄚˋ"
+      ],
+      "這一趟已經完成": [
+        "ㄓㄜˋ",
+        "ㄧ",
+        "ㄊㄤˋ",
+        "ㄧˇ",
+        "ㄐㄧㄥ",
+        "ㄨㄢˊ",
+        "ㄔㄥˊ"
+      ],
+      "這一趟還在進行": [
+        "ㄓㄜˋ",
+        "ㄧ",
+        "ㄊㄤˋ",
+        "ㄏㄞˊ",
+        "ㄗㄞˋ",
+        "ㄐㄧㄣˋ",
+        "ㄒㄧㄥˊ"
+      ],
+      "連線後再出發": [
+        "ㄌㄧㄢˊ",
+        "ㄒㄧㄢˋ",
+        "ㄏㄡˋ",
+        "ㄗㄞˋ",
+        "ㄔㄨ",
+        "ㄈㄚ"
+      ],
+      "選擇新航線": [
+        "ㄒㄩㄢˇ",
+        "ㄗㄜˊ",
+        "ㄒㄧㄣ",
+        "ㄏㄤˊ",
+        "ㄒㄧㄢˋ"
+      ],
+      "開始六題挑戰": [
+        "ㄎㄞ",
+        "ㄕˇ",
+        "ㄌㄧㄡˋ",
+        "ㄊㄧˊ",
+        "ㄊㄧㄠˇ",
+        "ㄓㄢˋ"
+      ],
+      "領取": [
+        "ㄌㄧㄥˇ",
+        "ㄑㄩˇ"
+      ],
+      "點一個航線圖案": [
+        "ㄉㄧㄢˇ",
+        "ㄧ",
+        "ㄍㄜˋ",
+        "ㄏㄤˊ",
+        "ㄒㄧㄢˋ",
+        "ㄊㄨˊ",
+        "ㄢˋ"
+      ]
+    },
+    "changed": {},
+    "removedUnused": [
+      "每天可以選"
+    ],
+    "source": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=29878&la=0&powerMode=0",
+    "note": "Confirmed existing Taiwan 暫時ㄓㄢˋㄕˊ; retained. 領取ㄌㄧㄥˇㄑㄩˇ added after coverage gate correctly blocked build."
+  },
+  "browser": "batch11-browser.json",
+  "stateEvidence": "batch11-navigation-state.json",
+  "limits": [
+    "Isolated local QA only; no real child progress",
+    "OS voice not human-audited, no physical device speed claim",
+    "Legacy5question words/busy covered by independent probe not actual browser fixture"
+  ],
+  "buildAssets": {
+    "index.v-DM_kJs13.css": {
+      "bytes": 232387,
+      "gzip9": 48571,
+      "sha256": "9e44fd7e4fe6d484a877c8f117da233604d020d7def4b2e15ba91bdf0084694a"
+    },
+    "TerritoryPage.v-Cjn48xT-.js": {
+      "bytes": 35956,
+      "gzip9": 12776,
+      "sha256": "b8719dbdcdc313b7b46967bb20556aaa514732fe1493f1df9911b74ac2d6880e"
+    },
+    "TerritoryPage.v-XpGSXE-r.css": {
+      "bytes": 30002,
+      "gzip9": 6405,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    "index.v-CR4lxHdZ.js": {
+      "bytes": 668117,
+      "gzip9": 232177,
+      "sha256": "26bd1ca4bacc3b547c3b275ddc695e5bc721650705fcfe31278747c12c2b4cd6"
+    },
+    "RoomEditor.v-Sjj5Y5VT.js": {
+      "bytes": 10629,
+      "gzip9": 4072,
+      "sha256": "5122a396a37225ffcf8c96115010a7ec99b08a6d4ee7529b25aa7abaeaeed25f"
+    }
+  },
+  "bundleChange": {
+    "mainJS": {
+      "beforeRaw": 664958,
+      "afterRaw": 668117,
+      "beforeGzip9": 231272,
+      "afterGzip9": 232177
+    },
+    "mainCSS": {
+      "beforeRaw": 231222,
+      "afterRaw": 232387
+    },
+    "note": "Build artifact bytes only, not device latency/FPS; prior values from Batch10 verified artifacts."
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "checks": [
+    {
+      "label": "mixed-context-review-320",
+      "answers": [
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Wednesday",
+          "w": 137.3984375
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Monday",
+          "w": 110.6015625
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Friday",
+          "w": 137.3984375
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Sunday",
+          "w": 110.6015625
+        }
+      ],
+      "overflow": false,
+      "question": "Art club meets on Monday. Music club meets on Wednesday. Ben joins music club. Which day should he come?",
+      "statuses": [
+        "熟悉的能力，再練一次 · 不加精熟點與星幣🔊"
+      ],
+      "viewport": [
+        320,
+        760
+      ]
+    },
+    {
+      "label": "mixed-context-review-820",
+      "answers": [
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Wednesday",
+          "w": 360
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Monday",
+          "w": 360
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Friday",
+          "w": 360
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Sunday",
+          "w": 360
+        }
+      ],
+      "overflow": false,
+      "question": "Art club meets on Monday. Music club meets on Wednesday. Ben joins music club. Which day should he come?",
+      "statuses": [
+        "熟悉的能力，再練一次 · 不加精熟點與星幣🔊"
+      ],
+      "viewport": [
+        820,
+        1180
+      ]
+    },
+    {
+      "label": "mixed-context-review-1024",
+      "answers": [
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Wednesday",
+          "w": 282.546875
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Monday",
+          "w": 282.546875
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Friday",
+          "w": 282.546875
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Sunday",
+          "w": 282.546875
+        }
+      ],
+      "overflow": false,
+      "question": "Art club meets on Monday. Music club meets on Wednesday. Ben joins music club. Which day should he come?",
+      "statuses": [
+        "熟悉的能力，再練一次 · 不加精熟點與星幣🔊"
+      ],
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "label": "mixed-context-review-1440",
+      "answers": [
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Wednesday",
+          "w": 241.1796875
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Monday",
+          "w": 241.1875
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Friday",
+          "w": 241.1796875
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 Sunday",
+          "w": 241.1875
+        }
+      ],
+      "overflow": false,
+      "question": "Art club meets on Monday. Music club meets on Wednesday. Ben joins music club. Which day should he come?",
+      "statuses": [
+        "熟悉的能力，再練一次 · 不加精熟點與星幣🔊"
+      ],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "label": "reload-settled",
+      "answers": [
+        {
+          "disabled": true,
+          "h": 100,
+          "label": "選擇 Wednesday",
+          "w": 282.546875
+        },
+        {
+          "disabled": true,
+          "h": 100,
+          "label": "選擇 Monday",
+          "w": 282.546875
+        },
+        {
+          "disabled": true,
+          "h": 100,
+          "label": "選擇 Friday",
+          "w": 282.546875
+        },
+        {
+          "disabled": true,
+          "h": 100,
+          "label": "選擇 Sunday",
+          "w": 282.546875
+        }
+      ],
+      "overflow": false,
+      "question": "Art club meets on Monday. Music club meets on Wednesday. Ben joins music club. Which day should he come?",
+      "statuses": [
+        "熟悉的能力，再練一次 · 不加精熟點與星幣🔊"
+      ],
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "label": "mixed-context-question5",
+      "answers": [
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 He eats the banana.",
+          "w": 282.546875
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 He buys a banana.",
+          "w": 282.546875
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 He washes a plate.",
+          "w": 282.546875
+        },
+        {
+          "disabled": false,
+          "h": 100,
+          "label": "選擇 He washes his hands.",
+          "w": 282.546875
+        }
+      ],
+      "overflow": false,
+      "question": "First, Tim washes his hands. Next, he peels a banana. Finally, he eats it. What does Tim do before peeling the banana?",
+      "statuses": [
+        "熟悉的能力，再練一次 · 不加精熟點與星幣🔊"
+      ],
+      "viewport": [
+        1024,
+        768
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "completedSixReviews": true,
+  "pendingReward": true,
+  "finalBattleMeters": {
+    "ally": 108,
+    "foe": 0,
+    "note": "after final attack animation completes"
+  },
+  "postCheckState": "LocalQA home,carousel manually paused,English completed/rewardpending;viewportreset; appreduceMotionresettofalsebyreload"
+}

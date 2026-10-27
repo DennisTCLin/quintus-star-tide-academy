@@ -1,0 +1,51 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "webkit: new tideglow highfive frames and completion preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit: new tideglow bubbles frames and completion preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit: new tideglow rest keeps playing beyond watchdog",
+      "pass": true
+    },
+    {
+      "name": "webkit: new tideglow sleep poster preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit: dog pending fallback retained on integrated build",
+      "pass": true
+    },
+    {
+      "name": "chromium: new tideglow highfive frames and completion preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium: new tideglow bubbles frames and completion preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium: new tideglow rest keeps playing beyond watchdog",
+      "pass": true
+    },
+    {
+      "name": "chromium: new tideglow sleep poster preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium: dog pending fallback retained on integrated build",
+      "pass": true
+    },
+    {
+      "name": "No integrated JavaScript errors",
+      "pass": true
+    }
+  ],
+  "base": "6fbd059",
+  "physicalDevice": false
+}

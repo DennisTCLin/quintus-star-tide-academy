@@ -1,0 +1,175 @@
+{
+  "source": "073008e",
+  "note": "Rolldown rendered module lengths are attribution signals, not standalone minified/network bytes. Build write:false in /tmp; production dist unchanged.",
+  "chunks": [
+    {
+      "file": "assets/index.v-Bs6WdTIz.js",
+      "isEntry": true,
+      "bytes": 825442,
+      "modules": [
+        {
+          "id": "src/data/interface-zhuyin.json",
+          "renderedLength": 286081
+        },
+        {
+          "id": "node_modules/react-dom/cjs/react-dom.production.min.js",
+          "renderedLength": 183845
+        },
+        {
+          "id": "src/App.tsx",
+          "renderedLength": 109491
+        },
+        {
+          "id": "src/companions-wave-two.ts",
+          "renderedLength": 34943
+        },
+        {
+          "id": "src/GachaMachine.tsx",
+          "renderedLength": 18865
+        },
+        {
+          "id": "src/QuizEncounter.tsx",
+          "renderedLength": 18807
+        },
+        {
+          "id": "src/BattleScene.tsx",
+          "renderedLength": 16644
+        },
+        {
+          "id": "src/characters.ts",
+          "renderedLength": 16504
+        },
+        {
+          "id": "src/MonsterBestiary.tsx",
+          "renderedLength": 15143
+        },
+        {
+          "id": "src/ElementGuide.tsx",
+          "renderedLength": 13724
+        },
+        {
+          "id": "src/HeroVideoCarousel.tsx",
+          "renderedLength": 12145
+        },
+        {
+          "id": "src/AccountGate.tsx",
+          "renderedLength": 11775
+        },
+        {
+          "id": "src/game-view.ts",
+          "renderedLength": 11595
+        },
+        {
+          "id": "src/TrainingPanel.tsx",
+          "renderedLength": 8983
+        },
+        {
+          "id": "node_modules/react/cjs/react.production.min.js",
+          "renderedLength": 8801
+        },
+        {
+          "id": "src/HomeArt.tsx",
+          "renderedLength": 7285
+        },
+        {
+          "id": "src/StarterOnboarding.tsx",
+          "renderedLength": 6734
+        },
+        {
+          "id": "src/LearningJourney.tsx",
+          "renderedLength": 6580
+        },
+        {
+          "id": "src/AbilityRadar.tsx",
+          "renderedLength": 6137
+        },
+        {
+          "id": "src/cloud.ts",
+          "renderedLength": 5726
+        },
+        {
+          "id": "node_modules/scheduler/cjs/scheduler.production.min.js",
+          "renderedLength": 5712
+        },
+        {
+          "id": "src/LearningBuildPanel.tsx",
+          "renderedLength": 5472
+        },
+        {
+          "id": "src/HomeScene.tsx",
+          "renderedLength": 5381
+        },
+        {
+          "id": "src/territory.ts",
+          "renderedLength": 4875
+        },
+        {
+          "id": "src/FriendsPresence.tsx",
+          "renderedLength": 3875
+        }
+      ]
+    },
+    {
+      "file": "assets/RoomEditor.v-DSNT-eU1.js",
+      "isEntry": false,
+      "bytes": 10629,
+      "modules": [
+        {
+          "id": "src/RoomEditor.tsx",
+          "renderedLength": 20720
+        },
+        {
+          "id": "src/home-editor-sync.ts",
+          "renderedLength": 404
+        }
+      ]
+    },
+    {
+      "file": "assets/TerritoryPage.v-DhCiPnW1.js",
+      "isEntry": false,
+      "bytes": 35956,
+      "modules": [
+        {
+          "id": "src/TerritoryPage.tsx",
+          "renderedLength": 32671
+        },
+        {
+          "id": "src/IslandHabitat.tsx",
+          "renderedLength": 13545
+        },
+        {
+          "id": "src/CastleExterior.tsx",
+          "renderedLength": 7342
+        },
+        {
+          "id": "src/island-life.ts",
+          "renderedLength": 5816
+        },
+        {
+          "id": "src/island-motion-assets.ts",
+          "renderedLength": 1309
+        },
+        {
+          "id": "src/island-atlas-loader.ts",
+          "renderedLength": 1237
+        },
+        {
+          "id": "src/island-motion.ts",
+          "renderedLength": 1175
+        },
+        {
+          "id": "src/castle.css",
+          "renderedLength": 82
+        },
+        {
+          "id": "src/island-life.css",
+          "renderedLength": 0
+        },
+        {
+          "id": "src/territory.css",
+          "renderedLength": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "sourceCommit": "4d1593547b7c0b37fe2931fd9c571c0a275b83aa",
+  "scope": "Learning answer battles; the separate move-based CPU/duo arena is unchanged.",
+  "rules": {
+    "questions": 6,
+    "answersPerQuestion": 1,
+    "cumulativeMistakesToFail": 3,
+    "hpAtMistakeCountsFor100Max": [
+      100,
+      67,
+      34,
+      0
+    ],
+    "correctAnswersResetMistakes": false,
+    "failedRunCompletionReward": false,
+    "newBattleStartsWithFullHp": true,
+    "alreadyEarnedCorrectAnswerProgressRetained": true
+  },
+  "build": "PASS",
+  "fullSuite": {
+    "command": "TEST_DATABASE_URL=<isolated local PostgreSQL> npm test -- --no-file-parallelism",
+    "files": 42,
+    "passed": 392,
+    "failed": 0,
+    "skipped": 0
+  },
+  "independentReview": {
+    "status": "PASS",
+    "focusedFiles": 6,
+    "focusedTests": 87,
+    "exhaustiveAnswerPatterns": 64,
+    "legacyProgressCombinations": 15,
+    "activeLegacyFiveQuestionUpgradeIdempotent": true,
+    "completedLegacyRewardPreserved": true
+  },
+  "cloud": {
+    "sameRequestReceiptReplay": "PASS",
+    "concurrentDifferentRequestIds": "PASS",
+    "secondDeviceFailedState": "PASS",
+    "answersHiddenUntilSettled": "PASS"
+  },
+  "browser": {
+    "environment": "Isolated local test account and database; no real player progress modified",
+    "desktop": {
+      "sequence": [
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "doubleClickCountsOnce": true,
+      "reloadAfterTwoMistakesHp": 34,
+      "finalStatus": "failed",
+      "finalHp": 0,
+      "nextAndRewardAbsent": true,
+      "earnedXpRetained": 20
+    },
+    "gradeTwo": {
+      "viewport": 390,
+      "pageWidth": 390,
+      "sequence": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "finalStatus": "won",
+      "noPrematureVictory": true,
+      "wrongFinalAnswerExplained": true,
+      "correctAnswerVoiceControlAvailable": true,
+      "cumulativePronunciationReviewed": "累計 ㄌㄟˇ ㄐㄧˋ"
+    },
+    "gradeOne": {
+      "viewport": 390,
+      "pageWidth": 390,
+      "visualMathPrompt": true,
+      "firstWrongHp": 67,
+      "allAnswersLockedAfterSubmission": true,
+      "correctAnswerVoiceControlClickedWithoutReportedError": true
+    },
+    "screenshots": [
+      "defeat-desktop.png",
+      "grade-two-mobile.png",
+      "grade-one-mobile.png",
+      "integrated-defeat-desktop.png"
+    ],
+    "audioLimitation": "Voice controls were exercised; no claim of human auditory review.",
+    "integratedResult": {
+      "sequence": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "status": "failed",
+      "hp": 0,
+      "creditedAnswers": 1,
+      "packs": 0,
+      "nextPackProgress": 3,
+      "rewardButtons": 0,
+      "pageWidth": 1280
+    },
+    "integratedConsoleErrors": []
+  },
+  "integratedResourceCommit": "de6c3fb6c23413527508cd42c73e749b42085277",
+  "integrationReview": {
+    "status": "PASS",
+    "files": 3,
+    "tests": 27,
+    "carriedProgressCanEarnTwoPacks": true,
+    "failureRetainsEarnedMaterials": true,
+    "invalidReceiptRejected": true
+  },
+  "integratedSourceCommit": "9e94a19d4a55cc01f7381e82a05c25e6ef152dcf",
+  "deploymentId": "0f2db9f3-1906-4793-a02e-6a9dc330f3a9",
+  "deploymentStatus": "SUCCESS",
+  "productionAssetHashesMatch": true
+}

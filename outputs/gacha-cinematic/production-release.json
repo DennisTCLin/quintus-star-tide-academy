@@ -1,0 +1,39 @@
+{
+  "base": "https://quintus-star-tide-academy-production.up.railway.app",
+  "runtimeCommit": "3fee23b",
+  "deployment": "858cfb1e-e9dc-4f3d-bc2d-f05bc979535a",
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "allAssetsByteIdentical": true,
+  "assets": [
+    {
+      "path": "/assets/TerritoryPage.v-BZ7oZN1m.js",
+      "bytes": 21418,
+      "sha256": "10e4982ee926eb35d16fbaae1cfae8e28adc1999a3d95c641f70d1f3cf2f3f0a"
+    },
+    {
+      "path": "/assets/index.v-DclvnjCk.js",
+      "bytes": 596009,
+      "sha256": "de402f3303e2e24102f3323bf4e7a85157812733416fbb89804cba23c1aaa84a"
+    },
+    {
+      "path": "/assets/TerritoryPage.v-5PgLoXkm.css",
+      "bytes": 18226,
+      "sha256": "97cf594f72cf99e717ea7e6664d6105f718bc63d4e98897c5c51e34d42f1755e"
+    },
+    {
+      "path": "/assets/index.v-DKqysIYV.css",
+      "bytes": 181800,
+      "sha256": "2acc9cf3382d26cf86653703898bb65d15dfaf4ef7ee7dd75ab9faef464a17d9"
+    },
+    {
+      "path": "/assets/gacha/starwish-machine.webp?v=a9ee8fdfbf5f",
+      "bytes": 327082,
+      "sha256": "a9ee8fdfbf5f4ca2940a676680f06f9ee9729224424a06cbbf2f36ba5da78ed2"
+    }
+  ],
+  "result": "PASS",
+  "railwayStatus": "SUCCESS"
+}

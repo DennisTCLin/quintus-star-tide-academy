@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "cpuClip": 1,
+      "actualVideo": true,
+      "cpuReplyCompleted": true
+    },
+    {
+      "cpuClip": 2,
+      "actualVideo": true,
+      "cpuReplyCompleted": true
+    },
+    {
+      "cpuClip": 3,
+      "actualVideo": true,
+      "cpuReplyCompleted": true
+    },
+    {
+      "reduced": true,
+      "blocked": false,
+      "round3": true,
+      "320px": true
+    },
+    {
+      "reduced": false,
+      "blocked": true,
+      "round3": true,
+      "320px": true
+    },
+    {
+      "surface": "quiz",
+      "cinematic": true,
+      "HPAtImpact": true,
+      "autoAdvanceAfterAnimation": true
+    },
+    {
+      "surface": "practice",
+      "cinematic": true,
+      "HPAtImpact": true,
+      "autoAdvanceAfterAnimation": true
+    }
+  ],
+  "errors": []
+}

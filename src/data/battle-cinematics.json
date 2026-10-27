@@ -1,0 +1,1652 @@
+{
+  "tideglow-1": {
+    "src": "/assets/battle/tideglow-1.mp4?v=4442ae7fdf33",
+    "poster": "/assets/battle/tideglow-1.jpg?v=cd6bd3180a58",
+    "duration": 4.041667,
+    "impactAt": 0.53,
+    "jobId": "c8bd887d-2a0b-4d37-a6a1-f150c02f0f77",
+    "name": "潮弧尾斬",
+    "pet": "tideglow",
+    "slot": 0
+  },
+  "tideglow-2": {
+    "src": "/assets/battle/tideglow-2.mp4?v=19d6556b0a39",
+    "poster": "/assets/battle/tideglow-2.jpg?v=923b16243128",
+    "duration": 4.041667,
+    "impactAt": 0.57,
+    "jobId": "7a59c85b-8480-4caa-b458-3bcaeceb4aff",
+    "name": "星羅印記",
+    "pet": "tideglow",
+    "slot": 1
+  },
+  "tideglow-3": {
+    "src": "/assets/battle/tideglow-3.mp4?v=fc7e09bdbf83",
+    "poster": "/assets/battle/tideglow-3.jpg?v=181b901a5229",
+    "duration": 4.041667,
+    "impactAt": 0.53,
+    "jobId": "ae72aa1d-d733-4d94-8234-849c1114d299",
+    "name": "滄海極光破",
+    "pet": "tideglow",
+    "slot": 2
+  },
+  "pebblefin-1": {
+    "src": "/assets/battle/pebblefin-1.mp4?v=6d2e759a3d40",
+    "poster": "/assets/battle/pebblefin-1.jpg?v=dd16ae9189c0",
+    "duration": 4.041667,
+    "impactAt": 0.53,
+    "jobId": "6dac2874-3351-4ad8-8aa3-23cc21ece97b",
+    "name": "碎礁拍尾",
+    "pet": "pebblefin",
+    "slot": 0
+  },
+  "pebblefin-2": {
+    "src": "/assets/battle/pebblefin-2.mp4?v=59d4b4dbb610",
+    "poster": "/assets/battle/pebblefin-2.jpg?v=8af3e2b3e897",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "171620b2-373b-456e-b8e1-df854b2dc104",
+    "name": "翠鰭石壘",
+    "pet": "pebblefin",
+    "slot": 1
+  },
+  "pebblefin-3": {
+    "src": "/assets/battle/pebblefin-3.mp4?v=5fff010760b3",
+    "poster": "/assets/battle/pebblefin-3.jpg?v=f8ecdfbcafa9",
+    "duration": 4.041667,
+    "impactAt": 0.64,
+    "jobId": "9ecbbda2-686e-4930-9b68-a54a1093af7d",
+    "name": "千礁奔流",
+    "pet": "pebblefin",
+    "slot": 2
+  },
+  "foamferret-1": {
+    "src": "/assets/battle/foamferret-1.mp4?v=e8311d9ba45f",
+    "poster": "/assets/battle/foamferret-1.jpg?v=09ef4886a955",
+    "duration": 4.041667,
+    "impactAt": 0.52,
+    "jobId": "353b9f25-2e31-4f79-89c0-10613fddb8a3",
+    "name": "泡影連爪",
+    "pet": "foamferret",
+    "slot": 0
+  },
+  "foamferret-2": {
+    "src": "/assets/battle/foamferret-2.mp4?v=ecf0d83c7d79",
+    "poster": "/assets/battle/foamferret-2.jpg?v=91ddf66aab68",
+    "duration": 4.041667,
+    "impactAt": 0.58,
+    "jobId": "5b82df45-f766-419a-ac64-ef81186e3425",
+    "name": "漣漪回彈",
+    "pet": "foamferret",
+    "slot": 1
+  },
+  "foamferret-3": {
+    "src": "/assets/battle/foamferret-3.mp4?v=03a46ae5f65e",
+    "poster": "/assets/battle/foamferret-3.jpg?v=16b8e76c8e2e",
+    "duration": 4.041667,
+    "impactAt": 0.68,
+    "jobId": "39769535-c904-4ecf-b4bb-784cd8c66dc8",
+    "name": "百泡星瀑",
+    "pet": "foamferret",
+    "slot": 2
+  },
+  "seasprout-1": {
+    "src": "/assets/battle/seasprout-1.mp4?v=31cf7e5c6406",
+    "poster": "/assets/battle/seasprout-1.jpg?v=65207b01bcaa",
+    "duration": 4.041667,
+    "impactAt": 0.58,
+    "jobId": "807928d6-1bd0-41f2-8d2d-901bcac22c1f",
+    "name": "芽葉旋刃",
+    "pet": "seasprout",
+    "slot": 0
+  },
+  "seasprout-2": {
+    "src": "/assets/battle/seasprout-2.mp4?v=923a252c7d7b",
+    "poster": "/assets/battle/seasprout-2.jpg?v=bfa1adfa0f55",
+    "duration": 4.041667,
+    "impactAt": 0.5,
+    "jobId": "99ed9d86-a503-4bde-8bd4-edffda33c11c",
+    "name": "潮芽新生",
+    "pet": "seasprout",
+    "slot": 1
+  },
+  "seasprout-3": {
+    "src": "/assets/battle/seasprout-3.mp4?v=fc4df53ebf08",
+    "poster": "/assets/battle/seasprout-3.jpg?v=b15140a4c5e3",
+    "duration": 4.041667,
+    "impactAt": 0.63,
+    "jobId": "10e8fc5c-449a-4026-9ba8-7ac5fb1a89d3",
+    "name": "碧海森羅",
+    "pet": "seasprout",
+    "slot": 2
+  },
+  "mistotter-1": {
+    "src": "/assets/battle/mistotter-1.mp4?v=23ae66379162",
+    "poster": "/assets/battle/mistotter-1.jpg?v=23cb475dd83a",
+    "duration": 4.041667,
+    "impactAt": 0.59,
+    "jobId": "e079f44c-ef26-4dd9-bcf7-aa5ee344b9c2",
+    "name": "霧珠輕彈",
+    "pet": "mistotter",
+    "slot": 0
+  },
+  "mistotter-2": {
+    "src": "/assets/battle/mistotter-2.mp4?v=3056cc6f85bd",
+    "poster": "/assets/battle/mistotter-2.jpg?v=43e70de03b31",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "9754ce52-a70a-4989-a9af-a3392ce8cc9d",
+    "name": "迷航薄霧",
+    "pet": "mistotter",
+    "slot": 1
+  },
+  "mistotter-3": {
+    "src": "/assets/battle/mistotter-3.mp4?v=cf00fe54e179",
+    "poster": "/assets/battle/mistotter-3.jpg?v=edb28dabaee4",
+    "duration": 4.041667,
+    "impactAt": 0.61,
+    "jobId": "76e8489e-d4cd-40d7-bcf2-50f88837a963",
+    "name": "霧海月輪",
+    "pet": "mistotter",
+    "slot": 2
+  },
+  "sailskipper-1": {
+    "src": "/assets/battle/sailskipper-1.mp4?v=2ee6e53b0496",
+    "poster": "/assets/battle/sailskipper-1.jpg?v=685c99394ac1",
+    "duration": 4.041667,
+    "impactAt": 0.52,
+    "jobId": "a7da2c01-2f9d-47db-b2b8-a07e4fe8e268",
+    "name": "帆翼躍踢",
+    "pet": "sailskipper",
+    "slot": 0
+  },
+  "sailskipper-2": {
+    "src": "/assets/battle/sailskipper-2.mp4?v=4accfd122170",
+    "poster": "/assets/battle/sailskipper-2.jpg?v=c868c94ea744",
+    "duration": 4.041667,
+    "impactAt": 0.61,
+    "jobId": "8f113579-b803-43b4-8b01-1ec4f67a1588",
+    "name": "順風鼓帆",
+    "pet": "sailskipper",
+    "slot": 1
+  },
+  "sailskipper-3": {
+    "src": "/assets/battle/sailskipper-3.mp4?v=064bde192bd7",
+    "poster": "/assets/battle/sailskipper-3.jpg?v=5dab325830b1",
+    "duration": 4.041667,
+    "impactAt": 0.72,
+    "jobId": "75494119-83eb-4f17-ab47-397095bf3fe4",
+    "name": "九霄折返",
+    "pet": "sailskipper",
+    "slot": 2
+  },
+  "kelpcub-1": {
+    "src": "/assets/battle/kelpcub-1.mp4?v=2faed5c43d55",
+    "poster": "/assets/battle/kelpcub-1.jpg?v=efd6695a73f7",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "31e1c187-56a1-4647-aa7c-984164494806",
+    "name": "藻結重拳",
+    "pet": "kelpcub",
+    "slot": 0
+  },
+  "kelpcub-2": {
+    "src": "/assets/battle/kelpcub-2.mp4?v=861d56b84e9d",
+    "poster": "/assets/battle/kelpcub-2.jpg?v=1b592b87515a",
+    "duration": 4.041667,
+    "impactAt": 0.53,
+    "jobId": "853830da-8790-4050-a6ba-09ed088ef252",
+    "name": "青藻汲潮",
+    "pet": "kelpcub",
+    "slot": 1
+  },
+  "kelpcub-3": {
+    "src": "/assets/battle/kelpcub-3.mp4?v=45b03f79726c",
+    "poster": "/assets/battle/kelpcub-3.jpg?v=75f8df87e1c8",
+    "duration": 4.041667,
+    "impactAt": 0.65,
+    "jobId": "d1eb7ca0-b42c-43a7-8404-b0da9fe8680b",
+    "name": "巨藻裂浪",
+    "pet": "kelpcub",
+    "slot": 2
+  },
+  "shellmole-1": {
+    "src": "/assets/battle/shellmole-1.mp4?v=4301f17e5631",
+    "poster": "/assets/battle/shellmole-1.jpg?v=a3a654a1a014",
+    "duration": 4.041667,
+    "impactAt": 0.67,
+    "jobId": "95f05cc8-9499-4623-a4c4-bbe2b971cbf7",
+    "name": "鑽貝突刺",
+    "pet": "shellmole",
+    "slot": 0
+  },
+  "shellmole-2": {
+    "src": "/assets/battle/shellmole-2.mp4?v=2cb91e02c8c0",
+    "poster": "/assets/battle/shellmole-2.jpg?v=66d6e4aa7911",
+    "duration": 4.041667,
+    "impactAt": 0.6,
+    "jobId": "9122ecbf-46d5-4081-85a8-67c1d9f84117",
+    "name": "層貝堡壘",
+    "pet": "shellmole",
+    "slot": 1
+  },
+  "shellmole-3": {
+    "src": "/assets/battle/shellmole-3.mp4?v=477fdcecc33a",
+    "poster": "/assets/battle/shellmole-3.jpg?v=44f9594fb852",
+    "duration": 4.041667,
+    "impactAt": 0.58,
+    "jobId": "6648d76f-9ef7-4277-9389-b0b79b0e15ad",
+    "name": "地脈珠湧",
+    "pet": "shellmole",
+    "slot": 2
+  },
+  "starheron-1": {
+    "src": "/assets/battle/starheron-1.mp4?v=100f99b1a957",
+    "poster": "/assets/battle/starheron-1.jpg?v=f46d3f97d9b9",
+    "duration": 4.041667,
+    "impactAt": 0.58,
+    "jobId": "b05f49d7-0c6c-4637-974a-e2210a621984",
+    "name": "汐線點喙",
+    "pet": "starheron",
+    "slot": 0
+  },
+  "starheron-2": {
+    "src": "/assets/battle/starheron-2.mp4?v=be552e0f4738",
+    "poster": "/assets/battle/starheron-2.jpg?v=681eba97e959",
+    "duration": 4.041667,
+    "impactAt": 0.53,
+    "jobId": "031d7645-54ba-4bfc-b2e7-f9d9727334f1",
+    "name": "星距校準",
+    "pet": "starheron",
+    "slot": 1
+  },
+  "starheron-3": {
+    "src": "/assets/battle/starheron-3.mp4?v=3faedf2b5d3b",
+    "poster": "/assets/battle/starheron-3.jpg?v=755fbcebbcb4",
+    "duration": 4.041667,
+    "impactAt": 0.52,
+    "jobId": "f1962b4b-2990-4c3e-959c-2e8d23c42825",
+    "name": "銀河汐箭",
+    "pet": "starheron",
+    "slot": 2
+  },
+  "reefrabbit-1": {
+    "src": "/assets/battle/reefrabbit-1.mp4?v=18ec60a24544",
+    "poster": "/assets/battle/reefrabbit-1.jpg?v=c744efb4b907",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "192cd5da-3ca7-4567-a9f2-d671dd108834",
+    "name": "月灣蹬躍",
+    "pet": "reefrabbit",
+    "slot": 0
+  },
+  "reefrabbit-2": {
+    "src": "/assets/battle/reefrabbit-2.mp4?v=392209e268b7",
+    "poster": "/assets/battle/reefrabbit-2.jpg?v=f7cffc5b44d5",
+    "duration": 4.041667,
+    "impactAt": 0.58,
+    "jobId": "e779b3a2-8ccc-4216-97a7-7527e5cb20b3",
+    "name": "雙月殘影",
+    "pet": "reefrabbit",
+    "slot": 1
+  },
+  "reefrabbit-3": {
+    "src": "/assets/battle/reefrabbit-3.mp4?v=0b0a1d3b41a9",
+    "poster": "/assets/battle/reefrabbit-3.jpg?v=35808ea106f5",
+    "duration": 4.041667,
+    "impactAt": 0.68,
+    "jobId": "fec64d6d-3b5b-4130-83d8-7857501c540a",
+    "name": "月礁天降",
+    "pet": "reefrabbit",
+    "slot": 2
+  },
+  "bubbleyak-1": {
+    "src": "/assets/battle/bubbleyak-1.mp4?v=ae630cdbb6c8",
+    "poster": "/assets/battle/bubbleyak-1.jpg?v=52ab42db6d85",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "c03df20c-50a8-4a56-bbb9-b1341c67a093",
+    "name": "泡角頂浪",
+    "pet": "bubbleyak",
+    "slot": 0
+  },
+  "bubbleyak-2": {
+    "src": "/assets/battle/bubbleyak-2.mp4?v=5046b3670968",
+    "poster": "/assets/battle/bubbleyak-2.jpg?v=3d513d3d2531",
+    "duration": 4.041667,
+    "impactAt": 0.54,
+    "jobId": "a7edcdbe-de42-4bf1-a0c0-93cf63a80946",
+    "name": "浮泡護身",
+    "pet": "bubbleyak",
+    "slot": 1
+  },
+  "bubbleyak-3": {
+    "src": "/assets/battle/bubbleyak-3.mp4?v=3e5c0d3a4919",
+    "poster": "/assets/battle/bubbleyak-3.jpg?v=013909d1bc96",
+    "duration": 4.041667,
+    "impactAt": 0.6,
+    "jobId": "39334744-7399-4f61-93f4-fba842da6632",
+    "name": "萬泡奔雷",
+    "pet": "bubbleyak",
+    "slot": 2
+  },
+  "covegecko-1": {
+    "src": "/assets/battle/covegecko-1.mp4?v=c24a83539fdd",
+    "poster": "/assets/battle/covegecko-1.jpg?v=677bc8d42dda",
+    "duration": 4.041667,
+    "impactAt": 0.58,
+    "jobId": "7ddda7c2-0722-4258-aabe-8821c69a97e1",
+    "name": "灣光甩尾",
+    "pet": "covegecko",
+    "slot": 0
+  },
+  "covegecko-2": {
+    "src": "/assets/battle/covegecko-2.mp4?v=d4b48971a354",
+    "poster": "/assets/battle/covegecko-2.jpg?v=bb43ade49642",
+    "duration": 4.041667,
+    "impactAt": 0.54,
+    "jobId": "57a9d674-140e-4a27-9262-6fb7fc42656b",
+    "name": "光點迷陣",
+    "pet": "covegecko",
+    "slot": 1
+  },
+  "covegecko-3": {
+    "src": "/assets/battle/covegecko-3.mp4?v=23f4fd6bb60f",
+    "poster": "/assets/battle/covegecko-3.jpg?v=2dff79a76a6c",
+    "duration": 4.041667,
+    "impactAt": 0.68,
+    "jobId": "f3d229b2-82cd-46ea-8d27-b93c7e498db7",
+    "name": "碧灣折光陣",
+    "pet": "covegecko",
+    "slot": 2
+  },
+  "cloudsail-1": {
+    "src": "/assets/battle/cloudsail-1.mp4?v=f604cc007ebb",
+    "poster": "/assets/battle/cloudsail-1.jpg?v=685859a7a871",
+    "duration": 4.041667,
+    "impactAt": 0.53,
+    "jobId": "c0080ddd-7322-42f0-a4fa-7c29f75d9598",
+    "name": "帆角風切",
+    "pet": "cloudsail",
+    "slot": 0
+  },
+  "cloudsail-2": {
+    "src": "/assets/battle/cloudsail-2.mp4?v=960d2a55cd55",
+    "poster": "/assets/battle/cloudsail-2.jpg?v=83d381629e96",
+    "duration": 4.041667,
+    "impactAt": 0.5,
+    "jobId": "19a62e74-5639-477b-b3d9-d61c8ec3e434",
+    "name": "雲幕護帆",
+    "pet": "cloudsail",
+    "slot": 1
+  },
+  "cloudsail-3": {
+    "src": "/assets/battle/cloudsail-3.mp4?v=13f6197f689c",
+    "poster": "/assets/battle/cloudsail-3.jpg?v=6a51718c596f",
+    "duration": 4.041667,
+    "impactAt": 0.58,
+    "jobId": "b55052aa-7f81-4371-bae5-239531d2d321",
+    "name": "天穹白帆陣",
+    "pet": "cloudsail",
+    "slot": 2
+  },
+  "moonmanta-1": {
+    "src": "/assets/battle/moonmanta-1.mp4?v=d8d1a1d4c608",
+    "poster": "/assets/battle/moonmanta-1.jpg?v=59763a5c6930",
+    "duration": 4.041667,
+    "impactAt": 0.5,
+    "jobId": "48157ca0-d9a2-4840-8cd4-c62b29cb590d",
+    "name": "月翼掠潮",
+    "pet": "moonmanta",
+    "slot": 0
+  },
+  "moonmanta-2": {
+    "src": "/assets/battle/moonmanta-2.mp4?v=54e761d22d43",
+    "poster": "/assets/battle/moonmanta-2.jpg?v=86736cc9342c",
+    "duration": 4.041667,
+    "impactAt": 0.6,
+    "jobId": "d29b27c8-5dd2-4510-b4fb-a74d6437e82c",
+    "name": "月華回流",
+    "pet": "moonmanta",
+    "slot": 1
+  },
+  "moonmanta-3": {
+    "src": "/assets/battle/moonmanta-3.mp4?v=2ea15656bc02",
+    "poster": "/assets/battle/moonmanta-3.jpg?v=599ad370d136",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "f2023af1-cddd-4e16-9ca0-6e55116d1419",
+    "name": "滿月鏡海",
+    "pet": "moonmanta",
+    "slot": 2
+  },
+  "driftturtle-1": {
+    "src": "/assets/battle/driftturtle-1.mp4?v=c72e48d2f409",
+    "poster": "/assets/battle/driftturtle-1.jpg?v=45c13bc9f5bd",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "4dd61a83-baee-43a1-95c3-40de55b10cab",
+    "name": "航甲衝浪",
+    "pet": "driftturtle",
+    "slot": 0
+  },
+  "driftturtle-2": {
+    "src": "/assets/battle/driftturtle-2.mp4?v=8718359c5e40",
+    "poster": "/assets/battle/driftturtle-2.jpg?v=6619ed940212",
+    "duration": 4.041667,
+    "impactAt": 0.54,
+    "jobId": "6bda1a54-9329-4899-9700-69ee20f6ad44",
+    "name": "定潮錨甲",
+    "pet": "driftturtle",
+    "slot": 1
+  },
+  "driftturtle-3": {
+    "src": "/assets/battle/driftturtle-3.mp4?v=3d459999709e",
+    "poster": "/assets/battle/driftturtle-3.jpg?v=d370e840c507",
+    "duration": 4.041667,
+    "impactAt": 0.46,
+    "jobId": "aec97a22-2d75-4511-b2da-067b1c206b14",
+    "name": "方舟破海",
+    "pet": "driftturtle",
+    "slot": 2
+  },
+  "coralhare-1": {
+    "src": "/assets/battle/coralhare-1.mp4?v=caffc1177a23",
+    "poster": "/assets/battle/coralhare-1.jpg?v=55b45151cfb2",
+    "duration": 4.041667,
+    "impactAt": 0.48,
+    "jobId": "3293541c-27cd-487f-96dd-e3c70b471355",
+    "name": "珊枝飛踢",
+    "pet": "coralhare",
+    "slot": 0
+  },
+  "coralhare-2": {
+    "src": "/assets/battle/coralhare-2.mp4?v=30f207e99619",
+    "poster": "/assets/battle/coralhare-2.jpg?v=5d1cd4d5deac",
+    "duration": 4.041667,
+    "impactAt": 0.68,
+    "jobId": "e5301363-c99e-42e7-a8f0-fe4a6b595309",
+    "name": "枝晶纏印",
+    "pet": "coralhare",
+    "slot": 1
+  },
+  "coralhare-3": {
+    "src": "/assets/battle/coralhare-3.mp4?v=a4efcda228d0",
+    "poster": "/assets/battle/coralhare-3.jpg?v=f10c3412753b",
+    "duration": 4.041667,
+    "impactAt": 0.59,
+    "jobId": "51bfa98b-d4bb-46ee-9518-5f9279e8bd59",
+    "name": "赤珊花嵐",
+    "pet": "coralhare",
+    "slot": 2
+  },
+  "gullwolf-1": {
+    "src": "/assets/battle/gullwolf-1.mp4?v=27e72c3b6e9c",
+    "poster": "/assets/battle/gullwolf-1.jpg?v=d72ddb8d4a26",
+    "duration": 4.041667,
+    "impactAt": 0.58,
+    "jobId": "e6762ce2-42b2-4b5f-a5a1-2e2411b6ffa4",
+    "name": "掠風牙",
+    "pet": "gullwolf",
+    "slot": 0
+  },
+  "gullwolf-2": {
+    "src": "/assets/battle/gullwolf-2.mp4?v=92d782bfeb92",
+    "poster": "/assets/battle/gullwolf-2.jpg?v=6b11e9d7b4db",
+    "duration": 4.041667,
+    "impactAt": 0.48,
+    "jobId": "abafe62c-b200-4777-a69f-448be22f6ce8",
+    "name": "逆風長嘯",
+    "pet": "gullwolf",
+    "slot": 1
+  },
+  "gullwolf-3": {
+    "src": "/assets/battle/gullwolf-3.mp4?v=fc4afdffffb5",
+    "poster": "/assets/battle/gullwolf-3.jpg?v=fb261628c7fc",
+    "duration": 4.041667,
+    "impactAt": 0.59,
+    "jobId": "c0a57246-3245-474e-b8ae-aceaa034808a",
+    "name": "蒼風群影",
+    "pet": "gullwolf",
+    "slot": 2
+  },
+  "pearlbadger-1": {
+    "src": "/assets/battle/pearlbadger-1.mp4?v=1ed862933e03",
+    "poster": "/assets/battle/pearlbadger-1.jpg?v=86ba0f542c2e",
+    "duration": 4.041667,
+    "impactAt": 0.4,
+    "jobId": "434817dc-3078-433c-80f1-1fca53945d44",
+    "name": "珠爪鑿擊",
+    "pet": "pearlbadger",
+    "slot": 0
+  },
+  "pearlbadger-2": {
+    "src": "/assets/battle/pearlbadger-2.mp4?v=803b3afdb64c",
+    "poster": "/assets/battle/pearlbadger-2.jpg?v=bd1ea861e8d1",
+    "duration": 4.041667,
+    "impactAt": 0.46,
+    "jobId": "0ff92d8b-5d65-43db-a9a0-c53219a61d97",
+    "name": "貫珠直衝",
+    "pet": "pearlbadger",
+    "slot": 1
+  },
+  "pearlbadger-3": {
+    "src": "/assets/battle/pearlbadger-3.mp4?v=9e50f3aa8bc0",
+    "poster": "/assets/battle/pearlbadger-3.jpg?v=a5bd6f35eea5",
+    "duration": 4.041667,
+    "impactAt": 0.54,
+    "jobId": "c67cae9d-0a95-4edc-bf1f-7c58ebd3e253",
+    "name": "萬珠轟潮",
+    "pet": "pearlbadger",
+    "slot": 2
+  },
+  "rainseal-1": {
+    "src": "/assets/battle/rainseal-1.mp4?v=2b8ead5ceac7",
+    "poster": "/assets/battle/rainseal-1.jpg?v=78bcc4afaa23",
+    "duration": 4.041667,
+    "impactAt": 0.5,
+    "jobId": "c79931ac-fd43-49d6-b324-9ca66932c7f3",
+    "name": "雨紋水拍",
+    "pet": "rainseal",
+    "slot": 0
+  },
+  "rainseal-2": {
+    "src": "/assets/battle/rainseal-2.mp4?v=7630bb41c581",
+    "poster": "/assets/battle/rainseal-2.jpg?v=9bfe80cbc5f8",
+    "duration": 4.041667,
+    "impactAt": 0.56,
+    "jobId": "09a316fe-657a-48a6-8973-1ff8aaa4d9cc",
+    "name": "甘霖清唱",
+    "pet": "rainseal",
+    "slot": 1
+  },
+  "rainseal-3": {
+    "src": "/assets/battle/rainseal-3.mp4?v=9aef8607db02",
+    "poster": "/assets/battle/rainseal-3.jpg?v=b7d215aca02e",
+    "duration": 4.041667,
+    "impactAt": 0.52,
+    "jobId": "0513fa27-30c7-418b-a162-f638f731b407",
+    "name": "天河驟雨",
+    "pet": "rainseal",
+    "slot": 2
+  },
+  "compasscrab-1": {
+    "src": "/assets/battle/compasscrab-1.mp4?v=bcd2e0d33f2e",
+    "poster": "/assets/battle/compasscrab-1.jpg?v=231beb90542c",
+    "duration": 4.041667,
+    "impactAt": 0.44,
+    "jobId": "d9cc4ad9-8ffa-4628-b899-78925c08c5b6",
+    "name": "指針鉗擊",
+    "pet": "compasscrab",
+    "slot": 0
+  },
+  "compasscrab-2": {
+    "src": "/assets/battle/compasscrab-2.mp4?v=056871a094f4",
+    "poster": "/assets/battle/compasscrab-2.jpg?v=489170ccb635",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "a8dbb10e-e25e-446e-b190-0e9ed781a669",
+    "name": "北辰鎖定",
+    "pet": "compasscrab",
+    "slot": 1
+  },
+  "compasscrab-3": {
+    "src": "/assets/battle/compasscrab-3.mp4?v=ac09931ea74b",
+    "poster": "/assets/battle/compasscrab-3.jpg?v=73a071ed050b",
+    "duration": 4.041667,
+    "impactAt": 0.71,
+    "jobId": "10b4b59c-5df3-4840-a9c7-d2d51cfba795",
+    "name": "八方星羅",
+    "pet": "compasscrab",
+    "slot": 2
+  },
+  "cloudfinch-1": {
+    "src": "/assets/battle/cloudfinch-1.mp4?v=70ad46d414f4",
+    "poster": "/assets/battle/cloudfinch-1.jpg?v=22136ed246f4",
+    "duration": 4.041667,
+    "impactAt": 0.56,
+    "jobId": "17b412b9-1ec7-4123-96d6-f2f46da14add",
+    "name": "雲羽快啄",
+    "pet": "cloudfinch",
+    "slot": 0
+  },
+  "cloudfinch-2": {
+    "src": "/assets/battle/cloudfinch-2.mp4?v=b177c54fa9b4",
+    "poster": "/assets/battle/cloudfinch-2.jpg?v=31fc8e5cf267",
+    "duration": 4.041667,
+    "impactAt": 0.4,
+    "jobId": "cee191ad-631e-4d5c-a93a-2086596d7311",
+    "name": "乘風展翅",
+    "pet": "cloudfinch",
+    "slot": 1
+  },
+  "cloudfinch-3": {
+    "src": "/assets/battle/cloudfinch-3.mp4?v=188712947e4d",
+    "poster": "/assets/battle/cloudfinch-3.jpg?v=a57cb6b0711b",
+    "duration": 4.041667,
+    "impactAt": 0.54,
+    "jobId": "609f0f35-3af4-4069-8e0f-5478367220b3",
+    "name": "百羽天旋",
+    "pet": "cloudfinch",
+    "slot": 2
+  },
+  "tidellama-1": {
+    "src": "/assets/battle/tidellama-1.mp4?v=fcdc9f9baa05",
+    "poster": "/assets/battle/tidellama-1.jpg?v=d78738f9e0f3",
+    "duration": 4.041667,
+    "impactAt": 0.45,
+    "jobId": "96cc0666-5f3b-4837-b107-35f2ac31ff25",
+    "name": "潮角推波",
+    "pet": "tidellama",
+    "slot": 0
+  },
+  "tidellama-2": {
+    "src": "/assets/battle/tidellama-2.mp4?v=b931f148aa1b",
+    "poster": "/assets/battle/tidellama-2.jpg?v=b4f481ae737d",
+    "duration": 4.041667,
+    "impactAt": 0.56,
+    "jobId": "f49c5a04-333d-4ad5-b324-78b1e7e2b693",
+    "name": "潮差回擺",
+    "pet": "tidellama",
+    "slot": 1
+  },
+  "tidellama-3": {
+    "src": "/assets/battle/tidellama-3.mp4?v=c5de95b58b16",
+    "poster": "/assets/battle/tidellama-3.jpg?v=6a4071087228",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "58eb53f6-2a9b-4042-8481-e34d111031ee",
+    "name": "雙潮交響",
+    "pet": "tidellama",
+    "slot": 2
+  },
+  "coralflare-1": {
+    "src": "/assets/battle/coralflare-1.mp4?v=7d9e57c2c61f",
+    "poster": "/assets/battle/coralflare-1.jpg?v=9105cb798210",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "6934a9fe-e06f-42b1-9642-158bae58c800",
+    "name": "珊焰濺射",
+    "pet": "coralflare",
+    "slot": 0
+  },
+  "coralflare-2": {
+    "src": "/assets/battle/coralflare-2.mp4?v=cb17ae51c523",
+    "poster": "/assets/battle/coralflare-2.jpg?v=1c0a08ff27e8",
+    "duration": 4.041667,
+    "impactAt": 0.59,
+    "jobId": "dbe63f07-66e4-4ffe-a8a2-b258d7aa5d13",
+    "name": "熾潮渦流",
+    "pet": "coralflare",
+    "slot": 1
+  },
+  "coralflare-3": {
+    "src": "/assets/battle/coralflare-3.mp4?v=a0cddc47bfaf",
+    "poster": "/assets/battle/coralflare-3.jpg?v=e30f8bf53700",
+    "duration": 4.041667,
+    "impactAt": 0.64,
+    "jobId": "50285493-8de4-4294-bbfc-2bae01c589dc",
+    "name": "熔珊星瀑",
+    "pet": "coralflare",
+    "slot": 2
+  },
+  "lanternlynx-1": {
+    "src": "/assets/battle/lanternlynx-1.mp4?v=8234b2eaf73a",
+    "poster": "/assets/battle/lanternlynx-1.jpg?v=061c92f07bcf",
+    "duration": 4.041667,
+    "impactAt": 0.47,
+    "jobId": "9916c710-03f7-4c41-9d5e-bf5c65fc62fb",
+    "name": "燈爪閃擊",
+    "pet": "lanternlynx",
+    "slot": 0
+  },
+  "lanternlynx-2": {
+    "src": "/assets/battle/lanternlynx-2.mp4?v=3073808fa1b2",
+    "poster": "/assets/battle/lanternlynx-2.jpg?v=8e661a03f499",
+    "duration": 4.041667,
+    "impactAt": 0.76,
+    "jobId": "0a597099-de78-4c64-9c6e-06f2b5166ea2",
+    "name": "引燈追影",
+    "pet": "lanternlynx",
+    "slot": 1
+  },
+  "lanternlynx-3": {
+    "src": "/assets/battle/lanternlynx-3.mp4?v=4422662586b1",
+    "poster": "/assets/battle/lanternlynx-3.jpg?v=19c0f63cb19f",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "f1954ebe-a266-4c84-9695-485d9441af93",
+    "name": "千燈夜巡",
+    "pet": "lanternlynx",
+    "slot": 2
+  },
+  "currentowl-1": {
+    "src": "/assets/battle/currentowl-1.mp4?v=487ff1f2b707",
+    "poster": "/assets/battle/currentowl-1.jpg?v=3b99b5f8297a",
+    "duration": 4.041667,
+    "impactAt": 0.52,
+    "jobId": "4b7bff2e-600d-4c2e-9bdb-cc1f69ef6950",
+    "name": "流羽斜切",
+    "pet": "currentowl",
+    "slot": 0
+  },
+  "currentowl-2": {
+    "src": "/assets/battle/currentowl-2.mp4?v=4933d02a9c9c",
+    "poster": "/assets/battle/currentowl-2.jpg?v=587c4ae32504",
+    "duration": 4.041667,
+    "impactAt": 0.53,
+    "jobId": "3208c243-3cbf-4c21-b3e2-0f3259dbda92",
+    "name": "逆流迴旋",
+    "pet": "currentowl",
+    "slot": 1
+  },
+  "currentowl-3": {
+    "src": "/assets/battle/currentowl-3.mp4?v=2e01e418f36c",
+    "poster": "/assets/battle/currentowl-3.jpg?v=8a5dbcfbbe9b",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "aed849d4-91e9-4bab-9b09-f7474b966088",
+    "name": "萬流歸翼",
+    "pet": "currentowl",
+    "slot": 2
+  },
+  "seaglasspanda-1": {
+    "src": "/assets/battle/seaglasspanda-1.mp4?v=5acce3cd68e2",
+    "poster": "/assets/battle/seaglasspanda-1.jpg?v=907891518a79",
+    "duration": 4.041667,
+    "impactAt": 0.48,
+    "jobId": "d3c35f2d-a374-4953-a9ee-f17e8f89ee07",
+    "name": "璃掌震波",
+    "pet": "seaglasspanda",
+    "slot": 0
+  },
+  "seaglasspanda-2": {
+    "src": "/assets/battle/seaglasspanda-2.mp4?v=3cde7c03831f",
+    "poster": "/assets/battle/seaglasspanda-2.jpg?v=5401d7d40d94",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "87f94a38-b7bd-4c9e-bdce-7aab3aa11cde",
+    "name": "海璃方陣",
+    "pet": "seaglasspanda",
+    "slot": 1
+  },
+  "seaglasspanda-3": {
+    "src": "/assets/battle/seaglasspanda-3.mp4?v=705e5c24268d",
+    "poster": "/assets/battle/seaglasspanda-3.jpg?v=4aed61105d56",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "209b1a31-aac7-4deb-9305-96e662d9ba0d",
+    "name": "晶海萬花",
+    "pet": "seaglasspanda",
+    "slot": 2
+  },
+  "cyclonedolphin-1": {
+    "src": "/assets/battle/cyclonedolphin-1.mp4?v=bd7a57779173",
+    "poster": "/assets/battle/cyclonedolphin-1.jpg?v=b7859a79051e",
+    "duration": 4.041667,
+    "impactAt": 0.56,
+    "jobId": "eb219b93-e361-4a28-9bb0-891b1996f3b7",
+    "name": "旋鰭切浪",
+    "pet": "cyclonedolphin",
+    "slot": 0
+  },
+  "cyclonedolphin-2": {
+    "src": "/assets/battle/cyclonedolphin-2.mp4?v=1ecbec721e91",
+    "poster": "/assets/battle/cyclonedolphin-2.jpg?v=34b156d3dbd4",
+    "duration": 4.041667,
+    "impactAt": 0.54,
+    "jobId": "3163166f-b012-4b7a-a2b1-787ad2149bf7",
+    "name": "環流加速",
+    "pet": "cyclonedolphin",
+    "slot": 1
+  },
+  "cyclonedolphin-3": {
+    "src": "/assets/battle/cyclonedolphin-3.mp4?v=56bed9e151a7",
+    "poster": "/assets/battle/cyclonedolphin-3.jpg?v=c35c9b25e745",
+    "duration": 4.041667,
+    "impactAt": 0.65,
+    "jobId": "74e95162-3b30-4378-abe6-bb8957f34cee",
+    "name": "颶潮龍捲",
+    "pet": "cyclonedolphin",
+    "slot": 2
+  },
+  "sunkenram-1": {
+    "src": "/assets/battle/sunkenram-1.mp4?v=cf39a0b50c3e",
+    "poster": "/assets/battle/sunkenram-1.jpg?v=805ddc58171b",
+    "duration": 4.041667,
+    "impactAt": 0.6,
+    "jobId": "0284bfe8-5e85-4d7c-88f7-01417db7e95d",
+    "name": "沉角星撞",
+    "pet": "sunkenram",
+    "slot": 0
+  },
+  "sunkenram-2": {
+    "src": "/assets/battle/sunkenram-2.mp4?v=017d67b2acb9",
+    "poster": "/assets/battle/sunkenram-2.jpg?v=76902f5ad80c",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "a60d25e9-8d1c-484b-b623-6300e4f364e1",
+    "name": "重星壓陣",
+    "pet": "sunkenram",
+    "slot": 1
+  },
+  "sunkenram-3": {
+    "src": "/assets/battle/sunkenram-3.mp4?v=8cdd751aeea6",
+    "poster": "/assets/battle/sunkenram-3.jpg?v=7c75b3743ebc",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "9a77ab45-47e3-418f-99c5-c2712dd08675",
+    "name": "群星墜脈",
+    "pet": "sunkenram",
+    "slot": 2
+  },
+  "reefgryphon-1": {
+    "src": "/assets/battle/reefgryphon-1.mp4?v=05301303e3d5",
+    "poster": "/assets/battle/reefgryphon-1.jpg?v=62a25c82bf61",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "32f36497-bb35-495e-a837-9774c22f5881",
+    "name": "礁翼俯爪",
+    "pet": "reefgryphon",
+    "slot": 0
+  },
+  "reefgryphon-2": {
+    "src": "/assets/battle/reefgryphon-2.mp4?v=19cb4a221a79",
+    "poster": "/assets/battle/reefgryphon-2.jpg?v=4eae8ee8f412",
+    "duration": 4.041667,
+    "impactAt": 0.48,
+    "jobId": "e76e1ab7-7b7c-402f-b068-3a5ca3062f3c",
+    "name": "雙翼破幕",
+    "pet": "reefgryphon",
+    "slot": 1
+  },
+  "reefgryphon-3": {
+    "src": "/assets/battle/reefgryphon-3.mp4?v=4dd1258c2ed4",
+    "poster": "/assets/battle/reefgryphon-3.jpg?v=4dde4673b6f9",
+    "duration": 4.041667,
+    "impactAt": 0.59,
+    "jobId": "1318a95b-3b60-4616-994d-d59a01cde009",
+    "name": "海天獅鷲落",
+    "pet": "reefgryphon",
+    "slot": 2
+  },
+  "echojelly-1": {
+    "src": "/assets/battle/echojelly-1.mp4?v=931015ce6383",
+    "poster": "/assets/battle/echojelly-1.jpg?v=4f00cbaca0b3",
+    "duration": 4.041667,
+    "impactAt": 0.56,
+    "jobId": "18256c6d-212f-473d-a8be-5f489ed90aae",
+    "name": "音波觸擊",
+    "pet": "echojelly",
+    "slot": 0
+  },
+  "echojelly-2": {
+    "src": "/assets/battle/echojelly-2.mp4?v=8e0ba3661826",
+    "poster": "/assets/battle/echojelly-2.jpg?v=1cc70caec3c2",
+    "duration": 4.041667,
+    "impactAt": 0.48,
+    "jobId": "f9ec0ce6-2496-4feb-abf5-cbdad2e240d0",
+    "name": "回聲疊浪",
+    "pet": "echojelly",
+    "slot": 1
+  },
+  "echojelly-3": {
+    "src": "/assets/battle/echojelly-3.mp4?v=40832356bd83",
+    "poster": "/assets/battle/echojelly-3.jpg?v=0ea86b59ab0f",
+    "duration": 4.041667,
+    "impactAt": 0.57,
+    "jobId": "72865d63-e06c-4cce-b573-b8c42e42007d",
+    "name": "千層共鳴",
+    "pet": "echojelly",
+    "slot": 2
+  },
+  "aurorawolf-1": {
+    "src": "/assets/battle/aurorawolf-1.mp4?v=102f1683756d",
+    "poster": "/assets/battle/aurorawolf-1.jpg?v=01d0371606ac",
+    "duration": 4.041667,
+    "impactAt": 0.5,
+    "jobId": "dc920550-dac0-4eaa-91f6-09d57346cb3b",
+    "name": "極光裂爪",
+    "pet": "aurorawolf",
+    "slot": 0
+  },
+  "aurorawolf-2": {
+    "src": "/assets/battle/aurorawolf-2.mp4?v=0b55314c50fc",
+    "poster": "/assets/battle/aurorawolf-2.jpg?v=fb5e2572caa6",
+    "duration": 4.041667,
+    "impactAt": 0.64,
+    "jobId": "34b89c08-845c-4a2f-aac7-37736b046abd",
+    "name": "追光疾行",
+    "pet": "aurorawolf",
+    "slot": 1
+  },
+  "aurorawolf-3": {
+    "src": "/assets/battle/aurorawolf-3.mp4?v=932fa3ff36be",
+    "poster": "/assets/battle/aurorawolf-3.jpg?v=9fa1f8822f69",
+    "duration": 4.041667,
+    "impactAt": 0.48,
+    "jobId": "e49b3b9e-9423-49d3-a680-37b969672f31",
+    "name": "極夜破曉",
+    "pet": "aurorawolf",
+    "slot": 2
+  },
+  "stormibis-1": {
+    "src": "/assets/battle/stormibis-1.mp4?v=352abb18a95b",
+    "poster": "/assets/battle/stormibis-1.jpg?v=92114c899abb",
+    "duration": 4.041667,
+    "impactAt": 0.44,
+    "jobId": "de40dedd-72e6-4d8c-91c3-c75b1c305625",
+    "name": "霧電穿喙",
+    "pet": "stormibis",
+    "slot": 0
+  },
+  "stormibis-2": {
+    "src": "/assets/battle/stormibis-2.mp4?v=5ff99fb0129a",
+    "poster": "/assets/battle/stormibis-2.jpg?v=16d437c39dde",
+    "duration": 4.041667,
+    "impactAt": 0.64,
+    "jobId": "304f1d8c-6875-4cfb-b2ab-cbefdc3bca27",
+    "name": "雷羽麻流",
+    "pet": "stormibis",
+    "slot": 1
+  },
+  "stormibis-3": {
+    "src": "/assets/battle/stormibis-3.mp4?v=40ebc73402f3",
+    "poster": "/assets/battle/stormibis-3.jpg?v=e08c0457777f",
+    "duration": 4.041667,
+    "impactAt": 0.63,
+    "jobId": "a5d00a32-0892-4405-8f24-93aa0f0295e6",
+    "name": "霹靂天穹",
+    "pet": "stormibis",
+    "slot": 2
+  },
+  "mapleopard-1": {
+    "src": "/assets/battle/mapleopard-1.mp4?v=4b69be89e141",
+    "poster": "/assets/battle/mapleopard-1.jpg?v=ae3bf43cfa5b",
+    "duration": 4.041667,
+    "impactAt": 0.6,
+    "jobId": "9c11f8e6-3f58-4872-ad76-a8aa63ca9562",
+    "name": "航線躍爪",
+    "pet": "mapleopard",
+    "slot": 0
+  },
+  "mapleopard-2": {
+    "src": "/assets/battle/mapleopard-2.mp4?v=ed7e897be93a",
+    "poster": "/assets/battle/mapleopard-2.jpg?v=fcb3e1aea8ef",
+    "duration": 4.041667,
+    "impactAt": 0.56,
+    "jobId": "0b5eafe0-13b5-4e37-8dc1-ab246f5feb32",
+    "name": "星圖追獵",
+    "pet": "mapleopard",
+    "slot": 1
+  },
+  "mapleopard-3": {
+    "src": "/assets/battle/mapleopard-3.mp4?v=9747e7a60d8a",
+    "poster": "/assets/battle/mapleopard-3.jpg?v=01fdaa58da82",
+    "duration": 4.041667,
+    "impactAt": 0.77,
+    "jobId": "e8d4fc0f-1cbc-47a6-854e-3950361cf784",
+    "name": "七曜追星",
+    "pet": "mapleopard",
+    "slot": 2
+  },
+  "tideserpent-1": {
+    "src": "/assets/battle/tideserpent-1.mp4?v=d59e21316205",
+    "poster": "/assets/battle/tideserpent-1.jpg?v=3c4659ae48fa",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "3b324a08-b87a-4670-a089-fd52235fb217",
+    "name": "環尾浪刃",
+    "pet": "tideserpent",
+    "slot": 0
+  },
+  "tideserpent-2": {
+    "src": "/assets/battle/tideserpent-2.mp4?v=f54336a0fe8f",
+    "poster": "/assets/battle/tideserpent-2.jpg?v=918e1e2e2435",
+    "duration": 4.041667,
+    "impactAt": 0.54,
+    "jobId": "65d1b171-9a59-4619-9bb4-f29b1e6fd11d",
+    "name": "迴潮汲環",
+    "pet": "tideserpent",
+    "slot": 1
+  },
+  "tideserpent-3": {
+    "src": "/assets/battle/tideserpent-3.mp4?v=d4d3210c0c76",
+    "poster": "/assets/battle/tideserpent-3.jpg?v=58df32320c61",
+    "duration": 4.041667,
+    "impactAt": 0.64,
+    "jobId": "da0e8db2-4926-43fe-be42-1337b2e0713c",
+    "name": "九環鎖海",
+    "pet": "tideserpent",
+    "slot": 2
+  },
+  "prismorca-1": {
+    "src": "/assets/battle/prismorca-1.mp4?v=6342a31f4f39",
+    "poster": "/assets/battle/prismorca-1.jpg?v=6d4ff3dd70c1",
+    "duration": 4.041667,
+    "impactAt": 0.63,
+    "jobId": "90e73756-c9b9-4e2a-bad3-59014b7ab60e",
+    "name": "稜鰭光刃",
+    "pet": "prismorca",
+    "slot": 0
+  },
+  "prismorca-2": {
+    "src": "/assets/battle/prismorca-2.mp4?v=52646052a7ad",
+    "poster": "/assets/battle/prismorca-2.jpg?v=c27ceb9f08ce",
+    "duration": 4.041667,
+    "impactAt": 0.49,
+    "jobId": "9b5fb15b-7811-4b5f-8a64-2e5c46d0a023",
+    "name": "折光穿浪",
+    "pet": "prismorca",
+    "slot": 1
+  },
+  "prismorca-3": {
+    "src": "/assets/battle/prismorca-3.mp4?v=731d7bdd2546",
+    "poster": "/assets/battle/prismorca-3.jpg?v=659a9ba5f595",
+    "duration": 4.041667,
+    "impactAt": 0.58,
+    "jobId": "3101c316-51ed-43f4-8760-033b5b399b5a",
+    "name": "七彩破海柱",
+    "pet": "prismorca",
+    "slot": 2
+  },
+  "cometcrane-1": {
+    "src": "/assets/battle/cometcrane-1.mp4?v=60c115fe0747",
+    "poster": "/assets/battle/cometcrane-1.jpg?v=35d5b6522509",
+    "duration": 4.041667,
+    "impactAt": 0.51,
+    "jobId": "ed1add57-dfe2-49df-aabb-b9ce2c478d3c",
+    "name": "彗羽點擊",
+    "pet": "cometcrane",
+    "slot": 0
+  },
+  "cometcrane-2": {
+    "src": "/assets/battle/cometcrane-2.mp4?v=c71d3bf76747",
+    "poster": "/assets/battle/cometcrane-2.jpg?v=6d8345f84b2e",
+    "duration": 4.041667,
+    "impactAt": 0.58,
+    "jobId": "b970f787-d9d1-4d93-a5ee-99338ad173c4",
+    "name": "星帆蓄勢",
+    "pet": "cometcrane",
+    "slot": 1
+  },
+  "cometcrane-3": {
+    "src": "/assets/battle/cometcrane-3.mp4?v=401a53c426a6",
+    "poster": "/assets/battle/cometcrane-3.jpg?v=5271e3270ea5",
+    "duration": 4.041667,
+    "impactAt": 0.7,
+    "jobId": "4038dfd8-4b9d-44d2-bd3b-8ea2a1cfffdd",
+    "name": "長夜彗落",
+    "pet": "cometcrane",
+    "slot": 2
+  },
+  "crystalboar-1": {
+    "src": "/assets/battle/crystalboar-1.mp4?v=50dd6259f2ae",
+    "poster": "/assets/battle/crystalboar-1.jpg?v=3cae06c80d6e",
+    "duration": 4.041667,
+    "impactAt": 0.48,
+    "jobId": "51236a3a-84ab-4201-adbe-9ed79fda47a2",
+    "name": "晶牙突進",
+    "pet": "crystalboar",
+    "slot": 0
+  },
+  "crystalboar-2": {
+    "src": "/assets/battle/crystalboar-2.mp4?v=8b41e2b3fa36",
+    "poster": "/assets/battle/crystalboar-2.jpg?v=22d850fc4825",
+    "duration": 4.041667,
+    "impactAt": 0.49,
+    "jobId": "55842ec1-7502-4590-9d57-11b045b84eca",
+    "name": "破甲晶震",
+    "pet": "crystalboar",
+    "slot": 1
+  },
+  "crystalboar-3": {
+    "src": "/assets/battle/crystalboar-3.mp4?v=286f7a6082d5",
+    "poster": "/assets/battle/crystalboar-3.jpg?v=f235910860cc",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "80c34989-2967-4689-84f6-978e442e8f3e",
+    "name": "萬晶山崩",
+    "pet": "crystalboar",
+    "slot": 2
+  },
+  "nebulafox-1": {
+    "src": "/assets/battle/nebulafox-1.mp4?v=826d8967a020",
+    "poster": "/assets/battle/nebulafox-1.jpg?v=4e365464ee76",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "5943d948-b5de-4bc5-88b8-4f01f4fb7e68",
+    "name": "霧星狐火",
+    "pet": "nebulafox",
+    "slot": 0
+  },
+  "nebulafox-2": {
+    "src": "/assets/battle/nebulafox-2.mp4?v=af3d028edd3d",
+    "poster": "/assets/battle/nebulafox-2.jpg?v=bc61d0eb7bfe",
+    "duration": 4.041667,
+    "impactAt": 0.48,
+    "jobId": "84804c3d-0c25-461c-ae25-d637c6623de9",
+    "name": "幻星迷蹤",
+    "pet": "nebulafox",
+    "slot": 1
+  },
+  "nebulafox-3": {
+    "src": "/assets/battle/nebulafox-3.mp4?v=e62d736e05a9",
+    "poster": "/assets/battle/nebulafox-3.jpg?v=dd0a02ce2a85",
+    "duration": 4.041667,
+    "impactAt": 0.64,
+    "jobId": "5928a7f6-b672-4bfc-83f8-5bedfcbcbf3a",
+    "name": "九霄星幻",
+    "pet": "nebulafox",
+    "slot": 2
+  },
+  "atlaswhale-1": {
+    "src": "/assets/battle/atlaswhale-1.mp4?v=8a1ea03c301a",
+    "poster": "/assets/battle/atlaswhale-1.jpg?v=d156e9d47da7",
+    "duration": 4.041667,
+    "impactAt": 0.6,
+    "jobId": "c15b9fe0-f74b-4d41-985f-72cd3a2f4ded",
+    "name": "天圖波束",
+    "pet": "atlaswhale",
+    "slot": 0
+  },
+  "atlaswhale-2": {
+    "src": "/assets/battle/atlaswhale-2.mp4?v=3e20f2a70309",
+    "poster": "/assets/battle/atlaswhale-2.jpg?v=bc51bef15f80",
+    "duration": 4.041667,
+    "impactAt": 0.64,
+    "jobId": "e5fa438b-52c1-4166-ab06-60025f0fcfaa",
+    "name": "銀線星標",
+    "pet": "atlaswhale",
+    "slot": 1
+  },
+  "atlaswhale-3": {
+    "src": "/assets/battle/atlaswhale-3.mp4?v=c9205b5adac6",
+    "poster": "/assets/battle/atlaswhale-3.jpg?v=de3c413e58d1",
+    "duration": 4.041667,
+    "impactAt": 0.63,
+    "jobId": "40b82249-1371-4067-8805-30fe80b352d3",
+    "name": "蒼海天圖卷",
+    "pet": "atlaswhale",
+    "slot": 2
+  },
+  "opalgriffin-1": {
+    "src": "/assets/battle/opalgriffin-1.mp4?v=b45594765bbc",
+    "poster": "/assets/battle/opalgriffin-1.jpg?v=02430616933d",
+    "duration": 4.041667,
+    "impactAt": 0.57,
+    "jobId": "17ae29a7-b151-4ced-a09f-9e46f837ceb0",
+    "name": "歐泊翼刃",
+    "pet": "opalgriffin",
+    "slot": 0
+  },
+  "opalgriffin-2": {
+    "src": "/assets/battle/opalgriffin-2.mp4?v=d05cf357748e",
+    "poster": "/assets/battle/opalgriffin-2.jpg?v=640bd2f537fb",
+    "duration": 4.041667,
+    "impactAt": 0.5,
+    "jobId": "722a4e9d-bf2c-4c5d-9849-3b1315d455fc",
+    "name": "鏡羽守護",
+    "pet": "opalgriffin",
+    "slot": 1
+  },
+  "opalgriffin-3": {
+    "src": "/assets/battle/opalgriffin-3.mp4?v=3a67d898a444",
+    "poster": "/assets/battle/opalgriffin-3.jpg?v=76ca57940fd1",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "baf43520-6eb0-42af-ade1-66dd873d0d67",
+    "name": "虹翼審光",
+    "pet": "opalgriffin",
+    "slot": 2
+  },
+  "solaraxolotl-1": {
+    "src": "/assets/battle/solaraxolotl-1.mp4?v=7e0000cd99c1",
+    "poster": "/assets/battle/solaraxolotl-1.jpg?v=b5e432c9837a",
+    "duration": 4.041667,
+    "impactAt": 0.52,
+    "jobId": "e85b6ab3-7110-4a47-860f-7803bf542763",
+    "name": "曙光泡彈",
+    "pet": "solaraxolotl",
+    "slot": 0
+  },
+  "solaraxolotl-2": {
+    "src": "/assets/battle/solaraxolotl-2.mp4?v=ec118e1e4b47",
+    "poster": "/assets/battle/solaraxolotl-2.jpg?v=6a8286203c79",
+    "duration": 4.041667,
+    "impactAt": 0.59,
+    "jobId": "bf1e8b9e-64bf-4242-a61d-f7359b6bfe4d",
+    "name": "晨曦再生",
+    "pet": "solaraxolotl",
+    "slot": 1
+  },
+  "solaraxolotl-3": {
+    "src": "/assets/battle/solaraxolotl-3.mp4?v=9f780c126889",
+    "poster": "/assets/battle/solaraxolotl-3.jpg?v=d9a60fef5b9f",
+    "duration": 4.041667,
+    "impactAt": 0.72,
+    "jobId": "0ca45e5d-292a-4376-993a-f8aea3c68857",
+    "name": "六芒朝陽",
+    "pet": "solaraxolotl",
+    "slot": 2
+  },
+  "meridiantiger-1": {
+    "src": "/assets/battle/meridiantiger-1.mp4?v=dc955a95e18e",
+    "poster": "/assets/battle/meridiantiger-1.jpg?v=1e10b766242f",
+    "duration": 4.041667,
+    "impactAt": 0.49,
+    "jobId": "a9bc233c-ea6c-402a-95b6-121113128322",
+    "name": "緯線虎爪",
+    "pet": "meridiantiger",
+    "slot": 0
+  },
+  "meridiantiger-2": {
+    "src": "/assets/battle/meridiantiger-2.mp4?v=04a6e55e5eea",
+    "poster": "/assets/battle/meridiantiger-2.jpg?v=2276621ef91f",
+    "duration": 4.041667,
+    "impactAt": 0.61,
+    "jobId": "431fd1e1-764b-4def-b81f-760d27e6686a",
+    "name": "經線破陣",
+    "pet": "meridiantiger",
+    "slot": 1
+  },
+  "meridiantiger-3": {
+    "src": "/assets/battle/meridiantiger-3.mp4?v=22e897c253f9",
+    "poster": "/assets/battle/meridiantiger-3.jpg?v=09b745c85987",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "60792b86-f707-4e29-84ea-64e5dca29324",
+    "name": "天地縱橫",
+    "pet": "meridiantiger",
+    "slot": 2
+  },
+  "aurorakirin-1": {
+    "src": "/assets/battle/aurorakirin-1.mp4?v=2a7cb793f2c7",
+    "poster": "/assets/battle/aurorakirin-1.jpg?v=e5594a9e1a7d",
+    "duration": 4.041667,
+    "impactAt": 0.54,
+    "jobId": "2e34c1fe-dfb2-4027-94f2-a754602c496f",
+    "name": "極光踏蹄",
+    "pet": "aurorakirin",
+    "slot": 0
+  },
+  "aurorakirin-2": {
+    "src": "/assets/battle/aurorakirin-2.mp4?v=6da7dc1a26f5",
+    "poster": "/assets/battle/aurorakirin-2.jpg?v=6ee370f1dd90",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "5597205d-36ab-43e8-9faf-76a598ae62fe",
+    "name": "霓鬃淨息",
+    "pet": "aurorakirin",
+    "slot": 1
+  },
+  "aurorakirin-3": {
+    "src": "/assets/battle/aurorakirin-3.mp4?v=60b169633873",
+    "poster": "/assets/battle/aurorakirin-3.jpg?v=f354500b3450",
+    "duration": 4.041667,
+    "impactAt": 0.63,
+    "jobId": "6e298c3a-a52f-4a71-a409-e0507495acdc",
+    "name": "萬里極航",
+    "pet": "aurorakirin",
+    "slot": 2
+  },
+  "eclipseowl-1": {
+    "src": "/assets/battle/eclipseowl-1.mp4?v=20192d621773",
+    "poster": "/assets/battle/eclipseowl-1.jpg?v=b5a67eae85ee",
+    "duration": 4.041667,
+    "impactAt": 0.61,
+    "jobId": "2e4d2c1e-7e1a-4006-b5f3-cf009387c32d",
+    "name": "蝕月羽刺",
+    "pet": "eclipseowl",
+    "slot": 0
+  },
+  "eclipseowl-2": {
+    "src": "/assets/battle/eclipseowl-2.mp4?v=de73a60b9aa6",
+    "poster": "/assets/battle/eclipseowl-2.jpg?v=6021b770d555",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "55dbca9f-d7d9-4d98-a5c8-8814a9c8aa28",
+    "name": "環蝕汲光",
+    "pet": "eclipseowl",
+    "slot": 1
+  },
+  "eclipseowl-3": {
+    "src": "/assets/battle/eclipseowl-3.mp4?v=33cc51e5f512",
+    "poster": "/assets/battle/eclipseowl-3.jpg?v=6c597dd0a350",
+    "duration": 4.041667,
+    "impactAt": 0.56,
+    "jobId": "255393d1-544d-4eac-aa5f-a205df39d9f8",
+    "name": "日蝕天輪",
+    "pet": "eclipseowl",
+    "slot": 2
+  },
+  "stellarmanta-1": {
+    "src": "/assets/battle/stellarmanta-1.mp4?v=0a784973142e",
+    "poster": "/assets/battle/stellarmanta-1.jpg?v=cbac046a21dd",
+    "duration": 4.041667,
+    "impactAt": 0.57,
+    "jobId": "ecaa89d8-b2b8-421d-b6dc-9f7c0f88a2b7",
+    "name": "星界翼波",
+    "pet": "stellarmanta",
+    "slot": 0
+  },
+  "stellarmanta-2": {
+    "src": "/assets/battle/stellarmanta-2.mp4?v=45365aefcfdf",
+    "poster": "/assets/battle/stellarmanta-2.jpg?v=3b622118a015",
+    "duration": 4.041667,
+    "impactAt": 0.56,
+    "jobId": "2b52fc70-beff-4544-b485-454b6a261647",
+    "name": "界帆星障",
+    "pet": "stellarmanta",
+    "slot": 1
+  },
+  "stellarmanta-3": {
+    "src": "/assets/battle/stellarmanta-3.mp4?v=bf704a2a746c",
+    "poster": "/assets/battle/stellarmanta-3.jpg?v=73adb06f876d",
+    "duration": 4.041667,
+    "impactAt": 0.64,
+    "jobId": "f641834c-d499-48d1-90be-86f4b096df87",
+    "name": "星門萬潮",
+    "pet": "stellarmanta",
+    "slot": 2
+  },
+  "tidephoenix-1": {
+    "src": "/assets/battle/tidephoenix-1.mp4?v=959236d714e5",
+    "poster": "/assets/battle/tidephoenix-1.jpg?v=3dcae3a71a59",
+    "duration": 4.041667,
+    "impactAt": 0.47,
+    "jobId": "658ac0bf-f4dd-47ee-ac27-e2872d5cc764",
+    "name": "潮羽流矢",
+    "pet": "tidephoenix",
+    "slot": 0
+  },
+  "tidephoenix-2": {
+    "src": "/assets/battle/tidephoenix-2.mp4?v=98aa1c154913",
+    "poster": "/assets/battle/tidephoenix-2.jpg?v=50c48f637ce1",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "1b3fda53-115f-4f00-b8d0-0198e6876553",
+    "name": "汐光回羽",
+    "pet": "tidephoenix",
+    "slot": 1
+  },
+  "tidephoenix-3": {
+    "src": "/assets/battle/tidephoenix-3.mp4?v=1906aac06709",
+    "poster": "/assets/battle/tidephoenix-3.jpg?v=07a62c4fceab",
+    "duration": 4.041667,
+    "impactAt": 0.68,
+    "jobId": "800966d6-3026-40d8-9265-0ce6318c2ee0",
+    "name": "滄羽涅潮",
+    "pet": "tidephoenix",
+    "slot": 2
+  },
+  "aetherdragon-1": {
+    "src": "/assets/battle/aetherdragon-1.mp4?v=db8951ad54c3",
+    "poster": "/assets/battle/aetherdragon-1.jpg?v=f68e2fee9fee",
+    "duration": 4.041667,
+    "impactAt": 0.63,
+    "jobId": "c25a07ee-91e3-4b76-a741-969847326d6f",
+    "name": "蒼璃龍息",
+    "pet": "aetherdragon",
+    "slot": 0
+  },
+  "aetherdragon-2": {
+    "src": "/assets/battle/aetherdragon-2.mp4?v=1a4cea2021ef",
+    "poster": "/assets/battle/aetherdragon-2.jpg?v=72a9caee4870",
+    "duration": 4.041667,
+    "impactAt": 0.44,
+    "jobId": "ea38ca2f-448b-49ca-89bf-fe76a8a7f8c3",
+    "name": "虹鱗穿空",
+    "pet": "aetherdragon",
+    "slot": 1
+  },
+  "aetherdragon-3": {
+    "src": "/assets/battle/aetherdragon-3.mp4?v=c5aac073dc82",
+    "poster": "/assets/battle/aetherdragon-3.jpg?v=2f546e84be9d",
+    "duration": 4.041667,
+    "impactAt": 0.61,
+    "jobId": "5d25c18c-7808-4874-8a4e-41a278d44ead",
+    "name": "穹頂龍曜",
+    "pet": "aetherdragon",
+    "slot": 2
+  },
+  "cosmicnautilus-1": {
+    "src": "/assets/battle/cosmicnautilus-1.mp4?v=c3c063299d33",
+    "poster": "/assets/battle/cosmicnautilus-1.jpg?v=ec1d8e280d34",
+    "duration": 4.041667,
+    "impactAt": 0.61,
+    "jobId": "f010c3b2-004b-429e-9a1b-067b97c6cd75",
+    "name": "螺旋星彈",
+    "pet": "cosmicnautilus",
+    "slot": 0
+  },
+  "cosmicnautilus-2": {
+    "src": "/assets/battle/cosmicnautilus-2.mp4?v=fc9e1aee01dd",
+    "poster": "/assets/battle/cosmicnautilus-2.jpg?v=8fe84d28f9dc",
+    "duration": 4.041667,
+    "impactAt": 0.58,
+    "jobId": "c5cf9e93-9a85-4816-a841-fed99c6c61c1",
+    "name": "時序回響",
+    "pet": "cosmicnautilus",
+    "slot": 1
+  },
+  "cosmicnautilus-3": {
+    "src": "/assets/battle/cosmicnautilus-3.mp4?v=626706cd2510",
+    "poster": "/assets/battle/cosmicnautilus-3.jpg?v=b22ec88cdd30",
+    "duration": 4.041667,
+    "impactAt": 0.73,
+    "jobId": "0daa49df-1684-4454-9df3-363e5da5643a",
+    "name": "宙海回廊",
+    "pet": "cosmicnautilus",
+    "slot": 2
+  },
+  "infinitywhale-1": {
+    "src": "/assets/battle/infinitywhale-1.mp4?v=a8ed99ef292f",
+    "poster": "/assets/battle/infinitywhale-1.jpg?v=c6069fe3cb2b",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "ef6c36d7-0044-4f26-806d-a5c71747ee74",
+    "name": "無垠星浪",
+    "pet": "infinitywhale",
+    "slot": 0
+  },
+  "infinitywhale-2": {
+    "src": "/assets/battle/infinitywhale-2.mp4?v=c0367bbe3415",
+    "poster": "/assets/battle/infinitywhale-2.jpg?v=6b78bd755e52",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "0db41640-78ce-4846-8a83-49369fb5a21b",
+    "name": "星軌聚潮",
+    "pet": "infinitywhale",
+    "slot": 1
+  },
+  "infinitywhale-3": {
+    "src": "/assets/battle/infinitywhale-3.mp4?v=30f1dbb208b2",
+    "poster": "/assets/battle/infinitywhale-3.jpg?v=df33478dd30a",
+    "duration": 4.041667,
+    "impactAt": 0.64,
+    "jobId": "2e8c3e41-b5d5-425a-9e83-efc8d96a9497",
+    "name": "寰宇鯨歌",
+    "pet": "infinitywhale",
+    "slot": 2
+  },
+  "astraltide-1": {
+    "src": "/assets/battle/astraltide-1.mp4?v=f34b99beb585",
+    "poster": "/assets/battle/astraltide-1.jpg?v=d1df28750ff0",
+    "duration": 4.041667,
+    "impactAt": 0.61,
+    "jobId": "bccf9eb1-4213-4251-bf10-a8642d7ecd79",
+    "name": "萬象流羽",
+    "pet": "astraltide",
+    "slot": 0
+  },
+  "astraltide-2": {
+    "src": "/assets/battle/astraltide-2.mp4?v=e0782c90a60a",
+    "poster": "/assets/battle/astraltide-2.jpg?v=ec4a030d55b4",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "9bc6337e-c8b5-4644-a547-2c8389618ff6",
+    "name": "星潮共鳴",
+    "pet": "astraltide",
+    "slot": 1
+  },
+  "astraltide-3": {
+    "src": "/assets/battle/astraltide-3.mp4?v=d9a02cb68539",
+    "poster": "/assets/battle/astraltide-3.jpg?v=95249c118d26",
+    "duration": 4.041667,
+    "impactAt": 0.6,
+    "jobId": "10d2d08d-5d91-4c0c-9505-4decb8ffab06",
+    "name": "萬象歸潮",
+    "pet": "astraltide",
+    "slot": 2
+  },
+  "maltese-1": {
+    "src": "/assets/battle/maltese-1.mp4?v=00ba26836017",
+    "poster": "/assets/battle/maltese-1.jpg?v=7ae9816b5be4",
+    "duration": 4.041667,
+    "impactAt": 0.58,
+    "jobId": "02890e7e-bdcd-4f1b-b1df-b01730a6cfe7",
+    "name": "棉雲蹦擊",
+    "pet": "maltese",
+    "slot": 0
+  },
+  "maltese-2": {
+    "src": "/assets/battle/maltese-2.mp4?v=405edb1235a7",
+    "poster": "/assets/battle/maltese-2.jpg?v=131666468800",
+    "duration": 4.041667,
+    "impactAt": 0.59,
+    "jobId": "2bf66c02-0946-4828-8932-c4f603ae7dab",
+    "name": "軟雲抱抱",
+    "pet": "maltese",
+    "slot": 1
+  },
+  "maltese-3": {
+    "src": "/assets/battle/maltese-3.mp4?v=e5af2c7c2d9f",
+    "poster": "/assets/battle/maltese-3.jpg?v=e218bd9dbc22",
+    "duration": 4.041667,
+    "impactAt": 0.65,
+    "jobId": "148f9a33-beec-45fb-80e9-87eddaa9d22a",
+    "name": "雲海棉花城",
+    "pet": "maltese",
+    "slot": 2
+  },
+  "pig-1": {
+    "src": "/assets/battle/pig-1.mp4?v=324617df5b26",
+    "poster": "/assets/battle/pig-1.jpg?v=2e9b36068a40",
+    "duration": 4.041667,
+    "impactAt": 0.58,
+    "jobId": "c99ceac4-71cd-41c9-9c2d-3679fe41a2aa",
+    "name": "奶茶滾滾",
+    "pet": "pig",
+    "slot": 0
+  },
+  "pig-2": {
+    "src": "/assets/battle/pig-2.mp4?v=9a778833e2b8",
+    "poster": "/assets/battle/pig-2.jpg?v=3ebd4f9ede50",
+    "duration": 4.041667,
+    "impactAt": 0.53,
+    "jobId": "e13d1ab4-ecbd-42c9-b75e-b34616219dce",
+    "name": "勇氣鼻撞",
+    "pet": "pig",
+    "slot": 1
+  },
+  "pig-3": {
+    "src": "/assets/battle/pig-3.mp4?v=460a1415eb40",
+    "poster": "/assets/battle/pig-3.jpg?v=73fa63c09e41",
+    "duration": 4.041667,
+    "impactAt": 0.64,
+    "jobId": "7682325b-640f-414f-bd16-d4ccea9c8d91",
+    "name": "金穀大地波",
+    "pet": "pig",
+    "slot": 2
+  },
+  "otter-1": {
+    "src": "/assets/battle/otter-1.mp4?v=b698dbe1a34c",
+    "poster": "/assets/battle/otter-1.jpg?v=3addb074cb7f",
+    "duration": 4.041667,
+    "impactAt": 0.55,
+    "jobId": "7e08955a-6353-4504-bac1-30893020be5c",
+    "name": "浪花拍掌",
+    "pet": "otter",
+    "slot": 0
+  },
+  "otter-2": {
+    "src": "/assets/battle/otter-2.mp4?v=5cbbcc7d7dc7",
+    "poster": "/assets/battle/otter-2.jpg?v=fd32e7f0ccbc",
+    "duration": 4.041667,
+    "impactAt": 0.57,
+    "jobId": "608b2106-110e-4a48-9924-f9c6ce8a5cbe",
+    "name": "水珠抱抱",
+    "pet": "otter",
+    "slot": 1
+  },
+  "otter-3": {
+    "src": "/assets/battle/otter-3.mp4?v=35471f78d5dc",
+    "poster": "/assets/battle/otter-3.jpg?v=55008c903c14",
+    "duration": 4.041667,
+    "impactAt": 0.73,
+    "jobId": "6fe4d171-6173-457f-b2c0-d323b3394b6f",
+    "name": "碧浪遊龍",
+    "pet": "otter",
+    "slot": 2
+  },
+  "fox-1": {
+    "src": "/assets/battle/fox-1.mp4?v=5859c92b0e8a",
+    "poster": "/assets/battle/fox-1.jpg?v=f86fdfb39bb0",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "97a7cd03-1e68-4646-800d-3c60272974f0",
+    "name": "芒星尾掃",
+    "pet": "fox",
+    "slot": 0
+  },
+  "fox-2": {
+    "src": "/assets/battle/fox-2.mp4?v=6c4b2a5657d1",
+    "poster": "/assets/battle/fox-2.jpg?v=59f4f7fae214",
+    "duration": 4.041667,
+    "impactAt": 0.61,
+    "jobId": "bd71b666-ae78-42cd-92df-473a4d87bfb8",
+    "name": "暖焰追蹤",
+    "pet": "fox",
+    "slot": 1
+  },
+  "fox-3": {
+    "src": "/assets/battle/fox-3.mp4?v=fa216a8fb771",
+    "poster": "/assets/battle/fox-3.jpg?v=75c7fbeef6e3",
+    "duration": 4.041667,
+    "impactAt": 0.7,
+    "jobId": "7f28fd2f-098f-44a2-8e28-97e10be3083b",
+    "name": "金芒烈日",
+    "pet": "fox",
+    "slot": 2
+  },
+  "rabbit-1": {
+    "src": "/assets/battle/rabbit-1.mp4?v=fc56b7ee2bc5",
+    "poster": "/assets/battle/rabbit-1.jpg?v=7da481e70f7c",
+    "duration": 4.041667,
+    "impactAt": 0.62,
+    "jobId": "75c15833-6258-4c6a-b7b7-01923571174a",
+    "name": "月牙蹬踢",
+    "pet": "rabbit",
+    "slot": 0
+  },
+  "rabbit-2": {
+    "src": "/assets/battle/rabbit-2.mp4?v=8233b767b069",
+    "poster": "/assets/battle/rabbit-2.jpg?v=16db2d2800d2",
+    "duration": 4.041667,
+    "impactAt": 0.54,
+    "jobId": "1a409eee-514c-4f40-a159-f27fe90dd386",
+    "name": "雙影月跳",
+    "pet": "rabbit",
+    "slot": 1
+  },
+  "rabbit-3": {
+    "src": "/assets/battle/rabbit-3.mp4?v=d9dd2d464444",
+    "poster": "/assets/battle/rabbit-3.jpg?v=44db89d28fb7",
+    "duration": 4.041667,
+    "impactAt": 0.63,
+    "jobId": "291024a9-fec7-45cc-b8f8-1039849749a3",
+    "name": "銀月花海",
+    "pet": "rabbit",
+    "slot": 2
+  }
+}

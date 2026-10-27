@@ -1,0 +1,165 @@
+{
+  "scope": "The screenshot's Tideglow and Cometcrane; other companions rest until genuine clips exist.",
+  "created": "2026-10-25",
+  "rejected": [
+    {
+      "job": "2ef35725-acb1-4c2b-ab5d-68ac635f72cc",
+      "params": {
+        "model": "seedance1_5",
+        "duration": 4,
+        "resolution": "720p",
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "a80853d7-ab8e-4665-b1f7-242d6a49eebd"
+          },
+          {
+            "role": "end_image",
+            "value": "a80853d7-ab8e-4665-b1f7-242d6a49eebd"
+          }
+        ],
+        "prompt": "Create a seamless game character WALK CYCLE on the exact solid flat magenta RGB FF00FF background. Preserve the reference creature's exact appearance, turquoise fur, cream chest, gold accents, face and proportions. It is a quadrupedal small fantasy companion facing in the same three-quarter direction as the reference. Locked orthographic camera, no pan or zoom. Entire creature remains centered within the central 50 percent of canvas, huge magenta margin on every side. Animate a believable in-place WALK, four paws alternately lifting, swinging and planting with clear elbow and knee bending, body weight shifting subtly, tail and ears following naturally. Two complete steady walking strides over four seconds, moving on an invisible treadmill: the character's root never translates, turns or changes scale. Same silhouette and contact pose at beginning and end, no anticipation pause. Keep feet baseline fixed, never clip the tail or ears. No shadows, floor, scenery, effects, text or additional objects. Do not merely wobble or translate a still image; articulated limbs must move."
+      },
+      "reason": "Full-body spin instead of a fixed-facing walk; excluded from registry.",
+      "quotedCredits": 4.8
+    }
+  ],
+  "jobs": [
+    {
+      "index": 1,
+      "pet": "tideglow",
+      "kind": "walk",
+      "params": {
+        "model": "seedance_2_0_mini",
+        "duration": 4,
+        "resolution": "720p",
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "a80853d7-ab8e-4665-b1f7-242d6a49eebd"
+          }
+        ],
+        "prompt": "GAME SPRITE animation: exactly the turquoise fox-dragon in the reference, full body in three-quarter SIDE VIEW facing RIGHT the entire clip. A seamless treadmill walk cycle. Four paws swing back and forth with clearly articulated knees. Character root stays at the center. Each paw moves backward while touching the invisible floor, lifts then swings forward. Two regular walking cycles. Body always faces screen RIGHT, head always faces screen RIGHT, tail always remains on screen LEFT. NO TURNING, NO SPINNING, NO ROTATION, NO ORBIT, NO FACING CAMERA. Fixed side camera, fixed scale, fixed root position, no forward translation. Character occupies only 50 percent of a square canvas, plenty of margin around all limbs and tail. Uniform flat solid MAGENTA background #FF00FF across the ENTIRE image; no rectangle, no gradients, no floor or shadows. Exact creature identity and colors. Natural small tail sway and ear secondary motion. Beginning and end same paw pose, continuous motion throughout, no standing pause. Silent."
+      },
+      "job_id": "b0bc3be2-60b2-47f0-880e-3c8884dc79a3",
+      "quotedCredits": 4
+    },
+    {
+      "index": 2,
+      "pet": "tideglow",
+      "kind": "play",
+      "params": {
+        "model": "seedance_2_0_mini",
+        "duration": 4,
+        "resolution": "720p",
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "a80853d7-ab8e-4665-b1f7-242d6a49eebd"
+          }
+        ],
+        "prompt": "A full-body game sprite animation of EXACTLY the creature in the reference. Locked fixed three-quarter SIDE camera, constant size, subject root anchored at the center, character occupies central 50% of square canvas, large empty margins, full feet and tail always visible. Face and body keep facing screen RIGHT for entire clip: no turn, no orbit, no spinning. Absolutely uniform flat solid MAGENTA RGB FF00FF background, no gradients, no shadows or floor, no effects, no text or added props. Preserve exact face, anatomy, feather or fur colors and design. Smooth clear articulated motion, not a still-picture wobble. Begin and end at identical standing pose for seamless looping. The turquoise fox dragon playfully lowers its head and shoulders in a puppy play bow, flexing its front legs, wiggles its tail, lifts one front paw to wave hello, then returns to the initial stance. Hind feet stay planted. Friendly and curious. No walking, no jump, no rotation."
+      },
+      "job_id": "06ac1ff2-d5e7-4a16-ba22-7fc2807471a8",
+      "quotedCredits": 4
+    },
+    {
+      "index": 3,
+      "pet": "cometcrane",
+      "kind": "walk",
+      "params": {
+        "model": "seedance_2_0_mini",
+        "duration": 4,
+        "resolution": "720p",
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "8a202eca-60be-4377-8e77-997702c7a120"
+          }
+        ],
+        "prompt": "A full-body game sprite animation of EXACTLY the creature in the reference. Locked fixed three-quarter SIDE camera, constant size, subject root anchored at the center, character occupies central 50% of square canvas, large empty margins, full feet and tail always visible. Face and body keep facing screen RIGHT for entire clip: no turn, no orbit, no spinning. Absolutely uniform flat solid MAGENTA RGB FF00FF background, no gradients, no shadows or floor, no effects, no text or added props. Preserve exact face, anatomy, feather or fur colors and design. Smooth clear articulated motion, not a still-picture wobble. Begin and end at identical standing pose for seamless looping. The elegant blue and white long-legged crane performs two complete steady IN-PLACE WALKING cycles on an invisible treadmill. Alternate long legs: lift one foot, flex the joint, swing forward, plant toes, move planted foot backward relative to its stationary torso. Then other leg. Clear foot contacts and natural tiny head bob, feather tail sways. Body stays facing right. No flap or takeoff. Walk throughout the entire clip, no initial/final standing pause."
+      },
+      "job_id": "f49aafe6-7c7d-4e73-99a5-f325538b4196",
+      "quotedCredits": 4
+    },
+    {
+      "index": 4,
+      "pet": "cometcrane",
+      "kind": "idle",
+      "params": {
+        "model": "seedance_2_0_mini",
+        "duration": 4,
+        "resolution": "720p",
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "8a202eca-60be-4377-8e77-997702c7a120"
+          }
+        ],
+        "prompt": "A full-body game sprite animation of EXACTLY the creature in the reference. Locked fixed three-quarter SIDE camera, constant size, subject root anchored at the center, character occupies central 50% of square canvas, large empty margins, full feet and tail always visible. Face and body keep facing screen RIGHT for entire clip: no turn, no orbit, no spinning. Absolutely uniform flat solid MAGENTA RGB FF00FF background, no gradients, no shadows or floor, no effects, no text or added props. Preserve exact face, anatomy, feather or fur colors and design. Smooth clear articulated motion, not a still-picture wobble. Begin and end at identical standing pose for seamless looping. The elegant blue and white long-legged crane stands calmly, softly breathes through its chest, blinks its eyes once, tilts its head slightly with curiosity, and subtly ruffles its tail feathers. Feet remain fixed, wings mostly still. No steps, no turns, no flying."
+      },
+      "job_id": "190c5944-a4ed-4d74-8c4e-9af619c084fd",
+      "quotedCredits": 4
+    },
+    {
+      "index": 5,
+      "pet": "cometcrane",
+      "kind": "play",
+      "params": {
+        "model": "seedance_2_0_mini",
+        "duration": 4,
+        "resolution": "720p",
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "8a202eca-60be-4377-8e77-997702c7a120"
+          }
+        ],
+        "prompt": "A full-body game sprite animation of EXACTLY the creature in the reference. Locked fixed three-quarter SIDE camera, constant size, subject root anchored at the center, character occupies central 50% of square canvas, large empty margins, full feet and tail always visible. Face and body keep facing screen RIGHT for entire clip: no turn, no orbit, no spinning. Absolutely uniform flat solid MAGENTA RGB FF00FF background, no gradients, no shadows or floor, no effects, no text or added props. Preserve exact face, anatomy, feather or fur colors and design. Smooth clear articulated motion, not a still-picture wobble. Begin and end at identical standing pose for seamless looping. The elegant blue and white long-legged crane cheerfully stretches both wings outward and gently flutters them twice, dipping its head in a friendly greeting, then neatly folds its wings back into the initial stance. Both feet remain anchored. Keep entire wings inside central 70% of frame at widest, no takeoff, no jumping, no turning."
+      },
+      "job_id": "fba0fbb7-e73e-4a7e-bab5-f1b1da688dd5",
+      "quotedCredits": 4
+    },
+    {
+      "index": 6,
+      "pet": "tideglow",
+      "kind": "idle",
+      "params": {
+        "model": "seedance_2_0_mini",
+        "duration": 4,
+        "resolution": "720p",
+        "aspect_ratio": "1:1",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "a80853d7-ab8e-4665-b1f7-242d6a49eebd"
+          }
+        ],
+        "prompt": "A seamless game idle animation of EXACTLY the turquoise fox dragon in the reference image. Full body remains in a three-quarter SIDE VIEW facing RIGHT for the entire shot; head remains right, tail on left. Stand in the same stance, feet planted: breathe softly through chest, blink once, gently twitch ears and let tail tip sway. No steps, no spinning, no turning toward camera, no orbit. Fixed camera, fixed scale, fixed root position. Character occupies only central 50 percent of a square canvas, plenty of margin around ears and tail. ENTIRE background is absolutely uniform solid MAGENTA RGB FF00FF; no rectangle, no gradients, no shadows, no floor, no text, no effects. Preserve character face, shape and colors. Beginning and end identical pose. Silent."
+      },
+      "job_id": "c4aa2582-1adc-4c47-a659-fef10ccc56cb",
+      "quotedCredits": 4
+    }
+  ],
+  "billingNote": "Quotes, not a verified billing statement."
+}

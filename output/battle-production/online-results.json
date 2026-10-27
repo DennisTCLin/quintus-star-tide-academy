@@ -1,0 +1,36 @@
+{
+  "records": [
+    {
+      "move": "guard",
+      "actor": 1,
+      "bothClientsPlayed": true,
+      "oneServerAction": true
+    },
+    {
+      "move": "guard",
+      "actor": 0,
+      "bothClientsPlayed": true,
+      "oneServerAction": true
+    },
+    {
+      "move": "attack",
+      "actor": 1,
+      "bothClientsPlayed": true,
+      "oneServerAction": true
+    },
+    {
+      "move": "attack",
+      "actor": 0,
+      "bothClientsPlayed": true,
+      "oneServerAction": true
+    },
+    {
+      "move": "burst",
+      "actor": 1,
+      "bothClientsPlayed": true,
+      "oneServerAction": true
+    }
+  ],
+  "learningUnchanged": true,
+  "errors": []
+}

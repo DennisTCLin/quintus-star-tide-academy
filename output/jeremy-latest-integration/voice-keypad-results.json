@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "chromium voice pause/resume, seek cancellation and leaving stops playback"
+    },
+    {
+      "name": "chromium 320px three-digit keypad 100, explicit confirm and server persistence"
+    },
+    {
+      "name": "webkit voice pause/resume, seek cancellation and leaving stops playback"
+    },
+    {
+      "name": "webkit 320px three-digit keypad 100, explicit confirm and server persistence"
+    }
+  ],
+  "speechEngine": "instrumented lifecycle stub",
+  "realLocalPostgres": true,
+  "physicalDeviceAudio": false,
+  "productionMutations": false
+}

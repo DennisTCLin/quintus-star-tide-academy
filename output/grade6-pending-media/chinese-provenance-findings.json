@@ -1,0 +1,40 @@
+{
+  "status": "source10_attribution_failed",
+  "findings": [
+    {
+      "publishedSource": 10,
+      "publishedPage": 2,
+      "publishedLocator": "五語譯1",
+      "quote": "人有喜慶，不可生妒忌心",
+      "actualSource": 6,
+      "actualPage": 2,
+      "actualLocator": "三填答3-3",
+      "evidence": "原卷6第2頁第三大題第3題第三句逐字相符；原卷10第2頁五語譯1實為「器具質而潔，瓦缶勝金玉」。已發布另有source6同定位題，應避免再新增相同語意題。",
+      "suggestion": "保留舊ID及內容，另記真實來源6/2/三填答3-3及原source10歸因錯誤。"
+    },
+    {
+      "publishedSource": 10,
+      "publishedPage": 2,
+      "publishedLocator": "五語譯2",
+      "quote": "與肩挑貿易，毋占便宜",
+      "actualSource": null,
+      "actualPage": null,
+      "actualLocator": null,
+      "evidence": "原卷10第2頁五語譯2實為「半絲半縷，恆念物力維艱」。全文查找PDF1–5、7、8及DOCX9無此句，視讀掃描卷6全部4頁及10全部2頁亦未見。",
+      "suggestion": "標為來源未證實且原歸因錯誤，不可憑出自朱子治家格言便聲稱此批原卷收錄。"
+    }
+  ],
+  "exam10ActualLocators": [
+    {
+      "page": 2,
+      "locator": "五語譯1",
+      "quote": "器具質而潔，瓦缶勝金玉"
+    },
+    {
+      "page": 2,
+      "locator": "五語譯2",
+      "quote": "半絲半縷，恆念物力維艱"
+    }
+  ],
+  "repositoryModified": false
+}

@@ -1,0 +1,43 @@
+{
+  "deployment": "ccb96d1d-cd5f-4225-8542-9e9f1eaa73cf",
+  "source": "fc5f36b",
+  "checkedAt": "2026-10-24T18:53:09.308433+00:00",
+  "health": {
+    "status": 200,
+    "body": "{\"ok\":true,\"service\":\"quintus-ocean-academy\"}"
+  },
+  "indexStatus": 200,
+  "assets": [
+    {
+      "path": "assets/RoomEditor.v-BXf9fiGX.js",
+      "status": 200,
+      "sha256": "076d206ac11e4967634d61dd41fed4beaa8f32a1d0b9362d4f8fc820a89db924",
+      "matches": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "matches": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-ZIcFVtUo.js",
+      "status": 200,
+      "sha256": "1b2e0c8c4c1bf84923fbbaba57754beed4dc283c2548ac57e627b4a283e4a218",
+      "matches": true
+    },
+    {
+      "path": "assets/index.v-Bq9Wse3x.js",
+      "status": 200,
+      "sha256": "a7d51c3ece083cb13baa891a55333934c474c446645c18f69e2da7e5dc21ab0c",
+      "matches": true
+    },
+    {
+      "path": "assets/index.v-BqPtCdyb.css",
+      "status": 200,
+      "sha256": "e8c3ce4a09b3055d868100b3dcb919a72c792199a70ea2d85368896442998beb",
+      "matches": true
+    }
+  ],
+  "htmlReferencesExpectedEntry": true
+}

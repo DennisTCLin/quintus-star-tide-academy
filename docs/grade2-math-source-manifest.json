@@ -1,0 +1,82 @@
+{
+  "grade": 2,
+  "semester": 1,
+  "scope": "歷屆第一次評量；115學年度完整範圍待確認",
+  "publisher": "南一",
+  "publisherEvidence": "家長檔名分類，卷面未印出版社",
+  "uniqueQuestions": 172,
+  "sources": [
+    {
+      "id": "g2mn1",
+      "file": "南一數學題1.pdf",
+      "school": "大墩國小",
+      "year": 113,
+      "pages": 2,
+      "sha256": "ee5c3653b8e8f5862e6a415027f166b714a9db02db10980554c0daaff80578ad",
+      "questions": 35
+    },
+    {
+      "id": "g2mn2",
+      "file": "南一數學題2.pdf",
+      "school": "大墩國小",
+      "year": 112,
+      "pages": 2,
+      "sha256": "a1535350bc6879cdacf5d419b56f2563c4b8ee29a758c0ce920c421d8b5e775c",
+      "questions": 28
+    },
+    {
+      "id": "g2mn3",
+      "file": "南一數學題3.pdf",
+      "school": "文心國小",
+      "year": 109,
+      "pages": 2,
+      "sha256": "94fb0ba4eb8032339c1256a75c3f67eccfbc2a089ecf357f894d55bb61785fda",
+      "questions": 38
+    },
+    {
+      "id": "g2mn4",
+      "file": "南一數學題4.pdf",
+      "school": "四維國小",
+      "year": 109,
+      "pages": 3,
+      "sha256": "8a9a16925cc922109350fc9296d7bf851713ea80b640d4cafc8ad7443a08394a",
+      "questions": 34
+    },
+    {
+      "id": "g2mn5",
+      "file": "南一數學題5.pdf",
+      "school": "長安國小",
+      "year": 108,
+      "pages": 3,
+      "sha256": "750094b9f37f1e47877bb8410f14cb86635cbbdaf82972ba01c688f4db6e748f",
+      "questions": 37
+    }
+  ],
+  "excluded": {
+    "g2mn1": [
+      "四(3)異形容器圖片比較",
+      "四(4)⑥鯉魚旗圖片",
+      "六動手畫線"
+    ],
+    "g2mn2": [
+      "一(1)圖片長短比較",
+      "五(2)異形容器水量比較",
+      "六需實際直尺測量"
+    ],
+    "g2mn3": [
+      "二(二)容器圖片比較",
+      "二(四)方格路線圖"
+    ],
+    "g2mn4": [
+      "一5容器圖片比較",
+      "二10容器圖片比較",
+      "四方格繩長圖"
+    ],
+    "g2mn5": []
+  },
+  "corrections": [
+    "PDF2非可見文字層含舊解答；以渲染頁面上的題幹重新計算，不使用隱藏解答。",
+    "看圖刻度、杯數及價格題轉為完整文字條件，未保留依賴缺圖的題幹。",
+    "PDF4/5第3頁僅答案溢出或頁碼，無新題。"
+  ]
+}

@@ -1,0 +1,15 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/battle-performance/星潮網站開發
+
+
+ Test Files  112 passed | 21 skipped (133)
+      Tests  790 passed | 171 skipped (961)
+   Start at  14:17:05
+   Duration  4.20s (import 48%, tests 34%, transform 17%, worker 1%)
+
+    Isolate  133 workers spawned · ~85ms startup each (spawn + environment, per file)
+             at least ~782ms faster with isolate: false — reuses workers across files instead of one per file

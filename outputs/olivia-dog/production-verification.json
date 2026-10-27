@@ -1,0 +1,45 @@
+{
+  "site": "https://quintus-star-tide-academy-production.up.railway.app",
+  "deployment": "d2eda160-2d7a-4a48-853b-3f9cb8cbe6be",
+  "sourceCommit": "f97ac5d214325437175c5d2e7630da1a96777ef1",
+  "checks": [
+    {
+      "check": "health",
+      "pass": true
+    },
+    {
+      "check": "entry",
+      "pass": true,
+      "path": "/assets/index.v-Xgmd7hvf.js"
+    },
+    {
+      "path": "/assets/index.v-Xgmd7hvf.js",
+      "pass": true,
+      "mime": "text/javascript; charset=utf-8",
+      "bytes": 463247,
+      "sha256": "1f0ca03affa80f0a0832f8a7ceb2f81ee61e6f167825657ecaaf5fdf93da0a9d"
+    },
+    {
+      "path": "/assets/olivia-dog/hello-v1.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 218600,
+      "sha256": "37b3d49286a9601f28d59f26bc129296703d5c8ca97946355eb2af6b6c206e13"
+    },
+    {
+      "path": "/assets/olivia-dog/poster-v1.png",
+      "pass": true,
+      "mime": "image/png",
+      "bytes": 236309,
+      "sha256": "6d3b3b2e450622caea24911e51c1b4591566466edf6d4ca4b01e9863605f5063"
+    },
+    {
+      "path": "/players/alston.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 378493,
+      "sha256": "a884e7e17d54e16dda1c12ab3459cdfc4437001b5471060a31eefc0966e7bba9"
+    }
+  ],
+  "pass": true
+}

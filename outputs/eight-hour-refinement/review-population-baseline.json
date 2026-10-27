@@ -1,0 +1,170 @@
+{
+  "scope": "Read-only baseline;120six-question exhausted allocations percourse; no implementation",
+  "rows": [
+    {
+      "grade": 1,
+      "course": "english",
+      "static": 80,
+      "c1": 0,
+      "generated": 0,
+      "reviewProbe": 720,
+      "curatedReviews": 720,
+      "c1Reviews": 0,
+      "allReview": true
+    },
+    {
+      "grade": 1,
+      "course": "tones",
+      "static": 10,
+      "c1": 0,
+      "generated": 0,
+      "reviewProbe": 720,
+      "curatedReviews": 720,
+      "c1Reviews": 0,
+      "allReview": true
+    },
+    {
+      "grade": 1,
+      "course": "medials",
+      "static": 9,
+      "c1": 0,
+      "generated": 0,
+      "reviewProbe": 720,
+      "curatedReviews": 720,
+      "c1Reviews": 0,
+      "allReview": true
+    },
+    {
+      "grade": 1,
+      "course": "pairs",
+      "static": 24,
+      "c1": 0,
+      "generated": 0,
+      "reviewProbe": 720,
+      "curatedReviews": 720,
+      "c1Reviews": 0,
+      "allReview": true
+    },
+    {
+      "grade": 1,
+      "course": "math",
+      "static": 30,
+      "c1": 0,
+      "generated": 290,
+      "reviewProbe": 720,
+      "curatedReviews": 0,
+      "c1Reviews": 0,
+      "allReview": true
+    },
+    {
+      "grade": 2,
+      "course": "words",
+      "static": 115,
+      "c1": 16,
+      "generated": 0,
+      "reviewProbe": 720,
+      "curatedReviews": 720,
+      "c1Reviews": 240,
+      "allReview": true
+    },
+    {
+      "grade": 2,
+      "course": "tones",
+      "static": 20,
+      "c1": 0,
+      "generated": 0,
+      "reviewProbe": 720,
+      "curatedReviews": 720,
+      "c1Reviews": 0,
+      "allReview": true
+    },
+    {
+      "grade": 2,
+      "course": "medials",
+      "static": 12,
+      "c1": 0,
+      "generated": 0,
+      "reviewProbe": 720,
+      "curatedReviews": 720,
+      "c1Reviews": 0,
+      "allReview": true
+    },
+    {
+      "grade": 2,
+      "course": "pairs",
+      "static": 24,
+      "c1": 0,
+      "generated": 0,
+      "reviewProbe": 720,
+      "curatedReviews": 720,
+      "c1Reviews": 0,
+      "allReview": true
+    },
+    {
+      "grade": 2,
+      "course": "math",
+      "static": 30,
+      "c1": 0,
+      "generated": 7556,
+      "reviewProbe": 720,
+      "curatedReviews": 0,
+      "c1Reviews": 0,
+      "allReview": true
+    },
+    {
+      "grade": 4,
+      "course": "math",
+      "static": 10,
+      "c1": 0,
+      "generated": 12047,
+      "reviewProbe": 720,
+      "curatedReviews": 0,
+      "c1Reviews": 0,
+      "allReview": true
+    },
+    {
+      "grade": 4,
+      "course": "chinese",
+      "static": 18,
+      "c1": 8,
+      "generated": 48,
+      "reviewProbe": 720,
+      "curatedReviews": 0,
+      "c1Reviews": 0,
+      "allReview": true
+    },
+    {
+      "grade": 4,
+      "course": "english",
+      "static": 26,
+      "c1": 16,
+      "generated": 250,
+      "reviewProbe": 720,
+      "curatedReviews": 0,
+      "c1Reviews": 0,
+      "allReview": true
+    },
+    {
+      "grade": 4,
+      "course": "science",
+      "static": 26,
+      "c1": 16,
+      "generated": 2640,
+      "reviewProbe": 720,
+      "curatedReviews": 0,
+      "c1Reviews": 0,
+      "allReview": true
+    },
+    {
+      "grade": 4,
+      "course": "social",
+      "static": 18,
+      "c1": 8,
+      "generated": 361,
+      "reviewProbe": 720,
+      "curatedReviews": 0,
+      "c1Reviews": 0,
+      "allReview": true
+    }
+  ]
+}

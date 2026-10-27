@@ -1,0 +1,90 @@
+{
+  "at": "2026-10-25T00:29:12.957287+00:00",
+  "source": "0fd99d03635eca985fbf7762544611d857f00f58",
+  "deployment": "1b89bc96-cdee-45e3-adf4-3b58631cce8c",
+  "status": "SUCCESS",
+  "checks": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 1046,
+      "sha256": "b7f3100b3c40ad0823dafb5d86225c503add42955eb0e7b0fd3ffa2f4a2f5f9c",
+      "expectedEntry": true
+    },
+    {
+      "path": "healthz",
+      "status": 200,
+      "bytes": 45,
+      "sha256": "148ac60ab790cb8c7534b7e6b2b603691f912e6d84da8f2a5e222ac6f84d27be"
+    },
+    {
+      "path": "assets/RoomEditor.v-CMi8JXkw.js",
+      "status": 200,
+      "bytes": 10629,
+      "sha256": "3bf5c95e385322e3a89646cde86ba87596b7e155692ea28820659612a9303e6b",
+      "match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-0B_BILAw.js",
+      "status": 200,
+      "bytes": 35956,
+      "sha256": "497e7c95184236db7783995f5d2811b4f953e0c637d7f9124625b347e68e85cf",
+      "match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "match": true
+    },
+    {
+      "path": "assets/index.v-BIR-nAWd.js",
+      "status": 200,
+      "bytes": 668535,
+      "sha256": "be3e49a695b5d52359f8d7a787553abae031e47f416a3e3e9e845d052b8235d1",
+      "match": true
+    },
+    {
+      "path": "assets/index.v-qOcNAjON.css",
+      "status": 200,
+      "bytes": 232207,
+      "sha256": "5c7280060deee506a829676f58f38f15d024915b192da03d3c9c587c6bd9c243",
+      "match": true
+    }
+  ],
+  "assets": {
+    "assets/RoomEditor.v-CMi8JXkw.js": {
+      "sha256": "3bf5c95e385322e3a89646cde86ba87596b7e155692ea28820659612a9303e6b",
+      "bytes": 10629,
+      "gzip9": 4072
+    },
+    "assets/TerritoryPage.v-0B_BILAw.js": {
+      "sha256": "497e7c95184236db7783995f5d2811b4f953e0c637d7f9124625b347e68e85cf",
+      "bytes": 35956,
+      "gzip9": 12775
+    },
+    "assets/TerritoryPage.v-XpGSXE-r.css": {
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "bytes": 30002,
+      "gzip9": 6405
+    },
+    "assets/index.v-BIR-nAWd.js": {
+      "sha256": "be3e49a695b5d52359f8d7a787553abae031e47f416a3e3e9e845d052b8235d1",
+      "bytes": 668535,
+      "gzip9": 232284
+    },
+    "assets/index.v-qOcNAjON.css": {
+      "sha256": "5c7280060deee506a829676f58f38f15d024915b192da03d3c9c587c6bd9c243",
+      "bytes": 232207,
+      "gzip9": 48532
+    }
+  },
+  "browser": {
+    "heading": "歡迎回到星潮",
+    "scripts": [
+      "https://quintus-star-tide-academy-production.up.railway.app/assets/index.v-BIR-nAWd.js"
+    ],
+    "errors": []
+  }
+}

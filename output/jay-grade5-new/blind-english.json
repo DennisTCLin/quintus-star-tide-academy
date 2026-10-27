@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "j5n-001635fb77f112f1ea",
+    "grade": 5,
+    "course": "english",
+    "prompt": "____ Andy from Korea? No, he ____.",
+    "options": [
+      {
+        "text": "Are / aren’t"
+      },
+      {
+        "text": "Is / doesn’t"
+      },
+      {
+        "text": "Is / isn’t"
+      },
+      {
+        "text": "Does / doesn’t"
+      }
+    ]
+  },
+  {
+    "id": "j5n-a36291ad1c43e05453",
+    "grade": 5,
+    "course": "english",
+    "prompt": "____ you from Taiwan? Yes, we ____.",
+    "options": [
+      {
+        "text": "Are / are"
+      },
+      {
+        "text": "Is / is"
+      },
+      {
+        "text": "Do / do"
+      },
+      {
+        "text": "Does / does"
+      }
+    ]
+  },
+  {
+    "id": "j5n-0c96d7f7d021088dae",
+    "grade": 5,
+    "course": "english",
+    "prompt": "____ Juliet go to school by boat? Yes, she ____.",
+    "options": [
+      {
+        "text": "Does / does"
+      },
+      {
+        "text": "Do / do"
+      },
+      {
+        "text": "Is / is"
+      },
+      {
+        "text": "Does / do"
+      }
+    ]
+  },
+  {
+    "id": "j5n-46510e784c01277573",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「日本」的英文名稱是哪個？",
+    "options": [
+      {
+        "text": "Taiwan"
+      },
+      {
+        "text": "Spain"
+      },
+      {
+        "text": "Japan"
+      },
+      {
+        "text": "India"
+      }
+    ]
+  },
+  {
+    "id": "j5n-fd0f23d131fa7bbade",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「新加坡」的英文名稱是哪個？",
+    "options": [
+      {
+        "text": "Australia"
+      },
+      {
+        "text": "Singapore"
+      },
+      {
+        "text": "Spain"
+      },
+      {
+        "text": "Japan"
+      }
+    ]
+  },
+  {
+    "id": "j5n-f9b01618c3308d6293",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「英國」的英文名稱是哪個？",
+    "options": [
+      {
+        "text": "Japan"
+      },
+      {
+        "text": "the UK"
+      },
+      {
+        "text": "the USA"
+      },
+      {
+        "text": "India"
+      }
+    ]
+  },
+  {
+    "id": "j5n-8c145a6af21a5efc35",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「美國」的英文名稱是哪個？",
+    "options": [
+      {
+        "text": "the USA"
+      },
+      {
+        "text": "the UK"
+      },
+      {
+        "text": "Australia"
+      },
+      {
+        "text": "Singapore"
+      }
+    ]
+  },
+  {
+    "id": "j5n-2dc1d6be7b06e38d8e",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「臺灣」的英文名稱是哪個？",
+    "options": [
+      {
+        "text": "Taiwan"
+      },
+      {
+        "text": "Thailand"
+      },
+      {
+        "text": "Japan"
+      },
+      {
+        "text": "Spain"
+      }
+    ]
+  },
+  {
+    "id": "j5n-6ae764770bb250ded8",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「澳洲」的英文名稱是哪個？",
+    "options": [
+      {
+        "text": "Austria"
+      },
+      {
+        "text": "India"
+      },
+      {
+        "text": "Japan"
+      },
+      {
+        "text": "Australia"
+      }
+    ]
+  },
+  {
+    "id": "j5n-975c9f263561f927b1",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「印度」的英文名稱是哪個？",
+    "options": [
+      {
+        "text": "India"
+      },
+      {
+        "text": "Italy"
+      },
+      {
+        "text": "Spain"
+      },
+      {
+        "text": "Australia"
+      }
+    ]
+  },
+  {
+    "id": "j5n-0f98d388faa64e59f5",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「西班牙」的英文名稱是哪個？",
+    "options": [
+      {
+        "text": "Japan"
+      },
+      {
+        "text": "the UK"
+      },
+      {
+        "text": "Spain"
+      },
+      {
+        "text": "Singapore"
+      }
+    ]
+  },
+  {
+    "id": "j5n-612fd88584a211e174",
+    "grade": 5,
+    "course": "english",
+    "prompt": "已知她搭公車上學。Does she go to school by MRT? 哪個回答符合資料？",
+    "options": [
+      {
+        "text": "Yes, she does. She goes to school by MRT."
+      },
+      {
+        "text": "No, she isn’t. She is a bus."
+      },
+      {
+        "text": "Yes, she do. She go to school by boat."
+      },
+      {
+        "text": "No, she doesn’t. She goes to school by bus."
+      }
+    ]
+  },
+  {
+    "id": "j5n-755e25cd0c2e25c177",
+    "grade": 5,
+    "course": "english",
+    "prompt": "已知她來自澳洲。Is she from Korea? No, she ____. She ____ from Australia.",
+    "options": [
+      {
+        "text": "isn’t / is"
+      },
+      {
+        "text": "doesn’t / does"
+      },
+      {
+        "text": "aren’t / are"
+      },
+      {
+        "text": "is / isn’t"
+      }
+    ]
+  },
+  {
+    "id": "j5n-1f46fe0b0b896de548",
+    "grade": 5,
+    "course": "english",
+    "prompt": "提示：Juliet 搭船上學。How does Juliet go to school?",
+    "options": [
+      {
+        "text": "She goes to school by bus."
+      },
+      {
+        "text": "She goes to school on foot."
+      },
+      {
+        "text": "She goes to school by bike."
+      },
+      {
+        "text": "She goes to school by boat."
+      }
+    ]
+  },
+  {
+    "id": "j5n-dc7f2de0262a196b7f",
+    "grade": 5,
+    "course": "english",
+    "prompt": "提示：他來自新加坡。Where is he from?",
+    "options": [
+      {
+        "text": "He goes to Singapore."
+      },
+      {
+        "text": "He is from Japan."
+      },
+      {
+        "text": "He is from Singapore."
+      },
+      {
+        "text": "He is from Spain."
+      }
+    ]
+  },
+  {
+    "id": "j5n-58b48a61ee75fbc52e",
+    "grade": 5,
+    "course": "english",
+    "prompt": "____ you from Taiwan? Yes, we ____.（注意句首大小寫）",
+    "options": [
+      {
+        "text": "Are / are"
+      },
+      {
+        "text": "Is / is"
+      },
+      {
+        "text": "are / are"
+      },
+      {
+        "text": "Are / is"
+      }
+    ]
+  },
+  {
+    "id": "j5n-499e5b8d881e4766ed",
+    "grade": 5,
+    "course": "english",
+    "prompt": "____ Owen and Danny go to school by train? Yes, they ____.",
+    "options": [
+      {
+        "text": "Does / does"
+      },
+      {
+        "text": "Are / are"
+      },
+      {
+        "text": "Do / do"
+      },
+      {
+        "text": "Does / do"
+      }
+    ]
+  },
+  {
+    "id": "j5n-7416533e6271f7628d",
+    "grade": 5,
+    "course": "english",
+    "prompt": "____ Raju from India? Yes, he ____.",
+    "options": [
+      {
+        "text": "Does / does"
+      },
+      {
+        "text": "Is / is"
+      },
+      {
+        "text": "Where / is"
+      },
+      {
+        "text": "Are / are"
+      }
+    ]
+  },
+  {
+    "id": "j5n-d09a2bf123e62cc129",
+    "grade": 5,
+    "course": "english",
+    "prompt": "交通統計：全班40人，12人步行、6人搭汽車、10人搭公車、4人騎腳踏車、8人搭機車。\nTwelve students travel ____. 選出符合統計的交通方式。",
+    "options": [
+      {
+        "text": "by bus"
+      },
+      {
+        "text": "by car"
+      },
+      {
+        "text": "by bike"
+      },
+      {
+        "text": "on foot"
+      }
+    ]
+  },
+  {
+    "id": "j5n-941669f95b5032f929",
+    "grade": 5,
+    "course": "english",
+    "prompt": "交通統計：全班40人，12人步行、6人搭汽車、10人搭公車、4人騎腳踏車、8人搭機車。\nSix students travel ____. 選出符合統計的交通方式。",
+    "options": [
+      {
+        "text": "by train"
+      },
+      {
+        "text": "by car"
+      },
+      {
+        "text": "by bus"
+      },
+      {
+        "text": "on foot"
+      }
+    ]
+  },
+  {
+    "id": "j5n-f798cea7250e8bd67d",
+    "grade": 5,
+    "course": "english",
+    "prompt": "交通統計：全班40人，12人步行、6人搭汽車、10人搭公車、4人騎腳踏車、8人搭機車。\nTen students travel ____. 選出符合統計的交通方式。",
+    "options": [
+      {
+        "text": "by bike"
+      },
+      {
+        "text": "on foot"
+      },
+      {
+        "text": "by bus"
+      },
+      {
+        "text": "by car"
+      }
+    ]
+  },
+  {
+    "id": "j5n-35567ff17c2903e431",
+    "grade": 5,
+    "course": "english",
+    "prompt": "交通統計：全班40人，12人步行、6人搭汽車、10人搭公車、4人騎腳踏車、8人搭機車。\nFour students travel ____. 選出符合統計的交通方式。",
+    "options": [
+      {
+        "text": "by boat"
+      },
+      {
+        "text": "by car"
+      },
+      {
+        "text": "by plane"
+      },
+      {
+        "text": "by bike"
+      }
+    ]
+  },
+  {
+    "id": "j5n-1485df00952c4c3452",
+    "grade": 5,
+    "course": "english",
+    "prompt": "交通統計：全班40人，12人步行、6人搭汽車、10人搭公車、4人騎腳踏車、8人搭機車。\nEight students travel ____. 選出符合統計的交通方式。",
+    "options": [
+      {
+        "text": "on foot"
+      },
+      {
+        "text": "by scooter"
+      },
+      {
+        "text": "by train"
+      },
+      {
+        "text": "by bus"
+      }
+    ]
+  },
+  {
+    "id": "j5n-19ab9d36b3bc12e170",
+    "grade": 5,
+    "course": "english",
+    "prompt": "提示：Joe 步行上學。____ do you go to school, Joe? I go to school ____.",
+    "options": [
+      {
+        "text": "Where / on foot"
+      },
+      {
+        "text": "How / by car"
+      },
+      {
+        "text": "How / on foot"
+      },
+      {
+        "text": "What / by foot"
+      }
+    ]
+  },
+  {
+    "id": "j5n-2500ad329df08ede82",
+    "grade": 5,
+    "course": "english",
+    "prompt": "提示：Jack 來自印度。Where ____ you from, Jack? I ____ from India.",
+    "options": [
+      {
+        "text": "are / am"
+      },
+      {
+        "text": "is / is"
+      },
+      {
+        "text": "are / is"
+      },
+      {
+        "text": "am / are"
+      }
+    ]
+  },
+  {
+    "id": "j5n-85911c055703b955ae",
+    "grade": 5,
+    "course": "english",
+    "prompt": "提示：他們搭機車上學。They go to school ____.",
+    "options": [
+      {
+        "text": "by scooter"
+      },
+      {
+        "text": "on scooter"
+      },
+      {
+        "text": "by foot"
+      },
+      {
+        "text": "by bus"
+      }
+    ]
+  },
+  {
+    "id": "j5n-abd33346afa09220f1",
+    "grade": 5,
+    "course": "english",
+    "prompt": "提示：Cindy 來自西班牙。Where’s Cindy from? She ____ from Spain.",
+    "options": [
+      {
+        "text": "do"
+      },
+      {
+        "text": "does"
+      },
+      {
+        "text": "is"
+      },
+      {
+        "text": "are"
+      }
+    ]
+  },
+  {
+    "id": "j5n-a57b61be5829854d3f",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Cindy 騎腳踏車上學，不搭火車。Does she go to school by train?",
+    "options": [
+      {
+        "text": "No, she doesn’t. She goes to school by bike."
+      },
+      {
+        "text": "Yes, she does. She goes to school by train."
+      },
+      {
+        "text": "No, she isn’t. She goes by train."
+      },
+      {
+        "text": "No, she don’t. She go to school by bike."
+      }
+    ]
+  },
+  {
+    "id": "j5n-174dff9d23f0a7ab0b",
+    "grade": 5,
+    "course": "english",
+    "prompt": "回答是：No. They’re from the UK. 應選哪個問句？",
+    "options": [
+      {
+        "text": "Where do they go?"
+      },
+      {
+        "text": "Are they from the USA?"
+      },
+      {
+        "text": "Are they from the UK?"
+      },
+      {
+        "text": "Do they go to school by bus?"
+      }
+    ]
+  },
+  {
+    "id": "j5n-a20578a4b4f22062c4",
+    "grade": 5,
+    "course": "english",
+    "prompt": "班級資料：日本6人搭計程車、美國4人搭飛機、臺灣2人搭汽車、澳洲3人搭火車、加拿大5人搭公車。\nThree students are from ____.",
+    "options": [
+      {
+        "text": "Australia"
+      },
+      {
+        "text": "Japan"
+      },
+      {
+        "text": "Taiwan"
+      },
+      {
+        "text": "Canada"
+      }
+    ]
+  },
+  {
+    "id": "j5n-f52966df498f24d28d",
+    "grade": 5,
+    "course": "english",
+    "prompt": "班級資料：日本6人搭計程車、美國4人搭飛機、臺灣2人搭汽車、澳洲3人搭火車、加拿大5人搭公車。\nThe three students from Australia go to school ____.",
+    "options": [
+      {
+        "text": "by car"
+      },
+      {
+        "text": "by taxi"
+      },
+      {
+        "text": "by plane"
+      },
+      {
+        "text": "by train"
+      }
+    ]
+  },
+  {
+    "id": "j5n-e04946a43683ad0b6c",
+    "grade": 5,
+    "course": "english",
+    "prompt": "班級資料：日本6人搭計程車、美國4人搭飛機、臺灣2人搭汽車、澳洲3人搭火車、加拿大5人搭公車。\nSix students are from ____.",
+    "options": [
+      {
+        "text": "the USA"
+      },
+      {
+        "text": "Japan"
+      },
+      {
+        "text": "Australia"
+      },
+      {
+        "text": "Canada"
+      }
+    ]
+  },
+  {
+    "id": "j5n-c7ae8f3717e3fc6e00",
+    "grade": 5,
+    "course": "english",
+    "prompt": "班級資料：日本6人搭計程車、美國4人搭飛機、臺灣2人搭汽車、澳洲3人搭火車、加拿大5人搭公車。\n____ students are from the USA.",
+    "options": [
+      {
+        "text": "Three"
+      },
+      {
+        "text": "Six"
+      },
+      {
+        "text": "Four"
+      },
+      {
+        "text": "Two"
+      }
+    ]
+  },
+  {
+    "id": "j5n-00d755d2d8157150a9",
+    "grade": 5,
+    "course": "english",
+    "prompt": "班級資料：日本6人搭計程車、美國4人搭飛機、臺灣2人搭汽車、澳洲3人搭火車、加拿大5人搭公車。\nMary and Tina are the two students who go by car. They are from ____.",
+    "options": [
+      {
+        "text": "Australia"
+      },
+      {
+        "text": "Taiwan"
+      },
+      {
+        "text": "Canada"
+      },
+      {
+        "text": "Japan"
+      }
+    ]
+  },
+  {
+    "id": "j5n-51f3874232ae6a0218",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Where is ____ from?",
+    "options": [
+      {
+        "text": "they"
+      },
+      {
+        "text": "we"
+      },
+      {
+        "text": "Miss Shen"
+      },
+      {
+        "text": "you"
+      }
+    ]
+  },
+  {
+    "id": "j5n-baf0c95a200b51d16a",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Are ____ from Taiwan?",
+    "options": [
+      {
+        "text": "you"
+      },
+      {
+        "text": "he"
+      },
+      {
+        "text": "she"
+      },
+      {
+        "text": "it"
+      }
+    ]
+  },
+  {
+    "id": "j5n-9161c9fca8f32eb9e4",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Where ____ Dino and Kevin from?",
+    "options": [
+      {
+        "text": "am"
+      },
+      {
+        "text": "does"
+      },
+      {
+        "text": "are"
+      },
+      {
+        "text": "is"
+      }
+    ]
+  },
+  {
+    "id": "j5n-1f0f21b57e3a710615",
+    "grade": 5,
+    "course": "english",
+    "prompt": "____ she go home by bike?",
+    "options": [
+      {
+        "text": "Does"
+      },
+      {
+        "text": "Are"
+      },
+      {
+        "text": "Do"
+      },
+      {
+        "text": "Is"
+      }
+    ]
+  },
+  {
+    "id": "j5n-05df27a9911b4d6d15",
+    "grade": 5,
+    "course": "english",
+    "prompt": "____ Jim ____ to school by scooter?",
+    "options": [
+      {
+        "text": "Is / go"
+      },
+      {
+        "text": "Does / go"
+      },
+      {
+        "text": "Does / goes"
+      },
+      {
+        "text": "Do / go"
+      }
+    ]
+  },
+  {
+    "id": "j5n-c2dec4d3eb0488886d",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Do you go home by taxi? No, I ____.",
+    "options": [
+      {
+        "text": "am"
+      },
+      {
+        "text": "do"
+      },
+      {
+        "text": "doesn’t"
+      },
+      {
+        "text": "don’t"
+      }
+    ]
+  },
+  {
+    "id": "j5n-6773145dce5b4b59a9",
+    "grade": 5,
+    "course": "english",
+    "prompt": "提示：她來自日本。____ is she from? She is from Japan.",
+    "options": [
+      {
+        "text": "Who"
+      },
+      {
+        "text": "Where"
+      },
+      {
+        "text": "How"
+      },
+      {
+        "text": "What"
+      }
+    ]
+  },
+  {
+    "id": "j5n-bf4fce04f09da9e390",
+    "grade": 5,
+    "course": "english",
+    "prompt": "答句：They go to school on foot. 哪個問句在問同一件事？",
+    "options": [
+      {
+        "text": "What do they want?"
+      },
+      {
+        "text": "What day is today?"
+      },
+      {
+        "text": "How do they go to school?"
+      },
+      {
+        "text": "Where are they from?"
+      }
+    ]
+  },
+  {
+    "id": "j5n-f29833cda60f36cf34",
+    "grade": 5,
+    "course": "english",
+    "prompt": "提示：你要表達「我來自印度」。Where are you from?",
+    "options": [
+      {
+        "text": "I am from India."
+      },
+      {
+        "text": "I am go India."
+      },
+      {
+        "text": "I are from India."
+      },
+      {
+        "text": "I go to India."
+      }
+    ]
+  },
+  {
+    "id": "j5n-09ba26512fe842fa53",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「從……來」的正確英文是哪個？",
+    "options": [
+      {
+        "text": "front"
+      },
+      {
+        "text": "from"
+      },
+      {
+        "text": "for"
+      },
+      {
+        "text": "form"
+      }
+    ]
+  },
+  {
+    "id": "j5n-87d6999ee28bc0851e",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「搭火車」的正確英文是哪個？",
+    "options": [
+      {
+        "text": "by train"
+      },
+      {
+        "text": "on train"
+      },
+      {
+        "text": "by foot"
+      },
+      {
+        "text": "by plane"
+      }
+    ]
+  },
+  {
+    "id": "j5n-6dbbcd92f7a6820898",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「搭計程車」的正確英文是哪個？",
+    "options": [
+      {
+        "text": "on taxi"
+      },
+      {
+        "text": "by boat"
+      },
+      {
+        "text": "by taxi"
+      },
+      {
+        "text": "by train"
+      }
+    ]
+  },
+  {
+    "id": "j5n-4f4c0a7cbd66fe6836",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「搭機車」的正確英文是哪個？",
+    "options": [
+      {
+        "text": "by school"
+      },
+      {
+        "text": "by train"
+      },
+      {
+        "text": "by scooter"
+      },
+      {
+        "text": "on scooter"
+      }
+    ]
+  },
+  {
+    "id": "j5n-1742ebfcd4332b8c80",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「搭飛機」的正確英文是哪個？",
+    "options": [
+      {
+        "text": "by train"
+      },
+      {
+        "text": "by plane"
+      },
+      {
+        "text": "by plant"
+      },
+      {
+        "text": "on plane"
+      }
+    ]
+  },
+  {
+    "id": "j5n-e6f5f8df452a221296",
+    "grade": 5,
+    "course": "english",
+    "prompt": "「走路」的正確英文是哪個？",
+    "options": [
+      {
+        "text": "on feet"
+      },
+      {
+        "text": "by feet"
+      },
+      {
+        "text": "on foot"
+      },
+      {
+        "text": "by foot"
+      }
+    ]
+  },
+  {
+    "id": "j5n-dae3a02d4f7369e49d",
+    "grade": 5,
+    "course": "english",
+    "prompt": "____ the singers from Italy?",
+    "options": [
+      {
+        "text": "Am"
+      },
+      {
+        "text": "Does"
+      },
+      {
+        "text": "Are"
+      },
+      {
+        "text": "Is"
+      }
+    ]
+  },
+  {
+    "id": "j5n-2caf7afbe223d32863",
+    "grade": 5,
+    "course": "english",
+    "prompt": "The sailor ____ to Kaohsiung by HSR.",
+    "options": [
+      {
+        "text": "goes"
+      },
+      {
+        "text": "go"
+      },
+      {
+        "text": "going"
+      },
+      {
+        "text": "not go"
+      }
+    ]
+  },
+  {
+    "id": "j5n-cf53bf03889e2ed528",
+    "grade": 5,
+    "course": "english",
+    "prompt": "How ____ your friends go to the park?",
+    "options": [
+      {
+        "text": "do"
+      },
+      {
+        "text": "are"
+      },
+      {
+        "text": "does"
+      },
+      {
+        "text": "is"
+      }
+    ]
+  },
+  {
+    "id": "j5n-4cbc364812e5ff7335",
+    "grade": 5,
+    "course": "english",
+    "prompt": "以第三人稱描述 Eric and Betty：____ go to school by bus.",
+    "options": [
+      {
+        "text": "They"
+      },
+      {
+        "text": "He"
+      },
+      {
+        "text": "She"
+      },
+      {
+        "text": "It"
+      }
+    ]
+  },
+  {
+    "id": "j5n-c90f2a09aca2dabc03",
+    "grade": 5,
+    "course": "english",
+    "prompt": "____ are you from?",
+    "options": [
+      {
+        "text": "Who"
+      },
+      {
+        "text": "What"
+      },
+      {
+        "text": "Where"
+      },
+      {
+        "text": "How"
+      }
+    ]
+  },
+  {
+    "id": "j5n-6046278abcc047e6e8",
+    "grade": 5,
+    "course": "english",
+    "prompt": "提示：兩位老師來自新加坡，不是英國。Are the teachers from the UK?",
+    "options": [
+      {
+        "text": "No, he isn’t. He is from Singapore."
+      },
+      {
+        "text": "No, they don’t. They go to Singapore."
+      },
+      {
+        "text": "No, they aren’t. They are from Singapore."
+      },
+      {
+        "text": "Yes, they are. They are from the UK."
+      }
+    ]
+  },
+  {
+    "id": "j5n-abb84b0a64c1d57514",
+    "grade": 5,
+    "course": "english",
+    "prompt": "提示：他搭捷運上班。How ____ he go to work? He ____ to work by MRT.",
+    "options": [
+      {
+        "text": "is / goes"
+      },
+      {
+        "text": "does / goes"
+      },
+      {
+        "text": "do / go"
+      },
+      {
+        "text": "does / go"
+      }
+    ]
+  },
+  {
+    "id": "j5n-888c07540ada7dd5e1",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read: Kenji is from Japan. He lives in Taipei with his grandparents. His friend Mike is from the USA. They go to the same school. Kenji usually goes to school by bus, and Mike usually goes by car. On Fridays they both go by bike. Today is Friday.\nWhere is Kenji from?",
+    "options": [
+      {
+        "text": "Japan"
+      },
+      {
+        "text": "Taiwan"
+      },
+      {
+        "text": "the USA"
+      },
+      {
+        "text": "the UK"
+      }
+    ]
+  },
+  {
+    "id": "j5n-f9093526b38a82f4c9",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read: Kenji is from Japan. He lives in Taipei with his grandparents. His friend Mike is from the USA. They go to the same school. Kenji usually goes to school by bus, and Mike usually goes by car. On Fridays they both go by bike. Today is Friday.\nWhere is Mike from?",
+    "options": [
+      {
+        "text": "India"
+      },
+      {
+        "text": "the USA"
+      },
+      {
+        "text": "Japan"
+      },
+      {
+        "text": "Taiwan"
+      }
+    ]
+  },
+  {
+    "id": "j5n-24ce2b80ed40420b46",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read: Kenji is from Japan. He lives in Taipei with his grandparents. His friend Mike is from the USA. They go to the same school. Kenji usually goes to school by bus, and Mike usually goes by car. On Fridays they both go by bike. Today is Friday.\nHow does Mike usually go to school?",
+    "options": [
+      {
+        "text": "By bus."
+      },
+      {
+        "text": "On foot."
+      },
+      {
+        "text": "By train."
+      },
+      {
+        "text": "By car."
+      }
+    ]
+  },
+  {
+    "id": "j5n-b334315be87f7bcb5f",
+    "grade": 5,
+    "course": "english",
+    "prompt": "Read: Kenji is from Japan. He lives in Taipei with his grandparents. His friend Mike is from the USA. They go to the same school. Kenji usually goes to school by bus, and Mike usually goes by car. On Fridays they both go by bike. Today is Friday.\nHow do Kenji and Mike go to school today?",
+    "options": [
+      {
+        "text": "By car."
+      },
+      {
+        "text": "By plane."
+      },
+      {
+        "text": "By bike."
+      },
+      {
+        "text": "By bus."
+      }
+    ]
+  }
+]

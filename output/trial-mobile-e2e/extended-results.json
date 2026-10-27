@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "engine": "webkit",
+      "viewport": [
+        393,
+        852
+      ],
+      "realLocalApiAndDatabase": true,
+      "createdThroughUi": true,
+      "grade": 6,
+      "standardDrawDebitOne": true,
+      "sixBattleQuestions": true,
+      "newMonster": "wave4-metal-01",
+      "secondAnswerWrongEndsCapture": true,
+      "premiumDrawDebitOne": true,
+      "fullMotionPreference": true,
+      "reloadAfterCaptureOne": true,
+      "savedAfterReload": true,
+      "noOverflow": true,
+      "touchHitTargets": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "chromium",
+      "viewport": [
+        1024,
+        768
+      ],
+      "realLocalApiAndDatabase": true,
+      "createdThroughUi": true,
+      "grade": 6,
+      "standardDrawDebitOne": true,
+      "sixBattleQuestions": true,
+      "newMonster": "wave4-metal-01",
+      "secondAnswerWrongEndsCapture": true,
+      "premiumDrawDebitOne": true,
+      "fullMotionPreference": true,
+      "reloadAfterCaptureOne": true,
+      "savedAfterReload": true,
+      "noOverflow": true,
+      "touchHitTargets": true,
+      "pageErrors": []
+    }
+  ],
+  "physicalDevices": false,
+  "productionPlayerWrites": false
+}

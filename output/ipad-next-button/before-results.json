@@ -1,0 +1,59 @@
+{
+  "reproduced": true,
+  "rows": [
+    {
+      "engine": "chromium",
+      "withBanner": {
+        "viewport": 748,
+        "banner": {
+          "top": 0,
+          "bottom": 76,
+          "height": 76
+        },
+        "main": {
+          "top": 76,
+          "bottom": 824,
+          "height": 748
+        },
+        "next": {
+          "top": 763,
+          "bottom": 807,
+          "height": 44
+        }
+      },
+      "afterBannerExpires": {
+        "x": 25,
+        "y": 687,
+        "width": 974,
+        "height": 44
+      }
+    },
+    {
+      "engine": "webkit",
+      "withBanner": {
+        "viewport": 748,
+        "banner": {
+          "top": 0,
+          "bottom": 76,
+          "height": 76
+        },
+        "main": {
+          "top": 76,
+          "bottom": 824,
+          "height": 748
+        },
+        "next": {
+          "top": 763,
+          "bottom": 807,
+          "height": 44
+        }
+      },
+      "afterBannerExpires": {
+        "x": 25,
+        "y": 687,
+        "width": 974,
+        "height": 44
+      }
+    }
+  ]
+}

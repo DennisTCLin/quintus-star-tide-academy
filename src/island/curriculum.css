@@ -1,0 +1,39 @@
+/* Only the Math Island curriculum browser; no shared game styles or save changes. */
+#math-island .isl-grade-picker { margin-bottom:24px; padding-bottom:24px; border-bottom:1px solid var(--i-line); }
+#math-island .isl-curriculum-heading { display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px 16px; margin-bottom:16px; }
+#math-island .isl-curriculum-heading h2 { font-size:24px; }
+#math-island .isl-curriculum-heading > span { color:var(--i-muted); font-size:15px; }
+#math-island .isl-grade-buttons { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:10px; }
+#math-island .isl-grade-buttons button { min-height:56px; min-width:0; padding:10px 6px; font-size:18px; }
+#math-island .isl-grade-buttons button[aria-pressed="true"] { background:var(--i-sea); color:#12364c; border-color:var(--i-sea); box-shadow:inset 0 0 0 2px #12364c; font-weight:800; }
+#math-island .isl-curriculum button:focus-visible { outline:3px solid var(--i-sun); outline-offset:3px; }
+#math-island .isl-content-note { padding:14px 16px; background:#1b4051; border-left:3px solid var(--i-sun); border-radius:8px; line-height:1.8; font-size:16px; margin:16px 0; }
+#math-island .isl-curriculum-resume { display:flex; align-items:center; gap:8px; white-space:normal; text-align:left; }
+#math-island .isl-curriculum-route { color:var(--i-muted); font-size:16px; margin-bottom:16px; }
+#math-island .isl-curriculum-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+#math-island .isl-curriculum-unit { display:flex; flex-direction:column; align-items:stretch; min-width:0; text-align:left; padding:20px; border:1px solid var(--i-line); border-radius:20px; background:var(--i-card); color:var(--i-ink); }
+#math-island .isl-curriculum-unit:active { background:#245668; }
+#math-island .isl-curriculum-number { font-size:16px; color:var(--i-sun); }
+#math-island .isl-curriculum-title { margin:8px 0 12px; line-height:1.6; font-size:23px; overflow-wrap:anywhere; }
+#math-island .isl-curriculum-unit p { color:var(--i-muted); font-size:16px; margin-top:auto; }
+#math-island .isl-curriculum-status { align-self:flex-start; padding:4px 10px; border:1px solid var(--i-line); border-radius:20px; margin-top:16px; color:var(--i-muted); font-size:14px; }
+#math-island .isl-curriculum-action { display:flex; justify-content:space-between; margin-top:16px; font-weight:700; color:var(--i-sea); }
+#math-island .isl-curriculum-detail { padding:24px; }
+#math-island .isl-curriculum-location { color:var(--i-muted); font-size:16px; margin-top:16px; }
+#math-island .isl-curriculum-detail h3 { font-size:28px; line-height:1.6; margin:10px 0 20px; overflow-wrap:anywhere; }
+#math-island .isl-curriculum-detail h4 { font-size:20px; margin:28px 0 14px; }
+#math-island .isl-curriculum-detail > .isl-btn { display:inline-flex; gap:8px; align-items:center; }
+#math-island .isl-curriculum-detail > .isl-link { min-height:48px; padding:8px 0; text-align:left; }
+#math-island .isl-concept-list { list-style:none; display:grid; gap:12px; margin:0; padding:0; }
+#math-island .isl-concept-list li { display:flex; gap:14px; align-items:flex-start; background:#1b4051; padding:16px; border-radius:14px; }
+#math-island .isl-concept-list li > span { display:grid; place-items:center; flex:none; width:30px; height:30px; border-radius:50%; background:var(--i-sea); color:#12364c; font-weight:800; }
+#math-island .isl-concept-list p { font-size:18px; overflow-wrap:anywhere; }
+#math-island .isl-section-list { padding-left:24px; display:grid; gap:12px; line-height:1.8; }
+#math-island .isl-curriculum-codes summary { min-height:48px; padding:12px 0; cursor:pointer; }
+#math-island .isl-curriculum-codes p { color:var(--i-muted); font-size:15px; }
+@media(max-width:680px) {
+  #math-island .isl-grade-buttons { grid-template-columns:repeat(3,minmax(0,1fr)); }
+  #math-island .isl-curriculum-grid { grid-template-columns:minmax(0,1fr); }
+  #math-island .isl-curriculum-detail { padding:16px; }
+  #math-island .isl-curriculum-detail h3 { font-size:24px; }
+}

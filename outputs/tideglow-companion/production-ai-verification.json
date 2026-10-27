@@ -1,0 +1,22 @@
+{
+  "keyConfigured": true,
+  "noDatabaseAccess": true,
+  "anonymous": true,
+  "cases": [
+    {
+      "choice": "pet",
+      "source": "ai",
+      "line": "你的摸摸很溫柔，讓我很舒服。"
+    },
+    {
+      "choice": "feed",
+      "source": "ai",
+      "line": "收到你的點心，心情很舒服。"
+    },
+    {
+      "choice": "play",
+      "source": "ai",
+      "line": "星光球很亮，和你一起玩球好奇很棒喔！"
+    }
+  ]
+}

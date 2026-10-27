@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "mascot": "dog",
+      "viewport": [
+        375,
+        667
+      ],
+      "firstScreenDeparture": true,
+      "navClear": true,
+      "launcherClear": true,
+      "dialogActorSquare": true,
+      "voicePanelOpens": true
+    },
+    {
+      "mascot": "bow",
+      "viewport": [
+        820,
+        1180
+      ],
+      "firstScreenDeparture": true,
+      "navClear": true,
+      "launcherClear": true,
+      "dialogActorSquare": true,
+      "voicePanelOpens": true
+    },
+    {
+      "mascot": "tideglow",
+      "viewport": [
+        1180,
+        820
+      ],
+      "firstScreenDeparture": true,
+      "navClear": true,
+      "launcherClear": true,
+      "dialogActorSquare": true,
+      "voicePanelOpens": true
+    }
+  ],
+  "syntheticAPIIntercepted": true,
+  "productionStateWrites": false,
+  "physicalIPad": false,
+  "pageErrors": []
+}

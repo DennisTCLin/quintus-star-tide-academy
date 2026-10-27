@@ -1,0 +1,114 @@
+[
+  {
+    "state": "pet",
+    "job": "7310c09c-fbe3-4d2e-a6d3-f25dd29ea3ec",
+    "bytes": 273248,
+    "sha256": "b66b3ec6f5236963ea432de32715ef424eccaad3c30c5945cfb6e77bc3244c69",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 640,
+        "height": 640,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667"
+      }
+    ]
+  },
+  {
+    "state": "feed",
+    "job": "5fb17ed9-1409-4938-a3db-4f72a6f78232",
+    "bytes": 178834,
+    "sha256": "7c1bc7527c6c1f13602f805593617d075c8017f402a2c467f34f8570c5e86232",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 640,
+        "height": 640,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667"
+      }
+    ]
+  },
+  {
+    "state": "play",
+    "job": "9de593cf-f8d1-42aa-a21f-1440f86e3a8a",
+    "bytes": 418706,
+    "sha256": "783c910cfafbfc2c7a56f14653392724a5ad8639641f83e575d65a9d8be91888",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 640,
+        "height": 640,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667"
+      }
+    ]
+  },
+  {
+    "state": "listening",
+    "job": "e3c2057f-b2f0-41a7-b771-36725ff6c215",
+    "bytes": 213433,
+    "sha256": "51f8c243295e2f992afcf7831d717c5c6fdd3fdbb0c49f4a528b983fe69a40f0",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 640,
+        "height": 640,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667"
+      }
+    ]
+  },
+  {
+    "state": "thinking",
+    "job": "29237c60-968e-4e43-a7d0-11f1238c8a86",
+    "bytes": 169341,
+    "sha256": "174d576ca741f2e1c6e1225957f7fa4bb044912184cddf170659486190bbda57",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 640,
+        "height": 640,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667"
+      }
+    ]
+  },
+  {
+    "state": "speaking",
+    "job": "44ee1209-3166-4a96-97cc-73593703d1e8",
+    "bytes": 178158,
+    "sha256": "89068c2c0c381e44b2699c68f50d40b164689768d1cb83ff31344d8597e55ac2",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 640,
+        "height": 640,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667"
+      }
+    ]
+  },
+  {
+    "state": "rest",
+    "job": "949bdc09-a577-4f83-9f20-cce7d9f1201c",
+    "bytes": 180144,
+    "sha256": "80fb501f517887428cc4d1b7ee56df64217ad26244b4463763dfc823bc0dc973",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 640,
+        "height": 640,
+        "r_frame_rate": "24/1",
+        "duration": "5.041667"
+      }
+    ]
+  }
+]

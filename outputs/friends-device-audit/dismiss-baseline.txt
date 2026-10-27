@@ -1,0 +1,40 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/online-battle.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/battle-performance/星潮網站開發
+
+ ❯ src/__tests__/online-battle.test.mjs (10 tests | 1 failed) 1332ms
+   ❯ server-owned online friend battles (10)
+     × lets both participants acknowledge a terminal result from the same revision 41ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/online-battle.test.mjs > server-owned online friend battles > lets both participants acknowledge a terminal result from the same revision
+AssertionError: expected [ 200, 409 ] to deeply equal [ 200, 200 ]
+
+- Expected
++ Received
+
+  [
+    200,
+-   200,
++   409,
+  ]
+
+ ❯ src/__tests__/online-battle.test.mjs:107:36
+    105|   const bodies=[0,1].map(()=>({player:'quintus',action:'dismiss',comma…
+    106|   const results=await Promise.all(bodies.map((body,i)=>call('online-ba…
+    107|   expect(results.map(r=>r.status)).toEqual([200,200]);
+       |                                    ^
+    108|   expect(results.map(r=>r.data.room)).toEqual([null,null]);
+    109|   const saved=async()=>(await api.pool.query('SELECT revision,battle,d…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 9 passed (10)
+   Start at  19:11:59
+   Duration  1.48s (tests 94%, import 4%, transform 2%)

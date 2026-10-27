@@ -1,0 +1,283 @@
+{
+  "site": "https://quintus-star-tide-academy-production.up.railway.app",
+  "deployment": "29502c2c-4540-4326-96ca-07e0f0d83098",
+  "sourceCommit": "6fbd05983cfc2818ce8512f2aa03bbd76fff6bcd",
+  "checks": [
+    {
+      "check": "health",
+      "pass": true
+    },
+    {
+      "check": "entry",
+      "pass": true,
+      "path": "/assets/index.v-Cuynff1G.js"
+    },
+    {
+      "path": "/assets/index.v-Cuynff1G.js",
+      "pass": true,
+      "mime": "text/javascript; charset=utf-8",
+      "bytes": 466056,
+      "sha256": "62979d26f34b3f1bf8191f0e5763c8f4a36acb8daa51b1f38b099f58620e2b61"
+    },
+    {
+      "path": "/assets/olivia-dog/hello-v1.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 218600,
+      "sha256": "37b3d49286a9601f28d59f26bc129296703d5c8ca97946355eb2af6b6c206e13"
+    },
+    {
+      "path": "/players/alston.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 378493,
+      "sha256": "a884e7e17d54e16dda1c12ab3459cdfc4437001b5471060a31eefc0966e7bba9"
+    },
+    {
+      "path": "/assets/tideglow-guide/pet.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 273248,
+      "sha256": "b66b3ec6f5236963ea432de32715ef424eccaad3c30c5945cfb6e77bc3244c69"
+    },
+    {
+      "path": "/assets/tideglow-guide/feed.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 178834,
+      "sha256": "7c1bc7527c6c1f13602f805593617d075c8017f402a2c467f34f8570c5e86232"
+    },
+    {
+      "path": "/assets/tideglow-guide/play.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 418706,
+      "sha256": "783c910cfafbfc2c7a56f14653392724a5ad8639641f83e575d65a9d8be91888"
+    },
+    {
+      "path": "/assets/tideglow-guide/actions-v2/bubbles.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 648887,
+      "sha256": "3a3d816577952f9c4f5035bbda408c399197129b85fa3dea1ace89fe1c35ec1d"
+    },
+    {
+      "path": "/assets/tideglow-guide/actions-v2/rest.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 610007,
+      "sha256": "6dfcb64fb40392c44266a2e34bfd4730a50bf3d5cea8ac68040a56663224a961"
+    },
+    {
+      "path": "/assets/tideglow-guide/actions-v2/feed.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 88629,
+      "sha256": "6bf51a217f4fd0948e5f74348e5c70be8261412a83e242102f64b8b6ae721afb"
+    },
+    {
+      "path": "/assets/tideglow-guide/actions-v2/highfive.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 76937,
+      "sha256": "2d034654ea38a174a198d5e3444e7685c557d71ba0d2514a810ebb3d378e4099"
+    },
+    {
+      "path": "/assets/tideglow-guide/actions-v2/highfive.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 735727,
+      "sha256": "d142c8e2d56540e9a241716c9df378279e11a6f0f2335a0fc5b8ae14e8987fa1"
+    },
+    {
+      "path": "/assets/tideglow-guide/actions-v2/pet.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 86221,
+      "sha256": "e4957e9149e97f94b1ac4b5e996b771e28cee165a26005da3680d07eabb9daa3"
+    },
+    {
+      "path": "/assets/tideglow-guide/actions-v2/rest.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 72797,
+      "sha256": "d3b9e05808c3305c6314bfaf87b5947de690beb97d8e655f78e914446e6c44e3"
+    },
+    {
+      "path": "/assets/tideglow-guide/actions-v2/bubbles.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 76465,
+      "sha256": "97575433fc884e665131c809e72c015ca22299bf72ee059c80162ef3c6a341e8"
+    },
+    {
+      "path": "/assets/tideglow-guide/actions-v2/play.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 82345,
+      "sha256": "69ca80eadbbdf5877152a1523d9add4be90a6b6e4234ca2c32152f0cbf36c2b7"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/bubbles.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 369229,
+      "sha256": "70ab3e69514d18655eaa9c011f3f00a7a00c0ae45c9deee36ba0ff36ee4b405f"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/rest.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 408448,
+      "sha256": "33f1cb9a298b0d96ed41ec2ee219692b692673968fd0c0bb0eac73589b2031de"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/feed.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 34104,
+      "sha256": "480e0d788af5106dc8562d269189358fbd55826612cd7254892247166a34e879"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/pet.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 496637,
+      "sha256": "e8b0a6aee2156836d277ec72862f632a5e50fe38f1e60575dc0f42b12916c979"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/speaking.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 33220,
+      "sha256": "78b62341a739dbb4826825afa2bd5c22e7349176abd7fc5586a913a523732946"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/play.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 548663,
+      "sha256": "009e46aba8aedad45722e8eb2144f3a04f82bdf883eb30b3c6ab6d8b5c3194d2"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/thinking.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 352377,
+      "sha256": "3b7d5168dd8c9b2179451c07fbde4e8a730bcfe4d857a57c94a9da442ed6cf54"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/idle.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 28078,
+      "sha256": "5e6202463072a2fe50d5985c769ecf9b9d7c0187978d9c99812db64ead3e503f"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/highfive.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 34620,
+      "sha256": "a2e817014564ba0df7f810c76b9090e84c4ffea323ca5cf762538b97c36bd79e"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/cheering.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 558355,
+      "sha256": "72b52646d68948eb701006177520bdf74273f1dec7ce33fbe6ce91850d2e1bdb"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/listening.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 30024,
+      "sha256": "ff6b76902edfa2fe282be3652ba76a5b7c06193209518affa98b4e59d33f5176"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/cheering.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 30591,
+      "sha256": "98ef87af4275c48bd3b7811a16b7fbaa6013b1bf646a819cb329e124a6098fcd"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/highfive.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 465261,
+      "sha256": "0504dab6efa4769dc5f3fceb852567bcffede947ac0e03aad2ea9eb66b614cc7"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/thinking.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 32267,
+      "sha256": "9b75ab831ba59336482a0e92d5d01538ed4c1db62041b2145ec31f6e28034cc1"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/idle.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 345748,
+      "sha256": "ef9ff502e8f58584ef5c29e5f55568af23ea885d2ca5c4d452fb13e89f854b76"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/listening.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 346285,
+      "sha256": "3ffcfa2278d51cb122831b33aa877e5df6282a20c16ddaa2031266964eb276ec"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/pet.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 33484,
+      "sha256": "955cd6e22e7b8200e33d538ffb1fabe543a854c18c9a89eba24c5bd58dd5e0dc"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/rest.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 30449,
+      "sha256": "e1c922a604e310e17c70dd5f3a59aab29fd05f8f72cfa740d3fa7defe80d8e72"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/bubbles.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 34046,
+      "sha256": "05fa414c1f603cf88da62d1d8beba06dcc0bfec9ea0c2a79740ded1be3a145b9"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/feed.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 379167,
+      "sha256": "fac93b07e3a36da871bbff179319c248e192dd8a9b15c93cce6a458b21defc7a"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/play.jpg",
+      "pass": true,
+      "mime": "image/jpeg",
+      "bytes": 34747,
+      "sha256": "11b15fe7c4825745c7895fda23403118e47eb9c9278f10c7cc69f6c1001cdb37"
+    },
+    {
+      "path": "/assets/olivia-dog/actions-v2/speaking.mp4",
+      "pass": true,
+      "mime": "video/mp4",
+      "bytes": 372796,
+      "sha256": "4b4d86de4c445e51dfc50734c969dbaf8b75c7d7a714192067a26d394004e635"
+    },
+    {
+      "path": "/assets/companion-ui/care-actions-v2.webp",
+      "pass": true,
+      "mime": "image/webp",
+      "bytes": 41838,
+      "sha256": "e2d1daa281b07702a0edfd77eb970985450902b2b2a390806a4bae51e242b2f6"
+    }
+  ],
+  "pass": true
+}

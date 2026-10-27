@@ -1,0 +1,1161 @@
+{
+  "scope": "file presence, decoding, duration, hash; NOT perceptual pronunciation verification",
+  "count": 165,
+  "recordings": [
+    {
+      "id": "market-0",
+      "word": "香蕉",
+      "zy": "ㄒㄧㄤ ㄐㄧㄠ",
+      "duration": 0.64,
+      "sha256": "3c180ab1d9675285f5a9d3ca8e5c294c47f16541c1decca9b5f68276e9a4861f"
+    },
+    {
+      "id": "market-1",
+      "word": "蘋果",
+      "zy": "ㄆㄧㄥˊ ㄍㄨㄛˇ",
+      "duration": 0.64,
+      "sha256": "956138c38d03de8ca54cd4946ed95a351cfeaa8b159322fefb4eaeecab026d1b"
+    },
+    {
+      "id": "market-2",
+      "word": "西瓜",
+      "zy": "ㄒㄧ ㄍㄨㄚ",
+      "duration": 0.96,
+      "sha256": "853283261641186afa9f6d0ec3fd662d36ea16f9fe0d7936f37d34521a22489e"
+    },
+    {
+      "id": "market-3",
+      "word": "草莓",
+      "zy": "ㄘㄠˇ ㄇㄟˊ",
+      "duration": 1.04,
+      "sha256": "01f02f00e818aa8b578b630d90b17cd1157a324a9f5df8b4bca086c70ec7402d"
+    },
+    {
+      "id": "market-4",
+      "word": "葡萄",
+      "zy": "ㄆㄨˊ ㄊㄠˊ",
+      "duration": 0.96,
+      "sha256": "5afe917754cfc8d1c6c7c9ad40d1cc4d3d422ee715c8706cdb901904aa7f6422"
+    },
+    {
+      "id": "market-5",
+      "word": "玉米",
+      "zy": "ㄩˋ ㄇㄧˇ",
+      "duration": 2.48,
+      "sha256": "9ff57746e4b70df5f6d5ba007d65e90ada5c49f2f213c259644db49358eb427d"
+    },
+    {
+      "id": "market-6",
+      "word": "南瓜",
+      "zy": "ㄋㄢˊ ㄍㄨㄚ",
+      "duration": 0.72,
+      "sha256": "91160a0ece99f74a3f6e4c5b619691f59c7de917cc065b944198a4f453998d12"
+    },
+    {
+      "id": "market-7",
+      "word": "紅蘿蔔",
+      "zy": "ㄏㄨㄥˊ ㄌㄨㄛˊ ˙ㄅㄛ",
+      "duration": 2.0,
+      "sha256": "351611287aaaacb0df8a097195c6bcec1395ebf694b6253eae068e70da17b815"
+    },
+    {
+      "id": "market-8",
+      "word": "番茄",
+      "zy": "ㄈㄢ ㄑㄧㄝˊ",
+      "duration": 0.96,
+      "sha256": "0b6c738b8019245a15bfefc550f196d5d37c12d330205f9aaef230baaea6b77b"
+    },
+    {
+      "id": "breakfast-0",
+      "word": "麵包",
+      "zy": "ㄇㄧㄢˋ ㄅㄠ",
+      "duration": 0.96,
+      "sha256": "22aabb5037e4e69820e80c6080dc4beb192f82fda52373768943942adc773ecf"
+    },
+    {
+      "id": "breakfast-1",
+      "word": "牛奶",
+      "zy": "ㄋㄧㄡˊ ㄋㄞˇ",
+      "duration": 0.72,
+      "sha256": "74c4c19a320226ba9729c402647dc99cd835ad30f57555f6e1b58a440c8492b5"
+    },
+    {
+      "id": "breakfast-2",
+      "word": "雞蛋",
+      "zy": "ㄐㄧ ㄉㄢˋ",
+      "duration": 0.64,
+      "sha256": "866f0cc5729fa905107b576ccb5b5901630030a604520fe57cde307cebf9a86d"
+    },
+    {
+      "id": "breakfast-3",
+      "word": "豆漿",
+      "zy": "ㄉㄡˋ ㄐㄧㄤ",
+      "duration": 1.12,
+      "sha256": "942a8f81962daaf640a85250e3ec7b8d1b8ce92bf87c396a417fba7a52f8af8f"
+    },
+    {
+      "id": "breakfast-4",
+      "word": "包子",
+      "zy": "ㄅㄠ ˙ㄗ",
+      "duration": 1.92,
+      "sha256": "07809039e99e9ce9702d7196d2b3f225d0fe6100fe90db70f65243636930ffd4"
+    },
+    {
+      "id": "breakfast-5",
+      "word": "饅頭",
+      "zy": "ㄇㄢˊ ˙ㄊㄡ",
+      "duration": 0.88,
+      "sha256": "c940f043281cb61b0b8533055b6919edaab81f11edefb2975f57f1a30114616e"
+    },
+    {
+      "id": "breakfast-6",
+      "word": "飯糰",
+      "zy": "ㄈㄢˋ ㄊㄨㄢˊ",
+      "duration": 1.92,
+      "sha256": "f6510e2af48dabc5b30fbd3c845487249767584b7b601be1856ed4df5a2bcc0e"
+    },
+    {
+      "id": "breakfast-7",
+      "word": "地瓜",
+      "zy": "ㄉㄧˋ ㄍㄨㄚ",
+      "duration": 0.96,
+      "sha256": "129843666ba5991a51a3f6d3d1a9681ab99274860105164b4be7a4f0cfb7d446"
+    },
+    {
+      "id": "breakfast-8",
+      "word": "餅乾",
+      "zy": "ㄅㄧㄥˇ ㄍㄢ",
+      "duration": 1.92,
+      "sha256": "02129f7e866120b7cad611a23621869dcd293163e301a6b4a63e798781e67fdc"
+    },
+    {
+      "id": "ocean-0",
+      "word": "螃蟹",
+      "zy": "ㄆㄤˊ ㄒㄧㄝˋ",
+      "duration": 0.88,
+      "sha256": "76b2c9d63c113cf1e54a5f772a880ed0280d11024ac0711ced22a85eeba0cbbd"
+    },
+    {
+      "id": "ocean-1",
+      "word": "海星",
+      "zy": "ㄏㄞˇ ㄒㄧㄥ",
+      "duration": 1.2,
+      "sha256": "2efa38e0f347f59f60d6908f58f636fb1757710e55d66d849b1cdfb32e296f86"
+    },
+    {
+      "id": "ocean-2",
+      "word": "貝殼",
+      "zy": "ㄅㄟˋ ㄎㄜˊ",
+      "duration": 0.88,
+      "sha256": "54bfa7a7dac1d6d69713568f22dd9ed695d485edc374b2e054f2099fa744027e"
+    },
+    {
+      "id": "ocean-3",
+      "word": "水母",
+      "zy": "ㄕㄨㄟˇ ㄇㄨˇ",
+      "duration": 2.24,
+      "sha256": "d77d9ce2dfc9d2a3d06bec8aa7950dd6d2ba804b2f310b5b3057e174ede58a6a"
+    },
+    {
+      "id": "ocean-4",
+      "word": "章魚",
+      "zy": "ㄓㄤ ㄩˊ",
+      "duration": 0.88,
+      "sha256": "64a25ca24dffc054d4b1245ae31e99a17313e3a078a1948cbcc5a9caa97a31ff"
+    },
+    {
+      "id": "ocean-5",
+      "word": "海龜",
+      "zy": "ㄏㄞˇ ㄍㄨㄟ",
+      "duration": 0.64,
+      "sha256": "1bfee352c131be6142292f06258151442513875a89d723417fbb2c43e46dc17f"
+    },
+    {
+      "id": "ocean-6",
+      "word": "小魚",
+      "zy": "ㄒㄧㄠˇ ㄩˊ",
+      "duration": 0.88,
+      "sha256": "5bdd3a1f1d07c9a0098ffe8e040a633ed1b1ee2d6d8a0851d9cff2da982ae260"
+    },
+    {
+      "id": "ocean-7",
+      "word": "龍蝦",
+      "zy": "ㄌㄨㄥˊ ㄒㄧㄚ",
+      "duration": 0.96,
+      "sha256": "274ced1a29953fe5d2a5d59ed1b499e16e4b0f4d714cf1f9525e3032b4461bbf"
+    },
+    {
+      "id": "ocean-8",
+      "word": "海馬",
+      "zy": "ㄏㄞˇ ㄇㄚˇ",
+      "duration": 0.64,
+      "sha256": "d80a753c69394066f3ded52f5b6d775fc5eb9f9ae3f6a4c0bc12c34f24f69eaa"
+    },
+    {
+      "id": "bath-0",
+      "word": "牙刷",
+      "zy": "ㄧㄚˊ ㄕㄨㄚ",
+      "duration": 0.88,
+      "sha256": "71043db6e35c641b9ad65252012e105c0859fa4044c9bb0ee334e13b41747353"
+    },
+    {
+      "id": "bath-1",
+      "word": "毛巾",
+      "zy": "ㄇㄠˊ ㄐㄧㄣ",
+      "duration": 0.88,
+      "sha256": "b405d2db0e345254d12ce041599351d1bec280cc768d795c84793fa6aba5fb46"
+    },
+    {
+      "id": "bath-2",
+      "word": "肥皂",
+      "zy": "ㄈㄟˊ ㄗㄠˋ",
+      "duration": 0.72,
+      "sha256": "75fdff843aa31f6577e60175f4c2fdd7de92ef8c2d847b0aa0400ae72a8dc64e"
+    },
+    {
+      "id": "bath-3",
+      "word": "梳子",
+      "zy": "ㄕㄨ ˙ㄗ",
+      "duration": 0.64,
+      "sha256": "4e844d0455263c3f68d8f0bd622fd4c16d1df37eadae93b2e7e56cd53345cfef"
+    },
+    {
+      "id": "bath-4",
+      "word": "鏡子",
+      "zy": "ㄐㄧㄥˋ ˙ㄗ",
+      "duration": 0.96,
+      "sha256": "253df38503e9be1c756efa7f7176962749712d05dbe07372e3fa8f98da7fc218"
+    },
+    {
+      "id": "bath-5",
+      "word": "浴缸",
+      "zy": "ㄩˋ ㄍㄤ",
+      "duration": 1.12,
+      "sha256": "3d7443f512787c96437d36e7911897743278da30da2984c40491053e1e53c2fd"
+    },
+    {
+      "id": "bath-6",
+      "word": "拖鞋",
+      "zy": "ㄊㄨㄛ ㄒㄧㄝˊ",
+      "duration": 0.96,
+      "sha256": "0c340e16d41fa1b380bfddaa356c766a5040b8376a59d1d13e60d1568dd2d658"
+    },
+    {
+      "id": "bath-7",
+      "word": "水桶",
+      "zy": "ㄕㄨㄟˇ ㄊㄨㄥˇ",
+      "duration": 2.16,
+      "sha256": "6f5db7ee7ca0da19ab4475fb817f73800fce11fc02cbd93a5e21240aa8dd43f8"
+    },
+    {
+      "id": "bath-8",
+      "word": "蓮蓬頭",
+      "zy": "ㄌㄧㄢˊ ˙ㄆㄥ ㄊㄡˊ",
+      "duration": 1.2,
+      "sha256": "3afab7d9d2b8158ddecb1f6d41354ba5738c7342c5344c4603624cc7150b08bb"
+    },
+    {
+      "id": "toys-0",
+      "word": "積木",
+      "zy": "ㄐㄧ ㄇㄨˋ",
+      "duration": 1.84,
+      "sha256": "5d9ed6d178b171c8d38fe6f9695d61ff4e20cc677a393e90becb2c2bff0595d0"
+    },
+    {
+      "id": "toys-1",
+      "word": "火車",
+      "zy": "ㄏㄨㄛˇ ㄔㄜ",
+      "duration": 0.96,
+      "sha256": "5c4108f4b49fff1b7a7eb6cdb3ae13bbc8cd8d7b20424a7919dab76a5cd24e99"
+    },
+    {
+      "id": "toys-2",
+      "word": "飛機",
+      "zy": "ㄈㄟ ㄐㄧ",
+      "duration": 1.04,
+      "sha256": "d47e8a798fd03be26502dc0ecce1fa4cf5c2b9800dd7de02bdaaa12001000bbe"
+    },
+    {
+      "id": "toys-3",
+      "word": "機器人",
+      "zy": "ㄐㄧ ㄑㄧˋ ㄖㄣˊ",
+      "duration": 0.96,
+      "sha256": "e78d0031312453e6b757cb17694b1c48bffbfb0aff9fa83649b018f54c22fe0a"
+    },
+    {
+      "id": "toys-4",
+      "word": "布偶",
+      "zy": "ㄅㄨˋ ㄡˇ",
+      "duration": 2.0,
+      "sha256": "0f584e579c2182e4c4510f111ce5880e3cbe7e8d8b81001f79363553fde007c4"
+    },
+    {
+      "id": "toys-5",
+      "word": "皮球",
+      "zy": "ㄆㄧˊ ㄑㄧㄡˊ",
+      "duration": 0.96,
+      "sha256": "967491448a3a1271954c058b499aaa9a5f284031c2e07d49579b97eaa580fb35"
+    },
+    {
+      "id": "toys-6",
+      "word": "拼圖",
+      "zy": "ㄆㄧㄣ ㄊㄨˊ",
+      "duration": 0.88,
+      "sha256": "670f3abbb837e11b12efc2b023d9a266276ee4afb18e104c70544b8cf3eb8e08"
+    },
+    {
+      "id": "toys-7",
+      "word": "陀螺",
+      "zy": "ㄊㄨㄛˊ ㄌㄨㄛˊ",
+      "duration": 0.96,
+      "sha256": "2a0f9d065aad6601a6daeec1c561b491390c83da8b7de9c66430d68fc290263c"
+    },
+    {
+      "id": "toys-8",
+      "word": "小鼓",
+      "zy": "ㄒㄧㄠˇ ㄍㄨˇ",
+      "duration": 0.64,
+      "sha256": "89edf923dedded21ccb9835b9e2e49337402e9eb3eb16634d9042ea9c3cd5235"
+    },
+    {
+      "id": "music-0",
+      "word": "鋼琴",
+      "zy": "ㄍㄤ ㄑㄧㄣˊ",
+      "duration": 1.12,
+      "sha256": "1f8e75dc7c35b11a3c42ed5971a9818300726ca532ac38c759d7972cc5c88260"
+    },
+    {
+      "id": "music-1",
+      "word": "小提琴",
+      "zy": "ㄒㄧㄠˇ ㄊㄧˊ ㄑㄧㄣˊ",
+      "duration": 1.12,
+      "sha256": "fdb835b6cbb3178203e5c70211eb697a85e0e5ba947f8fd48d7a2d95f719c4d4"
+    },
+    {
+      "id": "music-2",
+      "word": "吉他",
+      "zy": "ㄐㄧˊ ㄊㄚ",
+      "duration": 0.96,
+      "sha256": "762274f3f2d4b5bea891f56c93c3a5eab1b616a10328df6c56d57f364cc205d8"
+    },
+    {
+      "id": "music-3",
+      "word": "喇叭",
+      "zy": "ㄌㄚˇ ㄅㄚ",
+      "duration": 0.72,
+      "sha256": "7b3f3784d2c4ab0f4da4a5ce63e6ceed18cd33495f997b2a40448b63e1e9ac2a"
+    },
+    {
+      "id": "music-4",
+      "word": "木琴",
+      "zy": "ㄇㄨˋ ㄑㄧㄣˊ",
+      "duration": 0.64,
+      "sha256": "f83429af15baa20c0b823781a962f1c95f58a9f5ae5ddc365868ef7e8ce2bfcb"
+    },
+    {
+      "id": "music-5",
+      "word": "鈴鼓",
+      "zy": "ㄌㄧㄥˊ ㄍㄨˇ",
+      "duration": 1.2,
+      "sha256": "ee4ebf43560c4f08dbf2cff10d25e9c02eab71c777f232d60e9dd6df4af3f4d2"
+    },
+    {
+      "id": "music-6",
+      "word": "三角鐵",
+      "zy": "ㄙㄢ ㄐㄧㄠˇ ㄊㄧㄝˇ",
+      "duration": 1.28,
+      "sha256": "ee0b7746bbe713a7a900dcc713175c55a82f43fa1d3be234128d2045e6e4dd7a"
+    },
+    {
+      "id": "music-7",
+      "word": "直笛",
+      "zy": "ㄓˊ ㄉㄧˊ",
+      "duration": 2.08,
+      "sha256": "d9edc91710c731a2c38de144317d6f08001a4e813bac69cfcfdf468a6abcc834"
+    },
+    {
+      "id": "music-8",
+      "word": "沙鈴",
+      "zy": "ㄕㄚ ㄌㄧㄥˊ",
+      "duration": 0.88,
+      "sha256": "1daa7cdc4e74c6612985f07be9b64569c5dfc57bfb8075a78aef0d8edcecf222"
+    },
+    {
+      "id": "art-0",
+      "word": "剪刀",
+      "zy": "ㄐㄧㄢˇ ㄉㄠ",
+      "duration": 0.88,
+      "sha256": "76d38f39c9c3b4ef5ea298cb2c68d142d1eb2c96f5a433a90f6e05f6208aa3fe"
+    },
+    {
+      "id": "art-1",
+      "word": "白膠",
+      "zy": "ㄅㄞˊ ㄐㄧㄠ",
+      "duration": 0.88,
+      "sha256": "6315140d65bdfd539ff317a096c88850d6aed91f261bdc05825e85cb88f26b85"
+    },
+    {
+      "id": "art-2",
+      "word": "蠟筆",
+      "zy": "ㄌㄚˋ ㄅㄧˇ",
+      "duration": 2.0,
+      "sha256": "0891e53d3cdced37ec8ff854481feb65447878c2e321553a52e8e6545932e7e1"
+    },
+    {
+      "id": "art-3",
+      "word": "彩色筆",
+      "zy": "ㄘㄞˇ ㄙㄜˋ ㄅㄧˇ",
+      "duration": 1.6,
+      "sha256": "40d199e63d4e473313385b010f64bf57358ddbd60f506d00a313558f1287454b"
+    },
+    {
+      "id": "art-4",
+      "word": "水彩",
+      "zy": "ㄕㄨㄟˇ ㄘㄞˇ",
+      "duration": 0.96,
+      "sha256": "05e9dbb83cb56f576d18e2e417354ee74d484b40ef91f200ec3b14a2e178e885"
+    },
+    {
+      "id": "art-5",
+      "word": "畫筆",
+      "zy": "ㄏㄨㄚˋ ㄅㄧˇ",
+      "duration": 0.88,
+      "sha256": "1dee3bd795be20e3223dcb103d46417c4bb2aebf9edfd0ec5f30fed4acf921de"
+    },
+    {
+      "id": "art-6",
+      "word": "白紙",
+      "zy": "ㄅㄞˊ ㄓˇ",
+      "duration": 0.88,
+      "sha256": "42bd77b7e9827a25c71234774f4ebdb7c2ee9e563318d6a09f9abb48b4db7246"
+    },
+    {
+      "id": "art-7",
+      "word": "黏土",
+      "zy": "ㄋㄧㄢˊ ㄊㄨˇ",
+      "duration": 1.84,
+      "sha256": "a9ce04c5d17044900c77aa5932f216107ea50b1adb50211b159a959b3679b3ca"
+    },
+    {
+      "id": "art-8",
+      "word": "貼紙",
+      "zy": "ㄊㄧㄝ ㄓˇ",
+      "duration": 1.04,
+      "sha256": "a8e2dd04dba899df224271dc92609096dea8559f3879e202d5f063148b0746cc"
+    },
+    {
+      "id": "clothes-0",
+      "word": "帽子",
+      "zy": "ㄇㄠˋ ˙ㄗ",
+      "duration": 0.88,
+      "sha256": "2152cbec8cb2c34f6d3dabce8a9e13d35c361c23802db66f6a0f3a3b16b59231"
+    },
+    {
+      "id": "clothes-1",
+      "word": "外套",
+      "zy": "ㄨㄞˋ ㄊㄠˋ",
+      "duration": 0.88,
+      "sha256": "c8a897124db544e8fdbb530b3767e1b018664eb41f6d763e067c66dc30232f54"
+    },
+    {
+      "id": "clothes-2",
+      "word": "雨衣",
+      "zy": "ㄩˇ ㄧ",
+      "duration": 0.96,
+      "sha256": "e36d7cc75ea549dbaa416cc63770c2d0cf35cb79c8fa4fc22cf81b5804cdf099"
+    },
+    {
+      "id": "clothes-3",
+      "word": "圍巾",
+      "zy": "ㄨㄟˊ ㄐㄧㄣ",
+      "duration": 1.12,
+      "sha256": "3f927858d86a6a91641b885379d804ec9f43941132b4de9f30d5de33e0bcf216"
+    },
+    {
+      "id": "clothes-4",
+      "word": "手套",
+      "zy": "ㄕㄡˇ ㄊㄠˋ",
+      "duration": 0.88,
+      "sha256": "3e548f5ad9d608ecf4bc04038a0ffdfd555dcb17fe07dd308e4f7ff898857d48"
+    },
+    {
+      "id": "clothes-5",
+      "word": "襪子",
+      "zy": "ㄨㄚˋ ˙ㄗ",
+      "duration": 0.96,
+      "sha256": "30420241ed46c064e7752251cf5a51a3aa04ae91c131939ce0859dbb574a1988"
+    },
+    {
+      "id": "clothes-6",
+      "word": "雨鞋",
+      "zy": "ㄩˇ ㄒㄧㄝˊ",
+      "duration": 0.96,
+      "sha256": "020367052af3c180586e84225bc574b91fcd45dadc911b32d96a33e49654bee7"
+    },
+    {
+      "id": "clothes-7",
+      "word": "裙子",
+      "zy": "ㄑㄩㄣˊ ˙ㄗ",
+      "duration": 2.32,
+      "sha256": "5830f8f2e4b7c1386d84ba4bbab34124417349c3c3d331aa2c9c433a01b26318"
+    },
+    {
+      "id": "clothes-8",
+      "word": "褲子",
+      "zy": "ㄎㄨˋ ˙ㄗ",
+      "duration": 0.64,
+      "sha256": "bd68fff9a344898986a40d812a8a171b6f247659c1203f90292727075570e4d0"
+    },
+    {
+      "id": "garden-0",
+      "word": "蝴蝶",
+      "zy": "ㄏㄨˊ ㄉㄧㄝˊ",
+      "duration": 0.96,
+      "sha256": "faba540121e2233a28b3b8d0720bbe2c66d7cab9ac31193fa8bc4ee94a3d4737"
+    },
+    {
+      "id": "garden-1",
+      "word": "蜜蜂",
+      "zy": "ㄇㄧˋ ㄈㄥ",
+      "duration": 0.88,
+      "sha256": "021cf2bdb82e56400af489a83ae19e7d9ebd6cc8732575b65a7ab113b24d38ae"
+    },
+    {
+      "id": "garden-2",
+      "word": "蝸牛",
+      "zy": "ㄍㄨㄚ ㄋㄧㄡˊ",
+      "duration": 1.12,
+      "sha256": "e608f11b68a3afffbdbafac1ace6fe6f52ad6ce9164053f4bfe046694cd92e4b"
+    },
+    {
+      "id": "garden-3",
+      "word": "螞蟻",
+      "zy": "ㄇㄚˇ ㄧˇ",
+      "duration": 1.84,
+      "sha256": "8d6d839446fc7ebe4ec0e4b4255d01ea3dba991b80062d68487616bec868c861"
+    },
+    {
+      "id": "garden-4",
+      "word": "蜻蜓",
+      "zy": "ㄑㄧㄥ ㄊㄧㄥˊ",
+      "duration": 0.96,
+      "sha256": "4423ba77e183f778355bee8f810163818e37baa1f4511a45d2a0b8055019f0fc"
+    },
+    {
+      "id": "garden-5",
+      "word": "瓢蟲",
+      "zy": "ㄆㄧㄠˊ ㄔㄨㄥˊ",
+      "duration": 0.96,
+      "sha256": "109f13774d02024a2fabdd09a24851594616ffc88a796a6959c706c5a8069833"
+    },
+    {
+      "id": "garden-6",
+      "word": "蜘蛛",
+      "zy": "ㄓ ㄓㄨ",
+      "duration": 0.72,
+      "sha256": "840a69b3e71f19a0c0a9d4ba500b8664ca157f0b69a02bf7f5b04d166e69dc77"
+    },
+    {
+      "id": "garden-7",
+      "word": "蚱蜢",
+      "zy": "ㄓㄚˋ ㄇㄥˇ",
+      "duration": 0.64,
+      "sha256": "e66bdd7306479036ff95d31d04b1c794087719a3531e81e0b7528e23ff90850d"
+    },
+    {
+      "id": "garden-8",
+      "word": "毛毛蟲",
+      "zy": "ㄇㄠˊ ㄇㄠˊ ㄔㄨㄥˊ",
+      "duration": 1.12,
+      "sha256": "a353fca9cc6cc47fb4c71b95428e7421c6fb41fe9bccb4ff8caa0f2bb59e70ec"
+    },
+    {
+      "id": "home-0",
+      "word": "檯燈",
+      "zy": "ㄊㄞˊ ㄉㄥ",
+      "duration": 0.88,
+      "sha256": "4a19b00cfcbde9287439286765d6942f7fcdc8ae2c3d6e0db1d5821cedbb2e7d"
+    },
+    {
+      "id": "home-1",
+      "word": "時鐘",
+      "zy": "ㄕˊ ㄓㄨㄥ",
+      "duration": 0.64,
+      "sha256": "a81d43b7e594ab1a3c10425b37c2648fb6ea2386b249c2bc705251b3960971af"
+    },
+    {
+      "id": "home-2",
+      "word": "電話",
+      "zy": "ㄉㄧㄢˋ ㄏㄨㄚˋ",
+      "duration": 1.12,
+      "sha256": "abf35db541fb7e830c77ea160f69593516b609341471069b4e697390623f9f29"
+    },
+    {
+      "id": "home-3",
+      "word": "枕頭",
+      "zy": "ㄓㄣˇ ˙ㄊㄡ",
+      "duration": 1.04,
+      "sha256": "d72352d68e0b8af3c5053ced8137c15344d18e0069af877e0a469b6b928f8136"
+    },
+    {
+      "id": "home-4",
+      "word": "棉被",
+      "zy": "ㄇㄧㄢˊ ㄅㄟˋ",
+      "duration": 2.08,
+      "sha256": "48b0dd66d0e2cdec435ca9623b78a0903913bd0d182a5754a2f3e127137ceb46"
+    },
+    {
+      "id": "home-5",
+      "word": "書包",
+      "zy": "ㄕㄨ ㄅㄠ",
+      "duration": 0.88,
+      "sha256": "9e1fb10b151177eb8eac18f570242b0c7dbdc42376579cbde2a1ae46db908f75"
+    },
+    {
+      "id": "home-6",
+      "word": "鑰匙",
+      "zy": "ㄧㄠˋ ˙ㄕ",
+      "duration": 0.88,
+      "sha256": "6624b932974c44038fb9400c841af3d994cbe30fe39c8974ab3e33af9bafe6c8"
+    },
+    {
+      "id": "home-7",
+      "word": "眼鏡",
+      "zy": "ㄧㄢˇ ㄐㄧㄥˋ",
+      "duration": 1.6,
+      "sha256": "3257cd1015db8695c075fc3c19b2b89ad4ecf012201f0432e7c03ee97a16ab7c"
+    },
+    {
+      "id": "home-8",
+      "word": "扇子",
+      "zy": "ㄕㄢˋ ˙ㄗ",
+      "duration": 0.72,
+      "sha256": "1562a1ed66b7db0ef9e3fa15ea74122d7220bfcb3eb449c836bcc3f8ed1e89d9"
+    },
+    {
+      "id": "camp-0",
+      "word": "小兔看書",
+      "zy": "ㄒㄧㄠˇ ㄊㄨˋ ㄎㄢˋ ㄕㄨ",
+      "duration": 1.28,
+      "sha256": "16d94093b3680412bd9a940814392ef8dc99fa462580fcea9df17482a7d1d52e"
+    },
+    {
+      "id": "camp-1",
+      "word": "小熊喝牛奶",
+      "zy": "ㄒㄧㄠˇ ㄒㄩㄥˊ ㄏㄜ ㄋㄧㄡˊ ㄋㄞˇ",
+      "duration": 1.76,
+      "sha256": "85323883e0aff99e51e5c1eaf0b257b2b06101fb5da4bf06e15971f123715c64"
+    },
+    {
+      "id": "camp-2",
+      "word": "小豬跳繩",
+      "zy": "ㄒㄧㄠˇ ㄓㄨ ㄊㄧㄠˋ ㄕㄥˊ",
+      "duration": 1.84,
+      "sha256": "aa6ec003c3de1b958d76f052434530ad21c208f260551a8866dd9e0b9070cabd"
+    },
+    {
+      "id": "camp-3",
+      "word": "小猴刷牙",
+      "zy": "ㄒㄧㄠˇ ㄏㄡˊ ㄕㄨㄚ ㄧㄚˊ",
+      "duration": 1.6,
+      "sha256": "3951b714e4aef142e8307db8925f650a4edd8f4c321c7c10fb303ba0665e14f5"
+    },
+    {
+      "id": "camp-4",
+      "word": "小鴨撐傘",
+      "zy": "ㄒㄧㄠˇ ㄧㄚ ㄔㄥ ㄙㄢˇ",
+      "duration": 1.36,
+      "sha256": "14b8843900d6a587befa98af895949d1b8847a6149669419cf099dac72c64293"
+    },
+    {
+      "id": "camp-5",
+      "word": "烏龜吃葡萄",
+      "zy": "ㄨ ㄍㄨㄟ ㄔ ㄆㄨˊ ㄊㄠˊ",
+      "duration": 1.92,
+      "sha256": "5b241676d51266ee14c820e50991507114127d164c6c78e07224b3ca6b5cef94"
+    },
+    {
+      "id": "camp-6",
+      "word": "大象放風箏",
+      "zy": "ㄉㄚˋ ㄒㄧㄤˋ ㄈㄤˋ ㄈㄥ ㄓㄥ",
+      "duration": 2.08,
+      "sha256": "002126d7f4c441893ceed221c1dd73ff80607369a5efb3b5c29b147d2a083a0c"
+    },
+    {
+      "id": "camp-7",
+      "word": "小兔拿玉米",
+      "zy": "ㄒㄧㄠˇ ㄊㄨˋ ㄋㄚˊ ㄩˋ ㄇㄧˇ",
+      "duration": 1.52,
+      "sha256": "7cd34e0ca4029166408912ac115743f6e7b280ebfa3a5f6b5b08dbf9840e09d3"
+    },
+    {
+      "id": "camp-8",
+      "word": "小熊玩球",
+      "zy": "ㄒㄧㄠˇ ㄒㄩㄥˊ ㄨㄢˊ ㄑㄧㄡˊ",
+      "duration": 1.6,
+      "sha256": "aa51dcf0ed46bbf6e6abba6304133b74ff299dc7fb6e5ec66f3949e31e7f8930"
+    },
+    {
+      "id": "tone-ma-1",
+      "word": "媽",
+      "zy": "ㄇㄚ",
+      "duration": 0.48,
+      "sha256": "42a57b30129e8db16154579e6b6dc8b4cbddb778a4bc33eaceddd35f71f451dd"
+    },
+    {
+      "id": "tone-ma-2",
+      "word": "麻",
+      "zy": "ㄇㄚˊ",
+      "duration": 0.56,
+      "sha256": "3082f039b8a21c74ae99cea3df4827b3dfdaa8667cf2ac7e469f186222b56d55"
+    },
+    {
+      "id": "tone-ma-3",
+      "word": "馬",
+      "zy": "ㄇㄚˇ",
+      "duration": 0.64,
+      "sha256": "1a52d396c527c2ee6ed7cf9e426ec625c62f1f56035f4171acd71b53c11c4e7a"
+    },
+    {
+      "id": "tone-ma-4",
+      "word": "罵",
+      "zy": "ㄇㄚˋ",
+      "duration": 1.12,
+      "sha256": "8f54ee2a95a77836fc463c82a22e3415cab0fcd64ce3dc42838bf1a1f3576e54"
+    },
+    {
+      "id": "tone-ba-1",
+      "word": "八",
+      "zy": "ㄅㄚ",
+      "duration": 1.6,
+      "sha256": "a125990661b533c31c82695aa8f4d688abecaae9b428fdcebcaf648df3ce6bf0"
+    },
+    {
+      "id": "tone-ba-2",
+      "word": "拔",
+      "zy": "ㄅㄚˊ",
+      "duration": 0.56,
+      "sha256": "7b9dff3136b572c8c4c03b4919af8208b20670879d1075fffadf34c495619b08"
+    },
+    {
+      "id": "tone-ba-3",
+      "word": "靶",
+      "zy": "ㄅㄚˇ",
+      "duration": 0.64,
+      "sha256": "b87d27a13d721bb59a40436d69599ce5808a29e7afc33b2412433db20c2a25b3"
+    },
+    {
+      "id": "tone-ba-4",
+      "word": "爸",
+      "zy": "ㄅㄚˋ",
+      "duration": 1.52,
+      "sha256": "110c917f96a7e5ba5d085f8fa6241efadd30bd1475dda984c7613d71f54a0f15"
+    },
+    {
+      "id": "tone-yi-1",
+      "word": "衣",
+      "zy": "ㄧ",
+      "duration": 0.56,
+      "sha256": "d06a99f6b163f37b32b401004f4c27d9d1ac959580e0d4af6b39cb37677ea481"
+    },
+    {
+      "id": "tone-yi-2",
+      "word": "姨",
+      "zy": "ㄧˊ",
+      "duration": 0.64,
+      "sha256": "0b1ef5fbf679eee944fc463269880f8c4bdbf8844bd9f6dba708c726d8805489"
+    },
+    {
+      "id": "tone-yi-3",
+      "word": "椅",
+      "zy": "ㄧˇ",
+      "duration": 0.64,
+      "sha256": "badd9e98576f5da696c12780971df6c842cc803585368ce4fcf18baa678fe478"
+    },
+    {
+      "id": "tone-yi-4",
+      "word": "意",
+      "zy": "ㄧˋ",
+      "duration": 1.2,
+      "sha256": "6c50d3b361f1c460a4340ea984c54f71e62663214f2d7de5ee9b5c76c312cd37"
+    },
+    {
+      "id": "tone-tang-1",
+      "word": "湯",
+      "zy": "ㄊㄤ",
+      "duration": 1.6,
+      "sha256": "685d4dee4787335cd10abdd88dba63a63e4186ba9016be48bfafced169ccf643"
+    },
+    {
+      "id": "tone-tang-2",
+      "word": "糖",
+      "zy": "ㄊㄤˊ",
+      "duration": 1.36,
+      "sha256": "d68cc35e276527871add168635796865ebc305b922cd3437dec7b2a541cbb494"
+    },
+    {
+      "id": "tone-tang-3",
+      "word": "躺",
+      "zy": "ㄊㄤˇ",
+      "duration": 1.52,
+      "sha256": "8718095cb71942ed8905b9b1c468fe00d4b76f03c9f2f6fc4da259315485c233"
+    },
+    {
+      "id": "tone-tang-4",
+      "word": "燙",
+      "zy": "ㄊㄤˋ",
+      "duration": 0.56,
+      "sha256": "1131fe62a507c1db4a6ff52fcf80e740a63c04f2cfcf36a18504f66d46f81b9a"
+    },
+    {
+      "id": "tone-wu-1",
+      "word": "烏",
+      "zy": "ㄨ",
+      "duration": 1.44,
+      "sha256": "5134d4fb035e011362232ffad6a07378fe3d10e1af792b3fcbdf21930a0d57ae"
+    },
+    {
+      "id": "tone-wu-2",
+      "word": "無",
+      "zy": "ㄨˊ",
+      "duration": 0.48,
+      "sha256": "4264b6c56f2299ccf3faa0bd5e407cc0e2e55e7fbed9ff4953f98b99e7cb7580"
+    },
+    {
+      "id": "tone-wu-3",
+      "word": "五",
+      "zy": "ㄨˇ",
+      "duration": 1.04,
+      "sha256": "925ef9d56d726cec7407421bbf5e712a77f6a9dae7d2949326ad98fc5074212f"
+    },
+    {
+      "id": "tone-wu-4",
+      "word": "物",
+      "zy": "ㄨˋ",
+      "duration": 0.64,
+      "sha256": "e0c527017251c3bc9a46e6b94c9412e8c13fb407df1f082105f1355ac3eb20d0"
+    },
+    {
+      "id": "medial-l2-0",
+      "word": "梨",
+      "zy": "ㄌㄧˊ",
+      "duration": 0.48,
+      "sha256": "00bfba1829211701b5cbf08e11d9a977aa67d1176fc5722cb3b07d1283c93e78"
+    },
+    {
+      "id": "medial-l2-1",
+      "word": "爐",
+      "zy": "ㄌㄨˊ",
+      "duration": 0.96,
+      "sha256": "bb3cd24526d9ce107a1e47f1e1db749870f6e8421e3661c24441a7b15c59c45a"
+    },
+    {
+      "id": "medial-l2-2",
+      "word": "驢",
+      "zy": "ㄌㄩˊ",
+      "duration": 0.72,
+      "sha256": "097a90c87587e33698e9d6781aeef3a0bbee1d6f800faadca7b757e6a093101f"
+    },
+    {
+      "id": "medial-n3-0",
+      "word": "你",
+      "zy": "ㄋㄧˇ",
+      "duration": 0.72,
+      "sha256": "923917924898847aa1afa46832b455df6cb47a8352733732140669c8594382ea"
+    },
+    {
+      "id": "medial-n3-1",
+      "word": "努",
+      "zy": "ㄋㄨˇ",
+      "duration": 1.12,
+      "sha256": "a041a24d8eeb989fa1f013170be2226da216012b5a9be9bdb8867a88e45228b7"
+    },
+    {
+      "id": "medial-n3-2",
+      "word": "女",
+      "zy": "ㄋㄩˇ",
+      "duration": 0.4,
+      "sha256": "1d7d37bcb5a5511b8411b7d386b878aa7a7e1c067d5a3f4ee0e9a33f5fd85ac6"
+    },
+    {
+      "id": "medial-l4-0",
+      "word": "力",
+      "zy": "ㄌㄧˋ",
+      "duration": 1.44,
+      "sha256": "8d60ac2e0839f4d2f122159e63b45ad91a690f00135d4a1630da4cd085b814ee"
+    },
+    {
+      "id": "medial-l4-1",
+      "word": "路",
+      "zy": "ㄌㄨˋ",
+      "duration": 1.44,
+      "sha256": "4caa3311ba35f1960cd6e40be7679b4bfa14191e9273ae463ba9a2fe1565bd3f"
+    },
+    {
+      "id": "medial-l4-2",
+      "word": "綠",
+      "zy": "ㄌㄩˋ",
+      "duration": 0.64,
+      "sha256": "e696e74935851714ef91ca289cc67d49318418abd59f06de18e0343eb0f4bcbe"
+    },
+    {
+      "id": "medial-xian1-0",
+      "word": "先",
+      "zy": "ㄒㄧㄢ",
+      "duration": 0.64,
+      "sha256": "2b212f85b6ed4a6be6c34bd36bdd38927c91d4725ee93f8919b1f8c98232dd37"
+    },
+    {
+      "id": "medial-xian1-1",
+      "word": "宣",
+      "zy": "ㄒㄩㄢ",
+      "duration": 1.12,
+      "sha256": "cc3ff1d72559624dfccaca6c1a146938f212127cc4ff3577069ec660ffc35ba1"
+    },
+    {
+      "id": "medial-jian4-0",
+      "word": "箭",
+      "zy": "ㄐㄧㄢˋ",
+      "duration": 0.56,
+      "sha256": "3edccc1e2e8668f59110d1a91da8606e8476fddc3566dae3681034eeb827996a"
+    },
+    {
+      "id": "medial-jian4-1",
+      "word": "卷",
+      "zy": "ㄐㄩㄢˋ",
+      "duration": 2.16,
+      "sha256": "e668346bd2739f19f2b7f9ac05634ebe022daac06f79c25dde866c6422f711bf"
+    },
+    {
+      "id": "medial-qian2-0",
+      "word": "前",
+      "zy": "ㄑㄧㄢˊ",
+      "duration": 0.4,
+      "sha256": "f43f9fc6dc72d83e7166091c60998706153cba3cbac91a5770aff49ff6142d40"
+    },
+    {
+      "id": "medial-qian2-1",
+      "word": "全",
+      "zy": "ㄑㄩㄢˊ",
+      "duration": 1.28,
+      "sha256": "5afe9883f0ddcc3e1d544cc1ac432d9c0dbaf0b3de404827eea08b70e2f523f2"
+    },
+    {
+      "id": "medial-dian3-0",
+      "word": "點",
+      "zy": "ㄉㄧㄢˇ",
+      "duration": 1.12,
+      "sha256": "ef24785cef0d323f74aabcbc816e4245d3f9755755dde0d72b26b867e17cb1ea"
+    },
+    {
+      "id": "medial-dian3-1",
+      "word": "短",
+      "zy": "ㄉㄨㄢˇ",
+      "duration": 0.96,
+      "sha256": "fe03a1ab9f565c27d5b54d02f381e7280c2b651258e90ee6ebb6475ff570f36c"
+    },
+    {
+      "id": "medial-tian2-0",
+      "word": "田",
+      "zy": "ㄊㄧㄢˊ",
+      "duration": 0.88,
+      "sha256": "226e642413135919218694671cc9e9457a888da69cfe9edaccda0d7f166894f4"
+    },
+    {
+      "id": "medial-tian2-1",
+      "word": "團",
+      "zy": "ㄊㄨㄢˊ",
+      "duration": 0.64,
+      "sha256": "3070cba432290236a89094df724a350cb32c5ee47bf029b7a5e45dd066540c63"
+    },
+    {
+      "id": "medial-lie4-0",
+      "word": "列",
+      "zy": "ㄌㄧㄝˋ",
+      "duration": 0.4,
+      "sha256": "b5b0cb473833c555848398beda1f9d7caeea70b16d617e69b8b0912a09f4de55"
+    },
+    {
+      "id": "medial-lie4-1",
+      "word": "略",
+      "zy": "ㄌㄩㄝˋ",
+      "duration": 1.28,
+      "sha256": "5b520523329ef07335bd8185ffb3454fd607cbf72b2e6c838518c9613c92fd2e"
+    },
+    {
+      "id": "medial-guide-yu",
+      "word": "迂",
+      "zy": "ㄩ",
+      "duration": 1.84,
+      "sha256": "55a54d23732e9efaef248e6c075dceda47eff8b51b69240a20fc5b8c954a97b1"
+    },
+    {
+      "id": "pair-c-ch-0",
+      "word": "粗",
+      "zy": "ㄘㄨ",
+      "duration": 0.56,
+      "sha256": "e4878f67e2bce0b154b61eed5627421b39172d112d9ea30fda5df965aaf20037"
+    },
+    {
+      "id": "pair-c-ch-1",
+      "word": "出",
+      "zy": "ㄔㄨ",
+      "duration": 0.64,
+      "sha256": "6fc08d9c8b5b8d6d1e2fef47e451b1e77b6494d69f89e83b5d846cf50140924a"
+    },
+    {
+      "id": "pair-c-ch-2",
+      "word": "擦",
+      "zy": "ㄘㄚ",
+      "duration": 0.56,
+      "sha256": "b8b7e0c05fd4d3c11798080c71a637a36d8ebd22adfabe7b5a76183b0555648e"
+    },
+    {
+      "id": "pair-c-ch-3",
+      "word": "插",
+      "zy": "ㄔㄚ",
+      "duration": 0.48,
+      "sha256": "59bb1e006d022b7fee595e4964655e787628664ad81f73d923befcc458a2e197"
+    },
+    {
+      "id": "pair-c-ch-4",
+      "word": "草",
+      "zy": "ㄘㄠˇ",
+      "duration": 0.64,
+      "sha256": "0e4515526f2c8b6d2cd9af7c804954076c031b0380581924d8d84b7ed5ace646"
+    },
+    {
+      "id": "pair-c-ch-5",
+      "word": "吵",
+      "zy": "ㄔㄠˇ",
+      "duration": 1.04,
+      "sha256": "01e059c8fa49cc1fbf9b4ddd6f4d2f924f673a0af87462cb1a9342ecb941d4ac"
+    },
+    {
+      "id": "pair-zh-z-0",
+      "word": "豬",
+      "zy": "ㄓㄨ",
+      "duration": 0.56,
+      "sha256": "d29ac8c5f2f972dd18391c05f2eb855f88c379a1e83148653b152bb5ee9dc9dc"
+    },
+    {
+      "id": "pair-zh-z-1",
+      "word": "租",
+      "zy": "ㄗㄨ",
+      "duration": 0.96,
+      "sha256": "a8c63ef5c3a82e650c7f718c816753ac03cddc81840090b96f27394ce02a6c74"
+    },
+    {
+      "id": "pair-zh-z-2",
+      "word": "找",
+      "zy": "ㄓㄠˇ",
+      "duration": 0.64,
+      "sha256": "04c0205f67aa85e0f9ba4e74d4cec1662f31a8b0e238ab1b31a0f86ae3d72118"
+    },
+    {
+      "id": "pair-zh-z-3",
+      "word": "早",
+      "zy": "ㄗㄠˇ",
+      "duration": 1.2,
+      "sha256": "1c96436ec3168df052eb37b453ec869381c3556ebef19b029e27bc2d5e8b9adb"
+    },
+    {
+      "id": "pair-zh-z-4",
+      "word": "摘",
+      "zy": "ㄓㄞ",
+      "duration": 0.56,
+      "sha256": "d085f6e06c1ce6d4dba3df14fb84950e326f9b2aaaf237d456784a85459fdf19"
+    },
+    {
+      "id": "pair-zh-z-5",
+      "word": "栽",
+      "zy": "ㄗㄞ",
+      "duration": 0.64,
+      "sha256": "120e3b33ade58655161c4d3a460924e0341850956f9a99e35a81cefd94233c99"
+    },
+    {
+      "id": "pair-m-f-0",
+      "word": "媽",
+      "zy": "ㄇㄚ",
+      "duration": 0.48,
+      "sha256": "bae6bd974af4e435fc097cca120796cea4f953324bf89bfa9ed70b6e2e641f0a"
+    },
+    {
+      "id": "pair-m-f-1",
+      "word": "發",
+      "zy": "ㄈㄚ",
+      "duration": 0.48,
+      "sha256": "6ff6c0566be58038905a3e07da3d316c3f36b217b00b62da8181734a502d06b6"
+    },
+    {
+      "id": "pair-m-f-2",
+      "word": "忙",
+      "zy": "ㄇㄤˊ",
+      "duration": 0.64,
+      "sha256": "0f91da47e642d391edf16a18631afc25b0446c873ac79bda22961bcb03f3ef97"
+    },
+    {
+      "id": "pair-m-f-3",
+      "word": "房",
+      "zy": "ㄈㄤˊ",
+      "duration": 1.2,
+      "sha256": "b3085ef3959681ea48105ff7f0bfe39d56baee4e9ea2c16d56f31394fe77d8c8"
+    },
+    {
+      "id": "pair-m-f-4",
+      "word": "木",
+      "zy": "ㄇㄨˋ",
+      "duration": 0.96,
+      "sha256": "201ba160fe91bcad05d00cd952733d56d606290a806ba53e42a82bdc8b50dab2"
+    },
+    {
+      "id": "pair-m-f-5",
+      "word": "父",
+      "zy": "ㄈㄨˋ",
+      "duration": 0.48,
+      "sha256": "cafc62c0379bffd9bb27c4fa54e0c528912f8dfacec9d15907eadcc767fa049d"
+    },
+    {
+      "id": "pair-en-eng-0",
+      "word": "真",
+      "zy": "ㄓㄣ",
+      "duration": 0.48,
+      "sha256": "3e17f32e6c6cc5dc47153deb5cc4a0826f1cdceefd236044e611727f521396b3"
+    },
+    {
+      "id": "pair-en-eng-1",
+      "word": "蒸",
+      "zy": "ㄓㄥ",
+      "duration": 1.36,
+      "sha256": "dee3f5756f1ad32cb0b3d2baec5a220ca1f658f6b67bdcd61720ad31b068c385"
+    },
+    {
+      "id": "pair-en-eng-2",
+      "word": "盆",
+      "zy": "ㄆㄣˊ",
+      "duration": 1.68,
+      "sha256": "c2a784e2071992c76c308a8cd1f712779f6a1a0395519e885bf9a1cf3c4842fe"
+    },
+    {
+      "id": "pair-en-eng-3",
+      "word": "朋",
+      "zy": "ㄆㄥˊ",
+      "duration": 0.56,
+      "sha256": "5373ef226a17f9bcb993382fb8146beca09c11d28142fbb0a94d014fffaf96b5"
+    },
+    {
+      "id": "pair-en-eng-4",
+      "word": "陳",
+      "zy": "ㄔㄣˊ",
+      "duration": 0.56,
+      "sha256": "85d60d81a6d20a1e13d4b8973269f88a7b0cc0c4de7060ec8fd47f093c467991"
+    },
+    {
+      "id": "pair-en-eng-5",
+      "word": "城",
+      "zy": "ㄔㄥˊ",
+      "duration": 1.12,
+      "sha256": "2907976f8a09c533975efcd0f8303d2580e0f60746adc1a72baf5461440a8809"
+    }
+  ]
+}

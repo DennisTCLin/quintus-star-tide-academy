@@ -1,0 +1,16 @@
+{
+  "deploymentId": "b37756f7-e0cf-43d4-92ad-cd0ab846a1b5",
+  "status": "SUCCESS",
+  "runtimeCommit": "452ecda51cefdd9349f8d9e939c4562ab392171e",
+  "previousDeployment": "f2df86d2-1119-49e8-8ae0-6782f05e9d87",
+  "priorMain": "1157430",
+  "url": "https://quintus-star-tide-academy-production.up.railway.app/admin",
+  "pullRequest": "https://github.com/quintus-star-tide/star-tide-academy/pull/10",
+  "compiledAndSampleHashesVerified": 17,
+  "health": true,
+  "unauthenticatedStateAndTrialsStatus": 401,
+  "productionUiSmokeChecks": 6,
+  "productionCreates": 0,
+  "physicalIPadTested": false,
+  "preservedSourcePublicByteIdentical": true
+}

@@ -1,0 +1,100 @@
+- generic [ref=f2e3]:
+  - link "跳到主要內容" [ref=f2e4] [cursor=pointer]:
+    - /url: "#family-main"
+  - status [ref=f2e5]:
+    - generic [ref=f2e6]:
+      - text: sunny ·
+      - generic [ref=f2e318]: ☁
+      - text: 已儲存至雲端
+    - button "登出" [ref=f2e11] [cursor=pointer]
+  - main [ref=f2e12]:
+    - region "答題怪物戰鬥" [ref=f2e171]:
+      - generic [ref=f2e172]:
+        - generic [ref=f2e173]:
+          - generic [ref=f2e174]: ⚔️
+          - text: 答對就出招
+        - button "暫停背景音樂" [pressed] [ref=f2e178] [cursor=pointer]:
+          - generic [ref=f2e179]: Ⅱ
+          - text: 暫停音樂
+      - generic [ref=f2e183]:
+        - generic [ref=f2e185]:
+          - generic [ref=f2e186]:
+            - strong [ref=f2e187]: 潮光獸
+            - meter "夥伴生命" [ref=f2e188]
+            - generic [ref=f2e190]: 100 / 100
+          - generic [ref=f2e191]:
+            - strong [ref=f2e192]: 赤晶幼像
+            - meter "怪物體力" [ref=f2e193]
+            - generic [ref=f2e195]: 74 / 100
+        - img "潮光獸" [ref=f2e200]
+        - img "赤晶幼像" [ref=f2e204]
+      - status [ref=f2e205]: 每題只作答一次；答對攻擊，答錯或超時扣血。累計三錯就結束這場。
+      - group [ref=f2e206]:
+        - generic "夥伴成長與戰鬥說明" [ref=f2e207] [cursor=pointer]
+    - generic [ref=f2e208]:
+      - button "回到港口" [ref=f2e209] [cursor=pointer]:
+        - generic [ref=f2e210]: ⛵
+      - generic "第 2 題，共 6 題" [ref=f2e323]:
+        - generic [ref=f2e215]: ✓
+        - generic [ref=f2e216]: "2"
+        - generic [ref=f2e217]: "3"
+        - generic [ref=f2e218]: "4"
+        - generic [ref=f2e219]: "5"
+        - generic [ref=f2e220]: "6"
+      - generic "累計答錯 0 題，三題即失敗" [ref=f2e221]: ❤️❤️❤️ 0 / 3
+    - generic [ref=f2e222]:
+      - generic [ref=f2e223]:
+        - strong [ref=f2e224]:
+          - generic [ref=f2e225]: 🎯
+          - text: 已答對 1 題 · 目標 4 題
+        - generic [ref=f2e229]:
+          - generic [ref=f2e328]: 🌱
+          - text: 慢慢想 · 不計時
+      - group [ref=f2e234]:
+        - generic [ref=f2e235]:
+          - paragraph [ref=f2e236]: 試卷題・大里國小 111學年度一上・康軒・第2頁 五3-忙（原空格聲調選擇改編／裝置朗讀）
+          - generic [ref=f2e237]:
+            - generic [ref=f2e238]: 挑戰 2 / 6
+            - generic [ref=f2e239]: 1 年級
+          - heading "豬小弟忙著蓋房子。「忙」的注音應標哪個聲調？" [active] [level=1] [ref=f2e332]
+          - generic [ref=f2e241]:
+            - button "播放題目聲音" [ref=f2e242] [cursor=pointer]:
+              - generic [ref=f2e243]: 👂
+              - generic [ref=f2e248]: 聽題目
+              - generic [ref=f2e249]: ▶
+            - button "🛡️ 護盾" [ref=f2e255] [cursor=pointer]:
+              - generic [ref=f2e256]: 🛡️
+              - text: 護盾
+          - paragraph [ref=f2e333]: 點選答案，立即送出
+          - generic [ref=f2e261]:
+            - button "選擇 輕聲" [ref=f2e334] [cursor=pointer]:
+              - generic [ref=f2e263]: 輕聲
+            - button "選擇 一聲" [ref=f2e336] [cursor=pointer]:
+              - generic [ref=f2e269]: 一聲
+            - button "選擇 二聲" [ref=f2e337] [cursor=pointer]:
+              - generic [ref=f2e275]: 二聲
+            - button "選擇 三聲" [ref=f2e339] [cursor=pointer]:
+              - generic [ref=f2e280]: 三聲
+            - button "選擇 四聲" [ref=f2e340] [cursor=pointer]:
+              - generic [ref=f2e286]: 四聲
+          - button "💡 提示" [ref=f2e292] [cursor=pointer]:
+            - generic [ref=f2e293]: 💡
+            - text: 提示
+          - status [ref=f2e297]:
+            - generic [ref=f2e298]:
+              - generic [ref=f2e299]: ✨
+              - generic [ref=f2e303]: 🧩
+            - button "聽出題說明" [ref=f2e307] [cursor=pointer]:
+              - generic [ref=f2e308]: 🔊
+          - paragraph [ref=f2e312]: 每題只能選一次。答錯或超時三次即失敗；六題答對 4 題才通關。每兩場成功換一張券。
+    - button "⏹ 結束航程" [ref=f2e313] [cursor=pointer]:
+      - generic [ref=f2e314]: ⏹
+      - text: 結束航程
+  - contentinfo [ref=f2e140]:
+    - generic [ref=f2e141]:
+      - img "星潮學院 Star Tide Academy — 星潮小龍" [ref=f2e142]:
+        - generic [aria-hidden] [ref=f2e143]:
+          - strong [ref=f2e144]: 星潮學院
+          - generic [ref=f2e145]: STAR TIDE ACADEMY
+      - generic [ref=f2e146]: Synthetic school QA
+    - generic [ref=f2e147]: 學習點數不扣除，休息後再一起出發。

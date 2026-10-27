@@ -1,0 +1,15 @@
+{
+  "source": "public/assets/feifei-bow/v1/idle.mp4",
+  "frames": 85,
+  "size": [
+    216,
+    276
+  ],
+  "transparentCorners": true,
+  "differentFrames": true,
+  "sourceTool": "Higgsfield Kling 3.0",
+  "processing": "FFmpeg video colorkey, crop, 12fps; animated WebP format conversion",
+  "matte": "0xfffae6 similarity .14 blend .055",
+  "crop": "360:460:145:95",
+  "scale": "216:276"
+}

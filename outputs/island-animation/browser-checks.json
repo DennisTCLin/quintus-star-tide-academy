@@ -1,0 +1,206 @@
+{
+  "checks": [
+    {
+      "check": "1440-frames exact ownership without duplicate copies"
+    },
+    {
+      "check": "1440-frames no page overflow"
+    },
+    {
+      "check": "1440-frames no whole-portrait fake motion"
+    },
+    {
+      "check": "1440-frames actual changing image pixels tideglow",
+      "uniqueFrames": 18
+    },
+    {
+      "check": "1440-frames actual changing image pixels cometcrane",
+      "uniqueFrames": 22
+    },
+    {
+      "check": "1440-frames correct movement/fallback tideglow"
+    },
+    {
+      "check": "1440-frames correct movement/fallback cometcrane"
+    },
+    {
+      "check": "1440-frames unregistered companion rests without sliding"
+    },
+    {
+      "check": "1440-frames only two residents load six clips",
+      "requests": 6
+    },
+    {
+      "check": "1440-frames greeting plays articulated reaction"
+    },
+    {
+      "check": "1440-frames greeting stays grounded"
+    },
+    {
+      "check": "1440-frames pause freezes both pixels and position"
+    },
+    {
+      "check": "1440-frames building centres remain accessible",
+      "blocked": []
+    },
+    {
+      "check": "1440-frames hidden stops pixels and movement"
+    },
+    {
+      "check": "1440-frames offscreen stops pixels and movement"
+    },
+    {
+      "check": "1440-frames runtime OS reduction stops both"
+    },
+    {
+      "check": "1440-frames reduced uses portraits"
+    },
+    {
+      "check": "1440-frames all habitat interactions write no player data"
+    },
+    {
+      "check": "390-frames exact ownership without duplicate copies"
+    },
+    {
+      "check": "390-frames no page overflow"
+    },
+    {
+      "check": "390-frames no whole-portrait fake motion"
+    },
+    {
+      "check": "390-frames actual changing image pixels tideglow",
+      "uniqueFrames": 16
+    },
+    {
+      "check": "390-frames actual changing image pixels cometcrane",
+      "uniqueFrames": 21
+    },
+    {
+      "check": "390-frames correct movement/fallback tideglow"
+    },
+    {
+      "check": "390-frames correct movement/fallback cometcrane"
+    },
+    {
+      "check": "390-frames unregistered companion rests without sliding"
+    },
+    {
+      "check": "390-frames only two residents load six clips",
+      "requests": 6
+    },
+    {
+      "check": "390-frames greeting plays articulated reaction"
+    },
+    {
+      "check": "390-frames greeting stays grounded"
+    },
+    {
+      "check": "390-frames pause freezes both pixels and position"
+    },
+    {
+      "check": "390-frames building centres remain accessible",
+      "blocked": []
+    },
+    {
+      "check": "390-frames hidden stops pixels and movement"
+    },
+    {
+      "check": "390-frames offscreen stops pixels and movement"
+    },
+    {
+      "check": "390-frames runtime OS reduction stops both"
+    },
+    {
+      "check": "390-frames reduced uses portraits"
+    },
+    {
+      "check": "390-frames all habitat interactions write no player data"
+    },
+    {
+      "check": "320-reduced exact ownership without duplicate copies"
+    },
+    {
+      "check": "320-reduced no page overflow"
+    },
+    {
+      "check": "320-reduced no whole-portrait fake motion"
+    },
+    {
+      "check": "320-reduced positions and pixels stay still"
+    },
+    {
+      "check": "320-reduced reduced motion loads no atlases"
+    },
+    {
+      "check": "320-reduced all habitat interactions write no player data"
+    },
+    {
+      "check": "390-404 exact ownership without duplicate copies"
+    },
+    {
+      "check": "390-404 no page overflow"
+    },
+    {
+      "check": "390-404 no whole-portrait fake motion"
+    },
+    {
+      "check": "390-404 actual changing image pixels tideglow",
+      "uniqueFrames": 22
+    },
+    {
+      "check": "390-404 actual changing image pixels cometcrane",
+      "uniqueFrames": 22
+    },
+    {
+      "check": "390-404 correct movement/fallback tideglow"
+    },
+    {
+      "check": "390-404 correct movement/fallback cometcrane"
+    },
+    {
+      "check": "390-404 unregistered companion rests without sliding"
+    },
+    {
+      "check": "390-404 only two residents load six clips",
+      "requests": 6
+    },
+    {
+      "check": "390-404 all habitat interactions write no player data"
+    },
+    {
+      "check": "390-dimensions exact ownership without duplicate copies"
+    },
+    {
+      "check": "390-dimensions no page overflow"
+    },
+    {
+      "check": "390-dimensions no whole-portrait fake motion"
+    },
+    {
+      "check": "390-dimensions actual changing image pixels tideglow",
+      "uniqueFrames": 19
+    },
+    {
+      "check": "390-dimensions actual changing image pixels cometcrane",
+      "uniqueFrames": 19
+    },
+    {
+      "check": "390-dimensions correct movement/fallback tideglow"
+    },
+    {
+      "check": "390-dimensions correct movement/fallback cometcrane"
+    },
+    {
+      "check": "390-dimensions unregistered companion rests without sliding"
+    },
+    {
+      "check": "390-dimensions only two residents load six clips",
+      "requests": 6
+    },
+    {
+      "check": "390-dimensions all habitat interactions write no player data"
+    }
+  ],
+  "issues": [],
+  "pageErrors": []
+}

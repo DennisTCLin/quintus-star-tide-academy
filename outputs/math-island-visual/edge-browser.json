@@ -1,0 +1,46 @@
+{
+  "offlineReduced": {
+    "animations": [
+      "0s"
+    ],
+    "notice": true,
+    "offline": true,
+    "reduced": true,
+    "scrollWidth": 320,
+    "width": 320
+  },
+  "missingArt": {
+    "cards": [
+      {
+        "enabled": true,
+        "height": 404.1875,
+        "width": 266
+      },
+      {
+        "enabled": true,
+        "height": 404.1875,
+        "width": 266
+      },
+      {
+        "enabled": true,
+        "height": 404.1875,
+        "width": 266
+      }
+    ],
+    "images": [
+      {
+        "visibility": "hidden",
+        "width": 0
+      },
+      {
+        "visibility": "hidden",
+        "width": 0
+      },
+      {
+        "visibility": "hidden",
+        "width": 0
+      }
+    ],
+    "scrollWidth": 320
+  }
+}

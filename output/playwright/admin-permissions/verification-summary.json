@@ -1,0 +1,69 @@
+{
+  "runtimeCommit": "28fcb043a54d8fa75e461474b2d9285a4804e3a0",
+  "recordedAt": "2026-10-25T15:33:40.200214+00:00",
+  "route": "Relay: root writer, read-only permissions explorer and independent verifier",
+  "verification": {
+    "build": "PASS",
+    "pronunciation": "PASS",
+    "apiIntegration": {
+      "result": "PASS",
+      "tests": 16,
+      "database": "isolated local PostgreSQL",
+      "evidence": "api-tests.txt"
+    },
+    "fullSuite": {
+      "result": "PASS",
+      "tests": 831,
+      "files": 113,
+      "evidence": "final-full-tests.txt",
+      "timing": "Before final one-line reduced-limit pending UI condition; affected behavior then rebuilt and verified in WebKit."
+    },
+    "browser": {
+      "engine": "WebKit",
+      "result": "PASS",
+      "widthsWithoutHorizontalOverflow": [
+        320,
+        402,
+        768,
+        1024
+      ],
+      "scenarios": [
+        "owner creates staff and grants scope",
+        "initial password must change before learning access",
+        "reader only sees assigned child and cannot grant or manage staff",
+        "same display name does not share pending grant state",
+        "revoked scope safely reconciles prior request without child details",
+        "reduced grant limit safely reconciles pending request and restores roster"
+      ]
+    },
+    "independentVerifier": "PASS after fixes",
+    "diffCheck": "PASS",
+    "production": {
+      "result": "PASS",
+      "builtAssetHashes": 16,
+      "health": 200,
+      "adminPage": 200,
+      "anonymousAdminEndpoints": 401,
+      "authenticatedRoleFlows": "Verified against isolated local PostgreSQL; not replayed with real production credentials."
+    }
+  },
+  "productionConstraints": [
+    "No production test adults or children created",
+    "No production test ticket grants",
+    "Existing administrator password hashes preserved by migration"
+  ],
+  "rollback": {
+    "runtime": "3b7b825",
+    "database": "Keep additive permission columns and audit table; no destructive rollback. Basic super-admin functionality remains; delegated staff unavailable on old runtime."
+  },
+  "knownLimits": [
+    "Per-grant limit, not a daily quota",
+    "Audit records store immutable admin IDs; UI display names can be ambiguous if duplicated",
+    "Production acceptance will use anonymous endpoints and exact built-asset hashes; authenticated role behavior verified locally"
+  ],
+  "deployment": {
+    "id": "9f0a9fa0-11e7-4063-9630-231e8128ff46",
+    "status": "SUCCESS",
+    "source": "immutable git archive of runtime commit"
+  }
+}

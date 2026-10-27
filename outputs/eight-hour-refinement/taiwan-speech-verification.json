@@ -1,0 +1,101 @@
+{
+  "at": "2026-10-25T01:56:59.996941+00:00",
+  "baseline": "3626b8d / production fe950d3",
+  "mission": "Share strict Taiwan voice selection and asynchronous discovery across Math Island; preserve demonstration lifecycle, manual ears, bilingual global narration and recordings. No gameplay/cloud/account changes.",
+  "route": "Hyper Relay: prior read-only explorer, root single writer, fresh read-only verifier",
+  "tdd": "New first11 cases:9FAIL2PASS on prior implementation; corrected patch passes",
+  "tests": {
+    "full": "66 files546 tests PASS with isolated PostgreSQL eight_refinement_batch13_test",
+    "focused": "fresh verifier5files34tests PASS; root final focused3files22tests PASS",
+    "build": "PASS; pronunciation5324source runs/165lessons/203reviewedrules",
+    "freshVerification": "8eventsequences/30assertions PASS; global replacement watchdog and synchronous error-callback reentrancy counterexamples fixed and rerun"
+  },
+  "browser": "Actual React IslandApp + fake speech engine: TWaliases, delayedvoiceschanged, noHK/CN/default, errornotice, visualfallback reacheslaststep, replayoldcallbacks, manualearwhileautooff; noerrors. ActualappQA map/current0of6/60coins retained.",
+  "dictionary": {
+    "addedPhrases": 6,
+    "removedCommentPhrases": 5,
+    "changedExistingPhrases": 0,
+    "changedCharacters": 0,
+    "phrases": 5338,
+    "characters": 1652,
+    "syllables": 836
+  },
+  "sources": [
+    {
+      "term": "家長",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=21836&la=0&powerMode=0"
+    },
+    {
+      "term": "裝置",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31077&la=0&powerMode=0"
+    },
+    {
+      "term": "語音",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=44355&la=0&powerMode=0"
+    },
+    {
+      "term": "耳朵",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=39899&la=0&powerMode=0"
+    }
+  ],
+  "limitations": [
+    "No actual audio audition or physical iPad; voice availability depends on device",
+    "No whole-site pronunciation perfection claim",
+    "Fixture pre log overflows at320; actual game304client304scroll, notice272wide fit; no runtimeCSSchanged",
+    "Page guide replacing a demonstration stops its old watchdog; press replay to resume visualdemo",
+    "Global SSR window assumption unchanged; not SSR application"
+  ],
+  "coordination": "Both authorized chats confirm no newer runtime/no deploy; root solepublisher; rarity544e234 separately unverified",
+  "rollback": "Revert this frontend-only batch; no storage/data migrations",
+  "buildServerSHA256": "1724343871388ea0da5a6d7c125dd014a2f0faea56704999da51c060938a18aa",
+  "assets": [
+    {
+      "path": "assets/IslandApp.v-BPXClk5N.js",
+      "bytes": 51576,
+      "gzip9": 17805,
+      "sha256": "3afd6bab022dcc5347b1f98486fcb3f2c17aa8fae49aac6af08948d20fbd8f66"
+    },
+    {
+      "path": "assets/IslandApp.v-C2zdfX0C.css",
+      "bytes": 30389,
+      "gzip9": 6540,
+      "sha256": "af720e980d2716e6735ee9a7858601fbc83a378f8b961aae0766501cf8acc810"
+    },
+    {
+      "path": "assets/RoomEditor.v-BLEAUY1B.js",
+      "bytes": 10683,
+      "gzip9": 4090,
+      "sha256": "3ef719dbb37a1ff5bb7086b74acd80988aeeb0eafb186ab14be292d17302537f"
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "bytes": 30002,
+      "gzip9": 6405,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    {
+      "path": "assets/TerritoryPage.v-p3JH1Snh.js",
+      "bytes": 36006,
+      "gzip9": 12789,
+      "sha256": "d31140dbe937f5c0dbb46775d20f6a7cfb215df64abd947f3c922cb08b2fa052"
+    },
+    {
+      "path": "assets/index.v-CiVLeBgr.js",
+      "bytes": 340303,
+      "gzip9": 110075,
+      "sha256": "e7b9a426c89474254998fa0bd40e7e5b6f822e0e6157533b1902f4c595670d2f"
+    },
+    {
+      "path": "assets/index.v-WyQEizus.css",
+      "bytes": 234459,
+      "gzip9": 48959,
+      "sha256": "9ec12507fe92e80794b7a233ecccfe5b892c9c3a065be4fac7a69b4d8c86ed7e"
+    },
+    {
+      "path": "assets/interface-zhuyin-packed.v-DrtvwuYC.js",
+      "bytes": 359129,
+      "gzip9": 133705,
+      "sha256": "934d7044666c75e056f750fc4f7f1acdacf098fca2c85e26f2f0351f2f04d7c6"
+    }
+  ]
+}

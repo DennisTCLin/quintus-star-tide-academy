@@ -1,0 +1,22 @@
+{
+  "originalVideoLimit": 150,
+  "activeAnimatedCreatures": 30,
+  "originalPlannedVideos": 250,
+  "deferredVideoRange": [
+    151,
+    250
+  ],
+  "approvedPaidRedoIndices": [
+    8,
+    14,
+    29,
+    41,
+    43,
+    44,
+    48
+  ],
+  "additionalRedoPolicy": "Collect all findings for one final user review; do not submit extra paid jobs.",
+  "generationStopped": true,
+  "completedOriginalVideos": 150,
+  "stopReason": "User requested stopping at 150 original animations; no further paid retry authorization."
+}

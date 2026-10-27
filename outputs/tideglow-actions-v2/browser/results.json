@@ -1,0 +1,127 @@
+{
+  "checks": [
+    {
+      "action": "pet",
+      "correctVideo": "PASS",
+      "playsToEnd": "PASS",
+      "hits": 1
+    },
+    {
+      "action": "feed",
+      "correctVideo": "PASS",
+      "playsToEnd": "PASS",
+      "hits": 1
+    },
+    {
+      "action": "play",
+      "correctVideo": "PASS",
+      "playsToEnd": "PASS",
+      "hits": 3
+    },
+    {
+      "action": "highfive",
+      "correctVideo": "PASS",
+      "playsToEnd": "PASS",
+      "hits": 1
+    },
+    {
+      "action": "bubbles",
+      "correctVideo": "PASS",
+      "playsToEnd": "PASS",
+      "hits": 3
+    },
+    {
+      "restLoop11Seconds": "PASS",
+      "interruptAndStaleTimer": "PASS",
+      "pauseResumeRest": "PASS"
+    },
+    {
+      "decodedMotion": "idle",
+      "duration": 5.041667
+    },
+    {
+      "decodedMotion": "greet",
+      "duration": 5.041667
+    },
+    {
+      "decodedMotion": "rest",
+      "duration": 6.083333
+    },
+    {
+      "decodedMotion": "pet",
+      "duration": 5.041667
+    },
+    {
+      "decodedMotion": "feed",
+      "duration": 5.041667
+    },
+    {
+      "decodedMotion": "play",
+      "duration": 5.041667
+    },
+    {
+      "decodedMotion": "highfive",
+      "duration": 5.041667
+    },
+    {
+      "decodedMotion": "bubbles",
+      "duration": 5.041667
+    },
+    {
+      "decodedMotion": "listening",
+      "duration": 5.041667
+    },
+    {
+      "decodedMotion": "thinking",
+      "duration": 5.041667
+    },
+    {
+      "decodedMotion": "speaking",
+      "duration": 5.041667
+    },
+    {
+      "decodedMotion": "cheering",
+      "duration": 5.041667
+    },
+    {
+      "width": 390,
+      "reducedRestPosterAndLayout": "PASS"
+    },
+    {
+      "width": 820,
+      "reducedRestPosterAndLayout": "PASS"
+    },
+    {
+      "width": 1440,
+      "reducedRestPosterAndLayout": "PASS"
+    },
+    {
+      "profile": "quintus",
+      "allSixButtons": "PASS"
+    },
+    {
+      "profile": "feifei",
+      "allSixButtons": "PASS"
+    },
+    {
+      "profile": "qingqing",
+      "allSixButtons": "PASS"
+    },
+    {
+      "profile": "alston",
+      "allSixButtons": "PASS"
+    },
+    {
+      "personalDogUnchanged": "PASS"
+    },
+    {
+      "rejectedPlayUnlocksImmediately": "PASS"
+    },
+    {
+      "failedRestVideoUsesSleepPoster": "PASS"
+    }
+  ],
+  "errors": [],
+  "scope": "Synthetic API fixtures, no account mutations",
+  "url": "http://127.0.0.1:4327"
+}

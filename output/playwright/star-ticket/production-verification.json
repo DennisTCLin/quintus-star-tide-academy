@@ -1,0 +1,39 @@
+{
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "healthStatus": 200,
+  "assets": [
+    {
+      "path": "/assets/star-tide-dragon-icon-32.png",
+      "sha256": "263b06ede3f043b069e81be4db58471054140e642fe638686e9e54208301faa3"
+    },
+    {
+      "path": "/assets/star-tide-dragon-icon-192.png",
+      "sha256": "92645fa8ea9fccbe1d1d1871b1ebdfd9673e9ef54244a453d87879f40efd24ce"
+    },
+    {
+      "path": "/assets/star-tide-dragon-apple-touch.png",
+      "sha256": "463373196ccf81cf6bad8b67e6a1028f9017ba3e063b162980b2de8755687b72"
+    },
+    {
+      "path": "/assets/index.v-Ba0kbbIc.js",
+      "sha256": "91aa6be8584f19632664f827538428a6a2c1f7ec7efd6547ec78a8919151a894"
+    },
+    {
+      "path": "/assets/game-view.v-B8aFSKpE.js",
+      "sha256": "236e37e3a1e33c2df2324e7ff610e6595f43cb66ba490acd9b4a9b4bcda6c432"
+    },
+    {
+      "path": "/assets/game-view.v-T2peyUdc.css",
+      "sha256": "ae09255791e659da980fc3687ff96c4333d81ee27753e9166ea6d0f2ac6851be"
+    },
+    {
+      "path": "/assets/index.v-DQY-EMxB.css",
+      "sha256": "7a5a2323f107b72e231e2da40070860cf62bf9585e9d7f10ac242a81d943ac83"
+    }
+  ],
+  "anonymousStateStatus": 401,
+  "scope": "Read-only unauthenticated production health and exact deployed asset verification; authenticated behavior verified on isolated real PostgreSQL."
+}

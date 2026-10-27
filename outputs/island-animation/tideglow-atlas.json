@@ -1,0 +1,36 @@
+{
+  "pet": "tideglow",
+  "crop": {
+    "left": 128,
+    "top": 43,
+    "width": 711,
+    "height": 711
+  },
+  "cell": 160,
+  "clips": {
+    "idle": {
+      "src": "/assets/island-motion/tideglow-idle.webp?v=914ab05921dd",
+      "columns": 6,
+      "rows": 8,
+      "frames": 48,
+      "cell": 160,
+      "seconds": 4
+    },
+    "walk": {
+      "src": "/assets/island-motion/tideglow-walk.webp?v=3ee35774c446",
+      "columns": 6,
+      "rows": 3,
+      "frames": 18,
+      "cell": 160,
+      "seconds": 1.5
+    },
+    "play": {
+      "src": "/assets/island-motion/tideglow-play.webp?v=8e3dac13b73b",
+      "columns": 6,
+      "rows": 8,
+      "frames": 48,
+      "cell": 160,
+      "seconds": 4
+    }
+  }
+}

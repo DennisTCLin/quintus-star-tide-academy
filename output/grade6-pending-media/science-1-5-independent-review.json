@@ -1,0 +1,664 @@
+{
+  "reviewer": "independent science6–10 agent",
+  "candidateCount": 73,
+  "sourceImages": "/tmp/g6science-remaining; source3p2 additionally inspected original upside-down 3-2.png and upright 3rot.png",
+  "items": [
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "二1",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。",
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "三1(1)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "三1(2)",
+      "verdict": "pass",
+      "reason": "放大原圖可見斜線為警戒範圍；並非暴風圓圈或最大風區，正解警戒區支持。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "三1(3)",
+      "verdict": "pass",
+      "reason": "臺北在圖示斜線警戒範圍之外，臺南、高雄、臺東較靠近警戒區；選臺北作相對較小影響合理，不能推論完全無影響。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "三2(1)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "三2(2)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "三2(3)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "三3(1)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "三3(2)",
+      "verdict": "wording_caution",
+      "reason": "高壓下也可能偶有陰雨；候選改「最不符合」比原題絕對「不是」合理，但要保留典型條件，不應解釋為高壓絕不下雨。",
+      "recommendation": "建議prompt加「一般較常見的典型天氣」；explanation說較不典型，不等於不可能。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "四1",
+      "verdict": "exclude_or_explicit_adaptation",
+      "reason": "原題要求自行舉出一個生活熱脹冷縮實例，無唯一答案；候選是新增辨識題，不宜將原開放題標為已完整恢復。",
+      "recommendation": "保留open_ended；若用新增練習題，另列adapted練習且不要把原開放作答標成唯一解題已涵蓋。"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "四2",
+      "verdict": "exclude_or_explicit_adaptation",
+      "reason": "原題要求舉兩種颱風過後減低損害行為；候選只問一個選項，漏兩種作答要求且原題多解。",
+      "recommendation": "保留open_ended，不能以一題人為選項宣稱原兩種自由作答完全恢復。"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "五1(1)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "五1(2)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "五1(3)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "五2(1)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "五2(2)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。"
+    },
+    {
+      "source": 1,
+      "page": 2,
+      "locator": "五2(3)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。"
+    },
+    {
+      "source": 2,
+      "page": 3,
+      "locator": "四一1",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 2,
+      "page": 3,
+      "locator": "四一2",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 2,
+      "page": 3,
+      "locator": "四一3",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 2,
+      "page": 3,
+      "locator": "四一4",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 2,
+      "page": 3,
+      "locator": "四一5",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 2,
+      "page": 3,
+      "locator": "四三1",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 2,
+      "page": 3,
+      "locator": "四三2",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 2,
+      "page": 3,
+      "locator": "四三3",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 2,
+      "page": 3,
+      "locator": "四三4",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 2,
+      "page": 3,
+      "locator": "四三5",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "三3(2)",
+      "verdict": "fix_required",
+      "reason": "原卷問奶油「最快」融化位置，正解A；候選擅改最慢C，改了原題任務。",
+      "recommendation": "改prompt為「依圖將鐵尺放入熱水，哪個位置的奶油最快融化？」；correct=A，wrong=[B,C,同時融化]；說明A距熱水最近。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。",
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "三4(3)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。",
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四1甲",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四1乙",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四1丙",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四1丁",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四1戊",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四1己",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四2(1)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四2(2)",
+      "verdict": "wording_caution",
+      "reason": "高壓下也可能偶有陰雨，並非此時必不發生；候選僅可問一般典型情況。",
+      "recommendation": "同source1三3(2)，加典型條件，解釋不可絕對。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四2(3)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四3(1)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四3(2)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四3(3)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四4(1)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "四4(2)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。 bbox座標是整頁旋轉180度後座標；必須先rotate整頁再crop，不能先crop再rotate。"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一20",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一23",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。",
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "二1(1)",
+      "verdict": "fix_required",
+      "reason": "正解「向上流動」與干擾項「不會明顯移動到下瓶」可同時為真：煙原在下方熱瓶，上升當然也不會移動到下瓶，故非唯一解。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。",
+      "recommendation": "將第三選項改「停留在下瓶，沒有明顯上下交換」，其餘向上／向下／水平方向保持。"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "二1(2)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "二1(3)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "二1(4)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二3(1)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。",
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "二3(2)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。",
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "三1(1)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "三1(2)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "三1(3)",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "二3",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。",
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "二12",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。",
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "三一1",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "現框整條含四組題目選項，雖無已填答案，圖中文字細小且含非必要文字。建議每組只裁瓶圖，並在prompt寫清煙所在冷／熱瓶。",
+      "recommendedCrop": {
+        "pdfPage": 2,
+        "renderDimensions": [
+          1061,
+          1500
+        ],
+        "bbox": [
+          50,
+          985,
+          109,
+          1117
+        ]
+      },
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "三一2",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "現框整條含四組題目選項，雖無已填答案，圖中文字細小且含非必要文字。建議每組只裁瓶圖，並在prompt寫清煙所在冷／熱瓶。",
+      "recommendedCrop": {
+        "pdfPage": 2,
+        "renderDimensions": [
+          1061,
+          1500
+        ],
+        "bbox": [
+          290,
+          985,
+          349,
+          1117
+        ]
+      },
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "三一3",
+      "verdict": "fix_required",
+      "reason": "原圖第3組上熱下冷，煙在上方熱瓶；穩定配置，候選往上移動不符原圖。",
+      "recommendation": "correct改「沒有明顯上下移動」，wrong改往上移動／往下移動／消失而變成真空；解釋上熱下冷不易形成兩瓶上下交換。",
+      "cropReview": "現框整條含四組題目選項，雖無已填答案，圖中文字細小且含非必要文字。建議每組只裁瓶圖，並在prompt寫清煙所在冷／熱瓶。",
+      "recommendedCrop": {
+        "pdfPage": 2,
+        "renderDimensions": [
+          1061,
+          1500
+        ],
+        "bbox": [
+          530,
+          985,
+          588,
+          1117
+        ]
+      },
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "三一4",
+      "verdict": "fix_required",
+      "reason": "原圖第4組上冷下熱，煙在下方熱瓶；熱空氣帶煙上升，候選不動錯誤。",
+      "recommendation": "correct改「往上移動」，wrong改往下移動／沒有明顯上下移動／消失而變成真空。",
+      "cropReview": "現框整條含四組題目選項，雖無已填答案，圖中文字細小且含非必要文字。建議每組只裁瓶圖，並在prompt寫清煙所在冷／熱瓶。",
+      "recommendedCrop": {
+        "pdfPage": 2,
+        "renderDimensions": [
+          1061,
+          1500
+        ],
+        "bbox": [
+          770,
+          985,
+          830,
+          1117
+        ]
+      },
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 5,
+      "page": 3,
+      "locator": "三四1",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 5,
+      "page": 3,
+      "locator": "三四2",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 5,
+      "page": 3,
+      "locator": "三四3",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 5,
+      "page": 3,
+      "locator": "三四4",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 5,
+      "page": 3,
+      "locator": "三四5",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。"
+    },
+    {
+      "source": 5,
+      "page": 3,
+      "locator": "三五1A",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。",
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 5,
+      "page": 3,
+      "locator": "三五1B",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。",
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 5,
+      "page": 3,
+      "locator": "三五1C",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。",
+      "cropReview": "圖框包含作答所需標示，未見個資／已填答案。",
+      "resolutionAdvice": "此框較小：請由原PDF以至少2倍倍率輸出裁圖；只放大現成低解析PNG不會增加細節。保持bbox同比例換算。"
+    },
+    {
+      "source": 5,
+      "page": 3,
+      "locator": "三五2",
+      "verdict": "exclude_or_explicit_adaptation",
+      "reason": "原題任舉一項利用液體熱脹冷縮用品；候選改辨識液柱式溫度計，新題可答但需明示是改編而非原自由作答唯一解。",
+      "recommendation": "保留原open_ended狀態或標明獨立改編，勿宣稱原自由題具唯一答案。"
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "二4",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。"
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "二6",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。"
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一2",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。"
+    },
+    {
+      "source": 5,
+      "page": 4,
+      "locator": "四4",
+      "verdict": "pass",
+      "reason": "獨立對照原頁題意、圖中標示及四選項，正解唯一且符合圖示。"
+    }
+  ],
+  "summary": {
+    "definiteContentCorrections": 4,
+    "openEndedScopeIssues": 3,
+    "typicalWeatherWordingCautions": 2,
+    "rotationRule": "Source3 page2 rotate entire page180deg FIRST, then apply supplied bbox",
+    "assetRule": "No observed filled-answer leaks. Source5 convection strip includes unnecessary printed choices; prefer individual figure crops."
+  }
+}

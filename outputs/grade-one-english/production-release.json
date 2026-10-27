@@ -1,0 +1,30 @@
+{
+  "base": "https://quintus-star-tide-academy-production.up.railway.app",
+  "runtimeCommit": "becb2cb325d7f81b3ee648ba8463fc88e6161062",
+  "health": 200,
+  "assets": [
+    {
+      "path": "/assets/TerritoryPage.v-BqHHbs5n.js",
+      "sha256": "567e42c7e61e9366a5fcfb3143bb18134ac64411a32d3b0ad3e8a15b269edf53",
+      "bytes": 21418
+    },
+    {
+      "path": "/assets/TerritoryPage.v-5PgLoXkm.css",
+      "sha256": "97cf594f72cf99e717ea7e6664d6105f718bc63d4e98897c5c51e34d42f1755e",
+      "bytes": 18226
+    },
+    {
+      "path": "/assets/index.v-DRg_K7un.css",
+      "sha256": "03e3ec74ce6ae74d002d33c16277e425f0a4b0542631cde61845e8a874be5fc3",
+      "bytes": 168752
+    },
+    {
+      "path": "/assets/index.v-CMo0PwTG.js",
+      "sha256": "d206ac15c53432e09db3f6c608a23813f725ff09d471947d0f6c6a2f8ee9a866",
+      "bytes": 520550
+    }
+  ],
+  "deployment": "c53af9b8-ee32-4ff9-ac22-662c86249399",
+  "status": "SUCCESS",
+  "tests": 289
+}

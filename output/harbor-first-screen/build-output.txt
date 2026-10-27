@@ -1,0 +1,52 @@
+
+> quintus-ocean-academy@1.0.0 build
+> npm run audit:content && npm run build:zhuyin && npm run check:pronunciation && tsc -b && vite build && npm run build:server
+
+
+> quintus-ocean-academy@1.0.0 audit:content
+> node scripts/content-audit.mjs
+
+{"status":"PASS","static":4515,"generated":23192,"pools":42,"approvedStatic":4515,"approvedTemplates":42,"findings":0,"durationMs":300,"report":"output/content-audit/report.json"}
+
+> quintus-ocean-academy@1.0.0 build:zhuyin
+> node scripts/pack-zhuyin.mjs
+
+Packed 17137 phrases and 2563 characters into 999 shared syllables: /Users/dennistclin/.codex/worktrees/feifei-photo/星潮網站開發/src/data/interface-zhuyin-packed.json
+
+> quintus-ocean-academy@1.0.0 check:pronunciation
+> node scripts/check-pronunciation.mjs && node scripts/pack-zhuyin.mjs --check
+
+Pronunciation checks passed: 16777 source runs, 165 curated lessons, 337 reviewed context rules.
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 233 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                               1.63 kB │ gzip:   0.94 kB
+dist/assets/game-view.v-DjQLQpAC.css          1.26 kB │ gzip:   0.54 kB
+dist/assets/AdminConsole.v-DC7GNqzd.css      11.74 kB │ gzip:   2.82 kB
+dist/assets/TerritoryPage.v-XpGSXE-r.css     30.00 kB │ gzip:   6.46 kB
+dist/assets/IslandApp.v-ewABikei.css         75.22 kB │ gzip:  14.34 kB
+dist/assets/index.v-DjGVDsK_.css            321.81 kB │ gzip:  65.59 kB
+dist/assets/RoomEditor.v-B7FSP8lI.js         10.67 kB │ gzip:   4.16 kB
+dist/assets/AdminConsole.v-CwgpSg-1.js       33.32 kB │ gzip:  10.46 kB
+dist/assets/TerritoryPage.v-C0ApSrXc.js      36.03 kB │ gzip:  13.02 kB
+dist/assets/IslandApp.v-CLLvlzCu.js         205.38 kB │ gzip:  67.38 kB
+dist/assets/index.v-BLvm6HxH.js             582.98 kB │ gzip: 185.00 kB
+dist/assets/game-view.v-DvEeucgR.js       1,008.08 kB │ gzip: 397.76 kB
+
+✓ built in 689ms
+[plugin builtin:vite-reporter]
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+> quintus-ocean-academy@1.0.0 build:server
+> esbuild server/game.ts --bundle --platform=node --format=esm --outfile=build/game.mjs
+
+
+  build/game.mjs   5.5mb ⚠️
+  build/game.css  10.0kb
+
+⚡ Done in 27ms

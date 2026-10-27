@@ -1,0 +1,106 @@
+{
+  "commit": "14ef608f4d32d3c614036d0ef8d4955d3291bd01",
+  "checkedAt": "2026-10-25T17:04:25.855689+00:00",
+  "anonymousOnly": true,
+  "assets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/AdminConsole.v-BeLU2X01.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/AdminConsole.v-DcjKx7-E.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/IslandApp.v--k-RY2Cj.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/IslandApp.v-DLQOgdEM.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/RoomEditor.v-CwZHLHxy.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-ljxZjxeJ.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/game-view.v-Bta4ju3d.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/game-view.v-CNifi8gA.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/index.v-C6HDGtfC.js",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/index.v-k3rX_POx.css",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/subject-islands/panorama-v2-1600.webp",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/subject-islands/panorama-v2-2560.webp",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/subject-islands/panorama-v2-4096.webp",
+      "status": 200,
+      "sha256Match": true
+    },
+    {
+      "path": "assets/subject-islands/panorama-v2-960.webp",
+      "status": 200,
+      "sha256Match": true
+    }
+  ],
+  "health": {
+    "status": 200,
+    "body": {
+      "ok": true,
+      "service": "quintus-ocean-academy"
+    }
+  },
+  "unauthenticatedStatus": {
+    "/api/state": 401,
+    "/api/admin/session": 401,
+    "/api/admin/students": 401,
+    "/api/admin/users": 401,
+    "/api/admin/audit": 401
+  },
+  "adminPage": {
+    "status": 200,
+    "indexMatches": true
+  },
+  "passed": true
+}

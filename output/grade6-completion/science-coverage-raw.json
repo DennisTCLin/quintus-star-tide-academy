@@ -1,0 +1,6794 @@
+[
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：固體液體都以對流傳熱是否正確。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "三2(7)"
+    },
+    "originalSummary": "固體液體都以對流傳熱是否正確"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一2",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一2"
+    },
+    "originalSummary": "颱風眼經過後風雨會再來"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一3"
+    },
+    "originalSummary": "衛星圖可觀察哪些雲層資訊"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一4",
+    "status": "ambiguous",
+    "reason": "海水不能直接被「生物」利用是過度概括；海洋生物可利用海水。原題缺限定，保留歧義。",
+    "originalSummary": "海水不能直接被生物利用是否正確"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一5"
+    },
+    "originalSummary": "颱風眼風雨最強是否正確"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一6",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一6"
+    },
+    "originalSummary": "吹茶是傳導是否正確"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一7",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一7"
+    },
+    "originalSummary": "高窗讓熱氣下降冷氣上升是否正確"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一8",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一8"
+    },
+    "originalSummary": "真空可隔輻射是否正確"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一9",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一9"
+    },
+    "originalSummary": "雲是可見水蒸氣是否正確"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一10",
+    "status": "candidate",
+    "reason": "只針對未註記原始雲圖談限制，補明正式命名需其他資料。",
+    "canonical": {
+      "source": 1,
+      "locator": "一10"
+    },
+    "originalSummary": "衛星雲圖能否直接知道颱風名稱起源強度"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "二1",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "天氣符號辨識"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "二2",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 1,
+      "locator": "二2"
+    },
+    "originalSummary": "冰品保冷袋"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "二3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二3"
+    },
+    "originalSummary": "金屬蓋太緊如何打開"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "二4",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "臺灣少暖鋒的原因"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "二5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二5"
+    },
+    "originalSummary": "高壓中心的氣壓關係"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "二6",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 1,
+      "locator": "二6"
+    },
+    "originalSummary": "氣團定義"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "二7",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 1,
+      "locator": "二7"
+    },
+    "originalSummary": "液體對流"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "二8",
+    "status": "ambiguous",
+    "reason": "鋁箔、泡綿、涼感布料、珍珠棉只有材料名稱；涼感布結構與用途不明，無法單憑名稱唯一排除。",
+    "originalSummary": "保冷袋內層何種材料不適合"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "二9",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二9"
+    },
+    "originalSummary": "同條件杯中熱水降溫比較導熱"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "二10",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二10"
+    },
+    "originalSummary": "水蒸氣溫室作用與水循環敘述"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "三1(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三1(1)"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "三1(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三1(2)"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "三1(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三1(3)"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "三2(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三2(1)"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "三2(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三2(2)"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "三2(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三2(3)"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "三3(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三3(1)"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "三3(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三3(2)"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "四1",
+    "status": "open_ended",
+    "reason": "原題要求自行舉例，有多個合理答案；不改換成單選任務冒充原題已恢復。",
+    "originalSummary": "原卷四1的open_ended題"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "四2",
+    "status": "open_ended",
+    "reason": "原題要求自行舉例，有多個合理答案；不改換成單選任務冒充原題已恢復。",
+    "originalSummary": "原卷四2的open_ended題"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五1(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：五1(1)"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五1(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：五1(2)"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五1(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：五1(3)"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五2(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：五2(1)"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五2(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：五2(2)"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五2(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：五2(3)"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五3(1)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五3(1)"
+    },
+    "originalSummary": "哪一組都是固態的水？"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五3(2)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五3(2)"
+    },
+    "originalSummary": "哪一組都是液態小水滴構成的現象？"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五3(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五3(3)"
+    },
+    "originalSummary": "氣態的水稱為什麼？"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五4(1)",
+    "status": "ambiguous",
+    "reason": "溫水煮青蛙是寓言，不作動物實驗科學依據；單一情境也包含多種熱傳。",
+    "originalSummary": "溫水煮青蛙故事的熱傳"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五4(2)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五4(2)"
+    },
+    "originalSummary": "太陽熱傳到地球"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五4(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五4(3)"
+    },
+    "originalSummary": "陽光曬熱椅子再傳熱給人"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五4(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冷氣對流。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一10"
+    },
+    "originalSummary": "冷氣對流"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五5(1)",
+    "status": "ambiguous",
+    "reason": "火焰至鍋底同時有熱氣對流與輻射，原題單格無法唯一選傳導。",
+    "originalSummary": "瓦斯火傳熱到鍋"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五5(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：靠近火爐感到熱。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二3"
+    },
+    "originalSummary": "靠近火爐感到熱"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五5(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：鍋內水流動。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二7"
+    },
+    "originalSummary": "鍋內水流動"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五5(4)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五5(4)"
+    },
+    "originalSummary": "隔熱手套"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五5(5)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五5(5)"
+    },
+    "originalSummary": "鍋與冷水換熱"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一1(1)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一1(1)"
+    },
+    "originalSummary": "冰直接變氣"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一1(2)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一1(2)"
+    },
+    "originalSummary": "氣直接變冰"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一1(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：氣變水。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二6"
+    },
+    "originalSummary": "氣變水"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一1(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：水變氣。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一3"
+    },
+    "originalSummary": "水變氣"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一1(5)",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 2,
+      "locator": "一1(5)"
+    },
+    "originalSummary": "水變冰"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一1(6)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冰變水。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 9,
+      "locator": "二2(1)"
+    },
+    "originalSummary": "冰變水"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一2(1)",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 2,
+      "locator": "一2(1)"
+    },
+    "originalSummary": "雲的形成"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一2(2)",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 2,
+      "locator": "一2(2)"
+    },
+    "originalSummary": "霜的形成"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一2(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一2(3)"
+    },
+    "originalSummary": "雪的形成"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一2(4)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一2(4)"
+    },
+    "originalSummary": "雨雪霰雹何者液態"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一3(1)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一3(1)"
+    },
+    "originalSummary": "氣球遇冰水"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一3(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：液柱溫度計曬太陽。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一1"
+    },
+    "originalSummary": "液柱溫度計曬太陽"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一3(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：銅球加熱。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關4"
+    },
+    "originalSummary": "銅球加熱"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一3(4)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一3(4)"
+    },
+    "originalSummary": "天燈升空"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一3(5)",
+    "status": "ambiguous",
+    "reason": "原題將輪胎「胎壓變化」歸入體積膨脹或收縮兩類，量不同，不能以體積二選一作答。",
+    "originalSummary": "冬天輪胎氣體變化"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一4(1)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一4(1)"
+    },
+    "originalSummary": "羽絨衣"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一4(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：保溫杯。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一8"
+    },
+    "originalSummary": "保溫杯"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一4(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一4(3)"
+    },
+    "originalSummary": "開窗吹風"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一4(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：報紙保麗龍裝冰品。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二2"
+    },
+    "originalSummary": "報紙保麗龍裝冰品"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一4(5)",
+    "status": "ambiguous",
+    "reason": "濕布隔熱效能受含水量、溫度、時間影響，原句不能可靠支持安全隔熱結論。",
+    "originalSummary": "濕布隔熱"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：颱風去海邊觀浪。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四2"
+    },
+    "originalSummary": "颱風去海邊觀浪"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二2",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二2"
+    },
+    "originalSummary": "固定門窗"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：颱風登山。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四2"
+    },
+    "originalSummary": "颱風登山"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二4",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二4"
+    },
+    "originalSummary": "清排水溝"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二5"
+    },
+    "originalSummary": "門口沙包"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二6",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "水庫預洩洪"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二7",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二7"
+    },
+    "originalSummary": "緊急用品"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二8",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二8"
+    },
+    "originalSummary": "搬陽台盆栽"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二9",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二9"
+    },
+    "originalSummary": "高風險居民撤離"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二10",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二10"
+    },
+    "originalSummary": "最新官方氣象"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三一1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三一1"
+    },
+    "originalSummary": "比較相同裝置中的液體受冷、受熱後水位變化，主要改變哪個條件？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三一2",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三一2"
+    },
+    "originalSummary": "液體裝置原在30°C水浴中平衡，換水浴後液柱上升。若液體未相變且遵循熱脹冷縮，水浴可能是多少？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三一3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三一3"
+    },
+    "originalSummary": "液體裝置原在30°C水浴中平衡，換水浴後液柱下降。四個選項中哪個較符合降溫收縮？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三一4",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三一4"
+    },
+    "originalSummary": "液體在不發生相變、且符合一般熱脹冷縮的溫度範圍內受熱，體積通常如何？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三一5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三一5"
+    },
+    "originalSummary": "液體實驗中，A放熱水、C放冰水，B維持原本30°C。B的用途是什麼？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三二1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三二1"
+    },
+    "originalSummary": "上方熱瓶有煙、下方冷瓶無煙，兩瓶口相接且先不搖動，煙主要留在哪裡？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三二2",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三二2"
+    },
+    "originalSummary": "上方熱瓶無煙、下方冷瓶有煙，兩瓶口相接且先不搖動，煙主要留在哪裡？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三二3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三二3"
+    },
+    "originalSummary": "下方熱瓶有煙、上方冷瓶無煙，兩瓶口相接，煙會隨較熱空氣主要往哪裡移動？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三二4",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三二4"
+    },
+    "originalSummary": "上方冷瓶有煙、下方熱瓶無煙，兩瓶口相接後，冷瓶中的煙可能如何移動？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三二5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三二5"
+    },
+    "originalSummary": "自然對流中，較暖與較冷空氣通常如何移動？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三三1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三三1"
+    },
+    "originalSummary": "相同瓶子裝同量同溫的水，只改變外表顏色後同時曬太陽，想研究什麼？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三三2",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三三2"
+    },
+    "originalSummary": "黑色、透明、白色三個同規格瓶子比較日曬升溫，哪個可作為未塗色的比較組？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三三3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三三3"
+    },
+    "originalSummary": "黑色瓶中的水由30°C升到40°C，上升多少？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三三4",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三三4"
+    },
+    "originalSummary": "相同條件日曬兩小時後，黑瓶55°C、透明瓶45°C、白瓶40°C，哪瓶水最熱？"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三三5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三三5"
+    },
+    "originalSummary": "相同材料和表面條件下，黑色與白色表面照相同陽光，黑色通常為何升溫較多？"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四一1",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四一1"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四一2",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四一2"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四一3",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四一3"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四一4",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四一4"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四一5",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四一5"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四二1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "四二1"
+    },
+    "originalSummary": "資料表列丹娜絲海上警報發布日為2025年7月5日，侵近臺灣日期為7月6日，解除警報日為7月7日。侵近日期是哪一天？"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四二2",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "四二2"
+    },
+    "originalSummary": "颱風位置寫成N19.9、E117.6，表示什麼？"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四二3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "四二3"
+    },
+    "originalSummary": "颱風編號202504的後兩位04，代表該年西北太平洋及南海第幾個編號颱風？"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四二4",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "四二4"
+    },
+    "originalSummary": "資料表列丹娜絲「最大強度：中度」。依這張表，應選哪個強度？"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四二5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "四二5"
+    },
+    "originalSummary": "原卷引用截至7月14日的災情統計，有人死亡、受傷，並有停電及農漁損失。哪個說法與這段記錄不符？"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四三1",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四三1"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四三2",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四三2"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四三3",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四三3"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四三4",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四三4"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "四三5",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四三5"
+  },
+  {
+    "source": 2,
+    "page": 4,
+    "locator": "五1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "五1"
+    },
+    "originalSummary": "短文描述烤箱內的熱空氣流動，烤箱壁也會放出熱。這兩個過程主要是哪兩種方式？"
+  },
+  {
+    "source": 2,
+    "page": 4,
+    "locator": "五2",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "五2"
+    },
+    "originalSummary": "短文說烤箱內貼鋁箔可將部分熱輻射反射回去，這主要有何效果？"
+  },
+  {
+    "source": 2,
+    "page": 4,
+    "locator": "五3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "五3"
+    },
+    "originalSummary": "短文描述加熱裝置留下通風口，空氣可進出。這與哪個作用最直接相關？"
+  },
+  {
+    "source": 2,
+    "page": 4,
+    "locator": "五4",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "五4"
+    },
+    "originalSummary": "加熱相同食物到相同程度，若裝置減少無用的熱量散失，可能有何好處？"
+  },
+  {
+    "source": 2,
+    "page": 4,
+    "locator": "五5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 2,
+      "locator": "五5"
+    },
+    "originalSummary": "短文提到容器中的水可吸收熱量，以下哪個說明較合理？"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "一1"
+    },
+    "originalSummary": "蛋受熱改變"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：鋁箔反射保溫。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二6"
+    },
+    "originalSummary": "鋁箔反射保溫"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "一3"
+    },
+    "originalSummary": "熱由低到高是否正確"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：水沸騰主要輻射是否正確。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二7"
+    },
+    "originalSummary": "水沸騰主要輻射是否正確"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一5",
+    "status": "duplicate",
+    "reason": "同為配合官方防颱/撤離指示的判斷，與2二9重複。",
+    "originalSummary": "防颱聽從指示",
+    "canonical": {
+      "source": 2,
+      "locator": "二9"
+    }
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一6",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：氣體粒子間距與膨脹。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 9,
+      "locator": "一1"
+    },
+    "originalSummary": "氣體粒子間距與膨脹"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一7",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "一7"
+    },
+    "originalSummary": "颱風低壓密等壓線"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一8",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "一8"
+    },
+    "originalSummary": "冬天呼氣與沸水白霧"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一9",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：車窗除霧。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一11"
+    },
+    "originalSummary": "車窗除霧"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一10",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "一10"
+    },
+    "originalSummary": "冷鋒後升溫是否正確"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二1"
+    },
+    "originalSummary": "套疊玻璃杯分開"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：真空隔輻射是否正確。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一8"
+    },
+    "originalSummary": "真空隔輻射是否正確"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二3",
+    "status": "ambiguous",
+    "reason": "曝曬後椅面溫度未給；表面吸光性、熱容量不同，不能唯一比較觸感。",
+    "originalSummary": "曬熱木椅金屬椅觸感"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：液體實驗操作變因。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三一1"
+    },
+    "originalSummary": "液體實驗操作變因"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二5",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 3,
+      "locator": "二5"
+    },
+    "originalSummary": "外牆導熱慢材料"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二6",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 3,
+      "locator": "二6"
+    },
+    "originalSummary": "凝結名稱"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二7",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二7"
+    },
+    "originalSummary": "梅雨鋒面"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二8",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二8"
+    },
+    "originalSummary": "植物蒸散"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二9",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二9"
+    },
+    "originalSummary": "颱風強度"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二10",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 3,
+      "locator": "二10"
+    },
+    "originalSummary": "冬季氣團來源"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三1(1)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三1(1)"
+    },
+    "originalSummary": "熱水氣球膨脹"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三1(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冰水氣球收縮。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一3(1)"
+    },
+    "originalSummary": "冰水氣球收縮"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三1(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：氣體熱脹冷縮。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關5"
+    },
+    "originalSummary": "氣體熱脹冷縮"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三2(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：熱銅球不能過環。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關4"
+    },
+    "originalSummary": "熱銅球不能過環"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三2(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：銅球加熱膨脹。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關4"
+    },
+    "originalSummary": "銅球加熱膨脹"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三2(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三2(3)"
+    },
+    "originalSummary": "冷銅球可過環"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三2(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：銅球冷卻收縮。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三2(3)"
+    },
+    "originalSummary": "銅球冷卻收縮"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三3(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：固體傳導。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "三2(7)"
+    },
+    "originalSummary": "固體傳導"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三3(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "尺上哪點先受熱"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三3(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三3(3)"
+    },
+    "originalSummary": "木把手減少傳導"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三4(1)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三4(1)"
+    },
+    "originalSummary": "煙示蹤"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三4(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：熱空氣移動方向。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三二5"
+    },
+    "originalSummary": "熱空氣移動方向"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三4(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "裝置流動結果"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "三5(1)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(1)"
+    },
+    "originalSummary": "冰鹽杯霜"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "三5(2)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(2)"
+    },
+    "originalSummary": "冰水杯露"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "三5(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(3)"
+    },
+    "originalSummary": "露霜形態"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四1甲",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四1甲"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四1乙",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四1乙"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四1丙",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四1丙"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四1丁",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四1丁"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四1戊",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四1戊"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四1己",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四1己"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四2(1)",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "原卷圖題：四2(1)",
+    "canonical": {
+      "source": 1,
+      "locator": "三3(1)"
+    }
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四2(2)",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "原卷圖題：四2(2)",
+    "canonical": {
+      "source": 1,
+      "locator": "三3(2)"
+    }
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四2(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四2(3)"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四3(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四3(1)"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四3(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四3(2)"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四3(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四3(3)"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四4(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四4(1)"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四4(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：四4(2)"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五1(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：材料排序中房屋隔熱。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二5"
+    },
+    "originalSummary": "材料排序中房屋隔熱"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五1(2)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "五1(2)"
+    },
+    "originalSummary": "鐵不鏽鋼鍋比較"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五1(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 3,
+      "locator": "五1(3)"
+    },
+    "originalSummary": "鍋身把手組合"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五2(1)",
+    "status": "ambiguous",
+    "reason": "瓦斯火至鍋底不只是單一傳導；原題限定三種單格卻未分熱氣與鍋壁路徑。",
+    "originalSummary": "火到鍋熱傳"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五2(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：靠火爐感熱。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二3"
+    },
+    "originalSummary": "靠火爐感熱"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五2(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：鍋水沸騰。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二7"
+    },
+    "originalSummary": "鍋水沸騰"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五2(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：布隔熱。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五5(4)"
+    },
+    "originalSummary": "布隔熱"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五2(5)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：鍋放冷水。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五5(5)"
+    },
+    "originalSummary": "鍋放冷水"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一1",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 4,
+      "locator": "一1"
+    },
+    "originalSummary": "液柱溫度計"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一2",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "冬天輪胎"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一3",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 4,
+      "locator": "一3"
+    },
+    "originalSummary": "衣服乾蒸發"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：湯匙傳導。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二1"
+    },
+    "originalSummary": "湯匙傳導"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：羽絨保暖。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一4(1)"
+    },
+    "originalSummary": "羽絨保暖"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一6",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一6"
+    },
+    "originalSummary": "鐵空氣水塑膠導熱"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一7",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：颱風強度。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二9"
+    },
+    "originalSummary": "颱風強度"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一8",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一8"
+    },
+    "originalSummary": "非熱脹冷縮現象"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一9",
+    "status": "candidate",
+    "reason": "再次視閱原卷，區分錯誤干擾項與題目錯誤；補精確條件後自足改編。",
+    "originalSummary": "太陽能熱水器",
+    "canonical": {
+      "source": 4,
+      "locator": "一9"
+    }
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一10",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 4,
+      "locator": "一10"
+    },
+    "originalSummary": "冷氣高處"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一11",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：官方預報。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二10"
+    },
+    "originalSummary": "官方預報"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一12",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一12"
+    },
+    "originalSummary": "雲霧高度"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一13",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：露霜溫度。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(3)"
+    },
+    "originalSummary": "露霜溫度"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一14",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一14"
+    },
+    "originalSummary": "衛星繞地球"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一15",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：同步衛星與極軌。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一7"
+    },
+    "originalSummary": "同步衛星與極軌"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一16",
+    "status": "candidate",
+    "reason": "再次視閱原卷，區分錯誤干擾項與題目錯誤；補精確條件後自足改編。",
+    "originalSummary": "冰雹錯誤敘述",
+    "canonical": {
+      "source": 4,
+      "locator": "一16"
+    }
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一17",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：衛星雲圖用途。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 6,
+      "locator": "一6"
+    },
+    "originalSummary": "衛星雲圖用途"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一18",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：H。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二5"
+    },
+    "originalSummary": "H"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一19",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一19"
+    },
+    "originalSummary": "L"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一20",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "鋒面圖示"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一21",
+    "status": "candidate",
+    "reason": "再次視閱原卷，區分錯誤干擾項與題目錯誤；補精確條件後自足改編。",
+    "originalSummary": "等壓線密集與天氣",
+    "canonical": {
+      "source": 4,
+      "locator": "一21"
+    }
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一22",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一22"
+    },
+    "originalSummary": "鋒面降雨"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一23",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "奶油融化先後位置",
+    "canonical": {
+      "source": 3,
+      "locator": "三3(2)"
+    }
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一24",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一24"
+    },
+    "originalSummary": "操作變因奶油位置"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一25",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：梅雨鋒面。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二7"
+    },
+    "originalSummary": "梅雨鋒面"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二1(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：二1(1)"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二1(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：二1(2)"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二1(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：二1(3)"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二1(4)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：二1(4)"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "二2配對A水滴",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冰水杯表面溫度低於露點但高於0°C，杯外小水滴最接近哪種現象？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(2)"
+    },
+    "originalSummary": "冰水杯表面溫度低於露點但高於0°C，杯外小水滴最接近哪種現象？"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "二2配對B冰晶",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：三杯分別裝常溫水、冰水、冰加鹽。哪杯較可能使杯外表面降到0°C以下並形成霜？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(1)"
+    },
+    "originalSummary": "三杯分別裝常溫水、冰水、冰加鹽。哪杯較可能使杯外表面降到0°C以下並形成霜？"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "二2配對A露",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冰水杯表面溫度低於露點但高於0°C，杯外小水滴最接近哪種現象？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(2)"
+    },
+    "originalSummary": "冰水杯表面溫度低於露點但高於0°C，杯外小水滴最接近哪種現象？"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "二2配對B霜",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：三杯分別裝常溫水、冰水、冰加鹽。哪杯較可能使杯外表面降到0°C以下並形成霜？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(1)"
+    },
+    "originalSummary": "三杯分別裝常溫水、冰水、冰加鹽。哪杯較可能使杯外表面降到0°C以下並形成霜？"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "二2(1)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "二2(1)"
+    },
+    "originalSummary": "製作霜的實驗，在冰中加鹽的主要目的為何？"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "二2(2)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "二2(2)"
+    },
+    "originalSummary": "冰水杯外的小水滴主要來自哪裡？"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "二3(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：二3(1)"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "二3(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：二3(2)"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "二3(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：一般情況、沒有相變時，多數物質隨溫度改變會有什麼現象？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關5"
+    },
+    "originalSummary": "一般情況、沒有相變時，多數物質隨溫度改變會有什麼現象？"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三1(1)",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "原卷圖題：三1(1)",
+    "canonical": {
+      "source": 1,
+      "locator": "五1(1)"
+    }
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三1(2)",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "原卷圖題：三1(2)",
+    "canonical": {
+      "source": 1,
+      "locator": "五1(2)"
+    }
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三1(3)",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "原卷圖題：三1(3)",
+    "canonical": {
+      "source": 1,
+      "locator": "五1(3)"
+    }
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三2(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冷氣位置。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一10"
+    },
+    "originalSummary": "冷氣位置"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三2(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：煮開水。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二7"
+    },
+    "originalSummary": "煮開水"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三2(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "三2(3)"
+    },
+    "originalSummary": "暖暖包"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三2(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：太陽。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五4(2)"
+    },
+    "originalSummary": "太陽"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三2(5)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：風扇。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三二7"
+    },
+    "originalSummary": "風扇"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三2(6)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：真空瓶。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二6"
+    },
+    "originalSummary": "真空瓶"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三2(7)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "三2(7)"
+    },
+    "originalSummary": "固體"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三2(8)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：液氣體。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二7"
+    },
+    "originalSummary": "液氣體"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "四1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四1"
+    },
+    "originalSummary": "颱風水資源效益"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "四2",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四2"
+    },
+    "originalSummary": "防颱行為"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "四3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四3"
+    },
+    "originalSummary": "莫拉克坡地災害"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "四4",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四4"
+    },
+    "originalSummary": "過度開發土地"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "四5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：預防減災。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四4"
+    },
+    "originalSummary": "預防減災"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：梅雨颱風無災害是否正確。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四1"
+    },
+    "originalSummary": "梅雨颱風無災害是否正確"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：穿衣保暖。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一4(1)"
+    },
+    "originalSummary": "穿衣保暖"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一3",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 5,
+      "locator": "一3"
+    },
+    "originalSummary": "水三態粒子"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一4",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一4"
+    },
+    "originalSummary": "地下水停止循環是否正確"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一5"
+    },
+    "originalSummary": "颱風熱量再分布"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一6",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 5,
+      "locator": "一6"
+    },
+    "originalSummary": "凝結核"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一7",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一7"
+    },
+    "originalSummary": "極軌衛星永遠同區域是否正確"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一8",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冷氣搭風扇。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一4(3)"
+    },
+    "originalSummary": "冷氣搭風扇"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一9",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一9"
+    },
+    "originalSummary": "烤肉是熱膨脹是否正確"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一10",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一10"
+    },
+    "originalSummary": "同時加熱球環的變因控制"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一11",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一11"
+    },
+    "originalSummary": "增加濕氣除霧是否正確"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一12",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 5,
+      "locator": "一12"
+    },
+    "originalSummary": "重複測量"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "二1"
+    },
+    "originalSummary": "液體粒子"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二2",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "二2"
+    },
+    "originalSummary": "颱風警報種類"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二3",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "等壓線風速圖"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "二4",
+    "status": "ambiguous",
+    "reason": "四個原選項均錯：將氣體效應歸給瓶身、冷縮誤寫體積增大、常溫先脹再縮；沒有正確選項。",
+    "originalSummary": "氣球熱膨脹"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "二5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "二5"
+    },
+    "originalSummary": "冰敷熱方向"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "二6",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：拿熱盤隔熱。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五5(4)"
+    },
+    "originalSummary": "拿熱盤隔熱"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "二7",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：黑牆減熱是否正確。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三三5"
+    },
+    "originalSummary": "黑牆減熱是否正確"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "二8",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "二8"
+    },
+    "originalSummary": "降水可固態"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "二9",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "二9"
+    },
+    "originalSummary": "鍋煮湯熱傳"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "二10",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "二10"
+    },
+    "originalSummary": "雲圖較亮區"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "二11",
+    "status": "ambiguous",
+    "reason": "①雨落葉形成露確實錯，但②雲是否計入固態取決於雲組成；未限定相態，單選不穩定。",
+    "originalSummary": "雨滴露水雲態混合敘述"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "二12",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "小犬路徑圖"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "三一1",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "原卷圖題：三一1",
+    "canonical": {
+      "source": 4,
+      "locator": "二1(3)"
+    }
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "三一2",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "原卷圖題：三一2",
+    "canonical": {
+      "source": 4,
+      "locator": "二1(4)"
+    }
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "三一3",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "原卷圖題：三一3",
+    "canonical": {
+      "source": 4,
+      "locator": "二1(2)"
+    }
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "三一4",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "原卷圖題：三一4",
+    "canonical": {
+      "source": 4,
+      "locator": "二1(1)"
+    }
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "三一5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：自然對流中，較暖與較冷空氣通常如何移動？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三二5"
+    },
+    "originalSummary": "自然對流中，較暖與較冷空氣通常如何移動？"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "三二1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：災後報修。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "三二4"
+    },
+    "originalSummary": "災後報修"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "三二2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：風前修樹。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二8"
+    },
+    "originalSummary": "風前修樹"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "三二3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：颱風避開山區。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四2"
+    },
+    "originalSummary": "颱風避開山區"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "三二4",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "三二4"
+    },
+    "originalSummary": "災後清理"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "三二5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：風前物資。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二7"
+    },
+    "originalSummary": "風前物資"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "三二6",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：風中監看資訊。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二10"
+    },
+    "originalSummary": "風中監看資訊"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三三1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：奶油位置操作變因。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一24"
+    },
+    "originalSummary": "奶油位置操作變因"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三三2",
+    "status": "candidate",
+    "reason": "Original butter/iron-ruler control-variable inference is distinct from dew/frost temperature experiment.",
+    "canonical": {
+      "source": 5,
+      "locator": "三三2"
+    },
+    "originalSummary": "實驗共同條件"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三三3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "三三3"
+    },
+    "originalSummary": "觀察融化時間"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三四1",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三四1"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三四2",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三四2"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三四3",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三四3"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三四4",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三四4"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三四5",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三四5"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三五1A",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三五1A"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三五1B",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三五1B"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三五1C",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三五1C"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三五2",
+    "status": "open_ended",
+    "reason": "原題要求自行舉例，有多個合理答案；不改換成單選任務冒充原題已恢復。",
+    "originalSummary": "原卷三五2的open_ended題"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三六1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "三六1"
+    },
+    "originalSummary": "室溫約25°C，三杯分別是常溫水、冰水、充分混合的冰鹽混合物。通常由高溫到低溫如何排？"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三六2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：三杯分別裝常溫水、冰水、冰加鹽。哪杯較可能使杯外表面降到0°C以下並形成霜？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(1)"
+    },
+    "originalSummary": "三杯分別裝常溫水、冰水、冰加鹽。哪杯較可能使杯外表面降到0°C以下並形成霜？"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三六3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "三六3"
+    },
+    "originalSummary": "教室25°C，水加冰塊後量到的水溫，以下何者最合理？"
+  },
+  {
+    "source": 5,
+    "page": 4,
+    "locator": "四1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "四1"
+    },
+    "originalSummary": "共伴雨成因"
+  },
+  {
+    "source": 5,
+    "page": 4,
+    "locator": "四2",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "四2"
+    },
+    "originalSummary": "共伴預報複雜"
+  },
+  {
+    "source": 5,
+    "page": 4,
+    "locator": "四3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "四3"
+    },
+    "originalSummary": "共伴期間防護"
+  },
+  {
+    "source": 5,
+    "page": 4,
+    "locator": "四4",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "保溫杯裝碳酸安全"
+  },
+  {
+    "source": 5,
+    "page": 4,
+    "locator": "四5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "四5"
+    },
+    "originalSummary": "鋼刷清洗"
+  },
+  {
+    "source": 5,
+    "page": 4,
+    "locator": "四6",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 5,
+      "locator": "四6"
+    },
+    "originalSummary": "塑膠瓶蓋傳導"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一1",
+    "status": "candidate",
+    "reason": "Original includes fair-weather relationship missing from pressure-value-only canonical.",
+    "canonical": {
+      "source": 6,
+      "locator": "一1"
+    },
+    "originalSummary": "H晴朗"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：吹茶傳導判斷。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一6"
+    },
+    "originalSummary": "吹茶傳導判斷"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：氣體比固體疏鬆。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 9,
+      "locator": "一1"
+    },
+    "originalSummary": "氣體比固體疏鬆"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：杯材冷卻比較。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二9"
+    },
+    "originalSummary": "杯材冷卻比較"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 6,
+      "locator": "一5"
+    },
+    "originalSummary": "太平洋氣團"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一6",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 6,
+      "locator": "一6"
+    },
+    "originalSummary": "天氣圖雲厚"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一7",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：梅雨滯留鋒。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二7"
+    },
+    "originalSummary": "梅雨滯留鋒"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一8",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：氣球熱膨脹。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三1(1)"
+    },
+    "originalSummary": "氣球熱膨脹"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一9",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：真空輻射。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一8"
+    },
+    "originalSummary": "真空輻射"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一10",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：霜溫度。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一2(2)"
+    },
+    "originalSummary": "霜溫度"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二1",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 6,
+      "locator": "二1"
+    },
+    "originalSummary": "熱湯匙"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：滾水。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二7"
+    },
+    "originalSummary": "滾水"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二3",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 6,
+      "locator": "二3"
+    },
+    "originalSummary": "火爐輻射"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：導熱鍋材。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一6"
+    },
+    "originalSummary": "導熱鍋材"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：暖氣空氣對流。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三二5"
+    },
+    "originalSummary": "暖氣空氣對流"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二6",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 6,
+      "locator": "二6"
+    },
+    "originalSummary": "鍍銀瓶"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二7",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二7"
+    },
+    "originalSummary": "微波爐"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二8",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二8"
+    },
+    "originalSummary": "熱水輕倒冷水"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二9",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二9"
+    },
+    "originalSummary": "反射不是傳熱三方式"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二10",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：日曬。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五4(2)"
+    },
+    "originalSummary": "日曬"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二11",
+    "status": "ambiguous",
+    "reason": "午後烏雲強風雷雨不等於冷鋒；缺氣團與天氣圖資料，不能把冷鋒設唯一答案。",
+    "originalSummary": "午後雷雨一定冷鋒？"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二12",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二12"
+    },
+    "originalSummary": "雷雨避雷"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二13",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二13"
+    },
+    "originalSummary": "出門雨具預報"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二14",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二14"
+    },
+    "originalSummary": "樹蔭與柏油"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二15",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二15"
+    },
+    "originalSummary": "校園綠地"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二16",
+    "status": "ambiguous",
+    "reason": "開放教育目的「最主要學到什麼」多項可成立，無唯一科學答案。",
+    "originalSummary": "活動環境教育目的"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三1(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三1(1)"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三1(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三1(2)"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三1(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三1(3)"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三1(4)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三1(4)"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三2(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三2(1)"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三2(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三2(2)"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三2(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三2(3)"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "三3(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：循環扇對流。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三二7"
+    },
+    "originalSummary": "循環扇對流"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "三3(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "無冷氣時窗外排氣"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "三3(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "有冷氣時風扇位置"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四1(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：室溫約25°C，三杯分別是常溫水、冰水、充分混合的冰鹽混合物。通常由高溫到低溫如何排？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "三六1"
+    },
+    "originalSummary": "室溫約25°C，三杯分別是常溫水、冰水、充分混合的冰鹽混合物。通常由高溫到低溫如何排？"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四1(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：製作霜的實驗，在冰中加鹽的主要目的為何？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "二2(1)"
+    },
+    "originalSummary": "製作霜的實驗，在冰中加鹽的主要目的為何？"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四1(3)",
+    "status": "duplicate",
+    "reason": "原題兩格分別問冰鹽杯霜、冰水杯露，兩個實驗現象分別已核對。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(1)"
+    },
+    "originalSummary": "三杯分別裝常溫水、冰水、冰加鹽。哪杯較可能使杯外表面降到0°C以下並形成霜？"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四1(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：露和霜哪個比較正確？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(3)"
+    },
+    "originalSummary": "露和霜哪個比較正確？"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四2(1)",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "奶油最快",
+    "canonical": {
+      "source": 3,
+      "locator": "三3(2)"
+    }
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四2(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "奶油最慢"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四2(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 6,
+      "locator": "四2(3)"
+    },
+    "originalSummary": "鋁箔鐵尺材料"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四2(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：固態。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "三2(7)"
+    },
+    "originalSummary": "固態"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四2(5)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：高溫到低溫。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "一3"
+    },
+    "originalSummary": "高溫到低溫"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "五1(1)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 6,
+      "locator": "五1(1)"
+    },
+    "originalSummary": "淺色外牆"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "五1(2)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 6,
+      "locator": "五1(2)"
+    },
+    "originalSummary": "裸鐵皮屋頂"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "五1(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：高低窗。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一7"
+    },
+    "originalSummary": "高低窗"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "五2(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：空梅滯留鋒。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二7"
+    },
+    "originalSummary": "空梅滯留鋒"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "五2(2)",
+    "status": "ambiguous",
+    "reason": "太平洋高壓下可能晴朗也可午後雷雨，原選項同時列兩者而未界定天氣尺度。",
+    "originalSummary": "太平洋高壓晴朗或雷雨"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "五2(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：雨水紓解旱象。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四1"
+    },
+    "originalSummary": "雨水紓解旱象"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "加分題",
+    "status": "open_ended",
+    "reason": "已檢視原頁，要求自行畫防颱海報／任舉兩個防颱措施／熱脹冷縮生活實例，存在多個合理答案，不能把任舉一例假裝唯一答案。",
+    "originalSummary": "原卷加分題的open_ended題"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：固液氣膨脹比較。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 9,
+      "locator": "一1"
+    },
+    "originalSummary": "固液氣膨脹比較"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：水蒸氣粒子。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一3"
+    },
+    "originalSummary": "水蒸氣粒子"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：熱下冷上煙流。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三二3"
+    },
+    "originalSummary": "熱下冷上煙流"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：球環。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關4"
+    },
+    "originalSummary": "球環"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：氣球變化原因。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三1(1)"
+    },
+    "originalSummary": "氣球變化原因"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一6",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：綠建築。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第五關1"
+    },
+    "originalSummary": "綠建築"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一7",
+    "status": "ambiguous",
+    "reason": "雲也可能含固態冰晶，題目將固態天氣數量固定為4並不嚴謹。",
+    "originalSummary": "固態天氣數量含雲"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一8",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 7,
+      "locator": "一8"
+    },
+    "originalSummary": "鋒面"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "二1",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 7,
+      "locator": "二1"
+    },
+    "originalSummary": "最高水浴水位"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "二2",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 7,
+      "locator": "二2"
+    },
+    "originalSummary": "A B C導熱順位"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "二3",
+    "status": "ambiguous",
+    "reason": "退熱貼的導熱與蒸發效果需具體產品條件；不把熱學題寫成醫療退燒建議。",
+    "originalSummary": "退熱貼對流錯誤"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "二4",
+    "status": "ambiguous",
+    "reason": "原卷四個水循環選項皆可合理成立，問錯誤項缺明確唯一答案。",
+    "originalSummary": "水循環無明確錯選項"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "二5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：單張圖預測天氣。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一3"
+    },
+    "originalSummary": "單張圖預測天氣"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "二6",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "梅雨符號"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "二7",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：颱風雨益。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四1"
+    },
+    "originalSummary": "颱風雨益"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三一1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：等壓線名稱。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 8,
+      "locator": "二10"
+    },
+    "originalSummary": "等壓線名稱"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三一2",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "最低壓點"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三一3",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "高壓點"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三一4",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "乙點代號"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三一5",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "丁氣壓"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三一6",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三一6"
+    },
+    "originalSummary": "單張圖未來路徑"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三一7",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "鋒面符號"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三二1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：動物曬太陽。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五4(2)"
+    },
+    "originalSummary": "動物曬太陽"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三二2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：石板烤肉。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一9"
+    },
+    "originalSummary": "石板烤肉"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三二3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：暖氣。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三二5"
+    },
+    "originalSummary": "暖氣"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三二4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冷氣。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一10"
+    },
+    "originalSummary": "冷氣"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三二5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：紙杯套。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五5(4)"
+    },
+    "originalSummary": "紙杯套"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三二6",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三二6"
+    },
+    "originalSummary": "陽傘"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三二7",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三二7"
+    },
+    "originalSummary": "開窗電扇"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三三1",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "尺奶油最快",
+    "canonical": {
+      "source": 3,
+      "locator": "三3(2)"
+    }
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三三2",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "尺奶油最慢",
+    "canonical": {
+      "source": 6,
+      "locator": "四2(2)"
+    }
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三三3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：木材減傳導。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三3(3)"
+    },
+    "originalSummary": "木材減傳導"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三四1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：溫度操作變因。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三一1"
+    },
+    "originalSummary": "溫度操作變因"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三四2",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三四2"
+    },
+    "originalSummary": "四控制條件"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三四3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三四3"
+    },
+    "originalSummary": "常溫對照"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三四4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冰鹽霜。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(1)"
+    },
+    "originalSummary": "冰鹽霜"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三四5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冰水露。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(2)"
+    },
+    "originalSummary": "冰水露"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三四6",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：杯外水來自空氣。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "二2(2)"
+    },
+    "originalSummary": "杯外水來自空氣"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三四7",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：鹽降溫。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "二2(1)"
+    },
+    "originalSummary": "鹽降溫"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三四8",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：露霜相態。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(3)"
+    },
+    "originalSummary": "露霜相態"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三四9",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：露霜都受溫度影響。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(3)"
+    },
+    "originalSummary": "露霜都受溫度影響"
+  },
+  {
+    "source": 7,
+    "page": 4,
+    "locator": "三五1",
+    "status": "open_ended",
+    "reason": "已檢視原頁，要求自行畫防颱海報／任舉兩個防颱措施／熱脹冷縮生活實例，存在多個合理答案，不能把任舉一例假裝唯一答案。",
+    "originalSummary": "原卷三五1的open_ended題"
+  },
+  {
+    "source": 7,
+    "page": 4,
+    "locator": "三五2",
+    "status": "open_ended",
+    "reason": "已檢視原頁，要求自行畫防颱海報／任舉兩個防颱措施／熱脹冷縮生活實例，存在多個合理答案，不能把任舉一例假裝唯一答案。",
+    "originalSummary": "原卷三五2的open_ended題"
+  },
+  {
+    "source": 7,
+    "page": 4,
+    "locator": "三六1",
+    "status": "open_ended",
+    "reason": "已檢視原頁，要求自行畫防颱海報／任舉兩個防颱措施／熱脹冷縮生活實例，存在多個合理答案，不能把任舉一例假裝唯一答案。",
+    "originalSummary": "原卷三六1的open_ended題"
+  },
+  {
+    "source": 7,
+    "page": 4,
+    "locator": "三六2",
+    "status": "open_ended",
+    "reason": "已檢視原頁，要求自行畫防颱海報／任舉兩個防颱措施／熱脹冷縮生活實例，存在多個合理答案，不能把任舉一例假裝唯一答案。",
+    "originalSummary": "原卷三六2的open_ended題"
+  },
+  {
+    "source": 7,
+    "page": 4,
+    "locator": "四1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 7,
+      "locator": "四1"
+    },
+    "originalSummary": "短文說乾冰吸熱可使冷雲降溫。課堂製霜實驗中，冰塊加入哪種物質也能使混合物更冷？"
+  },
+  {
+    "source": 7,
+    "page": 4,
+    "locator": "四2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：空氣中的水蒸氣凝結成小水滴時，煙塵等微小顆粒可提供附著位置。這些顆粒稱為什麼？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一6"
+    },
+    "originalSummary": "空氣中的水蒸氣凝結成小水滴時，煙塵等微小顆粒可提供附著位置。這些顆粒稱為什麼？"
+  },
+  {
+    "source": 7,
+    "page": 5,
+    "locator": "空白答案卷",
+    "status": "duplicate_answer_sheet",
+    "reason": "本頁只提供前四頁作答格，沒有新增題目，不重複計入題目數。",
+    "originalSummary": "原卷空白答案卷的duplicate_answer_sheet題"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：風速判強度。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二9"
+    },
+    "originalSummary": "風速判強度"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：氣團鋒面。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 7,
+      "locator": "一8"
+    },
+    "originalSummary": "氣團鋒面"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：衛星種類。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一7"
+    },
+    "originalSummary": "衛星種類"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：雲霧高度。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一12"
+    },
+    "originalSummary": "雲霧高度"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冬季露水。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(2)"
+    },
+    "originalSummary": "冬季露水"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一6",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：熱致多種變化。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "一1"
+    },
+    "originalSummary": "熱致多種變化"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一7",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：熱膨脹。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關5"
+    },
+    "originalSummary": "熱膨脹"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一8",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：輻射無介質。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五4(2)"
+    },
+    "originalSummary": "輻射無介質"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一9",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：通風對流。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一4(3)"
+    },
+    "originalSummary": "通風對流"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一10",
+    "status": "ambiguous",
+    "reason": "金屬受熱膨脹通常很小；「明顯」沒有量測尺度，非唯一可判真假。",
+    "originalSummary": "金屬體積明顯變化"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：露霜相態。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(3)"
+    },
+    "originalSummary": "露霜相態"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二2",
+    "status": "ambiguous",
+    "reason": "「地面水遇冷會蒸發」不是嚴格必錯，低溫仍能蒸發；原題選項未寫因果或速率。",
+    "originalSummary": "遇冷會蒸發選項歧義"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二3",
+    "status": "ambiguous",
+    "reason": "臺灣颱風常見災害為風雨洪水；原題問大雪完全沒有關聯過度絕對，未限定典型情境。",
+    "originalSummary": "颱風與大雪關聯"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二4",
+    "status": "ambiguous",
+    "reason": "塑膠袋種類厚度和結構不明，不能斷言任何塑膠袋均無保溫作用。",
+    "originalSummary": "塑膠袋保溫是否適合"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二5",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 8,
+      "locator": "二5"
+    },
+    "originalSummary": "颱風路線非固定"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二6",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 8,
+      "locator": "二6"
+    },
+    "originalSummary": "乒乓球"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二7",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：液柱氣溫計。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一1"
+    },
+    "originalSummary": "液柱氣溫計"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二8",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：鍋煎蛋。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一9"
+    },
+    "originalSummary": "鍋煎蛋"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二9",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 8,
+      "locator": "二9"
+    },
+    "originalSummary": "冷鋒"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二10",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 8,
+      "locator": "二10"
+    },
+    "originalSummary": "等壓線"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "三1(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三1(1)"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "三1(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三1(2)"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "三1(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三1(3)"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三2(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三2(1)"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三2(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三2(2)"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三2(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三2(3)"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三2(4)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三2(4)"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三3(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三3(1)"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三3(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：地面天氣圖標示H的中心，氣壓和周圍相比通常如何？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二5"
+    },
+    "originalSummary": "地面天氣圖標示H的中心，氣壓和周圍相比通常如何？"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三3(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：地面天氣圖上的同一條等壓線，連接各地的什麼數值？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 8,
+      "locator": "二10"
+    },
+    "originalSummary": "地面天氣圖上的同一條等壓線，連接各地的什麼數值？"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三3(4)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 8,
+      "locator": "三3(4)"
+    },
+    "originalSummary": "地面天氣圖等壓線旁的1014、1020等數字通常表示什麼？"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三3(5)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：三3(5)"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四1(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：煎肉。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一9"
+    },
+    "originalSummary": "煎肉"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四1(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冷氣。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一10"
+    },
+    "originalSummary": "冷氣"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四1(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：烏龜日曬。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五4(2)"
+    },
+    "originalSummary": "烏龜日曬"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四1(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：人日曬。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五4(2)"
+    },
+    "originalSummary": "人日曬"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四2(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：山崩。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四3"
+    },
+    "originalSummary": "山崩"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四2(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：乾旱。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四1"
+    },
+    "originalSummary": "乾旱"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四2(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 8,
+      "locator": "四2(3)"
+    },
+    "originalSummary": "海水倒灌"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四2(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：招牌吹落。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "四2"
+    },
+    "originalSummary": "招牌吹落"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四2(5)",
+    "status": "candidate",
+    "reason": "Flooding risk is not liquid/solid precipitation definition.",
+    "canonical": {
+      "source": 8,
+      "locator": "四2(5)"
+    },
+    "originalSummary": "淹水"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四3(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：舊百科。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二10"
+    },
+    "originalSummary": "舊百科"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四3(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：App。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二10"
+    },
+    "originalSummary": "App"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四3(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：氣象署。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二10"
+    },
+    "originalSummary": "氣象署"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四3(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：新聞廣播。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "二10"
+    },
+    "originalSummary": "新聞廣播"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四3(5)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 8,
+      "locator": "四3(5)"
+    },
+    "originalSummary": "電話166167"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四4(1)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 8,
+      "locator": "四4(1)"
+    },
+    "originalSummary": "水位管"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四4(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：鐵軌縫。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 8,
+      "locator": "四4(3)"
+    },
+    "originalSummary": "鐵軌縫"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四4(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 8,
+      "locator": "四4(3)"
+    },
+    "originalSummary": "橋梁縫"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四4(4)",
+    "status": "ambiguous",
+    "reason": "木地板伸縮縫通常也為濕度造成脹縮；不只歸因溫度。",
+    "originalSummary": "木地板縫"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四4(5)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 8,
+      "locator": "四4(5)"
+    },
+    "originalSummary": "電線"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四5(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：熱杯冷水盆。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五5(5)"
+    },
+    "originalSummary": "熱杯冷水盆"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四5(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：棉布包熱杯。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五5(4)"
+    },
+    "originalSummary": "棉布包熱杯"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四5(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：吹湯。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一6"
+    },
+    "originalSummary": "吹湯"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四5(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：電扇吹湯。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三二7"
+    },
+    "originalSummary": "電扇吹湯"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四5(5)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 8,
+      "locator": "四5(5)"
+    },
+    "originalSummary": "攪湯"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四6(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：凝結。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二6"
+    },
+    "originalSummary": "凝結"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四6(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：降水各相。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "二8"
+    },
+    "originalSummary": "降水各相"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四6(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：地下水與地表水混稱。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一4"
+    },
+    "originalSummary": "地下水與地表水混稱"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "四6(4)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 8,
+      "locator": "四6(4)"
+    },
+    "originalSummary": "海流氣候"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一1",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 9,
+      "locator": "一1"
+    },
+    "originalSummary": "三態遇冷體積"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：煮湯傳導對流。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "二9"
+    },
+    "originalSummary": "煮湯傳導對流"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：熱下冷上煙。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三二3"
+    },
+    "originalSummary": "熱下冷上煙"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：杯冷卻。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二9"
+    },
+    "originalSummary": "杯冷卻"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一5",
+    "status": "ambiguous",
+    "reason": "有雲不代表不能存在H，高壓區仍可有雲；原題過度推論。",
+    "originalSummary": "有雲無H推論"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一6",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：凝結錯誤敘述。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二6"
+    },
+    "originalSummary": "凝結錯誤敘述"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一7",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "一7"
+    },
+    "originalSummary": "冷鋒風溫壓"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一8",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "一8"
+    },
+    "originalSummary": "災情資料"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一9",
+    "status": "ambiguous",
+    "reason": "選項雨、露雖皆液態，但露不是降水，因此原題沒有正確的液態降水組合。",
+    "originalSummary": "露不屬降水的錯誤選項"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一10",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 9,
+      "locator": "一10"
+    },
+    "originalSummary": "同步衛星"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二1(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：二1(1)"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二1(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：二1(2)"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二1(3)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "原卷圖題：二1(3)"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二2(1)",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 9,
+      "locator": "二2(1)"
+    },
+    "originalSummary": "冰融化"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二2(2)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "二2(2)"
+    },
+    "originalSummary": "水放幾天減少"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二2(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冷杯外水。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "二2(2)"
+    },
+    "originalSummary": "冷杯外水"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二2(4)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "霜但選項無凝華"
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "二3(1)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "二3(1)"
+    },
+    "originalSummary": "暖鋒升溫"
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "二3(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冬季冷鋒。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "一10"
+    },
+    "originalSummary": "冬季冷鋒"
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "二3(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "二3(3)"
+    },
+    "originalSummary": "勢均力敵"
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "二3(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：春夏梅雨。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二7"
+    },
+    "originalSummary": "春夏梅雨"
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "二4(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：露。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(3)"
+    },
+    "originalSummary": "露"
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "二4(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：雪。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一2(3)"
+    },
+    "originalSummary": "雪"
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "二4(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：雨。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一2(4)"
+    },
+    "originalSummary": "雨"
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "二4(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：霜。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一2(2)"
+    },
+    "originalSummary": "霜"
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "三1(1)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "氣球圖判水浴溫"
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "三1(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：熱水變大冰水變小。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三1(1)"
+    },
+    "originalSummary": "熱水變大冰水變小"
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "三1(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：氣體熱膨脹。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關5"
+    },
+    "originalSummary": "氣體熱膨脹"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "三2(1)",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "尺奶油最慢",
+    "canonical": {
+      "source": 6,
+      "locator": "四2(2)"
+    }
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "三2(2)",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "尺奶油最快",
+    "canonical": {
+      "source": 3,
+      "locator": "三3(2)"
+    }
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "三2(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "三2(3)"
+    },
+    "originalSummary": "鐵尺材料"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "三2(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：固態。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "三2(7)"
+    },
+    "originalSummary": "固態"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "三2(5)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：熱由高到低。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "一3"
+    },
+    "originalSummary": "熱由高到低"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "四1(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：液體熱縮判斷。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三一4"
+    },
+    "originalSummary": "液體熱縮判斷"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "四1(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：液體熱脹判斷。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三一4"
+    },
+    "originalSummary": "液體熱脹判斷"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "四1(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：液體冷縮判斷。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三一4"
+    },
+    "originalSummary": "液體冷縮判斷"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "四1(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：液體冷脹判斷。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三一4"
+    },
+    "originalSummary": "液體冷脹判斷"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "四2(1)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "四2(1)"
+    },
+    "originalSummary": "蓋的對流與傳導"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "四2(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：真空傳導與對流。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一8"
+    },
+    "originalSummary": "真空傳導與對流"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五1(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：暖爐低處。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三二5"
+    },
+    "originalSummary": "暖爐低處"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五1(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：鍋水對流非空氣。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二7"
+    },
+    "originalSummary": "鍋水對流非空氣"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五1(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冷氣高處。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一10"
+    },
+    "originalSummary": "冷氣高處"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五2(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：保溫瓶。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一8"
+    },
+    "originalSummary": "保溫瓶"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五2(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：羽絨。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一4(1)"
+    },
+    "originalSummary": "羽絨"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五2(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冰袋。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "二5"
+    },
+    "originalSummary": "冰袋"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五2(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：杯套。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五5(4)"
+    },
+    "originalSummary": "杯套"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五3(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：動物日曬。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五4(2)"
+    },
+    "originalSummary": "動物日曬"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五3(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：人日曬。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五4(2)"
+    },
+    "originalSummary": "人日曬"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五3(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：通風。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三二7"
+    },
+    "originalSummary": "通風"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五3(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：陽傘。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三二6"
+    },
+    "originalSummary": "陽傘"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五3(5)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：煎肉。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一9"
+    },
+    "originalSummary": "煎肉"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五4(1)",
+    "status": "ambiguous",
+    "reason": "固體粒子排列與熱膨脹「很明顯」的因果不嚴謹，缺比較條件。",
+    "originalSummary": "固體脹縮顯著"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五4(2)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "五4(2)"
+    },
+    "originalSummary": "固體形狀"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五4(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：水蒸氣同粒子。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一3"
+    },
+    "originalSummary": "水蒸氣同粒子"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五4(4)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "五4(4)"
+    },
+    "originalSummary": "氣體移動"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "五4(5)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：氣體疏鬆。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 9,
+      "locator": "五4(4)"
+    },
+    "originalSummary": "氣體疏鬆"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "五5(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：雪霜零上。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(3)"
+    },
+    "originalSummary": "雪霜零上"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "五5(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：都是固態。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五3(1)"
+    },
+    "originalSummary": "都是固態"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "五5(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "五5(3)"
+    },
+    "originalSummary": "霜位置低"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "五5(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：雪在地表形成。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 9,
+      "locator": "五5(3)"
+    },
+    "originalSummary": "雪在地表形成"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "五6(1)",
+    "status": "ambiguous",
+    "reason": "已查中央氣象署季風科普：冬季北部、東北部陰雨常因東北季風與地形抬升。原題把整個中北部冬季陰雨概括為主要冷鋒，不能給無條件是非正解。",
+    "originalSummary": "冬陰雨主要冷鋒"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "五6(2)",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "冬陰雨暖鋒"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "五6(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冷氣團強。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 8,
+      "locator": "二9"
+    },
+    "originalSummary": "冷氣團強"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "五6(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：西伯利亞。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二10"
+    },
+    "originalSummary": "西伯利亞"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "五6(5)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：太平洋暖氣團。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 6,
+      "locator": "一5"
+    },
+    "originalSummary": "太平洋暖氣團"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "六1(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：杯套減對流？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五5(4)"
+    },
+    "originalSummary": "杯套減對流？"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "六1(2)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：暖氣上升。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "三二5"
+    },
+    "originalSummary": "暖氣上升"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "六1(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：水傳熱是輻射？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二7"
+    },
+    "originalSummary": "水傳熱是輻射？"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "六1(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：木柄。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三3(3)"
+    },
+    "originalSummary": "木柄"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "六2(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：蒸散。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二8"
+    },
+    "originalSummary": "蒸散"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "六2(2)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "六2(2)"
+    },
+    "originalSummary": "需沸騰？"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "六2(3)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：雪形成。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一2(3)"
+    },
+    "originalSummary": "雪形成"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "六2(4)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：河水蒸發。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一3"
+    },
+    "originalSummary": "河水蒸發"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "六2(5)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：地下水不循環？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一4"
+    },
+    "originalSummary": "地下水不循環？"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "七1(1)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "七1(1)"
+    },
+    "originalSummary": "下雪地表必零下？"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "七1(2)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "七1(2)"
+    },
+    "originalSummary": "霰固態"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "七2(1)",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：秋季大陸高壓。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二10"
+    },
+    "originalSummary": "秋季大陸高壓"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "七2(2)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "七2(2)"
+    },
+    "originalSummary": "九月颱諺語可靠性"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "七2(3)",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 9,
+      "locator": "七2(3)"
+    },
+    "originalSummary": "雲圖無震央"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關1"
+    },
+    "originalSummary": "氣球先縮後脹"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關2",
+    "status": "ambiguous",
+    "reason": "選項先冷後熱與直接放熱水都可能使液柱升高，未限定終點與水浴溫度。",
+    "originalSummary": "液柱升高操作選項重疊"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關3",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關3"
+    },
+    "originalSummary": "染色觀察"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關4",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關4"
+    },
+    "originalSummary": "只加熱球"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關5"
+    },
+    "originalSummary": "多數熱脹冷縮"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關6",
+    "status": "ambiguous",
+    "reason": "固體粒子示意整齊不能推論膨脹最明顯；若比較三態需等條件。",
+    "originalSummary": "固體膨脹最明顯？"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關7",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：液體粒子可移動。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "二1"
+    },
+    "originalSummary": "液體粒子可移動"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關8",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：氣體膨脹最少？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 9,
+      "locator": "一1"
+    },
+    "originalSummary": "氣體膨脹最少？"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關9",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：水蒸氣不同粒子？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一3"
+    },
+    "originalSummary": "水蒸氣不同粒子？"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關10",
+    "status": "candidate",
+    "reason": "材料不同造成熱膨脹程度不同，與一般熱脹冷縮現象是不同判斷。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關10"
+    },
+    "originalSummary": "粒子與膨脹程度"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關11",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：乒乓球復原。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 8,
+      "locator": "二6"
+    },
+    "originalSummary": "乒乓球復原"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關12",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關12"
+    },
+    "originalSummary": "輪胎熱壓"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關13",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關13"
+    },
+    "originalSummary": "聚光燒紙"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關14",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：電線餘長。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 8,
+      "locator": "四4(5)"
+    },
+    "originalSummary": "電線餘長"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第一關15",
+    "status": "existing",
+    "reason": "既有題庫已收錄。",
+    "canonical": {
+      "source": 10,
+      "locator": "第一關15"
+    },
+    "originalSummary": "磁磚縫"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "第二關1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：奶油指標。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "三三3"
+    },
+    "originalSummary": "奶油指標"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第二關2",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "最先融化位置",
+    "canonical": {
+      "source": 3,
+      "locator": "三3(2)"
+    }
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第二關3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：金屬導熱敘述。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一6"
+    },
+    "originalSummary": "金屬導熱敘述"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第二關4",
+    "status": "ambiguous",
+    "reason": "日曬金屬/木椅的表面溫度、顏色與時間未控制，不能只憑材質決定觸感。",
+    "originalSummary": "日曬椅子觸感"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第二關5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第二關5"
+    },
+    "originalSummary": "CADB材質順序"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第三關1",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "熱上煙上",
+    "canonical": {
+      "source": 4,
+      "locator": "二1(2)"
+    }
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第三關2",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "熱下煙下",
+    "canonical": {
+      "source": 4,
+      "locator": "二1(1)"
+    }
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第三關3",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "冷上煙上",
+    "canonical": {
+      "source": 4,
+      "locator": "二1(4)"
+    }
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第三關4",
+    "status": "duplicate",
+    "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+    "originalSummary": "冷下煙下",
+    "canonical": {
+      "source": 4,
+      "locator": "二1(3)"
+    }
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第三關5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：煙觀察目的。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三4(1)"
+    },
+    "originalSummary": "煙觀察目的"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第四關1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：不需介質。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五4(2)"
+    },
+    "originalSummary": "不需介質"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第四關2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：固體主傳熱。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "三2(7)"
+    },
+    "originalSummary": "固體主傳熱"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第四關3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：液氣主傳熱。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二7"
+    },
+    "originalSummary": "液氣主傳熱"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第四關4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：暖暖包。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "三2(3)"
+    },
+    "originalSummary": "暖暖包"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第四關5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：火旁。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二3"
+    },
+    "originalSummary": "火旁"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第四關6",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：熱匙。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二1"
+    },
+    "originalSummary": "熱匙"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第四關7",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第四關7"
+    },
+    "originalSummary": "淺衣"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第四關8",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：風扇。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三二7"
+    },
+    "originalSummary": "風扇"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第四關9",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：樹蔭。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 6,
+      "locator": "二14"
+    },
+    "originalSummary": "樹蔭"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第四關10",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：石板。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一9"
+    },
+    "originalSummary": "石板"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第五關1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第五關1"
+    },
+    "originalSummary": "太陽能頂遮輻射"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第五關2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：真空隔輻射？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一8"
+    },
+    "originalSummary": "真空隔輻射？"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第五關3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：泡棉傳導。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二2"
+    },
+    "originalSummary": "泡棉傳導"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第五關4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：羽絨保暖。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 2,
+      "locator": "一4(1)"
+    },
+    "originalSummary": "羽絨保暖"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第五關5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：好導熱袋保溫？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二5"
+    },
+    "originalSummary": "好導熱袋保溫？"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第六關1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：霰雹固態。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 9,
+      "locator": "七1(2)"
+    },
+    "originalSummary": "霰雹固態"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第六關2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：露霜溫度。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(3)"
+    },
+    "originalSummary": "露霜溫度"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第六關3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：雲是水氣？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一9"
+    },
+    "originalSummary": "雲是水氣？"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第六關4",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第六關4"
+    },
+    "originalSummary": "霧濕衣"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第六關5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第六關5"
+    },
+    "originalSummary": "霜滿天"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第七關1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第七關1"
+    },
+    "originalSummary": "水重新分配"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第七關2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：水需煮沸？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 9,
+      "locator": "六2(2)"
+    },
+    "originalSummary": "水需煮沸？"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第七關3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：植物蒸散。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二8"
+    },
+    "originalSummary": "植物蒸散"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第七關4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：水氣不可見。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "五3(3)"
+    },
+    "originalSummary": "水氣不可見"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第七關5",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：地下水停止？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "一4"
+    },
+    "originalSummary": "地下水停止？"
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關1",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：氣團。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二6"
+    },
+    "originalSummary": "氣團"
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關2",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：等壓線。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 8,
+      "locator": "二10"
+    },
+    "originalSummary": "等壓線"
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關3",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：H。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "二5"
+    },
+    "originalSummary": "H"
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關4",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：L。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 4,
+      "locator": "一19"
+    },
+    "originalSummary": "L"
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關5",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "最高壓位置"
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關6",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "最強風位置"
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關7",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "鋒面一"
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關8",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：梅雨鋒面性質。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "二7"
+    },
+    "originalSummary": "梅雨鋒面性質"
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關9",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "鋒面二"
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關10",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：冷鋒性質。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "一10"
+    },
+    "originalSummary": "冷鋒性質"
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第九關1",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第九關1"
+    },
+    "originalSummary": "颱風特徵"
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第九關2",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "山陀兒生日"
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第九關3",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "登陸地"
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第九關4",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "登陸強度"
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第九關5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第九關5"
+    },
+    "originalSummary": "登陸減弱"
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第十關1",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "第一證明大氣壓者"
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第十關2",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "originalSummary": "首創真空泵"
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第十關3",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第十關3"
+    },
+    "originalSummary": "真空定義"
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第十關4",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第十關4"
+    },
+    "originalSummary": "半球內外壓差"
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第十關5",
+    "status": "candidate",
+    "reason": "逐題比對原卷，改編為不依賴未提供圖資的自足單選題。",
+    "canonical": {
+      "source": 10,
+      "locator": "第十關5"
+    },
+    "originalSummary": "閥門進氣"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三三2-燒杯大小",
+    "status": "duplicate",
+    "reason": "核對原卷子空格，對應相同條件與判斷的題目，修正先前誤指。",
+    "canonical": {
+      "source": 5,
+      "locator": "三三2"
+    },
+    "parentLocator": "三三2",
+    "originalSummary": "鐵尺奶油融化實驗：燒杯大小為控制變因"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三三2-水量",
+    "status": "duplicate",
+    "reason": "核對原卷子空格，對應相同條件與判斷的題目，修正先前誤指。",
+    "canonical": {
+      "source": 5,
+      "locator": "三三2"
+    },
+    "parentLocator": "三三2",
+    "originalSummary": "鐵尺奶油融化實驗：熱水量為控制變因"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "三三2-水溫",
+    "status": "duplicate",
+    "reason": "核對原卷子空格，對應相同條件與判斷的題目，修正先前誤指。",
+    "canonical": {
+      "source": 5,
+      "locator": "三三2"
+    },
+    "parentLocator": "三三2",
+    "originalSummary": "鐵尺奶油融化實驗：熱水溫度為控制變因"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三四2-杯大小",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：要比較溫度對露霜形成的影響，除了改變杯內溫度，哪組條件應盡量相同？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三四2"
+    },
+    "parentLocator": "三四2",
+    "originalSummary": "要比較溫度對露霜形成的影響，除了改變杯內溫度，哪組條件應盡量相同？"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三四2-杯材質",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：要比較溫度對露霜形成的影響，除了改變杯內溫度，哪組條件應盡量相同？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三四2"
+    },
+    "parentLocator": "三四2",
+    "originalSummary": "要比較溫度對露霜形成的影響，除了改變杯內溫度，哪組條件應盡量相同？"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三四2-環境",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：要比較溫度對露霜形成的影響，除了改變杯內溫度，哪組條件應盡量相同？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三四2"
+    },
+    "parentLocator": "三四2",
+    "originalSummary": "要比較溫度對露霜形成的影響，除了改變杯內溫度，哪組條件應盡量相同？"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三四2-總容量",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：要比較溫度對露霜形成的影響，除了改變杯內溫度，哪組條件應盡量相同？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 7,
+      "locator": "三四2"
+    },
+    "parentLocator": "三四2",
+    "originalSummary": "要比較溫度對露霜形成的影響，除了改變杯內溫度，哪組條件應盡量相同？"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四1(1)-最高",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：室溫約25°C，三杯分別是常溫水、冰水、充分混合的冰鹽混合物。通常由高溫到低溫如何排？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "三六1"
+    },
+    "parentLocator": "四1(1)",
+    "originalSummary": "室溫約25°C，三杯分別是常溫水、冰水、充分混合的冰鹽混合物。通常由高溫到低溫如何排？"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四1(1)-中間",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：室溫約25°C，三杯分別是常溫水、冰水、充分混合的冰鹽混合物。通常由高溫到低溫如何排？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "三六1"
+    },
+    "parentLocator": "四1(1)",
+    "originalSummary": "室溫約25°C，三杯分別是常溫水、冰水、充分混合的冰鹽混合物。通常由高溫到低溫如何排？"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四1(1)-最低",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：室溫約25°C，三杯分別是常溫水、冰水、充分混合的冰鹽混合物。通常由高溫到低溫如何排？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 5,
+      "locator": "三六1"
+    },
+    "parentLocator": "四1(1)",
+    "originalSummary": "室溫約25°C，三杯分別是常溫水、冰水、充分混合的冰鹽混合物。通常由高溫到低溫如何排？"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四1(3)-A",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：三杯分別裝常溫水、冰水、冰加鹽。哪杯較可能使杯外表面降到0°C以下並形成霜？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(1)"
+    },
+    "parentLocator": "四1(3)",
+    "originalSummary": "三杯分別裝常溫水、冰水、冰加鹽。哪杯較可能使杯外表面降到0°C以下並形成霜？"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四1(3)-C",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：三杯分別裝常溫水、冰水、冰加鹽。哪杯較可能使杯外表面降到0°C以下並形成霜？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(2)"
+    },
+    "parentLocator": "四1(3)",
+    "originalSummary": "三杯分別裝常溫水、冰水、冰加鹽。哪杯較可能使杯外表面降到0°C以下並形成霜？"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四1(4)-露",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：露和霜哪個比較正確？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(3)"
+    },
+    "parentLocator": "四1(4)",
+    "originalSummary": "露和霜哪個比較正確？"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四1(4)-霜",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：露和霜哪個比較正確？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三5(3)"
+    },
+    "parentLocator": "四1(4)",
+    "originalSummary": "露和霜哪個比較正確？"
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "三1(2)-熱水",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：瓶口套氣球，將瓶身放入溫熱水中後氣球鼓起，主要是因為什麼？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 3,
+      "locator": "三1(1)"
+    },
+    "parentLocator": "三1(2)",
+    "originalSummary": "瓶口套氣球，將瓶身放入溫熱水中後氣球鼓起，主要是因為什麼？"
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "三1(2)-冰水",
+    "status": "duplicate",
+    "reason": "核對原卷子空格，對應相同條件與判斷的題目，修正先前誤指。",
+    "canonical": {
+      "source": 2,
+      "locator": "一3(1)"
+    },
+    "parentLocator": "三1(2)",
+    "originalSummary": "套氣球容器放入冰水，空氣冷卻收縮"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "四2(1)-對流",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：保溫杯蓋除了用隔熱材質，蓋緊後也減少哪個散熱途徑？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 9,
+      "locator": "四2(1)"
+    },
+    "parentLocator": "四2(1)",
+    "originalSummary": "保溫杯蓋除了用隔熱材質，蓋緊後也減少哪個散熱途徑？"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "四2(1)-傳導",
+    "status": "duplicate",
+    "reason": "核對原卷子空格，對應相同條件與判斷的題目，修正先前誤指。",
+    "canonical": {
+      "source": 5,
+      "locator": "四6"
+    },
+    "parentLocator": "四2(1)",
+    "originalSummary": "保溫瓶蓋採不易導熱材料以減少熱傳導"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "四2(2)-傳導",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：保溫瓶的真空夾層主要減少哪兩種傳熱？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一8"
+    },
+    "parentLocator": "四2(2)",
+    "originalSummary": "保溫瓶的真空夾層主要減少哪兩種傳熱？"
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "四2(2)-對流",
+    "status": "duplicate",
+    "reason": "同一科學判斷或實驗結果的重複/反向敘述；原題要求：保溫瓶的真空夾層主要減少哪兩種傳熱？。參照 canonical 題；未另新增相同選項題。",
+    "canonical": {
+      "source": 1,
+      "locator": "一8"
+    },
+    "parentLocator": "四2(2)",
+    "originalSummary": "保溫瓶的真空夾層主要減少哪兩種傳熱？"
+  }
+]

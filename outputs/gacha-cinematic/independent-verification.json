@@ -1,0 +1,446 @@
+[
+  {
+    "name": "short390",
+    "calls": [
+      "draw"
+    ],
+    "phases": [
+      {
+        "phase": "idle",
+        "t": 883.6000003814697
+      },
+      {
+        "phase": "turning",
+        "t": 1099.6999988555908
+      },
+      {
+        "phase": "mixing",
+        "t": 1749.5
+      },
+      {
+        "phase": "dropping",
+        "t": 3002
+      },
+      {
+        "phase": "opening",
+        "t": 3753.3999996185303
+      },
+      {
+        "phase": "revealed",
+        "t": 4608.799999237061
+      }
+    ],
+    "measures": [
+      {
+        "visual": {
+          "top": 121.21875,
+          "bottom": 481.21875,
+          "height": 360
+        },
+        "view": 667,
+        "crank": "matrix(0.978743, -0.205092, 0.205092, 0.978743, 0, 0)",
+        "art": null,
+        "overflow": false,
+        "label": "turning"
+      },
+      {
+        "visual": {
+          "top": 121.21875,
+          "bottom": 481.21875,
+          "height": 360
+        },
+        "view": 667,
+        "crank": "matrix(-0.510104, 0.860113, -0.860113, -0.510104, 0, 0)",
+        "art": null,
+        "overflow": false,
+        "label": "turning2"
+      },
+      {
+        "visual": {
+          "top": 121.21875,
+          "bottom": 481.21875,
+          "height": 360
+        },
+        "view": 667,
+        "crank": "none",
+        "art": null,
+        "overflow": false,
+        "label": "mixing"
+      },
+      {
+        "visual": {
+          "top": 93.21875,
+          "bottom": 453.21875,
+          "height": 360
+        },
+        "view": 667,
+        "crank": "none",
+        "art": {
+          "top": 118.765625,
+          "bottom": 416.859375
+        },
+        "overflow": false,
+        "label": "after-intro"
+      },
+      {
+        "visual": {
+          "top": 93.21875,
+          "bottom": 453.21875,
+          "height": 360
+        },
+        "view": 667,
+        "crank": "none",
+        "art": {
+          "top": 118.765625,
+          "bottom": 416.859375
+        },
+        "overflow": false,
+        "label": "revealed"
+      }
+    ],
+    "result": "PASS"
+  },
+  {
+    "name": "reduce",
+    "calls": [
+      "draw"
+    ],
+    "phases": [
+      {
+        "phase": "idle",
+        "t": 638.5
+      },
+      {
+        "phase": "waiting",
+        "t": 804.6000003814697
+      },
+      {
+        "phase": "revealed",
+        "t": 1819.1000003814697
+      }
+    ],
+    "measures": [
+      {
+        "visual": {
+          "top": 67.5625,
+          "bottom": 357.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "none",
+        "art": {
+          "top": 88.140625,
+          "bottom": 328.265625
+        },
+        "overflow": false,
+        "label": "revealed"
+      }
+    ],
+    "result": "PASS"
+  },
+  {
+    "name": "toggle",
+    "calls": [
+      "draw"
+    ],
+    "phases": [
+      {
+        "phase": "idle",
+        "t": 902.6000003814697
+      },
+      {
+        "phase": "turning",
+        "t": 1079.8999996185303
+      },
+      {
+        "phase": "mixing",
+        "t": 1729.6000003814697
+      },
+      {
+        "phase": "waiting",
+        "t": 2395
+      },
+      {
+        "phase": "revealed",
+        "t": 3094.800001144409
+      }
+    ],
+    "measures": [
+      {
+        "visual": {
+          "top": 101.5625,
+          "bottom": 391.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "matrix(0.979749, -0.200231, 0.200231, 0.979749, 0, 0)",
+        "art": null,
+        "overflow": false,
+        "label": "turning"
+      },
+      {
+        "visual": {
+          "top": 101.5625,
+          "bottom": 391.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "matrix(-0.505914, 0.862584, -0.862584, -0.505914, 0, 0)",
+        "art": null,
+        "overflow": false,
+        "label": "turning2"
+      },
+      {
+        "visual": {
+          "top": 101.5625,
+          "bottom": 391.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "none",
+        "art": null,
+        "overflow": false,
+        "label": "mixing"
+      },
+      {
+        "visual": {
+          "top": 67.5625,
+          "bottom": 357.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "none",
+        "art": {
+          "top": 88.140625,
+          "bottom": 328.265625
+        },
+        "overflow": false,
+        "label": "revealed"
+      }
+    ],
+    "result": "PASS"
+  },
+  {
+    "name": "skip",
+    "calls": [
+      "draw"
+    ],
+    "phases": [
+      {
+        "phase": "idle",
+        "t": 904.7999992370605
+      },
+      {
+        "phase": "turning",
+        "t": 1148.599998474121
+      },
+      {
+        "phase": "mixing",
+        "t": 1798.8999996185303
+      },
+      {
+        "phase": "waiting",
+        "t": 2462.099998474121
+      },
+      {
+        "phase": "revealed",
+        "t": 5156.39999961853
+      }
+    ],
+    "measures": [
+      {
+        "visual": {
+          "top": 101.5625,
+          "bottom": 391.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "matrix(0.978742, -0.205093, 0.205093, 0.978742, 0, 0)",
+        "art": null,
+        "overflow": false,
+        "label": "turning"
+      },
+      {
+        "visual": {
+          "top": 101.5625,
+          "bottom": 391.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "matrix(-0.510249, 0.860027, -0.860027, -0.510249, 0, 0)",
+        "art": null,
+        "overflow": false,
+        "label": "turning2"
+      },
+      {
+        "visual": {
+          "top": 101.5625,
+          "bottom": 391.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "none",
+        "art": null,
+        "overflow": false,
+        "label": "mixing"
+      },
+      {
+        "visual": {
+          "top": 67.5625,
+          "bottom": 357.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "none",
+        "art": {
+          "top": 88.140625,
+          "bottom": 328.265625
+        },
+        "overflow": false,
+        "label": "revealed"
+      }
+    ],
+    "result": "PASS"
+  },
+  {
+    "name": "newer",
+    "calls": [
+      "draw"
+    ],
+    "phases": [
+      {
+        "phase": "idle",
+        "t": 891.6000003814697
+      },
+      {
+        "phase": "turning",
+        "t": 1137.7000007629395
+      },
+      {
+        "phase": "mixing",
+        "t": 1786.8999996185303
+      },
+      {
+        "phase": "dropping",
+        "t": 3039.3999996185303
+      },
+      {
+        "phase": "opening",
+        "t": 3790.1000003814697
+      },
+      {
+        "phase": "revealed",
+        "t": 4644.89999961853
+      }
+    ],
+    "measures": [
+      {
+        "visual": {
+          "top": 101.5625,
+          "bottom": 391.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "matrix(0.978744, -0.205084, 0.205084, 0.978744, 0, 0)",
+        "art": null,
+        "overflow": false,
+        "label": "turning"
+      },
+      {
+        "visual": {
+          "top": 101.5625,
+          "bottom": 391.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "matrix(-0.508892, 0.86083, -0.86083, -0.508892, 0, 0)",
+        "art": null,
+        "overflow": false,
+        "label": "turning2"
+      },
+      {
+        "visual": {
+          "top": 101.5625,
+          "bottom": 391.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "none",
+        "art": null,
+        "overflow": false,
+        "label": "mixing"
+      },
+      {
+        "visual": {
+          "top": 67.5625,
+          "bottom": 357.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "none",
+        "art": {
+          "top": 88.140625,
+          "bottom": 328.265625
+        },
+        "overflow": false,
+        "label": "after-intro"
+      },
+      {
+        "visual": {
+          "top": 67.5625,
+          "bottom": 357.5625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "none",
+        "art": {
+          "top": 88.140625,
+          "bottom": 328.265625
+        },
+        "overflow": false,
+        "label": "revealed"
+      }
+    ],
+    "result": "PASS"
+  },
+  {
+    "name": "error",
+    "calls": [
+      "draw",
+      "draw"
+    ],
+    "phases": [
+      {
+        "phase": "idle",
+        "t": 903.5
+      },
+      {
+        "phase": "turning",
+        "t": 1163.7000007629395
+      },
+      {
+        "phase": "mixing",
+        "t": 1813.2000007629395
+      },
+      {
+        "phase": "idle",
+        "t": 3064.6000003814697
+      }
+    ],
+    "measures": [
+      {
+        "visual": {
+          "top": 102.0625,
+          "bottom": 392.0625,
+          "height": 290
+        },
+        "view": 568,
+        "crank": "none",
+        "art": null,
+        "overflow": false,
+        "label": "error"
+      }
+    ],
+    "result": "PASS"
+  }
+]

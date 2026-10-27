@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "rawRows": 324,
+  "uniqueQuestions": 319,
+  "sourceFiles": 10,
+  "totalGrade4Math": 565,
+  "independentSourceReview": {
+    "nm1-nm5": "154 rows, 14 source pages, PASS",
+    "nm6-nm10": "170 rows, 13 source pages, PASS",
+    "routing": "all entry paths, 90 allocator combinations, old saves and publishers PASS"
+  },
+  "verification": {
+    "fullSuite": "116 files / 847 tests passed, isolated local PostgreSQL, serial",
+    "build": "PASS, pronunciation and TypeScript included",
+    "authenticatedApi": "Brownie login derives Dunhua; new math answer correct, 20 points and mastery persist; all 5 courses checked; book3 excluded; future questions and answers hidden",
+    "render": "Actual QuestionPrompt renders complete selected math conditions",
+    "testFixtureRepair": "Reset local request_limits between school and admin suites to remove order-dependent login 429; no production rate-limit changes"
+  },
+  "dataSha256": "7f65eaaa73182ef530cbae1810b06983068363a6ef9152595b6336ef864ffcc5",
+  "production": {
+    "passed": true,
+    "assetsMatched": 16,
+    "health": 200,
+    "protectedAnonymousStatus": 401,
+    "adminHtml": 200,
+    "runtimeCommit": "d035397b94787bcda1dee3364cdaca5126d68448",
+    "id": "80ca24e1-886a-46a3-874c-7b1ca992f2de",
+    "status": "SUCCESS"
+  }
+}

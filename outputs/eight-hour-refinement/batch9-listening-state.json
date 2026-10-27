@@ -1,0 +1,45 @@
+{
+  "before": {
+    "revision": 46,
+    "receipts": 45,
+    "familyHash": "e03c2c70c1d953f582a0cde247ed5105055a9c579b85095d842e967aa2e0e695",
+    "run": "b4895b80-fc28-4bf8-a59d-e70431b6818d",
+    "index": 1,
+    "answers": [
+      true
+    ]
+  },
+  "after": {
+    "revision": 46,
+    "receipts": 45,
+    "familyHash": "e03c2c70c1d953f582a0cde247ed5105055a9c579b85095d842e967aa2e0e695"
+  },
+  "result": "PASS:four listen clicks, zero revision/receipt/family changes",
+  "afterDoubleAnswer": {
+    "revision": 47,
+    "receipts": 46,
+    "index": 1,
+    "answers": [
+      true,
+      true
+    ]
+  },
+  "battleListening": {
+    "before": {
+      "revision": 58,
+      "receipts": 56,
+      "familyHash": "41d7155a2cd3dd9e6ead90210bc92a7f55041bf16dc24ed2db58092a22d2df73"
+    },
+    "after": {
+      "revision": 58,
+      "receipts": 56,
+      "familyHash": "41d7155a2cd3dd9e6ead90210bc92a7f55041bf16dc24ed2db58092a22d2df73"
+    },
+    "result": "PASS:four listen clicks; no revision/receipt/family change, no correct feedback or buff awarded"
+  },
+  "battleDoubleAnswer": {
+    "revision": 59,
+    "receipts": 57,
+    "result": "PASS:one revision/receipt despite doubleclick; UI shows buff and all answer/listen buttons disabled"
+  }
+}

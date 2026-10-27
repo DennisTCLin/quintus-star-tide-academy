@@ -1,0 +1,82 @@
+{
+  "realLocalPostgres": true,
+  "physicalDevice": false,
+  "fiveIslands": true,
+  "widths": [
+    393,
+    834
+  ],
+  "otherProfilesUnchanged": true,
+  "courses": [
+    {
+      "course": "math",
+      "questionIds": [
+        "g5-warmup-common-multiple-8",
+        "g5-warmup-common-multiple-9",
+        "g5-warmup-cuboid-volume-1",
+        "g5-warmup-cuboid-volume-10",
+        "g5-warmup-cuboid-volume-2",
+        "g5-warmup-cuboid-volume-3"
+      ],
+      "status": "won",
+      "reloadPreserved": true,
+      "answerAndExplanationHiddenBeforeAnswer": true
+    },
+    {
+      "course": "chinese",
+      "questionIds": [
+        "g5-general-chinese-01",
+        "g5-general-chinese-02",
+        "g5-general-chinese-03",
+        "g5-general-chinese-04",
+        "g5-general-chinese-05",
+        "g5-general-chinese-06"
+      ],
+      "status": "won",
+      "reloadPreserved": true,
+      "answerAndExplanationHiddenBeforeAnswer": true
+    },
+    {
+      "course": "english",
+      "questionIds": [
+        "g5-general-english-01",
+        "g5-general-english-02",
+        "g5-general-english-03",
+        "g5-general-english-04",
+        "g5-general-english-05",
+        "g5-general-english-06"
+      ],
+      "status": "won",
+      "reloadPreserved": true,
+      "answerAndExplanationHiddenBeforeAnswer": true
+    },
+    {
+      "course": "science",
+      "questionIds": [
+        "g5-general-science-01",
+        "g5-general-science-02",
+        "g5-general-science-03",
+        "g5-general-science-04",
+        "g5-general-science-05",
+        "g5-general-science-06"
+      ],
+      "status": "won",
+      "reloadPreserved": true,
+      "answerAndExplanationHiddenBeforeAnswer": true
+    },
+    {
+      "course": "social",
+      "questionIds": [
+        "g5-general-social-01",
+        "g5-general-social-02",
+        "g5-general-social-03",
+        "g5-general-social-04",
+        "g5-general-social-05",
+        "g5-general-social-06"
+      ],
+      "status": "won",
+      "reloadPreserved": true,
+      "answerAndExplanationHiddenBeforeAnswer": true
+    }
+  ]
+}

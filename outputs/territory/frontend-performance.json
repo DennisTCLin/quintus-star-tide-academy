@@ -1,0 +1,29 @@
+{
+  "scope": "Headless desktop Chromium, reduced motion; no mobile hardware or network throttle claim",
+  "noTerritoryAssetsOnEntry": true,
+  "samples": 120,
+  "p95FrameIntervalMs": 16.700000000000273,
+  "maxFrameIntervalMs": 16.800000000000182,
+  "territoryResources": [
+    {
+      "name": "TerritoryPage.v-BtGJ8UWL.js",
+      "bytes": 21418,
+      "durationMs": 1.6999988555908203
+    },
+    {
+      "name": "TerritoryPage.v-5PgLoXkm.css",
+      "bytes": 18226,
+      "durationMs": 1.3999996185302734
+    },
+    {
+      "name": "island.webp",
+      "bytes": 401812,
+      "durationMs": 1.3999996185302734
+    },
+    {
+      "name": "buildings.webp",
+      "bytes": 782792,
+      "durationMs": 2.6999988555908203
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "provider": "Higgsfield",
+  "referenceJob": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8",
+  "estimatedCredits": 90,
+  "actions": [
+    [
+      "idle",
+      "Lower the raised paw into a relaxed neutral pose, then remain quietly standing with both tiny paws down. Soft slow breathing, one natural blink, barely perceptible ear twitch. Calm idle, no waving, no props."
+    ],
+    [
+      "greet",
+      "Look warmly at the viewer, tilt the head a little, wave the raised tiny paw twice clearly, make one small happy bounce, then settle back. Friendly hello, no high-five hand."
+    ],
+    [
+      "pet",
+      "A soft illustrated human hand enters from above and gently strokes the head beside the bow twice without hiding the face. Close the eyes happily, lean into the touch, give a small pleased wiggle. The hand exits. Clearly being petted."
+    ],
+    [
+      "feed",
+      "Hold a small golden star-shaped cookie in both tiny paws, bring it to the mouth, visibly take a little bite, chew gently with delighted eyes, swallow and smile. Few small crumbs. Clearly eating, no waving."
+    ],
+    [
+      "play",
+      "A small turquoise ball with a golden star bounces in front. Track it with the eyes, catch it gently with both tiny paws, then nudge the ball back toward the viewer. Clearly playing catch, no soap bubbles."
+    ],
+    [
+      "highfive",
+      "Raise one front paw with the paw pad facing the viewer. A friendly illustrated human hand enters from the lower right, meets the raised paw in a clear single high-five contact with a tiny golden sparkle. Lower the paw after contact and smile. Make actual palm-to-paw contact obvious, NOT waving hello."
+    ],
+    [
+      "bubbles",
+      "Hold a little turquoise bubble wand in one tiny paw, bring the round ring close to the mouth, pucker and gently blow through it. Three large translucent pastel soap bubbles visibly emerge from the wand, drift upward, and are followed with delighted eyes. Clearly blowing soap bubbles; no balls."
+    ],
+    [
+      "rest",
+      "Within the first second gently lower the plump body into a comfortably curled resting pose, tiny paws near the cheek, eyes fully closed. Remain peacefully asleep for the remainder of the shot with slow belly breathing. Keep the pink bow and both ears visible. Hold closed-eye sleep for at least the final three seconds. No waking, no waving, no standing up."
+    ],
+    [
+      "listening",
+      "Lower both paws. Listen attentively to the viewer with mouth closed, tilt the head gently to one side, perk the small ears slightly, give one tiny understanding nod. Quiet attentive listening, no talking, no props."
+    ],
+    [
+      "thinking",
+      "Lower the raised paw, then touch one tiny paw softly to the cheek, glance slightly upward, tilt the head in thoughtful curiosity, then give a small pleased nod. Gentle pondering expression, no worry, no text or thought bubbles."
+    ],
+    [
+      "speaking",
+      "Address the viewer with a warm friendly face, small natural mouth opening and closing as if speaking a short gentle sentence, subtle nods and one little explanatory paw gesture. Silent video, no subtitles. Preserve black eye color."
+    ],
+    [
+      "cheering",
+      "Celebrate joyfully with two small soft bounces and both tiny paws lifted, happy smile and eyes that briefly close with joy, a few tiny golden stars sparkle near the paws and fade. Land and settle gently, no exaggerated jumping."
+    ]
+  ],
+  "requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8"
+          }
+        ],
+        "prompt": "Lower the raised paw into a relaxed neutral pose, then remain quietly standing with both tiny paws down. Soft slow breathing, one natural blink, barely perceptible ear twitch. Calm idle, no waving, no props. Animate EXACTLY the approved mascot in the reference, as warm polished hand-painted 2D cartoon animation. Preserve its plump unified cocoa-brown head/body with no neck, pure BLACK oval eyes with tiny white highlights (never brown irises), tiny black nose, rosy cheeks, small triangular pink-inner ears and orange tip on viewer-left ear, large PINK BOW with CYAN BLUE knot, short arms/feet with orange-gold tips. Keep exactly TWO asymmetric yellow body patches: viewer-left mid-flank semicircle, viewer-right lower belly rounded patch. No added tail, no new accessories, no changed identity. Keep the same soft clean brown outlines, subtle painterly texture and warm colors. Full body including ears/bow/feet remains visible with generous margins. Uniform warm ivory background, locked frontal camera, no zoom, pan, cuts, text or labels. No extra limbs. One smooth readable action, five seconds, silent. Human hand ONLY when requested in this action. "
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8"
+          }
+        ],
+        "prompt": "Look warmly at the viewer, tilt the head a little, wave the raised tiny paw twice clearly, make one small happy bounce, then settle back. Friendly hello, no high-five hand. Animate EXACTLY the approved mascot in the reference, as warm polished hand-painted 2D cartoon animation. Preserve its plump unified cocoa-brown head/body with no neck, pure BLACK oval eyes with tiny white highlights (never brown irises), tiny black nose, rosy cheeks, small triangular pink-inner ears and orange tip on viewer-left ear, large PINK BOW with CYAN BLUE knot, short arms/feet with orange-gold tips. Keep exactly TWO asymmetric yellow body patches: viewer-left mid-flank semicircle, viewer-right lower belly rounded patch. No added tail, no new accessories, no changed identity. Keep the same soft clean brown outlines, subtle painterly texture and warm colors. Full body including ears/bow/feet remains visible with generous margins. Uniform warm ivory background, locked frontal camera, no zoom, pan, cuts, text or labels. No extra limbs. One smooth readable action, five seconds, silent. Human hand ONLY when requested in this action. "
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8"
+          }
+        ],
+        "prompt": "A soft illustrated human hand enters from above and gently strokes the head beside the bow twice without hiding the face. Close the eyes happily, lean into the touch, give a small pleased wiggle. The hand exits. Clearly being petted. Animate EXACTLY the approved mascot in the reference, as warm polished hand-painted 2D cartoon animation. Preserve its plump unified cocoa-brown head/body with no neck, pure BLACK oval eyes with tiny white highlights (never brown irises), tiny black nose, rosy cheeks, small triangular pink-inner ears and orange tip on viewer-left ear, large PINK BOW with CYAN BLUE knot, short arms/feet with orange-gold tips. Keep exactly TWO asymmetric yellow body patches: viewer-left mid-flank semicircle, viewer-right lower belly rounded patch. No added tail, no new accessories, no changed identity. Keep the same soft clean brown outlines, subtle painterly texture and warm colors. Full body including ears/bow/feet remains visible with generous margins. Uniform warm ivory background, locked frontal camera, no zoom, pan, cuts, text or labels. No extra limbs. One smooth readable action, five seconds, silent. Human hand ONLY when requested in this action. "
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8"
+          }
+        ],
+        "prompt": "Hold a small golden star-shaped cookie in both tiny paws, bring it to the mouth, visibly take a little bite, chew gently with delighted eyes, swallow and smile. Few small crumbs. Clearly eating, no waving. Animate EXACTLY the approved mascot in the reference, as warm polished hand-painted 2D cartoon animation. Preserve its plump unified cocoa-brown head/body with no neck, pure BLACK oval eyes with tiny white highlights (never brown irises), tiny black nose, rosy cheeks, small triangular pink-inner ears and orange tip on viewer-left ear, large PINK BOW with CYAN BLUE knot, short arms/feet with orange-gold tips. Keep exactly TWO asymmetric yellow body patches: viewer-left mid-flank semicircle, viewer-right lower belly rounded patch. No added tail, no new accessories, no changed identity. Keep the same soft clean brown outlines, subtle painterly texture and warm colors. Full body including ears/bow/feet remains visible with generous margins. Uniform warm ivory background, locked frontal camera, no zoom, pan, cuts, text or labels. No extra limbs. One smooth readable action, five seconds, silent. Human hand ONLY when requested in this action. "
+      }
+    },
+    {
+      "index": 4,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8"
+          }
+        ],
+        "prompt": "A small turquoise ball with a golden star bounces in front. Track it with the eyes, catch it gently with both tiny paws, then nudge the ball back toward the viewer. Clearly playing catch, no soap bubbles. Animate EXACTLY the approved mascot in the reference, as warm polished hand-painted 2D cartoon animation. Preserve its plump unified cocoa-brown head/body with no neck, pure BLACK oval eyes with tiny white highlights (never brown irises), tiny black nose, rosy cheeks, small triangular pink-inner ears and orange tip on viewer-left ear, large PINK BOW with CYAN BLUE knot, short arms/feet with orange-gold tips. Keep exactly TWO asymmetric yellow body patches: viewer-left mid-flank semicircle, viewer-right lower belly rounded patch. No added tail, no new accessories, no changed identity. Keep the same soft clean brown outlines, subtle painterly texture and warm colors. Full body including ears/bow/feet remains visible with generous margins. Uniform warm ivory background, locked frontal camera, no zoom, pan, cuts, text or labels. No extra limbs. One smooth readable action, five seconds, silent. Human hand ONLY when requested in this action. "
+      }
+    },
+    {
+      "index": 5,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8"
+          }
+        ],
+        "prompt": "Raise one front paw with the paw pad facing the viewer. A friendly illustrated human hand enters from the lower right, meets the raised paw in a clear single high-five contact with a tiny golden sparkle. Lower the paw after contact and smile. Make actual palm-to-paw contact obvious, NOT waving hello. Animate EXACTLY the approved mascot in the reference, as warm polished hand-painted 2D cartoon animation. Preserve its plump unified cocoa-brown head/body with no neck, pure BLACK oval eyes with tiny white highlights (never brown irises), tiny black nose, rosy cheeks, small triangular pink-inner ears and orange tip on viewer-left ear, large PINK BOW with CYAN BLUE knot, short arms/feet with orange-gold tips. Keep exactly TWO asymmetric yellow body patches: viewer-left mid-flank semicircle, viewer-right lower belly rounded patch. No added tail, no new accessories, no changed identity. Keep the same soft clean brown outlines, subtle painterly texture and warm colors. Full body including ears/bow/feet remains visible with generous margins. Uniform warm ivory background, locked frontal camera, no zoom, pan, cuts, text or labels. No extra limbs. One smooth readable action, five seconds, silent. Human hand ONLY when requested in this action. "
+      }
+    },
+    {
+      "index": 6,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8"
+          }
+        ],
+        "prompt": "Hold a little turquoise bubble wand in one tiny paw, bring the round ring close to the mouth, pucker and gently blow through it. Three large translucent pastel soap bubbles visibly emerge from the wand, drift upward, and are followed with delighted eyes. Clearly blowing soap bubbles; no balls. Animate EXACTLY the approved mascot in the reference, as warm polished hand-painted 2D cartoon animation. Preserve its plump unified cocoa-brown head/body with no neck, pure BLACK oval eyes with tiny white highlights (never brown irises), tiny black nose, rosy cheeks, small triangular pink-inner ears and orange tip on viewer-left ear, large PINK BOW with CYAN BLUE knot, short arms/feet with orange-gold tips. Keep exactly TWO asymmetric yellow body patches: viewer-left mid-flank semicircle, viewer-right lower belly rounded patch. No added tail, no new accessories, no changed identity. Keep the same soft clean brown outlines, subtle painterly texture and warm colors. Full body including ears/bow/feet remains visible with generous margins. Uniform warm ivory background, locked frontal camera, no zoom, pan, cuts, text or labels. No extra limbs. One smooth readable action, five seconds, silent. Human hand ONLY when requested in this action. "
+      }
+    },
+    {
+      "index": 7,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8"
+          }
+        ],
+        "prompt": "Within the first second gently lower the plump body into a comfortably curled resting pose, tiny paws near the cheek, eyes fully closed. Remain peacefully asleep for the remainder of the shot with slow belly breathing. Keep the pink bow and both ears visible. Hold closed-eye sleep for at least the final three seconds. No waking, no waving, no standing up. Animate EXACTLY the approved mascot in the reference, as warm polished hand-painted 2D cartoon animation. Preserve its plump unified cocoa-brown head/body with no neck, pure BLACK oval eyes with tiny white highlights (never brown irises), tiny black nose, rosy cheeks, small triangular pink-inner ears and orange tip on viewer-left ear, large PINK BOW with CYAN BLUE knot, short arms/feet with orange-gold tips. Keep exactly TWO asymmetric yellow body patches: viewer-left mid-flank semicircle, viewer-right lower belly rounded patch. No added tail, no new accessories, no changed identity. Keep the same soft clean brown outlines, subtle painterly texture and warm colors. Full body including ears/bow/feet remains visible with generous margins. Uniform warm ivory background, locked frontal camera, no zoom, pan, cuts, text or labels. No extra limbs. One smooth readable action, five seconds, silent. Human hand ONLY when requested in this action. "
+      }
+    },
+    {
+      "index": 8,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8"
+          }
+        ],
+        "prompt": "Lower both paws. Listen attentively to the viewer with mouth closed, tilt the head gently to one side, perk the small ears slightly, give one tiny understanding nod. Quiet attentive listening, no talking, no props. Animate EXACTLY the approved mascot in the reference, as warm polished hand-painted 2D cartoon animation. Preserve its plump unified cocoa-brown head/body with no neck, pure BLACK oval eyes with tiny white highlights (never brown irises), tiny black nose, rosy cheeks, small triangular pink-inner ears and orange tip on viewer-left ear, large PINK BOW with CYAN BLUE knot, short arms/feet with orange-gold tips. Keep exactly TWO asymmetric yellow body patches: viewer-left mid-flank semicircle, viewer-right lower belly rounded patch. No added tail, no new accessories, no changed identity. Keep the same soft clean brown outlines, subtle painterly texture and warm colors. Full body including ears/bow/feet remains visible with generous margins. Uniform warm ivory background, locked frontal camera, no zoom, pan, cuts, text or labels. No extra limbs. One smooth readable action, five seconds, silent. Human hand ONLY when requested in this action. "
+      }
+    },
+    {
+      "index": 9,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8"
+          }
+        ],
+        "prompt": "Lower the raised paw, then touch one tiny paw softly to the cheek, glance slightly upward, tilt the head in thoughtful curiosity, then give a small pleased nod. Gentle pondering expression, no worry, no text or thought bubbles. Animate EXACTLY the approved mascot in the reference, as warm polished hand-painted 2D cartoon animation. Preserve its plump unified cocoa-brown head/body with no neck, pure BLACK oval eyes with tiny white highlights (never brown irises), tiny black nose, rosy cheeks, small triangular pink-inner ears and orange tip on viewer-left ear, large PINK BOW with CYAN BLUE knot, short arms/feet with orange-gold tips. Keep exactly TWO asymmetric yellow body patches: viewer-left mid-flank semicircle, viewer-right lower belly rounded patch. No added tail, no new accessories, no changed identity. Keep the same soft clean brown outlines, subtle painterly texture and warm colors. Full body including ears/bow/feet remains visible with generous margins. Uniform warm ivory background, locked frontal camera, no zoom, pan, cuts, text or labels. No extra limbs. One smooth readable action, five seconds, silent. Human hand ONLY when requested in this action. "
+      }
+    },
+    {
+      "index": 10,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8"
+          }
+        ],
+        "prompt": "Address the viewer with a warm friendly face, small natural mouth opening and closing as if speaking a short gentle sentence, subtle nods and one little explanatory paw gesture. Silent video, no subtitles. Preserve black eye color. Animate EXACTLY the approved mascot in the reference, as warm polished hand-painted 2D cartoon animation. Preserve its plump unified cocoa-brown head/body with no neck, pure BLACK oval eyes with tiny white highlights (never brown irises), tiny black nose, rosy cheeks, small triangular pink-inner ears and orange tip on viewer-left ear, large PINK BOW with CYAN BLUE knot, short arms/feet with orange-gold tips. Keep exactly TWO asymmetric yellow body patches: viewer-left mid-flank semicircle, viewer-right lower belly rounded patch. No added tail, no new accessories, no changed identity. Keep the same soft clean brown outlines, subtle painterly texture and warm colors. Full body including ears/bow/feet remains visible with generous margins. Uniform warm ivory background, locked frontal camera, no zoom, pan, cuts, text or labels. No extra limbs. One smooth readable action, five seconds, silent. Human hand ONLY when requested in this action. "
+      }
+    },
+    {
+      "index": 11,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "b5ab801e-2bfd-4d2a-88dc-2eb356cbedc8"
+          }
+        ],
+        "prompt": "Celebrate joyfully with two small soft bounces and both tiny paws lifted, happy smile and eyes that briefly close with joy, a few tiny golden stars sparkle near the paws and fade. Land and settle gently, no exaggerated jumping. Animate EXACTLY the approved mascot in the reference, as warm polished hand-painted 2D cartoon animation. Preserve its plump unified cocoa-brown head/body with no neck, pure BLACK oval eyes with tiny white highlights (never brown irises), tiny black nose, rosy cheeks, small triangular pink-inner ears and orange tip on viewer-left ear, large PINK BOW with CYAN BLUE knot, short arms/feet with orange-gold tips. Keep exactly TWO asymmetric yellow body patches: viewer-left mid-flank semicircle, viewer-right lower belly rounded patch. No added tail, no new accessories, no changed identity. Keep the same soft clean brown outlines, subtle painterly texture and warm colors. Full body including ears/bow/feet remains visible with generous margins. Uniform warm ivory background, locked frontal camera, no zoom, pan, cuts, text or labels. No extra limbs. One smooth readable action, five seconds, silent. Human hand ONLY when requested in this action. "
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "1bcb9b16-b722-4165-ac62-28018a5bf266"
+    },
+    {
+      "index": 1,
+      "job_id": "d5095ca4-d95f-4cd1-8a00-7632543072cb"
+    },
+    {
+      "index": 2,
+      "job_id": "9965e289-10ca-47e7-84fd-e9fb9fb03669"
+    },
+    {
+      "index": 3,
+      "job_id": "75d601c1-a149-4f6e-9363-875610dc5701"
+    },
+    {
+      "index": 4,
+      "job_id": "9dce7bc4-6708-452c-b568-db7ead1edde9"
+    },
+    {
+      "index": 5,
+      "job_id": "a8351d0c-acd6-47e4-a8f5-3649ec0da923"
+    },
+    {
+      "index": 6,
+      "job_id": "208c5d85-07a2-4dc4-9e11-1514755ab7b4"
+    },
+    {
+      "index": 7,
+      "job_id": "87bd3ba3-0a2f-4b16-b051-611e5ba790f1"
+    },
+    {
+      "index": 8,
+      "job_id": "1b4933ea-5210-4f85-9b05-3312a13805e5"
+    },
+    {
+      "index": 9,
+      "job_id": "4007ec63-9a57-4fa3-bb44-9df9053914b9"
+    },
+    {
+      "index": 10,
+      "job_id": "3f14b55f-6eaf-41bb-9db7-e94b94690bca"
+    },
+    {
+      "index": 11,
+      "job_id": "c6225e72-ca4a-4ba7-a587-e0414ddce081"
+    }
+  ],
+  "scope": "Animation assets only; not deployed to website.",
+  "completed": [
+    {
+      "index": 0,
+      "job_id": "1bcb9b16-b722-4165-ac62-28018a5bf266",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_083122_1bcb9b16-b722-4165-ac62-28018a5bf266.mp4"
+    },
+    {
+      "index": 1,
+      "job_id": "d5095ca4-d95f-4cd1-8a00-7632543072cb",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_083121_d5095ca4-d95f-4cd1-8a00-7632543072cb.mp4"
+    },
+    {
+      "index": 2,
+      "job_id": "9965e289-10ca-47e7-84fd-e9fb9fb03669",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_083121_9965e289-10ca-47e7-84fd-e9fb9fb03669.mp4"
+    },
+    {
+      "index": 3,
+      "job_id": "75d601c1-a149-4f6e-9363-875610dc5701",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_083121_75d601c1-a149-4f6e-9363-875610dc5701.mp4"
+    },
+    {
+      "index": 4,
+      "job_id": "9dce7bc4-6708-452c-b568-db7ead1edde9",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_083121_9dce7bc4-6708-452c-b568-db7ead1edde9.mp4"
+    },
+    {
+      "index": 5,
+      "job_id": "a8351d0c-acd6-47e4-a8f5-3649ec0da923",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_083122_a8351d0c-acd6-47e4-a8f5-3649ec0da923.mp4"
+    },
+    {
+      "index": 6,
+      "job_id": "208c5d85-07a2-4dc4-9e11-1514755ab7b4",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_083133_208c5d85-07a2-4dc4-9e11-1514755ab7b4.mp4"
+    },
+    {
+      "index": 7,
+      "job_id": "87bd3ba3-0a2f-4b16-b051-611e5ba790f1",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_083133_87bd3ba3-0a2f-4b16-b051-611e5ba790f1.mp4"
+    },
+    {
+      "index": 8,
+      "job_id": "1b4933ea-5210-4f85-9b05-3312a13805e5",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_083136_1b4933ea-5210-4f85-9b05-3312a13805e5.mp4"
+    },
+    {
+      "index": 9,
+      "job_id": "4007ec63-9a57-4fa3-bb44-9df9053914b9",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_083133_4007ec63-9a57-4fa3-bb44-9df9053914b9.mp4"
+    },
+    {
+      "index": 10,
+      "job_id": "3f14b55f-6eaf-41bb-9db7-e94b94690bca",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_083133_3f14b55f-6eaf-41bb-9db7-e94b94690bca.mp4"
+    },
+    {
+      "index": 11,
+      "job_id": "c6225e72-ca4a-4ba7-a587-e0414ddce081",
+      "status": "completed",
+      "type": "video",
+      "model": "kling3_0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261026_083133_c6225e72-ca4a-4ba7-a587-e0414ddce081.mp4"
+    }
+  ],
+  "visualReview": "All 12 source contact sheets inspected. Identity and distinct action semantics retained; sleeping segment and relaxed idle exported as continuous loops.",
+  "verification": "36 checks passed: all 12 MP4s decode in Chromium and modern WebKit; all 12 JPEG atlases have correct dimensions and differing frames. Physical iPad and website integration not tested."
+}

@@ -1,0 +1,854 @@
+{
+  "source": "2221c23af0c72c9e6d571675bf7ca4ddce24d3d3",
+  "note": "Full published questions including hint, explanation and format. Do not regenerate to accept meaning changes.",
+  "items": [
+    {
+      "id": "c1-g4-science-01",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 1,
+      "prompt": "小羽看著盆栽，記下「有三片葉子，其中一片變黃」。下面哪一句也是可以直接觀察的紀錄？",
+      "options": [
+        {
+          "text": "盆栽的土表有一道裂縫"
+        },
+        {
+          "text": "盆栽一定缺水了"
+        },
+        {
+          "text": "盆栽明天會長新葉"
+        },
+        {
+          "text": "盆栽不喜歡這個花盆"
+        }
+      ],
+      "answer": 0,
+      "hint": "找出眼睛能看到的現象，不先猜原因或明天的變化。",
+      "explanation": "土表的裂縫能直接看到。缺水是可能的原因，還要查證；明天長葉是預測，喜不喜歡花盆也不是直接觀察。"
+    },
+    {
+      "id": "c1-g4-science-02",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 1,
+      "prompt": "想比較同一輛小車從不同高度的斜坡滑下，滑行距離有沒有不同。哪個安排最公平？",
+      "options": [
+        {
+          "text": "高處用大車，低處用小車"
+        },
+        {
+          "text": "高處不推，低處用力推"
+        },
+        {
+          "text": "高處用木板，低處用毛巾當坡道"
+        },
+        {
+          "text": "改變起點高度，其餘條件相同，都不推車"
+        }
+      ],
+      "answer": 3,
+      "hint": "這次要比較的是高度。其他也會影響距離的條件，要儘量相同。",
+      "explanation": "只改變起點高度，保持小車、坡道表面、地面和放手方式相同，才容易比較高度的影響。換車、推力或坡道表面都會讓原因混在一起。"
+    },
+    {
+      "id": "c1-g4-science-03",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 1,
+      "prompt": "同一支沒削過的鉛筆，三次量到 15、15、51 公分。下一步怎麼做最合理？",
+      "options": [
+        {
+          "text": "只留下最長的 51 公分"
+        },
+        {
+          "text": "說鉛筆第三次突然變長了"
+        },
+        {
+          "text": "保留紀錄，檢查刻度和抄寫，再量一次"
+        },
+        {
+          "text": "把 51 改成 15，不用再量"
+        }
+      ],
+      "answer": 2,
+      "hint": "不一樣的數字需要查核，不能先改成自己希望的答案。",
+      "explanation": "51 公分和另外兩次差很多。先保留原紀錄，檢查尺的起點、刻度與抄寫，再重新測量，才能找出差異的原因。"
+    },
+    {
+      "id": "c1-g4-science-04",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 1,
+      "prompt": "在這次相同條件的測試中，同樣大小的紙巾甲吸了 8 毫升水，乙吸了 5 毫升水。哪個結論有紀錄支持？",
+      "options": [
+        {
+          "text": "甲的價格一定比較高"
+        },
+        {
+          "text": "這次測試中，甲吸的水比乙多"
+        },
+        {
+          "text": "甲在任何情況都比乙好"
+        },
+        {
+          "text": "乙完全不能吸水"
+        }
+      ],
+      "answer": 1,
+      "hint": "結論要留在這次測試的範圍內，沒有測的事不能一起推定。",
+      "explanation": "8 毫升比 5 毫升多，所以只能說這次甲吸水較多。乙也吸了水；紀錄沒有價格，也不能代表任何情況下的表現。"
+    },
+    {
+      "id": "c1-g4-science-05",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 1,
+      "prompt": "桌上的盤子裡有一塊冰。過了十分鐘，冰塊變小，盤裡多了水。哪一句屬於原因的猜想，需要進一步查證？",
+      "options": [
+        {
+          "text": "可能是周圍較暖，讓冰融化了"
+        },
+        {
+          "text": "盤裡出現了水"
+        },
+        {
+          "text": "冰塊比剛才小"
+        },
+        {
+          "text": "兩次觀察相隔十分鐘"
+        }
+      ],
+      "answer": 0,
+      "hint": "觀察說明看到了什麼；猜想試著解釋為什麼。",
+      "explanation": "「周圍較暖」是在解釋原因，需要溫度等證據。冰變小、盤裡有水及相隔十分鐘，是題目已提供的紀錄。"
+    },
+    {
+      "id": "c1-g4-science-06",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 1,
+      "prompt": "想知道紙張厚薄會不會影響紙飛機的飛行距離。哪一組最適合比較？",
+      "options": [
+        {
+          "text": "一張薄紙折飛機，一張厚紙揉成球"
+        },
+        {
+          "text": "薄紙在室內飛，厚紙在有風的戶外飛"
+        },
+        {
+          "text": "厚紙用力丟，薄紙輕輕丟"
+        },
+        {
+          "text": "兩張同樣大小、厚薄不同的紙，折法和投擲方式相同"
+        }
+      ],
+      "answer": 3,
+      "hint": "保留要比較的厚薄差異，其他可能影響飛行的條件要相同。",
+      "explanation": "紙的厚薄是這次要改變的條件。紙張大小、折法、場所和投擲方式應儘量相同；否則無法分清距離差異來自哪個條件。"
+    },
+    {
+      "id": "c1-g4-science-07",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 1,
+      "prompt": "兩組用相同方法照顧豆子，一組只放一顆，另一組放十顆。想看同樣照顧下發芽情況是否一致，為什麼要觀察多顆？",
+      "options": [
+        {
+          "text": "只要豆子多，就不必記錄"
+        },
+        {
+          "text": "十顆一定會在同一分鐘發芽"
+        },
+        {
+          "text": "可以看見個別差異，不只依一顆就下結論"
+        },
+        {
+          "text": "豆子多就保證每顆都發芽"
+        }
+      ],
+      "answer": 2,
+      "hint": "同樣照顧，也可能有不同結果。多次觀察能讓我們看見這些差異。",
+      "explanation": "觀察多顆能看見同樣條件下是否仍有差異，避免只靠一顆代表全部。數量增加不保證全部發芽，也不能取代紀錄。"
+    },
+    {
+      "id": "c1-g4-science-08",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 1,
+      "prompt": "同一根固定直立的竿子，上午九點的影子長 80 公分，中午十二點長 30 公分。只依這兩次紀錄，可以說什麼？",
+      "options": [
+        {
+          "text": "下午三點的影子一定長 80 公分"
+        },
+        {
+          "text": "這次中午量到的影子比上午九點短"
+        },
+        {
+          "text": "竿子中午縮短了"
+        },
+        {
+          "text": "所有地方的影子中午都是 30 公分"
+        }
+      ],
+      "answer": 1,
+      "hint": "比較題目真的量過的兩次，不猜沒有量過的時間或地點。",
+      "explanation": "30 公分小於 80 公分，支持這兩次影長的比較。沒有測量竿子長度變化、其他地點或下午三點，不能用這份紀錄判定那些結果。"
+    },
+    {
+      "id": "c1-g4-science-09",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 2,
+      "prompt": "小安把磁鐵靠近一個迴紋針，記下「迴紋針往磁鐵移動」。哪一句把猜想當成了觀察結果？",
+      "options": [
+        {
+          "text": "所有金屬一定都會被這塊磁鐵吸住"
+        },
+        {
+          "text": "磁鐵靠近了迴紋針"
+        },
+        {
+          "text": "這個迴紋針移動了"
+        },
+        {
+          "text": "這次只測了一個迴紋針"
+        }
+      ],
+      "answer": 0,
+      "hint": "測過一個物品，是否等於測過所有金屬？",
+      "explanation": "這次只觀察一個迴紋針，不能說所有金屬都一樣。其他三句都限於題目描述的操作或現象。"
+    },
+    {
+      "id": "c1-g4-science-10",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 2,
+      "prompt": "想比較兩種紙巾的吸水量。紙巾大小、水量、放入方式都相同，但甲泡十秒，乙泡一分鐘。還要先改哪一點？",
+      "options": [
+        {
+          "text": "把吸水較少的那張換大一點"
+        },
+        {
+          "text": "只記錄自己喜歡的紙巾"
+        },
+        {
+          "text": "把甲的水量改成乙的兩倍"
+        },
+        {
+          "text": "讓兩種紙巾吸水的時間相同"
+        }
+      ],
+      "answer": 3,
+      "hint": "找出除了紙巾種類之外，還不相同的條件。",
+      "explanation": "時間不同也可能影響吸水量。先統一吸水時間，才能較公平地比較紙巾種類；改大小或水量會再加入其他差異。"
+    },
+    {
+      "id": "c1-g4-science-11",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 2,
+      "prompt": "同一輛小車從同一高度放手，三次滑了 60、64、62 公分。要向同學報告結果，哪種做法最清楚？",
+      "options": [
+        {
+          "text": "刪掉 60 和 62，讓紀錄整齊"
+        },
+        {
+          "text": "沒再測量就把三次都改成 64"
+        },
+        {
+          "text": "列出三次距離，說明三次稍有不同"
+        },
+        {
+          "text": "只報最遠的 64 公分，說每次都一樣"
+        }
+      ],
+      "answer": 2,
+      "hint": "保留每次量到的結果，別把差異藏起來。",
+      "explanation": "三次紀錄都有用，能讓同學看見測量結果的差異。只報最好的一次或修改數字，會讓人誤以為每次表現完全相同。"
+    },
+    {
+      "id": "c1-g4-science-12",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 2,
+      "prompt": "盆栽甲放窗邊、每天澆水，乙放暗處、一週才澆一次。甲長得較高。能只靠這次結果說「一定是光線造成」嗎？",
+      "options": [
+        {
+          "text": "只要再量一次高度，就能排除澆水影響"
+        },
+        {
+          "text": "還不能，光線和澆水都不同，原因混在一起"
+        },
+        {
+          "text": "可以，因為甲比較高"
+        },
+        {
+          "text": "可以，不必考慮澆水"
+        }
+      ],
+      "answer": 1,
+      "hint": "想一想，兩盆除了光線，還有哪個條件不同？",
+      "explanation": "兩盆同時有光線和澆水的差異，這次無法單獨判斷光線的影響。只重測高度，並沒有讓澆水條件相同。"
+    },
+    {
+      "id": "c1-g4-science-13",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 2,
+      "prompt": "戶外觀察時，小晴記下「天空有灰雲，地面是乾的」。下列哪一句是預測，還不是已觀察到的事？",
+      "options": [
+        {
+          "text": "待會兒可能會下雨"
+        },
+        {
+          "text": "天空有灰雲"
+        },
+        {
+          "text": "現在地面是乾的"
+        },
+        {
+          "text": "這份紀錄寫了雲和地面的樣子"
+        }
+      ],
+      "answer": 0,
+      "hint": "留意句子說的是現在，還是尚未發生的事情。",
+      "explanation": "「待會兒可能下雨」描述未來，是預測。灰雲和乾的地面是當時觀察到的現象，並不能保證接下來一定下雨。"
+    },
+    {
+      "id": "c1-g4-science-14",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 2,
+      "prompt": "想比較傘面大小對玩具降落傘落地時間的影響。兩個傘面材質相同，繩長和載重也相同。哪個放手方法最公平？",
+      "options": [
+        {
+          "text": "大傘從較高處放，小傘從較低處放"
+        },
+        {
+          "text": "放大傘時向下用力推"
+        },
+        {
+          "text": "只替小傘加一個重物再放"
+        },
+        {
+          "text": "從同一高度，用相同方式放手"
+        }
+      ],
+      "answer": 3,
+      "hint": "除傘面大小以外，放手高度、方式與載重都要儘量相同。",
+      "explanation": "同高度、同方式放手，才能較公平地比較傘面大小。改高度、推力或載重，都可能另外影響落地時間。"
+    },
+    {
+      "id": "c1-g4-science-15",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 2,
+      "prompt": "兩人用同一支溫度計讀同一杯水，一人讀 24 度，一人讀 29 度。想查明讀值差異，先怎麼做？",
+      "options": [
+        {
+          "text": "選自己喜歡的溫度"
+        },
+        {
+          "text": "把兩人的紀錄都丟掉，不再測量"
+        },
+        {
+          "text": "一起確認刻度和讀取方式，再記錄讀值"
+        },
+        {
+          "text": "直接採用年紀較大的人說的數字"
+        }
+      ],
+      "answer": 2,
+      "hint": "用可以檢查的方法處理差異，不用年紀或喜好決定數字。",
+      "explanation": "先確認是否看同一刻度、讀取方法是否一致，再重新讀值並保留紀錄。年紀和喜好都不能判斷這杯水的實際溫度。"
+    },
+    {
+      "id": "c1-g4-science-16",
+      "grade": 4,
+      "course": "science",
+      "subject": "science",
+      "skill": "observation",
+      "level": 2,
+      "prompt": "同學想比較兩種紙橋能承受多少顆相同的積木，卻只測了紙橋甲。放上第五顆後，紙橋仍沒有垮，同學就停止加積木。哪個說法最合理？",
+      "options": [
+        {
+          "text": "甲和乙一定一樣強"
+        },
+        {
+          "text": "目前只知道甲承受過五顆，還不能比較甲乙"
+        },
+        {
+          "text": "甲最多只能承受五顆"
+        },
+        {
+          "text": "乙一定比甲弱"
+        }
+      ],
+      "answer": 1,
+      "hint": "有沒有測到甲的極限？有沒有測過乙？",
+      "explanation": "停止時甲仍承受著五顆，沒有測出極限；乙也尚未測試。因此只能報告已觀察到的結果，還不能比較兩種紙橋。"
+    },
+    {
+      "id": "c1-g2-words-01",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 1,
+      "format": "short-passage",
+      "prompt": "小安先洗手，再吃點心。小安先做哪一件事？",
+      "options": [
+        {
+          "text": "洗手"
+        },
+        {
+          "text": "吃點心"
+        },
+        {
+          "text": "收玩具"
+        },
+        {
+          "text": "穿鞋子"
+        }
+      ],
+      "answer": 0,
+      "hint": "找出「先」後面的動作，再看看「再」後面的動作。",
+      "explanation": "句子說「先洗手，再吃點心」，所以先做的是洗手。吃點心在洗手之後，另外兩件事沒有出現在句子裡。"
+    },
+    {
+      "id": "c1-g2-words-02",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 1,
+      "format": "short-passage",
+      "prompt": "紅球在盒子裡，藍球在盒子外。哪一顆球在盒子裡？",
+      "options": [
+        {
+          "text": "藍球"
+        },
+        {
+          "text": "黃球"
+        },
+        {
+          "text": "綠球"
+        },
+        {
+          "text": "紅球"
+        }
+      ],
+      "answer": 3,
+      "hint": "把顏色和位置連在一起讀，留意「裡」和「外」。",
+      "explanation": "句子把紅球的位置說成「盒子裡」，藍球則在盒子外。黃球和綠球的位置沒有提到。"
+    },
+    {
+      "id": "c1-g2-words-03",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 1,
+      "format": "short-passage",
+      "prompt": "小美拿起畫筆。她開始畫花。「她」指的是誰？",
+      "options": [
+        {
+          "text": "花朵"
+        },
+        {
+          "text": "畫紙"
+        },
+        {
+          "text": "小美"
+        },
+        {
+          "text": "畫筆"
+        }
+      ],
+      "answer": 2,
+      "hint": "回頭找前一句正在做事的人。",
+      "explanation": "前一句做事的人是小美，後一句用「她」接著說小美開始畫花。畫筆、花朵和畫紙都不是這裡指的人。"
+    },
+    {
+      "id": "c1-g2-words-04",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 1,
+      "format": "short-passage",
+      "prompt": "因為外面下雨，小禾帶了雨傘。小禾為什麼帶雨傘？",
+      "options": [
+        {
+          "text": "因為想睡覺"
+        },
+        {
+          "text": "因為外面下雨"
+        },
+        {
+          "text": "因為要畫畫"
+        },
+        {
+          "text": "因為肚子餓"
+        }
+      ],
+      "answer": 1,
+      "hint": "「因為」後面的事情，說明了這次帶傘的原因。",
+      "explanation": "句子明白說出原因是外面下雨。其他事情可能讓人想做別的活動，但都不是這個句子提供的原因。"
+    },
+    {
+      "id": "c1-g2-words-05",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 1,
+      "format": "short-passage",
+      "prompt": "樂樂先把書放進書包，再拉上拉鍊。放好書以後，樂樂接著做什麼？",
+      "options": [
+        {
+          "text": "拉上拉鍊"
+        },
+        {
+          "text": "打開水壺"
+        },
+        {
+          "text": "把書拿出來"
+        },
+        {
+          "text": "穿上雨衣"
+        }
+      ],
+      "answer": 0,
+      "hint": "題目問的是放好書「以後」，找下一個動作。",
+      "explanation": "兩個動作依序是放書、拉上拉鍊。放好書之後接著拉上拉鍊；另外三個動作沒有寫在句子裡。"
+    },
+    {
+      "id": "c1-g2-words-06",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 1,
+      "format": "short-passage",
+      "prompt": "小熊站在大樹左邊，小兔站在大樹右邊。大樹右邊是誰？",
+      "options": [
+        {
+          "text": "小熊"
+        },
+        {
+          "text": "小狗"
+        },
+        {
+          "text": "小貓"
+        },
+        {
+          "text": "小兔"
+        }
+      ],
+      "answer": 3,
+      "hint": "先找「右邊」，再找和它放在同一句的動物。",
+      "explanation": "題目已說小兔站在大樹右邊，小熊在左邊。不用猜動物的習慣，只要依句子提供的位置作答。"
+    },
+    {
+      "id": "c1-g2-words-07",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 1,
+      "format": "short-passage",
+      "prompt": "小狗叼著球跑來。牠把球放在門口。「牠」指的是什麼？",
+      "options": [
+        {
+          "text": "門"
+        },
+        {
+          "text": "繩子"
+        },
+        {
+          "text": "小狗"
+        },
+        {
+          "text": "球"
+        }
+      ],
+      "answer": 2,
+      "hint": "找出前一句會跑、會把球放下的動物。",
+      "explanation": "「牠」接著指前一句的小狗。是小狗叼球跑來，再把球放下；球和門不是做這些動作的動物。"
+    },
+    {
+      "id": "c1-g2-words-08",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 1,
+      "format": "short-passage",
+      "prompt": "杯裡的水灑出來，所以桌面溼了。桌面為什麼會溼？",
+      "options": [
+        {
+          "text": "椅子移開了"
+        },
+        {
+          "text": "杯裡的水灑出來"
+        },
+        {
+          "text": "窗戶關起來"
+        },
+        {
+          "text": "書本放好了"
+        }
+      ],
+      "answer": 1,
+      "hint": "「所以」前面的事情，說明桌面變溼的原因。",
+      "explanation": "水灑到桌面，造成桌面變溼。句子沒有說關窗、放書或移椅子造成桌面溼，所以不能選那些原因。"
+    },
+    {
+      "id": "c1-g2-words-09",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 2,
+      "format": "short-passage",
+      "prompt": "小青先對折紙張，再壓平摺痕，最後打開紙張。第二步是什麼？",
+      "options": [
+        {
+          "text": "壓平摺痕"
+        },
+        {
+          "text": "對折紙張"
+        },
+        {
+          "text": "打開紙張"
+        },
+        {
+          "text": "拿出蠟筆"
+        }
+      ],
+      "answer": 0,
+      "hint": "把「先、再、最後」分別排成第一、第二、第三步。",
+      "explanation": "第一步是對折，第二步是壓平摺痕，第三步才打開紙張。「再」後面的動作正是題目問的第二步。"
+    },
+    {
+      "id": "c1-g2-words-10",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 2,
+      "format": "short-passage",
+      "prompt": "書櫃上層放故事書，中層放字典，下層放畫冊。故事書和畫冊中間是哪一本？",
+      "options": [
+        {
+          "text": "故事書"
+        },
+        {
+          "text": "畫冊"
+        },
+        {
+          "text": "筆記本"
+        },
+        {
+          "text": "字典"
+        }
+      ],
+      "answer": 3,
+      "hint": "上、中、下排成三層；找出中間那一層的書。",
+      "explanation": "故事書在上層，畫冊在下層，中層的字典就在兩者之間。筆記本的位置沒有出現在這份說明裡。"
+    },
+    {
+      "id": "c1-g2-words-11",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 2,
+      "format": "short-passage",
+      "prompt": "小蘭借給小明一本書。小明說：「我明天還書。」「我」指的是誰？",
+      "options": [
+        {
+          "text": "老師"
+        },
+        {
+          "text": "作者"
+        },
+        {
+          "text": "小明"
+        },
+        {
+          "text": "小蘭"
+        }
+      ],
+      "answer": 2,
+      "hint": "引號裡的「我」是正在說話的人。找找是誰說這句話。",
+      "explanation": "說「我明天還書」的人是小明，所以這裡的「我」指小明。小蘭是借出書的人，沒有說這句話。"
+    },
+    {
+      "id": "c1-g2-words-12",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 2,
+      "format": "short-passage",
+      "prompt": "小秋的鞋帶鬆了，所以她停下來綁鞋帶。小秋停下來的原因是什麼？",
+      "options": [
+        {
+          "text": "準備喝水"
+        },
+        {
+          "text": "鞋帶鬆了"
+        },
+        {
+          "text": "想數星星"
+        },
+        {
+          "text": "忘了帶書"
+        }
+      ],
+      "answer": 1,
+      "hint": "先讀鞋帶發生了什麼事，再想為什麼要停下來。",
+      "explanation": "句子把鞋帶鬆了和停下來綁鞋帶連在一起。鞋帶鬆了是原因；數星星、忘帶書和喝水都沒有在句子裡說明。"
+    },
+    {
+      "id": "c1-g2-words-13",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 2,
+      "format": "short-passage",
+      "prompt": "今天先上音樂課，再上體育課，最後上美術課。體育課之前是哪一堂課？",
+      "options": [
+        {
+          "text": "音樂課"
+        },
+        {
+          "text": "美術課"
+        },
+        {
+          "text": "國語課"
+        },
+        {
+          "text": "自然課"
+        }
+      ],
+      "answer": 0,
+      "hint": "先排出三堂課，再找體育課前面的那一堂。",
+      "explanation": "課程順序是音樂、體育、美術，所以體育課之前是音樂課。美術課在體育課之後；另外兩堂課沒有列出。"
+    },
+    {
+      "id": "c1-g2-words-14",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 2,
+      "format": "short-passage",
+      "prompt": "鉛筆在筆盒裡，橡皮擦在筆盒旁邊。要拿到橡皮擦，應該往哪裡找？",
+      "options": [
+        {
+          "text": "筆盒裡面"
+        },
+        {
+          "text": "書包底下"
+        },
+        {
+          "text": "椅子上面"
+        },
+        {
+          "text": "筆盒旁邊"
+        }
+      ],
+      "answer": 3,
+      "hint": "不要把鉛筆的位置和橡皮擦的位置交換了。",
+      "explanation": "句子說橡皮擦在筆盒旁邊；筆盒裡是鉛筆。書包底下和椅子上面都沒有被說成橡皮擦的位置。"
+    },
+    {
+      "id": "c1-g2-words-15",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 2,
+      "format": "short-passage",
+      "prompt": "小方和小雨一起畫畫。小方說：「小雨，我幫你拿紅筆。」「你」指的是誰？",
+      "options": [
+        {
+          "text": "老師"
+        },
+        {
+          "text": "爸爸"
+        },
+        {
+          "text": "小雨"
+        },
+        {
+          "text": "小方"
+        }
+      ],
+      "answer": 2,
+      "hint": "「你」是說話的人正在對話的對象，前面有叫出名字。",
+      "explanation": "小方先叫「小雨」，接著對小雨說「我幫你拿紅筆」，所以「你」指小雨。「我」才是正在說話的小方。"
+    },
+    {
+      "id": "c1-g2-words-16",
+      "grade": 2,
+      "course": "words",
+      "subject": "chinese",
+      "skill": "words",
+      "level": 2,
+      "format": "short-passage",
+      "prompt": "小文因為找不到水壺，所以請老師幫忙。小文請老師幫忙，是因為什麼？",
+      "options": [
+        {
+          "text": "想學唱歌"
+        },
+        {
+          "text": "找不到水壺"
+        },
+        {
+          "text": "想借一本書"
+        },
+        {
+          "text": "忘了帶作業"
+        }
+      ],
+      "answer": 1,
+      "hint": "找出「因為」後面直接寫出的事情，不替故事加上其他原因。",
+      "explanation": "故事直接說小文找不到水壺，所以請老師幫忙。借書、忘帶作業或學唱歌都可能需要協助，但不是這次提供的原因。"
+    }
+  ]
+}

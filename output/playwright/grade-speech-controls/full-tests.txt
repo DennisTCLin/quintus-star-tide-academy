@@ -1,0 +1,40 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run --no-file-parallelism
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/school-question-bank/星潮網站開發
+
+ ❯ src/__tests__/dragon-cloud.test.mjs (6 tests | 6 skipped) 250ms
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/dragon-cloud.test.mjs > dragon guide authenticated PostgreSQL persistence
+AssertionError: expected 429 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 429
+
+ ❯ register src/__tests__/dragon-cloud.test.mjs:16:29
+     14|     const username = 'dragon_' + randomUUID().slice(0, 12).replaceAll(…
+     15|     const response = await call(null, 'register', { username, password…
+     16|     expect(response.status).toBe(200);
+       |                             ^
+     17|     const id = (await api.pool.query('SELECT id FROM accounts WHERE us…
+     18|     return { id, username, cookie: response.cookie, csrf: response.dat…
+ ❯ src/__tests__/dragon-cloud.test.mjs:26:31
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 110 passed (111)
+      Tests  797 passed | 6 skipped (803)
+   Start at  22:27:54
+   Duration  56.11s (tests 88%, import 11%, transform 1%)
+
+    Isolate  111 workers spawned · ~51ms startup each (spawn + environment, per file)
+             at least ~5.64s faster with isolate: false — reuses workers across files instead of one per file
+

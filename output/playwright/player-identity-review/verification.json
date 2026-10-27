@@ -1,0 +1,23 @@
+{
+  "candidate": "c9d25e30f309b4d4b576239dfd19cb737aa49076",
+  "environment": "isolated local real PostgreSQL QA",
+  "accounts": [
+    {
+      "name": "王梓鑫",
+      "english": "Alan",
+      "grade": 4,
+      "photo": "/players/alan.jpg?v=1"
+    },
+    {
+      "name": "林沐澤",
+      "english": "Quintus",
+      "grade": 4,
+      "photo": "/players/quintus.jpg?v=1"
+    }
+  ],
+  "parentRowsPerChild": 1,
+  "adaptiveIdentityMatches": true,
+  "viewport": 390,
+  "documentWidth": 390,
+  "sourceScope": "Display-only App and generated pronunciation dictionary; no DB/player score migration."
+}

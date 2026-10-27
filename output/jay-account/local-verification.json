@@ -1,0 +1,19 @@
+{
+  "unitTests": {
+    "passed": 802,
+    "skippedDatabaseTests": 175
+  },
+  "isolatedDatabaseTests": {
+    "childAccount": 6,
+    "cloud": 27
+  },
+  "build": "PASS",
+  "independentCodeReview": "PASS",
+  "independentQuestionReview": {
+    "passed": 60,
+    "total": 60,
+    "sha256": "abfc9b84ee8514315b57408c87cfbf24ed56a05fc28cd999f3a96077fe31a9fd"
+  },
+  "operatorLocalDryRun": "PASS with synthetic Jay identity and one pre-existing player",
+  "scope": "Grade 5 generic math warmup; school textbook editions and other grade 5 subjects pending."
+}

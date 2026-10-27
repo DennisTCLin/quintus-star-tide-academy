@@ -1,0 +1,43 @@
+{
+  "status": "read-only proposed scope; not implemented",
+  "productionBase": "d943ae4",
+  "proposalSource": {
+    "branch": "origin/jeremy/exam-g1-trial",
+    "commit": "9911e59",
+    "files": [
+      "EXAM_MODULE.md",
+      "src/island/games.tsx:127-174",
+      "src/island/games.tsx:456-555"
+    ]
+  },
+  "recommended": "Grade1 settled addition questions: child-paced count-on explanation, each tap adds one distinct object and count; replay/stop; no automatic progression",
+  "bounds": "grade1/math, strict a+b=? parse, nonnegative integers,total<=10, answer matches server-revealed answer; only after settled",
+  "oracle": "step k gives a original objects+k new objects and total a+k;0<=k<=b;final a+b;reset/onquestionchange/reducedmotion retain same arithmetic",
+  "preserve": [
+    "immutable n1/c1 text/IDs/answers",
+    "one submission and3mistake defeat",
+    "cloud ownership/rewards",
+    "current question/next controls",
+    "visual operation independent of speech availability"
+  ],
+  "alternatives": [
+    {
+      "idea": "New zero/numberbond/maketen bank",
+      "reasonDeferred": "current math allocation excludes static bank,needs newID+allocatorcontract design"
+    },
+    {
+      "idea": "English listen-option buttons",
+      "reasonDeferred": "must separate listening fromanswering and checkbilingualTTS/devicevoice"
+    }
+  ],
+  "excluded": [
+    "Do not merge experiment automatically",
+    "Do not adopt localStorage/schema3/fivequestion/economy contracts",
+    "Do not claim research efficacy or textbook alignment fromproposal alone"
+  ],
+  "verifiedCurrentSources": [
+    "src/question-generator.ts:137-162",
+    "src/learning-engine.ts:253",
+    "src/speech-text.ts:29-34 (grade1English already includesChineseinstruction beforeEnglishcue)"
+  ]
+}

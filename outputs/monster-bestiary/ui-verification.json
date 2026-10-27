@@ -1,0 +1,136 @@
+{
+  "url": "http://127.0.0.1:4199",
+  "checks": [
+    [
+      1440,
+      "quintus",
+      5,
+      false,
+      "battle, filters, empty state, detail, Escape/focus and resume PASS"
+    ],
+    [
+      1440,
+      "quintus",
+      5,
+      true,
+      "battle, filters, empty state, detail, Escape/focus and resume PASS"
+    ],
+    [
+      768,
+      "feifei",
+      1,
+      false,
+      "battle, filters, empty state, detail, Escape/focus and resume PASS"
+    ],
+    [
+      390,
+      "feifei",
+      5,
+      false,
+      "battle, filters, empty state, detail, Escape/focus and resume PASS"
+    ],
+    [
+      320,
+      "feifei",
+      1,
+      false,
+      "battle, filters, empty state, detail, Escape/focus and resume PASS"
+    ],
+    [
+      320,
+      "feifei",
+      5,
+      true,
+      "battle, filters, empty state, detail, Escape/focus and resume PASS"
+    ],
+    [
+      "all 30 generated assets decode, lazy-loading PASS"
+    ],
+    [
+      "legacy",
+      "PASS"
+    ],
+    [
+      "broken asset",
+      "PASS"
+    ],
+    [
+      "landscape short viewport answers remain reachable PASS"
+    ]
+  ],
+  "metrics": [
+    {
+      "width": 1440,
+      "player": "quintus",
+      "level": 5,
+      "won": false,
+      "stage": {
+        "x": 41,
+        "y": 199,
+        "width": 775.625,
+        "height": 500
+      }
+    },
+    {
+      "width": 1440,
+      "player": "quintus",
+      "level": 5,
+      "won": true,
+      "stage": {
+        "x": 129,
+        "y": 177,
+        "width": 1182,
+        "height": 580
+      }
+    },
+    {
+      "width": 768,
+      "player": "feifei",
+      "level": 1,
+      "won": false,
+      "stage": {
+        "x": 41,
+        "y": 222.25,
+        "width": 686,
+        "height": 380
+      }
+    },
+    {
+      "width": 390,
+      "player": "feifei",
+      "level": 5,
+      "won": false,
+      "stage": {
+        "x": 23,
+        "y": 199.25,
+        "width": 344,
+        "height": 290
+      }
+    },
+    {
+      "width": 320,
+      "player": "feifei",
+      "level": 1,
+      "won": false,
+      "stage": {
+        "x": 23,
+        "y": 199.25,
+        "width": 274,
+        "height": 350
+      }
+    },
+    {
+      "width": 320,
+      "player": "feifei",
+      "level": 5,
+      "won": true,
+      "stage": {
+        "x": 23,
+        "y": 177,
+        "width": 274,
+        "height": 350
+      }
+    }
+  ],
+  "pageErrors": []
+}

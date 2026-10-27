@@ -1,0 +1,95 @@
+{
+  "scope": "Independent Tideglow acceptance; synthetic local and production QA households",
+  "runtimeOwner": "01a16e50-8e57-7993-8419-9b101001409c",
+  "baseRuntimeCommit": "a7b66b4",
+  "status": "PASS: deployed and independently verified",
+  "browserCoverage": [
+    "IAB 320x740",
+    "IAB 390x844",
+    "IAB 768x1024",
+    "IAB 1024x768",
+    "IAB 1440x900",
+    "native macOS Safari WebKit desktop"
+  ],
+  "passed": [
+    "Grade1 pet click returns comfort feedback and pet video; immediate listen transitions to speaking",
+    "Repeated listen keeps speaking video; actions unlock after animation",
+    "Free snack displays response; drag snack to character also works; visible coins remain zero",
+    "Star ball 0→1→2→3 completes with feedback; end game supported (IAB and Safari)",
+    "Safari preference choice forest produces remembered-forest reply; fixture only",
+    "Grade2 shows ruby and care/chat labels remain horizontal after wrapper fix",
+    "Dialog width fits tested sizes; sticky close remains visible; mobile entry fixed to width292 scroll290 at viewport320",
+    "Pause animation removes video and displays poster",
+    "Hide closes panel and leaves reopen button; reopen works",
+    "Escape closes; active question suppresses launcher",
+    "Quintus, Doudou and Feifei synthetic player switching; Feifei starts with own welcome",
+    "No warnings/errors in final IAB dev log snapshot",
+    "Horizontal stroke gesture triggers pet.mp4 in IAB",
+    "Reviewed care-intent anchors reject unrelated/cross-gesture replies; owner raw live smoke pet/feed accepted; awkward play wording now rejected by final guard and uses reviewed fallback",
+    "Grade2 mobile chat labels horizontal; dialog client/scrollWidth302 at viewport320; header close remains44x44",
+    "Final integrated 320px grade2: document320, course scroll/client292, companion entrance290; hero→islands→companion order",
+    "Final integrated companion greet.mp4 readyState4 and playing; island start pinyin resumes pinyin",
+    "New course text 成為 corrected and rechecked DOM 為ㄨㄟˊ"
+  ],
+  "issuesFixed": [
+    "owned voice replay/activity synchronization",
+    "action lock state after early listen",
+    "grade2 ruby direct flex children stacking",
+    "dialog inherited min-height",
+    "scrolling hides close button",
+    "grade2 harbor entry overflow"
+  ],
+  "remaining": [],
+  "limitations": [
+    "No physical iPad tested; responsive viewport tests and native desktop Safari are separate evidence",
+    "Local UI QA provider deliberately delayed 1.8s and returns guided fallback; not proof of live AI",
+    "TTS button/owned speaking animation verified; no claim of exhaustive audible pronunciation audit",
+    "No production child accounts or progress were modified"
+  ],
+  "screenshots": [
+    "tablet-portrait-grade2-fixed.png",
+    "grade2-1024.png",
+    "grade2-1440.png",
+    "phone-320-grade2-dialogue.png",
+    "phone-390-grade1-care.png",
+    "final-integrated-320-companion.png",
+    "production-safari-private-companion.png",
+    "production-safari-private-ai.png"
+  ],
+  "updatedAt": "2026-10-25T07:18:32.934660+00:00",
+  "evidenceRead": [
+    "battle-performance/outputs/tideglow-companion/live-ai-check.json",
+    "battle-performance/server/dragon-provider.mjs",
+    "battle-performance/src/__tests__/dragon-provider.test.mjs"
+  ],
+  "privateLocalEvidence": [
+    "safari-desktop-feed.png is local-only due to unrelated browser tab titles; production-safari-private-* screenshots are clean and included"
+  ],
+  "cleanup": [
+    "Native Safari QA session logged out and its agent-created tab closed",
+    "IAB localhost QA session logged out; tab closed; viewport override reset"
+  ],
+  "release": {
+    "runtime": "16c7f02fcbf8e0eac8c11d2e40870d4818cf4e5b",
+    "railwayDeployment": "67dc60cf-526a-4307-8ef4-2edd1c4f6e60",
+    "url": "https://quintus-star-tide-academy-production.up.railway.app/",
+    "tests": {
+      "files": 83,
+      "passed": 649
+    }
+  },
+  "productionChecks": [
+    "Independent HTTP GET /health returned200 ok:true; production entry /assets/index.v-Dq1_MOt9.js matches local dist",
+    "Native Safari private window, synthetic QA doudou slot: harbor entry opens large companion, pet animation/feedback, unlock and close passed",
+    "Dialogue displayed AI reply after pet: 你的摸摸很溫柔讓我很舒服。想和夥伴一起冒險，還是先休息？",
+    "Publisher confirms JS/CSS/11media hashes and anonymous production-container pet/feed/play live AI all passed"
+  ],
+  "productionIsolation": {
+    "accountType": "synthetic QA household",
+    "slot": "doudou",
+    "changed": "companion conversation only; no questions, inventory, equipment or economy mutations",
+    "discarded": "IAB session changed to a real user due to shared cookie interference; stopped immediately and discarded IAB production evidence",
+    "cleanup": "IAB agent tab closed and viewport reset; native Safari private QA window handed exclusively to island preview verifier for final check/logout/close"
+  },
+  "localScreenshotDirectory": "/Users/dennistclin/.codex/worktrees/feifei-photo/星潮網站開發/outputs/tideglow-acceptance"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "SUCCESS",
+  "deploymentId": "1d4df211-730b-45df-af82-749f242f04a6",
+  "runtimeCommit": "15a54da76c11c0701c0278e4ddbc04ae2a028367",
+  "previousDeployment": "b37756f7-e0cf-43d4-92ad-cd0ab846a1b5",
+  "pullRequests": [
+    11,
+    12,
+    13,
+    14
+  ],
+  "verifiedAt": "2026-10-27T05:59:31.181938+00:00",
+  "url": "https://quintus-star-tide-academy-production.up.railway.app/",
+  "changedFilesVerified": 9,
+  "unchangedMediaSamplesVerified": 6,
+  "priorManifestHashMatches": 1978,
+  "productionBrowserChecks": 4,
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "anonymousStateStatus": 401,
+  "productionPlayerWrites": false,
+  "physicalIPadTested": false,
+  "serverVerification": "Server/build sources hashed in staged artifact; deployment succeeded. Direct remote server-file SHA read unavailable because Railway CLI has no registered SSH key. No key was created."
+}

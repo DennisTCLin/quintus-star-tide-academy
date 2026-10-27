@@ -1,0 +1,37 @@
+{
+  "status": "deployed_and_verified",
+  "changes": [
+    "Remove legacy spell SVG and effect overlays for cinematic moves",
+    "Alternate small moves by actual question index; ultimate only on final correct question",
+    "Keep wrong-answer counterattacks and early failure unchanged",
+    "Keep animation and automatic next-question timing synchronized"
+  ],
+  "verification": {
+    "unitPassed": 783,
+    "databaseTestsSkipped": 171,
+    "build": "PASS",
+    "independentReadOnlyReview": "PASS",
+    "browserReports": [
+      "browser-results.json",
+      "final-wrong-results.json",
+      "arena-results.json"
+    ],
+    "browserChecks": [
+      "Full 6 correct question sequence 1,2,1,2,1,3",
+      "Final incorrect answer does not trigger ultimate",
+      "Practice three mistakes ends without ultimate",
+      "No old SVG above footage",
+      "WebKit shared BattleScene clean overlay and CPU reply"
+    ],
+    "production": "PASS: health, 4 exact bundles, 165 video ranges/posters and 3 complete video hashes"
+  },
+  "mediaChanged": false,
+  "higgsfieldCreditsAdded": 0,
+  "ipadBaseIncluded": "d7cec14",
+  "deploymentId": "11bd00f3-90c9-4eb0-8ae7-9325ee5e5016",
+  "deployedSource": "4df3f84",
+  "rollbackDeployment": "95c0cbf9-60be-427c-8d86-1e26149f5ff2",
+  "verifiedAt": "2026-10-26T05:30:45.898167+00:00",
+  "runtimeReleaseFinished": true,
+  "unchangedAssetsRestoredAndHashVerified": 1706
+}

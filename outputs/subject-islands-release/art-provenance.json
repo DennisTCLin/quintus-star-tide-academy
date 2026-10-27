@@ -1,0 +1,56 @@
+{
+  "provider": "Higgsfield",
+  "approvedCeiling": 18,
+  "quotedCost": 10.25,
+  "reusedApprovedAssets": true,
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "a5bb022e-dea3-4067-9c7e-cc08098a8ee5",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_052655_a5bb022e-dea3-4067-9c7e-cc08098a8ee5.png"
+    },
+    {
+      "index": 1,
+      "job_id": "0e9b9db3-8d48-4252-b79d-48ecca1cf91e",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_052655_0e9b9db3-8d48-4252-b79d-48ecca1cf91e.png"
+    },
+    {
+      "index": 2,
+      "job_id": "702b9401-4bb6-49fd-be9d-c9f01a0813e0",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_052655_702b9401-4bb6-49fd-be9d-c9f01a0813e0.png"
+    },
+    {
+      "index": 3,
+      "job_id": "4cf61b02-2a1d-4169-b6c9-651d1373419e",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_052655_4cf61b02-2a1d-4169-b6c9-651d1373419e.png"
+    },
+    {
+      "index": 4,
+      "job_id": "47afecdb-4161-4777-a86c-9f6cd874e8dd",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_052656_47afecdb-4161-4777-a86c-9f6cd874e8dd.png"
+    },
+    {
+      "index": 5,
+      "job_id": "fc5117e7-6a69-48b8-9231-e296607fa0db",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_052657_fc5117e7-6a69-48b8-9231-e296607fa0db.png"
+    }
+  ]
+}

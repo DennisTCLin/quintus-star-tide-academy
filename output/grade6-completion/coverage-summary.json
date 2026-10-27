@@ -1,0 +1,18 @@
+{
+  "sources": 30,
+  "responseUnits": 1807,
+  "questions": 867,
+  "dispositions": {
+    "included": 865,
+    "open_ended": 61,
+    "missing_passage": 33,
+    "ambiguous": 59,
+    "pending_verification": 1,
+    "duplicate": 788
+  },
+  "byCourse": {
+    "chinese": 380,
+    "social": 180,
+    "science": 307
+  }
+}

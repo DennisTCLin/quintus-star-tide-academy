@@ -1,0 +1,390 @@
+[
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音5",
+    "prompt": "「一碗粥」的「粥」指稀飯，依教育部國語小字典的常用讀音，應讀哪個注音？",
+    "correct": "ㄓㄡ",
+    "wrong": [
+      "ㄓㄡˊ",
+      "ㄓㄡˇ",
+      "ㄓㄡˋ"
+    ],
+    "explanation": "這裡的「粥」讀ㄓㄡ。粥指稀飯；教育部國語小字典列ㄓㄡ。",
+    "verificationURLs": [
+      "https://dict.mini.moe.edu.tw/SearchIndex/word_detail?wordID=D0000322"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音9",
+    "prompt": "「鹽、糖等調味料」中的「鹽」，在這個語境中應讀哪個注音？",
+    "correct": "ㄧㄢˊ",
+    "wrong": [
+      "ㄧㄢ",
+      "ㄧㄢˇ",
+      "ㄧㄢˋ"
+    ],
+    "explanation": "這裡的「鹽」讀ㄧㄢˊ。此處是調味料的名詞，不是古文中醃製食物的動詞。",
+    "verificationURLs": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=11007"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音10",
+    "prompt": "原文說食材經過「刀削」。依教育部國語辭典簡編本，「削」表示用刀切除時的「語音」是哪一個？",
+    "correct": "ㄒㄧㄠ",
+    "wrong": [
+      "ㄒㄧㄠˊ",
+      "ㄒㄧㄠˇ",
+      "ㄒㄧㄠˋ"
+    ],
+    "explanation": "這裡的「削」讀ㄒㄧㄠ。這是用刀切除的語音；題目指定語音，與讀音ㄒㄩㄝˋ區分。",
+    "verificationURLs": [
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=26873"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音12",
+    "prompt": "「熬上一鍋湯」中的「熬」，依教育部國語辭典簡編本的常用讀音，應讀哪個注音？",
+    "correct": "ㄠˊ",
+    "wrong": [
+      "ㄠ",
+      "ㄠˇ",
+      "ㄠˋ"
+    ],
+    "explanation": "這裡的「熬」讀ㄠˊ。熬湯是用小火慢煮。",
+    "verificationURLs": [
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=39594"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音23",
+    "prompt": "「流星劃過天際」中的「劃」，依教育部國語辭典簡編本的常用讀音，應讀哪個注音？",
+    "correct": "ㄏㄨㄚˊ",
+    "wrong": [
+      "ㄏㄨㄚ",
+      "ㄏㄨㄚˇ",
+      "ㄏㄨㄚˋ"
+    ],
+    "explanation": "這裡的「劃」讀ㄏㄨㄚˊ。此處表示擦掠而過，不是計畫或劃分。",
+    "verificationURLs": [
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20161"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音22",
+    "prompt": "鳥類「野雁」中的「雁」，在臺灣國語中應讀哪個注音？",
+    "correct": "ㄧㄢˋ",
+    "wrong": [
+      "ㄧㄢ",
+      "ㄧㄢˊ",
+      "ㄧㄢˇ"
+    ],
+    "explanation": "這裡的「雁」讀ㄧㄢˋ。雁是候鳥名稱。",
+    "verificationURLs": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=11064"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音13",
+    "prompt": "「剖蚵」中的「剖」，依教育部國語辭典簡編本的常用讀音，應讀哪個注音？",
+    "correct": "ㄆㄡˇ",
+    "wrong": [
+      "ㄅㄠ",
+      "ㄆㄠˋ",
+      "ㄆㄨˇ"
+    ],
+    "explanation": "這裡的「剖」讀ㄆㄡˇ。剖指切開；簡編本列ㄆㄡˇ，題幹指定簡編本，不把重編又音混入錯答。",
+    "verificationURLs": [
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=2734"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音13",
+    "prompt": "「拿捏分寸」中的「捏」，依教育部國語辭典簡編本的常用讀音，應讀哪個注音？",
+    "correct": "ㄋㄧㄝ",
+    "wrong": [
+      "ㄋㄧㄝˊ",
+      "ㄋㄧㄝˇ",
+      "ㄋㄧㄝˋ"
+    ],
+    "explanation": "這裡的「捏」讀ㄋㄧㄝ。簡編本「拿捏」標ㄋㄚˊ ㄋㄧㄝ，掌握分寸；未用輕聲作錯答。",
+    "verificationURLs": [
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=12137"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音17",
+    "prompt": "「脫韁野馬」中的「韁」，下列哪個注音是教育部辭典所列的讀音？",
+    "correct": "ㄐㄧㄤ",
+    "wrong": [
+      "ㄐㄧㄤˊ",
+      "ㄐㄧㄤˇ",
+      "ㄐㄧㄤˋ"
+    ],
+    "explanation": "這裡的「韁」讀ㄐㄧㄤ。韁是繫馬的繩子；重編詞條例有脫韁野馬，不把又音ㄍㄤ列為錯答。",
+    "verificationURLs": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=5915"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音23",
+    "prompt": "「嚎叫」中的「嚎」，依教育部國語辭典簡編本的常用讀音，應讀哪個注音？",
+    "correct": "ㄏㄠˊ",
+    "wrong": [
+      "ㄏㄠ",
+      "ㄏㄠˇ",
+      "ㄏㄠˋ"
+    ],
+    "explanation": "「嚎」讀ㄏㄠˊ；簡編本列大聲哭號的意思，原卷以嚎叫描寫風聲。",
+    "verificationURLs": [
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=19412"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音9",
+    "prompt": "「畫作」中的「畫」，依教育部國語辭典簡編本的常用讀音，應讀哪個注音？",
+    "correct": "ㄏㄨㄚˋ",
+    "wrong": [
+      "ㄏㄨㄚ",
+      "ㄏㄨㄚˊ",
+      "ㄏㄨㄚˇ"
+    ],
+    "explanation": "這裡的「畫」讀ㄏㄨㄚˋ。此處畫指圖像。",
+    "verificationURLs": [
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20201"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音8",
+    "prompt": "「怨恨」中的「恨」，依教育部國語辭典簡編本的常用讀音，應讀哪個注音？",
+    "correct": "ㄏㄣˋ",
+    "wrong": [
+      "ㄏㄣ",
+      "ㄏㄣˊ",
+      "ㄏㄣˇ"
+    ],
+    "explanation": "這裡的「恨」讀ㄏㄣˋ。簡編本怨恨標ㄩㄢˋ ㄏㄣˋ；明確指定簡編本且不以輕聲作錯答。",
+    "verificationURLs": [
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=44902"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音3",
+    "prompt": "「結實纍纍」中的「纍」，依教育部國語辭典簡編本的常用讀音，應讀哪個注音？",
+    "correct": "ㄌㄟˊ",
+    "wrong": [
+      "ㄌㄟ",
+      "ㄌㄟˇ",
+      "ㄌㄟˋ"
+    ],
+    "explanation": "這裡的「纍」讀ㄌㄟˊ。纍纍形容果實繁多。",
+    "verificationURLs": [
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=13362"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "七閱讀2",
+    "prompt": "在「病入膏肓」的古代說法中，「膏肓」指哪個部位？",
+    "correct": "心臟與橫膈膜之間",
+    "wrong": [
+      "頭部和頸部之間",
+      "大腿和小腿之間",
+      "肝臟和胃部之間"
+    ],
+    "explanation": "教育部辭典把這個古代用語解釋為心臟與橫膈膜之間；這裡考詞義，並非現代疾病診斷或穴位位置。",
+    "verificationURLs": [
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=16163"
+    ]
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "三綜合9",
+    "prompt": "王羲之的〈蘭亭集序〉以哪一種書體著名？",
+    "correct": "行書",
+    "wrong": [
+      "草書",
+      "小篆",
+      "隸書"
+    ],
+    "explanation": "故宮介紹〈蘭亭序〉時稱其為天下第一行書。",
+    "verificationURLs": [
+      "https://www.npm.gov.tw/Exhibition-Content.aspx?l=1&sno=04010894"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "伍選擇1",
+    "prompt": "〈跑道〉寫道：「名揚愣了一下，隨即也抱著政彬，喘著氣大叫：『我們贏了！我們終於贏了！』」名揚擁抱隊友並說「我們贏了」，最能表現什麼？",
+    "correct": "把勝利視為大家共同努力的成果",
+    "wrong": [
+      "認為只有自己值得獎勵",
+      "認為勝利與隊友無關",
+      "認為比賽完全不需要合作"
+    ],
+    "explanation": "擁抱隊友及反覆說「我們」，呈現分享團隊勝利的心情。",
+    "verificationURLs": []
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "三選擇3",
+    "prompt": "詩句說：「大地，我們的母親也開始了，用芒花編織毛衣，為東北角每座山保暖。」接著又說：「基隆山長得高些，便率先躲進灰白的毛衣裡。」依這個比喻，可推知什麼？",
+    "correct": "較高處的山先出現灰白芒花",
+    "wrong": [
+      "只有基隆山上才有植物",
+      "基隆山每年都會長高",
+      "山真的穿上人類縫製的毛衣"
+    ],
+    "explanation": "毛衣指芒花，率先躲進毛衣表示較早被芒花覆蓋。",
+    "verificationURLs": []
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "三選擇5",
+    "prompt": "詩句說：「大地，我們的母親也開始了，用芒花編織毛衣，為東北角每座山保暖。」接著又說：「基隆山長得高些，便率先躲進灰白的毛衣裡。」哪一項說明符合詩意？",
+    "correct": "芒花的樣貌像灰白毛衣",
+    "wrong": [
+      "山真的因穿上衣服而保暖",
+      "山縮短脖子一定是地層下陷",
+      "大地母親只替基隆山編毛衣"
+    ],
+    "explanation": "前句明說用芒花編織毛衣，這是想像與比喻，不是山真的穿衣。",
+    "verificationURLs": []
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "三填答4",
+    "prompt": "詩句：「讓早起的陽光悄悄的滑下，去輕輕叫喚整個縱谷。」其中哪個詞最明確把陽光寫成人會做的事？",
+    "correct": "叫喚",
+    "wrong": [
+      "整個",
+      "縱谷",
+      "陽光"
+    ],
+    "explanation": "叫喚是呼叫，用在陽光身上，賦予陽光人的動作。",
+    "verificationURLs": []
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇5",
+    "prompt": "哪一組引號中的字，依臺灣國語讀音相同？",
+    "correct": "「強」詞奪理／「強」迫",
+    "wrong": [
+      "「率」領／機「率」",
+      "綢「繆」／「繆」論",
+      "「稱」讚／「稱」心如意"
+    ],
+    "explanation": "強詞奪理與強迫的強都讀ㄑㄧㄤˇ；率為ㄕㄨㄞˋ／ㄌㄩˋ，繆為ㄇㄡˊ／ㄇㄧㄡˋ，稱為ㄔㄥ／ㄔㄥˋ。",
+    "verificationURLs": [
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=25515",
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=25505",
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=35582",
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=21229",
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1207",
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=32269",
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=32445"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二選擇1",
+    "prompt": "哪一組引號中的字，在詞中的讀音相同？",
+    "correct": "揭「露」／流「露」",
+    "wrong": [
+      "生育「率」／「率」先",
+      "未雨綢「繆」／荒「謬」",
+      "「屏」風／「屏」氣凝神"
+    ],
+    "explanation": "揭露、流露的露均讀ㄌㄨˋ。其餘為ㄌㄩˋ／ㄕㄨㄞˋ、ㄇㄡˊ／ㄇㄧㄡˋ、ㄆㄧㄥˊ／ㄅㄧㄥˇ。",
+    "verificationURLs": [
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=22026",
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=14476",
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=26115",
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=1794"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "四字詞句4",
+    "prompt": "以下敘述哪些正確？甲：「耗」的部首是毛。乙：未雨綢「繆」和「繆」論的繆讀音相同。丙：半絲半「縷」和金「縷」衣的縷是同一國字。丁：「恆念物力維艱」沒有錯別字。",
+    "correct": "丙、丁",
+    "wrong": [
+      "甲、丙",
+      "乙、丁",
+      "甲、丁"
+    ],
+    "explanation": "耗屬耒部，不是毛部；綢繆的繆讀ㄇㄡˊ，繆論的繆讀ㄇㄧㄡˋ。丙的字形相同，丁符合格言原句。",
+    "verificationURLs": [
+      "https://dict.concised.moe.edu.tw/dictView.jsp?ID=19503",
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1207",
+      "https://nlc.moe.edu.tw/Upfile/110%E5%B9%B4%E5%85%A8%E5%9C%8B%E8%AA%9E%E6%96%87%E7%AB%B6%E8%B3%BD%E5%AE%A2%E5%AE%B6%E8%AA%9E%E6%9C%97%E8%AE%80%E6%96%87%E7%AB%A0_%E8%A9%94%E5%AE%89%E8%85%94%E7%A4%BE%E6%9C%83%E7%B5%84.pdf"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "三經典填空4-1",
+    "prompt": "格言「學問之功，貴乎（　），經久不輟」勉勵按次序逐步學習。空格應填什麼？",
+    "correct": "循序漸進",
+    "wrong": [
+      "一步登天",
+      "半途而廢",
+      "囫圇吞棗"
+    ],
+    "explanation": "循序漸進表示依一定次序與步驟逐漸推進，與原句相符。",
+    "verificationURLs": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=112614",
+      "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=141&code=106050&q=1&s=0103&t=Q"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "三經典填空4-2",
+    "prompt": "格言「學問之功，貴乎循序漸進，經久（　）」勉勵長久持續學習。空格應填什麼？",
+    "correct": "不輟",
+    "wrong": [
+      "不學",
+      "放棄",
+      "中斷"
+    ],
+    "explanation": "不輟就是不停止；格言要求學習長久持續。",
+    "verificationURLs": [
+      "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=141&code=106050&q=1&s=0103&t=Q"
+    ]
+  }
+]

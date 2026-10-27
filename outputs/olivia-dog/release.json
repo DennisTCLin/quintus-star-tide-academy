@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-26 Asia/Taipei",
+  "route": "Relay: read-only source investigation and independent verification",
+  "sourceCommit": "f97ac5d214325437175c5d2e7630da1a96777ef1",
+  "deployment": "d2eda160-2d7a-4a48-853b-3f9cb8cbe6be",
+  "deploymentStatus": "SUCCESS",
+  "previousDeployment": "b2c2a2aa-500d-469f-9197-4f9e795f730f",
+  "site": "https://quintus-star-tide-academy-production.up.railway.app/",
+  "scope": "Authenticated olivia account, assigned doudou profile, current doudou page only. No saved progress or account schema changes.",
+  "checks": {
+    "build": "PASS",
+    "contentAndPronunciation": "PASS",
+    "tests": "752 passed; 171 database-dependent skipped in default run",
+    "isolatedDatabase": "13 relevant companion voice and guide integration tests passed; disposable database removed",
+    "independentReview": "PASS; fixed guided label retaining old dragon name",
+    "browser": "390/820/1440 widths; care actions, reduced motion, account isolation, fallback, focus, playback/restart, pause/resume passed",
+    "productionFiles": "6 checks passed: health, entry, JS/media hashes, previously released portrait preserved",
+    "productionBrowser": "PASS: production HTML/assets with intercepted synthetic API responses; 390/820/1440 layouts, care, focus, identity isolation, video fallback/playback/restart, pause/resume"
+  },
+  "media": "Higgsfield Seedance 2.5; one five-second greeting animation, 35 credits. See generation.json.",
+  "limitations": [
+    "Care actions replay one greeting animation with contextual UI effects; ten separate character actions were not generated.",
+    "Browser QA uses intercepted synthetic API responses and does not change real child accounts.",
+    "Physical iPad and live speech-provider output were not tested."
+  ],
+  "rollback": "Restore prior Railway deployment; no data migration required."
+}

@@ -1,0 +1,62 @@
+{
+  "scope": "Independent browser and asset verification; local isolated QA only",
+  "assetCheck": {
+    "states": 5,
+    "videoBytes": 436291,
+    "posterBytes": 99180,
+    "width": 480,
+    "height": 480,
+    "fps": 24,
+    "sound": false,
+    "visualChecks": "8 sampled frames per state inspected; genuine fin, eye, head and mouth motion; stable brand identity"
+  },
+  "browserChecks": [
+    {
+      "viewport": 390,
+      "grade": 2,
+      "result": "No horizontal overflow; 97 ruby annotations and none empty; image-choice buttons >=106px high; speech buttons49px"
+    },
+    {
+      "viewport": 320,
+      "grade": 2,
+      "result": "No horizontal overflow in welcome and gacha; duplicate-click draw returned Pebblefin/石礁鰭; reload/player reselect retained same companion and forest preference"
+    },
+    {
+      "viewport": 320,
+      "grade": 1,
+      "result": "No overflow, 0 ruby, picture buttons87x104; separate player did not inherit forest preference; sky choice received genuine AI sentence (before final vocabulary tightening)"
+    },
+    {
+      "viewport": 1440,
+      "grade": 4,
+      "result": "No overflow; welcome.mp4 playing; screenshot saved"
+    }
+  ],
+  "animationChecks": {
+    "gacha": "Observed turning phase and skip control; followed by revealed Pearlreef Badger/珠礁獾 with sky preference",
+    "stateSwitches": [
+      "thinking",
+      "listening",
+      "cheering",
+      "welcome"
+    ],
+    "offscreen": "sceneTop1374 > viewportHeight844; video.paused=true",
+    "reduced": "pause UI removes video and uses welcome-poster.webp; resume restores welcome.mp4",
+    "speaking": "Owner exclusively verifying TTS after inconsistent browser observation; not independently claimed"
+  },
+  "findingsSentAndAddressed": [
+    "Repeated draw rejection spinner",
+    "Observer attached to replaced video DOM",
+    "Account/CSRF remount isolation",
+    "Real contextual sentence generation",
+    "Light bubble ruby contrast",
+    "Starter page motion toggle"
+  ],
+  "remainingOwnerChecks": [
+    "Hover contrast of speech button",
+    "Final limited-vocabulary AI live availability",
+    "Speaking state during actual TTS",
+    "Full suite after merged friends and island changes",
+    "Push and Railway runtime/static deployment verification"
+  ]
+}

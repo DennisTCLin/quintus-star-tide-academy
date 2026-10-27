@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-24",
+  "baseCommit": "dd2680f",
+  "deployment": "Local worktree only; production deployment was not performed.",
+  "scope": {
+    "companionsWithSharedBattleEffects": 55,
+    "companionsWithGeneratedIdleAndAttack": ["tideglow", "pebblefin", "foamferret"],
+    "generatedAtlases": 6,
+    "framesPerAtlas": 24,
+    "generatedArenas": 1,
+    "battleRulesAndServerContractsChanged": false
+  },
+  "validation": {
+    "productionBuild": "passed",
+    "unitTests": { "passed": 148, "skipped": 22, "skipReason": "Database integration tests require TEST_DATABASE_URL." },
+    "browserScenarios": { "passed": 15, "pageErrors": 0, "report": "ui-results.json", "apiMode": "Disposable intercepted fixtures; no real account data changed." },
+    "viewportWidths": [320, 390, 768, 1280, 1440],
+    "rosterImagesPresentAndDecodable": 55,
+    "atlasCellsAudited": 144,
+    "minimumOpaqueCellMarginPixels": 13,
+    "independentVerification": [
+      "Single move on double-click and exactly one CPU reply",
+      "HP changes at impact; KO snapshot remains through settle",
+      "Navigation, duo handoff, logout and new-match timer cleanup",
+      "Correct and wrong battle quizzes preserve their intended effects",
+      "OS reduced-motion toggles never regress phase or HP",
+      "Longest grade-two name remains readable at 320px",
+      "Idle to attack to idle transitions for all three generated companions",
+      "404, undecodable, 1x1, 320x320 and 1920x1279 atlas fallback",
+      "Mixed-grade duo holds the actor reading grade until handoff",
+      "Restart label appears only after the winning presentation finishes"
+    ]
+  },
+  "preview": { "file": "battle-demo.mp4", "durationSeconds": 28.6, "width": 1166, "height": 746 }
+}

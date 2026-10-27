@@ -1,0 +1,10 @@
+{
+  "provider": "Higgsfield",
+  "model": "gpt_image_2_5",
+  "jobId": "d0a81fcd-7687-43ac-98bb-5d39566a14ac",
+  "reference": "/assets/star-tide-dragon.png",
+  "sourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261024_154031_d0a81fcd-7687-43ac-98bb-5d39566a14ac.png",
+  "generation": { "quality": "high", "resolution": "2k", "aspectRatio": "1:1", "background": "transparent", "count": 1 },
+  "delivery": { "file": "star-tide-icons.webp", "width": 768, "height": 768, "alpha": true, "webpQuality": 88 },
+  "layout": [["home", "collection", "leaderboard"], ["lottery", "trade", "battle"], ["parent", null, null]]
+}

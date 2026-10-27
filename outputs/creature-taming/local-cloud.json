@@ -1,0 +1,47 @@
+{
+  "url": "http://127.0.0.1:4242",
+  "isolatedAccount": "qa_taming_e907a7f69dd7",
+  "result": "PASS",
+  "starter": "covegecko",
+  "monster": "golem-scout-water",
+  "capture": {
+    "monster": "golem-scout-water",
+    "chance": 18,
+    "outcome": "escaped"
+  },
+  "monsterHpAfterAnswers": [
+    84,
+    56,
+    28,
+    0,
+    0
+  ],
+  "commandUiRoundTripMs": [
+    143.3,
+    42.9,
+    49.2,
+    48.3,
+    38.9,
+    49.0,
+    39.1,
+    49.4,
+    41.8,
+    49.4,
+    39.7,
+    42.6,
+    48.0
+  ],
+  "checks": [
+    "natural E/D onboarding",
+    "frozen real combat stats",
+    "wrong-answer shield and correction",
+    "five completed answers +50XP and one material pack",
+    "server capture result +quota committed",
+    "cross-device outcome/ownership/materials preserved",
+    "refresh cannot reroll capture",
+    "reward claim remains one star",
+    "next encounter different family and current companion"
+  ],
+  "pageErrors": [],
+  "backgroundSyncRetries": []
+}

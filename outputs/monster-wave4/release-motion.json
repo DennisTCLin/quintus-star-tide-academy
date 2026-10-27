@@ -1,0 +1,482 @@
+[
+  {
+    "engine": "webkit",
+    "index": 9,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 13,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 15,
+    "action": "capture",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 18,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 19,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 23,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 33,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 34,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 42,
+    "action": "idle",
+    "sourceAction": "entrance",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 43,
+    "action": "attack",
+    "sourceAction": "entrance",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 44,
+    "action": "hit",
+    "sourceAction": "entrance",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 49,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 54,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 58,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 63,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 64,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 73,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 74,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 75,
+    "action": "capture",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 83,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 84,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 89,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 98,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 99,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 108,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 109,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 110,
+    "action": "capture",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 133,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 138,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "webkit",
+    "index": 139,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 9,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 13,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 15,
+    "action": "capture",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 18,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 19,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 23,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 33,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 34,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 42,
+    "action": "idle",
+    "sourceAction": "entrance",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 43,
+    "action": "attack",
+    "sourceAction": "entrance",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 44,
+    "action": "hit",
+    "sourceAction": "entrance",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 49,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 54,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 58,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 63,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 64,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 73,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 74,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 75,
+    "action": "capture",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 83,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 84,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 89,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 98,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 99,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 108,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 109,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 110,
+    "action": "capture",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 133,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 138,
+    "action": "attack",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  },
+  {
+    "engine": "chromium",
+    "index": 139,
+    "action": "hit",
+    "sourceAction": "idle",
+    "sameCharacter": true,
+    "idleTransition": true
+  }
+]

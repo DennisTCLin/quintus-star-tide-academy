@@ -1,0 +1,18 @@
+{
+  "url": "http://127.0.0.1:4301",
+  "checks": [
+    "direct mouse grab without prior selection",
+    "grab point retained without jump",
+    "live movement before release",
+    "one undo restores entire gesture; redo restores result",
+    "free movement preserves balances and companions",
+    "release outside room clamps safely",
+    "touch movement via Chrome touch input",
+    "touch does not scroll page",
+    "touch cancel restores saved position",
+    "cross-device login and reload preserve final coordinates",
+    "fine-position controls secondary and collapsed"
+  ],
+  "pageErrors": [],
+  "scope": "isolated QA account; emulated touch, not a physical phone"
+}

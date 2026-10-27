@@ -1,0 +1,96 @@
+{
+  "url": "http://127.0.0.1:4242",
+  "scope": "Isolated API fixtures; no real player writes",
+  "checks": [
+    {
+      "case": [
+        1,
+        390,
+        844,
+        "fresh"
+      ],
+      "result": "PASS",
+      "onlyOneAnswerAndNext": true,
+      "dockInViewport": {
+        "x": 0,
+        "y": 736.203125,
+        "width": 390,
+        "height": 107.796875
+      }
+    },
+    {
+      "case": [
+        2,
+        320,
+        740,
+        "fresh"
+      ],
+      "result": "PASS",
+      "onlyOneAnswerAndNext": true,
+      "dockInViewport": {
+        "x": 0,
+        "y": 610.5,
+        "width": 320,
+        "height": 129.5
+      }
+    },
+    {
+      "case": [
+        4,
+        1280,
+        900,
+        "fresh"
+      ],
+      "result": "PASS",
+      "onlyOneAnswerAndNext": true,
+      "dockInViewport": {
+        "x": 190,
+        "y": 820,
+        "width": 900,
+        "height": 80
+      }
+    },
+    {
+      "case": [
+        1,
+        1024,
+        768,
+        "active"
+      ],
+      "result": "PASS",
+      "onlyOneAnswerAndNext": true,
+      "dockInViewport": {
+        "x": 62,
+        "y": 688,
+        "width": 900,
+        "height": 80
+      }
+    },
+    {
+      "case": [
+        1,
+        820,
+        1180,
+        "pending"
+      ],
+      "result": "PASS"
+    },
+    {
+      "case": [
+        2,
+        320,
+        740,
+        "picture"
+      ],
+      "result": "PASS",
+      "onlyOneAnswerAndNext": true,
+      "dockInViewport": {
+        "x": 0,
+        "y": 610.5,
+        "width": 320,
+        "height": 129.5
+      }
+    }
+  ],
+  "pageErrors": []
+}

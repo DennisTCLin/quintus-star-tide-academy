@@ -1,0 +1,244 @@
+{
+  "pass": true,
+  "engine": "WebKit iPhone 13 / iPad gen7 emulation, real local PostgreSQL/API",
+  "physicalDevice": false,
+  "productionAccountsUsed": false,
+  "checks": [
+    {
+      "name": "Two authenticated mobile/tablet accounts see each other online",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Lost invite response retries the original command",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Recipient receives exactly the committed invitation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Lost accept response retries once and resumes the active battle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Both clients resume the same room",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Offline immediately pauses battle controls",
+      "pass": true,
+      "detail": {
+        "navigatorOnline": false,
+        "attackDisabled": true,
+        "reconnecting": true
+      }
+    },
+    {
+      "name": "Reconnect restores the same turn without sending a move",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Late successful poll cannot re-enable controls after offline",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Lost move response cannot apply damage twice",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Retry preserves committed round and health",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Gateway failure after commit retains an idempotent retry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Gateway retry leaves committed damage unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 0 reload resumes the persisted room",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Client 1 reload resumes the persisted room",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Battle dialog fits 320x640",
+      "pass": true,
+      "detail": {
+        "document": 320,
+        "viewport": 320,
+        "client": 294,
+        "scroll": 294,
+        "left": 12,
+        "right": 308,
+        "top": 16,
+        "bottom": 624,
+        "height": 640,
+        "stage": {
+          "width": 238,
+          "height": 630.90625
+        },
+        "hudClear": true,
+        "caption": true,
+        "minButton": 52
+      }
+    },
+    {
+      "name": "Small-phone battle characters remain visible after scrolling",
+      "pass": true,
+      "detail": [
+        {
+          "width": 113.265625,
+          "height": 180,
+          "visibleHeight": 180
+        },
+        {
+          "width": 113.265625,
+          "height": 180,
+          "visibleHeight": 180
+        }
+      ]
+    },
+    {
+      "name": "Battle dialog fits 390x844",
+      "pass": true,
+      "detail": {
+        "document": 390,
+        "viewport": 390,
+        "client": 364,
+        "scroll": 364,
+        "left": 12,
+        "right": 378,
+        "top": 16,
+        "bottom": 828,
+        "height": 844,
+        "stage": {
+          "width": 308,
+          "height": 590.15625
+        },
+        "hudClear": true,
+        "caption": true,
+        "minButton": 52
+      }
+    },
+    {
+      "name": "Battle dialog fits 768x1024",
+      "pass": true,
+      "detail": {
+        "document": 768,
+        "viewport": 768,
+        "client": 742,
+        "scroll": 742,
+        "left": 12,
+        "right": 756,
+        "top": 16,
+        "bottom": 1008,
+        "height": 1024,
+        "stage": {
+          "width": 654,
+          "height": 554.9375
+        },
+        "hudClear": true,
+        "caption": true,
+        "minButton": 52
+      }
+    },
+    {
+      "name": "Battle dialog fits 1024x768",
+      "pass": true,
+      "detail": {
+        "document": 1024,
+        "viewport": 1024,
+        "client": 878,
+        "scroll": 878,
+        "left": 72,
+        "right": 952,
+        "top": 16,
+        "bottom": 752,
+        "height": 768,
+        "stage": {
+          "width": 790,
+          "height": 634.53125
+        },
+        "hudClear": true,
+        "caption": true,
+        "minButton": 52
+      }
+    },
+    {
+      "name": "Natural match completion agrees on both clients",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Both participants can dismiss the completed match",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Tablet can invite phone and phone can accept",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Tablet reconnect and reload retain reverse-invitation room",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Reverse match naturally completes and agrees on both clients",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Matches and retries leave learning progress and rewards unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Only one receipt exists per committed move",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No application JavaScript exception",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "diagnostics": [
+    {
+      "client": 0,
+      "name": "Fetch API cannot load http",
+      "message": "/127.0.0.1:4312/api/state due to access control checks."
+    },
+    {
+      "client": 1,
+      "name": "Fetch API cannot load http",
+      "message": "/127.0.0.1:4312/api/state due to access control checks."
+    },
+    {
+      "client": 1,
+      "name": "Fetch API cannot load http",
+      "message": "/127.0.0.1:4312/api/state due to access control checks."
+    }
+  ],
+  "roomCount": 2
+}

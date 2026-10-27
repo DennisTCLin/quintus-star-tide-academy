@@ -1,0 +1,67 @@
+{
+  "off": {
+    "art": [
+      {
+        "class": "duel-energy",
+        "html": "<i class=\"filled\"></i><i class=\"\"></i><i class=\"\"></i>",
+        "label": "能量 1，最多 3"
+      },
+      {
+        "class": "duel-energy",
+        "html": "<i class=\"filled\"></i><i class=\"\"></i><i class=\"\"></i>",
+        "label": "能量 1，最多 3"
+      },
+      {
+        "class": "duel-art",
+        "html": "<img src=\"/assets/tideglow-companion.png?v=ba59a555c79c\" alt=\"\" draggable=\"false\">",
+        "label": "潮光獸"
+      },
+      {
+        "class": "duel-art",
+        "html": "<img src=\"/assets/companions/pebblefin.webp?v=c2ae6c567473\" alt=\"\" draggable=\"false\">",
+        "label": "石礁鰭"
+      }
+    ],
+    "bounds": {
+      "bottom": -226.625,
+      "height": 340,
+      "left": 27,
+      "right": 293,
+      "top": -566.625,
+      "width": 266,
+      "x": 27,
+      "y": -566.625
+    },
+    "class": "duel-stage battle-field theme-2 phase-idle action-idle duel-reduced ",
+    "hud": "潮光獸💧 水稀有度E級Lv.2ATK 24 · DEF 990 / 108石礁鰭⛰️ 土稀有度E級Lv.1ATK 22 · DEF 880 / 100",
+    "phase": "idle",
+    "round": "3"
+  },
+  "on": {
+    "art": [
+      {
+        "class": "duel-art",
+        "html": "<span class=\"duel-spritesheet\" style=\"background-image: url(&quot;/assets/battle/tideglow-idle.webp?v=01767464c8a8&quot;); background-size: 600% 400%; background-position: 60% 0%;\"></span>"
+      },
+      {
+        "class": "duel-art",
+        "html": "<span class=\"duel-spritesheet\" style=\"background-image: url(&quot;/assets/battle/pebblefin-idle.webp?v=86a0f2fb8e9c&quot;); background-size: 600% 400%; background-position: 60% 0%;\"></span>"
+      }
+    ],
+    "bounds": {
+      "bottom": 539.875,
+      "height": 340,
+      "left": 27,
+      "right": 293,
+      "top": 199.875,
+      "width": 266,
+      "x": 27,
+      "y": 199.875
+    },
+    "class": "duel-stage battle-field theme-2 phase-idle action-idle  ",
+    "hud": "潮光獸💧 水稀有度E級Lv.2ATK 24 · DEF 990 / 108石礁鰭⛰️ 土稀有度E級Lv.1ATK 22 · DEF 880 / 100",
+    "phase": "idle",
+    "round": "3"
+  },
+  "limit": "Attack settled after user and CPU move at round3. App scroll restored stage during playback; not evidence whole attack stayed offscreen. Off/on after settled preserved HUD/round. Clip may restart visually within same move; no engine replay."
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "sourceTag": "english1",
+    "page": 2,
+    "locator": "F4",
+    "prompt": "____ Andy from Korea? No, he ____.",
+    "correct": "Is / isn’t",
+    "wrong": [
+      "Does / doesn’t",
+      "Are / aren’t",
+      "Is / doesn’t"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "be from 用來問來自哪裡；Andy 與 he 都用單數 is。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english1",
+    "page": 2,
+    "locator": "F5",
+    "prompt": "____ you from Taiwan? Yes, we ____.",
+    "correct": "Are / are",
+    "wrong": [
+      "Is / is",
+      "Do / do",
+      "Does / does"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "you 與 we 搭配 are，詢問來自哪裡用 be from。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english1",
+    "page": 2,
+    "locator": "F6",
+    "prompt": "____ Juliet go to school by boat? Yes, she ____.",
+    "correct": "Does / does",
+    "wrong": [
+      "Do / do",
+      "Is / is",
+      "Does / do"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "Juliet 與 she 是第三人稱單數，問交通習慣用 does。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english1",
+    "page": 2,
+    "locator": "G2",
+    "prompt": "「日本」的英文名稱是哪個？",
+    "correct": "Japan",
+    "wrong": [
+      "India",
+      "Taiwan",
+      "Spain"
+    ],
+    "hint": "國家名稱的第一個字母通常大寫。",
+    "explanation": "「日本」的英文是 Japan。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english1",
+    "page": 2,
+    "locator": "G3",
+    "prompt": "「新加坡」的英文名稱是哪個？",
+    "correct": "Singapore",
+    "wrong": [
+      "Spain",
+      "Japan",
+      "Australia"
+    ],
+    "hint": "國家名稱的第一個字母通常大寫。",
+    "explanation": "「新加坡」的英文是 Singapore。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english1",
+    "page": 2,
+    "locator": "G6",
+    "prompt": "「英國」的英文名稱是哪個？",
+    "correct": "the UK",
+    "wrong": [
+      "the USA",
+      "India",
+      "Japan"
+    ],
+    "hint": "國家名稱的第一個字母通常大寫。",
+    "explanation": "「英國」的英文是 the UK。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english1",
+    "page": 2,
+    "locator": "G8",
+    "prompt": "「美國」的英文名稱是哪個？",
+    "correct": "the USA",
+    "wrong": [
+      "the UK",
+      "Australia",
+      "Singapore"
+    ],
+    "hint": "國家名稱的第一個字母通常大寫。",
+    "explanation": "「美國」的英文是 the USA。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "E1",
+    "prompt": "「臺灣」的英文名稱是哪個？",
+    "correct": "Taiwan",
+    "wrong": [
+      "Thailand",
+      "Japan",
+      "Spain"
+    ],
+    "hint": "國家名稱的第一個字母通常大寫。",
+    "explanation": "「臺灣」的英文是 Taiwan。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "E2",
+    "prompt": "「澳洲」的英文名稱是哪個？",
+    "correct": "Australia",
+    "wrong": [
+      "Austria",
+      "India",
+      "Japan"
+    ],
+    "hint": "國家名稱的第一個字母通常大寫。",
+    "explanation": "「澳洲」的英文是 Australia。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "E3",
+    "prompt": "「印度」的英文名稱是哪個？",
+    "correct": "India",
+    "wrong": [
+      "Italy",
+      "Spain",
+      "Australia"
+    ],
+    "hint": "國家名稱的第一個字母通常大寫。",
+    "explanation": "「印度」的英文是 India。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "E4",
+    "prompt": "「西班牙」的英文名稱是哪個？",
+    "correct": "Spain",
+    "wrong": [
+      "Singapore",
+      "Japan",
+      "the UK"
+    ],
+    "hint": "國家名稱的第一個字母通常大寫。",
+    "explanation": "「西班牙」的英文是 Spain。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english1",
+    "page": 3,
+    "locator": "H3",
+    "prompt": "已知她搭公車上學。Does she go to school by MRT? 哪個回答符合資料？",
+    "correct": "No, she doesn’t. She goes to school by bus.",
+    "wrong": [
+      "Yes, she does. She goes to school by MRT.",
+      "No, she isn’t. She is a bus.",
+      "Yes, she do. She go to school by boat."
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "搭公車是 by bus；Does she 的否定簡答用 No, she doesn’t。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english1",
+    "page": 3,
+    "locator": "H4",
+    "prompt": "已知她來自澳洲。Is she from Korea? No, she ____. She ____ from Australia.",
+    "correct": "isn’t / is",
+    "wrong": [
+      "doesn’t / does",
+      "aren’t / are",
+      "is / isn’t"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "否定來自韓國用 isn’t；肯定來自澳洲用 is。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english1",
+    "page": 3,
+    "locator": "H5",
+    "prompt": "提示：Juliet 搭船上學。How does Juliet go to school?",
+    "correct": "She goes to school by boat.",
+    "wrong": [
+      "She goes to school by bus.",
+      "She goes to school on foot.",
+      "She goes to school by bike."
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "搭船的交通方式為 by boat。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english1",
+    "page": 3,
+    "locator": "H6",
+    "prompt": "提示：他來自新加坡。Where is he from?",
+    "correct": "He is from Singapore.",
+    "wrong": [
+      "He is from Spain.",
+      "He goes to Singapore.",
+      "He is from Japan."
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "問來自哪裡用 Where is he from?，答 He is from 加國家。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english2",
+    "page": 2,
+    "locator": "Fe",
+    "prompt": "____ you from Taiwan? Yes, we ____.（注意句首大小寫）",
+    "correct": "Are / are",
+    "wrong": [
+      "Is / is",
+      "are / are",
+      "Are / is"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "句首 Are 首字母大寫；we 使用 are。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english2",
+    "page": 2,
+    "locator": "Ff",
+    "prompt": "____ Owen and Danny go to school by train? Yes, they ____.",
+    "correct": "Do / do",
+    "wrong": [
+      "Does / do",
+      "Does / does",
+      "Are / are"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "Owen and Danny 是複數主詞，交通習慣問答用 Do / do。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english2",
+    "page": 2,
+    "locator": "Fg",
+    "prompt": "____ Raju from India? Yes, he ____.",
+    "correct": "Is / is",
+    "wrong": [
+      "Where / is",
+      "Are / are",
+      "Does / does"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "Raju 是一個人，be from 問句與 he 簡答都用 is。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english2",
+    "page": 2,
+    "locator": "G1",
+    "prompt": "交通統計：全班40人，12人步行、6人搭汽車、10人搭公車、4人騎腳踏車、8人搭機車。\nTwelve students travel ____. 選出符合統計的交通方式。",
+    "correct": "on foot",
+    "wrong": [
+      "by bus",
+      "by car",
+      "by bike"
+    ],
+    "hint": "依人數查交通方式，再用正確英文表示。",
+    "explanation": "Twelve 對應的交通方式是 on foot。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english2",
+    "page": 2,
+    "locator": "G2",
+    "prompt": "交通統計：全班40人，12人步行、6人搭汽車、10人搭公車、4人騎腳踏車、8人搭機車。\nSix students travel ____. 選出符合統計的交通方式。",
+    "correct": "by car",
+    "wrong": [
+      "by bus",
+      "on foot",
+      "by train"
+    ],
+    "hint": "依人數查交通方式，再用正確英文表示。",
+    "explanation": "Six 對應的交通方式是 by car。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english2",
+    "page": 2,
+    "locator": "G3",
+    "prompt": "交通統計：全班40人，12人步行、6人搭汽車、10人搭公車、4人騎腳踏車、8人搭機車。\nTen students travel ____. 選出符合統計的交通方式。",
+    "correct": "by bus",
+    "wrong": [
+      "by car",
+      "by bike",
+      "on foot"
+    ],
+    "hint": "依人數查交通方式，再用正確英文表示。",
+    "explanation": "Ten 對應的交通方式是 by bus。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english2",
+    "page": 2,
+    "locator": "G4",
+    "prompt": "交通統計：全班40人，12人步行、6人搭汽車、10人搭公車、4人騎腳踏車、8人搭機車。\nFour students travel ____. 選出符合統計的交通方式。",
+    "correct": "by bike",
+    "wrong": [
+      "by boat",
+      "by car",
+      "by plane"
+    ],
+    "hint": "依人數查交通方式，再用正確英文表示。",
+    "explanation": "Four 對應的交通方式是 by bike。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english2",
+    "page": 2,
+    "locator": "G5",
+    "prompt": "交通統計：全班40人，12人步行、6人搭汽車、10人搭公車、4人騎腳踏車、8人搭機車。\nEight students travel ____. 選出符合統計的交通方式。",
+    "correct": "by scooter",
+    "wrong": [
+      "by train",
+      "by bus",
+      "on foot"
+    ],
+    "hint": "依人數查交通方式，再用正確英文表示。",
+    "explanation": "Eight 對應的交通方式是 by scooter。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english3",
+    "page": 2,
+    "locator": "VIII1",
+    "prompt": "提示：Joe 步行上學。____ do you go to school, Joe? I go to school ____.",
+    "correct": "How / on foot",
+    "wrong": [
+      "What / by foot",
+      "Where / on foot",
+      "How / by car"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "問方式用 How，步行用 on foot。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english3",
+    "page": 2,
+    "locator": "VIII2",
+    "prompt": "提示：Jack 來自印度。Where ____ you from, Jack? I ____ from India.",
+    "correct": "are / am",
+    "wrong": [
+      "is / is",
+      "are / is",
+      "am / are"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "you 搭配 are，I 搭配 am。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english3",
+    "page": 2,
+    "locator": "VIII3",
+    "prompt": "提示：他們搭機車上學。They go to school ____.",
+    "correct": "by scooter",
+    "wrong": [
+      "on scooter",
+      "by foot",
+      "by bus"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "搭機車用 by scooter；by 後直接接交通工具。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english3",
+    "page": 2,
+    "locator": "VIII4-country",
+    "prompt": "提示：Cindy 來自西班牙。Where’s Cindy from? She ____ from Spain.",
+    "correct": "is",
+    "wrong": [
+      "are",
+      "do",
+      "does"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "Cindy 與 she 為第三人稱單數，搭配 is。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english3",
+    "page": 2,
+    "locator": "VIII4-transport",
+    "prompt": "Cindy 騎腳踏車上學，不搭火車。Does she go to school by train?",
+    "correct": "No, she doesn’t. She goes to school by bike.",
+    "wrong": [
+      "Yes, she does. She goes to school by train.",
+      "No, she isn’t. She goes by train.",
+      "No, she don’t. She go to school by bike."
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "否定交通習慣用 doesn’t，肯定句 She goes 加 by bike。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english3",
+    "page": 3,
+    "locator": "IX5",
+    "prompt": "回答是：No. They’re from the UK. 應選哪個問句？",
+    "correct": "Are they from the USA?",
+    "wrong": [
+      "Are they from the UK?",
+      "Do they go to school by bus?",
+      "Where do they go?"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "否定來自美國，再說明他們來自英國，前後相符。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english3",
+    "page": 3,
+    "locator": "X1-country",
+    "prompt": "班級資料：日本6人搭計程車、美國4人搭飛機、臺灣2人搭汽車、澳洲3人搭火車、加拿大5人搭公車。\nThree students are from ____.",
+    "correct": "Australia",
+    "wrong": [
+      "Japan",
+      "Taiwan",
+      "Canada"
+    ],
+    "hint": "依資料中的國家、人數和交通方式交叉核對。",
+    "explanation": "3人來自澳洲 Australia。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english3",
+    "page": 3,
+    "locator": "X1-transport",
+    "prompt": "班級資料：日本6人搭計程車、美國4人搭飛機、臺灣2人搭汽車、澳洲3人搭火車、加拿大5人搭公車。\nThe three students from Australia go to school ____.",
+    "correct": "by train",
+    "wrong": [
+      "by car",
+      "by taxi",
+      "by plane"
+    ],
+    "hint": "依資料中的國家、人數和交通方式交叉核對。",
+    "explanation": "澳洲3人搭火車，搭火車用 by train。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english3",
+    "page": 3,
+    "locator": "X2-country",
+    "prompt": "班級資料：日本6人搭計程車、美國4人搭飛機、臺灣2人搭汽車、澳洲3人搭火車、加拿大5人搭公車。\nSix students are from ____.",
+    "correct": "Japan",
+    "wrong": [
+      "Australia",
+      "Canada",
+      "the USA"
+    ],
+    "hint": "依資料中的國家、人數和交通方式交叉核對。",
+    "explanation": "6人來自日本 Japan。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english3",
+    "page": 3,
+    "locator": "X3-number",
+    "prompt": "班級資料：日本6人搭計程車、美國4人搭飛機、臺灣2人搭汽車、澳洲3人搭火車、加拿大5人搭公車。\n____ students are from the USA.",
+    "correct": "Four",
+    "wrong": [
+      "Two",
+      "Three",
+      "Six"
+    ],
+    "hint": "依資料中的國家、人數和交通方式交叉核對。",
+    "explanation": "美國那一組有4人，英文為 Four。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english3",
+    "page": 3,
+    "locator": "X4-country",
+    "prompt": "班級資料：日本6人搭計程車、美國4人搭飛機、臺灣2人搭汽車、澳洲3人搭火車、加拿大5人搭公車。\nMary and Tina are the two students who go by car. They are from ____.",
+    "correct": "Taiwan",
+    "wrong": [
+      "Canada",
+      "Japan",
+      "Australia"
+    ],
+    "hint": "依資料中的國家、人數和交通方式交叉核對。",
+    "explanation": "搭汽車的2人來自臺灣。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english4",
+    "page": 2,
+    "locator": "IV1",
+    "prompt": "Where is ____ from?",
+    "correct": "Miss Shen",
+    "wrong": [
+      "you",
+      "they",
+      "we"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "is 搭配單數 Miss Shen。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english4",
+    "page": 2,
+    "locator": "IV2",
+    "prompt": "Are ____ from Taiwan?",
+    "correct": "you",
+    "wrong": [
+      "he",
+      "she",
+      "it"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "are 可搭配 you，其他所列單數代名詞用 is。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english4",
+    "page": 2,
+    "locator": "IV3",
+    "prompt": "Where ____ Dino and Kevin from?",
+    "correct": "are",
+    "wrong": [
+      "is",
+      "am",
+      "does"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "兩個人為複數，使用 are。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english4",
+    "page": 2,
+    "locator": "IV4",
+    "prompt": "____ she go home by bike?",
+    "correct": "Does",
+    "wrong": [
+      "Are",
+      "Do",
+      "Is"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "問第三人稱單數的交通習慣用 Does。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english4",
+    "page": 2,
+    "locator": "IV5",
+    "prompt": "____ Jim ____ to school by scooter?",
+    "correct": "Does / go",
+    "wrong": [
+      "Does / goes",
+      "Do / go",
+      "Is / go"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "Jim 為單數；Does 後的動詞用原形 go。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english4",
+    "page": 2,
+    "locator": "IV6",
+    "prompt": "Do you go home by taxi? No, I ____.",
+    "correct": "don’t",
+    "wrong": [
+      "am",
+      "do",
+      "doesn’t"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "Do you 問句的否定簡答是 No, I don’t。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english4",
+    "page": 2,
+    "locator": "V1",
+    "prompt": "提示：她來自日本。____ is she from? She is from Japan.",
+    "correct": "Where",
+    "wrong": [
+      "How",
+      "What",
+      "Who"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "問來自哪裡用 Where。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english4",
+    "page": 2,
+    "locator": "V2",
+    "prompt": "答句：They go to school on foot. 哪個問句在問同一件事？",
+    "correct": "How do they go to school?",
+    "wrong": [
+      "Where are they from?",
+      "What do they want?",
+      "What day is today?"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "on foot 回答交通方式，所以問 How do they go to school?。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english4",
+    "page": 2,
+    "locator": "V3",
+    "prompt": "提示：你要表達「我來自印度」。Where are you from?",
+    "correct": "I am from India.",
+    "wrong": [
+      "I am go India.",
+      "I are from India.",
+      "I go to India."
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "I am from 加國家，表示自己來自哪裡。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "E5",
+    "prompt": "「從……來」的正確英文是哪個？",
+    "correct": "from",
+    "wrong": [
+      "for",
+      "form",
+      "front"
+    ],
+    "hint": "分辨 from 與 form 的拼字與意思。",
+    "explanation": "「從……來」可寫作 from。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "E6",
+    "prompt": "「搭火車」的正確英文是哪個？",
+    "correct": "by train",
+    "wrong": [
+      "on train",
+      "by foot",
+      "by plane"
+    ],
+    "hint": "交通工具前通常用 by；走路用 on foot。",
+    "explanation": "「搭火車」可寫作 by train。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "E7",
+    "prompt": "「搭計程車」的正確英文是哪個？",
+    "correct": "by taxi",
+    "wrong": [
+      "by train",
+      "on taxi",
+      "by boat"
+    ],
+    "hint": "交通工具前通常用 by；走路用 on foot。",
+    "explanation": "「搭計程車」可寫作 by taxi。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "E8",
+    "prompt": "「搭機車」的正確英文是哪個？",
+    "correct": "by scooter",
+    "wrong": [
+      "on scooter",
+      "by school",
+      "by train"
+    ],
+    "hint": "交通工具前通常用 by；走路用 on foot。",
+    "explanation": "「搭機車」可寫作 by scooter。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "E9",
+    "prompt": "「搭飛機」的正確英文是哪個？",
+    "correct": "by plane",
+    "wrong": [
+      "by plant",
+      "on plane",
+      "by train"
+    ],
+    "hint": "交通工具前通常用 by；走路用 on foot。",
+    "explanation": "「搭飛機」可寫作 by plane。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "E10",
+    "prompt": "「走路」的正確英文是哪個？",
+    "correct": "on foot",
+    "wrong": [
+      "by foot",
+      "on feet",
+      "by feet"
+    ],
+    "hint": "交通工具前通常用 by；走路用 on foot。",
+    "explanation": "「走路」可寫作 on foot。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "F4",
+    "prompt": "____ the singers from Italy?",
+    "correct": "Are",
+    "wrong": [
+      "Is",
+      "Am",
+      "Does"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "the singers 是複數，be 動詞使用 Are。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "F5",
+    "prompt": "The sailor ____ to Kaohsiung by HSR.",
+    "correct": "goes",
+    "wrong": [
+      "go",
+      "going",
+      "not go"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "The sailor 是第三人稱單數，一般現在式 go 變 goes。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "F6",
+    "prompt": "How ____ your friends go to the park?",
+    "correct": "do",
+    "wrong": [
+      "are",
+      "does",
+      "is"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "your friends 是複數，問交通習慣用 do。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "F7",
+    "prompt": "以第三人稱描述 Eric and Betty：____ go to school by bus.",
+    "correct": "They",
+    "wrong": [
+      "He",
+      "She",
+      "It"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "Eric and Betty 兩人可用 They 代替。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "F8",
+    "prompt": "____ are you from?",
+    "correct": "Where",
+    "wrong": [
+      "How",
+      "Who",
+      "What"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "問來自哪個國家用 Where are you from?。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "G2",
+    "prompt": "提示：兩位老師來自新加坡，不是英國。Are the teachers from the UK?",
+    "correct": "No, they aren’t. They are from Singapore.",
+    "wrong": [
+      "Yes, they are. They are from the UK.",
+      "No, he isn’t. He is from Singapore.",
+      "No, they don’t. They go to Singapore."
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "兩位老師使用 they；be from 的否定簡答用 aren’t。",
+    "unit": 1
+  },
+  {
+    "sourceTag": "english5",
+    "page": 2,
+    "locator": "G3",
+    "prompt": "提示：他搭捷運上班。How ____ he go to work? He ____ to work by MRT.",
+    "correct": "does / goes",
+    "wrong": [
+      "do / go",
+      "does / go",
+      "is / goes"
+    ],
+    "hint": "先看主詞，再判斷問國家或交通方式的句型。",
+    "explanation": "問句第三人稱單數用 does；肯定句 He 後用 goes。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english5",
+    "page": 3,
+    "locator": "H1-country",
+    "prompt": "Read: Kenji is from Japan. He lives in Taipei with his grandparents. His friend Mike is from the USA. They go to the same school. Kenji usually goes to school by bus, and Mike usually goes by car. On Fridays they both go by bike. Today is Friday.\nWhere is Kenji from?",
+    "correct": "Japan",
+    "wrong": [
+      "Taiwan",
+      "the USA",
+      "the UK"
+    ],
+    "hint": "分清楚來自哪裡、住哪裡，以及平常與今天的交通方式。",
+    "explanation": "文章明說 Kenji 來自日本，住臺北不等於來自臺灣。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english5",
+    "page": 3,
+    "locator": "H2-country",
+    "prompt": "Read: Kenji is from Japan. He lives in Taipei with his grandparents. His friend Mike is from the USA. They go to the same school. Kenji usually goes to school by bus, and Mike usually goes by car. On Fridays they both go by bike. Today is Friday.\nWhere is Mike from?",
+    "correct": "the USA",
+    "wrong": [
+      "Japan",
+      "Taiwan",
+      "India"
+    ],
+    "hint": "分清楚來自哪裡、住哪裡，以及平常與今天的交通方式。",
+    "explanation": "文章說 Mike 來自美國。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english5",
+    "page": 3,
+    "locator": "H4",
+    "prompt": "Read: Kenji is from Japan. He lives in Taipei with his grandparents. His friend Mike is from the USA. They go to the same school. Kenji usually goes to school by bus, and Mike usually goes by car. On Fridays they both go by bike. Today is Friday.\nHow does Mike usually go to school?",
+    "correct": "By car.",
+    "wrong": [
+      "By bus.",
+      "On foot.",
+      "By train."
+    ],
+    "hint": "分清楚來自哪裡、住哪裡，以及平常與今天的交通方式。",
+    "explanation": "usually 問平常習慣，Mike 平常搭汽車。",
+    "unit": 2
+  },
+  {
+    "sourceTag": "english5",
+    "page": 3,
+    "locator": "H5",
+    "prompt": "Read: Kenji is from Japan. He lives in Taipei with his grandparents. His friend Mike is from the USA. They go to the same school. Kenji usually goes to school by bus, and Mike usually goes by car. On Fridays they both go by bike. Today is Friday.\nHow do Kenji and Mike go to school today?",
+    "correct": "By bike.",
+    "wrong": [
+      "By bus.",
+      "By car.",
+      "By plane."
+    ],
+    "hint": "分清楚來自哪裡、住哪裡，以及平常與今天的交通方式。",
+    "explanation": "今天星期五，兩人都騎腳踏車。",
+    "unit": 2
+  }
+]

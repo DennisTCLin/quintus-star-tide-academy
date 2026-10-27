@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "base": "6fbd059",
+  "build": "PASS (content audit, pronunciation, TypeScript, Vite, server)",
+  "fullSuite": {
+    "files": 129,
+    "tests": 937,
+    "isolatedPostgres": true,
+    "status": "PASS"
+  },
+  "focused": {
+    "files": 4,
+    "tests": 26,
+    "status": "PASS"
+  },
+  "browserChecks": 62,
+  "engines": [
+    "modern WebKit",
+    "Chromium"
+  ],
+  "independentReview": "PASS including integration with 6fbd059",
+  "physicalIPadOS1541": "NOT TESTED",
+  "dataMigration": false,
+  "mediaAssetsChanged": false,
+  "integrationBrowserChecks": 11
+}

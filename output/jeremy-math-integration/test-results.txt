@@ -1,0 +1,384 @@
+Full default suite
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  125 passed | 22 skipped (147)
+      Tests  859 passed | 177 skipped (1036)
+   Start at  19:26:36
+   Duration  9.83s (tests 47%, import 41%, transform 11%, worker 1%)
+
+    Isolate  147 workers spawned · ~84ms startup each (spawn + environment, per file)
+             at least ~868ms faster with isolate: false — reuses workers across files instead of one per file
+
+
+
+admin-access.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/admin-access.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  17 passed (17)
+   Start at  19:12:59
+   Duration  6.23s (tests 96%, import 3%, transform 1%)
+
+
+
+admin-console.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/admin-console.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  16 passed (16)
+   Start at  19:12:59
+   Duration  4.70s (tests 94%, import 4%, transform 2%)
+
+
+
+admin-live-reports.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/admin-live-reports.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  10 passed (10)
+   Start at  19:12:59
+   Duration  2.80s (tests 90%, import 7%, transform 3%)
+
+
+
+capture-cloud.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/capture-cloud.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  7 passed (7)
+   Start at  19:13:03
+   Duration  2.78s (tests 90%, import 7%, transform 3%)
+
+
+
+child-account.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/child-account.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  6 passed (6)
+   Start at  19:13:04
+   Duration  5.61s (tests 95%, import 3%, transform 1%)
+
+
+
+cloud.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/cloud.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  27 passed (27)
+   Start at  19:13:06
+   Duration  6.64s (tests 96%, import 3%, transform 1%)
+
+
+
+companion-voice-cloud.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/companion-voice-cloud.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  7 passed (7)
+   Start at  19:13:06
+   Duration  1.27s (tests 78%, import 16%, transform 6%)
+
+
+
+dragon-cloud.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/dragon-cloud.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  6 passed (6)
+   Start at  19:13:08
+   Duration  1.31s (tests 79%, import 15%, transform 5%)
+
+
+
+home-decor-cloud.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/home-decor-cloud.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  3 passed (3)
+   Start at  19:13:09
+   Duration  1.44s (tests 82%, import 14%, transform 5%)
+
+
+
+island-api.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/island-api.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  6 passed (6)
+   Start at  19:13:11
+   Duration  3.07s (tests 92%, import 6%, transform 2%)
+
+
+
+mastered-cloud.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/mastered-cloud.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  19:13:11
+   Duration  1.99s (tests 87%, import 10%, transform 3%)
+
+
+
+online-battle.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/online-battle.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  10 passed (10)
+   Start at  19:13:13
+   Duration  1.80s (tests 86%, import 11%, transform 4%)
+
+
+
+player-friends.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/player-friends.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  7 passed (7)
+   Start at  19:13:14
+   Duration  2.04s (tests 87%, import 10%, transform 3%)
+
+
+
+player-logins.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/player-logins.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  6 passed (6)
+   Start at  19:13:14
+   Duration  6.40s (tests 96%, import 3%, transform 1%)
+
+
+
+presence-history.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/presence-history.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  10 passed (10)
+   Start at  19:13:15
+   Duration  8.10s (tests 97%, import 3%, transform 1%)
+
+
+
+presence.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/presence.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  9 passed (9)
+   Start at  19:13:16
+   Duration  3.02s (tests 91%, import 7%, transform 2%)
+
+
+
+ready-screen-cloud.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/ready-screen-cloud.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  3 passed (3)
+   Start at  19:13:20
+   Duration  761ms (tests 64%, import 26%, transform 9%)
+
+
+
+remediation-cloud.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/remediation-cloud.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  3 passed (3)
+   Start at  19:13:21
+   Duration  712ms (tests 61%, import 29%, transform 10%)
+
+
+
+schema-migration.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/schema-migration.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  19:13:21
+   Duration  113ms (tests 67%, import 23%, transform 7%, worker 4%)
+
+
+
+school-curriculum-cloud.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/school-curriculum-cloud.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  17 passed (17)
+   Start at  19:13:21
+   Duration  5.46s (tests 95%, import 3%, transform 1%)
+
+
+
+study-review-cloud.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/study-review-cloud.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  4 passed (4)
+   Start at  19:13:22
+   Duration  1.32s (tests 80%, import 15%, transform 5%)
+
+
+
+subject-islands-cloud.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/subject-islands-cloud.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  19:13:23
+   Duration  1.06s (tests 74%, import 19%, transform 7%)
+
+
+
+tiered-cloud.test.log
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/tiered-cloud.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/olivia-dog-mascot/星潮網站開發
+
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  19:13:24
+   Duration  731ms (tests 60%, import 29%, transform 10%)

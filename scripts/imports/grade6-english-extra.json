@@ -1,0 +1,892 @@
+[
+  {
+    "f": 6,
+    "p": 3,
+    "loc": "V1",
+    "prompt": "___ from the USA.",
+    "answer": "He is",
+    "wrong": "I are|You am",
+    "explanation": "He takes is.",
+    "passage": null
+  },
+  {
+    "f": 6,
+    "p": 3,
+    "loc": "V2",
+    "prompt": "Is ___ from Korea?",
+    "answer": "he",
+    "wrong": "I|you",
+    "explanation": "Is agrees with he.",
+    "passage": null
+  },
+  {
+    "f": 6,
+    "p": 3,
+    "loc": "V3",
+    "prompt": "___ are you from? I’m from Taiwan.",
+    "answer": "Where",
+    "wrong": "How|What",
+    "explanation": "Where asks about origin.",
+    "passage": null
+  },
+  {
+    "f": 6,
+    "p": 3,
+    "loc": "V4",
+    "prompt": "Where ___ she from?",
+    "answer": "is",
+    "wrong": "am|are",
+    "explanation": "She takes is.",
+    "passage": null
+  },
+  {
+    "f": 6,
+    "p": 3,
+    "loc": "V5",
+    "prompt": "___ do you like to do in your free time?",
+    "answer": "What",
+    "wrong": "Where|How",
+    "explanation": "What asks about an activity.",
+    "passage": null
+  },
+  {
+    "f": 6,
+    "p": 3,
+    "loc": "V6",
+    "prompt": "What ___ he like to do?",
+    "answer": "does",
+    "wrong": "do|is",
+    "explanation": "Use does for a third-person singular question.",
+    "passage": null
+  },
+  {
+    "f": 6,
+    "p": 4,
+    "loc": "V9",
+    "prompt": "She ___ to watch TV in her free time.",
+    "answer": "likes",
+    "wrong": "does|is",
+    "explanation": "The verb is likes; the source punctuation has been normalized.",
+    "passage": null
+  },
+  {
+    "f": 6,
+    "p": 4,
+    "loc": "VI1",
+    "prompt": "He is from Japan. Is he from Japan?",
+    "answer": "Yes, he is.",
+    "wrong": "Yes, he does.|No, he isn’t.",
+    "explanation": "Use is in this short answer.",
+    "passage": null
+  },
+  {
+    "f": 6,
+    "p": 4,
+    "loc": "VI2",
+    "prompt": "She is from Australia. Is she from the UK?",
+    "answer": "No, she isn’t. She’s from Australia.",
+    "wrong": "Yes, she is.|No, she’s from Korea.",
+    "explanation": "Australia is her stated country.",
+    "passage": null
+  },
+  {
+    "f": 6,
+    "p": 4,
+    "loc": "VII1",
+    "prompt": "我有空時喜歡打籃球和騎腳踏車。Choose the matching sentence.",
+    "answer": "I like to play basketball and ride a bike in my free time.",
+    "wrong": "I like to watch TV in my free time.|He likes to play basketball in his free time.",
+    "explanation": "The subject is I and both activities must match.",
+    "passage": null
+  },
+  {
+    "f": 6,
+    "p": 4,
+    "loc": "VII2",
+    "prompt": "他有空時喜歡拜訪他的朋友。Choose the matching sentence.",
+    "answer": "He likes to visit his friend in his free time.",
+    "wrong": "He likes to go camping in his free time.|She likes to visit her friend in her free time.",
+    "explanation": "He / his refer to the boy; the activity is visiting his friend.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 1,
+    "loc": "VI1",
+    "prompt": "Which word has the same vowel sound as tray?",
+    "answer": "cake",
+    "wrong": "moon|kite",
+    "explanation": "Compare the vowel sounds, not just the spelling.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 2,
+    "loc": "VI2",
+    "prompt": "Which word has the same vowel sound as bread?",
+    "answer": "best",
+    "wrong": "please|house",
+    "explanation": "Compare the vowel sounds, not just the spelling.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 2,
+    "loc": "VI3",
+    "prompt": "Which word has the same vowel sound as coin?",
+    "answer": "soybean",
+    "wrong": "rose|pork",
+    "explanation": "Compare the vowel sounds, not just the spelling.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 2,
+    "loc": "VI4",
+    "prompt": "Which word has the same stressed vowel sound as party?",
+    "answer": "yard",
+    "wrong": "sky|igloo",
+    "explanation": "Compare the vowel sounds, not just the spelling.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 2,
+    "loc": "VII1",
+    "prompt": "「麵包店」的英文是？",
+    "answer": "bakery",
+    "wrong": "airport|train station",
+    "explanation": "Choose the matching word or phrase.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 2,
+    "loc": "VII2",
+    "prompt": "「鳳梨酥」的英文是？",
+    "answer": "pineapple cakes",
+    "wrong": "mooncakes|cookies",
+    "explanation": "Choose the matching word or phrase.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 2,
+    "loc": "VII4",
+    "prompt": "「中秋節」的英文是？",
+    "answer": "Moon Festival",
+    "wrong": "Halloween|Christmas",
+    "explanation": "Choose the matching word or phrase.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 2,
+    "loc": "VII5",
+    "prompt": "「機場」的英文是？",
+    "answer": "airport",
+    "wrong": "bakery|night market",
+    "explanation": "Choose the matching word or phrase.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 2,
+    "loc": "VIII1",
+    "prompt": "Emma can bake cookies well. Can Emma bake cookies?",
+    "answer": "Yes, she is good at baking cookies.",
+    "wrong": "No, she can dance well.|Yes, she can cook fish.",
+    "explanation": "The answer must refer to baking cookies.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 2,
+    "loc": "VIII2",
+    "prompt": "Mr. Lee is from the USA. Where is Mr. Lee from?",
+    "answer": "He is from the USA.",
+    "wrong": "She is from Canada.|He is from the UK.",
+    "explanation": "Mr. Lee uses he, and the country is the USA.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 2,
+    "loc": "VIII3",
+    "prompt": "You want to have coffee with a friend. What can you say?",
+    "answer": "Let’s grab a cup of coffee.",
+    "wrong": "I’m going to pick up my kids.|I need to go out with my sister.",
+    "explanation": "The invitation explicitly mentions coffee.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 2,
+    "loc": "VIII4",
+    "prompt": "The museum can be reached by train, not by scooter. Can I get there by scooter?",
+    "answer": "No, you can get there by train.",
+    "wrong": "Yes, you can get there by car.|Yes, the train is coming.",
+    "explanation": "The scenario gives train as the transport.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 2,
+    "loc": "VIII5",
+    "prompt": "Sam is happy about a family trip to Japan. Why is Sam happy?",
+    "answer": "He is going to Japan with his family.",
+    "wrong": "His birthday is coming.|He has no school today.",
+    "explanation": "The text states the reason is a trip to Japan.",
+    "passage": null
+  },
+  {
+    "f": 7,
+    "p": 3,
+    "loc": "X1",
+    "prompt": "How does Minnie get to the railway station?",
+    "answer": "By taxi.",
+    "wrong": "By metro.|On foot.",
+    "explanation": "Follow the people and travel sequence in the passage.",
+    "passage": "Minnie is from Taiwan. Kim is from Thailand and likes green papaya salad. Toby is from Canada and likes maple cookies. Minnie takes a taxi to Taoyuan Railway Station to meet them. They first go to Taipei Zoo by metro. Next, they walk to a nearby bakery café. Finally, they ride bikes from the café to a bookstore far away."
+  },
+  {
+    "f": 7,
+    "p": 3,
+    "loc": "X2",
+    "prompt": "Where is Toby from?",
+    "answer": "Canada",
+    "wrong": "Thailand|Taiwan",
+    "explanation": "Follow the people and travel sequence in the passage.",
+    "passage": "Minnie is from Taiwan. Kim is from Thailand and likes green papaya salad. Toby is from Canada and likes maple cookies. Minnie takes a taxi to Taoyuan Railway Station to meet them. They first go to Taipei Zoo by metro. Next, they walk to a nearby bakery café. Finally, they ride bikes from the café to a bookstore far away."
+  },
+  {
+    "f": 7,
+    "p": 3,
+    "loc": "X3",
+    "prompt": "Where do the friends go first after meeting?",
+    "answer": "Taipei Zoo",
+    "wrong": "The bakery café|The bookstore",
+    "explanation": "Follow the people and travel sequence in the passage.",
+    "passage": "Minnie is from Taiwan. Kim is from Thailand and likes green papaya salad. Toby is from Canada and likes maple cookies. Minnie takes a taxi to Taoyuan Railway Station to meet them. They first go to Taipei Zoo by metro. Next, they walk to a nearby bakery café. Finally, they ride bikes from the café to a bookstore far away."
+  },
+  {
+    "f": 7,
+    "p": 3,
+    "loc": "X4",
+    "prompt": "What does Kim like?",
+    "answer": "Green papaya salad",
+    "wrong": "Maple cookies|Bubble tea",
+    "explanation": "Follow the people and travel sequence in the passage.",
+    "passage": "Minnie is from Taiwan. Kim is from Thailand and likes green papaya salad. Toby is from Canada and likes maple cookies. Minnie takes a taxi to Taoyuan Railway Station to meet them. They first go to Taipei Zoo by metro. Next, they walk to a nearby bakery café. Finally, they ride bikes from the café to a bookstore far away."
+  },
+  {
+    "f": 7,
+    "p": 3,
+    "loc": "X5",
+    "prompt": "How do they get from the café to the bookstore?",
+    "answer": "By bike.",
+    "wrong": "By metro.|On foot.",
+    "explanation": "Follow the people and travel sequence in the passage.",
+    "passage": "Minnie is from Taiwan. Kim is from Thailand and likes green papaya salad. Toby is from Canada and likes maple cookies. Minnie takes a taxi to Taoyuan Railway Station to meet them. They first go to Taipei Zoo by metro. Next, they walk to a nearby bakery café. Finally, they ride bikes from the café to a bookstore far away."
+  },
+  {
+    "f": 8,
+    "p": 2,
+    "loc": "F2",
+    "prompt": "Correct the sentence: He like hot dogs very much.",
+    "answer": "He likes hot dogs very much.",
+    "wrong": "He liking hot dogs very much.|He are like hot dogs very much.",
+    "explanation": "He takes likes.",
+    "passage": null
+  },
+  {
+    "f": 8,
+    "p": 3,
+    "loc": "F3",
+    "prompt": "Correct the sentence: My friends is nice.",
+    "answer": "My friends are nice.",
+    "wrong": "My friends am nice.|My friends be nice.",
+    "explanation": "Plural friends takes are.",
+    "passage": null
+  },
+  {
+    "f": 8,
+    "p": 3,
+    "loc": "F4",
+    "prompt": "Tom and Maruko are my good ___.",
+    "answer": "friends",
+    "wrong": "friend|friend’s",
+    "explanation": "Two people are plural friends.",
+    "passage": null
+  },
+  {
+    "f": 8,
+    "p": 3,
+    "loc": "F5",
+    "prompt": "I’m twelve ___ old.",
+    "answer": "years",
+    "wrong": "year|year’s",
+    "explanation": "Use plural years after twelve.",
+    "passage": null
+  },
+  {
+    "f": 8,
+    "p": 3,
+    "loc": "F6",
+    "prompt": "I like to go to my ___ house.",
+    "answer": "grandpa’s",
+    "wrong": "grandpa|grandpas’s",
+    "explanation": "The house belongs to Grandpa, so use grandpa’s.",
+    "passage": null
+  },
+  {
+    "f": 8,
+    "p": 3,
+    "loc": "F7",
+    "prompt": "Here ___ the metro.",
+    "answer": "comes",
+    "wrong": "come|coming",
+    "explanation": "Singular the metro takes comes.",
+    "passage": null
+  },
+  {
+    "f": 8,
+    "p": 3,
+    "loc": "F8",
+    "prompt": "Which sentence capitalizes the country correctly?",
+    "answer": "He’s from Thailand.",
+    "wrong": "He’s from thailand.|he’s from thailand.",
+    "explanation": "Country names begin with a capital letter.",
+    "passage": null
+  },
+  {
+    "f": 8,
+    "p": 3,
+    "loc": "F9",
+    "prompt": "She’s ___ the UK.",
+    "answer": "from",
+    "wrong": "form|for",
+    "explanation": "From expresses origin.",
+    "passage": null
+  },
+  {
+    "f": 8,
+    "p": 3,
+    "loc": "G2",
+    "prompt": "From the supermarket to the museum: bus = 20 minutes; walking = 50 minutes. A trip starts at 12:40 and ends at 13:00. Which transport matches?",
+    "answer": "By bus.",
+    "wrong": "On foot.|Both take 20 minutes.",
+    "explanation": "13:00 minus 12:40 is 20 minutes.",
+    "passage": null
+  },
+  {
+    "f": 8,
+    "p": 3,
+    "loc": "G3",
+    "prompt": "Walking from the bookstore to the post office takes 10 minutes. A walk starts at 17:30. When does it end?",
+    "answer": "17:40",
+    "wrong": "17:30|18:00",
+    "explanation": "Add 10 minutes to 17:30.",
+    "passage": null
+  },
+  {
+    "f": 8,
+    "p": 4,
+    "loc": "H1",
+    "prompt": "What is the main topic of this passage?",
+    "answer": "A mosquito-borne disease",
+    "wrong": "School transport|A birthday party",
+    "explanation": "Answer from the reading passage; this is a reading-comprehension question.",
+    "passage": "In this dialogue, Lionel calls Mrs. Hsu “Mom.” They discuss dengue fever, a mosquito-borne disease. Mrs. Hsu says it spreads especially in summer. She mentions using mosquito repellent, wearing long sleeves and removing stagnant water. The passage says mosquitoes breed in stagnant water. It lists fever, joint pain and a rash as symptoms and says to see a doctor."
+  },
+  {
+    "f": 8,
+    "p": 4,
+    "loc": "H2",
+    "prompt": "Who is Mrs. Hsu to Lionel?",
+    "answer": "His mother",
+    "wrong": "His sister|His friend",
+    "explanation": "Answer from the reading passage; this is a reading-comprehension question.",
+    "passage": "In this dialogue, Lionel calls Mrs. Hsu “Mom.” They discuss dengue fever, a mosquito-borne disease. Mrs. Hsu says it spreads especially in summer. She mentions using mosquito repellent, wearing long sleeves and removing stagnant water. The passage says mosquitoes breed in stagnant water. It lists fever, joint pain and a rash as symptoms and says to see a doctor."
+  },
+  {
+    "f": 8,
+    "p": 4,
+    "loc": "H3",
+    "prompt": "According to the passage, which season is mentioned?",
+    "answer": "Summer",
+    "wrong": "Spring|Winter",
+    "explanation": "Answer from the reading passage; this is a reading-comprehension question.",
+    "passage": "In this dialogue, Lionel calls Mrs. Hsu “Mom.” They discuss dengue fever, a mosquito-borne disease. Mrs. Hsu says it spreads especially in summer. She mentions using mosquito repellent, wearing long sleeves and removing stagnant water. The passage says mosquitoes breed in stagnant water. It lists fever, joint pain and a rash as symptoms and says to see a doctor."
+  },
+  {
+    "f": 8,
+    "p": 4,
+    "loc": "H4",
+    "prompt": "Which action does Mrs. Hsu mention?",
+    "answer": "Using mosquito repellent",
+    "wrong": "Eating garlic|Wearing short sleeves",
+    "explanation": "Answer from the reading passage; this is a reading-comprehension question.",
+    "passage": "In this dialogue, Lionel calls Mrs. Hsu “Mom.” They discuss dengue fever, a mosquito-borne disease. Mrs. Hsu says it spreads especially in summer. She mentions using mosquito repellent, wearing long sleeves and removing stagnant water. The passage says mosquitoes breed in stagnant water. It lists fever, joint pain and a rash as symptoms and says to see a doctor."
+  },
+  {
+    "f": 8,
+    "p": 4,
+    "loc": "H5",
+    "prompt": "Which symptoms are listed in the passage?",
+    "answer": "Fever, joint pain and a rash",
+    "wrong": "Sneezing and coughing|Only headaches",
+    "explanation": "Answer from the reading passage; this is a reading-comprehension question.",
+    "passage": "In this dialogue, Lionel calls Mrs. Hsu “Mom.” They discuss dengue fever, a mosquito-borne disease. Mrs. Hsu says it spreads especially in summer. She mentions using mosquito repellent, wearing long sleeves and removing stagnant water. The passage says mosquitoes breed in stagnant water. It lists fever, joint pain and a rash as symptoms and says to see a doctor."
+  },
+  {
+    "f": 8,
+    "p": 4,
+    "loc": "H6",
+    "prompt": "Whom does the passage say to see?",
+    "answer": "A doctor",
+    "wrong": "A teacher|A friend",
+    "explanation": "Answer from the reading passage; this is a reading-comprehension question.",
+    "passage": "In this dialogue, Lionel calls Mrs. Hsu “Mom.” They discuss dengue fever, a mosquito-borne disease. Mrs. Hsu says it spreads especially in summer. She mentions using mosquito repellent, wearing long sleeves and removing stagnant water. The passage says mosquitoes breed in stagnant water. It lists fever, joint pain and a rash as symptoms and says to see a doctor."
+  },
+  {
+    "f": 8,
+    "p": 4,
+    "loc": "H7",
+    "prompt": "Where do mosquitoes breed according to this passage?",
+    "answer": "In stagnant water",
+    "wrong": "In a refrigerator|In the air",
+    "explanation": "Answer from the reading passage; this is a reading-comprehension question.",
+    "passage": "In this dialogue, Lionel calls Mrs. Hsu “Mom.” They discuss dengue fever, a mosquito-borne disease. Mrs. Hsu says it spreads especially in summer. She mentions using mosquito repellent, wearing long sleeves and removing stagnant water. The passage says mosquitoes breed in stagnant water. It lists fever, joint pain and a rash as symptoms and says to see a doctor."
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "F1",
+    "prompt": "Choose the correct question.",
+    "answer": "Is Ann from Japan?",
+    "wrong": "Are Ann from Japan?|Does Ann from Japan?",
+    "explanation": "Ann is singular: Is Ann...?",
+    "passage": null
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "F2",
+    "prompt": "Choose the correct question.",
+    "answer": "How can I get to Taichung?",
+    "wrong": "How I can get to Taichung?|How can get I to Taichung?",
+    "explanation": "Use How can I + verb.",
+    "passage": null
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "F3",
+    "prompt": "Choose the correct word order.",
+    "answer": "Where are you from?",
+    "wrong": "Where you are from?|Where from are you?",
+    "explanation": "Use Where + are + you + from.",
+    "passage": null
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "G1",
+    "prompt": "Are we there yet? Choose the answer meaning we have not arrived.",
+    "answer": "Not yet.",
+    "wrong": "Yes, please.|Great!",
+    "explanation": "Not yet means we have not arrived.",
+    "passage": null
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "G3",
+    "prompt": "The tea shop is nearby. Choose a matching response.",
+    "answer": "Great! We can walk there.",
+    "wrong": "No, I can’t bake.|Yes, please.",
+    "explanation": "Nearby means close enough to consider walking.",
+    "passage": null
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "G4",
+    "prompt": "Would you like some cookies? Choose a polite acceptance.",
+    "answer": "Yes, please.",
+    "wrong": "Not yet arrived.|No, I can’t bake.",
+    "explanation": "Yes, please politely accepts an offer.",
+    "passage": null
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "G5",
+    "prompt": "Can you bake cakes? Choose a negative short answer.",
+    "answer": "No, I can’t.",
+    "wrong": "No, I’m not.|No, I don’t.",
+    "explanation": "Can questions take can or can’t.",
+    "passage": null
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "H1",
+    "prompt": "___ you from the UK? Yes, I am.",
+    "answer": "Are",
+    "wrong": "Is|Am",
+    "explanation": "You takes are.",
+    "passage": null
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "H2",
+    "prompt": "I can get to the hospital ___ foot.",
+    "answer": "on",
+    "wrong": "in|by",
+    "explanation": "The phrase is on foot.",
+    "passage": null
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "H3",
+    "prompt": "How ___ you get to the library? I can get there by bus.",
+    "answer": "can",
+    "wrong": "are|does",
+    "explanation": "The answer uses can, matching the question.",
+    "passage": null
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "H4",
+    "prompt": "Is Sandy from Australia? No, she ___.",
+    "answer": "isn’t",
+    "wrong": "aren’t|can’t",
+    "explanation": "Use isn’t with she.",
+    "passage": null
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "H5",
+    "prompt": "Choose the correct sentence.",
+    "answer": "I can get to Taipei by metro.",
+    "wrong": "I can get to the Taipei by metro.|I can get to my Taipei by metro.",
+    "explanation": "Do not put the before the city name Taipei.",
+    "passage": null
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "I1",
+    "prompt": "Joe met Cindy ___ Japan five years ago.",
+    "answer": "in",
+    "wrong": "on|at",
+    "explanation": "Use the details in Joe and Elle’s conversation.",
+    "passage": "Joe is going to the airport to pick up Cindy. He met Cindy in Japan five years ago. Cindy is from Canada. Elle asks, “Can you get to the airport by bus?” Joe says, “No, I can’t. But I can get there by scooter.” His old scooter broke, so he bought a new one."
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "I2",
+    "prompt": "___ you get to the airport by bus?",
+    "answer": "Can",
+    "wrong": "How|Is",
+    "explanation": "Use the details in Joe and Elle’s conversation.",
+    "passage": "Joe is going to the airport to pick up Cindy. He met Cindy in Japan five years ago. Cindy is from Canada. Elle asks, “Can you get to the airport by bus?” Joe says, “No, I can’t. But I can get there by scooter.” His old scooter broke, so he bought a new one."
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "I3",
+    "prompt": "Can Joe get there by bus? No, he ___.",
+    "answer": "can’t",
+    "wrong": "am|isn’t",
+    "explanation": "Use the details in Joe and Elle’s conversation.",
+    "passage": "Joe is going to the airport to pick up Cindy. He met Cindy in Japan five years ago. Cindy is from Canada. Elle asks, “Can you get to the airport by bus?” Joe says, “No, I can’t. But I can get there by scooter.” His old scooter broke, so he bought a new one."
+  },
+  {
+    "f": 9,
+    "p": 2,
+    "loc": "I4",
+    "prompt": "Which statement matches the passage?",
+    "answer": "Joe can get to the airport by scooter.",
+    "wrong": "Cindy is from Japan.|Cindy will pick up Elle tomorrow.",
+    "explanation": "Use the details in Joe and Elle’s conversation.",
+    "passage": "Joe is going to the airport to pick up Cindy. He met Cindy in Japan five years ago. Cindy is from Canada. Elle asks, “Can you get to the airport by bus?” Joe says, “No, I can’t. But I can get there by scooter.” His old scooter broke, so he bought a new one."
+  },
+  {
+    "f": 10,
+    "p": 1,
+    "loc": "IV1",
+    "prompt": "你們來自澳洲嗎？Choose the matching question.",
+    "answer": "Are you from Australia?",
+    "wrong": "Is he from Australia?|Are you going to Australia?",
+    "explanation": "Ask origin with are you from.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 1,
+    "loc": "IV2",
+    "prompt": "他可以走路去圖書館嗎？Choose the matching question.",
+    "answer": "Can he get to the library on foot?",
+    "wrong": "Can she get to the library by bus?|Is he from the library?",
+    "explanation": "Can he asks ability; on foot means walking.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 1,
+    "loc": "IV3",
+    "prompt": "她要如何去麵包店呢？Choose the matching question.",
+    "answer": "How can she get to the bakery?",
+    "wrong": "Where is she from?|How can he get to the airport?",
+    "explanation": "How asks transport; she and bakery match the meaning.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 1,
+    "loc": "IV4",
+    "prompt": "他們來自哪裡？Choose the matching question.",
+    "answer": "Where are they from?",
+    "wrong": "Where is he from?|How can they get there?",
+    "explanation": "They takes are; from asks origin.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 1,
+    "loc": "V1",
+    "prompt": "Would you like ___ pineapple cakes?",
+    "answer": "some",
+    "wrong": "a|an",
+    "explanation": "Plural cakes takes some.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 1,
+    "loc": "V2",
+    "prompt": "The pineapple cakes ___ great.",
+    "answer": "taste",
+    "wrong": "tasting|tastes",
+    "explanation": "Plural cakes takes taste.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 1,
+    "loc": "V3",
+    "prompt": "I want to ___ in the contest.",
+    "answer": "be",
+    "wrong": "has|having",
+    "explanation": "Use the base form be after to.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 1,
+    "loc": "V4",
+    "prompt": "The cookies are ___ sweet.",
+    "answer": "too",
+    "wrong": "to|eat",
+    "explanation": "Too means excessively.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 1,
+    "loc": "V5",
+    "prompt": "Let’s go ___ her.",
+    "answer": "find",
+    "wrong": "finds|finding",
+    "explanation": "Use the base verb find.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 1,
+    "loc": "V6",
+    "prompt": "It’s ___ Taipei.",
+    "answer": "in",
+    "wrong": "to|on",
+    "explanation": "Use in with the city here.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 1,
+    "loc": "V7",
+    "prompt": "Here ___ the metro.",
+    "answer": "comes",
+    "wrong": "come|coming",
+    "explanation": "Singular the metro takes comes.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 1,
+    "loc": "V8",
+    "prompt": "Do not ___ on the metro.",
+    "answer": "eat",
+    "wrong": "eats|eating",
+    "explanation": "Use the base verb after do not.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VII國1",
+    "prompt": "Where is Joy from?",
+    "answer": "Taiwan",
+    "wrong": "Japan|the USA",
+    "explanation": "Match the named person to the country or transport; Ken’s train trip is a plan.",
+    "passage": "Joy is eleven years old and from Taiwan. Joy goes to the supermarket by bus. David and his sister Sue are from the USA and go to the park on foot. Andy is a teacher from the UK and goes to school by metro. Jenny is from Japan and goes to the museum by bike. Ken is from Korea. He is still at Taipei 101 and plans to take a train to visit Tsao Gang Elementary School."
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VII國2",
+    "prompt": "Where is Andy from?",
+    "answer": "the UK",
+    "wrong": "Taiwan|Korea",
+    "explanation": "Match the named person to the country or transport; Ken’s train trip is a plan.",
+    "passage": "Joy is eleven years old and from Taiwan. Joy goes to the supermarket by bus. David and his sister Sue are from the USA and go to the park on foot. Andy is a teacher from the UK and goes to school by metro. Jenny is from Japan and goes to the museum by bike. Ken is from Korea. He is still at Taipei 101 and plans to take a train to visit Tsao Gang Elementary School."
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VII國3",
+    "prompt": "Where is Ken from?",
+    "answer": "Korea",
+    "wrong": "Japan|Taiwan",
+    "explanation": "Match the named person to the country or transport; Ken’s train trip is a plan.",
+    "passage": "Joy is eleven years old and from Taiwan. Joy goes to the supermarket by bus. David and his sister Sue are from the USA and go to the park on foot. Andy is a teacher from the UK and goes to school by metro. Jenny is from Japan and goes to the museum by bike. Ken is from Korea. He is still at Taipei 101 and plans to take a train to visit Tsao Gang Elementary School."
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VII國4",
+    "prompt": "Where is Jenny from?",
+    "answer": "Japan",
+    "wrong": "Korea|the UK",
+    "explanation": "Match the named person to the country or transport; Ken’s train trip is a plan.",
+    "passage": "Joy is eleven years old and from Taiwan. Joy goes to the supermarket by bus. David and his sister Sue are from the USA and go to the park on foot. Andy is a teacher from the UK and goes to school by metro. Jenny is from Japan and goes to the museum by bike. Ken is from Korea. He is still at Taipei 101 and plans to take a train to visit Tsao Gang Elementary School."
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VII國5",
+    "prompt": "Where are David and Sue from?",
+    "answer": "the USA",
+    "wrong": "the UK|Japan",
+    "explanation": "Match the named person to the country or transport; Ken’s train trip is a plan.",
+    "passage": "Joy is eleven years old and from Taiwan. Joy goes to the supermarket by bus. David and his sister Sue are from the USA and go to the park on foot. Andy is a teacher from the UK and goes to school by metro. Jenny is from Japan and goes to the museum by bike. Ken is from Korea. He is still at Taipei 101 and plans to take a train to visit Tsao Gang Elementary School."
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VII交1",
+    "prompt": "How does Joy get to the supermarket?",
+    "answer": "By bus.",
+    "wrong": "By metro.|On foot.",
+    "explanation": "Match the named person to the country or transport; Ken’s train trip is a plan.",
+    "passage": "Joy is eleven years old and from Taiwan. Joy goes to the supermarket by bus. David and his sister Sue are from the USA and go to the park on foot. Andy is a teacher from the UK and goes to school by metro. Jenny is from Japan and goes to the museum by bike. Ken is from Korea. He is still at Taipei 101 and plans to take a train to visit Tsao Gang Elementary School."
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VII交2",
+    "prompt": "How does Andy get to school?",
+    "answer": "By metro.",
+    "wrong": "By bike.|By bus.",
+    "explanation": "Match the named person to the country or transport; Ken’s train trip is a plan.",
+    "passage": "Joy is eleven years old and from Taiwan. Joy goes to the supermarket by bus. David and his sister Sue are from the USA and go to the park on foot. Andy is a teacher from the UK and goes to school by metro. Jenny is from Japan and goes to the museum by bike. Ken is from Korea. He is still at Taipei 101 and plans to take a train to visit Tsao Gang Elementary School."
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VII交3",
+    "prompt": "How does Ken plan to travel to the school?",
+    "answer": "By train.",
+    "wrong": "On foot.|By bike.",
+    "explanation": "Match the named person to the country or transport; Ken’s train trip is a plan.",
+    "passage": "Joy is eleven years old and from Taiwan. Joy goes to the supermarket by bus. David and his sister Sue are from the USA and go to the park on foot. Andy is a teacher from the UK and goes to school by metro. Jenny is from Japan and goes to the museum by bike. Ken is from Korea. He is still at Taipei 101 and plans to take a train to visit Tsao Gang Elementary School."
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VII交4",
+    "prompt": "How does Jenny get to the museum?",
+    "answer": "By bike.",
+    "wrong": "By train.|On foot.",
+    "explanation": "Match the named person to the country or transport; Ken’s train trip is a plan.",
+    "passage": "Joy is eleven years old and from Taiwan. Joy goes to the supermarket by bus. David and his sister Sue are from the USA and go to the park on foot. Andy is a teacher from the UK and goes to school by metro. Jenny is from Japan and goes to the museum by bike. Ken is from Korea. He is still at Taipei 101 and plans to take a train to visit Tsao Gang Elementary School."
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VII交5",
+    "prompt": "How do David and Sue get to the park?",
+    "answer": "On foot.",
+    "wrong": "By bus.|By metro.",
+    "explanation": "Match the named person to the country or transport; Ken’s train trip is a plan.",
+    "passage": "Joy is eleven years old and from Taiwan. Joy goes to the supermarket by bus. David and his sister Sue are from the USA and go to the park on foot. Andy is a teacher from the UK and goes to school by metro. Jenny is from Japan and goes to the museum by bike. Ken is from Korea. He is still at Taipei 101 and plans to take a train to visit Tsao Gang Elementary School."
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VIII1",
+    "prompt": "My room is ___.",
+    "answer": "tidy",
+    "wrong": "today|year",
+    "explanation": "Tidy is an adjective meaning neat.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VIII2",
+    "prompt": "My hair is ___.",
+    "answer": "dry",
+    "wrong": "try|shy",
+    "explanation": "Dry describes hair without moisture.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VIII3",
+    "prompt": "I haven’t read this book ___.",
+    "answer": "yet",
+    "wrong": "yell|day",
+    "explanation": "Yet fits a negative present-perfect sentence.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VIII4",
+    "prompt": "These animals are very ___.",
+    "answer": "cute",
+    "wrong": "cube|tube",
+    "explanation": "Cute is an adjective.",
+    "passage": null
+  },
+  {
+    "f": 10,
+    "p": 2,
+    "loc": "VIII5",
+    "prompt": "___ pig is fat.",
+    "answer": "The",
+    "wrong": "Than|Then",
+    "explanation": "The is the article before pig.",
+    "passage": null
+  }
+]

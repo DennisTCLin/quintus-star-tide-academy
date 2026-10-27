@@ -1,0 +1,14 @@
+{
+  "ceiling": 90,
+  "unitQuote": 1.5,
+  "approvedCount": 50,
+  "retrySlots": 10,
+  "scope": "50 exterior proposals only,25 companions+25 monsters; no live roster activation",
+  "submittedAttempts": 55,
+  "rejectedAttempts": 5,
+  "acceptedConcepts": 50,
+  "quotedCredits": 82.5,
+  "remainingAuthorizedCredits": 7.5,
+  "actualBilling": "not reported by generation API",
+  "submissionFailuresWithoutJobId": "not counted; only confirmed submission_failed retried"
+}

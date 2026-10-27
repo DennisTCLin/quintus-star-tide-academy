@@ -1,0 +1,562 @@
+{
+  "url": "http://127.0.0.1:4250",
+  "cases": [
+    {
+      "name": "instant-1440",
+      "width": 1440,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "38e0d19c-6cad-476f-95b4-42911fca4e84",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 150.80000114440918
+        },
+        {
+          "phase": "turning",
+          "ms": 304
+        },
+        {
+          "phase": "mixing",
+          "ms": 954.3000011444092
+        },
+        {
+          "phase": "dropping",
+          "ms": 2206.2000007629395
+        },
+        {
+          "phase": "opening",
+          "ms": 2956.7000007629395
+        },
+        {
+          "phase": "revealed",
+          "ms": 3808.5
+        }
+      ]
+    },
+    {
+      "name": "instant-768",
+      "width": 768,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "54589583-86bf-45e1-95f1-8be8fa34855c",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 161.5
+        },
+        {
+          "phase": "turning",
+          "ms": 294.8999996185303
+        },
+        {
+          "phase": "mixing",
+          "ms": 945.1999988555908
+        },
+        {
+          "phase": "dropping",
+          "ms": 2197.7999992370605
+        },
+        {
+          "phase": "opening",
+          "ms": 2948.699998855591
+        },
+        {
+          "phase": "revealed",
+          "ms": 3803.699998855591
+        }
+      ]
+    },
+    {
+      "name": "instant-390",
+      "width": 390,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "5f0d40d4-be63-4085-97e2-4e8e2e7d995d",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 138.4000015258789
+        },
+        {
+          "phase": "turning",
+          "ms": 255.20000076293945
+        },
+        {
+          "phase": "mixing",
+          "ms": 905.4000015258789
+        },
+        {
+          "phase": "dropping",
+          "ms": 2156.800001144409
+        },
+        {
+          "phase": "opening",
+          "ms": 2908
+        },
+        {
+          "phase": "revealed",
+          "ms": 3761.6000003814697
+        }
+      ]
+    },
+    {
+      "name": "instant-320",
+      "width": 320,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "2ace8041-fe35-42cc-ad45-e020abc6d30c",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 141.30000114440918
+        },
+        {
+          "phase": "turning",
+          "ms": 371.9000015258789
+        },
+        {
+          "phase": "mixing",
+          "ms": 1022.2000007629395
+        },
+        {
+          "phase": "dropping",
+          "ms": 2273.900001525879
+        },
+        {
+          "phase": "opening",
+          "ms": 3025.1000003814697
+        },
+        {
+          "phase": "revealed",
+          "ms": 3881.800001144409
+        }
+      ]
+    },
+    {
+      "name": "short-screen-320",
+      "width": 320,
+      "height": 568,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "766ee992-917c-4d4e-8bec-db642148bb7a",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 150.30000114440918
+        },
+        {
+          "phase": "turning",
+          "ms": 364.8000011444092
+        },
+        {
+          "phase": "mixing",
+          "ms": 1014.1000003814697
+        },
+        {
+          "phase": "dropping",
+          "ms": 2265.800001144409
+        },
+        {
+          "phase": "opening",
+          "ms": 3017.1000003814697
+        },
+        {
+          "phase": "revealed",
+          "ms": 3871.5
+        }
+      ]
+    },
+    {
+      "name": "short-screen-390",
+      "width": 390,
+      "height": 667,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "523ea806-4491-4c31-9ae8-b6c5c6c3d9be",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 196.69999885559082
+        },
+        {
+          "phase": "turning",
+          "ms": 310.1999988555908
+        },
+        {
+          "phase": "mixing",
+          "ms": 960.8999996185303
+        },
+        {
+          "phase": "dropping",
+          "ms": 2212.3999996185303
+        },
+        {
+          "phase": "opening",
+          "ms": 2963.8999996185303
+        },
+        {
+          "phase": "revealed",
+          "ms": 3816.7999992370605
+        }
+      ]
+    },
+    {
+      "name": "zero-ticket",
+      "width": 390,
+      "height": 900,
+      "result": "PASS",
+      "commands": [],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 133.20000076293945
+        }
+      ]
+    },
+    {
+      "name": "slow-response",
+      "width": 390,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "59406f6b-60c4-41ff-9c8d-add6b65786b3",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 156.70000076293945
+        },
+        {
+          "phase": "turning",
+          "ms": 272.1000003814697
+        },
+        {
+          "phase": "mixing",
+          "ms": 922.5
+        },
+        {
+          "phase": "waiting",
+          "ms": 2173.7000007629395
+        },
+        {
+          "phase": "dropping",
+          "ms": 5276.300001144409
+        },
+        {
+          "phase": "opening",
+          "ms": 6026.800001144409
+        },
+        {
+          "phase": "revealed",
+          "ms": 6880.5
+        }
+      ]
+    },
+    {
+      "name": "server-failure",
+      "width": 390,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "8d4af91c-d3b9-489e-84ae-f1aa3cb22540",
+          "command": "draw"
+        },
+        {
+          "id": "8d4af91c-d3b9-489e-84ae-f1aa3cb22540",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 153.80000114440918
+        },
+        {
+          "phase": "turning",
+          "ms": 271
+        },
+        {
+          "phase": "mixing",
+          "ms": 921.3999996185303
+        },
+        {
+          "phase": "idle",
+          "ms": 2172.6000003814697
+        }
+      ]
+    },
+    {
+      "name": "skip-before-response",
+      "width": 390,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "614cd5ca-b779-48c1-8703-f8b4df7945b7",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 135.79999923706055
+        },
+        {
+          "phase": "turning",
+          "ms": 251.10000038146973
+        },
+        {
+          "phase": "mixing",
+          "ms": 902.3999996185303
+        },
+        {
+          "phase": "waiting",
+          "ms": 1063.3999996185303
+        },
+        {
+          "phase": "revealed",
+          "ms": 4258
+        }
+      ]
+    },
+    {
+      "name": "reduced-motion",
+      "width": 390,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "c9c2cdd3-6a59-4b4a-a861-73591231d848",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 152.89999961853027
+        },
+        {
+          "phase": "waiting",
+          "ms": 303.6000003814697
+        },
+        {
+          "phase": "revealed",
+          "ms": 314.8999996185303
+        }
+      ]
+    },
+    {
+      "name": "toggle-reduced",
+      "width": 390,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "519effc8-6f19-4a55-936b-9bb78758272b",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 147.70000076293945
+        },
+        {
+          "phase": "turning",
+          "ms": 279.29999923706055
+        },
+        {
+          "phase": "mixing",
+          "ms": 930.2000007629395
+        },
+        {
+          "phase": "waiting",
+          "ms": 1105.7000007629395
+        },
+        {
+          "phase": "revealed",
+          "ms": 1107.8999996185303
+        }
+      ]
+    },
+    {
+      "name": "leave-during-request",
+      "width": 390,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "9c54eea0-5c8b-42ad-8a0f-649b1ccf5277",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 139
+        },
+        {
+          "phase": "turning",
+          "ms": 255.29999923706055
+        },
+        {
+          "phase": "idle",
+          "ms": 4337
+        }
+      ]
+    },
+    {
+      "name": "same-pet-again",
+      "width": 390,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "b5ed710f-e99e-4718-8912-a3697c95f524",
+          "command": "draw"
+        },
+        {
+          "id": "638fa3e0-cc6a-4ab7-a91c-2e4789780da2",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 157.89999961853027
+        },
+        {
+          "phase": "turning",
+          "ms": 380.3999996185303
+        },
+        {
+          "phase": "mixing",
+          "ms": 1030.3000011444092
+        },
+        {
+          "phase": "dropping",
+          "ms": 2281.1000003814697
+        },
+        {
+          "phase": "opening",
+          "ms": 3032.3999996185303
+        },
+        {
+          "phase": "revealed",
+          "ms": 3885.3999996185303
+        },
+        {
+          "phase": "turning",
+          "ms": 4082.6000003814697
+        },
+        {
+          "phase": "mixing",
+          "ms": 4732.60000038147
+        },
+        {
+          "phase": "dropping",
+          "ms": 5984.5
+        },
+        {
+          "phase": "opening",
+          "ms": 6735.300001144409
+        },
+        {
+          "phase": "revealed",
+          "ms": 7586.89999961853
+        }
+      ]
+    },
+    {
+      "name": "cross-device-receipt",
+      "width": 390,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "6fcafcee-e37b-4e24-975e-5eb230fdbe1a",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 97.70000076293945
+        }
+      ]
+    },
+    {
+      "name": "missing-machine-art",
+      "width": 390,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "9dc0fdc7-990a-4aed-8198-5bc1c691390c",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 136.10000038146973
+        },
+        {
+          "phase": "turning",
+          "ms": 251.70000076293945
+        },
+        {
+          "phase": "mixing",
+          "ms": 902.5
+        },
+        {
+          "phase": "dropping",
+          "ms": 2154.8999996185303
+        },
+        {
+          "phase": "opening",
+          "ms": 2906.1000003814697
+        },
+        {
+          "phase": "revealed",
+          "ms": 3759.5
+        }
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "result": "PASS"
+}

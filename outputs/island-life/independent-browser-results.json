@@ -1,0 +1,45 @@
+[
+  {
+    "check": "auto rotation after resume",
+    "rotated": true,
+    "focus": "暫停活動",
+    "before": [
+      "tideglow",
+      "pebblefin",
+      "foamferret",
+      "seasprout",
+      "mistotter",
+      "sailskipper",
+      "kelpcub",
+      "shellmole"
+    ],
+    "after": [
+      "tideglow",
+      "starheron",
+      "reefrabbit",
+      "bubbleyak",
+      "covegecko",
+      "cloudsail",
+      "moonmanta",
+      "driftturtle"
+    ]
+  },
+  {
+    "check": "auto rotation with focus outside habitat",
+    "rotated": false,
+    "after": [
+      "tideglow",
+      "starheron",
+      "reefrabbit",
+      "bubbleyak",
+      "covegecko",
+      "cloudsail",
+      "moonmanta",
+      "driftturtle"
+    ]
+  },
+  {
+    "check": "plot footprint intercepted",
+    "samples": []
+  }
+]

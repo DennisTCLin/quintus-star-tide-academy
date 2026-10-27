@@ -1,0 +1,86 @@
+{
+  "phone": {
+    "animation": "none",
+    "overflow": [
+      {
+        "cls": "auto-ruby",
+        "right": 335,
+        "tag": "RUBY",
+        "text": "通ㄊㄨㄥ"
+      },
+      {
+        "cls": "",
+        "right": 335,
+        "tag": "RT",
+        "text": "ㄊㄨㄥ"
+      },
+      {
+        "cls": "auto-ruby",
+        "right": 355,
+        "tag": "RUBY",
+        "text": "關ㄍㄨㄢ"
+      },
+      {
+        "cls": "",
+        "right": 359,
+        "tag": "RT",
+        "text": "ㄍㄨㄢ"
+      },
+      {
+        "cls": " ",
+        "right": 335,
+        "tag": "BUTTON",
+        "text": "畫ㄏㄨㄚˋ筆ㄅㄧˇ"
+      },
+      {
+        "cls": "choice-content",
+        "right": 324,
+        "tag": "SPAN",
+        "text": "畫ㄏㄨㄚˋ筆ㄅㄧˇ"
+      },
+      {
+        "cls": "picture-tile",
+        "right": 324,
+        "tag": "SPAN",
+        "text": ""
+      },
+      {
+        "cls": " ",
+        "right": 335,
+        "tag": "BUTTON",
+        "text": "彩ㄘㄞˇ色ㄙㄜˋ筆ㄅㄧˇ"
+      },
+      {
+        "cls": "choice-content",
+        "right": 324,
+        "tag": "SPAN",
+        "text": "彩ㄘㄞˇ色ㄙㄜˋ筆ㄅㄧˇ"
+      },
+      {
+        "cls": "picture-tile",
+        "right": 324,
+        "tag": "SPAN",
+        "text": ""
+      }
+    ],
+    "reduced": true,
+    "scrollWidth": 335,
+    "width": 320
+  },
+  "tablet": {
+    "animation": "none",
+    "reduced": true,
+    "scrollWidth": 1024,
+    "stage": {
+      "bottom": 450.25,
+      "height": 300,
+      "left": 29,
+      "right": 357.90625,
+      "top": 150.25,
+      "width": 328.90625,
+      "x": 29,
+      "y": 150.25
+    },
+    "width": 1024
+  }
+}

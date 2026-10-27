@@ -1,0 +1,29 @@
+{
+  "status": "read-only candidate; no implementation",
+  "priority": "Grade1 English answer-audio affordance",
+  "evidence": [
+    "src/App.tsx:1229-1258 voyage options are direct answer buttons with no option audio",
+    "src/App.tsx:2430-2463 battle buff has same limitation",
+    "src/english-foundations.ts:19-50 number/vocabulary/greeting/sentence choices are text-only",
+    "Browser qa_evidence_20261025 doudou English firstquestion lowercaseB: q/b/i are directanswerbuttons; nooptionaudio"
+  ],
+  "proposedBounds": [
+    "Evaluate word/sentence choices first; do not blindly read letter-match answers and change the shape-recognition objective",
+    "Use separate sibling listen and answer buttons; never nested interactive elements",
+    "Listening must not submit answer, spend skill, award points or write cloud progress",
+    "Replay/rapidlisten cancels oldspeech;leavequestion stopsaudio;missingEnglishvoice gives actionablevisualfallback",
+    "Keep one-submit/three-error/sixquestion rules and oldIDs; no question content/schema changes",
+    "Grade1-only; existinggrade2ruby and othercoursepicture/audio gates untouched"
+  ],
+  "verificationNeeded": [
+    "Check content mode/letter-exclusion againstallEnglishfoundations",
+    "DirectUIlisten vsanswer/repeatlisten/disabledstates/pendingcloud and terminalscenarios",
+    "320/820/1024/1440 nooverflow >=48px targets, no fakeperformance claim",
+    "Freshread-onlyfalsification/fullPostgres/build/pronunciation/coordinatedpublish"
+  ],
+  "notClaimed": [
+    "Nochilduserresearch",
+    "NoactualiPadvoicesverified",
+    "Noimplementationyet"
+  ]
+}

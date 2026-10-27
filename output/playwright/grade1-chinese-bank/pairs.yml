@@ -1,0 +1,96 @@
+- generic [ref=f2e3]:
+  - link "跳到主要內容" [ref=f2e4] [cursor=pointer]:
+    - /url: "#family-main"
+  - status [ref=f2e5]:
+    - generic [ref=f2e6]:
+      - text: sunny ·
+      - generic [ref=f2e341]: ☁
+      - text: 已儲存至雲端
+    - button "登出" [ref=f2e11] [cursor=pointer]
+  - main [ref=f2e12]:
+    - region "答題怪物戰鬥" [ref=f2e345]:
+      - generic [ref=f2e346]:
+        - generic [ref=f2e347]:
+          - generic [ref=f2e348]: ⚔️
+          - text: 答對就出招
+        - button "暫停背景音樂" [pressed] [ref=f2e352] [cursor=pointer]:
+          - generic [ref=f2e353]: Ⅱ
+          - text: 暫停音樂
+      - generic [ref=f2e357]:
+        - generic [ref=f2e359]:
+          - generic [ref=f2e360]:
+            - strong [ref=f2e361]: 潮光獸
+            - meter "夥伴生命" [ref=f2e362]
+            - generic [ref=f2e364]: 100 / 100
+          - generic [ref=f2e365]:
+            - strong [ref=f2e366]: 砂甲幼龍
+            - meter "怪物體力" [ref=f2e367]
+            - generic [ref=f2e369]: 100 / 100
+        - img "潮光獸" [ref=f2e374]
+        - img "砂甲幼龍" [ref=f2e378]
+      - status [ref=f2e379]: 每題只作答一次；答對攻擊，答錯或超時扣血。累計三錯就結束這場。
+      - group [ref=f2e380]:
+        - generic "夥伴成長與戰鬥說明" [ref=f2e381] [cursor=pointer]
+    - generic [ref=f2e382]:
+      - button "回到港口" [ref=f2e383] [cursor=pointer]:
+        - generic [ref=f2e384]: ⛵
+      - generic "第 1 題，共 6 題" [ref=f2e388]:
+        - generic [ref=f2e389]: "1"
+        - generic [ref=f2e390]: "2"
+        - generic [ref=f2e391]: "3"
+        - generic [ref=f2e392]: "4"
+        - generic [ref=f2e393]: "5"
+        - generic [ref=f2e394]: "6"
+      - generic "累計答錯 0 題，三題即失敗" [ref=f2e395]: ❤️❤️❤️ 0 / 3
+    - generic [ref=f2e396]:
+      - generic [ref=f2e397]:
+        - strong [ref=f2e398]:
+          - generic [ref=f2e399]: 🎯
+          - text: 已答對 0 題 · 目標 4 題
+        - generic [ref=f2e403]:
+          - generic [ref=f2e404]: 🌱
+          - text: 慢慢想 · 不計時
+      - group [ref=f2e408]:
+        - generic [ref=f2e409]:
+          - paragraph [ref=f2e410]: 試卷題・四維國小 112學年度一上・康軒・第2頁 五4（注音選擇改編／裝置朗讀）
+          - generic [ref=f2e411]:
+            - generic [ref=f2e412]: 挑戰 1 / 6
+            - generic [ref=f2e413]: 1 年級
+          - heading "「飛機」，正確的注音是哪一個？" [level=1] [ref=f2e414]
+          - generic [ref=f2e415]:
+            - button "播放題目聲音" [ref=f2e416] [cursor=pointer]:
+              - generic [ref=f2e417]: 👂
+              - generic [ref=f2e422]: 聽題目
+              - generic [ref=f2e423]: ▶
+            - button "🛡️ 護盾" [ref=f2e429] [cursor=pointer]:
+              - generic [ref=f2e430]: 🛡️
+              - text: 護盾
+          - paragraph [ref=f2e434]: 點選答案，立即送出
+          - generic [ref=f2e435]:
+            - button "選擇 ㄈㄟ ㄐㄧ" [ref=f2e436] [cursor=pointer]:
+              - generic [ref=f2e437]: ㄈㄟ ㄐㄧ
+            - button "選擇 ㄏㄟ ㄐㄧ" [ref=f2e439] [cursor=pointer]:
+              - generic [ref=f2e440]: ㄏㄟ ㄐㄧ
+            - button "選擇 ㄈㄟ ㄑㄧ" [ref=f2e442] [cursor=pointer]:
+              - generic [ref=f2e443]: ㄈㄟ ㄑㄧ
+          - button "💡 提示" [ref=f2e446] [cursor=pointer]:
+            - generic [ref=f2e447]: 💡
+            - text: 提示
+          - status [ref=f2e451]:
+            - generic [ref=f2e452]:
+              - generic [ref=f2e453]: ✨
+              - generic [ref=f2e457]: 🧩
+            - button "聽出題說明" [ref=f2e461] [cursor=pointer]:
+              - generic [ref=f2e462]: 🔊
+          - paragraph [ref=f2e466]: 每題只能選一次。答錯或超時三次即失敗；六題答對 4 題才通關。每兩場成功換一張券。
+    - button "⏹ 結束航程" [ref=f2e467] [cursor=pointer]:
+      - generic [ref=f2e468]: ⏹
+      - text: 結束航程
+  - contentinfo [ref=f2e140]:
+    - generic [ref=f2e141]:
+      - img "星潮學院 Star Tide Academy — 星潮小龍" [ref=f2e142]:
+        - generic [aria-hidden] [ref=f2e143]:
+          - strong [ref=f2e144]: 星潮學院
+          - generic [ref=f2e145]: STAR TIDE ACADEMY
+      - generic [ref=f2e146]: Synthetic school QA
+    - generic [ref=f2e147]: 學習點數不扣除，休息後再一起出發。

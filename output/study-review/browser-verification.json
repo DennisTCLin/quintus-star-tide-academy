@@ -1,0 +1,90 @@
+{
+  "checks": [
+    {
+      "name": "Grade four review has no audio buttons",
+      "passed": true
+    },
+    {
+      "name": "Wrong answer shows full explanation and waits for explicit next",
+      "passed": true
+    },
+    {
+      "name": "Reload resumes same current question",
+      "passed": true
+    },
+    {
+      "name": "Independent tablet resumes same cloud session",
+      "passed": true
+    },
+    {
+      "name": "Phone receives tablet progress",
+      "passed": true
+    },
+    {
+      "name": "Original retry follows two answered intervening questions",
+      "passed": true
+    },
+    {
+      "name": "Review preserves all original reward and profile fields",
+      "passed": true
+    },
+    {
+      "name": "Continue creates another group",
+      "passed": true
+    },
+    {
+      "name": "Pause preserves session identity",
+      "passed": true
+    },
+    {
+      "name": "Offline disables answers",
+      "passed": true
+    },
+    {
+      "name": "Home can end a saved group without losing learning",
+      "passed": true
+    },
+    {
+      "name": "Child scoped parent summary is shown",
+      "passed": true
+    },
+    {
+      "name": "Grade one offers listening",
+      "passed": true
+    },
+    {
+      "name": "Recorded audio finishes before grade one choices unlock",
+      "passed": true
+    },
+    {
+      "name": "320px phone scrolls to next action",
+      "passed": true
+    },
+    {
+      "name": "No horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "Exhausted bank offers real review questions",
+      "passed": true
+    },
+    {
+      "name": "Super admin sees selected child review summary",
+      "passed": true
+    },
+    {
+      "name": "Admin summary fits phone width",
+      "passed": true
+    },
+    {
+      "name": "No unexpected browser runtime errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "expectedOfflineDiagnostics": [
+    "/127.0.0.1:4317/api/state due to access control checks.",
+    "/127.0.0.1:4317/api/state due to access control checks."
+  ],
+  "passed": true
+}

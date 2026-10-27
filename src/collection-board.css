@@ -1,0 +1,19 @@
+.cloud-collection-board{min-width:0}
+.cloud-collection-board .ranking-list>li{display:grid;grid-template-columns:3rem 4rem minmax(0,1fr) auto auto}
+.cloud-collection-board .ranking-person{min-width:0;overflow-wrap:anywhere}
+.cloud-collection-board .collection-open{white-space:normal;min-height:48px}
+.friend-collection-identity{display:flex;align-items:center;gap:1rem}
+.friend-collection-identity .player-avatar{width:72px;height:72px;flex:none}
+.friend-collection-cards{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.friend-collection-cards li{display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;padding:12px;border:1px solid #4d7686;border-radius:18px;background:#103246;min-width:0}
+.friend-collection-cards img{width:100%;height:130px;object-fit:contain}
+.friend-collection-cards strong{overflow-wrap:anywhere}
+@media(max-width:600px){.cloud-collection-board .ranking-list>li{grid-template-columns:2rem 3rem minmax(0,1fr);gap:10px;padding:16px}.cloud-collection-board .ranking-avatar{width:3rem;height:3rem}.cloud-collection-board .ranking-person h2{font-size:1.2rem}.cloud-collection-board .ranking-score{grid-column:2;font-size:1.7rem}.cloud-collection-board .collection-open{grid-column:3}.friend-collection-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.friend-collection-cards img{height:110px}}
+.cloud-collection-board .page-title>button{white-space:nowrap;align-self:flex-start;flex:none}
+
+/* Keep the native dialog stationary; scroll a bounded content layer on phones. */
+.family-app .social-dialog.social-scroll-shell {padding:0;overflow:hidden;}
+.family-app .social-scroll-shell[open] {display:flex;flex-direction:column;}
+.social-scroll-shell > .social-dialog-heading {flex:none;margin:0;padding:16px;}
+.social-scroll-body {flex:1 1 auto;min-height:0;min-width:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;touch-action:pan-y pinch-zoom;padding:0 16px 20px;scroll-padding-block:16px;}
+.social-scroll-body .friend-collection-cards img {-webkit-user-drag:none;user-select:none;}

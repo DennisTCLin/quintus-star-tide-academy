@@ -1,0 +1,31 @@
+{
+  "base": "http://127.0.0.1:4301",
+  "checks": [
+    "fourth voyage +50XP and fourth material pack; finish rewards remain3",
+    "rest/build/open/deposit/construct/relogin/reload/second-device and sibling/owned preservation",
+    {
+      "fixtureWidth": 320,
+      "player": "feifei",
+      "textOnly200Percent": true
+    },
+    {
+      "fixtureWidth": 390,
+      "player": "feifei",
+      "textOnly200Percent": true
+    },
+    {
+      "fixtureWidth": 768,
+      "player": "quintus",
+      "textOnly200Percent": true
+    },
+    {
+      "fixtureWidth": 1440,
+      "player": "quintus",
+      "textOnly200Percent": true
+    },
+    "saved non-default building goal preselected on entering territory"
+  ],
+  "pageErrors": [],
+  "explicitNoRequestSyncRetries": [],
+  "realAccountScope": "isolated QA account only; layout fixtures are mocked"
+}

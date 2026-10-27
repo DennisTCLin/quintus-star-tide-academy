@@ -1,0 +1,67 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "chromium 393 published five subjects and animated-island structure",
+      "pass": true
+    },
+    {
+      "name": "chromium 393 six math grades, three learning stages, no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "chromium 834 published five subjects and animated-island structure",
+      "pass": true
+    },
+    {
+      "name": "chromium 834 six math grades, three learning stages, no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "chromium personalized companion and rest poster feifei",
+      "pass": true
+    },
+    {
+      "name": "chromium personalized companion and rest poster olivia",
+      "pass": true
+    },
+    {
+      "name": "chromium published next button remains tappable with battle banner",
+      "pass": true
+    },
+    {
+      "name": "webkit 393 published five subjects and animated-island structure",
+      "pass": true
+    },
+    {
+      "name": "webkit 393 six math grades, three learning stages, no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "webkit 834 published five subjects and animated-island structure",
+      "pass": true
+    },
+    {
+      "name": "webkit 834 six math grades, three learning stages, no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "webkit personalized companion and rest poster feifei",
+      "pass": true
+    },
+    {
+      "name": "webkit personalized companion and rest poster olivia",
+      "pass": true
+    },
+    {
+      "name": "webkit published next button remains tappable with battle banner",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "realAssets": true,
+  "api": "intercepted synthetic fixture",
+  "realAccountMutations": false,
+  "physicalDevice": false
+}

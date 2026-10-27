@@ -1,0 +1,452 @@
+[
+  {
+    "index": 1,
+    "id": "companion-01",
+    "job_id": "0e81c0d3-3920-46b1-b12b-60a9f8be730a",
+    "model": "gpt_image_2_5",
+    "rawSha256": "f85515cd5966d4c8ed602db43d8a8abb55446674d2003ae6bf0d3692e4454a65",
+    "webpSha256": "108a806790170a87ad24073aec533fab083a6fd7eeefcc5f789f2b395d7451c3",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 2,
+    "id": "companion-02",
+    "job_id": "0499d3fe-f335-4175-b3c2-74360becf5f7",
+    "model": "gpt_image_2_5",
+    "rawSha256": "e190b81fbc3014dced977309a56570b8a299ed5274768e74fb3af88de21a78c8",
+    "webpSha256": "8a47c0dabae39d4f1d0890b36fe654d342ce505a4ec0483b271085f767a9e860",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 3,
+    "id": "companion-03",
+    "job_id": "c23c9dcd-9044-4dac-89cd-c72c38f76633",
+    "model": "gpt_image_2_5",
+    "rawSha256": "aea77f3f706fcd3c55c78d3fd95c9fc3c25eaa689a098fa06ad0ed64cf7bcbe8",
+    "webpSha256": "8b5b46de3b28fac80661751ddad930ebe0f1697fdd8198bba1c8d992cfb790d4",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 4,
+    "id": "companion-04",
+    "job_id": "8be08dcd-cab3-4599-b8ad-c4e462d37af2",
+    "model": "gpt_image_2_5",
+    "rawSha256": "0da7fa070354f817c90a2de6db752513944f6c5214934273ce6087a2cf279d89",
+    "webpSha256": "805e912874e9d4fde782e1e1a2ea459696e4381bc4fe23659e1daed5607ccf99",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 5,
+    "id": "companion-05",
+    "job_id": "0dd8dbb1-41b9-4a12-8f5e-9c1e3579ae84",
+    "model": "gpt_image_2_5",
+    "rawSha256": "ad844853dac38cc78f3a50874a243f45b9afbcaf6ee53efccfbe7f2da27b3b16",
+    "webpSha256": "6d6000cfc7467bc74756e001f3d7e54372ea7d56f491a0dbd8b902b127730776",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 6,
+    "id": "companion-06",
+    "job_id": "61711695-e9ed-4397-a742-368ecdb7ccdb",
+    "model": "gpt_image_2_5",
+    "rawSha256": "d13c8ed144b0d9604eafbfe5018ba52112101840c0708946213c83ae2fc3fbdd",
+    "webpSha256": "481673b790d13c4aedd9d5a983caa5960f8a0db14653ba9df048c1468b48b79a",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 7,
+    "id": "companion-07",
+    "job_id": "d562d6e4-121c-4518-a9c0-064fbcd36cf2",
+    "model": "gpt_image_2_5",
+    "rawSha256": "f19121b0b098e98f2599dc3522c38a72dec89816247ad66e7aa2a943fbdee7e2",
+    "webpSha256": "f9c2653547fdb50951e2f2073ff276171b16b89e1eb0385908e100ea30cb3a0e",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 8,
+    "id": "companion-08",
+    "job_id": "a7790feb-7438-4ffa-accb-255e25809f12",
+    "model": "gpt_image_2_5",
+    "rawSha256": "ae6b30fb5832aa1952844425df7411126744ac86a602df529799f9e8e0007d58",
+    "webpSha256": "50800e7471c34a49c387dae86ebd712d7a26e8384fb65cf97b8bbfdee4fd7a2f",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 9,
+    "id": "companion-09",
+    "job_id": "8a74da52-8487-423a-8606-f0ade7aa4855",
+    "model": "gpt_image_2_5",
+    "rawSha256": "efc91e6ac8a41d7ce9464d02ce891e022b29f713bf01ef5d0bf86f5ea31643d4",
+    "webpSha256": "cbca1b0a840e035e2b46293942a5427e1f00650653b7f51f7b2707de7f49cc37",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 10,
+    "id": "companion-10",
+    "job_id": "b5927fed-4426-41da-b9a9-788117d0c0ee",
+    "model": "gpt_image_2_5",
+    "rawSha256": "5b4d810dc4f3e84e26ccf8e17a62e71b164bdbef6a0f758c12dc1b7f28b3ab90",
+    "webpSha256": "d61b0449fcf0101638ae38343837b812036e047ef10df68699c89a67ce5fa0ef",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 11,
+    "id": "companion-11",
+    "job_id": "3de8e711-1dd3-4cdf-a433-5e216c1ec1a4",
+    "model": "gpt_image_2_5",
+    "rawSha256": "ae8c09159ded3e47a3a9b1660d432b18d30f06d6fe0a03e56a88b2b3f71f6b5d",
+    "webpSha256": "174d47af4fc85a186439505a7c69c19df2db2670574f30d7ce748872bb78cb00",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 12,
+    "id": "companion-12",
+    "job_id": "7d7ac525-20f4-4ecc-88d8-3e074bdf8254",
+    "model": "gpt_image_2_5",
+    "rawSha256": "11fa890f7d69924107572ec4cecf2030c77363d1d107b07c7fc4a4fca9145af5",
+    "webpSha256": "1143439054d5e7621b841aea1fa723389865b1fa2659fce365cfef8d75f4583a",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 13,
+    "id": "companion-13",
+    "job_id": "7000bbee-119c-49f2-8760-92f25b56ade2",
+    "model": "gpt_image_2_5",
+    "rawSha256": "ce2ca98366564260ea2b6839bd3f1d45478e78dda0f8aab51b1a5994b8ef2f68",
+    "webpSha256": "4a3bcc44dff83f9dcb09e822eb7a302cb1e0c8e2986508196a05335cec865513",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 14,
+    "id": "companion-14",
+    "job_id": "e9ee97c9-0ebc-469e-9c27-793022226667",
+    "model": "gpt_image_2_5",
+    "rawSha256": "76820604152412e648b6062380e8df5e5d0840b6b8ad941387183b6913fe285c",
+    "webpSha256": "31d07db0f1923ce1b6d737895b1025c8f731c32ac83efd7ca0be3c00a0946c78",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 15,
+    "id": "companion-15",
+    "job_id": "c15e0a4c-f36c-4e54-98f5-adfaf66d1d0a",
+    "model": "gpt_image_2_5",
+    "rawSha256": "afb9dc7d38fdd0c773bd0947864ba42a2c06efb6e8a70aa760e664b0fc0c3de1",
+    "webpSha256": "8eaef28743f85a02466aeb387f7781c7d61b27c2e134adc29e568afd20a1ce3b",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 16,
+    "id": "companion-16",
+    "job_id": "04906915-1d8a-4efb-bbfe-8d290b67aff0",
+    "model": "gpt_image_2_5",
+    "rawSha256": "75434c71727c1ad13f9e9c14c6a4269189ff2ed22a2d665deef509171a32d589",
+    "webpSha256": "980b7182fec4a00ec4b84f140c9df3ddc0caf4abd13131273ee751de15445a2b",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 17,
+    "id": "companion-17",
+    "job_id": "ad7a1c43-120d-4172-afa5-f88d814526b7",
+    "model": "gpt_image_2_5",
+    "rawSha256": "25d0552cb894b3c6eca84200f2fa00b3fee492372ef6cd20112eafc4c582d462",
+    "webpSha256": "00fd6eaa818c6f73f86793544df216f564ba3f0deeb7c2bc691757080096598d",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 18,
+    "id": "companion-18",
+    "job_id": "9e7a78a8-06fd-450c-bc04-3abf4276177d",
+    "model": "gpt_image_2_5",
+    "rawSha256": "bfe1876da0199fdba8e8367aeb727a50e379a0dc963e6d3d9ebf5f6511429b8a",
+    "webpSha256": "607695fb797ec5096bcaf5494dbd4901b1b6d7a6b4bbad94ceb94c85ce3b1efa",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 19,
+    "id": "companion-19",
+    "job_id": "529d41b0-a28b-4c39-a5ab-d7783a305dac",
+    "model": "gpt_image_2_5",
+    "rawSha256": "6c938ffd0757a64c4e2a5930accf70a227af88e21198e0b64aa4b8924f814a46",
+    "webpSha256": "b7630bafbb70f684a5f6b577dc2753b86db5db0a3b775f5778cf26d935606d8c",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 20,
+    "id": "companion-20",
+    "job_id": "14e3846c-feee-48c6-86d1-c56a4a2c2ae3",
+    "model": "gpt_image_2_5",
+    "rawSha256": "f012e6b8b4e09fbeea51cec9c5bc99227b53fa9e25f06521a10c91f1c8bed565",
+    "webpSha256": "1e4b28f8e66e2a09a5fa22c576404bc58eaf7ab91195cfea256af1ae2c2827a6",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 21,
+    "id": "companion-21",
+    "job_id": "e37d3502-392f-46e5-9dee-7cb57a01bd3b",
+    "model": "gpt_image_2_5",
+    "rawSha256": "c0ec4849e1859c7f643a8cb525f0644ae3e48695a767ba7362b5c23d47d292cf",
+    "webpSha256": "c903822b25ed2a2686ae08393a313131c852309eb0288872423ed9e6583739eb",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 22,
+    "id": "companion-22",
+    "job_id": "7bdd5305-f06b-47dd-8f88-1a0bb5579816",
+    "model": "gpt_image_2_5",
+    "rawSha256": "e72138832dbe2584571b12fa8499bd9f94b66736d6b8b208e64ae98b27142b92",
+    "webpSha256": "c2270348a5de75e3e3b7919fdae0f69bc3aca8c93ab8c00ae192c9348fa74a9f",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 23,
+    "id": "companion-23",
+    "job_id": "bbc52cf2-4d24-4003-94d3-f7b08c739830",
+    "model": "gpt_image_2_5",
+    "rawSha256": "b3aab2fc40d01cd71b8584b806d076c7626beba9b7df56b0639476a8d82a2176",
+    "webpSha256": "4808fa1fef3883110a3f9ca11509ae5984c9388e2fdbfc891ba4a2468b843f77",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 24,
+    "id": "companion-24",
+    "job_id": "b7f6b645-e9df-4191-9475-65117bc9f0d3",
+    "model": "gpt_image_2_5",
+    "rawSha256": "a16f689e3be0305590fd31d29c98be05f3ee97a6e94e84439b0eb7429c394a31",
+    "webpSha256": "6d8071e7467416f1064e33c7c30793b0eb882f6f53e7681332d6eaa1c09976b1",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 25,
+    "id": "companion-25",
+    "job_id": "fdb98c48-6b41-4ee8-bb40-75928154811f",
+    "model": "gpt_image_2_5",
+    "rawSha256": "09ec27d3d2bffad280d5727844dcfd903e85c4197400581799ca7ef6cec485c7",
+    "webpSha256": "4c903fe3a54a5497df976fdef193df354eaac6a5d52bc498fce02f06db1411dd",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 26,
+    "id": "monster-01",
+    "job_id": "5277d2d8-eb68-4d53-8e87-ca098019fd13",
+    "model": "gpt_image_2_5",
+    "rawSha256": "981a51a0f886a482c4bc221e6de71ad48327a0e83e3d829f1ea0025de9f48869",
+    "webpSha256": "809ae5ab4925d1df80c1d445ac943e43ec6e9d39ffb5fb9a7a0ca888b8328ad2",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 27,
+    "id": "monster-02",
+    "job_id": "887ffba6-66f4-4cce-8627-1be66d038c41",
+    "model": "gpt_image_2_5",
+    "rawSha256": "986001256764226402e46e27011abdf2cd61be1f2bc0bed3d9905158a68c9edd",
+    "webpSha256": "e855543b87e7da4f7b015c585fa62364a6b8932f973bebe7b847f6eb125331fd",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 28,
+    "id": "monster-03",
+    "job_id": "63569970-44a7-4837-8096-add1f7ea4860",
+    "model": "gpt_image_2_5",
+    "rawSha256": "332de5bc3f59416a694d132d2d33054eeaa68320cddde6b41865f91a4f7f5573",
+    "webpSha256": "f4db98ab23ad34066dea90f3e03f755e8be5c502b6d0e08c68bcf39a114f8548",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 29,
+    "id": "monster-04",
+    "job_id": "b0da2a2e-6086-4e03-8816-3534a9bac22d",
+    "model": "gpt_image_2_5",
+    "rawSha256": "8555ab9cc8c9f40c40d11515202a373b101fa3e9590c753d7f3526c1cbdf6eb6",
+    "webpSha256": "5ba155ef20e0553ab0ad017ba56cfc732ba75b0e7080c517f198026e23b01e87",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 30,
+    "id": "monster-05",
+    "job_id": "71c5a506-4c0d-4aba-97d1-de2636883ebe",
+    "model": "gpt_image_2_5",
+    "rawSha256": "6779da38f497b3d94be2053ffa7db369e7b8bd739e084706842788e415860fd1",
+    "webpSha256": "3449e562572907ae06e48c2067d427ab53930738bdeaecbaf9fcac0c0251272a",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 31,
+    "id": "monster-06",
+    "job_id": "ae9de050-d521-44a2-b203-24ab69189135",
+    "model": "gpt_image_2_5",
+    "rawSha256": "1a30cbfa0e72e98815fa314c3f0353761c4db2a4687cd887bebc442ec6893155",
+    "webpSha256": "1a17d4f93ed82729ca5f54fe3872de1298be1d7f9836944fde25ddaa55669f0e",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 32,
+    "id": "monster-07",
+    "job_id": "71f6f541-dbb0-4300-938b-f57ecec651bf",
+    "model": "gpt_image_2_5",
+    "rawSha256": "6a126447c76d007ee6a1fc5635fc8365e059244cb45cdded4dcbf95fb6e45d7b",
+    "webpSha256": "eaad3cac8848b6067e817605aa75bd9d52ecad3555cbf0a580429afe6831dccb",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 33,
+    "id": "monster-08",
+    "job_id": "6a519c9d-8d13-43fb-abef-888995333a83",
+    "model": "gpt_image_2_5",
+    "rawSha256": "97342d33ffa75cc30efad78b69fb58199f6c7e930c6bdd5bb0179a4b45437889",
+    "webpSha256": "e8627ca2dbb583f3588d1211a3de770e63ac12331115e3d0d53f441f6b7c4b17",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 34,
+    "id": "monster-09",
+    "job_id": "88fab88c-09b8-4b14-8216-2d938907c3b8",
+    "model": "gpt_image_2_5",
+    "rawSha256": "0de56e90a34a88c8d71ad8edbc8514b999a3cfeb0da545b58dcc5013a23e539f",
+    "webpSha256": "1d08fad346ed341dc587a2d0c393edf063de51e9a7132dc5ab63df7236512f63",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 35,
+    "id": "monster-10",
+    "job_id": "eca6a32f-d086-4dd6-9629-ea2af7e63533",
+    "model": "gpt_image_2_5",
+    "rawSha256": "b8904354aa8c6f17a71fc1033097fa2e4954cda4b8a3d0b3eac20cd465b01c3e",
+    "webpSha256": "85ee8b2101aee930edca2cc7c3d9b357878533fac006d6c4ffb14ab21b345019",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 36,
+    "id": "monster-11",
+    "job_id": "be665d23-8c1a-4e26-b370-0b32d94b1f29",
+    "model": "gpt_image_2_5",
+    "rawSha256": "fb3afd60b1238d41c54df31c5d3690e4bb0a21e48e21789fa555cd54a5b3aca5",
+    "webpSha256": "a84e440b548d4076fbbf40892154bac0782b77191187ba0ef78c5131dbbbb508",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 37,
+    "id": "monster-12",
+    "job_id": "3de07b9c-3223-4f33-9d9e-582875faf71d",
+    "model": "gpt_image_2_5",
+    "rawSha256": "d6c7828ff4384245abcc63185f389d3459ba4f5bc3c1435a045b03bd133856fd",
+    "webpSha256": "dd9922485bbc4b18704d861d38f33bcb0495f11f752e29f8fb03513c9a79d9e3",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 38,
+    "id": "monster-13",
+    "job_id": "22faf14a-98e5-4614-932a-6658e51c150a",
+    "model": "gpt_image_2_5",
+    "rawSha256": "fcf7f08e361328f4eaa86b582ae60e5e3fdc9d2fd4e1044791d63cb978fa6cb9",
+    "webpSha256": "d292450abea82b4c41c8835aa7287de28d0bda908bbd7ee795d6ee48fa113530",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 39,
+    "id": "monster-14",
+    "job_id": "d1728373-523e-4296-9fae-371445695634",
+    "model": "gpt_image_2_5",
+    "rawSha256": "5648be70720dcf04ea53a65761dbf7f70324131fd672d2e19126fa3de02ee50f",
+    "webpSha256": "a9b023a14ff189642f4d327472f466e8baaa10b150ec9e7be384e9aa632f9725",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 40,
+    "id": "monster-15",
+    "job_id": "d3530f5e-d8bc-4156-ac6a-574aa0fff4e5",
+    "model": "gpt_image_2_5",
+    "rawSha256": "246f3631be2e2d3c8081011ddf655fc90b12e3859ede7c691b0494fe7b751e4b",
+    "webpSha256": "e1427833a77bf4f473dff79ef95e95bea52ff723dc42eb35570bcf4a456c387f",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 41,
+    "id": "monster-16",
+    "job_id": "c75b656d-e7a4-4a3e-b9c4-3d2b768f91ab",
+    "model": "gpt_image_2_5",
+    "rawSha256": "7ffaed5cc24bc236e84078574c717b30d3ecdd78b0ce8bb07a33ac2863ff033e",
+    "webpSha256": "8f013f062ea790f8b68131a8f72b14bb7124cae8052a7ba4a18d1efba54db29b",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 42,
+    "id": "monster-17",
+    "job_id": "2ae98fa1-4e4a-46eb-891a-4f6bc6f2f255",
+    "model": "gpt_image_2_5",
+    "rawSha256": "fd3a62186d93824e25bc5a2143bff5bcc86c69713cb7f9765727df1c42d20fb0",
+    "webpSha256": "7d4351b2992ccc260caef6ea65c95be9cc5a2bbcbe7b2e1c5943677d162bfa97",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 43,
+    "id": "monster-18",
+    "job_id": "de367974-df64-4315-b453-207f66b5bb1e",
+    "model": "gpt_image_2_5",
+    "rawSha256": "19c7d64dfd3dd9be73155d750cf6eec25d47dd56cfa30f5a585cf4ecd8200dbb",
+    "webpSha256": "fb7074e437dc6c3aba2a681256da131b217bfa9f82134168429eb35f676a0a02",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 44,
+    "id": "monster-19",
+    "job_id": "599e75e0-1d0f-4b1c-9ea6-851dbccc3d96",
+    "model": "gpt_image_2_5",
+    "rawSha256": "0b18ca93fb0b062060a3e51e8fde9c8768aedbe447797b3e9e2b54f4c9af9329",
+    "webpSha256": "bc44de7c79e57f04236d7fb1825995c1880a4ba5260cce616db6e6f2e34acb65",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 45,
+    "id": "monster-20",
+    "job_id": "78cb70d5-771e-4d4a-bbab-e7e5f44fac22",
+    "model": "gpt_image_2_5",
+    "rawSha256": "5acfc83dbf7796672ad94e4782b0288e91beb1e5c016587356438da509749b70",
+    "webpSha256": "98e398bfd13cab5ab86bcb065082217f1e2bad6d78fd6df8cc27a527ef25c952",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 46,
+    "id": "monster-21",
+    "job_id": "ba3f71b0-61eb-4fb7-9b32-a4c08bb49aad",
+    "model": "gpt_image_2_5",
+    "rawSha256": "3f1b946600e2572122bc47c2a83fec80b4f9f4604b961e5599bc8f4b6c81e98a",
+    "webpSha256": "2149c0b931cc3ce1257eb03592bc4776086c108a4216059fee4bf93353bf10ae",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 47,
+    "id": "monster-22",
+    "job_id": "360819c4-3691-47d2-9a75-5b17f9387e78",
+    "model": "gpt_image_2_5",
+    "rawSha256": "a81312a23d006c1b7e21079ad8963fa710ef2c193fca7cda65e5508486bf929d",
+    "webpSha256": "410997e5ea11c4e59dd0023c36d2241a837f1a666da971205e2d2d101e1b60f4",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 48,
+    "id": "monster-23",
+    "job_id": "c6788e3f-ce14-47d2-bb86-7bd32264fa55",
+    "model": "gpt_image_2_5",
+    "rawSha256": "4d6ea9c216effb16a401170cf04f0001edc2c2d576a2621d3410901ae03f6265",
+    "webpSha256": "229e548c5eb075c2c760e2fcb0d7db39ac2c11241f733f8e3e14d47661f03f41",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 49,
+    "id": "monster-24",
+    "job_id": "feb7cd8f-18c1-42c5-9e17-b9dd53739264",
+    "model": "gpt_image_2_5",
+    "rawSha256": "5a2a586059c842558212a9809e53a3ab660b12cca2f1cca5660f990097fc7e88",
+    "webpSha256": "08950190af6a274f7c962c205659384b28351173ac4fe983ecace7ba4a481183",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  },
+  {
+    "index": 50,
+    "id": "monster-25",
+    "job_id": "3c2301be-8f99-4303-9daf-d75be599d885",
+    "model": "gpt_image_2_5",
+    "rawSha256": "05d39ece63fa362b68f6a5fdd1791034f6dc29f9eed6578b327cbaef9ff28d7e",
+    "webpSha256": "f83078520400d23668ae3f3f91ec1349820d72239090551ae739bd2555cd5d7d",
+    "review": "passed silhouette, style, crop and transparency visual inspection; proposal only"
+  }
+]

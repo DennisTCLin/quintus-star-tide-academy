@@ -1,0 +1,109 @@
+{
+  "verifiedAt": "2026-10-25T05:46:14.659Z",
+  "sourceCommit": "3d4b5e9c30769b597ccb1bb9412f651cec4530cc",
+  "deployment": "492cb4e6-5120-4b89-b162-e48f7aa6bc33",
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "railwayStatus": "SUCCESS",
+  "health": {
+    "status": 200,
+    "body": {
+      "ok": true,
+      "service": "quintus-ocean-academy"
+    }
+  },
+  "index": {
+    "status": 200,
+    "entry": "/assets/index.v-BqsGpGen.js",
+    "expected": "/assets/index.v-BqsGpGen.js",
+    "match": true
+  },
+  "assets": [
+    {
+      "path": "/assets/index.v-BqsGpGen.js",
+      "status": 200,
+      "bytes": 342444,
+      "sha256": "aca7030f1e30d4ddc38893fe2a5df0167d0df6ae6b6b9cf1ff637b6454cf6f3c",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/game-view.v-CNifi8gA.css",
+      "status": 200,
+      "bytes": 973,
+      "sha256": "18d7f1eb99c0d8ff50deeead3888d21938085cdc4b3cc105556e79a6c5abb894",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/index.v-D84dSkxC.css",
+      "status": 200,
+      "bytes": 234853,
+      "sha256": "d912c8babdd87b85c9367372c8f7a562dd0c41f9fd7e5f144bdb16203b318155",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/math-island/archipelago.webp",
+      "status": 200,
+      "bytes": 318378,
+      "sha256": "2a1468441b4d4bbdfe971493ec35c8ca69fc484e17181ba5ae16bdd3f564bcbd",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/math-island/candy-island.webp",
+      "status": 200,
+      "bytes": 140656,
+      "sha256": "c495571502ae44b4cbfbf6f81a84f02f4b0c29224ecb2a08463a1acb9089395d",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/math-island/counting-bay.webp",
+      "status": 200,
+      "bytes": 129164,
+      "sha256": "259830edc502d90ba5ab556fcdc938e21bbb8a482013f8550ab621452d2c4e8c",
+      "matchesLocal": true
+    },
+    {
+      "path": "/assets/math-island/duck-dock.webp",
+      "status": 200,
+      "bytes": 146122,
+      "sha256": "72212f78dee27a73692ac19ed22dedacfd97f21f8c09efb5cc1f00355711f270",
+      "matchesLocal": true
+    }
+  ],
+  "authenticatedProductionGameplayTested": false,
+  "localFullTests": {
+    "files": 71,
+    "passed": 583,
+    "skipped": 0
+  },
+  "allJavascriptChunks": [
+    {
+      "path": "/assets/IslandApp.v-Clm5zcN9.js",
+      "status": 200,
+      "sha256": "2569d20a41daa729c602b2f61efc9b4e71572cf2e52ec501c3cd4eef6c970db9"
+    },
+    {
+      "path": "/assets/RoomEditor.v-CvROZn2M.js",
+      "status": 200,
+      "sha256": "a59df9250094aa1f628d827621e0a5c25e80b144adf3a7bc67d3575961898473"
+    },
+    {
+      "path": "/assets/TerritoryPage.v-BRx3dZAa.js",
+      "status": 200,
+      "sha256": "7607eaa7313d73e52dd45767d820da9d4f9551ca62730f4bdc481cfdf9af3402"
+    },
+    {
+      "path": "/assets/game-view.v-CbjnAElc.js",
+      "status": 200,
+      "sha256": "316cc8b3de517dc3e1588b07c4ecc18340cd4d5ccddf82b0e530d3a7e3708657"
+    },
+    {
+      "path": "/assets/index.v-BqsGpGen.js",
+      "status": 200,
+      "sha256": "aca7030f1e30d4ddc38893fe2a5df0167d0df6ae6b6b9cf1ff637b6454cf6f3c"
+    }
+  ],
+  "publicBrowser": {
+    "page": "login",
+    "consoleErrors": 0,
+    "screenshot": "production-login.png"
+  }
+}

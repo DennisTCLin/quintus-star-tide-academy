@@ -1,0 +1,55 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "webkit first viewport, open rest, close focus and scroll 393",
+      "pass": true
+    },
+    {
+      "name": "webkit first viewport, open rest, close focus and scroll 375",
+      "pass": true
+    },
+    {
+      "name": "webkit first viewport, open rest, close focus and scroll 430",
+      "pass": true
+    },
+    {
+      "name": "webkit tablet inline entry preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit mobile identity olivia",
+      "pass": true
+    },
+    {
+      "name": "webkit mobile identity jimmy",
+      "pass": true
+    },
+    {
+      "name": "chromium first viewport, open rest, close focus and scroll 393",
+      "pass": true
+    },
+    {
+      "name": "chromium first viewport, open rest, close focus and scroll 375",
+      "pass": true
+    },
+    {
+      "name": "chromium first viewport, open rest, close focus and scroll 430",
+      "pass": true
+    },
+    {
+      "name": "chromium tablet inline entry preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium mobile identity olivia",
+      "pass": true
+    },
+    {
+      "name": "chromium mobile identity jimmy",
+      "pass": true
+    }
+  ],
+  "url": "http://127.0.0.1:47731",
+  "physicalPhone": false
+}

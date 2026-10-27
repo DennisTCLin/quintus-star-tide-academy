@@ -1,0 +1,13 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/social-exams.test.ts src/__tests__/grade4-social-supplement.test.ts --silent
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/school-question-bank/星潮網站開發
+
+
+ Test Files  2 passed (2)
+      Tests  9 passed (9)
+   Start at  00:59:13
+   Duration  277ms (transform 45%, import 41%, tests 13%, worker 1%)
+

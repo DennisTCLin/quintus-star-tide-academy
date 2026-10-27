@@ -1,0 +1,32 @@
+{
+  "pet": "pebblefin",
+  "boundaryPixels": 0,
+  "detachedPixelsRemoved": 16129,
+  "effectEdgeFadePixels": {
+    "attackRight": 80
+  },
+  "crop": {
+    "left": 141,
+    "top": 22,
+    "width": 837,
+    "height": 837
+  },
+  "clips": [
+    {
+      "kind": "idle",
+      "src": "/assets/battle/pebblefin-idle.webp",
+      "columns": 6,
+      "rows": 4,
+      "frames": 24,
+      "bytes": 354830
+    },
+    {
+      "kind": "attack",
+      "src": "/assets/battle/pebblefin-attack.webp",
+      "columns": 6,
+      "rows": 4,
+      "frames": 24,
+      "bytes": 335832
+    }
+  ]
+}

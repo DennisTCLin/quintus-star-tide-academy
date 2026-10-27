@@ -1,0 +1,255 @@
+{
+  "site": "https://quintus-star-tide-academy-production.up.railway.app",
+  "entry": "/assets/index.v-BCZYdiSC.js",
+  "noAccountAccess": true,
+  "checks": [
+    {
+      "check": "health",
+      "pass": true
+    },
+    {
+      "check": "entry-reference",
+      "path": "/assets/index.v-BCZYdiSC.js",
+      "pass": true
+    },
+    {
+      "path": "/assets/IslandApp.v-DEHy44tm.css",
+      "bytes": 35464,
+      "mime": "text/css; charset=utf-8",
+      "sha256": "60127c8e1aa188f1684e3cde524cf82696326a6da1d816464a2fea42fb465720",
+      "pass": true
+    },
+    {
+      "path": "/assets/IslandApp.v-pe3z9IGx.js",
+      "bytes": 58725,
+      "mime": "text/javascript; charset=utf-8",
+      "sha256": "b90300a7a2c97d1de76e96a670645a04505d649f727aa0fd125d7f1ccbe8216d",
+      "pass": true
+    },
+    {
+      "path": "/assets/RoomEditor.v-Ds371slr.js",
+      "bytes": 10668,
+      "mime": "text/javascript; charset=utf-8",
+      "sha256": "a620ccbe3414b153dd10e3be87d3fcdf15785a190a3634367af155cd45aabb44",
+      "pass": true
+    },
+    {
+      "path": "/assets/TerritoryPage.v-IPwQI2HF.js",
+      "bytes": 36029,
+      "mime": "text/javascript; charset=utf-8",
+      "sha256": "f43f1084a964c2658e43e8abe7427780702365e220e8102afcac9534c1fae52e",
+      "pass": true
+    },
+    {
+      "path": "/assets/TerritoryPage.v-XpGSXE-r.css",
+      "bytes": 30002,
+      "mime": "text/css; charset=utf-8",
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "pass": true
+    },
+    {
+      "path": "/assets/game-view.v-CNifi8gA.css",
+      "bytes": 973,
+      "mime": "text/css; charset=utf-8",
+      "sha256": "18d7f1eb99c0d8ff50deeead3888d21938085cdc4b3cc105556e79a6c5abb894",
+      "pass": true
+    },
+    {
+      "path": "/assets/game-view.v-bn2NdBWE.js",
+      "bytes": 388248,
+      "mime": "text/javascript; charset=utf-8",
+      "sha256": "804e1448d2974834a8c3089c537cdeae9c80ac6b240b75eca14be1bc7f5897c3",
+      "pass": true
+    },
+    {
+      "path": "/assets/index.v-BCZYdiSC.js",
+      "bytes": 399258,
+      "mime": "text/javascript; charset=utf-8",
+      "sha256": "40c731af7d3db1a8a715a051fed653030d33463ba61310339eb24882ec257ddd",
+      "pass": true
+    },
+    {
+      "path": "/assets/index.v-BM7wfk-m.css",
+      "bytes": 265348,
+      "mime": "text/css; charset=utf-8",
+      "sha256": "7e28c13ce969be4a0707745b0c35aaef696c6be301a98253ed53c527ebda3089",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-care/actions.webp",
+      "bytes": 61096,
+      "mime": "image/webp",
+      "sha256": "f215b2fb722d905f1187f077446635a6f25c79c8843be089a8e0562fc7ef5174",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/cheering.mp4",
+      "bytes": 429112,
+      "mime": "video/mp4",
+      "sha256": "3c72fa52a350fc64f992af7b6a68491826ee098e6f561dc1c420be5066ca34cf",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/feed.mp4",
+      "bytes": 178834,
+      "mime": "video/mp4",
+      "sha256": "7c1bc7527c6c1f13602f805593617d075c8017f402a2c467f34f8570c5e86232",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/greet.mp4",
+      "bytes": 239768,
+      "mime": "video/mp4",
+      "sha256": "b4f8080e56fc8d2f152b975729604ca201974e659a74231f3cc6178c76fd3982",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/idle.mp4",
+      "bytes": 188472,
+      "mime": "video/mp4",
+      "sha256": "f6cc96feb61334546928043f1aa559b2c03355d9b690b409ded83763feb936e4",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/listening.mp4",
+      "bytes": 213433,
+      "mime": "video/mp4",
+      "sha256": "51f8c243295e2f992afcf7831d717c5c6fdd3fdbb0c49f4a528b983fe69a40f0",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/pet.mp4",
+      "bytes": 273248,
+      "mime": "video/mp4",
+      "sha256": "b66b3ec6f5236963ea432de32715ef424eccaad3c30c5945cfb6e77bc3244c69",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/play.mp4",
+      "bytes": 418706,
+      "mime": "video/mp4",
+      "sha256": "783c910cfafbfc2c7a56f14653392724a5ad8639641f83e575d65a9d8be91888",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/poster.webp",
+      "bytes": 100608,
+      "mime": "image/webp",
+      "sha256": "74dcec27d2eb0193adb9adfed55c9708f62eb9234588cd6efc52c6b082934f58",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/rest.mp4",
+      "bytes": 180144,
+      "mime": "video/mp4",
+      "sha256": "80fb501f517887428cc4d1b7ee56df64217ad26244b4463763dfc823bc0dc973",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/speaking.mp4",
+      "bytes": 178158,
+      "mime": "video/mp4",
+      "sha256": "89068c2c0c381e44b2699c68f50d40b164689768d1cb83ff31344d8597e55ac2",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/thinking.mp4",
+      "bytes": 169341,
+      "mime": "video/mp4",
+      "sha256": "174d576ca741f2e1c6e1225957f7fa4bb044912184cddf170659486190bbda57",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-20261025/cheer.mp3",
+      "bytes": 52269,
+      "mime": "audio/mpeg",
+      "sha256": "f18ced4fd9f7ec0b4169cd8345475b9f2e2c1a31c9de3b0b95b4a138fc0ae52a",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-20261025/feed.mp3",
+      "bytes": 25773,
+      "mime": "audio/mpeg",
+      "sha256": "12cf7c4beef3642d28a2ab31ee7e8385c00eeaf1676a276b9443c9210c960187",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-20261025/microphone.mp3",
+      "bytes": 47469,
+      "mime": "audio/mpeg",
+      "sha256": "bf3f9e4f4d822b567a716d942647d2855aa9871a2fad2c64d0687ba89de43189",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-20261025/pet.mp3",
+      "bytes": 28269,
+      "mime": "audio/mpeg",
+      "sha256": "9f5d8eece659c7121047502241bc48513c42534af62bd921c3a6c281152ae29b",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-20261025/play.mp3",
+      "bytes": 32301,
+      "mime": "audio/mpeg",
+      "sha256": "89884b964fdfc0e8c8c92e1ed3979a6076cdd42776ce18235204b9535e582b28",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-20261025/rest.mp3",
+      "bytes": 39405,
+      "mime": "audio/mpeg",
+      "sha256": "226a2b10b788253dddefb380f5d93113d72e5d6504f636a22313e730588a38cb",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-20261025/welcome.mp3",
+      "bytes": 52269,
+      "mime": "audio/mpeg",
+      "sha256": "4ae13602645c4fc4bc80eeef8affc57180e77524b98324d2416cbce171123e68",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-care-20261025/ball-start.mp3",
+      "bytes": 39405,
+      "mime": "audio/mpeg",
+      "sha256": "4371b8bab2fefdd0cda82a6cae524d36a4fc0a60daa9b8c8ff6976f2d76325e2",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-care-20261025/bubbles-done.mp3",
+      "bytes": 41709,
+      "mime": "audio/mpeg",
+      "sha256": "649ddfb070529a243f844e154bf4d9e828efa6a49f5efd5311ef22c66c7b87e9",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-care-20261025/bubbles-start.mp3",
+      "bytes": 41709,
+      "mime": "audio/mpeg",
+      "sha256": "d01befe348ac0b603d3b39af2183deeba35c979ff03baaa22097de504eca9ea4",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-care-20261025/bubbles.mp3",
+      "bytes": 27309,
+      "mime": "audio/mpeg",
+      "sha256": "6ff8d01dcc4012afe8d663b7324b8386149a43bfb2ac59ba78deb441f8ace9d9",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-care-20261025/highfive-start.mp3",
+      "bytes": 36333,
+      "mime": "audio/mpeg",
+      "sha256": "3c8b289e01ed9e8693e19286082b9276c4df717ba3a3d779363d9f73f6c47168",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-care-20261025/highfive.mp3",
+      "bytes": 37677,
+      "mime": "audio/mpeg",
+      "sha256": "c8e73a72981f5dcbae893c3431b0d4be9679be3323ba12a4f905072707f3f30f",
+      "pass": true
+    }
+  ],
+  "pass": true
+}

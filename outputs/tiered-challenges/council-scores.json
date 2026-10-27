@@ -1,0 +1,87 @@
+{
+  "winner": "B",
+  "confidence": "blocked",
+  "tied_with_next": false,
+  "top_margin": 0.3307,
+  "weights": {
+    "accuracy": 0.35,
+    "completeness": 0.2,
+    "clarity": 0.2,
+    "conciseness": 0.15,
+    "relevance": 0.1
+  },
+  "ranking": [
+    {
+      "candidate_id": "B",
+      "raw_mean": 8.725,
+      "normalized_mean": 1.2023,
+      "normalized_stderr": 0.1788,
+      "review_count": 2,
+      "blocked": true,
+      "blocking_issues": [
+        "Specify deadline boundary, grace, readiness, accommodations and replay before build.",
+        "Specify deadline boundary, grace, readiness, accommodations and replay before build."
+      ]
+    },
+    {
+      "candidate_id": "C",
+      "raw_mean": 8.6,
+      "normalized_mean": 0.8716,
+      "normalized_stderr": 0.0079,
+      "review_count": 2,
+      "blocked": true,
+      "blocking_issues": [
+        "Bound readiness; prevent question preview; disclose network/background rules.",
+        "Bound readiness; prevent question preview; disclose network/background rules."
+      ]
+    },
+    {
+      "candidate_id": "F",
+      "raw_mean": 8.4,
+      "normalized_mean": 0.4073,
+      "normalized_stderr": 0.0687,
+      "review_count": 2,
+      "blocked": true,
+      "blocking_issues": [
+        "Define actual monster mapping and timing policy; do not claim unmeasured performance.",
+        "Define actual monster mapping and timing policy; do not claim unmeasured performance."
+      ]
+    },
+    {
+      "candidate_id": "A",
+      "raw_mean": 7.975,
+      "normalized_mean": -0.6741,
+      "normalized_stderr": 0.5186,
+      "review_count": 2,
+      "blocked": true,
+      "blocking_issues": [
+        "Optional speed alone does not meet timed qualification.",
+        "Optional speed alone does not meet timed qualification."
+      ]
+    },
+    {
+      "candidate_id": "E",
+      "raw_mean": 7.925,
+      "normalized_mean": -0.6819,
+      "normalized_stderr": 0.2095,
+      "review_count": 2,
+      "blocked": true,
+      "blocking_issues": [
+        "Unlimited client pausing undermines authoritative timing.",
+        "Unlimited client pausing undermines authoritative timing."
+      ]
+    },
+    {
+      "candidate_id": "D",
+      "raw_mean": 7.6,
+      "normalized_mean": -1.1251,
+      "normalized_stderr": 0.61,
+      "review_count": 2,
+      "blocked": true,
+      "blocking_issues": [
+        "60/50/40 limits not child-validated; exclude/budget audio and define expiry.",
+        "60/50/40 limits not child-validated; exclude/budget audio and define expiry."
+      ]
+    }
+  ]
+}

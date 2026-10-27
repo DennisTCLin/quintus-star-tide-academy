@@ -1,0 +1,70 @@
+{
+  "updatedAt": "2026-10-24T23:04:58.232505+00:00",
+  "base": "17c35b8",
+  "implementation": "four grade4 nonmath final-review lanes:1 seen curated to3 eligible generated; no fresh allocation/schema/content/economy change",
+  "tests": {
+    "targeted": 6,
+    "fullFiles": 59,
+    "fullTests": 486,
+    "build": "PASS",
+    "pronunciation": {
+      "sourceRuns": 4736,
+      "curatedLessons": 165,
+      "contextRules": 202
+    }
+  },
+  "independent": {
+    "status": "PASS",
+    "coverageQuestions": 49860,
+    "batches": 14236,
+    "freshTransitions": 200,
+    "levelSwitches": 48,
+    "wrapRestoreMerge": 12,
+    "unaffectedQuestions": 13464,
+    "freshGrade4Unchanged": 310,
+    "invalidCursorsRejected": 28,
+    "battleCases": 28,
+    "rewardRuns": 12
+  },
+  "browser": "batch12-browser.json + batch12-browser-state.json + batch12-public-projection.json",
+  "assets": {
+    "index.v-DM_kJs13.css": {
+      "bytes": 232387,
+      "gzip9": 48571,
+      "sha256": "9e44fd7e4fe6d484a877c8f117da233604d020d7def4b2e15ba91bdf0084694a"
+    },
+    "TerritoryPage.v-Cjn48xT-.js": {
+      "bytes": 35956,
+      "gzip9": 12776,
+      "sha256": "b8719dbdcdc313b7b46967bb20556aaa514732fe1493f1df9911b74ac2d6880e"
+    },
+    "TerritoryPage.v-XpGSXE-r.css": {
+      "bytes": 30002,
+      "gzip9": 6405,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    "index.v-CR4lxHdZ.js": {
+      "bytes": 668117,
+      "gzip9": 232177,
+      "sha256": "26bd1ca4bacc3b547c3b275ddc695e5bc721650705fcfe31278747c12c2b4cd6"
+    },
+    "RoomEditor.v-Sjj5Y5VT.js": {
+      "bytes": 10629,
+      "gzip9": 4072,
+      "sha256": "5122a396a37225ffcf8c96115010a7ec99b08a6d4ee7529b25aa7abaeaeed25f"
+    }
+  },
+  "serverBundle": {
+    "bytes": 419955,
+    "sha256": "ec26857f4b2ea77b1ef336c60962a5171a4dbe997cf0ae334004a4c69de033c5"
+  },
+  "limitations": [
+    "Review coverage, not spaced repetition or unlimited concepts",
+    "Existing max-counter merge cannot infer chronological order across wrap",
+    "Viewport emulation only; no real tablet timing or human listening claim"
+  ],
+  "verificationHarnessCorrections": [
+    "Converted PostgreSQL count string to number before +1 receipt assertion",
+    "Mastery assertion uses milestones.masteryPoints, not absent profile.masteryPoints; final actual value140unchanged"
+  ]
+}

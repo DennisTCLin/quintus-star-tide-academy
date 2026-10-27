@@ -1,0 +1,94 @@
+{
+  "verdict": "PASS",
+  "scope": {
+    "totalRepositoryItems": 355,
+    "existingExcludedByHEADSourceLocator": 30,
+    "newItemsReadIndividually": 325,
+    "fieldsRead": [
+      "prompt",
+      "correct",
+      "all three wrong options",
+      "explanation"
+    ],
+    "singleCharacterPronunciationItemsComparedToSavedOfficialEvidence": 133,
+    "additionalPronunciationItemsReviewed": [
+      "2二選擇4 監視/監獄",
+      "2二選擇11 載貨/千載難逢",
+      "4四字詞句5 銀絲卷",
+      "2一國字注音10 醅酒"
+    ],
+    "rawLedgerInventory": {
+      "rows": 578,
+      "candidate": 325,
+      "existing": 30,
+      "duplicate": 113,
+      "open_ended": 40,
+      "missing_passage": 37,
+      "pending_verification": 26,
+      "ambiguous": 7
+    }
+  },
+  "findingsResolved": [
+    {
+      "source": 4,
+      "locator": "二改錯字6",
+      "issue": "咲 is an accepted variant of 笑; 竊咲 was not a valid wrong answer",
+      "verifiedCorrection": "wrong now includes 竊校; explanation acknowledges variant",
+      "reference": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=32196"
+    },
+    {
+      "source": 7,
+      "locator": "二改錯字9",
+      "issue": "屬目 means 注視 and also written 矚目",
+      "verifiedCorrection": "wrong now 眾所囑目/眾所矚木/眾所矚牧; duplicate option introduced during repair also removed",
+      "reference": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=118487&la=0&powerMode=0"
+    },
+    {
+      "source": 1,
+      "locator": "叁改錯字2",
+      "issue": "敖 can mean 傲慢; avoid treating 驕敖 as unambiguously wrong",
+      "verifiedCorrection": "wrong changed to 驕熬",
+      "reference": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=10400&la=0&powerMode=0"
+    },
+    {
+      "source": 4,
+      "locator": "四字詞句2",
+      "issue": "一簇 and 簇集 share gathering semantics despite differing parts of speech",
+      "verifiedCorrection": "prompt now explicitly asks both meaning and part of speech",
+      "reference": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=142294"
+    }
+  ],
+  "priorRootFixesRechecked": [
+    "4二改錯字1 諮商/咨商 no false wrong variant",
+    "5二改錯字5 爭辯/爭辨 no false wrong variant",
+    "5二改錯字8 新婚/新昏 no false wrong variant",
+    "7二改錯字8 轟動/烘動/哄動 no false wrong variant",
+    "7三選擇2 馬 radical: correct 驚; distractors 鶯/嗎/架"
+  ],
+  "structural": {
+    "all355HaveFourDistinctOptions": true,
+    "newSourceLocatorCount": 325
+  },
+  "pronunciationEvidenceNotes": [
+    "133 structured single-character pronunciation items matched saved Ministry of Education word-entry syllables; 尷尬 evidence contains alternate pronunciation after the first two syllables, so parsed separately and confirmed default ㄍㄢ/ㄍㄚˋ.",
+    "醅 ㄆㄟ independently checked in Ministry concise dictionary; 銀絲卷 and 千載難逢 also independently checked."
+  ],
+  "extraReferences": [
+    "https://dict.concised.moe.edu.tw/dictView.jsp?ID=2601&la=0&powerMode=0",
+    "https://dict.concised.moe.edu.tw/dictView.jsp?ID=42084&la=0&powerMode=0",
+    "https://dict.concised.moe.edu.tw/dictView.jsp?ID=25076&la=0&powerMode=0",
+    "https://dict.concised.moe.edu.tw/dictView.jsp?ID=22832&la=0&powerMode=0"
+  ],
+  "remainingBlockingFindings": [],
+  "limits": [
+    "This is independent full textual review of 325 new adapted items, not exhaustive visual comparison with every original exam page.",
+    "No claim that every excluded item, missing passage classification, or semantic duplicate mapping was independently revalidated; ledger was inventoried, not exhaustively content-reviewed.",
+    "Saved official pronunciation evidence was compared for all133 structured prompts; not every evidence URL was independently refetched.",
+    "No official source answer key was provided. No repository edits made by this verifier. Website/importer behavior outside scope."
+  ],
+  "fileSha256": {
+    "scripts/imports/grade6-chinese-curated.json": "d63ddf01958531b28d1edf580061bbb11195887e47d3c87447ddb337994627a4",
+    "output/grade6-completion/chinese-sources.json": "96c0e7ab15cfe70448b5b2a709b8d6cf9a178b4fd9c8bb5c906d3fb94c80105d",
+    "output/grade6-completion/chinese-coverage-raw.json": "057ad25993d9ae0ae9a7bfdaa882765ae7889b255b383e6b6f7c981b68060e67"
+  }
+}

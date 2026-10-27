@@ -1,0 +1,25 @@
+{
+  "runtime": "7b054a3",
+  "matches": [
+    {
+      "file": "src/grade6-supplement-exams.ts",
+      "sha256": "9f8faec1f7698d4bdbf16976a7f4ffec617060c820a97732631b80155834aad7"
+    },
+    {
+      "file": "src/data/english-extra-20261026.json",
+      "sha256": "130f2a268ea8d5116a14ac60814eaec7c1febc8fb5d521f2e32b52ac25a26a50"
+    },
+    {
+      "file": "src/TideglowActor.tsx",
+      "sha256": "c82ec64f19352799ed02b3dc1fed43e767b88a53a9b15ffe9aae699cf57a5311"
+    },
+    {
+      "file": "server/player-collections.mjs",
+      "sha256": "5be7d01d0e743e2d427e55e7ef3716c8f9e8aad3fef88e412577a5eebc3531aa"
+    },
+    {
+      "file": "docs/content-review/approvals.json",
+      "sha256": "dc9b9b4e9795374d9f0fa50bf8140c58efb925ddc6f5ccf725050e24b2ef5673"
+    }
+  ]
+}

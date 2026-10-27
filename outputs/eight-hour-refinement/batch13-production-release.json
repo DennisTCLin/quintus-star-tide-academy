@@ -1,0 +1,50 @@
+{
+  "source": "24706142f6bbe3be84d853ad1b6c53dee9d68b78",
+  "deployment": "c65b3a56-95b8-4fa2-92e0-8a5d725e5e14",
+  "status": "SUCCESS",
+  "checkedAt": "2026-10-24T23:37:48.034165+00:00",
+  "assets": {
+    "index.v-DM_kJs13.css": {
+      "status": 200,
+      "bytes": 232387,
+      "sha256": "9e44fd7e4fe6d484a877c8f117da233604d020d7def4b2e15ba91bdf0084694a",
+      "match": true
+    },
+    "TerritoryPage.v-XpGSXE-r.css": {
+      "status": 200,
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "match": true
+    },
+    "index.v-DI-gVgM6.js": {
+      "status": 200,
+      "bytes": 668458,
+      "sha256": "c8a2d45b5d7a8c1b08f167df6ed59c63250bb87c3d71e96c8557c4284d38eba5",
+      "match": true
+    },
+    "RoomEditor.v-ByIp57pP.js": {
+      "status": 200,
+      "bytes": 10629,
+      "sha256": "d21756644e25708000881581b82c71769c9e22685d46a3602c21ce865f33e9bb",
+      "match": true
+    },
+    "TerritoryPage.v-3lRiISge.js": {
+      "status": 200,
+      "bytes": 35956,
+      "sha256": "ffe216f74c9d5f330ea566e978a0366868d56efd17f04370d20b0c17d681d46b",
+      "match": true
+    }
+  },
+  "homepage": 200,
+  "entry": "index.v-DI-gVgM6.js",
+  "expectedEntryPresent": true,
+  "health": 200,
+  "healthBody": "{\"ok\":true,\"service\":\"quintus-ocean-academy\"}",
+  "browser": {
+    "page": "public login",
+    "heading": "歡迎回到星潮",
+    "entry": "index.v-DI-gVgM6.js",
+    "consoleErrors": 0,
+    "realChildLogin": false
+  }
+}

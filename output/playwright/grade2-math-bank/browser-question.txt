@@ -1,0 +1,6 @@
+### Result
+{"grade":2,"id":"mxg2-04c83cadb575957d","publisher":"南一","prompt":"依照規律，185、190、□、□、205，空格依序應填什麼？","options":[{"text":"195、200"},{"text":"191、200"},{"text":"195、201"}],"answerExposed":false,"overflow":false,"rubyCount":585}
+### Ran Playwright code
+```js
+await (async(page)=>{const response=await page.request.get("http://127.0.0.1:4392/api/state");const data=await response.json();const q=data.questions?.feifei;await page.screenshot({path:"output/playwright/grade2-math-bank/question-320.png",fullPage:true});return {grade:q?.grade,id:q?.id,publisher:q?.publisher,prompt:q?.prompt,options:q?.options,answerExposed:q&&("answer" in q||"explanation" in q),overflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),rubyCount:await page.locator("ruby").count()};})(page);
+```

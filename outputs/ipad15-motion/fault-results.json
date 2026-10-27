@@ -1,0 +1,58 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "dog silent video freeze switches to full animated feed before unlocking",
+      "pass": true
+    },
+    {
+      "name": "dog broken atlas cannot lock action",
+      "pass": true
+    },
+    {
+      "name": "dog next action retries animation after atlas failure",
+      "pass": true
+    },
+    {
+      "name": "dog all three play targets animate and finish once",
+      "pass": true
+    },
+    {
+      "name": "dog direct touch and layout 390",
+      "pass": true
+    },
+    {
+      "name": "dog direct touch and layout 1194",
+      "pass": true
+    },
+    {
+      "name": "tideglow silent video freeze switches to full animated feed before unlocking",
+      "pass": true
+    },
+    {
+      "name": "tideglow broken atlas cannot lock action",
+      "pass": true
+    },
+    {
+      "name": "tideglow next action retries animation after atlas failure",
+      "pass": true
+    },
+    {
+      "name": "tideglow all three play targets animate and finish once",
+      "pass": true
+    },
+    {
+      "name": "tideglow direct touch and layout 390",
+      "pass": true
+    },
+    {
+      "name": "tideglow direct touch and layout 1194",
+      "pass": true
+    },
+    {
+      "name": "No fault-suite JavaScript errors",
+      "pass": true
+    }
+  ],
+  "physicalDevice": false
+}

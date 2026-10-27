@@ -1,0 +1,11 @@
+async page => {
+  await page.setViewportSize({width:390,height:844});
+  const results=[];
+  async function check(surface){const ruby=await page.locator('ruby,rt').count();const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);if(ruby||overflow)throw Error(JSON.stringify({surface,ruby,overflow}));results.push({surface,ruby,overflow});}
+  for(const name of ['夥伴','排行','扭蛋']){await page.getByRole('button',{name,exact:true}).click();await page.waitForTimeout(300);await check(name);}
+  await page.getByRole('button',{name:'回到星潮學院港口',exact:true}).click();
+  await page.getByRole('button',{name:'🐾 認識夥伴',exact:true}).click();
+  await page.getByRole('dialog').waitFor();await check('夥伴彈窗');
+  await page.screenshot({path:'output/playwright/grade2-plain/pet-dialog-390.png'});
+  return results;
+}

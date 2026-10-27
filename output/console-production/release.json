@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-26T06:41:35.650696+00:00",
+  "url": "https://quintus-star-tide-academy-production.up.railway.app/",
+  "deployment": "d4d414fb-4908-49a5-8556-ee573f05aff6",
+  "status": "SUCCESS",
+  "runtimeSource": "6096fa01818272ae16cc86ec41e55a91fb7b74e7",
+  "releaseCommit": "ab12afd",
+  "rollbackDeployment": "b32f8470-053a-4f4e-9232-9f97a075a64c",
+  "runtimeReleaseFinished": true,
+  "checks": {
+    "unitPass": 790,
+    "unitSkipped": 171,
+    "layout": 58,
+    "choiceCount": 40,
+    "outcomes": 83,
+    "victory": 49,
+    "productionMedia": 165,
+    "productionAssetHashes": 19,
+    "productionUI": 17
+  },
+  "realPlayerWrites": false,
+  "physicalIpadTested": false
+}

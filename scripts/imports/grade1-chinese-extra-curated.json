@@ -1,0 +1,1337 @@
+[
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一1",
+    "mode": "word",
+    "word": "木頭",
+    "correct": "ㄇㄨˋ ㄊㄡˊ"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一2",
+    "mode": "word",
+    "word": "房屋",
+    "correct": "ㄈㄤˊ ㄨ"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一3",
+    "mode": "word",
+    "word": "瀑布",
+    "correct": "ㄆㄨˋ ㄅㄨˋ"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一4",
+    "mode": "word",
+    "word": "鱷魚",
+    "correct": "ㄜˋ ㄩˊ"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一5",
+    "mode": "word",
+    "word": "麵包",
+    "correct": "ㄇㄧㄢˋ ㄅㄠ"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一6",
+    "mode": "word",
+    "word": "射箭",
+    "correct": "ㄕㄜˋ ㄐㄧㄢˋ"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一7",
+    "mode": "word",
+    "word": "燈泡",
+    "correct": "ㄉㄥ ㄆㄠˋ"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "一8",
+    "mode": "word",
+    "word": "螃蟹",
+    "correct": "ㄆㄤˊ ㄒㄧㄝˋ"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五1",
+    "mode": "word",
+    "word": "巫婆",
+    "correct": "ㄨ ㄆㄛˊ"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五2",
+    "mode": "word",
+    "word": "企鵝",
+    "correct": "ㄑㄧˋ ㄜˊ"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五3",
+    "mode": "word",
+    "word": "掃地",
+    "correct": "ㄙㄠˇ ㄉㄧˋ"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五4",
+    "mode": "word",
+    "word": "安全帽",
+    "correct": "ㄢ ㄑㄩㄢˊ ㄇㄠˋ"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五5",
+    "mode": "word",
+    "word": "月亮",
+    "correct": "ㄩㄝˋ ㄌㄧㄤˋ"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五6",
+    "mode": "word",
+    "word": "蘿蔔",
+    "correct": "ㄌㄨㄛˊ ˙ㄅㄛ"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五7",
+    "mode": "word",
+    "word": "風箏",
+    "correct": "ㄈㄥ ㄓㄥ"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五8",
+    "mode": "word",
+    "word": "蚊子",
+    "correct": "ㄨㄣˊ ˙ㄗ"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五9",
+    "mode": "word",
+    "word": "西瓜",
+    "correct": "ㄒㄧ ㄍㄨㄚ"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "五10",
+    "mode": "word",
+    "word": "白雲",
+    "correct": "ㄅㄞˊ ㄩㄣˊ"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二1",
+    "mode": "word",
+    "word": "肚子",
+    "correct": "ㄉㄨˋ ˙ㄗ"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二2",
+    "mode": "word",
+    "word": "橘子",
+    "correct": "ㄐㄩˊ ˙ㄗ"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二3",
+    "mode": "word",
+    "word": "杯子",
+    "correct": "ㄅㄟ ˙ㄗ"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二4",
+    "mode": "word",
+    "word": "梅花鹿",
+    "correct": "ㄇㄟˊ ㄏㄨㄚ ㄌㄨˋ"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二5",
+    "mode": "word",
+    "word": "燈泡",
+    "correct": "ㄉㄥ ㄆㄠˋ"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二6",
+    "mode": "word",
+    "word": "麵包",
+    "correct": "ㄇㄧㄢˋ ㄅㄠ"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二7",
+    "mode": "word",
+    "word": "蘋果",
+    "correct": "ㄆㄧㄥˊ ㄍㄨㄛˇ"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二8",
+    "mode": "word",
+    "word": "木頭",
+    "correct": "ㄇㄨˋ ㄊㄡˊ"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二9",
+    "mode": "word",
+    "word": "白雲",
+    "correct": "ㄅㄞˊ ㄩㄣˊ"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二10",
+    "mode": "word",
+    "word": "金魚",
+    "correct": "ㄐㄧㄣ ㄩˊ"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "七1",
+    "mode": "word",
+    "word": "獅子",
+    "correct": "ㄕ ˙ㄗ"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "七2",
+    "mode": "word",
+    "word": "白鵝",
+    "correct": "ㄅㄞˊ ㄜˊ"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "七3",
+    "mode": "word",
+    "word": "公雞",
+    "correct": "ㄍㄨㄥ ㄐㄧ"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "七4",
+    "mode": "word",
+    "word": "帆船",
+    "correct": "ㄈㄢˊ ㄔㄨㄢˊ"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "七5",
+    "mode": "word",
+    "word": "牛奶",
+    "correct": "ㄋㄧㄡˊ ㄋㄞˇ"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "七6",
+    "mode": "word",
+    "word": "春聯",
+    "correct": "ㄔㄨㄣ ㄌㄧㄢˊ"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "七7",
+    "mode": "word",
+    "word": "氣球",
+    "correct": "ㄑㄧˋ ㄑㄧㄡˊ"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "七8",
+    "mode": "word",
+    "word": "聖誕卡",
+    "correct": "ㄕㄥˋ ㄉㄢˋ ㄎㄚˇ"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "七9",
+    "mode": "word",
+    "word": "龍蝦",
+    "correct": "ㄌㄨㄥˊ ㄒㄧㄚ"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "七10",
+    "mode": "word",
+    "word": "孔雀",
+    "correct": "ㄎㄨㄥˇ ㄑㄩㄝˋ"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一1",
+    "mode": "word",
+    "word": "牙齒",
+    "correct": "ㄧㄚˊ ㄔˇ"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一2",
+    "mode": "word",
+    "word": "烏龜",
+    "correct": "ㄨ ㄍㄨㄟ"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一3",
+    "mode": "word",
+    "word": "彩虹",
+    "correct": "ㄘㄞˇ ㄏㄨㄥˊ"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一4",
+    "mode": "word",
+    "word": "眼睛",
+    "correct": "ㄧㄢˇ ㄐㄧㄥ"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一5",
+    "mode": "word",
+    "word": "起司",
+    "correct": "ㄑㄧˇ ㄙ"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一6",
+    "mode": "word",
+    "word": "月亮",
+    "correct": "ㄩㄝˋ ㄌㄧㄤˋ"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一7",
+    "mode": "word",
+    "word": "茶壺",
+    "correct": "ㄔㄚˊ ㄏㄨˊ"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一8",
+    "mode": "word",
+    "word": "游泳",
+    "correct": "ㄧㄡˊ ㄩㄥˇ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四1",
+    "mode": "word",
+    "word": "山羊",
+    "correct": "ㄕㄢ ㄧㄤˊ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四2",
+    "mode": "word",
+    "word": "孔雀",
+    "correct": "ㄎㄨㄥˇ ㄑㄩㄝˋ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四3",
+    "mode": "word",
+    "word": "輪胎",
+    "correct": "ㄌㄨㄣˊ ㄊㄞ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四4",
+    "mode": "word",
+    "word": "皮包",
+    "correct": "ㄆㄧˊ ㄅㄠ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四5",
+    "mode": "word",
+    "word": "梅花鹿",
+    "correct": "ㄇㄟˊ ㄏㄨㄚ ㄌㄨˋ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四6",
+    "mode": "word",
+    "word": "章魚",
+    "correct": "ㄓㄤ ㄩˊ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四7",
+    "mode": "word",
+    "word": "毛衣",
+    "correct": "ㄇㄠˊ ㄧ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四8",
+    "mode": "word",
+    "word": "螃蟹",
+    "correct": "ㄆㄤˊ ㄒㄧㄝˋ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四9",
+    "mode": "word",
+    "word": "河豚",
+    "correct": "ㄏㄜˊ ㄊㄨㄣˊ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五1",
+    "mode": "word",
+    "word": "白鵝",
+    "correct": "ㄅㄞˊ ㄜˊ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五2",
+    "mode": "word",
+    "word": "燈泡",
+    "correct": "ㄉㄥ ㄆㄠˋ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五3",
+    "mode": "word",
+    "word": "鉛筆",
+    "correct": "ㄑㄧㄢ ㄅㄧˇ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五4",
+    "mode": "word",
+    "word": "下蛋",
+    "correct": "ㄒㄧㄚˋ ㄉㄢˋ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五5",
+    "mode": "word",
+    "word": "磁鐵",
+    "correct": "ㄘˊ ㄊㄧㄝˇ"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五6",
+    "mode": "word",
+    "word": "拐杖",
+    "correct": "ㄍㄨㄞˇ ㄓㄤˋ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一1",
+    "mode": "word",
+    "word": "紅包",
+    "correct": "ㄏㄨㄥˊ ㄅㄠ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一2",
+    "mode": "word",
+    "word": "雪人",
+    "correct": "ㄒㄩㄝˇ ㄖㄣˊ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一3",
+    "mode": "word",
+    "word": "鈕扣",
+    "correct": "ㄋㄧㄡˇ ㄎㄡˋ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一4",
+    "mode": "word",
+    "word": "章魚",
+    "correct": "ㄓㄤ ㄩˊ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一5",
+    "mode": "word",
+    "word": "球鞋",
+    "correct": "ㄑㄧㄡˊ ㄒㄧㄝˊ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一6",
+    "mode": "word",
+    "word": "時鐘",
+    "correct": "ㄕˊ ㄓㄨㄥ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一7",
+    "mode": "word",
+    "word": "香菇",
+    "correct": "ㄒㄧㄤ ㄍㄨ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一8",
+    "mode": "word",
+    "word": "烏龜",
+    "correct": "ㄨ ㄍㄨㄟ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一9",
+    "mode": "word",
+    "word": "布丁",
+    "correct": "ㄅㄨˋ ㄉㄧㄥ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一10",
+    "mode": "word",
+    "word": "游泳",
+    "correct": "ㄧㄡˊ ㄩㄥˇ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二1",
+    "mode": "word",
+    "word": "巫婆",
+    "correct": "ㄨ ㄆㄛˊ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二2",
+    "mode": "word",
+    "word": "乳牛",
+    "correct": "ㄖㄨˇ ㄋㄧㄡˊ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二3",
+    "mode": "word",
+    "word": "摩天輪",
+    "correct": "ㄇㄛˊ ㄊㄧㄢ ㄌㄨㄣˊ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二4",
+    "mode": "word",
+    "word": "王子",
+    "correct": "ㄨㄤˊ ㄗˇ"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二5",
+    "mode": "word",
+    "word": "刷牙",
+    "correct": "ㄕㄨㄚ ㄧㄚˊ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一1",
+    "mode": "word",
+    "word": "糖果",
+    "correct": "ㄊㄤˊ ㄍㄨㄛˇ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一3",
+    "mode": "word",
+    "word": "飛機",
+    "correct": "ㄈㄟ ㄐㄧ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一4",
+    "mode": "word",
+    "word": "眼鏡",
+    "correct": "ㄧㄢˇ ㄐㄧㄥˋ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一5",
+    "mode": "word",
+    "word": "獅子",
+    "correct": "ㄕ ˙ㄗ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二1",
+    "mode": "word",
+    "word": "木馬",
+    "correct": "ㄇㄨˋ ㄇㄚˇ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二2",
+    "mode": "word",
+    "word": "扇子",
+    "correct": "ㄕㄢˋ ˙ㄗ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二3",
+    "mode": "word",
+    "word": "鳳梨",
+    "correct": "ㄈㄥˋ ㄌㄧˊ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二4",
+    "mode": "word",
+    "word": "拖地",
+    "correct": "ㄊㄨㄛ ㄉㄧˋ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二5",
+    "mode": "word",
+    "word": "蝸牛",
+    "correct": "ㄍㄨㄚ ㄋㄧㄡˊ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "三1",
+    "mode": "word",
+    "word": "洗手",
+    "correct": "ㄒㄧˇ ㄕㄡˇ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "三2",
+    "mode": "word",
+    "word": "雪人",
+    "correct": "ㄒㄩㄝˇ ㄖㄣˊ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "三3",
+    "mode": "word",
+    "word": "下蛋",
+    "correct": "ㄒㄧㄚˋ ㄉㄢˋ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "三4",
+    "mode": "word",
+    "word": "游泳",
+    "correct": "ㄧㄡˊ ㄩㄥˇ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "三5",
+    "mode": "word",
+    "word": "牙齒",
+    "correct": "ㄧㄚˊ ㄔˇ"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "三6",
+    "mode": "word",
+    "word": "燈泡",
+    "correct": "ㄉㄥ ㄆㄠˋ"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一1",
+    "mode": "word",
+    "word": "天鵝",
+    "correct": "ㄊㄧㄢ ㄜˊ"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一2",
+    "mode": "word",
+    "word": "老鼠",
+    "correct": "ㄌㄠˇ ㄕㄨˇ"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一3",
+    "mode": "word",
+    "word": "荔枝",
+    "correct": "ㄌㄧˋ ㄓ"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一4",
+    "mode": "word",
+    "word": "眼睛",
+    "correct": "ㄧㄢˇ ㄐㄧㄥ"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一5",
+    "mode": "word",
+    "word": "乳牛",
+    "correct": "ㄖㄨˇ ㄋㄧㄡˊ"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "七1",
+    "mode": "word",
+    "word": "蜜蜂",
+    "correct": "ㄇㄧˋ ㄈㄥ"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "七2",
+    "mode": "word",
+    "word": "青蛙",
+    "correct": "ㄑㄧㄥ ㄨㄚ"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "七3",
+    "mode": "word",
+    "word": "月亮",
+    "correct": "ㄩㄝˋ ㄌㄧㄤˋ"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "七4",
+    "mode": "word",
+    "word": "蘿蔔",
+    "correct": "ㄌㄨㄛˊ ˙ㄅㄛ"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "七5",
+    "mode": "word",
+    "word": "孔雀",
+    "correct": "ㄎㄨㄥˇ ㄑㄩㄝˋ"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "七6",
+    "mode": "word",
+    "word": "輪船",
+    "correct": "ㄌㄨㄣˊ ㄔㄨㄢˊ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一1",
+    "mode": "word",
+    "word": "巫婆",
+    "correct": "ㄨ ㄆㄛˊ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一2",
+    "mode": "word",
+    "word": "鱷魚",
+    "correct": "ㄜˋ ㄩˊ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一3",
+    "mode": "word",
+    "word": "蜜蜂",
+    "correct": "ㄇㄧˋ ㄈㄥ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一4",
+    "mode": "word",
+    "word": "草帽",
+    "correct": "ㄘㄠˇ ㄇㄠˋ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一5",
+    "mode": "word",
+    "word": "珠寶",
+    "correct": "ㄓㄨ ㄅㄠˇ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一6",
+    "mode": "word",
+    "word": "彩虹",
+    "correct": "ㄘㄞˇ ㄏㄨㄥˊ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一7",
+    "mode": "word",
+    "word": "牛奶",
+    "correct": "ㄋㄧㄡˊ ㄋㄞˇ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一8",
+    "mode": "word",
+    "word": "捕魚",
+    "correct": "ㄅㄨˇ ㄩˊ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一9",
+    "mode": "word",
+    "word": "荔枝",
+    "correct": "ㄌㄧˋ ㄓ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一10",
+    "mode": "word",
+    "word": "雨傘",
+    "correct": "ㄩˇ ㄙㄢˇ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一11",
+    "mode": "word",
+    "word": "魚缸",
+    "correct": "ㄩˊ ㄍㄤ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "一12",
+    "mode": "word",
+    "word": "水桶",
+    "correct": "ㄕㄨㄟˇ ㄊㄨㄥˇ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二1",
+    "mode": "word",
+    "word": "燈泡",
+    "correct": "ㄉㄥ ㄆㄠˋ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二2",
+    "mode": "word",
+    "word": "龍蝦",
+    "correct": "ㄌㄨㄥˊ ㄒㄧㄚ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二3",
+    "mode": "word",
+    "word": "粽子",
+    "correct": "ㄗㄨㄥˋ ˙ㄗ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二4",
+    "mode": "word",
+    "word": "鬧鐘",
+    "correct": "ㄋㄠˋ ㄓㄨㄥ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二5",
+    "mode": "word",
+    "word": "毛線",
+    "correct": "ㄇㄠˊ ㄒㄧㄢˋ"
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二6",
+    "mode": "word",
+    "word": "刷牙",
+    "correct": "ㄕㄨㄚ ㄧㄚˊ"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一1",
+    "mode": "word",
+    "word": "風箏",
+    "correct": "ㄈㄥ ㄓㄥ"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一2",
+    "mode": "word",
+    "word": "房屋",
+    "correct": "ㄈㄤˊ ㄨ"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一3",
+    "mode": "word",
+    "word": "牛奶",
+    "correct": "ㄋㄧㄡˊ ㄋㄞˇ"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一4",
+    "mode": "word",
+    "word": "出門",
+    "correct": "ㄔㄨ ㄇㄣˊ"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一5",
+    "mode": "word",
+    "word": "蘋果",
+    "correct": "ㄆㄧㄥˊ ㄍㄨㄛˇ"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一6",
+    "mode": "word",
+    "word": "帆船",
+    "correct": "ㄈㄢˊ ㄔㄨㄢˊ"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一7",
+    "mode": "word",
+    "word": "麵包",
+    "correct": "ㄇㄧㄢˋ ㄅㄠ"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一8",
+    "mode": "word",
+    "word": "套圈圈",
+    "correct": "ㄊㄠˋ ㄑㄩㄢ ㄑㄩㄢ"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一9",
+    "mode": "word",
+    "word": "西瓜",
+    "correct": "ㄒㄧ ㄍㄨㄚ"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一10",
+    "mode": "word",
+    "word": "袋鼠",
+    "correct": "ㄉㄞˋ ㄕㄨˇ"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一11",
+    "mode": "word",
+    "word": "音符",
+    "correct": "ㄧㄣ ㄈㄨˊ"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六1",
+    "mode": "word",
+    "word": "玉米",
+    "correct": "ㄩˋ ㄇㄧˇ"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六2",
+    "mode": "word",
+    "word": "鱷魚",
+    "correct": "ㄜˋ ㄩˊ"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六3",
+    "mode": "word",
+    "word": "巫婆",
+    "correct": "ㄨ ㄆㄛˊ"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六4",
+    "mode": "word",
+    "word": "老鷹",
+    "correct": "ㄌㄠˇ ㄧㄥ"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六5",
+    "mode": "word",
+    "word": "螃蟹",
+    "correct": "ㄆㄤˊ ㄒㄧㄝˋ"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六6",
+    "mode": "word",
+    "word": "龍蝦",
+    "correct": "ㄌㄨㄥˊ ㄒㄧㄚ"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六7",
+    "mode": "word",
+    "word": "滅火器",
+    "correct": "ㄇㄧㄝˋ ㄏㄨㄛˇ ㄑㄧˋ"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六8",
+    "mode": "word",
+    "word": "汽車",
+    "correct": "ㄑㄧˋ ㄔㄜ"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六9",
+    "mode": "word",
+    "word": "青蛙",
+    "correct": "ㄑㄧㄥ ㄨㄚ"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六10",
+    "mode": "word",
+    "word": "金魚",
+    "correct": "ㄐㄧㄣ ㄩˊ"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六11",
+    "mode": "word",
+    "word": "瓢蟲",
+    "correct": "ㄆㄧㄠˊ ㄔㄨㄥˊ"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一1",
+    "mode": "blend",
+    "left": "ㄍ",
+    "right": "ㄡˇ",
+    "correct": "ㄍㄡˇ"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一2",
+    "mode": "blend",
+    "left": "ㄕ",
+    "right": "ㄨㄟˋ",
+    "correct": "ㄕㄨㄟˋ"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一3",
+    "mode": "blend",
+    "left": "ㄊ",
+    "right": "ㄧㄥ",
+    "correct": "ㄊㄧㄥ"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一4",
+    "mode": "blend",
+    "left": "ㄖ",
+    "right": "ㄨˇ",
+    "correct": "ㄖㄨˇ"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一5",
+    "mode": "blend",
+    "left": "ㄇ",
+    "right": "ㄧˋ",
+    "correct": "ㄇㄧˋ"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一6",
+    "mode": "blend",
+    "left": "ㄒ",
+    "right": "ㄧㄡ",
+    "correct": "ㄒㄧㄡ"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "八1",
+    "mode": "blend",
+    "left": "ㄌ",
+    "right": "ㄨㄥˊ",
+    "correct": "ㄌㄨㄥˊ"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "八2",
+    "mode": "blend",
+    "left": "ㄍ",
+    "right": "ㄨㄛˋ",
+    "correct": "ㄍㄨㄛˋ"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "八3",
+    "mode": "blend",
+    "left": "ㄒ",
+    "right": "ㄧㄥ",
+    "correct": "ㄒㄧㄥ"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "八4",
+    "mode": "blend",
+    "left": "ㄉ",
+    "right": "ㄨㄥˋ",
+    "correct": "ㄉㄨㄥˋ"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "八5",
+    "mode": "blend",
+    "left": "ㄏ",
+    "right": "ㄨㄤˊ",
+    "correct": "ㄏㄨㄤˊ"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "六-亮",
+    "mode": "tone",
+    "word": "月亮",
+    "target": "亮",
+    "syllable": "ㄌㄧㄤˋ",
+    "correct": "ˋ"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "六-搖",
+    "mode": "tone",
+    "word": "搖椅",
+    "target": "搖",
+    "syllable": "ㄧㄠˊ",
+    "correct": "ˊ"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "六-月",
+    "mode": "tone",
+    "word": "月亮",
+    "target": "月",
+    "syllable": "ㄩㄝˋ",
+    "correct": "ˋ"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "六-了",
+    "mode": "tone",
+    "word": "圓了",
+    "target": "了",
+    "syllable": "˙ㄌㄜ",
+    "correct": "˙"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "六-抱",
+    "mode": "tone",
+    "word": "抱",
+    "target": "抱",
+    "syllable": "ㄅㄠˋ",
+    "correct": "ˋ"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "六-寶1",
+    "mode": "tone",
+    "word": "寶寶",
+    "target": "寶",
+    "syllable": "ㄅㄠˇ",
+    "correct": "ˇ"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "四1-螞",
+    "mode": "tone",
+    "word": "螞蟻",
+    "target": "螞",
+    "syllable": "ㄇㄚˇ",
+    "correct": "ˇ"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "四1-蟻",
+    "mode": "tone",
+    "word": "螞蟻",
+    "target": "蟻",
+    "syllable": "ㄧˇ",
+    "correct": "ˇ"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "四3-小",
+    "mode": "tone",
+    "word": "小熊",
+    "target": "小",
+    "syllable": "ㄒㄧㄠˇ",
+    "correct": "ˇ"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "四3-熊",
+    "mode": "tone",
+    "word": "小熊",
+    "target": "熊",
+    "syllable": "ㄒㄩㄥˊ",
+    "correct": "ˊ"
+  }
+]

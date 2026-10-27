@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "mascot": "dog",
+      "viewport": [
+        390,
+        844
+      ],
+      "stableScrollAnchor": true,
+      "separateDockArea": true,
+      "navTargetsClear": true,
+      "voicePanelOpens": true,
+      "keyboardScroll": true
+    },
+    {
+      "mascot": "bow",
+      "viewport": [
+        820,
+        1180
+      ],
+      "stableScrollAnchor": true,
+      "separateDockArea": true,
+      "navTargetsClear": true,
+      "voicePanelOpens": true,
+      "keyboardScroll": true
+    },
+    {
+      "mascot": "tideglow",
+      "viewport": [
+        1180,
+        820
+      ],
+      "stableScrollAnchor": true,
+      "separateDockArea": true,
+      "navTargetsClear": true,
+      "voicePanelOpens": true,
+      "keyboardScroll": true
+    },
+    {
+      "mascot": "dog",
+      "viewport": [
+        1440,
+        900
+      ],
+      "stableScrollAnchor": true,
+      "separateDockArea": true,
+      "navTargetsClear": true,
+      "voicePanelOpens": true,
+      "keyboardScroll": true
+    }
+  ],
+  "syntheticAPIIntercepted": true,
+  "productionPlayerWrites": false,
+  "physicalIPad": false
+}

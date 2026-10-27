@@ -1,0 +1,15 @@
+{
+  "url": "http://127.0.0.1:4199",
+  "isolatedAccount": "qa_monster_8f746c460712",
+  "result": "PASS",
+  "checks": [
+    "server selects and persists variant",
+    "cross-device identity",
+    "wrong-answer shield, five corrected hits and 50XP",
+    "bestiary and return preserve progress",
+    "reload preserves completed encounter and pending reward",
+    "claim one star",
+    "next voyage uses a different family"
+  ],
+  "pageErrors": []
+}

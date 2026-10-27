@@ -1,0 +1,352 @@
+{
+  "source": "f012644",
+  "scope": "curated catalog only; generator pools excluded; counts are not distinct pedagogical concepts",
+  "rows": [
+    {
+      "grade": 1,
+      "course": "english",
+      "name": "英文入門",
+      "curatedCount": 80,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 80
+      },
+      "samplePrompts": [
+        {
+          "id": "g1-en-v1-001",
+          "prompt": "找出大寫 A 對應的小寫字母。"
+        },
+        {
+          "id": "g1-en-v1-002",
+          "prompt": "這個數字的英文是哪一個？"
+        },
+        {
+          "id": "g1-en-v1-003",
+          "prompt": "「紅色」的英文是哪一個？"
+        }
+      ]
+    },
+    {
+      "grade": 1,
+      "course": "tones",
+      "name": "聲調",
+      "curatedCount": 10,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 10
+      },
+      "samplePrompts": [
+        {
+          "id": "g1-tone-ma-2",
+          "prompt": "聽聲音，選聲調"
+        },
+        {
+          "id": "g1-tone-ma-3",
+          "prompt": "聽聲音，選聲調"
+        },
+        {
+          "id": "g1-tone-ba-2",
+          "prompt": "聽聲音，選聲調"
+        }
+      ]
+    },
+    {
+      "grade": 1,
+      "course": "medials",
+      "name": "拼音",
+      "curatedCount": 9,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 9
+      },
+      "samplePrompts": [
+        {
+          "id": "g1-medial-l2-0",
+          "prompt": "聽聲音，選中間的音"
+        },
+        {
+          "id": "g1-medial-l2-1",
+          "prompt": "聽聲音，選中間的音"
+        },
+        {
+          "id": "g1-medial-l2-2",
+          "prompt": "聽聲音，選中間的音"
+        }
+      ]
+    },
+    {
+      "grade": 1,
+      "course": "pairs",
+      "name": "辨音",
+      "curatedCount": 24,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 24
+      },
+      "samplePrompts": [
+        {
+          "id": "g1-pair-c-ch-0",
+          "prompt": "聽聲音，選注音"
+        },
+        {
+          "id": "g1-pair-c-ch-1",
+          "prompt": "聽聲音，選注音"
+        },
+        {
+          "id": "g1-pair-c-ch-2",
+          "prompt": "聽聲音，選注音"
+        }
+      ]
+    },
+    {
+      "grade": 1,
+      "course": "math",
+      "name": "數學",
+      "curatedCount": 30,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 30
+      },
+      "samplePrompts": [
+        {
+          "id": "g1-math-0",
+          "prompt": "1 − 1 = ?"
+        },
+        {
+          "id": "g1-math-1",
+          "prompt": "2 + 2 = ?"
+        },
+        {
+          "id": "g1-math-2",
+          "prompt": "3 + 3 = ?"
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "course": "words",
+      "name": "詞語",
+      "curatedCount": 99,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 99
+      },
+      "samplePrompts": [
+        {
+          "id": "g2-word-market-0",
+          "prompt": "聽聲音，選圖片"
+        },
+        {
+          "id": "g2-word-market-1",
+          "prompt": "聽聲音，選圖片"
+        },
+        {
+          "id": "g2-word-market-2",
+          "prompt": "聽聲音，選圖片"
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "course": "tones",
+      "name": "聲調",
+      "curatedCount": 20,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 20
+      },
+      "samplePrompts": [
+        {
+          "id": "g2-tone-ma-1",
+          "prompt": "聽聲音，選聲調"
+        },
+        {
+          "id": "g2-tone-ma-2",
+          "prompt": "聽聲音，選聲調"
+        },
+        {
+          "id": "g2-tone-ma-3",
+          "prompt": "聽聲音，選聲調"
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "course": "medials",
+      "name": "拼音",
+      "curatedCount": 12,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 12
+      },
+      "samplePrompts": [
+        {
+          "id": "g2-medial-xian1-0",
+          "prompt": "聽聲音，選中間的音"
+        },
+        {
+          "id": "g2-medial-xian1-1",
+          "prompt": "聽聲音，選中間的音"
+        },
+        {
+          "id": "g2-medial-jian4-0",
+          "prompt": "聽聲音，選中間的音"
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "course": "pairs",
+      "name": "辨音",
+      "curatedCount": 24,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 24
+      },
+      "samplePrompts": [
+        {
+          "id": "g2-pair-c-ch-0",
+          "prompt": "聽聲音，選注音"
+        },
+        {
+          "id": "g2-pair-c-ch-1",
+          "prompt": "聽聲音，選注音"
+        },
+        {
+          "id": "g2-pair-c-ch-2",
+          "prompt": "聽聲音，選注音"
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "course": "math",
+      "name": "數學",
+      "curatedCount": 30,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 30
+      },
+      "samplePrompts": [
+        {
+          "id": "g2-math-0",
+          "prompt": "12 − 2 = ?"
+        },
+        {
+          "id": "g2-math-1",
+          "prompt": "13 + 3 = ?"
+        },
+        {
+          "id": "g2-math-2",
+          "prompt": "14 + 4 = ?"
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "course": "math",
+      "name": "數學",
+      "curatedCount": 10,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 10
+      },
+      "samplePrompts": [
+        {
+          "id": "math-01",
+          "prompt": "探險船一天航行 36 海里，連續 7 天共航行多少海里？"
+        },
+        {
+          "id": "math-02",
+          "prompt": "864 顆星砂平均裝進 8 個瓶子，每瓶有幾顆？"
+        },
+        {
+          "id": "math-03",
+          "prompt": "一張航海圖塗了 2/8，又塗了 3/8，合起來塗了多少？"
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "course": "chinese",
+      "name": "國語",
+      "curatedCount": 10,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 10
+      },
+      "samplePrompts": [
+        {
+          "id": "chinese-01",
+          "prompt": "下面哪一個詞語搭配最恰當？"
+        },
+        {
+          "id": "chinese-02",
+          "prompt": "「一心一意」最接近下面哪一個意思？"
+        },
+        {
+          "id": "chinese-03",
+          "prompt": "哪一句的標點符號使用正確？"
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "course": "english",
+      "name": "英文",
+      "curatedCount": 10,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 10
+      },
+      "samplePrompts": [
+        {
+          "id": "english-01",
+          "prompt": "Choose the correct plural: One child, two ____."
+        },
+        {
+          "id": "english-02",
+          "prompt": "Choose the simple present form: Amy ____ her teeth every morning."
+        },
+        {
+          "id": "english-03",
+          "prompt": "The compass is resting on top of the desk. It is ____ the desk."
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "course": "science",
+      "name": "自然",
+      "curatedCount": 26,
+      "explicitSkillCounts": {
+        "observation": 16,
+        "inferred-by-engine": 10
+      },
+      "samplePrompts": [
+        {
+          "id": "c1-g4-science-01",
+          "prompt": "小羽看著盆栽，記下「有三片葉子，其中一片變黃」。下面哪一句也是可以直接觀察的紀錄？"
+        },
+        {
+          "id": "c1-g4-science-02",
+          "prompt": "想比較同一輛小車從不同高度的斜坡滑下，滑行距離有沒有不同。哪個安排最公平？"
+        },
+        {
+          "id": "c1-g4-science-03",
+          "prompt": "同一支沒削過的鉛筆，三次量到 15、15、51 公分。下一步怎麼做最合理？"
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "course": "social",
+      "name": "社會",
+      "curatedCount": 10,
+      "explicitSkillCounts": {
+        "inferred-by-engine": 10
+      },
+      "samplePrompts": [
+        {
+          "id": "social-01",
+          "prompt": "地圖上若有指北針，箭頭通常用來指出哪個方向？"
+        },
+        {
+          "id": "social-02",
+          "prompt": "過馬路時，哪一種做法最安全？"
+        },
+        {
+          "id": "social-03",
+          "prompt": "社區公共圖書館最主要提供哪一種服務？"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "observedAt": "2026-10-25T00:39:36.202814+00:00",
+  "status": "read-only candidate, not implemented",
+  "scenario": "LocalQA Feifei grade2 words question2: watercolor/paintbrush/scissors/crayons picture options at320x740",
+  "evidence": {
+    "viewportWidth": 320,
+    "documentScrollWidth": 335,
+    "optionRight": 335,
+    "pictureRight": 324,
+    "largerWidths": [
+      820,
+      1024,
+      1440
+    ],
+    "largerOverflow": false,
+    "reducedMotionAlsoReproduces": true
+  },
+  "source": [
+    "src/family.css:969 .answer-grid repeat(2,1fr)",
+    "src/family.css:1941 .picture-tile width125px,max-width100%; intrinsic grid track can resist shrink",
+    "src/App.tsx:2525 ChoiceView common voyage/buff choice markup"
+  ],
+  "proposal": "Investigate minmax(0,1fr), min-width0 and responsive tile size without cutting ruby/picture or shrinking touch targets; compare at320/360/390/820/1024 and bothgrade1picture-only/grade2text+zhuyin; verifyquiz/buff/unanswered/answered/reducedmotion",
+  "constraints": [
+    "Do not hide overflow to mask inaccessible options",
+    "Preserve imageaspectratio,distinctpictures,textandzhuyin",
+    "Noquestion/answer/points/serverchanges",
+    "Needs actual browser proof before patch accepted"
+  ],
+  "batch16BackendSha256": "ec26857f4b2ea77b1ef336c60962a5171a4dbe997cf0ae334004a4c69de033c5",
+  "batch16BackendByteIdenticalToBatch15": true
+}

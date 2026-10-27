@@ -1,0 +1,652 @@
+[
+  {
+    "sourceTag": "math1",
+    "pagesReviewed": [
+      1,
+      2,
+      3
+    ],
+    "reviewMethod": "逐頁全文與原始頁面渲染對照；分數與角度以原圖核讀",
+    "candidateCount": 29,
+    "sections": [
+      {
+        "page": 1,
+        "section": "一、選擇1–5",
+        "status": "included",
+        "reason": "全納入；角度圖改為完整文字條件。"
+      },
+      {
+        "page": 1,
+        "section": "二1、3–10",
+        "status": "included",
+        "reason": "多格組成、取概數、因倍數與等值分數合併為同題；吸管數量按圖讀為9公分1根、5公分2根、4公分2根，列三種可行組合。"
+      },
+      {
+        "page": 1,
+        "section": "二2扇形辨識",
+        "status": "included",
+        "reason": "以半圓、弓形、非圓心弦構形文字化，保留扇形邊界判斷。"
+      },
+      {
+        "page": 1,
+        "section": "二1各位數分解；二7是否等值",
+        "status": "dedup",
+        "reason": "分解已包含在0.□36定位條件，分數是否相等併入最簡分數題。"
+      },
+      {
+        "page": 2,
+        "section": "三1–3",
+        "status": "included",
+        "reason": "路線距離與圓心角均補齊；三3用ABCD與邊上E完整敘明圖形。"
+      },
+      {
+        "page": 2,
+        "section": "四1–6",
+        "status": "included",
+        "reason": "六組比較合為一題。"
+      },
+      {
+        "page": 2,
+        "section": "五1–4",
+        "status": "included",
+        "reason": "全納入；紙卡依原圖固定同方向排列；紅地墊題取唯一可由已知求出的紅色面積。"
+      },
+      {
+        "page": 3,
+        "section": "五5–6",
+        "status": "included",
+        "reason": "各題相關兩問合併。"
+      },
+      {
+        "page": 3,
+        "section": "加分題",
+        "status": "included",
+        "reason": "原圖十個全等三角形明述，頂角36°、兩底角72°。"
+      }
+    ],
+    "sourceIssues": [
+      "五3原文末句「紅色地墊拼接後」語意略不順；候選改問由已知條件唯一求出的紅色地墊面積0.9940。"
+    ]
+  },
+  {
+    "sourceTag": "math2",
+    "pagesReviewed": [
+      1,
+      2
+    ],
+    "reviewMethod": "逐頁全文與原始頁面渲染對照；分數與角度以原圖核讀",
+    "candidateCount": 25,
+    "sections": [
+      {
+        "page": 1,
+        "section": "一1–4",
+        "status": "included",
+        "reason": "四個正確敘述合為觀念判斷。"
+      },
+      {
+        "page": 1,
+        "section": "一5–8",
+        "status": "included",
+        "reason": "保留約分、正多邊形、三角形內角和與直角三角形敘述辨識。"
+      },
+      {
+        "page": 1,
+        "section": "二1–8",
+        "status": "included",
+        "reason": "全納入；二8改成明確判定「擴分結果」，避免只問等值造成多個選項相同。"
+      },
+      {
+        "page": 1,
+        "section": "三1–3",
+        "status": "included",
+        "reason": "最大公因數/最小公倍數及多格等值分數合併。"
+      },
+      {
+        "page": 1,
+        "section": "三4圖形命名",
+        "status": "dedup",
+        "reason": "一般多邊形按邊數命名已由二4、math1二10及math4三7涵蓋，未重複新增圖形題。"
+      },
+      {
+        "page": 1,
+        "section": "三5取概數",
+        "status": "dedup",
+        "reason": "相同15.048、29.905數值與位數，保留math1二4兩題。"
+      },
+      {
+        "page": 1,
+        "section": "三6扇形",
+        "status": "dedup",
+        "reason": "與math1二2圖形相同，保留其文字版。"
+      },
+      {
+        "page": 1,
+        "section": "四1–7",
+        "status": "included",
+        "reason": "七組比較合為一題。"
+      },
+      {
+        "page": 2,
+        "section": "五1–2",
+        "status": "included",
+        "reason": "因數多選、分數最簡形式均納入。"
+      },
+      {
+        "page": 2,
+        "section": "六1三角形量角",
+        "status": "exclude",
+        "reason": "原圖未標定精確角度，需要量角器量測的作圖尺寸題；不把讀圖估量當成唯一精確答案。"
+      },
+      {
+        "page": 2,
+        "section": "六1內角和",
+        "status": "included",
+        "reason": "量角後內角和的可獨立評分子問保留。"
+      },
+      {
+        "page": 2,
+        "section": "七1–3",
+        "status": "included",
+        "reason": "估算相減、公因數、通分都保留。"
+      },
+      {
+        "page": 2,
+        "section": "八1–5",
+        "status": "included",
+        "reason": "全納入，圓心角圖補成90°、70°、70°及未知角，保留130°與13/36。"
+      }
+    ],
+    "sourceIssues": [
+      "二8原選項中1/2、56/112、12/24皆與28/56等值；候選明問由原分數擴分得到哪個結果，以56/112為唯一答案。",
+      "四7原圖是帶分數2又4/28，不是單獨4/28，已核圖。",
+      "五2原圖是35/24、38/12、1又5/16、3又14/63，均已核原圖。"
+    ]
+  },
+  {
+    "sourceTag": "math3",
+    "pagesReviewed": [
+      1,
+      2,
+      3
+    ],
+    "reviewMethod": "逐頁全文與原始頁面渲染對照；分數與角度以原圖核讀",
+    "candidateCount": 27,
+    "sections": [
+      {
+        "page": 1,
+        "section": "一1、6",
+        "status": "dedup",
+        "reason": "取概數與因數敘述和後續計算/因數題重複，保留後續具體計算。"
+      },
+      {
+        "page": 1,
+        "section": "一2–5",
+        "status": "included",
+        "reason": "合併成單選觀念辨識。"
+      },
+      {
+        "page": 1,
+        "section": "二1–8",
+        "status": "included",
+        "reason": "全納入，多格等值分數合併。"
+      },
+      {
+        "page": 1,
+        "section": "三1–4",
+        "status": "included",
+        "reason": "全納入；三3完整列單數因數為求公因數中間步驟，合併考所有公因數與最大公因數。"
+      },
+      {
+        "page": 2,
+        "section": "四1–4",
+        "status": "included",
+        "reason": "四組比較合為一題。"
+      },
+      {
+        "page": 2,
+        "section": "五1–5",
+        "status": "included",
+        "reason": "各圖補全角度與點順序；五5保留求角72°。"
+      },
+      {
+        "page": 2,
+        "section": "五5比例",
+        "status": "dedup",
+        "reason": "72°占1/5圓與已保留120°/45°扇形比例同一算法，原題同一算式後續換寫，不另造重複題。"
+      },
+      {
+        "page": 2,
+        "section": "六四組三角形邊長",
+        "status": "included",
+        "reason": "改成唯一不能構成三角形的一組，四組原值皆保留。"
+      },
+      {
+        "page": 2,
+        "section": "七1",
+        "status": "included",
+        "reason": "最小正方形拼排。"
+      },
+      {
+        "page": 3,
+        "section": "七2–7",
+        "status": "included",
+        "reason": "全納入；多問合併，30人分組保留所有可能5組或6組。"
+      }
+    ],
+    "sourceIssues": []
+  },
+  {
+    "sourceTag": "math4",
+    "pagesReviewed": [
+      1,
+      2
+    ],
+    "reviewMethod": "逐頁全文與原始頁面渲染對照；分數與角度以原圖核讀",
+    "candidateCount": 17,
+    "sections": [
+      {
+        "page": 1,
+        "section": "一1–5",
+        "status": "included",
+        "reason": "五敘述合成觀念辨識；萬分位另由math2一與math6一涵蓋。"
+      },
+      {
+        "page": 1,
+        "section": "二1–4",
+        "status": "included",
+        "reason": "計算、圓心角與最小公分母都納入。"
+      },
+      {
+        "page": 1,
+        "section": "二5",
+        "status": "dedup",
+        "reason": "42與56間公因數7與math2七2及math9二7同值同條件，保留其他來源。"
+      },
+      {
+        "page": 1,
+        "section": "三1–4",
+        "status": "included",
+        "reason": "位值、多位小數排序及概數全納入。"
+      },
+      {
+        "page": 2,
+        "section": "三5–7",
+        "status": "included",
+        "reason": "三角形判斷、因數卡與十三邊形全納入。"
+      },
+      {
+        "page": 2,
+        "section": "四1–5",
+        "status": "included",
+        "reason": "全納入；角度圖已用ABC與邊上D文字定義。"
+      }
+    ],
+    "sourceIssues": []
+  },
+  {
+    "sourceTag": "math5",
+    "pagesReviewed": [
+      1,
+      2
+    ],
+    "reviewMethod": "逐頁全文與原始頁面渲染對照；分數與角度以原圖核讀",
+    "candidateCount": 31,
+    "sections": [
+      {
+        "page": 1,
+        "section": "一1–6",
+        "status": "included",
+        "reason": "全納入；公交路線明述封閉直線邊，排除一般曲線路線歧義。"
+      },
+      {
+        "page": 1,
+        "section": "二1–15",
+        "status": "included",
+        "reason": "所有小題納入；多格/比較合併，分數由原圖補讀。"
+      },
+      {
+        "page": 2,
+        "section": "二16",
+        "status": "included",
+        "reason": "平行四邊形加正三角形，明述B–C–E依序共線。"
+      },
+      {
+        "page": 2,
+        "section": "三1–2",
+        "status": "included",
+        "reason": "精確小數計算保留。"
+      },
+      {
+        "page": 2,
+        "section": "四1–6",
+        "status": "included",
+        "reason": "全納入，分組、飲料比較與日期條件完整保留。"
+      }
+    ],
+    "sourceIssues": [
+      "二6等腰三角形3、6的第三邊是6；3＋3＝6退化，絕不可選3。",
+      "二10原圖含帶分數1又10/15，非單獨10/15，已核圖。",
+      "四6日期5日，月份只能10月；5月被「月份和日期不同」排除。"
+    ]
+  },
+  {
+    "sourceTag": "math6",
+    "pagesReviewed": [
+      1,
+      2
+    ],
+    "reviewMethod": "逐頁全文與原始頁面渲染對照；分數與角度以原圖核讀",
+    "candidateCount": 26,
+    "sections": [
+      {
+        "page": 1,
+        "section": "一1–3",
+        "status": "included",
+        "reason": "三組是非轉為三題敘述辨識；未逐句重複的1為所有數因數、三角形角和、扇形定義在其他來源題保留。"
+      },
+      {
+        "page": 1,
+        "section": "二1–8",
+        "status": "included",
+        "reason": "全部納入，水梨、分數缺字由原圖補讀；多格合併。"
+      },
+      {
+        "page": 1,
+        "section": "三1–3",
+        "status": "included",
+        "reason": "三組比較合併。"
+      },
+      {
+        "page": 1,
+        "section": "四1–4",
+        "status": "included",
+        "reason": "全部納入，兩組概數與倍數計數合併。"
+      },
+      {
+        "page": 2,
+        "section": "四5(1)–(3)",
+        "status": "included",
+        "reason": "所有幾何圖完整文字化：等腰外角68°、正三角形拼圖、圓心角135°及90°。"
+      },
+      {
+        "page": 2,
+        "section": "四6作圖",
+        "status": "exclude",
+        "reason": "實際畫半徑3公分的5/12圓扇形是開放作圖；不以選項代替作品。"
+      },
+      {
+        "page": 2,
+        "section": "四6標角子問",
+        "status": "included",
+        "reason": "保留同一題可客觀計算的圓心角150°。"
+      },
+      {
+        "page": 2,
+        "section": "五1–4",
+        "status": "included",
+        "reason": "全部納入；糧食原圖2又15/36和50/24已核讀。"
+      }
+    ],
+    "sourceIssues": []
+  },
+  {
+    "sourceTag": "math7",
+    "pagesReviewed": [
+      1,
+      2
+    ],
+    "reviewMethod": "逐頁全文與原始頁面渲染對照；分數與角度以原圖核讀",
+    "candidateCount": 29,
+    "sections": [
+      {
+        "page": 1,
+        "section": "一1–5",
+        "status": "included",
+        "reason": "全納入，三數因倍數限制保留兩命題合併判斷。"
+      },
+      {
+        "page": 1,
+        "section": "二1–4",
+        "status": "included",
+        "reason": "全納入；正方形外角與150°相鄰扇形完整文字化。"
+      },
+      {
+        "page": 1,
+        "section": "三1–2",
+        "status": "included",
+        "reason": "原路線改用非共線折線與直線比較；分數迷宮按每一實際所走岔路完整文字化。"
+      },
+      {
+        "page": 1,
+        "section": "四1–6",
+        "status": "included",
+        "reason": "所有小題納入；四5是否全等值合併到分數化簡辨識，11/21最簡保留。"
+      },
+      {
+        "page": 2,
+        "section": "四7–9",
+        "status": "included",
+        "reason": "分數化簡四項合併，繩長及概數保留。"
+      },
+      {
+        "page": 2,
+        "section": "五一",
+        "status": "included",
+        "reason": "方法辨識與數值兩題，分別考最小公倍數36與最大公因數6。"
+      },
+      {
+        "page": 2,
+        "section": "五二",
+        "status": "included",
+        "reason": "香蕉價、總價、找零三個連續計算均保留。"
+      },
+      {
+        "page": 2,
+        "section": "五三",
+        "status": "included",
+        "reason": "通分名詞及三人份量最大/最小兩題。"
+      },
+      {
+        "page": 2,
+        "section": "五四",
+        "status": "included",
+        "reason": "正六邊形三個相關條件合併；摩天輪角與比例合併。"
+      }
+    ],
+    "sourceIssues": [
+      "三2迷宮依原圖實際路徑1/18→6/5→7/12→B出口；6/5不能誤讀成5/6。",
+      "五一B原文袋子「剛好裝滿」未指定袋容量，依題目最大公因數選項脈絡明確為分成相同袋數，各自均分。"
+    ]
+  },
+  {
+    "sourceTag": "math8",
+    "pagesReviewed": [
+      1,
+      2,
+      3
+    ],
+    "reviewMethod": "逐頁全文與原始頁面渲染對照；分數與角度以原圖核讀",
+    "candidateCount": 26,
+    "sections": [
+      {
+        "page": 1,
+        "section": "第一關1–5",
+        "status": "included",
+        "reason": "全部納入。"
+      },
+      {
+        "page": 1,
+        "section": "第二關1–6",
+        "status": "included",
+        "reason": "全部納入；蛋糕等值分數保留最簡比例，多位位值合併。"
+      },
+      {
+        "page": 1,
+        "section": "第二關7圖形部位",
+        "status": "dedup",
+        "reason": "圓心、半徑、圓弧與扇形之定義在math1二2、math10二2辨識保留；原指箭頭部位識圖不作缺圖題。"
+      },
+      {
+        "page": 1,
+        "section": "第二關7圓心角",
+        "status": "included",
+        "reason": "三分之一圓120°子問保留。"
+      },
+      {
+        "page": 2,
+        "section": "第三關1–6",
+        "status": "included",
+        "reason": "所有計算及幾何納入，多格同一計算合併。"
+      },
+      {
+        "page": 2,
+        "section": "第四關1",
+        "status": "included",
+        "reason": "買平板後餘額、再買筆後餘額保留。"
+      },
+      {
+        "page": 2,
+        "section": "第四關1是否足夠買筆",
+        "status": "dedup",
+        "reason": "與買筆後剩餘正數2722.47同一判斷，併入其解釋。"
+      },
+      {
+        "page": 3,
+        "section": "第四關2",
+        "status": "included",
+        "reason": "前兩共同出貨日及60天內次數合併。"
+      },
+      {
+        "page": 3,
+        "section": "第四關3",
+        "status": "included",
+        "reason": "兩區比較與是否超過半圓合併，比例4/10與3/10完整留在題幹及解釋。"
+      },
+      {
+        "page": 3,
+        "section": "第四關4",
+        "status": "included",
+        "reason": "可構三角形的組別與理由合併唯一判斷。"
+      },
+      {
+        "page": 3,
+        "section": "第四關5",
+        "status": "included",
+        "reason": "加總、剩量、是否裝得下三子問全納入。"
+      }
+    ],
+    "sourceIssues": [
+      "第二關4特別保留第0分鐘，0、12、24共3次。",
+      "第三關6原圖頂角48°，底角66°，已核原圖。"
+    ]
+  },
+  {
+    "sourceTag": "math9",
+    "pagesReviewed": [
+      1,
+      2
+    ],
+    "reviewMethod": "逐頁全文與原始頁面渲染對照；分數與角度以原圖核讀；掃描全文人工逐項轉錄",
+    "candidateCount": 28,
+    "sections": [
+      {
+        "page": 1,
+        "section": "一1–5",
+        "status": "included",
+        "reason": "掃描逐項人工辨識，全納入。"
+      },
+      {
+        "page": 1,
+        "section": "二1–10",
+        "status": "included",
+        "reason": "掃描所有填充完整納入，多格合併；二4問第三邊「最長」故5公分唯一。"
+      },
+      {
+        "page": 1,
+        "section": "三1–3",
+        "status": "included",
+        "reason": "精確小數與兩個75°三角形保留。"
+      },
+      {
+        "page": 2,
+        "section": "三4–5",
+        "status": "included",
+        "reason": "圖形以點線條件文字化，三4核有直角標記，未知大角138°；正方形外角135°。"
+      },
+      {
+        "page": 2,
+        "section": "四1–8",
+        "status": "included",
+        "reason": "全部應用題納入，多問合併；分數與小數全由掃描核讀。"
+      }
+    ],
+    "sourceIssues": [
+      "三4有∠COE直角標記，48°是∠EOB，不可直接用180－48誤得132；正確∠AOD＝138°。",
+      "三5正方形的星在外角，應135°，非45°。"
+    ]
+  },
+  {
+    "sourceTag": "math10",
+    "pagesReviewed": [
+      1,
+      2,
+      3
+    ],
+    "reviewMethod": "逐頁全文與原始頁面渲染對照；分數與角度以原圖核讀",
+    "candidateCount": 34,
+    "sections": [
+      {
+        "page": 1,
+        "section": "一1–15",
+        "status": "included",
+        "reason": "所有選擇題納入；第14題分數版式25/16＝1又X/48已核圖，X27。"
+      },
+      {
+        "page": 1,
+        "section": "二1",
+        "status": "included",
+        "reason": "四組比較合併。"
+      },
+      {
+        "page": 1,
+        "section": "二2",
+        "status": "included",
+        "reason": "四個鋪色形由原圖文字化為半徑/弦/弧邊界，甲、丙是扇形。"
+      },
+      {
+        "page": 1,
+        "section": "二3",
+        "status": "included",
+        "reason": "三角形頂角39°＋74°和底角41°完整文字化。"
+      },
+      {
+        "page": 2,
+        "section": "二4–10",
+        "status": "included",
+        "reason": "全納入；梯形右上角分為45°及未知87°，點名與平行邊已核圖修正。"
+      },
+      {
+        "page": 2,
+        "section": "三1–2",
+        "status": "included",
+        "reason": "概數多選及公倍數方法辨識保留。"
+      },
+      {
+        "page": 2,
+        "section": "四應用1–2",
+        "status": "included",
+        "reason": "優惠後四捨五入與分組條件全納入。"
+      },
+      {
+        "page": 3,
+        "section": "四應用3–7",
+        "status": "included",
+        "reason": "發車時間、扇形人數、裁紙、數量範圍與每包重量比較全部納入。"
+      }
+    ],
+    "sourceIssues": [
+      "一14是25/16＝帶分數1又X/48，非2又25/16，也不是148作分母。",
+      "二4正確點序A左上、B右上、C右下、D左下；AB∥DC，45°在∠ABD，未知∠DBC87°，不能把45°放在∠ADB。"
+    ]
+  }
+]

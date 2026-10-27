@@ -1,0 +1,24 @@
+async page => {
+  await page.setViewportSize({width:1024,height:768});
+  const readState=()=>page.evaluate(async()=>await(await fetch('/api/state')).json());
+  const before=await readState(); const player=before.playerId; const start=before.family.profiles[player];
+  const commands=[];
+  page.on('request',r=>{if(r.url().endsWith('/api/command'))commands.push(r.postDataJSON().command.type);});
+  await page.getByRole('button',{name:'播放題目聲音',exact:true}).click();
+  const t=Date.now();
+  await page.getByRole('button',{name:'選擇 ㄧ',exact:true}).click();
+  await page.locator('.quiz-next-pause').click();
+  const feedbackMs=Date.now()-t;
+  await page.waitForTimeout(1600);
+  const paused=await readState();
+  if(paused.family.profiles[player].run.index!==0 || !paused.family.profiles[player].run.settled)throw Error('pause did not retain settled question');
+  await page.screenshot({path:'output/playwright/quiz-touch/live-paused-ipad.png'});
+  await page.locator('.quiz-next-primary').evaluate(el=>{el.click();el.click();el.click();});
+  await page.getByLabel('第 2 題，共 6 題',{exact:true}).waitFor();
+  await page.waitForTimeout(1500);
+  const after=await readState(); const p=after.family.profiles[player];
+  if(p.run.index!==1 || p.run.settled || p.run.answers.filter(Boolean).length!==1)throw Error('wrong next state');
+  if(commands.filter(x=>x==='answer').length!==1 || commands.filter(x=>x==='advance-question').length!==1)throw Error('duplicate command');
+  await page.screenshot({path:'output/playwright/quiz-touch/live-next-ipad.png'});
+  return {scope:'isolated PostgreSQL synthetic grade1, WebKit',feedbackMs,commands,index:p.run.index,correct:p.run.answers.filter(Boolean).length,coinDelta:p.coins-start.coins};
+}

@@ -1,0 +1,295 @@
+{
+  "checks": [
+    {
+      "name": "webkit feifei settled=False 1024x650: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=False 1024x748: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=False 1180x720: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=False 834x1194: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=False 768x940: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=False 393x740: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=False 320x568: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=False 812x375: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=True 1024x650: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=True 1024x748: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=True 1180x720: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=True 834x1194: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=True 768x940: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=True 393x740: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=True 320x568: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei settled=True 812x375: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei friend banner expanded=False: next remains tappable",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei friend banner expanded=True: next remains tappable",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=False 1024x650: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=False 1024x748: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=False 1180x720: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=False 834x1194: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=False 768x940: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=False 393x740: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=False 320x568: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=False 812x375: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=True 1024x650: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=True 1024x748: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=True 1180x720: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=True 834x1194: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=True 768x940: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=True 393x740: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=True 320x568: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston settled=True 812x375: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "webkit alston friend banner expanded=False: next remains tappable",
+      "pass": true
+    },
+    {
+      "name": "webkit alston friend banner expanded=True: next remains tappable",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=False 1024x650: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=False 1024x748: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=False 1180x720: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=False 834x1194: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=False 768x940: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=False 393x740: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=False 320x568: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=False 812x375: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=True 1024x650: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=True 1024x748: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=True 1180x720: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=True 834x1194: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=True 768x940: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=True 393x740: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=True 320x568: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei settled=True 812x375: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei friend banner expanded=False: next remains tappable",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei friend banner expanded=True: next remains tappable",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=False 1024x650: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=False 1024x748: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=False 1180x720: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=False 834x1194: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=False 768x940: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=False 393x740: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=False 320x568: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=False 812x375: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=True 1024x650: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=True 1024x748: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=True 1180x720: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=True 834x1194: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=True 768x940: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=True 393x740: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=True 320x568: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston settled=True 812x375: actors clear, answers visible, reading and next preserved",
+      "pass": true
+    },
+    {
+      "name": "chromium alston friend banner expanded=False: next remains tappable",
+      "pass": true
+    },
+    {
+      "name": "chromium alston friend banner expanded=True: next remains tappable",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "realPlayerWrites": false,
+  "physicalIPad": false
+}

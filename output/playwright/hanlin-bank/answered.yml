@@ -1,0 +1,102 @@
+- generic [ref=e47]:
+  - link "跳到主要內容" [ref=e48] [cursor=pointer]:
+    - /url: "#family-main"
+  - status [ref=e49]:
+    - generic [ref=e50]:
+      - text: quintus ·
+      - generic [ref=e712]: ☁
+      - text: 已儲存至雲端
+    - button "登出" [ref=e55] [cursor=pointer]
+  - main [ref=e131]:
+    - region "答題怪物戰鬥" [ref=e533]:
+      - generic [ref=e534]:
+        - generic [ref=e535]:
+          - generic [ref=e536]: ⚔️
+          - text: 答對就出招
+        - button "暫停背景音樂" [pressed] [ref=e622] [cursor=pointer]:
+          - generic [ref=e623]: Ⅱ
+          - text: 暫停音樂
+      - generic [ref=e540]:
+        - generic [ref=e542]:
+          - generic [ref=e543]:
+            - strong [ref=e544]: 潮光獸
+            - meter "夥伴生命" [ref=e545]
+            - generic [ref=e547]: 100 / 100
+          - generic [ref=e548]:
+            - strong [ref=e549]: 藤玉幼像
+            - meter "怪物體力" [ref=e550]
+            - generic [ref=e552]: 95 / 112
+        - img "潮光獸" [ref=e557]
+        - generic [ref=e559]:
+          - img "藤玉幼像" [ref=e562]
+          - generic: −17
+      - status [ref=e563]: 攻擊命中！夥伴 +10 XP
+      - group [ref=e564]:
+        - generic "夥伴成長與戰鬥說明" [ref=e565] [cursor=pointer]
+    - generic [ref=e627]:
+      - button "回到港口" [ref=e628] [cursor=pointer]:
+        - generic [ref=e629]: ⛵
+      - generic "第 1 題，共 6 題" [ref=e633]:
+        - generic [ref=e634]: ✓
+        - generic [ref=e635]: "2"
+        - generic [ref=e636]: "3"
+        - generic [ref=e637]: "4"
+        - generic [ref=e638]: "5"
+        - generic [ref=e639]: "6"
+      - generic "累計答錯 0 題，三題即失敗" [ref=e640]: ❤️❤️❤️ 0 / 3
+    - generic [ref=e641]:
+      - generic [ref=e642]:
+        - strong [ref=e643]:
+          - generic [ref=e644]: 🎯
+          - text: 已答對 1 題 · 目標 4 題
+        - generic [ref=e648]: 這題已保存
+      - group [ref=e653]:
+        - generic [ref=e654]:
+          - paragraph [ref=e655]: 試卷題・長安國小 108學年度四上・翰林・題號 2-1（改錯字轉選擇）
+          - generic [ref=e656]:
+            - generic [ref=e657]: 挑戰 1 / 6
+            - generic [ref=e658]: 4 年級
+          - heading "把「涼伴」改成正確的詞語，應選哪一個？" [level=1] [ref=e659]
+          - generic [ref=e660]:
+            - button "播放題目聲音" [ref=e661] [cursor=pointer]:
+              - generic [ref=e662]: 👂
+              - generic [ref=e667]: 聽題目
+              - generic [ref=e668]: ▶
+            - button "🛡️ 護盾" [disabled] [ref=e674]:
+              - generic [ref=e675]: 🛡️
+              - text: 護盾
+          - generic [ref=e680]:
+            - button "選擇 涼伴" [disabled] [ref=e681]:
+              - generic [ref=e682]: 涼伴
+            - button "選擇 涼絆" [disabled] [ref=e684]:
+              - generic [ref=e685]: 涼絆
+            - button "選擇 涼扮" [disabled] [ref=e687]:
+              - generic [ref=e688]: 涼扮
+            - button "選擇 涼拌" [disabled] [ref=e690]:
+              - generic [ref=e691]: 涼拌
+          - button "💡 提示" [disabled] [ref=e694]:
+            - generic [ref=e695]: 💡
+            - text: 提示
+          - status [ref=e699]:
+            - generic [ref=e700]: 新題探索 · 依本場挑戰安排
+            - button "聽出題說明" [ref=e701] [cursor=pointer]:
+              - generic [ref=e702]: 🔊
+          - paragraph [ref=e706]: 每題只能選一次。答錯或超時三次即失敗；六題答對 4 題才通關。每兩場成功換一張券。
+    - generic "自動換題" [ref=e720]:
+      - status [ref=e721]:
+        - text: 答對了！夥伴出招！
+        - generic [ref=e722]: 動作結束後繼續下一題
+      - button "Ⅱ 暫停換題" [ref=e723] [cursor=pointer]:
+        - generic [ref=e724]: Ⅱ
+        - text: 暫停換題
+    - button "⏹ 結束航程" [ref=e707] [cursor=pointer]:
+      - generic [ref=e708]: ⏹
+      - text: 結束航程
+  - contentinfo [ref=e497]:
+    - generic [ref=e498]:
+      - img "星潮學院 Star Tide Academy — 星潮小龍" [ref=e499]:
+        - generic [aria-hidden] [ref=e500]:
+          - strong [ref=e501]: 星潮學院
+          - generic [ref=e502]: STAR TIDE ACADEMY
+      - generic [ref=e503]: 測試航海員
+    - generic [ref=e504]: 學習點數不扣除，休息後再一起出發。

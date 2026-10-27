@@ -1,0 +1,6 @@
+### Result
+{"restored":true,"width":320}
+### Ran Playwright code
+```js
+await (async (page) => {await page.setViewportSize({width:320,height:500});const opener=page.getByRole("button",{name:"打開測試收藏"});await opener.focus();await opener.press("Enter");await page.locator(".friend-collection-cards li").first().waitFor();const body=page.locator(".social-scroll-body");await body.focus();await page.keyboard.press("End");await page.getByRole("button",{name:"查看更多夥伴"}).click();await page.locator(".friend-collection-cards li").last().scrollIntoViewIfNeeded();await page.screenshot({path:"output/playwright/collection-scroll/webkit-320.png",scale:"css"});await page.getByRole("button",{name:"關閉",exact:true}).click();await page.waitForFunction(()=>document.activeElement?.textContent==="打開測試收藏");return {restored:true,width:await page.evaluate(()=>document.documentElement.scrollWidth)};})(page);
+```

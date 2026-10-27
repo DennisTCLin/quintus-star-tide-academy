@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "width": 390,
+      "care": "PASS",
+      "reducedMotion": "PASS",
+      "chatIdentity": "PASS",
+      "layout": "PASS",
+      "keyboardFocus": "PASS"
+    },
+    {
+      "width": 820,
+      "care": "PASS",
+      "reducedMotion": "PASS",
+      "chatIdentity": "PASS",
+      "layout": "PASS",
+      "keyboardFocus": "PASS"
+    },
+    {
+      "width": 1440,
+      "care": "PASS",
+      "reducedMotion": "PASS",
+      "chatIdentity": "PASS",
+      "layout": "PASS",
+      "keyboardFocus": "PASS"
+    },
+    {
+      "sameSlotOtherAccount": "PASS"
+    },
+    {
+      "mediaFailureFallback": "PASS"
+    },
+    {
+      "videoPlaybackAndRestart": "PASS",
+      "pauseResume": "PASS"
+    }
+  ],
+  "errors": [],
+  "scope": "isolated local API fixtures; no real account mutations"
+}

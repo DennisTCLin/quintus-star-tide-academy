@@ -1,0 +1,12 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/companion-voice-cloud.test.mjs src/__tests__/trial-grade6.test.mjs
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/feifei-photo/星潮網站開發
+
+
+ Test Files  2 passed (2)
+      Tests  10 passed (10)
+   Start at  13:02:18
+   Duration  1.51s (tests 65%, import 21%, transform 14%)

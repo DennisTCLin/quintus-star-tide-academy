@@ -1,0 +1,587 @@
+[
+  {
+    "source": "g6sc6",
+    "page": 2,
+    "locator": "二11",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "午後烏雲強風雷雨不等於冷鋒；缺氣團與天氣圖資料，不能把冷鋒設唯一答案。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 2,
+    "locator": "二16",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "開放教育目的「最主要學到什麼」多項可成立，無唯一科學答案。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 2,
+    "locator": "三1(1)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 2,
+    "locator": "三1(2)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 2,
+    "locator": "三1(3)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 2,
+    "locator": "三1(4)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 2,
+    "locator": "三2(1)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 2,
+    "locator": "三2(2)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 2,
+    "locator": "三2(3)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 3,
+    "locator": "三3(2)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 3,
+    "locator": "三3(3)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 3,
+    "locator": "四2(1)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 3,
+    "locator": "四2(2)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 4,
+    "locator": "五2(2)",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "太平洋高壓下可能晴朗也可午後雷雨，原選項同時列兩者而未界定天氣尺度。"
+  },
+  {
+    "source": "g6sc6",
+    "page": 4,
+    "locator": "加分題",
+    "previousStatus": "open_ended",
+    "disposition": "open_ended",
+    "reason": "已檢視原頁，要求自行畫防颱海報／任舉兩個防颱措施／熱脹冷縮生活實例，存在多個合理答案，不能把任舉一例假裝唯一答案。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 1,
+    "locator": "一7",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "雲也可能含固態冰晶，題目將固態天氣數量固定為4並不嚴謹。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 1,
+    "locator": "二3",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "退熱貼的導熱與蒸發效果需具體產品條件；不把熱學題寫成醫療退燒建議。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 2,
+    "locator": "二4",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "原卷四個水循環選項皆可合理成立，問錯誤項缺明確唯一答案。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 2,
+    "locator": "二6",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 2,
+    "locator": "三一2",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 2,
+    "locator": "三一3",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 2,
+    "locator": "三一4",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 2,
+    "locator": "三一5",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 2,
+    "locator": "三一7",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 3,
+    "locator": "三三1",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 3,
+    "locator": "三三2",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 4,
+    "locator": "三五1",
+    "previousStatus": "open_ended",
+    "disposition": "open_ended",
+    "reason": "已檢視原頁，要求自行畫防颱海報／任舉兩個防颱措施／熱脹冷縮生活實例，存在多個合理答案，不能把任舉一例假裝唯一答案。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 4,
+    "locator": "三五2",
+    "previousStatus": "open_ended",
+    "disposition": "open_ended",
+    "reason": "已檢視原頁，要求自行畫防颱海報／任舉兩個防颱措施／熱脹冷縮生活實例，存在多個合理答案，不能把任舉一例假裝唯一答案。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 4,
+    "locator": "三六1",
+    "previousStatus": "open_ended",
+    "disposition": "open_ended",
+    "reason": "已檢視原頁，要求自行畫防颱海報／任舉兩個防颱措施／熱脹冷縮生活實例，存在多個合理答案，不能把任舉一例假裝唯一答案。"
+  },
+  {
+    "source": "g6sc7",
+    "page": 4,
+    "locator": "三六2",
+    "previousStatus": "open_ended",
+    "disposition": "open_ended",
+    "reason": "已檢視原頁，要求自行畫防颱海報／任舉兩個防颱措施／熱脹冷縮生活實例，存在多個合理答案，不能把任舉一例假裝唯一答案。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 1,
+    "locator": "一10",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "金屬受熱膨脹通常很小；「明顯」沒有量測尺度，非唯一可判真假。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 1,
+    "locator": "二2",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "「地面水遇冷會蒸發」不是嚴格必錯，低溫仍能蒸發；原題選項未寫因果或速率。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 1,
+    "locator": "二3",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "臺灣颱風常見災害為風雨洪水；原題問大雪完全沒有關聯過度絕對，未限定典型情境。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 1,
+    "locator": "二4",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "塑膠袋種類厚度和結構不明，不能斷言任何塑膠袋均無保溫作用。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 1,
+    "locator": "三1(1)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 1,
+    "locator": "三1(2)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 1,
+    "locator": "三1(3)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 2,
+    "locator": "三2(1)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 2,
+    "locator": "三2(2)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 2,
+    "locator": "三2(3)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 2,
+    "locator": "三2(4)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 2,
+    "locator": "三3(1)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 2,
+    "locator": "三3(5)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc8",
+    "page": 2,
+    "locator": "四4(4)",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "木地板伸縮縫通常也為濕度造成脹縮；不只歸因溫度。"
+  },
+  {
+    "source": "g6sc9",
+    "page": 1,
+    "locator": "一5",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "有雲不代表不能存在H，高壓區仍可有雲；原題過度推論。"
+  },
+  {
+    "source": "g6sc9",
+    "page": 1,
+    "locator": "一9",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "選項雨、露雖皆液態，但露不是降水，因此原題沒有正確的液態降水組合。"
+  },
+  {
+    "source": "g6sc9",
+    "page": 1,
+    "locator": "二1(1)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc9",
+    "page": 1,
+    "locator": "二1(2)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc9",
+    "page": 1,
+    "locator": "二1(3)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc9",
+    "page": 1,
+    "locator": "二2(4)",
+    "previousStatus": "ambiguous",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc9",
+    "page": 2,
+    "locator": "三1(1)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc9",
+    "page": 3,
+    "locator": "三2(1)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc9",
+    "page": 3,
+    "locator": "三2(2)",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc9",
+    "page": 3,
+    "locator": "五4(1)",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "固體粒子排列與熱膨脹「很明顯」的因果不嚴謹，缺比較條件。"
+  },
+  {
+    "source": "g6sc9",
+    "page": 4,
+    "locator": "五6(1)",
+    "previousStatus": "pending_verification",
+    "disposition": "ambiguous",
+    "reason": "已查中央氣象署季風科普：冬季北部、東北部陰雨常因東北季風與地形抬升。原題把整個中北部冬季陰雨概括為主要冷鋒，不能給無條件是非正解。",
+    "verificationUrl": "https://edu.cwa.gov.tw/PopularScience/kids/wt/wt_11.html"
+  },
+  {
+    "source": "g6sc9",
+    "page": 4,
+    "locator": "五6(2)",
+    "previousStatus": "pending_verification",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 1,
+    "locator": "第一關2",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "選項先冷後熱與直接放熱水都可能使液柱升高，未限定終點與水浴溫度。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 1,
+    "locator": "第一關6",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "固體粒子示意整齊不能推論膨脹最明顯；若比較三態需等條件。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 2,
+    "locator": "第二關2",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 2,
+    "locator": "第二關4",
+    "previousStatus": "ambiguous",
+    "disposition": "ambiguous",
+    "reason": "日曬金屬/木椅的表面溫度、顏色與時間未控制，不能只憑材質決定觸感。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 2,
+    "locator": "第三關1",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 2,
+    "locator": "第三關2",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 2,
+    "locator": "第三關3",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 2,
+    "locator": "第三關4",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 3,
+    "locator": "第八關5",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 3,
+    "locator": "第八關6",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 3,
+    "locator": "第八關7",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 3,
+    "locator": "第八關9",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 4,
+    "locator": "第九關2",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 4,
+    "locator": "第九關3",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 4,
+    "locator": "第九關4",
+    "previousStatus": "requires_image_asset",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 4,
+    "locator": "第十關1",
+    "previousStatus": "pending_verification",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  },
+  {
+    "source": "g6sc10",
+    "page": 4,
+    "locator": "第十關2",
+    "previousStatus": "pending_verification",
+    "disposition": "recovered",
+    "reason": "逐張檢視原卷完整圖與題目，改寫為唯一正解；圖資座標及必要修正見candidates.json。"
+  }
+]

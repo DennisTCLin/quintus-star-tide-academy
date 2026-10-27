@@ -1,0 +1,79 @@
+{
+  "build": "PASS",
+  "runtimeCommit": "acad380",
+  "integrationCommits": [
+    "8dbb936",
+    "cfec840"
+  ],
+  "testCommand": "TEST_DATABASE_URL=<isolated local PostgreSQL> npm test -- --maxWorkers=1",
+  "testFiles": 35,
+  "testsPassed": 344,
+  "testsFailed": 0,
+  "testsSkipped": 0,
+  "durationSeconds": 19.87,
+  "pronunciation": {
+    "sourceRuns": 2995,
+    "curatedLessons": 165,
+    "reviewedContextRules": 143
+  },
+  "localUiCommandMeasurement": {
+    "samples": 13,
+    "medianMs": 48.0,
+    "minMs": 38.9,
+    "maxMs": 143.3,
+    "scope": "Single Chromium natural-onboarding session on local PostgreSQL. Includes UI automation and HTTP. Not a load or mobile-network benchmark."
+  },
+  "bundle": {
+    "assets": [
+      {
+        "file": "assets/TerritoryPage.v-5PgLoXkm.css",
+        "bytes": 18226,
+        "gzipBytes": 4085
+      },
+      {
+        "file": "assets/TerritoryPage.v-CN9Zmx5G.js",
+        "bytes": 17664,
+        "gzipBytes": 6267
+      },
+      {
+        "file": "assets/index.v-BHY6L1XR.css",
+        "bytes": 189550,
+        "gzipBytes": 40519
+      },
+      {
+        "file": "assets/index.v-Dd8_qVcc.js",
+        "bytes": 625842,
+        "gzipBytes": 184630
+      }
+    ],
+    "note": "Existing main bundle >500KB warning remains; no performance improvement claimed."
+  },
+  "browser": {
+    "result": "PASS",
+    "passingCheckEvents": 497,
+    "pageErrors": 0,
+    "report": "browser-verification.json",
+    "visualReview": "browser-visual-review.json"
+  },
+  "independentReview": {
+    "result": "PASS after four fixes",
+    "report": "independent-review.md"
+  },
+  "sourceCommit": "40185e250fa01b938d30c0e735b399fccb001e86",
+  "production": {
+    "result": "PASS",
+    "releaseReport": "production-release.json",
+    "liveCloudReport": "production-cloud.json",
+    "deployment": "954781bf-d399-445d-a0e9-10ca4ce7cc5f",
+    "railwayStatus": "SUCCESS",
+    "naturalCaptureOutcome": "escaped",
+    "pageErrors": 0,
+    "uiCommandRoundTripMs": {
+      "samples": 13,
+      "median": 176.2,
+      "min": 143.8,
+      "max": 1364.3,
+      "note": "One isolated Chromium account, includes UI automation/HTTP. Background sync caused one safe retry before any command was sent."
+    }
+  }
+}

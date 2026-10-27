@@ -1,0 +1,100 @@
+{
+  "result": "PASS",
+  "tests": {
+    "files": 57,
+    "cases": 475,
+    "database": "isolated star_tide_test",
+    "build": "PASS"
+  },
+  "contentReview": {
+    "agent": "eight_content_verifier",
+    "items": 16,
+    "segments": 112,
+    "additionalLabels": 20,
+    "result": "PASS after four corrections",
+    "corrections": [
+      "落在:落=ㄌㄨㄛˋ",
+      "禮貌地:地=˙ㄉㄜ",
+      "買東西:西=˙ㄒㄧ;東西南北unchanged",
+      "English13onlyscope:swimmingonlyonSaturday doesnotmeanSaturdayhas onlyswimming"
+    ]
+  },
+  "pronunciationSources": [
+    "https://dict.concised.moe.edu.tw/dictView.jsp?ID=15454&la=0&powerMode=0",
+    "https://dict.concised.moe.edu.tw/dictView.jsp?ID=7455&la=0&powerMode=0",
+    "https://dict.concised.moe.edu.tw/dictView.jsp?ID=9787&la=0&powerMode=0"
+  ],
+  "dictionary": {
+    "phrases": 4766,
+    "characters": 1627,
+    "syllables": 831,
+    "contextRules": 202
+  },
+  "independentContractReview": {
+    "agent": "eight_ui_verifier",
+    "result": "PASS",
+    "baseline": "48c1fullfields+526oldstaticquestions identicalto3946bd3",
+    "allocations": 7200,
+    "issuedQuestions": 25200,
+    "conditions": "12:levels1/2/3×count1/6×fresh/legacyseen;all16reachable,no samebatchduplicates,reviewhonest,saverestorePASS",
+    "terminalRuns": 48,
+    "answerSubmissions": 240,
+    "pendingRestores": 16,
+    "crossGradeRejections": 32,
+    "frontendInputs": 103,
+    "answerBankInputs": 0
+  },
+  "rootApi": "LocalactualAPIhidesanswer/explanationfornew01untilfirstanswer;doubleclickonefamilyrevision;save/reloadremainssettled",
+  "browser": "New01andlongestprompt15andlongestoption12;320/820/1024/1440nooverflow;100pxtargetsminimum;context12longchoice100+height;0consoleerrors",
+  "limitations": [
+    "Longestprompt15lastanswerbottom786.5at1024×768 and1187.5at820×1180;naturalverticalscrollrequired;no universalfirstscreenclaim",
+    "No actual device/human listening or teacher approval",
+    "Existingallocatorreviews generatedquestionsonly afterexhaustion;newc1notautomaticallyrevisited;deferredfixrecorded",
+    "TwofuturequestionsofisolatedQAQuintusreplacedwithvalidatedlongtextfixtures;otherprofilesunchanged;no realchildren"
+  ],
+  "assets": [
+    {
+      "file": "RoomEditor.v-7NoXJ619.js",
+      "bytes": 10629,
+      "gzip9": 4072,
+      "sha256": "b3f60cc92e5805e0d64ee2ef0ba49cf1c7ca1ad18154098f1d58680d5dce3553"
+    },
+    {
+      "file": "TerritoryPage.v-B5Stekvd.js",
+      "bytes": 35956,
+      "gzip9": 12776,
+      "sha256": "5624e3a65d216d1ec9678e024433e4a194fe4652d8174c46532301a1887d935f"
+    },
+    {
+      "file": "TerritoryPage.v-XpGSXE-r.css",
+      "bytes": 30002,
+      "gzip9": 6405,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    {
+      "file": "index.v-Df3IK6FU.css",
+      "bytes": 231222,
+      "gzip9": 48361,
+      "sha256": "8e7e611bcfbd4b3085921d7e1146dd7904899f4071350a637644b9a994c568a3"
+    },
+    {
+      "file": "index.v-DqVnNJLt.js",
+      "bytes": 664958,
+      "gzip9": 231272,
+      "sha256": "ca3fd57a047d431f7cb06f402dbc9d42340b11b896055814da853deaa5314e3a"
+    }
+  ],
+  "dictionaryDelta": {
+    "newPhrases": 142,
+    "existingChangedPhrases": 0,
+    "existingChangedCharacters": 0,
+    "baseline": "3946bd3"
+  },
+  "payload": {
+    "mainJsBefore": 657205,
+    "mainJsAfter": 664958,
+    "gzip9Before": 228172,
+    "gzip9After": 231272,
+    "note": "Build payload;new142dictionaryphrases. Answerbank stays server-side. No device/network speed claim."
+  }
+}

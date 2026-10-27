@@ -1,0 +1,14 @@
+{
+  "base": "http://127.0.0.1:4250",
+  "earnedViaTwoVoyages": true,
+  "lostResponseSameIdRetry": true,
+  "oneTicketOneCard": true,
+  "crossDevice": true,
+  "reloadRecovery": true,
+  "profileIsolation": true,
+  "equipUsesNextVoyage": true,
+  "originalXpPreserved": true,
+  "logoutClearsResult": true,
+  "errors": [],
+  "withoutAbortSignalTimeout": false
+}

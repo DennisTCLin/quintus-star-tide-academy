@@ -1,0 +1,22 @@
+[
+  {
+    "engine": "chromium",
+    "switchConfirmationPreservesRun": true,
+    "inlineCompanionOpenCloseFocus": true,
+    "reduceMotionAndPause": true,
+    "allSubjectsAccessible": true,
+    "offlineBlocks": true,
+    "resumeKeepsRunAndClock": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "switchConfirmationPreservesRun": true,
+    "inlineCompanionOpenCloseFocus": true,
+    "reduceMotionAndPause": true,
+    "allSubjectsAccessible": true,
+    "offlineBlocks": true,
+    "resumeKeepsRunAndClock": true,
+    "errors": []
+  }
+]

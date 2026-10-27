@@ -1,0 +1,6 @@
+### Result
+{"speakers":0,"headings":["24865719 的千萬位數字是幾？"],"progress":"⚔️ 答對就出招\nⅡ 暫停音樂\n潮光獸\n100 / 100\n金晶幼像\n78 / 112\n每題只作答一次；答對攻擊，答錯或超時扣血。累計三錯就結束這場。\n夥伴成長與戰鬥說明\n⛵\n✓\n✓\n3\n4\n5\n6\n❤️❤️❤️ 0 / 3\n🎯 已答對 2 題 · 目標 4 題\n🌱 慢慢想 · 不計時\n\n試卷題・大墩國小 113學年度四上・康軒・第1頁 1-3（選填題改編）\n\n挑戰 3 / 6\n4 年級\n24865719 的千萬位數字是幾？\n🛡️ 護盾\n\n點選答案，立即送出\n\n5\n7\n2\n4\n💡 提示\n\n新題探索 · 依本場挑戰安排\n\n每題只能選一次。答錯或超時三次即失敗；六題答對 4 題才通關。每兩場成功換一張券。\n\n⏹ 結束航程"}
+### Ran Playwright code
+```js
+await (async (page) => { await page.screenshot({path:"output/playwright/grade-speech-controls/grade4-after-answer.png"}); return {speakers:await page.locator("[data-read-aloud]").count(),headings:await page.getByRole("heading").allTextContents(),progress:await page.locator("main").innerText()}; })(page);
+```

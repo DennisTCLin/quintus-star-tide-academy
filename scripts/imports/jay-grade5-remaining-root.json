@@ -1,0 +1,872 @@
+[
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音1（字音辨識）",
+    "prompt": "「演奏」中「奏」的正確讀音是哪一個？",
+    "correct": "ㄗㄡˋ",
+    "wrong": [
+      "ㄘㄡˋ",
+      "ㄗㄡˇ",
+      "ㄗㄡ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「演奏」的「奏」讀ㄗㄡˋ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音2（字音辨識）",
+    "prompt": "「蜂擁而入」中「擁」的正確讀音是哪一個？",
+    "correct": "ㄩㄥˇ",
+    "wrong": [
+      "ㄩㄥ",
+      "ㄩㄥˊ",
+      "ㄩㄥˋ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「蜂擁而入」的「擁」讀ㄩㄥˇ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音3（字音辨識）",
+    "prompt": "「撲克牌」中「撲」的正確讀音是哪一個？",
+    "correct": "ㄆㄨ",
+    "wrong": [
+      "ㄅㄨ",
+      "ㄆㄨˇ",
+      "ㄆㄨˋ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「撲克牌」的「撲」讀ㄆㄨ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音4（字音辨識）",
+    "prompt": "「氣氛」中「氛」的正確讀音是哪一個？",
+    "correct": "ㄈㄣ",
+    "wrong": [
+      "ㄈㄣˋ",
+      "ㄈㄥ",
+      "ㄈㄣˇ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「氣氛」的「氛」讀ㄈㄣ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音5（字音辨識）",
+    "prompt": "「挺起胸膛」中「挺」的正確讀音是哪一個？",
+    "correct": "ㄊㄧㄥˇ",
+    "wrong": [
+      "ㄊㄧㄥ",
+      "ㄊㄧㄥˊ",
+      "ㄊㄧㄥˋ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「挺起胸膛」的「挺」讀ㄊㄧㄥˇ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音6（字音辨識）",
+    "prompt": "「權衡利害」中「權」的正確讀音是哪一個？",
+    "correct": "ㄑㄩㄢˊ",
+    "wrong": [
+      "ㄑㄩㄢ",
+      "ㄑㄩㄢˇ",
+      "ㄑㄩㄢˋ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「權衡利害」的「權」讀ㄑㄩㄢˊ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音7（字音辨識）",
+    "prompt": "「逐步」中「逐」的正確讀音是哪一個？",
+    "correct": "ㄓㄨˊ",
+    "wrong": [
+      "ㄓㄨ",
+      "ㄓㄨˇ",
+      "ㄓㄨˋ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「逐步」的「逐」讀ㄓㄨˊ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音8（字音辨識）",
+    "prompt": "「階段」中「階」的正確讀音是哪一個？",
+    "correct": "ㄐㄧㄝ",
+    "wrong": [
+      "ㄐㄧㄝˊ",
+      "ㄐㄧㄝˇ",
+      "ㄐㄧㄝˋ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「階段」的「階」讀ㄐㄧㄝ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音9（字音辨識）",
+    "prompt": "「搜索枯腸」中「搜」的正確讀音是哪一個？",
+    "correct": "ㄙㄡ",
+    "wrong": [
+      "ㄕㄡ",
+      "ㄙㄡˇ",
+      "ㄙㄡˋ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「搜索枯腸」的「搜」讀ㄙㄡ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音10（字音辨識）",
+    "prompt": "「預測」中「預」的正確讀音是哪一個？",
+    "correct": "ㄩˋ",
+    "wrong": [
+      "ㄩ",
+      "ㄩˊ",
+      "ㄩˇ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「預測」的「預」讀ㄩˋ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音12（字音辨識）",
+    "prompt": "「塑造」中「塑」的正確讀音是哪一個？",
+    "correct": "ㄙㄨˋ",
+    "wrong": [
+      "ㄕㄨˋ",
+      "ㄙㄨ",
+      "ㄙㄨˇ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「塑造」的「塑」讀ㄙㄨˋ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音13（字音辨識）",
+    "prompt": "「半途而廢」中「廢」的正確讀音是哪一個？",
+    "correct": "ㄈㄟˋ",
+    "wrong": [
+      "ㄈㄟ",
+      "ㄈㄟˊ",
+      "ㄈㄟˇ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「半途而廢」的「廢」讀ㄈㄟˋ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音14（字音辨識）",
+    "prompt": "「極限」中「極」的正確讀音是哪一個？",
+    "correct": "ㄐㄧˊ",
+    "wrong": [
+      "ㄐㄧ",
+      "ㄐㄧˇ",
+      "ㄐㄧˋ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「極限」的「極」讀ㄐㄧˊ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音15（字音辨識）",
+    "prompt": "「耐心」中「耐」的正確讀音是哪一個？",
+    "correct": "ㄋㄞˋ",
+    "wrong": [
+      "ㄋㄞ",
+      "ㄋㄞˊ",
+      "ㄋㄞˇ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「耐心」的「耐」讀ㄋㄞˋ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音16（字音辨識）",
+    "prompt": "「耗費」中「耗」的正確讀音是哪一個？",
+    "correct": "ㄏㄠˋ",
+    "wrong": [
+      "ㄏㄠ",
+      "ㄏㄠˊ",
+      "ㄏㄠˇ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「耗費」的「耗」讀ㄏㄠˋ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音17（字音辨識）",
+    "prompt": "「汙辱」中「辱」的正確讀音是哪一個？",
+    "correct": "ㄖㄨˋ",
+    "wrong": [
+      "ㄖㄨ",
+      "ㄖㄨˊ",
+      "ㄖㄨˇ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「汙辱」的「辱」讀ㄖㄨˋ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音18（字音辨識）",
+    "prompt": "「走廊」中「廊」的正確讀音是哪一個？",
+    "correct": "ㄌㄤˊ",
+    "wrong": [
+      "ㄌㄤ",
+      "ㄌㄤˇ",
+      "ㄌㄤˋ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「走廊」的「廊」讀ㄌㄤˊ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音19（字音辨識）",
+    "prompt": "「媲美」中「媲」的正確讀音是哪一個？",
+    "correct": "ㄆㄧˋ",
+    "wrong": [
+      "ㄅㄧˋ",
+      "ㄆㄧ",
+      "ㄆㄧˇ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「媲美」的「媲」讀ㄆㄧˋ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一國字注音20（字音辨識）",
+    "prompt": "「無愧於心」中「愧」的正確讀音是哪一個？",
+    "correct": "ㄎㄨㄟˋ",
+    "wrong": [
+      "ㄎㄨㄟ",
+      "ㄎㄨㄟˊ",
+      "ㄎㄨㄟˇ"
+    ],
+    "hint": "以完整詞語判斷讀音，再比較聲母、韻母與聲調。",
+    "explanation": "「無愧於心」的「愧」讀ㄎㄨㄟˋ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一改錯-溶洽",
+    "prompt": "原句寫作「溶洽」，依題意應改成哪一個詞語？",
+    "correct": "融洽",
+    "wrong": [
+      "溶洽",
+      "融義",
+      "融意"
+    ],
+    "hint": "依詞義選字，不能只看讀音相同。",
+    "explanation": "融洽形容彼此感情和睦、相處協調。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一改錯-螢繞",
+    "prompt": "原句寫作「螢繞」，依題意應改成哪一個詞語？",
+    "correct": "縈繞",
+    "wrong": [
+      "螢繞",
+      "縈義",
+      "縈意"
+    ],
+    "hint": "依詞義選字，不能只看讀音相同。",
+    "explanation": "縈繞指盤旋、回繞；螢是螢火蟲。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一改錯-進功",
+    "prompt": "原句寫作「進功」，依題意應改成哪一個詞語？",
+    "correct": "進攻",
+    "wrong": [
+      "進功",
+      "進義",
+      "進意"
+    ],
+    "hint": "依詞義選字，不能只看讀音相同。",
+    "explanation": "進攻指向對方攻擊；功通常指功勞、成效。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一改錯-氾下錯誤",
+    "prompt": "原句寫作「氾下錯誤」，依題意應改成哪一個詞語？",
+    "correct": "犯下錯誤",
+    "wrong": [
+      "氾下錯誤",
+      "犯義",
+      "犯意"
+    ],
+    "hint": "依詞義選字，不能只看讀音相同。",
+    "explanation": "犯下錯誤的犯，是觸犯、做出不當事情的意思。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一改錯-錯扼",
+    "prompt": "原句寫作「錯扼」，依題意應改成哪一個詞語？",
+    "correct": "錯愕",
+    "wrong": [
+      "錯扼",
+      "錯義",
+      "錯意"
+    ],
+    "hint": "依詞義選字，不能只看讀音相同。",
+    "explanation": "錯愕形容驚訝不知所措；扼是握住、把守。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 6,
+    "page": 1,
+    "locator": "一改錯-難演興奮",
+    "prompt": "原句寫作「難演興奮」，依題意應改成哪一個詞語？",
+    "correct": "難掩興奮",
+    "wrong": [
+      "難演興奮",
+      "難義",
+      "難意"
+    ],
+    "hint": "依詞義選字，不能只看讀音相同。",
+    "explanation": "難掩指難以掩飾；演是表演、演出。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "一國字注音1（字音辨識）",
+    "prompt": "「寨子」中「寨」的正確讀音是哪一個？",
+    "correct": "ㄓㄞˋ",
+    "wrong": [
+      "ㄗㄞˋ",
+      "ㄓㄞ",
+      "ㄓㄞˇ"
+    ],
+    "hint": "先看完整詞語，再比較聲調。",
+    "explanation": "「寨子」的「寨」讀ㄓㄞˋ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "一國字注音3（字音辨識）",
+    "prompt": "「空曠」中「曠」的正確讀音是哪一個？",
+    "correct": "ㄎㄨㄤˋ",
+    "wrong": [
+      "ㄍㄨㄤˋ",
+      "ㄎㄨㄤ",
+      "ㄎㄨㄤˇ"
+    ],
+    "hint": "先看完整詞語，再比較聲調。",
+    "explanation": "「空曠」的「曠」讀ㄎㄨㄤˋ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "一國字注音6（字音辨識）",
+    "prompt": "「溪澗」中「澗」的正確讀音是哪一個？",
+    "correct": "ㄐㄧㄢˋ",
+    "wrong": [
+      "ㄐㄧㄢ",
+      "ㄐㄧㄢˊ",
+      "ㄐㄧㄢˇ"
+    ],
+    "hint": "先看完整詞語，再比較聲調。",
+    "explanation": "「溪澗」的「澗」讀ㄐㄧㄢˋ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "一國字注音8（字音辨識）",
+    "prompt": "「蟬鳴」中「鳴」的正確讀音是哪一個？",
+    "correct": "ㄇㄧㄥˊ",
+    "wrong": [
+      "ㄇㄧㄥ",
+      "ㄇㄧㄥˇ",
+      "ㄇㄧㄥˋ"
+    ],
+    "hint": "先看完整詞語，再比較聲調。",
+    "explanation": "「蟬鳴」的「鳴」讀ㄇㄧㄥˊ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "一國字注音9（字音辨識）",
+    "prompt": "「菜圃」中「圃」的正確讀音是哪一個？",
+    "correct": "ㄆㄨˇ",
+    "wrong": [
+      "ㄆㄨ",
+      "ㄆㄨˊ",
+      "ㄆㄨˋ"
+    ],
+    "hint": "先看完整詞語，再比較聲調。",
+    "explanation": "「菜圃」的「圃」讀ㄆㄨˇ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "一國字注音11（字音辨識）",
+    "prompt": "「褐色」中「褐」的正確讀音是哪一個？",
+    "correct": "ㄏㄜˊ",
+    "wrong": [
+      "ㄏㄜ",
+      "ㄏㄜˇ",
+      "ㄏㄜˋ"
+    ],
+    "hint": "先看完整詞語，再比較聲調。",
+    "explanation": "「褐色」的「褐」讀ㄏㄜˊ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "一國字注音18（字音辨識）",
+    "prompt": "「吱喳」中「喳」的正確讀音是哪一個？",
+    "correct": "ㄓㄚ",
+    "wrong": [
+      "ㄔㄚ",
+      "ㄓㄚˇ",
+      "ㄓㄚˋ"
+    ],
+    "hint": "先看完整詞語，再比較聲調。",
+    "explanation": "「吱喳」的「喳」讀ㄓㄚ。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "二改錯-和許的陽光",
+    "prompt": "這段遊記中的「和許的陽光」，正確寫法應是哪一個？",
+    "correct": "和煦的陽光",
+    "wrong": [
+      "和許的陽光",
+      "和緒的陽光",
+      "和敘的陽光"
+    ],
+    "hint": "根據詞義辨別形近或同音字。",
+    "explanation": "和煦指溫暖、和暖，適合形容陽光。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "二改錯-蠟肉",
+    "prompt": "這段遊記中的「蠟肉」，正確寫法應是哪一個？",
+    "correct": "臘肉",
+    "wrong": [
+      "蠟肉",
+      "臘木",
+      "辣暮"
+    ],
+    "hint": "根據詞義辨別形近或同音字。",
+    "explanation": "臘肉是經醃製、風乾或燻製的肉；蠟通常指蠟燭、蠟質。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "二改錯-反家",
+    "prompt": "這段遊記中的「反家」，正確寫法應是哪一個？",
+    "correct": "返家",
+    "wrong": [
+      "反家",
+      "飯家",
+      "販家"
+    ],
+    "hint": "根據詞義辨別形近或同音字。",
+    "explanation": "返家指回家，返有回到原處的意思。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "二改錯-不拾",
+    "prompt": "「旅程結束時，我依依不拾地向朋友告別。」其中「不拾」應改成哪一個？",
+    "correct": "不捨",
+    "wrong": [
+      "不拾",
+      "不設",
+      "不涉"
+    ],
+    "hint": "根據詞義辨別形近或同音字。",
+    "explanation": "不捨指捨不得，表達留戀之情。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "二改錯-槽雜",
+    "prompt": "這段遊記中的「槽雜」，正確寫法應是哪一個？",
+    "correct": "嘈雜",
+    "wrong": [
+      "槽雜",
+      "曹雜",
+      "漕雜"
+    ],
+    "hint": "根據詞義辨別形近或同音字。",
+    "explanation": "嘈雜形容聲音雜亂、喧鬧。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "二改錯-悠靜",
+    "prompt": "這段遊記中的「悠靜」，正確寫法應是哪一個？",
+    "correct": "幽靜",
+    "wrong": [
+      "悠靜",
+      "憂靜",
+      "優靜"
+    ],
+    "hint": "根據詞義辨別形近或同音字。",
+    "explanation": "幽靜指幽深而安靜。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "二改錯-政付",
+    "prompt": "這段遊記中的「政付」，正確寫法應是哪一個？",
+    "correct": "政府",
+    "wrong": [
+      "政付",
+      "正府",
+      "政符"
+    ],
+    "hint": "根據詞義辨別形近或同音字。",
+    "explanation": "政府是國家或地方處理公共事務的機關。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "二改錯-開僻道路",
+    "prompt": "這段遊記中的「開僻道路」，正確寫法應是哪一個？",
+    "correct": "開闢道路",
+    "wrong": [
+      "開僻道路",
+      "開避道路",
+      "開癖道路"
+    ],
+    "hint": "根據詞義辨別形近或同音字。",
+    "explanation": "開闢指開發、闢建，開闢道路是修建道路。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "三選擇1（詞義辨識）",
+    "prompt": "「這款新手機創下驚人的銷售紀錄。」下列哪個詞語帶有「急著大量賣出」的特別意思，不能和這裡的一般銷售完全等同？",
+    "correct": "拋售",
+    "wrong": [
+      "販售",
+      "販賣",
+      "出售"
+    ],
+    "hint": "比較各詞是否還有額外的意思。",
+    "explanation": "拋售通常含急於大量出售的意思；販售、販賣、出售較接近一般銷售。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 1,
+    "locator": "三選擇3（附詩補情境）",
+    "prompt": "王維《鹿柴》：空山不見人，但聞人語響。返景入深林，復照青苔上。\n哪個詞語最適合形容詩中的整體情境？",
+    "correct": "安靜自在",
+    "wrong": [
+      "門庭若市",
+      "人聲鼎沸",
+      "車水馬龍"
+    ],
+    "hint": "留意空山、不見人與深林。",
+    "explanation": "詩中的山林幽靜，短暫人聲更襯出環境安靜，最接近安靜自在。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 3,
+    "locator": "三選擇18（附詩補情境）",
+    "prompt": "王維《鹿柴》：空山不見人，但聞人語響。返景入深林，復照青苔上。\n哪個語詞最能看出描寫的是傍晚的山林？",
+    "correct": "返景",
+    "wrong": [
+      "空山",
+      "人語",
+      "青苔"
+    ],
+    "hint": "返景指傍晚映照的日光。",
+    "explanation": "返景在詩中指夕陽的返照，能顯示傍晚時刻。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 3,
+    "locator": "三選擇20（近體絕句限定）",
+    "prompt": "在小學所學的近體詩中，五言或七言絕句的基本形式是什麼？",
+    "correct": "全詩四句，每句五字或七字",
+    "wrong": [
+      "全詩八句，每句任意字數",
+      "每句都必須押韻",
+      "第三句一定要押韻"
+    ],
+    "hint": "比較律詩與絕句的句數。",
+    "explanation": "近體絕句有四句，分五言、七言；並不是每句或第三句都必須押韻。"
+  },
+  {
+    "course": "chinese",
+    "sourceIndex": 7,
+    "page": 4,
+    "locator": "四閱讀7（詩意辨識）",
+    "prompt": "王維《竹里館》寫道：「獨坐幽篁裡，彈琴復長嘯。深林人不知，明月來相照。」根據這個情景，詩人此刻的活動最接近哪一項？",
+    "correct": "獨自在竹林彈琴，享受清靜",
+    "wrong": [
+      "和一大群人在鬧市聚餐",
+      "在市場大聲叫賣",
+      "帶隊到操場比賽"
+    ],
+    "hint": "把獨坐、深林、人不知放在一起理解。",
+    "explanation": "詩中明寫獨坐竹林、彈琴長嘯，表現獨處清靜的情景；不把一首詩推斷為終身習慣。"
+  },
+  {
+    "course": "english",
+    "sourceIndex": 44,
+    "page": 1,
+    "locator": "Part E Part1-1（圖表轉文字；時刻改編）",
+    "prompt": "Read the timetable.\nKen's timetable: 7:30 a.m. get up; 7:50 a.m. go jogging; 9:30 a.m. play basketball; 12:00 noon have lunch; 1:45 p.m. watch TV; 3:30 p.m. ride a bike; 6:00 p.m. take a shower; 7:30 p.m. have dinner; 9:15 p.m. study English; 11:00 p.m. go to bed.\nKen plays basketball at 9:30 a.m. Is this true?",
+    "correct": "Yes, it is.",
+    "wrong": [
+      "No, it is not.",
+      "He plays at 11:00 p.m.",
+      "He never plays basketball."
+    ],
+    "hint": "把問題中的活動或時刻與時間表比對。",
+    "explanation": "時間表在上午9:30列出打籃球。"
+  },
+  {
+    "course": "english",
+    "sourceIndex": 44,
+    "page": 1,
+    "locator": "Part E Part1-2（洗澡用語校正）",
+    "prompt": "Read the timetable.\nKen's timetable: 7:30 a.m. get up; 7:50 a.m. go jogging; 9:30 a.m. play basketball; 12:00 noon have lunch; 1:45 p.m. watch TV; 3:30 p.m. ride a bike; 6:00 p.m. take a shower; 7:30 p.m. have dinner; 9:15 p.m. study English; 11:00 p.m. go to bed.\nWhat does Ken do at 6:00 p.m.?",
+    "correct": "He takes a shower.",
+    "wrong": [
+      "He has dinner.",
+      "He gets up.",
+      "He studies English."
+    ],
+    "hint": "把問題中的活動或時刻與時間表比對。",
+    "explanation": "時間表在下午6:00列出淋浴，晚餐是7:30。"
+  },
+  {
+    "course": "english",
+    "sourceIndex": 44,
+    "page": 1,
+    "locator": "Part E Part1-3（圖表轉文字）",
+    "prompt": "Read the timetable.\nKen's timetable: 7:30 a.m. get up; 7:50 a.m. go jogging; 9:30 a.m. play basketball; 12:00 noon have lunch; 1:45 p.m. watch TV; 3:30 p.m. ride a bike; 6:00 p.m. take a shower; 7:30 p.m. have dinner; 9:15 p.m. study English; 11:00 p.m. go to bed.\nWhen does Ken ride a bike?",
+    "correct": "In the afternoon.",
+    "wrong": [
+      "At midnight.",
+      "Before breakfast.",
+      "At 11:00 p.m."
+    ],
+    "hint": "把問題中的活動或時刻與時間表比對。",
+    "explanation": "騎車在下午3:30，所以是In the afternoon。"
+  },
+  {
+    "course": "english",
+    "sourceIndex": 44,
+    "page": 1,
+    "locator": "Part E Part1-4（圖表轉文字）",
+    "prompt": "Read the timetable.\nKen's timetable: 7:30 a.m. get up; 7:50 a.m. go jogging; 9:30 a.m. play basketball; 12:00 noon have lunch; 1:45 p.m. watch TV; 3:30 p.m. ride a bike; 6:00 p.m. take a shower; 7:30 p.m. have dinner; 9:15 p.m. study English; 11:00 p.m. go to bed.\nKen goes to bed at twelve o'clock. Is this true?",
+    "correct": "No, he goes to bed at eleven.",
+    "wrong": [
+      "Yes, at twelve.",
+      "No, at six.",
+      "Yes, at noon."
+    ],
+    "hint": "把問題中的活動或時刻與時間表比對。",
+    "explanation": "時間表的睡覺時間是晚上11:00，不是12:00。"
+  },
+  {
+    "course": "english",
+    "sourceIndex": 44,
+    "page": 1,
+    "locator": "Part E Part2-1（圖表轉文字）",
+    "prompt": "Read the timetable.\nKen's timetable: 7:30 a.m. get up; 7:50 a.m. go jogging; 9:30 a.m. play basketball; 12:00 noon have lunch; 1:45 p.m. watch TV; 3:30 p.m. ride a bike; 6:00 p.m. take a shower; 7:30 p.m. have dinner; 9:15 p.m. study English; 11:00 p.m. go to bed.\nWhat time does Ken have dinner?",
+    "correct": "At seven thirty in the evening.",
+    "wrong": [
+      "At seven thirty in the morning.",
+      "At six in the evening.",
+      "At twelve noon."
+    ],
+    "hint": "把問題中的活動或時刻與時間表比對。",
+    "explanation": "晚餐時間是晚上7:30，不能和上午7:30起床混淆。"
+  },
+  {
+    "course": "english",
+    "sourceIndex": 44,
+    "page": 1,
+    "locator": "Part E Part2-2（不推定週末）",
+    "prompt": "Read the timetable.\nKen's timetable: 7:30 a.m. get up; 7:50 a.m. go jogging; 9:30 a.m. play basketball; 12:00 noon have lunch; 1:45 p.m. watch TV; 3:30 p.m. ride a bike; 6:00 p.m. take a shower; 7:30 p.m. have dinner; 9:15 p.m. study English; 11:00 p.m. go to bed.\nWhat does Ken do at 9:15 p.m.?",
+    "correct": "He studies English.",
+    "wrong": [
+      "He goes jogging.",
+      "He has lunch.",
+      "He rides a bike."
+    ],
+    "hint": "把問題中的活動或時刻與時間表比對。",
+    "explanation": "時間表在晚上9:15列出讀英文；原圖沒有明示星期，不另外猜週末。"
+  },
+  {
+    "course": "english",
+    "sourceIndex": 44,
+    "page": 2,
+    "locator": "Part G 6-助動詞（代詞固定）",
+    "prompt": "Choose the correct word: What ____ Rocky do in his free time?",
+    "correct": "does",
+    "wrong": [
+      "do",
+      "is",
+      "are"
+    ],
+    "hint": "Rocky 是第三人稱單數主詞。",
+    "explanation": "現在簡單式疑問句中，第三人稱單數主詞用does；後面的主要動詞do保持原形。"
+  },
+  {
+    "course": "english",
+    "sourceIndex": 44,
+    "page": 2,
+    "locator": "Part G 6-主要動詞（代詞固定）",
+    "prompt": "Choose the correct word: What does Rocky ____ in his free time?",
+    "correct": "do",
+    "wrong": [
+      "does",
+      "doing",
+      "to do"
+    ],
+    "hint": "已有助動詞does，主要動詞應用什麼形式？",
+    "explanation": "助動詞does之後，主要動詞用原形do，不能再用does。"
+  },
+  {
+    "course": "english",
+    "sourceIndex": 44,
+    "page": 2,
+    "locator": "Part H Part1-1（修正原選項文法）",
+    "prompt": "Read: Jane says, \"My sister reads books on weekends. She loves Shakespeare.\"\nWhat does Jane's sister do on weekends?",
+    "correct": "She reads books.",
+    "wrong": [
+      "She rides a bike.",
+      "She plays basketball.",
+      "She goes jogging."
+    ],
+    "hint": "找出Jane對姊妹週末活動的直接描述。",
+    "explanation": "Jane明確說她的姊妹週末讀書，現在簡單式第三人稱單數用reads；原選項read缺s已修正。"
+  },
+  {
+    "course": "english",
+    "sourceIndex": 44,
+    "page": 2,
+    "locator": "Part H Part2-Ed籃球",
+    "prompt": "Read: Ed walks the dog at four fifteen. He has dinner at six thirty. Then he plays basketball at seven forty-five.\nWhat time does Ed play basketball?",
+    "correct": "At 7:45.",
+    "wrong": [
+      "At 4:15.",
+      "At 6:30.",
+      "At 9:50."
+    ],
+    "hint": "注意活動和時間，first與again不可混淆。",
+    "explanation": "seven forty-five是7:45。"
+  },
+  {
+    "course": "english",
+    "sourceIndex": 44,
+    "page": 2,
+    "locator": "Part H Part2-Ben第一次遊戲",
+    "prompt": "Read: Ben first plays online games at four thirty. He has dinner at seven. Then he plays online games again at nine.\nWhat time does Ben first play online games?",
+    "correct": "At 4:30.",
+    "wrong": [
+      "At 7:00.",
+      "At 9:00.",
+      "At 11:20."
+    ],
+    "hint": "注意活動和時間，first與again不可混淆。",
+    "explanation": "first指第一次，文中先在4:30玩，9:00是再次玩。"
+  },
+  {
+    "course": "english",
+    "sourceIndex": 44,
+    "page": 2,
+    "locator": "Part H Part2-Ben晚餐",
+    "prompt": "Read: Ben plays online games at four thirty. He has dinner at seven o'clock. He plays online games again at nine.\nWhat time does Ben have dinner?",
+    "correct": "At 7:00.",
+    "wrong": [
+      "At 4:30.",
+      "At 9:00.",
+      "At 11:20."
+    ],
+    "hint": "注意活動和時間，first與again不可混淆。",
+    "explanation": "seven o'clock表示7:00，原文指出這是晚餐時間。"
+  },
+  {
+    "course": "english",
+    "sourceIndex": 44,
+    "page": 2,
+    "locator": "Part H Part2-Ben再次遊戲",
+    "prompt": "Read: Ben plays online games at four thirty. He has dinner at seven. Then he plays online games again at nine.\nWhat time does Ben play online games again after dinner?",
+    "correct": "At 9:00.",
+    "wrong": [
+      "At 4:30.",
+      "At 7:00.",
+      "At 11:20."
+    ],
+    "hint": "注意活動和時間，first與again不可混淆。",
+    "explanation": "again after dinner指晚餐後再次玩，文中時間是9:00。"
+  }
+]

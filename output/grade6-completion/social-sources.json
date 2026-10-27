@@ -1,0 +1,32 @@
+{
+ "reviewDate":"2026-10-26",
+ "method":"讀取全部10份原卷；9份PDF共26頁逐頁檢視影像及文字，第8份掃描PDF以影像核對，第9份DOC以textutil轉出的完整文字及先前候選段落影像核對。原卷未附獨立答案卷，答案是對可獨立作答題的人工判斷與以下官方資料交叉核對，並非聲稱原答案卷認證。",
+ "sources":[
+ {"url":"https://www.president.gov.tw/Page/284/1241","claim":"憲法第35、36、59、62、63、77條：總統對外代表與統軍、行政院提出預算、立法及司法機關職權。"},
+ {"url":"https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0040003","claim":"地方制度法：地方自治與委辦事項、直轄市議會議決自治條例及預算、質詢。"},
+ {"url":"https://www.moi.gov.tw/cp.aspx?n=674","claim":"地方自治團體與一般區公所之區別；原卷所有區都有議會的敘述不可直接採。"},
+ {"url":"https://www.cy.gov.tw/cp.aspx?n=91&s=247","claim":"監察院彈劾職權；與糾正行政機關不同。"},
+ {"url":"https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=17207","claim":"2020高雄氣爆捐款案調查及糾正；新題只問監察院糾正職權，不把爭議個案指控當定罪。"},
+ {"url":"https://archives.ith.sinica.edu.tw/collections_con.php?no=34","claim":"公學校與小學校制度有時期差異；1922–1941以日語使用區分，不應把整個日治期都當絕對族群分校。"},
+ {"url":"https://tcmb.culture.tw/zh-tw/detail?id=128000001773&indexCode=MOCCOLLECTIONS","claim":"部分原住民族兒童教育所屬警務系統，附設駐在所；不擴大為所有原住民族均讀同一學校。"},
+ {"url":"https://www.ey.gov.tw/Page/9277F759E41CCD91/58315b18-c7ea-47dc-b551-09800f9a3ab1","claim":"杜聰明為臺灣首位醫學博士。"},
+ {"url":"https://www.th.gov.tw/Epaper_Content/238/9905/","claim":"日治初期保甲制度協助警察地方控制。"},
+ {"url":"https://www.rb.gov.tw/public/files/artsinfo/1526562374-0.pdf","claim":"1891基隆臺北鐵路完成；1893延至新竹，不能稱基隆新竹為第一段。"},
+ {"url":"https://thcts.sinica.edu.tw/themes/rc16","claim":"清代完成鐵路範圍基隆至新竹。"},
+ {"url":"https://www.th.gov.tw/EpaperSend/113/268/","claim":"1935地方選舉有性別年齡納稅限制，半數民選。"},
+ {"url":"https://art.archives.gov.tw/tw/art/1490.html","claim":"1950至1951分期辦理首屆縣市長選舉，早於解嚴與美麗島。"},
+ {"url":"https://web.cec.gov.tw/central/article/19170","claim":"第9任1996首次直接選舉及其後各屆選舉；第15任投票日2020年1月11日。"},
+ {"url":"https://www.cdc.gov.tw/EpidemicTheme/Detail/zKNFqsVWxUoUqE6fyhmBNA?archiveId=G7vp571b1RPBeJhzpbbJng","claim":"1989核定十四項重要建設工程人力措施，因國內人力不足引進營造移工；以歷史政策為題。"},
+ {"url":"https://www.mol.gov.tw/media/rlqkykbs/動態瞭望.pdf?mediaDL=true","claim":"1989起為十四項重大建設勞力不足專案引進營造業移工。"},
+ {"url":"https://www.travel.taipei/zh-tw/shop/details/157","claim":"波麗路成立1934且曾為文藝聚會場所；新題用創立時間，不依賴目前營業狀態。"},
+ {"url":"https://www.tfai.org.tw/zh/program/movieDetail/2c958082861b978b018639b1e0d50043","claim":"悲情城市背景含二二八事件。"},
+ {"url":"https://www.ey.gov.tw/Page/9277F759E41CCD91/d31ef385-670c-46e6-9893-5ed25bbf02b4","claim":"2011至2015建置澎湖低碳島專案，改成有年代的歷史題。"},
+ {"url":"https://www.sunmoonlake.gov.tw/zh-tw/guides/ArticlesText?a=35","claim":"1934日月潭水力工程完成，支持工業用電。"},
+ {"url":"https://ctc.kcg.gov.tw/Content_List.aspx?n=54E43A201DE7775B","claim":"橋頭糖廠1901設立，為臺灣第一座新式製糖廠。"},
+ {"url":"https://art.archives.gov.tw/tw/art/1377.html","claim":"1949年6月15日發行新臺幣取代舊臺幣。"},
+ {"url":"https://art.archives.gov.tw/tw/art/1553.html","claim":"1979年12月10日高雄人權紀念大會與美麗島事件。"},
+ {"url":"https://www.th.gov.tw/Epaper_Content/240/8988/","claim":"霧社事件影響日治原住民族治理政策；不支持原卷從此再無大規模抵抗的絕對斷語。"},
+ {"url":"https://www-ws.wra.gov.tw/001/Upload/OldFileWranb//media/382057/ed000499整合.pdf","claim":"石門水庫1956開工1964完工。"}
+ ],
+ "limits":["不確定的史實、缺教材脈絡或複數可解題目仍在coverage標記，未悄悄補造圖或資料。","missing_image表示原卷有圖但尚未建立前端可用圖資；不是宣稱使用者的PDF缺頁。","原卷2的2023預測閱讀改為附短文的閱讀判斷，答案只依短文，不視為已發生事實。","原卷8四2土地表頭與數值疑似對調，兩個子題皆保留不匯入。","原卷9 DOC頁碼保留null，頁尾國中自然欄位碼不作年級科目依據。","逐題核對不等於聲稱已有教師或官方逐題答案認證；root仍需獨立盲審與匯入測試。"]
+}

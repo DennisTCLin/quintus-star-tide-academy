@@ -1,0 +1,46 @@
+{
+  "status": "read-only scope; no implementation",
+  "observedAt": "2026-10-24T21:38:22.475849+00:00",
+  "priority": "Four original grade4 English reading concepts across16 short everyday contexts",
+  "currentBank": {
+    "curated": 10,
+    "generated": 250,
+    "generatedPools": [
+      {
+        "key": "g4-englishread-1",
+        "count": 20
+      },
+      {
+        "key": "g4-englishread-2",
+        "count": 20
+      },
+      {
+        "key": "g4-englishread-3",
+        "count": 210
+      }
+    ],
+    "generatedPattern": "Mia red/blue shells:extract red,extract blue,add total;distinct numbers do not imply broad language coverage",
+    "publishedC1AllCourses": 48
+  },
+  "sourceEvidence": [
+    "src/scenario-generator.ts:46-60,106-116",
+    "src/questions.ts English01..10",
+    "memory-only esbuild inventory from3946bd3; no source changes"
+  ],
+  "candidateConcepts": [
+    "Read simple daily schedules or opening times using facts given in text",
+    "Follow before/after or first/then sequence in a short activity",
+    "Identify locations using explicit spatial relations",
+    "Choose a suitable response in a clearly specified everyday dialogue"
+  ],
+  "bounds": [
+    "16 original c1-g4-English questions,4perconcept; reuse existingenglishskill unless inspectedvalidator change justified",
+    "Keep language concrete and short; do not claim textbook/teacher approval or curriculum coverage",
+    "Everyanswer unique and supported byprompt;distractors samekind;balancedposition;Chinesehint/explanation meaning and Taiwan readings reviewed",
+    "Freeze all48 publishedc1fullfields before newquestions; do not change oldIDsemantics/n1",
+    "Check allnewIDs active/pending/save/reload/once-only/3error/sixquestion and fullcourseallocation; current allocator has curated question lane",
+    "Allpriorreaders retained forrollback; no data/economy/schema changes",
+    "Phone/tablet/desktop longtext readability and speech rendering;no realdevicevoice claim"
+  ],
+  "notImplemented": true
+}

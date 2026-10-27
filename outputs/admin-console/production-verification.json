@@ -1,0 +1,91 @@
+{
+  "pass": true,
+  "runtimeCommit": "3b7b825",
+  "physicalDevice": false,
+  "readOnlyStudentVerification": true,
+  "checks": [
+    {
+      "name": "Production entry assets match tested build",
+      "pass": true
+    },
+    {
+      "name": "Production health",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: unauthenticated admin API rejected",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: specified administrator can sign in",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: Secure HttpOnly Strict production cookie",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: actual player roster and learning available",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: every account has distinct name/photo and learning report",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: grant history readable",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: no JavaScript exceptions",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: logout invalidates production session",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): unauthenticated admin API rejected",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): specified administrator can sign in",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): Secure HttpOnly Strict production cookie",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): actual player roster and learning available",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): every account has distinct name/photo and learning report",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): grant history readable",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): no JavaScript exceptions",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): logout invalidates production session",
+      "pass": true
+    }
+  ],
+  "deploymentId": "369e04a5-033f-453d-a6eb-1b1a5939cff7",
+  "productionAdminProvisioned": true,
+  "lazyAdminAssetsMatch": true
+}

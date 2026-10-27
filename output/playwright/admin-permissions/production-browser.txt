@@ -1,0 +1,12 @@
+### Result
+{"loginVisible":true,"overflow":false,"studentDataVisible":0}
+### Ran Playwright code
+```js
+await (async (page) => {await page.setViewportSize({width:390,height:844});await page.getByRole("button",{name:"登入管理艙",exact:true}).waitFor();await page.screenshot({path:"output/playwright/admin-permissions/production-login-mobile.png",fullPage:true});return {loginVisible:true,overflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),studentDataVisible:await page.getByRole("heading",{name:"學習狀態",exact:true}).count()};})(page);
+```
+### Page
+- Page URL: https://quintus-star-tide-academy-production.up.railway.app/admin
+- Page Title: 星潮學院｜一起向星海出發
+- Console: 1 errors, 0 warnings
+### Events
+- New console entries: .playwright-cli/console-2026-10-25T15-35-44-526Z.log#L1

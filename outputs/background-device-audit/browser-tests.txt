@@ -1,0 +1,57 @@
+PASS Independent phone/tablet sessions join the same real battle
+READ held start 10408333.555681 0
+READ held ready 10408333.563483292 0 1
+VISIBILITY 0 hidden 10408333.637505876
+VISIBILITY 0 visible 10408333.78406875
+READ held start 10408333.78592804 1
+READ held ready 10408333.8068855 1 2
+PASS Client 0: hiding invalidates connectivity
+PASS Client 0: resume starts a fresh read before stale read finishes
+PASS Client 0: commands stay paused while resume snapshot is pending
+READ release 10408333.878992416
+READ release 10408335.483571876
+PASS Client 0: stale background reply cannot regress displayed round
+PASS Client 0: lifecycle changes cause no extra move
+READ held start 10408335.761635415 0
+READ held ready 10408335.766427167 0 2
+VISIBILITY 1 hidden 10408335.843040166
+VISIBILITY 1 visible 10408335.99053554
+READ held start 10408335.992578084 1
+READ held ready 10408336.021194957 1 3
+PASS Client 1: hiding invalidates connectivity
+PASS Client 1: resume starts a fresh read before stale read finishes
+PASS Client 1: commands stay paused while resume snapshot is pending
+READ release 10408336.079993293
+READ extra fresh gated 10408337.303734416 2
+READ release 10408337.663523331
+PASS Client 1: stale background reply cannot regress displayed round
+PASS Client 1: lifecycle changes cause no extra move
+VISIBILITY 0 hidden 10408340.856846085
+VISIBILITY 0 visible 10408344.799450085
+PASS Resume while POST is in flight stays paused
+READ held start 10408344.888885625 0
+READ held ready 10408344.894400124 0 6
+PASS Late POST completion cannot bypass the fresh-read barrier
+READ release 10408344.978386832
+PASS Late successful POST resumes latest round without another command
+VISIBILITY 0 hidden 10408345.062364709
+VISIBILITY 0 visible 10408347.99895304
+PASS Client 0: offline/background replay keeps original command
+PASS Client 0: replay after opponent move never damages twice
+VISIBILITY 1 hidden 10408350.760166792
+VISIBILITY 1 visible 10408352.7172185
+PASS Client 1: offline/background replay keeps original command
+PASS Client 1: replay after opponent move never damages twice
+PASS Pagehide pauses commands even before visibility changes
+READ held start 10408353.27586 0
+READ held ready 10408353.280385958 0 12
+PASS Persisted pageshow requires a fresh server snapshot
+READ release 10408353.361674877
+VISIBILITY 0 hidden 10408354.963788876
+VISIBILITY 1 hidden 10408355.046770291
+VISIBILITY 0 visible 10408355.132606292
+VISIBILITY 1 visible 10408355.215150831
+PASS Returning after the turn deadline shows a settled result
+PASS No learning or reward mutation
+PASS Command receipts are unique
+PASS No application JavaScript exception

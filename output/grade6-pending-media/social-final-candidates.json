@@ -1,0 +1,304 @@
+[
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "一14",
+    "prompt": "負責審查國家預算的立法院，其民選成員的正式職稱是什麼？",
+    "correct": "立法委員",
+    "wrong": [
+      "監察委員",
+      "大法官",
+      "縣市長"
+    ],
+    "explanation": "立法院的民選成員稱為立法委員，立法院有審查國家預算的職權。",
+    "evidenceUrl": "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=321&pid=12"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "一15",
+    "prompt": "下列哪項主要屬於地方政府辦理的地方公共事務？",
+    "correct": "興建鄉鎮的地方公園",
+    "wrong": [
+      "規畫全國發展方向",
+      "編列中央政府預算",
+      "辦理全國外交事務"
+    ],
+    "explanation": "地方公園主要屬地方事務；中央可能補助，不能解讀成中央絕不參與。",
+    "evidenceUrl": "https://www.moi.gov.tw/cp.aspx?n=674"
+  },
+  {
+    "source": 1,
+    "page": 4,
+    "locator": "三1-B",
+    "prompt": "趙爺爺一家剛隨中華民國政府從中國大陸撤退到臺灣，這段回憶最接近哪個年代？",
+    "correct": "民國38年前後",
+    "wrong": [
+      "日治初期",
+      "日治後期",
+      "民國70年代"
+    ],
+    "explanation": "政府於1949年（民國38年）遷臺；將原卷不精確的民國40年代選項改成民國38年前後。",
+    "evidenceUrl": "https://www.president.gov.tw/Page/81"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一9",
+    "prompt": "依1949年臺灣省戒嚴令的規定，居民攜帶身分證的要求為何？",
+    "correct": "居家或外出都須隨身攜帶，以備檢查",
+    "wrong": [
+      "只有出國才須攜帶",
+      "只有投票才須攜帶",
+      "完全沒有證件檢查規定"
+    ],
+    "explanation": "國立臺灣歷史博物館指出戒嚴令明定居家或外出均須攜證備查，否則拘捕。這是歷史規定，不是現行規定。",
+    "evidenceUrl": "https://taiwanindex.nmth.gov.tw/theme/detail/42"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一10",
+    "prompt": "「每一個區都有區公所和區民代表會」這句話是否正確？",
+    "correct": "不正確，一般區與直轄市山地原住民區的制度不同",
+    "wrong": [
+      "正確，所有區都設區民代表會",
+      "正確，區公所就是區民代表會",
+      "不正確，所有區都沒有區公所"
+    ],
+    "explanation": "一般區公所是市政府派出機關；直轄市山地原住民區才具有自治團體地位並設區民代表會。",
+    "evidenceUrl": "https://www.moi.gov.tw/cp.aspx?n=674"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "三5",
+    "prompt": "西來庵事件之後，臺灣漢人的抗日運動主要轉向何種方式？",
+    "correct": "非武裝的政治、社會運動",
+    "wrong": [
+      "只以大規模武裝起義為主",
+      "完全停止一切抗爭",
+      "以參與皇民化為抗日主軸"
+    ],
+    "explanation": "西來庵事件之後，漢人的抗日運動主要轉向非武裝的政治與社會運動；不代表所有民族的武裝抵抗都終止。",
+    "evidenceUrl": "https://ws.th.gov.tw/Download.ashx?n=NDAxMDU5NDA5LnBkZg%3D%3D&u=LzAwMi9USC90anBkZjIwMjQxMDE1L3Zhci93d3cvaHRtbC9uZXdfc2l0ZS8wNXB1Ymxpc2gvMDNwdWJsaXNocXVlcnkvMDJqb3VybmFsL3RqLzQwMTA1OTQwOS5wZGY%3D"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二13",
+    "prompt": "以節約能源、降低碳排放為訴求，除太陽光電外，下列哪項應用符合此訴求？",
+    "correct": "LED照明",
+    "wrong": [
+      "燃煤火力發電",
+      "白熾燈照明",
+      "燃油發電"
+    ],
+    "explanation": "LED照明使用較少電力達到照明效果，屬於節能應用。",
+    "evidenceUrl": "https://www.president.gov.tw/NEWS/18733"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "七2",
+    "prompt": "地方民意代表蒐集地方民意、替人民反映意見，是否屬於其工作？",
+    "correct": "是，民意代表可蒐集並反映地方意見",
+    "wrong": [
+      "否，只有行政機關能聽取民意",
+      "否，民意代表只能執行工程",
+      "否，民意代表不能接觸選民"
+    ],
+    "explanation": "民意代表代表人民的意見，可蒐集並反映地方民意，並非只有行政機關能聽取民意。",
+    "evidenceUrl": "https://www.taichung.gov.tw/958641/post"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一12",
+    "prompt": "截至2019年，臺灣LED照明技術是否已獲肯定並成為綠能產業的一部分？",
+    "correct": "是，LED已是臺灣綠能產業的一部分",
+    "wrong": [
+      "否，LED直到2025年才發明",
+      "否，臺灣當時完全沒有LED產業",
+      "否，LED只屬燃煤發電設備"
+    ],
+    "explanation": "2014年的政府資料已將LED列入綠能產業成果。這不等於宣稱產值世界第一。",
+    "evidenceUrl": "https://www.president.gov.tw/NEWS/18733"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二7",
+    "prompt": "民國80年代以後，臺灣以捷安特、美利達等自有品牌走向國際。這些品牌以哪種產品聞名？",
+    "correct": "自行車",
+    "wrong": [
+      "飛機",
+      "石油",
+      "軍火"
+    ],
+    "explanation": "捷安特、美利達是臺灣的自行車品牌，將自有品牌推向國際市場。",
+    "evidenceUrl": "https://www.moea.gov.tw/mns/DOS/Publish/wHandPublish_File.ashx?pub_id=1513"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "八7",
+    "prompt": "就戰後臺灣的發展而言，臺灣是否逐漸開始援助其他國家？",
+    "correct": "是，1959年已派農技人員赴越南協助",
+    "wrong": [
+      "否，戰後從未對外援助",
+      "否，直到2026年仍完全沒有援外",
+      "是，1945年已停止接受所有外援"
+    ],
+    "explanation": "國合會記載1959年派遣農技人員赴越南、1960年推動先鋒案；不能將廣義戰後一律判錯。",
+    "evidenceUrl": "https://www.icdf.org.tw/wSite/ct?ctNode=31100&mp=2&xItem=64"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一(一)2-總統",
+    "prompt": "2019年秋季，中華民國總統是誰？",
+    "correct": "蔡英文",
+    "wrong": [
+      "馬英九",
+      "陳水扁",
+      "李登輝"
+    ],
+    "explanation": "蔡英文總統任期自2016年5月20日至2024年5月20日。",
+    "evidenceUrl": "https://www.president.gov.tw/Page/705"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一(一)2-行政院長",
+    "prompt": "2019年秋季，行政院院長是誰？",
+    "correct": "蘇貞昌",
+    "wrong": [
+      "賴清德",
+      "林全",
+      "吳敦義"
+    ],
+    "explanation": "蘇貞昌於108年1月14日再度就任，108學年度第一學期仍在任。",
+    "evidenceUrl": "https://www.ey.gov.tw/File/FFC43CA685F311A6?A=C"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "三1戊",
+    "prompt": "「在臺北鋪設電報線」這項近代化建設，已在哪個時期開始推動？",
+    "correct": "清代後期",
+    "wrong": [
+      "日治時期才首次開始",
+      "戰後美援時期才首次開始",
+      "民國70年代才首次開始"
+    ],
+    "explanation": "1886年劉銘傳於臺北設電報總局並架設電報線，因此應配對清代後期。",
+    "evidenceUrl": "https://collections.nmth.gov.tw/CollectionContent.aspx?a=132&rno=2004.028.5186"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "四1",
+    "prompt": "幸安國小的前身「幸小學校」在1933年設立時，主要提供哪一族群的子弟就讀？",
+    "correct": "日本人子弟",
+    "wrong": [
+      "只收清朝官員子弟",
+      "只收戰後來臺軍人子弟",
+      "只收歐美外交官子弟"
+    ],
+    "explanation": "國立臺灣美術館史料明載1933年幸小學校為日本人子弟而設；題目限定設立時並避免宣稱日治全期所有學生皆日籍。",
+    "evidenceUrl": "https://twfineartsarchive.ntmofa.gov.tw/QuarterlyFile/B014403.pdf?053101440="
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "二10",
+    "prompt": "日治時期，臺南農田從依靠下雨轉為可引水灌溉。如圖所示，這項改變最可能與哪項建設完成有關？",
+    "correct": "嘉南大圳",
+    "wrong": [
+      "新式糖廠",
+      "高雄港",
+      "日月潭發電所"
+    ],
+    "explanation": "嘉南大圳將灌溉水引入嘉南平原，改善農田供水。",
+    "image": "/exams/grade6/g6so4-p2-a13b5fc3.webp",
+    "imageAlt": "本題原卷參考圖，可開啟大圖查看標示。",
+    "verification": "https://www.th.gov.tw/CP/218/243/"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "二13",
+    "prompt": "觀察原卷諷刺漫畫，左側人物吸食煙膏，右側人物從中獲利。漫畫批評日治初期哪一項專賣商品？",
+    "correct": "鴉片",
+    "wrong": [
+      "茶葉",
+      "蔗糖",
+      "酒品"
+    ],
+    "explanation": "日治初期實施鴉片專賣，收入成為殖民政府的財政來源。",
+    "image": "/exams/grade6/g6so4-p2-7942a0ed.webp",
+    "imageAlt": "本題原卷參考圖，可開啟大圖查看標示。",
+    "verification": "https://www.th.gov.tw/Epaper_Content/236/8851/"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二4",
+    "prompt": "圖中民國77年以後報刊數量快速增加，與哪項在民國77年開始的新聞開放措施時間相近？",
+    "correct": "解除報禁",
+    "wrong": [
+      "實施戒嚴",
+      "第一次總統直選",
+      "第一次政黨輪替"
+    ],
+    "explanation": "民國77年（1988年）1月1日解除報禁；解嚴則是前一年的7月15日，兩件事時間不同。",
+    "image": "/exams/grade6/g6so8-p1-0125ea2d.webp",
+    "imageAlt": "本題原卷參考圖，可開啟大圖查看標示。",
+    "verification": "https://art.archives.gov.tw/tw/art/1558.html"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "二15",
+    "prompt": "圖中的虎旗與1895年成立的臺灣民主國有關。成立時被推為總統的是誰？",
+    "correct": "唐景崧",
+    "wrong": [
+      "劉銘傳",
+      "林獻堂",
+      "蔣渭水"
+    ],
+    "explanation": "1895年臺灣民主國成立時，士紳公推唐景崧為總統。",
+    "image": "/exams/grade6/g6so8-p2-206a0240.webp",
+    "imageAlt": "本題原卷參考圖，可開啟大圖查看標示。",
+    "verification": "https://dict.th.gov.tw/Print.aspx?ID=1149"
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "二3(2)",
+    "prompt": "以2023年的情況看，勞動力不足是否是臺灣部分產業面臨的問題？",
+    "correct": "是，部分製造與營造業有缺工問題",
+    "wrong": [
+      "否，所有產業人力都過剩",
+      "否，所有企業都已完全自動化",
+      "否，臺灣已不需要任何勞動者"
+    ],
+    "explanation": "勞動部112年說明指出部分製造業勞動力不足，營造業也有缺工；限定部分產業避免概括全部。",
+    "evidenceUrl": "https://www.mol.gov.tw/1607/1632/1640/60121/"
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "二3(4)",
+    "prompt": "以「臺灣社會動盪、戰爭不斷」描述2023年的經濟困境，這樣說是否恰當？",
+    "correct": "不恰當，當時臺灣並未持續發生戰爭",
+    "wrong": [
+      "恰當，臺灣每個縣市都持續交戰",
+      "恰當，工資上漲就代表國內戰爭",
+      "恰當，企業缺工就是戰爭不斷"
+    ],
+    "explanation": "經濟困境可能涉及缺工、成本及國際景氣等因素，但不能把國際戰事影響寫成臺灣本地戰爭不斷。",
+    "evidenceUrl": "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=46451&pid=232733"
+  }
+]

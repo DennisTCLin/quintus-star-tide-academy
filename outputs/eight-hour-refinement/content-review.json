@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "reviewer": "eight_content_verifier",
+  "scope": "16 inquiry questions, n1 ID compatibility, new-ID saves, related pronunciation",
+  "findingsFixed": [
+    "science-16 explicitly states bridge remains standing",
+    "Context readings for measurement, length, neutral particles, 削,薄紙,以為,儘量,投擲,差很多"
+  ],
+  "focusedTests": {
+    "files": 4,
+    "tests": 28,
+    "status": "PASS"
+  },
+  "unknown": [
+    "Human listening across OS voices",
+    "Teacher review"
+  ],
+  "rollback": "Retain c1 catalog in any rollback after new IDs are saved"
+}

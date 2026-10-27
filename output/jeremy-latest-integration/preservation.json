@@ -1,0 +1,24 @@
+{
+  "originalUntrackedFiles": [
+    {
+      "path": "node_modules",
+      "symlink": "/Users/dennistclin/.codex/worktrees/feifei-photo/\u661f\u6f6e\u7db2\u7ad9\u958b\u767c/node_modules",
+      "preserved": true
+    },
+    {
+      "path": "outputs/learning-benchmark.json",
+      "sha256": "d7e38c27343a12911f206fd1eb80aacbe8ea9235398f275d9a87dfbf6e922844",
+      "preserved": true
+    },
+    {
+      "path": "outputs/learning-exhausted-qa.json",
+      "sha256": "6c0266e237cb04c9902a714a5574a4d23890f1b9399864ce8edb627e91e68e22",
+      "preserved": true
+    }
+  ],
+  "generatedAuditReportRestored": true,
+  "taskDatabasesRemaining": [],
+  "taskServerStopped": true,
+  "sharedPostgresStopped": false,
+  "productionDatabaseAccessed": false
+}

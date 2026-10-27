@@ -1,0 +1,162 @@
+[
+  {
+    "key": "dog:pet",
+    "source": "public/assets/olivia-dog/actions-v2/pet.mp4",
+    "sourceSHA256": "e8b0a6aee2156836d277ec72862f632a5e50fe38f1e60575dc0f42b12916c979",
+    "frames": 49,
+    "duration": 4.083333333333333,
+    "sheets": [
+      {
+        "path": "/assets/companion-frames-v1/dog/pet-0.jpg",
+        "sha256": "82cd1166af7470788408c8d53d9397aa3682dccb179ffb332919b7b62cf56241"
+      }
+    ]
+  },
+  {
+    "key": "dog:feed",
+    "source": "public/assets/olivia-dog/actions-v2/feed.mp4",
+    "sourceSHA256": "fac93b07e3a36da871bbff179319c248e192dd8a9b15c93cce6a458b21defc7a",
+    "frames": 49,
+    "duration": 4.083333333333333,
+    "sheets": [
+      {
+        "path": "/assets/companion-frames-v1/dog/feed-0.jpg",
+        "sha256": "bb5986d3ba408352372f52f843c161faf43c60a77f7a7148ecf4f8dc267496b8"
+      }
+    ]
+  },
+  {
+    "key": "dog:play",
+    "source": "public/assets/olivia-dog/actions-v2/play.mp4",
+    "sourceSHA256": "009e46aba8aedad45722e8eb2144f3a04f82bdf883eb30b3c6ab6d8b5c3194d2",
+    "frames": 49,
+    "duration": 4.083333333333333,
+    "sheets": [
+      {
+        "path": "/assets/companion-frames-v1/dog/play-0.jpg",
+        "sha256": "3dfe008da8fb6118150c76c678215f63199766606c82d077f00655c3932e1d88"
+      }
+    ]
+  },
+  {
+    "key": "dog:highfive",
+    "source": "public/assets/olivia-dog/actions-v2/highfive.mp4",
+    "sourceSHA256": "0504dab6efa4769dc5f3fceb852567bcffede947ac0e03aad2ea9eb66b614cc7",
+    "frames": 49,
+    "duration": 4.083333333333333,
+    "sheets": [
+      {
+        "path": "/assets/companion-frames-v1/dog/highfive-0.jpg",
+        "sha256": "20fe1b0dee805657158e077d0fd61d0dc6f0cabd9536a6f9fcbfebfb0e116c7c"
+      }
+    ]
+  },
+  {
+    "key": "dog:bubbles",
+    "source": "public/assets/olivia-dog/actions-v2/bubbles.mp4",
+    "sourceSHA256": "70ab3e69514d18655eaa9c011f3f00a7a00c0ae45c9deee36ba0ff36ee4b405f",
+    "frames": 49,
+    "duration": 4.083333333333333,
+    "sheets": [
+      {
+        "path": "/assets/companion-frames-v1/dog/bubbles-0.jpg",
+        "sha256": "dd32208e8aea30b80657778762eb62a8c0d0072760cf3b05053e33b4fff0867b"
+      }
+    ]
+  },
+  {
+    "key": "dog:rest",
+    "source": "public/assets/olivia-dog/actions-v2/rest.mp4",
+    "sourceSHA256": "33f1cb9a298b0d96ed41ec2ee219692b692673968fd0c0bb0eac73589b2031de",
+    "frames": 59,
+    "duration": 4.916666666666667,
+    "sheets": [
+      {
+        "path": "/assets/companion-frames-v1/dog/rest-0.jpg",
+        "sha256": "af5f4c39ee32f04594995c556096c0ef8e4005f56a5e7573a013b5115348c0c3"
+      }
+    ]
+  },
+  {
+    "key": "tideglow:pet",
+    "source": "public/assets/tideglow-guide/pet.mp4",
+    "sourceSHA256": "b66b3ec6f5236963ea432de32715ef424eccaad3c30c5945cfb6e77bc3244c69",
+    "frames": 61,
+    "duration": 5.083333333333333,
+    "sheets": [
+      {
+        "path": "/assets/companion-frames-v1/tideglow/pet-0.jpg",
+        "sha256": "4a5dd9ad833ab7a1872754ff68a8534f86d420540764fb6b7f700f49a74379d9"
+      }
+    ]
+  },
+  {
+    "key": "tideglow:feed",
+    "source": "public/assets/tideglow-guide/feed.mp4",
+    "sourceSHA256": "7c1bc7527c6c1f13602f805593617d075c8017f402a2c467f34f8570c5e86232",
+    "frames": 61,
+    "duration": 5.083333333333333,
+    "sheets": [
+      {
+        "path": "/assets/companion-frames-v1/tideglow/feed-0.jpg",
+        "sha256": "f6b892c454f6033579736f14808c2845a7f219360a82a08cb95c86f96b7dd1dd"
+      }
+    ]
+  },
+  {
+    "key": "tideglow:play",
+    "source": "public/assets/tideglow-guide/play.mp4",
+    "sourceSHA256": "783c910cfafbfc2c7a56f14653392724a5ad8639641f83e575d65a9d8be91888",
+    "frames": 61,
+    "duration": 5.083333333333333,
+    "sheets": [
+      {
+        "path": "/assets/companion-frames-v1/tideglow/play-0.jpg",
+        "sha256": "10775ad4df8ab3a3bd6ee4c37f60883866f277ddc27e5d8da8912667ad8e1295"
+      }
+    ]
+  },
+  {
+    "key": "tideglow:highfive",
+    "source": "public/assets/tideglow-guide/actions-v2/highfive.mp4",
+    "sourceSHA256": "d142c8e2d56540e9a241716c9df378279e11a6f0f2335a0fc5b8ae14e8987fa1",
+    "frames": 61,
+    "duration": 5.083333333333333,
+    "sheets": [
+      {
+        "path": "/assets/companion-frames-v1/tideglow/highfive-0.jpg",
+        "sha256": "de2ec1e2320c2f8e66fd2b336df3e74d19e01016acce7aaf661f17f0f9865036"
+      }
+    ]
+  },
+  {
+    "key": "tideglow:bubbles",
+    "source": "public/assets/tideglow-guide/actions-v2/bubbles.mp4",
+    "sourceSHA256": "3a3d816577952f9c4f5035bbda408c399197129b85fa3dea1ace89fe1c35ec1d",
+    "frames": 61,
+    "duration": 5.083333333333333,
+    "sheets": [
+      {
+        "path": "/assets/companion-frames-v1/tideglow/bubbles-0.jpg",
+        "sha256": "9ac9ca2b799c037a91552c96194c05cc599af18f350fdec1102a16af318476ff"
+      }
+    ]
+  },
+  {
+    "key": "tideglow:rest",
+    "source": "public/assets/tideglow-guide/actions-v2/rest.mp4",
+    "sourceSHA256": "6dfcb64fb40392c44266a2e34bfd4730a50bf3d5cea8ac68040a56663224a961",
+    "frames": 73,
+    "duration": 6.083333333333333,
+    "sheets": [
+      {
+        "path": "/assets/companion-frames-v1/tideglow/rest-0.jpg",
+        "sha256": "d12ee11d92e04a409a7eb5f677bdcd86e0ecb22857abf7ec9d3cf4a8564d6645"
+      },
+      {
+        "path": "/assets/companion-frames-v1/tideglow/rest-1.jpg",
+        "sha256": "cc926df81d2b0e605b1399496ffb732dab5f39610743fcb29e1149a2f0d83692"
+      }
+    ]
+  }
+]

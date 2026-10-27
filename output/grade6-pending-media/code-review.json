@@ -1,0 +1,45 @@
+{
+  "status": "NO_REMAINING_CONFIRMED_CODE_DEFECT_AFTER_ROOT_FIXES; BROWSER_NOT_TESTED",
+  "scope": "只讀code diff與既存媒體manifest；未跑瀏覽器，不宣稱互動驗收通過。",
+  "repositoryModified": false,
+  "findings": [
+    {
+      "id": "F1",
+      "priority": "P1",
+      "status": "fixed_in_concurrent_root_edit_pending_browser_test",
+      "file": "src/QuestionFigure.tsx",
+      "detail": "初稿loading/error未傳回四個作答位置，404仍能送出。複查root已加useQuestionFigure ready與onLoad/onError，四處disabled及主闖關/對戰handler guard可見。",
+      "validationNeeded": "以慢速與404資產實際測四個畫面；切換題目、重試成功後恢復作答。"
+    },
+    {
+      "id": "F2",
+      "priority": "P2",
+      "status": "fixed_in_concurrent_root_edit_pending_regression_test",
+      "file": "src/study-review.ts",
+      "line": 122,
+      "detail": "初稿compatible !retired同時阻斷既存session resume/answer。複查已加allowRetired=true給兩個既存session路徑，新start candidate仍排除。",
+      "validationNeeded": "既存含retired題session可resume及答題，新session不包含retired。"
+    },
+    {
+      "id": "F3",
+      "priority": "P2",
+      "status": "fixed_in_concurrent_root_edit_pending_regression_test",
+      "file": "src/learning.ts",
+      "line": 237,
+      "detail": "questionCapacity排除retired，卻仍被adventure.ts264/333/343及study-review.ts33當歷史已答ID總數上界。合法學完全部活躍題且保留兩筆退役歷史紀錄的帳號會超過上界，被當格式錯誤拒絕。",
+      "suggestedFix": "保留可解析全catalog（含retired）的capacity供歷史驗證；若需活躍題數另設函數。",
+      "resolution": "最後複查learning.ts237已恢復包含retired的歷史catalog容量。"
+    }
+  ],
+  "checks": {
+    "newAllocation": "檢查learning-engine staticPool、selectQuestions、startStudy candidate filter，均排除retired；battleQuiz走allocation或selectQuestions。",
+    "historicalLookup": "questionIndex仍含retired，questionById保留解析；既存run與battle answer由原ID讀取。",
+    "publicPayload": "server/cloud.mjs展開question傳遞image/imageAlt，依原規則移除未揭示answer/explanation/target；新增圖欄位沒有直接答案欄位洩漏。",
+    "media": "37個唯一圖資均存在且SHA256匹配media-manifest；並未逐張重新獨立判讀內容，因此圖內答案/錯圖完整證明仍依科學及社會專項審查。",
+    "generator": "idSuffix只作用新key；retired metadata清空來源保留ID；去重key加入image及retired，不把不同圖題或退役題合併；目前未另發現實際候選錯ID。",
+    "coverageChecker": "retired不要求included來源；現有checker不驗證included對應examSources完全匹配（既有侷限，非此次新增錯誤）。",
+    "scienceFixes": "抽查final100題中原review指出最快奶油/重疊煙霧選項/門外溫度/候選水溫及典型高壓語氣已修改；不是全100題第二次獨立內容驗收。"
+  },
+  "browserVerification": "NOT_RUN",
+  "testExecution": "未執行repo寫入或測試build命令；source reasoning及Python只讀asset hash檢查。"
+}

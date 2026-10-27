@@ -1,0 +1,11 @@
+{
+  "deployment": "c4222730-62e9-4078-b493-631324d07135",
+  "commit": "1e39713",
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "matchingPublicAssetHashes": 7,
+  "newGrade5Questions": 80,
+  "totalGrade5Questions": 140
+}

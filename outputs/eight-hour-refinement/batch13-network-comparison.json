@@ -1,0 +1,26 @@
+{
+  "baselinePausedCompanion": {
+    "started": "2026-10-24T23:27:30.753Z",
+    "path": "/assets/hero-companion-desktop.mp4?v=59dee1235519",
+    "status": 206,
+    "bytes": 1153363
+  },
+  "afterConfirmedPauseThreeSelections": {
+    "requests": 0,
+    "bytes": 0
+  },
+  "scope": "Local proxy response-body bytes,no-store; no actual mobile hardware speed/battery claim",
+  "harnessCorrection": "Initial boundary captured before pause included an automatic meteor advance; excluded and reran after confirmed pause",
+  "offscreenReturn": {
+    "newRequests": 0,
+    "timeBefore": 5.199339,
+    "timeAfter": 5.43465,
+    "source": "hero-starwhale-desktop",
+    "pausedOffscreen": true,
+    "playingOnReturn": true
+  },
+  "reducedMotionMountAndSelection": {
+    "requests": 0,
+    "bytes": 0
+  }
+}

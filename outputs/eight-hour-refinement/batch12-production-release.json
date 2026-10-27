@@ -1,0 +1,51 @@
+{
+  "source": "6aa2212a7980e189bf61605dcaa9658faedf3065",
+  "deployment": "20cb40a1-f9c5-4060-8964-48ebcdb76293",
+  "status": "SUCCESS",
+  "checkedAt": "2026-10-24T23:07:27.241254+00:00",
+  "versionEvidence": "Railway SUCCESS with explicit source6aa2212 CLI metadata and git archive; frontend intentionally byte-identical toBatch11",
+  "assets": {
+    "index.v-DM_kJs13.css": {
+      "status": 200,
+      "bytes": 232387,
+      "sha256": "9e44fd7e4fe6d484a877c8f117da233604d020d7def4b2e15ba91bdf0084694a",
+      "match": true
+    },
+    "TerritoryPage.v-Cjn48xT-.js": {
+      "status": 200,
+      "bytes": 35956,
+      "sha256": "b8719dbdcdc313b7b46967bb20556aaa514732fe1493f1df9911b74ac2d6880e",
+      "match": true
+    },
+    "TerritoryPage.v-XpGSXE-r.css": {
+      "status": 200,
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "match": true
+    },
+    "index.v-CR4lxHdZ.js": {
+      "status": 200,
+      "bytes": 668117,
+      "sha256": "26bd1ca4bacc3b547c3b275ddc695e5bc721650705fcfe31278747c12c2b4cd6",
+      "match": true
+    },
+    "RoomEditor.v-Sjj5Y5VT.js": {
+      "status": 200,
+      "bytes": 10629,
+      "sha256": "5122a396a37225ffcf8c96115010a7ec99b08a6d4ee7529b25aa7abaeaeed25f",
+      "match": true
+    }
+  },
+  "homepage": 200,
+  "entry": "index.v-CR4lxHdZ.js",
+  "expectedEntryPresent": true,
+  "health": 200,
+  "healthBody": "{\"ok\":true,\"service\":\"quintus-ocean-academy\"}",
+  "browser": {
+    "page": "public login",
+    "heading": "歡迎回到星潮",
+    "entry": "index.v-CR4lxHdZ.js",
+    "consoleErrors": 0,
+    "realChildLogin": false
+  }
+}

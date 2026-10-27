@@ -1,0 +1,357 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "viewport": [
+        375,
+        667
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "viewport": [
+        820,
+        1180
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "viewport": [
+        1180,
+        820
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "viewport": [
+        844,
+        390
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "viewport": [
+        375,
+        667
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "viewport": [
+        820,
+        1180
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "viewport": [
+        1180,
+        820
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "viewport": [
+        844,
+        390
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "viewport": [
+        375,
+        667
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "viewport": [
+        820,
+        1180
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "viewport": [
+        1180,
+        820
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "viewport": [
+        844,
+        390
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "viewport": [
+        375,
+        667
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "viewport": [
+        820,
+        1180
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "viewport": [
+        1180,
+        820
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "viewport": [
+        844,
+        390
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "viewport": [
+        375,
+        667
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "viewport": [
+        820,
+        1180
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "viewport": [
+        1180,
+        820
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "viewport": [
+        844,
+        390
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "viewport": [
+        375,
+        667
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "viewport": [
+        820,
+        1180
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "viewport": [
+        1180,
+        820
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "viewport": [
+        844,
+        390
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "viewport": [
+        375,
+        667
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "viewport": [
+        820,
+        1180
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "viewport": [
+        1180,
+        820
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "viewport": [
+        844,
+        390
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "viewport": [
+        375,
+        667
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "viewport": [
+        820,
+        1180
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "viewport": [
+        1180,
+        820
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "viewport": [
+        844,
+        390
+      ],
+      "allNavigationPagesTouchable": true,
+      "homeCTAVisible": true,
+      "horizontalOverflow": false
+    }
+  ],
+  "pageErrors": []
+}

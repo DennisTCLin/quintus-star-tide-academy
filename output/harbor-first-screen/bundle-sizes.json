@@ -1,0 +1,48 @@
+{
+  "baseline": {
+    "index.v-*.js": [
+      {
+        "name": "index.v-cbls3s42.js",
+        "bytes": 581352,
+        "gzipBytes": 180916
+      }
+    ],
+    "index.v-*.css": [
+      {
+        "name": "index.v-CAoL9Ly2.css",
+        "bytes": 320196,
+        "gzipBytes": 64381
+      }
+    ],
+    "game-view.v-*.js": [
+      {
+        "name": "game-view.v-DvEeucgR.js",
+        "bytes": 1008085,
+        "gzipBytes": 390853
+      }
+    ]
+  },
+  "changed": {
+    "index.v-*.js": [
+      {
+        "name": "index.v-BLvm6HxH.js",
+        "bytes": 582984,
+        "gzipBytes": 181325
+      }
+    ],
+    "index.v-*.css": [
+      {
+        "name": "index.v-DjGVDsK_.css",
+        "bytes": 321817,
+        "gzipBytes": 64654
+      }
+    ],
+    "game-view.v-*.js": [
+      {
+        "name": "game-view.v-DvEeucgR.js",
+        "bytes": 1008085,
+        "gzipBytes": 390853
+      }
+    ]
+  }
+}

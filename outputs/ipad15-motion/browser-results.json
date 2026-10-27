@@ -1,0 +1,332 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "webkit dog legacy pet actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "webkit dog legacy feed actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "webkit dog legacy play actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "webkit dog legacy highfive actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "webkit dog legacy bubbles actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "webkit dog legacy rest actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "webkit dog legacy rest loops across sheets",
+      "pass": true
+    },
+    {
+      "name": "webkit dog pause/resume",
+      "pass": true
+    },
+    {
+      "name": "webkit dog background/return",
+      "pass": true
+    },
+    {
+      "name": "webkit dog repeated touch 0",
+      "pass": true
+    },
+    {
+      "name": "webkit dog repeated touch 1",
+      "pass": true
+    },
+    {
+      "name": "webkit dog modern video pet",
+      "pass": true
+    },
+    {
+      "name": "webkit dog modern video feed",
+      "pass": true
+    },
+    {
+      "name": "webkit dog modern video play",
+      "pass": true
+    },
+    {
+      "name": "webkit dog rejected video uses animated pet",
+      "pass": true
+    },
+    {
+      "name": "webkit dog rejected video uses animated feed",
+      "pass": true
+    },
+    {
+      "name": "webkit dog rejected video uses animated play",
+      "pass": true
+    },
+    {
+      "name": "webkit dog hung video still completes animated feed",
+      "pass": true
+    },
+    {
+      "name": "webkit dog reduced motion intentionally static",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow legacy pet actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow legacy feed actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow legacy play actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow legacy highfive actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow legacy bubbles actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow legacy rest actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow legacy rest loops across sheets",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow pause/resume",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow background/return",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow repeated touch 0",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow repeated touch 1",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow modern video pet",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow modern video feed",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow modern video play",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow rejected video uses animated pet",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow rejected video uses animated feed",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow rejected video uses animated play",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow hung video still completes animated feed",
+      "pass": true
+    },
+    {
+      "name": "webkit tideglow reduced motion intentionally static",
+      "pass": true
+    },
+    {
+      "name": "Other child quintus receives animated Tideglow",
+      "pass": true
+    },
+    {
+      "name": "Other child feifei receives animated Tideglow",
+      "pass": true
+    },
+    {
+      "name": "Other child qingqing receives animated Tideglow",
+      "pass": true
+    },
+    {
+      "name": "Other child alston receives animated Tideglow",
+      "pass": true
+    },
+    {
+      "name": "chromium dog legacy pet actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "chromium dog legacy feed actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "chromium dog legacy play actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "chromium dog legacy highfive actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "chromium dog legacy bubbles actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "chromium dog legacy rest actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "chromium dog legacy rest loops across sheets",
+      "pass": true
+    },
+    {
+      "name": "chromium dog pause/resume",
+      "pass": true
+    },
+    {
+      "name": "chromium dog background/return",
+      "pass": true
+    },
+    {
+      "name": "chromium dog repeated touch 0",
+      "pass": true
+    },
+    {
+      "name": "chromium dog repeated touch 1",
+      "pass": true
+    },
+    {
+      "name": "chromium dog modern video pet",
+      "pass": true
+    },
+    {
+      "name": "chromium dog modern video feed",
+      "pass": true
+    },
+    {
+      "name": "chromium dog modern video play",
+      "pass": true
+    },
+    {
+      "name": "chromium dog rejected video uses animated pet",
+      "pass": true
+    },
+    {
+      "name": "chromium dog rejected video uses animated feed",
+      "pass": true
+    },
+    {
+      "name": "chromium dog rejected video uses animated play",
+      "pass": true
+    },
+    {
+      "name": "chromium dog hung video still completes animated feed",
+      "pass": true
+    },
+    {
+      "name": "chromium dog reduced motion intentionally static",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow legacy pet actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow legacy feed actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow legacy play actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow legacy highfive actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow legacy bubbles actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow legacy rest actual footage pixels and completion",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow legacy rest loops across sheets",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow pause/resume",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow background/return",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow repeated touch 0",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow repeated touch 1",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow modern video pet",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow modern video feed",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow modern video play",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow rejected video uses animated pet",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow rejected video uses animated feed",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow rejected video uses animated play",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow hung video still completes animated feed",
+      "pass": true
+    },
+    {
+      "name": "chromium tideglow reduced motion intentionally static",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript errors",
+      "pass": true
+    }
+  ],
+  "physicalIPadOS1541": false,
+  "note": "Modern engines with iOS15 user agent route, actual canvas pixel changes, synthetic intercepted APIs, no student mutation.",
+  "url": "http://127.0.0.1:4334"
+}

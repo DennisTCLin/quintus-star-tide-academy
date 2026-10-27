@@ -1,0 +1,44 @@
+{
+  "unitPassed": 929,
+  "databaseSkippedInGeneralRun": 192,
+  "newIsolatedDatabaseCases": 10,
+  "existingIsolatedDatabaseSuites": [
+    {
+      "suite": "admin-console",
+      "passed": 16
+    },
+    {
+      "suite": "admin-access",
+      "passed": 17
+    },
+    {
+      "suite": "child-account",
+      "passed": 6
+    }
+  ],
+  "actualAdminUiCases": 8,
+  "browsers": [
+    "Chromium",
+    "WebKit"
+  ],
+  "widths": [
+    393,
+    768,
+    1024
+  ],
+  "physicalIPadTested": false,
+  "build": "PASS",
+  "allExistingPronunciationEntriesPreserved": true,
+  "newPronunciationPhrases": 56,
+  "productionStatus": "SUCCESS",
+  "integratedMain": "1157430",
+  "mergedUiAndDatabaseRecheck": "PASS",
+  "deploymentId": "b37756f7-e0cf-43d4-92ad-cd0ab846a1b5",
+  "runtimeCommit": "452ecda51cefdd9349f8d9e939c4562ab392171e",
+  "productionHashesVerified": 17,
+  "productionUiSmokeChecks": 6,
+  "productionUiRoleFixtures": "synthetic; no production account created",
+  "productionAccountCreates": 0,
+  "priorMain": "1157430",
+  "publicAssetsUnchangedFromPriorMain": true
+}

@@ -1,0 +1,94 @@
+{
+  "stagedCodeCommit": "d800dc7027fd28c4acec6b2816a34879f9f9a6a1",
+  "changedFilesVerified": 7,
+  "unchangedAssetHashesMatchPriorManifest": 1980,
+  "unchangedSamples": 6,
+  "verifiedFiles": [
+    {
+      "path": "index.html",
+      "bytes": 1725,
+      "sha256": "13c3fbe5485e410013a68b2a49270080a3eff5f98a0a148d5ac59189e2866100",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "assets/index.v-D1ZGkbn6.css",
+      "bytes": 326350,
+      "sha256": "992197592c824fc7550fb1a03ff259a382ca23047c8e471c3e96f6fd62341895",
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "assets/index.v-bGilH-HH.js",
+      "bytes": 3026989,
+      "sha256": "6c5eaac014645472bc4e9b6b379b3544d0977d7e40eeea889d1d7ff9598dcda1",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/TerritoryPage.v-Dp2rNgtg.js",
+      "bytes": 36069,
+      "sha256": "ae4607056a84c809979cea29a9d39fcf8cdd14bd118a2b5cf9a98694d6873173",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/IslandApp.v-C08Esdps.js",
+      "bytes": 209030,
+      "sha256": "b5702f763f348d52859e3d3b3a5ff6d1719e183d8dc163cea1916c54768e2d58",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/RoomEditor.v-CWVYuOIZ.js",
+      "bytes": 10713,
+      "sha256": "7e5e95356b570557c8bd31ed18c28fbf9a91301fe15c24ee52fe4b3faed25f42",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/AdminConsole.v-BL0ywSlU.js",
+      "bytes": 41675,
+      "sha256": "75560e6bc020046ea450384ed79c05bef1dcaf68172418df468ae12c0de9e824",
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/battle/tideglow-attack.webp",
+      "bytes": 444018,
+      "sha256": "a48aae4f127b5910b7f347bfe873c953e20138b3096783fe07183439fe7153bb",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/battle/foamferret-idle.webp",
+      "bytes": 445824,
+      "sha256": "db5932506f580dd68a7574a8a3e9801136d9a4d26f74a6fc345e4ae5c7578854",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/battle/foamferret-attack.webp",
+      "bytes": 425262,
+      "sha256": "a63522edfbfd9d983d91614f2a5d89fbe5ab00fedf67653beeefbc2ee4641aa0",
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-29-entrance.mp4",
+      "bytes": 499886,
+      "sha256": "315d76b7e9ba84662a9c4ebf417f119d4060dd77cdb3d86d280f8514299ce469",
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-04-capture.mp4",
+      "bytes": 699959,
+      "sha256": "d43d6d70e5593a260fbadbd877126b10dbaeb120f056072963382b4b4d923539",
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-06-hit.mp4",
+      "bytes": 477933,
+      "sha256": "53f597e8a54b9d31362b8c469faa3e0fb7d1d69c92202db76f84d763375a571d",
+      "contentType": "video/mp4"
+    }
+  ],
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "unauthenticatedStateStatus": 401,
+  "studentWritesPerformed": false,
+  "physicalIPad": false,
+  "note": "All changed files and six unchanged samples re-downloaded. Remaining unchanged files verified in packaging against the prior manifest, not claimed re-downloaded."
+}

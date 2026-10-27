@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "status": "INVENTORY_ONLY",
+  "counts": {
+    "static": 4199,
+    "generated": 23192,
+    "pools": 42,
+    "approvedStatic": 0,
+    "approvedTemplates": 0
+  },
+  "mediaFiles": 212,
+  "findings": [],
+  "coverage": {
+    "static": "0/4199 hash-matched approvals; media bytes/existence checked, audio listening not certified",
+    "generated": "0/42 hash-matched template approvals; all 23192 variants checked structurally and by prompt-based oracle, not individually AI-reviewed"
+  },
+  "durationMs": 262,
+  "peakRssMB": 193
+}

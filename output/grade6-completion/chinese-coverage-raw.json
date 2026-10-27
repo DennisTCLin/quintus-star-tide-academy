@@ -1,0 +1,4808 @@
+[
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹閱讀1",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "壹閱讀1"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹閱讀2",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "壹閱讀2"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "壹閱讀3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "壹閱讀4",
+    "status": "open_ended",
+    "reason": "已複核原卷：以「雖然……卻……」造句，無唯一正解。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "貳成語填空1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "貳成語填空3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "貳成語填空4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "貳成語填空5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "貳成語填空2",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "貳成語填空／臨渴掘井"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "肆短語1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "同一仿寫短語的所有獨立空格均屬開放作答；subitemCount列原卷空格數。",
+    "subitemCount": 2
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "肆短語2",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "同一仿寫短語的所有獨立空格均屬開放作答；subitemCount列原卷空格數。",
+    "subitemCount": 3
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "肆短語3",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "同一仿寫短語的所有獨立空格均屬開放作答；subitemCount列原卷空格數。",
+    "subitemCount": 2
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "伍選擇1",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "伍選擇3",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "伍選擇5",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "伍選擇6",
+    "status": "ambiguous",
+    "reason": "原題提供珍珠奶茶引文，但四個原因選項不能可靠支持作者感嘆；不以推測品牌與食品事實補唯一解答。"
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "伍選擇8",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "伍選擇2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "伍選擇4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "伍選擇7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "陸閱讀一1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "陸閱讀一2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "陸閱讀一3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 3,
+    "locator": "陸閱讀一4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 4,
+    "locator": "陸閱讀二1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 4,
+    "locator": "陸閱讀二2",
+    "status": "ambiguous",
+    "reason": "原題僅憑肌肉痠痛區分感冒與流感，症狀不足以確診，不將錯誤診斷規則製成題目。"
+  },
+  {
+    "source": 1,
+    "page": 4,
+    "locator": "陸閱讀二3",
+    "status": "pending_verification",
+    "reason": "已讀原卷第4頁：可見完整流感問答，但含過時疫苗禁忌及過度概括的用藥敘述。限定MOE／出版社來源不足以完成現行醫療查核；暫不收錄，需現行疾管署資料與重新編修的閱讀版本。"
+  },
+  {
+    "source": 1,
+    "page": 4,
+    "locator": "陸閱讀二4",
+    "status": "open_ended",
+    "reason": "已複核原卷：要求以「以免」造句談預防流感；多種答案，且原文醫療內容需更新。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一閱讀1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一閱讀2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一閱讀3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二選擇1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二選擇2",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "二選擇2"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二選擇3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "二選擇4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "二選擇5",
+    "status": "ambiguous",
+    "reason": "原句主要景物描寫，未明確寄託情緒；僅以原選項無法穩健區分寄情於景與一般摹寫。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "二選擇6",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "二選擇9",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "二選擇10",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "二選擇7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "二選擇8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "二選擇11",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "二選擇12",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "二選擇12改編"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "二選擇13",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "二選擇13改編"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "二選擇15",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "二選擇15改編"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "二選擇14",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三仿寫1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三仿寫2",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三句型1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三句型2",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "三句型3",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "四短語1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "同一仿寫短語的所有獨立空格均屬開放作答；subitemCount列原卷空格數。",
+    "subitemCount": 6
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "四短語2",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "同一仿寫短語的所有獨立空格均屬開放作答；subitemCount列原卷空格數。",
+    "subitemCount": 4
+  },
+  {
+    "source": 2,
+    "page": 2,
+    "locator": "五語譯1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "七閱讀一1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "七閱讀一2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 3,
+    "locator": "七閱讀一3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 4,
+    "locator": "七閱讀一4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 4,
+    "locator": "七閱讀二1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 4,
+    "locator": "七閱讀二2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 2,
+    "page": 4,
+    "locator": "七閱讀二3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三選擇1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "三選擇2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "三選擇3",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "三選擇10",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "三選擇4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "三選擇5",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "三選擇5"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "三選擇6",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "三選擇6"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "三選擇7",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "三選擇7"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "三選擇9",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "三選擇9"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "三選擇8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四填詞1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四填詞2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四填詞3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四填詞4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四填詞5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四填詞6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四填詞7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四填詞8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四填詞9",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "四填詞10",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五短語1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "同一仿寫短語的所有獨立空格均屬開放作答；subitemCount列原卷空格數。",
+    "subitemCount": 3
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "五短語2",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "同一仿寫短語的所有獨立空格均屬開放作答；subitemCount列原卷空格數。",
+    "subitemCount": 3
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "六造句1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 3,
+    "page": 2,
+    "locator": "六造句2",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 3,
+    "page": 3,
+    "locator": "七閱讀1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 3,
+    "locator": "七閱讀2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "三課文1",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "三課文2",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "三課文3",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "三課文4",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "三選擇2"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三課文5",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三課文6",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三課文7",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三課文8",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三課文9",
+    "status": "duplicate",
+    "reason": "倒吃甘蔗歇後語已收。",
+    "canonicalSource": 5,
+    "canonicalLocator": "四歇後語／倒吃甘蔗"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "三課文10",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": [
+      "https://theme.npm.edu.tw/Academic/ChineseArtDownload.ashx?bid=10168&eid=573"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "四字詞句1",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "四字詞句測驗1改編"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "四字詞句3",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "四字詞句測驗3改編"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "四字詞句2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "四字詞句4",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "四字詞句5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "四字詞句6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 2,
+    "locator": "四字詞句7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "五選詞1",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "五選詞填寫1"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "五選詞2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "五選詞3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "五選詞4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "五選詞5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "五選詞6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "五選詞7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "五選詞8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "六造句1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "六造句2",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "六造句3",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "六造句4",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "七閱讀1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "七閱讀2",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 4,
+    "page": 3,
+    "locator": "七閱讀3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "三詞語1",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "三詞語填空改編"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "三詞語2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "三詞語3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "三詞語4",
+    "status": "duplicate",
+    "reason": "相同詞義與填空判準，合併語境近似的重複題。",
+    "canonicalSource": 3,
+    "canonicalLocator": "四填詞1"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "四歇後語1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "四歇後語2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "四歇後語3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "四歇後語4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "四歇後語5",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "四歇後語／倒吃甘蔗"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "四歇後語6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "四歇後語7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇1",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇2",
+    "status": "duplicate",
+    "reason": "與4四1既有譬喻句相同。",
+    "canonicalSource": 4,
+    "canonicalLocator": "四字詞句測驗1改編"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇3",
+    "status": "ambiguous",
+    "reason": "原題實為部首判斷，原列部首皆可成立；不以改成不同拆字任務製造唯一答案。"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇4",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "三選擇1"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇5",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇9",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": [
+      "https://theme.npm.edu.tw/exh114/EnduringLegacy/ch/page-2.html"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇10",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇11",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇12",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "五選擇12"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五選擇13",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五造句1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五造句2",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 5,
+    "page": 2,
+    "locator": "五造句3",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "六閱讀1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "六閱讀2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "六閱讀3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "六閱讀4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 3,
+    "locator": "六閱讀5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二選擇1",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二選擇2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二選擇3",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "二選擇3改編"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二選擇5",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "二選擇5改編"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二選擇4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "二選擇6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二選擇7",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "二選擇7改編"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二選擇8",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二選擇9",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二選擇11",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二選擇12",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二選擇13",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二選擇10",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二選擇14",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "二選擇15",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=76915&la=0&powerMode=0"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三填答1",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三填答2",
+    "status": "open_ended",
+    "reason": "原題要求從政彬和名揚選一人，寫值得學習的地方並說明理由；本質有多種合理答案，即使取得課文也不應硬定唯一正解。"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三填答3-1",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "三選擇2"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三填答3-2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三填答3-3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三填答4",
+    "status": "open_ended",
+    "reason": "原題要求基隆山與陽光各找三個擬人詞；只挑「叫喚」不足涵蓋整題，保留完整原作答要求。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四填詞1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四填詞2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四填詞3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四填詞4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四填詞5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四填詞6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "五造句1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "五造句2",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "六閱讀1-1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "六閱讀1-2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "六閱讀2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "六閱讀3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "六閱讀4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "六閱讀5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 6,
+    "page": 4,
+    "locator": "六閱讀6",
+    "status": "open_ended",
+    "reason": "已複核原卷：要求寫老闆的特質並舉證，可有善良、體貼等多種合理回答。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "三選擇1",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "三選擇1"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "三選擇3",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "三選擇3"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "三選擇2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "三選擇4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "三選擇5",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三選擇6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三選擇7",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "三選擇7改編"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三選擇8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三選擇9",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 5,
+    "canonicalLocator": "四歇後語1"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三選擇10",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三選擇11",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三選擇12",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三選擇13",
+    "status": "ambiguous",
+    "reason": "原題問哪項不是修改文章的方法，把確保來源正確排為答案有爭議；事實查核亦是寫作修訂的一環。"
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三選擇14",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=110955&la=0&powerMode=0"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三選擇15",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "四配合一1",
+    "status": "duplicate",
+    "reason": "相同詞義與填空判準，合併語境近似的重複題。",
+    "canonicalSource": 5,
+    "canonicalLocator": "五選擇11"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "四配合一2",
+    "status": "duplicate",
+    "reason": "相同詞義與填空判準，合併語境近似的重複題。",
+    "canonicalSource": 6,
+    "canonicalLocator": "四填詞2"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "四配合一3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "四配合一5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "四配合一4",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "四配合一4"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "四配合二1",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 5,
+    "canonicalLocator": "四歇後語2"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "四配合二2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "四配合二3",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 5,
+    "canonicalLocator": "四歇後語7"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "四配合二4",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 5,
+    "canonicalLocator": "四歇後語6"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "五短文1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "六閱讀1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "六閱讀2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合1",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合2",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合5",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合6",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合7",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合9",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "二綜合9（DOCX段落定位）"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合10",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": [
+      "https://theme.npm.edu.tw/exh114/EnduringLegacy/ch/page-2.html"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合11",
+    "status": "ambiguous",
+    "reason": "原題選項「生涯／山崖」也可能同讀ㄧㄚˊ，加上「金縷／屢次」為ㄌㄩˇ，需先排除多正解並核臺灣現行讀音。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合12",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合13",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "二綜合13（DOCX段落定位）"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "二綜合14",
+    "status": "duplicate",
+    "reason": "倒吃甘蔗已收。",
+    "canonicalSource": 5,
+    "canonicalLocator": "四歇後語／倒吃甘蔗"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "三經典填空1-1",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=62597&la=0&powerMode=0"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "三經典填空1-2",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=98304&la=0&powerMode=0"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "三經典填空2-1",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=121368&la=0&powerMode=0"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "三經典填空2-2",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=103876&la=0&powerMode=0"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "三經典填空3-1",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=23791&la=0&powerMode=0"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "三經典填空3-2",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=649&la=0&powerMode=0"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "三經典填空4-1",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "三經典填空4-2",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "三經典填空5-1",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": []
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "三經典填空5-2",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": []
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "四短語1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "同一仿寫短語的所有獨立空格均屬開放作答；subitemCount列原卷空格數。",
+    "subitemCount": 2
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "四短語2",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "同一仿寫短語的所有獨立空格均屬開放作答；subitemCount列原卷空格數。",
+    "subitemCount": 3
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "四短語3",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "同一仿寫短語的所有獨立空格均屬開放作答；subitemCount列原卷空格數。",
+    "subitemCount": 3
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "五填詞1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "五填詞2",
+    "status": "duplicate",
+    "reason": "相同詞義與填空判準，合併語境近似的重複題。",
+    "canonicalSource": 4,
+    "canonicalLocator": "五選詞3"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "五填詞3",
+    "status": "duplicate",
+    "reason": "相同詞義與填空判準，合併語境近似的重複題。",
+    "canonicalSource": 6,
+    "canonicalLocator": "四填詞4"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "五填詞4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "五填詞5",
+    "status": "duplicate",
+    "reason": "相同詞義與填空判準，合併語境近似的重複題。",
+    "canonicalSource": 7,
+    "canonicalLocator": "四配合一3"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "五填詞6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "五填詞7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "五填詞8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "五填詞9",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "五填詞10",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "五填詞10（DOCX段落定位）"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "五填詞11",
+    "status": "duplicate",
+    "reason": "同為解釋後誤會冰消瓦解。",
+    "canonicalSource": 7,
+    "canonicalLocator": "四配合一4"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "六造句1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "六造句2",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "六造句3",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "七閱讀1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "七閱讀2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "七閱讀3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "三綜合1",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "三綜合3",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "三綜合4",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "三綜合5",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "三綜合2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "三綜合6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "三綜合7",
+    "status": "missing_passage",
+    "reason": "已複核原卷題幹及同批試卷可見引文；另查康軒官網未取得能完整支持本題的相同版本課文。課內文章／完整詩文未隨本題提供，不能以猜測課文內容設定標準答案。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "三綜合8",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "三綜合8改編"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "三綜合9",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "三綜合10",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "四短語1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "四短語2",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "四短語3",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "五語譯1",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "五語譯2",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六造句1",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六造句2",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "六造句3",
+    "status": "open_ended",
+    "reason": "已複核原卷：原題為自由造句／仿寫，存在多個合理答案，保留教師評閱而非強制唯一選項。 不用新增虛構內容把自由表達改成背答案。",
+    "coverageNote": "原作答框／整句視為一個開放題；同一短語內所有空格共用此評閱狀態。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "七閱讀1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "七閱讀2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "叁改錯字1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "叁改錯字2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "叁改錯字3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "叁改錯字4",
+    "status": "ambiguous",
+    "reason": "反復與反覆涉及異形詞／用字慣例，不把可通用字形逕判為唯一錯字。"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "叁改錯字5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 2,
+    "locator": "叁改錯字6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二改錯字1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二改錯字2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二改錯字3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二改錯字4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二改錯字5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二改錯字6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二改錯字7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二改錯字8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二改錯字9",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "二改錯字10",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字9",
+    "status": "duplicate",
+    "reason": "同一詞的字形訂正已收，合併重複。",
+    "canonicalSource": 3,
+    "canonicalLocator": "二改錯字7"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字10",
+    "status": "duplicate",
+    "reason": "同一詞的字形訂正已收，合併重複。",
+    "canonicalSource": 3,
+    "canonicalLocator": "二改錯字7"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字11",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字12",
+    "status": "duplicate",
+    "reason": "同一詞的字形訂正已收，合併重複。",
+    "canonicalSource": 3,
+    "canonicalLocator": "二改錯字10"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字13",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "二改錯字14",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二改錯字1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二改錯字2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二改錯字3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二改錯字4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二改錯字5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二改錯字6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二改錯字7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二改錯字8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二改錯字9",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "二改錯字10",
+    "status": "duplicate",
+    "reason": "同一詞的字形訂正已收，合併重複。",
+    "canonicalSource": 4,
+    "canonicalLocator": "二改錯字11"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "二改錯字1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "二改錯字2",
+    "status": "duplicate",
+    "reason": "同一詞的字形訂正已收，合併重複。",
+    "canonicalSource": 3,
+    "canonicalLocator": "二改錯字5"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "二改錯字3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "二改錯字4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "二改錯字5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "二改錯字6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "二改錯字7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "二改錯字8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "二改錯字9",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "二改錯字10",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "二改錯字1",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "二改錯字1改編"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "二改錯字2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "二改錯字3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "二改錯字4",
+    "status": "existing",
+    "reason": "既有30題已涵蓋此原題。",
+    "canonicalLocator": "二改錯字4改編"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "二改錯字5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "二改錯字6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "二改錯字7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=69990&q=1&word=%E5%B0%B7%E5%B0%AC"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=69990&q=1&word=%E5%B0%B7%E5%B0%AC"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=161274&q=1&word=%E6%9C%AA%E9%9B%A8%E7%B6%A2%E7%B9%86"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=70616&q=1&word=%E8%80%95%E8%80%98"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音5",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=123880&q=1&word=%E5%BE%9C%E5%BE%89"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=123880&q=1&word=%E5%BE%9C%E5%BE%89"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=133120&q=1&word=%E8%94%AC"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音9",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音10",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音11",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=24143&q=1&word=%E7%83%B9%E9%A3%AA"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音12",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音13",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=161803&q=1&word=%E6%83%8B%E6%83%9C"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音14",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=126738&q=1&word=%E8%A1%9D"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音15",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=91281&q=1&word=%E7%84%A6"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音16",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=91667&q=1&word=%E6%94%AA%E6%8B%8C"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音17",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=8386&q=1&word=%E7%BA%8F"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音18",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=61585&q=1&word=%E6%84%A3"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音19",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=2271&q=1&word=%E9%BC%8E"
+    ]
+  },
+  {
+    "source": 1,
+    "page": 1,
+    "locator": "壹國字注音20",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=23253&q=1&word=%E6%B2%9B"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=33203&q=1&word=%E6%9A%AE%E8%89%B2"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=164636&q=1&word=%E6%9C%88%E6%9A%88"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1400&q=1&word=%E6%BB%85"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=122884&q=1&word=%E6%BD%BA"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=159868&q=1&word=%E5%85%80"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=88292&q=1&word=%E5%AF%82%E5%AF%A5"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=86259&q=1&word=%E8%8D%92%E8%95%AA"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=117250&q=1&word=%E5%BE%81%E9%80%94"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音9",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=61358&q=1&word=%E6%B5%AA%E8%B7%A1%E5%A4%A9"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音10",
+    "status": "candidate",
+    "reason": "逐題及權威來源核對完成；附上可查證的詞典／博物館資料。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=649&la=0&powerMode=0"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音11",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=56179&q=1&word=%E5%90%B6%E5%96%8A"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音12",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=104518&q=1&word=%E6%82%89%E5%BF%83"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音13",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=125912&q=1&word=%E8%89%99"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音14",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=2711&q=1&word=%E6%B7%BB"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音15",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=19751&q=1&word=%E4%B8%A6%E8%82%A9"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音16",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=116301&q=1&word=%E9%A1%AB%E5%8B%95"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音17",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=112702&q=1&word=%E8%BF%85%E9%80%9F"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音18",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=63396&q=1&word=%E7%80%89"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音19",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=159386&q=1&word=%E7%84%A1%E5%9E%A0"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音20",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=163610&q=1&word=%E5%AE%87%E5%AE%99"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音21",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=163610&q=1&word=%E5%AE%87%E5%AE%99"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音22",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=65493&q=1&word=%E5%87%8C"
+    ]
+  },
+  {
+    "source": 2,
+    "page": 1,
+    "locator": "一國字注音23",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=19750&q=1&word=%E4%B8%A6%E9%A7%95%E9%BD%8A%E9%A9%85"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=19750&q=1&word=%E4%B8%A6%E9%A7%95%E9%BD%8A%E9%A9%85"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=151986&q=1&word=%E5%A3%93%E8%BB%B8"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=18480&q=1&word=%E6%A8%99"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音5",
+    "status": "duplicate",
+    "reason": "原卷「愣了一下」與既有「愣住」均測失神發呆的愣ㄌㄥˋ；簡編本ID13925確認，判準相同。",
+    "canonicalSource": 1,
+    "canonicalLocator": "壹國字注音18"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=151063&q=1&word=%E6%8A%91%E5%88%B6"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=153083&q=1&word=%E6%90%96%E6%97%97%E5%90%B6%E5%96%8A"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=117926&q=1&word=%E6%9C%B1"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音9",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=102820&q=1&word=%E6%85%B6%E8%B3%80"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音10",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=116326&q=1&word=%E7%8F%8D%E9%A5%88"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音11",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=33448&q=1&word=%E7%99%BC%E9%85%B5"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音12",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=109992&q=1&word=%E7%A5%A5%E5%92%8C"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音13",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=45556&q=1&word=%E7%B7%A0%E9%80%A0"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音14",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=42762&q=1&word=%E5%B3%B6%E5%B6%BC"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音15",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=73158&q=1&word=%E8%BB%8C"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音16",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=76687&q=1&word=%E9%96%8B%E5%A2%BE"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音17",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1186&q=1&word=%E5%B8%BD"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音18",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=118171&q=1&word=%E7%AB%B9"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音19",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=2619&q=1&word=%E8%B6%9F"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音20",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=66309&q=1&word=%E9%B7%BA%E9%B7%A5"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音21",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=120941&q=1&word=%E6%B1%A0%E5%A1%98"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音22",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音23",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=65549&q=1&word=%E8%8F%B1%E8%A7%92"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音24",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=26504&q=1&word=%E6%A8%B8"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音25",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=81835&q=1&word=%E5%AF%92%E6%9A%91"
+    ]
+  },
+  {
+    "source": 3,
+    "page": 1,
+    "locator": "一國字注音26",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=24828&q=1&word=%E7%96%B2%E6%86%8A"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=119338&q=1&word=%E8%BD%89%E5%9C%9C"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=132553&q=1&word=%E7%94%9F%E6%B6%AF"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=132859&q=1&word=%E5%88%B8%E5%9C%A8%E6%8F%A1"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=98561&q=1&word=%E6%97%97%E9%BC%93%E7%9B%B8%E7%95%B6"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=101868&q=1&word=%E5%BC%B7%E8%A9%9E%E5%A5%AA%E7%90%86"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=146825&q=1&word=%E6%84%95%E7%84%B6"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音7",
+    "status": "duplicate",
+    "reason": "一粥一飯的粥同指稀飯，與一碗粥同一字音判準。",
+    "canonicalSource": 1,
+    "canonicalLocator": "壹國字注音5"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=59529&q=1&word=%E8%99%95"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音9",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=140238&q=1&word=%E7%B8%B1%E8%B0%B7"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音10",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=91720&q=1&word=%E5%8F%AB"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音11",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=161417&q=1&word=%E8%94%9A"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音12",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=146734&q=1&word=%E5%8D%B5%E7%9F%B3"
+    ]
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音13",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 4,
+    "page": 1,
+    "locator": "一國字注音14",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "一國字注音18"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音1",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "一國字注音14"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=146307&q=1&word=%E8%81%B3%E7%AB%8B"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音3",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 4,
+    "canonicalLocator": "一國字注音11"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=79289&q=1&word=%E5%92%8C%E8%AB%A7"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=108751&q=1&word=%E5%BF%83%E6%9B%A0%E7%A5%9E%E6%80%A1"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音6",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 4,
+    "canonicalLocator": "一國字注音2"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=155438&q=1&word=%E5%9A%B4%E8%82%85"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=20618&q=1&word=%E4%B8%8D%E8%8B%9F%E8%A8%80%E7%AC%91"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音9",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137290&q=1&word=%E8%AB%AE%E8%A9%A2"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音10",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=16566&q=1&word=%E9%A0%92"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音11",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=104979&q=1&word=%E7%AD%B5"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音12",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=6823&q=1&word=%E5%B8%AD"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音13",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=56096&q=1&word=%E6%8B%BF"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音14",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=82807&q=1&word=%E8%83%A1%E8%A8%80%E4%BA%82%E8%AA%9E"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音15",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=99746&q=1&word=%E7%AB%8A%E7%AC%91"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音16",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "一國字注音3"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音17",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音18",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=103488&q=1&word=%E5%85%A8%E5%8A%9B%E4%BB%A5%E8%B5%B4"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音19",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 4,
+    "canonicalLocator": "一國字注音3"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音20",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=153632&q=1&word=%E6%86%82%E5%BF%83%E5%BF%A1%E5%BF%A1"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音21",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=4217&q=1&word=%E9%A2%B3"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音22",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=81249&q=1&word=%E5%96%89%E5%9A%A8"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音23",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音24",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "一國字注音20"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音25",
+    "status": "duplicate",
+    "reason": "原卷同詞野雁、同目標字雁，保留一題。",
+    "canonicalSource": 3,
+    "canonicalLocator": "一國字注音22"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音26",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "一國字注音8"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音27",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "一國字注音9"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音28",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=5205&q=1&word=%E6%82%A3"
+    ]
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音29",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "一國字注音10"
+  },
+  {
+    "source": 5,
+    "page": 1,
+    "locator": "一國字注音30",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=72442&q=1&word=%E6%9E%9C%E8%85%B9"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=134640&q=1&word=%E7%9D%A1%E7%9C%BC"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=134640&q=1&word=%E7%9D%A1%E7%9C%BC"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=4841&q=1&word=%E5%90%BC"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=84068&q=1&word=%E6%B4%BB%E6%BD%91"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=8650&q=1&word=%E5%96%98"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=81115&q=1&word=%E8%80%97%E8%B2%BB"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=20064&q=1&word=%E8%A3%9C%E5%85%85"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=82734&q=1&word=%E8%83%A1%E4%BA%82"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音9",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音10",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 5,
+    "canonicalLocator": "一國字注音5"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音11",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=142297&q=1&word=%E7%B0%87%E6%93%81"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音12",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 5,
+    "canonicalLocator": "一國字注音7"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音13",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=103303&q=1&word=%E7%BC%BA%E5%B8%AD"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音14",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 5,
+    "canonicalLocator": "一國字注音28"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音15",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=120581&q=1&word=%E7%9C%BE%E7%9B%AE%E7%9D%BD%E7%9D%BD"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音16",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=91268&q=1&word=%E7%84%A6%E9%BB%9E"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音17",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=130162&q=1&word=%E6%89%8B%E8%B6%B3%E7%84%A1%E6%8E%AA"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音18",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "一國字注音3"
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音19",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=150124&q=1&word=%E4%BE%9D%E5%BA%8F"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音20",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=75661&q=1&word=%E6%81%AD%E8%B3%80"
+    ]
+  },
+  {
+    "source": 6,
+    "page": 1,
+    "locator": "一國字注音21",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=126570&q=1&word=%E5%89%B5%E9%80%A0"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音1",
+    "status": "duplicate",
+    "reason": "廣東粥與一碗粥同為食物粥、同一字音判準。",
+    "canonicalSource": 1,
+    "canonicalLocator": "壹國字注音5"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音2",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "一國字注音10"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=77086&q=1&word=%E5%8F%A3%E8%85%B9"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音4",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 4,
+    "canonicalLocator": "一國字注音2"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=161274&q=1&word=%E6%9C%AA%E9%9B%A8%E7%B6%A2%E7%B9%86"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音6",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=47639&q=1&word=%E5%A6%92%E5%BF%8C"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音7",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=47639&q=1&word=%E5%A6%92%E5%BF%8C"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音8",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=165440&q=1&word=%E6%80%A8%E6%81%A8"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音9",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=122702&q=1&word=%E7%B1%8C%E6%8E%AA"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音10",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 5,
+    "canonicalLocator": "一國字注音11"
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音11",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=136636&q=1&word=%E5%85%A5%E5%B8%AD"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音12",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=77227&q=1&word=%E5%8F%A3%E7%84%A1"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音13",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=77227&q=1&word=%E5%8F%A3%E7%84%A1"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音14",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=99743&q=1&word=%E7%AB%8A%E7%AB%8A%E7%A7%81%E8%AA%9E"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音15",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=50049&q=1&word=%E6%BB%94%E6%BB%94%E4%B8%8D%E7%B5%95"
+    ]
+  },
+  {
+    "source": 7,
+    "page": 1,
+    "locator": "一國字注音16",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=41606&q=1&word=%E5%A4%A7%E5%90%B9"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音1",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 4,
+    "canonicalLocator": "一國字注音3"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音2",
+    "status": "duplicate",
+    "reason": "同詞脫韁野馬同目標韁，保留一題。",
+    "canonicalSource": 5,
+    "canonicalLocator": "一國字注音17"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音3",
+    "status": "candidate",
+    "reason": "原卷逐題複核、必要圖資與情境已補齊；採明示改編的唯一答案題。"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音4",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音12"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音5",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音13"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音6",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 5,
+    "canonicalLocator": "一國字注音7"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音7",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音6"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音8",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 1,
+    "canonicalLocator": "壹國字注音3"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音9",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音14"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音10",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=152011&q=1&word=%E5%A3%93%E6%8A%91"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音11",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 1,
+    "canonicalLocator": "壹國字注音1"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音12",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 1,
+    "canonicalLocator": "壹國字注音2"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音13",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=47897&q=1&word=%E5%93%86%E5%97%A6"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音14",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 4,
+    "canonicalLocator": "一國字注音1"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音15",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "一國字注音20"
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音16",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=83353&q=1&word=%E8%8A%B1%E5%9C%98%E9%8C%A6%E7%B0%87"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音17",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=79814&q=1&word=%E6%A0%B8%E5%87%86"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音18",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=25566&q=1&word=%E9%A0%BB%E9%81%93"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音19",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=7111&q=1&word=%E9%B9%B9"
+    ]
+  },
+  {
+    "source": 9,
+    "page": null,
+    "locator": "一國字注音20",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 6,
+    "canonicalLocator": "一國字注音2"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音1",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=98494&q=1&word=%E6%9C%9F%E5%BE%85"
+    ]
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音2",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=118509&q=1&word=%E7%9F%9A%E7%9B%AE"
+    ]
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音3",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=22256&q=1&word=%E6%AD%A5%E9%A9%9F"
+    ]
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音4",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=69631&q=1&word=%E8%B3%BC"
+    ]
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音5",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=25198&q=1&word=%E7%A5%A8"
+    ]
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音6",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 1,
+    "canonicalLocator": "壹國字注音1"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音7",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 1,
+    "canonicalLocator": "壹國字注音2"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音8",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=103789&q=1&word=%E5%8B%B8%E9%98%BB"
+    ]
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音9",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=671&q=1&word=%E6%8B%8B"
+    ]
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音10",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 5,
+    "canonicalLocator": "一國字注音7"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音11",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 9,
+    "canonicalLocator": "一國字注音18"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音12",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 3,
+    "canonicalLocator": "一國字注音16"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音13",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 9,
+    "canonicalLocator": "一國字注音16"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音14",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 6,
+    "canonicalLocator": "一國字注音1"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音15",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 6,
+    "canonicalLocator": "一國字注音2"
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音16",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=26664&q=1&word=%E6%9B%9D%E5%85%89"
+    ]
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音17",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=90052&q=1&word=%E6%8F%AD%E9%9C%B2"
+    ]
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音18",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=102541&q=1&word=%E5%82%BE%E5%80%92#order1",
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=102542&q=1&word=%E5%82%BE%E5%80%92#order2"
+    ]
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音19",
+    "status": "candidate",
+    "reason": "逐項核對原卷；補入作答所需語境，轉為單一正解。",
+    "verificationSources": [
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=47897&q=1&word=%E5%93%86%E5%97%A6"
+    ]
+  },
+  {
+    "source": 10,
+    "page": 1,
+    "locator": "一國字注音20",
+    "status": "duplicate",
+    "reason": "相同答案判準與題意，保留單一題並追溯原卷。",
+    "canonicalSource": 9,
+    "canonicalLocator": "一國字注音13"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "三選擇1",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇1"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "三選擇3",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇3"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "三選擇2",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇2"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "三選擇4",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇4"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "三選擇5",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇5"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三選擇6",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇6"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三選擇7",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇7改編"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三選擇8",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇8"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三選擇9",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 5,
+    "canonicalLocator": "四歇後語1"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三選擇10",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇10"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三選擇11",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇11"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三選擇12",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇12"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三選擇13",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇13"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三選擇14",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇14"
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三選擇15",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "三選擇15"
+  },
+  {
+    "source": 8,
+    "page": 3,
+    "locator": "四配合一1",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 5,
+    "canonicalLocator": "五選擇11"
+  },
+  {
+    "source": 8,
+    "page": 3,
+    "locator": "四配合一2",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 6,
+    "canonicalLocator": "四填詞2"
+  },
+  {
+    "source": 8,
+    "page": 3,
+    "locator": "四配合一3",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "四配合一3"
+  },
+  {
+    "source": 8,
+    "page": 3,
+    "locator": "四配合一5",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "四配合一5"
+  },
+  {
+    "source": 8,
+    "page": 3,
+    "locator": "四配合一4",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "四配合一4"
+  },
+  {
+    "source": 8,
+    "page": 3,
+    "locator": "四配合二1",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 5,
+    "canonicalLocator": "四歇後語2"
+  },
+  {
+    "source": 8,
+    "page": 3,
+    "locator": "四配合二2",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "四配合二2"
+  },
+  {
+    "source": 8,
+    "page": 3,
+    "locator": "四配合二3",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 5,
+    "canonicalLocator": "四歇後語7"
+  },
+  {
+    "source": 8,
+    "page": 3,
+    "locator": "四配合二4",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 5,
+    "canonicalLocator": "四歇後語6"
+  },
+  {
+    "source": 8,
+    "page": 3,
+    "locator": "五短文1",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "五短文1"
+  },
+  {
+    "source": 8,
+    "page": 3,
+    "locator": "六閱讀1",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "六閱讀1"
+  },
+  {
+    "source": 8,
+    "page": 3,
+    "locator": "六閱讀2",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "六閱讀2"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二改錯字1",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "二改錯字1"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二改錯字2",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 3,
+    "canonicalLocator": "二改錯字5"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二改錯字3",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "二改錯字3"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二改錯字4",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "二改錯字4"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二改錯字5",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "二改錯字5"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二改錯字6",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "二改錯字6"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二改錯字7",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "二改錯字7"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二改錯字8",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "二改錯字8"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二改錯字9",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "二改錯字9"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "二改錯字10",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "二改錯字10"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音1",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音1"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音2",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 3,
+    "canonicalLocator": "一國字注音10"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音3",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音3"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音4",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 4,
+    "canonicalLocator": "一國字注音2"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音5",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音5"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音6",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音6"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音7",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音7"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音8",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音8"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音9",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音9"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音10",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 5,
+    "canonicalLocator": "一國字注音11"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音11",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音11"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音12",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音12"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音13",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音13"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音14",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音14"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音15",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音15"
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "一國字注音16",
+    "status": "duplicate",
+    "reason": "原檔與國語7逐位元相同；沿用7的逐題判定，包括尚待核實項目。",
+    "canonicalSource": 7,
+    "canonicalLocator": "一國字注音16"
+  }
+]

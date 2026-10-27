@@ -1,0 +1,92 @@
+{
+  "deployment": "63792901-1096-4f97-94ba-07ca00aad81d",
+  "source": "167e7bb",
+  "health": 200,
+  "files": [
+    {
+      "file": "/assets/RoomEditor.v-6LvPpsOR.js",
+      "status": 200,
+      "bytes": 10284,
+      "sha256": "e654ae0b711abeed2de6bdfee02db333c1453d979ec8b267d57072eb7271d2b4",
+      "matches": true
+    },
+    {
+      "file": "/assets/TerritoryPage.v-BSVzeyCY.js",
+      "status": 200,
+      "bytes": 35479,
+      "sha256": "17350f68776e154c2c289ceb4e9e61cb8f915806f8e5214888db1d82b306bd1c",
+      "matches": true
+    },
+    {
+      "file": "/assets/index.v-BnBcC-pX.js",
+      "status": 200,
+      "bytes": 747790,
+      "sha256": "310591b349886ea02dce659b6c11c33e30877a992c49cf83c9b42a99eb4c46d3",
+      "matches": true
+    },
+    {
+      "file": "/assets/TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "matches": true
+    },
+    {
+      "file": "/assets/index.v-CUrSq5Op.css",
+      "status": 200,
+      "bytes": 212003,
+      "sha256": "da332f046367ff8f7fb15f90b86a572082f91448583524b2be47668b93ce85a5",
+      "matches": true
+    },
+    {
+      "file": "/assets/island-motion/cometcrane-idle.webp",
+      "status": 200,
+      "bytes": 370408,
+      "sha256": "030bc017f1fcb6328079884df6305adffd2dceb4edec45f0ac435eac58d88c82",
+      "matches": true
+    },
+    {
+      "file": "/assets/island-motion/cometcrane-play.webp",
+      "status": 200,
+      "bytes": 391028,
+      "sha256": "a6a4b7182ea5798e024192a5d1c8b4b2ffefc2516458d477237184ae8885fdc6",
+      "matches": true
+    },
+    {
+      "file": "/assets/island-motion/cometcrane-walk.webp",
+      "status": 200,
+      "bytes": 182114,
+      "sha256": "1432b5bc81159af35dc539a8fbecd3dae0910b80580f1c78c5fc1ec848a33749",
+      "matches": true
+    },
+    {
+      "file": "/assets/island-motion/tideglow-idle.webp",
+      "status": 200,
+      "bytes": 369294,
+      "sha256": "914ab05921dd67638aae8331c71e15be791ec7ff84fdc15b962d32cf6bb56ef9",
+      "matches": true
+    },
+    {
+      "file": "/assets/island-motion/tideglow-play.webp",
+      "status": 200,
+      "bytes": 367864,
+      "sha256": "8e3dac13b73bebda658decebfb97b9333bf4363864a89572a7d57a0f25ae0a93",
+      "matches": true
+    },
+    {
+      "file": "/assets/island-motion/tideglow-walk.webp",
+      "status": 200,
+      "bytes": 140956,
+      "sha256": "3ee35774c446f91449c7fb7d34a2770988e1fafc0def63f602cd91aa819d4f21",
+      "matches": true
+    }
+  ],
+  "deploymentStatus": "SUCCESS",
+  "browserVerification": {
+    "file": "production-browser-checks.json",
+    "checks": 36,
+    "issues": 0,
+    "pageErrors": 0,
+    "mode": "Production frontend with isolated API fixtures; no real player writes"
+  }
+}

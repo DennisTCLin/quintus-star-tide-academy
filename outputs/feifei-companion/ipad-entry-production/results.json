@@ -1,0 +1,170 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "webkit visible transparent launcher 393",
+      "pass": true
+    },
+    {
+      "name": "webkit visible transparent launcher 700",
+      "pass": true
+    },
+    {
+      "name": "webkit visible transparent launcher 701",
+      "pass": true
+    },
+    {
+      "name": "webkit iPad Chrome 768 animated highfive",
+      "pass": true
+    },
+    {
+      "name": "webkit iPad Chrome 768 animated bubbles",
+      "pass": true
+    },
+    {
+      "name": "webkit iPad Chrome 768 animated rest",
+      "pass": true
+    },
+    {
+      "name": "webkit visible transparent launcher 768",
+      "pass": true
+    },
+    {
+      "name": "webkit visible transparent launcher 810",
+      "pass": true
+    },
+    {
+      "name": "webkit visible transparent launcher 834",
+      "pass": true
+    },
+    {
+      "name": "webkit iPad Chrome 1024 animated highfive",
+      "pass": true
+    },
+    {
+      "name": "webkit iPad Chrome 1024 animated bubbles",
+      "pass": true
+    },
+    {
+      "name": "webkit iPad Chrome 1024 animated rest",
+      "pass": true
+    },
+    {
+      "name": "webkit visible transparent launcher 1024",
+      "pass": true
+    },
+    {
+      "name": "webkit visible transparent launcher 1194",
+      "pass": true
+    },
+    {
+      "name": "webkit visible transparent launcher 1366",
+      "pass": true
+    },
+    {
+      "name": "webkit visible transparent launcher 1440",
+      "pass": true
+    },
+    {
+      "name": "webkit tablet identity olivia",
+      "pass": true
+    },
+    {
+      "name": "webkit tablet identity jimmy",
+      "pass": true
+    },
+    {
+      "name": "webkit static fallback (True, False)",
+      "pass": true
+    },
+    {
+      "name": "webkit static fallback (False, True)",
+      "pass": true
+    },
+    {
+      "name": "chromium visible transparent launcher 393",
+      "pass": true
+    },
+    {
+      "name": "chromium visible transparent launcher 700",
+      "pass": true
+    },
+    {
+      "name": "chromium visible transparent launcher 701",
+      "pass": true
+    },
+    {
+      "name": "chromium iPad Chrome 768 animated highfive",
+      "pass": true
+    },
+    {
+      "name": "chromium iPad Chrome 768 animated bubbles",
+      "pass": true
+    },
+    {
+      "name": "chromium iPad Chrome 768 animated rest",
+      "pass": true
+    },
+    {
+      "name": "chromium visible transparent launcher 768",
+      "pass": true
+    },
+    {
+      "name": "chromium visible transparent launcher 810",
+      "pass": true
+    },
+    {
+      "name": "chromium visible transparent launcher 834",
+      "pass": true
+    },
+    {
+      "name": "chromium iPad Chrome 1024 animated highfive",
+      "pass": true
+    },
+    {
+      "name": "chromium iPad Chrome 1024 animated bubbles",
+      "pass": true
+    },
+    {
+      "name": "chromium iPad Chrome 1024 animated rest",
+      "pass": true
+    },
+    {
+      "name": "chromium visible transparent launcher 1024",
+      "pass": true
+    },
+    {
+      "name": "chromium visible transparent launcher 1194",
+      "pass": true
+    },
+    {
+      "name": "chromium visible transparent launcher 1366",
+      "pass": true
+    },
+    {
+      "name": "chromium visible transparent launcher 1440",
+      "pass": true
+    },
+    {
+      "name": "chromium tablet identity olivia",
+      "pass": true
+    },
+    {
+      "name": "chromium tablet identity jimmy",
+      "pass": true
+    },
+    {
+      "name": "chromium static fallback (True, False)",
+      "pass": true
+    },
+    {
+      "name": "chromium static fallback (False, True)",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "physicalIPad": false,
+  "iPadChromeUserAgent": "Mozilla/5.0 (iPad; CPU OS 15_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/138.0.7204.119 Mobile/15E148 Safari/604.1",
+  "realAccountMutations": false
+}

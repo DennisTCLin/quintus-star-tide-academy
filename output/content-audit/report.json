@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "status": "PASS",
+  "counts": {
+    "static": 4355,
+    "generated": 23192,
+    "pools": 42,
+    "approvedStatic": 4355,
+    "approvedTemplates": 42
+  },
+  "mediaFiles": 212,
+  "findings": [],
+  "coverage": {
+    "static": "4355/4355 hash-matched approvals; media bytes/existence checked, audio listening not certified",
+    "generated": "42/42 hash-matched template approvals; all 23192 variants checked structurally and by prompt-based oracle, not individually AI-reviewed"
+  },
+  "durationMs": 361,
+  "peakRssMB": 195
+}

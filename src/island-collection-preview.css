@@ -1,0 +1,25 @@
+.island-collection{min-width:0;color:#f0fbff;border-top:1px solid #8fb4c333;padding:12px 4px 0;text-align:left}
+.island-collection-heading{display:flex;align-items:center;justify-content:space-between;gap:4px;font-size:14px;line-height:1.9}
+.island-collection-heading b{color:var(--collection-tone);white-space:nowrap}
+.family-app .island-collection-listen{display:inline-flex;align-items:center;justify-content:center;flex:none;width:44px;min-width:44px;min-height:44px;padding:4px;border:1px solid transparent;border-radius:50%;background:transparent;box-shadow:none;font-size:18px;color:#8ce8df}
+.island-collection-caption{margin:3px 0 8px;font-size:12px;color:#bdd4df;line-height:1.8}
+.island-collection-strip{list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;margin:0;padding:0}
+.island-collection-strip li{min-width:0;text-align:center}
+.island-collection-strip img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain}
+.island-collection-status{display:inline-block;color:#bdd4df;font-size:12px;line-height:1.9;white-space:nowrap}
+.island-collection-status.is-owned{color:#a5f1ce;font-weight:700}
+.island-collection-details{margin-top:8px;min-width:0}
+.island-collection-details>summary{min-height:44px;display:flex;align-items:center;justify-content:center;gap:6px;list-style:none;cursor:pointer;color:#8ce8df;font-size:13px;line-height:2;padding:6px 0;box-sizing:border-box}
+.island-collection-details>summary::-webkit-details-marker{display:none}
+.island-collection-details>summary::after{content:'⌄';font-size:18px}
+.island-collection-details[open]>summary::after{content:'⌃'}
+.island-collection-details>summary:focus-visible,.family-app .island-collection-listen:focus-visible{outline:3px solid #ffd681;outline-offset:2px}
+.island-collection-group{margin:14px 0 6px;font-size:13px;font-weight:700;line-height:2;color:var(--collection-tone)}
+.island-collection-hint{font-size:12px;color:#bdd4df;line-height:2;margin:6px 0 10px;overflow-wrap:anywhere}
+.island-collection-list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.island-collection-list li{display:grid;grid-template-columns:44px minmax(0,1fr);column-gap:6px;align-items:center;padding:5px 0;border-bottom:1px solid #8fb4c322}
+.island-collection-list img{width:44px;height:44px;object-fit:contain;grid-row:span 2}
+.island-collection-creature-name{font-size:13px;line-height:1.9;overflow-wrap:anywhere}
+.grade-2 .island-collection-heading,.grade-2 .island-collection-caption,.grade-2 .island-collection-group,.grade-2 .island-collection-hint,.grade-2 .island-collection-creature-name{line-height:2.7}
+.grade-2 .island-collection-status,.grade-2 .island-collection-details>summary{line-height:2.6}
+@media(max-width:400px){.island-collection-heading{font-size:12px}.island-collection-list li{grid-template-columns:34px minmax(0,1fr);column-gap:3px}.island-collection-list img{width:34px;height:40px}.island-collection-status{font-size:11px}}

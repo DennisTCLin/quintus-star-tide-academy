@@ -1,0 +1,34 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run --silent --no-file-parallelism
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/school-question-bank/星潮網站開發
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs (14 tests | 1 failed) 3937ms
+   ❯ school routing through authenticated cloud API (14)
+     × serves the new science supplement for three authenticated schools after prior mastery 11ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > serves the new science supplement for three authenticated schools after prior mastery
+TypeError: Cannot read properties of undefined (reading 'revision')
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:233:77
+    231|    await api.pool.query('UPDATE game_states SET family=$2 WHERE accoun…
+    232|    const state=await call('state',undefined,c);
+    233|    const r=await call('command',{id:randomUUID(),revision:state.data.f…
+       |                                                                             ^
+    234|    expect(r.status,JSON.stringify(r.data)).toBe(200);
+    235|    const q=r.data.result.question;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 117 passed (118)
+      Tests  1 failed | 856 passed (857)
+   Start at  10:09:33
+   Duration  73.34s (tests 87%, import 12%, transform 1%)
+
+    Isolate  118 workers spawned · ~57ms startup each (spawn + environment, per file)
+             at least ~6.64s faster with isolate: false — reuses workers across files instead of one per file
+

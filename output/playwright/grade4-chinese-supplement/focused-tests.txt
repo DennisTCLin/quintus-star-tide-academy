@@ -1,0 +1,13 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/school-curriculum.test.ts src/__tests__/grade4-chinese-supplement.test.ts --silent
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/school-question-bank/星潮網站開發
+
+
+ Test Files  2 passed (2)
+      Tests  11 passed (11)
+   Start at  00:30:42
+   Duration  197ms (import 52%, transform 32%, tests 15%, worker 1%)
+

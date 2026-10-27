@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-25T06:17:39.670Z",
+  "anonymous": true,
+  "checks": [
+    {
+      "choice": "sea",
+      "result": null,
+      "ms": 1853
+    },
+    {
+      "choice": "nervous",
+      "result": {
+        "line": "不用急，我們可以慢慢來，深呼吸喔。",
+        "reply": "nervous",
+        "variant": "warm"
+      },
+      "ms": 1023
+    },
+    {
+      "choice": "help",
+      "result": null,
+      "ms": 940
+    },
+    {
+      "choice": "rest",
+      "result": null,
+      "ms": 994
+    },
+    {
+      "choice": "sky",
+      "result": null,
+      "ms": 794
+    },
+    {
+      "choice": "friend",
+      "result": null,
+      "ms": 959
+    }
+  ]
+}

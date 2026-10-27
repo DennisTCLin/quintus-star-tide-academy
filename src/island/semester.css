@@ -1,0 +1,130 @@
+#math-island .isl-semester { width:100%; box-sizing:border-box; display:flex; flex-direction:column; align-items:center; gap:18px; padding:18px 12px; background:#f9f4e5; border:1px solid #b5c9c8; border-radius:20px; }
+#math-island .isl-measure { width:100%; max-width:480px; }
+#math-island .isl-measure-row { display:flex; align-items:center; gap:10px; margin:12px 0; }
+#math-island .isl-measure-track { display:block; width:100%; border-left:3px dashed #8c4c23; }
+#math-island .isl-bar { display:block; background:#ec8075; border:2px solid #743e50; border-radius:5px; transition:margin .5s; }
+#math-island .isl-measure-row:nth-child(2) .isl-bar { background:#72c8d1; }
+#math-island .isl-measure-row:nth-child(3) .isl-bar { background:#e9c963; }
+#math-island .isl-measure.vertical { display:flex; gap:24px; justify-content:center; align-items:flex-end; }
+#math-island .vertical .isl-measure-row { flex-direction:column-reverse; }
+#math-island .vertical .isl-measure-track { border-left:0; border-bottom:3px solid #765b45; }
+#math-island .isl-paths { width:min(100%,360px); fill:#17324d; font-size:20px; }
+#math-island .isl-paths path { fill:none; stroke:#257e91; stroke-width:6; }
+#math-island .isl-order-row { display:flex; flex-wrap:wrap; justify-content:center; gap:4px; }
+#math-island .isl-order-row > span { display:flex; flex-direction:column; font-size:28px; border:2px solid transparent; border-radius:12px; }
+#math-island .isl-order-row small { text-align:center; font-size:18px; }
+#math-island .target { border:2px solid #dc7960!important; background:#ffefd3; border-radius:8px; }
+#math-island .isl-groups { display:flex; flex-direction:column; gap:18px; width:100%; }
+#math-island .isl-groups > div { display:flex; align-items:center; gap:10px; }
+#math-island .isl-counters { display:flex; flex-wrap:wrap; gap:5px; color:#28798f; font-size:25px; }
+#math-island .isl-groups .isl-counters { display:grid; grid-template-columns:repeat(10,1fr); gap:3px; }
+#math-island .isl-sequence { display:flex; flex-wrap:wrap; gap:14px; justify-content:center; }
+#math-island .isl-sequence > span { min-width:58px; padding:10px; border:2px solid #cc9c5d; background:#fff4d9; border-radius:14px; font-size:32px; display:flex; flex-direction:column; text-align:center; }
+#math-island .isl-sequence small { font-size:14px; }
+#math-island .isl-shape-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; width:100%; max-width:440px; }
+#math-island .isl-shape-grid > div { display:flex; flex-direction:column; align-items:center; background:#fff8e9; border-radius:14px; padding:8px; }
+#math-island .isl-shape { width:90px; max-width:100%; fill:#8acbd7; stroke:#255c71; stroke-width:3; }
+#math-island .isl-solid { font-size:65px; }
+#math-island .isl-mosaic { display:grid; grid-template-columns:repeat(2,80px); gap:0; }
+#math-island .isl-mosaic .isl-shape { height:75px; }
+#math-island .isl-mosaic .isl-shape:nth-child(even) { transform:rotate(180deg); }
+#math-island .isl-take { max-width:300px; font-size:35px; }
+#math-island .isl-take .taken { opacity:.3; text-decoration:line-through; }
+#math-island .isl-bundles { display:flex; flex-wrap:wrap; justify-content:center; gap:12px; }
+#math-island .isl-bundle { border:2px solid #b98d4d; border-radius:14px; padding:10px; text-align:center; }
+#math-island .isl-bundle .isl-counters { display:grid; grid-template-columns:repeat(5,14px); }
+#math-island .isl-clock { width:200px; max-width:100%; }
+#math-island .isl-clock-choices { display:flex; gap:5px; width:100%; }
+#math-island .isl-clock-choices > div { flex:1; min-width:0; text-align:center; }
+#math-island .isl-event-grid { display:flex; flex-wrap:wrap; gap:12px; }
+#math-island .isl-event-grid > div { flex:1; min-width:80px; display:flex; flex-direction:column; align-items:center; background:#fff2cf; border-radius:12px; padding:12px; }
+#math-island .isl-paper .isl-semester, #math-island .isl-semester { color:#183e50; }
+@media(max-width:450px) { #math-island .isl-groups .isl-counters { font-size:18px; gap:1px; } #math-island .isl-semester .isl-paperline { font-size:24px; flex-wrap:wrap; } }
+
+#math-island .isl-semester-tabs { display:flex; gap:12px; margin:20px 0; }
+#math-island .isl-semester-tabs button { flex:1; min-height:56px; }
+#math-island .isl-semester-tabs [aria-pressed=true] { background:#9ce8db; color:#143749; border-color:#9ce8db; }
+#math-island .isl-semester-tabs small { margin-left:8px; }
+#math-island .isl-route { background:#183e50; border:1px solid #4d7c88; border-radius:20px; padding:20px; margin-bottom:24px; display:flex; flex-direction:column; gap:14px; }
+#math-island .isl-route > div { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; }
+#math-island .isl-route progress { width:160px; height:14px; accent-color:#a0e6cc; }
+#math-island .isl-route p { margin:0; color:#bfd6dc; font-size:15px; line-height:1.8; }
+#math-island .isl-semester .isl-box { color:#143e50; }
+#math-island .isl-semester svg { fill:#86cbd4; stroke:#285b6c; stroke-width:2; flex-shrink:0; }
+#math-island .isl-equations { text-align:center; font-size:clamp(22px,5vw,32px); }
+#math-island .isl-equations p { margin:14px 0; }
+#math-island .isl-ten-pair { display:flex; flex-wrap:wrap; gap:12px; justify-content:center; }
+#math-island .isl-ten-cells { display:grid; grid-template-columns:repeat(5,30px); gap:3px; }
+#math-island .isl-ten-cells span { width:30px; height:30px; display:grid; place-items:center; border:1px solid #6593a1; color:#215b74; font-size:20px; }
+#math-island .isl-ten-cells .filled { background:#b3e3ea; }
+#math-island .isl-ten-cells .extra { background:#f2cf8e; color:#984f2a; }
+#math-island .isl-unit-measure,#math-island .isl-length-pieces { width:100%; max-width:450px; }
+#math-island .isl-ribbon { height:32px; background:#56b8c1; border:2px solid #285e69; box-sizing:border-box; }
+#math-island .isl-ruler { display:flex; width:100%; }
+#math-island .isl-ruler span { flex:1; min-width:0; height:42px; display:grid; place-items:center; border:1px solid #447486; background:#fff3d6; color:#2c6272; font-size:25px; }
+#math-island .isl-ruler .marked { background:#a9dcd0; }
+#math-island .isl-ruler .cut { opacity:.3; text-decoration:line-through; }
+#math-island .isl-length-pieces > div { margin:15px 0; }
+#math-island .isl-removed { opacity:.25; text-decoration:line-through; }
+#math-island .isl-unpaired { background:#ffe2a2; border-radius:5px; }
+#math-island .isl-compare-rows { width:100%; max-width:420px; }
+#math-island .isl-compare-rows .isl-counters { display:grid; grid-template-columns:repeat(10,minmax(0,1fr)); gap:2px; font-size:22px; }
+#math-island .isl-place-board { display:flex; flex-wrap:wrap; gap:14px; justify-content:center; width:100%; }
+#math-island .isl-place-board > div { background:#f6eed9; border-radius:14px; padding:14px; flex:1; min-width:80px; }
+#math-island .isl-place-board > div:first-child { flex:2; }
+#math-island .isl-ten-rods { display:flex; flex-wrap:wrap; gap:5px; margin-top:10px; }
+#math-island .isl-ten-rods > span { display:flex; flex-direction:column; width:12px; background:#6fb6c7; border:1px solid #356f85; }
+#math-island .isl-ten-rods i { height:10px; border-bottom:1px solid #356f85; }
+#math-island .isl-ten-rods .marked { background:#e7b95d; }
+#math-island .isl-hundred { display:grid; grid-template-columns:repeat(10,minmax(0,1fr)); width:100%; max-width:430px; border:1px solid #5b8393; }
+#math-island .isl-hundred span { display:grid; place-items:center; aspect-ratio:1; font-size:clamp(12px,3vw,20px); border:1px solid #87a1a9; background:#fff8e9; }
+#math-island .isl-hundred .missing { background:#aadfcf; font-weight:bold; border:2px solid #226c65; }
+#math-island .isl-number-trio { display:flex; flex-wrap:wrap; gap:12px; justify-content:center; }
+#math-island .isl-number-trio > span { min-width:46px; padding:12px; border:2px solid #80a7ad; border-radius:10px; background:#fff5df; font-size:28px; }
+#math-island .isl-match-board { width:100%; max-width:430px; }
+#math-island .isl-match-board > div:first-child { display:flex; flex-direction:column; align-items:center; gap:10px; margin-bottom:20px; }
+#math-island .isl-match-options { display:flex; justify-content:space-around; gap:10px; }
+#math-island .isl-match-options > div { display:flex; align-items:center; flex-direction:column; gap:12px; }
+#math-island .isl-tile-grid { display:grid; justify-content:center; width:100%; gap:0; }
+#math-island .isl-tile-grid span { aspect-ratio:1; width:100%; border:2px solid #557b89; box-sizing:border-box; background:#fff3d4; display:grid; place-items:center; font-size:22px; }
+#math-island .isl-tile-grid .marked { background:#9fdbd2; }
+#math-island .isl-cube-columns { display:flex; gap:22px; align-items:flex-end; }
+#math-island .isl-cube-columns > div { display:flex; flex-direction:column; }
+#math-island .isl-cube-columns span { width:48px; height:44px; display:grid; place-items:center; background:#a1cdda; border:2px solid #47788b; font-size:34px; }
+#math-island .isl-coins { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; }
+#math-island .isl-coin { width:64px; height:64px; border:3px double #8b7138; border-radius:50%; background:#f3d382; display:flex; flex-direction:column; justify-content:center; align-items:center; font-size:24px; color:#3d3525; }
+#math-island .isl-coin small { font-size:14px; }
+#math-island .isl-coin.note { width:120px; border-radius:8px; background:#eeb8bc; }
+#math-island .isl-coin.marked { outline:3px solid #277a76; }
+#math-island .isl-money-question { text-align:center; font-size:24px; }
+#math-island .isl-price { padding:18px; background:#fff0ce; border:2px solid #b59155; border-radius:14px; }
+#math-island .isl-calendar { width:100%; max-width:400px; background:#fff6df; border:2px solid #b79a65; border-radius:15px; padding:12px; box-sizing:border-box; }
+#math-island .isl-calendar h3 { color:#284d5c; margin:8px 0 15px; text-align:center; }
+#math-island .isl-calendar-grid { display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); gap:3px; text-align:center; }
+#math-island .isl-calendar-grid > * { min-height:34px; display:grid; place-items:center; border-radius:5px; font-size:20px; }
+#math-island .isl-calendar-grid > b { background:#e0eadf; }
+#math-island .isl-calendar-grid .marked { outline:2px solid #23766c; background:#ade2d2; font-weight:bold; }
+#math-island .isl-column-sum { min-width:180px; font-size:30px; }
+#math-island .isl-column-sum > div { display:grid; grid-template-columns:35px 1fr 1fr; gap:10px; text-align:center; padding:6px 0; }
+#math-island .isl-column-sum > div:first-child { font-size:16px; }
+#math-island .isl-column-sum .isl-column-answer { border-top:2px solid #456b7b; }
+#math-island .isl-column-answer > span:last-child { grid-column:2/4; }
+#math-island .isl-sort-objects { display:flex; flex-wrap:wrap; justify-content:center; gap:10px; max-width:380px; }
+#math-island .isl-sort-objects > span { border:2px solid transparent; padding:4px; border-radius:10px; }
+#math-island .isl-sort-objects > .marked { background:#ffdda3; border-color:#b58645; }
+#math-island .isl-tallies { display:flex; flex-direction:column; gap:18px; width:100%; max-width:350px; }
+#math-island .isl-tallies > div { display:flex; gap:18px; align-items:center; }
+#math-island .isl-tallies > div > span { display:flex; flex-wrap:wrap; color:#254e60; }
+#math-island .isl-tallies > div > span svg { width:48px; height:48px; }
+#math-island .isl-data-table { border-collapse:collapse; width:100%; min-width:180px; font-size:24px; background:#fff7e4; }
+#math-island .isl-data-table td,#math-island .isl-data-table th { border:2px solid #809ea6; padding:12px; text-align:center; }
+#math-island .isl-data-table th { background:#d6e8dc; }
+#math-island .isl-data-table caption { font-size:18px; padding:10px; }
+@media(max-width:450px) {
+  #math-island .isl-semester { padding:14px 8px; gap:14px; }
+  #math-island .isl-semester .isl-action { white-space:normal; }
+  #math-island .isl-route { padding:15px; }
+  #math-island .isl-route .isl-btn { white-space:normal; font-size:16px; }
+  #math-island .isl-coin { width:52px; height:52px; font-size:20px; }
+  #math-island .isl-calendar-grid > * { font-size:17px; min-height:30px; }
+}

@@ -1,0 +1,7 @@
+# Confirmed school name independent from textbook routing
+
+Admin student projection now returns optional schoolName from the trusted server-only roster, matched by username and player slot. Jasper's Xing-an and Jay's Dongmen were already confirmed but lacked a publisher/school routing ID. Admin detail and search now display the confirmed name while preserving school:null/general curriculum. Existing Alston Jianan and Sunny Yongchun mappings remain unchanged. The raw family is not mutated.
+
+Verification: 8 focused projection/display/roster tests PASS; build PASS; 16 admin authority/grant DB tests and 10 live report DB tests PASS. Initial parallel DB suites collided while creating the same schema; rerunning the failed suite alone PASS (no product code workaround). Isolated synthetic admin browser checks: WebKit/Chromium, 390/1024, Jasper/Jay/Alston = 12 views PASS; school search and unassigned Jasper publisher confirmed. Root visually reviewed Jasper phone. No production child state changes.
+
+Production: runtime1a6487a, Railway3ff2513b-1f0e-4fc6-8500-42078bb1ff1d SUCCESS. Formal index/11JS-CSS files SHA matches tested dist; health200/ok, anonymous state401. Published frontend using intercepted synthetic local admin responses displays Jasper Xing-an, Jay Dongmen and Alston Jianan; search by 幸安 PASS. Backend trusted roster projection verified locally without real progress mutation. No production admin/child login performed.

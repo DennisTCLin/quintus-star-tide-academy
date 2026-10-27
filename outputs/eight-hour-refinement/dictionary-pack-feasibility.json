@@ -1,0 +1,31 @@
+{
+  "source": "073008e",
+  "method": "read-only offline packing prototype; not integrated, no runtime timing claim",
+  "canonicalSha256": "50d86b24587616931b9cb1826fda29331ca58a47faed26c9b7449e827ddc2e4e",
+  "phrases": 4268,
+  "characters": 1590,
+  "uniqueSyllables": 821,
+  "roundTripExact": true,
+  "canonical": {
+    "bytes": 417666,
+    "gzipBytes": 99301
+  },
+  "packedNumericIndex": {
+    "bytes": 224468,
+    "gzipBytes": 87320
+  },
+  "mainBundles": [
+    {
+      "file": "index.v-Bs6WdTIz.js",
+      "bytes": 825587,
+      "gzipBytes": 230850
+    }
+  ],
+  "nextVerification": [
+    "deterministic build generation and complete dictionary equality",
+    "all pronunciation/content tests and per-grade browser checks",
+    "measure decoder cost and total emitted network bytes before adoption"
+  ],
+  "gzipLevel": 9,
+  "networkMeasurement": false
+}

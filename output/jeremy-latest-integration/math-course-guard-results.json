@@ -1,0 +1,80 @@
+{
+  "pass": true,
+  "cases": [
+    {
+      "engine": "chromium",
+      "case": "failed",
+      "pass": true,
+      "singleModal": true,
+      "focusInside": true,
+      "keyboardKey": "Tab",
+      "rewardsPreserved": true
+    },
+    {
+      "engine": "chromium",
+      "case": "pending",
+      "pass": true,
+      "singleModal": true,
+      "focusInside": true,
+      "keyboardKey": "Tab",
+      "rewardsPreserved": true
+    },
+    {
+      "engine": "chromium",
+      "case": "active",
+      "pass": true,
+      "singleModal": true,
+      "focusInside": true,
+      "keyboardKey": "Tab",
+      "rewardsPreserved": true
+    },
+    {
+      "engine": "chromium",
+      "case": "math-active",
+      "pass": true,
+      "singleModal": true,
+      "focusInside": true,
+      "keyboardKey": "Tab",
+      "rewardsPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "case": "failed",
+      "pass": true,
+      "singleModal": true,
+      "focusInside": true,
+      "keyboardKey": "Alt+Tab",
+      "rewardsPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "case": "pending",
+      "pass": true,
+      "singleModal": true,
+      "focusInside": true,
+      "keyboardKey": "Alt+Tab",
+      "rewardsPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "case": "active",
+      "pass": true,
+      "singleModal": true,
+      "focusInside": true,
+      "keyboardKey": "Alt+Tab",
+      "rewardsPreserved": true
+    },
+    {
+      "engine": "webkit",
+      "case": "math-active",
+      "pass": true,
+      "singleModal": true,
+      "focusInside": true,
+      "keyboardKey": "Alt+Tab",
+      "rewardsPreserved": true
+    }
+  ],
+  "realLocalPostgres": true,
+  "physicalDevice": false,
+  "productionMutations": false
+}

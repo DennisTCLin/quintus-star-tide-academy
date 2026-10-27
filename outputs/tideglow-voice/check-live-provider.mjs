@@ -1,0 +1,15 @@
+import {createCompanionVoiceProvider} from '../../server/companion-voice-provider.mjs';
+import {writeFileSync} from 'node:fs';
+const provider=createCompanionVoiceProvider();
+const start=Date.now();
+const speech=await provider.speech('我喜歡海龜，因為牠會游泳。');
+const bytes=Buffer.from(speech.audio,'base64');
+writeFileSync('outputs/tideglow-voice/synthetic-child-sentence.mp3',bytes);
+const transcript=await provider.transcribe({bytes,mime:'audio/mpeg',extension:'mp3'});
+const first=await provider.reply({text:transcript,history:[],context:{grade:1,preference:'sea'}});
+const second=await provider.reply({text:'我剛剛說喜歡什麼動物？',history:[first],context:{grade:1,preference:'sea'}});
+const spoken=await provider.speech(second.reply);
+writeFileSync('outputs/tideglow-voice/synthetic-ai-reply.mp3',Buffer.from(spoken.audio,'base64'));
+const result={syntheticOnly:true,noDatabaseAccess:true,elapsedMs:Date.now()-start,transcript,first,second,contextRetained:second.reply.includes('海龜'),speechBytes:Buffer.from(spoken.audio,'base64').length};
+writeFileSync('outputs/tideglow-voice/live-provider.json',JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify(result));if(!result.contextRetained)process.exitCode=1;

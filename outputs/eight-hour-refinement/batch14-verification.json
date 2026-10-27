@@ -1,0 +1,52 @@
+{
+  "batch": 14,
+  "scope": "Contextual 差額 zhuyin correction in grade2 building progress",
+  "base": "376ee6f",
+  "source": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31530&q=1",
+  "correctReading": [
+    "ㄔㄚ",
+    "ㄜˊ"
+  ],
+  "pythonDependency": "pypinyin0.55.0 reusedexistingvenv",
+  "focusedTests": "2files17testsPASS",
+  "fullTests": "59files491testsPASS",
+  "build": "PASS",
+  "dictionary": "4791phrases1627chars831syllables203contextoverrides",
+  "delta": "1newword+1existingfullsentencechanged;0otherphrase/char changes;see batch14-dictionary-delta.json",
+  "browser": "Actualgrade2buildingpanel320/820/1024/1440 correctruby/0empty/0horizontaloverflow/0consoleerrors",
+  "qaState": "OnlylocalQAgoalnull→grove;1receipt/1revision;activeRun/otherprofilesunchanged",
+  "backendSha256": "ec26857f4b2ea77b1ef336c60962a5171a4dbe997cf0ae334004a4c69de033c5",
+  "assets": {
+    "assets/index.v-DM_kJs13.css": {
+      "sha256": "9e44fd7e4fe6d484a877c8f117da233604d020d7def4b2e15ba91bdf0084694a",
+      "bytes": 232387,
+      "gzip9": 48571
+    },
+    "assets/index.v-Bkz445wd.js": {
+      "sha256": "5d5b4589b9e2da4f37b1f9c0eb449ab894f160ca500ed4d6f21943479b5a1e57",
+      "bytes": 668477,
+      "gzip9": 232276
+    },
+    "assets/RoomEditor.v-CHEEXrKp.js": {
+      "sha256": "e91b464f812bec0c81510aa564b203b2f19d4ad07893d3225f876072594ef70b",
+      "bytes": 10629,
+      "gzip9": 4073
+    },
+    "assets/TerritoryPage.v-XpGSXE-r.css": {
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "bytes": 30002,
+      "gzip9": 6405
+    },
+    "assets/TerritoryPage.v-Dss35ZCD.js": {
+      "sha256": "23c4ed8be3d11772bc1866402f581746849b1a9533dacd28f6d8d19559c66651",
+      "bytes": 35956,
+      "gzip9": 12776
+    }
+  },
+  "limitations": [
+    "No OSvoice output changed or human listening performed",
+    "No whole-site linguistic accuracy guarantee",
+    "No real tablet hardware performance measurement"
+  ],
+  "verifiedAt": "2026-10-24T23:59:59.084732+00:00"
+}

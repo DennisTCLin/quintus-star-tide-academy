@@ -1,0 +1,94 @@
+[
+  {
+    "width": 390,
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "bodyScrollWidth": 390,
+    "grade2": true,
+    "buttonCount": 3,
+    "buttons": [
+      {
+        "text": "領地全景與佈置",
+        "left": 20,
+        "right": 370,
+        "top": 359.59375,
+        "bottom": 417.59375,
+        "width": 350,
+        "height": 58,
+        "receivesPointer": true,
+        "disabled": false
+      },
+      {
+        "text": "城堡款式與擴建",
+        "left": 20,
+        "right": 208,
+        "top": 425.59375,
+        "bottom": 483.59375,
+        "width": 188,
+        "height": 58,
+        "receivesPointer": true,
+        "disabled": false
+      },
+      {
+        "text": "進屋佈置",
+        "left": 216,
+        "right": 370,
+        "top": 425.59375,
+        "bottom": 483.59375,
+        "width": 154,
+        "height": 58,
+        "receivesPointer": true,
+        "disabled": false
+      }
+    ],
+    "commands": [],
+    "pass": true
+  },
+  {
+    "width": 320,
+    "innerWidth": 320,
+    "clientWidth": 320,
+    "scrollWidth": 320,
+    "bodyScrollWidth": 320,
+    "grade2": true,
+    "buttonCount": 3,
+    "buttons": [
+      {
+        "text": "領地全景與佈置",
+        "left": 20,
+        "right": 300,
+        "top": 327.34375,
+        "bottom": 385.34375,
+        "width": 280,
+        "height": 58,
+        "receivesPointer": true,
+        "disabled": false
+      },
+      {
+        "text": "城堡款式與擴建",
+        "left": 20,
+        "right": 300,
+        "top": 393.34375,
+        "bottom": 451.34375,
+        "width": 280,
+        "height": 58,
+        "receivesPointer": true,
+        "disabled": false
+      },
+      {
+        "text": "進屋佈置",
+        "left": 20,
+        "right": 300,
+        "top": 459.34375,
+        "bottom": 517.34375,
+        "width": 280,
+        "height": 58,
+        "receivesPointer": true,
+        "disabled": false
+      }
+    ],
+    "commands": [],
+    "pass": true
+  }
+]

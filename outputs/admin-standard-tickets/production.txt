@@ -1,0 +1,15 @@
+PASS All 11 production JS/CSS assets match integrated build
+PASS Admin page is available
+PASS Admin entry serves integrated build
+PASS Health endpoint is healthy
+PASS Anonymous session rejected
+PASS Anonymous students rejected
+PASS Anonymous grants rejected
+PASS Anonymous users rejected
+PASS Anonymous audit rejected
+PASS Anonymous standard preview rejected
+PASS Anonymous standard grant rejected
+PASS Anonymous star preview rejected
+PASS Anonymous star grant rejected
+PASS iPhone 13 production login page has no overflow or JS error
+PASS iPad (gen 7) production login page has no overflow or JS error

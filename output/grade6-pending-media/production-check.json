@@ -1,0 +1,252 @@
+{
+  "runtime": "401cc3c2940ac3006caff50255e549f8734a58df",
+  "deployment": "cbe8b48f-e903-416e-b772-d6335e5bc47f",
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "indexMatches": true,
+  "assets": [
+    {
+      "path": "/assets/AdminConsole.v-DC7GNqzd.css",
+      "bytes": 11748,
+      "sha256": "fd016cb0607032dae9d119af9d70d718a0e4340fdc0c8549bdd015f0383adf5f"
+    },
+    {
+      "path": "/assets/IslandApp.v-YVMmbecv.js",
+      "bytes": 58821,
+      "sha256": "50c1540995190047b326f4e1cfe39f22653d48d70ab45b6ac4f529a8e862a15e"
+    },
+    {
+      "path": "/assets/index.v-yPequu1S.js",
+      "bytes": 518282,
+      "sha256": "ad3a4e0fa3b2f5cb270e055769f9bc10120dfa4e954ce0d1869107345d34c156"
+    },
+    {
+      "path": "/assets/TerritoryPage.v-XpGSXE-r.css",
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    {
+      "path": "/assets/IslandApp.v--k-RY2Cj.css",
+      "bytes": 35486,
+      "sha256": "fc620aa6a6c8f099b0b00710dee5dfcdb1a975aeeb3c3fa914ecfef7af640ea2"
+    },
+    {
+      "path": "/assets/TerritoryPage.v-C5jLNZsv.js",
+      "bytes": 36028,
+      "sha256": "821633f4c804c8f048a61dcbd586d5af02c91a7f155f6e509639b2f5b0bb3aac"
+    },
+    {
+      "path": "/assets/RoomEditor.v-DSNM5Cdn.js",
+      "bytes": 10673,
+      "sha256": "e9be1aa92b94fff676fe43d1488a5bdd09bc1165e4c54edc6418ad5b94f44019"
+    },
+    {
+      "path": "/assets/AdminConsole.v-CGQAEfgy.js",
+      "bytes": 33154,
+      "sha256": "eae118f771d154cb7464a022019a0740862aecf7ba294b365d557516b5701eff"
+    },
+    {
+      "path": "/assets/game-view.v-SX_Ojuqj.js",
+      "bytes": 837403,
+      "sha256": "6e5323faaeb20b6c84e919377827b8d2076429572ab11e6bc045d984019bf10c"
+    },
+    {
+      "path": "/assets/index.v-D7BKNJ70.css",
+      "bytes": 284415,
+      "sha256": "76285f3867158a081f8f00318bde90835e3fc292a2c4f3c0e45e0e1542367294"
+    },
+    {
+      "path": "/assets/game-view.v-DjQLQpAC.css",
+      "bytes": 1260,
+      "sha256": "80bebb3fd3f3c62f510a09a4b9fb05b662fcb31faeedda3a3c418afe6fc5343a"
+    },
+    {
+      "path": "/exams/grade6/g6so4-p2-a13b5fc3.webp",
+      "bytes": 21666,
+      "sha256": "74ea36f9d44e28550bbff085486172c735ed261dcfcbbed864b87e2a8af7b164"
+    },
+    {
+      "path": "/exams/grade6/g6sc6-p3-042b0bddc0.webp",
+      "bytes": 18282,
+      "sha256": "bd140bcbc817797970d618726e25acf562bb607353678e3d5bb43c963bbb2215"
+    },
+    {
+      "path": "/exams/grade6/g6sc4-p2-1b2e3e1602.webp",
+      "bytes": 10558,
+      "sha256": "c072180c2bec5d46c7e59168746bbcf3dde840ec1405080ebb588847d09afcae"
+    },
+    {
+      "path": "/exams/grade6/g6sc1-p2-23d34e580b.webp",
+      "bytes": 24412,
+      "sha256": "1e3f53ebfeea4e1edc18faac32c10139c4f1fd7f0e33cb32dd79eaa74ecdb5a9"
+    },
+    {
+      "path": "/exams/grade6/g6so8-p1-0125ea2d.webp",
+      "bytes": 18128,
+      "sha256": "31d864356f087b0990e4c82eac577fac3e9cc11c1f1f10662f8fb362ff617c8d"
+    },
+    {
+      "path": "/exams/grade6/g6sc10-p3-e5b04b8b0a.webp",
+      "bytes": 149798,
+      "sha256": "eb63db24cab145869b42d7d82a44b8f9ba2e42cee49bfde2e4bfa21c4b0bdcf1"
+    },
+    {
+      "path": "/exams/grade6/g6sc3-p1-d36a0ec6b3.webp",
+      "bytes": 50918,
+      "sha256": "51630f2819a19410f107a1dc5738f377051ac3251f0860c08b99c7bf80f4bc37"
+    },
+    {
+      "path": "/exams/grade6/g6sc3-p2-4ae8e1c5ec.webp",
+      "bytes": 138782,
+      "sha256": "0fb5db38aa1a1ddc478d006dced4d4d122594a3132f415e6eead4144cd400ffb"
+    },
+    {
+      "path": "/exams/grade6/g6sc1-p1-52d865088d.webp",
+      "bytes": 165594,
+      "sha256": "5d65d5a717507be6e97f78c7fe7eae3272ef64a5fed69ceb14abd1b6e10e80c7"
+    },
+    {
+      "path": "/exams/grade6/g6sc5-p1-b3dd5cc719.webp",
+      "bytes": 18848,
+      "sha256": "d312dc1972b9bce9e61913a562163faa84f0ded0af58505ce18cb09a9fa14c8f"
+    },
+    {
+      "path": "/exams/grade6/g6sc6-p3-fec1592dee.webp",
+      "bytes": 30840,
+      "sha256": "3366bfae0abf26351d7adc79fd207d3bc9c855f5d4aa37b9bbde02c6bdc69dfa"
+    },
+    {
+      "path": "/exams/grade6/g6sc8-p2-3f8f8fc134.webp",
+      "bytes": 122184,
+      "sha256": "d732d3d7a2881f226ca33711c509c27a83c526cf88a7670f18d06caec198a678"
+    },
+    {
+      "path": "/exams/grade6/g6sc10-p3-3073f36e91.webp",
+      "bytes": 384082,
+      "sha256": "ab60a821d54d2fd47f9660c13cd3415a59d40940523759db5a17fd017c7380de"
+    },
+    {
+      "path": "/exams/grade6/g6sc3-p2-fdaaab46e7.webp",
+      "bytes": 168558,
+      "sha256": "c9ecfc3fd4b6d23580df4fb04d58c683868b7d76d25f6281b3473da251da56b7"
+    },
+    {
+      "path": "/exams/grade6/g6sc1-p2-6d28b18d7a.webp",
+      "bytes": 44616,
+      "sha256": "35e0f61e2ae7791e7de7025b1a4eed7acd008f125103bfe021a3996afdba0d7b"
+    },
+    {
+      "path": "/exams/grade6/g6sc3-p2-a37f8f25cb.webp",
+      "bytes": 267272,
+      "sha256": "86a48aaa9439c189fb088fa023d440fa698842f3f5fdf11ad5f2b62e508ff8b6"
+    },
+    {
+      "path": "/exams/grade6/g6so8-p2-206a0240.webp",
+      "bytes": 115236,
+      "sha256": "b993d35e63aa6fa17284b0547bcb939a2d2c02da8100a627f80b0b90ece7f5f0"
+    },
+    {
+      "path": "/exams/grade6/g6sc2-p3-2049ad9072.webp",
+      "bytes": 164082,
+      "sha256": "00904b3d49a1a08515273c83f958b667a60db7892bfd6dd4940732d79c6e7544"
+    },
+    {
+      "path": "/exams/grade6/g6sc5-p3-89c104b8a5.webp",
+      "bytes": 42866,
+      "sha256": "436109ace04a70296bbfddebf7a2af1940586d58e6e0c0b5c4281f2ec1c6639e"
+    },
+    {
+      "path": "/exams/grade6/g6sc6-p2-2a3ee6961a.webp",
+      "bytes": 62184,
+      "sha256": "b1510c969837bd9c5f4afa871e42ce0b594bcd3c6a75fef2029dbf9eb19f7021"
+    },
+    {
+      "path": "/exams/grade6/g6sc1-p1-03c4686fa9.webp",
+      "bytes": 186216,
+      "sha256": "f7ffa223884069c8087e03efbbe6472a83893de80969e6c19cef1f180d99252a"
+    },
+    {
+      "path": "/exams/grade6/g6sc8-p2-495f26c457.webp",
+      "bytes": 13692,
+      "sha256": "33567a980d6a1285d841c03f23d600096a972720398d43860b545e9b8adfded2"
+    },
+    {
+      "path": "/exams/grade6/g6sc4-p1-2bb59bec4b.webp",
+      "bytes": 189282,
+      "sha256": "22fd7227ad3d32f96dc0ac8112ee17a02d2fa8a38b6c83004ebdfc9a3efa58db"
+    },
+    {
+      "path": "/exams/grade6/g6sc9-p1-d697263ed1.webp",
+      "bytes": 10332,
+      "sha256": "ffa6c6a1603774a3dff14b5facd9c999d77001023efcb555ef6dc2025e73e719"
+    },
+    {
+      "path": "/exams/grade6/g6sc3-p2-afb3d01285.webp",
+      "bytes": 144070,
+      "sha256": "fdc53a73cef31b20074abaee303afdc5770c9eac46a894865244db0b23f69d6c"
+    },
+    {
+      "path": "/exams/grade6/g6sc7-p2-ea3e865f77.webp",
+      "bytes": 140422,
+      "sha256": "dc97441cea016dc2798153c085e5e7ff34cd039c54de3d8774e501720939be22"
+    },
+    {
+      "path": "/exams/grade6/g6sc5-p3-b543ae2d5c.webp",
+      "bytes": 78922,
+      "sha256": "7725f1450c440425cdda70a3eb5ef51ac9de9e613b9438fd93948878b4132511"
+    },
+    {
+      "path": "/exams/grade6/g6sc6-p2-8d8d84ee72.webp",
+      "bytes": 82686,
+      "sha256": "7b5ad5e6bd7109a1b99e5b689d7ca607c80c48abd4ea9a282d74ae2b2ee874fc"
+    },
+    {
+      "path": "/exams/grade6/g6sc2-p3-6dea701918.webp",
+      "bytes": 475898,
+      "sha256": "e9979f14abd337fcbb707d6b91a7b52a701736a5f85c488a8438c454c00b522b"
+    },
+    {
+      "path": "/exams/grade6/g6sc4-p1-1121c4e318.webp",
+      "bytes": 70970,
+      "sha256": "86f33e472e4fca4fb5e522ecf607c00d5e7932003c36a271c0322bdbf5dd43b3"
+    },
+    {
+      "path": "/exams/grade6/g6sc1-p1-ec60cd3fc2.webp",
+      "bytes": 2334,
+      "sha256": "c230b023d9f447d5b2ee5baa01796a9212e3c04b76982e20efa97d6eb0acd953"
+    },
+    {
+      "path": "/exams/grade6/g6sc5-p2-ce56fcd7c1.webp",
+      "bytes": 33392,
+      "sha256": "0f152d8b77592ce1bed2d0a6ee6498e63a07adddefceffa23b9784c723bd9b4e"
+    },
+    {
+      "path": "/exams/grade6/g6sc9-p2-2d04dfbb82.webp",
+      "bytes": 10364,
+      "sha256": "9bd48c46b699b985b8a292ac6556c1c2dce1346d3f26dba8d15d8d2acd1642af"
+    },
+    {
+      "path": "/exams/grade6/g6sc3-p1-cbed9c08f1.webp",
+      "bytes": 40428,
+      "sha256": "6457edc047c19858a33880bb8a968472861a38c65b9735a1b8847274193c34b0"
+    },
+    {
+      "path": "/exams/grade6/g6sc8-p1-38cc5de42c.webp",
+      "bytes": 85670,
+      "sha256": "c409d697e126bcec53fb25ea520f2ce64a7ac2761c8183323cf1a95090b8c271"
+    },
+    {
+      "path": "/exams/grade6/g6sc7-p2-ad8c3fce85.webp",
+      "bytes": 2206,
+      "sha256": "31e1f9cf97d1dd414a66b8156dd6cb211daa3bd79b0f7e127d9f47d8bff43153"
+    },
+    {
+      "path": "/exams/grade6/g6so4-p2-7942a0ed.webp",
+      "bytes": 25186,
+      "sha256": "6e8aa8c608610c849da0bccaace701086fb854b2ded79f91edf1baa2d02327f7"
+    }
+  ],
+  "scope": "Public health/index/all emitted JS/CSS and all grade-six exam figures byte verification; no child login or progress mutation."
+}

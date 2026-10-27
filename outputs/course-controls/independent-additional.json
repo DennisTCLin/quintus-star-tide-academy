@@ -1,0 +1,42 @@
+[
+  {
+    "case": "four-picture-320",
+    "result": "PASS",
+    "geometry": [
+      {
+        "x": 42,
+        "right": 144,
+        "width": 102,
+        "scroll": 102,
+        "client": 102
+      },
+      {
+        "x": 176,
+        "right": 278,
+        "width": 102,
+        "scroll": 102,
+        "client": 102
+      },
+      {
+        "x": 42,
+        "right": 144,
+        "width": 102,
+        "scroll": 102,
+        "client": 102
+      },
+      {
+        "x": 176,
+        "right": 278,
+        "width": 102,
+        "scroll": 102,
+        "client": 102
+      }
+    ],
+    "errors": []
+  },
+  {
+    "case": "audio-gated-options",
+    "result": "PASS",
+    "errors": []
+  }
+]

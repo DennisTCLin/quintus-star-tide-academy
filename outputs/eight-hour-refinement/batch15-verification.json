@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-25T00:26:07.545767+00:00",
+  "scope": "iPad enemy image compatibility and visible loading/error fallback",
+  "baseline": "6da16d8",
+  "productionBefore": "3e9e8228-1945-4d20-8b1f-b3e27ca6ca9c",
+  "tests": "59 files / 491 tests PASS",
+  "build": "PASS",
+  "independentReview": {
+    "agent": "eight_ui_verifier",
+    "result": "PASS",
+    "probe": "90 render states / 60 source-event isolation probes; simulated hooks, not React DOM; quiz-details 3/3"
+  },
+  "browser": {
+    "desktopSafari": "Exactfox visible before and after; correct answer foe122→96; wronganswer ally122→82; counterattack effect screenshot observed",
+    "IAB": "320/820/1024/1440 nooverflow;fox naturalWidth640,masknone,fallback0;wardencloud/crab/golem detail loaded640",
+    "faultQA": "4277 held image completefalse withcloudemoji;503 removesimg and retainsvisibleemoji;normal4276cachedloadfallbackremoved",
+    "console": "Normal4276 tab0errors afterreturnfromfaultserver",
+    "grade2": "528ruby/0empty;赤晶幼像640pxdecoded/masknone/nooverflow at1024×768"
+  },
+  "rootCauseLimit": "Physical iPadOS version unknown; original device not reproduced. Composite mask removal mitigates documented historical WebKit pattern; loadinggap independently reproduced.",
+  "sources": [
+    "https://bugs.webkit.org/show_bug.cgi?id=240324",
+    "https://bugs.webkit.org/show_bug.cgi?id=241541"
+  ],
+  "backendHashUnchanged": "ec26857f4b2ea77b1ef336c60962a5171a4dbe997cf0ae334004a4c69de033c5",
+  "realAccountsModified": false,
+  "qaOnly": "Doudoufoefixture+q1correct/q2wrong;revision90→94;threeotherprofilesdeepEqual verified",
+  "limitations": [
+    "No physical iPad measurement",
+    "No confirmed device-specific root cause",
+    "No new question/state/HP rules"
+  ]
+}

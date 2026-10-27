@@ -1,0 +1,109 @@
+{
+  "url": "http://127.0.0.1:4242",
+  "scope": "Rendered frontend with isolated API fixtures; no real player writes",
+  "cases": [
+    {
+      "grade": 1,
+      "width": 1440,
+      "state": "fresh",
+      "ordering": {
+        "domBefore": true,
+        "heroBottom": 919.25,
+        "homeTop": 919.25,
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "preservedHomeAndCompanions": true,
+      "keyboardCTA": true,
+      "startOrResume": true,
+      "commandCount": 1,
+      "result": "PASS"
+    },
+    {
+      "grade": 2,
+      "width": 820,
+      "state": "fresh",
+      "ordering": {
+        "domBefore": true,
+        "heroBottom": 1003.609375,
+        "homeTop": 1003.609375,
+        "width": 820,
+        "scrollWidth": 820
+      },
+      "preservedHomeAndCompanions": true,
+      "keyboardCTA": true,
+      "startOrResume": true,
+      "commandCount": 1,
+      "result": "PASS"
+    },
+    {
+      "grade": 1,
+      "width": 390,
+      "state": "fresh",
+      "ordering": {
+        "domBefore": true,
+        "heroBottom": 1033.578125,
+        "homeTop": 1033.578125,
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "preservedHomeAndCompanions": true,
+      "keyboardCTA": true,
+      "startOrResume": true,
+      "commandCount": 1,
+      "result": "PASS"
+    },
+    {
+      "grade": 2,
+      "width": 320,
+      "state": "fresh",
+      "ordering": {
+        "domBefore": true,
+        "heroBottom": 1236.71875,
+        "homeTop": 1236.71875,
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "preservedHomeAndCompanions": true,
+      "keyboardCTA": true,
+      "startOrResume": true,
+      "commandCount": 1,
+      "result": "PASS"
+    },
+    {
+      "grade": 4,
+      "width": 820,
+      "state": "active",
+      "ordering": {
+        "domBefore": true,
+        "heroBottom": 860.015625,
+        "homeTop": 860.015625,
+        "width": 820,
+        "scrollWidth": 820
+      },
+      "preservedHomeAndCompanions": true,
+      "keyboardCTA": true,
+      "startOrResume": true,
+      "commandCount": 0,
+      "result": "PASS"
+    },
+    {
+      "grade": 1,
+      "width": 390,
+      "state": "pending",
+      "ordering": {
+        "domBefore": true,
+        "heroBottom": 1033.578125,
+        "homeTop": 1033.578125,
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "preservedHomeAndCompanions": true,
+      "keyboardCTA": true,
+      "startOrResume": true,
+      "commandCount": 0,
+      "result": "PASS"
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,19 @@
+{
+  "syntheticOnly": true,
+  "noDatabaseAccess": true,
+  "transcript": "我喜歡海龜,因為牠會游泳。",
+  "first": {
+    "user": "我喜歡海龜,因為牠會游泳。",
+    "reply": "海龜真的很棒!牠們在大海裡游來游去,好自由喔。你最想看哪一種海龜呢?",
+    "source": "ai"
+  },
+  "second": {
+    "user": "我剛剛說喜歡什麼動物？",
+    "reply": "你說你喜歡海龜,因為牠會游泳呢!海龜在海裡游泳真的很厲害。你想知道海龜會游多快嗎?",
+    "source": "ai"
+  },
+  "contextRetained": true,
+  "speechBytes": 195456,
+  "mime": "audio/mpeg",
+  "elapsedMs": 11600
+}

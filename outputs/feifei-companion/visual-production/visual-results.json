@@ -1,0 +1,47 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "webkit cutout and panorama 375",
+      "pass": true
+    },
+    {
+      "name": "webkit cutout and panorama 393",
+      "pass": true
+    },
+    {
+      "name": "webkit cutout and panorama 834",
+      "pass": true
+    },
+    {
+      "name": "webkit cutout and panorama 1440",
+      "pass": true
+    },
+    {
+      "name": "webkit reduced motion",
+      "pass": true
+    },
+    {
+      "name": "chromium cutout and panorama 375",
+      "pass": true
+    },
+    {
+      "name": "chromium cutout and panorama 393",
+      "pass": true
+    },
+    {
+      "name": "chromium cutout and panorama 834",
+      "pass": true
+    },
+    {
+      "name": "chromium cutout and panorama 1440",
+      "pass": true
+    },
+    {
+      "name": "chromium reduced motion",
+      "pass": true
+    }
+  ],
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "physicalDevice": false
+}

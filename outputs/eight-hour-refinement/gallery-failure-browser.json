@@ -1,0 +1,100 @@
+{
+  "at": "2026-10-25T02:20:51.555Z",
+  "before": {
+    "at": "2026-10-25T02:19:15.804Z",
+    "dom": "- main:\n  - link \"← 星潮學院\":\n    - /url: /\n  - paragraph: STAR TIDE · CREATURE EXPLORATIONS\n  - heading \"星海，還有新的相遇。\" [level=1]\n  - paragraph: 25 位夥伴，25 隻怪物。點開一張，近距離看看牠。\n  - paragraph: 本頁為外型提案，尚未加入收藏或抽獎。名稱與稀有度也可再調整。\n  - navigation \"篩選外型\":\n    - button \"全部 50\" [pressed]\n    - button \"夥伴 25\"\n    - button \"怪物 25\"\n  - status: 0 個新面孔 · 顯示 -11–0\n  - button \"← 上一頁\" [active]\n  - generic: 0 / 0\n  - button \"下一頁 →\" [disabled]",
+    "state": {
+      "display": "flex",
+      "hidden": true,
+      "page": "0 / 0",
+      "status": "0 個新面孔 · 顯示 -11–0"
+    }
+  },
+  "after": {
+    "at": "2026-10-25T02:19:44.076Z",
+    "dom": "- main:\n  - link \"← 星潮學院\":\n    - /url: /\n  - paragraph: STAR TIDE · CREATURE EXPLORATIONS\n  - heading \"星海，還有新的相遇。\" [level=1]\n  - paragraph: 25 位夥伴，25 隻怪物。點開一張，近距離看看牠。\n  - paragraph: 本頁為外型提案，尚未加入收藏或抽獎。名稱與稀有度也可再調整。\n  - navigation \"篩選外型\":\n    - button \"全部 50\" [disabled] [pressed]\n    - button \"夥伴 25\" [disabled]\n    - button \"怪物 25\" [disabled]\n  - status: 圖集暫時無法載入，請重新整理再試。",
+    "state": {
+      "display": "none",
+      "filters": [
+        {
+          "disabled": true,
+          "text": "全部 50"
+        },
+        {
+          "disabled": true,
+          "text": "夥伴 25"
+        },
+        {
+          "disabled": true,
+          "text": "怪物 25"
+        }
+      ],
+      "hidden": true,
+      "next": true,
+      "page": "",
+      "previous": true,
+      "status": "圖集暫時無法載入，請重新整理再試。"
+    }
+  },
+  "geometry": {
+    "scroll": 320,
+    "status": {
+      "bottom": 458.484375,
+      "height": 20,
+      "left": 16,
+      "right": 304,
+      "top": 438.484375,
+      "width": 288,
+      "x": 16,
+      "y": 438.484375
+    },
+    "width": 320
+  },
+  "pending": {
+    "dom": "- main:\n  - link \"← 星潮學院\":\n    - /url: /\n  - paragraph: STAR TIDE · CREATURE EXPLORATIONS\n  - heading \"星海，還有新的相遇。\" [level=1]\n  - paragraph: 25 位夥伴，25 隻怪物。點開一張，近距離看看牠。\n  - paragraph: 本頁為外型提案，尚未加入收藏或抽獎。名稱與稀有度也可再調整。\n  - navigation \"篩選外型\":\n    - button \"全部 50\" [disabled] [pressed]\n    - button \"夥伴 25\" [disabled]\n    - button \"怪物 25\" [disabled]\n  - status: 載入圖集中…\n  - button \"← 上一頁\" [disabled]\n  - button \"下一頁 →\" [disabled]",
+    "status": "載入圖集中…",
+    "controls": [
+      {
+        "disabled": true,
+        "text": "全部 50"
+      },
+      {
+        "disabled": true,
+        "text": "夥伴 25"
+      },
+      {
+        "disabled": true,
+        "text": "怪物 25"
+      },
+      {
+        "disabled": true,
+        "text": "← 上一頁"
+      },
+      {
+        "disabled": true,
+        "text": "下一頁 →"
+      }
+    ]
+  },
+  "empty": {
+    "dom": "- main:\n  - link \"← 星潮學院\":\n    - /url: /\n  - paragraph: STAR TIDE · CREATURE EXPLORATIONS\n  - heading \"星海，還有新的相遇。\" [level=1]\n  - paragraph: 25 位夥伴，25 隻怪物。點開一張，近距離看看牠。\n  - paragraph: 本頁為外型提案，尚未加入收藏或抽獎。名稱與稀有度也可再調整。\n  - navigation \"篩選外型\":\n    - button \"全部 50\" [disabled] [pressed]\n    - button \"夥伴 25\" [disabled]\n    - button \"怪物 25\" [disabled]\n  - status: 圖集暫時無法載入，請重新整理再試。",
+    "state": {
+      "disabled": true,
+      "display": "none",
+      "status": "圖集暫時無法載入，請重新整理再試。"
+    }
+  },
+  "recovery": {
+    "status": "25 個新面孔 · 顯示 1–12",
+    "page": "1 / 3",
+    "previousDisabled": true,
+    "filters": true,
+    "geometry": {
+      "scroll": 320,
+      "width": 320
+    },
+    "errors": []
+  },
+  "nextPage": "50 個新面孔 · 顯示 13–24",
+  "scope": "Local synthetic network fixture, no child accounts or writes; HTTP503 and withheld/empty manifest are intentional."
+}

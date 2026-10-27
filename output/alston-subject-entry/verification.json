@@ -1,0 +1,38 @@
+{
+  "base": "dc73b973b08cfdfa9671548d7b4dd01e0f7aec8d",
+  "runtimeFiles": [
+    "src/App.tsx"
+  ],
+  "build": "PASS",
+  "tests": {
+    "passed": 813,
+    "skippedDatabaseTests": 175
+  },
+  "browserFlows": 30,
+  "guardFlows": 8,
+  "activeBrowserErrors": 0,
+  "webkitNavigationCancellations": 12,
+  "readonlyProductionProbe": {
+    "account": "alston",
+    "school": "jianan",
+    "observedRun": {
+      "course": "science",
+      "status": "failed",
+      "index": 5,
+      "pendingRemediation": true
+    },
+    "memoryOnlyStartChecks": {
+      "math": "PASS",
+      "chinese": "PASS",
+      "english": "PASS",
+      "science": "PASS",
+      "social": "PASS"
+    },
+    "productionWrites": false,
+    "temporarySshKeyRevoked": true
+  },
+  "physicalIPad": "UNKNOWN",
+  "grade1MathPicker": "Existing policy and server unit tests passed; end-to-end not rerun",
+  "deployment": "NOT DEPLOYED",
+  "jeremyIntegrationIncluded": false
+}

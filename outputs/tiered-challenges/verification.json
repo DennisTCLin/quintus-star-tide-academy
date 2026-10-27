@@ -1,0 +1,49 @@
+{
+  "verifiedAt": "2026-10-25T05:42:08.204919+00:00",
+  "environment": "isolated local PostgreSQL continuous_rewards_ui_20261025, synthetic tier_qa_20261025; Codex IAB Chromium",
+  "productionChildDataModified": false,
+  "tests": {
+    "files": 71,
+    "passed": 583,
+    "skipped": 0,
+    "command": "TEST_DATABASE_URL=<isolated test database> npm test",
+    "durationSeconds": 9.76
+  },
+  "build": "npm run build PASS including pronunciation coverage, TypeScript and server bundle",
+  "browser": [
+    "820x1180: tier3 preparation, 6/6 goal, actual within-grade difficulty, 50-second grade4 answer budget, mode selection",
+    "Reload after reveal retains countdown (24s before and after), no preparation/reset",
+    "390x844: no horizontal overflow; answer buttons 159px wide; correct first submission saved +10 coins once",
+    "Expired restored question settles exactly one wrong answer, reduces HP, no coin; next question returns to preparation with fixed mode",
+    "Grade1 relaxed: listen-before-choice enabled after audio, no countdown, no overflow at 390x844 and 820x1180",
+    "Grade2: preparation has ruby; final timer/header has 18 ruby nodes, no overflow at 820x1180 and 1440x1000",
+    "Tier3 completed 5/6 result restored after reload: failed, retains 50 coins, zero star/ticket, no capture, nonzero remaining monster HP",
+    "Math Island completed capture restored after reload via last-result action: same creature/copies/chance/star/coins",
+    "Local API server interruption disables answers and shows sync warning; restore server and confirm sync retains original countdown; then answer saved once"
+  ],
+  "limitations": [
+    "No physical iPad Safari session was available; responsive Chromium evidence is not device proof",
+    "No child timing/comprehension study; seconds are first-release design parameters",
+    "No claim of measured p95 latency or performance improvement",
+    "New tier/timer applies to main-course wild voyages; Math Island curriculum and arena retain their own rules",
+    "First four Council opinions and some dispatches were recovered as compact summaries; token coverage partial"
+  ],
+  "screenshots": [
+    "baseline-tablet.png",
+    "grade-two-tablet.png",
+    "grade-two-timer-tablet.png",
+    "final-preparation-tablet.png",
+    "grade-one-relaxed-phone.png",
+    "high-tier-failure-tablet.png",
+    "production-login.png",
+    "network-recovered-tablet.png",
+    "network-disconnected-tablet.png",
+    "grade-one-relaxed-tablet.png",
+    "timeout-phone.png",
+    "countdown-tablet.png",
+    "grade-two-timer-desktop.png",
+    "preparation-tablet.png",
+    "final-preparation-desktop.png",
+    "countdown-phone.png"
+  ]
+}

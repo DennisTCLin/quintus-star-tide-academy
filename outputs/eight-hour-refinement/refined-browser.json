@@ -1,0 +1,63 @@
+{
+  "source": "3fb21d8",
+  "environment": "isolated local QA account on localhost:4276",
+  "actualDeviceHardware": false,
+  "tests": {
+    "files": 48,
+    "passed": 425,
+    "skipped": 0,
+    "postgres": true,
+    "build": "PASS"
+  },
+  "uiReview": "PASS; fresh read-only review, padding and recovery placement closed",
+  "viewportChecks": {
+    "820x1180": {
+      "grade1Answers": {
+        "height": 120,
+        "lastBottom": 1124
+      },
+      "grade2Answers": {
+        "height": 100,
+        "lastBottom": 1066
+      },
+      "grade4ScienceAnswers": {
+        "height": 100,
+        "lastBottom": 1087
+      },
+      "recoveryButtons": {
+        "top": 570,
+        "bottom": 624
+      }
+    },
+    "1180x820": {
+      "grade1NoHorizontalOverflow": true,
+      "lastAnswerBottom": 813
+    },
+    "320x740": {
+      "documentWidth": 320,
+      "grade2AnswerHeight": 100,
+      "grade1FailedResultTop": 0,
+      "practiceButton": [
+        464,
+        518
+      ],
+      "homeButton": [
+        530,
+        580
+      ]
+    }
+  },
+  "interaction": {
+    "doubleTap": "once only; controls disabled",
+    "threeMistakes": "HP 100→67→34→0; no completion reward",
+    "normalMotion": "final impact before result scroll",
+    "reducedMotion": "HP settles immediately; recovery visible; no animation wait",
+    "newC1Question": "first science observation question correct; reload/resume retained answered question disabled",
+    "elementGuideIntegration": "water over fire step3 shows17+8=25 andHP87/112; modal closes"
+  },
+  "consoleErrors": [],
+  "limitations": [
+    "OS speech synthesis not human-listening verified",
+    "Viewport emulation is not real tablet hardware performance"
+  ]
+}

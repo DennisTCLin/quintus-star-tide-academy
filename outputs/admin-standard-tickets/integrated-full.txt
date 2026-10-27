@@ -1,0 +1,10 @@
+RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/battle-performance/星潮網站開發
+
+
+ Test Files  118 passed (118)
+      Tests  862 passed (862)
+   Start at  10:13:46
+   Duration  71.08s (tests 87%, import 12%, transform 1%)
+
+    Isolate  118 workers spawned · ~53ms startup each (spawn + environment, per file)
+             at least ~6.15s faster with isolate: false — reuses workers across files instead of one per file

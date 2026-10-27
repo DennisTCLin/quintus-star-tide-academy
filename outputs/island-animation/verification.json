@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-25",
+  "scope": {
+    "animatedSpecies": [
+      "tideglow",
+      "cometcrane"
+    ],
+    "states": [
+      "idle",
+      "walk",
+      "play"
+    ],
+    "otherSpecies": "133 remain owned residents but rest without fake portrait movement"
+  },
+  "integration": [
+    "66f4683",
+    "e3c0e8c"
+  ],
+  "checks": {
+    "build": "PASS",
+    "realPostgres": {
+      "files": 45,
+      "tests": 407,
+      "result": "PASS"
+    },
+    "focused": {
+      "files": 2,
+      "tests": 9,
+      "result": "PASS"
+    },
+    "browser": {
+      "checks": 62,
+      "issues": 0,
+      "pageErrors": 0,
+      "result": "PASS",
+      "mode": "real Chromium, isolated API fixtures"
+    },
+    "atlas": {
+      "files": 6,
+      "uniqueFrames": 233,
+      "result": "PASS"
+    },
+    "independent": {
+      "root": "PASS",
+      "fallback": "PASS after correcting test route to include Tideglow's root image URL",
+      "plotHits": 200,
+      "unmount": "no detached canvas draws",
+      "mobileWidths": [
+        320,
+        390
+      ],
+      "result": "PASS"
+    },
+    "production": {
+      "result": "PASS",
+      "source": "167e7bbabcb150d293400c0e7038f53816a88376",
+      "deployment": "63792901-1096-4f97-94ba-07ca00aad81d",
+      "status": "SUCCESS",
+      "health": 200,
+      "exactAssetMatches": 11,
+      "browserChecks": 36,
+      "mode": "Production frontend with isolated API fixtures; no real player writes"
+    }
+  },
+  "knownLimits": [
+    "Only the screenshot's two companions have full motion sets.",
+    "Two mirrored side views; not a 3D character rig.",
+    "Crane play includes a small airborne leg-folding flutter.",
+    "Existing Vite entry chunk size warning remains."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "phase": "complete",
+  "completedAt": "2026-10-26T04:48:09.183971+00:00",
+  "runtime": "7b054a38bc02f1bff92da19e5a19e1dc860904f5",
+  "deployment": "ef4eb2d4-90ee-4db3-b78f-2f6aca768d31",
+  "deploymentStatus": "SUCCESS",
+  "added": {
+    "chinese": 325,
+    "social": 119,
+    "science": 177,
+    "total": 621
+  },
+  "bankTotal": {
+    "chinese": 355,
+    "social": 159,
+    "science": 207,
+    "threeCourses": 721,
+    "AlstonAllFiveCourses": 1160
+  },
+  "coverage": {
+    "sourceFiles": 30,
+    "originalResponseUnits": 1807,
+    "ledger": "docs/content-review/grade6-coverage.json",
+    "pending": "docs/content-review/grade6-completion-pending.md"
+  },
+  "checks": {
+    "build": "PASS",
+    "unitPassed": 772,
+    "unitSkipped": 171,
+    "isolatedDatabasePassed": 21,
+    "localWebKitCases": 16,
+    "completeNewQuestionRuns": 3,
+    "publicWebKitCases": 2,
+    "health": "PASS",
+    "publicIndexMatches": true,
+    "publicJsCssHashes": 11,
+    "old100QuestionObjectsUnchanged": true
+  },
+  "coordination": "Published unified621grade6+41grade4English+Alstonavatar+iPadplayback+newTideglow actions; all3coordinatedchats notified SUCCESS. No further runtime deployment planned.",
+  "localQaServer": "Stopped4199; user4186 untouched",
+  "limitations": [
+    "Missing materials/ambiguous/open-ended/outdated/unverified original items excluded and listed",
+    "Independent content review of admitted items does not independently prove every excluded duplicate classification",
+    "DOCX9 visual rendering failed; XML text reviewed",
+    "Browser tests use WebKit/synthetic local account, not physicaliPad; no real progress modified"
+  ],
+  "pending": []
+}

@@ -1,0 +1,66 @@
+{
+  "updatedAt": "2026-10-24T23:35:02.866606+00:00",
+  "base": "c64e7d3",
+  "scope": "keyed hero video admission, preserve loaded source across pause/visibility",
+  "targetedTests": 10,
+  "fullFiles": 59,
+  "fullTests": 490,
+  "build": "PASS",
+  "pronunciation": {
+    "sourceRuns": 4736,
+    "curatedLessons": 165,
+    "contextRules": 202
+  },
+  "independent": {
+    "status": "PASS",
+    "method": "actual component function with mocked hooks/commit, notReactDOM",
+    "checks": [
+      "initial pause no timer",
+      "staleidle blocked",
+      "one retained node across three pause cycles",
+      "currentTime4.25 preserved",
+      "ready update no replay",
+      "unmount pauses",
+      "lateNotAllowedignored/currentNotAllowedhandled",
+      "parent key andhardgate reset"
+    ]
+  },
+  "browser": "batch13-browser.json",
+  "network": "batch13-network-comparison.json",
+  "normal4276": "expectedindex.v-DI-gVgM6.js,pausednewclip0videos/0consoleerrors",
+  "assets": {
+    "index.v-DM_kJs13.css": {
+      "bytes": 232387,
+      "gzip9": 48571,
+      "sha256": "9e44fd7e4fe6d484a877c8f117da233604d020d7def4b2e15ba91bdf0084694a"
+    },
+    "TerritoryPage.v-XpGSXE-r.css": {
+      "bytes": 30002,
+      "gzip9": 6405,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    "index.v-DI-gVgM6.js": {
+      "bytes": 668458,
+      "gzip9": 232269,
+      "sha256": "c8a2d45b5d7a8c1b08f167df6ed59c63250bb87c3d71e96c8557c4284d38eba5"
+    },
+    "RoomEditor.v-ByIp57pP.js": {
+      "bytes": 10629,
+      "gzip9": 4073,
+      "sha256": "d21756644e25708000881581b82c71769c9e22685d46a3602c21ce865f33e9bb"
+    },
+    "TerritoryPage.v-3lRiISge.js": {
+      "bytes": 35956,
+      "gzip9": 12776,
+      "sha256": "ffe216f74c9d5f330ea566e978a0366868d56efd17f04370d20b0c17d681d46b"
+    }
+  },
+  "failuresAndLimits": [
+    "First fullsuite onnewemptyDB:presence setup concurrentCREATE TABLE typecollision; initializedDB rerun59files490PASS, applicationDBunchanged",
+    "First networkmarker preceded pause and included autoplay advance; reran afterconfirmedpause",
+    "ControlEnd/nativebackgroundscroll did not scroll; footerlocatorclick verified offscreen",
+    "Documenthidden/system-reduced/dataSaver gates independently inspected/simulated, notall physically toggledinbrowser",
+    "No actual tablet timing/FPS/battery or universal network saving claim"
+  ],
+  "qaProxy": "temporary4277→4276 stopped; faultflagremoved; normal4276 retained"
+}

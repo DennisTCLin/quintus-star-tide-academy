@@ -1,0 +1,21 @@
+{
+  "deploymentId": "5a9cc990-9423-495d-aff7-f7a8d75711cf",
+  "status": "SUCCESS",
+  "mainCommit": "e6848c477d0eec896875caadbd3903ede7432af9",
+  "stagedCodeCommit": "7f663a1",
+  "stageTreeMatchesMain": true,
+  "localDate": "2026-10-27 Asia/Taipei",
+  "verifiedExactAssetHashes": 194,
+  "health": true,
+  "unauthenticatedStateStatus": 401,
+  "browserSmoke": [
+    "webkit",
+    "chromium"
+  ],
+  "physicalIPad": "User confirmed speaker/cloud icons complete on corrected LAN preview before publication; speech playback not claimed",
+  "playerWritesPerformed": false,
+  "unchangedPublishedBosses": 30,
+  "unitTestsPassed": 893,
+  "databaseTestsSkipped": 179,
+  "isolatedDatabaseUIChecksPassed": 50
+}

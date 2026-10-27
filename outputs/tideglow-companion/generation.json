@@ -1,0 +1,282 @@
+{
+  "estimatedCredits": 52.5,
+  "states": [
+    "pet",
+    "feed",
+    "play",
+    "listening",
+    "thinking",
+    "speaking",
+    "rest"
+  ],
+  "requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          },
+          {
+            "role": "end_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          }
+        ],
+        "prompt": "The fox-dragon reacts to a gentle invisible head stroke: lowers its head slightly toward the viewer, closes both eyes in contentment, ears relax and tail sways softly, then reopens eyes. No visible hand. Preserve EXACTLY the fox-dragon identity, turquoise fur and scales, cream muzzle and chest, gold star pendant, large fin ears, four paws and one luminous curled tail, and exact castle room carpet, lighting and painterly 3D illustration style from the reference. Locked camera, unchanged scale, no pan, zoom, cuts, humans, text or extra limbs. Entire character remains within the frame and in the same spot. First and final poses match the reference. One gentle readable action, silent five seconds."
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          },
+          {
+            "role": "end_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          }
+        ],
+        "prompt": "A tiny golden star-shaped biscuit floats slowly from below toward the fox-dragon's muzzle. It happily takes ONE small bite, closes its mouth to chew gently, licks its lips once, and smiles. The biscuit is eaten and disappears naturally. No bowl, hand, text or other props. Preserve EXACTLY the fox-dragon identity, turquoise fur and scales, cream muzzle and chest, gold star pendant, large fin ears, four paws and one luminous curled tail, and exact castle room carpet, lighting and painterly 3D illustration style from the reference. Locked camera, unchanged scale, no pan, zoom, cuts, humans, text or extra limbs. Entire character remains within the frame and in the same spot. First and final poses match the reference. One gentle readable action, silent five seconds."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          },
+          {
+            "role": "end_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          }
+        ],
+        "prompt": "One small glowing mint star-light ball rolls a short distance in front of the seated fox-dragon. It follows with its eyes and tilts forward, gently taps the ball ONCE with one front paw so it rolls back offscreen, then returns its paw. No running offscreen or changing camera. Preserve EXACTLY the fox-dragon identity, turquoise fur and scales, cream muzzle and chest, gold star pendant, large fin ears, four paws and one luminous curled tail, and exact castle room carpet, lighting and painterly 3D illustration style from the reference. Locked camera, unchanged scale, no pan, zoom, cuts, humans, text or extra limbs. Entire character remains within the frame and in the same spot. First and final poses match the reference. One gentle readable action, silent five seconds."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          },
+          {
+            "role": "end_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          }
+        ],
+        "prompt": "The fox-dragon calmly listens to the viewer, gently tilts its head sideways, raises one ear slightly, nods once with attentive eye contact, then returns to starting pose. Preserve EXACTLY the fox-dragon identity, turquoise fur and scales, cream muzzle and chest, gold star pendant, large fin ears, four paws and one luminous curled tail, and exact castle room carpet, lighting and painterly 3D illustration style from the reference. Locked camera, unchanged scale, no pan, zoom, cuts, humans, text or extra limbs. Entire character remains within the frame and in the same spot. First and final poses match the reference. One gentle readable action, silent five seconds."
+      }
+    },
+    {
+      "index": 4,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          },
+          {
+            "role": "end_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          }
+        ],
+        "prompt": "The fox-dragon thinks quietly, gazes slightly upward, slowly tilts its head, blinks, then brightens with a small smile as if an idea arrived. No visible thought bubbles or symbols. Preserve EXACTLY the fox-dragon identity, turquoise fur and scales, cream muzzle and chest, gold star pendant, large fin ears, four paws and one luminous curled tail, and exact castle room carpet, lighting and painterly 3D illustration style from the reference. Locked camera, unchanged scale, no pan, zoom, cuts, humans, text or extra limbs. Entire character remains within the frame and in the same spot. First and final poses match the reference. One gentle readable action, silent five seconds."
+      }
+    },
+    {
+      "index": 5,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          },
+          {
+            "role": "end_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          }
+        ],
+        "prompt": "The fox-dragon speaks warmly to the viewer with small natural mouth open-close movements, a slight head nod and friendly eyes. No audio, lip-sync words, large jaw opening or exaggerated gestures. Preserve EXACTLY the fox-dragon identity, turquoise fur and scales, cream muzzle and chest, gold star pendant, large fin ears, four paws and one luminous curled tail, and exact castle room carpet, lighting and painterly 3D illustration style from the reference. Locked camera, unchanged scale, no pan, zoom, cuts, humans, text or extra limbs. Entire character remains within the frame and in the same spot. First and final poses match the reference. One gentle readable action, silent five seconds."
+      }
+    },
+    {
+      "index": 6,
+      "params": {
+        "model": "kling3_0",
+        "mode": "std",
+        "sound": "off",
+        "duration": 5,
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "medias": [
+          {
+            "role": "start_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          },
+          {
+            "role": "end_image",
+            "value": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+          }
+        ],
+        "prompt": "The fox-dragon settles comfortably in the same seated pose, softly closes its eyes for two seconds, breathes gently and relaxes its ears, then opens its eyes again. No sad or tired distress. Preserve EXACTLY the fox-dragon identity, turquoise fur and scales, cream muzzle and chest, gold star pendant, large fin ears, four paws and one luminous curled tail, and exact castle room carpet, lighting and painterly 3D illustration style from the reference. Locked camera, unchanged scale, no pan, zoom, cuts, humans, text or extra limbs. Entire character remains within the frame and in the same spot. First and final poses match the reference. One gentle readable action, silent five seconds."
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "7310c09c-fbe3-4d2e-a6d3-f25dd29ea3ec"
+    },
+    {
+      "index": 1,
+      "job_id": "5fb17ed9-1409-4938-a3db-4f72a6f78232"
+    },
+    {
+      "index": 2,
+      "job_id": "9de593cf-f8d1-42aa-a21f-1440f86e3a8a"
+    },
+    {
+      "index": 3,
+      "job_id": "e3c2057f-b2f0-41a7-b771-36725ff6c215"
+    },
+    {
+      "index": 4,
+      "job_id": "29237c60-968e-4e43-a7d0-11f1238c8a86"
+    },
+    {
+      "index": 5,
+      "job_id": "44ee1209-3166-4a96-97cc-73593703d1e8"
+    },
+    {
+      "index": 6,
+      "job_id": "949bdc09-a577-4f83-9f20-cce7d9f1201c"
+    }
+  ],
+  "results": {
+    "jobs": [
+      {
+        "index": 0,
+        "job_id": "7310c09c-fbe3-4d2e-a6d3-f25dd29ea3ec",
+        "status": "completed",
+        "type": "video",
+        "model": "kling3_0",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_065102_7310c09c-fbe3-4d2e-a6d3-f25dd29ea3ec.mp4"
+      },
+      {
+        "index": 1,
+        "job_id": "5fb17ed9-1409-4938-a3db-4f72a6f78232",
+        "status": "completed",
+        "type": "video",
+        "model": "kling3_0",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_065102_5fb17ed9-1409-4938-a3db-4f72a6f78232.mp4"
+      },
+      {
+        "index": 2,
+        "job_id": "9de593cf-f8d1-42aa-a21f-1440f86e3a8a",
+        "status": "completed",
+        "type": "video",
+        "model": "kling3_0",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_065102_9de593cf-f8d1-42aa-a21f-1440f86e3a8a.mp4"
+      },
+      {
+        "index": 3,
+        "job_id": "e3c2057f-b2f0-41a7-b771-36725ff6c215",
+        "status": "completed",
+        "type": "video",
+        "model": "kling3_0",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_065102_e3c2057f-b2f0-41a7-b771-36725ff6c215.mp4"
+      },
+      {
+        "index": 4,
+        "job_id": "29237c60-968e-4e43-a7d0-11f1238c8a86",
+        "status": "completed",
+        "type": "video",
+        "model": "kling3_0",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_065102_29237c60-968e-4e43-a7d0-11f1238c8a86.mp4"
+      },
+      {
+        "index": 5,
+        "job_id": "44ee1209-3166-4a96-97cc-73593703d1e8",
+        "status": "completed",
+        "type": "video",
+        "model": "kling3_0",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_065102_44ee1209-3166-4a96-97cc-73593703d1e8.mp4"
+      },
+      {
+        "index": 6,
+        "job_id": "949bdc09-a577-4f83-9f20-cce7d9f1201c",
+        "status": "completed",
+        "type": "video",
+        "model": "kling3_0",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261025_065111_949bdc09-a577-4f83-9f20-cce7d9f1201c.mp4"
+      }
+    ],
+    "summary": {
+      "total": 7,
+      "completed": 7,
+      "failed": 0,
+      "active": 0,
+      "errors": 0
+    },
+    "all_terminal": true
+  },
+  "reused": [
+    {
+      "state": "idle",
+      "generationId": "14698dcb-c0e7-45f2-a099-b9ce3d565f61"
+    },
+    {
+      "state": "greet",
+      "generationId": "3f91683e-736a-4160-8d38-5f95d26edc96"
+    },
+    {
+      "state": "cheering",
+      "generationId": "0073951f-0074-421c-bd2a-f29359d68669",
+      "sourceAction": "play/high-five"
+    }
+  ],
+  "referenceGenerationId": "c3de87e8-f404-4f4d-b5f5-81daee3016df"
+}

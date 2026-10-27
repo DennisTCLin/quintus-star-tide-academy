@@ -1,0 +1,48 @@
+[
+  {
+    "label": "main-f0fbcb5",
+    "seconds": 300.0,
+    "visibility": "visible",
+    "api": {
+      "state": {
+        "requests": 109,
+        "responseBodyBytes": 704358,
+        "responseHeaderBytes": 25724
+      },
+      "online-battle": {
+        "requests": 100,
+        "responseBodyBytes": 6700,
+        "responseHeaderBytes": 23600
+      },
+      "presence": {
+        "requests": 30,
+        "responseBodyBytes": 8280,
+        "responseHeaderBytes": 7080
+      }
+    },
+    "totalResponseBodyBytes": 719338
+  },
+  {
+    "label": "mobile-tablet-flow-audit",
+    "seconds": 300.0,
+    "visibility": "visible",
+    "api": {
+      "state": {
+        "requests": 108,
+        "responseBodyBytes": 697896,
+        "responseHeaderBytes": 25488
+      },
+      "online-battle": {
+        "requests": 100,
+        "responseBodyBytes": 6700,
+        "responseHeaderBytes": 23600
+      },
+      "presence": {
+        "requests": 30,
+        "responseBodyBytes": 8280,
+        "responseHeaderBytes": 7080
+      }
+    },
+    "totalResponseBodyBytes": 712876
+  }
+]

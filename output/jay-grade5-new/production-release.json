@@ -1,0 +1,28 @@
+{
+  "verifiedAt": "2026-10-27T05:23:46.568467+00:00",
+  "status": "SUCCESS",
+  "deploymentId": "f2df86d2-1119-49e8-8ae0-6782f05e9d87",
+  "pullRequest": "https://github.com/quintus-star-tide/star-tide-academy/pull/8",
+  "mainMergeCommit": "76b875b4cdb118be3ba39ef0c8a00f8e497f4b18",
+  "stagedCodeCommit": "e91fcdb330baafef6e1536ef7e64551950f5ad57",
+  "productTreeMatchesMergedMain": true,
+  "questionCounts": {
+    "new": 457,
+    "math": 272,
+    "social": 125,
+    "english": 60,
+    "jayTotal": 1120
+  },
+  "unitTestsPassed": 929,
+  "databaseTestsPassed": 20,
+  "browserChecksPassed": 40,
+  "changedFilesVerified": 9,
+  "unchangedAssetsMatchingPriorManifest": 186,
+  "unchangedImageSamplesVerified": 4,
+  "productionBrowserEngines": [
+    "webkit",
+    "chromium"
+  ],
+  "productionChildWrites": false,
+  "priorProgressAndRewards": "No schema, reward algorithm, existing question IDs, or child records modified; isolated persistence regression passed."
+}

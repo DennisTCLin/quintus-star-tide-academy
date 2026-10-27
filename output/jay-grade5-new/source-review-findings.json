@@ -1,0 +1,135 @@
+{
+  "coverage": {
+    "allQuestionsRead": 457,
+    "math": 272,
+    "social": 125,
+    "english": 60,
+    "fields": [
+      "prompt",
+      "all options",
+      "answer",
+      "hint",
+      "explanation",
+      "examSources"
+    ],
+    "pdfPagesVisuallyInspected": [
+      "math1p2",
+      "math1p3",
+      "math5p1",
+      "math9p2",
+      "math10p1",
+      "math10p2"
+    ],
+    "limits": [
+      "Not every source page visually rechecked.",
+      "Publisher metadata relies on parent download filename/classification, not publisher masthead.",
+      "Old503+160 preservation/progress/rewards not tested in this independent content review."
+    ]
+  },
+  "findings": [
+    {
+      "number": 29,
+      "id": "j5n-a0f3ac633c9ff86677",
+      "source": [
+        {
+          "id": "j5n-math2",
+          "page": 1,
+          "locator": "二2",
+          "kind": "五上歷屆改編；必要圖表及文章已轉為題幹資料"
+        }
+      ],
+      "finding": "Candidate/options mismatch: 36 nonfactors include all options34,24,25,23; prompt original candidates1,9,12,24 restrict intended24."
+    },
+    {
+      "number": 32,
+      "id": "j5n-a9c307fac5ad6f285b",
+      "source": [
+        {
+          "id": "j5n-math2",
+          "page": 1,
+          "locator": "二5",
+          "kind": "五上歷屆改編；必要圖表及文章已轉為題幹資料"
+        }
+      ],
+      "finding": "Candidate/options mismatch: options12,13,11 all satisfy third-side range6<x<18, but prompt explicitly restricts4,6,12,18."
+    },
+    {
+      "number": 98,
+      "id": "j5n-586f08d05511a68ae2",
+      "source": [
+        {
+          "id": "j5n-math5",
+          "page": 1,
+          "locator": "一4",
+          "kind": "五上歷屆改編；必要圖表及文章已轉為題幹資料"
+        }
+      ],
+      "finding": "Nonunique rounding: keyed4.895 and option4.896 both round to4.9 at tenths and4.90 at hundredths."
+    },
+    {
+      "number": 204,
+      "id": "j5n-b133b3e292df717343",
+      "source": [
+        {
+          "id": "j5n-math9",
+          "page": 1,
+          "locator": "一2",
+          "kind": "五上歷屆改編；必要圖表及文章已轉為題幹資料"
+        }
+      ],
+      "finding": "Nonunique bridge lengths:1.071,1.061,1.062 exceed1.06; explanation falsely claims all alternatives smaller."
+    },
+    {
+      "number": 250,
+      "id": "j5n-f602fd50aceb3fe41f",
+      "source": [
+        {
+          "id": "j5n-math10",
+          "page": 2,
+          "locator": "二7",
+          "kind": "五上歷屆改編；必要圖表及文章已轉為題幹資料"
+        }
+      ],
+      "finding": "Wrong distractor least-factor count:67 has2 factors vs keyed57 has4. Prompt candidates80,57,16 differ fromoptions67,57,58,56."
+    },
+    {
+      "number": 28,
+      "id": "j5n-05041f69817e11b6db",
+      "source": [
+        {
+          "id": "j5n-math2",
+          "page": 1,
+          "locator": "二1",
+          "kind": "五上歷屆改編；必要圖表及文章已轉為題幹資料"
+        }
+      ],
+      "finding": "Minor candidate mismatch:200 option also divisible by2and5 but not in prompt candidates426,127,190,625."
+    },
+    {
+      "number": 95,
+      "id": "j5n-e7a1185e164256e0bb",
+      "source": [
+        {
+          "id": "j5n-math5",
+          "page": 1,
+          "locator": "一1",
+          "kind": "五上歷屆改編；必要圖表及文章已轉為題幹資料"
+        }
+      ],
+      "finding": "Minor candidate mismatch: options49,60,50,51 differ from prompt75,40,105,50; key50 remains unique."
+    },
+    {
+      "number": 266,
+      "id": "j5n-8930df7a8702c6cab1",
+      "source": [
+        {
+          "id": "j5n-math1",
+          "page": 3,
+          "locator": "加分題",
+          "kind": "五上歷屆改編；必要圖表及文章已轉為題幹資料"
+        }
+      ],
+      "finding": "Low severity geometry phrasing: circle cannot literally partition into triangles; source shows an inscribed ten-triangle polygon. Rewrite as connect centre to10 equally spaced circumference points and adjacent points, yielding triangles."
+    }
+  ]
+}

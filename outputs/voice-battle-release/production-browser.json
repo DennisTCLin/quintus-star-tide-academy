@@ -1,0 +1,30 @@
+{
+  "site": "https://quintus-star-tide-academy-production.up.railway.app/",
+  "noAccountAccess": true,
+  "checks": [
+    {
+      "name": "Anonymous iPad WebKit login renders",
+      "pass": true
+    },
+    {
+      "name": "No horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "No runtime exception",
+      "pass": true
+    },
+    {
+      "name": "Authentication retained /api/companion-talk?player=doudou",
+      "pass": true,
+      "status": 401
+    },
+    {
+      "name": "Authentication retained /api/state",
+      "pass": true,
+      "status": 401
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

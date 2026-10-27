@@ -1,0 +1,37 @@
+/* Inner art animates anatomy-specific locomotion; outer battle body owns impacts. */
+.pet-art[data-motion], .duel-art[data-motion] { --companion-idle:companion-stride; --companion-speed:3.6s; }
+[data-motion="hop"] { --companion-idle:companion-hop!important; --companion-speed:3s!important; }
+[data-motion="crawl"] { --companion-idle:companion-crawl!important; --companion-speed:4.4s!important; }
+[data-motion="flutter"] { --companion-idle:companion-flutter!important; --companion-speed:2.4s!important; }
+[data-motion="swim"] { --companion-idle:companion-swim!important; --companion-speed:4s!important; }
+[data-motion="float"] { --companion-idle:companion-float!important; --companion-speed:5s!important; }
+.pet-art[data-motion] > img, .phase-idle .duel-art[data-motion] > img { animation:var(--companion-idle) var(--companion-speed) ease-in-out infinite; transform-origin:50% 85%; }
+.duel-entry { width:100%; height:100%; animation:companion-enter .7s ease-out both; }
+.duel-stage.phase-idle .duel-art[data-motion][data-sprite="still"] { animation:none; }
+.pet-art[data-motion][data-rarity="SSS"]::after { content:""; position:absolute; inset:16%; border:1px solid #f0d68b66; border-radius:50%; box-shadow:0 0 24px #e7c66e30; pointer-events:none; animation:companion-orbit 9s linear infinite; }
+.pet-art[data-motion].mood-happy > img { animation:companion-celebrate .7s ease-in-out 2; }
+.pet-art[data-motion].mood-encourage > img { animation:companion-nod 1s ease-in-out 2; }
+.phase-flight .duel-casting .duel-art[data-motion="flutter"] > img { animation:companion-soar .4s ease-out both; }
+.phase-flight .duel-casting .duel-art[data-motion="hop"] > img { animation:companion-leap .4s ease-out both; }
+.phase-flight .duel-casting .duel-art[data-motion="swim"] > img { animation:companion-dive .4s ease-out both; }
+.phase-flight .duel-casting .duel-art[data-motion="crawl"] > img { animation:companion-brace .4s ease-out both; }
+.phase-flight .duel-casting .duel-art[data-motion="float"] > img { animation:companion-channel .4s ease-out both; }
+.companion-encouragement { padding:10px 16px; color:#d6fff3; border:1px solid #72d8c555; background:#164a5666; border-radius:14px; }
+@keyframes companion-stride { 0%,100%{transform:translateY(0) rotate(-1deg)} 50%{transform:translateY(-3px) rotate(1deg)} }
+@keyframes companion-hop { 0%,65%,100%{transform:translateY(0) scaleY(1)} 72%{transform:scaleY(.96)} 84%{transform:translateY(-9px) scaleY(1.02)} }
+@keyframes companion-crawl { 0%,100%{transform:translateX(-2px) scaleY(.99)} 50%{transform:translateX(3px) scaleY(1.01)} }
+@keyframes companion-flutter { 0%,100%{transform:translateY(-3px) rotate(-2deg)} 50%{transform:translateY(-11px) rotate(2deg)} }
+@keyframes companion-swim { 0%,100%{transform:translateX(-5px) rotate(-3deg)} 50%{transform:translateX(5px) rotate(3deg)} }
+@keyframes companion-float { 0%,100%{transform:translateY(2px) scale(.98)} 50%{transform:translateY(-10px) scale(1.02)} }
+@keyframes companion-enter { from{opacity:0;transform:translateY(18px) scale(.85)} to{opacity:1;transform:translateY(0) scale(1)} }
+@keyframes companion-celebrate { 0%,100%{transform:translateY(0)} 35%{transform:translateY(-12px) rotate(-4deg)} 70%{transform:translateY(-5px) rotate(4deg)} }
+@keyframes companion-nod { 0%,100%{transform:rotate(0)} 50%{transform:rotate(4deg) translateY(3px)} }
+@keyframes companion-orbit { to{transform:rotate(360deg) scaleX(.8)} }
+@keyframes companion-soar { to{transform:translateY(-20px) rotate(-12deg)} }
+@keyframes companion-leap { to{transform:translateY(-16px) rotate(-8deg) scale(1.05)} }
+@keyframes companion-dive { to{transform:rotate(10deg) translateX(15px)} }
+@keyframes companion-brace { to{transform:scaleY(.93) translateX(8px)} }
+@keyframes companion-channel { to{transform:translateY(-15px) scale(1.08)} }
+.reduce-motion [data-motion], .reduce-motion [data-motion] *, .reduce-motion [data-motion]::after,
+.duel-reduced [data-motion], .duel-reduced [data-motion] * { animation:none!important; transition:none!important; }
+@media(prefers-reduced-motion:reduce) { [data-motion], [data-motion] *, [data-motion]::after { animation:none!important; transition:none!important; } }

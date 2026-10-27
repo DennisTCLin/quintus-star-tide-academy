@@ -1,0 +1,268 @@
+{
+  "dog:pet": {
+    "fps": 12,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 49,
+    "sheets": [
+      "/assets/companion-frames-v1/dog/pet-0.jpg"
+    ],
+    "duration": 4.083333333333333
+  },
+  "dog:feed": {
+    "fps": 12,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 49,
+    "sheets": [
+      "/assets/companion-frames-v1/dog/feed-0.jpg"
+    ],
+    "duration": 4.083333333333333
+  },
+  "dog:play": {
+    "fps": 12,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 49,
+    "sheets": [
+      "/assets/companion-frames-v1/dog/play-0.jpg"
+    ],
+    "duration": 4.083333333333333
+  },
+  "dog:highfive": {
+    "fps": 12,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 49,
+    "sheets": [
+      "/assets/companion-frames-v1/dog/highfive-0.jpg"
+    ],
+    "duration": 4.083333333333333
+  },
+  "dog:bubbles": {
+    "fps": 12,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 49,
+    "sheets": [
+      "/assets/companion-frames-v1/dog/bubbles-0.jpg"
+    ],
+    "duration": 4.083333333333333
+  },
+  "dog:rest": {
+    "fps": 12,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 59,
+    "sheets": [
+      "/assets/companion-frames-v1/dog/rest-0.jpg"
+    ],
+    "duration": 4.916666666666667
+  },
+  "tideglow:pet": {
+    "fps": 12,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 61,
+    "sheets": [
+      "/assets/companion-frames-v1/tideglow/pet-0.jpg"
+    ],
+    "duration": 5.083333333333333
+  },
+  "tideglow:feed": {
+    "fps": 12,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 61,
+    "sheets": [
+      "/assets/companion-frames-v1/tideglow/feed-0.jpg"
+    ],
+    "duration": 5.083333333333333
+  },
+  "tideglow:play": {
+    "fps": 12,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 61,
+    "sheets": [
+      "/assets/companion-frames-v1/tideglow/play-0.jpg"
+    ],
+    "duration": 5.083333333333333
+  },
+  "tideglow:highfive": {
+    "fps": 12,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 61,
+    "sheets": [
+      "/assets/companion-frames-v1/tideglow/highfive-0.jpg"
+    ],
+    "duration": 5.083333333333333
+  },
+  "tideglow:bubbles": {
+    "fps": 12,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 61,
+    "sheets": [
+      "/assets/companion-frames-v1/tideglow/bubbles-0.jpg"
+    ],
+    "duration": 5.083333333333333
+  },
+  "tideglow:rest": {
+    "fps": 12,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 73,
+    "sheets": [
+      "/assets/companion-frames-v1/tideglow/rest-0.jpg",
+      "/assets/companion-frames-v1/tideglow/rest-1.jpg"
+    ],
+    "duration": 6.083333333333333
+  },
+  "bow:idle": {
+    "fps": 10,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 70,
+    "sheets": [
+      "/assets/feifei-bow/v1/idle-frames-0.jpg",
+      "/assets/feifei-bow/v1/idle-frames-1.jpg"
+    ],
+    "duration": 7.0
+  },
+  "bow:greet": {
+    "fps": 10,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 50,
+    "sheets": [
+      "/assets/feifei-bow/v1/greet-frames-0.jpg"
+    ],
+    "duration": 5.0
+  },
+  "bow:pet": {
+    "fps": 10,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 50,
+    "sheets": [
+      "/assets/feifei-bow/v1/pet-frames-0.jpg"
+    ],
+    "duration": 5.0
+  },
+  "bow:feed": {
+    "fps": 10,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 50,
+    "sheets": [
+      "/assets/feifei-bow/v1/feed-frames-0.jpg"
+    ],
+    "duration": 5.0
+  },
+  "bow:play": {
+    "fps": 10,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 50,
+    "sheets": [
+      "/assets/feifei-bow/v1/play-frames-0.jpg"
+    ],
+    "duration": 5.0
+  },
+  "bow:highfive": {
+    "fps": 10,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 50,
+    "sheets": [
+      "/assets/feifei-bow/v1/highfive-frames-0.jpg"
+    ],
+    "duration": 5.0
+  },
+  "bow:bubbles": {
+    "fps": 10,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 50,
+    "sheets": [
+      "/assets/feifei-bow/v1/bubbles-frames-0.jpg"
+    ],
+    "duration": 5.0
+  },
+  "bow:rest": {
+    "fps": 10,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 60,
+    "sheets": [
+      "/assets/feifei-bow/v1/rest-frames-0.jpg"
+    ],
+    "duration": 6.0
+  },
+  "bow:listening": {
+    "fps": 10,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 50,
+    "sheets": [
+      "/assets/feifei-bow/v1/listening-frames-0.jpg"
+    ],
+    "duration": 5.0
+  },
+  "bow:thinking": {
+    "fps": 10,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 50,
+    "sheets": [
+      "/assets/feifei-bow/v1/thinking-frames-0.jpg"
+    ],
+    "duration": 5.0
+  },
+  "bow:speaking": {
+    "fps": 10,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 50,
+    "sheets": [
+      "/assets/feifei-bow/v1/speaking-frames-0.jpg"
+    ],
+    "duration": 5.0
+  },
+  "bow:cheering": {
+    "fps": 10,
+    "size": 256,
+    "columns": 8,
+    "perSheet": 64,
+    "frames": 50,
+    "sheets": [
+      "/assets/feifei-bow/v1/cheering-frames-0.jpg"
+    ],
+    "duration": 5.0
+  }
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "label": "main-7498f9f",
+    "seconds": 300.0,
+    "visibility": "visible",
+    "api": {
+      "state": {
+        "requests": 109,
+        "responseBodyBytes": 698690,
+        "responseHeaderBytes": 25724
+      },
+      "online-battle": {
+        "requests": 100,
+        "responseBodyBytes": 6700,
+        "responseHeaderBytes": 23600
+      },
+      "presence": {
+        "requests": 30,
+        "responseBodyBytes": 8100,
+        "responseHeaderBytes": 7080
+      }
+    },
+    "totalResponseBodyBytes": 713490
+  },
+  {
+    "label": "harbor-first-screen",
+    "seconds": 300.0,
+    "visibility": "visible",
+    "api": {
+      "state": {
+        "requests": 109,
+        "responseBodyBytes": 698690,
+        "responseHeaderBytes": 25724
+      },
+      "online-battle": {
+        "requests": 100,
+        "responseBodyBytes": 6700,
+        "responseHeaderBytes": 23600
+      },
+      "presence": {
+        "requests": 30,
+        "responseBodyBytes": 8100,
+        "responseHeaderBytes": 7080
+      }
+    },
+    "totalResponseBodyBytes": 713490
+  }
+]

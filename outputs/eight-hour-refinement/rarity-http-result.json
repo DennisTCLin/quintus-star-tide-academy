@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-25T02:02:08.036Z",
+  "environment": "isolated local test PostgreSQL; four synthetic families",
+  "checks": [
+    {
+      "version": 1,
+      "success": false,
+      "status": "failed",
+      "submitted": 3,
+      "xpBefore": 125,
+      "xpAfter": 125,
+      "duplicateReceiptIdentical": true,
+      "secondLoginRoundTrip": true,
+      "frozenStats": true,
+      "otherProfilesUntouched": true
+    },
+    {
+      "version": 1,
+      "success": true,
+      "status": "won",
+      "submitted": 6,
+      "xpBefore": 125,
+      "xpAfter": 185,
+      "duplicateReceiptIdentical": true,
+      "secondLoginRoundTrip": true,
+      "frozenStats": true,
+      "otherProfilesUntouched": true
+    },
+    {
+      "version": 2,
+      "success": false,
+      "status": "failed",
+      "submitted": 3,
+      "xpBefore": 125,
+      "xpAfter": 125,
+      "duplicateReceiptIdentical": true,
+      "secondLoginRoundTrip": true,
+      "frozenStats": true,
+      "otherProfilesUntouched": true
+    },
+    {
+      "version": 2,
+      "success": true,
+      "status": "won",
+      "submitted": 6,
+      "xpBefore": 125,
+      "xpAfter": 185,
+      "duplicateReceiptIdentical": true,
+      "secondLoginRoundTrip": true,
+      "frozenStats": true,
+      "otherProfilesUntouched": true
+    }
+  ]
+}

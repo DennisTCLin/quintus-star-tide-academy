@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-24T16:04:21.905323+00:00",
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "releaseCommit": "d1e1005",
+  "deployment": "d85970cf-ba2b-498d-a7a7-549f166bf835",
+  "assets": [
+    {
+      "path": "/assets/index.v-BTgCJLHT.js",
+      "bytes": 434421,
+      "sha256": "11ca4e7685949a9eb5fd03a08dce4141ac94e24e31655832e43fab7be9e97c27",
+      "mime": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "/assets/index.v-COHul0zk.css",
+      "bytes": 145410,
+      "sha256": "fbacf47b99930e027cb45b64e9119e7561dc0e565b183ef6d6d49ce02c9436e3",
+      "mime": "text/css; charset=utf-8"
+    },
+    {
+      "path": "/assets/battle-music.mp3?v=6dd6833cd7a3",
+      "bytes": 1601351,
+      "sha256": "6dd6833cd7a3cab4c44109324a2c44dc3069a522b7a91e9b5cf5dfa35a9e5f56",
+      "mime": "audio/mpeg"
+    }
+  ],
+  "checks": [
+    "Health 200; live application references Battle; MP3 matches approved asset with correct MIME and 206 range response",
+    "Live arena switches Beat Lab to Battle, supports pause/resume, and returns to selection music",
+    "Live quiz plays Battle, pauses for question recording, resumes afterward, and stops on completion; 390px fits"
+  ],
+  "pageErrors": []
+}

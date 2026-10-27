@@ -1,0 +1,127 @@
+{
+  "pass": true,
+  "physicalDevice": false,
+  "engine": "WebKit",
+  "checks": [
+    {
+      "name": "iPhone 13: live presence separates same-grade children",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: radar uses canonical main-site growth and readable subject values",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: learning page has no horizontal overflow at 320",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: learning page has no horizontal overflow at 390",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: inactive child becomes offline automatically",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: offline admin shows unknown and recovers live state after reconnect",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: parent view is selected-child-only, read-only, with collection/cloud/typed receipts",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: parent page has no horizontal overflow at 320",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: parent page has no horizontal overflow at 390",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: delayed old child response cannot replace selected parent report",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: switching children changes radar and parent records together",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: maximum-length parent grant reason and account wrap at 320",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: unavailable parent report recovers without changing selected child",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: delegated reader sees only assigned radar/presence and cannot open parent report",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: no JavaScript exceptions",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): live presence separates same-grade children",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): radar uses canonical main-site growth and readable subject values",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): learning page has no horizontal overflow at 768",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): learning page has no horizontal overflow at 1024",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): inactive child becomes offline automatically",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): offline admin shows unknown and recovers live state after reconnect",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): parent view is selected-child-only, read-only, with collection/cloud/typed receipts",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): parent page has no horizontal overflow at 768",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): parent page has no horizontal overflow at 1024",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): delayed old child response cannot replace selected parent report",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): switching children changes radar and parent records together",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): maximum-length parent grant reason and account wrap at 320",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): unavailable parent report recovers without changing selected child",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): delegated reader sees only assigned radar/presence and cannot open parent report",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): no JavaScript exceptions",
+      "pass": true
+    }
+  ]
+}

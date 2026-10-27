@@ -1,0 +1,274 @@
+{
+  "scope": "僅指定7項修復及20組去重映射；並檢查canonical四組冷熱瓶選項與解釋。未重新審查全部候選。",
+  "summary": {
+    "requestedFixesPass": 7,
+    "duplicateMappingsPass": 20,
+    "additionalExplanationFailure": 1
+  },
+  "checks": [
+    {
+      "item": "g6sc3 三3(2)",
+      "verdict": "pass",
+      "reason": "已回復原題最快融化，A在最接近熱水處。"
+    },
+    {
+      "item": "g6sc5 三一3",
+      "verdict": "pass",
+      "reason": "改以canonical g6sc4二1(2)代表：上熱下冷、煙在上熱瓶，不明顯向下流。"
+    },
+    {
+      "item": "g6sc5 三一4",
+      "verdict": "pass",
+      "reason": "改以canonical g6sc4二1(1)代表：上冷下熱、煙在下熱瓶，向上流。"
+    },
+    {
+      "item": "g6sc4 二1(1)",
+      "verdict": "pass",
+      "reason": "錯答已改停留在下瓶沒有明顯上下交換，不再與向上流動同時成立。"
+    },
+    {
+      "item": "g6sc6 三3(2)",
+      "verdict": "pass",
+      "reason": "改問房門外空氣補入，不擅加門外較冷條件；原圖風向相符。"
+    },
+    {
+      "item": "g6sc9 三1(1)",
+      "verdict": "pass",
+      "reason": "明定候選中所有可能水溫，①70/90、②4/8完整唯一，未把原多選縮為只選一個可行水溫。"
+    },
+    {
+      "item": "g6sc1 三3(2)",
+      "verdict": "pass",
+      "reason": "典型天氣措辭與解釋避免高壓絕不下雨的絕對敘述。"
+    },
+    {
+      "item": "g6sc4 二1(4) explanation",
+      "verdict": "fail",
+      "reason": "答案向下流動正確，但解釋寫上熱下冷穩定配置，實圖上冷下熱且煙在上冷瓶，應修正。",
+      "suggestedExplanation": "第4組上方冷瓶內有煙，下方為熱瓶；冷空氣帶著煙向下流，與上升的熱空氣形成對流。"
+    }
+  ],
+  "duplicateMappings": [
+    {
+      "source": 3,
+      "locator": "四2(1)",
+      "canonical": {
+        "source": 1,
+        "locator": "三3(1)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視3rot與1-2，為相同地面天氣圖及最低氣壓/典型天氣任務。"
+    },
+    {
+      "source": 3,
+      "locator": "四2(2)",
+      "canonical": {
+        "source": 1,
+        "locator": "三3(2)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視3rot與1-2，為相同地面天氣圖及最低氣壓/典型天氣任務。"
+    },
+    {
+      "source": 4,
+      "locator": "三1(1)",
+      "canonical": {
+        "source": 1,
+        "locator": "五1(1)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視4-2與1-2，同一甲固乙液丙氣粒子排列判斷。"
+    },
+    {
+      "source": 4,
+      "locator": "三1(2)",
+      "canonical": {
+        "source": 1,
+        "locator": "五1(2)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視4-2與1-2，同一甲固乙液丙氣粒子排列判斷。"
+    },
+    {
+      "source": 4,
+      "locator": "三1(3)",
+      "canonical": {
+        "source": 1,
+        "locator": "五1(3)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視4-2與1-2，同一甲固乙液丙氣粒子排列判斷。"
+    },
+    {
+      "source": 4,
+      "locator": "一23",
+      "canonical": {
+        "source": 3,
+        "locator": "三3(2)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視3-1、4-1、6-3、7-3、9-3、10-1。最快為距熱水最近、最慢為最遠；A/C標示倒置已依圖換算，相同作答任務。"
+    },
+    {
+      "source": 6,
+      "locator": "四2(1)",
+      "canonical": {
+        "source": 3,
+        "locator": "三3(2)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視3-1、4-1、6-3、7-3、9-3、10-1。最快為距熱水最近、最慢為最遠；A/C標示倒置已依圖換算，相同作答任務。"
+    },
+    {
+      "source": 7,
+      "locator": "三三1",
+      "canonical": {
+        "source": 3,
+        "locator": "三3(2)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視3-1、4-1、6-3、7-3、9-3、10-1。最快為距熱水最近、最慢為最遠；A/C標示倒置已依圖換算，相同作答任務。"
+    },
+    {
+      "source": 9,
+      "locator": "三2(2)",
+      "canonical": {
+        "source": 3,
+        "locator": "三3(2)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視3-1、4-1、6-3、7-3、9-3、10-1。最快為距熱水最近、最慢為最遠；A/C標示倒置已依圖換算，相同作答任務。"
+    },
+    {
+      "source": 10,
+      "locator": "第二關2",
+      "canonical": {
+        "source": 3,
+        "locator": "三3(2)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視3-1、4-1、6-3、7-3、9-3、10-1。最快為距熱水最近、最慢為最遠；A/C標示倒置已依圖換算，相同作答任務。"
+    },
+    {
+      "source": 7,
+      "locator": "三三2",
+      "canonical": {
+        "source": 6,
+        "locator": "四2(2)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視3-1、4-1、6-3、7-3、9-3、10-1。最快為距熱水最近、最慢為最遠；A/C標示倒置已依圖換算，相同作答任務。"
+    },
+    {
+      "source": 9,
+      "locator": "三2(1)",
+      "canonical": {
+        "source": 6,
+        "locator": "四2(2)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視3-1、4-1、6-3、7-3、9-3、10-1。最快為距熱水最近、最慢為最遠；A/C標示倒置已依圖換算，相同作答任務。"
+    },
+    {
+      "source": 5,
+      "locator": "三一1",
+      "canonical": {
+        "source": 4,
+        "locator": "二1(3)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視4-1、5-2、10-2。依上下瓶溫度與煙所在瓶逐一對應，四種配置均一致；沒有合併不同起始煙位置。"
+    },
+    {
+      "source": 5,
+      "locator": "三一2",
+      "canonical": {
+        "source": 4,
+        "locator": "二1(4)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視4-1、5-2、10-2。依上下瓶溫度與煙所在瓶逐一對應，四種配置均一致；沒有合併不同起始煙位置。"
+    },
+    {
+      "source": 5,
+      "locator": "三一3",
+      "canonical": {
+        "source": 4,
+        "locator": "二1(2)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視4-1、5-2、10-2。依上下瓶溫度與煙所在瓶逐一對應，四種配置均一致；沒有合併不同起始煙位置。"
+    },
+    {
+      "source": 5,
+      "locator": "三一4",
+      "canonical": {
+        "source": 4,
+        "locator": "二1(1)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視4-1、5-2、10-2。依上下瓶溫度與煙所在瓶逐一對應，四種配置均一致；沒有合併不同起始煙位置。"
+    },
+    {
+      "source": 10,
+      "locator": "第三關1",
+      "canonical": {
+        "source": 4,
+        "locator": "二1(2)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視4-1、5-2、10-2。依上下瓶溫度與煙所在瓶逐一對應，四種配置均一致；沒有合併不同起始煙位置。"
+    },
+    {
+      "source": 10,
+      "locator": "第三關2",
+      "canonical": {
+        "source": 4,
+        "locator": "二1(1)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視4-1、5-2、10-2。依上下瓶溫度與煙所在瓶逐一對應，四種配置均一致；沒有合併不同起始煙位置。"
+    },
+    {
+      "source": 10,
+      "locator": "第三關3",
+      "canonical": {
+        "source": 4,
+        "locator": "二1(4)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視4-1、5-2、10-2。依上下瓶溫度與煙所在瓶逐一對應，四種配置均一致；沒有合併不同起始煙位置。"
+    },
+    {
+      "source": 10,
+      "locator": "第三關4",
+      "canonical": {
+        "source": 4,
+        "locator": "二1(3)"
+      },
+      "reason": "原圖與作答任務相同；圖號或A/C位置標籤差異不另增題。",
+      "verdict": "pass",
+      "verification": "目視4-1、5-2、10-2。依上下瓶溫度與煙所在瓶逐一對應，四種配置均一致；沒有合併不同起始煙位置。"
+    }
+  ],
+  "overall": "fail_until_g6sc4_second1_4_explanation_fixed"
+}

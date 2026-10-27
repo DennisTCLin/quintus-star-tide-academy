@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-26 Asia/Taipei",
+  "sourceCommit": "3c71b86",
+  "deployment": "1109e0fe-a07c-40d2-aa63-17932371c099",
+  "status": "SUCCESS",
+  "previousDeployment": "ae0ab5a6-79b6-4a6e-84aa-6b7143373833",
+  "site": "https://quintus-star-tide-academy-production.up.railway.app/",
+  "checks": {
+    "build": "PASS",
+    "tests": "757 passed; 171 database-dependent skipped",
+    "independentReview": "PASS after autoplay rejection and spoken-feedback fixes",
+    "localBrowser": "PASS",
+    "productionAssets": "28 PASS",
+    "productionBrowser": "PASS: correct six actions, full game targets, rest loop, pause/resume, twelve media decodes, mobile/tablet/desktop, shared atlas and account isolation, video/rejected-play fallbacks"
+  },
+  "mediaCredits": 66.25,
+  "scope": "Dog remains Olivia-only; shared six Higgsfield care icons apply to all companion panels. No data migration. Browser checks use synthetic intercepted API responses, no real account mutations.",
+  "rollback": "Restore previous Railway deployment."
+}

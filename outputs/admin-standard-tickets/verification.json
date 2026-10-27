@@ -1,0 +1,35 @@
+{
+  "route": "Hyper Relay",
+  "integratedBase": "ae9d663",
+  "build": "PASS",
+  "fullSuite": {
+    "files": 118,
+    "tests": 862,
+    "status": "PASS"
+  },
+  "focused": {
+    "tests": 63,
+    "status": "PASS"
+  },
+  "webkit": {
+    "checks": 20,
+    "status": "PASS",
+    "physicalDevice": false
+  },
+  "independentVerifier": "PASS",
+  "production": {
+    "status": "PASS",
+    "releaseCommit": "2b2c1140f141947684d993481809168ecdf94a47",
+    "deploymentId": "0500bbac-9906-4663-95b9-7bd4c62cf536",
+    "matchedJsCss": 11,
+    "checks": 15,
+    "authenticatedProductionGrant": false
+  },
+  "constraints": [
+    "ordinary grants require super_admin",
+    "existing staff star permission unchanged",
+    "legacy missing type means star",
+    "permanent UUID shared across ticket types",
+    "no production test grants"
+  ]
+}

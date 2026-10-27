@@ -1,0 +1,61 @@
+{
+  "checkedAt": "2026-10-26T12:07:19.536Z",
+  "account": "jasper",
+  "grade": 1,
+  "player": "qingqing",
+  "revision": 1202,
+  "currentRun": {
+    "course": "math",
+    "status": "won",
+    "index": 5,
+    "reward": "exchanged",
+    "pendingRemediation": false
+  },
+  "mathIslandActive": false,
+  "reviewActive": true,
+  "subjects": [
+    {
+      "course": "math",
+      "remainingNewQuestions": 1,
+      "canStartSixQuestionChallenge": false,
+      "canBuildCourseReview": true,
+      "reviewQuestions": 6
+    },
+    {
+      "course": "english",
+      "remainingNewQuestions": 0,
+      "canStartSixQuestionChallenge": false,
+      "canBuildCourseReview": true,
+      "reviewQuestions": 6
+    },
+    {
+      "course": "tones",
+      "remainingNewQuestions": 4,
+      "canStartSixQuestionChallenge": false,
+      "canBuildCourseReview": true,
+      "reviewQuestions": 6
+    },
+    {
+      "course": "medials",
+      "remainingNewQuestions": 3,
+      "canStartSixQuestionChallenge": false,
+      "canBuildCourseReview": true,
+      "reviewQuestions": 6
+    },
+    {
+      "course": "pairs",
+      "remainingNewQuestions": 4,
+      "canStartSixQuestionChallenge": false,
+      "canBuildCourseReview": true,
+      "reviewQuestions": 6
+    }
+  ],
+  "mathIslandFirstLearnStage": {
+    "canStart": true,
+    "questions": 5
+  },
+  "method": "Read-only SQL transaction; allocate challenges/reviews on in-memory copies only. Existing review session cleared only on those copies to test each course.",
+  "productionWrites": false,
+  "productionLogin": false,
+  "temporarySshKeyRevoked": true
+}

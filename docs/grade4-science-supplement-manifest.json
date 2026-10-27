@@ -1,0 +1,237 @@
+{
+  "date": "2026-10-26",
+  "sourceFiles": 10,
+  "visualPages": 23,
+  "rawRows": 373,
+  "distinctNewQuestions": 196,
+  "previousQuestions": 130,
+  "totalQuestions": 326,
+  "duplicatePolicy": "全部10檔與舊卷無位元相同；依出版社、題幹、選項集合及閱讀材料合併題目，保留全部來源。",
+  "answerPolicy": "無官方答案卷；人工解題並由獨立唯讀驗證者逐題核對。",
+  "scope": "地表、水域、水生生物適應與環境保護；舊卷月亮/月相單元不啟用，不能據此確認115學年度完整評量範圍。",
+  "schools": [
+    "yongchun",
+    "nantun",
+    "dunhua"
+  ],
+  "sources": [
+    {
+      "file": "小四自然康軒1.pdf",
+      "sha256": "ce68729f178d69436388cae0d073ffa0b08da7e5c00c00d280cd396ef551f76a",
+      "pages": 2,
+      "duplicateOf": null,
+      "id": "ksu1",
+      "school": "民權國小",
+      "academicYear": 114,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 50,
+      "visualPagesReviewed": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "小四自然康軒2.pdf",
+      "sha256": "6bc0d26c5f6476b7c8e2aa2e0232ebd161c17e1f11129f2d4192935e27e4ed98",
+      "pages": 2,
+      "duplicateOf": null,
+      "id": "ksu2",
+      "school": "民權國小",
+      "academicYear": 113,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 41,
+      "visualPagesReviewed": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "小四自然康軒3.pdf",
+      "sha256": "ffc8140d071c75ae05d63e75c7edbd6c30075956a21b0593c1fdc7aa4aaa8c1f",
+      "pages": 2,
+      "duplicateOf": null,
+      "id": "ksu3",
+      "school": "民權國小",
+      "academicYear": 112,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 36,
+      "visualPagesReviewed": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "小四自然康軒4.pdf",
+      "sha256": "bb8f9bae38331e17516900536692979bb9757560cb40e5f523602395e2810abe",
+      "pages": 3,
+      "duplicateOf": null,
+      "id": "ksu4",
+      "school": "中山國小",
+      "academicYear": 112,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 50,
+      "visualPagesReviewed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "file": "小四自然康軒5.pdf",
+      "sha256": "4c33beeb044f55897672dfe6f96547f0a377b6e14cb84aca106b4332e034e21c",
+      "pages": 2,
+      "duplicateOf": null,
+      "id": "ksu5",
+      "school": "民權國小",
+      "academicYear": 111,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 53,
+      "visualPagesReviewed": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "小四自然康軒6.pdf",
+      "sha256": "619ba70cd2a9cd17e49363dc3e1e15f93cbd37f75a85d5da9d319b5f0d343b4f",
+      "pages": 2,
+      "duplicateOf": null,
+      "id": "ksu6",
+      "school": "民權國小",
+      "academicYear": 110,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 26,
+      "visualPagesReviewed": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "小四自然康軒7.pdf",
+      "sha256": "6548b61a85de6284ebcd423a8e8be00d37c17ebbe5c993dc360d4c126e6bf9cf",
+      "pages": 3,
+      "duplicateOf": null,
+      "id": "ksu7",
+      "school": "延平國小",
+      "academicYear": 110,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 25,
+      "visualPagesReviewed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "file": "小四自然康軒8.pdf",
+      "sha256": "c7591a91cecad3498bf789149caf3eb859adb31c92f186fafa8de90fa79ff029",
+      "pages": 3,
+      "duplicateOf": null,
+      "id": "ksu8",
+      "school": "延平國小",
+      "academicYear": 109,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 26,
+      "visualPagesReviewed": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "file": "小四自然康軒9.pdf",
+      "sha256": "731852c80256f39ac201a67bcc7036d85fe55be90058bc653ec6feda6c8d5e8e",
+      "pages": 2,
+      "duplicateOf": null,
+      "id": "ksu9",
+      "school": "懷生國小",
+      "academicYear": 108,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 42,
+      "visualPagesReviewed": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "小四自然康軒10.pdf",
+      "sha256": "45481bd2ec7fae0ee16dbaf2ff9106cd674ee659393badd7199dd16228ea6fa9",
+      "pages": 2,
+      "duplicateOf": null,
+      "id": "ksu10",
+      "school": "延平國小",
+      "academicYear": 108,
+      "grade": 4,
+      "semester": 1,
+      "publisher": "康軒",
+      "publisherEvidence": "家長檔名分類；卷首未印出版社",
+      "reviewedRows": 24,
+      "visualPagesReviewed": [
+        1,
+        2
+      ]
+    }
+  ],
+  "adaptations": [
+    "選填配對與是非題整理為選擇題，同概念模板共用以合併重複，原題號保留。",
+    "所有地震報告與閱讀條件轉完整文字；資料明示歷史報告，不當作即時地震資訊。",
+    "ksu2 第2頁原卷兩個小節重複編為3-4；本批3-4-1/4/5對應右欄流水實驗。",
+    "ksu4閱讀問題位在第2頁，完整報告在第3頁；passage明示兩頁關係及30.6公里深度。",
+    "ksu7 3-4-調查表將原表改為讀形成方式，不憑溪流名稱推定急流；3-5人工水域對應原第3、4、5項。",
+    "螺只保留腹足運動，避免所有螺都用鰓的泛稱；成蛙、蜻蜓幼蟲及多數硬骨魚均加適當限定。",
+    "荷葉普通纖毛用語改為蠟質與微細構造；蓮葉閱讀保留疏水與自潔，不採抗菌除臭推論。",
+    "荷花取一般成熟挺水型態；槐葉蘋只問漂浮分類，不稱其具有根。",
+    "流水實驗保留其他條件相近限制，跳過把混合土壤當單一固定粒徑的排序。",
+    "防震做法依氣象署官方資料修訂，強烈搖晃時就近保護，不引導奔跑或特地移動關瓦斯。"
+  ],
+  "excluded": [
+    "所有舊版月亮/月相/高度角及月食閱讀。",
+    "岩石、砂、土壤固定粒徑排序及缺實驗條件的最遠搬運判斷。",
+    "未完整轉出圖示條件的裸圖題。",
+    "舊機關名稱、簡化預警門檻與手機必定收到警報的敘述。",
+    "單靠震央距離決定震度、無條件地震時跑樓梯或移動關瓦斯。",
+    "螺皆用鰓、所有蝌蚪都只用鰓，以及不分蜻蜓豆娘幼蟲的呼吸泛稱。",
+    "ksu6河口濕地一定沒有蛙浮萍的判斷。",
+    "大王蓮可任意承載人、蓮葉效應直接抗菌除臭等不充分推論。"
+  ],
+  "supportingReferences": [
+    "https://scweb.cwa.gov.tw/webdata/PDF/Earthquake_precautions/index.html",
+    "https://pweb.cwa.gov.tw/PopularScience/ec/ec_4.html",
+    "https://scweb.cwa.gov.tw/zh-TW/Guidance/FAQdetail/36",
+    "https://www.nmmba.gov.tw/cp.aspx?n=175f59d3f37f17b5&s=85C286D39128C9D2",
+    "https://fae.moa.gov.tw/theme_data.php?id=5053&sub_theme=knowledge&theme=topics",
+    "https://tbd.tbn.org.tw/botanic-taxon/13251",
+    "https://epub.nmns.edu.tw/g352-1/",
+    "https://hctbg.tfri.gov.tw/view.php?id=3822&subtheme=&theme=plants",
+    "https://www.nmmba.gov.tw/cp.aspx?n=175f59d3f37f17b5&s=8B45B0B9745282AD",
+    "https://kmweb.moa.gov.tw/theme_data.php?id=192&theme=production_map"
+  ],
+  "verification": "內容、Runtime與部署證據另記於驗收檔。"
+}

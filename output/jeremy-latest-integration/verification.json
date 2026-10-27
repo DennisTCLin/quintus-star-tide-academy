@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-26",
+  "branch": "codex/jeremy-math-latest",
+  "maintainedBase": "426c03733d3e1ce78836ea1a2c18f25069c78313",
+  "selectedMathDraft": "b8dc364c8ff93f4e7de93a4ac55eb2d96ba10ee1",
+  "jeremySource": "68b7bb317725965ef05d5f537a6954ad51517c6c",
+  "mergeBase": "457f4c0ac1b5915c54e81bd02f798e643b8f88a0",
+  "rawSourceMergeBase": "54aac4b91d02655286d21b18d5cf009a16c01b27",
+  "units": 110,
+  "activities": 370,
+  "familySchemaVersion": 9,
+  "council": "NOT RUN — user declined multi-member review",
+  "independentReviewThisMerge": "NOT RUN",
+  "build": "PASS",
+  "fullDefaultTests": {
+    "passed": 859,
+    "databaseSkipped": 177
+  },
+  "isolatedDatabaseTests": {
+    "suites": 23,
+    "passed": 180,
+    "overlapWithDefault": 3,
+    "eachDatabaseDropped": true
+  },
+  "uniqueTestsPassed": 1036,
+  "browserChecks": {
+    "mathFlows": {
+      "passed": 26,
+      "evidence": "browser-results.json"
+    },
+    "voiceAndKeypad": {
+      "passed": 4,
+      "evidence": "voice-keypad-results.json"
+    },
+    "phoneLayouts": {
+      "passed": 6,
+      "evidence": "phone-layout-results.json"
+    },
+    "nextButtonLayouts": {
+      "passed": 90,
+      "evidence": "next-browser-results.json"
+    },
+    "ordinaryCourseSwitches": {
+      "passed": 30,
+      "evidence": "course-browser-results.json"
+    },
+    "ordinaryCourseGuards": {
+      "passed": 8,
+      "evidence": "guard-results.json"
+    },
+    "mathOrdinarySwitchGuards": {
+      "passed": 8,
+      "evidence": "math-course-guard-results.json"
+    }
+  },
+  "totalBrowserChecks": 172,
+  "browserActivePageErrors": 0,
+  "browserNavigationCancellationCounts": {
+    "math": 1,
+    "ordinaryCourses": 12,
+    "nextButton": 1
+  },
+  "serverLogObservation": "QA server emitted ECONNRESET lines while running short-lived browser sessions; log has no per-request timestamps, so exact one-to-one correlation with navigation cancellations was not verified. All asserted requests and persistence checks passed.",
+  "reviewedDictionaryValuesChanged": 0,
+  "newMathPhrases": 38,
+  "runtimeFilesUntouchedAfterVerification": true,
+  "originalUntrackedFilesPreserved": 3,
+  "syntheticDatabaseCleanup": "PASS",
+  "productionMutations": false,
+  "mainUntouched": true,
+  "deployed": false,
+  "physicalDeviceAndAudio": "NOT VERIFIED",
+  "performanceBenchmark": "NOT RUN; build warns about large chunks",
+  "curriculumAlignment": "Jeremy Hanlin curriculum; per-child current-year publisher/assessment alignment not verified",
+  "knownSeparateJasperIssue": "Ordinary subject fresh-question shortages and offscreen review notice remain as documented; not fixed by this math integration."
+}

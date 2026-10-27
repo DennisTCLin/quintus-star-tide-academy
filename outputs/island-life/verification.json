@@ -1,0 +1,25 @@
+{
+  "runtimeSource": "1d5e53301ffeb5a4e744870548116e86fe52a3ca",
+  "build": "PASS",
+  "unitAndCloudTests": {
+    "files": 40,
+    "passed": 372,
+    "database": "isolated real PostgreSQL"
+  },
+  "browserChecks": 71,
+  "extraBrowserChecks": 16,
+  "browserErrors": 0,
+  "viewportWidths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "independentReview": "PASS; 1,920,000 route samples, live ownership, lifecycle cleanup, plot hit tests",
+  "integrated": {
+    "companions50": "0cddf18",
+    "presence": "f1520ea",
+    "higgsfieldCastles": "eeb142f"
+  },
+  "scope": "Existing real players and progression were not modified. Browser fixtures isolated. Physical phone not tested."
+}

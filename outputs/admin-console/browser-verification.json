@@ -1,0 +1,132 @@
+{
+  "pass": true,
+  "physicalDevice": false,
+  "checks": [
+    {
+      "name": "Local fixture serves tested build",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13: correct account photo, name and learning values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13: no overflow at 320",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13: no overflow at 390",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13: preview does not grant",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13: lost success response survives reload and replays one receipt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13: only selected balance changes once",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13: other learning values unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13: separate children sharing grade slot stay distinct",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13: logout revokes admin access",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13: main login exposes separate admin entry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7): correct account photo, name and learning values",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7): no overflow at 768",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7): no overflow at 1024",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7): preview does not grant",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7): offline grant resumes with original request",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7): only selected balance changes once",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7): other learning values unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7): separate children sharing grade slot stay distinct",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7): confirmed cap rejection releases form and survives reload",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7): expired request cannot cross to a different administrator",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7): returning original administrator can complete their saved request",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7): logout revokes admin access",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7): main login exposes separate admin entry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No JavaScript exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

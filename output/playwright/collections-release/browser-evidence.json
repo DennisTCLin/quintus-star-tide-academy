@@ -1,0 +1,30 @@
+{
+  "viewports": [
+    320,
+    390,
+    768,
+    1024
+  ],
+  "overflow": false,
+  "players": 7,
+  "expandCards": [
+    24,
+    30
+  ],
+  "friendCollection": {
+    "name": "林軒凱",
+    "unique": 3,
+    "total": 4
+  },
+  "errorRetry": "503 to seven rows",
+  "delayedResponse": "Brownie response does not overwrite Jimmy",
+  "keyboardFocus": "ranking opener and friends-toggle both restored",
+  "physicalIPad": false,
+  "runtimeCandidate": "54329aa701c73874666858233b92af0d0ef2bcea",
+  "levelConsistency": {
+    "D海風狼": 14,
+    "D雨紋海豹": 15,
+    "E潮光獸": 1
+  },
+  "consoleNotes": "Intentional 503 retry test and planned local server restart produced expected network errors; no unexplained JavaScript errors."
+}

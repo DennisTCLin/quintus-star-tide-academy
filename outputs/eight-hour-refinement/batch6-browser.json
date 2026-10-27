@@ -1,0 +1,74 @@
+{
+  "chineseTablet": {
+    "answers": [
+      {
+        "bottom": 972.6953125,
+        "height": 100,
+        "label": "選擇 一起整理與使用圖書角"
+      },
+      {
+        "bottom": 972.6953125,
+        "height": 100,
+        "label": "選擇 書架標籤的顏色"
+      },
+      {
+        "bottom": 1086.6953125,
+        "height": 100,
+        "label": "選擇 校外圖書館的歷史"
+      },
+      {
+        "bottom": 1086.6953125,
+        "height": 100,
+        "label": "選擇 停止借書的決定"
+      }
+    ],
+    "heading": "同學先把圖書角的書分類，再貼上書架標籤。大家還討論借書規則，讓借還更方便。哪個標題最能涵蓋整段內容？",
+    "height": 1180,
+    "scrollWidth": 820,
+    "width": 820
+  },
+  "chinesePhone": {
+    "answerHeights": [
+      134.78125,
+      134.78125,
+      101.1875,
+      101.1875
+    ],
+    "scrollWidth": 320,
+    "width": 320
+  },
+  "answeredOptionEnabledAfterReload": false,
+  "socialTablet": {
+    "answerBounds": [
+      {
+        "bottom": 1023.09375,
+        "height": 100
+      },
+      {
+        "bottom": 1023.09375,
+        "height": 100
+      },
+      {
+        "bottom": 1137.09375,
+        "height": 100
+      },
+      {
+        "bottom": 1137.09375,
+        "height": 100
+      }
+    ],
+    "heading": "校園圖以上方為北。操場在圖書館正東方，花園在操場正北方。從圖書館先到操場，再到花園，依序往哪兩個方向走？",
+    "height": 1180,
+    "scrollWidth": 820,
+    "width": 820
+  },
+  "socialDesktop": {
+    "heading": "校園圖以上方為北。操場在圖書館正東方，花園在操場正北方。從圖書館先到操場，再到花園，依序往哪兩個方向走？",
+    "height": 720,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  "errors": [],
+  "qaAccount": "qa_evidence_20261025",
+  "note": "Localhost4276 isolated QA only. Chinese01 answered once then restored and confirmed disabled; ended incomplete test voyage via UI. Social01 active unanswered. No real children accounts or progress touched; actual audio not listened."
+}

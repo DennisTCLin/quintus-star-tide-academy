@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-25T02:00:42.807Z",
+  "url": "https://quintus-star-tide-academy-production.up.railway.app/",
+  "dom": "- img \"星潮學院 Star Tide Academy — 星潮小龍\":\n  - strong: 星潮學院\n  - generic: STAR TIDE ACADEMY\n  - generic: 一起向星海出發\n- main:\n  - text: 你的冒險，跟著帳號一起走\n  - heading \"歡迎回到星潮\" [level=1]\n  - paragraph: 使用自己的帳號登入，繼續原有分數、收藏與學習進度。換裝置也能接著冒險。\n  - text: 帳號\n  - textbox \"帳號\":\n    - /placeholder: 英文字母、數字或底線\n  - text: 密碼\n  - textbox \"密碼\":\n    - /placeholder: 請輸入密碼\n  - button \"登入，繼續冒險 →\"\n  - button \"第一次來？建立帳號\"\n  - button \"忘記密碼\"\n  - paragraph: 這台裝置的原有進度仍完整保留。尚未轉入雲端時，可先下載備份。\n  - button \"下載原有進度備份\"\n- button \"播放背景音樂\":\n  - generic: ♫\n  - text: 播放音樂\n- button \"Ⅱ 暫停動態\":\n  - generic: Ⅱ\n  - text: 暫停動態\n- region \"首頁航線影片\":\n  - group \"首頁航線影片輪播控制\":\n    - group \"選擇航線片段\":\n      - button \"顯示第 1 段：破浪啟航\":\n        - strong: 破浪啟航\n      - button \"顯示第 2 段：夥伴領航\":\n        - strong: 夥伴領航\n      - button \"顯示第 3 段：護盾挑戰\" [pressed]:\n        - strong: 護盾挑戰\n      - button \"顯示第 4 段：星鯨巡遊\":\n        - strong: 星鯨巡遊\n      - button \"顯示第 5 段：極光群島\":\n        - strong: 極光群島\n      - button \"顯示第 6 段：流星許願\":\n        - strong: 流星許願\n  - paragraph: 目前片段：護盾挑戰。探險船升起知識護盾，穿越友善的訓練浪潮",
+  "scripts": [
+    "https://quintus-star-tide-academy-production.up.railway.app/assets/index.v-CiVLeBgr.js"
+  ],
+  "errors": []
+}

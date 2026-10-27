@@ -1,0 +1,14 @@
+[
+  {
+    "engine": "chromium",
+    "selectedModePersistsReload": true,
+    "selectionDoesNotStartClock": true,
+    "offlineBlocksStart": true
+  },
+  {
+    "engine": "webkit",
+    "selectedModePersistsReload": true,
+    "selectionDoesNotStartClock": true,
+    "offlineBlocksStart": true
+  }
+]

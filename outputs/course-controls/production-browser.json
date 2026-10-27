@@ -1,0 +1,39 @@
+{
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "scope": "Isolated API fixtures; no real player writes",
+  "checks": [
+    {
+      "case": [
+        1,
+        390,
+        844,
+        "fresh"
+      ],
+      "result": "PASS",
+      "onlyOneAnswerAndNext": true,
+      "dockInViewport": {
+        "x": 0,
+        "y": 736.203125,
+        "width": 390,
+        "height": 107.796875
+      }
+    },
+    {
+      "case": [
+        2,
+        320,
+        740,
+        "picture"
+      ],
+      "result": "PASS",
+      "onlyOneAnswerAndNext": true,
+      "dockInViewport": {
+        "x": 0,
+        "y": 610.5,
+        "width": 320,
+        "height": 129.5
+      }
+    }
+  ],
+  "pageErrors": []
+}

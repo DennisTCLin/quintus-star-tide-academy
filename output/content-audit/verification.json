@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "fullSuite": {
+    "files": 120,
+    "tests": 871,
+    "database": "fresh local synthetic test DB"
+  },
+  "focusedTests": 9,
+  "build": "PASS",
+  "aiTextReviewed": 2744,
+  "aiTemplateReviewed": 42,
+  "generatedVariantsChecked": 23192,
+  "mediaExistenceAndHashChecked": 175,
+  "changedQuestionInstances": 294,
+  "addedIds": 0,
+  "removedIds": 0,
+  "changedAnswerMeanings": 0,
+  "negativeGateCases": [
+    "unknown",
+    "pending",
+    "quarantined",
+    "stale question hash",
+    "stale policy",
+    "missing media",
+    "removed reviewed question/template"
+  ],
+  "independentVerifier": "content_inspector_verify: PASS after fixing generator asset binding and orphan identity detection",
+  "reviewMode": "proposal only, not implemented",
+  "unverified": [
+    "recording listening",
+    "all image semantic crops",
+    "teacher review",
+    "all original PDF revalidation",
+    "browser visual behavior"
+  ],
+  "deployment": {
+    "status": "SUCCESS",
+    "id": "6e872610-6762-40a7-aa77-4696f1a839ca",
+    "runtimeCommit": "9166c3ffe06d89da411406fe77d62a638725225c",
+    "assetHashMatches": 16,
+    "health": 200,
+    "anonymousProtectedRoutes": 401
+  }
+}

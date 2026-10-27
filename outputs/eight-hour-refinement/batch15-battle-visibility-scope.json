@@ -1,0 +1,25 @@
+{
+  "status": "read-only next-loop candidate; no implementation",
+  "source": [
+    "src/QuizEncounter.tsx:32-51",
+    "src/BattleScene.tsx:24-54",
+    "src/App.tsx:1952"
+  ],
+  "findings": [
+    "QuizEncounter combines document/intersection into one visible state: visibilitychange handler sets true on document visibility regardless of last intersection state; currently offscreen encounter can resume Sprite work when returning to tab without an intersection event",
+    "QuizEncounter starts visible=true before first IO delivery; Sprite can start atlas requests before actual visibility is established",
+    "BattleScene Sprite directly receives reduced-motion only; no arena intersection gate observed for PvE arena"
+  ],
+  "candidate": "Separate documentVisible/onScreen gates; inspect shared Sprite ownership and keep attack timing/results independent of cosmetic offscreen work",
+  "requiredChecks": [
+    "Reproduce actual offscreen behavior where browser supports visibility changes; do not invent hidden-tab evidence",
+    "Test IO false + visibility true must staypaused, mount/unmount stale callbacks and fallback",
+    "Keep sixquestions/threeerrors/cloud/HP/attacktimeline and reduced-motion semantics unchanged",
+    "Phone/tablet actual battle UI, loading/fallback and fullsuite/build/release checks"
+  ],
+  "limitations": [
+    "No browser reproduction or network/FPS measurement yet",
+    "Do not claim battery savings from source inspection"
+  ],
+  "excluded": "No newartassets/schema/economy changes"
+}

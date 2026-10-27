@@ -1,0 +1,73 @@
+{
+  "base": "347caaf",
+  "newQuestions": 146,
+  "newByCourse": {
+    "chinese": 25,
+    "social": 21,
+    "science": 100
+  },
+  "retiredExisting": 2,
+  "activeSupplementTotal": 865,
+  "catalogIncludingRetired": 867,
+  "originalResponseUnits": 1807,
+  "originalPending": 323,
+  "remainingPending": 154,
+  "pending": {
+    "missing_passage": 33,
+    "open_ended": 61,
+    "ambiguous": 59,
+    "pending_verification": 1
+  },
+  "newDuplicateMappings": 25,
+  "figures": 37,
+  "figureBytes": 3610976,
+  "unit": {
+    "passed": 787,
+    "skipped": 171
+  },
+  "isolatedPostgres": {
+    "passed": 21
+  },
+  "browser": {
+    "challengeViewports": 8,
+    "studyViewports": 4,
+    "failedLoadBlocksAnswers": true,
+    "retry": true,
+    "zoom": true,
+    "allFigureHttp200": 37,
+    "battleReviewViewports": 4,
+    "totalLayoutChecks": 16
+  },
+  "limitations": [
+    "WebKit viewport emulation is not physical iPad testing.",
+    "Remaining missing passages and ambiguous/open answers are not allocated.",
+    "Two retired IDs retain saved-run answer contracts; real account progress was not edited."
+  ],
+  "release": {
+    "status": "SUCCESS_VERIFIED",
+    "runtime": "401cc3c2940ac3006caff50255e549f8734a58df",
+    "deployment": "cbe8b48f-e903-416e-b772-d6335e5bc47f",
+    "preservedAssetsShaVerified": 1706,
+    "checkedAt": "2026-10-26T05:38:42.292162+00:00",
+    "verifiedAt": "2026-10-26T05:41:31.377134+00:00",
+    "health": true,
+    "indexMatches": true,
+    "matchingJsCssAndFigures": 48,
+    "newFiguresVerified": 37,
+    "anonymousWebKitViewports": 2
+  },
+  "testFixtureCorrections": [
+    "Browser selector updated to accessible name, not visible triangle decoration.",
+    "Synthetic figure run now supplies relaxed timing and six distinct IDs; product validation was not loosened.",
+    "Image-ready polling uses timeout polling rather than relying on animation frames.",
+    "Cloud school routing checks canonical approved question attributes instead of obsolete mxg1 ID prefix."
+  ],
+  "integratedMain": "4df3f84",
+  "coordinatedGrade1MathAdded": 107,
+  "answerFlow": {
+    "courses": 3,
+    "newAnswers": 18,
+    "reloadPersisted": true,
+    "answerKeyHidden": true
+  }
+}

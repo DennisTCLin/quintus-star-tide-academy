@@ -1,0 +1,143 @@
+{
+  "pass": true,
+  "runtime": "62ee4c0cf552596a461bb73cd1d8d855937163a4",
+  "deployment": null,
+  "assets": [
+    {
+      "path": "assets/AdminConsole.v-DC7GNqzd.css",
+      "sha256": "fd016cb0607032dae9d119af9d70d718a0e4340fdc0c8549bdd015f0383adf5f"
+    },
+    {
+      "path": "assets/game-view.v-CN-cz_19.js",
+      "sha256": "63265d207530b1d61bc47c2950abb8bb214f20d534c8a2ed70ff65a88153247c"
+    },
+    {
+      "path": "assets/AdminConsole.v-CQcXTGkD.js",
+      "sha256": "23019ce52ff446912dbb82fa22ba089e53165fa0b3ea722864fe556329b8d88e"
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    {
+      "path": "assets/IslandApp.v--k-RY2Cj.css",
+      "sha256": "fc620aa6a6c8f099b0b00710dee5dfcdb1a975aeeb3c3fa914ecfef7af640ea2"
+    },
+    {
+      "path": "assets/TerritoryPage.v-OvbHp06e.js",
+      "sha256": "63abaf468c07a08bcf0880802e1a43c1e968b8554ea487baeb49bbcb7f5944c8"
+    },
+    {
+      "path": "assets/RoomEditor.v-BJ66yYAX.js",
+      "sha256": "effc49552a54e11aecdba3b1f6691e4865ee3b0437018b27004b864ca3de47d8"
+    },
+    {
+      "path": "assets/IslandApp.v-DT_PWWvp.js",
+      "sha256": "341a51c90bb951a4378c91912c9edba100df31e291bfb6e8f0f00a5a3f89871a"
+    },
+    {
+      "path": "assets/index.v-COTZHyD6.js",
+      "sha256": "cb8549bdafa3e8ca6a76459937cce188a2ddcb34efaf6c3fa455c9b8f99d02cd"
+    },
+    {
+      "path": "assets/game-view.v-DjQLQpAC.css",
+      "sha256": "80bebb3fd3f3c62f510a09a4b9fb05b662fcb31faeedda3a3c418afe6fc5343a"
+    },
+    {
+      "path": "assets/index.v-DUuzrVFd.css",
+      "sha256": "4d43635621e41b9f869dfb614281a80479104f2c150a74f7a7a3b78674a1eafb"
+    },
+    {
+      "path": "assets/companion-frames-v1/tideglow/pet-0.jpg",
+      "sha256": "4a5dd9ad833ab7a1872754ff68a8534f86d420540764fb6b7f700f49a74379d9"
+    },
+    {
+      "path": "assets/companion-frames-v1/tideglow/bubbles-0.jpg",
+      "sha256": "9ac9ca2b799c037a91552c96194c05cc599af18f350fdec1102a16af318476ff"
+    },
+    {
+      "path": "assets/companion-frames-v1/tideglow/highfive-0.jpg",
+      "sha256": "de2ec1e2320c2f8e66fd2b336df3e74d19e01016acce7aaf661f17f0f9865036"
+    },
+    {
+      "path": "assets/companion-frames-v1/tideglow/feed-0.jpg",
+      "sha256": "f6b892c454f6033579736f14808c2845a7f219360a82a08cb95c86f96b7dd1dd"
+    },
+    {
+      "path": "assets/companion-frames-v1/tideglow/play-0.jpg",
+      "sha256": "10775ad4df8ab3a3bd6ee4c37f60883866f277ddc27e5d8da8912667ad8e1295"
+    },
+    {
+      "path": "assets/companion-frames-v1/tideglow/rest-1.jpg",
+      "sha256": "cc926df81d2b0e605b1399496ffb732dab5f39610743fcb29e1149a2f0d83692"
+    },
+    {
+      "path": "assets/companion-frames-v1/tideglow/rest-0.jpg",
+      "sha256": "d12ee11d92e04a409a7eb5f677bdcd86e0ecb22857abf7ec9d3cf4a8564d6645"
+    },
+    {
+      "path": "assets/companion-frames-v1/dog/pet-0.jpg",
+      "sha256": "82cd1166af7470788408c8d53d9397aa3682dccb179ffb332919b7b62cf56241"
+    },
+    {
+      "path": "assets/companion-frames-v1/dog/bubbles-0.jpg",
+      "sha256": "dd32208e8aea30b80657778762eb62a8c0d0072760cf3b05053e33b4fff0867b"
+    },
+    {
+      "path": "assets/companion-frames-v1/dog/highfive-0.jpg",
+      "sha256": "20fe1b0dee805657158e077d0fd61d0dc6f0cabd9536a6f9fcbfebfb0e116c7c"
+    },
+    {
+      "path": "assets/companion-frames-v1/dog/feed-0.jpg",
+      "sha256": "bb5986d3ba408352372f52f843c161faf43c60a77f7a7148ecf4f8dc267496b8"
+    },
+    {
+      "path": "assets/companion-frames-v1/dog/play-0.jpg",
+      "sha256": "3dfe008da8fb6118150c76c678215f63199766606c82d077f00655c3932e1d88"
+    },
+    {
+      "path": "assets/companion-frames-v1/dog/rest-0.jpg",
+      "sha256": "af5f4c39ee32f04594995c556096c0ef8e4005f56a5e7573a013b5115348c0c3"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Production legacy dog pet pixels advance and action completes",
+      "pass": true
+    },
+    {
+      "name": "Production legacy dog feed pixels advance and action completes",
+      "pass": true
+    },
+    {
+      "name": "Production legacy dog play pixels advance and action completes",
+      "pass": true
+    },
+    {
+      "name": "Production rejected video dog animated feed",
+      "pass": true
+    },
+    {
+      "name": "Production legacy tideglow pet pixels advance and action completes",
+      "pass": true
+    },
+    {
+      "name": "Production legacy tideglow feed pixels advance and action completes",
+      "pass": true
+    },
+    {
+      "name": "Production legacy tideglow play pixels advance and action completes",
+      "pass": true
+    },
+    {
+      "name": "Production rejected video tideglow animated feed",
+      "pass": true
+    },
+    {
+      "name": "No production JS errors",
+      "pass": true
+    }
+  ],
+  "physicalDevice": false,
+  "realStudentDataChanged": false
+}

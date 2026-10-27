@@ -1,0 +1,86 @@
+{
+  "pass": true,
+  "physicalDevice": false,
+  "checks": [
+    {
+      "name": "iPhone 13: ordinary tickets are clearly distinguished from premium stars",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: no horizontal overflow at 320",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: no horizontal overflow at 390",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: preview freezes type and does not grant",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: reconnect and reload issue only ordinary balance exactly once",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: premium grant leaves ordinary balance and learning unchanged",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: receipts identify both ticket types",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: untyped legacy pending remains premium and replays without extra grant",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: delegated star permission does not expose ordinary grants",
+      "pass": true
+    },
+    {
+      "name": "iPhone 13: no JavaScript exceptions",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): ordinary tickets are clearly distinguished from premium stars",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): no horizontal overflow at 768",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): no horizontal overflow at 1024",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): preview freezes type and does not grant",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): reconnect and reload issue only ordinary balance exactly once",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): premium grant leaves ordinary balance and learning unchanged",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): receipts identify both ticket types",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): untyped legacy pending remains premium and replays without extra grant",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): delegated star permission does not expose ordinary grants",
+      "pass": true
+    },
+    {
+      "name": "iPad (gen 7): no JavaScript exceptions",
+      "pass": true
+    }
+  ]
+}

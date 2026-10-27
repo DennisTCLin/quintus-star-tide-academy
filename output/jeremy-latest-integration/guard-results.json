@@ -1,0 +1,47 @@
+{
+  "pass": true,
+  "cases": [
+    {
+      "engine": "chromium",
+      "mode": "pending",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "completed",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "active",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "mode": "rejected",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "mode": "pending",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "mode": "completed",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "mode": "active",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "mode": "rejected",
+      "pass": true
+    }
+  ],
+  "productionMutations": false,
+  "physicalDevice": false
+}

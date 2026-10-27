@@ -1,0 +1,49 @@
+{
+  "source": "cbb28701f0b8b3bf70c0fc648c79381dae933c4c",
+  "deployment": "b7face99-3b0a-4f49-a972-324da335c6f4",
+  "status": "SUCCESS",
+  "checkedAt": "2026-10-24T22:06:58.543208+00:00",
+  "homepage": 200,
+  "health": 200,
+  "healthBody": "{\"ok\":true,\"service\":\"quintus-ocean-academy\"}",
+  "expectedEntryPresent": true,
+  "entry": "index.v-DqVnNJLt.js",
+  "assets": {
+    "RoomEditor.v-7NoXJ619.js": {
+      "status": 200,
+      "bytes": 10629,
+      "sha256": "b3f60cc92e5805e0d64ee2ef0ba49cf1c7ca1ad18154098f1d58680d5dce3553",
+      "match": true
+    },
+    "TerritoryPage.v-B5Stekvd.js": {
+      "status": 200,
+      "bytes": 35956,
+      "sha256": "5624e3a65d216d1ec9678e024433e4a194fe4652d8174c46532301a1887d935f",
+      "match": true
+    },
+    "TerritoryPage.v-XpGSXE-r.css": {
+      "status": 200,
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "match": true
+    },
+    "index.v-Df3IK6FU.css": {
+      "status": 200,
+      "bytes": 231222,
+      "sha256": "8e7e611bcfbd4b3085921d7e1146dd7904899f4071350a637644b9a994c568a3",
+      "match": true
+    },
+    "index.v-DqVnNJLt.js": {
+      "status": 200,
+      "bytes": 664958,
+      "sha256": "ca3fd57a047d431f7cb06f402dbc9d42340b11b896055814da853deaa5314e3a",
+      "match": true
+    }
+  },
+  "browser": {
+    "publicLogin": "PASS",
+    "entry": "index.v-DqVnNJLt.js",
+    "consoleErrors": 0,
+    "productionChildAccountsUsed": false
+  }
+}

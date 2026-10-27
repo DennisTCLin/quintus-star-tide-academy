@@ -1,0 +1,1254 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "flow": "ready",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "lose",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "lose",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "lose",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "lose",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "flow": "lose",
+      "answers": 3,
+      "result": "failed",
+      "wrongAnswersReduceHP": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "flow": "new",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "flow": "ready",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "lose",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "lose",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "lose",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "lose",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "flow": "lose",
+      "answers": 3,
+      "result": "failed",
+      "wrongAnswersReduceHP": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "flow": "new",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "flow": "ready",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "lose",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "lose",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "lose",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "lose",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "flow": "lose",
+      "answers": 3,
+      "result": "failed",
+      "wrongAnswersReduceHP": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "flow": "new",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "state": "ready",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "flow": "ready",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "state": "lose",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "state": "lose",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "state": "lose",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "state": "lose",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "flow": "lose",
+      "answers": 3,
+      "result": "failed",
+      "wrongAnswersReduceHP": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "state": "new",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "flow": "new",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "flow": "ready",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "lose",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "lose",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "lose",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "lose",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "flow": "lose",
+      "answers": 3,
+      "result": "failed",
+      "wrongAnswersReduceHP": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "flow": "new",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "flow": "ready",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "lose",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "lose",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "lose",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "lose",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "flow": "lose",
+      "answers": 3,
+      "result": "failed",
+      "wrongAnswersReduceHP": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "flow": "new",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "flow": "ready",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "lose",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "lose",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "lose",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "lose",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "flow": "lose",
+      "answers": 3,
+      "result": "failed",
+      "wrongAnswersReduceHP": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "flow": "new",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "state": "ready",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "flow": "ready",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "state": "lose",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "state": "lose",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "state": "lose",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "state": "lose",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "flow": "lose",
+      "answers": 3,
+      "result": "failed",
+      "wrongAnswersReduceHP": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "state": "new",
+      "viewport": [
+        844,
+        390
+      ],
+      "homeCTAVisibleWithoutScroll": true,
+      "navigationHitTargetsClear": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "flow": "new",
+      "answers": 6,
+      "result": "won",
+      "wrongAnswersReduceHP": false
+    }
+  ],
+  "errors": [],
+  "realChildDataTouched": false
+}

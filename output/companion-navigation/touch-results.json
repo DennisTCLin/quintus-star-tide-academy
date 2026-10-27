@@ -1,0 +1,34 @@
+{
+  "checks": [
+    {
+      "deviceEmulation": "iPhone 13",
+      "orientation": "portrait",
+      "navTaps": true,
+      "modalTapCloseFocus": true,
+      "cutoutLoaded": true
+    },
+    {
+      "deviceEmulation": "iPhone 13",
+      "orientation": "landscape",
+      "navTaps": true,
+      "modalTapCloseFocus": true,
+      "cutoutLoaded": true
+    },
+    {
+      "deviceEmulation": "iPad Pro 11",
+      "orientation": "portrait",
+      "navTaps": true,
+      "modalTapCloseFocus": true,
+      "cutoutLoaded": true
+    },
+    {
+      "deviceEmulation": "iPad Pro 11",
+      "orientation": "landscape",
+      "navTaps": true,
+      "modalTapCloseFocus": true,
+      "cutoutLoaded": true
+    }
+  ],
+  "ariaWarnings": [],
+  "physicalDeviceTest": false
+}

@@ -1,0 +1,10 @@
+{
+  "route": "Relay",
+  "explorer": "read-only synchronization scope",
+  "coldVerifier": "PASS: no concrete counterexample; browser/device coverage delegated to E2E",
+  "changedProductFiles": [
+    "src/cloud.ts"
+  ],
+  "noServerOrSchemaChange": true,
+  "physicalDeviceTested": false
+}

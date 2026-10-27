@@ -1,0 +1,1180 @@
+{
+  "runtimeCommit": "d821eaad679ecd03e9c9c9577f7a745e318dbe0c",
+  "releasedCreatures": 30,
+  "newImages": 60,
+  "safeVideos": 120,
+  "backupActions": 30,
+  "verifiedFiles": [
+    {
+      "path": "index.html",
+      "sha256": "a2fe1dc00d3d4dc0d9641f0bf4140cff855161212aa40436c362183a298c2bfe",
+      "bytes": 1813,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "assets/AdminConsole.v-DC7GNqzd.css",
+      "sha256": "fd016cb0607032dae9d119af9d70d718a0e4340fdc0c8549bdd015f0383adf5f",
+      "bytes": 11748,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "assets/territory.v-DQ57f921.js",
+      "sha256": "2410d5fc8aaa8cd5b0846b65a8534b54101b40ae231fbcdb0a6d6f158d70002e",
+      "bytes": 5481,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/TerritoryPage.v-4DkNS1YM.js",
+      "sha256": "4ea4461fa2fb1eb4297cf1bf0749faf0e1e300560ed0f85fc5373d7c701a0f04",
+      "bytes": 36069,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "bytes": 30002,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "assets/IslandApp.v-BSVb272A.js",
+      "sha256": "235647fb2102815036301a8b54994caf4bf53bbb3409e369aca0b55fa500886d",
+      "bytes": 209071,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/RoomEditor.v-BriqAA02.js",
+      "sha256": "48433645c92f098f0d5848200d2ffad11c8f4e80620cee226fbc347e0e81034d",
+      "bytes": 10713,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/index.v-CgPavlIg.css",
+      "sha256": "2fea6ba699cac34e835539107db3e1e50f781a80d70396dda63e6220ce76a9c8",
+      "bytes": 325744,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "assets/IslandApp.v-ewABikei.css",
+      "sha256": "1f3075c2c9cea7488955e8fa9f47f5725994e126b443c9ad56400b217e873fcb",
+      "bytes": 75228,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "assets/index.v-BMDjMVUW.js",
+      "sha256": "5667f90d8e015a9c6b09fffec661b5b99afcf8c3d408c4ec4387c601a0d46092",
+      "bytes": 2764731,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/subject-catalog.v-DRvuTgF7.js",
+      "sha256": "f3c15db316eb53b3b745670353a3954280dc9f230a8e94945fe83a143c27d243",
+      "bytes": 3806,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/readability.v-Z-JA7QHd.js",
+      "sha256": "2fc9632a636d9aecc1cd3a1607bac25a46df077944204a5f8afdab0563ce9df9",
+      "bytes": 1259814,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/AdminConsole.v-nSoPCV_c.js",
+      "sha256": "d11fa707e114b230429293061824acdccddcbf669944ce90beea870e1b6b8c5f",
+      "bytes": 33398,
+      "contentType": "text/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/readability.v-trv-R25v.css",
+      "sha256": "564b4a934c945b91b532d11da78e63d9621ec826c51623c3e54c036141017e8a",
+      "bytes": 1350,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-29.webp",
+      "sha256": "e29132f2bb575972856db6dfa9004358535f125b64b920ea9e1ff62731e58eaf",
+      "bytes": 148144,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-29-entrance.mp4",
+      "sha256": "315d76b7e9ba84662a9c4ebf417f119d4060dd77cdb3d86d280f8514299ce469",
+      "bytes": 499886,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-04-capture.mp4",
+      "sha256": "d43d6d70e5593a260fbadbd877126b10dbaeb120f056072963382b4b4d923539",
+      "bytes": 699959,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-05.webp",
+      "sha256": "ba370558f1cfd80b62523c8810c2a1e88d2d379262c504f3e679ce0f12caf6d4",
+      "bytes": 104970,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-17.webp",
+      "sha256": "faf10632821ad235932c68c15f8e30a804f4f3496c869b394758e57b1e89b0c7",
+      "bytes": 125588,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-06-hit.mp4",
+      "sha256": "53f597e8a54b9d31362b8c469faa3e0fb7d1d69c92202db76f84d763375a571d",
+      "bytes": 477933,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-26-capture.mp4",
+      "sha256": "828c9cfb65fe4f585f176e2cc1674cbb5479e1e6af9f4fc215fff09e5f8b7583",
+      "bytes": 445346,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-25.webp",
+      "sha256": "06c139cfd3e422dd2054fc130334a404ff3172d67a90ea483645a0a462517d9d",
+      "bytes": 130424,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-01-entrance.mp4",
+      "sha256": "0147b9e62b08df61e2a80a4f97462e4450f605aca56ca07e85329e1be6cd32fc",
+      "bytes": 352744,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-06-entrance.mp4",
+      "sha256": "7a47d303a812cbcb4dd66dc83620f5ee9c02dc0d02778a7396524ad03719017e",
+      "bytes": 563740,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-09.webp",
+      "sha256": "5f8ca9d43ac61718a47a836c44979fb6ceffe918300f94bc0665ce7017ee967f",
+      "bytes": 128920,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-14-capture.mp4",
+      "sha256": "470577c1fca6b515ef5b980cb67d951ee2d4bd7e8ffb0e800d8b57cb51d7ee7f",
+      "bytes": 777587,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-23-hit.mp4",
+      "sha256": "5e193751ad7c60d57d621b650f84265af5731de9b5a8f960ceacb7840104e926",
+      "bytes": 671806,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-17-entrance.mp4",
+      "sha256": "c00565818a9a17db1ccf8e11eeb89fc25f87f2e287b206ca354485be373a8a5b",
+      "bytes": 811362,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-20.webp",
+      "sha256": "70ccb573c5f457db545094fd87a823222e3df5a5b0b89b11c9bc80c5e999b2c7",
+      "bytes": 166042,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-23-idle.mp4",
+      "sha256": "d05239a970803c246f03caaedf3ef483da5b5973aa97ddcfb3cb72c48b35e8e5",
+      "bytes": 451235,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-22-idle.mp4",
+      "sha256": "8cb20030242c03f0cc36755bd6a052420ef131897712215af758a2d01e4b6c91",
+      "bytes": 875010,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-08-capture.mp4",
+      "sha256": "f244c42551f76df4bba36e4bceae73e481442eaf93a056bd21b6246c0fa56c41",
+      "bytes": 574073,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-08.webp",
+      "sha256": "d8fa3c3f9cf488fde72330f780a4b13321d18e767c0a3a2429b4f4f5c6652674",
+      "bytes": 114080,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-28-entrance.mp4",
+      "sha256": "11ef3a20d0c92d5693ecd7dbe93b90eacb5a04dc90650bab5449131b229d9ea6",
+      "bytes": 550539,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-01-idle.mp4",
+      "sha256": "4944a689e330dff0a1d870e67008648a90022a28629f2745d228c01bf3e1352f",
+      "bytes": 651649,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-08-320.webp",
+      "sha256": "645d05b81e1d95b7b6a6bd26f3c59d717cda198151ee7aefd9fdd2f10d3ae096",
+      "bytes": 40106,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-09-320.webp",
+      "sha256": "1820a696ee53281d24e5ec870303eb350e9309616288b0aec15245af540b3eef",
+      "bytes": 45662,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-11-capture.mp4",
+      "sha256": "a085471d1726076479ff588bc382d88a598b4dc24efe2d455173d5c32770f0c7",
+      "bytes": 923828,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-24.webp",
+      "sha256": "eb3e49fee8ec239ac6d3ae6a43a3323242cf33c859ce3b968d48f37e14ce9bfa",
+      "bytes": 169086,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-11-320.webp",
+      "sha256": "41a548273b24dfaeac96d8a05fba299aaf0bb5e2367bf49af940c70384dc7466",
+      "bytes": 44864,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-18-idle.mp4",
+      "sha256": "5601e79b8475942eba3971eec921933d12d2a661ce264ca47900b5c44a9209f0",
+      "bytes": 592160,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-20-entrance.mp4",
+      "sha256": "58761392a01c180b2e43272224084f040c0ac4ace695fe2c1d67ace7b94a394e",
+      "bytes": 561533,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-16-hit.mp4",
+      "sha256": "3e0a99dbb0e704e7bdd17a059a5b81c3674432aac376871e2f4d054ecc17384e",
+      "bytes": 686670,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-19-idle.mp4",
+      "sha256": "b116c0a275703f1c1c84d6ff6d9cc911c5e44e7f80f1cf76001090ebab4876a1",
+      "bytes": 349269,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-16-entrance.mp4",
+      "sha256": "8757921e71309c4f9426ffd7b2ca5dbb0c8938ef53aaf1f55d411ec784309e07",
+      "bytes": 289420,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-01-capture.mp4",
+      "sha256": "7abd6d55902ba1a628f79a7197b9e4a18870383bc412242b36b75f4ddf1b4b30",
+      "bytes": 486135,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-29-idle.mp4",
+      "sha256": "ccfc8b6dbe302fcb41cbc05a4932701cab4a677b9a8ace44e80b418703659be2",
+      "bytes": 391740,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-21-320.webp",
+      "sha256": "aa8b5b35771cb61c50ece0a06426898c4684a3565d183136cf263e33fd598fb1",
+      "bytes": 32950,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-28-idle.mp4",
+      "sha256": "468ebd89f656d63705f772c32786ea673d986fb9adbdb233b99d395e77681a7b",
+      "bytes": 477810,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-11-entrance.mp4",
+      "sha256": "0b1051577385332d16666a035aad9f534ebdc125515d6a9beec1ed5e7ed0a512",
+      "bytes": 423603,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-07-entrance.mp4",
+      "sha256": "c4d33b34a70d251ab5564bdb04c51865d3385bb3a702601e0430518cd13f1297",
+      "bytes": 295095,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-23-capture.mp4",
+      "sha256": "1039a3ca0542388265870cdf6d5dde66ddab05c32bcfd6cb686f41d77e37a16d",
+      "bytes": 224743,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-08-attack.mp4",
+      "sha256": "aeb4cd529253d51cd1f9c95390bd17850687455c42c875581976e1c71aeb6c2d",
+      "bytes": 737271,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-12-idle.mp4",
+      "sha256": "5b1658f6c1e95859cf9159d734b2f38bf220bb673e674d17d7b98bb1d868b5eb",
+      "bytes": 743938,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-13-idle.mp4",
+      "sha256": "e547365b01371c968b76327e5a3c3d08f061ed4ca266c65520227f4a6c8f23a4",
+      "bytes": 546986,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-16.webp",
+      "sha256": "2bb14d73cb38b77ce40d9595265fc062e0ec11639148846bdc74e12c423f0637",
+      "bytes": 131128,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-04.webp",
+      "sha256": "81fa25987379261029815051300ff9ebc7a6df761bf66923aaa93be9ac099687",
+      "bytes": 94436,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-02-320.webp",
+      "sha256": "ca1b6f3d1cc1c03b7b816204750b78e66ff66abbcaa050dd1b49459693dcca72",
+      "bytes": 59618,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-03-320.webp",
+      "sha256": "f6d270ed37c728e55279f731334333ff6d60a16a3e137ceeffb80886b0da9f2c",
+      "bytes": 45130,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-25-attack.mp4",
+      "sha256": "fbb8b3c618647877eeecb2c4b7741c6cb318a2450df5ca97c53cacb7a668a281",
+      "bytes": 549724,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-18-capture.mp4",
+      "sha256": "80ddb26c65f91908e982cf73938b48d89bb486869281b1aaab8f318a38b00dfc",
+      "bytes": 523210,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-28.webp",
+      "sha256": "8367444be1ecbfca543bfa52556eb624775ccce0641549edc30a7de5d1a68be4",
+      "bytes": 111470,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-24-idle.mp4",
+      "sha256": "08c7ac3573c5823bac0d99759faf307d1662f32bbb98ccea02131bebe469fa30",
+      "bytes": 573778,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-25-idle.mp4",
+      "sha256": "04b948acf980cfe548e8ea476c2380b4701411f6290e9012d598fab026cf6093",
+      "bytes": 377334,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-23.webp",
+      "sha256": "fca75b3f92306563b3b5ca4ee724f80cb396f1ebca375b1a806290022e72ee09",
+      "bytes": 100162,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-20-idle.mp4",
+      "sha256": "5178b4ad6424c57edbe6aa781637156c0b1f4251b7eb2a85443ca946d466c864",
+      "bytes": 819508,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-02-capture.mp4",
+      "sha256": "84feff71d4ea5c4e08cfd3ff15a892c742fddd42a9beef408e34fc2fce3ea409",
+      "bytes": 1043551,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-30-hit.mp4",
+      "sha256": "7ab035793a57c1027435d64fbec10b92cca71f97f73c7360c4370ac5d1e0ad91",
+      "bytes": 699259,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-14-hit.mp4",
+      "sha256": "2244fd0bf6cbc1d17d15667727e8ba8b9193554f9d570058ecc90275017c9165",
+      "bytes": 526590,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-16-320.webp",
+      "sha256": "496e03a350a44c6f626a861d398f622b1f46d8e88d7dbf9943dd76db7ada585e",
+      "bytes": 44068,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-17-320.webp",
+      "sha256": "ef2a8a5d7b1fa3ba973d0feace462f12a1e747d560d51f51219fd34b9bca4b84",
+      "bytes": 41768,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-06-idle.mp4",
+      "sha256": "34beff2f13fb02516b1415b53d1151645f6b59912d415007ba2f250dbba8873a",
+      "bytes": 639974,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-07-idle.mp4",
+      "sha256": "9566e5ee57cf66efc73c7eb28ace91a480074a9d72a4810350515ad98d01ed34",
+      "bytes": 655013,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-22-entrance.mp4",
+      "sha256": "2957a489192555a855303eb153f25b72833519471fffec1bd88b165de2da5a2a",
+      "bytes": 320212,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-12-capture.mp4",
+      "sha256": "ea0d2429ce385623b7702b1fac49a6ef261371463c951d466474e570b7c27546",
+      "bytes": 838474,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-25-entrance.mp4",
+      "sha256": "3b77359eced173aec870fdf12d08f7b73a50e6779351e043b2413da9d5d54e4b",
+      "bytes": 723419,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-02-attack.mp4",
+      "sha256": "7f57345b0e1869e921c5983c1aab257a1f2931ffd939e2c0965edb7df3c12c3e",
+      "bytes": 646829,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-03.webp",
+      "sha256": "2eadc3dd93aef5df5b0cb4f049918829ab60b6a5dd940321baa74df9d55636e2",
+      "bytes": 128128,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-11.webp",
+      "sha256": "e8e95e7e121afe8c4366ae97cb8790a392697125316c46f6ac8aeba891d80fef",
+      "bytes": 139800,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-29-capture.mp4",
+      "sha256": "7302ad0d38fa08fcebd54f92075b5c7fb19d5a9ae22ed1249e0c3752162eb4fe",
+      "bytes": 744804,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-27-320.webp",
+      "sha256": "e5635269ee92d275c95a4c5e1bee2babd3e4e1575b9e7cc6e2d1b425f41702e0",
+      "bytes": 46752,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-26-320.webp",
+      "sha256": "669833e02e51748e75d260a1eeb7edbdde75dd9835c25ab80cdaf31e17eb539e",
+      "bytes": 39546,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-05-320.webp",
+      "sha256": "021290a2288cf54752eebf14fc732777b4ccb5ac6564d11fa605f52804acdd1d",
+      "bytes": 37750,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-04-320.webp",
+      "sha256": "70e0342c5160367c3bfd1e54d4fcf9408c2c509d32438c86080a7e658b2828cf",
+      "bytes": 32852,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-30-entrance.mp4",
+      "sha256": "a60e0760caaef407c17aaf708f72a97fb5363e4da813fb2f5cf9cb88f23a2312",
+      "bytes": 548694,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-20-capture.mp4",
+      "sha256": "7a1afa29f4981c3f04e4fc58fd1ff8d07dfbee24e1a7a17ab0549a1a1d8d9d05",
+      "bytes": 864727,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-15-idle.mp4",
+      "sha256": "21e317d71f7e96b4a2662a7671fdd9244a5f3678b24efa3f0b435b181e6b3980",
+      "bytes": 881001,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-14-idle.mp4",
+      "sha256": "c031e1b095b29a0a0ab63b6978fc069c454413d9af25fc7809738b93dc1f2b0f",
+      "bytes": 493377,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-05-hit.mp4",
+      "sha256": "b31e2cbce42ac6755a8fb84d2bf8635216a912e9a069f43227fd37cb11e437be",
+      "bytes": 681001,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-29-hit.mp4",
+      "sha256": "d6c95139c48223615712cf635e3bb322145c5610c00166d4aa2d8f90d4aa12fc",
+      "bytes": 520169,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-17-capture.mp4",
+      "sha256": "ef913c5e4f29660fc572ac7068667ca1e807d456859ba3943046f85acd3720cb",
+      "bytes": 338491,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-10-idle.mp4",
+      "sha256": "b3a88cf9a29768398b237906f7fbcaa9b24b0f506daf79b0e7cd0fc763c0f633",
+      "bytes": 821939,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-02.webp",
+      "sha256": "a9f5670a56d40b2ff7b77ceadbae9a45303237906cbcced3d0e0e67d8358e5fd",
+      "bytes": 172898,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-30-capture.mp4",
+      "sha256": "d11026ae3397916b4265172102b3d7f1033cafbb0b6f449de9549d20138a2f1b",
+      "bytes": 562720,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-30-320.webp",
+      "sha256": "690f6037bbbd61b5b716b7b79b7e9b1884a35436f3b76f3e8ee193c753803ce4",
+      "bytes": 41550,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-25-capture.mp4",
+      "sha256": "32e45b428f75c8a5b22aa2e7584222d0dc27bcd524d7b284c04565ae66fa5b31",
+      "bytes": 689748,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-24-entrance.mp4",
+      "sha256": "5171b0a943b93c28503cbb84ac04489235be97b3ab078673b8775cf580e0c669",
+      "bytes": 747056,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-21-hit.mp4",
+      "sha256": "e649d71a50069315de474906bdefb90fc2d4a8bc021948fbf964348e101d469b",
+      "bytes": 361684,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-23-entrance.mp4",
+      "sha256": "e3e8448822c4d835badd425c7fadf4b23d8c05e49a27902325e51cbda038bcac",
+      "bytes": 569991,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-18-attack.mp4",
+      "sha256": "84a41c6e528b30f0cf29c7045eb5738d12c97538a9d3174a4a6985a0433e5ca5",
+      "bytes": 658278,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-22.webp",
+      "sha256": "f924846a6ae3fa64f3b2e49784111f61546f2ae04b33b3324e1cb0a6a9eaf116",
+      "bytes": 175202,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-07-capture.mp4",
+      "sha256": "92083e890796135f90bf3140f33c55e6f8bef974ade8146880768971c7445834",
+      "bytes": 670031,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-24-hit.mp4",
+      "sha256": "4c59c98a50b279ce6c9a9b22c9915a676b7c9fc475ab43322c07987a372c3401",
+      "bytes": 639103,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-18-entrance.mp4",
+      "sha256": "a84208e36f3e36f10a698a44c9a64cee67cfe006dfd529e839e2e353b317023f",
+      "bytes": 269019,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-08-hit.mp4",
+      "sha256": "59af50367fb2deeedc0d272cc97a8ece3ff480fbe200262ba9c1bb620453b742",
+      "bytes": 717964,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-23-320.webp",
+      "sha256": "c58122e6f96170fb1e6a5132f65740926dd5b91ef4d7ae3af06216db7fce8ab3",
+      "bytes": 35534,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-22-320.webp",
+      "sha256": "049dcd4a4c551eb06f78d5237396233ab86bafe17e1e97f0dae6c67a96d37451",
+      "bytes": 57814,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-19-capture.mp4",
+      "sha256": "ba88d2654748ee507c1e91c86175fab9d1f9626983bec2ec99c6ea1b7d253d26",
+      "bytes": 511872,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-16-attack.mp4",
+      "sha256": "7ea246af8ed1c0b6a2914c3a00ca028581a525bae8640e400a90a2c92886451a",
+      "bytes": 533755,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-18-320.webp",
+      "sha256": "6fcb0ed13848eda8bf20b889cd5187319d994b736089515386c3dc01c95124f6",
+      "bytes": 50398,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-11-idle.mp4",
+      "sha256": "39345b9a2161c1bcc83d98957d4c3774917162f56b4f7cad6b5739d1b6dbef12",
+      "bytes": 808329,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-19-320.webp",
+      "sha256": "43d7a2a75b8d58986cbe3b4d2ae74c1877650197f2550cab4e51ffbb26d6a689",
+      "bytes": 44218,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-08-idle.mp4",
+      "sha256": "13360c06d47f428dcf098c07cb7cf3caa28fcdd2419744b0d27a497c789e1fd8",
+      "bytes": 543071,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-01-320.webp",
+      "sha256": "626e06fc468dd0b821289de92a961d9f6fd1d6ff40ae9581c71825489ce65987",
+      "bytes": 49510,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-29-attack.mp4",
+      "sha256": "bc90a8c7979a63f92c2ae27ab834d43f559b9b1aa45dc570dd3903c32a89308d",
+      "bytes": 585552,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-09-entrance.mp4",
+      "sha256": "649124fef992d977a00a59988135d00a192471d250eead4b51d715c1a6fde15c",
+      "bytes": 232627,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-21.webp",
+      "sha256": "5fe962c6e7aa1d796fe6c7e5fc6f70159371d2c915d05a9788496738937f9fac",
+      "bytes": 94466,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-29-320.webp",
+      "sha256": "5c0811df6a16e8a5b321e79464c9bdd00835d586b96ead28b7baeb8e1b7f1787",
+      "bytes": 49302,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-28-320.webp",
+      "sha256": "fb741c38b6a53e2d630f854ca0dafd90bb56b7c5f90e3d432e05b7b966f25abb",
+      "bytes": 38814,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-21-idle.mp4",
+      "sha256": "b2e4b91e6991ae139e375e2dd57fb6a720e3de250bbcf88ff2a8ead824265535",
+      "bytes": 353070,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-19-hit.mp4",
+      "sha256": "668c05d91fea19bdea63b31173daccfb5fecfb5bcf5a121afd8db0a42c25c9a8",
+      "bytes": 393146,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-01-hit.mp4",
+      "sha256": "f35b2d6084cd5a43b21feae4c906cb0c8f849b450ac39cd575c43381f46b2383",
+      "bytes": 1069660,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-13.webp",
+      "sha256": "01ebf66064baf5639d289c7dd6fd74c68d3307eb4bfead22d343e42243c43010",
+      "bytes": 147722,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-24-attack.mp4",
+      "sha256": "7ddc905df9980bb590769ed38fea64bbff33cdc778682f94524dd4cadfd50004",
+      "bytes": 632172,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-01.webp",
+      "sha256": "587d819b26a29c0b9b1248355520a893a8511e951ab89d7a9897ef0c920b4b24",
+      "bytes": 146688,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-21-entrance.mp4",
+      "sha256": "a096e958de69a0096ef3a2246aaac541e3a66ebfcde3cddc8becd9fbd3cca13c",
+      "bytes": 411631,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-02-idle.mp4",
+      "sha256": "d04f67df13d284af519f0a8e30e1a25a91aa485ea5cbf07d020cabfdf598406b",
+      "bytes": 862583,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-09-capture.mp4",
+      "sha256": "edd2ac172f653d2691fa4bbc440bf35c8b4e9e9fd002aab74333dd23d7b0da0c",
+      "bytes": 487601,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-03-idle.mp4",
+      "sha256": "4163b95283041500fa42baa13a3a4c8eafe215d4b24b4a4aa0c0c813feb23030",
+      "bytes": 705516,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-26-entrance.mp4",
+      "sha256": "b2c985bf213fce2b0c1c3f05cd1261270fed33d8888654c2e8637205c9cb94e2",
+      "bytes": 478042,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-12-320.webp",
+      "sha256": "fed847c67f3412a8fddb5c659d6def7da0d45b41cd0181ec85bd0570d0b4944e",
+      "bytes": 43456,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-13-320.webp",
+      "sha256": "d27fa601e138bf6522aaad97fd31587b4406887897e6375651bbee5915a5a00c",
+      "bytes": 47314,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-10-attack.mp4",
+      "sha256": "f28bfbe62855241ceb50eebd39cd11056362ee6570ef78f1dd46e0e82221ce8b",
+      "bytes": 504075,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-12.webp",
+      "sha256": "67d8464443fb5b0f32fd1f72fe51d8cddd955fcaf16087b0cb0dc4c2fa091b59",
+      "bytes": 132288,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-10-capture.mp4",
+      "sha256": "05f2ef7dc99cb9539bf5fa8843a809758896d2edde62eaa325769ef7cd1e7e36",
+      "bytes": 666354,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-08-entrance.mp4",
+      "sha256": "53accc6e44036b903783a92aa01c84beb51edeca0e690acbb8ec800a07bfd5f7",
+      "bytes": 679484,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-19-entrance.mp4",
+      "sha256": "a945f1c9efa3f102b3c4c342d2d4d6669d541e624ce7dc1e1965d730dcdfd8e9",
+      "bytes": 599573,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-21-attack.mp4",
+      "sha256": "591e175dd8ce2bc719f729e675440d46ca895791a33fb0c3f70c9cb4d6bdadcb",
+      "bytes": 427766,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-30-attack.mp4",
+      "sha256": "e48581ef4847a404a2d225ff8b3818d4d0c9a06d79fecceb60ce990d2a651458",
+      "bytes": 595575,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-25-hit.mp4",
+      "sha256": "524f496ff50eb405631e5030e0118fd38e8214b35b6af5b5e2e8d3bbe20ec91c",
+      "bytes": 575803,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-27-capture.mp4",
+      "sha256": "9ecd65fb600a5db9de4333ff50edaf3e9ad2596ba2edcbc43a32967fc379e5b1",
+      "bytes": 488929,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-27-entrance.mp4",
+      "sha256": "9eda25981a9fc61b1256045f22ca501020dcda951b5481257dd1d43173c965ba",
+      "bytes": 498455,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-05-capture.mp4",
+      "sha256": "7f21180589dc0d30ae98ec827f9cb1464f417bec9afd741c80a4baa6a26c0051",
+      "bytes": 603939,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-01-attack.mp4",
+      "sha256": "d4c1b857617f3b5a5f53fd96e0ff8685dbb2498beb0f3bb99a4687d17d12becb",
+      "bytes": 854990,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-06-attack.mp4",
+      "sha256": "d67c1ea588ed42ec7b69e09942831c4ade8b4eeeb0f58dcb67281717165193a9",
+      "bytes": 698637,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-06-capture.mp4",
+      "sha256": "a9fcd599860c7ca759b7586010ae91b0d5ef85a1e6be941f54c9b49cd36d1c2f",
+      "bytes": 706847,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-24-capture.mp4",
+      "sha256": "236c803a4401052d892b19c394ed21050d513d23d8ef356c32f0b0141120f65e",
+      "bytes": 552549,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-15.webp",
+      "sha256": "eb7eb0ee69098afbac236e14b52551f940a581db131c5e1df428c2e4676114a8",
+      "bytes": 177466,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-07.webp",
+      "sha256": "f3f74bd2407d128aa937d197042e37d4b5a90145d650878fdbee36648783e745",
+      "bytes": 120978,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-10-320.webp",
+      "sha256": "766728a6d3f8298bcb88cddee4092c837c56e43b1a1b4286d5dc59d159bc8506",
+      "bytes": 45226,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-14-attack.mp4",
+      "sha256": "1fdf61cf339a4e066202e766d5f538de661c83a7f6ef5272838e701bb6845331",
+      "bytes": 591474,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-13-entrance.mp4",
+      "sha256": "e2a7f5f4b4437b76475a3cba23acd15b2ef92dfa5422aa71384cfbb17558c880",
+      "bytes": 319804,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-26-attack.mp4",
+      "sha256": "ec6712cc303950d35f66148939dcb168d528e3c8fa8882b95245e56e7e38dc32",
+      "bytes": 536125,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-14-entrance.mp4",
+      "sha256": "e47d929fa3b4c4de0b5f02f59eba6f7f1f1f52209e78e78644a6e78a27eadc41",
+      "bytes": 592238,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-10-entrance.mp4",
+      "sha256": "1ecd320f215c50259ce3f602a30dada250cc055a1392daa9f15fb9b0c25e871e",
+      "bytes": 760914,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-30-idle.mp4",
+      "sha256": "70582ff5436bfc18bfdfd12a45e72dd31ac82083b8c003056c1a0849d2ec535d",
+      "bytes": 490916,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-27-hit.mp4",
+      "sha256": "16dc64e64a3dc65fc5851f1aeea497a032f2d52549bd477c511bc4b2eb37710c",
+      "bytes": 535195,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-19-attack.mp4",
+      "sha256": "32e6562e34e97af7016bf7832329518ee4e8f355b59ac33e6b79fe83ee5c869e",
+      "bytes": 492935,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-19.webp",
+      "sha256": "e5f332ffc028cf47028785babf2d25c622d37e95f0b7552ebe830d28da1e66b6",
+      "bytes": 136682,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-02-entrance.mp4",
+      "sha256": "681b46fb050984bc6469b1f7eda231677f36eb2191839cdfe5c6a472acccefcf",
+      "bytes": 395695,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-16-capture.mp4",
+      "sha256": "0c7c90ae1c20c7b85e38cff7b1c3ec221a018bf36659d6bca6dc0183f93cf20d",
+      "bytes": 662769,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-27.webp",
+      "sha256": "ae897704e7261a1ad8b872f5596fd0dadd09a98f6573a199b365ffca44c516c4",
+      "bytes": 137492,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-05-entrance.mp4",
+      "sha256": "1d4867f5b07bc9e34f3391f5d7c5acdfd0337d9039e0be71d4983c39f59f4eb1",
+      "bytes": 302976,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-26.webp",
+      "sha256": "c36960f1358dedefe011df5d099bc37bc14097da961cc59d299709da7d0ac74a",
+      "bytes": 109958,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-20-320.webp",
+      "sha256": "cc0bb8d1733e48f7c498cd307a371d911f46ec005bccc4f68e2f6910c6ebbfca",
+      "bytes": 54062,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-18.webp",
+      "sha256": "38998252de91dbd790025f1e6751c0861a178c7a2c0d6e7accadccb502a3f7c1",
+      "bytes": 142632,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-12-hit.mp4",
+      "sha256": "217afa1a3b088f24fca36da12233c3a6c48929214896d1179d7f22762cdd35d3",
+      "bytes": 879852,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-26-hit.mp4",
+      "sha256": "89eb795c2f6ec3ab4f45a20daab9e337ac39026af1241202e69e44dc9b1ae88a",
+      "bytes": 460253,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-24-320.webp",
+      "sha256": "de5fe2202ab9cc6b572d1e06d074f50999fb098613915104220478f2672f2ea6",
+      "bytes": 55690,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-25-320.webp",
+      "sha256": "2388eb2df706eaf34301b38d4f34f14fa8a735d3ab4685842156ecb9740c6ece",
+      "bytes": 42842,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-23-attack.mp4",
+      "sha256": "590b69e2441e9d696781b49d94567f587be2df0ac25c8ae7b6db27459153b072",
+      "bytes": 493754,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-30.webp",
+      "sha256": "98c8db73d4eec7f33b885221f8d1d5ac244411d39395e407426c440ef878bf1a",
+      "bytes": 115210,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-06-320.webp",
+      "sha256": "3768c50927b736e3c9c972f23cb597ecb7961db1a85a1f9e820700c593262ec1",
+      "bytes": 36852,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-07-320.webp",
+      "sha256": "b3b15446709422434bf7278d5176a7fd775dbc7c211bc5cabb87046680726354",
+      "bytes": 41464,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-16-idle.mp4",
+      "sha256": "b59e91871356d7ca72cb5bc044e2e79b24d029169ed5be448f7ca02ace3aa90d",
+      "bytes": 642399,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-13-capture.mp4",
+      "sha256": "64169978eea9b9d8c58975b8193185376c55fecc9547bdda696c52ff273e0120",
+      "bytes": 633337,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-17-idle.mp4",
+      "sha256": "7a7e27e4ae778340abed406db30402dce6a0110fb9f48406deae1ce16fe412cf",
+      "bytes": 648777,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-28-capture.mp4",
+      "sha256": "1ac992652fbe2d34371d1a11ba2e0852d771fb1a267fecfc030a77dbdc5a8868",
+      "bytes": 664512,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-03-hit.mp4",
+      "sha256": "e5c3d38a05994f1d4dba887617d69844804a2f66b34c8c63537bdce9463b01f1",
+      "bytes": 440036,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-27-idle.mp4",
+      "sha256": "94b81db15d834465cdeec96f2800e9d17de411c380c421104f8a1371c6397043",
+      "bytes": 515770,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-26-idle.mp4",
+      "sha256": "fa42b9b1bf0e5995e929e98f8347c30293cd3cc5e3188bae1c6d8895cc0960bf",
+      "bytes": 480187,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-10.webp",
+      "sha256": "f0ef65aa1dd821de22c7dd55e30f9d15977e6b8599ba494240117cce028483fb",
+      "bytes": 136366,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-04-entrance.mp4",
+      "sha256": "cb76b8532e899fa20ddd66c5ee20c111a38d05de2df1b987ed627daa2a296e7f",
+      "bytes": 247121,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-06.webp",
+      "sha256": "69f6e5f1b3e2035739de1d8c5ef16c740cc558fe1a1ab341e3e080928ad72fd6",
+      "bytes": 104722,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-14.webp",
+      "sha256": "e994dbdd52311fc36c2701a8489afed8292906069258cdb0b41c15c2f6835e04",
+      "bytes": 124670,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-03-entrance.mp4",
+      "sha256": "29c5affb9bb10a8e25d19fd52e25da79bfa9e7a9e8f408616f03d174ae0b5f19",
+      "bytes": 387636,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-15-entrance.mp4",
+      "sha256": "9a59572816236e001b29437421a133627e7324528a580698c8b471d451e49d54",
+      "bytes": 1031978,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-11-attack.mp4",
+      "sha256": "0863fc8845262606ba6b9bedbf0778a72ab0931c8beb292d609d590da94443d9",
+      "bytes": 911408,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-12-entrance.mp4",
+      "sha256": "91ee25926c95fc1540f7edfcff51f73050eef4b59e259f76072726248ade0382",
+      "bytes": 357347,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-15-320.webp",
+      "sha256": "cd5fd4ec3925082265086d94f7cdf20597654b2b1842bc9e20b5ac69abe34bc4",
+      "bytes": 59922,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-wood-14-320.webp",
+      "sha256": "a6837449caa0be1612abaf1586bae2aadd99cf5dcc024896fbb7f5b48c92d961",
+      "bytes": 44080,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-water-21-capture.mp4",
+      "sha256": "7a5dcd916f69fcacded737a0e8c894d1e951a6ac1dd437000e91a294d72e6e4e",
+      "bytes": 191126,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-05-idle.mp4",
+      "sha256": "e42d94bef6c6241f2032a0ad2fa458b89c66c7041c826b66b5f229ab2fe9e497",
+      "bytes": 571931,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "assets/monsters/wave4/wave4-metal-04-idle.mp4",
+      "sha256": "e6486a81f5d1cc886c5981f93b01798bbcf0d0949016d2ffb659cf0a056a03a1",
+      "bytes": 569922,
+      "contentType": "video/mp4"
+    }
+  ],
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "unauthenticatedStateStatus": 401,
+  "physicalIPad": false,
+  "playerWritesPerformed": false
+}

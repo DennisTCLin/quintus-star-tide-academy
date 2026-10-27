@@ -1,0 +1,126 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "viewport": [
+        393,
+        852
+      ],
+      "realLocalApiAndDatabase": true,
+      "createdThroughUi": true,
+      "grade": 6,
+      "standardDrawDebitOne": true,
+      "sixBattleQuestions": true,
+      "newMonster": "wave4-metal-01",
+      "threeCorrectCapture": true,
+      "reloadAfterCaptureOne": true,
+      "savedAfterReload": true,
+      "noOverflow": true,
+      "touchHitTargets": true,
+      "passiveReadOverlap": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        393,
+        852
+      ],
+      "realLocalApiAndDatabase": true,
+      "createdThroughUi": true,
+      "grade": 6,
+      "standardDrawDebitOne": true,
+      "sixBattleQuestions": true,
+      "newMonster": "wave4-metal-01",
+      "threeCorrectCapture": true,
+      "reloadAfterCaptureOne": true,
+      "savedAfterReload": true,
+      "noOverflow": true,
+      "touchHitTargets": true,
+      "passiveReadOverlap": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        768,
+        1024
+      ],
+      "realLocalApiAndDatabase": true,
+      "createdThroughUi": true,
+      "grade": 6,
+      "standardDrawDebitOne": true,
+      "sixBattleQuestions": true,
+      "newMonster": "wave4-metal-01",
+      "threeCorrectCapture": true,
+      "reloadAfterCaptureOne": true,
+      "savedAfterReload": true,
+      "noOverflow": true,
+      "touchHitTargets": true,
+      "passiveReadOverlap": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        1024,
+        768
+      ],
+      "realLocalApiAndDatabase": true,
+      "createdThroughUi": true,
+      "grade": 6,
+      "standardDrawDebitOne": true,
+      "sixBattleQuestions": true,
+      "newMonster": "wave4-metal-01",
+      "threeCorrectCapture": true,
+      "reloadAfterCaptureOne": true,
+      "savedAfterReload": true,
+      "noOverflow": true,
+      "touchHitTargets": true,
+      "passiveReadOverlap": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "chromium",
+      "viewport": [
+        820,
+        1180
+      ],
+      "realLocalApiAndDatabase": true,
+      "createdThroughUi": true,
+      "grade": 6,
+      "standardDrawDebitOne": true,
+      "sixBattleQuestions": true,
+      "newMonster": "wave4-metal-01",
+      "threeCorrectCapture": true,
+      "reloadAfterCaptureOne": true,
+      "savedAfterReload": true,
+      "noOverflow": true,
+      "touchHitTargets": true,
+      "passiveReadOverlap": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "chromium",
+      "viewport": [
+        1180,
+        820
+      ],
+      "realLocalApiAndDatabase": true,
+      "createdThroughUi": true,
+      "grade": 6,
+      "standardDrawDebitOne": true,
+      "sixBattleQuestions": true,
+      "newMonster": "wave4-metal-01",
+      "threeCorrectCapture": true,
+      "reloadAfterCaptureOne": true,
+      "savedAfterReload": true,
+      "noOverflow": true,
+      "touchHitTargets": true,
+      "passiveReadOverlap": true,
+      "pageErrors": []
+    }
+  ],
+  "physicalDevices": false,
+  "productionPlayerWrites": false
+}

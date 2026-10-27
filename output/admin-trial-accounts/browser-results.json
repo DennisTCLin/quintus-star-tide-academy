@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "case": "actual create + child login + resources + prepared boss",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "case": "duplicate can be corrected without overwrite",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "case": "committed response loss + reload reconciliation; no password storage",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "case": "staff has no trial creation entry",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "case": "actual create + child login + resources + prepared boss",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "case": "duplicate can be corrected without overwrite",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "case": "committed response loss + reload reconciliation; no password storage",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "case": "staff has no trial creation entry",
+      "pass": true
+    }
+  ],
+  "count": 8,
+  "database": "isolated local PostgreSQL",
+  "realApi": true
+}

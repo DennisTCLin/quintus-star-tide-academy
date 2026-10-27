@@ -1,0 +1,2149 @@
+{
+  "url": "http://127.0.0.1:4241",
+  "scope": "Isolated API fixtures derived by current build/game.mjs; UI uses normal clicks, no forced clicks or DOM style edits. Does not establish real backend persistence/concurrency.",
+  "passedChecks": 475,
+  "checks": [
+    {
+      "check": "qingqing-320x568-lv1 training badges"
+    },
+    {
+      "check": "qingqing-320x568-lv1 training stats"
+    },
+    {
+      "check": "qingqing-320x568-lv1 home no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "qingqing-320x568-lv1 quiz no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "qingqing-320x568-lv1 two HUD badges"
+    },
+    {
+      "check": "qingqing-320x568-lv1 frozen HUD levels"
+    },
+    {
+      "check": "qingqing-320x568-lv1 monster rarity"
+    },
+    {
+      "check": "qingqing-320x568-lv1 reduced motion"
+    },
+    {
+      "check": "qingqing-320x568-lv1 precompletion chance/allowance",
+      "text": "完成五題後，降服機率 30% · 今日剩 3 次。訂正同樣有效。"
+    },
+    {
+      "check": "qingqing-320x568-lv1 answer clickable center unobscured"
+    },
+    {
+      "check": "qingqing-320x568-lv1 labeled HP/ATK/DEF"
+    },
+    {
+      "check": "qingqing-320x568-lv1 protection and finisher explanation"
+    },
+    {
+      "check": "qingqing-320x568-lv1 bestiary no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "qingqing-320x568-lv1 thirty monsters"
+    },
+    {
+      "check": "qingqing-320x568-lv1 all monster badges"
+    },
+    {
+      "check": "qingqing-320x568-lv1 rarity E"
+    },
+    {
+      "check": "qingqing-320x568-lv1 rarity D"
+    },
+    {
+      "check": "qingqing-320x568-lv1 rarity C"
+    },
+    {
+      "check": "qingqing-320x568-lv1 rarity B"
+    },
+    {
+      "check": "qingqing-320x568-lv1 rarity A"
+    },
+    {
+      "check": "qingqing-320x568-lv1 rarity S"
+    },
+    {
+      "check": "qingqing-320x568-lv1 water filter"
+    },
+    {
+      "check": "qingqing-320x568-lv1 family filter"
+    },
+    {
+      "check": "qingqing-320x568-lv1 form filter"
+    },
+    {
+      "check": "qingqing-320x568-lv1 card clickable center unobscured"
+    },
+    {
+      "check": "qingqing-320x568-lv1 modal content no overflow"
+    },
+    {
+      "check": "qingqing-320x568-lv1 detail stats"
+    },
+    {
+      "check": "qingqing-320x568-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "qingqing-320x568-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "qingqing-320x568-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "qingqing-320x568-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "qingqing-320x568-lv1 preview/skill intro",
+      "text": "✕NO. 028 · 晶像族冰瀑晶巨像稀有度S級Lv.5野外能力預覽 · Lv.5HP 生命162ATK 攻擊40DEF 防禦17💧 水屬性高階守衛 · Lv.5 起冰藍披甲像凝結的瀑布，巨拳帶著晶亮水紋。出沒地點星晶遺跡夥伴技能冰瀑重擊有效通關多 5 星幣；對戰回復技能多回 5。五行關係剋火 · 被土剋夥伴Lv.5 起的航程會遇見牠。完成五題後有 6% 機會降服。每天前三趟合資格航程各一次；訂正也算。新夥伴從 Lv.1 開始，已有成長會保留。🔊 聽怪物介紹"
+    },
+    {
+      "check": "qingqing-320x568-lv1 focus moves into modal"
+    },
+    {
+      "check": "qingqing-320x568-lv1 modal blocks background clicks"
+    },
+    {
+      "check": "qingqing-320x568-lv1 modal close visible clickable center unobscured"
+    },
+    {
+      "check": "qingqing-320x568-lv1 modal audio clickable center unobscured"
+    },
+    {
+      "check": "qingqing-320x568-lv1 Escape closes modal"
+    },
+    {
+      "check": "qingqing-320x568-lv1 focus restored"
+    },
+    {
+      "check": "qingqing-320x568-lv1 close button closes modal"
+    },
+    {
+      "check": "qingqing-320x568-lv1 close button restores focus"
+    },
+    {
+      "check": "qingqing-320x568-lv1 empty result"
+    },
+    {
+      "check": "qingqing-320x568-lv1 reset filters"
+    },
+    {
+      "check": "qingqing-320x568-lv1 collection count85"
+    },
+    {
+      "check": "qingqing-320x568-lv1 collection badges"
+    },
+    {
+      "check": "qingqing-320x568-lv1 collection no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "qingqing-390x844-lv5 training badges"
+    },
+    {
+      "check": "qingqing-390x844-lv5 training stats"
+    },
+    {
+      "check": "qingqing-390x844-lv5 home no horizontal overflow",
+      "viewport": 390,
+      "scroll": 390,
+      "offenders": []
+    },
+    {
+      "check": "qingqing-390x844-lv5 quiz no horizontal overflow",
+      "viewport": 390,
+      "scroll": 390,
+      "offenders": []
+    },
+    {
+      "check": "qingqing-390x844-lv5 two HUD badges"
+    },
+    {
+      "check": "qingqing-390x844-lv5 frozen HUD levels"
+    },
+    {
+      "check": "qingqing-390x844-lv5 monster rarity"
+    },
+    {
+      "check": "qingqing-390x844-lv5 reduced motion"
+    },
+    {
+      "check": "qingqing-390x844-lv5 precompletion chance/allowance",
+      "text": "完成五題後，降服機率 12% · 今日剩 3 次。訂正同樣有效。"
+    },
+    {
+      "check": "qingqing-390x844-lv5 answer clickable center unobscured"
+    },
+    {
+      "check": "qingqing-390x844-lv5 labeled HP/ATK/DEF"
+    },
+    {
+      "check": "qingqing-390x844-lv5 protection and finisher explanation"
+    },
+    {
+      "check": "qingqing-390x844-lv5 bestiary no horizontal overflow",
+      "viewport": 390,
+      "scroll": 390,
+      "offenders": []
+    },
+    {
+      "check": "qingqing-390x844-lv5 thirty monsters"
+    },
+    {
+      "check": "qingqing-390x844-lv5 all monster badges"
+    },
+    {
+      "check": "qingqing-390x844-lv5 rarity E"
+    },
+    {
+      "check": "qingqing-390x844-lv5 rarity D"
+    },
+    {
+      "check": "qingqing-390x844-lv5 rarity C"
+    },
+    {
+      "check": "qingqing-390x844-lv5 rarity B"
+    },
+    {
+      "check": "qingqing-390x844-lv5 rarity A"
+    },
+    {
+      "check": "qingqing-390x844-lv5 rarity S"
+    },
+    {
+      "check": "qingqing-390x844-lv5 water filter"
+    },
+    {
+      "check": "qingqing-390x844-lv5 family filter"
+    },
+    {
+      "check": "qingqing-390x844-lv5 form filter"
+    },
+    {
+      "check": "qingqing-390x844-lv5 card clickable center unobscured"
+    },
+    {
+      "check": "qingqing-390x844-lv5 modal content no overflow"
+    },
+    {
+      "check": "qingqing-390x844-lv5 detail stats"
+    },
+    {
+      "check": "qingqing-390x844-lv5 modal keyboard excludes background controls"
+    },
+    {
+      "check": "qingqing-390x844-lv5 modal keyboard excludes background controls"
+    },
+    {
+      "check": "qingqing-390x844-lv5 modal keyboard excludes background controls"
+    },
+    {
+      "check": "qingqing-390x844-lv5 modal keyboard excludes background controls"
+    },
+    {
+      "check": "qingqing-390x844-lv5 preview/skill intro",
+      "text": "✕NO. 028 · 晶像族冰瀑晶巨像稀有度S級Lv.5野外能力預覽 · Lv.5HP 生命162ATK 攻擊40DEF 防禦17💧 水屬性高階守衛 · Lv.5 起冰藍披甲像凝結的瀑布，巨拳帶著晶亮水紋。出沒地點星晶遺跡夥伴技能冰瀑重擊有效通關多 5 星幣；對戰回復技能多回 5。五行關係剋火 · 被土剋夥伴Lv.5 起的航程會遇見牠。完成五題後有 6% 機會降服。每天前三趟合資格航程各一次；訂正也算。新夥伴從 Lv.1 開始，已有成長會保留。🔊 聽怪物介紹"
+    },
+    {
+      "check": "qingqing-390x844-lv5 focus moves into modal"
+    },
+    {
+      "check": "qingqing-390x844-lv5 modal blocks background clicks"
+    },
+    {
+      "check": "qingqing-390x844-lv5 modal close visible clickable center unobscured"
+    },
+    {
+      "check": "qingqing-390x844-lv5 modal audio clickable center unobscured"
+    },
+    {
+      "check": "qingqing-390x844-lv5 Escape closes modal"
+    },
+    {
+      "check": "qingqing-390x844-lv5 focus restored"
+    },
+    {
+      "check": "qingqing-390x844-lv5 close button closes modal"
+    },
+    {
+      "check": "qingqing-390x844-lv5 close button restores focus"
+    },
+    {
+      "check": "qingqing-390x844-lv5 empty result"
+    },
+    {
+      "check": "qingqing-390x844-lv5 reset filters"
+    },
+    {
+      "check": "qingqing-390x844-lv5 collection count85"
+    },
+    {
+      "check": "qingqing-390x844-lv5 collection badges"
+    },
+    {
+      "check": "qingqing-390x844-lv5 collection no horizontal overflow",
+      "viewport": 390,
+      "scroll": 390,
+      "offenders": []
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 training badges"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 training stats"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 home no horizontal overflow",
+      "viewport": 1440,
+      "scroll": 1440,
+      "offenders": []
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 quiz no horizontal overflow",
+      "viewport": 1440,
+      "scroll": 1440,
+      "offenders": []
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 two HUD badges"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 frozen HUD levels"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 monster rarity"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 reduced motion"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 precompletion chance/allowance",
+      "text": "完成五題後，降服機率 30% · 今日剩 3 次。訂正同樣有效。"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 answer clickable center unobscured"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 labeled HP/ATK/DEF"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 protection and finisher explanation"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 bestiary no horizontal overflow",
+      "viewport": 1440,
+      "scroll": 1440,
+      "offenders": []
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 thirty monsters"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 all monster badges"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 rarity E"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 rarity D"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 rarity C"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 rarity B"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 rarity A"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 rarity S"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 water filter"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 family filter"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 form filter"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 card clickable center unobscured"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 modal content no overflow"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 detail stats"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 preview/skill intro",
+      "text": "✕NO. 028 · 晶像族冰瀑晶巨像稀有度S級Lv.5野外能力預覽 · Lv.5HP 生命162ATK 攻擊40DEF 防禦17💧 水屬性高階守衛 · Lv.5 起冰藍披甲像凝結的瀑布，巨拳帶著晶亮水紋。出沒地點星晶遺跡夥伴技能冰瀑重擊有效通關多 5 星幣；對戰回復技能多回 5。五行關係剋火 · 被土剋夥伴Lv.5 起的航程會遇見牠。完成五題後有 6% 機會降服。每天前三趟合資格航程各一次；訂正也算。新夥伴從 Lv.1 開始，已有成長會保留。🔊 聽怪物介紹"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 focus moves into modal"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 modal blocks background clicks"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 modal close visible clickable center unobscured"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 modal audio clickable center unobscured"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 Escape closes modal"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 focus restored"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 close button closes modal"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 close button restores focus"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 empty result"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 reset filters"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 collection count85"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 collection badges"
+    },
+    {
+      "check": "qingqing-1440x1000-lv1 collection no horizontal overflow",
+      "viewport": 1440,
+      "scroll": 1440,
+      "offenders": []
+    },
+    {
+      "check": "feifei-320x568-lv1 training badges"
+    },
+    {
+      "check": "feifei-320x568-lv1 training stats"
+    },
+    {
+      "check": "feifei-320x568-lv1 home no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": [
+        {
+          "tag": "RUBY",
+          "cls": "auto-ruby",
+          "width": 20,
+          "right": 329
+        },
+        {
+          "tag": "RT",
+          "cls": "",
+          "width": 20,
+          "right": 329
+        },
+        {
+          "tag": "RUBY",
+          "cls": "auto-ruby",
+          "width": 12,
+          "right": 341
+        },
+        {
+          "tag": "RT",
+          "cls": "",
+          "width": 12,
+          "right": 341
+        },
+        {
+          "tag": "RUBY",
+          "cls": "auto-ruby",
+          "width": 28,
+          "right": 369
+        },
+        {
+          "tag": "RT",
+          "cls": "",
+          "width": 28,
+          "right": 369
+        },
+        {
+          "tag": "RUBY",
+          "cls": "auto-ruby",
+          "width": 16,
+          "right": 385
+        },
+        {
+          "tag": "RT",
+          "cls": "",
+          "width": 20,
+          "right": 389
+        }
+      ]
+    },
+    {
+      "check": "feifei-320x568-lv1 quiz no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "feifei-320x568-lv1 two HUD badges"
+    },
+    {
+      "check": "feifei-320x568-lv1 frozen HUD levels"
+    },
+    {
+      "check": "feifei-320x568-lv1 monster rarity"
+    },
+    {
+      "check": "feifei-320x568-lv1 reduced motion"
+    },
+    {
+      "check": "feifei-320x568-lv1 precompletion chance/allowance",
+      "text": "完成五題後，降服機率 30% · 今日剩 3 次。訂正同樣有效。"
+    },
+    {
+      "check": "feifei-320x568-lv1 answer clickable center unobscured"
+    },
+    {
+      "check": "feifei-320x568-lv1 labeled HP/ATK/DEF"
+    },
+    {
+      "check": "feifei-320x568-lv1 protection and finisher explanation"
+    },
+    {
+      "check": "feifei-320x568-lv1 bestiary no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "feifei-320x568-lv1 thirty monsters"
+    },
+    {
+      "check": "feifei-320x568-lv1 all monster badges"
+    },
+    {
+      "check": "feifei-320x568-lv1 rarity E"
+    },
+    {
+      "check": "feifei-320x568-lv1 rarity D"
+    },
+    {
+      "check": "feifei-320x568-lv1 rarity C"
+    },
+    {
+      "check": "feifei-320x568-lv1 rarity B"
+    },
+    {
+      "check": "feifei-320x568-lv1 rarity A"
+    },
+    {
+      "check": "feifei-320x568-lv1 rarity S"
+    },
+    {
+      "check": "feifei-320x568-lv1 water filter"
+    },
+    {
+      "check": "feifei-320x568-lv1 family filter"
+    },
+    {
+      "check": "feifei-320x568-lv1 form filter"
+    },
+    {
+      "check": "feifei-320x568-lv1 card clickable center unobscured"
+    },
+    {
+      "check": "feifei-320x568-lv1 modal content no overflow"
+    },
+    {
+      "check": "feifei-320x568-lv1 detail stats"
+    },
+    {
+      "check": "feifei-320x568-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "feifei-320x568-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "feifei-320x568-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "feifei-320x568-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "feifei-320x568-lv1 preview/skill intro",
+      "text": "✕NO. 028 · 晶像族冰瀑晶巨像稀有度S級Lv.5野外能力預覽 · Lv.5HP 生命162ATK 攻擊40DEF 防禦17💧 水屬性高階守衛 · Lv.5 起冰藍披甲像凝結的瀑布，巨拳帶著晶亮水紋。出沒地點星晶遺跡夥伴技能冰瀑重擊有效通關多 5 星幣；對戰回復技能多回 5。五行關係剋火 · 被土剋夥伴Lv.5 起的航程會遇見牠。完成五題後有 6% 機會降服。每天前三趟合資格航程各一次；訂正也算。新夥伴從 Lv.1 開始，已有成長會保留。🔊 聽怪物介紹"
+    },
+    {
+      "check": "feifei-320x568-lv1 focus moves into modal"
+    },
+    {
+      "check": "feifei-320x568-lv1 modal blocks background clicks"
+    },
+    {
+      "check": "feifei-320x568-lv1 modal close visible clickable center unobscured"
+    },
+    {
+      "check": "feifei-320x568-lv1 modal audio clickable center unobscured"
+    },
+    {
+      "check": "feifei-320x568-lv1 Escape closes modal"
+    },
+    {
+      "check": "feifei-320x568-lv1 focus restored"
+    },
+    {
+      "check": "feifei-320x568-lv1 close button closes modal"
+    },
+    {
+      "check": "feifei-320x568-lv1 close button restores focus"
+    },
+    {
+      "check": "feifei-320x568-lv1 empty result"
+    },
+    {
+      "check": "feifei-320x568-lv1 reset filters"
+    },
+    {
+      "check": "feifei-320x568-lv1 collection count85"
+    },
+    {
+      "check": "feifei-320x568-lv1 collection badges"
+    },
+    {
+      "check": "feifei-320x568-lv1 collection no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "feifei-390x844-lv5 training badges"
+    },
+    {
+      "check": "feifei-390x844-lv5 training stats"
+    },
+    {
+      "check": "feifei-390x844-lv5 home no horizontal overflow",
+      "viewport": 390,
+      "scroll": 390,
+      "offenders": []
+    },
+    {
+      "check": "feifei-390x844-lv5 quiz no horizontal overflow",
+      "viewport": 390,
+      "scroll": 390,
+      "offenders": []
+    },
+    {
+      "check": "feifei-390x844-lv5 two HUD badges"
+    },
+    {
+      "check": "feifei-390x844-lv5 frozen HUD levels"
+    },
+    {
+      "check": "feifei-390x844-lv5 monster rarity"
+    },
+    {
+      "check": "feifei-390x844-lv5 reduced motion"
+    },
+    {
+      "check": "feifei-390x844-lv5 precompletion chance/allowance",
+      "text": "完成五題後，降服機率 12% · 今日剩 3 次。訂正同樣有效。"
+    },
+    {
+      "check": "feifei-390x844-lv5 answer clickable center unobscured"
+    },
+    {
+      "check": "feifei-390x844-lv5 labeled HP/ATK/DEF"
+    },
+    {
+      "check": "feifei-390x844-lv5 protection and finisher explanation"
+    },
+    {
+      "check": "feifei-390x844-lv5 bestiary no horizontal overflow",
+      "viewport": 390,
+      "scroll": 390,
+      "offenders": []
+    },
+    {
+      "check": "feifei-390x844-lv5 thirty monsters"
+    },
+    {
+      "check": "feifei-390x844-lv5 all monster badges"
+    },
+    {
+      "check": "feifei-390x844-lv5 rarity E"
+    },
+    {
+      "check": "feifei-390x844-lv5 rarity D"
+    },
+    {
+      "check": "feifei-390x844-lv5 rarity C"
+    },
+    {
+      "check": "feifei-390x844-lv5 rarity B"
+    },
+    {
+      "check": "feifei-390x844-lv5 rarity A"
+    },
+    {
+      "check": "feifei-390x844-lv5 rarity S"
+    },
+    {
+      "check": "feifei-390x844-lv5 water filter"
+    },
+    {
+      "check": "feifei-390x844-lv5 family filter"
+    },
+    {
+      "check": "feifei-390x844-lv5 form filter"
+    },
+    {
+      "check": "feifei-390x844-lv5 card clickable center unobscured"
+    },
+    {
+      "check": "feifei-390x844-lv5 modal content no overflow"
+    },
+    {
+      "check": "feifei-390x844-lv5 detail stats"
+    },
+    {
+      "check": "feifei-390x844-lv5 modal keyboard excludes background controls"
+    },
+    {
+      "check": "feifei-390x844-lv5 modal keyboard excludes background controls"
+    },
+    {
+      "check": "feifei-390x844-lv5 modal keyboard excludes background controls"
+    },
+    {
+      "check": "feifei-390x844-lv5 modal keyboard excludes background controls"
+    },
+    {
+      "check": "feifei-390x844-lv5 preview/skill intro",
+      "text": "✕NO. 028 · 晶像族冰瀑晶巨像稀有度S級Lv.5野外能力預覽 · Lv.5HP 生命162ATK 攻擊40DEF 防禦17💧 水屬性高階守衛 · Lv.5 起冰藍披甲像凝結的瀑布，巨拳帶著晶亮水紋。出沒地點星晶遺跡夥伴技能冰瀑重擊有效通關多 5 星幣；對戰回復技能多回 5。五行關係剋火 · 被土剋夥伴Lv.5 起的航程會遇見牠。完成五題後有 6% 機會降服。每天前三趟合資格航程各一次；訂正也算。新夥伴從 Lv.1 開始，已有成長會保留。🔊 聽怪物介紹"
+    },
+    {
+      "check": "feifei-390x844-lv5 focus moves into modal"
+    },
+    {
+      "check": "feifei-390x844-lv5 modal blocks background clicks"
+    },
+    {
+      "check": "feifei-390x844-lv5 modal close visible clickable center unobscured"
+    },
+    {
+      "check": "feifei-390x844-lv5 modal audio clickable center unobscured"
+    },
+    {
+      "check": "feifei-390x844-lv5 Escape closes modal"
+    },
+    {
+      "check": "feifei-390x844-lv5 focus restored"
+    },
+    {
+      "check": "feifei-390x844-lv5 close button closes modal"
+    },
+    {
+      "check": "feifei-390x844-lv5 close button restores focus"
+    },
+    {
+      "check": "feifei-390x844-lv5 empty result"
+    },
+    {
+      "check": "feifei-390x844-lv5 reset filters"
+    },
+    {
+      "check": "feifei-390x844-lv5 collection count85"
+    },
+    {
+      "check": "feifei-390x844-lv5 collection badges"
+    },
+    {
+      "check": "feifei-390x844-lv5 collection no horizontal overflow",
+      "viewport": 390,
+      "scroll": 390,
+      "offenders": []
+    },
+    {
+      "check": "feifei-1440x1000-lv1 training badges"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 training stats"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 home no horizontal overflow",
+      "viewport": 1440,
+      "scroll": 1440,
+      "offenders": []
+    },
+    {
+      "check": "feifei-1440x1000-lv1 quiz no horizontal overflow",
+      "viewport": 1440,
+      "scroll": 1440,
+      "offenders": []
+    },
+    {
+      "check": "feifei-1440x1000-lv1 two HUD badges"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 frozen HUD levels"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 monster rarity"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 reduced motion"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 precompletion chance/allowance",
+      "text": "完成五題後，降服機率 30% · 今日剩 3 次。訂正同樣有效。"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 answer clickable center unobscured"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 labeled HP/ATK/DEF"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 protection and finisher explanation"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 bestiary no horizontal overflow",
+      "viewport": 1440,
+      "scroll": 1440,
+      "offenders": []
+    },
+    {
+      "check": "feifei-1440x1000-lv1 thirty monsters"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 all monster badges"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 rarity E"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 rarity D"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 rarity C"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 rarity B"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 rarity A"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 rarity S"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 water filter"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 family filter"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 form filter"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 card clickable center unobscured"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 modal content no overflow"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 detail stats"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 modal keyboard excludes background controls"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 preview/skill intro",
+      "text": "✕NO. 028 · 晶像族冰瀑晶巨像稀有度S級Lv.5野外能力預覽 · Lv.5HP 生命162ATK 攻擊40DEF 防禦17💧 水屬性高階守衛 · Lv.5 起冰藍披甲像凝結的瀑布，巨拳帶著晶亮水紋。出沒地點星晶遺跡夥伴技能冰瀑重擊有效通關多 5 星幣；對戰回復技能多回 5。五行關係剋火 · 被土剋夥伴Lv.5 起的航程會遇見牠。完成五題後有 6% 機會降服。每天前三趟合資格航程各一次；訂正也算。新夥伴從 Lv.1 開始，已有成長會保留。🔊 聽怪物介紹"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 focus moves into modal"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 modal blocks background clicks"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 modal close visible clickable center unobscured"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 modal audio clickable center unobscured"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 Escape closes modal"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 focus restored"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 close button closes modal"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 close button restores focus"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 empty result"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 reset filters"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 collection count85"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 collection badges"
+    },
+    {
+      "check": "feifei-1440x1000-lv1 collection no horizontal overflow",
+      "viewport": 1440,
+      "scroll": 1440,
+      "offenders": []
+    },
+    {
+      "check": "joined learning won"
+    },
+    {
+      "check": "joined learning success remains explicit"
+    },
+    {
+      "check": "joined successful learning title"
+    },
+    {
+      "check": "joined result rate/remaining"
+    },
+    {
+      "check": "joined 320px capture text wraps without clipping"
+    },
+    {
+      "check": "joined result no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "joined distinct result explanation",
+      "text": "金翼天隼加入了！稀有度B級Lv.1新夥伴已加入卡冊，從 Lv.1 開始陪你成長。選牠陪練本次機率 12% · 今日剩 2 次降服機會 · 結果已存到雲端"
+    },
+    {
+      "check": "joined recruit level"
+    },
+    {
+      "check": "joined equip clickable center unobscured"
+    },
+    {
+      "check": "joined equip command updates state"
+    },
+    {
+      "check": "joined immediate selected UI"
+    },
+    {
+      "check": "joined home selected recruit"
+    },
+    {
+      "check": "joined reload preserves outcome"
+    },
+    {
+      "check": "joined reload UI"
+    },
+    {
+      "check": "duplicate learning won"
+    },
+    {
+      "check": "duplicate learning success remains explicit"
+    },
+    {
+      "check": "duplicate successful learning title"
+    },
+    {
+      "check": "duplicate result rate/remaining"
+    },
+    {
+      "check": "duplicate 320px capture text wraps without clipping"
+    },
+    {
+      "check": "duplicate result no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "duplicate distinct result explanation",
+      "text": "金翼天隼又來作伴了！稀有度B級Lv.4同種夥伴卡片 +1，本次結算共 2 張；既有等級與經驗值保留。選牠陪練本次機率 12% · 今日剩 2 次降服機會 · 結果已存到雲端"
+    },
+    {
+      "check": "duplicate recruit level"
+    },
+    {
+      "check": "duplicate equip clickable center unobscured"
+    },
+    {
+      "check": "duplicate equip command updates state"
+    },
+    {
+      "check": "duplicate immediate selected UI"
+    },
+    {
+      "check": "duplicate home selected recruit"
+    },
+    {
+      "check": "duplicate reload preserves outcome"
+    },
+    {
+      "check": "duplicate reload UI"
+    },
+    {
+      "check": "escaped learning won"
+    },
+    {
+      "check": "escaped learning success remains explicit"
+    },
+    {
+      "check": "escaped successful learning title"
+    },
+    {
+      "check": "escaped result rate/remaining"
+    },
+    {
+      "check": "escaped 320px capture text wraps without clipping"
+    },
+    {
+      "check": "escaped result no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "escaped distinct result explanation",
+      "text": "航程完成，牠還想繼續冒險這次沒有加入，下次再見。你的通關、經驗值與獎勵都已保留。本次機率 12% · 今日剩 2 次降服機會 · 結果已存到雲端"
+    },
+    {
+      "check": "escaped reload preserves outcome"
+    },
+    {
+      "check": "escaped reload UI"
+    },
+    {
+      "check": "daily-limit learning won"
+    },
+    {
+      "check": "daily-limit learning success remains explicit"
+    },
+    {
+      "check": "daily-limit successful learning title"
+    },
+    {
+      "check": "daily-limit result rate/remaining"
+    },
+    {
+      "check": "daily-limit 320px capture text wraps without clipping"
+    },
+    {
+      "check": "daily-limit result no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "daily-limit distinct result explanation",
+      "text": "五題完成，努力已記錄今天三次降服機會已用完，明天再來交新朋友。本次機率 12% · 今日剩 0 次降服機會 · 結果已存到雲端"
+    },
+    {
+      "check": "daily-limit reload preserves outcome"
+    },
+    {
+      "check": "daily-limit reload UI"
+    },
+    {
+      "check": "legacy learning won"
+    },
+    {
+      "check": "legacy learning success remains explicit"
+    },
+    {
+      "check": "legacy successful learning title"
+    },
+    {
+      "check": "legacy result rate/remaining"
+    },
+    {
+      "check": "legacy 320px capture text wraps without clipping"
+    },
+    {
+      "check": "legacy result no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "legacy distinct result explanation",
+      "text": "五題完成，努力已記錄這趟沿用先前的戰鬥規則，下一趟開始就能降服怪物。本次機率 12% · 今日剩 3 次降服機會 · 結果已存到雲端"
+    },
+    {
+      "check": "legacy reload preserves outcome"
+    },
+    {
+      "check": "legacy reload UI"
+    },
+    {
+      "check": "practice learning won"
+    },
+    {
+      "check": "practice successful learning title"
+    },
+    {
+      "check": "practice result rate/remaining"
+    },
+    {
+      "check": "practice 320px capture text wraps without clipping"
+    },
+    {
+      "check": "practice result no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "practice distinct result explanation",
+      "text": "五題完成，努力已記錄練習航程不使用降服機會。本次機率 12% · 今日剩 3 次降服機會 · 結果已存到雲端"
+    },
+    {
+      "check": "practice reload preserves outcome"
+    },
+    {
+      "check": "practice reload UI"
+    },
+    {
+      "check": "old-day learning won"
+    },
+    {
+      "check": "old-day learning success remains explicit"
+    },
+    {
+      "check": "old-day successful learning title"
+    },
+    {
+      "check": "old-day result rate/remaining"
+    },
+    {
+      "check": "old-day 320px capture text wraps without clipping"
+    },
+    {
+      "check": "old-day result no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": [
+        {
+          "tag": "RUBY",
+          "cls": "auto-ruby",
+          "width": 28,
+          "right": 335
+        },
+        {
+          "tag": "RT",
+          "cls": "",
+          "width": 28,
+          "right": 335
+        },
+        {
+          "tag": "RUBY",
+          "cls": "auto-ruby",
+          "width": 16,
+          "right": 351
+        },
+        {
+          "tag": "RT",
+          "cls": "",
+          "width": 20,
+          "right": 355
+        }
+      ]
+    },
+    {
+      "check": "old-day distinct result explanation",
+      "text": "五題完成，努力已記錄這是先前日期的航程，開始新航程才有降服機會。本次機率 12% · 今日剩 3 次降服機會 · 結果已存到雲端"
+    },
+    {
+      "check": "old-day reload preserves outcome"
+    },
+    {
+      "check": "old-day reload UI"
+    },
+    {
+      "check": "capacity learning won"
+    },
+    {
+      "check": "capacity learning success remains explicit"
+    },
+    {
+      "check": "capacity successful learning title"
+    },
+    {
+      "check": "capacity result rate/remaining"
+    },
+    {
+      "check": "capacity 320px capture text wraps without clipping"
+    },
+    {
+      "check": "capacity result no horizontal overflow",
+      "viewport": 320,
+      "scroll": 320,
+      "offenders": []
+    },
+    {
+      "check": "capacity distinct result explanation",
+      "text": "五題完成，努力已記錄這種夥伴的卡片已達上限，這次沒有增加卡片。本次機率 12% · 今日剩 2 次降服機會 · 結果已存到雲端"
+    },
+    {
+      "check": "capacity reload preserves outcome"
+    },
+    {
+      "check": "capacity reload UI"
+    },
+    {
+      "check": "joined learning won"
+    },
+    {
+      "check": "joined learning success remains explicit"
+    },
+    {
+      "check": "joined successful learning title"
+    },
+    {
+      "check": "joined result rate/remaining"
+    },
+    {
+      "check": "joined 390px capture text wraps without clipping"
+    },
+    {
+      "check": "joined result no horizontal overflow",
+      "viewport": 390,
+      "scroll": 390,
+      "offenders": []
+    },
+    {
+      "check": "joined distinct result explanation",
+      "text": "金翼天隼加入了！稀有度B級Lv.1新夥伴已加入卡冊，從 Lv.1 開始陪你成長。選牠陪練本次機率 12% · 今日剩 2 次降服機會 · 結果已存到雲端"
+    },
+    {
+      "check": "joined recruit level"
+    },
+    {
+      "check": "joined equip clickable center unobscured"
+    },
+    {
+      "check": "joined equip command updates state"
+    },
+    {
+      "check": "joined immediate selected UI"
+    },
+    {
+      "check": "joined home selected recruit"
+    },
+    {
+      "check": "joined reload preserves outcome"
+    },
+    {
+      "check": "joined reload UI"
+    },
+    {
+      "check": "duplicate learning won"
+    },
+    {
+      "check": "duplicate learning success remains explicit"
+    },
+    {
+      "check": "duplicate successful learning title"
+    },
+    {
+      "check": "duplicate result rate/remaining"
+    },
+    {
+      "check": "duplicate 390px capture text wraps without clipping"
+    },
+    {
+      "check": "duplicate result no horizontal overflow",
+      "viewport": 390,
+      "scroll": 390,
+      "offenders": []
+    },
+    {
+      "check": "duplicate distinct result explanation",
+      "text": "金翼天隼又來作伴了！稀有度B級Lv.4同種夥伴卡片 +1，本次結算共 2 張；既有等級與經驗值保留。選牠陪練本次機率 12% · 今日剩 2 次降服機會 · 結果已存到雲端"
+    },
+    {
+      "check": "duplicate recruit level"
+    },
+    {
+      "check": "duplicate equip clickable center unobscured"
+    },
+    {
+      "check": "duplicate equip command updates state"
+    },
+    {
+      "check": "duplicate immediate selected UI"
+    },
+    {
+      "check": "duplicate home selected recruit"
+    },
+    {
+      "check": "duplicate reload preserves outcome"
+    },
+    {
+      "check": "duplicate reload UI"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced hint clickable center unobscured"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q1 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q1 wrong protects HP"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q1 correction available"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q1 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced no premature capture q1"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q2 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q2 wrong protects HP"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q2 correction available"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q2 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced no premature capture q2"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q3 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q3 wrong protects HP"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q3 correction available"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q3 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced no premature capture q3"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q4 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q4 wrong protects HP"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q4 correction available"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q4 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced no premature capture q4"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q5 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q5 wrong protects HP"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q5 correction available"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced q5 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced assisted/corrected capture eligible"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced fifth finisher"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced learning success"
+    },
+    {
+      "check": "five-answer-qingqing-lv1-reduced no horizontal overflow",
+      "viewport": 390,
+      "scroll": 390,
+      "offenders": []
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion hint clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q1 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q1 wrong protects HP"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q1 correction available"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q1 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion no premature capture q1"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q2 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q2 wrong protects HP"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q2 correction available"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q2 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion no premature capture q2"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q3 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q3 wrong protects HP"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q3 correction available"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q3 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion no premature capture q3"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q4 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q4 wrong protects HP"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q4 correction available"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q4 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion no premature capture q4"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q5 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q5 wrong protects HP"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q5 correction available"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion q5 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion assisted/corrected capture eligible"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion fifth finisher"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion learning success"
+    },
+    {
+      "check": "five-answer-feifei-lv1-motion no horizontal overflow",
+      "viewport": 390,
+      "scroll": 390,
+      "offenders": []
+    },
+    {
+      "check": "five-answer-feifei-lv1-early hint clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q1 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q1 wrong protects HP"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q1 correction available"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q1 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early no premature capture q1"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q2 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q2 wrong protects HP"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q2 correction available"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q2 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early no premature capture q2"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q3 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q3 wrong protects HP"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q3 correction available"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q3 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early no premature capture q3"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q4 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q4 wrong protects HP"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q4 correction available"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q4 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early no premature capture q4"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early early defeat explanation"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q5 wrong clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q5 wrong protects HP"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q5 correction available"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early q5 correct clickable center unobscured"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early assisted/corrected capture eligible"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early fifth finisher"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early learning success"
+    },
+    {
+      "check": "five-answer-feifei-lv1-early no horizontal overflow",
+      "viewport": 390,
+      "scroll": 390,
+      "offenders": []
+    },
+    {
+      "check": "recruit gains XP50"
+    },
+    {
+      "check": "run badge remains frozen Lv1"
+    },
+    {
+      "check": "earned growth meter reaches Lv2"
+    },
+    {
+      "check": "training recruit Lv2"
+    },
+    {
+      "check": "collection finds new recruit"
+    },
+    {
+      "check": "collection level grows"
+    },
+    {
+      "check": "recruit picker clickable center unobscured"
+    },
+    {
+      "check": "battle picker recruit level2"
+    }
+  ],
+  "issues": [
+    {
+      "check": "practice learning success remains explicit"
+    },
+    {
+      "check": "growth-arena",
+      "error": "Locator.wait_for: Error: strict mode violation: locator(\".duel-health\") resolved to 2 elements:\n    1) <div class=\"duel-health side-0 is-turn\">…</div> aka get_by_text(\"金ㄐㄧㄣ羽ㄩˇ雲ㄩㄣˊ靈ㄌㄧㄥˊ🪙 金ㄐㄧㄣ稀ㄒㄧ有ㄧㄡˇ度ㄉㄨˋE級ㄐㄧˊLv.2ATK 24 · DEF 9108 /\")\n    2) <div class=\"duel-health side-1 \">…</div> aka get_by_text(\"潮ㄔㄠˊ光ㄍㄨㄤ獸ㄕㄡˋ💧 水ㄕㄨㄟˇ稀ㄒㄧ有ㄧㄡˇ度ㄉㄨˋE級ㄐㄧˊLv.1ATK 22 · DEF 8100 /\")\n\nCall log:\n  - waiting for locator(\".duel-health\") to be visible\n",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/scripts/verify-creature-taming.py\", line 50, in run_case\n    try:fn();print(name,'DONE',flush=True)\n        ~~^^\n  File \"/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/scripts/verify-creature-taming.py\", line 158, in <lambda>\n    run_case('growth-arena',lambda:growth_arena(browser))\n                                   ~~~~~~~~~~~~^^^^^^^^^\n  File \"/Users/dennistclin/.codex/worktrees/homepage-animations/星潮網站開發/scripts/verify-creature-taming.py\", line 147, in growth_arena\n    page.locator('.family-nav button').nth(5).click();page.locator('.pet-picker').wait_for();buttons=page.locator('.pet-picker button');target=next(x for x in buttons.all() if name in plain(x));reachable(target,'recruit picker');target.click();check(target.locator('.creature-level').inner_text()=='Lv.2','battle picker recruit level2');page.locator('.f-panel > .f-primary').click();page.locator('.duel-health').wait_for();meter=page.locator('.duel-health.side-0 [role=meter]');check(meter.get_attribute('aria-valuemax')=='108','arena actual maxHP108',max=meter.get_attribute('aria-valuemax'));check(meter.get_attribute('aria-valuenow')=='108','arena starts full actualHP');check(page.locator('.duel-health.side-0 .creature-level').inner_text()=='Lv.2','arena recruit badge');reachable(page.locator('.battle-controls button').first,'arena attack');page.locator('.duel-health.side-0').scroll_into_view_if_needed();snap(page,'recruit-arena-actual-maxhp');overflow(page,'recruit arena');observations.append({'growthCommands':calls})\n                                                                                                                                                                                                                                                                                                                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/private/tmp/star-tide-hero-qa/lib/python3.14/site-packages/playwright/sync_api/_generated.py\", line 13635, in wait_for\n    self._sync(\n    ~~~~~~~~~~^\n        self._impl_obj.wait_for(state=state, timeout=to_milliseconds(timeout))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/private/tmp/star-tide-hero-qa/lib/python3.14/site-packages/playwright/_impl/_sync_base.py\", line 111, in _sync\n    return task.result()\n           ~~~~~~~~~~~^^\n  File \"/private/tmp/star-tide-hero-qa/lib/python3.14/site-packages/playwright/_impl/_locator.py\", line 767, in wait_for\n    await self._frame.wait_for_selector(\n        self._selector, strict=True, timeout=timeout, state=state\n    )\n  File \"/private/tmp/star-tide-hero-qa/lib/python3.14/site-packages/playwright/_impl/_frame.py\", line 395, in wait_for_selector\n    await self._channel.send(\n        \"waitForSelector\", self._timeout, locals_to_params(locals())\n    )\n  File \"/private/tmp/star-tide-hero-qa/lib/python3.14/site-packages/playwright/_impl/_connection.py\", line 78, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<3 lines>...\n    )\n    ^\n  File \"/private/tmp/star-tide-hero-qa/lib/python3.14/site-packages/playwright/_impl/_connection.py\", line 636, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.Error: Locator.wait_for: Error: strict mode violation: locator(\".duel-health\") resolved to 2 elements:\n    1) <div class=\"duel-health side-0 is-turn\">…</div> aka get_by_text(\"金ㄐㄧㄣ羽ㄩˇ雲ㄩㄣˊ靈ㄌㄧㄥˊ🪙 金ㄐㄧㄣ稀ㄒㄧ有ㄧㄡˇ度ㄉㄨˋE級ㄐㄧˊLv.2ATK 24 · DEF 9108 /\")\n    2) <div class=\"duel-health side-1 \">…</div> aka get_by_text(\"潮ㄔㄠˊ光ㄍㄨㄤ獸ㄕㄡˋ💧 水ㄕㄨㄟˇ稀ㄒㄧ有ㄧㄡˇ度ㄉㄨˋE級ㄐㄧˊLv.1ATK 22 · DEF 8100 /\")\n\nCall log:\n  - waiting for locator(\".duel-health\") to be visible\n\n"
+    }
+  ],
+  "pageErrors": [],
+  "observations": [
+    {
+      "mode": "joined",
+      "outcome": {
+        "monster": "cloud-warden-metal",
+        "chance": 12,
+        "outcome": "joined",
+        "copies": 1
+      },
+      "commands": [
+        {
+          "type": "equip",
+          "player": "feifei",
+          "pet": "cloud-warden-metal"
+        }
+      ]
+    },
+    {
+      "mode": "duplicate",
+      "outcome": {
+        "monster": "cloud-warden-metal",
+        "chance": 12,
+        "outcome": "duplicate",
+        "copies": 2
+      },
+      "commands": [
+        {
+          "type": "equip",
+          "player": "feifei",
+          "pet": "cloud-warden-metal"
+        }
+      ]
+    },
+    {
+      "mode": "escaped",
+      "outcome": {
+        "monster": "cloud-warden-metal",
+        "chance": 12,
+        "outcome": "escaped"
+      },
+      "commands": []
+    },
+    {
+      "mode": "daily-limit",
+      "outcome": {
+        "monster": "cloud-warden-metal",
+        "chance": 12,
+        "outcome": "unavailable",
+        "reason": "daily-limit"
+      },
+      "commands": []
+    },
+    {
+      "mode": "legacy",
+      "outcome": {
+        "monster": "cloud-warden-metal",
+        "chance": 12,
+        "outcome": "unavailable",
+        "reason": "legacy"
+      },
+      "commands": []
+    },
+    {
+      "mode": "practice",
+      "outcome": {
+        "monster": "cloud-warden-metal",
+        "chance": 12,
+        "outcome": "unavailable",
+        "reason": "practice"
+      },
+      "commands": [
+        {
+          "type": "start",
+          "player": "feifei",
+          "course": "math",
+          "practice": false
+        },
+        {
+          "type": "start",
+          "player": "feifei",
+          "course": "math",
+          "practice": false
+        }
+      ]
+    },
+    {
+      "mode": "old-day",
+      "outcome": {
+        "monster": "cloud-warden-metal",
+        "chance": 12,
+        "outcome": "unavailable",
+        "reason": "old-day"
+      },
+      "commands": [
+        {
+          "type": "start",
+          "player": "feifei",
+          "course": "math",
+          "practice": false
+        },
+        {
+          "type": "start",
+          "player": "feifei",
+          "course": "math",
+          "practice": false
+        }
+      ]
+    },
+    {
+      "mode": "capacity",
+      "outcome": {
+        "monster": "cloud-warden-metal",
+        "chance": 12,
+        "outcome": "unavailable",
+        "reason": "capacity"
+      },
+      "commands": []
+    },
+    {
+      "mode": "joined",
+      "outcome": {
+        "monster": "cloud-warden-metal",
+        "chance": 12,
+        "outcome": "joined",
+        "copies": 1
+      },
+      "commands": [
+        {
+          "type": "equip",
+          "player": "feifei",
+          "pet": "cloud-warden-metal"
+        }
+      ]
+    },
+    {
+      "mode": "duplicate",
+      "outcome": {
+        "monster": "cloud-warden-metal",
+        "chance": 12,
+        "outcome": "duplicate",
+        "copies": 2
+      },
+      "commands": [
+        {
+          "type": "equip",
+          "player": "feifei",
+          "pet": "cloud-warden-metal"
+        }
+      ]
+    },
+    {
+      "journey": "five-answer-qingqing-lv1-reduced",
+      "fourthAnswerHP": 28
+    },
+    {
+      "journey": "five-answer-qingqing-lv1-reduced",
+      "hpAfterCorrectAnswers": [
+        82,
+        64,
+        46,
+        28,
+        0
+      ],
+      "commands": [
+        {
+          "type": "hint",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 0
+        },
+        {
+          "type": "answer",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 0,
+          "choice": 1
+        },
+        {
+          "type": "answer",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 0,
+          "choice": 0
+        },
+        {
+          "type": "next",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 0
+        },
+        {
+          "type": "answer",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 1,
+          "choice": 1
+        },
+        {
+          "type": "answer",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 1,
+          "choice": 0
+        },
+        {
+          "type": "next",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 1
+        },
+        {
+          "type": "answer",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 2,
+          "choice": 0
+        },
+        {
+          "type": "answer",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 2,
+          "choice": 2
+        },
+        {
+          "type": "next",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 2
+        },
+        {
+          "type": "answer",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 3,
+          "choice": 0
+        },
+        {
+          "type": "answer",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 3,
+          "choice": 2
+        },
+        {
+          "type": "next",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 3
+        },
+        {
+          "type": "answer",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 4,
+          "choice": 2
+        },
+        {
+          "type": "answer",
+          "player": "qingqing",
+          "runId": "browser-taming-joined-1",
+          "index": 4,
+          "choice": 1
+        }
+      ]
+    },
+    {
+      "journey": "five-answer-feifei-lv1-motion",
+      "fourthAnswerHP": 28
+    },
+    {
+      "journey": "five-answer-feifei-lv1-motion",
+      "hpAfterCorrectAnswers": [
+        82,
+        64,
+        46,
+        28,
+        0
+      ],
+      "commands": [
+        {
+          "type": "hint",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 0
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 0,
+          "choice": 3
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 0,
+          "choice": 2
+        },
+        {
+          "type": "next",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 0
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 1,
+          "choice": 2
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 1,
+          "choice": 1
+        },
+        {
+          "type": "next",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 1
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 2,
+          "choice": 3
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 2,
+          "choice": 2
+        },
+        {
+          "type": "next",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 2
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 3,
+          "choice": 2
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 3,
+          "choice": 1
+        },
+        {
+          "type": "next",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 3
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 4,
+          "choice": 0
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 4,
+          "choice": 3
+        }
+      ]
+    },
+    {
+      "journey": "five-answer-feifei-lv1-early",
+      "fourthAnswerHP": 0
+    },
+    {
+      "journey": "five-answer-feifei-lv1-early",
+      "hpAfterCorrectAnswers": [
+        68,
+        36,
+        4,
+        0,
+        0
+      ],
+      "commands": [
+        {
+          "type": "hint",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 0
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 0,
+          "choice": 3
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 0,
+          "choice": 2
+        },
+        {
+          "type": "next",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 0
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 1,
+          "choice": 2
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 1,
+          "choice": 1
+        },
+        {
+          "type": "next",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 1
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 2,
+          "choice": 3
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 2,
+          "choice": 2
+        },
+        {
+          "type": "next",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 2
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 3,
+          "choice": 2
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 3,
+          "choice": 1
+        },
+        {
+          "type": "next",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 3
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 4,
+          "choice": 0
+        },
+        {
+          "type": "answer",
+          "player": "feifei",
+          "runId": "browser-taming-joined-1",
+          "index": 4,
+          "choice": 3
+        }
+      ]
+    }
+  ]
+}

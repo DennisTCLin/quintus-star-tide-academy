@@ -1,0 +1,26 @@
+{
+  "base": "457f4c0",
+  "branch": "codex/jay-grade5-math-extra",
+  "newMathQuestions": 20,
+  "grade5Totals": {
+    "math": 80,
+    "chinese": 20,
+    "english": 20,
+    "science": 20,
+    "social": 20,
+    "total": 160
+  },
+  "sourceSha256": "dc948a2a51224e78a8782cc4870f79e40dc2f3c77011745b0541e4e7ac3c679f",
+  "independentContentReview": "20/20 PASS",
+  "tests": {
+    "passed": 815,
+    "skippedDatabaseTests": 175
+  },
+  "focusedTestsPassed": 26,
+  "build": "PASS",
+  "existingQuestionApprovalsPreserved": 4495,
+  "existingTemplateApprovalsPreserved": 42,
+  "existingPronunciationChanges": 0,
+  "databaseOrAccountMutations": false,
+  "deployed": false
+}

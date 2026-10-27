@@ -1,0 +1,533 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "viewport": [
+        320,
+        568
+      ],
+      "cardHeight": 176.1875,
+      "mapHeight": 388,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "viewport": [
+        390,
+        744
+      ],
+      "cardHeight": 176.1875,
+      "mapHeight": 388,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "viewport": [
+        820,
+        1180
+      ],
+      "cardHeight": 134,
+      "mapHeight": 439.171875,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "viewport": [
+        1180,
+        820
+      ],
+      "cardHeight": 134,
+      "mapHeight": 628.359375,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "viewport": [
+        1440,
+        900
+      ],
+      "cardHeight": 134,
+      "mapHeight": 684.65625,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "viewport": [
+        812,
+        375
+      ],
+      "cardHeight": 134,
+      "mapHeight": 434.671875,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "viewport": [
+        320,
+        568
+      ],
+      "cardHeight": 197.1875,
+      "mapHeight": 436,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "viewport": [
+        390,
+        744
+      ],
+      "cardHeight": 197.1875,
+      "mapHeight": 436,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "viewport": [
+        820,
+        1180
+      ],
+      "cardHeight": 134,
+      "mapHeight": 439.171875,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "viewport": [
+        1180,
+        820
+      ],
+      "cardHeight": 134,
+      "mapHeight": 628.359375,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "viewport": [
+        1440,
+        900
+      ],
+      "cardHeight": 134,
+      "mapHeight": 684.65625,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "viewport": [
+        812,
+        375
+      ],
+      "cardHeight": 134,
+      "mapHeight": 434.671875,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "viewport": [
+        320,
+        568
+      ],
+      "cardHeight": 176.1875,
+      "mapHeight": 388,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "viewport": [
+        390,
+        744
+      ],
+      "cardHeight": 176.1875,
+      "mapHeight": 388,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "viewport": [
+        820,
+        1180
+      ],
+      "cardHeight": 134,
+      "mapHeight": 439.171875,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "viewport": [
+        1180,
+        820
+      ],
+      "cardHeight": 134,
+      "mapHeight": 628.359375,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "viewport": [
+        1440,
+        900
+      ],
+      "cardHeight": 134,
+      "mapHeight": 684.65625,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "viewport": [
+        812,
+        375
+      ],
+      "cardHeight": 134,
+      "mapHeight": 434.671875,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "viewport": [
+        320,
+        568
+      ],
+      "cardHeight": 176.1875,
+      "mapHeight": 388,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "viewport": [
+        390,
+        744
+      ],
+      "cardHeight": 176.1875,
+      "mapHeight": 388,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "viewport": [
+        820,
+        1180
+      ],
+      "cardHeight": 134,
+      "mapHeight": 439.171875,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "viewport": [
+        1180,
+        820
+      ],
+      "cardHeight": 134,
+      "mapHeight": 628.359375,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "viewport": [
+        1440,
+        900
+      ],
+      "cardHeight": 134,
+      "mapHeight": 684.65625,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "viewport": [
+        812,
+        375
+      ],
+      "cardHeight": 134,
+      "mapHeight": 434.671875,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "viewport": [
+        320,
+        568
+      ],
+      "cardHeight": 176.1875,
+      "mapHeight": 388,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "viewport": [
+        390,
+        744
+      ],
+      "cardHeight": 176.1875,
+      "mapHeight": 388,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "viewport": [
+        820,
+        1180
+      ],
+      "cardHeight": 134,
+      "mapHeight": 439.171875,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "viewport": [
+        1180,
+        820
+      ],
+      "cardHeight": 134,
+      "mapHeight": 628.359375,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "viewport": [
+        1440,
+        900
+      ],
+      "cardHeight": 134,
+      "mapHeight": 684.65625,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "viewport": [
+        812,
+        375
+      ],
+      "cardHeight": 134,
+      "mapHeight": 434.671875,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "viewport": [
+        320,
+        568
+      ],
+      "cardHeight": 212.109375,
+      "mapHeight": 455.59375,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "viewport": [
+        390,
+        744
+      ],
+      "cardHeight": 212.109375,
+      "mapHeight": 455.59375,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "viewport": [
+        820,
+        1180
+      ],
+      "cardHeight": 136.375,
+      "mapHeight": 439.171875,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "viewport": [
+        1180,
+        820
+      ],
+      "cardHeight": 136.375,
+      "mapHeight": 628.359375,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "viewport": [
+        1440,
+        900
+      ],
+      "cardHeight": 136.375,
+      "mapHeight": 684.65625,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "viewport": [
+        812,
+        375
+      ],
+      "cardHeight": 136.375,
+      "mapHeight": 434.671875,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "viewport": [
+        320,
+        568
+      ],
+      "cardHeight": 176.1875,
+      "mapHeight": 388,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "viewport": [
+        390,
+        744
+      ],
+      "cardHeight": 176.1875,
+      "mapHeight": 388,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "viewport": [
+        820,
+        1180
+      ],
+      "cardHeight": 134,
+      "mapHeight": 439.171875,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "viewport": [
+        1180,
+        820
+      ],
+      "cardHeight": 134,
+      "mapHeight": 628.359375,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "viewport": [
+        1440,
+        900
+      ],
+      "cardHeight": 134,
+      "mapHeight": 684.65625,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "viewport": [
+        812,
+        375
+      ],
+      "cardHeight": 134,
+      "mapHeight": 434.671875,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "viewport": [
+        320,
+        568
+      ],
+      "cardHeight": 176.1875,
+      "mapHeight": 388,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "viewport": [
+        390,
+        744
+      ],
+      "cardHeight": 176.1875,
+      "mapHeight": 388,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "viewport": [
+        820,
+        1180
+      ],
+      "cardHeight": 134,
+      "mapHeight": 439.171875,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "viewport": [
+        1180,
+        820
+      ],
+      "cardHeight": 134,
+      "mapHeight": 628.359375,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "viewport": [
+        1440,
+        900
+      ],
+      "cardHeight": 134,
+      "mapHeight": 684.65625,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "viewport": [
+        812,
+        375
+      ],
+      "cardHeight": 134,
+      "mapHeight": 434.671875,
+      "pass": true
+    }
+  ],
+  "errors": []
+}

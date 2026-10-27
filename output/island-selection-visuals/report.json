@@ -1,0 +1,52 @@
+{
+  "status": "published_verified",
+  "base": "ebda307",
+  "route": "Hyper Relay; root sole writer; read-only explorer and verifier",
+  "changes": [
+    "Compact illustrated journey with actual question counts and guarded resume",
+    "Higgsfield 16192-byte text-free plaque reused across five islands; native subject labels",
+    "Grade-two scoped ruby from course readings; first-grade island imagery and listen explanation",
+    "Mobile 2-column island artwork; tablet/desktop existing panorama; current location marker",
+    "Existing animation eligibility gate reused for active-island float",
+    "Home floating companion removed in favor of existing normal-flow entry; focus restored on close"
+  ],
+  "checks": {
+    "build": "PASS",
+    "unitPassed": 796,
+    "unitSkipped": 174,
+    "layoutChecks": 48,
+    "engines": [
+      "Chromium",
+      "WebKit"
+    ],
+    "interactionFlows": 2,
+    "independentReview": "PASS after label-in-name fixes; browser focus check passed after review"
+  },
+  "limits": [
+    "Physical iPad not operated",
+    "No measured FPS or battery claim",
+    "New UI does not change capture odds, rewards, course mappings, timers or progress"
+  ],
+  "higgsfield": {
+    "job": "d8322619-d5e2-4fd1-9f8b-a6ef281a34d8",
+    "model": "gpt_image_2_5",
+    "asset": "public/assets/subject-islands/higgsfield-plaque-v1.webp",
+    "bytes": 16192,
+    "derivative": "Crop empty surrounding background and resize WebP; no generated text used"
+  },
+  "pronunciationSources": [
+    "https://dict.concised.moe.edu.tw/dictView.jsp?ID=21716"
+  ],
+  "rollback": "Revert this isolated UI commit; no database migration",
+  "runtime": "b06d0acb05ac0184c38e3d54aa3665fb4c115210",
+  "deployment": "0d52b5c0-b5ff-46c7-9bd6-0525e59b9c2a",
+  "production": {
+    "railway": "SUCCESS",
+    "health": "PASS",
+    "indexMatches": true,
+    "matchingAssets": 50,
+    "preservedAssets": 1752,
+    "anonymousWebKitViewports": 2,
+    "note": "Initial public-file read timed out; complete rerun passed all 50 without further retries."
+  }
+}

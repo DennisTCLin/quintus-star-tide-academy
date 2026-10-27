@@ -1,0 +1,222 @@
+{
+  "environment": "local real PostgreSQL, synthetic QA family only",
+  "observations": [
+    {
+      "case": "320-grade2-max-stock-pending",
+      "observed": {
+        "ribbon": {
+          "bottom": 522.59375,
+          "height": 190.84375,
+          "left": 12,
+          "right": 308,
+          "top": 331.75,
+          "width": 296,
+          "x": 12,
+          "y": 331.75
+        },
+        "rubyClipped": 0,
+        "scrollWidth": 320,
+        "stocks": [
+          {
+            "scroll": 79,
+            "width": 79
+          },
+          {
+            "scroll": 78,
+            "width": 78
+          },
+          {
+            "scroll": 78,
+            "width": 78
+          }
+        ],
+        "viewport": 320
+      }
+    },
+    {
+      "case": "320-result-reload-reduced-motion",
+      "observed": {
+        "actions": [
+          "查看領地空間 →",
+          "休息一下",
+          "繼續學習"
+        ],
+        "overflow": false,
+        "page": "family-app grade-2 quiz-active quiz-complete reduce-motion ",
+        "progress": "4",
+        "receipt": "本趟計入 5 題 · 獲得 1 份建材靈木 +20雲石 +12星砂 +6已計入你的建材；待入庫數量顯示在上方。這一份也可能包含先前累積的題目。"
+      }
+    },
+    {
+      "case": "320-full-land-keyboard-goal-entry",
+      "observed": {
+        "expansion": "讓我們的家長大雙翼城堡長出兩側城翼，多 8 塊土地。任一夥伴練到 Lv.2，就能免費擴建。潮光獸的成長已達成！擴建我的家不用花建材。擴建後，空間永久保留。",
+        "focus": "territory-expansion",
+        "outline": "solid",
+        "view": "城ㄔㄥˊ堡ㄅㄠˇ內ㄋㄟˋ部ㄅㄨˋ"
+      }
+    },
+    {
+      "case": "390-switch-profile-ready-goal-space-key",
+      "observed": {
+        "confirmEnabled": true,
+        "focus": "territory-inspector",
+        "inspector": "靈木林場",
+        "overflow": false,
+        "selected": "土地 2，空地"
+      }
+    },
+    {
+      "case": "390-locked-goal",
+      "observed": {
+        "button": [
+          {
+            "disabled": true,
+            "text": "領地 6 級解鎖"
+          }
+        ],
+        "focus": "territory-inspector",
+        "inspector": "雲上學院",
+        "overflow": false
+      }
+    },
+    {
+      "case": "390-unopened-pending",
+      "observed": {
+        "goal": "我的目標 · 靈木林場先開啟領地，已獲得的建材會自動入庫。",
+        "overflow": false,
+        "pending": "待入庫：靈木 20、雲石 12、星砂 6。開啟領地後存入。",
+        "stocks": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    {
+      "case": "goal-navigation-no-economy-write",
+      "observed": {
+        "revision": 0,
+        "commandReceipts": 0,
+        "source": "local PostgreSQL fixture audit"
+      }
+    },
+    {
+      "case": "390-open-territory-deposits-pending-once",
+      "observed": {
+        "focus": "territory-inspector",
+        "selected": "土地 2，空地",
+        "stocks": [
+          "200",
+          "162",
+          "96"
+        ]
+      }
+    },
+    {
+      "case": "390-total-building-capacity",
+      "observed": {
+        "focus": "territory-workbench",
+        "overflow": false,
+        "tab": "收納屋"
+      }
+    },
+    {
+      "case": "390-active-quiz-focus",
+      "observed": {
+        "active": "family-app grade-4 quiz-active  reduce-motion ",
+        "answerButtons": 4,
+        "largePlanners": 0,
+        "materialProgress": "下一份建材 3 / 5 題",
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "case": "real-answer-updates-progress",
+      "observed": {
+        "largePlanners": 0,
+        "overflow": false,
+        "progress": "下一份建材 4 / 5 題"
+      }
+    },
+    {
+      "case": "offline-last-synced-materials",
+      "observed": {
+        "balances": [
+          "48,120",
+          "49,060",
+          "50,000"
+        ],
+        "notice": "離線中 · 顯示上次同步庫存。",
+        "progress": "下一份建材 4 / 5 題"
+      }
+    },
+    {
+      "case": "390-result-rest-before-building",
+      "observed": {
+        "activeTag": "BUTTON",
+        "overflow": false,
+        "restTop": 1102.390625,
+        "summaryTop": 1184.390625,
+        "viewport": 844
+      }
+    },
+    {
+      "case": "390-visible-result-actions",
+      "observed": {
+        "rest": [
+          {
+            "bottom": 241.890625,
+            "disabled": false,
+            "text": "休息一下",
+            "top": 179.890625
+          },
+          {
+            "bottom": 241.890625,
+            "disabled": true,
+            "text": "繼續學習",
+            "top": 179.890625
+          }
+        ],
+        "viewport": 844
+      }
+    },
+    {
+      "case": "rest-returns-home",
+      "viewport": "390x844",
+      "observed": {
+        "home": true,
+        "completedRunPreserved": true,
+        "notice": "先休息一下，已完成的進度都存好了。"
+      }
+    },
+    {
+      "case": "rest-notice-ruby-wrap-fixed",
+      "viewport": "390x844",
+      "observed": {
+        "scrollWidth": 390,
+        "viewportWidth": 390,
+        "notice": "先休息一下，已完成的進度都存好了。"
+      }
+    },
+    {
+      "case": "desktop-resource-ribbon",
+      "viewport": "1440x1000",
+      "observed": {
+        "scrollWidth": 1440,
+        "viewportWidth": 1440,
+        "stored": {
+          "wood": 50000,
+          "stone": 50000,
+          "star": 50000
+        },
+        "pending": {
+          "wood": 20,
+          "stone": 12,
+          "star": 6
+        }
+      }
+    }
+  ]
+}

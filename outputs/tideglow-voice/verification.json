@@ -1,0 +1,99 @@
+{
+  "status": "verified-awaiting-unified-release",
+  "base": "fee6c7dd82873ac95cf34e3902d2854c880b790b",
+  "branch": "codex/tideglow-voice-conversation",
+  "automated": {
+    "fullSuite": {
+      "files": 87,
+      "tests": 675,
+      "passed": true,
+      "includes": "final arbitration fix, all voice and PostgreSQL suites"
+    },
+    "afterFinalArbitrationFix": {
+      "files": 3,
+      "tests": 22,
+      "passed": true
+    },
+    "build": "PASS",
+    "independentVerifier": "PASS: deferred guide reply cannot cancel active or completed microphone turn; tab change blocks old auto-narration; untouched care auto-narration still works; all retain textual reply"
+  },
+  "browser": {
+    "engine": "macOS Safari native MediaRecorder and IAB",
+    "source": "synthetic AudioContext MediaStream, no physical microphone capture",
+    "safari": {
+      "recordMime": "audio/mp4",
+      "bytes": 63953,
+      "send": "PASS",
+      "spokenReplyState": "PASS",
+      "explicitReplay": "PASS",
+      "cancel": "PASS",
+      "tracksAfterCancelAndClose": 0
+    },
+    "phoneGrade2": [
+      {
+        "viewport": 320,
+        "documentWidth": 320,
+        "panelClient": 302,
+        "panelScroll": 302,
+        "micWidth": 270
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "panelClient": 372,
+        "panelScroll": 372,
+        "micWidth": 340
+      }
+    ],
+    "otherViewports": [
+      "768x1024 grade 2",
+      "1024x768 grade 1",
+      "1440x900 grade 2"
+    ],
+    "otherInteractions": [
+      "history survives reload",
+      "separate child starts empty",
+      "denied microphone produces recovery text",
+      "close during capture releases tracks"
+    ],
+    "screenshots": [
+      "safari-conversation.png",
+      "tablet-1024-conversation.png",
+      "tablet-768-grade2.png",
+      "voice320grade2.png",
+      "voice390grade2.png",
+      "voice-1440-grade2.png",
+      "safari-conversation-final.png"
+    ],
+    "finalLayoutEvidence": "final-layouts.json",
+    "microphoneVisibleWithoutScroll": "PASS 320,390,768,1024,1440 widths, grade 2"
+  },
+  "realProvider": {
+    "evidence": [
+      "live-provider.json",
+      "safari-transcript.json"
+    ],
+    "syntheticOnly": true,
+    "databaseAccess": false,
+    "contextRetained": true,
+    "safariAacTranscription": "我喜歡海龜,因為牠會游泳。"
+  },
+  "limitations": [
+    "No physical iPad microphone, hardware permission or speaker measurement",
+    "No Android hardware test",
+    "Dynamic AI responses/pronunciations are not guaranteed error-free",
+    "Personal-details filtering is heuristic, not a guarantee of complete redaction"
+  ],
+  "deployment": {
+    "publisher": "chat50",
+    "state": "pending final unified voice and battle release"
+  },
+  "fixedVoice": {
+    "name": "Kiki",
+    "clips": 7,
+    "decode": "PASS all 7 ffmpeg full decode",
+    "sha256": "PASS all 7 local served MP3s match provenance",
+    "safariButton": "microphone help requested correct MP3; no playback error",
+    "provenance": "kiki-provenance.json"
+  }
+}

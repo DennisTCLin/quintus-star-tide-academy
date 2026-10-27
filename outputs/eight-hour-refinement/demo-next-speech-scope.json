@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-25T01:28:46.890102+00:00",
+  "baseline": "fe950d3",
+  "source": [
+    "src/island/speech.ts:38-39",
+    "src/voice.ts",
+    "src/speech-text.ts:selectSpeechVoice"
+  ],
+  "readOnlyFinding": "Island fallback can select a non-Taiwan voice even when a supported Taiwan alias is available; shared engine selects aliases strictly and waits for voice population.",
+  "reviewerProbes": [
+    {
+      "voices": [
+        "zh-CN",
+        "cmn-Hant-TW"
+      ],
+      "island": "zh-CN",
+      "shared": "cmn-Hant-TW"
+    },
+    {
+      "voices": [
+        "zh_CN",
+        "zh_TW"
+      ],
+      "island": "zh_CN",
+      "shared": "zh_TW"
+    },
+    {
+      "voices": [
+        "zh-HK",
+        "zh-CN"
+      ],
+      "island": "zh-HK",
+      "shared": "missing Taiwan error without speech"
+    }
+  ],
+  "scopeForNextBatch": [
+    "Consider shared voice completion/error/ownedcancel adapter",
+    "Preserve fe950d3 demo token/timer cancellation and silent progression",
+    "Do not alter Math visual writer JSX/CSS concurrently"
+  ],
+  "limits": [
+    "No actual audio audition; selector differences only",
+    "No music overlap claim: App currently disables page music in island",
+    "No implementation in this batch"
+  ],
+  "coordination": "Math visual writer notified to reserve speech helpers for root next batch; exact IslandApp error notice hookup requires coordination."
+}

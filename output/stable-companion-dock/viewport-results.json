@@ -1,0 +1,68 @@
+[
+  {
+    "engine": "webkit",
+    "viewport": [
+      390,
+      844
+    ],
+    "oversizedBodyDoesNotScroll": true,
+    "shellStillScrolls": true,
+    "resizeAnchorStable": true,
+    "quietPageUnlocksDocument": true
+  },
+  {
+    "engine": "webkit",
+    "viewport": [
+      820,
+      1180
+    ],
+    "oversizedBodyDoesNotScroll": true,
+    "shellStillScrolls": true,
+    "resizeAnchorStable": true,
+    "quietPageUnlocksDocument": true
+  },
+  {
+    "engine": "webkit",
+    "viewport": [
+      844,
+      390
+    ],
+    "oversizedBodyDoesNotScroll": true,
+    "shellStillScrolls": true,
+    "resizeAnchorStable": true,
+    "quietPageUnlocksDocument": true
+  },
+  {
+    "engine": "chromium",
+    "viewport": [
+      390,
+      844
+    ],
+    "oversizedBodyDoesNotScroll": true,
+    "shellStillScrolls": true,
+    "resizeAnchorStable": true,
+    "quietPageUnlocksDocument": true
+  },
+  {
+    "engine": "chromium",
+    "viewport": [
+      820,
+      1180
+    ],
+    "oversizedBodyDoesNotScroll": true,
+    "shellStillScrolls": true,
+    "resizeAnchorStable": true,
+    "quietPageUnlocksDocument": true
+  },
+  {
+    "engine": "chromium",
+    "viewport": [
+      844,
+      390
+    ],
+    "oversizedBodyDoesNotScroll": true,
+    "shellStillScrolls": true,
+    "resizeAnchorStable": true,
+    "quietPageUnlocksDocument": true
+  }
+]

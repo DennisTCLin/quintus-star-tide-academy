@@ -1,0 +1,42 @@
+{
+  "renderedPages": 33,
+  "visualReview": "全部10卷逐頁視閱；3卷第2頁180度旋轉後核對；7卷第5頁為空白答案卷。",
+  "sources": [
+    {
+      "topic": "臺灣蒸散用語",
+      "url": "https://kmweb.moa.gov.tw/theme_data.php?id=1127&sub_theme=km&theme=pedia",
+      "supports": "蒸散transpiration，葉莖氣孔水分散失；同義蒸騰。"
+    },
+    {
+      "topic": "蒸散與蒸發散區別",
+      "url": "https://pedia.cloud.edu.tw/Entry/Detail/?search=%E8%92%B8%E7%99%BC%E6%95%A3&title=%E8%92%B8%E7%99%BC%E6%95%A3",
+      "supports": "土壤蒸發加植物蒸散的區別。"
+    },
+    {
+      "topic": "166/167現行官方用途",
+      "url": "https://www.cwa.gov.tw/Data/service/Newsbb/CH/Newsbb_20250627110830.pdf",
+      "supports": "2025年6月27日氣象署新聞稿明列166/167提供最新颱風訊息；2026查詢仍可取得。"
+    },
+    {
+      "topic": "官方電話服務頁",
+      "url": "https://south.cwa.gov.tw/inner/PQGb1649746040KYtl",
+      "supports": "氣象錄音專線166、167；官網下架日期2030。"
+    },
+    {
+      "topic": "海洋氣團",
+      "url": "https://pweb.cwa.gov.tw/PopularScience/wt/wt_23.html",
+      "supports": "熱帶海洋氣團暖溼，夏季臺灣主要氣團。"
+    },
+    {
+      "topic": "國際颱風編號",
+      "url": "https://photino.cwa.gov.tw/rdcweb/lib/cd/cd02tyrp/typ/pdf/Typhoon%20Report2007.pdf",
+      "supports": "氣象署報告按西北太平洋年度發生次序編號。"
+    }
+  ],
+  "limits": [
+    "沒有提供標準答案；以原題與科學原理獨立核對。",
+    "未將所有圖題轉成文字；需要圖資者逐題留待處理，不能稱全部圖題上線。",
+    "不同題型中同一命題/同一實驗敘述去重；實驗條件不同但有新資料判讀的題保留。",
+    "來源33頁含一頁空白答案卷，32頁題目內容。"
+  ]
+}

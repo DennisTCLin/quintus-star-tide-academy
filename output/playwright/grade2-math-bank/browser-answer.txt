@@ -1,0 +1,11 @@
+### Result
+{"correct":true,"points":20,"reloadedPoints":20,"runStatus":"active"}
+### Ran Playwright code
+```js
+await (async(page)=>{await page.getByRole("heading",{level:1}).scrollIntoViewIfNeeded();await page.screenshot({path:"output/playwright/grade2-math-bank/question-viewport-320.png"});const response=page.waitForResponse(r=>r.url().endsWith("/api/command")&&r.request().method()==="POST");await page.getByRole("button",{name:"選擇 195、200",exact:true}).click();const data=await (await response).json();await page.reload();const state=await (await page.request.get("http://127.0.0.1:4392/api/state")).json();return {correct:data.result,points:data.family?.profiles.feifei.milestones.masteryPoints,reloadedPoints:state.family.profiles.feifei.milestones.masteryPoints,runStatus:state.family.profiles.feifei.run.status};})(page);
+```
+### Page
+- Page URL: http://127.0.0.1:4392/
+- Page Title: 星潮學院｜一起向星海出發
+### Events
+- New console entries: .playwright-cli/console-2026-10-25T16-15-00-660Z.log#L2-L5

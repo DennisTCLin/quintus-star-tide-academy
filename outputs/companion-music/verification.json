@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "Homepage uses indie-air; collection decodes and plays full Beat Lab at 30% with loop",
+    "Collection to team selection keeps the same playing audio without restart or overlap",
+    "Manual pause persists through filters, typing and both companion pages",
+    "Narration and hidden-tab events pause music, then restore it",
+    "Explicit pause survives narration, visibility and homepage track changes",
+    "Starting a battle stops music; returning to team selection restores it",
+    "Leaderboard and learning stop music; homepage returns to original track",
+    "Grade 2 / 320px: controls fit, targets at least 44px, no page overflow",
+    "Grade 2 / 390px: controls fit, targets at least 44px, no page overflow",
+    "Default autoplay policy: silent until interaction, companion navigation starts music"
+  ],
+  "pageErrors": [],
+  "audio": {
+    "duration": 144.609365,
+    "volume": 0.3,
+    "loop": true
+  }
+}

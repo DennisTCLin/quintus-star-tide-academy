@@ -1,0 +1,268 @@
+/* One bounded console: battle stays above a reading pane and an answer bank.
+   Scope to actual questions; preparation and results keep their natural flow. */
+.family-app.quiz-focused {
+  --console-navy:#08263a;
+  --console-mint:#8ce8df;
+  --console-gold:#ffdc8b;
+  box-sizing:border-box;
+  display:flex; flex-direction:column;
+  height:var(--quiz-viewport-height,100vh);
+  min-height:0;
+  padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
+  overflow:hidden;
+}
+.family-app.quiz-focused .family-main {
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  grid-template-rows:minmax(0,35fr) minmax(0,65fr);
+  gap:0;
+  width:min(1040px,100%);
+  flex:1 1 0; height:auto; min-height:0;
+  margin:0 auto; padding:8px 12px;
+  box-sizing:border-box;
+}
+/* Friend invitations and results share the viewport instead of pushing actions below it. */
+.family-app.quiz-focused > .online-battle-banner { flex:none; width:100%; margin:0 auto; }
+.family-app.quiz-focused .family-footer,
+.family-app.quiz-focused > .cloud-status:not(.offline) { display:none; }
+.family-app.quiz-focused > .cloud-status.offline,
+.family-app.quiz-focused .family-main > .notice { position:fixed; top:8px; left:50%; transform:translateX(-50%); width:min(90%,600px); z-index:80; margin:0; }
+.family-app.quiz-focused .family-main > .quiz-encounter {
+  position:relative; top:auto; grid-column:1; grid-row:auto;
+  display:grid; grid-template-rows:28px minmax(0,1fr);
+  margin:0; padding:6px 8px 8px; min-height:0; width:100%;
+  border-radius:20px 20px 0 0; border-bottom:0; box-shadow:none;
+}
+.family-app.quiz-focused .quiz-battle-intro { display:flex; justify-content:space-between; margin:0; padding:0 110px 2px 2px; font-size:13px; gap:8px; }
+.family-app.quiz-focused .quiz-battle-intro > strong { display:none; }
+.family-app.quiz-focused .quiz-battle-intro button { min-height:26px; padding:2px 7px; font-size:12px; }
+.family-app.quiz-focused .quiz-stage.duel-stage { height:100%; min-height:0; border-radius:12px; }
+.family-app.quiz-focused .quiz-hud { inset:6px 8px auto; gap:22%; }
+.family-app.quiz-focused .quiz-hud > div { padding:4px 8px; }
+.family-app.quiz-focused .quiz-hud strong { font-size:14px; line-height:1.5; }
+.family-app.quiz-focused .quiz-hud > div > span { font-size:11px; margin:0; }
+.family-app.quiz-focused .quiz-hp { height:5px; margin:3px 0; }
+.family-app.quiz-focused .quiz-hud .creature-badges,
+.family-app.quiz-focused .quiz-hud .quiz-growth-style,
+.family-app.quiz-focused .quiz-hud .quiz-monster-affinity,
+.family-app.quiz-focused .quiz-hud .quiz-stats-inline { display:none; }
+.family-app.quiz-focused .quiz-stage .duel-combatant { height:65%; width:34%; bottom:2%; }
+.family-app.quiz-focused .quiz-stage .quiz-warden { height:68%; }
+.family-app.quiz-focused .cinematic-name { bottom:5px; font-size:18px; }
+/* Keep live announcements available without adding a second explanatory row. */
+.family-app.quiz-focused .quiz-message { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); padding:0; min-height:0; }
+.family-app.quiz-focused .companion-encouragement { display:none; }
+.family-app.quiz-focused .quiz-encounter-info { position:absolute; right:10px; top:4px; border:0; z-index:15; max-width:calc(100% - 20px); }
+.family-app.quiz-focused .quiz-encounter-info > summary { font-size:12px; min-height:28px; padding:3px 4px; }
+.family-app.quiz-focused .quiz-encounter-info[open] { background:#08263afc; border:1px solid #78b8c2; border-radius:12px; padding:10px; width:500px; max-height:70vh; overflow:auto; box-shadow:0 8px 30px #0008; }
+.family-app.quiz-focused .quiz-encounter-info[open] > summary { min-height:44px; }
+.family-app.quiz-focused .quiz-answer-deck {
+  grid-column:1; min-width:0; min-height:0;
+  display:flex; flex-direction:column; position:relative;
+  padding:0 12px 8px; background:var(--console-navy);
+  border:1px solid #77cfd866; border-top:0; border-radius:0 0 20px 20px;
+}
+.family-app.quiz-focused .challenge-top { display:flex; flex:none; gap:8px; margin:0; min-height:44px; }
+.family-app.quiz-focused .challenge-top > button { min-height:44px; width:44px; padding:4px; flex:none; }
+.family-app.quiz-focused .progress-dots { gap:5px; margin:auto; }
+.family-app.quiz-focused .progress-dots > span { width:26px; height:26px; font-size:13px; }
+.family-app.quiz-focused .quiz-hearts { font-size:11px; white-space:nowrap; }
+.family-app.quiz-focused .learning-stage.quiz-learning { display:flex; flex-direction:column; flex:1; min-height:0; gap:0; margin:0; max-width:none; width:100%; overflow-y:auto; overscroll-behavior:contain; }
+.family-app.quiz-focused .challenge-timer { flex:none; flex-direction:row; gap:4px 12px; padding:4px 8px; margin:0; font-size:12px; border-radius:8px; }
+.family-app.quiz-focused .challenge-question-body { flex:1; min-height:0; display:flex; }
+.family-app.quiz-focused .question-panel { flex:1; min-height:0; display:flex; flex-direction:column; padding:0; margin:0; border:0; box-shadow:none; background:transparent; }
+.family-app.quiz-focused .quiz-question-toolbar { display:flex; align-items:center; justify-content:space-between; gap:8px; flex:none; padding:4px 0; }
+.family-app.quiz-focused .question-meta { display:flex; margin:0; gap:12px; font-size:12px; color:#b2d1df; }
+.family-app.quiz-focused .question-meta > span:last-child { display:none; }
+.family-app.quiz-focused .question-tools { display:flex; flex-wrap:nowrap; gap:6px; margin:0; }
+.family-app.quiz-focused .question-tools button { min-height:44px; padding:5px 10px; font-size:14px; white-space:nowrap; }
+.family-app.quiz-focused .question-tools .listen-orb { flex:none; width:auto; max-width:none; min-height:44px; margin:0; gap:5px; border-width:1px; border-radius:10px; }
+.family-app.quiz-focused .listen-orb > span { font-size:23px; }
+.family-app.quiz-focused .listen-orb small { display:none; }
+.family-app.quiz-focused .quiz-skill-action { margin:0; }
+.family-app.quiz-focused .quiz-question-reading { flex:1; min-height:64px; overflow:auto; overscroll-behavior:contain; -webkit-overflow-scrolling:touch; padding:0 8px 8px 2px; scrollbar-width:thin; scrollbar-color:#78b8c2 transparent; }
+.family-app.quiz-focused .quiz-question-reading:focus-visible { outline:2px solid var(--console-mint); outline-offset:-2px; }
+.family-app.quiz-focused .question-panel h1 { font-size:clamp(22px,3vw,30px); line-height:1.6; margin:4px 0 8px; }
+.family-app.quiz-focused .math-visual { margin:6px 0; font-size:clamp(22px,3.5vw,34px); line-height:1.5; overflow-wrap:anywhere; }
+.family-app.quiz-focused .question-figure { margin:8px 0; padding:8px; }
+.family-app.quiz-focused .question-figure img { max-height:300px; }
+.family-app.quiz-focused .quiz-source-details { font-size:12px; color:#a1c3d1; margin:4px 0; }
+.family-app.quiz-focused .quiz-source-details > summary { cursor:pointer; padding:8px 0; }
+.family-app.quiz-focused .quiz-answer-bank { flex:none; padding-top:5px; border-top:1px solid #537b8955; max-height:48%; overflow:auto; overscroll-behavior:contain; }
+.family-app.quiz-focused .answer-submit-cue { font-size:12px; margin:0 0 4px; }
+.family-app.quiz-focused .answer-grid { gap:8px; margin:0; grid-template-columns:repeat(2,minmax(0,1fr)); }
+.family-app.quiz-focused .answer-grid.short-answers { grid-template-columns:repeat(var(--answer-count),minmax(0,1fr)); }
+.family-app.quiz-focused .answer-grid button { min-height:60px; padding:8px 10px; font-size:20px; line-height:1.5; border-radius:12px; }
+.family-app.quiz-focused .answer-grid.short-answers button { min-height:68px; font-size:25px; }
+.family-app.quiz-focused .answer-grid .choice-icon { font-size:32px; }
+.family-app.quiz-focused .answer-grid .picture-tile { width:62px; }
+.family-app.quiz-focused .answer-option { grid-template-columns:minmax(0,1fr) 44px; gap:4px; }
+.family-app.quiz-focused .answer-grid .option-listen { padding:4px; gap:0; min-height:44px; }
+.family-app.quiz-focused .option-listen span { font-size:21px; }
+.family-app.quiz-focused .option-listen small { font-size:12px; }
+.family-app.quiz-focused .option-answer-cue { display:none; }
+.family-app.quiz-focused .quiz-answer-bank > .f-muted { font-size:12px; margin:4px 0 0; }
+.family-app.quiz-focused .quiz-turn-actions { flex:none; min-height:44px; display:flex; align-items:center; justify-content:center; }
+.family-app.quiz-focused .quiz-turn-actions:empty::after { content:'選好答案，夥伴就出招'; color:#9edbd4; font-size:13px; }
+.family-app.quiz-focused .quiz-turn-actions > button { width:100%; min-height:44px; padding:6px 10px; }
+.family-app.quiz-focused .quiz-next-dock { position:static; transform:none; width:100%; margin:0; padding:4px 0 0; border:0; border-radius:0; box-shadow:none; background:transparent; gap:6px; flex-wrap:nowrap; }
+.family-app.quiz-focused .quiz-next-dock p { font-size:12px; flex:1; }
+.family-app.quiz-focused .quiz-next-dock p small { display:none; }
+.family-app.quiz-focused .quiz-next-dock button { flex:none; min-height:44px; min-width:0; padding:5px 8px; font-size:13px; box-shadow:none; }
+.family-app.quiz-focused .quiz-next-dock .quiz-next-primary { font-size:16px; }
+.family-app.quiz-focused.question-expanded .family-main { grid-template-rows:minmax(100px,18fr) minmax(0,82fr); }
+.family-app.quiz-focused.question-expanded .quiz-stage .duel-combatant { height:62%; }
+@media(max-width:600px) {
+ .family-app.quiz-focused .family-main { padding:4px; grid-template-rows:minmax(0,32fr) minmax(0,68fr); }
+ .family-app.quiz-focused .quiz-answer-deck { padding:0 8px 4px; }
+ .family-app.quiz-focused .quiz-question-toolbar { gap:0; }
+ .family-app.quiz-focused .question-meta { display:none; }
+ .family-app.quiz-focused .question-tools { width:100%; justify-content:space-between; gap:4px; }
+ .family-app.quiz-focused .question-tools button { padding:5px 7px; font-size:12px; }
+ .family-app.quiz-focused .quiz-stage .duel-combatant { height:60%; width:43%; }
+ .family-app.quiz-focused .quiz-hud { gap:8%; }
+ .family-app.quiz-focused .quiz-hud strong { font-size:12px; }
+ .family-app.quiz-focused .quiz-battle-intro { font-size:12px; }
+ .family-app.quiz-focused .quiz-encounter-info > summary { font-size:11px; }
+ .family-app.quiz-focused .question-panel h1 { font-size:22px; }
+ .family-app.quiz-focused .challenge-timer { font-size:11px; padding:4px 6px; gap:2px 6px; }
+ .family-app.quiz-focused .answer-grid button { font-size:18px; padding:6px; }
+ .family-app.quiz-focused .quiz-hearts { max-width:64px; overflow:hidden; font-size:10px; }
+}
+@media(max-height:560px) {
+ .family-app.quiz-focused .family-main { grid-template-rows:minmax(0,27fr) minmax(0,73fr); }
+ .family-app.quiz-focused .quiz-question-toolbar { padding:0; }
+ .family-app.quiz-focused .quiz-turn-actions { min-height:30px; }
+ .family-app.quiz-focused .answer-grid.short-answers button { min-height:48px; }
+ .family-app.quiz-focused .question-panel h1 { margin:2px 0; }
+}
+/* Stretch both tracks instead of inheriting the old side-by-side start alignment. */
+.family-app.quiz-focused .family-main { align-items:stretch; }
+.family-app.quiz-focused .quiz-encounter,
+.family-app.quiz-focused .quiz-answer-deck { height:100%; box-sizing:border-box; }
+.family-app.quiz-focused .challenge-top { height:44px; padding:0; }
+.family-app.quiz-focused .question-tools .listen-orb { height:44px; }
+/* Four text choices keep their full labels; never bury a choice in a second pane. */
+.family-app.quiz-focused .quiz-answer-bank { max-height:none; overflow:visible; }
+@media(max-height:700px) {
+ .family-app.quiz-focused .family-main { grid-template-rows:minmax(0,28fr) minmax(0,72fr); }
+ .family-app.quiz-focused .question-panel h1 { font-size:20px; }
+ .family-app.quiz-focused .answer-submit-cue { line-height:1.3; }
+}
+@media(max-width:370px) {
+ .family-app.quiz-focused .answer-grid:not(.short-answers) button { font-size:16px; min-height:52px; }
+ .family-app.quiz-focused .progress-dots { gap:3px; }
+ .family-app.quiz-focused .progress-dots > span { width:22px; height:22px; }
+ .family-app.quiz-focused .quiz-hearts { display:none; }
+}
+/* Short prompts keep choices adjacent instead of creating an empty reading area. */
+.family-app.quiz-focused .compact-question .quiz-question-reading { flex:0 1 auto; }
+.family-app.quiz-focused .compact-question .quiz-answer-bank { margin-top:10px; }
+@media(min-width:601px) and (min-height:900px) {
+ .family-app.quiz-focused .family-main { grid-template-rows:minmax(0,40fr) minmax(0,60fr); }
+ .family-app.quiz-focused .answer-grid.short-answers button { min-height:88px; font-size:28px; }
+}
+@media(max-height:700px) {
+ .family-app.quiz-focused .answer-submit-cue { display:none; }
+ .family-app.quiz-focused .quiz-turn-actions:empty { min-height:22px; }
+}
+/* Actual controls determine the stage budget, including wrapped answer labels. */
+.family-app.quiz-focused .family-main,
+.family-app.quiz-focused.question-expanded .family-main { grid-template-rows:var(--quiz-stage-height,32%) minmax(0,1fr); }
+.quiz-info-label-compact { display:none; }
+.family-app.quiz-focused .quiz-info-label-full { display:none; }
+.family-app.quiz-focused .quiz-info-label-compact { display:inline; }
+.family-app.quiz-focused .quiz-battle-intro { padding-right:80px; }
+.family-app.quiz-focused .quiz-battle-intro button,
+.family-app.quiz-focused .quiz-encounter-info > summary { min-height:44px; }
+.family-app.quiz-focused .family-main > .quiz-encounter { grid-template-rows:44px minmax(0,1fr); }
+.family-app.quiz-focused .quiz-hud > div > span { display:none; }
+@media(orientation:landscape) and (max-height:560px) {
+ .family-app.quiz-focused .answer-grid { grid-template-columns:repeat(var(--answer-count),minmax(0,1fr)); }
+ .family-app.quiz-focused .answer-grid button { font-size:16px; min-height:48px; }
+ .family-app.quiz-focused .challenge-top { width:45%; }
+ .family-app.quiz-focused .challenge-timer { position:absolute; top:0; right:8px; height:44px; max-width:52%; box-sizing:border-box; padding:2px 6px; }
+ .family-app.quiz-focused .challenge-timer strong { display:none; }
+ .family-app.quiz-focused .answer-submit-cue { display:none; }
+ .family-app.quiz-focused .quiz-turn-actions:empty { min-height:22px; }
+}
+@media(orientation:landscape) and (min-width:600px) and (max-height:560px) {
+ .family-app.quiz-focused .challenge-top { width:96px; }
+ .family-app.quiz-focused .challenge-top .progress-dots,
+ .family-app.quiz-focused .challenge-top .quiz-hearts { display:none; }
+ .family-app.quiz-focused .challenge-timer { left:110px; right:auto; width:180px; max-width:none; }
+ .family-app.quiz-focused .quiz-question-toolbar { position:absolute; top:0; right:8px; width:calc(100% - 310px); height:44px; padding:0; }
+ .family-app.quiz-focused .quiz-question-toolbar .question-meta { display:none; }
+ .family-app.quiz-focused .question-tools { width:100%; justify-content:flex-end; }
+ .family-app.quiz-focused .question-tools button { font-size:12px; padding:4px 7px; }
+}
+/* Version 2: one round-progress row above the arena; prompt directly below it. */
+.family-app.quiz-focused .family-main,
+.family-app.quiz-focused.question-expanded .family-main { grid-template-rows:44px var(--quiz-stage-height,32%) minmax(0,1fr); }
+.family-app.quiz-focused .family-main > .quiz-progress-header {
+ grid-column:1; grid-row:1; width:100%; height:44px; margin:0; padding:0 8px;
+ box-sizing:border-box; gap:8px; border:1px solid #77cfd866; border-bottom:0;
+ border-radius:18px 18px 0 0; background:#08263a; font-size:14px;
+}
+.family-app.quiz-focused .quiz-progress-header > button { width:36px; min-height:44px; border:0; background:transparent; }
+.family-app.quiz-focused .quiz-question-count { color:#ffe3a5; white-space:nowrap; }
+.family-app.quiz-focused .quiz-goal-count { margin-left:auto; color:#b9e4e1; font-size:13px; white-space:nowrap; }
+.family-app.quiz-focused .quiz-goal-count b { color:#ffe3a5; }
+.family-app.quiz-focused .family-main > .quiz-encounter { grid-template-rows:minmax(0,1fr); border-radius:0; padding-top:4px; }
+.family-app.quiz-focused .quiz-battle-intro { display:none; }
+.family-app.quiz-focused .quiz-encounter-info { top:auto; bottom:12px; right:16px; }
+.family-app.quiz-focused .quiz-encounter-info > summary { min-height:28px; padding:4px 8px; border-radius:8px; background:#08263ad9; }
+.family-app.quiz-focused .quiz-encounter-info[open] { bottom:0; }
+.quiz-mistake-count { display:none; }
+.family-app.quiz-focused .quiz-mistake-count { display:block; color:#f5d5b4; font-size:11px; line-height:1.5; }
+.family-app.quiz-focused .challenge-timer { position:static; left:auto; right:auto; width:100%; max-width:none; height:auto; min-height:22px; padding:2px 0; border:0; background:transparent; justify-content:flex-end; }
+.family-app.quiz-focused .challenge-timer > strong { display:none; }
+.family-app.quiz-focused .quiz-prompt-line { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.family-app.quiz-focused .quiz-prompt-line h1 { flex:1; min-width:0; }
+.family-app.quiz-focused .quiz-prompt-line .listen-orb { flex:none; width:auto; min-height:44px; height:44px; margin:0; padding:5px 9px; gap:4px; font-size:13px; border-radius:12px; }
+.family-app.quiz-focused .quiz-question-toolbar { position:static; width:100%; height:auto; padding:8px 0 0; }
+.family-app.quiz-focused .question-tools { width:100%; justify-content:space-between; gap:6px; }
+.family-app.quiz-focused .question-tools button { font-size:12px; padding:5px 7px; min-height:44px; }
+.family-app.quiz-focused .compact-question .quiz-answer-bank { margin-top:6px; }
+@media(max-width:370px) {
+ .family-app.quiz-focused .family-main > .quiz-progress-header { gap:4px; padding:0 4px; }
+ .family-app.quiz-focused .quiz-goal-count { font-size:12px; }
+ .family-app.quiz-focused .quiz-question-count { font-size:13px; }
+}
+@media(orientation:landscape) and (max-height:560px) {
+ .family-app.quiz-focused .quiz-question-toolbar { position:absolute; top:0; right:8px; width:55%; padding:0; height:44px; }
+ .family-app.quiz-focused .challenge-timer { min-height:44px; width:42%; justify-content:flex-start; }
+ .family-app.quiz-focused .question-tools { justify-content:flex-end; }
+}
+@media(orientation:landscape) and (max-height:560px) {
+ .family-app.quiz-focused .math-visual { font-size:22px; line-height:1.2; margin:2px 0; }
+}
+/* Preserve every source option. Five-to-seven-item word banks use more columns,
+   never trimming choices or inventing distractors to fit a fixed button count. */
+.family-app.quiz-focused .answer-grid.word-bank-answers { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.family-app.quiz-focused .answer-grid.word-bank-answers button { min-height:52px; padding:6px; font-size:18px; }
+@media(min-width:700px) {
+ .family-app.quiz-focused .answer-grid.word-bank-answers { grid-template-columns:repeat(4,minmax(0,1fr)); }
+}
+@media(max-width:370px) {
+ .family-app.quiz-focused .answer-grid.word-bank-answers button { font-size:16px; }
+}
+@media(orientation:landscape) and (min-width:600px) and (max-height:560px) {
+ .family-app.quiz-focused .answer-grid.word-bank-answers { grid-template-columns:repeat(var(--answer-count),minmax(0,1fr)); }
+ .family-app.quiz-focused .answer-grid.word-bank-answers button { font-size:16px; min-height:48px; }
+}
+.family-app.quiz-focused .word-bank-answers .tone-choice { gap:2px; }
+.family-app.quiz-focused .word-bank-answers .tone-choice svg { width:36px; height:36px; }
+.family-app.quiz-focused .word-bank-answers .tone-choice > span { font-size:14px; line-height:1.4; }
+
+/* Tone symbols need legible cards, not picture-sized tiles. Leave the arena
+   room on landscape tablets while keeping all choices and next controls visible. */
+.family-app.quiz-focused .tone-answers .tone-choice { gap:2px; }
+.family-app.quiz-focused .tone-answers .tone-choice svg { width:48px; height:48px; }
+.family-app.quiz-focused .tone-answers .tone-choice > span { font-size:16px; line-height:1.4; }
+@media(min-width:700px) {
+ .family-app.quiz-focused .answer-grid.tone-answers { grid-template-columns:repeat(var(--answer-count),minmax(0,1fr)); }
+}
+/* HP and names own the top strip; character art must stay below it even when
+   the reading pane is expanded or the browser reduces the viewport height. */
+.family-app.quiz-focused .quiz-stage .duel-combatant { max-height:calc(100% - 64px); }

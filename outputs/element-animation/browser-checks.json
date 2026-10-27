@@ -1,0 +1,314 @@
+{
+  "base": "http://127.0.0.1:4252/",
+  "checks": [
+    {
+      "case": "pause-keeps-prepare-frame",
+      "observed": {
+        "playing": "false",
+        "step": "0"
+      }
+    },
+    {
+      "case": "auto-generation-completes-once",
+      "observed": {
+        "hp": "68",
+        "impact": "+8",
+        "playing": "false",
+        "step": "2"
+      }
+    },
+    {
+      "case": "generation-金",
+      "observed": {
+        "hp": "68",
+        "impact": "+8",
+        "max": "100",
+        "relation": "金生水"
+      }
+    },
+    {
+      "case": "generation-木",
+      "observed": {
+        "hp": "80",
+        "impact": "+8",
+        "max": "112",
+        "relation": "木生火"
+      }
+    },
+    {
+      "case": "generation-水",
+      "observed": {
+        "hp": "68",
+        "impact": "+8",
+        "max": "100",
+        "relation": "水生木"
+      }
+    },
+    {
+      "case": "generation-火",
+      "observed": {
+        "hp": "68",
+        "impact": "+8",
+        "max": "100",
+        "relation": "火生土"
+      }
+    },
+    {
+      "case": "generation-土",
+      "observed": {
+        "hp": "68",
+        "impact": "+8",
+        "max": "100",
+        "relation": "土生金"
+      }
+    },
+    {
+      "case": "near-full-cap",
+      "observed": {
+        "hp": "100",
+        "impact": "+4"
+      }
+    },
+    {
+      "case": "full-no-extra-health",
+      "observed": {
+        "hp": "100",
+        "impact": "已滿"
+      }
+    },
+    {
+      "case": "advantage-金",
+      "observed": {
+        "equation": "18 一般傷害 + 8 相剋加成 = 26",
+        "hp": "74",
+        "impact": "−26",
+        "max": "100",
+        "relation": "金剋木"
+      }
+    },
+    {
+      "case": "advantage-木",
+      "observed": {
+        "equation": "18 一般傷害 + 8 相剋加成 = 26",
+        "hp": "74",
+        "impact": "−26",
+        "max": "100",
+        "relation": "木剋土"
+      }
+    },
+    {
+      "case": "advantage-水",
+      "observed": {
+        "equation": "17 一般傷害 + 8 相剋加成 = 25",
+        "hp": "87",
+        "impact": "−25",
+        "max": "112",
+        "relation": "水剋火"
+      }
+    },
+    {
+      "case": "advantage-火",
+      "observed": {
+        "equation": "22 一般傷害 + 8 相剋加成 = 30",
+        "hp": "70",
+        "impact": "−30",
+        "max": "100",
+        "relation": "火剋金"
+      }
+    },
+    {
+      "case": "advantage-土",
+      "observed": {
+        "equation": "18 一般傷害 + 8 相剋加成 = 26",
+        "hp": "74",
+        "impact": "−26",
+        "max": "100",
+        "relation": "土剋水"
+      }
+    },
+    {
+      "case": "pause-during-action",
+      "observed": {
+        "effect": "paused",
+        "playing": "false",
+        "portrait": "paused",
+        "step": "1"
+      }
+    },
+    {
+      "case": "change-source-cancels-running-timer",
+      "step": 0,
+      "playing": false
+    },
+    {
+      "case": "grade2-320",
+      "rubyColor": "rgb(8, 45, 60)",
+      "scrollWidth": 320,
+      "stage": {
+        "bottom": 648.96875,
+        "height": 558.4296875,
+        "left": 36,
+        "right": 284,
+        "top": 90.5390625,
+        "width": 248,
+        "x": 36,
+        "y": 90.5390625
+      },
+      "viewport": 320
+    },
+    {
+      "case": "grade2-390",
+      "scrollWidth": 390,
+      "stage": {
+        "bottom": 707.2734375,
+        "height": 529.03125,
+        "left": 36,
+        "right": 354,
+        "top": 178.2421875,
+        "width": 318,
+        "x": 36,
+        "y": 178.2421875
+      },
+      "viewport": 390
+    },
+    {
+      "case": "reduced-motion-action",
+      "animation": "none",
+      "hpTransition": "0s",
+      "playing": "false",
+      "step": "1",
+      "transition": "0s"
+    },
+    {
+      "case": "reduced-stays-on-action",
+      "playing": "false",
+      "step": "1"
+    },
+    {
+      "case": "reduced-keyboard-result",
+      "hp": "68",
+      "playing": "false",
+      "step": "2"
+    },
+    {
+      "case": "collapse-pauses-demo",
+      "battleHp": [
+        "108",
+        "100",
+        "60"
+      ],
+      "open": false,
+      "playing": "false"
+    },
+    {
+      "case": "companion-detail-default-element",
+      "relation": "金生水",
+      "selected": "示範金屬性"
+    },
+    {
+      "case": "close-playing-dialog",
+      "guideRemoved": true
+    },
+    {
+      "case": "grade2-dialog-320",
+      "dialogScroll": 280,
+      "dialogWidth": 280,
+      "stage": {
+        "bottom": 674.78125,
+        "height": 590.7734375,
+        "left": 51,
+        "right": 269,
+        "top": 84.0078125,
+        "width": 218,
+        "x": 51,
+        "y": 84.0078125
+      }
+    },
+    {
+      "case": "desktop-portrait-bounds-金",
+      "observed": [
+        {
+          "gap": 18.07868194580078,
+          "imageLoaded": true
+        },
+        {
+          "gap": 4.640434265136719,
+          "imageLoaded": true
+        }
+      ]
+    },
+    {
+      "case": "desktop-portrait-bounds-木",
+      "observed": [
+        {
+          "gap": 17.85570526123047,
+          "imageLoaded": true
+        },
+        {
+          "gap": 4.714744567871094,
+          "imageLoaded": true
+        }
+      ]
+    },
+    {
+      "case": "desktop-portrait-bounds-水",
+      "observed": [
+        {
+          "gap": 17.731407165527344,
+          "imageLoaded": true
+        },
+        {
+          "gap": 4.756195068359375,
+          "imageLoaded": true
+        }
+      ]
+    },
+    {
+      "case": "desktop-portrait-bounds-火",
+      "observed": [
+        {
+          "gap": 17.70781707763672,
+          "imageLoaded": true
+        },
+        {
+          "gap": 4.764076232910156,
+          "imageLoaded": true
+        }
+      ]
+    },
+    {
+      "case": "desktop-portrait-bounds-土",
+      "observed": [
+        {
+          "gap": 17.75,
+          "imageLoaded": true
+        },
+        {
+          "gap": 4.75,
+          "imageLoaded": true
+        }
+      ]
+    },
+    {
+      "case": "final-portrait-bounds-grade2-320",
+      "observed": {
+        "gaps": [
+          8,
+          8
+        ],
+        "scroll": 320,
+        "stage": {
+          "bottom": 648.96875,
+          "height": 558.4296875,
+          "left": 36,
+          "right": 284,
+          "top": 90.5390625,
+          "width": 248,
+          "x": 36,
+          "y": 90.5390625
+        },
+        "width": 320
+      }
+    }
+  ]
+}

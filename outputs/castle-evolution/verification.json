@@ -1,0 +1,66 @@
+{
+  "featureCommit": "b090227",
+  "integratedSource": "2a25e90",
+  "baselineRuntime": "acad380",
+  "build": "PASS",
+  "tests": {
+    "files": 37,
+    "passed": 351,
+    "database": "disposable local PostgreSQL",
+    "command": "TEST_DATABASE_URL=<local-test-db> npm test"
+  },
+  "independentReview": {
+    "result": "PASS, no actionable findings",
+    "independentlyRepeatedTests": 17,
+    "files": 3
+  },
+  "browser": {
+    "environment": "CUA, real local app on port4212 and disposable QA account",
+    "sixPreviews": "PASS",
+    "saveReload": "PASS: moon-bay, expansion16 retained",
+    "growthExpansion": "PASS: XP50->16, XP350->24 through UI",
+    "newLandBuild": "PASS: built grove on plot16; production wood120->300/hour",
+    "keyboard": "PASS: Enter previews cloud-sail and saves",
+    "responsive": [
+      {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "grade": 2
+      },
+      {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "grade": 2
+      },
+      {
+        "viewport": 1280,
+        "scrollWidth": 1280,
+        "grade": 4
+      }
+    ],
+    "fixedDuringQA": "Grade2 ruby caused 514px horizontal overflow at390px; corrected grid minimum and wrapping, rerun PASS",
+    "offlineRecovery": "PASS: stop local server disables saving and shows connectivity status; restart restores save",
+    "consoleErrorsFinal": 0,
+    "screenshots": "output/castle-evolution/{castle-preview,mobile,tablet}.png",
+    "trainingCTA": "PASS: starts actual math question flow"
+  },
+  "unverified": [
+    "Physical iPadOS15.5",
+    "Child comprehension/balance playtest",
+    "Device memory/long-task profiling"
+  ],
+  "council": {
+    "mode": "Standard/compact",
+    "members": 6,
+    "reviewers": 3,
+    "diversity": "native role perspectives, not multiple providers",
+    "preEstimateRange": [
+      7869,
+      14164
+    ],
+    "postArtifactEstimate": 11531,
+    "coverage": "partial, reconstructed prompts; not billing telemetry"
+  },
+  "compatibility": "No database schema migration; optional castleStyle defaults to star-tide. Existing expansion and placements retained. Learning pending material deposit and goal retained. No auth or combat multiplier changes.",
+  "deployment": "SUCCESS 69e9b385-6d95-4301-a9bf-60e0fb30d9e3; health200 and four assets byte-identical"
+}

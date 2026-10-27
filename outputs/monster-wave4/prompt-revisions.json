@@ -1,0 +1,47 @@
+{
+  "originalsThrough125": [
+    [
+      "entrance",
+      "The creature starts slightly crouched, slowly rises to its full imposing height, spreads its arms or wings once in a powerful entrance pose, then settles into its reference stance."
+    ],
+    [
+      "idle",
+      "A seamless restrained idle loop: the creature breathes, tiny armor joints shift, its glowing core pulses gently. First and last poses match exactly. Feet stay planted."
+    ],
+    [
+      "attack",
+      "One strong readable attack aimed to the left: wind up, strike forward with its primary limb or weapon, then fully return to the reference stance. No opponent, no projectiles, no camera effects."
+    ],
+    [
+      "hit",
+      "One readable hit reaction: recoil backwards briefly, brace with its limbs, then recover fully into the reference stance. No injury, no damage, no blood."
+    ],
+    [
+      "capture",
+      "A peaceful allegiance animation: the creature lowers its weapons or wings, gives a slow respectful nod, opens a hand or relaxes its forelimbs, and returns to a calm proud stance. It remains visible, same body and armor, no transformation."
+    ]
+  ],
+  "originalsFrom126": [
+    [
+      "entrance",
+      "Begin in the exact reference stance. Slowly lift the head or heads and strengthen the existing body posture for one powerful entrance pose, briefly brighten existing luminous markings, then settle back into the reference stance. Do not stretch to a taller body size or change anatomy."
+    ],
+    [
+      "idle",
+      "A seamless restrained idle loop: the creature breathes subtly, existing armor joints shift slightly, and existing glowing markings pulse gently. First and last poses match exactly. Remain at the same location; floating creatures hover gently."
+    ],
+    [
+      "attack",
+      "One strong readable attack aimed to the left using ONLY the creature's existing body parts shown in the reference: wind up, strike or lunge briefly, then fully return to the reference stance. Never introduce a new limb, weapon or appendage. No opponent, no projectiles, no camera effects."
+    ],
+    [
+      "hit",
+      "One readable hit reaction: the existing body recoils backwards briefly, stabilizes, then recovers fully into the reference stance. Preserve every anatomical part and body proportions. No injury, no damage, no blood."
+    ],
+    [
+      "capture",
+      "A peaceful allegiance animation: slowly lower the head or heads in a respectful bow, relax the existing body posture, and return to a calm proud reference stance. Move ONLY body parts already visible in the reference; do not introduce new appendages. Remain visible with exactly the same body, armor and anatomy, no transformation."
+    ]
+  ],
+  "reason": "Remove generic references to wings, hands and weapons that can invent anatomy absent from a creature reference. No resubmissions or pricing changes."
+}

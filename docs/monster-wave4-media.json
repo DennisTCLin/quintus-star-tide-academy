@@ -1,0 +1,3419 @@
+{
+  "status": "production-stopped-at-user-limit-quality-review-pending",
+  "authorizedImages": 50,
+  "authorizedVideos": 150,
+  "estimatedAuthorizedCredits": 7333.5,
+  "items": [
+    {
+      "id": "wave4-metal-01",
+      "name": "星鑄裁決者",
+      "imageJobId": "ad77a27c-6b16-4f4d-ab17-c0afbd6b389a",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-01.webp",
+          "sha256": "587d819b26a29c0b9b1248355520a893a8511e951ab89d7a9897ef0c920b4b24",
+          "bytes": 146688
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-01-320.webp",
+          "sha256": "626e06fc468dd0b821289de92a961d9f6fd1d6ff40ae9581c71825489ce65987",
+          "bytes": 49510
+        }
+      ],
+      "videos": [
+        {
+          "index": 1,
+          "action": "entrance",
+          "jobId": "d2be70d4-322e-471e-9500-e74c5df8ad43",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-01-entrance.mp4",
+          "sha256": "0147b9e62b08df61e2a80a4f97462e4450f605aca56ca07e85329e1be6cd32fc",
+          "bytes": 352744,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "342c6cb9cd4500cab2afe2694af5acc44044d7eade2ff776a28231a961a2c6b9",
+            "editedSha256": "a2252fe8fd94291a83a125963ff094e8a3511a6d858fb285949f64d097f4278e",
+            "sourceStart": 0.0,
+            "sourceEnd": 1.5,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        },
+        {
+          "index": 2,
+          "action": "idle",
+          "jobId": "201b3e4b-a222-4440-bea0-603df0e6604f",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-01-idle.mp4",
+          "sha256": "4944a689e330dff0a1d870e67008648a90022a28629f2745d228c01bf3e1352f",
+          "bytes": 651649,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 3,
+          "action": "attack",
+          "jobId": "868a92e8-347c-4a91-a19b-425d1a77433c",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-01-attack.mp4",
+          "sha256": "d4c1b857617f3b5a5f53fd96e0ff8685dbb2498beb0f3bb99a4687d17d12becb",
+          "bytes": 854990,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 4,
+          "action": "hit",
+          "jobId": "d7a542b0-7e24-46bf-b732-43dc749ecf46",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-01-hit.mp4",
+          "sha256": "f35b2d6084cd5a43b21feae4c906cb0c8f849b450ac39cd575c43381f46b2383",
+          "bytes": 1069660,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 5,
+          "action": "capture",
+          "jobId": "df86abb8-a957-4eeb-a0f1-1638e3b7389e",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-01-capture.mp4",
+          "sha256": "7abd6d55902ba1a628f79a7197b9e4a18870383bc412242b36b75f4ddf1b4b30",
+          "bytes": 486135,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "aa8a7538d2b1ccacb681fbdc50353daa776a6c72b76ccaa5a74fdd9e171e0467",
+            "editedSha256": "9377cf241451954161bd19a0c5d738ac6f8b293bcf670af62d62d9d4d765913f",
+            "sourceStart": 0.0,
+            "sourceEnd": 1.1,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wave4-metal-02",
+      "name": "鋼翼天災龍",
+      "imageJobId": "0e7d063e-bae3-4b12-aec7-5b0bdea47e2b",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-02.webp",
+          "sha256": "a9f5670a56d40b2ff7b77ceadbae9a45303237906cbcced3d0e0e67d8358e5fd",
+          "bytes": 172898
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-02-320.webp",
+          "sha256": "ca1b6f3d1cc1c03b7b816204750b78e66ff66abbcaa050dd1b49459693dcca72",
+          "bytes": 59618
+        }
+      ],
+      "videos": [
+        {
+          "index": 6,
+          "action": "entrance",
+          "jobId": "9657a606-afb6-48d5-8692-4a006247845f",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-02-entrance.mp4",
+          "sha256": "681b46fb050984bc6469b1f7eda231677f36eb2191839cdfe5c6a472acccefcf",
+          "bytes": 395695,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "52cc980f8f631ec76ba21026da7126fd7ccf665e290174b6ceabd4fb5c27281c",
+            "editedSha256": "2cbfc63ed9322aa4f93be9d8c72c517789ff3999e054a77abe7609fefff1f198",
+            "sourceStart": 0.0,
+            "sourceEnd": 1.25,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        },
+        {
+          "index": 7,
+          "action": "idle",
+          "jobId": "e344f0d3-d0d4-4929-99d3-663454e2447d",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-02-idle.mp4",
+          "sha256": "d04f67df13d284af519f0a8e30e1a25a91aa485ea5cbf07d020cabfdf598406b",
+          "bytes": 862583,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 8,
+          "action": "attack",
+          "jobId": "307a69e1-693b-4911-87e8-521bf88ce0b7",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-02-attack.mp4",
+          "sha256": "7f57345b0e1869e921c5983c1aab257a1f2931ffd939e2c0965edb7df3c12c3e",
+          "bytes": 646829,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49,
+          "supersededJobId": "fac63632-11b5-4ab6-b5e4-a23aac0cf20d"
+        },
+        {
+          "index": 9,
+          "action": "hit",
+          "jobId": "ef6b3890-f7d8-4da8-a443-d3940d718845",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-02-hit.mp4",
+          "sha256": "5f47dcb236219604afee159f2ac32f6d1100942a8857681a5dd4ff213b744091",
+          "bytes": 1148173,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 10,
+          "action": "capture",
+          "jobId": "eefc07db-7554-4cc7-a264-5cb8878514e7",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-02-capture.mp4",
+          "sha256": "84feff71d4ea5c4e08cfd3ff15a892c742fddd42a9beef408e34fc2fce3ea409",
+          "bytes": 1043551,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-metal-03",
+      "name": "重裝獅皇",
+      "imageJobId": "e414bf85-2474-4607-bb39-feafaf7372b4",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-03.webp",
+          "sha256": "2eadc3dd93aef5df5b0cb4f049918829ab60b6a5dd940321baa74df9d55636e2",
+          "bytes": 128128
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-03-320.webp",
+          "sha256": "f6d270ed37c728e55279f731334333ff6d60a16a3e137ceeffb80886b0da9f2c",
+          "bytes": 45130
+        }
+      ],
+      "videos": [
+        {
+          "index": 11,
+          "action": "entrance",
+          "jobId": "78f6cf1f-ae18-4be4-8687-6c28ab10c2b0",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-03-entrance.mp4",
+          "sha256": "29c5affb9bb10a8e25d19fd52e25da79bfa9e7a9e8f408616f03d174ae0b5f19",
+          "bytes": 387636,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "deeb032c6006f64549325e8597e9aaa9f099b49425c50bd96d27f9d643dc3e7a",
+            "editedSha256": "cfbf888a5cc28cd3b8803d70502f35e80f14b2d01fd9153dd06657d26590627e",
+            "sourceStart": 3.08,
+            "sourceEnd": 4.083,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        },
+        {
+          "index": 12,
+          "action": "idle",
+          "jobId": "0418f649-d725-4b04-9d36-3edf4c9a0fc7",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-03-idle.mp4",
+          "sha256": "4163b95283041500fa42baa13a3a4c8eafe215d4b24b4a4aa0c0c813feb23030",
+          "bytes": 705516,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 13,
+          "action": "attack",
+          "jobId": "3bb53abf-28f7-4619-bdab-5ab341dd0003",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-03-attack.mp4",
+          "sha256": "f2cdcfd283a1210852c186564a783fd695989d84c17723db2be233cfa34a3ae2",
+          "bytes": 853041,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 14,
+          "action": "hit",
+          "jobId": "cc0eadd6-938c-4330-b15a-1b524c0af954",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-03-hit.mp4",
+          "sha256": "e5c3d38a05994f1d4dba887617d69844804a2f66b34c8c63537bdce9463b01f1",
+          "bytes": 440036,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49,
+          "supersededJobId": "d35ac478-eedb-4315-9c0c-fbcbabbe042c"
+        },
+        {
+          "index": 15,
+          "action": "capture",
+          "jobId": "07beaaa0-f957-4f69-9242-d0d3669a9b84",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-03-capture.mp4",
+          "sha256": "ba349f6a87e9bd606957e28baef36ec5917a6e3ace6865069d0299f8eeb1805a",
+          "bytes": 585969,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-metal-04",
+      "name": "天穹堡壘獸",
+      "imageJobId": "a8e08bd7-ed24-4258-86ab-08f84b97b619",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-04.webp",
+          "sha256": "81fa25987379261029815051300ff9ebc7a6df761bf66923aaa93be9ac099687",
+          "bytes": 94436
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-04-320.webp",
+          "sha256": "70e0342c5160367c3bfd1e54d4fcf9408c2c509d32438c86080a7e658b2828cf",
+          "bytes": 32852
+        }
+      ],
+      "videos": [
+        {
+          "index": 16,
+          "action": "entrance",
+          "jobId": "8b23de51-1744-49c5-96b2-cd912b5e073a",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-04-entrance.mp4",
+          "sha256": "cb76b8532e899fa20ddd66c5ee20c111a38d05de2df1b987ed627daa2a296e7f",
+          "bytes": 247121,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "29f85d83f3d2ac4bc7e50cf132859f29ed6dfe42ee13074c2d8aaef3e2c07215",
+            "editedSha256": "88bef6e0ca7d3007c96dd6359aee02292fd6177aabea14cdf255e06687353cf9",
+            "sourceStart": 3.167,
+            "sourceEnd": 4.083,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        },
+        {
+          "index": 17,
+          "action": "idle",
+          "jobId": "698df764-b3d3-45fd-9f19-428af9e18870",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-04-idle.mp4",
+          "sha256": "e6486a81f5d1cc886c5981f93b01798bbcf0d0949016d2ffb659cf0a056a03a1",
+          "bytes": 569922,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 18,
+          "action": "attack",
+          "jobId": "76519578-aa7c-44eb-9a0f-2478717f6484",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-04-attack.mp4",
+          "sha256": "b0f3ffc1a2bb6b4cc71f25fccbeefde466a878b754f00243269a5883832f5a8d",
+          "bytes": 768484,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 19,
+          "action": "hit",
+          "jobId": "92f43993-6afa-4ad0-a016-32b4b4079a81",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-04-hit.mp4",
+          "sha256": "ea746e31f4e420305a5988287ab1b79edf7a63f6b4598a2ae2e72f59abcc2fc1",
+          "bytes": 797524,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 20,
+          "action": "capture",
+          "jobId": "a7a6cf67-960e-4507-b8c1-007454d1009b",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-04-capture.mp4",
+          "sha256": "d43d6d70e5593a260fbadbd877126b10dbaeb120f056072963382b4b4d923539",
+          "bytes": 699959,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-metal-05",
+      "name": "雷鑽獨角王",
+      "imageJobId": "9c2afec4-c6a5-4e14-b0ba-f6617b80eb18",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-05.webp",
+          "sha256": "ba370558f1cfd80b62523c8810c2a1e88d2d379262c504f3e679ce0f12caf6d4",
+          "bytes": 104970
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-05-320.webp",
+          "sha256": "021290a2288cf54752eebf14fc732777b4ccb5ac6564d11fa605f52804acdd1d",
+          "bytes": 37750
+        }
+      ],
+      "videos": [
+        {
+          "index": 21,
+          "action": "entrance",
+          "jobId": "9dcfb70a-e5c2-43f7-b13c-8830e2846bde",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-05-entrance.mp4",
+          "sha256": "1d4867f5b07bc9e34f3391f5d7c5acdfd0337d9039e0be71d4983c39f59f4eb1",
+          "bytes": 302976,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "7c2c74a69368748e33a2d8e222916b91cbd905b1e61cb8c2ac7096e68ae9df73",
+            "editedSha256": "c00ce4768272c19e0fa20506b98810eaeadc4f79f2b46a599d526c28653ff30a",
+            "sourceStart": 0.0,
+            "sourceEnd": 1.5,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        },
+        {
+          "index": 22,
+          "action": "idle",
+          "jobId": "fd4ed054-2a88-41fc-b298-b25a7e08a4da",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-05-idle.mp4",
+          "sha256": "e42d94bef6c6241f2032a0ad2fa458b89c66c7041c826b66b5f229ab2fe9e497",
+          "bytes": 571931,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 23,
+          "action": "attack",
+          "jobId": "dfeb8db9-db74-4441-8309-82f4005f88ab",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-05-attack.mp4",
+          "sha256": "ebb242f6c2c4fc51590e3836ebc44f7f4de3bbda934a7e667e89fe6c12c481fc",
+          "bytes": 736751,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 24,
+          "action": "hit",
+          "jobId": "c603d30a-9d31-4e0d-aeb6-279407699136",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-05-hit.mp4",
+          "sha256": "b31e2cbce42ac6755a8fb84d2bf8635216a912e9a069f43227fd37cb11e437be",
+          "bytes": 681001,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 25,
+          "action": "capture",
+          "jobId": "fb09e565-a58b-412d-beef-577e47ec3a28",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-05-capture.mp4",
+          "sha256": "7f21180589dc0d30ae98ec827f9cb1464f417bec9afd741c80a4baa6a26c0051",
+          "bytes": 603939,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-metal-06",
+      "name": "軌道戰蠍",
+      "imageJobId": "073d8583-c909-441d-8ff2-93ec75b88038",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-06.webp",
+          "sha256": "69f6e5f1b3e2035739de1d8c5ef16c740cc558fe1a1ab341e3e080928ad72fd6",
+          "bytes": 104722
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-06-320.webp",
+          "sha256": "3768c50927b736e3c9c972f23cb597ecb7961db1a85a1f9e820700c593262ec1",
+          "bytes": 36852
+        }
+      ],
+      "videos": [
+        {
+          "index": 26,
+          "action": "entrance",
+          "jobId": "9d3c456a-2f8a-448e-81ac-9e9710fedbe8",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-06-entrance.mp4",
+          "sha256": "7a47d303a812cbcb4dd66dc83620f5ee9c02dc0d02778a7396524ad03719017e",
+          "bytes": 563740,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 27,
+          "action": "idle",
+          "jobId": "b7e73cd0-7ec6-4e8b-be1f-f802737b196c",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-06-idle.mp4",
+          "sha256": "34beff2f13fb02516b1415b53d1151645f6b59912d415007ba2f250dbba8873a",
+          "bytes": 639974,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 28,
+          "action": "attack",
+          "jobId": "b73210af-f6c2-45d9-babd-3c5e33179f98",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-06-attack.mp4",
+          "sha256": "d67c1ea588ed42ec7b69e09942831c4ade8b4eeeb0f58dcb67281717165193a9",
+          "bytes": 698637,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 29,
+          "action": "hit",
+          "jobId": "2e2d75b0-bd1b-484c-b118-be2a09710eff",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-06-hit.mp4",
+          "sha256": "53f597e8a54b9d31362b8c469faa3e0fb7d1d69c92202db76f84d763375a571d",
+          "bytes": 477933,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49,
+          "supersededJobId": "acd2dad4-ee62-4030-bf30-91a41e44addc"
+        },
+        {
+          "index": 30,
+          "action": "capture",
+          "jobId": "b2a7a3ca-a0c9-4315-865c-0c880123d328",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-06-capture.mp4",
+          "sha256": "a9fcd599860c7ca759b7586010ae91b0d5ef85a1e6be941f54c9b49cd36d1c2f",
+          "bytes": 706847,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-metal-07",
+      "name": "磁環蛇帝",
+      "imageJobId": "c02831df-6cd5-4a20-ab94-e0e08b18ec76",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-07.webp",
+          "sha256": "f3f74bd2407d128aa937d197042e37d4b5a90145d650878fdbee36648783e745",
+          "bytes": 120978
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-07-320.webp",
+          "sha256": "b3b15446709422434bf7278d5176a7fd775dbc7c211bc5cabb87046680726354",
+          "bytes": 41464
+        }
+      ],
+      "videos": [
+        {
+          "index": 31,
+          "action": "entrance",
+          "jobId": "63fa37d7-4dbb-47f6-af90-ff711a32e9db",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-07-entrance.mp4",
+          "sha256": "c4d33b34a70d251ab5564bdb04c51865d3385bb3a702601e0430518cd13f1297",
+          "bytes": 295095,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "a3ab88be8fac6a297e6c5dd5b8298353370cb45b0c9128e4cd972cd39caa1258",
+            "editedSha256": "4d5da4de9d56dff2e4e26fab4863d5fd4895720c42bf7bc65940d4df935dd08a",
+            "sourceStart": 2.833,
+            "sourceEnd": 4.083,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        },
+        {
+          "index": 32,
+          "action": "idle",
+          "jobId": "f8ec3b66-2004-493a-a817-469d58c98c79",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-07-idle.mp4",
+          "sha256": "9566e5ee57cf66efc73c7eb28ace91a480074a9d72a4810350515ad98d01ed34",
+          "bytes": 655013,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 33,
+          "action": "attack",
+          "jobId": "49e8bab1-90a4-405b-92ee-e23a5e1b0026",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-07-attack.mp4",
+          "sha256": "65401ccd31cd1d53e9a4770eabac650532ad712aa9eb59bedfc059098e702173",
+          "bytes": 761770,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 34,
+          "action": "hit",
+          "jobId": "1a5a0aee-bbe6-4fb4-836f-1ce02e8745a5",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-07-hit.mp4",
+          "sha256": "0a6e3d568598d55f707ae2f98df7460e90ecfacff7ba37e3dc8be61b26504678",
+          "bytes": 729680,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 35,
+          "action": "capture",
+          "jobId": "746a18fb-5c0a-4682-8498-36738a59de7b",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-07-capture.mp4",
+          "sha256": "92083e890796135f90bf3140f33c55e6f8bef974ade8146880768971c7445834",
+          "bytes": 670031,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-metal-08",
+      "name": "金剛六足王",
+      "imageJobId": "e670f08f-301b-41ba-addc-9389ad22af99",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-08.webp",
+          "sha256": "d8fa3c3f9cf488fde72330f780a4b13321d18e767c0a3a2429b4f4f5c6652674",
+          "bytes": 114080
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-08-320.webp",
+          "sha256": "645d05b81e1d95b7b6a6bd26f3c59d717cda198151ee7aefd9fdd2f10d3ae096",
+          "bytes": 40106
+        }
+      ],
+      "videos": [
+        {
+          "index": 36,
+          "action": "entrance",
+          "jobId": "149abd63-0c06-4617-b2b2-422acf8880c3",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-08-entrance.mp4",
+          "sha256": "53accc6e44036b903783a92aa01c84beb51edeca0e690acbb8ec800a07bfd5f7",
+          "bytes": 679484,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 37,
+          "action": "idle",
+          "jobId": "44311b21-c07f-4ceb-8c96-a0b08d2ba9de",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-08-idle.mp4",
+          "sha256": "13360c06d47f428dcf098c07cb7cf3caa28fcdd2419744b0d27a497c789e1fd8",
+          "bytes": 543071,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 38,
+          "action": "attack",
+          "jobId": "cae8a540-b77e-4884-8f09-a90ac3f2442f",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-08-attack.mp4",
+          "sha256": "aeb4cd529253d51cd1f9c95390bd17850687455c42c875581976e1c71aeb6c2d",
+          "bytes": 737271,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 39,
+          "action": "hit",
+          "jobId": "732fbdc6-059a-4ac5-8db2-e9099a5e6d89",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-08-hit.mp4",
+          "sha256": "59af50367fb2deeedc0d272cc97a8ece3ff480fbe200262ba9c1bb620453b742",
+          "bytes": 717964,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 40,
+          "action": "capture",
+          "jobId": "9bcbe871-c4b2-4b71-9d56-7aba1400ea0c",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-08-capture.mp4",
+          "sha256": "f244c42551f76df4bba36e4bceae73e481442eaf93a056bd21b6246c0fa56c41",
+          "bytes": 574073,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-metal-09",
+      "name": "斷空刃鷲",
+      "imageJobId": "d07bdc5d-3aad-44f6-88ce-8fb7b8f9f867",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-09.webp",
+          "sha256": "5f8ca9d43ac61718a47a836c44979fb6ceffe918300f94bc0665ce7017ee967f",
+          "bytes": 128920
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-09-320.webp",
+          "sha256": "1820a696ee53281d24e5ec870303eb350e9309616288b0aec15245af540b3eef",
+          "bytes": 45662
+        }
+      ],
+      "videos": [
+        {
+          "index": 41,
+          "action": "entrance",
+          "jobId": "cd52ed9f-4057-4e2d-8fa7-23f0bc331899",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-09-entrance.mp4",
+          "sha256": "649124fef992d977a00a59988135d00a192471d250eead4b51d715c1a6fde15c",
+          "bytes": 232627,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "supersededJobId": "789af0a4-b2c6-4c09-97c3-9d97ff3c3f13",
+          "editorialTrim": {
+            "sourceSha256": "a5b63bce27fc757d8d78d3cab18e7286be7f61f9863ded1e998cb6d0d2e185f9",
+            "editedSha256": "a5fa14d90375d5b91b4b5d48c79756c3c5c3f9836c5dc89dddcbdaafdee49c66",
+            "sourceStart": 0,
+            "sourceEnd": 1.1666666666666667,
+            "duration": 2,
+            "reason": "Keep wings fully inside frame during entrance; transition to idle afterward."
+          }
+        },
+        {
+          "index": 42,
+          "action": "idle",
+          "jobId": "6dfb6d2f-9dbd-4ac7-a27a-18947c9ac976",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-09-idle.mp4",
+          "sha256": "ec4becee86f1692b133784954dd2af4451bcbfa63eee6c33b3878ff933e3d0bd",
+          "bytes": 703261,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 43,
+          "action": "attack",
+          "jobId": "1ffddfda-f287-4fc8-a2ce-92543922b205",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-09-attack.mp4",
+          "sha256": "6669a71010c6e0184155c5d14e0b9c5bd645e12914d26ce8c503dafa923e719b",
+          "bytes": 507243,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49,
+          "supersededJobId": "b138b9bc-2a8e-490e-9875-65fa960d6896"
+        },
+        {
+          "index": 44,
+          "action": "hit",
+          "jobId": "e84085fd-c10a-4a5a-a053-be415f03be1e",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-09-hit.mp4",
+          "sha256": "1560831ca6633c18db4d7c48e2c4dd02d112891d7a9a6be4db21195788364f61",
+          "bytes": 557341,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49,
+          "supersededJobId": "eadb5a50-52fb-4534-9cb2-cf8c8d816176"
+        },
+        {
+          "index": 45,
+          "action": "capture",
+          "jobId": "3d9bf464-5eca-4cbc-9897-a517adc57906",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-09-capture.mp4",
+          "sha256": "edd2ac172f653d2691fa4bbc440bf35c8b4e9e9fd002aab74333dd23d7b0da0c",
+          "bytes": 487601,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 36,
+          "editorialTrim": {
+            "sourceSha256": "71cdfae39771d87710d7095a0a5b8644adf60879b5691e4a6e9790f5a1e76cea",
+            "editedSha256": "03a1a2388f3f081ac509003d234d764913a50af004c65a716797cf2c63cac375",
+            "sourceStart": 1.083,
+            "sourceEnd": 4.083,
+            "duration": 3.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wave4-metal-10",
+      "name": "齒輪巨顎",
+      "imageJobId": "5cec339a-5290-4d90-b105-dbb0232534ae",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-10.webp",
+          "sha256": "f0ef65aa1dd821de22c7dd55e30f9d15977e6b8599ba494240117cce028483fb",
+          "bytes": 136366
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-metal-10-320.webp",
+          "sha256": "766728a6d3f8298bcb88cddee4092c837c56e43b1a1b4286d5dc59d159bc8506",
+          "bytes": 45226
+        }
+      ],
+      "videos": [
+        {
+          "index": 46,
+          "action": "entrance",
+          "jobId": "604371d7-5b7b-4d09-bf46-156a7313f2d4",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-10-entrance.mp4",
+          "sha256": "1ecd320f215c50259ce3f602a30dada250cc055a1392daa9f15fb9b0c25e871e",
+          "bytes": 760914,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 47,
+          "action": "idle",
+          "jobId": "6f08dc2f-b086-488c-87fd-e71659501925",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-10-idle.mp4",
+          "sha256": "b3a88cf9a29768398b237906f7fbcaa9b24b0f506daf79b0e7cd0fc763c0f633",
+          "bytes": 821939,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 48,
+          "action": "attack",
+          "jobId": "c80004c5-e8f6-4463-91bf-4895742cb94b",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-10-attack.mp4",
+          "sha256": "f28bfbe62855241ceb50eebd39cd11056362ee6570ef78f1dd46e0e82221ce8b",
+          "bytes": 504075,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49,
+          "supersededJobId": "53d129a8-86f6-4799-b713-cce2e47ef282"
+        },
+        {
+          "index": 49,
+          "action": "hit",
+          "jobId": "92533d3c-ccef-4b68-aaad-7ead242cc556",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-10-hit.mp4",
+          "sha256": "db7d848495e9765790aba882d8bcd266c860eb4344a17ea7a63a9df73ec4a357",
+          "bytes": 996098,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 50,
+          "action": "capture",
+          "jobId": "53a7e53a-1d26-47a4-a89c-4019e11f6846",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-metal-10-capture.mp4",
+          "sha256": "05f2ef7dc99cb9539bf5fa8843a809758896d2edde62eaa325769ef7cd1e7e36",
+          "bytes": 666354,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-wood-11",
+      "name": "古森機神",
+      "imageJobId": "9f6e527a-9caf-42cf-a16b-1fdb2d5a1522",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-11.webp",
+          "sha256": "e8e95e7e121afe8c4366ae97cb8790a392697125316c46f6ac8aeba891d80fef",
+          "bytes": 139800
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-11-320.webp",
+          "sha256": "41a548273b24dfaeac96d8a05fba299aaf0bb5e2367bf49af940c70384dc7466",
+          "bytes": 44864
+        }
+      ],
+      "videos": [
+        {
+          "index": 51,
+          "action": "entrance",
+          "jobId": "abc899ce-cbba-4697-9744-9a1f426e0242",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-11-entrance.mp4",
+          "sha256": "0b1051577385332d16666a035aad9f534ebdc125515d6a9beec1ed5e7ed0a512",
+          "bytes": 423603,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "6128b2048ee34731bff21e91abe29417c61d0153758873948f7e5294ad330e08",
+            "editedSha256": "4e0acede01577c65d335a3d85f436bb723c8d05872a4ee688cce5636885bce0b",
+            "sourceStart": 0.0,
+            "sourceEnd": 1.25,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        },
+        {
+          "index": 52,
+          "action": "idle",
+          "jobId": "0f49f898-fa81-4e51-9fa3-7ab42a9c64fb",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-11-idle.mp4",
+          "sha256": "39345b9a2161c1bcc83d98957d4c3774917162f56b4f7cad6b5739d1b6dbef12",
+          "bytes": 808329,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 53,
+          "action": "attack",
+          "jobId": "25ead369-36e5-4350-ad8c-05af7bbd2dc1",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-11-attack.mp4",
+          "sha256": "0863fc8845262606ba6b9bedbf0778a72ab0931c8beb292d609d590da94443d9",
+          "bytes": 911408,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 54,
+          "action": "hit",
+          "jobId": "818ec849-bee6-4541-9e00-56bf64096614",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-11-hit.mp4",
+          "sha256": "1c7c376999bc037803fecf674a148f381785571d66c4ca9513f7b0877df5ba29",
+          "bytes": 937070,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 55,
+          "action": "capture",
+          "jobId": "97957e8b-f39b-472b-ac83-c4033d29118e",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-11-capture.mp4",
+          "sha256": "a085471d1726076479ff588bc382d88a598b4dc24efe2d455173d5c32770f0c7",
+          "bytes": 923828,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-wood-12",
+      "name": "荊冠暴君",
+      "imageJobId": "8c1b1fe7-68fa-48a6-84b6-658b8c21dbcf",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-12.webp",
+          "sha256": "67d8464443fb5b0f32fd1f72fe51d8cddd955fcaf16087b0cb0dc4c2fa091b59",
+          "bytes": 132288
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-12-320.webp",
+          "sha256": "fed847c67f3412a8fddb5c659d6def7da0d45b41cd0181ec85bd0570d0b4944e",
+          "bytes": 43456
+        }
+      ],
+      "videos": [
+        {
+          "index": 56,
+          "action": "entrance",
+          "jobId": "a5efce8f-936f-4897-a6a3-fb197239d15c",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-12-entrance.mp4",
+          "sha256": "91ee25926c95fc1540f7edfcff51f73050eef4b59e259f76072726248ade0382",
+          "bytes": 357347,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "8ededb27958cac6d9e1ec839fbf0adc81998e8942d1ea59cc866424e4476ebaa",
+            "editedSha256": "35f1cbcf36cff0ddad3a2607f02468bc8046645ff009ee5486f2a287047defbf",
+            "sourceStart": 3.0,
+            "sourceEnd": 4.083,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        },
+        {
+          "index": 57,
+          "action": "idle",
+          "jobId": "7ab54f00-e2e8-4ad5-954e-638765b7ead4",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-12-idle.mp4",
+          "sha256": "5b1658f6c1e95859cf9159d734b2f38bf220bb673e674d17d7b98bb1d868b5eb",
+          "bytes": 743938,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 58,
+          "action": "attack",
+          "jobId": "3fc54cdc-fe0c-4d72-9c30-4c6caa93c15d",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-12-attack.mp4",
+          "sha256": "6c0e4b45e8c81786e5d037fe49152c4cd1f2f262a772ba4167602397ccd35149",
+          "bytes": 1025808,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 59,
+          "action": "hit",
+          "jobId": "8c6eba67-5dfa-449c-9ff3-da6117e699ba",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-12-hit.mp4",
+          "sha256": "217afa1a3b088f24fca36da12233c3a6c48929214896d1179d7f22762cdd35d3",
+          "bytes": 879852,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 60,
+          "action": "capture",
+          "jobId": "3400aac8-d5f4-4ca5-86d6-6d73a0164b5a",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-12-capture.mp4",
+          "sha256": "ea0d2429ce385623b7702b1fac49a6ef261371463c951d466474e570b7c27546",
+          "bytes": 838474,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-wood-13",
+      "name": "神木巨象",
+      "imageJobId": "d6805e3b-ed95-482a-9148-12bdffc30a05",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-13.webp",
+          "sha256": "01ebf66064baf5639d289c7dd6fd74c68d3307eb4bfead22d343e42243c43010",
+          "bytes": 147722
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-13-320.webp",
+          "sha256": "d27fa601e138bf6522aaad97fd31587b4406887897e6375651bbee5915a5a00c",
+          "bytes": 47314
+        }
+      ],
+      "videoReferenceMediaId": "a5c8ac07-7709-4c0a-a4bb-ac6797c968ca",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 61,
+          "action": "entrance",
+          "jobId": "f644aed5-3d62-49fd-8c11-1a12c1afdc4c",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-13-entrance.mp4",
+          "sha256": "e2a7f5f4b4437b76475a3cba23acd15b2ef92dfa5422aa71384cfbb17558c880",
+          "bytes": 319804,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "35f430f4b3b53733686242b45e82ccfce71f3c624cb05dab08b685850f4ff741",
+            "editedSha256": "a3456d61f9e377b87c17f1f9e60c63356b146c687b6625a4102549120ad6abcb",
+            "sourceStart": 0.0,
+            "sourceEnd": 1.75,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        },
+        {
+          "index": 62,
+          "action": "idle",
+          "jobId": "69745d21-7da4-4335-8f94-756f965c9b82",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-13-idle.mp4",
+          "sha256": "e547365b01371c968b76327e5a3c3d08f061ed4ca266c65520227f4a6c8f23a4",
+          "bytes": 546986,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 63,
+          "action": "attack",
+          "jobId": "c58a6f08-ab66-4b2b-a33c-475519ed1e1e",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-13-attack.mp4",
+          "sha256": "fd0431a26342642726c9bf54ac60b02d5921fb463949f39da7b160840b6cff36",
+          "bytes": 766316,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 64,
+          "action": "hit",
+          "jobId": "d1a7974b-d93e-4fbf-b8fb-69b13fb26c04",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-13-hit.mp4",
+          "sha256": "6f2f143c00c6d1919cc37eeac9191b1d65c1761023e1fbf1714ea36e3540786a",
+          "bytes": 846352,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 65,
+          "action": "capture",
+          "jobId": "483cce78-dc2c-4b53-8979-fa7200cc1129",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-13-capture.mp4",
+          "sha256": "64169978eea9b9d8c58975b8193185376c55fecc9547bdda696c52ff273e0120",
+          "bytes": 633337,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-wood-14",
+      "name": "翠甲螳皇",
+      "imageJobId": "e8ebbb05-d1de-47f2-aaa0-ea8f2d286554",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-14.webp",
+          "sha256": "e994dbdd52311fc36c2701a8489afed8292906069258cdb0b41c15c2f6835e04",
+          "bytes": 124670
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-14-320.webp",
+          "sha256": "a6837449caa0be1612abaf1586bae2aadd99cf5dcc024896fbb7f5b48c92d961",
+          "bytes": 44080
+        }
+      ],
+      "videoReferenceMediaId": "fdb2a3cd-3af7-45a3-8ba2-97d5f421da44",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 66,
+          "action": "entrance",
+          "jobId": "f06a06a7-6c44-4223-a18d-a953813800e7",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-14-entrance.mp4",
+          "sha256": "e47d929fa3b4c4de0b5f02f59eba6f7f1f1f52209e78e78644a6e78a27eadc41",
+          "bytes": 592238,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 67,
+          "action": "idle",
+          "jobId": "f4752bfd-8c16-43d9-b727-6406541c7312",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-14-idle.mp4",
+          "sha256": "c031e1b095b29a0a0ab63b6978fc069c454413d9af25fc7809738b93dc1f2b0f",
+          "bytes": 493377,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 68,
+          "action": "attack",
+          "jobId": "4f2aa5ff-c481-4710-848f-805970d6005c",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-14-attack.mp4",
+          "sha256": "1fdf61cf339a4e066202e766d5f538de661c83a7f6ef5272838e701bb6845331",
+          "bytes": 591474,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 69,
+          "action": "hit",
+          "jobId": "d243f411-8cd8-441e-9af7-e739fbc0700b",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-14-hit.mp4",
+          "sha256": "2244fd0bf6cbc1d17d15667727e8ba8b9193554f9d570058ecc90275017c9165",
+          "bytes": 526590,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 70,
+          "action": "capture",
+          "jobId": "22a857a1-be77-4a9a-8681-977050fce4ac",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-14-capture.mp4",
+          "sha256": "470577c1fca6b515ef5b980cb67d951ee2d4bd7e8ffb0e800d8b57cb51d7ee7f",
+          "bytes": 777587,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-wood-15",
+      "name": "藤鎖九頭獸",
+      "imageJobId": "fc7968f5-c691-4e3c-8f2e-7d5cbd9bb7d9",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-15.webp",
+          "sha256": "eb7eb0ee69098afbac236e14b52551f940a581db131c5e1df428c2e4676114a8",
+          "bytes": 177466
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-15-320.webp",
+          "sha256": "cd5fd4ec3925082265086d94f7cdf20597654b2b1842bc9e20b5ac69abe34bc4",
+          "bytes": 59922
+        }
+      ],
+      "videoReferenceMediaId": "28e5bb27-d7b3-402c-9493-ac1494a5ae73",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 71,
+          "action": "entrance",
+          "jobId": "e0aa1220-c189-4462-9c2b-3174dfa384ca",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-15-entrance.mp4",
+          "sha256": "9a59572816236e001b29437421a133627e7324528a580698c8b471d451e49d54",
+          "bytes": 1031978,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 72,
+          "action": "idle",
+          "jobId": "ab013a33-8ee9-41d1-b76f-43cfdf294b19",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-15-idle.mp4",
+          "sha256": "21e317d71f7e96b4a2662a7671fdd9244a5f3678b24efa3f0b435b181e6b3980",
+          "bytes": 881001,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 73,
+          "action": "attack",
+          "jobId": "fedd5338-b180-417c-873d-13e41f967b69",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-15-attack.mp4",
+          "sha256": "dcdf53bfd7df5917173ac0e0104572216a4d66b3894e59c430f78c501a989fd5",
+          "bytes": 799666,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 74,
+          "action": "hit",
+          "jobId": "8cfc4f2e-21c5-47b2-bc69-065fd40c8ca1",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-15-hit.mp4",
+          "sha256": "89837cd0597f0b1c4d7e5848fd625f36f8b2ea57edcb2a361f9c8c20d2950a0c",
+          "bytes": 1093389,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 75,
+          "action": "capture",
+          "jobId": "e69d7784-d9dd-47bc-b171-e271085f976b",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-15-capture.mp4",
+          "sha256": "bd82186df73c8cba78baeedef0abd22448a36291dbb2705dd318d12e42b7f6fb",
+          "bytes": 1008916,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-wood-16",
+      "name": "孢子戰車王",
+      "imageJobId": "1c92e0dd-b50a-4f16-aad7-5b1b9362c58d",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-16.webp",
+          "sha256": "2bb14d73cb38b77ce40d9595265fc062e0ec11639148846bdc74e12c423f0637",
+          "bytes": 131128
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-16-320.webp",
+          "sha256": "496e03a350a44c6f626a861d398f622b1f46d8e88d7dbf9943dd76db7ada585e",
+          "bytes": 44068
+        }
+      ],
+      "videoReferenceMediaId": "7b8e54fd-4cb6-41a7-9514-6a186ef1b0e9",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 76,
+          "action": "entrance",
+          "jobId": "88feaf62-9144-4451-a666-8781e7fb2a19",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-16-entrance.mp4",
+          "sha256": "8757921e71309c4f9426ffd7b2ca5dbb0c8938ef53aaf1f55d411ec784309e07",
+          "bytes": 289420,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "07b4ff48d4d1ed2375f0294f73a987988a7b7885927659d49132fb0a5565e66c",
+            "editedSha256": "a03bf6bec15dd045fcff6df7aa699ec474bd213dee39f1985f21fd9a6defcf9c",
+            "sourceStart": 0,
+            "sourceEnd": 2,
+            "duration": 2,
+            "reason": "Keep wings fully inside frame during entrance; transition to idle afterward."
+          }
+        },
+        {
+          "index": 77,
+          "action": "idle",
+          "jobId": "dff3345f-3d96-41cf-b468-67a845227a5e",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-16-idle.mp4",
+          "sha256": "b59e91871356d7ca72cb5bc044e2e79b24d029169ed5be448f7ca02ace3aa90d",
+          "bytes": 642399,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 78,
+          "action": "attack",
+          "jobId": "dafbc5f2-e2df-4b4a-9b29-2f0f885369e5",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-16-attack.mp4",
+          "sha256": "7ea246af8ed1c0b6a2914c3a00ca028581a525bae8640e400a90a2c92886451a",
+          "bytes": 533755,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 79,
+          "action": "hit",
+          "jobId": "045c3f3f-26d6-4e91-8cfc-6cdcf2c29cde",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-16-hit.mp4",
+          "sha256": "3e0a99dbb0e704e7bdd17a059a5b81c3674432aac376871e2f4d054ecc17384e",
+          "bytes": 686670,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 80,
+          "action": "capture",
+          "jobId": "6825fe4b-5afe-4d23-81ce-819b5df63101",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-16-capture.mp4",
+          "sha256": "0c7c90ae1c20c7b85e38cff7b1c3ec221a018bf36659d6bca6dc0183f93cf20d",
+          "bytes": 662769,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-wood-17",
+      "name": "森羅鹿帝",
+      "imageJobId": "d73ffa26-d3e5-4e5c-90c4-95b5aa9e6fd6",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-17.webp",
+          "sha256": "faf10632821ad235932c68c15f8e30a804f4f3496c869b394758e57b1e89b0c7",
+          "bytes": 125588
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-17-320.webp",
+          "sha256": "ef2a8a5d7b1fa3ba973d0feace462f12a1e747d560d51f51219fd34b9bca4b84",
+          "bytes": 41768
+        }
+      ],
+      "videoReferenceMediaId": "3b87daee-780c-4712-819f-c3e977efc555",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 81,
+          "action": "entrance",
+          "jobId": "981c034e-f6a6-4c2a-9d42-736c11d718bf",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-17-entrance.mp4",
+          "sha256": "c00565818a9a17db1ccf8e11eeb89fc25f87f2e287b206ca354485be373a8a5b",
+          "bytes": 811362,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 82,
+          "action": "idle",
+          "jobId": "bfd86171-55d7-4de0-bdf9-89c7a7c91f44",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-17-idle.mp4",
+          "sha256": "7a7e27e4ae778340abed406db30402dce6a0110fb9f48406deae1ce16fe412cf",
+          "bytes": 648777,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 83,
+          "action": "attack",
+          "jobId": "1486cfcf-2af4-4dbe-bb05-b67607e76fd1",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-17-attack.mp4",
+          "sha256": "ce71338a064d5420d2f74d2e36c7b61fb692717f44c5c007aa12a27002107c97",
+          "bytes": 756901,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 84,
+          "action": "hit",
+          "jobId": "34d72804-f36a-48ca-b3ce-45a067c7def3",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-17-hit.mp4",
+          "sha256": "2522a3cb52bfed37ba6640ec1f45b1fe8131b0e28220c3252bbb7f318f79f245",
+          "bytes": 668391,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 85,
+          "action": "capture",
+          "jobId": "5a981031-b338-49d0-86aa-2cda1524c21e",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-17-capture.mp4",
+          "sha256": "ef913c5e4f29660fc572ac7068667ca1e807d456859ba3943046f85acd3720cb",
+          "bytes": 338491,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "5c84efe4d7052af8a156517fddd71b3952bcaf87c252a2083151e4bee06ba111",
+            "editedSha256": "0741d038b40b0ce24020c17e318edfdba41f1bc75eb404f500e97b0a4a297166",
+            "sourceStart": 0.0,
+            "sourceEnd": 1.2,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wave4-wood-18",
+      "name": "棘翼魔王",
+      "imageJobId": "171687e1-3e50-4e69-902a-956bc027d976",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-18.webp",
+          "sha256": "38998252de91dbd790025f1e6751c0861a178c7a2c0d6e7accadccb502a3f7c1",
+          "bytes": 142632
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-18-320.webp",
+          "sha256": "6fcb0ed13848eda8bf20b889cd5187319d994b736089515386c3dc01c95124f6",
+          "bytes": 50398
+        }
+      ],
+      "videoReferenceMediaId": "10ea98d2-0258-4d90-9355-c861e5238063",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 86,
+          "action": "entrance",
+          "jobId": "d6e83e24-3de4-4700-aea3-f8c4be4f7b7b",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-18-entrance.mp4",
+          "sha256": "a84208e36f3e36f10a698a44c9a64cee67cfe006dfd529e839e2e353b317023f",
+          "bytes": 269019,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "b69fca2f284b3ccf7a5c756e13394321d9239536b5350999ca869813108e7fcd",
+            "editedSha256": "a4cfe5258cfadbab4e7f9389f19d6cfaee2861a81e901347ec1a32a88daff792",
+            "sourceStart": 0.0,
+            "sourceEnd": 0.917,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        },
+        {
+          "index": 87,
+          "action": "idle",
+          "jobId": "8cf4eae1-ab21-41b9-8540-d2b063abf508",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-18-idle.mp4",
+          "sha256": "5601e79b8475942eba3971eec921933d12d2a661ce264ca47900b5c44a9209f0",
+          "bytes": 592160,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 88,
+          "action": "attack",
+          "jobId": "082c571a-0ea2-4274-af88-a0dbfc535d44",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-18-attack.mp4",
+          "sha256": "84a41c6e528b30f0cf29c7045eb5738d12c97538a9d3174a4a6985a0433e5ca5",
+          "bytes": 658278,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 89,
+          "action": "hit",
+          "jobId": "ce4327c2-adb2-45a7-8937-43fee26ce593",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-18-hit.mp4",
+          "sha256": "7ce261b73f92a3165dd63e1b135db762a06f57c6044ec641e9539f6da5b06ddb",
+          "bytes": 795456,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 90,
+          "action": "capture",
+          "jobId": "56905b29-527d-485f-a5a1-41f31da5eac2",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-18-capture.mp4",
+          "sha256": "80ddb26c65f91908e982cf73938b48d89bb486869281b1aaab8f318a38b00dfc",
+          "bytes": 523210,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 36,
+          "editorialTrim": {
+            "sourceSha256": "4e23a6a4d377c95dcaa24f1a1ca1dbcca5d041259f8b05a352445083f04ca37d",
+            "editedSha256": "fe00b32266548973df56e0024c7d87488372293283cafcd788c3f3dd57631b08",
+            "sourceStart": 1.167,
+            "sourceEnd": 4.083,
+            "duration": 3.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wave4-wood-19",
+      "name": "碧核巨熊",
+      "imageJobId": "a2dc1164-da71-4f52-8be9-53aa8835d748",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-19.webp",
+          "sha256": "e5f332ffc028cf47028785babf2d25c622d37e95f0b7552ebe830d28da1e66b6",
+          "bytes": 136682
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-19-320.webp",
+          "sha256": "43d7a2a75b8d58986cbe3b4d2ae74c1877650197f2550cab4e51ffbb26d6a689",
+          "bytes": 44218
+        }
+      ],
+      "videoReferenceMediaId": "cd81aec5-7eaf-46e9-9dd4-423f3938f22f",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 91,
+          "action": "entrance",
+          "jobId": "59d263c8-8e29-444d-bdb3-27a351d98159",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-19-entrance.mp4",
+          "sha256": "a945f1c9efa3f102b3c4c342d2d4d6669d541e624ce7dc1e1965d730dcdfd8e9",
+          "bytes": 599573,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 92,
+          "action": "idle",
+          "jobId": "6c6ad57e-f158-4db0-ae07-f43e1d7d924a",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-19-idle.mp4",
+          "sha256": "b116c0a275703f1c1c84d6ff6d9cc911c5e44e7f80f1cf76001090ebab4876a1",
+          "bytes": 349269,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 93,
+          "action": "attack",
+          "jobId": "b9a8215b-6f07-41cb-8263-d6372d6d1bee",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-19-attack.mp4",
+          "sha256": "32e6562e34e97af7016bf7832329518ee4e8f355b59ac33e6b79fe83ee5c869e",
+          "bytes": 492935,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 94,
+          "action": "hit",
+          "jobId": "b35f28d8-b866-4c3b-86ae-870f238ba22d",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-19-hit.mp4",
+          "sha256": "668c05d91fea19bdea63b31173daccfb5fecfb5bcf5a121afd8db0a42c25c9a8",
+          "bytes": 393146,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 95,
+          "action": "capture",
+          "jobId": "dd9a9ae6-f38f-4e78-81eb-7c0c4ffb58af",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-19-capture.mp4",
+          "sha256": "ba88d2654748ee507c1e91c86175fab9d1f9626983bec2ec99c6ea1b7d253d26",
+          "bytes": 511872,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-wood-20",
+      "name": "根脈盤龍",
+      "imageJobId": "c7c1fbf2-5665-4039-9d40-b301aee3e0d3",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-20.webp",
+          "sha256": "70ccb573c5f457db545094fd87a823222e3df5a5b0b89b11c9bc80c5e999b2c7",
+          "bytes": 166042
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-wood-20-320.webp",
+          "sha256": "cc0bb8d1733e48f7c498cd307a371d911f46ec005bccc4f68e2f6910c6ebbfca",
+          "bytes": 54062
+        }
+      ],
+      "videoReferenceMediaId": "31c3498b-471b-4a40-a325-965299401503",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 96,
+          "action": "entrance",
+          "jobId": "ebc99623-fc75-4b82-9cbc-56f0d175b8a8",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-20-entrance.mp4",
+          "sha256": "58761392a01c180b2e43272224084f040c0ac4ace695fe2c1d67ace7b94a394e",
+          "bytes": 561533,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 36,
+          "editorialTrim": {
+            "sourceSha256": "20f01b6f925b1f58a004ce9a96852a601fcfafd1370647a36d2f2867f2d2568c",
+            "editedSha256": "1a87ca96963a3797a3e81b7c3e985b1fa5f417294f3c92e39c235432a3bd4dbe",
+            "sourceStart": 1.583,
+            "sourceEnd": 4.083,
+            "duration": 3.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        },
+        {
+          "index": 97,
+          "action": "idle",
+          "jobId": "16cb95a2-b7fa-4b1b-9cb7-4d1532c0760d",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-20-idle.mp4",
+          "sha256": "5178b4ad6424c57edbe6aa781637156c0b1f4251b7eb2a85443ca946d466c864",
+          "bytes": 819508,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 98,
+          "action": "attack",
+          "jobId": "604be0a4-35e8-4670-8557-6eeab0703b65",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-20-attack.mp4",
+          "sha256": "10a8743977d6c5805309336d438836c55d731843004a2bbde2b1c15d54847159",
+          "bytes": 789451,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 99,
+          "action": "hit",
+          "jobId": "1c04a846-e6ac-4dd6-af2f-359ca5189301",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-20-hit.mp4",
+          "sha256": "ba24381bd4e210a7b7bc265557ad6fb4bef91a2e4d50cda3759e7039767ae1bd",
+          "bytes": 860579,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 100,
+          "action": "capture",
+          "jobId": "c4de77e0-9405-4c5e-afd7-2ec76bae64b8",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-wood-20-capture.mp4",
+          "sha256": "7a1afa29f4981c3f04e4fc58fd1ff8d07dfbee24e1a7a17ab0549a1a1d8d9d05",
+          "bytes": 864727,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-water-21",
+      "name": "深淵鐵鯨",
+      "imageJobId": "27b796aa-e096-450c-b6dd-9fa90115ed0a",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-21.webp",
+          "sha256": "5fe962c6e7aa1d796fe6c7e5fc6f70159371d2c915d05a9788496738937f9fac",
+          "bytes": 94466
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-21-320.webp",
+          "sha256": "aa8b5b35771cb61c50ece0a06426898c4684a3565d183136cf263e33fd598fb1",
+          "bytes": 32950
+        }
+      ],
+      "videoReferenceMediaId": "5d9abbfa-3e0f-4544-9e93-f5bed49c2a53",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 101,
+          "action": "entrance",
+          "jobId": "268fdb35-0109-42e6-aa93-4e1cc6eafa07",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-21-entrance.mp4",
+          "sha256": "a096e958de69a0096ef3a2246aaac541e3a66ebfcde3cddc8becd9fbd3cca13c",
+          "bytes": 411631,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 102,
+          "action": "idle",
+          "jobId": "6a7fcbe5-40b9-4045-a00d-3c9622093da3",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-21-idle.mp4",
+          "sha256": "b2e4b91e6991ae139e375e2dd57fb6a720e3de250bbcf88ff2a8ead824265535",
+          "bytes": 353070,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 103,
+          "action": "attack",
+          "jobId": "127e8c0d-aa02-405c-88a2-2f7a07d25c65",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-21-attack.mp4",
+          "sha256": "591e175dd8ce2bc719f729e675440d46ca895791a33fb0c3f70c9cb4d6bdadcb",
+          "bytes": 427766,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 104,
+          "action": "hit",
+          "jobId": "af046346-09df-4d8f-9b5c-ff791e6fbdf6",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-21-hit.mp4",
+          "sha256": "e649d71a50069315de474906bdefb90fc2d4a8bc021948fbf964348e101d469b",
+          "bytes": 361684,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 105,
+          "action": "capture",
+          "jobId": "78fcd0f6-d3eb-4069-9b8f-483891a949d4",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-21-capture.mp4",
+          "sha256": "7a5dcd916f69fcacded737a0e8c894d1e951a6ac1dd437000e91a294d72e6e4e",
+          "bytes": 191126,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "7b98dbd303ef47ada5d73f230eb51a8235e4a2f01e7819f0689b9ba3071f6b68",
+            "editedSha256": "7a72034f913fdfe8688acd9164bde5be986f1c675b1cb3ded1595373624cd347",
+            "sourceStart": 0.0,
+            "sourceEnd": 1.0,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wave4-water-22",
+      "name": "冰冠九首龍",
+      "imageJobId": "61ade27b-9a20-4878-87b7-5cf7e73d8ae0",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-22.webp",
+          "sha256": "f924846a6ae3fa64f3b2e49784111f61546f2ae04b33b3324e1cb0a6a9eaf116",
+          "bytes": 175202
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-22-320.webp",
+          "sha256": "049dcd4a4c551eb06f78d5237396233ab86bafe17e1e97f0dae6c67a96d37451",
+          "bytes": 57814
+        }
+      ],
+      "videoReferenceMediaId": "427b517c-ca08-42dd-8d59-4c504f064047",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 106,
+          "action": "entrance",
+          "jobId": "9fcb9a3d-e85e-4df2-8f4e-34f00377ccc6",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-22-entrance.mp4",
+          "sha256": "2957a489192555a855303eb153f25b72833519471fffec1bd88b165de2da5a2a",
+          "bytes": 320212,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "678be2c051b0180cb82068e42ab5edd5fef776b07f0d7699165856dbbb899eb2",
+            "editedSha256": "474bfc633c52a60f564636f0d0778a5464085e188a7dfbfa06bb28540c32de3b",
+            "sourceStart": 0,
+            "sourceEnd": 1.75,
+            "duration": 2.0,
+            "reason": "Keep the original wingless hydra rising into view; omit the later invented wings and boundary clipping."
+          }
+        },
+        {
+          "index": 107,
+          "action": "idle",
+          "jobId": "da830a6c-c192-4254-84fe-a789a4690634",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-22-idle.mp4",
+          "sha256": "8cb20030242c03f0cc36755bd6a052420ef131897712215af758a2d01e4b6c91",
+          "bytes": 875010,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 108,
+          "action": "attack",
+          "jobId": "c418f198-48df-443b-bee0-b3061c4ff47d",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-22-attack.mp4",
+          "sha256": "f456c3d61be40ebfbb8ecb225acbbed98dff174f5c92eb1507e81a46e2c74864",
+          "bytes": 743234,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 109,
+          "action": "hit",
+          "jobId": "773bd301-2b2e-44d9-9847-b793eff991f1",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-22-hit.mp4",
+          "sha256": "d3b8ac4f200752b99d5d2cea2269f454cc29295034873c69b80c676d45bc50e3",
+          "bytes": 918429,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 110,
+          "action": "capture",
+          "jobId": "5c923cdf-b62c-4493-a336-efa966ccf94c",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-22-capture.mp4",
+          "sha256": "eaad305bc70d48bd13f3323c34b8ce548958b4868bf24755eac2f2519a30b4ed",
+          "bytes": 756382,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-water-23",
+      "name": "寒潮戰艦獸",
+      "imageJobId": "bed99cf4-86a3-49fe-87fd-f02674e0ab29",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-23.webp",
+          "sha256": "fca75b3f92306563b3b5ca4ee724f80cb396f1ebca375b1a806290022e72ee09",
+          "bytes": 100162
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-23-320.webp",
+          "sha256": "c58122e6f96170fb1e6a5132f65740926dd5b91ef4d7ae3af06216db7fce8ab3",
+          "bytes": 35534
+        }
+      ],
+      "videoReferenceMediaId": "82602e96-a1a0-4ec4-977b-fcaafc0eed4e",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 111,
+          "action": "entrance",
+          "jobId": "cc8b78b8-864b-4824-97c5-61871ef034e2",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-23-entrance.mp4",
+          "sha256": "e3e8448822c4d835badd425c7fadf4b23d8c05e49a27902325e51cbda038bcac",
+          "bytes": 569991,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 112,
+          "action": "idle",
+          "jobId": "976f78a6-53d5-40e6-9c5e-acdd5ede8a64",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-23-idle.mp4",
+          "sha256": "d05239a970803c246f03caaedf3ef483da5b5973aa97ddcfb3cb72c48b35e8e5",
+          "bytes": 451235,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 113,
+          "action": "attack",
+          "jobId": "11259402-99ec-46c3-90bb-629133201c08",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-23-attack.mp4",
+          "sha256": "590b69e2441e9d696781b49d94567f587be2df0ac25c8ae7b6db27459153b072",
+          "bytes": 493754,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 114,
+          "action": "hit",
+          "jobId": "779b9ae7-f706-4b8d-ade8-f4d322d507e0",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-23-hit.mp4",
+          "sha256": "5e193751ad7c60d57d621b650f84265af5731de9b5a8f960ceacb7840104e926",
+          "bytes": 671806,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 115,
+          "action": "capture",
+          "jobId": "3b2a7667-59c1-45b7-9449-8e1432efb9d0",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-23-capture.mp4",
+          "sha256": "1039a3ca0542388265870cdf6d5dde66ddab05c32bcfd6cb686f41d77e37a16d",
+          "bytes": 224743,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 24,
+          "editorialTrim": {
+            "sourceSha256": "a6cf53f16562290c8039dccf4fd4d28abc401b1597ee7ab2f87a95d081186823",
+            "editedSha256": "d8532459dc6ac866b039e1b66e4a3b828b5b4127bc2df37ace9b7627d832dc52",
+            "sourceStart": 2.917,
+            "sourceEnd": 4.083,
+            "duration": 2.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wave4-water-24",
+      "name": "渦流巨章",
+      "imageJobId": "548d2255-e133-4027-8e59-5d59f9d71ace",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-24.webp",
+          "sha256": "eb3e49fee8ec239ac6d3ae6a43a3323242cf33c859ce3b968d48f37e14ce9bfa",
+          "bytes": 169086
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-24-320.webp",
+          "sha256": "de5fe2202ab9cc6b572d1e06d074f50999fb098613915104220478f2672f2ea6",
+          "bytes": 55690
+        }
+      ],
+      "videoReferenceMediaId": "589b2e33-0108-4dd1-b920-c8ce4746c7d0",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 116,
+          "action": "entrance",
+          "jobId": "4d39b7d9-5edf-49da-aecf-387a83afd977",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-24-entrance.mp4",
+          "sha256": "5171b0a943b93c28503cbb84ac04489235be97b3ab078673b8775cf580e0c669",
+          "bytes": 747056,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 117,
+          "action": "idle",
+          "jobId": "234412df-0938-4103-a831-b301559c4a71",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-24-idle.mp4",
+          "sha256": "08c7ac3573c5823bac0d99759faf307d1662f32bbb98ccea02131bebe469fa30",
+          "bytes": 573778,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 118,
+          "action": "attack",
+          "jobId": "6e20dfc9-d41b-4b49-afd3-fafd838dd0c4",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-24-attack.mp4",
+          "sha256": "7ddc905df9980bb590769ed38fea64bbff33cdc778682f94524dd4cadfd50004",
+          "bytes": 632172,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 119,
+          "action": "hit",
+          "jobId": "ebf00aaa-1211-404f-949a-016bdf4702e4",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-24-hit.mp4",
+          "sha256": "4c59c98a50b279ce6c9a9b22c9915a676b7c9fc475ab43322c07987a372c3401",
+          "bytes": 639103,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 120,
+          "action": "capture",
+          "jobId": "dfae133b-4dbe-4480-9ec2-dcf6b653fe59",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-24-capture.mp4",
+          "sha256": "236c803a4401052d892b19c394ed21050d513d23d8ef356c32f0b0141120f65e",
+          "bytes": 552549,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 36,
+          "editorialTrim": {
+            "sourceSha256": "220d8a80e281c43f74f0f940f6fa484c3a0a233467497acdb78bfe80aedb3bec",
+            "editedSha256": "5823266af1ef642b756900cbfb285548515727058562f8809e77d160c5a5340c",
+            "sourceStart": 1.333,
+            "sourceEnd": 4.083,
+            "duration": 3.0,
+            "reason": "Retain a reviewed visible motion segment; remove boundary-clipped frames without additional paid generation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wave4-water-25",
+      "name": "霜刃虎王",
+      "imageJobId": "1af51727-40cf-4a26-b8c0-e6052e9fcbf2",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-25.webp",
+          "sha256": "06c139cfd3e422dd2054fc130334a404ff3172d67a90ea483645a0a462517d9d",
+          "bytes": 130424
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-25-320.webp",
+          "sha256": "2388eb2df706eaf34301b38d4f34f14fa8a735d3ab4685842156ecb9740c6ece",
+          "bytes": 42842
+        }
+      ],
+      "videoReferenceMediaId": "d6921435-e3f2-422e-8794-88c153982768",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 121,
+          "action": "entrance",
+          "jobId": "25c53829-7823-4ab6-9943-e7545cecc2fa",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-25-entrance.mp4",
+          "sha256": "3b77359eced173aec870fdf12d08f7b73a50e6779351e043b2413da9d5d54e4b",
+          "bytes": 723419,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 122,
+          "action": "idle",
+          "jobId": "7c566bdb-7f4c-4bf5-ada2-c2f3dfc1944b",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-25-idle.mp4",
+          "sha256": "04b948acf980cfe548e8ea476c2380b4701411f6290e9012d598fab026cf6093",
+          "bytes": 377334,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 123,
+          "action": "attack",
+          "jobId": "d40cd2df-1cc5-4407-8ea3-cf961563fa5a",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-25-attack.mp4",
+          "sha256": "fbb8b3c618647877eeecb2c4b7741c6cb318a2450df5ca97c53cacb7a668a281",
+          "bytes": 549724,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 124,
+          "action": "hit",
+          "jobId": "b7b5c637-ab3c-4b57-9d75-4a00016c9c1a",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-25-hit.mp4",
+          "sha256": "524f496ff50eb405631e5030e0118fd38e8214b35b6af5b5e2e8d3bbe20ec91c",
+          "bytes": 575803,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 125,
+          "action": "capture",
+          "jobId": "64250365-7452-41f8-8719-84e467840703",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-25-capture.mp4",
+          "sha256": "32e45b428f75c8a5b22aa2e7584222d0dc27bcd524d7b284c04565ae66fa5b31",
+          "bytes": 689748,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-water-26",
+      "name": "幽海機魟",
+      "imageJobId": "a29e0bec-9c1a-4cc0-b00c-84f994b3ee7a",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-26.webp",
+          "sha256": "c36960f1358dedefe011df5d099bc37bc14097da961cc59d299709da7d0ac74a",
+          "bytes": 109958
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-26-320.webp",
+          "sha256": "669833e02e51748e75d260a1eeb7edbdde75dd9835c25ab80cdaf31e17eb539e",
+          "bytes": 39546
+        }
+      ],
+      "videoReferenceMediaId": "5d26b724-fa74-4aca-a16d-ee545306da8f",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 126,
+          "action": "entrance",
+          "jobId": "6d558756-8156-418e-bf77-2d848987cb87",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-26-entrance.mp4",
+          "sha256": "b2c985bf213fce2b0c1c3f05cd1261270fed33d8888654c2e8637205c9cb94e2",
+          "bytes": 478042,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 127,
+          "action": "idle",
+          "jobId": "4679a0c3-c2fa-4420-8cf2-43a101e4d268",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-26-idle.mp4",
+          "sha256": "fa42b9b1bf0e5995e929e98f8347c30293cd3cc5e3188bae1c6d8895cc0960bf",
+          "bytes": 480187,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 128,
+          "action": "attack",
+          "jobId": "c885ed93-3d9c-4c5d-9f62-1f2014102887",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-26-attack.mp4",
+          "sha256": "ec6712cc303950d35f66148939dcb168d528e3c8fa8882b95245e56e7e38dc32",
+          "bytes": 536125,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 129,
+          "action": "hit",
+          "jobId": "8bb767ae-ab61-41a3-b7a9-228e53c43c58",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-26-hit.mp4",
+          "sha256": "89eb795c2f6ec3ab4f45a20daab9e337ac39026af1241202e69e44dc9b1ae88a",
+          "bytes": 460253,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 130,
+          "action": "capture",
+          "jobId": "6a148fb1-0dbb-452e-bfc7-c8386eb46b5c",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-26-capture.mp4",
+          "sha256": "828c9cfb65fe4f585f176e2cc1674cbb5479e1e6af9f4fc215fff09e5f8b7583",
+          "bytes": 445346,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-water-27",
+      "name": "極冰雙顎",
+      "imageJobId": "562a704a-0d6e-416a-933b-d621f0af4c8b",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-27.webp",
+          "sha256": "ae897704e7261a1ad8b872f5596fd0dadd09a98f6573a199b365ffca44c516c4",
+          "bytes": 137492
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-27-320.webp",
+          "sha256": "e5635269ee92d275c95a4c5e1bee2babd3e4e1575b9e7cc6e2d1b425f41702e0",
+          "bytes": 46752
+        }
+      ],
+      "videoReferenceMediaId": "b5af5579-8fa7-45e5-89d5-4133d1a89447",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 131,
+          "action": "entrance",
+          "jobId": "9b21cd2e-3b5c-4186-862b-57310915ecfb",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-27-entrance.mp4",
+          "sha256": "9eda25981a9fc61b1256045f22ca501020dcda951b5481257dd1d43173c965ba",
+          "bytes": 498455,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 132,
+          "action": "idle",
+          "jobId": "604437b7-c8d3-4328-9342-725e95f19328",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-27-idle.mp4",
+          "sha256": "94b81db15d834465cdeec96f2800e9d17de411c380c421104f8a1371c6397043",
+          "bytes": 515770,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 133,
+          "action": "attack",
+          "jobId": "15e4ac1b-5c42-4a84-a693-f33a848fa4a0",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-27-attack.mp4",
+          "sha256": "496306530fb3c0b34a1c9d7509c34dad91d15ebe101a33d0ca3c74571339511d",
+          "bytes": 619665,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 134,
+          "action": "hit",
+          "jobId": "83d11ff1-fdf8-44f8-86ee-48e3fa8e2829",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-27-hit.mp4",
+          "sha256": "16dc64e64a3dc65fc5851f1aeea497a032f2d52549bd477c511bc4b2eb37710c",
+          "bytes": 535195,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 135,
+          "action": "capture",
+          "jobId": "7917893a-564e-48e3-921f-ffe2f3592950",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-27-capture.mp4",
+          "sha256": "9ecd65fb600a5db9de4333ff50edaf3e9ad2596ba2edcbc43a32967fc379e5b1",
+          "bytes": 488929,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-water-28",
+      "name": "海嘯鋼鯊",
+      "imageJobId": "213b5e76-0660-45d1-a18a-4566f66badbd",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-28.webp",
+          "sha256": "8367444be1ecbfca543bfa52556eb624775ccce0641549edc30a7de5d1a68be4",
+          "bytes": 111470
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-28-320.webp",
+          "sha256": "fb741c38b6a53e2d630f854ca0dafd90bb56b7c5f90e3d432e05b7b966f25abb",
+          "bytes": 38814
+        }
+      ],
+      "videoReferenceMediaId": "12a831e4-6039-4c12-a6cc-12092dce065c",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 136,
+          "action": "entrance",
+          "jobId": "7f7aa5b3-409c-4890-9de7-4b994d61e554",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-28-entrance.mp4",
+          "sha256": "11ef3a20d0c92d5693ecd7dbe93b90eacb5a04dc90650bab5449131b229d9ea6",
+          "bytes": 550539,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 137,
+          "action": "idle",
+          "jobId": "d86119fa-1045-40d8-87ec-ed34327e0f13",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-28-idle.mp4",
+          "sha256": "468ebd89f656d63705f772c32786ea673d986fb9adbdb233b99d395e77681a7b",
+          "bytes": 477810,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 138,
+          "action": "attack",
+          "jobId": "b1e60455-91b6-422b-b934-85152a428e59",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-28-attack.mp4",
+          "sha256": "c36beca639a4c43c7000347eeb2c88f0f8f98135369b9538703ea2da089b3570",
+          "bytes": 521103,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 139,
+          "action": "hit",
+          "jobId": "c302b3ef-374f-492a-b80e-28a60e569a13",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-28-hit.mp4",
+          "sha256": "cc6312870ada44fb2dfbac3e51a3d4491ddc7dc6e29fb83d6143faf20ad11df9",
+          "bytes": 543394,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 140,
+          "action": "capture",
+          "jobId": "3e11efd1-1cb8-4990-a8ac-68ad0328b644",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-28-capture.mp4",
+          "sha256": "1ac992652fbe2d34371d1a11ba2e0852d771fb1a267fecfc030a77dbdc5a8868",
+          "bytes": 664512,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-water-29",
+      "name": "凍星巨龜",
+      "imageJobId": "8488d400-ea0d-4a06-8945-123cf490a134",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-29.webp",
+          "sha256": "e29132f2bb575972856db6dfa9004358535f125b64b920ea9e1ff62731e58eaf",
+          "bytes": 148144
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-29-320.webp",
+          "sha256": "5c0811df6a16e8a5b321e79464c9bdd00835d586b96ead28b7baeb8e1b7f1787",
+          "bytes": 49302
+        }
+      ],
+      "videoReferenceMediaId": "7040dea0-ad3d-4ee1-9a29-31ddfdd6f923",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 141,
+          "action": "entrance",
+          "jobId": "8cea2403-f17f-4554-aa87-00344cd2f925",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-29-entrance.mp4",
+          "sha256": "315d76b7e9ba84662a9c4ebf417f119d4060dd77cdb3d86d280f8514299ce469",
+          "bytes": 499886,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 142,
+          "action": "idle",
+          "jobId": "308236ed-5f2c-450f-bc2e-f1e1bdde28dd",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-29-idle.mp4",
+          "sha256": "ccfc8b6dbe302fcb41cbc05a4932701cab4a677b9a8ace44e80b418703659be2",
+          "bytes": 391740,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 143,
+          "action": "attack",
+          "jobId": "ca219dd0-4efb-4b15-a4d5-aa262b80e957",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-29-attack.mp4",
+          "sha256": "bc90a8c7979a63f92c2ae27ab834d43f559b9b1aa45dc570dd3903c32a89308d",
+          "bytes": 585552,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 144,
+          "action": "hit",
+          "jobId": "a93509c8-f04f-4d76-b11c-5c3c26c3a85b",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-29-hit.mp4",
+          "sha256": "d6c95139c48223615712cf635e3bb322145c5610c00166d4aa2d8f90d4aa12fc",
+          "bytes": 520169,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 145,
+          "action": "capture",
+          "jobId": "1f6dd8ed-c00d-4f9f-be5c-de0bbc6a4116",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-29-capture.mp4",
+          "sha256": "7302ad0d38fa08fcebd54f92075b5c7fb19d5a9ae22ed1249e0c3752162eb4fe",
+          "bytes": 744804,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-water-30",
+      "name": "滄溟王座獸",
+      "imageJobId": "d20edb80-2ba6-48f2-b01c-440bb109408c",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-30.webp",
+          "sha256": "98c8db73d4eec7f33b885221f8d1d5ac244411d39395e407426c440ef878bf1a",
+          "bytes": 115210
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-water-30-320.webp",
+          "sha256": "690f6037bbbd61b5b716b7b79b7e9b1884a35436f3b76f3e8ee193c753803ce4",
+          "bytes": 41550
+        }
+      ],
+      "videoReferenceMediaId": "dd8f24dd-d697-4a20-82ca-97456b6585e3",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": [
+        {
+          "index": 146,
+          "action": "entrance",
+          "jobId": "b2b6f8da-ba2f-47e8-a25a-ee3801de34a4",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-30-entrance.mp4",
+          "sha256": "a60e0760caaef407c17aaf708f72a97fb5363e4da813fb2f5cf9cb88f23a2312",
+          "bytes": 548694,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 147,
+          "action": "idle",
+          "jobId": "c32f160f-18b0-420f-a975-35a49147933e",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-30-idle.mp4",
+          "sha256": "70582ff5436bfc18bfdfd12a45e72dd31ac82083b8c003056c1a0849d2ec535d",
+          "bytes": 490916,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 148,
+          "action": "attack",
+          "jobId": "48b30e14-1dcf-444d-8117-0978dd481a03",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-30-attack.mp4",
+          "sha256": "e48581ef4847a404a2d225ff8b3818d4d0c9a06d79fecceb60ce990d2a651458",
+          "bytes": 595575,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 149,
+          "action": "hit",
+          "jobId": "1ff6e9ce-2752-4744-9884-8d8d02012423",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-30-hit.mp4",
+          "sha256": "7ab035793a57c1027435d64fbec10b92cca71f97f73c7360c4370ac5d1e0ad91",
+          "bytes": 699259,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        },
+        {
+          "index": 150,
+          "action": "capture",
+          "jobId": "19ef78c8-a540-4ebe-af8e-0e37f7c985d0",
+          "model": "seedance_2_5/omni_reference",
+          "path": "public/assets/monsters/wave4/wave4-water-30-capture.mp4",
+          "sha256": "d11026ae3397916b4265172102b3d7f1033cafbb0b6f449de9549d20138a2f1b",
+          "bytes": 562720,
+          "format": "rgb-alpha-side-by-side-h264",
+          "width": 960,
+          "height": 480,
+          "fps": 12,
+          "frames": 49
+        }
+      ]
+    },
+    {
+      "id": "wave4-fire-31",
+      "name": "熔核霸龍",
+      "imageJobId": "ffadeb31-5994-4c07-985e-d4f5e3f5c929",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-31.webp",
+          "sha256": "a601e1cc6a273be05cf0ead61d1ad3df7dcea19b6dac220362d5b83b2db97c65",
+          "bytes": 121354
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-31-320.webp",
+          "sha256": "aa9b1d71897da938d1bf8ea2c6a602e5c2e8c0bb9c6344e71ee6b03db52fc964",
+          "bytes": 40104
+        }
+      ],
+      "videoReferenceMediaId": "baac62b0-a324-4fa2-8e23-a78797e8941b",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-fire-32",
+      "name": "赤曜機皇",
+      "imageJobId": "5d512f31-3012-4ff4-b694-aab142900157",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-32.webp",
+          "sha256": "6ff9fbc056bcdfb7965553bbb47dca58a0e8ed566362fd4340a2cae1a2763178",
+          "bytes": 118652
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-32-320.webp",
+          "sha256": "008dfb04383dbc431d07001c063b9ee139af873b5cc618bc0be82c67442cf19e",
+          "bytes": 41606
+        }
+      ],
+      "videoReferenceMediaId": "aa3af35a-c0f3-4395-9f91-0b1efca7c347",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-fire-33",
+      "name": "爆炎三頭犬",
+      "imageJobId": "12afc148-1d36-4896-8dc1-7f341aece701",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-33.webp",
+          "sha256": "3dabbcea8aa4347707488c3cc09478a46264dbd09b731f76c0dfe191d5a5b361",
+          "bytes": 131292
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-33-320.webp",
+          "sha256": "156551a9f2bc2cb932f7bf992927bbb6e703d38ddd711725833c9a8393d0fc03",
+          "bytes": 46878
+        }
+      ],
+      "videoReferenceMediaId": "507864fb-c71e-4620-b775-9ce5be9b539e",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-fire-34",
+      "name": "焚天翼王",
+      "imageJobId": "b7587897-109c-4a5b-b19d-4af0f6304b0a",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-34.webp",
+          "sha256": "ccc088f6358b8f5ab8e87c0ac6fe2de6394c4c8e6e23fcc1dac4f6930c9e7fc6",
+          "bytes": 175172
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-34-320.webp",
+          "sha256": "d8db656fca0fec6c1179e107efc2a7ccc890d0d5f57657fcccfd147983e104af",
+          "bytes": 60122
+        }
+      ],
+      "videoReferenceMediaId": "b4ef0f44-20f1-46ef-921c-5a5de9c76969",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-fire-35",
+      "name": "熔爐巨猿",
+      "imageJobId": "8657f00f-ee83-4303-bc0e-27e60ff7388e",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-35.webp",
+          "sha256": "b130848f8bfca33d342a66481ef4b086a9f22c28690da08406196f19259fd5aa",
+          "bytes": 98396
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-35-320.webp",
+          "sha256": "46567099768c54453f2cf94c4fe8e7687c5e8df83177c21f491ca03824d2ae93",
+          "bytes": 35764
+        }
+      ],
+      "videoReferenceMediaId": "d028444b-140e-4d62-b06d-90eb07bf90e2",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-fire-36",
+      "name": "炎輪戰馬",
+      "imageJobId": "073a46a6-a7bf-493a-8319-71b57c656bea",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-36.webp",
+          "sha256": "d81aa8cb52ac02aa1bb058eb43cea52a82878b035363c048cb1cf8a3ab3b452a",
+          "bytes": 140752
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-36-320.webp",
+          "sha256": "de36d1163bfe56740581c8dc1ff375352de68e2d5a63a1dbdaa015a81e58dafd",
+          "bytes": 48316
+        }
+      ],
+      "videoReferenceMediaId": "a74be9a0-b10d-477c-ad43-dfbf3411ce5b",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-fire-37",
+      "name": "黑曜魔蠍",
+      "imageJobId": "7cb2ef67-38f2-424e-9fbe-fd7b4de2e305",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-37.webp",
+          "sha256": "b96398d46dbcd659e13cda122140d40d8110c10ba1321930320ffcb764fa46e5",
+          "bytes": 124750
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-37-320.webp",
+          "sha256": "c96c8dd1c4c48a16415cb58231896eab157981c14b2207ed2747b60dfd77ff38",
+          "bytes": 42796
+        }
+      ],
+      "videoReferenceMediaId": "46581fed-dd54-4770-bd8a-04f6fbaa4b90",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-fire-38",
+      "name": "赤核穿山王",
+      "imageJobId": "c5b4aa17-0ca7-4ec3-9052-c7cb6e21c665",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-38.webp",
+          "sha256": "6681465157fa1c0d0e39d1d70fecfaa22ce3e786f92b062cf8e5f1b36d7128d0",
+          "bytes": 101784
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-38-320.webp",
+          "sha256": "59ee6ca2c9290818fce1a0b52dc55626b34be6485987cb21a79051d6226a7f6f",
+          "bytes": 36664
+        }
+      ],
+      "videoReferenceMediaId": "f4e361f1-8810-4e95-8d2b-2f243882530f",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-fire-39",
+      "name": "日蝕雙翼獸",
+      "imageJobId": "e93bb3ba-e059-47cb-b046-6888b5f73c4d",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-39.webp",
+          "sha256": "c5c79223cf947f4248cfbfc794a05d22004fc86e0241f2d32e765da61a2975bc",
+          "bytes": 149244
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-39-320.webp",
+          "sha256": "287c7d730853ea2d5d9d62621cd02de03ea04c0be846295ad3b05c29abcf6d5f",
+          "bytes": 53894
+        }
+      ],
+      "videoReferenceMediaId": "181cb1a5-cf0e-4de1-868b-6bcdd29a7a71",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-fire-40",
+      "name": "火山轟甲王",
+      "imageJobId": "7001823f-184c-4fed-8a50-acaa9c9c86fe",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-40.webp",
+          "sha256": "d7a7ae0815175e2d41d3171c7c6221237a6943a5d3db2d9872cb91002edc4e67",
+          "bytes": 129960
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-fire-40-320.webp",
+          "sha256": "141fe2ae7d14baf022199de4e00cd47aaff3f669fca18d821e39551f958811c4",
+          "bytes": 42388
+        }
+      ],
+      "videoReferenceMediaId": "d36010ab-6d73-4daf-af13-f0dedcbbc0b4",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-earth-41",
+      "name": "鎮岳泰坦",
+      "imageJobId": "430b3b80-45e7-4235-bbde-f2257074fdc0",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-41.webp",
+          "sha256": "e3f6ee54089914ace1e3186c87f5939507171a2dbed03cee02ee32a84d1e2f23",
+          "bytes": 120002
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-41-320.webp",
+          "sha256": "507c7233b8b3b74c108886d18e78083bcbed8ce0f16ea0e363429778a102abcd",
+          "bytes": 38522
+        }
+      ],
+      "videoReferenceMediaId": "33d69470-a247-420d-b17c-ea30561bcfc4",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-earth-42",
+      "name": "玄岩機城",
+      "imageJobId": "a506e321-3357-45cf-a637-96bc1ad20554",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-42.webp",
+          "sha256": "bb8d060bf6ce7da9e20a7de420a990ddf9f7bd0603c520b5ba182d0752d3f37b",
+          "bytes": 138266
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-42-320.webp",
+          "sha256": "70f326d1d76bae7aa62e3d877a5c5fd4f2f1ec5e02ff62c9bb8de4e343524ba9",
+          "bytes": 46654
+        }
+      ],
+      "videoReferenceMediaId": "38540f0d-9ace-45b7-83e9-7b5cb57f33d9",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-earth-43",
+      "name": "砂暴巨鱷",
+      "imageJobId": "162ac655-f08d-4224-aaf7-0ca8b42fbd49",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-43.webp",
+          "sha256": "0aed8c1c30944e29b2556183524ff55484ce6f5ee29d3d15432a4671a2141f04",
+          "bytes": 127132
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-43-320.webp",
+          "sha256": "d9a190cb6ab82b72dcbef691728999c45be3a57c6175b4ca325c460bd300e662",
+          "bytes": 40014
+        }
+      ],
+      "videoReferenceMediaId": "fddce9ad-f4c3-4bab-913d-c5326d52ab76",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-earth-44",
+      "name": "隕星重鎚獸",
+      "imageJobId": "103175c8-5ef4-41fb-8a48-e0a4f2b55c10",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-44.webp",
+          "sha256": "33b8cc60b7eacd0761d5e227c47bd1cc5a5bc7042e6df1096f7edeb7feceadbe",
+          "bytes": 121912
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-44-320.webp",
+          "sha256": "a5d3d01e5b699b10969cbba9809f558c61e3b0a156b4522eee5b4787611fc19f",
+          "bytes": 41062
+        }
+      ],
+      "videoReferenceMediaId": "6753a549-59ed-4e01-b7a2-89d5ca119030",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-earth-45",
+      "name": "峽谷鐵角王",
+      "imageJobId": "1f53ee6c-8db3-41b6-b004-67ea9b36c793",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-45.webp",
+          "sha256": "6d891c869b0c5506be036b6f57fa50c652123c6f92d00cb28b40ca307f9a457c",
+          "bytes": 137850
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-45-320.webp",
+          "sha256": "a8568c2f63522326e9407e9eb056509f9d1ae492af7b076b91783853714f866f",
+          "bytes": 46158
+        }
+      ],
+      "videoReferenceMediaId": "d55b3847-2d7c-45f2-a375-79f199bc8a10",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-earth-46",
+      "name": "晶脊霸王",
+      "imageJobId": "5220ca85-89c7-444a-9454-4d843747d826",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-46.webp",
+          "sha256": "91bffa27e7e255c623e5dd57a0b13f8fcb21d9afb1c28360b6df5209699f4a13",
+          "bytes": 115466
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-46-320.webp",
+          "sha256": "27746da4cdfb15fdf0a72fb56ed9b2dad4dc0abdff9e9c82334281eb290b8f22",
+          "bytes": 37424
+        }
+      ],
+      "videoReferenceMediaId": "cdf7d901-f022-4e1a-a5ba-0dc3cae4e263",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-earth-47",
+      "name": "沙海吞天蟲",
+      "imageJobId": "21d6c921-6ac8-4425-b861-535e9409eb05",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-47.webp",
+          "sha256": "0a2b458a5108396ae258ec06fe729ed6dc08f18aa8cbd44de920f513cae72dbd",
+          "bytes": 117392
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-47-320.webp",
+          "sha256": "77576168301d3c905f173c98fcb13675e1d6ebf21a0039de38b06575f7007118",
+          "bytes": 39926
+        }
+      ],
+      "videoReferenceMediaId": "5ca65f47-b936-4730-981b-9aeb8af94476",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-earth-48",
+      "name": "岩翼獅鷲王",
+      "imageJobId": "71644baf-581c-4688-b4a9-353d327fe7e2",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-48.webp",
+          "sha256": "8f73ffa055c9726a51415ea664aae29813e9d6d89342a3a225f54cb12cabe896",
+          "bytes": 170094
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-48-320.webp",
+          "sha256": "614b7c811f1d3fc2b48acc4a4e65ef00afee6976c474117992ea4b87071ece82",
+          "bytes": 57526
+        }
+      ],
+      "videoReferenceMediaId": "776cbbe7-10e6-408c-9be2-e3f1a9e44bd4",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-earth-49",
+      "name": "重磁巨犀",
+      "imageJobId": "fc102ab5-eec4-426f-a5b8-820b22cde242",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-49.webp",
+          "sha256": "01ebec7c3a2e337369c9eb5904ff8fc1a326b38ef3b5c8de4657e3a4645b867f",
+          "bytes": 136352
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-49-320.webp",
+          "sha256": "efd45c85546c7f95e93e73210f82cf71ab7915d7ce507712408a9d0060f6d320",
+          "bytes": 44488
+        }
+      ],
+      "videoReferenceMediaId": "3a5fb3e6-5091-45f0-a287-21f03758f859",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    },
+    {
+      "id": "wave4-earth-50",
+      "name": "地脈守門神",
+      "imageJobId": "34a249ca-50b4-4b03-973c-66d0cab806b2",
+      "imageModel": "gpt_image_2_5/flare",
+      "files": [
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-50.webp",
+          "sha256": "df67739a18eb31b0a38593d4b5c061f36ad77cb64086201cd24a6c53c3d3e022",
+          "bytes": 118352
+        },
+        {
+          "path": "public/assets/monsters/wave4/wave4-earth-50-320.webp",
+          "sha256": "8419e277802a984cf0ac7a769263b1138e854ce0679ec7de7c68af2e98e923d5",
+          "bytes": 40780
+        }
+      ],
+      "videoReferenceMediaId": "bf58f0b0-7799-46c1-bb52-3715ec064618",
+      "referencePreparation": "Higgsfield sandbox: original character scaled inside 700px box, centered on 1024px magenta canvas",
+      "videos": []
+    }
+  ],
+  "authorizedRedoVideos": 7,
+  "authorizedRedoIndices": [
+    8,
+    14,
+    29,
+    41,
+    43,
+    44,
+    48
+  ],
+  "completedVideoFiles": 150,
+  "pendingVideoFiles": 0,
+  "postprocessing": {
+    "mask": "BiRefNet Lite",
+    "source": "ZhengPeng7/BiRefNet_lite",
+    "revision": "aa62cd87eafb9cc43056d08ef3615a14628b831d",
+    "weightsSha256": "4417d89795250e698c3cb0ae8df15743810065f646f48a694fdfa7ca052d0815",
+    "license": "MIT",
+    "implementation": "side-by-side RGB and alpha in a single H.264 stream"
+  },
+  "originalVideoScope": 250,
+  "deferredVideos": 100,
+  "activeAnimatedCreatures": 30,
+  "productionRelease": {
+    "deploymentId": "b1dc17a4-c7e5-4906-981c-0e3e52121775",
+    "status": "SUCCESS",
+    "runtimeCommit": "da7b8cc422d89d73558fbab36b14b2c4ce381ad3",
+    "url": "https://quintus-star-tide-academy-production.up.railway.app",
+    "releasedCreatures": 30,
+    "safeVideoSources": 120,
+    "backupActions": 30,
+    "deferredCreatures": 20,
+    "deferredVideos": 100,
+    "heldVideoIndices": [
+      9,
+      13,
+      15,
+      18,
+      19,
+      23,
+      33,
+      34,
+      42,
+      43,
+      44,
+      49,
+      54,
+      58,
+      63,
+      64,
+      73,
+      74,
+      75,
+      83,
+      84,
+      89,
+      98,
+      99,
+      108,
+      109,
+      110,
+      133,
+      138,
+      139
+    ],
+    "previousDeployment": "3ff2513b-1f0e-4fc6-8500-42078bb1ff1d",
+    "preservedAssetHashes": 1793,
+    "publishedNewMediaFiles": 180,
+    "verifiedNewFiles": 194,
+    "unitPassed": 882,
+    "databasePassed": 182,
+    "captureUiFlows": 16,
+    "backupActionChecks": 60,
+    "productionUiChecks": 8,
+    "productionUiUsesSyntheticApi": true,
+    "playerDataReset": false,
+    "physicalIPadTested": false,
+    "generationStoppedAt": 150,
+    "pr": "https://github.com/quintus-star-tide/star-tide-academy/pull/2"
+  }
+}

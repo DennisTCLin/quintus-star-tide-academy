@@ -1,0 +1,71 @@
+{
+  "checks": [
+    {
+      "name": "webkit feifei three answers succeed; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "webkit feifei wrong ends capture; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "webkit doudou three answers succeed; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "webkit doudou wrong ends capture; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "webkit jay three answers succeed; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "webkit jay wrong ends capture; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "webkit alston three answers succeed; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "webkit alston wrong ends capture; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei three answers succeed; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "chromium feifei wrong ends capture; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "chromium doudou three answers succeed; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "chromium doudou wrong ends capture; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "chromium jay three answers succeed; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "chromium jay wrong ends capture; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "chromium alston three answers succeed; reload resumes after first answer",
+      "pass": true
+    },
+    {
+      "name": "chromium alston wrong ends capture; reload resumes after first answer",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "mockApi": true,
+  "physicalIPad": false
+}

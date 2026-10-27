@@ -1,0 +1,846 @@
+{
+  "status": "approved_full_batch_in_production",
+  "base": "62a4b2c",
+  "provider": "Higgsfield",
+  "count": 50,
+  "style": "giant bosses and mechanical monsters",
+  "imageModel": {
+    "model": "gpt_image_2_5",
+    "variant": "flare",
+    "quality": "high",
+    "resolution": "2k",
+    "background": "transparent",
+    "aspect_ratio": "1:1"
+  },
+  "videoModelProposal": {
+    "model": "seedance_2_5",
+    "mode": "omni_reference",
+    "duration": 4,
+    "resolution": "720p",
+    "generate_audio": false,
+    "aspect_ratio": "1:1"
+  },
+  "estimatedInitialCredits": {
+    "images": 137.5,
+    "videos": 7000,
+    "total": 7137.5,
+    "twoCompleteSamples": 285.5,
+    "excludes": "regenerations, background-removal and other postprocessing charges"
+  },
+  "capture": {
+    "afterBattleWin": true,
+    "correctRequired": 3,
+    "wrongAnswer": "immediate failure; no retry for same encounter",
+    "guaranteedAfterThree": true,
+    "preserveBattleRewards": true,
+    "preserveOwnedCompanions": true,
+    "grade": "player grade; no silent cross-grade fallback",
+    "scope": "ordinary voyages and math-island encounters; old settled receipts preserved"
+  },
+  "items": [
+    {
+      "index": 1,
+      "id": "wave4-metal-01",
+      "name": "星鑄裁決者",
+      "element": "金",
+      "design": "towering six-armed armored titan with an orbital halo and shield fists",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body towering six-armed armored titan with an orbital halo and shield fists. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 2,
+      "id": "wave4-metal-02",
+      "name": "鋼翼天災龍",
+      "element": "金",
+      "design": "colossal mechanical dragon with interlocking blade-feather wings",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body colossal mechanical dragon with interlocking blade-feather wings. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 3,
+      "id": "wave4-metal-03",
+      "name": "重裝獅皇",
+      "element": "金",
+      "design": "low-slung siege lion with a radial turbine mane",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body low-slung siege lion with a radial turbine mane. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 4,
+      "id": "wave4-metal-04",
+      "name": "天穹堡壘獸",
+      "element": "金",
+      "design": "floating armored manta shaped like an ancient sky fortress",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body floating armored manta shaped like an ancient sky fortress. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 5,
+      "id": "wave4-metal-05",
+      "name": "雷鑽獨角王",
+      "element": "金",
+      "design": "massive rhinoceros mech with a spiral drill horn and piston legs",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body massive rhinoceros mech with a spiral drill horn and piston legs. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 6,
+      "id": "wave4-metal-06",
+      "name": "軌道戰蠍",
+      "element": "金",
+      "design": "wide mechanical scorpion with articulated rail-shaped tail",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body wide mechanical scorpion with articulated rail-shaped tail. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 7,
+      "id": "wave4-metal-07",
+      "name": "磁環蛇帝",
+      "element": "金",
+      "design": "coiled mechanical cobra with levitating magnetic-ring hood",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body coiled mechanical cobra with levitating magnetic-ring hood. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 8,
+      "id": "wave4-metal-08",
+      "name": "金剛六足王",
+      "element": "金",
+      "design": "heavy six-legged walking fortress with faceted shield shoulders",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body heavy six-legged walking fortress with faceted shield shoulders. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 9,
+      "id": "wave4-metal-09",
+      "name": "斷空刃鷲",
+      "element": "金",
+      "design": "armored giant vulture with segmented guillotine-shaped feathers",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body armored giant vulture with segmented guillotine-shaped feathers. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 10,
+      "id": "wave4-metal-10",
+      "name": "齒輪巨顎",
+      "element": "金",
+      "design": "huge armored crocodile with exposed decorative clockwork and long jaw",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body huge armored crocodile with exposed decorative clockwork and long jaw. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 11,
+      "id": "wave4-wood-11",
+      "name": "古森機神",
+      "element": "木",
+      "design": "towering wood-and-brass forest mech with a canopy crown",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body towering wood-and-brass forest mech with a canopy crown. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 12,
+      "id": "wave4-wood-12",
+      "name": "荊冠暴君",
+      "element": "木",
+      "design": "massive thorn-armored gorilla with a crown of living branches",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body massive thorn-armored gorilla with a crown of living branches. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 13,
+      "id": "wave4-wood-13",
+      "name": "神木巨象",
+      "element": "木",
+      "design": "enormous elephant with sanctuary-shaped back and vine-wrapped tusks",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body enormous elephant with sanctuary-shaped back and vine-wrapped tusks. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 14,
+      "id": "wave4-wood-14",
+      "name": "翠甲螳皇",
+      "element": "木",
+      "design": "four-armed emerald mantis with leaf-shaped shield blades",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body four-armed emerald mantis with leaf-shaped shield blades. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 15,
+      "id": "wave4-wood-15",
+      "name": "藤鎖九頭獸",
+      "element": "木",
+      "design": "nine-headed plant hydra with broad root limbs and luminous seed cores",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body nine-headed plant hydra with broad root limbs and luminous seed cores. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 16,
+      "id": "wave4-wood-16",
+      "name": "孢子戰車王",
+      "element": "木",
+      "design": "low mechanical boar with layered fungal armor and seed launchers",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body low mechanical boar with layered fungal armor and seed launchers. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 17,
+      "id": "wave4-wood-17",
+      "name": "森羅鹿帝",
+      "element": "木",
+      "design": "colossal stag with cathedral-like antlers and heavy bark greaves",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body colossal stag with cathedral-like antlers and heavy bark greaves. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 18,
+      "id": "wave4-wood-18",
+      "name": "棘翼魔王",
+      "element": "木",
+      "design": "bat-shaped forest monarch with thorn ribs and broad leaf wings",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body bat-shaped forest monarch with thorn ribs and broad leaf wings. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 19,
+      "id": "wave4-wood-19",
+      "name": "碧核巨熊",
+      "element": "木",
+      "design": "massive reactor bear powered by a green living seed core",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body massive reactor bear powered by a green living seed core. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 20,
+      "id": "wave4-wood-20",
+      "name": "根脈盤龍",
+      "element": "木",
+      "design": "serpentine root titan with stone-clasp jaws and branching spine",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body serpentine root titan with stone-clasp jaws and branching spine. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 21,
+      "id": "wave4-water-21",
+      "name": "深淵鐵鯨",
+      "element": "水",
+      "design": "enormous submarine whale mech with glowing portholes and broad armored fins",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body enormous submarine whale mech with glowing portholes and broad armored fins. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 22,
+      "id": "wave4-water-22",
+      "name": "冰冠九首龍",
+      "element": "水",
+      "design": "nine-headed glacier hydra with crystal plate armor",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body nine-headed glacier hydra with crystal plate armor. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 23,
+      "id": "wave4-water-23",
+      "name": "寒潮戰艦獸",
+      "element": "水",
+      "design": "manta leviathan with a battleship-like plated back and ice horns",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body manta leviathan with a battleship-like plated back and ice horns. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 24,
+      "id": "wave4-water-24",
+      "name": "渦流巨章",
+      "element": "水",
+      "design": "eight-armed abyssal octopus mech with turbine-shaped suckers",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body eight-armed abyssal octopus mech with turbine-shaped suckers. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 25,
+      "id": "wave4-water-25",
+      "name": "霜刃虎王",
+      "element": "水",
+      "design": "giant sabertooth tiger in layered glacier armor",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body giant sabertooth tiger in layered glacier armor. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 26,
+      "id": "wave4-water-26",
+      "name": "幽海機魟",
+      "element": "水",
+      "design": "wide black-and-cyan stingray mech with translucent engine fins",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body wide black-and-cyan stingray mech with translucent engine fins. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 27,
+      "id": "wave4-water-27",
+      "name": "極冰雙顎",
+      "element": "水",
+      "design": "two-headed polar serpent with broad ice shield crests",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body two-headed polar serpent with broad ice shield crests. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 28,
+      "id": "wave4-water-28",
+      "name": "海嘯鋼鯊",
+      "element": "水",
+      "design": "upright armored hammerhead shark titan with hydraulic forearms",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body upright armored hammerhead shark titan with hydraulic forearms. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 29,
+      "id": "wave4-water-29",
+      "name": "凍星巨龜",
+      "element": "水",
+      "design": "ancient glacier turtle with floating icy satellite stones",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body ancient glacier turtle with floating icy satellite stones. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 30,
+      "id": "wave4-water-30",
+      "name": "滄溟王座獸",
+      "element": "水",
+      "design": "deep-sea anglerfish monarch with throne-shaped dorsal armor",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body deep-sea anglerfish monarch with throne-shaped dorsal armor. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 31,
+      "id": "wave4-fire-31",
+      "name": "熔核霸龍",
+      "element": "火",
+      "design": "volcanic tyrannosaur mech with a protected orange reactor core",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body volcanic tyrannosaur mech with a protected orange reactor core. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 32,
+      "id": "wave4-fire-32",
+      "name": "赤曜機皇",
+      "element": "火",
+      "design": "broad humanoid-shaped nonhuman machine overlord with sun-disc shoulders",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body broad humanoid-shaped nonhuman machine overlord with sun-disc shoulders. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 33,
+      "id": "wave4-fire-33",
+      "name": "爆炎三頭犬",
+      "element": "火",
+      "design": "three-headed armored hound with contained furnace manes",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body three-headed armored hound with contained furnace manes. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 34,
+      "id": "wave4-fire-34",
+      "name": "焚天翼王",
+      "element": "火",
+      "design": "enormous six-winged phoenix-dragon with black ceramic armor",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body enormous six-winged phoenix-dragon with black ceramic armor. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 35,
+      "id": "wave4-fire-35",
+      "name": "熔爐巨猿",
+      "element": "火",
+      "design": "huge foundry gorilla with forge gauntlets and chimney-shaped back vents",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body huge foundry gorilla with forge gauntlets and chimney-shaped back vents. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 36,
+      "id": "wave4-fire-36",
+      "name": "炎輪戰馬",
+      "element": "火",
+      "design": "mechanical armored stallion with flaming ring hooves",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body mechanical armored stallion with flaming ring hooves. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 37,
+      "id": "wave4-fire-37",
+      "name": "黑曜魔蠍",
+      "element": "火",
+      "design": "volcanic scorpion titan with layered obsidian armor and amber joints",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body volcanic scorpion titan with layered obsidian armor and amber joints. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 38,
+      "id": "wave4-fire-38",
+      "name": "赤核穿山王",
+      "element": "火",
+      "design": "armored digging mole mech with thermal drill forearms",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body armored digging mole mech with thermal drill forearms. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 39,
+      "id": "wave4-fire-39",
+      "name": "日蝕雙翼獸",
+      "element": "火",
+      "design": "crescent-winged black-and-gold wyvern with an eclipsed-sun crest",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body crescent-winged black-and-gold wyvern with an eclipsed-sun crest. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 40,
+      "id": "wave4-fire-40",
+      "name": "火山轟甲王",
+      "element": "火",
+      "design": "wide triceratops titan with volcanic fortress armor",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body wide triceratops titan with volcanic fortress armor. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 41,
+      "id": "wave4-earth-41",
+      "name": "鎮岳泰坦",
+      "element": "土",
+      "design": "massive stone titan with stepped mountain shoulders",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body massive stone titan with stepped mountain shoulders. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 42,
+      "id": "wave4-earth-42",
+      "name": "玄岩機城",
+      "element": "土",
+      "design": "four-legged mobile citadel beast with crystal-powered joints",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body four-legged mobile citadel beast with crystal-powered joints. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 43,
+      "id": "wave4-earth-43",
+      "name": "砂暴巨鱷",
+      "element": "土",
+      "design": "colossal desert crocodile with sandstone sail plates",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body colossal desert crocodile with sandstone sail plates. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 44,
+      "id": "wave4-earth-44",
+      "name": "隕星重鎚獸",
+      "element": "土",
+      "design": "armadillo-like meteor beast with an oversized crystalline hammer tail",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body armadillo-like meteor beast with an oversized crystalline hammer tail. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 45,
+      "id": "wave4-earth-45",
+      "name": "峽谷鐵角王",
+      "element": "土",
+      "design": "giant buffalo mech with canyon-layered armor and crescent horns",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body giant buffalo mech with canyon-layered armor and crescent horns. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 46,
+      "id": "wave4-earth-46",
+      "name": "晶脊霸王",
+      "element": "土",
+      "design": "spinosaurus titan with a cathedral of smoky quartz on its back",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body spinosaurus titan with a cathedral of smoky quartz on its back. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 47,
+      "id": "wave4-earth-47",
+      "name": "沙海吞天蟲",
+      "element": "土",
+      "design": "massive armored sandworm with a crown-shaped mandible ring",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body massive armored sandworm with a crown-shaped mandible ring. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 48,
+      "id": "wave4-earth-48",
+      "name": "岩翼獅鷲王",
+      "element": "土",
+      "design": "heavy griffin with sandstone plate wings and crystal claws",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body heavy griffin with sandstone plate wings and crystal claws. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 49,
+      "id": "wave4-earth-49",
+      "name": "重磁巨犀",
+      "element": "土",
+      "design": "floating-rock rhinoceros with magnetically suspended stone armor",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body floating-rock rhinoceros with magnetically suspended stone armor. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    },
+    {
+      "index": 50,
+      "id": "wave4-earth-50",
+      "name": "地脈守門神",
+      "element": "土",
+      "design": "two-faced nonhuman stone gate guardian with massive squared arms",
+      "status": "planned",
+      "animations": [
+        "entrance",
+        "idle",
+        "attack",
+        "hit",
+        "capture"
+      ],
+      "imagePrompt": "One original full-body two-faced nonhuman stone gate guardian with massive squared arms. A formidable enormous boss for a premium stylized star-ocean fantasy adventure game. Readable strong silhouette, massive structural details, powerful posture, expressive eyes; no gore. Three-quarter view facing left, fixed orthographic-like game camera, entire body and all extremities inside frame with 15 percent padding. Stylized high-end 3D painted game art, crisp sculptural materials and restrained luminous accents. Actual transparent alpha background, no scenery, no floor, no shadow outside the feet, no text, no UI. Unique anatomy and construction, not a recolor of another creature."
+    }
+  ],
+  "activeVideoLimit": 150,
+  "activeAnimatedCreatures": 30,
+  "deferredVideos": 100,
+  "activeEstimatedCredits": 4533.5
+}

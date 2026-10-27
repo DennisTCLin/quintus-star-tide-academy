@@ -1,0 +1,62 @@
+{
+  "runtime": "ad0b17588b3f8c6ec03a01ed576e86a26e79ae20",
+  "deployment": "48d8d8d5-5f18-4b04-8257-09c22e7fbff3",
+  "assets": [
+    {
+      "path": "/assets/AdminConsole.v-DC7GNqzd.css",
+      "sha256": "fd016cb0607032dae9d119af9d70d718a0e4340fdc0c8549bdd015f0383adf5f"
+    },
+    {
+      "path": "/assets/IslandApp.v-DpDsxIzD.js",
+      "sha256": "e3fe3eb08469fc4b31e0aac210f48ea79ee33ab030fc770520e67df09ae71dc4"
+    },
+    {
+      "path": "/assets/TerritoryPage.v-XpGSXE-r.css",
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    {
+      "path": "/assets/index.v-JkL1YKlR.css",
+      "sha256": "b64378a0613d3ed630f83a73ef5673e8127bc60c8adcb7d6db51937d6d2c4dbc"
+    },
+    {
+      "path": "/assets/AdminConsole.v-JWH9Ckjg.js",
+      "sha256": "ebcc323a3342e022f1980c346867f07062e2259812d65bcad581191fc909d4a3"
+    },
+    {
+      "path": "/assets/RoomEditor.v-DAQrP36r.js",
+      "sha256": "ac9d3ad524b20b0d3188225f04d1004a4a1df9b812c06900d45535687f2eb0e4"
+    },
+    {
+      "path": "/assets/IslandApp.v--k-RY2Cj.css",
+      "sha256": "fc620aa6a6c8f099b0b00710dee5dfcdb1a975aeeb3c3fa914ecfef7af640ea2"
+    },
+    {
+      "path": "/assets/index.v-BrUNMVUX.js",
+      "sha256": "6363bb7320e58d786dcdf4a84084502c091ec8a6e9b460b01e18f50b4b398668"
+    },
+    {
+      "path": "/assets/TerritoryPage.v-BkB0rp1C.js",
+      "sha256": "883df5bdf93876efa44b4b313426512dc14e91eafe8f31ccd714293f7fad99f4"
+    },
+    {
+      "path": "/assets/game-view.v-CsIzNtSc.js",
+      "sha256": "408959ac97e3472176522868feb63440dd0faf548f94a006b3389d31f7561ab5"
+    },
+    {
+      "path": "/assets/game-view.v-DjQLQpAC.css",
+      "sha256": "80bebb3fd3f3c62f510a09a4b9fb05b662fcb31faeedda3a3c418afe6fc5343a"
+    }
+  ],
+  "checks": [
+    "Production victory CTA 320",
+    "Production next voyage once 320",
+    "Production victory CTA 820",
+    "Production next voyage once 820",
+    "Production victory CTA 1194",
+    "Production next voyage once 1194",
+    "Production final animation then victory",
+    "No JavaScript errors"
+  ],
+  "realStudentWrites": false,
+  "physicalIpad": false
+}

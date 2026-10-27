@@ -1,0 +1,67 @@
+{
+  "runtime": "7b054a38bc02f1bff92da19e5a19e1dc860904f5",
+  "deployment": "ef4eb2d4-90ee-4db3-b78f-2f6aca768d31",
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "indexMatches": true,
+  "assets": [
+    {
+      "path": "/assets/AdminConsole.v-DC7GNqzd.css",
+      "bytes": 11748,
+      "sha256": "fd016cb0607032dae9d119af9d70d718a0e4340fdc0c8549bdd015f0383adf5f"
+    },
+    {
+      "path": "/assets/game-view.v-CN-cz_19.js",
+      "bytes": 782651,
+      "sha256": "63265d207530b1d61bc47c2950abb8bb214f20d534c8a2ed70ff65a88153247c"
+    },
+    {
+      "path": "/assets/index.v-Ds1p-QAm.js",
+      "bytes": 468425,
+      "sha256": "36013a1dcb6753b536b2b4302ed32933310ed5f0be2c2c6a416e192b17786dfa"
+    },
+    {
+      "path": "/assets/TerritoryPage.v-XpGSXE-r.css",
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    {
+      "path": "/assets/IslandApp.v--k-RY2Cj.css",
+      "bytes": 35486,
+      "sha256": "fc620aa6a6c8f099b0b00710dee5dfcdb1a975aeeb3c3fa914ecfef7af640ea2"
+    },
+    {
+      "path": "/assets/RoomEditor.v-BpmzROPh.js",
+      "bytes": 10673,
+      "sha256": "e42f085610d5c6b0e691aca8ca5c08af18d65540d128df49dfb8fecdd5cc7ed9"
+    },
+    {
+      "path": "/assets/TerritoryPage.v-CPUCYcRt.js",
+      "bytes": 36028,
+      "sha256": "474a7741cb37928c5cc3154f9c950774a94384b472784feff1daf8963a304243"
+    },
+    {
+      "path": "/assets/IslandApp.v-DqPrr3E5.js",
+      "bytes": 58821,
+      "sha256": "4138b0d6fe1e48b392d4f58166e851af6aa2a3c16861244f5fbfc137bde77a50"
+    },
+    {
+      "path": "/assets/AdminConsole.v-DSwx-AEg.js",
+      "bytes": 33154,
+      "sha256": "c470cdbf5492cd708edb91457a357bde42be4ebf343b346826673feeb7f963df"
+    },
+    {
+      "path": "/assets/index.v-DVY3Dtxf.css",
+      "bytes": 282395,
+      "sha256": "121b9a09afcc42c93e45995bc1a99b35af9dbd99a7b776989cb30e73fa5405e4"
+    },
+    {
+      "path": "/assets/game-view.v-DjQLQpAC.css",
+      "bytes": 1260,
+      "sha256": "80bebb3fd3f3c62f510a09a4b9fb05b662fcb31faeedda3a3c418afe6fc5343a"
+    }
+  ],
+  "scope": "Public health/index/all emitted JS and CSS byte verification; no child login or progress mutation."
+}

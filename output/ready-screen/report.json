@@ -1,0 +1,44 @@
+{
+  "status": "published_verified",
+  "base": "ab12afd",
+  "changes": [
+    "Compact preparation with fixed safe-area primary action",
+    "Grades1-2 relaxed default, older standard; explicit profile-scoped cloud preference",
+    "Current figure and option-sprite preflight before ready; initial user start and later auto-ready",
+    "No auto-ready while hidden, offline or quit dialog is open; bounded retry after cloud sync collision",
+    "Key preparation action ruby for grade2; grade1 listen rules; floating mascot suppressed during preparation"
+  ],
+  "verification": {
+    "build": "PASS",
+    "unitPassed": 793,
+    "skipped": 174,
+    "isolatedDatabasePassed": 25,
+    "layoutChecks": 56,
+    "flowEngines": [
+      "Chromium",
+      "WebKit"
+    ],
+    "modalBlocksClock": true,
+    "replayedReadyKeepsClock": true,
+    "sixQuestionWinFlows": 2,
+    "modeReloadOfflineFlows": 2,
+    "independentFalsification": "PASS"
+  },
+  "limitations": [
+    "Headless WebKit is not physical iPad/Safari testing.",
+    "Preflight covers required image URLs; it does not certify recorded speech playback completion.",
+    "Existing opened clocks retain authoritative deadlines after reload."
+  ],
+  "rollback": "Revert runtime commit; optional challengeTiming remains compatible and old clients retain advance behavior.",
+  "integratedMain": "a7951a0",
+  "runtime": "d85b6a39f213746fe56ed4208673b4a22c2cea63",
+  "deployment": "474c1dc2-b9fb-4be0-91c3-22905a6a00f5",
+  "production": {
+    "railway": "SUCCESS",
+    "health": "PASS",
+    "indexMatches": true,
+    "matchingAssets": 49,
+    "anonymousWebKitViewports": 2,
+    "preservedAssetsVerified": 1752
+  }
+}

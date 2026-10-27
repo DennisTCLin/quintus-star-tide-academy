@@ -1,0 +1,43 @@
+{
+  "feature": "Visual companion home and persistent castle interiors",
+  "scope": [
+    "Companion homepage shows saved territory and room",
+    "12 craftable furniture types with four Higgsfield views each",
+    "3 wall and floor finishes; three rooms unlocked by existing castle expansion",
+    "Drag, touch placement, rotate, layering, tabletop support, store, undo/redo, save/cancel",
+    "Resident uses furniture; existing score, companion and territory records retained"
+  ],
+  "art": {
+    "provider": "Higgsfield",
+    "model": "gpt_image_2_5",
+    "completedGenerations": 17,
+    "deliveredWebpFiles": 53,
+    "manifest": "generation-manifest.json"
+  },
+  "data": "Optional homeDecor field; explicit one-time starter furnishings, server-priced crafting, base revision check, existing account authorization/receipts/locks; imported homeDecor discarded",
+  "checks": {
+    "domain": 9,
+    "cloud": 9,
+    "browser": "browser/verification.json",
+    "fullSuite": {
+      "files": 44,
+      "tests": 404,
+      "database": "real PostgreSQL"
+    },
+    "independentIntegrationTests": 14,
+    "productionBrowser": "production/verification.json",
+    "productionRelease": "production/release.json",
+    "productionRetry": "First automated attempt timed out waiting for an open-room command response during initial loading. The same isolated QA account passed the full workflow after waiting for initial assets and network readiness."
+  },
+  "limitations": [
+    "Browser QA uses isolated new account and touch emulation, not physical devices",
+    "Room furniture uses four rendered views on a 2D scene, not a 3D free camera",
+    "No claim that interface increases real learning motivation"
+  ],
+  "production": {
+    "status": "SUCCESS",
+    "source": "4ac980e623f77d27b0cf7ca1d071d44ae9f03922",
+    "deployment": "21468e85-dd24-408c-aa4c-a196ab1d342d",
+    "url": "https://quintus-star-tide-academy-production.up.railway.app/"
+  }
+}

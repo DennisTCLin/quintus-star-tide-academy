@@ -1,0 +1,49 @@
+{
+  "sixQuestions": [
+    {
+      "question": 1,
+      "clip": 1,
+      "visibleWithoutScroll": true,
+      "hpBefore": "100",
+      "hpAfter": "70"
+    },
+    {
+      "question": 2,
+      "clip": 2,
+      "visibleWithoutScroll": true,
+      "hpBefore": "70",
+      "hpAfter": "40"
+    },
+    {
+      "question": 3,
+      "clip": 1,
+      "visibleWithoutScroll": true,
+      "hpBefore": "40",
+      "hpAfter": "10"
+    },
+    {
+      "question": 4,
+      "clip": 2,
+      "visibleWithoutScroll": true,
+      "hpBefore": "10",
+      "hpAfter": "1"
+    },
+    {
+      "question": 5,
+      "clip": 1,
+      "visibleWithoutScroll": true,
+      "hpBefore": "1",
+      "hpAfter": "1"
+    },
+    {
+      "question": 6,
+      "clip": 3,
+      "visibleWithoutScroll": true,
+      "hpBefore": "1",
+      "hpAfter": "0"
+    }
+  ],
+  "wrongAnswerContinue": true,
+  "errors": [],
+  "pass": true
+}

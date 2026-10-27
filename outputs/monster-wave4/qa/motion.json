@@ -1,0 +1,72 @@
+[
+  {
+    "engine": "chromium",
+    "action": "entrance",
+    "solid": 55533,
+    "clear": 89028,
+    "pink": 9
+  },
+  {
+    "engine": "chromium",
+    "action": "idle",
+    "solid": 65878,
+    "clear": 77083,
+    "pink": 15
+  },
+  {
+    "engine": "chromium",
+    "action": "attack",
+    "solid": 46627,
+    "clear": 97135,
+    "pink": 0
+  },
+  {
+    "engine": "chromium",
+    "action": "hit",
+    "solid": 68768,
+    "clear": 74200,
+    "pink": 29
+  },
+  {
+    "engine": "chromium",
+    "action": "capture",
+    "solid": 66071,
+    "clear": 77049,
+    "pink": 17
+  },
+  {
+    "engine": "webkit",
+    "action": "entrance",
+    "solid": 55224,
+    "clear": 89555,
+    "pink": 0
+  },
+  {
+    "engine": "webkit",
+    "action": "idle",
+    "solid": 66162,
+    "clear": 77297,
+    "pink": 2
+  },
+  {
+    "engine": "webkit",
+    "action": "attack",
+    "solid": 47040,
+    "clear": 97151,
+    "pink": 0
+  },
+  {
+    "engine": "webkit",
+    "action": "hit",
+    "solid": 68998,
+    "clear": 74376,
+    "pink": 21
+  },
+  {
+    "engine": "webkit",
+    "action": "capture",
+    "solid": 66313,
+    "clear": 77226,
+    "pink": 0
+  }
+]

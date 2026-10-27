@@ -1,0 +1,121 @@
+{
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "cases": [
+    {
+      "name": "production-desktop",
+      "width": 1440,
+      "height": 900,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "896f03b1-470a-473e-b03a-71631c70ac67",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 703.3999996185303
+        },
+        {
+          "phase": "turning",
+          "ms": 953.2999992370605
+        },
+        {
+          "phase": "mixing",
+          "ms": 1603.2000007629395
+        },
+        {
+          "phase": "dropping",
+          "ms": 2854.8999996185303
+        },
+        {
+          "phase": "opening",
+          "ms": 3606
+        },
+        {
+          "phase": "revealed",
+          "ms": 4459.60000038147
+        }
+      ]
+    },
+    {
+      "name": "production-phone",
+      "width": 390,
+      "height": 667,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "b363f30a-db09-4f57-b475-b29f1ee82586",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 1312
+        },
+        {
+          "phase": "turning",
+          "ms": 1797
+        },
+        {
+          "phase": "mixing",
+          "ms": 2447.3999996185303
+        },
+        {
+          "phase": "dropping",
+          "ms": 3698.7999992370605
+        },
+        {
+          "phase": "opening",
+          "ms": 4450.5
+        },
+        {
+          "phase": "revealed",
+          "ms": 5302.700000762939
+        }
+      ]
+    },
+    {
+      "name": "production-short-grade2",
+      "width": 320,
+      "height": 568,
+      "result": "PASS",
+      "commands": [
+        {
+          "id": "47f0c3da-078a-46d1-9fa6-fbf205da736c",
+          "command": "draw"
+        }
+      ],
+      "phases": [
+        {
+          "phase": "idle",
+          "ms": 839.8999996185303
+        },
+        {
+          "phase": "turning",
+          "ms": 1005.1000003814697
+        },
+        {
+          "phase": "mixing",
+          "ms": 1655
+        },
+        {
+          "phase": "dropping",
+          "ms": 2906.7999992370605
+        },
+        {
+          "phase": "opening",
+          "ms": 3658.199998855591
+        },
+        {
+          "phase": "revealed",
+          "ms": 4512.39999961853
+        }
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "result": "PASS"
+}

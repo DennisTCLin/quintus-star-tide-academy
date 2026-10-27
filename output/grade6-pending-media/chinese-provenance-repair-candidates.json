@@ -1,0 +1,50 @@
+[
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "五語譯1",
+    "prompt": "「器具質而潔，瓦缶勝金玉」最適合怎麼解釋？",
+    "correct": "器具只要樸素乾淨，陶製容器也勝過金玉製的器具。",
+    "wrong": [
+      "器具必須用金玉製成，才值得清洗保存。",
+      "陶製容器價格一定比金玉製的器具昂貴。",
+      "器具只要外觀華麗，就不必保持清潔。"
+    ],
+    "explanation": "「質」指樸素，「潔」指乾淨，「瓦缶」是陶製容器。這句話強調器具樸素而清潔即可，不必追求貴重奢華。",
+    "verificationURLs": [
+      "https://digitalarchive.npm.gov.tw/Collection/Detail/31295?dep=P",
+      "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/primary/lang/jileiwen/jilei_wen_047.pdf"
+    ],
+    "sourceVerification": {
+      "originalType": "語譯，自由作答，無選項",
+      "originalOptions": null,
+      "originalText": "器具質而潔，瓦缶勝金玉。",
+      "render": "/tmp/grade6-chinese-source/小六康軒國語10-last.png",
+      "adaptation": "原卷語譯改為四選一；三個錯誤選項為本次編寫，未冒充原卷選項。"
+    }
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "五語譯2",
+    "prompt": "「半絲半縷，恆念物力維艱」最適合怎麼解釋？",
+    "correct": "即使少量絲線，也要常想到物資得來不易而加以珍惜。",
+    "wrong": [
+      "只要物品數量很少，就可以隨意丟棄。",
+      "做衣服時每次只能使用半條絲線。",
+      "取得物資十分容易，不必珍惜使用。"
+    ],
+    "explanation": "「半絲半縷」以少量絲線代表細小物品；「恆念」是常常想到，「物力維艱」指物資得來不易。全句勸人珍惜物品、避免浪費。",
+    "verificationURLs": [
+      "https://digitalarchive.npm.gov.tw/Collection/Detail/31295?dep=P",
+      "https://dict.revised.moe.edu.tw/dictView.jsp?ID=159914&la=0&powerMode=0"
+    ],
+    "sourceVerification": {
+      "originalType": "語譯，自由作答，無選項",
+      "originalOptions": null,
+      "originalText": "半絲半縷，恆念物力維艱。",
+      "render": "/tmp/grade6-chinese-source/小六康軒國語10-last.png",
+      "adaptation": "原卷語譯改為四選一；三個錯誤選項為本次編寫，未冒充原卷選項。"
+    }
+  }
+]

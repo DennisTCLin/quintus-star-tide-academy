@@ -1,0 +1,12 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run src/__tests__/harbor-departure.test.ts src/__tests__/capture-trial.test.ts src/__tests__/brand-icons.test.ts src/__tests__/learning-journey.test.ts --silent
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/school-question-bank/星潮網站開發
+
+
+ Test Files  4 passed (4)
+      Tests  30 passed (30)
+   Start at  23:27:03
+   Duration  675ms (transform 62%, import 33%, tests 5%, worker 1%)

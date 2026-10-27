@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "deviceEmulation": "iPad Pro 11",
+      "recordSendActualCodec": true,
+      "twoTurnContext": true,
+      "replyAudioPlaying": true,
+      "speech503RecoveryWithoutDuplicate": true,
+      "audioContextRecoveryWithoutDuplicate": true,
+      "reloadMemory": true,
+      "cancelCloseBackgroundReleaseTracks": true,
+      "permissionDeniedRecoverable": true,
+      "layouts": 4
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "deviceEmulation": "iPad Pro 11",
+      "recordSendActualCodec": true,
+      "twoTurnContext": true,
+      "replyAudioPlaying": true,
+      "speech503RecoveryWithoutDuplicate": true,
+      "audioContextRecoveryWithoutDuplicate": true,
+      "reloadMemory": true,
+      "cancelCloseBackgroundReleaseTracks": true,
+      "permissionDeniedRecoverable": true,
+      "layouts": 4
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "deviceEmulation": "iPad Pro 11",
+      "recordSendActualCodec": true,
+      "twoTurnContext": true,
+      "replyAudioPlaying": true,
+      "speech503RecoveryWithoutDuplicate": true,
+      "audioContextRecoveryWithoutDuplicate": true,
+      "reloadMemory": true,
+      "cancelCloseBackgroundReleaseTracks": true,
+      "permissionDeniedRecoverable": true,
+      "layouts": 4
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "deviceEmulation": "iPad Pro 11",
+      "recordSendActualCodec": true,
+      "twoTurnContext": true,
+      "replyAudioPlaying": true,
+      "speech503RecoveryWithoutDuplicate": true,
+      "audioContextRecoveryWithoutDuplicate": true,
+      "reloadMemory": true,
+      "cancelCloseBackgroundReleaseTracks": true,
+      "permissionDeniedRecoverable": true,
+      "layouts": 4
+    }
+  ],
+  "pageErrors": [],
+  "physicalMicrophone": false,
+  "provider": "local deterministic fixture",
+  "codecEvidence": "chromium-capture.json and webkit-capture.json"
+}

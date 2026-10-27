@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-25T01:14:45.117Z",
+  "source": "63e9ce9b8908a061fa4ef6ceac172d4764311314",
+  "deployment": "a44bcfe5-4977-46d9-8fef-7b2e0ab3e5a0",
+  "entry": "assets/index.v-B68F7zfN.js",
+  "checks": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 1142,
+      "expectedEntry": true
+    },
+    {
+      "path": "healthz",
+      "status": 200,
+      "bytes": 45
+    },
+    {
+      "path": "assets/IslandApp.v-C2HfYlVA.js",
+      "status": 200,
+      "bytes": 51330,
+      "match": true
+    },
+    {
+      "path": "assets/IslandApp.v-C2zdfX0C.css",
+      "status": 200,
+      "bytes": 30389,
+      "match": true
+    },
+    {
+      "path": "assets/RoomEditor.v-aM344Su6.js",
+      "status": 200,
+      "bytes": 10683,
+      "match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "bytes": 30002,
+      "match": true
+    },
+    {
+      "path": "assets/TerritoryPage.v-d9QN8XbB.js",
+      "status": 200,
+      "bytes": 36006,
+      "match": true
+    },
+    {
+      "path": "assets/index.v-B68F7zfN.js",
+      "status": 200,
+      "bytes": 340140,
+      "match": true
+    },
+    {
+      "path": "assets/index.v-WyQEizus.css",
+      "status": 200,
+      "bytes": 234459,
+      "match": true
+    },
+    {
+      "path": "assets/interface-zhuyin-packed.v-BUveLmTo.js",
+      "status": 200,
+      "bytes": 358940,
+      "match": true
+    }
+  ]
+}

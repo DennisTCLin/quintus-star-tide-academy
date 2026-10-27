@@ -1,0 +1,22 @@
+[
+  {
+    "check": "tideglow failed atlas and portrait renders fallback symbol",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "cometcrane failed atlas and portrait renders fallback symbol",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "pebblefin failed atlas and portrait renders fallback symbol",
+    "status": "PASS",
+    "details": null
+  },
+  {
+    "check": "all remaining portrait images loaded",
+    "status": "PASS",
+    "details": null
+  }
+]

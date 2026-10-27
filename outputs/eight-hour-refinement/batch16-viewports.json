@@ -1,0 +1,98 @@
+[
+  {
+    "emptyRuby": 0,
+    "height": 740,
+    "monster": [
+      {
+        "loaded": true,
+        "width": 640
+      }
+    ],
+    "reduced": false,
+    "ruby": 528,
+    "scrollWidth": 335,
+    "stage": {
+      "bottom": 473.75,
+      "height": 260,
+      "left": 23,
+      "right": 297,
+      "top": 213.75,
+      "width": 274,
+      "x": 23,
+      "y": 213.75
+    },
+    "width": 320
+  },
+  {
+    "emptyRuby": 0,
+    "height": 1180,
+    "monster": [
+      {
+        "loaded": true,
+        "width": 640
+      }
+    ],
+    "reduced": false,
+    "ruby": 528,
+    "scrollWidth": 820,
+    "stage": {
+      "bottom": 418.25,
+      "height": 260,
+      "left": 41,
+      "right": 779,
+      "top": 158.25,
+      "width": 738,
+      "x": 41,
+      "y": 158.25
+    },
+    "width": 820
+  },
+  {
+    "emptyRuby": 0,
+    "height": 768,
+    "monster": [
+      {
+        "loaded": true,
+        "width": 640
+      }
+    ],
+    "reduced": false,
+    "ruby": 528,
+    "scrollWidth": 1024,
+    "stage": {
+      "bottom": 450.25,
+      "height": 300,
+      "left": 29,
+      "right": 357.90625,
+      "top": 150.25,
+      "width": 328.90625,
+      "x": 29,
+      "y": 150.25
+    },
+    "width": 1024
+  },
+  {
+    "emptyRuby": 0,
+    "height": 1000,
+    "monster": [
+      {
+        "loaded": true,
+        "width": 640
+      }
+    ],
+    "reduced": false,
+    "ruby": 528,
+    "scrollWidth": 1440,
+    "stage": {
+      "bottom": 720.25,
+      "height": 500,
+      "left": 41,
+      "right": 816.625,
+      "top": 220.25,
+      "width": 775.625,
+      "x": 41,
+      "y": 220.25
+    },
+    "width": 1440
+  }
+]

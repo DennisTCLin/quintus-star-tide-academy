@@ -1,0 +1,224 @@
+{
+  "base": "http://127.0.0.1:4242",
+  "checks": [
+    {
+      "check": "feifei-1440-motion bounded owned residents"
+    },
+    {
+      "check": "feifei-1440-motion no page overflow"
+    },
+    {
+      "check": "feifei-1440-motion all images loaded"
+    },
+    {
+      "check": "feifei-1440-motion appropriate movement"
+    },
+    {
+      "check": "feifei-1440-motion keyboard greeting"
+    },
+    {
+      "check": "feifei-1440-motion greeting never writes game state"
+    },
+    {
+      "check": "feifei-1440-motion pause freezes simulation"
+    },
+    {
+      "check": "feifei-1440-motion pause freezes animation"
+    },
+    {
+      "check": "feifei-1440-motion manual rotation"
+    },
+    {
+      "check": "feifei-1440-motion equipped stays"
+    },
+    {
+      "check": "feifei-1440-motion building centres unobstructed",
+      "blocked": []
+    },
+    {
+      "check": "feifei-1440-motion zoom 150%"
+    },
+    {
+      "check": "feifei-1440-motion plot click works"
+    },
+    {
+      "check": "feifei-1440-motion resume"
+    },
+    {
+      "check": "feifei-1440-motion offscreen paused"
+    },
+    {
+      "check": "feifei-1440-motion live OS reduce stops JS"
+    },
+    {
+      "check": "feifei-1440-motion new ownership removes old residents"
+    },
+    {
+      "check": "feifei-1440-motion exterior unmounts residents"
+    },
+    {
+      "check": "feifei-390-motion bounded owned residents"
+    },
+    {
+      "check": "feifei-390-motion no page overflow"
+    },
+    {
+      "check": "feifei-390-motion all images loaded"
+    },
+    {
+      "check": "feifei-390-motion appropriate movement"
+    },
+    {
+      "check": "feifei-390-motion keyboard greeting"
+    },
+    {
+      "check": "feifei-390-motion greeting never writes game state"
+    },
+    {
+      "check": "feifei-390-motion pause freezes simulation"
+    },
+    {
+      "check": "feifei-390-motion pause freezes animation"
+    },
+    {
+      "check": "feifei-390-motion manual rotation"
+    },
+    {
+      "check": "feifei-390-motion equipped stays"
+    },
+    {
+      "check": "feifei-390-motion building centres unobstructed",
+      "blocked": []
+    },
+    {
+      "check": "feifei-390-motion zoom 150%"
+    },
+    {
+      "check": "feifei-390-motion plot click works"
+    },
+    {
+      "check": "feifei-390-motion resume"
+    },
+    {
+      "check": "feifei-390-motion offscreen paused"
+    },
+    {
+      "check": "feifei-390-motion live OS reduce stops JS"
+    },
+    {
+      "check": "feifei-390-motion new ownership removes old residents"
+    },
+    {
+      "check": "feifei-390-motion exterior unmounts residents"
+    },
+    {
+      "check": "quintus-320-motion bounded owned residents"
+    },
+    {
+      "check": "quintus-320-motion no page overflow"
+    },
+    {
+      "check": "quintus-320-motion all images loaded"
+    },
+    {
+      "check": "quintus-320-motion appropriate movement"
+    },
+    {
+      "check": "quintus-320-motion keyboard greeting"
+    },
+    {
+      "check": "quintus-320-motion greeting never writes game state"
+    },
+    {
+      "check": "quintus-320-motion pause freezes simulation"
+    },
+    {
+      "check": "quintus-320-motion pause freezes animation"
+    },
+    {
+      "check": "quintus-320-motion manual rotation"
+    },
+    {
+      "check": "quintus-320-motion equipped stays"
+    },
+    {
+      "check": "quintus-320-motion building centres unobstructed",
+      "blocked": []
+    },
+    {
+      "check": "quintus-320-motion zoom 150%"
+    },
+    {
+      "check": "quintus-320-motion plot click works"
+    },
+    {
+      "check": "quintus-320-motion resume"
+    },
+    {
+      "check": "quintus-320-motion offscreen paused"
+    },
+    {
+      "check": "quintus-320-motion live OS reduce stops JS"
+    },
+    {
+      "check": "quintus-320-motion new ownership removes old residents"
+    },
+    {
+      "check": "quintus-320-motion exterior unmounts residents"
+    },
+    {
+      "check": "feifei-768-reduced bounded owned residents"
+    },
+    {
+      "check": "feifei-768-reduced no page overflow"
+    },
+    {
+      "check": "feifei-768-reduced all images loaded"
+    },
+    {
+      "check": "feifei-768-reduced appropriate movement"
+    },
+    {
+      "check": "feifei-768-reduced keyboard greeting"
+    },
+    {
+      "check": "feifei-768-reduced greeting never writes game state"
+    },
+    {
+      "check": "feifei-768-reduced manual rotation"
+    },
+    {
+      "check": "feifei-768-reduced equipped stays"
+    },
+    {
+      "check": "feifei-768-reduced building centres unobstructed",
+      "blocked": []
+    },
+    {
+      "check": "feifei-768-reduced zoom 150%"
+    },
+    {
+      "check": "feifei-768-reduced plot click works"
+    },
+    {
+      "check": "feifei-768-reduced new ownership removes old residents"
+    },
+    {
+      "check": "feifei-768-reduced exterior unmounts residents"
+    },
+    {
+      "check": "feifei-390-reduced-empty bounded owned residents"
+    },
+    {
+      "check": "feifei-390-reduced-empty no page overflow"
+    },
+    {
+      "check": "feifei-390-reduced-empty all images loaded"
+    },
+    {
+      "check": "feifei-390-reduced-empty appropriate movement"
+    }
+  ],
+  "issues": [],
+  "pageErrors": []
+}

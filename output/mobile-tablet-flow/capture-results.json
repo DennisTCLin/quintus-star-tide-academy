@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "captureThreeCorrect": true,
+      "closeReloadResume": true,
+      "joinedOrDuplicateSaved": "joined",
+      "nextChallengeReachable": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "captureThreeCorrect": true,
+      "closeReloadResume": true,
+      "joinedOrDuplicateSaved": "joined",
+      "nextChallengeReachable": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "captureThreeCorrect": true,
+      "closeReloadResume": true,
+      "joinedOrDuplicateSaved": "joined",
+      "nextChallengeReachable": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 6,
+      "captureThreeCorrect": true,
+      "closeReloadResume": true,
+      "joinedOrDuplicateSaved": "joined",
+      "nextChallengeReachable": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "captureThreeCorrect": true,
+      "closeReloadResume": true,
+      "joinedOrDuplicateSaved": "joined",
+      "nextChallengeReachable": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "captureThreeCorrect": true,
+      "closeReloadResume": true,
+      "joinedOrDuplicateSaved": "joined",
+      "nextChallengeReachable": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "captureThreeCorrect": true,
+      "closeReloadResume": true,
+      "joinedOrDuplicateSaved": "joined",
+      "nextChallengeReachable": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 6,
+      "captureThreeCorrect": true,
+      "closeReloadResume": true,
+      "joinedOrDuplicateSaved": "joined",
+      "nextChallengeReachable": true
+    }
+  ],
+  "pageErrors": [],
+  "syntheticOnly": true
+}

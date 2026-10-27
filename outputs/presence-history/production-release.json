@@ -1,0 +1,34 @@
+{
+  "runtimeCommit": "ce2d096",
+  "deployment": "505bb4aa-db65-493b-864a-1d9f007ba67a",
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "currentEntryMatches": true,
+  "allAssetsByteIdentical": true,
+  "assets": [
+    {
+      "path": "/assets/TerritoryPage.v-CoG0EyxX.js",
+      "sameBytes": true,
+      "sha256": "1f38181018bdf758d0b4b607a1dfbebda23b3d571be025b555e32648c1457ca4"
+    },
+    {
+      "path": "/assets/TerritoryPage.v-SBicoBw1.css",
+      "sameBytes": true,
+      "sha256": "25be9b40f181b6e42afb74868211ee6b0e2193aa7382264c3484869c5c16feda"
+    },
+    {
+      "path": "/assets/index.v-BHY6L1XR.css",
+      "sameBytes": true,
+      "sha256": "48efc22dc225042b9ab7ae815da028a8f4a08aadfd9e2ae98022c6beaa4e3c42"
+    },
+    {
+      "path": "/assets/index.v-DpieHHeQ.js",
+      "sameBytes": true,
+      "sha256": "518caf73dbb2ec5719b21b5a89bcf1041d4340cd365c2574e8129b5a0fb438b9"
+    }
+  ],
+  "railwayStatus": "SUCCESS",
+  "result": "PASS"
+}

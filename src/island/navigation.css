@@ -1,0 +1,146 @@
+/* Math Island navigation only. Keep the rest of the family game untouched. */
+#math-island { overflow:clip; --isl-nav-ink:#173e50; --isl-nav-paper:#fff7e5; --isl-nav-mint:#d8f1e7; }
+#math-island .isl-nav-icon { width:24px; height:24px; flex:none; vertical-align:middle; }
+#math-island .isl-journey { position:sticky; top:8px; z-index:8; display:flex; flex-direction:column; gap:10px; padding:16px; background:var(--isl-nav-paper); color:var(--isl-nav-ink); border:2px solid #a5c7c1; border-radius:22px; box-shadow:0 6px 18px #00182730; }
+#math-island .isl-journey-location { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:16px; align-items:center; }
+#math-island .isl-journey-chapter { font-size:15px; font-weight:700; color:#375767; }
+#math-island .isl-journey-chapter,#math-island .isl-switch-caption { display:flex; align-items:center; flex-wrap:wrap; gap:4px 10px; }
+#math-island .isl-journey-chapter > .isl-zy,#math-island .isl-switch-caption > .isl-zy { white-space:nowrap; }
+#math-island .isl-journey rt,#math-island .isl-switch-dialog rt,#math-island .isl-current-badge rt { color:#456272; }
+#math-island .isl-journey-steps .current rt { color:#dcf6ed; }
+#math-island .isl-journey h2 { font-size:26px; line-height:1.9; overflow-wrap:anywhere; }
+#math-island .isl-journey-place { font-size:14px; color:#375767; }
+#math-island .isl-change-island { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:5px; min-height:64px; min-width:108px; padding:10px 16px; border:2px solid #608f86; border-radius:16px; background:var(--isl-nav-mint); color:var(--isl-nav-ink); font-size:17px; font-weight:800; }
+#math-island .isl-change-island:active { background:#bce5d7; }
+#math-island .isl-journey-steps { list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
+#math-island .isl-journey-steps li { display:flex; justify-content:center; align-items:center; gap:7px; padding:8px 5px; min-height:48px; background:#e4e9df; color:#395562; border-radius:12px; font-size:16px; font-weight:700; }
+#math-island .isl-journey-steps li.current { background:#173e50; color:#fff7e5; outline:2px solid #173e50; }
+#math-island .isl-journey-steps li.complete:not(.current) { background:#d8ecd9; color:#285239; }
+#math-island .isl-step-number { display:grid; place-items:center; width:26px; height:26px; flex:none; border:1px solid currentColor; border-radius:50%; font-size:16px; }
+#math-island .current .isl-step-number { background:#b6ebda; color:#173e50; border-color:#b6ebda; }
+#math-island .isl-step-number .isl-nav-icon { width:18px; height:18px; }
+#math-island .isl-stage-current { display:flex; align-items:center; gap:8px; font-weight:800; }
+#math-island .isl-question-status { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; font-size:20px; }
+#math-island .isl-earned { font-size:15px; color:#375767; font-variant-numeric:tabular-nums; }
+#math-island .isl-earned > span[aria-hidden] { color:#906014; }
+#math-island .isl-question-progress { width:100%; height:10px; border:0; border-radius:9px; overflow:hidden; background:#d4e0d5; accent-color:#217b65; display:block; }
+#math-island .isl-question-progress::-webkit-progress-bar { background:#d4e0d5; border-radius:9px; }
+#math-island .isl-question-progress::-webkit-progress-value { background:#217b65; border-radius:9px; }
+#math-island .isl-question-progress::-moz-progress-bar { background:#217b65; border-radius:9px; }
+#math-island .isl-stage button { scroll-margin-block-start:var(--isl-sticky-offset,240px); scroll-margin-block-end:24px; }
+#math-island .isl-journey button { scroll-margin-block-start:24px; }
+#math-island .isl-journey button:disabled { opacity:.55; }
+#math-island > .isl-link { display:inline-flex; align-items:center; gap:8px; min-height:56px; margin-bottom:14px; padding:8px 12px; }
+#math-island .isl-unit-place { margin-top:5px; color:var(--i-muted); font-size:18px; }
+#math-island .isl-current-island { display:flex; align-items:stretch; flex-direction:column; gap:14px; border:2px solid var(--i-sun); background:#183e50; padding:20px; margin-bottom:20px; }
+#math-island .isl-current-island h3 { margin:0; font-size:23px; line-height:1.9; }
+#math-island .isl-current-island > p { flex:none; }
+#math-island .isl-you-are-here { display:inline-flex; align-items:center; gap:8px; color:var(--i-sun); font-size:18px; font-weight:800; }
+#math-island .isl-current-island .isl-actions { flex-wrap:wrap; gap:12px; }
+#math-island .isl-current-island .isl-btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; }
+#math-island .isl-resume-note { color:var(--i-muted); font-size:16px; }
+#math-island .isl-unit-map { grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+#math-island .isl-unit-map .isl-isle { display:grid; grid-template-columns:88px minmax(0,1fr); align-items:center; gap:14px; padding:16px; min-height:190px; text-align:left; }
+#math-island .isl-unit-map .isl-destination-art { width:88px; height:116px; border-radius:14px; overflow:hidden; }
+#math-island .isl-unit-map .isl-landscape,#math-island .isl-unit-map .isl-landscape img { width:100%; height:100%; aspect-ratio:auto; object-fit:cover; }
+#math-island .isl-unit-map .isl-map-guardian { width:40px; height:40px; right:0; bottom:0; }
+#math-island .isl-unit-map .isl-destination-copy { padding:0; gap:8px; }
+#math-island .isl-unit-map .tx { min-width:0; gap:4px; }
+#math-island .isl-unit-map .tx small { padding:0; display:flex; align-items:center; gap:8px; flex-wrap:wrap; font-size:14px; }
+#math-island .isl-unit-map .tx b { font-size:23px; line-height:1.9; }
+#math-island .isl-unit-map .tx > span { font-size:15px; }
+#math-island .isl-unit-map .marks { flex-wrap:wrap; justify-content:flex-start; gap:6px; font-size:12px; }
+#math-island .isl-unit-map .isl-next-stage { font-size:14px; }
+#math-island .isl-unit-map .isl-destination-action { min-height:44px; padding:7px 12px; margin-top:3px; border-radius:12px; font-size:16px; }
+#math-island .isl-unit-map .is-current { border:3px solid var(--i-sun); background:#214b55; }
+#math-island .isl-current-badge { background:var(--i-sun); color:#173e50; font-size:12px; border-radius:8px; padding:3px 7px; font-weight:800; }
+#math-island .isl-switch-dialog { width:calc(100% - 24px); max-width:560px; max-height:calc(100dvh - 24px); margin:auto; overflow:auto; border:2px solid #a5c7c1; border-radius:24px; padding:24px; background:var(--isl-nav-paper); color:var(--isl-nav-ink); box-shadow:0 20px 80px #0008; }
+#math-island .isl-switch-dialog::backdrop { background:#041926d9; }
+#math-island .isl-switch-heading { display:flex; align-items:center; gap:10px; margin-bottom:20px; }
+#math-island .isl-switch-heading > .isl-nav-icon { width:30px; height:30px; }
+#math-island .isl-switch-heading h2 { font-size:25px; line-height:1.9; }
+#math-island .isl-switch-route { display:flex; flex-direction:column; align-items:stretch; gap:8px; margin-bottom:20px; }
+#math-island .isl-switch-route > div { display:flex; flex-direction:column; gap:8px; padding:16px; background:#e7ebe2; border:1px solid #b5c7c0; border-radius:16px; }
+#math-island .isl-switch-route > .destination { background:#d8f1e7; border:2px solid #528778; }
+#math-island .isl-switch-route small { font-size:15px; color:#375767; }
+#math-island .isl-switch-route b { font-size:21px; line-height:1.9; }
+#math-island .isl-switch-route span { font-size:16px; }
+#math-island .isl-switch-arrow { text-align:center; font-size:24px; font-weight:800; }
+#math-island .isl-switch-dialog > p { font-size:17px; line-height:1.9; }
+#math-island .isl-dialog-listen { display:flex; align-items:center; gap:8px; padding:8px 12px; min-height:48px; color:#224e59; margin:10px 0; border:1px solid #7a9c98; border-radius:12px; }
+#math-island .isl-switch-actions { display:flex; gap:12px; justify-content:space-between; margin-top:18px; }
+#math-island .isl-switch-actions .isl-btn { flex:1; padding:12px 14px; min-height:56px; font-size:19px; }
+#math-island .isl-switch-actions .isl-btn.ghost { color:#244c59; border:2px solid #71938f; background:transparent; box-shadow:none; }
+#math-island .isl-switch-actions .isl-btn:disabled { opacity:.65; }
+@media(min-width:1200px) {
+  #math-island .isl-unit-map { grid-template-columns:repeat(3,minmax(0,1fr)); }
+  #math-island .isl-unit-map .isl-isle { grid-template-columns:68px minmax(0,1fr); padding:14px; gap:12px; }
+  #math-island .isl-unit-map .isl-destination-art { width:68px; height:100px; }
+  #math-island .isl-unit-map .tx b { font-size:21px; }
+}
+@media(max-width:680px) {
+  #math-island .isl-journey { top:4px; padding:12px; gap:8px; border-radius:18px; }
+  #math-island .isl-journey h2 { font-size:21px; }
+  #math-island .isl-journey-chapter { font-size:13px; }
+  #math-island .isl-journey-place { display:none; }
+  #math-island .isl-journey-location { gap:8px; }
+  #math-island .isl-change-island { min-width:84px; min-height:64px; font-size:15px; padding:8px; }
+  #math-island .isl-journey-steps { gap:6px; }
+  #math-island .isl-journey-steps li { flex-direction:column; font-size:14px; padding:6px 3px; gap:3px; min-height:64px; }
+  #math-island .isl-journey-steps li > .isl-zy { white-space:nowrap; }
+  #math-island .isl-step-number { width:19px; height:19px; font-size:12px; }
+  #math-island .isl-question-status { font-size:16px; gap:6px; }
+  #math-island .isl-earned { font-size:13px; }
+  #math-island .isl-unit-map { grid-template-columns:1fr; gap:12px; }
+  #math-island .isl-unit-map .isl-isle { grid-template-columns:76px minmax(0,1fr); gap:12px; padding:12px; min-height:160px; }
+  #math-island .isl-unit-map .isl-destination-art { width:76px; height:100px; }
+  #math-island .isl-unit-map .tx b { font-size:21px; }
+  #math-island .isl-current-island { padding:16px; }
+  #math-island .isl-current-island h3 { font-size:21px; }
+  #math-island .isl-current-island .isl-actions > button { flex:1 1 130px; padding:10px 14px; font-size:18px; }
+  #math-island .isl-switch-dialog { padding:18px 14px; }
+  #math-island .isl-switch-heading h2 { font-size:22px; }
+  #math-island .isl-switch-route > div { padding:12px; }
+  #math-island .isl-switch-route b { font-size:19px; }
+  #math-island .isl-switch-actions .isl-btn { font-size:17px; padding:10px 8px; }
+}
+@media(max-height:640px) { #math-island .isl-journey { position:static; } }
+@media(prefers-reduced-motion:reduce) { #math-island .isl-journey *,#math-island .isl-switch-dialog * { transition:none; animation:none; } }
+
+#math-island .isl-ability { display:flex; flex-direction:column; gap:10px; padding:16px; margin:12px 0; border:1px solid #8c794d; border-radius:16px; background:#183e50; color:#effbff; text-align:left; }
+#math-island .isl-ability-heading { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:6px 12px; }
+#math-island .isl-ability-heading b { font-size:18px; }
+#math-island .isl-ability-heading strong { font-size:23px; color:#ffdc8a; font-variant-numeric:tabular-nums; }
+#math-island .isl-ability progress { display:block; width:100%; height:12px; flex:none; border:0; border-radius:20px; overflow:hidden; background:#d3dfd5; accent-color:#a7640e; }
+#math-island .isl-ability progress::-webkit-progress-bar { background:#d3dfd5; border-radius:20px; }
+#math-island .isl-ability progress::-webkit-progress-value { background:#a7640e; border-radius:20px; }
+#math-island .isl-ability progress::-moz-progress-bar { background:#a7640e; border-radius:20px; }
+#math-island .isl-ability > p { font-size:16px; color:#c5dce0; }
+#math-island .isl-ability summary { cursor:pointer; min-height:48px; padding:10px 0; font-size:17px; }
+#math-island .isl-ability-concepts { display:flex; flex-direction:column; gap:16px; }
+#math-island .isl-ability-concepts > div { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:8px; font-size:16px; }
+#math-island .isl-ability-concepts progress { grid-column:1/-1; height:8px; }
+#math-island .isl-ability-concepts > p { font-size:15px; color:#c5dce0; }
+#math-island .isl-ability.compact { padding:0; margin:4px 0; border:0; background:none; color:inherit; gap:7px; }
+#math-island .isl-ability.compact .isl-ability-heading b { font-size:14px; }
+#math-island .isl-ability.compact .isl-ability-heading strong { font-size:16px; }
+#math-island .isl-ability.compact progress { height:8px; }
+#math-island .isl-journey .isl-ability { border-top:1px solid #cbbf9e; padding-top:8px; }
+#math-island .isl-journey .isl-ability strong { color:#754607; }
+#math-island .isl-unit-ability { padding:0 20px; }
+@media(max-width:680px) {
+  #math-island .isl-unit-ability { padding:0 12px; }
+  #math-island .isl-journey-steps .isl-zy ruby { gap:0; margin-inline-end:0; }
+  #math-island .isl-journey-steps .isl-zy rt { font-size:max(.55em,14px); }
+}
+/* On narrow phones the full phonetic summary must not cover the question or keypad. */
+@media(max-width:680px) {
+  #math-island .isl-journey { position:static; }
+  #math-island .isl-journey-location { grid-template-columns:minmax(0,1fr); gap:8px; }
+  #math-island .isl-change-island { flex-direction:row; justify-self:end; min-width:0; min-height:48px; padding:6px 12px; }
+  #math-island .isl-journey-place { display:none; }
+  #math-island .isl-stage button { scroll-margin-block-start:16px; }
+}
+@media(max-width:680px) {
+  #math-island .isl-journey-steps li > .isl-zy { white-space:normal; max-width:100%; text-align:center; line-height:2.5; }
+}

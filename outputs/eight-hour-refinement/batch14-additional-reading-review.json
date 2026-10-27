@@ -1,0 +1,29 @@
+{
+  "status": "bounded read-only audit; no new confirmed content error",
+  "reviewer": "eight_content_contract",
+  "contexts": [
+    {
+      "text": "遇見熟悉的夥伴",
+      "file": "src/GachaMachine.tsx:115",
+      "reading": "ㄕㄡˊ ㄒㄧ",
+      "source": "https://dict.concised.moe.edu.tw/searchR.jsp?ID=11&ID=4&ID=86&la=0&powerMode=0&word=%E7%86%9F"
+    },
+    {
+      "text": "蓮蓬頭",
+      "file": "src/data/garden.json:385",
+      "reading": "ㄌㄧㄢˊ ˙ㄆㄥ ㄊㄡˊ",
+      "source": "https://pedia.cloud.edu.tw/Entry/Detail?search=%E8%93%AE%E8%93%AC%E9%A0%AD&title=%E8%93%AE%E8%93%AC%E9%A0%AD"
+    },
+    {
+      "text": "柔和的曲線",
+      "file": "src/territory.ts:240",
+      "reading": "ㄑㄩ ㄒㄧㄢˋ",
+      "source": "https://dict.concised.moe.edu.tw/searchR.jsp?ID=-1&ID=4&ID=73&la=0&powerMode=0&word=%E6%9B%B2"
+    }
+  ],
+  "dataFlow": "App.tsx:2545 uses question choice zy before runtime dictionary; both must be checked for relevant corrections",
+  "limitations": [
+    "Three confirmed candidates documented, not a complete site audit",
+    "No recordings played/QA operated/files modified by reviewer"
+  ]
+}

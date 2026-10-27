@@ -1,0 +1,19 @@
+{
+  "qaOnly": true,
+  "receiptsBefore": 85,
+  "receiptsAfter": 86,
+  "changes": [
+    {
+      "path": "family.profiles.feifei.learningRewards.goal",
+      "before": null,
+      "after": "grove"
+    },
+    {
+      "path": "family.revision",
+      "before": 89,
+      "after": 90
+    }
+  ],
+  "otherProfilesUnchanged": true,
+  "activeRunUnchanged": true
+}

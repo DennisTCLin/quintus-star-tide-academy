@@ -1,0 +1,54 @@
+{
+  "source": "63e9ce9",
+  "files": [
+    {
+      "name": "IslandApp.v-C2HfYlVA.js",
+      "raw": 51330,
+      "gzip9": 18009
+    },
+    {
+      "name": "IslandApp.v-C2zdfX0C.css",
+      "raw": 30389,
+      "gzip9": 6536
+    },
+    {
+      "name": "RoomEditor.v-aM344Su6.js",
+      "raw": 10683,
+      "gzip9": 4155
+    },
+    {
+      "name": "TerritoryPage.v-XpGSXE-r.css",
+      "raw": 30002,
+      "gzip9": 6382
+    },
+    {
+      "name": "TerritoryPage.v-d9QN8XbB.js",
+      "raw": 36006,
+      "gzip9": 12947
+    },
+    {
+      "name": "index.v-B68F7zfN.js",
+      "raw": 340140,
+      "gzip9": 110827
+    },
+    {
+      "name": "index.v-WyQEizus.css",
+      "raw": 234459,
+      "gzip9": 48907
+    },
+    {
+      "name": "interface-zhuyin-packed.v-BUveLmTo.js",
+      "raw": 358940,
+      "gzip9": 134749
+    }
+  ],
+  "initialJS": {
+    "raw": 699080,
+    "gzip9": 245576
+  },
+  "previousMain": {
+    "raw": 670352,
+    "gzip9": 234528
+  },
+  "note": "Byte accounting only; Island JS/CSS lazy. Not timing, battery, FPS, physical iPad or cache measurement."
+}

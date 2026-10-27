@@ -1,0 +1,21 @@
+{
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "isolatedAccount": "qa_monster_94f5ee1a3e9a",
+  "result": "PASS",
+  "checks": [
+    "server selects and persists variant",
+    "cross-device identity",
+    "wrong-answer shield, five corrected hits and 50XP",
+    "bestiary and return preserve progress",
+    "reload preserves completed encounter and pending reward",
+    "claim one star",
+    "next voyage uses a different family"
+  ],
+  "pageErrors": [],
+  "backgroundSyncRetries": [],
+  "initialAttempt": {
+    "result": "timeout waiting for an answer command response",
+    "diagnosis": "Insufficient diagnostics captured to confirm cause",
+    "followUp": "Instrumented rerun passed every check with zero background-sync retries; retries are permitted only after an explicit local busy notice and no sent command"
+  }
+}

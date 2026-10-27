@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-24T19:34:20.170817+00:00",
+  "source": "2221c23af0c72c9e6d571675bf7ca4ddce24d3d3",
+  "deployment": "cbeea0b1-a388-45e3-b53c-b1406b0a7c61",
+  "deploymentStatus": "SUCCESS",
+  "health": {
+    "/": {
+      "status": 200,
+      "bytes": 1046
+    },
+    "/healthz": {
+      "status": 200,
+      "bytes": 45
+    }
+  },
+  "assets": [
+    {
+      "name": "RoomEditor.v-CAkbd5AC.js",
+      "status": 200,
+      "bytes": 10629,
+      "sha256": "7af92de69d4249fc6b77a9e4d5ea71123eb7dbf54a57d06c3ab4337f90697667",
+      "matchesBuilt": true
+    },
+    {
+      "name": "TerritoryPage.v-CL_G-lLA.js",
+      "status": 200,
+      "bytes": 35956,
+      "sha256": "dd15fb77c09fb2f8b69065894cbc6317590ef8edf9662db00477a639af2c77bf",
+      "matchesBuilt": true
+    },
+    {
+      "name": "TerritoryPage.v-XpGSXE-r.css",
+      "status": 200,
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "matchesBuilt": true
+    },
+    {
+      "name": "index.v-Ctx9NoHa.js",
+      "status": 200,
+      "bytes": 630784,
+      "sha256": "1c61a98802676fc400fc682f1dbc012c1e9595b3451d4220e6600e4cc6f7d349",
+      "matchesBuilt": true
+    },
+    {
+      "name": "index.v-t_CJJJcT.css",
+      "status": 200,
+      "bytes": 226174,
+      "sha256": "728896aedd21ffdd9a807aeee8926479c44ce5be5c48994b515c70b74bf505b8",
+      "matchesBuilt": true
+    }
+  ],
+  "browser": {
+    "publicLogin": "PASS",
+    "entry": "index.v-Ctx9NoHa.js",
+    "consoleErrors": 0,
+    "realChildAccountUsed": false
+  }
+}

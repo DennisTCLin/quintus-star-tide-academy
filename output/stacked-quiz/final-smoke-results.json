@@ -1,0 +1,88 @@
+{
+  "postMergeWebKit": [
+    {
+      "fixture": "englishlong",
+      "viewport": [
+        320,
+        568
+      ],
+      "pass": true
+    },
+    {
+      "fixture": "englishlong",
+      "viewport": [
+        390,
+        844
+      ],
+      "pass": true
+    },
+    {
+      "fixture": "englishlong",
+      "viewport": [
+        812,
+        375
+      ],
+      "pass": true
+    },
+    {
+      "fixture": "englishlong",
+      "viewport": [
+        820,
+        1180
+      ],
+      "pass": true
+    },
+    {
+      "fixture": "englishlong",
+      "viewport": [
+        1180,
+        820
+      ],
+      "pass": true
+    },
+    {
+      "fixture": "short",
+      "viewport": [
+        320,
+        568
+      ],
+      "pass": true
+    },
+    {
+      "fixture": "short",
+      "viewport": [
+        390,
+        844
+      ],
+      "pass": true
+    },
+    {
+      "fixture": "short",
+      "viewport": [
+        812,
+        375
+      ],
+      "pass": true
+    },
+    {
+      "fixture": "short",
+      "viewport": [
+        820,
+        1180
+      ],
+      "pass": true
+    },
+    {
+      "fixture": "short",
+      "viewport": [
+        1180,
+        820
+      ],
+      "pass": true
+    }
+  ],
+  "victoryButtonOnFirstScreen": true,
+  "continueStartsNewRound": true,
+  "errors": [],
+  "pass": true
+}

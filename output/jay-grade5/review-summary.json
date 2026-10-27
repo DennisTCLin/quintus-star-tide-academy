@@ -1,0 +1,16 @@
+{
+  "blindAnswerCheck": "96/96 PASS",
+  "sourceAndExplanationReview": "96/96 PASS after rhyme hint fix",
+  "codeFalsification": "PASS; old generic160/math80 retained",
+  "unitPassed": 905,
+  "databaseSkippedInUnitRun": 180,
+  "isolatedDatabasePassed": 18,
+  "browserChecks": 40,
+  "newQuestions": {
+    "chinese": 40,
+    "science": 36,
+    "english": 20
+  },
+  "productionStudentWrites": false,
+  "physicalNewDeviceTestPerformed": false
+}

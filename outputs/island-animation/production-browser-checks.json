@@ -1,0 +1,125 @@
+{
+  "source": "167e7bb",
+  "scope": "Production frontend with isolated API account fixtures; no real player writes",
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "checks": [
+    {
+      "check": "1440-frames exact ownership without duplicate copies"
+    },
+    {
+      "check": "1440-frames no page overflow"
+    },
+    {
+      "check": "1440-frames no whole-portrait fake motion"
+    },
+    {
+      "check": "1440-frames actual changing image pixels tideglow",
+      "uniqueFrames": 15
+    },
+    {
+      "check": "1440-frames actual changing image pixels cometcrane",
+      "uniqueFrames": 22
+    },
+    {
+      "check": "1440-frames correct movement/fallback tideglow"
+    },
+    {
+      "check": "1440-frames correct movement/fallback cometcrane"
+    },
+    {
+      "check": "1440-frames unregistered companion rests without sliding"
+    },
+    {
+      "check": "1440-frames only two residents load six clips",
+      "requests": 6
+    },
+    {
+      "check": "1440-frames greeting plays articulated reaction"
+    },
+    {
+      "check": "1440-frames greeting stays grounded"
+    },
+    {
+      "check": "1440-frames pause freezes both pixels and position"
+    },
+    {
+      "check": "1440-frames building centres remain accessible",
+      "blocked": []
+    },
+    {
+      "check": "1440-frames hidden stops pixels and movement"
+    },
+    {
+      "check": "1440-frames offscreen stops pixels and movement"
+    },
+    {
+      "check": "1440-frames runtime OS reduction stops both"
+    },
+    {
+      "check": "1440-frames reduced uses portraits"
+    },
+    {
+      "check": "1440-frames all habitat interactions write no player data"
+    },
+    {
+      "check": "390-frames exact ownership without duplicate copies"
+    },
+    {
+      "check": "390-frames no page overflow"
+    },
+    {
+      "check": "390-frames no whole-portrait fake motion"
+    },
+    {
+      "check": "390-frames actual changing image pixels tideglow",
+      "uniqueFrames": 18
+    },
+    {
+      "check": "390-frames actual changing image pixels cometcrane",
+      "uniqueFrames": 23
+    },
+    {
+      "check": "390-frames correct movement/fallback tideglow"
+    },
+    {
+      "check": "390-frames correct movement/fallback cometcrane"
+    },
+    {
+      "check": "390-frames unregistered companion rests without sliding"
+    },
+    {
+      "check": "390-frames only two residents load six clips",
+      "requests": 6
+    },
+    {
+      "check": "390-frames greeting plays articulated reaction"
+    },
+    {
+      "check": "390-frames greeting stays grounded"
+    },
+    {
+      "check": "390-frames pause freezes both pixels and position"
+    },
+    {
+      "check": "390-frames building centres remain accessible",
+      "blocked": []
+    },
+    {
+      "check": "390-frames hidden stops pixels and movement"
+    },
+    {
+      "check": "390-frames offscreen stops pixels and movement"
+    },
+    {
+      "check": "390-frames runtime OS reduction stops both"
+    },
+    {
+      "check": "390-frames reduced uses portraits"
+    },
+    {
+      "check": "390-frames all habitat interactions write no player data"
+    }
+  ],
+  "issues": [],
+  "pageErrors": []
+}

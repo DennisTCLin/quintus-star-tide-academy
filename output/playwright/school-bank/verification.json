@@ -1,0 +1,46 @@
+{
+  "baseline": "8fb0e09",
+  "fullSuite": {
+    "files": 101,
+    "tests": 751,
+    "result": "PASS",
+    "database": "isolated real PostgreSQL"
+  },
+  "finalFocused": {
+    "files": 3,
+    "tests": 12,
+    "result": "PASS"
+  },
+  "build": "PASS",
+  "review": "independent read-only question and routing review; corrected source locators",
+  "browser": {
+    "environment": "isolated local real PostgreSQL; synthetic accounts",
+    "viewports": [
+      320,
+      390
+    ],
+    "alan": "Nantun Kang Hsuan source question shown; correct answer saved",
+    "quintus": "Yongchun Hanlin missing notice; generic question shown",
+    "horizontalOverflow": false,
+    "console": "401 only during initial logged-out state and logout presence request"
+  },
+  "sourceRows": 134,
+  "uniqueQuestions": 129,
+  "publication": {
+    "status": "SUCCESS",
+    "deployment": "f7e4ab41-2c23-46fb-a390-f21212389cfd",
+    "commit": "ca049ebc896d20f506fcf3b681b3717fba6f672a",
+    "anonymousProductionVerification": "PASS: 10 asset hashes, health 200, unauthenticated state 401"
+  },
+  "integrated": {
+    "base": "aaadaeafc07892f91b074353064e57c7aa96758f",
+    "runtime": "afe97be54d894874e94ccc86e4efdacf8b7cd0dd",
+    "fullSuite": {
+      "files": 101,
+      "tests": 751,
+      "result": "PASS"
+    },
+    "build": "PASS",
+    "browser": "PASS: 320px school notices, existing Alan exam progress restored after server restart and re-login; Quintus parent identity retained"
+  }
+}

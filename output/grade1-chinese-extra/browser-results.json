@@ -1,0 +1,71 @@
+[
+  {
+    "course": "medials",
+    "width": 320,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "medials",
+    "width": 390,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "medials",
+    "width": 820,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "medials",
+    "answered": true,
+    "pointsPersistedAfterReload": true
+  },
+  {
+    "course": "tones",
+    "width": 320,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "tones",
+    "width": 390,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "tones",
+    "width": 820,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "tones",
+    "answered": true,
+    "pointsPersistedAfterReload": true
+  },
+  {
+    "course": "pairs",
+    "width": 320,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "pairs",
+    "width": 390,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "pairs",
+    "width": 820,
+    "newSource": true,
+    "noOverflow": true
+  },
+  {
+    "course": "pairs",
+    "answered": true,
+    "pointsPersistedAfterReload": true
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "runtimeCommit": "16c7f02fcbf8e0eac8c11d2e40870d4818cf4e5b",
+  "branch": "codex/tideglow-ai-companion",
+  "deploymentId": "67dc60cf-526a-4307-8ef4-2edd1c4f6e60",
+  "deploymentStatus": "SUCCESS",
+  "site": "https://quintus-star-tide-academy-production.up.railway.app/",
+  "source": "Clean git archive; only committed files; outputs excluded",
+  "build": "PASS",
+  "fullTests": {
+    "files": 83,
+    "tests": 649,
+    "status": "PASS"
+  },
+  "independentSourceReview": "PASS: companion lifecycle, persistence/economy, media, care intent/phonetics, integration merge",
+  "localUI": "PASS: 320/390/768 portrait/1024 landscape/1440 and native macOS Safari; grade1 images and grade2 ruby",
+  "deployedIntegrity": "PASS: entry HTML, JS, both CSS bundles, 10 video files, static poster",
+  "productionAI": {
+    "anonymous": true,
+    "noDatabaseAccess": true,
+    "threeGestures": "AI returned for pet/feed/play; connectivity and current-intent validation passed",
+    "temporarySSHKey": "revoked and local key pair removed; key registry confirmed empty"
+  },
+  "coordinatedChanges": [
+    "Adventure island direct entry and safe switching",
+    "Actual challenge progress and collectible ownership previews",
+    "Brownie isolated account avatar and separately verified provisioning/friends"
+  ],
+  "limitations": [
+    "No physical iPad hardware tested",
+    "Expressive speaking clip is not phoneme lip-sync",
+    "AI uses picture choices and bounded reviewed vocabulary; invalid/unavailable output falls back to reviewed guidance"
+  ],
+  "rollbackDeployment": "6abed637-05be-4dd7-9764-44fef7777030",
+  "verifiedAt": "2026-10-25T07:18:34.857798+00:00",
+  "productionUI": {
+    "status": "PASS",
+    "browser": "native macOS Safari private window",
+    "account": "existing synthetic QA household, initialized doudou slot",
+    "checks": [
+      "harbor entrance opens large Tideglow room",
+      "animation visible",
+      "pet returns immediate comfort feedback and unlocks",
+      "conversation tab displays live AI response to pet"
+    ],
+    "inventoryOrLearningChanges": false,
+    "evidence": [
+      "production-safari-private-companion.png",
+      "production-safari-private-ai.png"
+    ],
+    "discardedEvidence": "Shared IAB account-cookie interference was discarded; no real-child interaction was performed"
+  },
+  "productionIslandPreview": {
+    "status": "PASS",
+    "sourceEvidenceCommit": "fb7583e830654551ae6e5f5ad7461b4b308b1329",
+    "profiles": [
+      "doudou",
+      "feifei",
+      "quintus"
+    ],
+    "checks": [
+      "owned counts match authenticated synthetic QA snapshots",
+      "all thirty same-element entries checked",
+      "player switching immediately updates counts",
+      "expansion does not start journeys"
+    ],
+    "cleanup": "QA logged out and private window closed",
+    "record": "../island-collection-preview/production-verification.json"
+  }
+}

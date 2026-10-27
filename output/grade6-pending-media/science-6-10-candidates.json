@@ -1,0 +1,1250 @@
+[
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三1(1)",
+    "prompt": "觀察圖中的等壓線與鋒面符號，這是哪一種氣象資料圖？",
+    "correct": "地面天氣圖",
+    "wrong": [
+      "衛星雲圖",
+      "降雨量統計圖",
+      "氣溫折線圖"
+    ],
+    "explanation": "圖中有高低氣壓、等壓線與鋒面，是地面天氣圖。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然6.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        620,
+        153,
+        940,
+        361
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc6-weather.webp"
+    }
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三1(2)",
+    "prompt": "圖中只有三角形沿線排列的鋒面符號，表示什麼？",
+    "correct": "冷鋒",
+    "wrong": [
+      "暖鋒",
+      "滯留鋒",
+      "高氣壓中心"
+    ],
+    "explanation": "冷鋒以同側排列的三角形標示。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然6.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        620,
+        153,
+        940,
+        361
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc6-weather.webp"
+    }
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三1(3)",
+    "prompt": "圖中三角形與半圓分列線兩側的鋒面，表示什麼？",
+    "correct": "滯留鋒",
+    "wrong": [
+      "暖鋒",
+      "冷鋒",
+      "等壓線"
+    ],
+    "explanation": "滯留鋒以三角形、半圓交錯分列兩側。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然6.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        620,
+        153,
+        940,
+        361
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc6-weather.webp"
+    }
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三1(4)",
+    "prompt": "圖中哪個符號所代表的系統，通常較容易出現晴朗天氣？",
+    "correct": "H",
+    "wrong": [
+      "L",
+      "鋒面線",
+      "颱風中心"
+    ],
+    "explanation": "H 表示高氣壓，通常有下沉氣流，較不利雲雨發展。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然6.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        620,
+        153,
+        940,
+        361
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc6-weather.webp"
+    }
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三2(1)",
+    "prompt": "依圖例與路徑圖，小犬颱風在哪一天由輕度增強為中度？",
+    "correct": "10月1日",
+    "wrong": [
+      "9月30日",
+      "10月5日",
+      "10月9日"
+    ],
+    "explanation": "比較路徑上該日期前後的颱風強度符號。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然6.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        602,
+        768,
+        960,
+        1005
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc6-koinu.webp"
+    }
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三2(2)",
+    "prompt": "依圖例與路徑圖，小犬颱風在哪一天由中度減弱為輕度？",
+    "correct": "10月9日",
+    "wrong": [
+      "9月30日",
+      "10月1日",
+      "10月5日"
+    ],
+    "explanation": "比較路徑上該日期前後的颱風強度符號。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然6.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        602,
+        768,
+        960,
+        1005
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc6-koinu.webp"
+    }
+  },
+  {
+    "source": 6,
+    "page": 2,
+    "locator": "三2(3)",
+    "prompt": "依路徑圖，小犬颱風從臺灣哪一縣登陸？",
+    "correct": "屏東縣",
+    "wrong": [
+      "臺北市",
+      "花蓮縣",
+      "臺南市"
+    ],
+    "explanation": "路徑通過臺灣最南端的屏東鵝鑾鼻。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然6.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        602,
+        768,
+        960,
+        1005
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc6-koinu.webp"
+    }
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "三3(2)",
+    "prompt": "依左圖，未開冷氣時循環扇朝窗外吹，並打開房門，主要可使哪種空氣由房門補入？",
+    "correct": "房門外的空氣",
+    "wrong": [
+      "室內熱空氣",
+      "窗外排出的熱氣",
+      "只會是向上升的熱空氣"
+    ],
+    "explanation": "風扇朝窗外排出室內空氣，房門外的空氣由打開的門補入；圖中沒有保證門外氣溫較低。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然6.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        70,
+        156,
+        478,
+        390
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc6-fans.webp"
+    }
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "三3(3)",
+    "prompt": "依右圖，開冷氣時配合循環扇，主要目的為何？",
+    "correct": "促進冷空氣在室內循環",
+    "wrong": [
+      "讓冷氣機只能向上送風",
+      "使冷空氣完全不流動",
+      "把所有冷氣排出窗外"
+    ],
+    "explanation": "循環扇使冷空氣流動，幫助室內溫度均勻。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然6.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        70,
+        156,
+        478,
+        390
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc6-fans.webp"
+    }
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四2(1)",
+    "prompt": "鐵尺浸入熱水後，圖中哪個位置的奶油最先融化？",
+    "correct": "位置 A",
+    "wrong": [
+      "位置 B",
+      "位置 C",
+      "三處必定同時"
+    ],
+    "explanation": "熱由靠近熱水處沿鐵尺傳向較遠處；A 最近，C 最遠。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然6.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        640,
+        493,
+        940,
+        671
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc6-butter.webp"
+    }
+  },
+  {
+    "source": 6,
+    "page": 3,
+    "locator": "四2(2)",
+    "prompt": "鐵尺浸入熱水後，圖中哪個位置的奶油最慢融化？",
+    "correct": "位置 C",
+    "wrong": [
+      "位置 B",
+      "位置 A",
+      "三處必定同時"
+    ],
+    "explanation": "熱由靠近熱水處沿鐵尺傳向較遠處；A 最近，C 最遠。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然6.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        640,
+        493,
+        940,
+        671
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc6-butter.webp"
+    }
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "二6",
+    "prompt": "梅雨主要和滯留鋒有關。圖中這個只有半圓的符號，為何不能用來表示梅雨鋒面？",
+    "correct": "它是暖鋒符號",
+    "wrong": [
+      "它是滯留鋒符號",
+      "它是冷鋒符號",
+      "它是颱風符號"
+    ],
+    "explanation": "暖鋒只有半圓；滯留鋒的半圓與三角形分列兩側。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然7.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        342,
+        390,
+        435,
+        418
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc7-warmfront.webp"
+    }
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三一2",
+    "prompt": "依地面天氣圖，甲、乙、丙、丁四地，哪一地氣壓最低？",
+    "correct": "甲地",
+    "wrong": [
+      "乙地",
+      "丙地",
+      "丁地"
+    ],
+    "explanation": "甲位於低壓中心，內圈氣壓低於其他地點。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然7.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        620,
+        665,
+        1005,
+        1051
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc7-weather7.webp"
+    }
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三一3",
+    "prompt": "依地面天氣圖，高氣壓中心位於哪一地？",
+    "correct": "丙地",
+    "wrong": [
+      "甲地",
+      "乙地",
+      "丁地"
+    ],
+    "explanation": "丙附近等壓線數值向中心增加。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然7.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        620,
+        665,
+        1005,
+        1051
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc7-weather7.webp"
+    }
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三一4",
+    "prompt": "依地面天氣圖，乙地中心應標示哪個符號？",
+    "correct": "L",
+    "wrong": [
+      "H",
+      "T.D.",
+      "等高線"
+    ],
+    "explanation": "乙位於低氣壓中心，以 L 表示。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然7.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        620,
+        665,
+        1005,
+        1051
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc7-weather7.webp"
+    }
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三一5",
+    "prompt": "依地面天氣圖，丁地所在等壓線的氣壓是多少？",
+    "correct": "1016 百帕",
+    "wrong": [
+      "1012 百帕",
+      "1020 百帕",
+      "1028 百帕"
+    ],
+    "explanation": "圖中等壓線間隔為4百帕，丁在1012與1020之間的1016線上。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然7.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        620,
+        665,
+        1005,
+        1051
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc7-weather7.webp"
+    }
+  },
+  {
+    "source": 7,
+    "page": 2,
+    "locator": "三一7",
+    "prompt": "圖中沿線只有三角形的鋒面，其形成情況是哪一項？",
+    "correct": "冷氣團勢力較強，推動暖氣團後退",
+    "wrong": [
+      "冷暖氣團勢力相當",
+      "暖氣團勢力較強，推動冷氣團後退",
+      "只有暖氣團而沒有冷氣團"
+    ],
+    "explanation": "這是冷鋒，冷氣團推進、暖氣團後退。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然7.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        620,
+        665,
+        1005,
+        1051
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc7-weather7.webp"
+    }
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三三1",
+    "prompt": "鐵尺浸入熱水後，哪個位置的奶油最快融化？",
+    "correct": "位置 C",
+    "wrong": [
+      "位置 B",
+      "位置 A",
+      "三處必定同時"
+    ],
+    "explanation": "C最靠近熱水先受熱，A最遠。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然7.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        700,
+        106,
+        985,
+        244
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc7-butter7.webp"
+    }
+  },
+  {
+    "source": 7,
+    "page": 3,
+    "locator": "三三2",
+    "prompt": "鐵尺浸入熱水後，哪個位置的奶油最慢融化？",
+    "correct": "位置 A",
+    "wrong": [
+      "位置 B",
+      "位置 C",
+      "三處必定同時"
+    ],
+    "explanation": "C最靠近熱水先受熱，A最遠。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然7.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        700,
+        106,
+        985,
+        244
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc7-butter7.webp"
+    }
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "三1(1)",
+    "prompt": "依圖判讀，通過臺灣的鋒面是哪一種？",
+    "correct": "滯留鋒",
+    "wrong": [
+      "冷鋒",
+      "暖鋒",
+      "囚錮鋒"
+    ],
+    "explanation": "圖中三角形與半圓交錯位於鋒面兩側。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然8.pdf",
+      "pdfPage": 1,
+      "bbox": [
+        604,
+        1001,
+        955,
+        1200
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc8-weather8.webp"
+    }
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "三1(2)",
+    "prompt": "依圖判讀，臺灣此時較可能出現哪種天氣？",
+    "correct": "陰雨",
+    "wrong": [
+      "晴朗無雲",
+      "乾燥少雲",
+      "只會炎熱不下雨"
+    ],
+    "explanation": "鋒面附近較容易形成雲雨。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然8.pdf",
+      "pdfPage": 1,
+      "bbox": [
+        604,
+        1001,
+        955,
+        1200
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc8-weather8.webp"
+    }
+  },
+  {
+    "source": 8,
+    "page": 1,
+    "locator": "三1(3)",
+    "prompt": "依圖判讀，這種臺灣附近有滯留鋒的梅雨天氣圖，最可能出現在哪個月份？",
+    "correct": "6月",
+    "wrong": [
+      "1月",
+      "10月",
+      "12月"
+    ],
+    "explanation": "臺灣梅雨季主要在5、6月。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然8.pdf",
+      "pdfPage": 1,
+      "bbox": [
+        604,
+        1001,
+        955,
+        1200
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc8-weather8.webp"
+    }
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三2(1)",
+    "prompt": "依圖，2014年鳳凰颱風最初發展的海域位於哪裡？",
+    "correct": "菲律賓東方海面",
+    "wrong": [
+      "臺灣海峽",
+      "大西洋",
+      "臺灣西方陸地"
+    ],
+    "explanation": "路徑最初位置在菲律賓東方。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然8.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        105,
+        105,
+        458,
+        397
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc8-fungwong.webp"
+    }
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三2(2)",
+    "prompt": "圖中9月17日仍是熱帶性低氣壓；依圖例，何日增強為輕度颱風？",
+    "correct": "9月18日",
+    "wrong": [
+      "9月17日",
+      "9月21日",
+      "9月24日"
+    ],
+    "explanation": "9月17日符號為熱帶性低氣壓，18日轉為輕度颱風；原選項漏列18日，已修正。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然8.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        105,
+        105,
+        458,
+        397
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc8-fungwong.webp"
+    }
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三2(3)",
+    "prompt": "依圖，鳳凰颱風何日通過臺灣南端？",
+    "correct": "9月21日",
+    "wrong": [
+      "9月17日",
+      "9月22日",
+      "9月23日"
+    ],
+    "explanation": "9月21日路徑經臺灣南端鵝鑾鼻。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然8.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        105,
+        105,
+        458,
+        397
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc8-fungwong.webp"
+    }
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三2(4)",
+    "prompt": "依圖，鳳凰颱風最先通過臺灣哪一縣市的陸地？",
+    "correct": "屏東縣",
+    "wrong": [
+      "臺北市",
+      "花蓮縣",
+      "臺南市"
+    ],
+    "explanation": "路徑最先掠過屏東鵝鑾鼻，後續另經臺灣東部近海。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然8.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        105,
+        105,
+        458,
+        397
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc8-fungwong.webp"
+    }
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三3(1)",
+    "prompt": "圖中 H 及向中心增加的數值代表哪種系統？",
+    "correct": "高氣壓",
+    "wrong": [
+      "低氣壓",
+      "颱風",
+      "滯留鋒"
+    ],
+    "explanation": "H表示高氣壓，內部氣壓比周圍高。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然8.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        227,
+        734,
+        334,
+        840
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc8-high8.webp"
+    }
+  },
+  {
+    "source": 8,
+    "page": 2,
+    "locator": "三3(5)",
+    "prompt": "圖中中心內側的等壓線是1020百帕，H所在中心哪個數值較可能？",
+    "correct": "1024 百帕",
+    "wrong": [
+      "1012 百帕",
+      "1016 百帕",
+      "1020 百帕"
+    ],
+    "explanation": "高壓中心氣壓高於包圍它的1020百帕等壓線。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然8.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        227,
+        734,
+        334,
+        840
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc8-high8.webp"
+    }
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二1(1)",
+    "prompt": "依粒子示意圖，物質遇冷後粒子間的距離如何改變？",
+    "correct": "逐漸變小",
+    "wrong": [
+      "逐漸變大",
+      "完全不變",
+      "無法觀察任何變化"
+    ],
+    "explanation": "遇冷一欄的粒子間距比常溫小。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然9.pdf",
+      "pdfPage": 1,
+      "bbox": [
+        370,
+        808,
+        685,
+        911
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc9-particles9.webp"
+    }
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二1(2)",
+    "prompt": "依圖中粒子排列與活動情形，哪項敘述較正確？",
+    "correct": "粒子可在一定範圍內流動",
+    "wrong": [
+      "粒子固定排成整齊格子",
+      "粒子完全不能活動",
+      "粒子像氣體般散布整個容器"
+    ],
+    "explanation": "圖中粒子排列不規則且彼此接近，呈現液體模型。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然9.pdf",
+      "pdfPage": 1,
+      "bbox": [
+        370,
+        808,
+        685,
+        911
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc9-particles9.webp"
+    }
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二1(3)",
+    "prompt": "圖中粒子排列最可能表示哪種形態？",
+    "correct": "液態",
+    "wrong": [
+      "固態",
+      "氣態",
+      "真空"
+    ],
+    "explanation": "粒子彼此接近但排列不整齊，符合液體模型。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然9.pdf",
+      "pdfPage": 1,
+      "bbox": [
+        370,
+        808,
+        685,
+        911
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc9-particles9.webp"
+    }
+  },
+  {
+    "source": 9,
+    "page": 2,
+    "locator": "三1(1)",
+    "prompt": "瓶內空氣原為室溫28°C。①水溫從6°C、70°C、90°C選，②從4°C、8°C、65°C選。依圖中氣球變化，哪組列出候選中所有可能的水溫？",
+    "correct": "①70°C、90°C；②4°C、8°C",
+    "wrong": [
+      "①6°C；②65°C",
+      "①6°C、70°C；②8°C、65°C",
+      "①90°C；②65°C"
+    ],
+    "explanation": "①氣球鼓起表示加熱，②縮入表示冷卻；選擇高於或低於28°C的水溫。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然9.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        247,
+        967,
+        814,
+        1147
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc9-balloons9.webp"
+    }
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "三2(1)",
+    "prompt": "鐵尺浸入熱水後，圖中哪個位置的奶油最慢融化？",
+    "correct": "位置 A",
+    "wrong": [
+      "位置 B",
+      "位置 C",
+      "三處必定同時"
+    ],
+    "explanation": "熱由靠近熱水的C位置，逐漸傳到較遠的A位置。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然9.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        425,
+        108,
+        639,
+        229
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc9-butter9.webp"
+    }
+  },
+  {
+    "source": 9,
+    "page": 3,
+    "locator": "三2(2)",
+    "prompt": "鐵尺浸入熱水後，圖中哪個位置的奶油最先融化？",
+    "correct": "位置 C",
+    "wrong": [
+      "位置 B",
+      "位置 A",
+      "三處必定同時"
+    ],
+    "explanation": "熱由靠近熱水的C位置，逐漸傳到較遠的A位置。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然9.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        425,
+        108,
+        639,
+        229
+      ],
+      "renderWidth": 1061,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc9-butter9.webp"
+    }
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第二關2",
+    "prompt": "依圖，鐵尺浸入熱水後哪個位置的奶油會先融化？",
+    "correct": "位置 C",
+    "wrong": [
+      "位置 A",
+      "位置 B",
+      "三處必定同時"
+    ],
+    "explanation": "C最靠近熱水，最先受熱。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然10.pdf",
+      "pdfPage": 1,
+      "bbox": [
+        645,
+        1152,
+        913,
+        1305
+      ],
+      "renderWidth": 1060,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc10-butter10.webp"
+    }
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第三關1",
+    "prompt": "觀察第1組冷熱瓶的位置與煙的起始位置，短時間內主要會看到什麼？",
+    "correct": "沒有明顯上下交換",
+    "wrong": [
+      "下瓶煙往上流",
+      "上瓶煙往下流",
+      "兩瓶煙必定完全混合"
+    ],
+    "explanation": "上熱下冷的配置較穩定，熱空氣不會自發大量下沉。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然10.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        108,
+        699,
+        457,
+        1037
+      ],
+      "renderWidth": 1060,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc10-convection10.webp"
+    }
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第三關2",
+    "prompt": "觀察第2組冷熱瓶的位置與煙的起始位置，短時間內主要會看到什麼？",
+    "correct": "下瓶的煙往上流",
+    "wrong": [
+      "上瓶的煙往下流",
+      "完全沒有對流",
+      "煙全部留在下瓶"
+    ],
+    "explanation": "熱瓶在下，受熱空氣上升並帶動煙向上。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然10.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        108,
+        699,
+        457,
+        1037
+      ],
+      "renderWidth": 1060,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc10-convection10.webp"
+    }
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第三關3",
+    "prompt": "觀察第3組冷熱瓶的位置與煙的起始位置，短時間內主要會看到什麼？",
+    "correct": "上瓶的煙往下流",
+    "wrong": [
+      "下瓶的煙往上流",
+      "完全沒有對流",
+      "煙全部留在上瓶"
+    ],
+    "explanation": "冷瓶在上、熱瓶在下，冷空氣下沉，熱空氣上升。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然10.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        108,
+        699,
+        457,
+        1037
+      ],
+      "renderWidth": 1060,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc10-convection10.webp"
+    }
+  },
+  {
+    "source": 10,
+    "page": 2,
+    "locator": "第三關4",
+    "prompt": "觀察第4組冷熱瓶的位置與煙的起始位置，短時間內主要會看到什麼？",
+    "correct": "沒有明顯上下交換",
+    "wrong": [
+      "下瓶煙往上流",
+      "上瓶煙往下流",
+      "兩瓶煙必定完全混合"
+    ],
+    "explanation": "冷瓶在下、熱瓶在上形成較穩定配置。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然10.pdf",
+      "pdfPage": 2,
+      "bbox": [
+        108,
+        699,
+        457,
+        1037
+      ],
+      "renderWidth": 1060,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc10-convection10.webp"
+    }
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關5",
+    "prompt": "依地面天氣圖，四地哪一地氣壓可能最高？",
+    "correct": "ㄅ地",
+    "wrong": [
+      "ㄆ地",
+      "ㄇ地",
+      "ㄈ地"
+    ],
+    "explanation": "ㄅ位於1030百帕高壓中心附近。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然10.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        158,
+        136,
+        902,
+        532
+      ],
+      "renderWidth": 1060,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc10-weather10.webp"
+    }
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關6",
+    "prompt": "依地面天氣圖，若只比較圖中等壓線疏密，四地哪一地風力可能最強？",
+    "correct": "ㄈ地",
+    "wrong": [
+      "ㄅ地",
+      "ㄆ地",
+      "ㄇ地"
+    ],
+    "explanation": "ㄈ附近等壓線最密，代表水平氣壓梯度較大。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然10.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        158,
+        136,
+        902,
+        532
+      ],
+      "renderWidth": 1060,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc10-weather10.webp"
+    }
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關7",
+    "prompt": "依地面天氣圖，ㄆ地通過哪種鋒面？",
+    "correct": "滯留鋒",
+    "wrong": [
+      "暖鋒",
+      "冷鋒",
+      "囚錮鋒"
+    ],
+    "explanation": "半圓與三角形分列線兩側，為滯留鋒。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然10.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        158,
+        136,
+        902,
+        532
+      ],
+      "renderWidth": 1060,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc10-weather10.webp"
+    }
+  },
+  {
+    "source": 10,
+    "page": 3,
+    "locator": "第八關9",
+    "prompt": "依地面天氣圖，ㄇ地通過哪種鋒面？",
+    "correct": "冷鋒",
+    "wrong": [
+      "暖鋒",
+      "滯留鋒",
+      "囚錮鋒"
+    ],
+    "explanation": "ㄇ旁線上只有同側三角形，為冷鋒。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然10.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        158,
+        136,
+        902,
+        532
+      ],
+      "renderWidth": 1060,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc10-weather10.webp"
+    }
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第九關2",
+    "prompt": "依山陀兒颱風路徑圖，何日形成輕度颱風？",
+    "correct": "9月28日",
+    "wrong": [
+      "9月27日",
+      "9月29日",
+      "9月30日"
+    ],
+    "explanation": "9月27日為熱帶性低氣壓，28日8時增強為輕度颱風。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然10.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        113,
+        887,
+        986,
+        1395
+      ],
+      "renderWidth": 1060,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc10-krathon.webp"
+    }
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第九關3",
+    "prompt": "依山陀兒颱風路徑圖，從哪裡登陸臺灣？",
+    "correct": "高雄",
+    "wrong": [
+      "宜蘭",
+      "基隆",
+      "花蓮"
+    ],
+    "explanation": "山陀兒於10月3日12時40分登陸高雄小港。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然10.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        113,
+        887,
+        986,
+        1395
+      ],
+      "renderWidth": 1060,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc10-krathon.webp"
+    }
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第九關4",
+    "prompt": "依山陀兒颱風路徑圖，登陸臺灣時是什麼強度？",
+    "correct": "中度颱風",
+    "wrong": [
+      "熱帶性低氣壓",
+      "輕度颱風",
+      "強烈颱風"
+    ],
+    "explanation": "路徑圖登陸點符號為中度，登陸後才繼續減弱。",
+    "cropspec": {
+      "pdf": "/Users/dennistclin/Downloads/小六/自然/小六翰林自然10.pdf",
+      "pdfPage": 3,
+      "bbox": [
+        113,
+        887,
+        986,
+        1395
+      ],
+      "renderWidth": 1060,
+      "renderHeight": 1500,
+      "assetfilename": "g6sc10-krathon.webp"
+    }
+  },
+  {
+    "source": 9,
+    "page": 1,
+    "locator": "二2(4)",
+    "prompt": "冰鹽混合物使燒杯外壁低於0°C，空氣中的水蒸氣直接形成冰晶，稱為什麼變化？",
+    "correct": "凝華",
+    "wrong": [
+      "融化",
+      "凝結",
+      "蒸發"
+    ],
+    "explanation": "氣態直接變成固態是凝華；原選項未列凝華，補正後才有唯一答案。"
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第十關1",
+    "prompt": "托里切利與格里克的實驗，哪項先後敘述正確？",
+    "correct": "托里切利的水銀柱實驗早於格里克的馬德堡半球實驗",
+    "wrong": [
+      "格里克半球實驗早於托里切利",
+      "兩人的實驗發生在同一天",
+      "兩人都只研究熱膨脹"
+    ],
+    "explanation": "托里切利約1643–1644年的實驗在前，格里克1654年的公開半球實驗在後；避免無依據的「第一人」絕對化。"
+  },
+  {
+    "source": 10,
+    "page": 4,
+    "locator": "第十關2",
+    "prompt": "約1650年製作早期真空幫浦、並用於馬德堡半球實驗的人是誰？",
+    "correct": "格里克（Otto von Guericke）",
+    "wrong": [
+      "托里切利",
+      "牛頓",
+      "愛因斯坦"
+    ],
+    "explanation": "伽利略博物館記載格里克約1650年製作最早的簡易抽氣幫浦。"
+  },
+  {
+    "source": 9,
+    "page": 4,
+    "locator": "五6(2)",
+    "prompt": "把臺灣冬季北部常見的陰雨低溫，主要歸因於暖鋒，是否恰當？",
+    "correct": "不恰當，冬季北部常受東北季風影響",
+    "wrong": [
+      "恰當，冬季只有暖鋒",
+      "恰當，暖鋒必定使氣溫下降",
+      "不恰當，冬季北部從不下雨"
+    ],
+    "explanation": "氣象署指出冬季東北季風經海面吸收水氣，加上地形抬升，使北部及東北部常陰雨。"
+  }
+]

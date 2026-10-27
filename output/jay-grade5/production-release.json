@@ -1,0 +1,31 @@
+{
+  "deploymentId": "8a7244f0-e655-4648-87f7-41565260425f",
+  "status": "SUCCESS",
+  "mainCommit": "fe88d9357c7654dd1d7c3586562befc24223edd5",
+  "stagedCodeCommit": "58e4dc6a318edf38524867ad2c9f2b9e85854184",
+  "productTreeMatchesMain": true,
+  "date": "2026-10-27 Asia/Taipei",
+  "newQuestions": {
+    "chinese": 40,
+    "science": 36,
+    "english": 20
+  },
+  "newStaticTotal": 96,
+  "JayStaticTotalIncludingPreservedGeneral": 256,
+  "unitPassed": 905,
+  "databaseSkippedInFullUnitRun": 180,
+  "separateIsolatedDatabasePassed": 18,
+  "browserChecks": 40,
+  "productionChangedFileHashesVerified": 9,
+  "productionUnchangedImageSamplesVerified": 3,
+  "unchangedFilesMatchedPriorVerifiedRelease": 185,
+  "health": true,
+  "unauthenticatedStateStatus": 401,
+  "productionLoginBrowserSmoke": [
+    "webkit",
+    "chromium"
+  ],
+  "productionStudentWritesPerformed": false,
+  "existingProgressAndRewardsReset": false,
+  "physicalDeviceTestOfThisBankPerformed": false
+}

@@ -1,0 +1,22 @@
+{
+  "base": "457f4c0ac1b5915c54e81bd02f798e643b8f88a0",
+  "branch": "codex/ipad-quiz-next-button",
+  "rootCause": "in-flow friend battle notification was not subtracted from the fixed-height quiz viewport",
+  "baselineReproducedIn": [
+    "Chromium",
+    "WebKit"
+  ],
+  "beforeNextBottom": 807,
+  "beforeViewportHeight": 748,
+  "layoutChecksPassed": 90,
+  "minimumReadingHeight": 64,
+  "unitTestsPassed": 813,
+  "databaseTestsSkipped": 175,
+  "build": "PASS",
+  "independentReview": "PASS",
+  "serverCodeChanged": false,
+  "realLocalPostgresFlow": "PASS",
+  "physicalIpadVerified": false,
+  "deployed": false,
+  "mainModified": false
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "source": "buildkit",
+    "message": "Verified and restored 1793 existing assets\n",
+    "level": "info",
+    "type": "log",
+    "timestamp": "2026-10-26T12:48:57.606978305Z",
+    "stream": 1
+  },
+  {
+    "level": "info",
+    "source": "railway.progress",
+    "total_size": 563531884,
+    "status": "in-progress",
+    "message": "image push",
+    "size": 361758363,
+    "duration_ms": 51197,
+    "timestamp": "2026-10-26T12:50:38.748378285Z"
+  },
+  {
+    "size": 563534428,
+    "total_size": 563534428,
+    "source": "railway.progress",
+    "status": "complete",
+    "message": "image push",
+    "duration_ms": 58751,
+    "timestamp": "2026-10-26T12:50:46.295168773Z",
+    "level": "info"
+  }
+]

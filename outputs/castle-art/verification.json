@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-25",
+  "artwork": {
+    "provider": "Higgsfield",
+    "model": "gpt_image_2_5",
+    "styles": 6,
+    "stages": 3,
+    "responsiveAssets": 36,
+    "totalBytes": 5797712,
+    "referenceImages": [
+      "public/assets/territory/island.webp",
+      "public/assets/hero-ocean.jpg"
+    ],
+    "visualReview": "All 18 stages inspected together; shared ivory stone, gilding, lighting and architecture, distinct roofs and expansion silhouettes"
+  },
+  "checks": {
+    "build": "PASS",
+    "tests": "361 passed, 38 files; real local PostgreSQL",
+    "assets": "36 decodable RGBA WebP with transparent pixels, 384 and 1280 widths",
+    "desktop1280": "PASS, no horizontal overflow; exterior and interior shared art",
+    "mobile390Grade2": "PASS, no horizontal overflow; full stage3 castle and ruby text visible",
+    "saveReload": "PASS, forest style saved and retained after reload, 16 plots and existing grove retained",
+    "tablet768": "PASS, no horizontal overflow, 3-column appearance grid",
+    "browserConsole": "No errors in local verification"
+  },
+  "screenshots": [
+    "output/castle-art/contact-sheet.jpg",
+    "output/castle-art/desktop.png",
+    "output/castle-art/interior.png",
+    "output/castle-art/mobile-grade2.png",
+    "output/castle-art/tablet.png"
+  ],
+  "limits": [
+    "Physical iPadOS device not tested"
+  ]
+}

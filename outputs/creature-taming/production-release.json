@@ -1,0 +1,38 @@
+{
+  "url": "https://quintus-star-tide-academy-production.up.railway.app",
+  "deployment": "954781bf-d399-445d-a0e9-10ca4ce7cc5f",
+  "railwayStatus": "SUCCESS",
+  "sourceCommit": "40185e250fa01b938d30c0e735b399fccb001e86",
+  "runtimeCommit": "acad380",
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "assets": [
+    {
+      "path": "/assets/TerritoryPage.v-5PgLoXkm.css",
+      "bytes": 18226,
+      "sha256": "97cf594f72cf99e717ea7e6664d6105f718bc63d4e98897c5c51e34d42f1755e",
+      "byteIdentical": true
+    },
+    {
+      "path": "/assets/TerritoryPage.v-CN9Zmx5G.js",
+      "bytes": 17664,
+      "sha256": "844a95a2e0e708daf1d5e3df5e7a32a1edf0861c9884e3e97fc04da07a66a19b",
+      "byteIdentical": true
+    },
+    {
+      "path": "/assets/index.v-BHY6L1XR.css",
+      "bytes": 189550,
+      "sha256": "48efc22dc225042b9ab7ae815da028a8f4a08aadfd9e2ae98022c6beaa4e3c42",
+      "byteIdentical": true
+    },
+    {
+      "path": "/assets/index.v-Dd8_qVcc.js",
+      "bytes": 625842,
+      "sha256": "e32f307ba716d504dc5cf3cd00e6349b6a8e918d1f90b5109f28deae77a3681b",
+      "byteIdentical": true
+    }
+  ],
+  "result": "PASS"
+}

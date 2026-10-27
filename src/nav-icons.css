@@ -1,0 +1,44 @@
+.family-nav .nav-icon {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  flex: 0 0 46px;
+  background-image: url('/assets/navigation/star-tide-icons.webp');
+  background-size: 300% 300%;
+  background-repeat: no-repeat;
+  transition: transform 180ms ease, filter 180ms ease;
+}
+.nav-icon--home { background-position: 0% 0%; }
+.nav-icon--collection { background-position: 50% 0%; }
+.nav-icon--leaderboard { background-position: 100% 0%; }
+.nav-icon--lottery { background-position: 0% 50%; }
+.nav-icon--trade { background-position: 50% 50%; }
+.nav-icon--battle { background-position: 100% 50%; }
+.nav-icon--parent { background-position: 0% 100%; }
+/* The generated first-row glow slightly crosses the atlas cell boundary. */
+.nav-icon--lottery, .nav-icon--trade, .nav-icon--battle { clip-path: inset(8% 0 0); }
+.family-nav button.selected .nav-icon {
+  filter: drop-shadow(0 0 5px #63e4e966);
+}
+.family-nav .ruby-line { flex-wrap: nowrap; }
+.family-nav button:focus-visible .nav-icon { transform: translateY(-2px); }
+@media (hover: hover) {
+  .family-nav button:hover .nav-icon { transform: translateY(-2px); }
+}
+@media (max-width: 900px) {
+  .family-nav .nav-icon { width: 40px; height: 40px; flex-basis: 40px; }
+}
+@media (max-width: 600px) {
+  .family-nav .nav-icon { width: 36px; height: 36px; flex-basis: 36px; }
+  .grade-2 .family-nav button { min-width: 72px; }
+  .grade-2 .family-nav .ruby-line rt { font-size: max(.55em,14px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .family-nav .nav-icon { transition: none; }
+  .family-nav button:hover .nav-icon,
+  .family-nav button:focus-visible .nav-icon { transform: none; }
+}
+.reduce-motion .family-nav button:hover .nav-icon,
+.reduce-motion .family-nav button:focus-visible .nav-icon { transform: none; }
+
+.family-nav .nav-icon--territory { background:none; display:grid; place-items:center; font-size:38px; }

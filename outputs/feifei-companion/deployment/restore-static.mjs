@@ -1,0 +1,5 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {dirname} from 'node:path';
+const files=JSON.parse(await readFile('restore-static.json','utf8'));let cursor=0,done=0;
+await Promise.all(Array.from({length:8},async()=>{while(cursor<files.length){const file=files[cursor++];let error;for(let attempt=0;attempt<4;attempt++){try{const r=await fetch('https://quintus-star-tide-academy-production.up.railway.app/'+file.path.split('/').map(encodeURIComponent).join('/'),{signal:AbortSignal.timeout(60000)});if(!r.ok)throw Error('HTTP '+r.status);const data=Buffer.from(await r.arrayBuffer());if(createHash('sha256').update(data).digest('hex')!==file.sha256)throw Error('hash mismatch');await mkdir(dirname('dist/'+file.path),{recursive:true});await writeFile('dist/'+file.path,data);error=null;break;}catch(e){error=e;await new Promise(r=>setTimeout(r,2000*(attempt+1)));}}if(error)throw Error(file.path+': '+error.message);done++;if(done%100===0)console.log('Verified static assets',done,'/',files.length);}}));console.log('All static assets verified',done);

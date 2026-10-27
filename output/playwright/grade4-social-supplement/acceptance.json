@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-26",
+  "sources": 10,
+  "sourcePagesVisuallyReviewed": 26,
+  "rawRows": 268,
+  "newDistinctQuestions": 203,
+  "totalSocialQuestions": 286,
+  "sourceReview": "PASS after correcting garbage explanation, peach-leaf wording and two source locators",
+  "runtimeIndependentReview": "PASS after correcting synthetic cloud test fixture without relaxing API limits",
+  "build": "PASS",
+  "focusedTests": {
+    "files": 2,
+    "tests": 9,
+    "status": "PASS"
+  },
+  "fullTests": {
+    "files": 117,
+    "tests": 852,
+    "status": "PASS",
+    "database": "isolated fresh local synthetic accounts"
+  },
+  "schools": [
+    "yongchun",
+    "nantun",
+    "dunhua"
+  ],
+  "checks": [
+    "all 83 original IDs and answers unchanged",
+    "all 268 source references preserved after deduplication",
+    "all graph/reading questions self-contained",
+    "new questions after previous mastery across 3 authenticated schools",
+    "grade isolation, preserved progress and fallback",
+    "answer/explanation hidden before submission"
+  ],
+  "production": {
+    "status": "PASS",
+    "runtimeCommit": "14ef608f4d32d3c614036d0ef8d4955d3291bd01",
+    "railwayDeployment": "d5f5d39b-4d6b-4294-9525-5e660e8b5605",
+    "deploymentStatus": "SUCCESS",
+    "matchingAssets": 16,
+    "health": 200,
+    "protectedAnonymousRoutes": 401,
+    "adminPage": 200,
+    "realChildAccountsAccessed": false
+  }
+}

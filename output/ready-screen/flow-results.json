@@ -1,0 +1,24 @@
+[
+  {
+    "engine": "chromium",
+    "initialFailureNoClock": true,
+    "leaveDoesNotStart": true,
+    "retryThenStart": true,
+    "nextFigureFailureNoClock": true,
+    "backgroundPreloadNoClock": true,
+    "resumeAutoStarts": true,
+    "reloadKeepsClock": true,
+    "quitModalBlocksAutoStart": true
+  },
+  {
+    "engine": "webkit",
+    "initialFailureNoClock": true,
+    "leaveDoesNotStart": true,
+    "retryThenStart": true,
+    "nextFigureFailureNoClock": true,
+    "backgroundPreloadNoClock": true,
+    "resumeAutoStarts": true,
+    "reloadKeepsClock": true,
+    "quitModalBlocksAutoStart": true
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "observedAt": "2026-10-24T23:07:01.970302+00:00",
+  "status": "read-only scope, no implementation",
+  "base": "6aa2212",
+  "priority": "tablet media loading respects pause/visibility",
+  "source": [
+    "src/HeroVideoCarousel.tsx:197",
+    "src/HeroVideoCarousel.tsx:210",
+    "src/HeroVideoCarousel.tsx:311",
+    "src/__tests__/hero-carousel.test.ts"
+  ],
+  "finding": "mediaAllowed excludes userPaused/isVisible/documentVisible; paused different slide still mounts new video src",
+  "browser": "batch13-paused-video-baseline.json:paused=true/currentTime0/readyState4 for newly selected companion video",
+  "fullDesktopAssetsBytes": 8709942,
+  "networkBytes": "not measured; full file sizes are not actual wasted transfer",
+  "proposal": "separate allow-new-source gate from pause-existing-source; retain same loaded video/time across visibility pause; defer new key until playable, initial IO visibility unknown; cancel stale idle callbacks",
+  "verify": [
+    "paused/offscreen/hidden before initial load => no new MP4 source/request",
+    "pausedselectnewclip =>posteronly;resume=>loadcurrentclip",
+    "playedscrolloffscreen=>same element/time retained;return resumes",
+    "idle cancellation and source/viewport/reducedMotion/dataSaver changes",
+    "visible autoplay,end advance,NotAllowedError,video failure fallback"
+  ],
+  "unchanged": [
+    "learning/cloud/economy/question IDs",
+    "all six existing video assets",
+    "system reduced-motion respected; app pause currently resets on reload; no persistence claim"
+  ],
+  "ownership": "root sole writer;readonlyexplorercomplete"
+}

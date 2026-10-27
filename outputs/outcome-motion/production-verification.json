@@ -1,0 +1,122 @@
+{
+  "runtime": "c408804e3aa6f9a9a8c869b29c6ef6e0119842f0",
+  "deployment": "b32f8470-053a-4f4e-9232-9f97a075a64c",
+  "assets": [
+    {
+      "path": "/assets/AdminConsole.v-DC7GNqzd.css",
+      "sha256": "fd016cb0607032dae9d119af9d70d718a0e4340fdc0c8549bdd015f0383adf5f",
+      "bytes": 11748
+    },
+    {
+      "path": "/assets/index.v-aPOG-xND.css",
+      "sha256": "a97304e3aceecec1e02f62f536c7daa2df7426437bf6f1abf14421c5f6efdc01",
+      "bytes": 289514
+    },
+    {
+      "path": "/assets/TerritoryPage.v-XpGSXE-r.css",
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d",
+      "bytes": 30002
+    },
+    {
+      "path": "/assets/IslandApp.v--k-RY2Cj.css",
+      "sha256": "fc620aa6a6c8f099b0b00710dee5dfcdb1a975aeeb3c3fa914ecfef7af640ea2",
+      "bytes": 35486
+    },
+    {
+      "path": "/assets/index.v-DUlvhGxK.js",
+      "sha256": "f7b95ea74936d26581d2b26edfe17dba66af947b4b4808de9d8a2d6faf095e4a",
+      "bytes": 524338
+    },
+    {
+      "path": "/assets/IslandApp.v-BMMFILvX.js",
+      "sha256": "e7abd19f2aea3fb9b4f0d04e1862c13b331ac20ca793a078b99776caec6a35df",
+      "bytes": 58821
+    },
+    {
+      "path": "/assets/RoomEditor.v-CeNPMV4d.js",
+      "sha256": "b0df314759ff5a452563eb02d7bc4024448e785c142e0d0a10dbff23cd24fa54",
+      "bytes": 10673
+    },
+    {
+      "path": "/assets/AdminConsole.v-CN_XCTZZ.js",
+      "sha256": "d21b7d22a28b608501841daa1bf8c5955c1d0b05546e0e345ae448a81134c0e7",
+      "bytes": 33154
+    },
+    {
+      "path": "/assets/game-view.v-C_mr6pqZ.js",
+      "sha256": "464718953ae73f96644eab00eb56d62599864f482605f437c33fb3b55ef718de",
+      "bytes": 838489
+    },
+    {
+      "path": "/assets/game-view.v-DjQLQpAC.css",
+      "sha256": "80bebb3fd3f3c62f510a09a4b9fb05b662fcb31faeedda3a3c418afe6fc5343a",
+      "bytes": 1260
+    },
+    {
+      "path": "/assets/TerritoryPage.v-CKhleIBK.js",
+      "sha256": "32a93e6af8feb2bf8da1e8e2f6316822fe89e6137d52f735e2703831106093e3",
+      "bytes": 36028
+    },
+    {
+      "path": "/assets/outcome-motion-v1/defeat-poster.jpg",
+      "sha256": "e8ffe6a861f46179191359fb8b9b09b87c76e5a030f4a9edd056d6a50190e57d",
+      "bytes": 42298
+    },
+    {
+      "path": "/assets/outcome-motion-v1/defeat.mp4",
+      "sha256": "f234d9872ce66db208a9b856f7e0b83f1c7f0b1f22d58b12f797311929bc0764",
+      "bytes": 563093
+    },
+    {
+      "path": "/assets/outcome-motion-v1/victory-0.jpg",
+      "sha256": "636721c0160ab13cda86a83941f1aeae8b5a7dd3b42bf27457a76af9362925b9",
+      "bytes": 506891
+    },
+    {
+      "path": "/assets/outcome-motion-v1/victory-1.jpg",
+      "sha256": "d34cf12039e099f27ce9141edd67b68fb6bbc615fdb7e1048da4383035b36724",
+      "bytes": 537791
+    },
+    {
+      "path": "/assets/outcome-motion-v1/victory.mp4",
+      "sha256": "2fa0333678c3292108ccd39af8e71280630ec863aed68cd258f09b78843285d6",
+      "bytes": 736027
+    },
+    {
+      "path": "/assets/outcome-motion-v1/defeat-0.jpg",
+      "sha256": "150a992b178b540c1e8c3ad6a7074bf01daf4598d51c715e17196244bade8685",
+      "bytes": 527177
+    },
+    {
+      "path": "/assets/outcome-motion-v1/defeat-1.jpg",
+      "sha256": "6c1bdd2a0de880c1fbdefd6870704ad5bd3f9e3b122072a80eb56c2fb0187686",
+      "bytes": 506053
+    },
+    {
+      "path": "/assets/outcome-motion-v1/victory-poster.jpg",
+      "sha256": "c4c299957f297efd3746b42593ab0a571dea17b5195150a43c61a9cb70571ec7",
+      "bytes": 45965
+    }
+  ],
+  "checks": [
+    "Production normal Higgsfield video 390",
+    "Production normal ends once 390",
+    "Production continue visible 390",
+    "Production continue starts once 390",
+    "Production defeat Higgsfield video 390",
+    "Production defeat ends once 390",
+    "Production normal Higgsfield video 820",
+    "Production normal ends once 820",
+    "Production continue visible 820",
+    "Production continue starts once 820",
+    "Production defeat Higgsfield video 820",
+    "Production defeat ends once 820",
+    "Production legacy normal JPEG frames advance",
+    "Production skip never awards normal",
+    "Production legacy defeat JPEG frames advance",
+    "Production skip never awards defeat",
+    "Production no JavaScript errors"
+  ],
+  "realStudentWrites": false,
+  "physicalIpad15": false
+}

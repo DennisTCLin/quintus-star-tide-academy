@@ -1,0 +1,25 @@
+{
+  "runtime": "d9492e2",
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "assets": [
+    {
+      "path": "/assets/game-view.v-T2peyUdc.css",
+      "sha256": "ae09255791e659da980fc3687ff96c4333d81ee27753e9166ea6d0f2ac6851be"
+    },
+    {
+      "path": "/assets/game-view.v-Y5rGPavI.js",
+      "sha256": "9fbf98c6cc0731cbd19c8acf40d9887b0619ebab39446b4209e315c7918b3639"
+    },
+    {
+      "path": "/assets/index.v-1i0i5fWX.js",
+      "sha256": "1ff854914e945b2260a749fb19cc2659ba3adcf50addad4ecaedafebd0797b28"
+    },
+    {
+      "path": "/assets/index.v-C_sBRvPo.css",
+      "sha256": "c957983b250c23ae239b6ab509d557d9ae49260df3491f0e705cfdbdd58e5bd1"
+    }
+  ]
+}

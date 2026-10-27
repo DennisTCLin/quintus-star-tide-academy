@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-25T12:01:08.787Z",
+  "source": "4ef2c23",
+  "deployment": {
+    "id": "f7e4ab41-2c23-46fb-a390-f21212389cfd",
+    "status": "SUCCESS",
+    "message": "ca049eb school-specific Chinese exam bank and confirmed student schools"
+  },
+  "players": 7,
+  "viewerTargetCombinations": 49,
+  "browserWidths": [
+    390,
+    900
+  ],
+  "productionPhotos": 7,
+  "focusedTests": 6,
+  "allPassed": true,
+  "databaseReadOnly": true,
+  "runtimeChanged": false,
+  "temporarySshKeyRevoked": true
+}

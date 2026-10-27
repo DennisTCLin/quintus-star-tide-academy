@@ -1,0 +1,159 @@
+[
+  {
+    "index": 8,
+    "originalJobId": "fac63632-11b5-4ab6-b5e4-a23aac0cf20d",
+    "replacementJobId": "307a69e1-693b-4911-87e8-521bf88ce0b7",
+    "previousMatte": {
+      "index": 8,
+      "id": "wave4-metal-02",
+      "action": "attack",
+      "frames": 49,
+      "fps": 12,
+      "format": "rgb-alpha-side-by-side-h264",
+      "width": 960,
+      "height": 480,
+      "bytes": 1224903,
+      "sha256": "678d47e5cc0dad7dfe2d8ddc52006c3563413a79f46b75a5bda78e9007b00a4c",
+      "foregroundMin": 0.3317100694444444,
+      "foregroundMax": 0.4486111111111111,
+      "seconds": 14.55,
+      "maskModel": "BiRefNet-General-Lite",
+      "provider": "MPS"
+    }
+  },
+  {
+    "index": 14,
+    "originalJobId": "d35ac478-eedb-4315-9c0c-fbcbabbe042c",
+    "replacementJobId": "cc0eadd6-938c-4330-b15a-1b524c0af954",
+    "previousMatte": {
+      "index": 14,
+      "id": "wave4-metal-03",
+      "action": "hit",
+      "frames": 49,
+      "fps": 12,
+      "format": "rgb-alpha-side-by-side-h264",
+      "width": 960,
+      "height": 480,
+      "bytes": 868542,
+      "sha256": "464911e127632188fac2aa6c7778ff934f9bf6d95305a11d28bf62915778161b",
+      "foregroundMin": 0.3766579861111111,
+      "foregroundMax": 0.47924913194444446,
+      "seconds": 15.88,
+      "maskModel": "BiRefNet-General-Lite",
+      "provider": "MPS"
+    }
+  },
+  {
+    "index": 29,
+    "originalJobId": "acd2dad4-ee62-4030-bf30-91a41e44addc",
+    "replacementJobId": "2e2d75b0-bd1b-484c-b118-be2a09710eff",
+    "previousMatte": {
+      "index": 29,
+      "id": "wave4-metal-06",
+      "action": "hit",
+      "frames": 49,
+      "fps": 12,
+      "format": "rgb-alpha-side-by-side-h264",
+      "width": 960,
+      "height": 480,
+      "bytes": 721806,
+      "sha256": "5581a89ecec8c86c294b1a85cf031f8c55c4c7bcb0712db3f39877d73244e55a",
+      "foregroundMin": 0.2409548611111111,
+      "foregroundMax": 0.3507421875,
+      "seconds": 13.45,
+      "maskModel": "BiRefNet-General-Lite",
+      "provider": "MPS"
+    }
+  },
+  {
+    "index": 41,
+    "originalJobId": "789af0a4-b2c6-4c09-97c3-9d97ff3c3f13",
+    "replacementJobId": "cd52ed9f-4057-4e2d-8fa7-23f0bc331899",
+    "previousMatte": {
+      "index": 41,
+      "id": "wave4-metal-09",
+      "action": "entrance",
+      "frames": 49,
+      "fps": 12,
+      "format": "rgb-alpha-side-by-side-h264",
+      "width": 960,
+      "height": 480,
+      "bytes": 795862,
+      "sha256": "e3a7d12d6c5a7a61f938937f2f4be96854b43d41ec697d0e6027c77a9f4e77ea",
+      "foregroundMin": 0.2537152777777778,
+      "foregroundMax": 0.49592013888888886,
+      "seconds": 13.66,
+      "maskModel": "BiRefNet-General-Lite",
+      "provider": "MPS",
+      "keyRefinement": 1
+    }
+  },
+  {
+    "index": 43,
+    "originalJobId": "b138b9bc-2a8e-490e-9875-65fa960d6896",
+    "replacementJobId": "1ffddfda-f287-4fc8-a2ce-92543922b205",
+    "previousMatte": {
+      "index": 43,
+      "id": "wave4-metal-09",
+      "action": "attack",
+      "frames": 49,
+      "fps": 12,
+      "format": "rgb-alpha-side-by-side-h264",
+      "width": 960,
+      "height": 480,
+      "bytes": 823610,
+      "sha256": "ccf35c68fa52015338ae01e9be773cc639bcac3893733085f6d5fc6d3a06a1e9",
+      "foregroundMin": 0.31927951388888887,
+      "foregroundMax": 0.4109288194444444,
+      "seconds": 13.94,
+      "maskModel": "BiRefNet-General-Lite",
+      "provider": "MPS",
+      "keyRefinement": 1
+    }
+  },
+  {
+    "index": 44,
+    "originalJobId": "eadb5a50-52fb-4534-9cb2-cf8c8d816176",
+    "replacementJobId": "e84085fd-c10a-4a5a-a053-be415f03be1e",
+    "previousMatte": {
+      "index": 44,
+      "id": "wave4-metal-09",
+      "action": "hit",
+      "frames": 49,
+      "fps": 12,
+      "format": "rgb-alpha-side-by-side-h264",
+      "width": 960,
+      "height": 480,
+      "bytes": 848891,
+      "sha256": "b48d40f70ff6e4fc064c6199e1b715ff3d07c393d0338068bf3a9e7009317844",
+      "foregroundMin": 0.339453125,
+      "foregroundMax": 0.4954513888888889,
+      "seconds": 13.76,
+      "maskModel": "BiRefNet-General-Lite",
+      "provider": "MPS",
+      "keyRefinement": 1
+    }
+  },
+  {
+    "index": 48,
+    "originalJobId": "53d129a8-86f6-4799-b713-cce2e47ef282",
+    "replacementJobId": "c80004c5-e8f6-4463-91bf-4895742cb94b",
+    "previousMatte": {
+      "index": 48,
+      "id": "wave4-metal-10",
+      "action": "attack",
+      "frames": 49,
+      "fps": 12,
+      "format": "rgb-alpha-side-by-side-h264",
+      "width": 960,
+      "height": 480,
+      "bytes": 892724,
+      "sha256": "bdb7f2475536a0be72d48ad1006e9f6c7bc0a7f92b9962dcd1a53c9d915ebb46",
+      "foregroundMin": 0.2979600694444444,
+      "foregroundMax": 0.3639192708333333,
+      "seconds": 13.57,
+      "maskModel": "BiRefNet-General-Lite",
+      "provider": "MPS"
+    }
+  }
+]

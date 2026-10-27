@@ -1,0 +1,364 @@
+{
+  "summary": {
+    "chineseCandidates": 24,
+    "pass": 23,
+    "partialAdaptationOnly": 1,
+    "provenanceRepairPass": 2,
+    "socialFiguresPass": 4
+  },
+  "method": "逐項核對候選、原卷圖像或DOCX文字及教育部/政府來源；官方來源網址為證據，沒有採用未提供課文的猜測。",
+  "candidates": [
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "壹國字注音5",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "粥指稀飯；小字典讀ㄓㄡ，錯答均非該義讀音。原卷給字填注音。",
+      "evidenceURLs": [
+        "https://dict.mini.moe.edu.tw/SearchIndex/word_detail?wordID=D0000322"
+      ]
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "壹國字注音9",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "鹽為調味料名詞，ㄧㄢˊ唯一；不涉及古文動詞義。",
+      "evidenceURLs": [
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=11007"
+      ]
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "壹國字注音10",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "明定簡編本語音ㄒㄧㄠ，沒有把讀音ㄒㄩㄝˋ放入錯答；保留此限定。",
+      "evidenceURLs": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=26873"
+      ]
+    },
+    {
+      "source": 1,
+      "page": 1,
+      "locator": "壹國字注音12",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "熬湯為慢煮ㄠˊ。原卷提供注音填國字，現改成字音辨識，需標記題型改編。",
+      "evidenceURLs": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=39594"
+      ]
+    },
+    {
+      "source": 2,
+      "page": 1,
+      "locator": "一國字注音23",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "劃過是擦掠ㄏㄨㄚˊ；與劃分ㄏㄨㄚˋ區別成立。",
+      "evidenceURLs": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20161"
+      ]
+    },
+    {
+      "source": 3,
+      "page": 1,
+      "locator": "一國字注音22",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "野雁ㄧㄢˋ唯一；原卷提供注音填雁，現為字音辨識，需標記改編。",
+      "evidenceURLs": [
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=11064"
+      ]
+    },
+    {
+      "source": 4,
+      "page": 1,
+      "locator": "一國字注音13",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "簡編本剖ㄆㄡˇ；題幹明定辭典且未以其他收錄讀音作錯答，通過。",
+      "evidenceURLs": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=2734"
+      ]
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一國字注音13",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "簡編本拿捏的捏ㄋㄧㄝ；沒有以輕聲作錯答。原卷注音填字，需標記改編。",
+      "evidenceURLs": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=12137"
+      ]
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一國字注音17",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "韁ㄐㄧㄤ成立；重編另收又音ㄍㄤ，未列錯答，因此單選唯一。",
+      "evidenceURLs": [
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=5915&la=0&powerMode=0"
+      ]
+    },
+    {
+      "source": 5,
+      "page": 1,
+      "locator": "一國字注音23",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "嚎ㄏㄠˊ，原卷嚎叫語境一致。",
+      "evidenceURLs": [
+        "https://www.cns11643.gov.tw/wordView.jsp?ID=95045"
+      ]
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "一國字注音9",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "畫作ㄏㄨㄚˋ成立；原卷注音填畫改成讀音選擇，需標記題型改編。",
+      "evidenceURLs": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20201"
+      ]
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "一國字注音8",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "怨恨的恨ㄏㄣˋ，依簡編本明確；未以輕聲作錯答。",
+      "evidenceURLs": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=44902"
+      ]
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "一國字注音3",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "纍纍ㄌㄟˊ，詞語語境成立。",
+      "evidenceURLs": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=13362"
+      ]
+    },
+    {
+      "source": 4,
+      "page": 3,
+      "locator": "七閱讀2",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "膏肓依古語義為心下膈上；候選明定古義，可以採用，不作現代疾病診斷題。",
+      "evidenceURLs": [
+        "https://dict.idioms.moe.edu.tw/bookView.jsp?ID=84"
+      ]
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "三綜合9",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "蘭亭集序為行書。官方藝術教育資料明稱天下第一行書。",
+      "evidenceURLs": [
+        "https://ed.arte.gov.tw/uploadfile/Book/467_%E8%AA%8D%E8%AD%98%E6%9B%B8%E6%B3%95%E8%97%9D%E8%A1%93-%E8%A1%8C%E6%9B%B8-044064-%E8%82%86-1-10.pdf"
+      ]
+    },
+    {
+      "source": 1,
+      "page": 3,
+      "locator": "伍選擇1",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "原卷名揚抱政彬說我們贏了；選項共同努力有原題支持，不依賴未提供課文。",
+      "evidenceURLs": []
+    },
+    {
+      "source": 3,
+      "page": 2,
+      "locator": "三選擇3",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "原卷較高處先換毛衣，搭配芒花比毛衣詩句可得較高處先出現灰白芒花；新增詩句可於source7三選擇10原卷核對，建議把跨卷引文來源記入sourceVerification。",
+      "evidenceURLs": []
+    },
+    {
+      "source": 7,
+      "page": 1,
+      "locator": "三選擇5",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "原卷題目問灰白毛衣比喻芒花的什麼，答案樣貌；補入芒花編織毛衣引文可於同卷三選擇10核對，保留引文出處。",
+      "evidenceURLs": []
+    },
+    {
+      "source": 6,
+      "page": 3,
+      "locator": "三填答4",
+      "verdict": "partial_adaptation_only",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": false,
+      "reason": "候選叫喚確為擬人關鍵詞且選項唯一，但原卷要求基隆山和陽光各挑3個關鍵詞，兩列共6格。只問陽光一個詞無法代表原題完成。不得憑課文猜測；原卷本身完整提供兩段。保留原題open_ended，候選另標partial_adaptation，或明示縮減題目範圍後獨立記錄，不能宣稱完整恢復。",
+      "evidenceURLs": []
+    },
+    {
+      "source": 5,
+      "page": 2,
+      "locator": "五選擇5",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "強詞奪理及強迫皆ㄑㄧㄤˇ；率領/機率、綢繆/繆論、稱讚/稱心皆不同音；原卷選項相符。",
+      "evidenceURLs": [
+        "https://dict.variants.moe.edu.tw/dictView.jsp?ID=33780&powerMode=2"
+      ]
+    },
+    {
+      "source": 6,
+      "page": 1,
+      "locator": "二選擇1",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "揭露及流露皆ㄌㄨˋ；其他對比含率、繆謬、屏等不同音，唯一。",
+      "evidenceURLs": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=22026",
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=14476"
+      ]
+    },
+    {
+      "source": 4,
+      "page": 2,
+      "locator": "四字詞句4",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "耗為耒部，綢繆和繆論異音；半絲半縷/金縷衣用同一縷，恆念物力維艱正確，丙丁唯一。",
+      "evidenceURLs": [
+        "https://dict.concised.moe.edu.tw/dictView.jsp?ID=19503",
+        "https://dict.variants.moe.edu.tw/dictView.jsp?ID=33780&powerMode=2"
+      ]
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "三經典填空4-1",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "考選部官方試題直接引梁啟超學問之功貴乎循序漸進經久不輟，填空吻合。",
+      "evidenceURLs": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=141&code=106050&q=1&s=0103&t=Q"
+      ]
+    },
+    {
+      "source": 9,
+      "page": null,
+      "locator": "三經典填空4-2",
+      "verdict": "pass",
+      "answerUnique": true,
+      "originalTaskFullyRecovered": true,
+      "reason": "同一官方引文經久不輟；不輟唯一。",
+      "evidenceURLs": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=141&code=106050&q=1&s=0103&t=Q"
+      ]
+    }
+  ],
+  "provenanceRepairs": [
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五語譯1",
+      "verdict": "pass_as_explicit_adaptation",
+      "answerUnique": true,
+      "reason": "已對原卷末頁：引文正確；義譯選項唯一，三個錯答明確反義或曲解。原本自由語譯，保留sourceVerification改編說明，不得宣稱原卷本有選項。",
+      "evidenceURLs": [
+        "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/primary/lang/jileiwen/jilei_wen_047.pdf"
+      ],
+      "originalRender": "/tmp/grade6-chinese-source/小六康軒國語10-last.png"
+    },
+    {
+      "source": 10,
+      "page": 2,
+      "locator": "五語譯2",
+      "verdict": "pass_as_explicit_adaptation",
+      "answerUnique": true,
+      "reason": "已對原卷末頁：引文正確；義譯選項唯一，三個錯答明確反義或曲解。原本自由語譯，保留sourceVerification改編說明，不得宣稱原卷本有選項。",
+      "evidenceURLs": [
+        "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/primary/lang/jileiwen/jilei_wen_047.pdf"
+      ],
+      "originalRender": "/tmp/grade6-chinese-source/小六康軒國語10-last.png"
+    }
+  ],
+  "socialReview": [
+    {
+      "source": 4,
+      "locator": "二10",
+      "verdict": "pass",
+      "reason": "原卷看天田灌溉圖與裁圖一致；嘉南大圳唯一。裁圖完整，無答案及個資。",
+      "evidenceURLs": [
+        "https://www.ia.gov.tw/zh-TW/media/StoryContent?a=109&id=422&listid=109&p=3"
+      ]
+    },
+    {
+      "source": 4,
+      "locator": "二13",
+      "verdict": "pass",
+      "reason": "原卷鴉片吸食/專賣財政圖一致，鴉片唯一；裁圖完整無答案及個資。",
+      "evidenceURLs": [
+        "https://museum.mof.gov.tw/singlehtml/268d5ed6338b4021b32b594cbcdd2bf2?cntId=be56983c2154403daa16af314aa6abc9"
+      ]
+    },
+    {
+      "source": 8,
+      "locator": "二4",
+      "verdict": "pass_as_corrected_adaptation",
+      "reason": "圖上民國77年報紙數增加，解除報禁為精確原因（77年1月1日）；原卷原選項只有解嚴等並無解除報禁。候選修正合理，但必須明記改寫題幹與選項，不能當原卷逐字恢復。原卷解嚴為76年。裁圖完整無答案及個資。",
+      "evidenceURLs": [
+        "https://art.archives.gov.tw/tw/art/1558.html",
+        "https://www.president.gov.tw/NEWS/13240"
+      ]
+    },
+    {
+      "source": 8,
+      "locator": "二15",
+      "verdict": "pass",
+      "reason": "1895臺灣民主國虎旗配唐景崧唯一；原卷及裁圖相符，完整無答案及個資。",
+      "evidenceURLs": [
+        "https://dict.th.gov.tw/Print.aspx?ID=1149"
+      ]
+    }
+  ],
+  "limitations": [
+    "部分國字注音題由寫字反轉為字音辨識，建議全批統一聲明單選改編。",
+    "source9為DOCX來源，以文字核對；其他原卷圖已目視核對相關題目。",
+    "沒有修改候選與repository。"
+  ]
+}

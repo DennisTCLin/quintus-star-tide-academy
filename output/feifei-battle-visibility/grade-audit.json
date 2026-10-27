@@ -1,0 +1,47 @@
+[
+  {
+    "grade": 1,
+    "courses": {
+      "words": 90,
+      "tones": 29,
+      "medials": 29,
+      "pairs": 144,
+      "math": 181,
+      "english": 80
+    },
+    "toneSample": [
+      {
+        "id": "g1-tone-ma-2",
+        "grade": 1,
+        "prompt": "聽聲音，選聲調",
+        "options": [
+          "ˊ",
+          "ˇ"
+        ]
+      }
+    ]
+  },
+  {
+    "grade": 2,
+    "courses": {
+      "words": 186,
+      "tones": 20,
+      "medials": 12,
+      "pairs": 52,
+      "math": 202
+    },
+    "toneSample": [
+      {
+        "id": "g2-tone-ma-1",
+        "grade": 2,
+        "prompt": "聽聲音，選聲調",
+        "options": [
+          "―",
+          "ˊ",
+          "ˇ",
+          "ˋ"
+        ]
+      }
+    ]
+  }
+]

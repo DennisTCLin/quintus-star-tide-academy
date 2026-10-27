@@ -1,0 +1,41 @@
+{
+  "runtimeCommit": "e69b815",
+  "route": "Relay: read-only explorer, root writer, fresh read-only verifier",
+  "request": "Hide read-aloud controls for grade 3+, retain lower-grade assistance, clarify circled animation control",
+  "build": "PASS",
+  "tests": {
+    "focused": "34 passed",
+    "fullFresh": "792 passed; 11 school tests skipped after shared login limit429",
+    "isolatedRerun": "19 passed including all11 school tests and8 policy/care tests",
+    "coverage": "All803 test cases passed across the full run and isolated retry; no clean single full-suite run claimed"
+  },
+  "webkitMobile": {
+    "viewport": [
+      402,
+      681
+    ],
+    "grade4HomeReadAloudButtons": 0,
+    "grade1HomeReadAloudButtons": 9,
+    "grade2HomeReadAloudButtons": 9,
+    "horizontalOverflow": false,
+    "grade2MapButtonAfterFix": [
+      56,
+      56
+    ],
+    "animationToggle": [
+      "播放動畫",
+      "暫停動畫"
+    ],
+    "grade4Answer": "Correct answer saved, auto advanced from question2 to3, no read-aloud controls"
+  },
+  "verifier": "PASS after reverting grade2 narrow ruby label regression",
+  "limits": [
+    "Grades3/5/6 verified through grade policy tests; live app configured profiles are grades1/2/4.",
+    "No production child accounts accessed.",
+    "Explicit microphone/text conversation replies and music remain independent of reading assistance."
+  ],
+  "rollback": "Redeploy prior main757d3a1; no data/schema migration",
+  "deploymentId": "404b5861-7b62-4ab2-aaf4-4268351f21a7",
+  "deploymentStatus": "SUCCESS",
+  "productionChecks": "PASS:14 asset hashes,health200,anonymous state401"
+}

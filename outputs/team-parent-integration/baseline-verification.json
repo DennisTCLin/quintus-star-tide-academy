@@ -1,0 +1,1378 @@
+{
+  "pass": true,
+  "sourceCommit": "c9d25e30f309b4d4b576239dfd19cb737aa49076",
+  "physicalDevice": false,
+  "method": "WebKit iPhone/iPad emulation, actual integrated App and local synthetic-account API, reduced motion",
+  "checks": [
+    {
+      "name": "iPhone 13-alan: progress values belong to signed-in profile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-alan: both report names and photos match account",
+      "pass": true,
+      "detail": [
+        {
+          "src": "/players/alan.jpg?v=1",
+          "loaded": true
+        },
+        {
+          "src": "/players/alan.jpg?v=1",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "iPhone 13-alan: parent has no document overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-alan: 320px cards, labels and ruby",
+      "pass": true,
+      "detail": {
+        "width": 320,
+        "document": 320,
+        "columns": 2,
+        "ruby": 0,
+        "cards": [
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "潮光獸，E 級，等級 1，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "石礁鰭，E 級，等級 2，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "泡沫貂，E 級，等級 3，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "海芽龜，E 級，等級 4，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "霧潮獺，E 級，等級 5，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "帆翼蛙，E 級，等級 6，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "藻潮熊，E 級，等級 6，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "貝甲鼴，E 級，等級 7，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "星汐鷺，E 級，等級 7，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "礁月兔，E 級，等級 8，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "泡泡犛，E 級，等級 8，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "灣光守宮，E 級，等級 9，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "雲帆鹿，D 級，等級 13，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "月帆魟，D 級，等級 13，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "漂航龜，D 級，等級 14，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "珊枝兔，D 級，等級 14，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "海風狼，D 級，等級 14，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "珠礁獾，D 級，等級 15，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "雨紋海豹，D 級，等級 15，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "羅盤蟹，D 級，等級 15，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "雲鰭雀，D 級，等級 16，火屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "潮角駝，D 級，等級 16，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "珊火鯨，C 級，等級 21，火屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "燈潮猁，C 級，等級 22，火屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "流向鴞，C 級，等級 22，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "海璃貓熊，C 級，等級 22，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "旋潮豚，C 級，等級 23，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "沉星盤羊，C 級，等級 23，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "礁翼獅鷲，C 級，等級 23，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "回音水母，C 級，等級 23，水屬性，點擊加入隊伍"
+          }
+        ]
+      }
+    },
+    {
+      "name": "iPhone 13-alan: 390px cards, labels and ruby",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "document": 390,
+        "columns": 2,
+        "ruby": 0,
+        "cards": [
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "潮光獸，E 級，等級 1，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "石礁鰭，E 級，等級 2，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "泡沫貂，E 級，等級 3，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "海芽龜，E 級，等級 4，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "霧潮獺，E 級，等級 5，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "帆翼蛙，E 級，等級 6，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "藻潮熊，E 級，等級 6，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "貝甲鼴，E 級，等級 7，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "星汐鷺，E 級，等級 7，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "礁月兔，E 級，等級 8，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "泡泡犛，E 級，等級 8，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "灣光守宮，E 級，等級 9，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "雲帆鹿，D 級，等級 13，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "月帆魟，D 級，等級 13，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "漂航龜，D 級，等級 14，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "珊枝兔，D 級，等級 14，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "海風狼，D 級，等級 14，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "珠礁獾，D 級，等級 15，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "雨紋海豹，D 級，等級 15，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "羅盤蟹，D 級，等級 15，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "雲鰭雀，D 級，等級 16，火屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "潮角駝，D 級，等級 16，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "珊火鯨，C 級，等級 21，火屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "燈潮猁，C 級，等級 22，火屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "流向鴞，C 級，等級 22，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "海璃貓熊，C 級，等級 22，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "旋潮豚，C 級，等級 23，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "沉星盤羊，C 級，等級 23，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "礁翼獅鷲，C 級，等級 23，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "回音水母，C 級，等級 23，水屬性，點擊加入隊伍"
+          }
+        ]
+      }
+    },
+    {
+      "name": "iPhone 13-alan: selection supports zero, up to three, and cancellation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-alan: duo uses new picker and requires matching team sizes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-alan: selected team can enter a battle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-alan: selecting and starting local battle preserves learning and resources",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-quintus: progress values belong to signed-in profile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-quintus: both report names and photos match account",
+      "pass": true,
+      "detail": [
+        {
+          "src": "/players/quintus.jpg?v=1",
+          "loaded": true
+        },
+        {
+          "src": "/players/quintus.jpg?v=1",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "iPhone 13-quintus: parent has no document overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-quintus: 320px cards, labels and ruby",
+      "pass": true,
+      "detail": {
+        "width": 320,
+        "document": 320,
+        "columns": 2,
+        "ruby": 0,
+        "cards": [
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "潮光獸，E 級，等級 1，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "石礁鰭，E 級，等級 2，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "泡沫貂，E 級，等級 3，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "海芽龜，E 級，等級 4，木屬性，點擊加入隊伍"
+          }
+        ]
+      }
+    },
+    {
+      "name": "iPhone 13-quintus: 390px cards, labels and ruby",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "document": 390,
+        "columns": 2,
+        "ruby": 0,
+        "cards": [
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "潮光獸，E 級，等級 1，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "石礁鰭，E 級，等級 2，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "泡沫貂，E 級，等級 3，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "海芽龜，E 級，等級 4，木屬性，點擊加入隊伍"
+          }
+        ]
+      }
+    },
+    {
+      "name": "iPhone 13-quintus: selection supports zero, up to three, and cancellation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-quintus: duo uses new picker and requires matching team sizes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-quintus: selected team can enter a battle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-quintus: selecting and starting local battle preserves learning and resources",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-feifei: progress values belong to signed-in profile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-feifei: parent has no document overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-feifei: 320px cards, labels and ruby",
+      "pass": true,
+      "detail": {
+        "width": 320,
+        "document": 320,
+        "columns": 2,
+        "ruby": 0,
+        "cards": [
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "潮光獸，E 級，等級 1，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "石礁鰭，E 級，等級 2，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "泡沫貂，E 級，等級 3，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "海芽龜，E 級，等級 4，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "霧潮獺，E 級，等級 5，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "帆翼蛙，E 級，等級 6，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 117,
+            "h": 240.78125,
+            "label": "藻潮熊，E 級，等級 6，木屬性，點擊加入隊伍"
+          }
+        ]
+      }
+    },
+    {
+      "name": "iPhone 13-feifei: 390px cards, labels and ruby",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "document": 390,
+        "columns": 2,
+        "ruby": 0,
+        "cards": [
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "潮光獸，E 級，等級 1，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "石礁鰭，E 級，等級 2，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "泡沫貂，E 級，等級 3，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "海芽龜，E 級，等級 4，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "霧潮獺，E 級，等級 5，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "帆翼蛙，E 級，等級 6，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 152,
+            "h": 240.78125,
+            "label": "藻潮熊，E 級，等級 6，木屬性，點擊加入隊伍"
+          }
+        ]
+      }
+    },
+    {
+      "name": "iPhone 13-feifei: selection supports zero, up to three, and cancellation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-feifei: duo uses new picker and requires matching team sizes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-feifei: selected team can enter a battle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPhone 13-feifei: selecting and starting local battle preserves learning and resources",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-alan: progress values belong to signed-in profile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-alan: both report names and photos match account",
+      "pass": true,
+      "detail": [
+        {
+          "src": "/players/alan.jpg?v=1",
+          "loaded": true
+        },
+        {
+          "src": "/players/alan.jpg?v=1",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "iPad (gen 7)-alan: parent has no document overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-alan: 768px cards, labels and ruby",
+      "pass": true,
+      "detail": {
+        "width": 768,
+        "document": 768,
+        "columns": 4,
+        "ruby": 0,
+        "cards": [
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "潮光獸，E 級，等級 1，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "石礁鰭，E 級，等級 2，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "泡沫貂，E 級，等級 3，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "海芽龜，E 級，等級 4，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "霧潮獺，E 級，等級 5，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "帆翼蛙，E 級，等級 6，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "藻潮熊，E 級，等級 6，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "貝甲鼴，E 級，等級 7，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "星汐鷺，E 級，等級 7，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "礁月兔，E 級，等級 8，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "泡泡犛，E 級，等級 8，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "灣光守宮，E 級，等級 9，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "雲帆鹿，D 級，等級 13，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "月帆魟，D 級，等級 13，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "漂航龜，D 級，等級 14，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "珊枝兔，D 級，等級 14，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "海風狼，D 級，等級 14，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "珠礁獾，D 級，等級 15，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "雨紋海豹，D 級，等級 15，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "羅盤蟹，D 級，等級 15，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "雲鰭雀，D 級，等級 16，火屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "潮角駝，D 級，等級 16，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "珊火鯨，C 級，等級 21，火屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "燈潮猁，C 級，等級 22，火屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "流向鴞，C 級，等級 22，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "海璃貓熊，C 級，等級 22，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "旋潮豚，C 級，等級 23，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "沉星盤羊，C 級，等級 23，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "礁翼獅鷲，C 級，等級 23，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "回音水母，C 級，等級 23，水屬性，點擊加入隊伍"
+          }
+        ]
+      }
+    },
+    {
+      "name": "iPad (gen 7)-alan: 1024px cards, labels and ruby",
+      "pass": true,
+      "detail": {
+        "width": 1024,
+        "document": 1024,
+        "columns": 6,
+        "ruby": 0,
+        "cards": [
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "潮光獸，E 級，等級 1，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "石礁鰭，E 級，等級 2，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "泡沫貂，E 級，等級 3，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "海芽龜，E 級，等級 4，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "霧潮獺，E 級，等級 5，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "帆翼蛙，E 級，等級 6，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "藻潮熊，E 級，等級 6，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "貝甲鼴，E 級，等級 7，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "星汐鷺，E 級，等級 7，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "礁月兔，E 級，等級 8，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "泡泡犛，E 級，等級 8，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "灣光守宮，E 級，等級 9，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "雲帆鹿，D 級，等級 13，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "月帆魟，D 級，等級 13，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "漂航龜，D 級，等級 14，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "珊枝兔，D 級，等級 14，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "海風狼，D 級，等級 14，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "珠礁獾，D 級，等級 15，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "雨紋海豹，D 級，等級 15，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "羅盤蟹，D 級，等級 15，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "雲鰭雀，D 級，等級 16，火屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "潮角駝，D 級，等級 16，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "珊火鯨，C 級，等級 21，火屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "燈潮猁，C 級，等級 22，火屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "流向鴞，C 級，等級 22，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "海璃貓熊，C 級，等級 22，金屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "旋潮豚，C 級，等級 23，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "沉星盤羊，C 級，等級 23，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "礁翼獅鷲，C 級，等級 23，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "回音水母，C 級，等級 23，水屬性，點擊加入隊伍"
+          }
+        ]
+      }
+    },
+    {
+      "name": "iPad (gen 7)-alan: selection supports zero, up to three, and cancellation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-alan: duo uses new picker and requires matching team sizes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-alan: selected team can enter a battle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-alan: selecting and starting local battle preserves learning and resources",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-quintus: progress values belong to signed-in profile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-quintus: both report names and photos match account",
+      "pass": true,
+      "detail": [
+        {
+          "src": "/players/quintus.jpg?v=1",
+          "loaded": true
+        },
+        {
+          "src": "/players/quintus.jpg?v=1",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "iPad (gen 7)-quintus: parent has no document overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-quintus: 768px cards, labels and ruby",
+      "pass": true,
+      "detail": {
+        "width": 768,
+        "document": 768,
+        "columns": 4,
+        "ruby": 0,
+        "cards": [
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "潮光獸，E 級，等級 1，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "石礁鰭，E 級，等級 2，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "泡沫貂，E 級，等級 3，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "海芽龜，E 級，等級 4，木屬性，點擊加入隊伍"
+          }
+        ]
+      }
+    },
+    {
+      "name": "iPad (gen 7)-quintus: 1024px cards, labels and ruby",
+      "pass": true,
+      "detail": {
+        "width": 1024,
+        "document": 1024,
+        "columns": 6,
+        "ruby": 0,
+        "cards": [
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "潮光獸，E 級，等級 1，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "石礁鰭，E 級，等級 2，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "泡沫貂，E 級，等級 3，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "海芽龜，E 級，等級 4，木屬性，點擊加入隊伍"
+          }
+        ]
+      }
+    },
+    {
+      "name": "iPad (gen 7)-quintus: selection supports zero, up to three, and cancellation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-quintus: duo uses new picker and requires matching team sizes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-quintus: selected team can enter a battle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-quintus: selecting and starting local battle preserves learning and resources",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-feifei: progress values belong to signed-in profile",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-feifei: parent has no document overflow",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-feifei: 768px cards, labels and ruby",
+      "pass": true,
+      "detail": {
+        "width": 768,
+        "document": 768,
+        "columns": 4,
+        "ruby": 0,
+        "cards": [
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "潮光獸，E 級，等級 1，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "石礁鰭，E 級，等級 2，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "泡沫貂，E 級，等級 3，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "海芽龜，E 級，等級 4，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "霧潮獺，E 級，等級 5，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "帆翼蛙，E 級，等級 6，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 160.5,
+            "h": 277.890625,
+            "label": "藻潮熊，E 級，等級 6，木屬性，點擊加入隊伍"
+          }
+        ]
+      }
+    },
+    {
+      "name": "iPad (gen 7)-feifei: 1024px cards, labels and ruby",
+      "pass": true,
+      "detail": {
+        "width": 1024,
+        "document": 1024,
+        "columns": 6,
+        "ruby": 0,
+        "cards": [
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "潮光獸，E 級，等級 1，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "石礁鰭，E 級，等級 2，土屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "泡沫貂，E 級，等級 3，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "海芽龜，E 級，等級 4，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.671875,
+            "h": 277.890625,
+            "label": "霧潮獺，E 級，等級 5，水屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "帆翼蛙，E 級，等級 6，木屬性，點擊加入隊伍"
+          },
+          {
+            "overflow": false,
+            "w": 139.65625,
+            "h": 277.890625,
+            "label": "藻潮熊，E 級，等級 6，木屬性，點擊加入隊伍"
+          }
+        ]
+      }
+    },
+    {
+      "name": "iPad (gen 7)-feifei: selection supports zero, up to three, and cancellation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-feifei: duo uses new picker and requires matching team sizes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-feifei: selected team can enter a battle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "iPad (gen 7)-feifei: selecting and starting local battle preserves learning and resources",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No application JavaScript exceptions",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": []
+}

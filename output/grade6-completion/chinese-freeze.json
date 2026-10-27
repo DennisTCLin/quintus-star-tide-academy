@@ -1,0 +1,69 @@
+{
+  "frozen": true,
+  "candidates": 326,
+  "ledgerRows": 578,
+  "statusCounts": {
+    "existing": 30,
+    "candidate": 326,
+    "open_ended": 40,
+    "missing_passage": 37,
+    "ambiguous": 6,
+    "pending_verification": 26,
+    "duplicate": 113
+  },
+  "perSource": {
+    "1": {
+      "ledger": 54,
+      "candidates": 34
+    },
+    "2": {
+      "ledger": 56,
+      "candidates": 40
+    },
+    "3": {
+      "ledger": 62,
+      "candidates": 50
+    },
+    "4": {
+      "ledger": 60,
+      "candidates": 36
+    },
+    "5": {
+      "ledger": 72,
+      "candidates": 47
+    },
+    "6": {
+      "ledger": 57,
+      "candidates": 36
+    },
+    "7": {
+      "ledger": 53,
+      "candidates": 32
+    },
+    "8": {
+      "ledger": 53,
+      "candidates": 0
+    },
+    "9": {
+      "ledger": 64,
+      "candidates": 28
+    },
+    "10": {
+      "ledger": 47,
+      "candidates": 23
+    }
+  },
+  "sha256": {
+    "candidates-final.json": "68fec0483a2f5c97bb36aa3258cedbb87d3fca25482a3db645ce196c65d3bbb4",
+    "ledger-final.json": "21f648d69b2684b8ba58ef9f4e016b18708ae38c92d585850c0bd85d7edfe9e0"
+  },
+  "notes": [
+    "全部PDF頁面已視覺檢視；DOCX9僅XML文字段落核對，page=null，未宣稱DOCX視覺渲染。",
+    "第7與第8原檔相同；8每小題均有duplicate對應，可能指向7的pending/open/missing狀態，不能假設每個原檔重複項必有可發布題。",
+    "原卷空格按國字注音逐字、改錯字逐錯字、經典填空逐格登錄；自由短語以整個作答框登錄，部分另記subitemCount。",
+    "字音以官方教育部search.jsp精確詞目與dictView連結覆核，不使用pypinyin推算；逐詞抓取證據另存moe-phonetics.json。",
+    "原有30題全部對齊既有canonicalLocator，source9既有page保持外部檔案原值；本次DOCX page一律null。",
+    "修正鹼味等無語境錯字題：每題補原義；質數定義已補1和本身。",
+    "國語4病入膏肓誤寫國別，候選省去國別，解剖題pending；國語1醫療題不匯入可能誤導診斷內容。"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source": "Battle.wav, provided by the user",
+  "sourceBytes": 14112114,
+  "sourceDurationSeconds": 80,
+  "asset": "public/assets/battle-music.mp3",
+  "bytes": 1601351,
+  "sha256": "6dd6833cd7a3cab4c44109324a2c44dc3069a522b7a91e9b5cf5dfa35a9e5f56",
+  "encoding": "MP3, 160kbps, 44.1kHz stereo; original WAV unchanged",
+  "loudness": {"targetLUFS": -18, "measuredLUFS": -18.39, "measuredTruePeakDBTP": -7.66},
+  "fadesSeconds": {"in": 0.08, "out": 0.2},
+  "playbackVolume": 0.3,
+  "loop": true,
+  "contexts": ["active arena battle, including final animation", "active quiz monster battle"],
+  "behavior": [
+    "Beat Lab remains on collection and team selection; homepage uses its configured track",
+    "Only one background track plays at a time",
+    "Narration and hidden tabs suspend music; manual pause survives track changes",
+    "Completed/failed quiz results and finished arena results stop battle music",
+    "Arena control sits beside the battle scene; quiz control sits in its scene header"
+  ]
+}

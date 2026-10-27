@@ -1,0 +1,80 @@
+{
+  "site": "https://quintus-star-tide-academy-production.up.railway.app",
+  "noAccountAccess": true,
+  "entry": "/assets/index.v-dbIJ5XGq.js",
+  "checks": [
+    {
+      "check": "health",
+      "pass": true
+    },
+    {
+      "check": "entry",
+      "path": "/assets/index.v-dbIJ5XGq.js",
+      "pass": true
+    },
+    {
+      "path": "/assets/index.v-dbIJ5XGq.js",
+      "bytes": 412936,
+      "mime": "text/javascript; charset=utf-8",
+      "sha256": "38cee5811bb6c602f0ace33d29225e6f5e82760b4ada634ba3ef4ca572bd35a7",
+      "pass": true
+    },
+    {
+      "path": "/assets/game-view.v-DjQLQpAC.css",
+      "bytes": 1260,
+      "mime": "text/css; charset=utf-8",
+      "sha256": "80bebb3fd3f3c62f510a09a4b9fb05b662fcb31faeedda3a3c418afe6fc5343a",
+      "pass": true
+    },
+    {
+      "path": "/assets/index.v-D_R2dUT_.css",
+      "bytes": 271628,
+      "mime": "text/css; charset=utf-8",
+      "sha256": "9a0cb3c2a82ee327e3cee4bf5d0ccfe39dbfd357291c57b1bbf6b109cdb3e2d1",
+      "pass": true
+    },
+    {
+      "path": "/assets/subject-islands/panorama-loop.mp4",
+      "bytes": 367795,
+      "mime": "video/mp4",
+      "sha256": "9171714c9f54ef72e4bba0148ca0b1646e807884f1dd910a65477130cbcc2fc1",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/idle.mp4",
+      "bytes": 188472,
+      "mime": "video/mp4",
+      "sha256": "f6cc96feb61334546928043f1aa559b2c03355d9b690b409ded83763feb936e4",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/listening.mp4",
+      "bytes": 213433,
+      "mime": "video/mp4",
+      "sha256": "51f8c243295e2f992afcf7831d717c5c6fdd3fdbb0c49f4a528b983fe69a40f0",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-guide/speaking.mp4",
+      "bytes": 178158,
+      "mime": "video/mp4",
+      "sha256": "89068c2c0c381e44b2699c68f50d40b164689768d1cb83ff31344d8597e55ac2",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-care/actions.webp",
+      "bytes": 61096,
+      "mime": "image/webp",
+      "sha256": "f215b2fb722d905f1187f077446635a6f25c79c8843be089a8e0562fc7ef5174",
+      "pass": true
+    },
+    {
+      "path": "/assets/tideglow-voice/kiki-care-20261025/highfive.mp3",
+      "bytes": 37677,
+      "mime": "audio/mpeg",
+      "sha256": "c8e73a72981f5dcbae893c3431b0d4be9679be3323ba12a4f905072707f3f30f",
+      "pass": true
+    }
+  ],
+  "pass": true
+}

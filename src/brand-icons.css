@@ -1,0 +1,18 @@
+/* Star Tide sea-glass icon system: teal facets, deep blue edges, gold star inlays. */
+.brand-glyph { position: relative; display: inline-flex; align-items: center; justify-content: center; flex: none; vertical-align: -.23em; line-height: 1; }
+.brand-icon { display: block; width: 1.28em; height: 1.28em; flex: none; overflow: visible; }
+.brand-symbol-text { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.brand-glyph-empty .brand-icon { opacity: .38; filter: saturate(.25); }
+.card-caption .brand-glyph { margin-inline: .07em; }
+.card-caption > span .brand-icon { width: 1.42em; height: 1.42em; }
+.card-caption small .brand-icon { width: 1.2em; height: 1.2em; }
+.course-icon .brand-icon { width: 1em; height: 1em; }
+.profile-symbol .brand-icon { width: 1.35em; height: 1.35em; }
+.portrait-badge .brand-icon { width: 1.05em; height: 1.05em; }
+.reward-icon .brand-icon { width: 1.1em; height: 1.1em; }
+.player-avatar .brand-icon { width: 75%; height: 75%; }
+.player-avatar > .brand-glyph { width: 100%; height: 100%; }
+.high-contrast .brand-icon { filter: contrast(1.12); }
+
+/* Do not display:none: Safari needs paint-server definitions available to <use>. */
+.brand-icon-sprite { position:absolute; width:0; height:0; overflow:hidden; pointer-events:none; }
