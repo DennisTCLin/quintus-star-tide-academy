@@ -11,6 +11,7 @@ import {GRADE2_MATH_EXAMS} from './grade2-math-exams';
 import {GRADE2_CHINESE_EXAMS} from './grade2-chinese-exams';
 import {GRADE1_CHINESE_EXAMS} from './grade1-chinese-exams';
 import {GRADE1_MATH_EXAMS} from './grade1-math-exams';
+import {GRADE1_TONES_MEDIALS_GENERATED} from './grade1-tones-medials-generated';
 import { ENGLISH_EXAMS } from "./english-exams";
 import { HANLIN_CHINESE_EXAMS } from "./hanlin-chinese-exams";
 import { MATH_EXAMS } from "./math-exams";
@@ -226,6 +227,7 @@ for (const grade of [1, 2] as const) {
 }
 LEARNING_BANK.push(...CHINESE_EXAMS, ...HANLIN_CHINESE_EXAMS, ...ENGLISH_EXAMS, ...SCIENCE_EXAMS, ...SOCIAL_EXAMS, ...MATH_EXAMS, ...GRADE1_MATH_EXAMS, ...GRADE1_CHINESE_EXAMS, ...GRADE2_CHINESE_EXAMS, ...GRADE2_MATH_EXAMS);
 LEARNING_BANK.push(...ENGLISH_FOUNDATIONS);
+LEARNING_BANK.push(...GRADE1_TONES_MEDIALS_GENERATED);
 LEARNING_BANK.push(...SCIENCE_INQUIRY_V1);
 LEARNING_BANK.push(...READING_CONTEXTS_V1);
 LEARNING_BANK.push(...EVIDENCE_CONTEXTS_V1);
