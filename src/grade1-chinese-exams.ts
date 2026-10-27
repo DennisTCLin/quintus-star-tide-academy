@@ -1,4 +1,5 @@
 import { GRADE1_CHINESE_EXTRA_EXAMS } from './grade1-chinese-extra-exams';
+import { GRADE1_CHINESE_KANGXUAN_EXAMS } from './grade1-chinese-kangxuan-exams';
 import type { LearningQuestion } from './learning';
 import type { ExamSource } from './exam-sources';
 // Reviewed transcription. Rebuild with scripts/imports/build-grade1-chinese.py.
@@ -946,4 +947,4 @@ const ORIGINAL_GRADE1_CHINESE_EXAMS:LearningQuestion[]=rows.map(row=>({
  prompt:row.prompt,speechText:row.speechText,options:row.options.map(text=>({text,zy:text})),
  answer:row.answer,hint:row.hint,explanation:row.explanation,
 }));
-export const GRADE1_CHINESE_EXAMS = [...ORIGINAL_GRADE1_CHINESE_EXAMS, ...GRADE1_CHINESE_EXTRA_EXAMS];
+export const GRADE1_CHINESE_EXAMS = [...ORIGINAL_GRADE1_CHINESE_EXAMS, ...GRADE1_CHINESE_EXTRA_EXAMS, ...GRADE1_CHINESE_KANGXUAN_EXAMS];

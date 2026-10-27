@@ -16,6 +16,8 @@ const accountPhotos: Record<string, { playerId: PlayerId; photo: string | null }
   alan: { playerId: "quintus", photo: "/players/alan.jpg?v=1" },
   jimmy: { playerId: "feifei", photo: "/players/jimmy.jpg?v=1" },
   brownie: { playerId: "quintus", photo: "/players/brownie.jpg?v=1" },
+  dennistc: { playerId: "alston", photo: null },
+  trial_g6: { playerId: "alston", photo: null },
 };
 const AccountAvatarContext = createContext<{ username: string; playerId?: PlayerId | null } | null>(null);
 export const AccountAvatarProvider = AccountAvatarContext.Provider;

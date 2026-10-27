@@ -1,6 +1,7 @@
 import originalRows from './data/math-exams-20261025.json';
 import nanyiRows from './data/math-nanyi-20261026.json';
-const rows: (typeof originalRows[number])[]=[...originalRows,...nanyiRows];
+import g4mathKangxuanRows from './data/g4-math-kangxuan-114mid.json';
+const rows: (typeof originalRows[number])[]=[...originalRows,...nanyiRows,...g4mathKangxuanRows];
 import type { LearningQuestion } from './learning';
 import { EXAM_SOURCES, type ExamSource } from './exam-sources';
 const unique=new Map<string,LearningQuestion>();

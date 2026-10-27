@@ -1,6 +1,7 @@
 import originalRows from './data/social-exams-20261025.json';
 import supplementRows from './data/social-supplement-20261026.json';
-const rows: typeof originalRows = [...originalRows, ...supplementRows];
+import g4socialKangxuanRows from './data/g4-social-kangxuan-114mid.json';
+const rows: typeof originalRows = [...originalRows, ...supplementRows, ...g4socialKangxuanRows];
 import type { LearningQuestion } from './learning';
 import { EXAM_SOURCES, type ExamSource } from './exam-sources';
 const unique=new Map<string,LearningQuestion>();
