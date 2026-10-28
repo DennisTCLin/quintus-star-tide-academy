@@ -2,6 +2,7 @@ import {expect,it} from 'vitest';
 import {readFileSync,existsSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {GRADE6_SUPPLEMENT_EXAMS as bank} from '../grade6-supplement-exams';
+import {GRADE6_GENERAL_PRACTICE} from '../grade6-general-practice';
 import {questionById} from '../learning';
 import {allocateQuestions,freshLearning} from '../learning-engine';
 import {markMastered} from '../mastered-questions';
@@ -19,7 +20,7 @@ it('binds every figure to original PDF crop provenance and shipped bytes',()=>{
 });
 it('does not allocate withdrawn questions but can finish an already-saved review',()=>{
  const withdrawn=bank.filter(q=>q.retired);expect(withdrawn).toHaveLength(2);
- const l=freshLearning();l.school='jianan';for(const q of bank.filter(q=>q.course==='chinese'&&!q.retired))markMastered(l,q.id);
+ const l=freshLearning();l.school='jianan';for(const q of bank.filter(q=>q.course==='chinese'&&!q.retired))markMastered(l,q.id);for(const q of GRADE6_GENERAL_PRACTICE.filter(q=>q.course==='chinese'))markMastered(l,q.id);
  const before=structuredClone(l.mastered);expect(()=>allocateQuestions(l,6,'chinese',1)).toThrow();expect(l.mastered).toEqual(before);
  const s=freshLearning();s.school='jianan';const q=withdrawn[0];markMastered(s,q.id);expect(()=>startStudy(s,6,'2026-10-27','new','all','chinese')).toThrow();
  // A session saved before withdrawal must retain its answer contract.

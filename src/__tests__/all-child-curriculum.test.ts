@@ -13,7 +13,6 @@ for(const [username,player,grade,school,courses] of cases)it(`${username}: every
    const q=questionById(id)!;expect(q.grade).toBe(grade);expect(q.publisher).toBe(publisher);expect(available.some(x=>x.id===id)).toBe(true);expect(id).not.toBe(available[0].id);
   }
   for(const q of available)markMastered(s,q.id);
-  if(grade!==6)expect(allocateQuestions(s,grade,course as any,6).every(x=>!questionById(x.id)?.examSources)).toBe(true);
-  else expect(()=>allocateQuestions(s,grade,course as any,6)).toThrow();
+  expect(allocateQuestions(s,grade,course as any,6).every(x=>!questionById(x.id)?.examSources)).toBe(true);
  }
 });

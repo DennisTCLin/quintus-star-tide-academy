@@ -98,7 +98,7 @@ export function speak(
     const missing = parts.find(part => !selectSpeechVoice(voices, part.lang));
     if (missing) {
       fail(missing.lang === "zh-TW"
-        ? "此裝置尚未提供臺灣中文語音。請先安裝臺灣中文語音，或播放題目錄音。"
+        ? "此裝置暫無臺灣中文語音，可直接閱讀題目作答。"
         : "此裝置尚未提供英文語音，請先在裝置設定中安裝英文語音。");
       return;
     }

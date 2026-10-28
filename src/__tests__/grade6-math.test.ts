@@ -1,5 +1,6 @@
 import {describe,it,expect} from 'vitest';
 import {GRADE6_MATH_EXAMS} from '../grade6-math-exams';
+import {GRADE6_GENERAL_PRACTICE} from '../grade6-general-practice';
 import {newFamily,validateFamily,startRun} from '../adventure';
 import {freshLearning,allocateQuestions} from '../learning-engine';
 import {markMastered} from '../mastered-questions';
@@ -33,10 +34,10 @@ describe('Alston grade-six curriculum and migration',()=>{
   expect(f.profiles.alston.run!.questions.every(id=>questionById(id)?.grade===6)).toBe(true);
   expect(validateFamily(f)).toEqual(f);expect(COURSES[6].map(c=>c.id)).toEqual(['math','english','chinese','science','social']);
   expect(()=>routeForCourse(6,'tones')).toThrow();expect(coursePublisher('jianan',6,'math')).toBe('康軒');expect(curriculumNotice('jianan',6)).toContain('草案');
-  for(const school of [undefined,'nantun'] as const){const l=freshLearning();l.school=school;expect(()=>allocateQuestions(l,6,'math',6)).toThrow();}
+  for(const school of [undefined,'nantun'] as const){const l=freshLearning();l.school=school;const alloc=allocateQuestions(l,6,'math',6);expect(alloc).toHaveLength(6);expect(alloc.every(a=>questionById(a.id)?.grade===6)).toBe(true);}
  });
  it('never falls back to lower-grade questions or resets mastery when grade-six content runs out',()=>{
-  const l=freshLearning();l.school='jianan';for(const q of GRADE6_MATH_EXAMS)markMastered(l,q.id);
+  const l=freshLearning();l.school='jianan';for(const q of GRADE6_MATH_EXAMS)markMastered(l,q.id);for(const q of GRADE6_GENERAL_PRACTICE.filter(q=>q.course==='math'))markMastered(l,q.id);
   const before=structuredClone(l);expect(()=>allocateQuestions(l,6,'math',6)).toThrow();expect(l).toEqual(before);
  });
  it('reviews known grade-six questions without changing rewards or mastery',()=>{

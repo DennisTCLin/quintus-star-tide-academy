@@ -7,6 +7,7 @@ import { GRADE5_STARTER } from './grade5-starter';
 import {GRADE6_SUPPLEMENT_EXAMS} from './grade6-supplement-exams';
 import {GRADE6_ENGLISH_EXAMS} from './grade6-english-exams';
 import {GRADE6_MATH_EXAMS} from './grade6-math-exams';
+import {GRADE6_GENERAL_PRACTICE} from './grade6-general-practice';
 import {GRADE2_MATH_EXAMS} from './grade2-math-exams';
 import {GRADE2_CHINESE_EXAMS} from './grade2-chinese-exams';
 import {GRADE1_CHINESE_EXAMS} from './grade1-chinese-exams';
@@ -94,7 +95,7 @@ const words = garden.themes.flatMap((theme, t) =>
     theme: theme.id,
   })),
 );
-export const LEARNING_BANK: LearningQuestion[] = [...GRADE5_NEW_EXAMS, ...GRADE5_DONGMEN_EXAMS, ...GRADE5_REMAINING_EXAMS, ...GRADE5_STARTER, ...GRADE5_MATH_EXTRA, ...GRADE5_GENERAL, ...GRADE6_MATH_EXAMS, ...GRADE6_ENGLISH_EXAMS, ...GRADE6_SUPPLEMENT_EXAMS];
+export const LEARNING_BANK: LearningQuestion[] = [...GRADE5_NEW_EXAMS, ...GRADE5_DONGMEN_EXAMS, ...GRADE5_REMAINING_EXAMS, ...GRADE5_STARTER, ...GRADE5_MATH_EXTRA, ...GRADE5_GENERAL, ...GRADE6_MATH_EXAMS, ...GRADE6_ENGLISH_EXAMS, ...GRADE6_SUPPLEMENT_EXAMS, ...GRADE6_GENERAL_PRACTICE];
 for (const grade of [1, 2] as const) {
   for (const [i, w] of words.entries()) {
     if (grade === 1 && w.theme === "camp") continue;

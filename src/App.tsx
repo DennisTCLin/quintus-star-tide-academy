@@ -435,7 +435,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
   const label = (text: string, _zy?: string) =>
     readingGrade === 2 ? <AutoRuby text={text} /> : text;
   const say = (text: string) => {
-    if (voice && allowsReadAloud(readingGrade)) speak(text, setNotice);
+    if (voice && allowsReadAloud(readingGrade)) speak(text);
   };
   async function change<T = boolean>(
     command: Record<string, unknown>,
@@ -471,7 +471,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
     stopVoice();
     heading.current?.focus({ preventScroll: true });
     resetFamilyScroll();
-    if (id && voice && allowsReadAloud(readingGrade)) speak(guides[page], setNotice);
+    if (id && voice && allowsReadAloud(readingGrade)) speak(guides[page]);
     return () => stopVoice();
   }, [page, id, readingGrade, voice]);
   useEffect(() => {

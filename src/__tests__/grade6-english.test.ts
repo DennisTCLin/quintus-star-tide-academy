@@ -1,6 +1,7 @@
 import {it,expect} from 'vitest';
 import {GRADE6_ENGLISH_EXAMS} from '../grade6-english-exams';
 import {GRADE6_MATH_EXAMS} from '../grade6-math-exams';
+import {GRADE6_GENERAL_PRACTICE} from '../grade6-general-practice';
 import {freshLearning,allocateQuestions} from '../learning-engine';
 import {newFamily,startRun,validateFamily} from '../adventure';
 import {questionById} from '../learning';
@@ -22,10 +23,10 @@ it('serves six English questions to Jianan grade six without replacing the math 
  expect(r.encounter.route?.island).toBe('water');expect(validateFamily(f)).toEqual(f);expect(coursePublisher('jianan',6,'english')).toBe('何嘉仁');
  const l=freshLearning();l.school='jianan';expect(allocateQuestions(l,6,'math',6).every(a=>GRADE6_MATH_EXAMS.some(q=>q.id===a.id))).toBe(true);
  for(const grade of [1,4] as const){const l=freshLearning();l.school='jianan';expect(allocateQuestions(l,grade,'english',6).every(a=>questionById(a.id)!.grade===grade)).toBe(true);}
- for(const school of [undefined,'nantun'] as const){const l=freshLearning();l.school=school;expect(()=>allocateQuestions(l,6,'english',6)).toThrow();}
+ for(const school of [undefined,'nantun'] as const){const l=freshLearning();l.school=school;const alloc=allocateQuestions(l,6,'english',6);expect(alloc).toHaveLength(6);expect(alloc.every(a=>questionById(a.id)?.grade===6)).toBe(true);}
 });
 it('preserves mastery and rewards, supports English review, and never falls back to lower grades on exhaustion',()=>{
- const f=newFamily(),p=f.profiles.alston;p.learning.school='jianan';for(const q of GRADE6_ENGLISH_EXAMS)markMastered(p.learning,q.id);
+ const f=newFamily(),p=f.profiles.alston;p.learning.school='jianan';for(const q of GRADE6_ENGLISH_EXAMS)markMastered(p.learning,q.id);for(const q of GRADE6_GENERAL_PRACTICE.filter(q=>q.course==='english'))markMastered(p.learning,q.id);
  const before=structuredClone(p);expect(()=>allocateQuestions(p.learning,6,'english',6)).toThrow();expect(p).toEqual(before);
  startStudy(p.learning,6,'2026-10-26','reviewenglish','all');const q=questionById(p.learning.study!.session!.questions[0])!;expect(q.grade).toBe(6);expect(q.course).toBe('english');answerStudy(p.learning,6,'reviewenglish',0,q.answer,'2026-10-26');
  expect(p.coins).toBe(before.coins);expect(p.tickets).toBe(before.tickets);expect(p.learning.mastered).toEqual(before.learning.mastered);
