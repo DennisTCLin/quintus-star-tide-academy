@@ -22,6 +22,9 @@ export default function SteppedQuestion({
   const [selected, setSelected] = useState<(number | null)[]>(() =>
     steps.map(() => null),
   );
+  const [fieldValues, setFieldValues] = useState<string[][]>(() =>
+    steps.map((s) => (s.fields ?? []).map(() => "")),
+  );
   const [wrongCounts, setWrongCounts] = useState<number[]>(() =>
     steps.map(() => 0),
   );
@@ -40,86 +43,125 @@ export default function SteppedQuestion({
     });
   }, []);
 
-  const handleSelect = useCallback(
+  const advanceToNext = useCallback(
+    (stepIndex: number) => {
+      if (stepIndex + 1 < steps.length) {
+        setCurrentStep(stepIndex + 1);
+        setTimeout(() => {
+          setShowCorrectText(null);
+          scrollToStep(stepIndex + 1);
+        }, 800);
+      } else {
+        setCompleted(true);
+        setTimeout(() => setShowCorrectText(null), 1200);
+        onComplete(!hadWrong.current);
+      }
+    },
+    [steps.length, scrollToStep, onComplete],
+  );
+
+  const markCorrect = useCallback(
+    (stepIndex: number, step: QuestionStep) => {
+      setFeedback(null);
+      setShowCorrectText(step.onCorrectText ?? null);
+      setStepStates((prev) => {
+        const next = [...prev];
+        next[stepIndex] = "correct";
+        if (stepIndex + 1 < steps.length) next[stepIndex + 1] = "active";
+        return next;
+      });
+      advanceToNext(stepIndex);
+    },
+    [steps.length, advanceToNext],
+  );
+
+  const markWrong = useCallback(
+    (stepIndex: number, step: QuestionStep, fbText?: string) => {
+      hadWrong.current = true;
+      setWrongCounts((prev) => {
+        const next = [...prev];
+        next[stepIndex]++;
+        return next;
+      });
+      setFeedback(fbText ?? step.wrongFeedback ?? step.hint ?? "再想想看，仔細看題目的條件。");
+      setShowCorrectText(null);
+      setStepStates((prev) => {
+        const next = [...prev];
+        next[stepIndex] = "wrong";
+        return next;
+      });
+      setTimeout(() => {
+        setStepStates((prev) => {
+          const next = [...prev];
+          next[stepIndex] = "active";
+          return next;
+        });
+        setFeedback(null);
+      }, 1600);
+    },
+    [],
+  );
+
+  const handleMcqSelect = useCallback(
     (stepIndex: number, optionIndex: number) => {
       if (disabled || completed || stepStates[stepIndex] !== "active") return;
-
       const step = steps[stepIndex];
-      const isCorrect = optionIndex === step.answer;
-
       setSelected((prev) => {
         const next = [...prev];
         next[stepIndex] = optionIndex;
         return next;
       });
-
-      if (isCorrect) {
-        setFeedback(null);
-        setShowCorrectText(step.onCorrectText ?? null);
-        setStepStates((prev) => {
-          const next = [...prev];
-          next[stepIndex] = "correct";
-          if (stepIndex + 1 < steps.length) {
-            next[stepIndex + 1] = "active";
-          }
-          return next;
-        });
-
-        if (stepIndex + 1 < steps.length) {
-          setCurrentStep(stepIndex + 1);
-          setTimeout(() => {
-            setShowCorrectText(null);
-            scrollToStep(stepIndex + 1);
-          }, 800);
-        } else {
-          setCompleted(true);
-          setTimeout(() => setShowCorrectText(null), 1200);
-          onComplete(!hadWrong.current);
-        }
+      if (optionIndex === step.answer) {
+        markCorrect(stepIndex, step);
       } else {
-        hadWrong.current = true;
-        setWrongCounts((prev) => {
-          const next = [...prev];
-          next[stepIndex]++;
-          return next;
-        });
-
-        const option = step.options[optionIndex];
-        const fb =
-          option.wrongFeedback ??
-          step.hint ??
-          "再想想看，仔細看題目的條件。";
-        setFeedback(fb);
-        setShowCorrectText(null);
-
-        setStepStates((prev) => {
-          const next = [...prev];
-          next[stepIndex] = "wrong";
-          return next;
-        });
-
+        const option = step.options?.[optionIndex];
+        markWrong(stepIndex, step, option?.wrongFeedback);
         setTimeout(() => {
           setSelected((prev) => {
             const next = [...prev];
             next[stepIndex] = null;
             return next;
           });
-          setStepStates((prev) => {
-            const next = [...prev];
-            next[stepIndex] = "active";
-            return next;
-          });
-          setFeedback(null);
         }, 1600);
       }
     },
-    [disabled, completed, stepStates, steps, scrollToStep, onComplete],
+    [disabled, completed, stepStates, steps, markCorrect, markWrong],
+  );
+
+  const handleInputSubmit = useCallback(
+    (stepIndex: number) => {
+      if (disabled || completed || stepStates[stepIndex] !== "active") return;
+      const step = steps[stepIndex];
+      const fields = step.fields ?? [];
+      const values = fieldValues[stepIndex];
+      const allCorrect = fields.every(
+        (f, i) => values[i]?.trim() === f.answer,
+      );
+      if (allCorrect) {
+        markCorrect(stepIndex, step);
+      } else {
+        markWrong(stepIndex, step);
+      }
+    },
+    [disabled, completed, stepStates, steps, fieldValues, markCorrect, markWrong],
+  );
+
+  const setFieldValue = useCallback(
+    (stepIndex: number, fieldIndex: number, value: string) => {
+      setFieldValues((prev) => {
+        const next = prev.map((row) => [...row]);
+        next[stepIndex][fieldIndex] = value;
+        return next;
+      });
+    },
+    [],
   );
 
   useEffect(() => {
     setCurrentStep(0);
     setStepStates(steps.map((_, i) => (i === 0 ? "active" : "locked")));
     setSelected(steps.map(() => null));
+    setFieldValues(steps.map((s) => (s.fields ?? []).map(() => "")));
     setWrongCounts(steps.map(() => 0));
     setFeedback(null);
     setShowCorrectText(null);
@@ -133,7 +175,9 @@ export default function SteppedQuestion({
         <PhoneticText text={question.prompt} />
       </div>
 
-      <div className="stepped-progress" role="progressbar"
+      <div
+        className="stepped-progress"
+        role="progressbar"
         aria-valuenow={stepStates.filter((s) => s === "correct").length}
         aria-valuemax={steps.length}
         aria-label="解題步驟進度"
@@ -156,11 +200,14 @@ export default function SteppedQuestion({
             totalSteps={steps.length}
             state={stepStates[stepIndex]}
             selectedOption={selected[stepIndex]}
+            fieldValues={fieldValues[stepIndex]}
             wrongCount={wrongCounts[stepIndex]}
             disabled={disabled}
             feedback={stepIndex === currentStep ? feedback : null}
             correctText={stepIndex === currentStep ? showCorrectText : null}
-            onSelect={(optionIndex) => handleSelect(stepIndex, optionIndex)}
+            onMcqSelect={(optionIndex) => handleMcqSelect(stepIndex, optionIndex)}
+            onInputSubmit={() => handleInputSubmit(stepIndex)}
+            onFieldChange={(fi, val) => setFieldValue(stepIndex, fi, val)}
           />
         ))}
       </div>
@@ -186,23 +233,38 @@ function StepCard({
   totalSteps,
   state,
   selectedOption,
+  fieldValues,
   wrongCount,
   disabled,
   feedback,
   correctText,
-  onSelect,
+  onMcqSelect,
+  onInputSubmit,
+  onFieldChange,
 }: {
   step: QuestionStep;
   stepIndex: number;
   totalSteps: number;
   state: StepState;
   selectedOption: number | null;
+  fieldValues: string[];
   wrongCount: number;
   disabled: boolean;
   feedback: string | null;
   correctText: string | null;
-  onSelect: (optionIndex: number) => void;
+  onMcqSelect: (optionIndex: number) => void;
+  onInputSubmit: () => void;
+  onFieldChange: (fieldIndex: number, value: string) => void;
 }) {
+  const mode = step.mode ?? "mcq";
+  const firstInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (state === "active" && mode === "input") {
+      setTimeout(() => firstInputRef.current?.focus(), 450);
+    }
+  }, [state, mode]);
+
   return (
     <div
       className={`step-card step-${state}`}
@@ -218,7 +280,7 @@ function StepCard({
         </span>
       </div>
 
-      {state !== "locked" && (
+      {state !== "locked" && mode === "mcq" && step.options && (
         <div className="step-options">
           {step.options.map((option, i) => (
             <button
@@ -234,12 +296,60 @@ function StepCard({
                       : ""
                   : ""
               } ${state === "correct" && i === step.answer ? "step-option-correct" : ""}`}
-              onClick={() => onSelect(i)}
+              onClick={() => onMcqSelect(i)}
               aria-label={`選項 ${i + 1}：${option.text}`}
             >
               <PhoneticText text={option.text} />
             </button>
           ))}
+        </div>
+      )}
+
+      {state !== "locked" && mode === "input" && step.fields && (
+        <div className="step-input-row">
+          {step.template ? (
+            <TemplateFields
+              template={step.template}
+              fields={step.fields}
+              values={fieldValues}
+              disabled={disabled || state === "correct"}
+              state={state}
+              firstInputRef={firstInputRef}
+              onChange={onFieldChange}
+              onSubmit={onInputSubmit}
+            />
+          ) : (
+            step.fields.map((field, fi) => (
+              <input
+                key={fi}
+                ref={fi === 0 ? firstInputRef : undefined}
+                type="text"
+                inputMode="numeric"
+                pattern="[0-9/⋯]*"
+                placeholder={field.label ?? "?"}
+                value={state === "correct" ? field.answer : fieldValues[fi]}
+                disabled={disabled || state === "correct"}
+                className={`step-input step-input-${field.width ?? "medium"} ${
+                  state === "wrong" ? "step-input-wrong" : ""
+                } ${state === "correct" ? "step-input-correct" : ""}`}
+                onChange={(e) => onFieldChange(fi, e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") onInputSubmit();
+                }}
+                aria-label={field.label ?? `填入答案 ${fi + 1}`}
+              />
+            ))
+          )}
+          {state === "active" && (
+            <button
+              type="button"
+              className="step-submit"
+              disabled={disabled || fieldValues.some((v) => !v.trim())}
+              onClick={onInputSubmit}
+            >
+              確認
+            </button>
+          )}
         </div>
       )}
 
@@ -264,5 +374,63 @@ function StepCard({
         </div>
       )}
     </div>
+  );
+}
+
+function TemplateFields({
+  template,
+  fields,
+  values,
+  disabled,
+  state,
+  firstInputRef,
+  onChange,
+  onSubmit,
+}: {
+  template: string;
+  fields: { label?: string; answer: string; width?: "short" | "medium" | "long" }[];
+  values: string[];
+  disabled: boolean;
+  state: StepState;
+  firstInputRef: React.RefObject<HTMLInputElement | null>;
+  onChange: (fi: number, val: string) => void;
+  onSubmit: () => void;
+}) {
+  const parts = template.split(/(\{[0-9]+\})/);
+  let inputCount = 0;
+
+  return (
+    <span className="step-template">
+      {parts.map((part, pi) => {
+        const match = part.match(/^\{([0-9]+)\}$/);
+        if (match) {
+          const fi = Number(match[1]);
+          const field = fields[fi];
+          if (!field) return null;
+          const idx = inputCount++;
+          return (
+            <input
+              key={pi}
+              ref={idx === 0 ? firstInputRef : undefined}
+              type="text"
+              inputMode="numeric"
+              pattern="[0-9/⋯]*"
+              placeholder={field.label ?? "?"}
+              value={state === "correct" ? field.answer : values[fi]}
+              disabled={disabled}
+              className={`step-input step-input-${field.width ?? "medium"} ${
+                state === "wrong" ? "step-input-wrong" : ""
+              } ${state === "correct" ? "step-input-correct" : ""}`}
+              onChange={(e) => onChange(fi, e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") onSubmit();
+              }}
+              aria-label={field.label ?? `填入答案`}
+            />
+          );
+        }
+        return <span key={pi} className="step-template-text">{part}</span>;
+      })}
+    </span>
   );
 }

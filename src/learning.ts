@@ -49,12 +49,28 @@ export type StepChoice = {
   /** Feedback shown when this wrong option is selected */
   wrongFeedback?: string;
 };
+export type InputField = {
+  /** Placeholder label shown in the empty field */
+  label?: string;
+  /** The correct numeric answer as a string */
+  answer: string;
+  /** Width hint: 'short' (1-2 digits), 'medium' (3-4 digits), 'long' (5+) */
+  width?: "short" | "medium" | "long";
+};
 export type QuestionStep = {
   prompt: string;
-  options: StepChoice[];
-  answer: number;
+  /** 'mcq' (default) = multiple choice; 'input' = fill-in number fields */
+  mode?: "mcq" | "input";
+  /** For mcq mode */
+  options?: StepChoice[];
+  answer?: number;
+  /** For input mode: fields the student fills in */
+  fields?: InputField[];
+  /** Static text between/around fields, e.g. the operator symbol "×" */
+  template?: string;
   hint?: string;
   onCorrectText?: string;
+  wrongFeedback?: string;
 };
 export type LearningQuestion = {
   id: string;
