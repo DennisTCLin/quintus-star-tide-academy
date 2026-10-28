@@ -1,4 +1,5 @@
 import {ensureTrialSchema,trialAccountRoutes} from './trial-accounts.mjs';
+import {ensureInviteSchema,inviteCodeRoutes} from './invite-codes.mjs';
 import {trialCurriculumFor} from './trial-curricula.mjs';
 import {readAdminPresence,readAdminParentReport} from './admin-reports.mjs';
 import { ensureAdminAccessSchema, adminAccessRoutes, sessionInfo, allStudents, canGrant, grantLimit, authorizeStudent } from './admin-access.mjs';
@@ -79,6 +80,7 @@ export async function readAdminStudents(pool, admin) {
 export async function createAdminService({pool, production, limit, readBody, send}) {
   await ensureAdminSchema(pool);
   await ensureTrialSchema(pool);
+  await ensureInviteSchema(pool);
   const cookieName = production ? '__Host-star-tide-admin' : 'star-tide-admin';
   const cookie = (value, age=28800) => `${cookieName}=${value}; Path=/; HttpOnly; SameSite=Strict; Max-Age=${age}${production ? '; Secure' : ''}`;
   async function authenticate(req, db=pool, lock=false) {
@@ -92,6 +94,7 @@ export async function createAdminService({pool, production, limit, readBody, sen
   }
   const access=adminAccessRoutes({pool,authenticate,readBody,send,limit});
   const trials=trialAccountRoutes({pool,authenticate,readBody,send,limit});
+  const invites=inviteCodeRoutes({pool,authenticate,readBody,send,limit});
   return async (req,res,path) => {
     if (path === '/api/admin/login') {
       need(req.method==='POST','不支援的方法',405);
@@ -125,6 +128,7 @@ export async function createAdminService({pool, production, limit, readBody, sen
     if(admin.must_change_password && path!=='/api/admin/password') need(false,'請先更換初始密碼',403);
     if(await access(req,res,path,admin)) return;
     if(await trials(req,res,path,admin)) return;
+    if(await invites(req,res,path,admin)) return;
     if(path==='/api/admin/presence' && req.method==='GET'){send(res,200,await readAdminPresence(pool,admin));return;}
     if(path.startsWith('/api/admin/parent/') && req.method==='GET'){
       need(admin.role==='super_admin','家長艙目前由超級管理員查看',403);

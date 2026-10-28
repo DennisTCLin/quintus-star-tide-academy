@@ -1,5 +1,6 @@
 import { applySchoolCurriculum } from "./school-roster.mjs";
 import { createAdminService } from './admin.mjs';
+import { redeemInviteCode } from './invite-codes.mjs';
 import { createDragonProvider } from './dragon-provider.mjs';
 import { createGuideService } from './dragon-guide.mjs';
 import { createCompanionVoiceProvider } from './companion-voice-provider.mjs';
@@ -598,6 +599,20 @@ export async function createCloudApi({
           403,
         );
       if (path.startsWith('/api/admin/')) { await adminService(req,res,path); return; }
+      if (path === '/api/redeem-invite') {
+        assert(req.method === 'POST', '不支援的方法', 405);
+        const ip = production ? String(req.headers['x-forwarded-for'] || req.socket.remoteAddress).split(',').at(-1).trim() : req.socket.remoteAddress;
+        await limit('invite-ip:' + ip, 20, 600);
+        const body = await readBody(req);
+        fields(body, ['code', 'username', 'password', 'displayName']);
+        await limit('invite-code:' + String(body.code).toUpperCase(), 10, 600);
+        const result = await redeemInviteCode(pool, body, newSession);
+        const row = (await pool.query('SELECT * FROM game_states WHERE account_id=$1', [result.accountId])).rows[0];
+        const member = {member_id: result.memberId, username: body.username.toLowerCase(), player_id: result.playerId, display_name: body.displayName.trim(), trial_curriculum: null};
+        const state = publicState(row, member, result.session.csrf);
+        send(res, 200, state, {'Set-Cookie': cookie(result.session.secret)});
+        return;
+      }
       const authPath = ["/api/register", "/api/login", "/api/recover"].includes(
         path,
       );

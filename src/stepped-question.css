@@ -1,0 +1,296 @@
+.stepped-question {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 4px;
+}
+
+.stepped-stem {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.4;
+  padding: 8px 0;
+}
+
+/* ── Progress dots ── */
+
+.stepped-progress {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 4px 0 8px;
+}
+
+.stepped-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-border, #d1d5db);
+  transition: background 0.35s cubic-bezier(0.2, 0, 0, 1),
+              transform 0.35s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.stepped-dot.active {
+  background: var(--color-accent, #3b82f6);
+  transform: scale(1.3);
+}
+
+.stepped-dot.correct {
+  background: var(--color-success, #22c55e);
+}
+
+.stepped-dot.wrong {
+  background: var(--color-danger, #ef4444);
+}
+
+/* ── Step cards ── */
+
+.stepped-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.step-card {
+  border-radius: 14px;
+  padding: 14px 16px;
+  background: var(--color-surface, #f9fafb);
+  border: 1.5px solid var(--color-border, #e5e7eb);
+  transition: opacity 0.4s cubic-bezier(0.2, 0, 0, 1),
+              transform 0.4s cubic-bezier(0.2, 0, 0, 1),
+              border-color 0.3s ease;
+}
+
+.step-locked {
+  opacity: 0.35;
+  transform: scale(0.97);
+  pointer-events: none;
+}
+
+.step-active {
+  opacity: 1;
+  transform: scale(1);
+  border-color: var(--color-accent, #3b82f6);
+  animation: step-reveal 0.45s cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+
+.step-correct {
+  opacity: 0.7;
+  transform: scale(0.98);
+  border-color: var(--color-success, #22c55e);
+}
+
+.step-wrong {
+  border-color: var(--color-danger, #ef4444);
+  animation: step-shake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97);
+}
+
+@keyframes step-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes step-shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-3px); }
+  80% { transform: translateX(2px); }
+}
+
+/* ── Step header ── */
+
+.step-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.step-number {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--color-accent, #3b82f6);
+  transition: background 0.3s ease;
+}
+
+.step-correct .step-number {
+  background: var(--color-success, #22c55e);
+}
+
+.step-wrong .step-number {
+  background: var(--color-danger, #ef4444);
+}
+
+.step-prompt {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* ── Options grid ── */
+
+.step-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.step-option {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1.5px solid var(--color-border, #d1d5db);
+  background: var(--color-bg, #fff);
+  font-size: 0.95rem;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.15s cubic-bezier(0.2, 0, 0, 1),
+              border-color 0.2s ease,
+              background 0.2s ease;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.step-option:active:not(:disabled) {
+  transform: scale(0.96);
+}
+
+.step-option:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.step-option-correct {
+  border-color: var(--color-success, #22c55e);
+  background: rgba(34, 197, 94, 0.12);
+  animation: option-pop 0.35s cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+
+.step-option-wrong {
+  border-color: var(--color-danger, #ef4444);
+  background: rgba(239, 68, 68, 0.1);
+}
+
+@keyframes option-pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+  100% { transform: scale(1); }
+}
+
+/* ── Feedback messages ── */
+
+.step-feedback {
+  margin-top: 8px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  animation: feedback-in 0.3s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.step-feedback-icon {
+  flex-shrink: 0;
+}
+
+.step-feedback-wrong {
+  background: rgba(239, 68, 68, 0.08);
+  color: var(--color-danger, #dc2626);
+}
+
+.step-feedback-correct {
+  background: rgba(34, 197, 94, 0.08);
+  color: var(--color-success, #16a34a);
+}
+
+.step-hint {
+  margin-top: 6px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  background: rgba(59, 130, 246, 0.08);
+  color: var(--color-accent, #2563eb);
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  animation: feedback-in 0.3s cubic-bezier(0.2, 0, 0, 1);
+}
+
+@keyframes feedback-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Completion banner ── */
+
+.stepped-completion {
+  text-align: center;
+  padding: 16px;
+  border-radius: 14px;
+  background: rgba(34, 197, 94, 0.1);
+  animation: completion-in 0.5s cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+
+.stepped-completion-icon {
+  display: block;
+  font-size: 1.8rem;
+  margin-bottom: 4px;
+}
+
+.stepped-completion p {
+  margin: 0;
+  font-weight: 600;
+  color: var(--color-success, #16a34a);
+}
+
+@keyframes completion-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* ── Reduced motion ── */
+
+@media (prefers-reduced-motion: reduce) {
+  .step-card,
+  .stepped-dot,
+  .step-option,
+  .step-feedback,
+  .step-hint,
+  .stepped-completion {
+    animation: none;
+    transition: opacity 200ms ease, border-color 200ms ease, background 200ms ease;
+    transform: none !important;
+  }
+
+  .step-locked {
+    transform: none;
+    opacity: 0.35;
+  }
+}

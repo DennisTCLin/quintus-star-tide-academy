@@ -1,4 +1,5 @@
 import AdminTrialPanel from './AdminTrialPanel';
+import AdminInvitePanel from './AdminInvitePanel';
 import { clientId as createClientId } from "./client-id";
 import AbilityRadar from './AbilityRadar';
 import {schoolDisplayName as school} from './school-curriculum';
@@ -33,7 +34,7 @@ const runStatus:Record<string,string>={active:'進行中',won:'已完成',failed
 export default function AdminConsole() {
   const authEpoch=useRef(0),refreshSequence=useRef(0);
   const [radarSubject,setRadarSubject]=useState<Subject>('math'),[reportsStale,setReportsStale]=useState(false);
-  const [view,setView]=useState<'learning'|'parent'|'access'|'trials'|'password'>('learning');
+  const [view,setView]=useState<'learning'|'parent'|'access'|'trials'|'invites'|'password'>('learning');
   const [session,setSession]=useState<Session|null>(null),[checking,setChecking]=useState(true);
   const [username,setUsername]=useState(''),[password,setPassword]=useState('');
   const [students,setStudents]=useState<Student[]>([]),[selected,setSelected]=useState(''),[search,setSearch]=useState('');
@@ -136,8 +137,9 @@ export default function AdminConsole() {
           <label>密碼<input type="password" autoComplete="current-password" value={password} onChange={e=>setPassword(e.target.value)} required maxLength={128}/></label>
           <button className="admin-primary" disabled={busy}>{busy?'登入中…':'登入管理艙'}</button></form>
         <a href="/">回到孩子的學院</a></section>:session.mustChangePassword?<section className="admin-login"><AdminPasswordForm api={api} onChanged={passwordChanged} required/></section>:
-      <><nav className="admin-tabs" aria-label="管理功能"><button aria-pressed={view==='learning'} onClick={()=>setView('learning')}>學習與鼓勵</button>{session.role==='super_admin'&&<button aria-pressed={view==='parent'} onClick={()=>setView('parent')}>家長艙</button>}{session.role==='super_admin'&&<button aria-pressed={view==='access'} onClick={()=>setView('access')}>大人帳號與權限</button>}{session.role==='super_admin'&&<button aria-pressed={view==='trials'} onClick={()=>setView('trials')}>試用帳號</button>}<button aria-pressed={view==='password'} onClick={()=>setView('password')}>我的密碼</button></nav>
+      <><nav className="admin-tabs" aria-label="管理功能"><button aria-pressed={view==='learning'} onClick={()=>setView('learning')}>學習與鼓勵</button>{session.role==='super_admin'&&<button aria-pressed={view==='parent'} onClick={()=>setView('parent')}>家長艙</button>}{session.role==='super_admin'&&<button aria-pressed={view==='access'} onClick={()=>setView('access')}>大人帳號與權限</button>}{session.role==='super_admin'&&<button aria-pressed={view==='trials'} onClick={()=>setView('trials')}>試用帳號</button>}{session.role==='super_admin'&&<button aria-pressed={view==='invites'} onClick={()=>setView('invites')}>邀請碼</button>}<button aria-pressed={view==='password'} onClick={()=>setView('password')}>我的密碼</button></nav>
         {view==='trials'&&session.role==='super_admin'&&<AdminTrialPanel key={`${session.id}:${session.version}`} api={api} owner={session.id} onRefreshStudents={()=>refresh(session)}/>}
+        {view==='invites'&&session.role==='super_admin'&&<AdminInvitePanel key={`invite:${session.id}:${session.version}`} api={api} onRefreshStudents={()=>refresh(session)}/>}
         {view==='access'&&session.role==='super_admin'&&<AdminAccessPanel api={api} students={students} onRefreshStudents={()=>refresh(session)}/>}
         {view==='password'&&<AdminPasswordForm api={api} onChanged={passwordChanged}/>}
         {(view==='learning'||view==='parent')&&<>{inaccessiblePending&&<section className="admin-confirm admin-unresolved"><h2>核對先前發放</h2><p>你的權限已變更，先確認這筆操作是否入帳，再繼續查看。</p><p className="admin-receipt-id">{pending?.input.grantId}</p><button disabled={busy} onClick={reconcilePending}>核對原發放並繼續</button></section>}<div className="admin-heading"><div><h1>{view==='parent'?'家長艙':'學習與鼓勵'}</h1><p>{students.length} 位航海員 · {updated?`更新於 ${date(updated)}`:'正在讀取學習狀態'}</p><p className="admin-live-summary">{liveKnown?`目前 ${students.filter(x=>presence(x.memberId).state==='online').length} 位在線`:'正在確認在線狀態…'} · 約每 5 秒更新</p><p className="admin-help">突然斷線時，最多約 35 秒確認離線。學習資料每 30 秒更新。</p>{reportsStale&&<p role="status">學習資料暫時無法更新，顯示上次紀錄。</p>}</div>

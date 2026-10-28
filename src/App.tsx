@@ -39,6 +39,7 @@ import QuizVictory, { VictoryDetails } from "./QuizVictory";
 import QuizEncounter, { GrowthMeter } from "./QuizEncounter";
 import CountOnExplanation from "./CountOnExplanation";
 import AnswerOption from "./AnswerOption";
+import SteppedQuestion from "./SteppedQuestion";
 import "./learning-controls.css";
 import "./quiz-console.css";
 import { canListenToEnglishChoices } from "./english-choice-listening";
@@ -1451,6 +1452,13 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                       </details>
                       </div>
                       <div className="quiz-answer-bank">
+                      {q.kind === "stepped" && q.steps ? (
+                        <SteppedQuestion
+                          question={q}
+                          disabled={!cloud.online || busy || run.settled}
+                          onComplete={() => answer(q.answer!)}
+                        />
+                      ) : (<>
                       {!run.settled && <p className="answer-submit-cue">{label("點選答案，立即送出")}</p>}
                       <div
                         style={{ "--answer-count": q.options.length } as React.CSSProperties}
@@ -1490,6 +1498,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                           👂 {label("先聽再選", "ㄒㄧㄢ ㄊㄧㄥ ㄗㄞˋ ㄒㄩㄢˇ")}
                         </p>
                       )}
+                      </>)}
                       </div>
                       <div className="quiz-question-toolbar">
                       <div className="question-tools">

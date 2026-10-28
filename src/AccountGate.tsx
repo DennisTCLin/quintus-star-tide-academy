@@ -15,10 +15,11 @@ export default function AccountGate({
   onLogin: (state: CloudState) => void;
 }) {
   const music = useHomeMusic(true);
-  const [mode, setMode] = useState<"login" | "register" | "recover">("login"),
+  const [mode, setMode] = useState<"login" | "register" | "recover" | "invite">("login"),
     [username, setUsername] = useState(""),
     [password, setPassword] = useState(""),
     [code, setCode] = useState(""),
+    [displayName, setDisplayName] = useState(""),
     [busy, setBusy] = useState(false),
     [notice, setNotice] = useState(""),
     [created, setCreated] = useState<CloudState | null>(null),
@@ -45,13 +46,23 @@ export default function AccountGate({
     setBusy(true);
     setNotice("");
     try {
-      const next = await request(mode, {
-        username,
-        password,
-        ...(mode === "recover" ? { recoveryCode: code } : {}),
-      });
-      if (next.recoveryCode) setCreated(next);
-      else onLogin(next);
+      if (mode === "invite") {
+        const next = await request<CloudState>("redeem-invite", {
+          code: code.toUpperCase(),
+          username,
+          password,
+          displayName: displayName.trim(),
+        });
+        onLogin(next);
+      } else {
+        const next = await request(mode, {
+          username,
+          password,
+          ...(mode === "recover" ? { recoveryCode: code } : {}),
+        });
+        if (next.recoveryCode) setCreated(next);
+        else onLogin(next);
+      }
     } catch (e) {
       setNotice(
         (e as Error).message.replace(
@@ -75,7 +86,9 @@ export default function AccountGate({
               ? "建立家庭帳號"
               : mode === "recover"
                 ? "找回你的航線"
-                : "歡迎回到星潮"}
+                : mode === "invite"
+                  ? "使用邀請碼加入"
+                  : "歡迎回到星潮"}
         </h1>
         {created ? (
           <>
@@ -106,12 +119,44 @@ export default function AccountGate({
         ) : (
           <>
             <p>
-              使用自己的帳號登入，繼續原有分數、收藏與學習進度。換裝置也能接著冒險。
+              {mode === "invite"
+                ? "輸入邀請碼，設定你的帳號和密碼，馬上開始冒險。"
+                : "使用自己的帳號登入，繼續原有分數、收藏與學習進度。換裝置也能接著冒險。"}
             </p>
             {loading ? (
               <p role="status">正在連接雲端…</p>
             ) : (
               <form onSubmit={submit}>
+                {mode === "invite" && (
+                  <>
+                    <label className="form-label">
+                      邀請碼
+                      <input
+                        autoComplete="off"
+                        required
+                        minLength={6}
+                        maxLength={6}
+                        pattern="[A-Za-z0-9]{6}"
+                        value={code}
+                        onChange={(e) => setCode(e.target.value.toUpperCase())}
+                        placeholder="六位邀請碼"
+                        style={{letterSpacing: "0.3em", textAlign: "center", fontFamily: "monospace"}}
+                      />
+                    </label>
+                    <label className="form-label">
+                      你的名字
+                      <input
+                        autoComplete="name"
+                        required
+                        minLength={1}
+                        maxLength={50}
+                        value={displayName}
+                        onChange={(e) => setDisplayName(e.target.value)}
+                        placeholder="冒險中顯示的名字"
+                      />
+                    </label>
+                  </>
+                )}
                 <label className="form-label">
                   帳號
                   <input
@@ -129,18 +174,19 @@ export default function AccountGate({
                   />
                 </label>
                 <label className="form-label">
-                  {mode === "recover" ? "新密碼" : "密碼"}
+                  {mode === "recover" ? "新密碼" : mode === "invite" ? "四位數字密碼" : "密碼"}
                   <input
                     type="password"
                     autoComplete={
                       mode === "login" ? "current-password" : "new-password"
                     }
                     required
-                    minLength={mode === "login" ? 4 : 12}
-                    maxLength={128}
+                    minLength={mode === "invite" ? 4 : mode === "login" ? 4 : 12}
+                    maxLength={mode === "invite" ? 4 : 128}
+                    pattern={mode === "invite" ? "\\d{4}" : undefined}
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    placeholder={mode === "login" ? "請輸入密碼" : "至少 12 個字元"}
+                    placeholder={mode === "invite" ? "四位數字" : mode === "login" ? "請輸入密碼" : "至少 12 個字元"}
                   />
                 </label>
                 {mode === "recover" && (
@@ -154,7 +200,12 @@ export default function AccountGate({
                     />
                   </label>
                 )}
-                {mode !== "login" && (
+                {mode === "invite" && (
+                  <p className="fine-print">
+                    帳號和密碼以後登入用，請記住。密碼是四位數字，方便小朋友記憶。
+                  </p>
+                )}
+                {mode !== "login" && mode !== "invite" && (
                   <p className="fine-print">
                     請由家長設定並保存帳號與復原碼。不需要孩子的姓名、生日或電子郵件。遺失密碼與復原碼將無法自行找回帳號。
                   </p>
@@ -166,13 +217,15 @@ export default function AccountGate({
                       ? "登入，繼續冒險 →"
                       : mode === "register"
                         ? "建立帳號 →"
-                        : "重設密碼 →"}
+                        : mode === "invite"
+                          ? "加入星潮學院 →"
+                          : "重設密碼 →"}
                 </button>
               </form>
             )}
             <div className="account-links">
               <a href="/admin">管理員登入</a>
-              {(["login", "register", "recover"] as const)
+              {(["login", "register", "invite", "recover"] as const)
                 .filter((x) => x !== mode)
                 .map((x) => (
                   <button
@@ -182,13 +235,17 @@ export default function AccountGate({
                       setMode(x);
                       setNotice("");
                       setPassword("");
+                      setCode("");
+                      setDisplayName("");
                     }}
                   >
                     {x === "login"
                       ? "已有帳號，登入"
                       : x === "register"
                         ? "第一次來？建立帳號"
-                        : "忘記密碼"}
+                        : x === "invite"
+                          ? "我有邀請碼"
+                          : "忘記密碼"}
                   </button>
                 ))}
             </div>

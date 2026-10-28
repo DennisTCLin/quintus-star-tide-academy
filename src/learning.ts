@@ -30,6 +30,7 @@ import { ENGLISH_CONTEXTS_V1 } from "./english-contexts";
 import { GENERATED_POOLS, generatedQuestion } from "./question-generator";
 import garden from "./data/garden.json";
 import { QUESTION_BANK, type Subject } from "./questions";
+import { GRADE4_STEPPED_MATH } from "./grade4-stepped-math";
 export type Grade = 1 | 2 | 4 | 5 | 6;
 export type Course = Subject | "words" | "tones" | "medials" | "pairs";
 export type Choice = {
@@ -40,6 +41,20 @@ export type Choice = {
   position?: number;
   audio?: string;
   end?: number;
+};
+export type StepChoice = {
+  text: string;
+  /** Diagnostic tag for wrong options — identifies the specific misconception */
+  misconception?: string;
+  /** Feedback shown when this wrong option is selected */
+  wrongFeedback?: string;
+};
+export type QuestionStep = {
+  prompt: string;
+  options: StepChoice[];
+  answer: number;
+  hint?: string;
+  onCorrectText?: string;
 };
 export type LearningQuestion = {
   id: string;
@@ -71,6 +86,12 @@ export type LearningQuestion = {
   skill?: string;
   level?: 1 | 2 | 3;
   format?: "short-passage";
+  /** Stepped question: 'stepped' shows multi-step UI; omit or 'single' for normal */
+  kind?: "single" | "stepped";
+  /** Steps for stepped questions (kind='stepped') */
+  steps?: QuestionStep[];
+  /** Message shown after all steps are completed */
+  completionText?: string;
 };
 const icons = [
   ["🍌", "🍎", "🍉", "🍓", "🍇", "🌽", "🎃", "🥕", "🍅"],
@@ -233,6 +254,7 @@ LEARNING_BANK.push(...SCIENCE_INQUIRY_V1);
 LEARNING_BANK.push(...READING_CONTEXTS_V1);
 LEARNING_BANK.push(...EVIDENCE_CONTEXTS_V1);
 LEARNING_BANK.push(...ENGLISH_CONTEXTS_V1);
+LEARNING_BANK.push(...GRADE4_STEPPED_MATH);
 LEARNING_BANK.push(
   ...QUESTION_BANK.map((q) => ({
     ...q,
