@@ -175,7 +175,7 @@ function allocateEligibleQuestions(
   const seen = new Set(s.seen);
   const blocked = (id: string) => excluded.includes(id) || hasMastered(s, id);
   let staticPool = LEARNING_BANK.filter(
-    (q) => !q.retired && !q.rephraseOf && (course !== "math" || grade === 5 || grade === 6 || !!q.examSources) && q.grade === grade && q.course === course && !blocked(q.id),
+    (q) => !q.retired && !q.rephraseOf && (course !== "math" || grade === 5 || grade === 6 || !!q.examSources || q.kind === "stepped") && q.grade === grade && q.course === course && !blocked(q.id),
   );
   let generated = GENERATED_POOLS.filter(
     (p) =>
