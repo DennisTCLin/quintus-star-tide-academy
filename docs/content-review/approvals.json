@@ -2,7 +2,7 @@
   "version": 1,
   "reviewedAt": "2026-10-26",
   "model": "Codex native session; model ID not exposed",
-  "policyHash": "347286c947f6d06475b56797307714c6ddfdb1c5c28fddaaff0c0fdf182f2157",
+  "policyHash": "3e674fc65921e732f460bce71e1c109fd16ca3762367dbabdf01a5b04fc2910b",
   "scope": "Static text semantics; template semantics plus finite exhaustive prompt-based oracle. No audio-listening or all-image semantic claim.",
   "questions": {
     "g1-word-market-0": {
@@ -32854,6 +32854,4296 @@
       "status": "approved",
       "reviewer": "fresh math/social/English blind solvers + source falsifier + root corrections",
       "evidence": "docs/content-review/jay-grade5-new.md"
+    },
+    "g6gp-m01": {
+      "hash": "62fb2eb02d6a1fadfa368ee6c407f0c40ba2751eebe197a0faf96debcd212089",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m02": {
+      "hash": "d91ed700e971fbc3d69e0bc21c1c844771424652c8c8709112e6dfedddda3b26",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m03": {
+      "hash": "b0bf3f7065b961da440e48ba8c683b569ff80e76b959a1eafaf0f0ec88decbed",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m04": {
+      "hash": "42175346507f33dc4b0119a56bdee6c54cd23c571519138acd0e946918e6fd5c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m05": {
+      "hash": "36fe3351521bf8095a0f8fb633a436f7288078149ba26c2cbdf133309b80572d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m06": {
+      "hash": "8b49da51d05d7d672165afcf085560261f0d2f72913d278574e1b3184321027d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m07": {
+      "hash": "be5a4ed288bb4bf9ddd5fa31c41705697dcd671da3c18d22fc989d255d94a4c5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m08": {
+      "hash": "0c4f9dbec1f35d7bb4316b423a6b91ba8999c22370beed845d3fdd17137109a1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m09": {
+      "hash": "92050e07342c31342e1434aa8b649bd0fc9805e427b034baf173087c70a474ce",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m10": {
+      "hash": "32c7ebbb812a4a5ca91668ec81f769be013596251f76054b93283deae0eddad2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m11": {
+      "hash": "9a7ebf78d7eef8120edbc5786117d3655b8d259cd1b607f3bf39ee2772f7082a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m12": {
+      "hash": "3bc33f693c676cd2102118256e3159a1459fd5050e6ad2611e9dbe6f30b247bd",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m13": {
+      "hash": "aad4c8dbf850748e4182d54ace67981da3c88b543e136a1b7fd2b3fe14fc9735",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m14": {
+      "hash": "f7f951fcc0c84f2963ecccaaa4cd5e0fa8239e2d9ab23afdc3f3b544adc574e4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m15": {
+      "hash": "7c26685c4bc1655e716ed558f209f1435207e02e37dc8eb7e1c00ff8e956f72d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m16": {
+      "hash": "968c3066ef6d162adcda8fd7140f1b2d21aa4cf6ace2d4e0619fc832529d83a1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m17": {
+      "hash": "edbb0235054c2ac3c1841506ca1a9cd44a4ce25151c949cfa8b9885af0137be3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m18": {
+      "hash": "7879f1543293d1477a7b14d9f965b68f4df79c2b58a69431e3580a2bfa7ae49e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m19": {
+      "hash": "db61267215b51a9bd900b33cf51a045cc642f2fbfa6fbe785d7f3446ad6b0c08",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-m20": {
+      "hash": "1dcf90a9bfd8c49739e2479548cf09f37bc3a58355909ac6c6f78f41448c10d6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c01": {
+      "hash": "1fcda5ff895d98cdb23405337fb46f1c866a2f1e78d61c24cac06cf5cd5d8017",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c02": {
+      "hash": "740fa470e2465aa5496ff75cb023c266fd67361ec182964c7d2d34b13121b908",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c03": {
+      "hash": "347a7152f254876025e6a1509dade38705502ea454f5a8430808f12b5616ff10",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c04": {
+      "hash": "2c389c9c63635d6de754920ecb59523bae02c78b873ac8434dd18d0551461832",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c05": {
+      "hash": "c76ede3baed950a99fefda0621cf8f7c1a5762b699e0009c199814381b87db58",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c06": {
+      "hash": "81b9af5e2923ceae29dccab1469c7f2a571cb6255ca716b02a783b9ebb53516d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c07": {
+      "hash": "15cb5787e3eae6c2f0cd0f0807039c5abf22decb0ca8542e1980a882ba57b51f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c08": {
+      "hash": "52eb63981ac4292ec3219f168456d6a0f60d5b295a0d53a18ef9cdd436c396a5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c09": {
+      "hash": "dd5b3fa92c37b4ac6fc30ea8d077fb3009940bf5de056514fab2862e80fd33d4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c10": {
+      "hash": "8cbbaca6d7d65bebe78890fc1ea61ecdc56fd7f153cf965781a64b13b56787b9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c11": {
+      "hash": "a92657e13db2c9736e10e7f4bd28d30f120216b2f4c9f9e21dbf50f80bc63b00",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c12": {
+      "hash": "59865d014c1694cb7a4dd98a9654fe65b64aaa3bea10e2a56e9d31d63430a748",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c13": {
+      "hash": "299b0fdb1fd4ea9fdbfb717d0699e9d22adccdc01e6730ddf7d253a1c531e4eb",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c14": {
+      "hash": "277838a9899ca7bf226d9e967d6219cd1171f46b6d3665bce15da3edb52c9a5a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c15": {
+      "hash": "adbf63c99b2d34c2aa56f82f8563bca3b7b4a305f523e24bfefaa47c4b10df3a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c16": {
+      "hash": "d61f5de54c4bfa38ec5c2e38d5243773c07987b6b0097dbb54c467a215068573",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c17": {
+      "hash": "02085edd5ed1ca293cd0f82036c796c55911b18562e5592a8040ead315d61fea",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c18": {
+      "hash": "d035f7eb0d4de65a35c21333ca1562ac9f9aab71a52cea130b06df8204cd41ad",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c19": {
+      "hash": "f7eef57aef34aeb5eba92f96deda0aa39206223170f660dbb9f61055ac8c6566",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-c20": {
+      "hash": "0e02b8aaf60dc18f922cb0f2204d465bab7e22b6707f5f3eb13aec612aa207b7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e01": {
+      "hash": "acba89ab36c1ac4da6b6d4981f744d055328962d525a0d614cdeb7f7242ad79c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e02": {
+      "hash": "2b77e848d0852dbd96d0e279ae1e889cf92010e06becda113b03774189229e48",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e03": {
+      "hash": "75758e14f5c00374c555e0b6792b9c718c09b7227657ee7f1d3ab87bbbad65c6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e04": {
+      "hash": "bf299e65260a1cb7d2d7adbed9152d9b1ae84938a3ba5de716aff64d8cadb5d4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e05": {
+      "hash": "5bdf812c945eafc5bb4000f4aa5bdc8215355ee8bc226cd7550aeb82969b1a36",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e06": {
+      "hash": "b9a11f6ab2cea466f07e4eec3255e3d9abd529890dc30903001b8cc0707b2c47",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e07": {
+      "hash": "e9efeef7a7e19500cf1c12e3ad1f3052708f85c7cc14bb1a315b005a4cf4e514",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e08": {
+      "hash": "190b35bc4720a43161c3286f9eda8aa4326aa093446f33394924b49f1abf6b2b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e09": {
+      "hash": "a4478dcb940b48b19db7419b734050014aed4b250ac374446a26455374a705e2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e10": {
+      "hash": "62627944bc93aeb084f7f6180a6e3c5d5c1105d832ac9e4be9fccadca8ccd55e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e11": {
+      "hash": "64a3cd8581ecc81581c9428dd4a58f000b2273f656c96be2511209c61c441c7a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e12": {
+      "hash": "b4c336088d72ca1749bd71cb261248530e2358bb2745359a85944d3d76e1c32e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e13": {
+      "hash": "6de396ec5e3f90899798b6a1e0c207963c0e270328807d784cf36bc4351c1040",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e14": {
+      "hash": "347be6f7a5a02d53000ea0e1455427e0516b09cd72cef403d786f4fea576bd9a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e15": {
+      "hash": "8fb489ebc076382f077fe23631cabf5783033a98f92b9336cf22e7b4dc713e5d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e16": {
+      "hash": "db648007df17a933bd7564b79d1d40aabaf26a5025b8abbcafb89d20c7ae46cd",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e17": {
+      "hash": "0cc1dc0d85d6421fc2ec81dc62fe4ed4e4a490932d8d9cf44c53783f882f7328",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e18": {
+      "hash": "461268c6b49c677ab9d7b0a02d1785805378c2a17166859f4f18840f8925a33c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e19": {
+      "hash": "322c3bac0a96317c40820e0bf8d4b53d8a266df0a3cf2b0598c4c017f577cc1f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-e20": {
+      "hash": "b52f26765b11b0ee3c9c2fc7f7fc3dd1a42e0926bf409d4a8f59f9b4f1fc1cf9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s01": {
+      "hash": "6ef4f51eed2bdb5221ca0a72c33174a67223fe74079b64765aed04935085e2a5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s02": {
+      "hash": "53d57eda7267a647305ed8e8b69fffa3108d876a14ebb1cd87041c105fcb746a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s03": {
+      "hash": "c18977edbb0b59cf4d962411656cee676d5bea1e01c4d13651173d038e1fafcf",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s04": {
+      "hash": "ea5a6e01f4d7d69eea9feeaee59485cf9c219bfbbc81881dc78b67307a3979ea",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s05": {
+      "hash": "8234790671c7bfb972bffa3f28ecc80e6a74610cd94ba219ceac1ddb20c838c7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s06": {
+      "hash": "c41957c6c0d5fa73dee6c42f9d798d6fb0f044eb096853d7aa52ccf50e12120f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s07": {
+      "hash": "6f69d0c95293c61bce01f28389fe60607e85f38c6840f3bf382bc66227782e61",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s08": {
+      "hash": "3bb923fa81304daf8091be269cab9e14bd4024fd34ff9bf72cc0a820b54e0571",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s09": {
+      "hash": "e9401aef95befeb9120dafc3b8587bca1e9d04f1877b8d8ee65deee6823e0a50",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s10": {
+      "hash": "60afc09c459ce89857d39749a492b6aabc1312e643de99ae80bbfe3983961b86",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s11": {
+      "hash": "a2b006a3a7a81260d4505770ff4f8298d876bd45aa9c4a26945e2af0f788ddc5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s12": {
+      "hash": "f9664af3a16db9fc1736e324052abaf321c3d43eefe8be686982934f3f3c0328",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s13": {
+      "hash": "f24619c99ce5d012ad5ce681a098af61fca6c046ee1d9bf5df0b9609f7e19f7d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s14": {
+      "hash": "319819bec5c674a2cfd5ade78a5dae40f6a2060c20fee24331b8fa92d1d7710c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s15": {
+      "hash": "16150411923db09bdd70b877e28aa14abc20127b50f4c971eeb46dc37eed772d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s16": {
+      "hash": "130d9c576ed02f2726b5263a5436726990a8b6bf83daa396df44614f4fd67734",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s17": {
+      "hash": "270de9dc420b3a0a95a1c455748b8009cc46e28b3fda3e7bf6bddfc62f04175b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s18": {
+      "hash": "6069b5f9b5d71bd18c73cb0bbefd738f6d456fa4f8ee42e2fec48304bf697f0f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s19": {
+      "hash": "93ad9f665119419699351b138db50cac391f3145ac6b0e949fd24827e0e89b16",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-s20": {
+      "hash": "67505c814648d4452bd8e75aa826c3f22f52b002d861d2a7b0def6601a5ab979",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so01": {
+      "hash": "d5a4e1d2b2260afddfe05d3f9358b2b45147070e83686789c59bcb6a4bfd728b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so02": {
+      "hash": "3b112d7ce54386a7076307ca98f100065649a7fe5dafb45281b309587264c0b6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so03": {
+      "hash": "0391b3d3a2cc6849615414b6fb62af070249dfb0eba8d6299229901a373028da",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so04": {
+      "hash": "58a9c599ef453872452987a69d9aa44b2388abefe2dc2b3ea26d698d83c1684a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so05": {
+      "hash": "eed352e3a752efeec891f51a62213fc70db9492bfa418d68635786ff984778e2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so06": {
+      "hash": "0ba2c669b754473634a05bdc188735a65a260b3375d173e66db83c8239fa470a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so07": {
+      "hash": "0e646cf23936d40c36e97c384d254a90697caa1daeec242a5a7a57fb22a16b00",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so08": {
+      "hash": "58150a236b840a8a1c938785b291026b6de45ae5818cff0c7a6ce1cc837ef70b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so09": {
+      "hash": "f2ad500123585820e36b0126d956ed75d8ed86c51b688ee5da8b45d9e30c54a1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so10": {
+      "hash": "9619482a6d690b9e0e6aa5d5e9f27ff9939523e087d3f5d2b776e44d008ae8d1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so11": {
+      "hash": "3ff52af5b2a66951a5010178a25cdccb5ca7df9186627da325755d68fcaf8923",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so12": {
+      "hash": "aa9ac5e603f25a645fa10b3a52adcf000d268ca2389833593b6c5d41163c25f2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so13": {
+      "hash": "b80d718b75f89acae3c01456aebbc501dec3b851341403fe9a5d4084beb08cbd",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so14": {
+      "hash": "7a1c12b169804250c965e0a48792f320cd790b2df6f2b94e349828dcdaefb16f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so15": {
+      "hash": "e4cc72ee49e3f09ab16147dec65262fddd944e85ebe3daca4701bdf5be4f0fff",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so16": {
+      "hash": "75a8ad5c69f32db1f70460ddf087cc016d0a5a77b4811792e67a6abdc00ceaa6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so17": {
+      "hash": "87f6a57a2c943d12a5dd69a0ec9cdea45ffb39c8146f6fc268d2316bcfa36ee9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so18": {
+      "hash": "35731ce17e9c991ebc8bd47000ed965c7dc6250fd8d8996afd9337b0bda88c07",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so19": {
+      "hash": "1f7d2a992d148d5986c1fa8b76b9da554197bbe76fad67b0e43a463f9ff0ec97",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g6gp-so20": {
+      "hash": "abdf8400f3b65b2cf4a935d648a025cf9e5ea5f72c8b4aadce381f904d2d71f4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-1": {
+      "hash": "07e02d3c777b22ae9b5250f656a9bad5cac74c8d23bbdcd84a301841009cac8a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-2": {
+      "hash": "b2c582f145761b70854b4a3895311d16d0ed5116cdfe18111d51fdf56935c48f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-3": {
+      "hash": "824a0749528a84ecd15032cd96b1c88f851c9450068f351d2fac61be92458593",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-4": {
+      "hash": "fd25dddf3cfafcb2a0943afcc8800a946fde9a7072465314a7237b2d24546b21",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-5": {
+      "hash": "c3746322105022c5320e4b0beac62409cb8536187b011f08f5fd19300004e92e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-6": {
+      "hash": "eec6c834932ff2d357e323e3847c5c2982a9d893226ced4c2cf3c4cb0eb6c2c5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-7": {
+      "hash": "f10b2ca3d361099c96c0cd99fe7bdb723a464285971c8455a2d9d44bd8e8dfff",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-8": {
+      "hash": "3dcaf24a373c46b01197f793962120c55f5c765bb24df8a89a6ab8758aa3c52a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-9": {
+      "hash": "2f63933752bbdcdd67e993a9ce5665511406a2c4adf27dc1d6877c222ed5f61c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-10": {
+      "hash": "10d0ad8e181c5b08a1ed36b1b4333823449905c1d397561a606addb83d3cff3f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-11": {
+      "hash": "8bf9b739df517015e3914b932821d3bbf001caca0076038a1eb5ff69cb98d062",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-12": {
+      "hash": "4fb6f697dc1d362175a9bd7b018e8c64c951f5b6e0ed81f91a7fdf78568a13aa",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-13": {
+      "hash": "b9d69a526da3f9a4b7ac05e6f96386cb6c384b4b6fdb328ef42336026b89943b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-14": {
+      "hash": "23c0aed4c5a389bffba10215d3818673191774a1d7c3898c571042c124498cda",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-15": {
+      "hash": "bfab51578f44c081b4c7a81948fc7a3c6f69e676d7ca7ebfc9f174a88d2642b3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-16": {
+      "hash": "0f1c8bc138b96e5fe8be4c2445478a1a248d7537afcaa6dfe5d3a216476f5f10",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-17": {
+      "hash": "e35f9fb55b875c34b4d4fbb027bf65ba8d176bf01b2017261fb5a422eef767b2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-18": {
+      "hash": "59b19d4bc00c243d6f7637d922cf7576790fc7dd82221dfdfca25d44d6c73c5a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-19": {
+      "hash": "04f6060660914e0365ff91cdd4b1f32675a7a541150bcbd9a1775f2c12e18e10",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-20": {
+      "hash": "aceb354ecdf3fc4af7ef6c5d3faa105880eafd6ed4f47df899073f29013db6cd",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-21": {
+      "hash": "1512795ac0390acf2d9ac0f10b91daad6139b60c94f6dff1c31384fac49fc5fa",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-22": {
+      "hash": "e84fb03a6a42a76a492bbeea66c337829bed41364f405e84e1cd3591681bef57",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-23": {
+      "hash": "1b935efa7a5d5ffb4ab18c61df4fbdd419f3f57ec742cadcf3a304304e38295f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-24": {
+      "hash": "76d5b286eca4b958e5926934162d1aaabadb41e23cd5bccce1b4286736089ff7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck1-1-25": {
+      "hash": "6942f560e830034da3b727bab8e4d17ea5bf149424456f4b33624ae71fb47f94",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-1": {
+      "hash": "67aac8a5c5a45b5ed0403cc91374808b27c4c608e221ba97f6dbeb860d70f3f0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-2": {
+      "hash": "b2ca6d5567766bb9f1bf4b38a88af71559ed2cd0a97d7cc2f8bfa59a36fed18c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-3": {
+      "hash": "eccf1e0257f743e75faaea2a7f3ddfc11d43be6474c8a3ba292e8d1b7b1cac85",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-4": {
+      "hash": "a0268107540fca6e8231960d23e6cb990db75cda4511952e0f158af5fd80cb5f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-5": {
+      "hash": "b90516c51cac53e6b293b3d17a5e25e92e389b2660e1671e82362f243bdc7595",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-6": {
+      "hash": "e173007627440657124a35c000a941d40ce908387d12ae76bd31c4be160c5544",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-7": {
+      "hash": "462f8074127c62d417c3573ff85b9f23b181085b50db444cabfb6b558e65ff50",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-8": {
+      "hash": "d28a4ce0a016548ca017728e9d44222483e5d1f861d77400ea48f650f8e0c22c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-9": {
+      "hash": "07d85a94689542d28daa7fdddc3bf570acf921224a97de3d026554b8aad8e75b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-10": {
+      "hash": "b013bcd16cfe0ff6d7bfc471a4b48fe4f336d4ec32670c903cfb0d7b7b3eec52",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-11": {
+      "hash": "5d5707e040f0d164571921fca85edd3d11d71c177e99441e464c3b48381432f9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-12": {
+      "hash": "8ba7488b67654f7db3d9a0ea76646492c97e64be506e46beebfdd766e89e06d0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-13": {
+      "hash": "4d4255548920092c6ba7fc8e8c66aeeb9b955cd38d85468136cfad6c2c9c1aba",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-14": {
+      "hash": "e537783c16ceea8fe650f6126d0007c10af65bae4df25ede6373650acc8a6997",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-15": {
+      "hash": "e1bb22cdb8a4677dd23e4e705b5e9a331eb475dbdfdce2f96fa9f0cb27916675",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-16": {
+      "hash": "0d32fb3b9e3fb4dbdbb9343abcd14db18bf1988d47cdd68d1405998118e8d000",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-17": {
+      "hash": "e83a9a6c6b7b2ffda7639856b883912042c9717972d6d4e1deaf58f77cd0776e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-18": {
+      "hash": "3d5f6208979b62b48f371051267e6d90d39c471da1812e5cdd4307fa3601a53f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-19": {
+      "hash": "003771ddd50bd793affa39c64f25551ab9ed0947f57abdd9626b07a5d94e2c89",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-20": {
+      "hash": "dd13f0f1234c74726866a6d74cf3e215505948aa233a09a21f763953b3fd83c3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-21": {
+      "hash": "786703bdf42e9ccd0ebe5b68d4cc2b9ecbc638edf1a0ff96db3968069334ab4e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-22": {
+      "hash": "2028e40a6ef1302e7020b7218f798df69e21f1c7a4c8d1d87467bd0ac7885701",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-23": {
+      "hash": "a009f040bd36128b0c714edd0751aaf5bc287ff5deca6051d527ba39421d1432",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck2-1-24": {
+      "hash": "a2ea21107b1e035eddadf62607090ec8033855b7496eeb0fed55dc15f2ba8076",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-1": {
+      "hash": "b311e2165b17c679ee04676f43bad929369669ac8e0afa2442abfd8c8f6fdb22",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-2": {
+      "hash": "afdcfb38145adc52a8dee55c14df0a9ec5952f845fabb0ea34609e27195be661",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-3": {
+      "hash": "4458f3fd9354a83a81c7a29e46feb76bf650aa144140bf23a8d870da8a4b7265",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-4": {
+      "hash": "d60727dbeac48d703f40f221804a9066f5ebec3b8dabc61dc0454ca1c6c68274",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-5": {
+      "hash": "3da6423e5cd16d84129d01a72254bb1af11a4cfb091697faad5485757f84993e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-6": {
+      "hash": "4f9b491e12b63e705a2f50f2150e9e85c0612a77bcc3de17dc3951d05935bd84",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-7": {
+      "hash": "0b31b82e8f3726a95918ea1306ccb25f2b3fb0d73cc9f013f0a3890d4b246835",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-8": {
+      "hash": "17fd47b4e28171d1d1e147082dafa136bf66bda1979952b7875b0dc9395f37c0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-9": {
+      "hash": "7a71740cfe1a2794c55bc625f4d7caa073c212ba86e2a4a5868cb4beb92071e4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-10": {
+      "hash": "808349caba5d47646b3f275a36c0d7de14becc2de47563231476c03b2bf0131f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-11": {
+      "hash": "2daefba195e51827490fad2fabe7592ffa0fa1b4a21b7c8d4e01621a6d982abf",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-12": {
+      "hash": "3cc4d38e6351f3a275e360d5f99ea9443ec708371d2d68a92546706c34b48b36",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-13": {
+      "hash": "489432cc437b6ac3a0ee4ee41f65178932549cb534d033d7022274d7615e4244",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-14": {
+      "hash": "5d2675cc3adbbc54c1acf42139ffb6bd1d34d44fba5b13b60f673ba4978f4001",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-15": {
+      "hash": "0ebaea954e0bd2ea1507bc403abcd5d80d77c2600799dba816f7352159d4d200",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-16": {
+      "hash": "b766314d789bfc7ae8f739789afad46736dfaa8068e09244e8c0ba52162e2915",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-17": {
+      "hash": "c33b26bc62a6afad24c522bd23982ad8bba5fb2674d6b7372cbb369274b3a6ed",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-18": {
+      "hash": "3b2f3505187b38a9f48438b9aca548c9d535495e9a772819633f02b7b356561c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-19": {
+      "hash": "b939417d26defb93bd543d42de08ce4de413f41ccb757c2e9617b61cb0fbff19",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-20": {
+      "hash": "0932596bf270b17e75e47bb00337cc2266d50dd8545072f0700424692073a47f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-21": {
+      "hash": "06138d26b4e4bf6ec398f10bf98c4a059d3629cf202a0a06936d8a8eefc1e6fb",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-22": {
+      "hash": "c01f3ad828e526ef1f21f3e341a5aef1e680ceb436f4ed81252b8fd00923ee83",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck3-1-23": {
+      "hash": "2bb3587831ddf34d6dda6b1e4bb7bfa45df1961315498bd21a86e170a7eab855",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-1-1": {
+      "hash": "523abfaadb426d6bd3d67efdef23a65747e091633c525cf6d73817f93177bebf",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-1-2": {
+      "hash": "9a06bb761403f7a85122e937e79c4ae25ca7759ffb91b78c99dcecfa89a50bc7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-1-3": {
+      "hash": "cffb1be1e7324143a651f628dc0e4056aa065c89e255cf2d56e3699cdf57f8c2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-1-4": {
+      "hash": "2114cc51ebc52d5fb62861d866f8c3f22c792dff591f904cbc21df9fcbd0498d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-1-5": {
+      "hash": "ee0222f08ae4b2feaebb1d412488364d06ca1c1911261c2bc3dcb94214930a39",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-1-6": {
+      "hash": "f1970f8a7ef5b4b1489dcd1f0ee1c221f72c63766ec1cece93a9bb9d39206615",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-1-7": {
+      "hash": "4d456111731247b7c22f5a83ae3502c2a3aae25e1401bbfb91040c4ae1f7c0fc",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-1-8": {
+      "hash": "402315744933dacbcd97900409ea9e02f27e36f62486833af11a048099bfbf64",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-1-9": {
+      "hash": "5c871bf36377af9de866c35c865aedb0f192b67596e533fab182198bc1f66195",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-1-10": {
+      "hash": "f4947cf1ea04180ab13637a7cc4d31b0f86663d118955a4034220a5bb3ed51d9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-1-11": {
+      "hash": "65a29a5654d67b7e79e0a5c8d262beeda8882ecf58f2ebf1c421ff044147a950",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-1-12": {
+      "hash": "ab8f4e08a23afe172bba0fe29a2b9956ff9afadfa86cff7395dbdfacfcbf340d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-2-1": {
+      "hash": "67cdbe0600ab334afa075bf444eb586b09b6fa952f7a022b7e480de6f050bece",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-2-2": {
+      "hash": "274823ac65a95f6edfc86bd900bd44949a83e0b7401797b2da4053f0da68d636",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck4-2-3": {
+      "hash": "02c4c18a9b20df84e4ac1196d8cf07ba8e1c38e2198798276e62079724e759c7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-1": {
+      "hash": "7a2a51648d9ea7ff624ad5805df7f116e046281806828df3564e1286272ae1b9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-2": {
+      "hash": "57845c99cb4450c72a039a372b802ca97dee1b89f951a2bdec703282e433d4fa",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-3": {
+      "hash": "1f4a3cf90f8db58e2061442b9e4a5a7ba5e0567f78a3741a773a5c1b573c4606",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-4": {
+      "hash": "2f55177e90ffe10f2ef03ebb83c97f092a445f07c2095f4517151e73fd08ed02",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-5": {
+      "hash": "8e5c6d277ab5212a4ae5026ae62f8549d78d0dbcfd200e34cfae72e0f5eed2a5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-6": {
+      "hash": "9e349c4198f5f4648477780074f6258b951ed094bdd965eb4a8a0b6923a143eb",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-7": {
+      "hash": "f00ab0560aa10bc34164a87c1f18b668027610a25d063f780763808ec793a527",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-8": {
+      "hash": "2d8adb690e955d8622e227746b7a28ca02266a9af409c6172fe2748ead8e84c7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-9": {
+      "hash": "200c1178cdb24625ccc7760ab7618a9337dab233bbc1ed3d66cc1dfbe20fda8d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-10": {
+      "hash": "6f204b9ba70c9b2d4c151b71507628aa261a1a0ce521d753a3e0ccdff5d60527",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-11": {
+      "hash": "03693b0e44b9736817ec4300ac9150d10f18cd3277ce4df64eed8a32d49b6e0e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-12": {
+      "hash": "a9e7a31ce41406303d797eecd6292997d8a63b971518f0f368f53c6e89a1a589",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-13": {
+      "hash": "459e1566f6ad503868a3b26b11ab265585296b446c58acb6db761d6c5dc9474d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-14": {
+      "hash": "74c8eec0cb1d10d17e64eeea0444ec9675f70ab86e292b26ecd93e8e4c84cf17",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-15": {
+      "hash": "737bedbba020576fdf93407874b383d2b73788d6fe497b309ef91a98c774aefa",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-16": {
+      "hash": "2941bd59cf788820cd569c5f4c0929d94542a022541feafae0732d0ab5b34976",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-17": {
+      "hash": "6a1b69694f8c26345c9746174d73dac060c8ca980f5a27c7179cbf812d85438f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-18": {
+      "hash": "a17812b4316d1e25ff55f53dfa0bd9769c0d51a9710dbcaf3ce3d3cd554c6141",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-19": {
+      "hash": "67836b5e7ad86a9a7269c48444135d2af1a6eff1ab16fde109312a431e2afd66",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-20": {
+      "hash": "7a4ebc16950cc4b8d27a95616f2b2d0735f2bbb1a258e40d95b40470750ad63d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-21": {
+      "hash": "b93c2b293dfb1dbd1b0618d82588b428a8d0986930c5b71d12a28846444403d8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-22": {
+      "hash": "d20d207ed20be668b94b67f015a43a398c609de16b5808e7d049f8b8fdbfd88e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-23": {
+      "hash": "b4cd5422aa4a54e2aeb41c907593d9524f4f291a4d95078e44106bd624f75c00",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-24": {
+      "hash": "f1d3bd5d93d1021f06282b526f13e561ee4494206e98c5292fad46b33467de79",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-25": {
+      "hash": "52b1e6b581f43495a28e51ad5b380dab9a1efcb0c201f75e983e4743fdc67c66",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-26": {
+      "hash": "0d02ca9ec765d3eb9b7fb13f35bb825324a57880ad41e4a52f704f802902a570",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-27": {
+      "hash": "7132060dc504bc338a51b982078ef483786522549cc438f89866ac69fc89e52f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sck5-1-28": {
+      "hash": "d2a9495b256bff42bc3a7acc81b5646fec8ca06247e9e04822d5437147b8b6f7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-1": {
+      "hash": "e820a592cae2b6bb51066f689caaeadaec6e1be64879e884045ca5d76b13ada6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-2": {
+      "hash": "dbf7a19a71294e0413e60c424cce0429c0ffdb1770186dabe4374ef2dd008238",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-3": {
+      "hash": "388c7a890ecb858c840bd6b9f7419bb6baf2d27f647f2a776676ef39bb90be8b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-4": {
+      "hash": "02193ade6a8dfda6f9d0e9630653bfdf911077c02b1ff4ee6e80117b7d20ce08",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-5": {
+      "hash": "66991839cfd046f1e0579c539bb437f4129080293475e6da18bcf48999ed2781",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-6": {
+      "hash": "583995614bd939709b306d56576d26153b92de6d4c8092f33b9de0d857046f4e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-7": {
+      "hash": "cad1988292be34f679e722117b90e37cb6673da0ded989ed11b6a04c2ce471d4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-8": {
+      "hash": "998b8ae78c424df7fb61dc1bac95365086ed465b431c39d91b1474ed16d4fd50",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-9": {
+      "hash": "9bd1cee0dba976ca6fb6f3a18afb9e68b9e8323461e065158021b75520ba7589",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-10": {
+      "hash": "fa85f797f6e700edc87d049e558247ca97a8a9ca739443ba064584e38fbd2aff",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-11": {
+      "hash": "8132b2f21391a87c61ea074e0a2e4533c084b1e84a3940ff8199e9318951417e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-12": {
+      "hash": "e238e76b33f37b2175d62da4cb816daf9de188b4e70372033c1f1c6f398463c6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-13": {
+      "hash": "bf86beeea80a6d78989c33eb23f3d23cea59b7b23eaf6ef53ea496f7a3e1619a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-14": {
+      "hash": "8441d6c265492fbc103ca08095071817edfd45647c5036dcf1afb5d22061e33e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-15": {
+      "hash": "b8156509e55abaf35f09948c0e0ae744aba63a155018c10ca7ef031b2bbeee94",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-16": {
+      "hash": "a8529daa642cb11213531af05fd00c97a665232634e74e5852888cbd460f63f3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-17": {
+      "hash": "ae5f0132e6d5fc2315744ad174a28248bf5ef609595bc775e69aead0cce36831",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-18": {
+      "hash": "f10ccdddfc1bb57f1fc140174c9be8b1ababafe5e67fb65abb227eeecaa01081",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-19": {
+      "hash": "b3cd16147e77b6923bbc5d6d250262e194bce19a4f5ae4ba0b60225c9e90daf7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-20": {
+      "hash": "a1e651d61e26f4d0d11f48c6fbbde6a5c6dca0ea6e2aa31799869946d747a481",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-21": {
+      "hash": "4473b86229ac803a1b22206788958aaefd1a183a314681dd618d16fc1f7e4929",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok1-1-22": {
+      "hash": "f8b5596663cdf60a10df9462b40ae8ed6e73a9d41943fbf7b12aa0d5c3f1085c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-1": {
+      "hash": "4bf7ff7be68d12ab44b999ad574fc16fbcfacb6b6adc63b1146b703ff0e4f6eb",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-2": {
+      "hash": "f46fbf615823fabf595aaf4176d501abe929bf01dce37796b1393582ffced63b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-3": {
+      "hash": "b2428f2d0925f938f94c7d5e9f530fc065df9ec3d736d314b0483175c6b3c963",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-4": {
+      "hash": "b3dc9392fae9e3dabbc87f283a5725cc0b83991778f48e58df363202be7ba231",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-5": {
+      "hash": "c5344370453b186fa6edd3e60b79242bcc8d821a17b2c2c09da2d4c57c6c431b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-6": {
+      "hash": "21b5c49f254b658af50c752c1e1b934bc51f7e9411174b72b2f8d143785a0aa4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-7": {
+      "hash": "7f33fb644c4ea10dccbf6780e8ae131689f669b3751a0f30d316913acc16257c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-8": {
+      "hash": "56eab48d29e8246deb1722d5ea17328df160348ee209a4022b49114ce47161db",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-9": {
+      "hash": "3de412d39421b058f8e40cb1fa57e4c3f83fa3a34f4d72e7013f014b9b2808d9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-10": {
+      "hash": "5f3f6dfbdbbd841b5abe3edb4e4b10424d28838e79734ec1a81ca86a307f29e3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-11": {
+      "hash": "cc0a033842a02912a48cacdcbb65188b91f8c70b078a794e867218fef70c7634",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-12": {
+      "hash": "fa1134339fb391252ef46ba9156d87f5e1a46d3695c09b3f1dbd09c14a8ff88b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-13": {
+      "hash": "f1bfa40011e2ef449b4237c493a4e5d5ad07003cbf3a435a7c6c51286371c9bc",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-14": {
+      "hash": "34e072cf47123cc844387eb46be8c4082173e0c383a5d7b729428bbb7a9d876e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-15": {
+      "hash": "9498e058cb2c316b5ed1f53d423b6dc4f16216cd4ae24b3d6e7f72c2eaa47524",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-16": {
+      "hash": "e6ebe48491a4fc9c1dfb54b8b930524a1e92ec11f43c1ad53b47cc83925204ea",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-17": {
+      "hash": "f0d96c22faeab43bc1373d1f68003c062d09d7384f14ad76bff6c3c3b771777d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-18": {
+      "hash": "860b01db47e29302a7f3f1c676d1bd128e7adf796350f7b973f0dc30633982c8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-19": {
+      "hash": "2d3ac04af902e6387ade67a6d2ed36b8e199a21b425bc2611b5f718510c99028",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-20": {
+      "hash": "cbe350d1b97a561f48d30311f7f7f3cc46ec151fd0eff775abe9766054974702",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-21": {
+      "hash": "8b0e353e9b1c2d80809b26eaf1292f80b1dce8b3dc2930a29e3ddc9e91c0ef0d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-22": {
+      "hash": "82cbf2029451ea8ce5b86bd1885b9d4d6a911a624565e6165d3f253d925464c2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-23": {
+      "hash": "9a22a558647cf173910f75b0e457fd78d80dd202aa2d2d48538a9828451c0b2a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-24": {
+      "hash": "39c66cc14976f2f6ca89c726a3c08fec53139abf0f4a39a77471e72c78a03f1b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-25": {
+      "hash": "5a840f0f17d18703a24500912e3b7425cd7e2528233d09419b08458244131d04",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-26": {
+      "hash": "7c2aa5383d630d239c4b96c22d31af90cbb9d85a54bbc15c16c4a46cd83ad6da",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-27": {
+      "hash": "58ec3e3a012d5bd5478bd4d30e2ee44334eaf45ad5e408e85b60359e910df728",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-28": {
+      "hash": "1d08664eed0e869d48364e0fc460a2ec0980169b386507bbcfc65b337974045b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-29": {
+      "hash": "34981631001a67a18788f58692fd9b20baf3db022fa253ae96807e582da7cdea",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-30": {
+      "hash": "d74af8afc87092db077462dc515ae4f90241135345b13c438acd7d2cdd2899e5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok2-1-31": {
+      "hash": "d97108ea6c3b4525bba00556897a63543b38ec211ff4df895c6cdaed39e709a4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-1": {
+      "hash": "970712322b4d2c97f297923c9beb251d0d736bc73587bbc699a226e633be1af8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-2": {
+      "hash": "31004b33d4dc2958fbe1ad39a2ed8d5305c877e8f6096ef56a367776a907806c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-3": {
+      "hash": "62454fdcd91fd5e9edbf60f4947fc62e81197dbd4bf98531b85262a18a9b6cce",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-4": {
+      "hash": "0c00a5d06e992e182bb323c829d15da4392e7d5160ca4a523da1e45229cfcfd5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-5": {
+      "hash": "acaa747c644c26e032ea3885a453e7c00d89917eadca413cbb27845545b04cc9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-6": {
+      "hash": "b4872f1f90636adcd355532786c3ac6e8e2110feedfcad8331f1d71b477281ab",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-7": {
+      "hash": "b5ec644a7d0d6576115c8821c75abdbda2c69ccdb5d183ff98fc0885e72d72ec",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-8": {
+      "hash": "1f78ab5fcfd30a79c14f2a9d2cb55b3a6461cbd7353896b3ac48e3b250376d11",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-9": {
+      "hash": "48ac46b414e5e4dc349cc6dea9244ab5af8e15bb0ec6265be7940b777abf3ac9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-10": {
+      "hash": "f2ed3e682e551c41f26e4079b59e2d1cd49553f1302f34bcf37425704957a256",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-11": {
+      "hash": "d9e43c5dcfec6f65419fc1ecb5097b4a4cf7631502c1bfaac1fe2b2aa27c21af",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-12": {
+      "hash": "6b6947e3256854c056245360dacc13cffbb7ba94a95cec00e26cfd2443625de4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-13": {
+      "hash": "1da9adf5230e57175402b04a4e31651cf74a08149ff490a66ce2261e2d56b549",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-14": {
+      "hash": "1f36a397e537538db7add3d1395fc402c88c79185bc67de14db6e914edc43d21",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-15": {
+      "hash": "cf201d61ecc5a9785c7ba4bca928fbf6c117eccbb5b88981340610d75f128e58",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-16": {
+      "hash": "1f3dc9ec480195029af0bfa15443f6c8960c4d3ea7df4dbc66a50aa9e46c709b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-17": {
+      "hash": "77a9124d8c5790edde07925a7d859fb9fa898623d817c7efc35d46eadca819e2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-18": {
+      "hash": "511db1b7bb24124a49dffc1d72bf6d29feb5d5f78e065ef5ca4f846bfdc5c635",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-19": {
+      "hash": "12771456b11419bc88388726e4213533deccddf18c01e7b15c195601a25cc2df",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok3-1-20": {
+      "hash": "4f86078cc9db5fdceb516726ef6f0e88578cac04bc33a5a88536ed2a6e8e8d11",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-1": {
+      "hash": "aaa7a34d8980e0fc1419c6d2d17ae2c65200de7af7c60c75a0d50f4f235e8e7f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-2": {
+      "hash": "8245883db07385cbb374127deb1b2ed055cecd0acf659b2de5ee1613d8628004",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-3": {
+      "hash": "f92ad936f2571a9e10b5a0e8e824324136e117f9339c338dfcc3b7929e27a4ec",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-4": {
+      "hash": "94115a2994996eea8333e3f034175a58fb253b3f255cdf1b17fb809e9012d0b6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-5": {
+      "hash": "c8c230dc29bf1fde503daffe0381e3e94a481c7223826fa944abc5486bc2f387",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-6": {
+      "hash": "bb641b086040760436c1755d1fea89ce9de44fbf217d47e6ff0a932a66fa1183",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-7": {
+      "hash": "69932b6806daef651dda11790ef63366a08d01eaa816c02203e6f272e44ed154",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-8": {
+      "hash": "b6871b98bf47a10197873235c587d13de8f6a1240fb1fba93b7ff5e16fae0673",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-9": {
+      "hash": "32dd5ddad3ea19b571722b4f172c946a7932abcfbba4294255188b3197cb9bb1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-10": {
+      "hash": "2ff35a2822c3896dda9df2dfa080a3b1d2b57e70be05ba21a002097ca4f0f554",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-11": {
+      "hash": "0f9220064d55b9bd882aca22a9a57693b844fe03636c6da34669057aa44a3aad",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-12": {
+      "hash": "cdbdfd31e5f8973600ca8a685b97f5e9d7f4fecd28cc6d58cb013255ab592ad1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-13": {
+      "hash": "77198787c93c8cc7055e2f4d5071382a0c859b8ad8a905e5fb841542961f8c2c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-14": {
+      "hash": "4b1bcacdebbfdfbb8874146d2d13b1191fed66101237b6de9a6408a67c6860d5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-15": {
+      "hash": "91885616a4e49fbc5c4d06d3b0c1bd4169e2951cee9befe078362afeffb0202f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-16": {
+      "hash": "8b00dfbb6db8dce2ccef87012e244acb3b5dbdbd1eda2fc99146a63cdd80906e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-17": {
+      "hash": "0ed1e61086bae343f0f2a17f2ef467f7ef70a26f4958bc2ee3a86cbd531c8beb",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-18": {
+      "hash": "c6c33b9f1d0785a0eb573cb3762f9dcadc1b77a7d055fcf1a217bf4e1ae94e4c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-19": {
+      "hash": "2efb2b7cbfc8ef29916988c49053cd97de721d05745db9b986fd03fbd307affd",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-20": {
+      "hash": "022730400cccfed091868108b57a5a598da2958a2716b92bef0837147ce1c9ee",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-21": {
+      "hash": "29d6dcc2fc753978dd4ec93c2ebd6805a365a5a66136d6ebac0681e4a0ca3fe0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-22": {
+      "hash": "1b947705edec78b320f7d750a5e6464debf0eaf8b85558ea4c19fc90d88816c0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-23": {
+      "hash": "5130576c42f2771e14bdd28c9faf6f5888f497bc3ee3d26ad67b968a2198cad9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-1-24": {
+      "hash": "827fec09636f3f502cc31e1f9d3e1cf24131f74d9992a4ed5cf059d7d0f2f795",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-2-1": {
+      "hash": "0008eac3eb21a575c86b3d285cd86bdafd24d24ea54665b346bd430398403cf0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-2-2": {
+      "hash": "d494083fe1a53a39be3963f37f70326388fee79c4e979829dd422762ce8fbaae",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-2-3": {
+      "hash": "94be30369799ac973ccf941e9214bd28ea508d0ef8375e9cadc88eee2d616544",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-2-4": {
+      "hash": "858f31e2ba35e54f84517a23617c3062612c76e897ad377b3eff9173ddaae3a2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok4-2-5": {
+      "hash": "0112f13dedf6544a4dd31989081a8d8ec041e4e9022580a7db70c93ee12aced7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-1": {
+      "hash": "da7f3b7bf3de3a7e7fd21ec3765cb83aa07d15113c54af3ae133f501fd33c879",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-2": {
+      "hash": "3c2fe3ce85330e889fa7f9665dcbbdef547a890bb713570f10aaf001d2a804e1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-3": {
+      "hash": "10fdb228f37338457bff10b20993f62b89165ccf230c289061c22e1b5286cf72",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-4": {
+      "hash": "3c8af063a5122760b4893b9dde6577a9c41847bebabb94ccf08c05221c2e309b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-5": {
+      "hash": "19fe7095cd49c276d2e9bd66e4cc08ed2764b3655a1f2b23fc9a84bde00dd0df",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-6": {
+      "hash": "4b6303f199afb3de0e409a6ab13c6374256fec1b528974126a209bbd65f1e10c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-7": {
+      "hash": "d4eb7fed67bff6f241002ff83d29ca0361a88ad5638b8d158b0e8424f6808cce",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-8": {
+      "hash": "2a2b6b863c6f71940060c05ca32673677369030b6240b7c3b795500e2729bd20",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-9": {
+      "hash": "35d2bf439201375c80054c5193e89b61acf66df889bf069f44a4d14f01a603ef",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-10": {
+      "hash": "b32ea6c37af138bcde137772cfc4fd6deefa6d544283f01b4b6bdf0f3c654aba",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-11": {
+      "hash": "b50f650147bfd4d4a93c27f8eab0bff051a95e2cf5dbc0e79c955fe83b72fdf3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-12": {
+      "hash": "af4140a3f00bb58148001027eaf5c5c9bf9031e70676b768eba84e25012d3bd4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-13": {
+      "hash": "25e38304a72246166a7f5d2520c74af816735752871c2421143af77adae5317b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-1-14": {
+      "hash": "c0c7130eff4425abf37ba40b676866f657a4d48187203a2149672877ac98cc40",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-2-1": {
+      "hash": "476a4b39f9a8996b6d30c989282fe3a70e3b079bbef36d9ab88a72971b2f32a5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-3-1": {
+      "hash": "c9f2fc33bd701527fb648468154d759deb56477a5000f5340d92f52808ee074d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-3-2": {
+      "hash": "266ec5babd6b040eba23b56d5f1350554f432c311e6b4876e276c2855d32cd3e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4sok5-3-3": {
+      "hash": "feec4fcb03ec423b0c352c05e7dec64b9e8f089b7f80dfb21b5c42466cb6ecc9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-1-1": {
+      "hash": "cfc666c5b9b1b31bd5e19df2008544feae80a515eba756dc6d674f3a8ecf7357",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-1-2": {
+      "hash": "6678a4f795312f892394e7ae583b907a057b16db38fa77c4e10da8a11baa7bb8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-1-3": {
+      "hash": "1dbe7db8a8f05e95ef576ebb76c69aa37757e3d77fc7806c7ac1ca1388a453b4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-1-4": {
+      "hash": "9c662b70acd47a5c5c6b1aa7a168074ca093e1cc487c5c45139d6b04a90719ed",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-1-5": {
+      "hash": "1bfad57bd72fbdb0051219bb504c24a0e67e04caec2545dd882e72f8a16018c5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-1-6": {
+      "hash": "88c89bb0e858afec5a24f8076c56d371fce49ac9a658d06586ceb72ab901a5d0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-1-7": {
+      "hash": "22055d37bf9354087a84ddc0f71b6215439ff8d73c2a0d765b8a85243e75d9c4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-1-8": {
+      "hash": "fbc0e4211076975c424f638f0ea8996ea51bd38fc08e0f3985fcdd3a81343c79",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-1-9": {
+      "hash": "096d505f27d2292f0d3bbff4e4a7482f5f6f0474c434b6796a9930599e42d6b6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-1-10": {
+      "hash": "af4a4d0c8dd3ab90768f78e89ecb07cc62bd75de896df4d32cdd74e38860584b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-1-11": {
+      "hash": "17cfaa11ce3ffa40c8fb51286156a3bae6dff0dfda28a56eba19ff622fee712d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-2-1": {
+      "hash": "f7ee1a6d90e4983de66516009abd47b97f9d4a297a1488aad1433ea3f095d93c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-2-2": {
+      "hash": "a9a505841ddef4c443bec30abdcb525227ed9f048bdc41ab3f0fc5b29fab9360",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-2-3": {
+      "hash": "f1097b59c7fb1f6561a0f373f864efc02a1d0a3e974eb5b4447914b9e856add5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-2-4": {
+      "hash": "bc3656cd0f74d98b7730d52bdfa61129f66b549fa95d3768888183bc509fc490",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-2-5": {
+      "hash": "234c638bdc33d3b4d9283b3bc11abd617bd70701310e54a89bbef485f8e9ca76",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-2-6": {
+      "hash": "7bbea9a09fcd708028e9eef42160817ef9f99b10ece8a3c0dcb5963041e1bfa5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-2-7": {
+      "hash": "e591624b31a9685cbf7f517f6993d680a8e8d846f7aeacfa67a8715c5f4976a8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-2-8": {
+      "hash": "9fbe5218818249b7434b184d6db0b884889934748f27f68190e155ff6c50d1d5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-2-9": {
+      "hash": "347c0015addc50def81083a88efb8f820ef829a2966d98b5d781e33c5ba74bec",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-3-1": {
+      "hash": "754c23d7135a3dee5e57ba83bf4ff8ab836de9377578b02b86dd0d336244136d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-3-2": {
+      "hash": "5f9234833f7ac5de8d284cb6d7f7dbbffd56407560993b17ea77b0517bc5e2a0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-3-3": {
+      "hash": "bb5bc8acd2fa1ea4f34db3fd9e54b409a631ccfd400902eb62f1f7d469cc182a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-3-4": {
+      "hash": "a492a8ddecab6461d92e325669041dcd28a3c2820350ac233357191586f7b74e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-3-5": {
+      "hash": "170ffef14f00c515de1cbfddcfbc9622246af5c842ab5165e0a18f53b146cff2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-3-6": {
+      "hash": "968e33d1c8054163360d34fde361c2231ced7f34d1555aeb756b7f99eb92f0b6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-3-7": {
+      "hash": "86bf658d39559df54838b3d2e2701603d29d370dde0de3a02df438761deb2624",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-3-8": {
+      "hash": "3f83318591895144b7e65c26439239973311dcfaced5d6b3b7b93cea5717eef4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-3-9": {
+      "hash": "3d4a560b524bf015120b18aa1bb8e99186538e38a44a26a531d8fd80a35a9e5c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-3-10": {
+      "hash": "54076d325d5e7ebce089dbbfc5c3e319af4d11a6b8b950661b893ab7562a8e14",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk1-3-11": {
+      "hash": "42d81d9bcca4d90b49cea120efad898541c38ee8d13ca79d433f2c1078227b11",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-1-1": {
+      "hash": "bea6b681a8ea1d091fbc929bc57adff85a207dad5c4215ec9d1dbe78dfe3b1be",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-1-2": {
+      "hash": "69dc2bb5c41ba025a172879b46677d54f2f7b25c603d1b33d0b6178e4302a858",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-1-3": {
+      "hash": "40071292f84660ddb198fc2e959d28cec48b21e6e7438c7f9caa24df3b2b0f69",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-1-4": {
+      "hash": "be863d62d4869da48cf72f34d2641670c77fa8039bfb61af724bef700fcfda21",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-1-5": {
+      "hash": "c9d5380321e643058428622e67bbdcbd64450f4da7fedec76593c6d2c699adea",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-1-6": {
+      "hash": "353aa55e93cffb375d9416ea1d13a692d771e9476df3599df618340efcdcff86",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-1-7": {
+      "hash": "af72f149dc86621abd3ea2b8fc2dcf3b978c6b3aa0963ab3f9034060e9675bf9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-1-8": {
+      "hash": "db43e856c9360aa9c2a227288d8e832a46cf716f3ead2231ce1a7b40c121c48a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-1-9": {
+      "hash": "1a1243aa45716d783eaa0aeaac571b782c1360617076f6030ab093eefc2f4eb3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-1-10": {
+      "hash": "ae4b974b860fa4b9ccf6cb02ccbda0ea19acf08ac54f442f486c210a41e83bcf",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-1-11": {
+      "hash": "9a860d26da00bf999c8c2da11095d1191f30c35e3a2319d1f90d5a9d12ba66c6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-1-12": {
+      "hash": "a61e6bfba2fb2ef589d978196dd1cc17847ca374b31b77d9d19c72e2e681364b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-2-1": {
+      "hash": "af1ebd77f14ed01942e4ef9572794a8318bf0dcff58b1d744af6f74e22154573",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-2-2": {
+      "hash": "f211e468dc31d9548cb0ceeae4165bd9795427ba85789c8d7f3d554c3593c69d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-2-3": {
+      "hash": "e7f8e438f3c9b08ae4fdbfa0d4e3e3d21971b572cef17c658eaa0be1cb912e81",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-2-4": {
+      "hash": "5439b9fdda7e74e109920438c518bf7c51685ac544694ccef0be374b598c558c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-2-5": {
+      "hash": "1a7928b5dab6240349dec8496a7153ec08231cd469953b61d1e5ea11945c1d38",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-2-6": {
+      "hash": "427b7912e4511de88b69c593b42e486858940d97e1e3a093eca0ceb393abfe80",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-2-7": {
+      "hash": "0a4522010748ad4980d67dfda30e19b7ae66012195159fd797e286f05c352587",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-2-8": {
+      "hash": "02f8b26eee818bf8f2ae62b856e1ee01156adeb6a8aa8b27a7f2d45644273fe1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-2-9": {
+      "hash": "9209f17834940275032b5405a5d3bb405f5439b6b790c507799f869310f212e2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-2-10": {
+      "hash": "624040da69aa770d9a882b436af99cbd8fa139d11042ab8e003b262a4667a0ce",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk2-2-11": {
+      "hash": "0747523cf9a4af24bee0d31a26622030c20f5daa090b83fa61a7b7e51f4e66d2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-1-1": {
+      "hash": "b6949143c80044b7c685c3b27d7381dfa35c50e41cf42110ce8752c6fe16d061",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-1-2": {
+      "hash": "1678ec3fe0bdd1a4a5397e2e3293ebf592adc038bd2125fe0b4488bd771c4abc",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-1-3": {
+      "hash": "284b62cd52d5fd15da59d35d4541fe3ee0555571fc39ac85df4db0f4e14ce9c0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-1-4": {
+      "hash": "31fa99e06d0d4a6e3fd192b12bfadbcf93a9eed33e285a45214b1120ab9b934d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-1-5": {
+      "hash": "526aec96e25e8f3edbb1a4f3e581318e656e61711b6f8e87bfd9549247e5ae37",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-1-6": {
+      "hash": "fabba9ad96260565b53f106f1da661ce8793d551e6a365b430698be5202a2e7d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-1-7": {
+      "hash": "ceac02329ef435f4ccfbe1ee9580fb3981a4afe54d227c8256b311ce9e87e7bf",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-1-8": {
+      "hash": "2e6450f2c3ec86aabc09f1e779bdeebd0007065529434b2a26f4fe62e41cae6f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-1-9": {
+      "hash": "8836f481f78af333ef9a588864ed059c952654526c4ff4fe9394a39a524ca5c1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-1-10": {
+      "hash": "33a684c2179441ca47014f26bc77264d0fd010e8f6119b80808b22cbf7a48ecf",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-1-11": {
+      "hash": "f0b0351c6b133684482f6450ec89b2c7859623c28f6376f28a53acc94d4f97b2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-1-12": {
+      "hash": "90b8b4b0c39e757b6392f00f6a834b7892aaf4668f49691392b70322d564a39c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-1-13": {
+      "hash": "e48ca339a7d51cccedde3e4bbde321f1fd5e4ceb83b8a6e8a01cf06e03a4636c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-1": {
+      "hash": "1d4b91d60dbb7698bf3157d4643c73d60ff6e848b578f837e550a94e1f992947",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-2": {
+      "hash": "67ef9b603ac135be75f44885fc9949756a127f3c62d40e6e31e7462ebb447d8f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-3": {
+      "hash": "502d45c1d6d0d4f261aa258302d0e18bcb40fd74d243ef6685ada09d6affbe30",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-4": {
+      "hash": "be5ae2c7aefa21a062d15e7abb54baf4196585f3e254ee67d762f459d6a85e0f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-5": {
+      "hash": "c400e2dcea61f9fffa8de8a160258984b554d00779aaee56929be6910b8b7d1a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-6": {
+      "hash": "f84c17c113f45644a31884cd18aa4411d7a74bf1aa65986614c06fe614d0f4b6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-7": {
+      "hash": "1dd38ab91c378cd142f066d2156d2704750a6d1c36b6ea3ddb1614f1d17e41b9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-8": {
+      "hash": "6163b5dda6537fc0568046879e9114acade6af47ea544d5b823f32fcf5241ed7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-9": {
+      "hash": "ef5d33d91123d1931c08bd2021b7814bc869a70c50cb51a10d24fd8f24427944",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-10": {
+      "hash": "137850db8ca43d36479d4fda51a7e6008cd8334b9eef6d431c9b3eefe0149d62",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-11": {
+      "hash": "ad15e5fd1f8856bdeec3cc9c17d44785c24efae82cdc64e8c5828051fb1801b0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-12": {
+      "hash": "f5a627d986c574cc999a589ee8d119980b898a4218c6491e983b1d21d812735c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-13": {
+      "hash": "604f80df2aae91f823200822e42a6a0135e18466bfa225905eeb8a7f0c77b2b1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk3-2-14": {
+      "hash": "4da0143e8d579e730fa847c3bbe837a42d608e450d485958e5b872236630dfba",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-1-1": {
+      "hash": "f39974a2690d65ef8fa4ac54f5a9390016e91f0ac0fbc2efbc26319ce73839b2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-1-2": {
+      "hash": "a17260f81062aaeeee2b71885eed747581b6ca9dd651a703fb9d9753ed07146f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-1-3": {
+      "hash": "1cce2aaa24b526933d2b49b45f1002221e7e13ff5ca45ba7b7c471c2355a65dd",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-1-4": {
+      "hash": "b334303e76bde0d6e11aaa37d2b6eaf8d6d37d73c0c400464f0c2925b97b1647",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-1-5": {
+      "hash": "23dc6dedbcf84ad98a1cbb3f091fcb904db2df47916fc298ed9a53f2c676a6f4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-1-6": {
+      "hash": "06d4356ee121b5392e27338b2dda5f4081fa284fba23e949dbddaac3a5d72625",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-1-7": {
+      "hash": "f0401dcea485fb81da6b55f7eb07bc6693d3f4bf5ac3e53962e5618cbc2b6ce2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-2-1": {
+      "hash": "bdee4f10dbeee59700e14428e743aea0f149346b6e4a947d0772d5eed9e13e19",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-2-2": {
+      "hash": "d25b7569cccb5901269db34fbd2eb817810f46eb2dc24259b501c7214f348a4f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-2-3": {
+      "hash": "add9e856545f4bc6e4e607bc201feb4af17f2cbe983dffc3f5d9102825f823e2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-2-4": {
+      "hash": "d0e0e9e776adfbf57e8f5d4ca0fc911abcb3b2a86d48d5ccbb65e80891b87771",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-2-5": {
+      "hash": "15352bd9a3204741ed15e98951873e4810d050e65eac03a64147ab7e0f7a13ad",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-2-6": {
+      "hash": "fb08aa62e186bc09ea44db37e41c1ff7d8973ecf01ec7dc8bd83dcdce83673b9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-2-7": {
+      "hash": "d8688ba0720f6f10739f2c05bb3d191b738c6438bcaeecc4af8c591b1132ce6b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-2-8": {
+      "hash": "ddd9c3b15c48e1bf01f753f87a4641d1815994dffb09e156ba4b2e639d2bb499",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-3-1": {
+      "hash": "42764d36923a1a15fb72520300810c6fc7c0c389b1ef7dfdd11523a268e08942",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-3-2": {
+      "hash": "c5eed8bf2bce4258f65bd03ba63ba08864d7907dfa5eaec461ad2d6be3e4a2d1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-3-3": {
+      "hash": "093d5575994d24abaaec527a7b9d852d8480eb7e787a3faf4dc6d4f7e239c16a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-3-4": {
+      "hash": "3b83fff9fb67dcc717cb969b837e7dd1d10dd307e8798b957ab4d1fb882599b2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-3-5": {
+      "hash": "4c3a895f36dcc59064d0e6be56c4e14d0f222f98bfebbc3fa4415d18ab79def2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-3-6": {
+      "hash": "d947ae1053e24829fb323cc40c3816f0f54f25451b24dae8f0c93aefc6e3313d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk4-3-7": {
+      "hash": "02bbf98d6ff40d8817de35fb9093bf7bcb1fcc46c3b9a6673fbe5c057984f550",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-1": {
+      "hash": "6209a2a0ff4b63f1c999081008f5a8d11b936c240ac07be3768d544ea1daa141",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-2": {
+      "hash": "5a43d954ae6fc8c9fafada750fbd7dca50808ee2a5b15b1d868762b0535e0363",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-3": {
+      "hash": "54d973df494b5473858a51af37db463e054fdcfd9fdc6415567c6d0c6d9b9c3b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-4": {
+      "hash": "3aef0622e7f43c2e50afd0db4f32da8364a2e7e909efe98edbe0297f2aafa9dc",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-5": {
+      "hash": "4727d7dd99cafb2150e36526013eec82a3d55ceda183c2a3c65d258e23f152ad",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-6": {
+      "hash": "69043b753fd64b0fb72c81644ee1b25f9bc57cb4771019684c6a92cebea3601a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-7": {
+      "hash": "354d9c04cc36c7449a67de3af9eed25db9528df3fa77e9ead14d189af2ebfb1f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-8": {
+      "hash": "df670777b425a8c0fe7af90cccd3eb2b4ab6b85381eaafeec2ea8789f9b4a6e7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-9": {
+      "hash": "6ee26fc457f4a99dad4e608b01c34f40e7f36ca4875d2ed6af8dc2f0fc87d0af",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-10": {
+      "hash": "ff571fa87457805f7dfed09ffec069c2d2f25719fc16e66dee06c3481ce362f6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-11": {
+      "hash": "80fd2d00b003e8cb9719bb836a53d408fd199558ed9134406a00264d1219024a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-12": {
+      "hash": "315d8208b86944ea3e9e0e50ad50f2713b8d060dc01c30af84883dadca3adaa8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-13": {
+      "hash": "fcc46b9d87e49e5ef8fa4c94cdfa0185506703b776391e259561fb2373629862",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-14": {
+      "hash": "40be48faf0b22e05936d63a45d6bd226ac436dccc9ba02c97041fa35f0c17bb6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-15": {
+      "hash": "572f161bf82110cb49df7eda96490f98f9bcea1efde19327b96794c16d94c7f7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-16": {
+      "hash": "c7585ddee2ee18e84c37a81befdf6aad187d11a27eabcdfbe66fe3d917c718a4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-17": {
+      "hash": "e03bd9012a798e3d8d6fab0fbb651a539af3098e2bdcb99e4038475ca19f45d1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-1-18": {
+      "hash": "8592572ee20e7d794ff70b8cb5dd334a9ba65238a77e53a99968cc82291815d7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-2-1": {
+      "hash": "1bbdf088b846a93595b08a23fab955865b798ca201c900b6066b2a15ca7830ca",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-2-2": {
+      "hash": "df0edfeaf142f0b10a604f65567a13d6b22939208b7fae108fdbbddc181b8863",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-2-3": {
+      "hash": "def59959a0acce7dd5826c25286721dddf35461a4b4e7f42dc3eaad1a6557d1c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-2-4": {
+      "hash": "9871ca5042ad2fb7b0b7f0f5dff1ea55ef9b3b231822f17fa7b76734e9b2e868",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-2-5": {
+      "hash": "c25c11b73e3377dd387e45f00fc6f735ced0762d3a0f6d9dc5ce92e67601f1d1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-2-6": {
+      "hash": "5aaa1025f992100241a8f8f60dbfe4f1638ced398e2ae1f000ca9a454cd36924",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-2-7": {
+      "hash": "d9752ce0404ff329ff08db87e7ecee4509d569206a231fda7b04f6f0e4ff3056",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-2-8": {
+      "hash": "37e6553e4e7aae908355cba2b2c88a532cd318e4597cea00d8298abb2563a776",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-2-9": {
+      "hash": "ce12bad468fb1766dad6b707856c636bea9f36b25bd82b65f6b26ff5554d1054",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-2-10": {
+      "hash": "75a66d8320bb6fddb788d93fcd9c547f3af2ff2b51ce45602719a9efd50eb979",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4mk5-2-11": {
+      "hash": "7ce66817d75eac089692ecc31c2ef2bcb7e7bcd27a794ff5e2576bd7f647bd72",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch1-g1ch-k1-1-1-1": {
+      "hash": "e8374678236fe22fdd96a8911c0713ac2e3784d40aa04c8170cd6d006bdbfc36",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch1-g1ch-k1-1-1-2": {
+      "hash": "d8cfd617d40acb4f382d4e6bfd80e6614a4220a475e08ec33d3f1f2405287ccc",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch1-g1ch-k1-1-1-3": {
+      "hash": "28502168040224289256cb1ab4d11e4c8c8274d0216b53598986263027e2a123",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch1-g1ch-k1-1-1-4": {
+      "hash": "1600a9faf35340f80705a78f7c54d788547debad0fe027caf3a9bd96d96a6366",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch1-g1ch-k1-1-1-5": {
+      "hash": "93ea7b892ce546ce090ab9346792fb295bd8eec5924a00eb6d60783a48f00997",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch1-g1ch-k1-1-1-6": {
+      "hash": "7e4c2fc0e6b92c334e63c6b077313d7d0e73f62faa652cec320482d84a1afa1e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch1-g1ch-k1-2-7-1": {
+      "hash": "c8d5becb0a8815550c74955c11a084a829cdd95a3f2984b4cc023f9db0fcfee1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch1-g1ch-k1-2-7-2": {
+      "hash": "3b4351048b2660fc03c540bb8d421e1d430fee0ab946d11559cd2163415cee22",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch1-g1ch-k1-2-7-3": {
+      "hash": "61ce4c55df72c8abc8469f0672399c902d10d2ffdf28c4809fd8ff459742ca17",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-1-1": {
+      "hash": "4217ad8f939181f4d4c664ed0f941a849284aae5729039f10007eba234cbf3a5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-1-2": {
+      "hash": "93e79034493a28a58b586099eb74975b482075265ff909b3da84181c9cf3c4ee",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-1-3": {
+      "hash": "c270177c18460ca290fa26028145912a98f5e6bbb034077019a92ee92193fa2c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-1-4": {
+      "hash": "b80e5c50ca118020789ff900d4a83af5d473396a5b82722cc920308872df2e34",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-1-5": {
+      "hash": "47364c8dd5f0e236501480236bece4094606ba5fdbcf004534eb086b478609fa",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-1-6": {
+      "hash": "2bfa1e902c59ee8865bc9c6b1363fd8d5c8d79a59f25d988267dc6a79025518d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-1-7": {
+      "hash": "fa39190888e461e277643c62b794ec61f2a3c17abc439a9f4a3c9b5454def95a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-1-8": {
+      "hash": "ecb5546af5f2afa1e99b5d8c62d2fcaeedb4fb790823e01dd0db908fcdbd82ca",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-1-9": {
+      "hash": "6f5cd5dad94bb7c2ae6cf05a03d7cdd0d30b8c05bbfec52932653210003250f9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-2-1": {
+      "hash": "51f23a9756aa9088c08fd65ba3eb2fc8b9a715d21bc051355e09dff2bd19289e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-2-2": {
+      "hash": "fffe03276df48421d8d4c790c26e89e1e6bb6fd2b34b6c6252d877d02a8aaab5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-2-3": {
+      "hash": "93f13219ae26865e245849d4dea5da4fe368bd49c46a8b8d026d49f4f2924fdf",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-2-4": {
+      "hash": "bfa4097a7129d6ff38839f15423f2f41416194fbede53be3acdf9d6b86b78bb6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-2-5": {
+      "hash": "179ad55cb1ae6df54f00e3e6fe2e5abd861d419d1b6f9bb6dfca493af03c943d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-2-6": {
+      "hash": "72786a19531d59bd553bf6d5c7aa5edbfa72568348ecfbe24b89ab8ab83f1609",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-2-7": {
+      "hash": "356dedd089037abf517525962da10574ec154929cd539883086328bdea9b76e3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-2-8": {
+      "hash": "83662d5dedf7c8e691a37b8cf54c28d52b7162ff93f4fbc26ce463843d78158a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-2-9": {
+      "hash": "7441f41273021d045a70810551d6dede42eb4ff1cf5f50ac2e7d6e5e343104ae",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-1-2-10": {
+      "hash": "c0b88b28517d4bfb26581b9b1ea97f6000a38609adc12b527ffda1cacd5de87b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-2-6-1": {
+      "hash": "435aad563c40744b90d874f84f1d64e0579ac58c82fa218ce498e08edeb3a05c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-2-6-2": {
+      "hash": "685d498e3cc3370eb7c88f407c27ad5a0623a73a7ed396b86f7710ef05214fa3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch2-g1ch-k2-2-6-3": {
+      "hash": "3831b4b65e3da5c9f20cbd7d3fbce6a7e6753b4bd996b9b5688808a49d99b464",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch4-g1ch-k4-2-5-1": {
+      "hash": "f436809f124685430598747d282152dc2276dd4262bf1e262f2e99e7c16b8a26",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch4-g1ch-k4-2-5-2": {
+      "hash": "ac4e29fb3e4448d7397fa5b89f8b5bef573c5e39d732a34cb6ad415d1165ed50",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch4-g1ch-k4-2-5-3": {
+      "hash": "31d7537d66774adf833730098161df479957bc9eac5bd75baddaab106e61edc9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch4-g1ch-k4-2-7-1": {
+      "hash": "8f86fcf9063f96ad34976680509dc41d540d0c33927501e9396d899b1c4639ee",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch4-g1ch-k4-2-7-2": {
+      "hash": "1d4a69ad27c9539989f8415c63fa63b4290a909025535a2ca4d51495a1e08c35",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-1-4-1": {
+      "hash": "52f0ebe1eff9f9642aa6748d5c693b33de7a3199a5c28908dcc42c65d682bd0d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-1-4-2": {
+      "hash": "83f05aae118e225c34f3be91474e4554ebb7eaf1e7ba6e55044419e30ce965b7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-1-4-3": {
+      "hash": "4421c17c20fce7f89fab55df4f939ee06ad9982f883d2ee5d092d791114c3b6d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-1-4-4": {
+      "hash": "9f9d7af9e591c2f7972e15e4bd622cfe961926d70dfb368902e30fcb5e43e715",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-1-4-5": {
+      "hash": "766f0f178f0360ba19b3d381a5bc59e94b168dd498ca9c96f270c3188b7e8bff",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-1-3-1": {
+      "hash": "896dbd8172dd05404cfea212edf09bb6b8ada6e12f5e6e3b3fa930663b01d3ec",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-1-3-2": {
+      "hash": "800e4fb7446c7d1583498411d8953025df09f803fe2404faaf93f458b3ccd411",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-1-3-3": {
+      "hash": "dddf9cdf666bc4350b0228020a70dfd050b328a6213ff8ef471a0836e88d9309",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-1-3-4": {
+      "hash": "403db5fd7f5e988fe8fc21df3596dafc9f041f9bbd2264d5de0d1620d580d7e7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-2-5-1": {
+      "hash": "0229c527a238dbc6cd0d453fedf707ed3a4b4e768d0c9dd6dedf238568e28467",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-2-5-2": {
+      "hash": "7f7fda874672461259b38454c57429c4517f729f334a407aca1f8aaf8a01f20e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-2-5-3": {
+      "hash": "aa222ec12e90c94ffb128036f9ba4b98873fc2962099bb6290dbe9f23b63b628",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-2-5-4": {
+      "hash": "699ff43a30be2a83ca54438e49f0a8772129c30ab5aa7ab5c57b73b09212eb90",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-2-5-5": {
+      "hash": "4ca95da07752716bc11118116636c1509b7ce916f7037376fc3cca78a7672bb1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-2-9-1": {
+      "hash": "cc385cfb56153b5bae5b4ea899370b4d8d69e552a084eb18f26ed099d818d47f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-2-9-2": {
+      "hash": "bf0373142a26ae09fc5404278d0a1b14251195bf9c1680109dbd59924df0affc",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-2-9-3": {
+      "hash": "4122624ba8f46201efca1ac33a6131b0b7f1c3e1c98ed34fb21b7d82fc36b51d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1ch5-g1ch-k5-2-9-4": {
+      "hash": "e6f04e82353ffb2bbb80a3f29ded339e3aff31844a04c061cca1b19f0e74ed9e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-001": {
+      "hash": "862dd307da3d13afa1b99820bdb0792481fb1d452965b0a69805b51f72c769b8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-002": {
+      "hash": "9c39d38ded0f746debb7f3718d6488c58daf5007928e6ebf855534e2d1bb8319",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-003": {
+      "hash": "97f728fa0242c18a1b257354988bad4a07bc13d5dea9750f7d22b44dbd96191f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-004": {
+      "hash": "b32c7fc89cacb64dff8d79de2a3fbd86a4641c76f9573e8e41c98658abab70fe",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-005": {
+      "hash": "c3a8ab1588ad747e5600479fbd0b0f74d6e3dfa2add45cc3e4b1034c07a55d68",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-006": {
+      "hash": "a68b65ed3f8bdd1217f9f9f672a324550b9aa997dc13abd44e7caf2145929ade",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-007": {
+      "hash": "9d4ee3ba2fcd640c8a17e95d57ff4f97abf313f2e8465d2621216e242c354523",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-008": {
+      "hash": "63aa33376c0ae2e55148c93f570ae96e100d589274df8c3fbef9d9ac118827f1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-009": {
+      "hash": "f0b8aa054dbf740b0bb7a8e96a2da2c5734d5ecb0f75f2169d172f6dbe1f95bc",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-010": {
+      "hash": "907acf7f303847604d22a89fcf2d87e0821d951f287dcb99ec352cb3c856ec40",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-011": {
+      "hash": "d67c13b8ded3784c65365b0d69d94601da11ea23142dc50a49377ffc9614894b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-012": {
+      "hash": "ba0fa47f5361c5699239e3667e4b8df51c93038c1e499cd0576096198dfdf200",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-013": {
+      "hash": "dae02cab028252754c48a9a989d39d9765d4597e2b48ba4f7b19525e6e52fed0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-014": {
+      "hash": "a64eced734c1623d4b74cd6a8fc8a7d15932016240e7f36721149c603e5e25d9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-015": {
+      "hash": "94fa65f4c04ff3d76a9ea7f7046c5854e346d7ee792b56db49df06c4d5c6b17d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-016": {
+      "hash": "10bf7295083ef39db932bd2a50c9171ee595a2f25f67b3813170b4afea18ec48",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-017": {
+      "hash": "3737cdb44c9bdc222a51fc0b3b4c4d78d87c069ed6912c3208243ef1decbf0f9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-018": {
+      "hash": "36ae71b4b5912326e6711ca0668fb678c90e5f0c98fdf46008ae2f2f22f6f16a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-019": {
+      "hash": "d4e206a366f977c0e49380b1c30801b898b0361e90854ce696704eae2e354deb",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-020": {
+      "hash": "d8990d4db7f0f87692c00bb53916db546a55acfc6b571bbcb057aab22f1c755b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-021": {
+      "hash": "c8d9dbf1b19aaf1df7ca9067f204a107e82e94faed8be92f1da7d81ef5f4936a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-022": {
+      "hash": "2eed5879bff7bc26dc6258e9720d0f87a9bdb9bddd848dac6285f0d151267b14",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-023": {
+      "hash": "c3599a90b5d608c7bb8cbec531dcb57a1711db7a5f0ca0ea6ef62801087abdd3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-024": {
+      "hash": "8ef7f890cb112f95a707642af51fcf9da6785a0abd86fbc107b1593a6be0ea0e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-025": {
+      "hash": "bea17c912ea8d4a08c63ca87ae72d74cd7c3a6f270153e18e791891d4dd27ca1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-026": {
+      "hash": "7a8552833fc847fbe1b1631b67be971afad976277366f140f96a79cf2ffa8b29",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-027": {
+      "hash": "f0d1274381674f8f54015545cc82b0a9a02622d5231345e6e915897dfc8cafce",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-028": {
+      "hash": "33df7c8232dc28df5285b017d8f7fb6c8c9e5ffe5e96b7127aa6429d01e4fd84",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-029": {
+      "hash": "9c5d2fc1e0c93468e80497c2bbb2f8ba3dbeea6c6789b210dcac3f065d1ae723",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-030": {
+      "hash": "386dd9ddc74eafb7c17ea3a88b28df80ebd8fc929ca18214d09d902ad1c2e45b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-031": {
+      "hash": "33c5ae33149348e98de7d0eac1ea530a75ab092651a34764cf9a212268fb2b09",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-032": {
+      "hash": "cb663f4f79b8ab90ebf8b9594bb2d2a55ce16ec6e9da3c126d79ba64c9675910",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-033": {
+      "hash": "2c7926e4b187b130ca5a8c17074a4dbb29a96e95f4038bb2bed1b4668dcec81f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-034": {
+      "hash": "ca57cf7929db989aa0a38901ec1c610740904d0f68dd437e9eb14915540491c6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-035": {
+      "hash": "00e3d597b889ab2abcd2fbcf62e7e17e0b989af98a402fe50566eebdf069511b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-036": {
+      "hash": "db56b10d1d12bd7229e34052fcc440bfb048ebc8157fd90d91218d8a7d2222fe",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-037": {
+      "hash": "9b99ad49a6f34997a42228b2a7ecb9f9634b0a523dbf4b4e330061e7a42cd488",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-038": {
+      "hash": "03ce1fda16329226091027d51a1c72feff892233f036c4a177008b6bf7595560",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-039": {
+      "hash": "30a44b28166730853ee4dac33414cf7b9bb60a080c4a9bdbbd129163b76b0649",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-040": {
+      "hash": "6c08ca9e6d06d0529790b29407844ced6d96e562d983a97fb84d97ba0abcfba6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-041": {
+      "hash": "c00ff951b83df9c7b9d5ff27c7caa5aa2e8d2dc8d6d6a4a6de19ec956a7dde6f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-042": {
+      "hash": "832537a10e89bf7d5c32189589479b9c4d88aebd63323696fab4ec6e420456be",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-043": {
+      "hash": "63a8a3a5d1ea9ed56377c9318cdd6d933d2a71ed495a0ba36bd7b29f08b0e585",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-044": {
+      "hash": "4a53fc83d8cfc93eaa102b5ef0ae152f5e7d60c48901f4f7a3d44f4a5df5b200",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-045": {
+      "hash": "c2c332fb21159d23d05209208b496b52eb1f26d97ff54ad465c3fdaf1c17234f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-046": {
+      "hash": "deec9711054d58eca554f1c8b7183c484259a3accbf3aaee3424415eb05d4e06",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-047": {
+      "hash": "c8c7a60b91c8768922a664d7b791f38ccd99064c295dd2eeb7fb905563d3381c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-048": {
+      "hash": "a5bac45036236e731b20141f5be81574636510c08b0b6159e88988c16dc5a67a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-049": {
+      "hash": "e0348ff728420ab70b38f8c304a88810d206644f93b9cdddb2017a01dd1e9554",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-050": {
+      "hash": "7a26128a494b20a421303e0cdd059e69de2d9df8e5bccc8c14f36e039e01f04d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-051": {
+      "hash": "4602b25659fff6ff47b0d3c202fe3b4cfa3e9fc35c3a41cadca58e9381d1b93b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-052": {
+      "hash": "578814043655e80b2b701de82f0b3203260bd84a883157bbb390efda9c7ab83b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-053": {
+      "hash": "92d83f77300368740ff0510e7f4260add5f2f2c6cbd3cf0afea2310a74ded198",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-054": {
+      "hash": "c8f71e07d36abcd360afb20f807532c5b82c857689cf1422ec0fd710d799bd16",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-055": {
+      "hash": "5a5a8752e704023999cd2d89deb6bc13f592790cc47487bbdaac45d666b7aa7b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-056": {
+      "hash": "79276cc3b40a23a963bfa23075298d42dff1fd1372c9a99f09116d9c0c75c88f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-057": {
+      "hash": "1ba5ec42c6a37734abf99d70ca8599f351aed405abc08f238cec82c1e0308a84",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-058": {
+      "hash": "d5cbe145087d8d24aec7b8ab683e907aa216d5e0f350fc8e998b2854e79c9549",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-059": {
+      "hash": "2bfe43bdd8473840ab8ee63dbf9040d88c068f81266d9c2defcbc2f263574365",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-060": {
+      "hash": "05c9e5aee04d641738875f0503b9f2ab1fa33d68cc5d97eeccafd98e8cc33e8d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-061": {
+      "hash": "fa80f7523ed1f523e45488723f5125c303177a052c01f20661b6dc0d5f119db2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-062": {
+      "hash": "ba7eff9a439e76e4ed53dbd668402261147a8f943725d79112a75337110c67a7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-063": {
+      "hash": "c0fa1d444dccece943133f89e3f23eb52766862d1ab7e7e3ad9d5b1d999f88ea",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-064": {
+      "hash": "ff6804ce89071c70b61cc4fe5e63169f9fa891504628468343fd569263e72eb6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-065": {
+      "hash": "4e7d687fb930476fd21c740990464b5ec2670846e47798c03c66838586345ca4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-066": {
+      "hash": "7c8d255989d35f310c656508071f7551c2c40c6b894de079ca90bf98a0de4fef",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-067": {
+      "hash": "f267d4e28b49b9b8ba1ca4c45b6eda27cd58795025912cf9b14759154694fc5b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-068": {
+      "hash": "7c2433651d49cc12c66dab8612155b6b9208dc6d44d018aa8bed34fe2b0f3c98",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-069": {
+      "hash": "a7593f0aa363387e0995b8222512f071b9be2269228081b0b9e5fd118812cb35",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-070": {
+      "hash": "1315b67fbf4c7a977ad6b22a198c546c30f3fcf42efb64719f6ddf6f7df89546",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-071": {
+      "hash": "793816b42056b21bdc58cbc22f355394bcbe29c7d85619d5fcdeb3fd8c488db8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-072": {
+      "hash": "111f5549afecdaf32171121c2a5b7bfb3493cd276cb7d85e96d5b36d0f266bae",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-073": {
+      "hash": "5f977ca60c7e57fee3750bdc7cca3d7134b3f83c1ae0f6050c1f0cf13307a0e7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-074": {
+      "hash": "2f365b47c91bfdc7eb7a8a5042917464dcb6553963e7fcaa28b115cc063b1559",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-075": {
+      "hash": "97a5f27f07dd77ac0b9c83f013086c7afb472cce008b3483aa9a185a6cdb1a1a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-076": {
+      "hash": "7b857a949ffdc41f9830e2250bf48ce62afdf0632aa3b01fd996d1eeb03bc020",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-077": {
+      "hash": "4569e92f326416c7702a6f0bd0c396939c8d20c7ccb3f5ca3e8321a534181da9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-078": {
+      "hash": "cf825994b5dfce4331c90f0f8cb3359338ab5ffdacddfa8942db63d686e134a8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-079": {
+      "hash": "d55bb26a5759cf97b6b6c1ce8f187ff9040a58423d3671b25f5be23c45507c46",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-080": {
+      "hash": "2fc3cb7a7cbb3381345571869a306ecb96d547e6fb39eef9dc9a180115a1d7bd",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-081": {
+      "hash": "2cb52d07978e6f26c3231cdde2286f633bc241643ad387969fcf030695557eb8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-082": {
+      "hash": "25a4290e9807acd8a49b6d40235452d285f4d3425cf072108c9f9d6b063709ef",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-083": {
+      "hash": "0381a14e65d32d24a587086a3e104b36ed14eb9ff1a53930ce22cc751c800991",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-084": {
+      "hash": "620b07d531de7c9f604997f5ff4f9750f5be46d863d003def21f00434d09b713",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-085": {
+      "hash": "192b77de5f43c904054b03659f99d6a88b7ccc2308b5935bacffdc623b5044e4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-086": {
+      "hash": "6a8c1f68608f76ff19417ef3f49b377fa48e91c74943ff3e41180fa946a0958a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-087": {
+      "hash": "232e3637fbc539cebb0f72c9d1d9ce2066ae4defee08b24478fc29f8612b7a68",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-088": {
+      "hash": "1f9df9592e7243011ffe35972226b072760e78f59202e71227378ff91b344420",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1t-gen-089": {
+      "hash": "2b118d7daad4b6d9b0c4dd8e434e45125e277d33fbf19f83b2e4daf0b1b0f101",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-001": {
+      "hash": "d03f906cac528198dc7792651b0f94c2c27929c6b806449a5a1416e46f86815f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-002": {
+      "hash": "eb900e07f026567b40aac57fb0eed3c45b1bf734c7abf35a77367fb919256cb8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-003": {
+      "hash": "2242697624618f25ef096fe08e8754836f0cffc4a5738f46837350e748130de8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-004": {
+      "hash": "db0b5ab19ec25f2227ce535805c42698a924026ce7797fd0c8b5652016d605aa",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-005": {
+      "hash": "da6638b719ec8c7b8d14c7e5a9ae051c91270bf02cd90a0909205967a59b50a5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-006": {
+      "hash": "58dc928139cc374f360c29639c2d8efba0686cd49053faace688b8360d8006f7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-007": {
+      "hash": "0dc576966e7d5dab301e191c22f9b89d968fe15a4d2c8114553983056b55622d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-008": {
+      "hash": "cac8489f0b970db5f49c2aa385119691d28d96026af6f706d71a2b6a063a5e38",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-009": {
+      "hash": "c3503929211d412a11c43a1131616a2251c205e6f5ec4407e32cacda2e5b2788",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-010": {
+      "hash": "ae993f3dcaf9c53668bd39832e6c389da37beedda225e29509bfff568ede1a80",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-011": {
+      "hash": "6ad457a188fbd296e0a2c8f0ed1f6de65e76b5facaef9568962ba7a68e343303",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-012": {
+      "hash": "81f1c895dcf17cb16582185ae098297b3f015bcfec224efc0f98beb956269f70",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-013": {
+      "hash": "75eb41d8b705d220b17aee23b290e13b087cac53376e0c5686f08b25717f1a52",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-014": {
+      "hash": "e21bb2d200282923618fe19f65bf68b13b2f91716749c446a5f86e8410fa4689",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-015": {
+      "hash": "c2e2bc2bbb719b420210d0b46924e8e275e81a94cf8fa09f413294a0e1853e09",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-016": {
+      "hash": "69ca4af1c8ffb1235c07a9ee51a9654d32f30bed53e18ebe45941ec571c8cbfc",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-017": {
+      "hash": "5e2d7557e0bd0d362b317c01e8ae4a8c398139be45514ed737f128a9b9ed599d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-018": {
+      "hash": "55edfdee1d9aef0df29c000c11b5d320d1705938b5a2f037717bc0a783a89aec",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-019": {
+      "hash": "e4f93f784357cfd1b20b8b8fdc194cc7b57d7f6c6db3457b24fef8f15d7c6f3f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-020": {
+      "hash": "4d33aa0a7ef3a24dc32689af332a9d14d285c99a91bb42e4b48ff6e7d380a941",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-021": {
+      "hash": "b044bf334f315b16cae8cf523144f0b45432d880414dda6499b9c23614ddfca3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-022": {
+      "hash": "4016d95176c7cce8ad061626aa4f6edd10b1857afeb41861907c305df52b71bb",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-023": {
+      "hash": "911acc887da4b9c2e8820e28ef738244c3a176f25c09011ffd1bc02e105a842c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-024": {
+      "hash": "ab33cda84e879b0e93d3167c06eb4273474b9750ce955d51a4d94616068ec98c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-025": {
+      "hash": "edfeaae4d7c39ca62fc8df12354e34c19b9fb2d12af588c3c1fadab5f5d8b730",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-026": {
+      "hash": "8abfbb5c373744ba75ddd6c229224578ea828a9a0b088b668dae0e4731641f53",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-027": {
+      "hash": "e149d0a2c2bd4c670e752ec0e7ece6356071cb6f26df8e6b684baac78edecb62",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-028": {
+      "hash": "a9182066a95edb953cbc43e1b8e645910426e279cd128c1f42c2d35d00de178a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-029": {
+      "hash": "89f39514582129a995757eef77e44d1c679877bed86e12ad2780f2ab1bc97d79",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-030": {
+      "hash": "7dc8f5385f0a9d3f62c3e90e077d1743da85193938d32db7c9066fe47917b312",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-031": {
+      "hash": "c65a65bcadee45c42acf13e33be708d9615aacb2b7b9abcd23339e2219610054",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-032": {
+      "hash": "0a8848409ab17e1240c53a8b85f95f87c80b219f58a1ad2fa80cfd1e1dd55725",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-033": {
+      "hash": "139bdb8165a6e791c3dcac2ad79afd29fde31d8a9cff97ba55bb8b882f3ba494",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-034": {
+      "hash": "5efcae4c37763434cc4f6535c1a2dcc127ff793443aa1fa0b4e4842822f40649",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-035": {
+      "hash": "7f01f40559a39cbb86f65aca0ccb0dbdff87186a1dfbd05b2cb16c0b46874a16",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-036": {
+      "hash": "d332f2dc73bb62f00d5df032ddcc26d9b1d21957a175f77235f4a8a6abb935e1",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-037": {
+      "hash": "c0afc54c214b4732ea1942de3130032048e0bab162088047f9b02fca8a7f4347",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-038": {
+      "hash": "ad2b4da07a415e89a1c3b9c0e71a52e6f3a4e11f71c9b2c5e83ded67045a7ad2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-039": {
+      "hash": "6702e9915e9e8ae24b668bb1793082c926cd2a2f36096e4a6bd121532124c68e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-040": {
+      "hash": "ad18880c1587be5b7fe757dea0ae875b339e393fcd5d58134b55b4d46cbee86b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-041": {
+      "hash": "77f11d100d4d7d9d3f60b58b45f58431238f2dee8367707c1e550a35b5d6860b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-042": {
+      "hash": "b2ffcac9d31d2aa3278e0bf6320e2c21d0756e14fe159a763a6abec6c16f229a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-043": {
+      "hash": "6b4e2bea7806da318f6c80eb8841d8c4a299f74f2ebe26ff2a21e87788343f59",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-044": {
+      "hash": "c2d6c08b9b6f15aa765ebb2ece479ad32629d74ff844b23f7d7e4eae0fcb0e7e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-045": {
+      "hash": "757c44965a8fc6c6237016b065f01d6aa30a6038111655ed1c7cc8fb12275de4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-046": {
+      "hash": "43e21c71847a54c267ecac3f2d3411b0f3da84d9b765e6bb2a587274c8c4d8b4",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-047": {
+      "hash": "a87b2976ddbab5c8332bc47b2737c4091be1f0e131e0678560978eed416e2b5e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-048": {
+      "hash": "b6f540e401033d40f9d656bd012241f4d8ece8686810992559c9b1a79e9dbda2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-049": {
+      "hash": "7303f70dbda4af3307420036af19b47f9dd991364e981cf6d4d01ab423ee17fd",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-050": {
+      "hash": "48a5bd986f2a2a1e62cce735ffcf80a20d5556f6430e64c51d18889a7af05dba",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-051": {
+      "hash": "60744459489538b343d9c858942f554151ef73d47dceac37e960cd2e9744be8b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-052": {
+      "hash": "5e9e66833f2aa14976a97abc88d0a4088532e5df863ec07dd86da3c4204eac5d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-053": {
+      "hash": "bc5ced6356c3080912a6f0b22c802115d40e878baf5104dcaed32b009f9befe8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-054": {
+      "hash": "68bd50d5e3904d0ac31a727c33fdb5cdcda6f50b95ffdb20e7dd3d4130fbdffd",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-055": {
+      "hash": "4e640d432e5ba14a023762a4366851f90a1bf56a81f4c8b32e3c0814ded2d03b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-056": {
+      "hash": "21caa1ea9b544b8228de4a03a77cc35d68d90d5ea31704fbe0a32fcb807000f5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-057": {
+      "hash": "396914325b8d3cd41ad909d51bfef636df76d4e2c0da12d52bb6624179d9fb3e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-058": {
+      "hash": "ed07a2187bf0971a1dd96a2f44d05cc5093ab27499c4e1dea9abc286d580413a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-059": {
+      "hash": "b8c15af671bbcde10a8388c9f00554120e13d77aa3082a28aa924ae7b25e50e7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-060": {
+      "hash": "67a6289242729bc56238fb0c97f4033121efd370c79f836d28a471e2f1d60422",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-061": {
+      "hash": "f34ef1a600d23b9b87ee287b03d53c6c189e496c597fe7859bfecd2d81eee9e3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-062": {
+      "hash": "8c47de843089f2a2d7f7298acaca0ffd099ee3a35b72a2ce889224674a9f2fbe",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-063": {
+      "hash": "d90af1f0e96827a2b0a7971dc28ada3fba30f3ad744a4a6de9fd77ca59327ae3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-064": {
+      "hash": "ee62205f74e2d0c9779a053ec9d405667591c92668335e950b569b797fa040b8",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-065": {
+      "hash": "abed7a716c00c438499b23fc41ca7cd0ba04ecc26d867b7469e2fc4a52fe8c95",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-066": {
+      "hash": "3b315e0d320384444b6c5975f528ce5d433958a523d1f57d92c0b0f229b43a78",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-067": {
+      "hash": "d05ccb3fccd639bb20c1e52618b2d487f596258f0203c450364e38ad4f4a7d18",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-068": {
+      "hash": "e06502a99c04cfaab99fffa93ff6cae87b8be937581c448a44a5f093a7353368",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-069": {
+      "hash": "8dc30bfe580a9a2ba4a04fa62f37aad2d23ed1a96d172d43d5cffb1fc5605a61",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-070": {
+      "hash": "08aa131f768cf6e8530d0243caf2b14efc180e93f1842294d542ff8f7a412ea6",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-071": {
+      "hash": "1c6246b52d4fce3fc500751e937716067e98af92a926746b41bc557f7c54142d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-072": {
+      "hash": "3dfa8070357c9f229682fda55e0048fa4905e08d70319b9e8faa22903f5a8a6f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-073": {
+      "hash": "98c192739c972f144b9197cb0799da7293c77bea70cd55ddfb2263fdb08d6c20",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-074": {
+      "hash": "990586e69b73b7b88932cc7f991e16f7874179f0ead46380087563bb66273e0d",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-075": {
+      "hash": "c75c883900f9b82070e0d847df51ed738c23435e5e88b8a9e1fa9f44103e9e40",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-076": {
+      "hash": "1462039a9b4a22499a4d1c611ac4ead46cba28c1c5718ba52f14f43599a7132e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-077": {
+      "hash": "2908a10da22864679ae861b401b8718d790a76b0a6c8ccb246662644dc9fbb1e",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-078": {
+      "hash": "6b18d4dd4db6cfc9e1bd33b269c39f19d132ad2509f8f15b3c8646db418002d2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-079": {
+      "hash": "d5ba256a3e17722af2b89ddd21217ed79fa25955289b92f7a1f4813209d1c6a9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-080": {
+      "hash": "15ae2e9c10b0c30a57051d280d88457516f83e8ef15b65e329e353fc3705d8ce",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-081": {
+      "hash": "ad7d3159bb846654c01f4e1bcc7e2287a3ec875df963850b11ff5329ffaf19de",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-082": {
+      "hash": "4b17de84f753ebd66b854fbce7311bfef0822fdcfe8d296e103ec511339898b9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-083": {
+      "hash": "18e08c9207f4d26a1e4926f84148b0f656b1225444593b9cbb1dec907c2689bb",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-084": {
+      "hash": "b8ac5da9381f8cf6979e8d36940014aadfda042d9609495746b1ed5f2878ad32",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-085": {
+      "hash": "ff42827abaf28c52b060ab4ad95aac72d6b0523c02cad47131df14e204996206",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-086": {
+      "hash": "13120d935428d682184226b8be43edbc3384ff900ac550b5738899668817181c",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-087": {
+      "hash": "765acb31a77387b00934185f520deec12cc014e0478ebe0b0649335bc396863b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-088": {
+      "hash": "31ab3a18dd8feeca46ae4b258c9577d90b7068896b967c361d40a15605da95b5",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-089": {
+      "hash": "d590c48153b5302fb1e710f11c452d2d2ca99f7a2dbb23017733e8e40001e74f",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-090": {
+      "hash": "3d244f7ccf01129b30b1a35dc141eadb23c47789fb8193bc4a99c29a707fcbc3",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-091": {
+      "hash": "1a778017f1b2c381f3ab951d35435515f602597d53b6489c30a840382676a0b0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-092": {
+      "hash": "7888e7f6ddd16476b60a19ad941e114c5e2515791b757275240117d4cfa5fce0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-093": {
+      "hash": "5479feede88924cbf0ca8c45426dc3126cd71b1f24ecb7a83251119fcc70b1c2",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-094": {
+      "hash": "8a82cc7b66960f0f15e4fecebc5022a04706655291d1261e587fa4f854b45bd9",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g1m-gen-095": {
+      "hash": "e71073b215ddb75d586ba318c1b8046eed54f7160d191628a4b1a29947550a57",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4-step-mul-23x4": {
+      "hash": "7dddd655e1ce70c38715ae2f2aa5f8b2f2aa647618b3d2c8a71d1c34404a9f0a",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4-step-mul-36x7": {
+      "hash": "953dff1acdecda360eff4fec52b275068035aa86be8e2cea0e99bcb23e1df270",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4-step-div-84d4": {
+      "hash": "a86a08628c8d37b48929d19e63c56489c0341f928e463768108a3916f2d72e9b",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4-step-div-47d3": {
+      "hash": "16909098246846c31a8a30336423fe4c5b6f7db6a3991f8f777eede2906abd52",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4-step-mixed-bracket1": {
+      "hash": "a900a551d56ea4f8d6c9cbd09a3cb36089ee44252ab271c00048e1bef5dd6498",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4-step-mixed-order1": {
+      "hash": "edbcfc56b1d14c7b23d7352c60560014cea858f2f2e4fb30ce8cd15101517da7",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4-step-frac-add1": {
+      "hash": "62daf05324ea2489b371a22fd7cbf2a5df8b1c7f0267a264a3fa554dda377cb0",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4-step-mul-128x3": {
+      "hash": "7bc34b4af2d740801d423e74b6ec4dfa60c406838f5b25dfc019766a0d5ed6bb",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4-step-area-rect1": {
+      "hash": "e7aca02ec7c064917c0663402b93c0192aa877e5893b6c8835b8933eca2ac689",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
+    },
+    "g4-step-mul-13x42": {
+      "hash": "573f0f8f39539cb143e3ce146eb386eee24fc323f005c3ef4cab2c9d5abb05cd",
+      "status": "approved",
+      "reviewer": "dennis@pressplay.cc",
+      "evidence": "docs/content-review/approvals.json"
     }
   },
   "templates": {

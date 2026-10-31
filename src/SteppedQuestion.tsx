@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import type { LearningQuestion, QuestionStep } from "./learning";
+import type { QuestionStep } from "./learning";
+import type { PublicQuestion } from "./cloud";
 import { PhoneticText } from "./PhoneticText";
 import "./stepped-question.css";
 
@@ -10,7 +11,7 @@ export default function SteppedQuestion({
   disabled,
   onComplete,
 }: {
-  question: LearningQuestion;
+  question: PublicQuestion;
   disabled: boolean;
   onComplete: (allCorrectFirstTry: boolean) => void;
 }) {
@@ -286,7 +287,7 @@ function StepCard({
             <button
               key={i}
               type="button"
-              disabled={disabled || state === "correct" || state === "locked"}
+              disabled={disabled || state === "correct"}
               className={`step-option ${
                 selectedOption === i
                   ? state === "correct"
@@ -322,7 +323,7 @@ function StepCard({
             step.fields.map((field, fi) => (
               <input
                 key={fi}
-                ref={fi === 0 ? firstInputRef : undefined}
+                ref={fi === 0 ? firstInputRef as React.Ref<HTMLInputElement> : undefined}
                 type="text"
                 inputMode="numeric"
                 pattern="[0-9/⋯]*"
@@ -411,7 +412,7 @@ function TemplateFields({
           return (
             <input
               key={pi}
-              ref={idx === 0 ? firstInputRef : undefined}
+              ref={idx === 0 ? firstInputRef as React.Ref<HTMLInputElement> : undefined}
               type="text"
               inputMode="numeric"
               pattern="[0-9/⋯]*"
