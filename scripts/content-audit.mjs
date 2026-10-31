@@ -14,9 +14,12 @@ export function structuralIssues(q){
  const errors=[];
  if(!q.id||!q.prompt?.trim()||!q.hint?.trim()||!q.explanation?.trim())errors.push('missing-text');
  if(![1,2,4,5,6].includes(q.grade)||!['math','chinese','english','science','social','words','tones','pairs','medials'].includes(q.course))errors.push('invalid-routing');
- if(!Array.isArray(q.options)||q.options.length<2||q.options.length>8||q.options.some(o=>!o.text?.trim()))errors.push('invalid-options');
- if(!Number.isInteger(q.answer)||q.answer<0||q.answer>=q.options.length)errors.push('invalid-answer-index');
- if(new Set(q.options.map(o=>o.text.normalize('NFKC').trim())).size!==q.options.length)errors.push('duplicate-options');
+ if(q.kind==='stepped'){if(!Array.isArray(q.steps)||q.steps.length<2)errors.push('invalid-steps');}
+ else{
+  if(!Array.isArray(q.options)||q.options.length<2||q.options.length>8||q.options.some(o=>!o.text?.trim()))errors.push('invalid-options');
+  if(!Number.isInteger(q.answer)||q.answer<0||q.answer>=q.options.length)errors.push('invalid-answer-index');
+  if(new Set(q.options.map(o=>o.text.normalize('NFKC').trim())).size!==q.options.length)errors.push('duplicate-options');
+ }
  if(/[\uFFFD]|\bEMBED\b/.test(JSON.stringify(q)))errors.push('extraction-artifact');
  if(/如下圖|如右圖|如左圖|看下圖|根據圖片/.test(q.prompt)&&!q.visual&&!q.image&&!q.options.some(o=>o.image))errors.push('missing-visual-context');
  if(q.image&&!q.imageAlt?.trim())errors.push('missing-image-alt');
