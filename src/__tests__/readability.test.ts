@@ -159,3 +159,12 @@ it("keeps inquiry instructions in Taiwanese readings instead of isolated-charact
     expect(syllables(text).slice(start, start + fragment.length).map(x => x.zy).join(" "), text).toBe(expected);
   }
 });
+
+it("reads new stepped-question instructions in their mathematical context", () => {
+  for (const [text, expected] of [
+    ["仔細看題目的條件", "ㄗˇ ㄒㄧˋ ㄎㄢˋ ㄊㄧˊ ㄇㄨˋ ˙ㄉㄜ ㄊㄧㄠˊ ㄐㄧㄢˋ"],
+    ["長方形的長是", "ㄔㄤˊ ㄈㄤ ㄒㄧㄥˊ ˙ㄉㄜ ㄔㄤˊ ㄕˋ"],
+    ["乘法應用題", "ㄔㄥˊ ㄈㄚˇ ㄧㄥˋ ㄩㄥˋ ㄊㄧˊ"],
+    ["除法應用題", "ㄔㄨˊ ㄈㄚˇ ㄧㄥˋ ㄩㄥˋ ㄊㄧˊ"],
+  ]) expect(syllables(text).map(x => x.zy).join(" "), text).toBe(expected);
+});

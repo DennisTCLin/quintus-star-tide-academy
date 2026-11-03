@@ -223,7 +223,7 @@ export const GRADE4_STEPPED_MATH: LearningQuestion[] = [
     course: "math",
     subject: "math",
     kind: "stepped",
-    prompt: "小明有 12 元，媽媽又給了 8 元，他用全部的錢買了 3 份點心，每份多少元？算 (12 + 8) × 3",
+    prompt: "每份點心有一個 12 元的麵包和一杯 8 元的果汁，買 3 份點心共需多少元？",
     options: [{ text: "60" }],
     answer: 0,
     hint: "先算括號裡面的。",
