@@ -1,3 +1,11 @@
+import {SCIENCE_EXAMS} from '../science-exams';
+import {SOCIAL_EXAMS} from '../social-exams';
+import {MATH_EXAMS} from '../math-exams';
+import {GRADE2_MATH_EXAMS} from '../grade2-math-exams';
+import {GRADE1_CHINESE_EXAMS} from '../grade1-chinese-exams';
+const scienceIds=new Set(SCIENCE_EXAMS.map(q=>q.id)),socialIds=new Set(SOCIAL_EXAMS.map(q=>q.id)),g1ChineseIds=new Set(GRADE1_CHINESE_EXAMS.map(q=>q.id));
+const socialSupplement=new Set(SOCIAL_EXAMS.filter(q=>q.examSources.some(s=>/^ksn\d+$/.test(s.id))).map(q=>q.id));
+const scienceSupplement=new Set(SCIENCE_EXAMS.filter(q=>q.examSources.some(s=>/^ksu\d+$/.test(s.id))).map(q=>q.id));
 import {GRADE5_NEW_EXAMS} from '../grade5-new-exams';
 import {GRADE5_DONGMEN_EXAMS} from '../grade5-dongmen-exams';
 import {GRADE5_REMAINING_EXAMS} from '../grade5-remaining-exams';
@@ -208,7 +216,7 @@ suite('school routing through authenticated cloud API',()=>{
    const ready=await call('command',{id:randomUUID(),revision:started.data.family.revision,command:{type:'ready-question',player:'qingqing',runId:run.id,index:0}},c);
    expect(ready.status,JSON.stringify(ready.data)).toBe(200);
    const q=ready.data.questions.qingqing;
-   expect(q.grade).toBe(1);expect(q.course).toBe(course);expect(q.publisher).toBe('康軒');expect(q.id.startsWith('cxg1-')).toBe(true);
+   expect(q.grade).toBe(1);expect(q.course).toBe(course);expect(q.publisher).toBe('康軒');expect(g1ChineseIds.has(q.id)).toBe(true);
    expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefined();expect(q.speechText).toBeTruthy();
    expect(ready.data.family.profiles.qingqing.run.questions.slice(1).every(id=>id==='')).toBe(true);
    const answered=await call('command',{id:randomUUID(),revision:ready.data.family.revision,command:{type:'answer',player:'qingqing',runId:run.id,index:0,choice:questionById(q.id).answer}},c);
@@ -235,7 +243,7 @@ suite('school routing through authenticated cloud API',()=>{
    const r=await call('command',{id:randomUUID(),revision:state.data.family.revision,command:{type:'battle-start',player:'quintus',course:'science',used:[]}},c);
    expect(r.status,JSON.stringify(r.data)).toBe(200);
    const q=r.data.result.question;
-   expect(q.course).toBe('science');expect(q.publisher).toBe('康軒');expect(q.id.startsWith('sx1-')).toBe(true);
+   expect(q.course).toBe('science');expect(q.publisher).toBe('康軒');expect(scienceIds.has(q.id)).toBe(true);
    expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefined();
   }
  });
@@ -250,7 +258,7 @@ suite('school routing through authenticated cloud API',()=>{
    const r=await call('command',{id:randomUUID(),revision:state.data.family.revision,command:{type:'battle-start',player:'quintus',course:'social',used:[]}},c);
    expect(r.status,JSON.stringify(r.data)).toBe(200);
    const q=r.data.result.question;
-   expect(q.course).toBe('social');expect(q.publisher).toBe('康軒');expect(q.id.startsWith('soc1-')).toBe(true);
+   expect(q.course).toBe('social');expect(q.publisher).toBe('康軒');expect(socialIds.has(q.id)).toBe(true);
    expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefined();
   }
  });
@@ -268,7 +276,7 @@ suite('school routing through authenticated cloud API',()=>{
    const q=r.data.result.question;
    expect(q.course).toBe('math');expect(q.grade).toBe(name==='jimmy'?2:4);
    expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefined();
-   if(publisher){expect(q.publisher).toBe(publisher);expect(q.id.startsWith(name==='jimmy'?'mxg2-':'mx1-')).toBe(true);}
+   if(publisher){expect(q.publisher).toBe(publisher);expect((name==='jimmy'?GRADE2_MATH_EXAMS:MATH_EXAMS).some(item=>item.id===q.id&&item.publisher===publisher)).toBe(true);}
    else {expect(q.examSources).toBeUndefined();expect(q.id.startsWith('n1-')).toBe(true);}
    // Grade two alternates words then math; grade four starts with math.
    const practice=await call('practice',{type:'start',player,used:name==='jimmy'?['words-previous']:[]},c);
@@ -318,36 +326,34 @@ suite('school routing through authenticated cloud API',()=>{
  });
 
  it('serves the new social supplement for three authenticated schools after prior mastery',async()=>{
-  const {default:oldRows}=await import('../data/social-exams-20261025.json',{with:{type:'json'}});
   for(const name of ['alan','quintus','brownie']){
    const c=clients[name];
    const {rows:[stored]}=await api.pool.query('SELECT family FROM game_states WHERE account_id=$1',[c.accountId]);
    const learning=stored.family.profiles.quintus.learning;
    learning.mastered ??= {ids:[],generated:{}};
-   learning.mastered.ids=[...new Set([...learning.mastered.ids,...oldRows.map(q=>q.id)])];
+   SOCIAL_EXAMS.filter(q=>!socialSupplement.has(q.id)).forEach(q=>markMastered(learning,q.id));
    await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=$1',[c.accountId,stored.family]);
    const state=await call('state',undefined,c);
    const r=await call('command',{id:randomUUID(),revision:state.data.family.revision,command:{type:'battle-start',player:'quintus',course:'social',used:[]}},c);
    expect(r.status,JSON.stringify(r.data)).toBe(200);
    const q=r.data.result.question;
-   expect(q.id.startsWith('soc1-ksn')).toBe(true);expect(q.publisher).toBe('康軒');expect(q.grade).toBe(4);
+   expect(socialSupplement.has(q.id)).toBe(true);expect(q.publisher).toBe('康軒');expect(q.grade).toBe(4);
    expect(q.examSources.length).toBeGreaterThan(0);expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefined();
    expect(q.prompt).toBe(questionById(q.id).prompt);
   }
  }); it('serves the new science supplement for three authenticated schools after prior mastery',async()=>{
-  const {default:oldRows}=await import('../data/science-exams-20261025.json',{with:{type:'json'}});
   for(const name of ['alan','quintus','brownie']){
    const c=clients[name];
    const {rows:[stored]}=await api.pool.query('SELECT family FROM game_states WHERE account_id=$1',[c.accountId]);
    const learning=stored.family.profiles.quintus.learning;
    learning.mastered ??= {ids:[],generated:{}};
-   learning.mastered.ids=[...new Set([...learning.mastered.ids,...oldRows.filter(q=>questionById(q.id)).map(q=>q.id)])];
+   SCIENCE_EXAMS.filter(q=>!scienceSupplement.has(q.id)).forEach(q=>markMastered(learning,q.id));
    await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=$1',[c.accountId,stored.family]);
    const state=await call('state',undefined,c);
    const r=await call('command',{id:randomUUID(),revision:state.data.family.revision,command:{type:'battle-start',player:'quintus',course:'science',used:[]}},c);
    expect(r.status,JSON.stringify(r.data)).toBe(200);
    const q=r.data.result.question;
-   expect(q.id.startsWith('sx1-ksu')).toBe(true);expect(q.publisher).toBe('康軒');expect(q.grade).toBe(4);
+   expect(scienceSupplement.has(q.id)).toBe(true);expect(q.publisher).toBe('康軒');expect(q.grade).toBe(4);
    expect(q.examSources.length).toBeGreaterThan(0);expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefined();
    expect(q.prompt).toBe(questionById(q.id).prompt);
   }

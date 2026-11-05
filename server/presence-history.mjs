@@ -33,7 +33,7 @@ export function hasAdventureHistory(profile) {
   return !!(profile.run || profile.lastDraw || profile.onboarding?.pet || profile.gardenImported || profile.territory
     || profile.milestones?.completedVoyages > 0 || profile.milestones?.masteryPoints > 0
     || profile.attempted?.length || profile.credited?.length
-    || profile.learning?.seen?.length
+    || (Array.isArray(profile.learning?.seen) ? profile.learning.seen.length : profile.learning?.seen?.codec === 'prefix-v1' && Array.isArray(profile.learning.seen.entries) && profile.learning.seen.entries.length)
     || Object.values(profile.learning?.cursors ?? {}).some(count => count > 0)
     || Object.values(profile.learning?.skills ?? {}).some(skill => skill.answered > 0)
     || Object.keys(profile.owned ?? {}).length > 1
