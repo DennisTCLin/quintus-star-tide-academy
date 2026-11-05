@@ -1,0 +1,63 @@
+{
+  "status": "triaged_not_imported",
+  "note": "Direct publisher evidence from source header. Images/audio and question-level answers remain pending. No live data modified.",
+  "candidates": [
+    {
+      "file": "3ad4c01f8c1eaef3.pdf",
+      "school": "路上國小",
+      "year": 112,
+      "grade": 2,
+      "subject": "math",
+      "publisher": "南一",
+      "semester": 1,
+      "book": 3,
+      "units": "1–3",
+      "evidence": "第1頁：南一版數學第三冊第一至第三單元",
+      "next": "文字算題逐題解答、去重；珠子/紙張/積木/長度圖需視覺審查",
+      "answerKey": "not found"
+    },
+    {
+      "file": "11031bf1a523d316.pdf",
+      "school": "德高國小",
+      "year": 108,
+      "grade": 4,
+      "subject": "social",
+      "publisher": "康軒",
+      "semester": 1,
+      "units": "1-1–3-1",
+      "evidence": "第1頁：期中定期評量四年級社會領域，範圍康軒1-1～3-1",
+      "next": "逐題取目前核定單元交集；連連看/閱讀保留上下文",
+      "answerKey": "not found"
+    },
+    {
+      "file": "7a213c296aef4e52.pdf",
+      "school": "美和國小",
+      "year": 108,
+      "grade": 1,
+      "subject": "math",
+      "publisher": "翰林",
+      "semester": 1,
+      "book": 1,
+      "units": "1–5",
+      "evidence": "第1頁：翰林版第1冊（第1～5單元）",
+      "next": "大量圖題，須逐圖審查",
+      "answerKey": "not found"
+    },
+    {
+      "file": "77f60369e6b95341.doc",
+      "school": "美和國小",
+      "year": 108,
+      "grade": 1,
+      "subject": "chinese",
+      "publisher": "康軒",
+      "semester": 1,
+      "book": "首冊",
+      "units": "第一～九課",
+      "evidence": "文件開頭：康軒版首冊（第一～九課）",
+      "next": "聽寫30分缺音檔不可直接入庫；字型抽取錯字須渲染核對",
+      "answerKey": "not found"
+    }
+  ],
+  "manifestReconciliation": "manifest327筆與收件統計332不同，未將差額當完成或遺失；待核對收件清單",
+  "brownieEnglish": "excluded"
+}
