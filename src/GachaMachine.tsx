@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import ReadAloud from './ReadAloud';
 import { useContext, useEffect, useRef, useState, type ReactNode } from 'react';
 import { companionDrawPool, petById, type Profile, type DrawResult } from './game-view';
@@ -94,7 +95,7 @@ export default function GachaMachine(props: Props) {
       if (current()) { epoch.current++; wake.current?.(); lock.current = false; setPhase('idle'); setDrawError('結果尚未確認，請先確認同步，再查看最近一次扭蛋。'); }
     } finally { if (current()) lock.current = false; }
   }
-  const resultArt = pet && last && <div className="gacha-result-art" key={last.id}>{artFailed ? <span aria-hidden="true">✦</span> : <img src={pet.image} alt={pet.name} width="400" height="400" onError={() => setArtFailed(true)} />}</div>;
+  const resultArt = pet && last && <div className="gacha-result-art" key={last.id}>{artFailed ? <span aria-hidden="true">✦</span> : <CharacterPortrait characterId={pet.id} motion={pet.motion} pose="reveal" paused={reduced} src={pet.image} alt={pet.name} width="400" height="400" onError={() => setArtFailed(true)} />}</div>;
   return annotateTree(<section className={`gacha-machine phase-${phase} ${reduced ? 'gacha-reduced' : ''}`} data-phase={phase}>
     <header className="gacha-heading"><div><h1 ref={heading} tabIndex={-1}>星海扭蛋機</h1><p>轉動一顆星願，迎接下一位冒險夥伴。</p></div><div className="gacha-controls">{props.musicControl}<ReadAloud grade={grade}><button data-read-aloud className="voice-button" aria-label="聽扭蛋機說明" onClick={() => props.onSpeak(explanation)}>🔊</button></ReadAloud></div></header>
     <div className="gacha-layout">
@@ -118,7 +119,7 @@ export default function GachaMachine(props: Props) {
           {voyage && <p className="gacha-note">本趟仍由原夥伴完成，經驗值也保留給牠。</p>}
           <div className="gacha-result-actions"><ReadAloud grade={grade}><button data-read-aloud aria-label="聽扭蛋結果" onClick={() => props.onSpeak(`${pet.name}，${pet.rarity} 級。${last.duplicate ? '遇見熟悉的夥伴' : '收到了新夥伴'}，目前持有 ${copies} 張。`)}>🔊 聽結果</button></ReadAloud><button onClick={props.onCollection}>查看收藏</button>{copies > 1 && <button onClick={props.onTrade}>看看可交換的夥伴</button>}</div>
           {last.duplicate && copies > 0 && <p className="gacha-note">重複卡會留在收藏中，可和家人一起選卡交換；需要雙方確認。</p>}
-        </article> : !drawing && <div className="gacha-first-result"><div className="gacha-companion-preview" aria-hidden="true">{(starTicket ? pool.slice(0, 3).map(pet => pet.id) : ['pebblefin', 'seasprout', 'foamferret']).map(id => <img key={id} src={petById(id)!.image} alt="" width="96" height="96" loading="lazy" />)}</div><p>{pool.length} 位夥伴，各有自己的模樣。<br />每一位都能陪你答題、一起成長。</p></div>}
+        </article> : !drawing && <div className="gacha-first-result"><div className="gacha-companion-preview" aria-hidden="true">{(starTicket ? pool.slice(0, 3).map(pet => pet.id) : ['pebblefin', 'seasprout', 'foamferret']).map(id => <CharacterPortrait characterId={id} paused={reduced} key={id} src={petById(id)!.image} alt="" width="96" height="96" loading="lazy" />)}</div><p>{pool.length} 位夥伴，各有自己的模樣。<br />每一位都能陪你答題、一起成長。</p></div>}
       </div>
     </div>
     <section className="gacha-earn" aria-label="取得星願券"><div><h2>一起答題，慢慢存星願</h2><p>六題挑戰成功 → 自動存一顆星 → 每兩場換一張券。</p><p>{awaitingReward ? '上一趟的完成獎勵還沒領，先去領好獎勵。' : '成功就能繼續存，沒有每日次數上限；星星也能留到明天。'}</p><button onClick={props.onLearn}>{awaitingReward ? '領取完成獎勵' : '去挑戰六題'}</button></div><RewardProgress stars={p.rewardStars} /></section>

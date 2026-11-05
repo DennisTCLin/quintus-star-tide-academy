@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import ReadAloud from './ReadAloud';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import BrandLogo from './BrandLogo';
@@ -73,7 +74,7 @@ export default function StarterOnboarding(props: Props) {
           {revealed && result && <div className="starter-result-copy"><h2 ref={resultHeading} tabIndex={-1}>{result.name}</h2><span className="starter-result-level">{result.rarity} 級 · Lv.1 · {result.element}</span><p>{result.story}</p><p className="starter-saved">已加入收藏，並選為陪練夥伴。</p></div>}
         </div>
         <div className="starter-experience">
-          <GachaVisual phase={phase}>{result && <div className="gacha-result-art starter-result-art">{brokenArt ? <span className="starter-art-fallback">✦</span> : <img src={result.image} alt={result.name} width="400" height="400" onError={() => setBrokenArt(true)} />}</div>}</GachaVisual>
+          <GachaVisual phase={phase}>{result && <div className="gacha-result-art starter-result-art">{brokenArt ? <span className="starter-art-fallback">✦</span> : <CharacterPortrait characterId={result.id} motion={result.motion} pose="reveal" paused={reduced} src={result.image} alt={result.name} width="400" height="400" onError={() => setBrokenArt(true)} />}</div>}</GachaVisual>
           <p className="starter-animation-status" role="status">{turning ? '星願正在路上，夥伴馬上就來…' : revealed ? '你的第一位夥伴登場！' : '有一位新朋友，正在等你。'}</p>
           {turning && !reduced && <button className="gacha-skip" onClick={() => { skip.current = true; wake.current?.(); }}>略過動畫</button>}
           {!result && <button className="f-primary starter-action" disabled={busy || turning || !online} onClick={() => void turn()}>{turning ? '正在迎接夥伴…' : '免費轉一次'}</button>}

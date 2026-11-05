@@ -1,0 +1,21 @@
+{
+  "base": "dfafb55e805d71806cbc1278be00703604bda809",
+  "protectedPaths": [
+    "server",
+    "src/adult",
+    "src/main.tsx",
+    "src/child-entry.tsx",
+    "src/conquest.ts",
+    "src/conquest-enemy.ts",
+    "src/companion-growth.ts",
+    "src/data",
+    "public"
+  ],
+  "changedProtectedFiles": [],
+  "build": "PASS",
+  "testsPassed": 1510,
+  "testsSkipped": 251,
+  "runtimeEvidence": "release-browser-checks.json",
+  "sourceReview": "PASS",
+  "newHeroMediaIncluded": false
+}

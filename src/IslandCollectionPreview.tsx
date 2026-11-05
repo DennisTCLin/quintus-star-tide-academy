@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import ReadAloud from './ReadAloud';
 import type { CSSProperties } from 'react';
 import type { Grade } from './learning';
@@ -21,7 +22,7 @@ export default function IslandCollectionPreview({ island, profile, grade, onSpea
   const speech = `${island.name}可以收集${collection.entries.length}種夥伴，你已經有${collection.collected}種。這個階段可以遇見：${preview.map(({ monster, owned }) => `${monster.name}，${status(owned)}`).join('。')}。完成探險後，有機會邀請牠們。`;
   const list = (entries: typeof collection.entries) => <ul className="island-collection-list">
     {entries.map(({ monster, owned }) => <li key={monster.id}>
-      <img src={monster.thumbnail ?? monster.image} alt="" width="64" height="64" loading="lazy"/>
+      <CharacterPortrait characterId={monster.id} src={monster.thumbnail ?? monster.image} alt="" width="64" height="64" loading="lazy"/>
       <span className="island-collection-creature-name">{monster.name}</span>
       <span className={`island-collection-status${owned ? ' is-owned' : ''}`}><span aria-hidden="true">{owned ? '✓' : '○'}</span> {status(owned)}</span>
     </li>)}
@@ -33,7 +34,7 @@ export default function IslandCollectionPreview({ island, profile, grade, onSpea
     <p className="island-collection-caption">這個階段可遇見</p>
     <ul className="island-collection-strip">
       {preview.map(({ monster, owned }) => <li key={monster.id} aria-label={`${monster.name}，${status(owned)}`}>
-        <img src={monster.thumbnail ?? monster.image} alt={monster.name} width="80" height="80" loading="lazy"/>
+        <CharacterPortrait characterId={monster.id} src={monster.thumbnail ?? monster.image} alt={monster.name} width="80" height="80" loading="lazy"/>
         <span className={`island-collection-status${owned ? ' is-owned' : ''}`}><span aria-hidden="true">{owned ? '✓' : '○'}</span> {status(owned)}</span>
       </li>)}
     </ul>

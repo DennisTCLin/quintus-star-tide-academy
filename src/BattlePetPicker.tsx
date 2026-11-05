@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import type { Character } from "./characters";
 import { ELEMENTS, petElement } from "./game-view";
 import { creatureProgress } from "./companion-growth";
@@ -24,7 +25,7 @@ export default function BattlePetPicker({ pets, selected, onSelect, growth = {} 
           <span className={`battle-pet-rank rank-${pet.rarity}`}>{pet.rarity}</span>
           <strong>Lv.{level}</strong>
         </span>
-        <img className="battle-pet-image" src={pet.image} alt="" loading="lazy" />
+        <CharacterPortrait characterId={pet.id} motion={pet.motion} pose={picked ? "selected" : "idle"} className="battle-pet-image" src={pet.image} alt="" loading="lazy" />
         <span className="battle-pet-name">{pet.name}</span>
         <span className="battle-pet-footer" aria-hidden="true">
           <span><BrandText text={element.icon} /> {element.name}</span>

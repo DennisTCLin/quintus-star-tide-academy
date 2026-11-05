@@ -1,3 +1,4 @@
+import CharacterPortrait from '../CharacterPortrait';
 import { useEffect, useRef, useState } from "react";
 import { petById } from "../game-view";
 import { MAX_MISTAKES } from "../challenge-rules";
@@ -531,7 +532,7 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
               <h2><Zy text={u.title}/></h2><p className="isl-unit-place"><Zy text={u.place}/></p>
               {stars > 0 && <span className="isl-starnote">⭐ 這裡有 {stars} 顆迷路的星星，去「玩一玩」找回來！</span>}
             </div>
-            {g && <img src={g.image} alt={`守關神獸 ${g.name}`} className={bossBeaten(me, u.id) ? "tamed" : ""} />}
+            {g && <CharacterPortrait characterId={g.id} paused={embed.reduced} pose="greet" src={g.image} alt={`守關神獸 ${g.name}`} className={bossBeaten(me, u.id) ? "tamed" : ""} />}
           </div>
           <div className="isl-unit-ability"><IslandAbility progress={me} unit={u.id} details/></div>
           <div className="isl-stagelist">
@@ -651,7 +652,7 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
               <button key={u.id} disabled={busy || !embed.online} className={`isl-isle ${cleared ? "beaten" : ""} ${current?"is-current":""}`} aria-current={current?"location":undefined} onClick={() => current?void startCloud(me.run!.mode,me.run!.unit,false,me.run!.grade??1):me.run&&!me.run.completed?void startCloud(!progress?.learn?"learn":!progress?.play?"play":!cleared?"boss":"learn",u.id):setScreen({ s: "unit", id: u.id })}>
                 <span className="isl-destination-art">
                   <IslandLandscape unit={u.id} eager={idx === 0} />
-                  <img className="isl-map-guardian" src={petById(u.guardian)?.image} alt="" aria-hidden="true" width="88" height="88" decoding="async" />
+                  <CharacterPortrait characterId={u.guardian} paused={embed.reduced} className="isl-map-guardian" src={petById(u.guardian)?.image} alt="" aria-hidden="true" width="88" height="88" decoding="async" />
                 </span>
                 <span className="isl-destination-copy">
                   <span className="tx"><small><Zy text={`第 ${u.n} 單元`}/>{current&&<span className="isl-current-badge"><Zy text="你在這裡"/></span>}</small><b><Zy text={u.title}/></b><span><Zy text={u.place}/></span></span>
@@ -672,7 +673,7 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
         </div>
         <div className="isl-bottom">
           <button className="isl-btn big king" disabled={!king || busy || !embed.online} onClick={startKing}>
-            <img className="ic" src={petById(ISLAND_KING)?.image} alt="" aria-hidden="true" />
+            <CharacterPortrait characterId={ISLAND_KING} paused={embed.reduced} pose={king ? "idle" : "locked"} className="ic" src={petById(ISLAND_KING)?.image} alt="" aria-hidden="true" />
             <span className="tx">
               <b>{king ? "島主大挑戰" : "🔒 島主大挑戰"}</b>
               <small>{!king ? `完成${gradeName(grade)}全學年單元就會出現（${beaten}/${yearUnits.length}）` : (grade===1?me.mock??0:me.mocks?.[grade]??0) >= PASS_MARK ? "再挑戰一次？" : "全學年隨機抽六個單元各一題，錯不到 3 題就過關！"}</small>

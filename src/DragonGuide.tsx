@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import ReadAloud from './ReadAloud';
 import { useState } from 'react';
 import { useDragonDialogue } from './useDragonDialogue';
@@ -43,5 +44,5 @@ export default function DragonGuide(props: DragonGuideProps) {
 
 export function HarborGuide(props: DragonGuideProps) {
   const [open, setOpen] = useState(false);
-  return <section className="harbor-dragon"><button className="harbor-dragon-toggle" aria-expanded={open} onClick={() => setOpen(!open)}><img src="/assets/star-tide-dragon.png" width="56" height="56" alt="" /><span>{annotateTree(open ? '收起小龍對話' : '和小龍說說話', props.grade)}</span><span aria-hidden="true">{open ? '⌃' : '💬'}</span></button>{open && <DragonGuide {...props} onReady={props.onReady ? () => { setOpen(false); props.onReady?.(); } : undefined} />}</section>;
+  return <section className="harbor-dragon"><button className="harbor-dragon-toggle" aria-expanded={open} onClick={() => setOpen(!open)}><CharacterPortrait characterId="star-tide-dragon" paused={props.reduced} pose={open ? "greet" : "idle"} src="/assets/star-tide-dragon.png" width="56" height="56" alt="" /><span>{annotateTree(open ? '收起小龍對話' : '和小龍說說話', props.grade)}</span><span aria-hidden="true">{open ? '⌃' : '💬'}</span></button>{open && <DragonGuide {...props} onReady={props.onReady ? () => { setOpen(false); props.onReady?.(); } : undefined} />}</section>;
 }

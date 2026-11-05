@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import MonsterMotion, {hasMonsterMotion,type MonsterAction} from "./MonsterMotion";
 import ReadAloud from './ReadAloud';
 import { CreatureBadge, StatLine } from "./CreatureInfo";
@@ -14,14 +15,14 @@ import "./monster-bestiary.css";
 export function MonsterArt({ monster, eager = false, action="idle", nonce=0, reduced=false }: { monster: Monster; eager?: boolean; action?:MonsterAction; nonce?:number; reduced?:boolean }) {
   if(eager&&hasMonsterMotion(monster.id))return <MonsterMotion key={monster.id} monster={monster} action={action} nonce={nonce} reduced={reduced}/>;
   // A new source owns its loading state, including callbacks from the old image.
-  return <MonsterImage key={monster.image} monster={monster} eager={eager} />;
+  return <MonsterImage key={`${monster.image}:${nonce}`} monster={monster} eager={eager} action={action} reduced={reduced} />;
 }
 
-function MonsterImage({ monster, eager }: { monster: Monster; eager: boolean }) {
+function MonsterImage({ monster, eager, action, reduced }: { monster: Monster; eager: boolean; action: MonsterAction; reduced: boolean }) {
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   return <div className={`monster-art monster-${monster.form}`} role="img" aria-label={monster.name}>
     {status !== "ready" && <span className="monster-art-fallback" aria-hidden="true">{MONSTER_FAMILIES[monster.family].icon}</span>}
-    {status !== "error" && <img src={eager ? monster.image : monster.thumbnail ?? monster.image} alt="" width={640} height={640} loading={eager ? "eager" : "lazy"} decoding="async" draggable={false}
+    {status !== "error" && <CharacterPortrait characterId={monster.id} paused={reduced} pose={action === "attack" ? "attack" : action === "hit" ? "hit" : action === "capture" || action === "entrance" ? "reveal" : "idle"} src={eager ? monster.image : monster.thumbnail ?? monster.image} alt="" width={640} height={640} loading={eager ? "eager" : "lazy"} decoding="async" draggable={false}
       onLoad={() => setStatus("ready")} onError={() => setStatus("error")} />}
   </div>;
 }

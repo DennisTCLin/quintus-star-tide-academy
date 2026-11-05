@@ -1,0 +1,85 @@
+{
+  "base": "dfafb55e",
+  "environment": "Desktop in-app browser viewport checks; not physical phone/iPad hardware",
+  "performance": [
+    {
+      "mode": "phone-full-roster",
+      "data": {
+        "viewport": [
+          390,
+          844
+        ],
+        "sampleFrames": 180,
+        "meanFrameMs": 8.331111111111102,
+        "p95FrameMs": 8.900000000001455,
+        "maxFrameMs": 9.30000000000291,
+        "framesOver50ms": 0,
+        "portraitCount": 389,
+        "visibleActive": 6,
+        "animationEnabled": 6,
+        "horizontalOverflow": false
+      }
+    },
+    {
+      "mode": "ipad-full-roster",
+      "data": {
+        "viewport": [
+          820,
+          1180
+        ],
+        "sampleFrames": 180,
+        "meanFrameMs": 8.333333333333334,
+        "p95FrameMs": 9.099999999998545,
+        "maxFrameMs": 9.5,
+        "framesOver50ms": 0,
+        "portraitCount": 389,
+        "visibleActive": 25,
+        "animationEnabled": 25,
+        "horizontalOverflow": false
+      }
+    }
+  ],
+  "ui": [
+    {
+      "overflow": true,
+      "screen": "ipad-hero",
+      "selected": "selected",
+      "width": 820
+    },
+    {
+      "animated": 0,
+      "screen": "ipad-hero-reduced"
+    },
+    {
+      "overflow": false,
+      "screen": "ipad-hero-after-fixture-wrap",
+      "selected": "selected",
+      "width": 820
+    },
+    {
+      "overflow": false,
+      "ownerOverview": true,
+      "portraits": 17,
+      "screen": "ipad-conquest",
+      "width": 820
+    },
+    {
+      "overflow": false,
+      "ownerOverview": true,
+      "screen": "phone-conquest",
+      "width": 390
+    },
+    {
+      "animated": 0,
+      "screen": "phone-conquest-reduced"
+    },
+    {
+      "overflow": false,
+      "posterAnimation": "portrait-reveal",
+      "posterReady": true,
+      "retry": true,
+      "screen": "missing-video-fallback"
+    }
+  ],
+  "diagnostic": "Initial hero/conquest overflow came only from unwrapped fixture measurement JSON, fixed with overflow-wrap; both views rechecked."
+}

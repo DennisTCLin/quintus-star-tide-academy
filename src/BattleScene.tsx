@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import MonsterMotion, {hasMonsterMotion} from "./MonsterMotion";
 import {monsterById} from "./monsters";
 import BattleCinematic from './BattleCinematic';
@@ -61,9 +62,9 @@ export function Sprite({ pet, attacking, reduced, nonce, hit=false }: { pet: str
   }, [clip, clipReady, reduced, attacking, nonce]);
   if(hasMonsterMotion(pet))return <MonsterMotion key={pet} monster={monsterById(pet)!} action={attacking?"attack":hit?"hit":"idle"} nonce={nonce} reduced={reduced}/>;
   const showSheet = clip && clipReady && !reduced;
-  const content = <div className="duel-art" data-motion={art.motion} data-rarity={art.rarity} data-series={art.series} role="img" aria-label={art.name} data-sprite={showSheet ? "animated" : "still"}>
+  const content = <div className="duel-art" data-motion={showSheet ? art.motion : undefined} data-rarity={art.rarity} data-series={art.series} role="img" aria-label={art.name} data-sprite={showSheet ? "animated" : "still"}>
     {showSheet ? <span ref={sheet} className="duel-spritesheet" style={{ backgroundImage: `url("${clip.src}")`, backgroundSize: `${clip.columns * 100}% ${clip.rows * 100}%` }} />
-      : broken ? <span className="duel-art-fallback" aria-hidden="true"><BrandText text="✦" /></span> : <img src={art.image} alt="" onError={() => setBroken(true)} draggable={false} />}
+      : broken ? <span className="duel-art-fallback" aria-hidden="true"><BrandText text="✦" /></span> : <CharacterPortrait characterId={art.id} motion={art.motion} paused={reduced} pose={hit ? "hit" : attacking ? "attack" : "idle"} src={art.image} alt="" onError={() => setBroken(true)} draggable={false} />}
   </div>;
   return art.motion ? <div className="duel-entry" data-motion={art.motion} key={pet}>{content}</div> : content;
 }
@@ -158,7 +159,7 @@ export default function BattleScene({ battle, playback, reduced, names }: { batt
       })}
       {winner && <div className="duel-victory" role="status"><span aria-hidden="true"><BrandText text="✦" /></span><strong>{battle.winner === "draw" ? "精彩平手" : `${names[battle.winner as 0 | 1]}獲勝`}</strong><small>每一次出招，都是新的成長。</small></div>}
     </div>
-    <div className="duel-reserves">{shown.teams.map((team, side) => <div key={side} className={`duel-roster side-${side}`} aria-label={`${names[side]}的隊伍`} role="group">{team.map((f, i) => <span className={`${i === shown.active[side] ? "selected" : ""} ${f.hp === 0 ? "exhausted" : ""}`} key={f.pet} title={`${petById(f.pet)!.name}，體力 ${f.hp}`}><img src={petById(f.pet)!.image} alt={petById(f.pet)!.name} /><small>{f.hp}</small></span>)}</div>)}</div>
+    <div className="duel-reserves">{shown.teams.map((team, side) => <div key={side} className={`duel-roster side-${side}`} aria-label={`${names[side]}的隊伍`} role="group">{team.map((f, i) => <span className={`${i === shown.active[side] ? "selected" : ""} ${f.hp === 0 ? "exhausted" : ""}`} key={f.pet} title={`${petById(f.pet)!.name}，體力 ${f.hp}`}><CharacterPortrait characterId={f.pet} paused={reduced} pose={f.hp <= 0 ? "defeated" : i === shown.active[side] ? "selected" : "idle"} src={petById(f.pet)!.image} alt={petById(f.pet)!.name} /><small>{f.hp}</small></span>)}</div>)}</div>
     <div className="duel-caption" role="status" aria-live="polite"><span className="duel-caption-dot" aria-hidden="true" /><span className="duel-caption-copy">{status}</span></div>
   </>, grade)}</>;
 }

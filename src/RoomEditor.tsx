@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import { ReadingContext, annotateTree } from "./readability";
 import { useContext, useEffect, useRef, useState, type CSSProperties } from "react";
 import { FURNITURE, WALLS, FLOORS, furnitureSpec, freshHomeDecor, roomCount, homeStock, type HomeDecor, type HomeItem, type FurnitureKind } from "./home-decoration";
@@ -111,7 +112,7 @@ export default function RoomEditor({ profile, busy, online, reduced, onAction, o
             </div>}
           </>}
           {(category==="wall"||category==="floor") && <div className="home-finish-grid">{(category==="wall"?WALLS:FLOORS).map((id,i)=><button key={id} disabled={disabled||stale} aria-label={`${category==="wall"?"牆面":"地板"}：${["原色",category==="wall"?"月夜":"木紋",category==="wall"?"花葉":"海洋"][i]}`} aria-pressed={draft.rooms[room][category]===id} onClick={()=>mutate(d=>{(d.rooms[room] as unknown as Record<string,string>)[category]=id;})}><img src={i===0?"/assets/home/room.webp":`/assets/home/${category}-${id}.webp`} alt=""/><span>{["原色",category==="wall"?"月夜":"木紋",category==="wall"?"花葉":"海洋"][i]}</span></button>)}</div>}
-          {category==="pets" && <div className="home-catalog-grid"><button aria-pressed={draft.resident===null} disabled={disabled||stale} onClick={()=>mutate(d=>{d.resident=null;})}><img src={petById(profile.equipped)!.image} alt=""/><b>陪練夥伴</b></button>{ROSTER.filter(p=>profile.owned[p.id]>0).map(p=><button key={p.id} aria-pressed={draft.resident===p.id} disabled={disabled||stale} onClick={()=>mutate(d=>{d.resident=p.id;})}><img src={p.thumbnail??p.image} alt="" loading="lazy"/><b>{p.name}</b></button>)}</div>}
+          {category==="pets" && <div className="home-catalog-grid"><button aria-pressed={draft.resident===null} disabled={disabled||stale} onClick={()=>mutate(d=>{d.resident=null;})}><CharacterPortrait paused={reduced} characterId={profile.equipped} pose={draft.resident === null ? "selected" : "idle"} src={petById(profile.equipped)!.image} alt=""/><b>陪練夥伴</b></button>{ROSTER.filter(p=>profile.owned[p.id]>0).map(p=><button key={p.id} aria-pressed={draft.resident===p.id} disabled={disabled||stale} onClick={()=>mutate(d=>{d.resident=p.id;})}><CharacterPortrait paused={reduced} characterId={p.id} motion={p.motion} pose={draft.resident === p.id ? "selected" : "idle"} src={p.thumbnail??p.image} alt="" loading="lazy"/><b>{p.name}</b></button>)}</div>}
         </aside>}
       </div>
     </>}

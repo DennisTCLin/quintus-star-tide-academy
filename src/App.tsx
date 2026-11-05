@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import ConquestRaidNotice from './ConquestRaidNotice';
 import StoryCinemaEntry from './StoryCinemaEntry';
 import { storyFromSearch, type StoryId } from './story-films';
@@ -174,16 +175,19 @@ function Art({
   pet,
   large = false,
   mood = "idle",
+  locked = false,
 }: {
   pet: Character;
   large?: boolean;
   mood?: string;
+  locked?: boolean;
 }) {
   const [broken, setBroken] = useState(false);
+  useEffect(() => setBroken(false), [pet.id]);
   return (
     <div
       className={`pet-art ${large ? "large" : ""} mood-${mood}`}
-      data-motion={pet.motion} data-rarity={pet.rarity} data-series={pet.series}
+      data-rarity={pet.rarity} data-series={pet.series}
       key={pet.id}
     >
       {broken ? (
@@ -191,7 +195,7 @@ function Art({
           <BrandText text="🐾" />
         </span>
       ) : (
-        <img
+        <CharacterPortrait characterId={pet.id} motion={pet.motion} pose={locked ? "locked" : mood === "happy" ? "victory" : mood === "encourage" ? "greet" : "idle"}
           src={large ? pet.image : (pet.thumbnail ?? pet.image)}
           alt={pet.name}
           loading={large ? "eager" : "lazy"}
@@ -1185,7 +1189,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                   reduced={battleReducedMotion} motionGranted={islandMapActive} motionSuspended={companionOpen} onMotionActivity={setIslandMapActive}
                   onStart={selectIsland} onResume={() => navigate("learn")}
                   onSpeak={text => speak(text, () => setNotice("暫時無法朗讀航線說明，請依照圖案和文字操作。"))} />
-                <button className="tide-harbor-entry" onClick={e => { e.currentTarget.focus({ preventScroll: true }); setCompanionOpenRequest(n => n + 1); }}><img src={companionPortrait(mascot)} alt="" width="72" height="72" /><span><strong>{companionName(mascot)}陪你一起學</strong>摸摸、餵點心，或聊聊今天的冒險</span><b aria-hidden="true">✦</b></button>
+                <button className="tide-harbor-entry" onClick={e => { e.currentTarget.focus({ preventScroll: true }); setCompanionOpenRequest(n => n + 1); }}><CharacterPortrait characterId={`mascot-${mascot}`} paused={battleReducedMotion} src={companionPortrait(mascot)} alt="" width="72" height="72" /><span><strong>{companionName(mascot)}陪你一起學</strong>摸摸、餵點心，或聊聊今天的冒險</span><b aria-hidden="true">✦</b></button>
                 <StudyEntry summary={cloud.state.studySummaries?.[id]} session={p.learning.study?.session} disabled={busy || !cloud.online || run?.status === 'active' || !!(p.mathIsland?.run && !p.mathIsland.run.completed)} onStart={mode => void beginReview(mode)} onFinish={() => { void change({ type: "review-finish", player: id, sessionId: p.learning.study?.session?.id }); }} />
                 <TrainingPanel key={id} profile={p} day={cloud.state.day} online={cloud.online} busy={busy}
                   onSelect={pet => change<boolean>({ type: "equip", player: id, pet })}
@@ -1738,12 +1742,12 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                               {PLAYERS.find((x) => x.id === offer.to)!.name}
                             </span>
                             <span className="swap-pictures">
-                              <img
+                              <CharacterPortrait characterId={offer.give} pose={give === offer.give ? "selected" : "idle"}
                                 src={petById(offer.give)!.image}
                                 alt={petById(offer.give)!.name}
                               />{" "}
                               ↔{" "}
-                              <img
+                              <CharacterPortrait characterId={offer.receive} pose={receive === offer.receive ? "selected" : "idle"}
                                 src={petById(offer.receive)!.image}
                                 alt={petById(offer.receive)!.name}
                               />
@@ -2695,7 +2699,7 @@ function PetPicker({
           key={c.id}
           onClick={() => onSelect(c.id)}
         >
-          <img src={c.image} alt="" loading="lazy" />
+          <CharacterPortrait characterId={c.id} motion={c.motion} pose={selected.includes(c.id) ? "selected" : "idle"} src={c.image} alt="" loading="lazy" />
           <CreatureBadge rarity={c.rarity} level={creatureProgress(c.rarity, growth[c.id] ?? 0).level} />
           <span>{grade === 2 ? <AutoRuby text={c.name} /> : c.name}</span>
           <small>
@@ -2729,7 +2733,7 @@ function CardFace({
         <strong>{copies ? `× ${copies}` : "🔒"}</strong>
       </div>
       <CreatureBadge rarity={pet.rarity} level={level} />
-      <Art pet={pet} />
+      <Art pet={pet} mood={equipped ? "encourage" : "idle"} locked={!copies} />
       <div className="card-caption">
         <h2>{pet.name}</h2>
         <span>

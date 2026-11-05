@@ -1,0 +1,10 @@
+{
+  "base": "21cb7463bd2c4dbeea3e1303444a849316c9fb76",
+  "overlap": [
+    "src/App.tsx"
+  ],
+  "featureFilesUnchanged": 42,
+  "storyFilesRetainedExactly": 15,
+  "bothAppIntegrationsPresent": true,
+  "status": "PASS"
+}
