@@ -1,0 +1,54 @@
+{
+  "opening": {
+    "source": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/422b0b74-be89-4b5c-a0c8-ab0e16196c70.mp4",
+    "sourceSha256": "d0ac2ae7f2bb8b115eddc4d1412986184bf0ee1e97c7271931e68d29fe4d67b5",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac"
+        }
+      ],
+      "format": {
+        "duration": "48.000000",
+        "size": "18957103"
+      }
+    },
+    "assets": {
+      "src": "/assets/stories/opening.v-c7bee8610403.mp4",
+      "poster": "/assets/stories/opening.v-d9efa4c5ae3d.jpg"
+    }
+  },
+  "lighthouse": {
+    "source": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/c8775bc8-4115-4d86-9d62-3960b6c663ac.mp4",
+    "sourceSha256": "8f21f4aad7e8e784b94f2b84abbbae83e282f2554264505e0ea7f54a7ae3fd2c",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac"
+        }
+      ],
+      "format": {
+        "duration": "146.005000",
+        "size": "58560353"
+      }
+    },
+    "assets": {
+      "src": "/assets/stories/lighthouse.v-27806e2e79fe.mp4",
+      "poster": "/assets/stories/lighthouse.v-a67d697b7846.jpg"
+    }
+  }
+}
