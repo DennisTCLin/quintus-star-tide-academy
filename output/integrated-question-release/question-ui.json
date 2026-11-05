@@ -1,0 +1,43 @@
+{
+  "candidate": "c08790b5ca92d212d31b591cd3deb258680e8a83",
+  "status": "PASS",
+  "legacyContentPreserved": 172,
+  "sourceMappingsResolved": 27,
+  "newQuestions": 26,
+  "duplicateSourceMerge": 1,
+  "newQuestionUI": {
+    "phone": [
+      390,
+      844
+    ],
+    "tablet": [
+      1024,
+      1366
+    ],
+    "answered": [
+      "42+15=57",
+      "77+33=110"
+    ],
+    "sourceLabel": "三重國小113二上南一第1頁I-1",
+    "reload": {
+      "answered": 2,
+      "coins": 1254,
+      "tickets": 3,
+      "mastered": 174
+    }
+  },
+  "steppedUI": {
+    "tabletFirstStep": true,
+    "phoneRemainingSteps": true,
+    "teachingCompletionCoins": 1234,
+    "teachingCompletionAnswers": [],
+    "formalChoice": "92",
+    "afterReloadCoins": 1244,
+    "afterReloadTickets": 3,
+    "afterReloadAnswers": [
+      true
+    ]
+  },
+  "physicalIPadSafari": "UNKNOWN - responsive IAB only",
+  "realChildDataAccess": false
+}

@@ -13,7 +13,7 @@
       "book": 3,
       "units": "1–3",
       "evidence": "第1頁：南一版數學第三冊第一至第三單元",
-      "next": "文字算題逐題解答、去重；珠子/紙張/積木/長度圖需視覺審查",
+      "next": "19個純文字子題完成逐頁視覺核對及盲解一致；尚待目前單元交集、去重及新選項審核，未納本release。珠子/紙張/積木/長度圖仍需審查。",
       "answerKey": "not found"
     },
     {
@@ -58,6 +58,6 @@
       "answerKey": "not found"
     }
   ],
-  "manifestReconciliation": "manifest327筆與收件統計332不同，未將差額當完成或遺失；待核對收件清單",
+  "manifestReconciliation": "已核對：manifest327筆＋早期清單5筆＝332筆收件、330個唯一SHA；330實檔存在且hash吻合，未遺失。這是檔案完整性，不代表題目核准。",
   "brownieEnglish": "excluded"
 }
