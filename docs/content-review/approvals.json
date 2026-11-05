@@ -12690,10 +12690,10 @@
       "evidence": "docs/content-review/ai-review-20261026.md"
     },
     "mxg2-22eed7dd59041518": {
-      "hash": "2a07e53243ae53fdae652a13b50cde80e59fb8730a05c5a32fc387202ff67018",
+      "hash": "49cc8061072be1a7db4d4d7f2eed21d3079ae936a075281f123af5298d69108f",
       "status": "approved",
-      "reviewer": "content_math_audit + root corrections",
-      "evidence": "docs/content-review/ai-review-20261026.md"
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
     },
     "mxg2-04c83cadb575957d": {
       "hash": "f7e4d3ee668fc7880ae893f8e408011900f7efeafd00e296c4154bbbbd3fd55b",
@@ -12930,10 +12930,10 @@
       "evidence": "docs/content-review/ai-review-20261026.md"
     },
     "mxg2-bfd6eed9dc1c1911": {
-      "hash": "6df5af891b6961b408a2b00ee173bc3830c7672ff2269a842d8dbf03f4c594c0",
+      "hash": "8e9ca81c6ddf92f651343682852b6719e910eb8402ea3ed9fefbd875f295e775",
       "status": "approved",
-      "reviewer": "content_math_audit + root corrections",
-      "evidence": "docs/content-review/ai-review-20261026.md"
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
     },
     "mxg2-8e367f95119a87aa": {
       "hash": "0551f509c5b796f3f3989fbd785a2919eb4f34f983474ca9bb238075c63abe3e",
@@ -37144,6 +37144,162 @@
       "status": "approved",
       "reviewer": "dennis@pressplay.cc",
       "evidence": "docs/content-review/approvals.json"
+    },
+    "mxg2-sc113-i_1": {
+      "hash": "8c386265a0b7572d685d05e4801ca66af06331b548700496daf4b5019879300d",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-i_2": {
+      "hash": "2c19fcc954b192ece1ddeca5b8e7bb64446d4ca9208782563f515167a3db88bd",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-i_3": {
+      "hash": "e2ad8c9981cfd7c1c3afd0618504612080c407a86f83998ccf4079e5be745b1e",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-i_4": {
+      "hash": "2d265b790950d2b69350c39e10c3cce2f9e5b40b36a97764e6827c0c8b6839ba",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-i_6": {
+      "hash": "0ad4fd7c6e1beb80617dff4eef85a9f7095b2763652dd0b647032f5628fc9eba",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_1_1": {
+      "hash": "62dbdb46abb6625201cb6f86b6e67cc8b77873eacd00123537eb7b7ca59512ab",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_1_2": {
+      "hash": "b951edea667e9950bc71999cb8aa351640dc15f2811da72259d5966004bd27aa",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_1_3": {
+      "hash": "3d5e8f9552b087102db25cd2f57c66508d5ee0b084fc88d064d19731816978d8",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_1_4": {
+      "hash": "8d4c35be66e5ad038e9e8be755f2847da431bfd7d2e78a557a68e6b5c81758b9",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_1_5": {
+      "hash": "0efd56ac7a2792b7fa051787aee68ba4d440d23d5860c33442eeb1b9b5923308",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_2_1a": {
+      "hash": "3f71bd8f9b9e96a18729cf416a171ba663b5f03fe8ff2c6ec6d22b15f3297577",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_2_1b": {
+      "hash": "a5149755c19d92d8c92a1213f6ae380460803421db705cd3afda9e2c070ac665",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_2_2a": {
+      "hash": "c17256b3e68ff26c066e019139403b9f02a34cc2bd749828fa910ac93cdac95d",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_2_2b": {
+      "hash": "5726392c131c52d910f02c7d3689d862e2d75030083f572ced5d91af4848330b",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_3_ones": {
+      "hash": "fdf9412a6b0ea3739cbac890c48001ba29c85725ddff79e6e16e9a6919482faf",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_3_tens": {
+      "hash": "e68ab9c3e3e11f426879d8c8add51ad9110180ce0bf1e3331875610f1312d7cf",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_3_hundreds": {
+      "hash": "692434865be59d6161b12acb4145c4589df5fb88e32798283935f688ab10603c",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_4_1": {
+      "hash": "e1f2a46f57f3e67ee9951a80619e6f1e79c230ea55c3d305d33e8cad4fa46ff4",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-ii_4_2": {
+      "hash": "8405b95d785960bc6a96e98f007682b88a31e70e651cded205790157a1ee6f6c",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-iv_1": {
+      "hash": "2c0a008b093f501cf0040efd9892d705a3c4a8f9fc9f005a2311542b0fea1dcf",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-iv_2_1": {
+      "hash": "9b30f90a5707af5293f04385b45cdcfa483d44e29bd0a44de080d078483a6d30",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-iv_2_2": {
+      "hash": "a4ec475260a0ea44a9b9d23193201e9f8f738a44532b5032ed3fb930c83d7e79",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-iv_2_3": {
+      "hash": "1e7468a9be2adebb9c806c97acc25eae787325a78a8575ebb8398c438c0d26e2",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-iv_2_4": {
+      "hash": "7f3dfa8cc1e513bb6a3c115d66fc9f6cf417eb97aa0f24dabf43e56b7462fb66",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-iv_2_5": {
+      "hash": "9323812133f3f05696c86703b9bc0435dc29a6d47d7bad21e664ce53bddf2295",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "mxg2-sc113-iv_2_6": {
+      "hash": "3fc6f48d1b9f45b0b745d9159ebed9f6bdda4e913a655779877385bdec8b84c4",
+      "status": "approved",
+      "reviewer": "root visual/arithmetic + blind_math_review independent solving; metadata-only legacy preservation checks",
+      "evidence": "docs/content-review/sanchong113-g2-math/README.md"
     }
   },
   "templates": {

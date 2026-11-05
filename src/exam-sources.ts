@@ -1,4 +1,5 @@
 export const EXAM_SOURCES = {
+  g2mnsc113:{school:'三重國小',year:113,grade:2,publisher:'南一',file:'三重國小113上二年級數學期中.pdf',status:'active',phase:'midterm',scope:'二上第3冊單元1至5歷屆期中補充；非115當次考試範圍',publisherEvidence:'新北市課程備查網113上／市立三重國小／數學：二年級南一版；2024/07/02。重現篩選與官方原卷/細目表見docs/content-review/sanchong113-g2-math/README.md'},
   "j5n-math1":{"school": "東光國小", "year": 113, "publisher": "康軒", "file": "113上_康軒_基隆市-東光國小-113-1-1-5-數學-康軒-Q.pdf", "phase": "midterm", "publisherEvidence": "家長下載檔名／分類與五上卷面年級及單元核對，未冒稱卷首明印出版社", "grade": 5, "status": "active", "scope": "五上歷屆期中補充；非115當次正式考試範圍"},
   "j5n-math2":{"school": "建德國小", "year": 113, "publisher": "康軒", "file": "113上_康軒_桃園市-建德國小-113-1-1-5-數學-康軒-Q.pdf", "phase": "midterm", "publisherEvidence": "家長下載檔名／分類與五上卷面年級及單元核對，未冒稱卷首明印出版社", "grade": 5, "status": "active", "scope": "五上歷屆期中補充；非115當次正式考試範圍"},
   "j5n-math3":{"school": "明義國小", "year": 113, "publisher": "康軒", "file": "113上_康軒_花蓮縣-明義國小-113-1-1-5-數學-康軒-Q.pdf", "phase": "midterm", "publisherEvidence": "家長下載檔名／分類與五上卷面年級及單元核對，未冒稱卷首明印出版社", "grade": 5, "status": "active", "scope": "五上歷屆期中補充；非115當次正式考試範圍"},

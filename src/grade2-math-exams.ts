@@ -1,3 +1,4 @@
+import {withReviewedGrade2Math} from './grade2-math-supplement';
 import type {LearningQuestion} from './learning';
 import type {ExamSource} from './exam-sources';
 const rows = [
@@ -3428,4 +3429,4 @@ const rows = [
     "explanation": "46 ＋ 38 ＝ 84 張。"
   }
 ];
-export const GRADE2_MATH_EXAMS:LearningQuestion[]=rows.map(row=>({...row,grade:2,course:'math',subject:'math',publisher:'南一',level:1,examSources:row.examSources as ExamSource[],options:row.options.map(text=>({text}))}));
+export const GRADE2_MATH_EXAMS:LearningQuestion[]=withReviewedGrade2Math(rows.map(row=>({...row,grade:2,course:'math',subject:'math',publisher:'南一',level:1,examSources:row.examSources as ExamSource[],options:row.options.map(text=>({text}))})));

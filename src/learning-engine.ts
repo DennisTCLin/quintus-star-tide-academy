@@ -173,7 +173,9 @@ function allocateEligibleQuestions(
     throw Error("不支援這條航線");
   const result: QuestionAllocation[] = [];
   const seen = new Set(s.seen);
-  const blocked = (id: string) => excluded.includes(id) || hasMastered(s, id);
+  const excludedFamilies = new Set(excluded.map(id=>questionById(id)?.sourceFamily).filter(Boolean));
+  const blocked = (id: string) => excluded.includes(id) || hasMastered(s, id) ||
+    !!questionById(id)?.sourceFamily && excludedFamilies.has(questionById(id)!.sourceFamily);
   let staticPool = LEARNING_BANK.filter(
     (q) => !q.retired && !q.rephraseOf && (course !== "math" || grade === 5 || grade === 6 || !!q.examSources || q.kind === "stepped") && q.grade === grade && q.course === course && !blocked(q.id),
   );
@@ -189,7 +191,14 @@ function allocateEligibleQuestions(
   const general = staticPool.filter(q => !q.examSources);
   if (supplied.length) {
     supplied.sort((a,b) => Number(seen.has(a.id))-Number(seen.has(b.id)) || examPracticePriority(a)-examPracticePriority(b) || a.id.localeCompare(b.id));
-    const chosen=supplied.slice(0,count);
+    const chosen:LearningQuestion[]=[];
+    const families=new Set<string>();
+    for(const q of supplied){
+      if(q.sourceFamily && families.has(q.sourceFamily))continue;
+      chosen.push(q);
+      if(q.sourceFamily)families.add(q.sourceFamily);
+      if(chosen.length===count)break;
+    }
     for(const q of chosen){
       result.push({id:q.id,review:seen.has(q.id)});
       if(!seen.has(q.id)){s.seen.push(q.id);seen.add(q.id);}
