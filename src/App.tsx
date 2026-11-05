@@ -445,7 +445,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
   const label = (text: string, _zy?: string) =>
     readingGrade === 2 ? <AutoRuby text={text} /> : text;
   const say = (text: string) => {
-    if (voice && allowsReadAloud(readingGrade)) speak(text);
+    if (voice && allowsReadAloud(readingGrade)) speak(text, setNotice);
   };
   async function change<T = boolean>(
     command: Record<string, unknown>,
