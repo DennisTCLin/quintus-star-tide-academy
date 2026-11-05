@@ -8,11 +8,11 @@ import { MONSTERS, legacyEncounter, xpForLevel } from "../companion-growth";
 import readings from "../data/interface-zhuyin.json";
 
 describe("monster catalog and encounter persistence", () => {
-  it("ships 110 distinct species while preserving legacy family forms", () => {
-    expect(MONSTER_CATALOG).toHaveLength(110);
-    expect(new Set(MONSTER_CATALOG.map(m => m.id)).size).toBe(110);
-    expect(new Set(MONSTER_CATALOG.map(m => m.name)).size).toBe(110);
-    expect(new Set(MONSTER_CATALOG.map(m => m.image)).size).toBe(110);
+  it("ships 190 distinct species while preserving legacy family forms", () => {
+    expect(MONSTER_CATALOG).toHaveLength(190);
+    expect(new Set(MONSTER_CATALOG.map(m => m.id)).size).toBe(190);
+    expect(new Set(MONSTER_CATALOG.map(m => m.name)).size).toBe(190);
+    expect(new Set(MONSTER_CATALOG.map(m => m.image)).size).toBe(190);
     for (const [family] of MONSTER_FAMILIES.entries()) {
       expect(MONSTER_CATALOG.filter(m => m.family === family)).toHaveLength(10);
       if(family<8)for (const form of MONSTER_FORMS) for (const element of ELEMENTS)
@@ -23,16 +23,16 @@ describe("monster catalog and encounter persistence", () => {
   it("reaches all species at eligible levels and never repeats the preceding family", () => {
     for (const level of [1, 4, 5, 20, 895]) {
       const seen = new Set<string>();
-      for (const seed of Array.from({length:110},(_,i)=>[0,6500,8500,9500,9950].map(r=>i*10000+r)).flat()) {
+      for (const seed of Array.from({length:190},(_,i)=>[0,6500,8500,9500,9950].map(r=>i*10000+r)).flat()) {
         const m = chooseMonster(level, seed);
         expect(monsterEligible(m, level)).toBe(true);
         seen.add(m.id);
         for (const previous of [0, 1, 2]) expect(chooseMonster(level, seed, previous).family).not.toBe(previous);
       }
-      expect(seen.size).toBe(level<5?40:70);
+      expect(seen.size).toBe(level<5?85:105);
       expect([...seen].every(id => monsterById(id)?.form === (level < 5 ? "scout" : "warden"))).toBe(true);
     }
-    expect(new Set([1,5].flatMap(level => Array.from({length:110},(_,i)=>[0,6500,8500,9500,9950].map(r=>chooseMonster(level,i*10000+r).id)).flat())).size).toBe(110);
+    expect(new Set([1,5].flatMap(level => Array.from({length:190},(_,i)=>[0,6500,8500,9500,9950].map(r=>chooseMonster(level,i*10000+r).id)).flat())).size).toBe(190);
   });
   it("provides complete child-facing name annotations and the Taiwanese reading of 隼", () => {
     const phrases: Record<string,string[]> = readings.phrases;

@@ -15,7 +15,7 @@ describe('island companion preview', () => {
   it('lists only released recruitable species of the island element at every grade', () => {
     for (const island of SUBJECT_ISLANDS) {
       const c = islandCollection(island, profile());
-      const count=['金','木','水'].includes(island.element)?26:16;
+      const count=['金','木','水'].includes(island.element)?42:32;
       expect(c.entries).toHaveLength(count);
       expect(new Set(c.entries.map(e => e.monster.id)).size).toBe(count);
       expect(c.entries.every(e => e.monster.element === island.element && MONSTER_CATALOG.includes(e.monster))).toBe(true);
@@ -31,8 +31,8 @@ describe('island companion preview', () => {
   it('matches actual encounter eligibility at the practice boundary, regardless of native rarity', () => {
     for (const island of SUBJECT_ISLANDS) for (const xp of [0, xpForLevel(5)-1, xpForLevel(5), xpForLevel(8)]) {
       const c = islandCollection(island, profile(xp));
-      const wardens=['金','木','水'].includes(island.element)?18:8;
-      expect(c.current).toHaveLength(xp<xpForLevel(5)?8:wardens); expect(c.other).toHaveLength(xp<xpForLevel(5)?wardens:8);
+      const wardens=['金','木','水'].includes(island.element)?25:15;
+      expect(c.current).toHaveLength(xp<xpForLevel(5)?17:wardens); expect(c.other).toHaveLength(xp<xpForLevel(5)?wardens:17);
       expect(c.current.every(e => e.monster.form === (xp < xpForLevel(5) ? 'scout' : 'warden'))).toBe(true);
       for (let seed=0;seed<24;seed++) for (const previous of [undefined,0,1,2]) {
         const encountered=chooseMonster(c.level,seed,previous,island.element);
@@ -55,10 +55,10 @@ describe('island companion preview', () => {
     const tree=IslandCollectionPreview({island,profile:p,grade:4,onSpeak});
     const html=renderToStaticMarkup(tree), buttons=elements(tree,'button');
     expect(buttons).toHaveLength(1);
-    buttons[0].props.onClick(); expect(onSpeak).toHaveBeenCalledWith(expect.stringContaining('可以收集26種夥伴')); expect(onSpeak).toHaveBeenCalledWith(expect.stringContaining('金羽雲靈，有了'));
+    buttons[0].props.onClick(); expect(onSpeak).toHaveBeenCalledWith(expect.stringContaining('可以收集42種夥伴')); expect(onSpeak).toHaveBeenCalledWith(expect.stringContaining('金羽雲靈，有了'));
     const strip=elements(tree,'ul').find(e=>e.props.className==='island-collection-strip');
     expect(elements(strip,'img')).toHaveLength(3);
-    expect(html).toContain('金羽雲靈，有了');expect(html).toContain('銀鰓靈螈，還沒');
+    expect(html).toContain('金羽雲靈，有了');expect(html).toContain('雷鉤翼獸，還沒');
     expect(elements(tree,'summary')).toHaveLength(1);
     expect(elements(elements(tree,'summary')[0],'button')).toHaveLength(0);
     expect(html).not.toContain('disabled');

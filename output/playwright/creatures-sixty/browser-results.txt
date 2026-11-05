@@ -1,0 +1,34 @@
+### Result
+{"browser":"WebKit","results":["w5-hookspider detail skill","w5-hookspider stats","w5-hookspider mobile contained","w5-mosssnail detail skill","w5-mosssnail stats","w5-mosssnail mobile contained","w5-tideurn detail skill","w5-tideurn stats","w5-tideurn mobile contained","w5-coalrooster detail skill","w5-coalrooster stats","w5-coalrooster mobile contained","w5-crackedsalamander detail skill","w5-crackedsalamander stats","w5-crackedsalamander mobile contained","w5-steelcatfish detail skill","w5-steelcatfish stats","w5-steelcatfish mobile contained","w5-vinecage detail skill","w5-vinecage stats","w5-vinecage mobile contained","w5-mistumbrella detail skill","w5-mistumbrella stats","w5-mistumbrella mobile contained","w5-furnacebeetle detail skill","w5-furnacebeetle stats","w5-furnacebeetle mobile contained","w5-drumlizard detail skill","w5-drumlizard stats","w5-drumlizard mobile contained","w5-mirrormantis detail skill","w5-mirrormantis stats","w5-mirrormantis mobile contained","w5-thornporcupine detail skill","w5-thornporcupine stats","w5-thornporcupine mobile contained","w5-vortexnautilus detail skill","w5-vortexnautilus stats","w5-vortexnautilus mobile contained","w5-cinderbat detail skill","w5-cinderbat stats","w5-cinderbat mobile contained","w5-hammerdevil detail skill","w5-hammerdevil stats","w5-hammerdevil mobile contained","w5-chainrhino detail skill","w5-chainrhino stats","w5-chainrhino mobile contained","w5-rootcrocodile detail skill","w5-rootcrocodile stats","w5-rootcrocodile mobile contained","w5-frostseasnake detail skill","w5-frostseasnake stats","w5-frostseasnake mobile contained","w5-blazebison detail skill","w5-blazebison stats","w5-blazebison mobile contained","w5-crystalcamel detail skill","w5-crystalcamel stats","w5-crystalcamel mobile contained","w5-belfrygriffin detail skill","w5-belfrygriffin stats","w5-belfrygriffin mobile contained","w5-vinecitadelape detail skill","w5-vinecitadelape stats","w5-vinecitadelape mobile contained","w5-waterfallshark detail skill","w5-waterfallshark stats","w5-waterfallshark mobile contained","w5-firewheelsnake detail skill","w5-firewheelsnake stats","w5-firewheelsnake mobile contained","w5-obeliskmammoth detail skill","w5-obeliskmammoth stats","w5-obeliskmammoth mobile contained","w5-helixdragon detail skill","w5-helixdragon stats","w5-helixdragon mobile contained","w5-fernsovereign detail skill","w5-fernsovereign stats","w5-fernsovereign mobile contained","w5-abyssfirmament detail skill","w5-abyssfirmament stats","w5-abyssfirmament mobile contained","w5-moltensunphoenix detail skill","w5-moltensunphoenix stats","w5-moltensunphoenix mobile contained","w5-meteorarmorbear detail skill","w5-meteorarmorbear stats","w5-meteorarmorbear mobile contained","w3-magnetelephant companion skill","w3-sproutsloth companion skill","w3-dewdungong companion skill","w3-stovepenguin companion skill","w3-potwombat companion skill","w3-copperflyfish companion skill","w3-lotusfrog companion skill","w3-icebellseal companion skill","w3-wickcamel companion skill","w3-wheatmarmot companion skill","w3-harphummingbird companion skill","w3-flutemantis companion skill","w3-mirrorcuttle companion skill","w3-tinderfennec companion skill","w3-hourglassshrew companion skill","w3-giltfancrane companion skill","w3-flowercapybara companion skill","w3-starbubbleoctopus companion skill","w3-coalroadrunner companion skill","w3-glassarmadillo companion skill","w3-balancevulture companion skill","w3-vinegiraffe companion skill","w3-moonsailfish companion skill","w3-sunsetpeacock companion skill","w3-jadeibex companion skill","w3-polarmechdeer companion skill","w3-dreamtapir companion skill","w3-rainbowmanta companion skill","w3-suncrestlion companion skill","w3-stardunetortoise companion skill","iPad contained","all 120 full/thumbnail assets decoded in WebKit"]}
+### Ran Playwright code
+```js
+await (async page => {
+ await page.goto('http://127.0.0.1:4336/output/playwright/creatures-sixty/harness.html');
+ const results=[]; const assert=(v,m)=>{if(!v)throw Error(m);results.push(m)};
+ const data=await page.evaluate(async()=>({companions:(await import('/src/companions-wave-three.ts')).WAVE3_COMPANIONS,monsters:(await import('/src/monster-wave-five.ts')).WAVE5_MONSTERS}));
+ await page.setViewportSize({width:390,height:844});
+ for(const m of data.monsters){
+  await page.getByRole('searchbox',{name:'搜尋怪物'}).fill(m.name);
+  const card=page.getByRole('button',{name:new RegExp('查看'+m.name)});await card.click();
+  const dialog=page.getByRole('dialog');await dialog.waitFor();
+  await dialog.locator('img').evaluate(img=>img.decode());
+  assert((await dialog.textContent()).includes(m.move),m.id+' detail skill');
+  assert(await dialog.locator('.creature-stats').count()===1,m.id+' stats');
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),m.id+' mobile contained');
+  if(m.rarity==='S'&&m.element==='金')await page.screenshot({path:'output/playwright/creatures-sixty/monster-mobile.png'});
+  await dialog.getByRole('button',{name:'關閉怪物詳情'}).click();
+ }
+ await page.getByRole('button',{name:'新夥伴驗證'}).click();
+ for(const [i,c] of data.companions.entries()){
+  await page.getByLabel('選擇夥伴').selectOption(String(i));
+  await page.locator('.qa-art').evaluate(img=>img.decode());
+  assert((await page.locator('.creature-skill').textContent()).includes(c.signatureMove),c.id+' companion skill');
+ }
+ await page.setViewportSize({width:768,height:1024});
+ await page.screenshot({path:'output/playwright/creatures-sixty/companion-ipad.png'});
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'iPad contained');
+ const decoded=await page.evaluate(async data=>{let n=0;for(const c of [...data.companions,...data.monsters])for(const url of [c.image,c.thumbnail]){const img=new Image();img.src=url;await img.decode();if(![320,640].includes(img.naturalWidth))throw Error(url);n++;}return n},data);
+ assert(decoded===120,'all 120 full/thumbnail assets decoded in WebKit');
+ return {browser:'WebKit',results};
+})(page);
+```

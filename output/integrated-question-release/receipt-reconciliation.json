@@ -1,0 +1,9 @@
+{
+  "manifestRows": 327,
+  "earlySeparateRows": 5,
+  "combinedReceivedRecords": 332,
+  "uniqueSha256": 330,
+  "allFilesPresentAndHashVerified": true,
+  "failures": [],
+  "explanation": "327 manifest rows plus5 early downloaded-files rows =332 receipts;325+5 unique hashes =330. Two repeated raw receipts share paths. No missing file discrepancy."
+}

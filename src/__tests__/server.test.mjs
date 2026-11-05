@@ -45,6 +45,14 @@ afterAll(async () => {
 })
 
 describe('production server regressions', () => {
+  it('allows embedded GLB texture loading without allowing blob scripts', async () => {
+    const response = await get('/assets/runtime-test.v-a1b2c3d4e5f6.js')
+    const policy = response.headers['content-security-policy']
+    expect(policy).toContain("img-src 'self' data: blob:")
+    expect(policy).toContain("connect-src 'self' blob:")
+    expect(policy).toContain("script-src 'self';")
+    expect(policy).not.toContain("script-src 'self' blob:")
+  })
   it('returns 400 for malformed URL encoding and remains healthy', async () => {
     const malformed = await get('/%E0%A4%A')
     expect(malformed.status).toBe(400)

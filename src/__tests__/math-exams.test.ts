@@ -2,6 +2,8 @@ import {it,expect} from 'vitest';
 import rows from '../data/math-exams-20261025.json';
 import {MATH_EXAMS as allMathExams} from '../math-exams';
 const MATH_EXAMS=allMathExams.filter(q=>q.publisher!=='南一');
+const originalMath=MATH_EXAMS.filter(q=>rows.some(row=>row.id===q.id));
+const examIds=new Set(MATH_EXAMS.map(q=>q.id));
 import {EXAM_SOURCES,examSourceLabel} from '../exam-sources';
 import {allocateQuestions,allocateAdventureQuestions,freshLearning,validateLearning} from '../learning-engine';
 import {questionById} from '../learning';
@@ -10,19 +12,19 @@ import {coursePublisher,mathCurriculumNotice} from '../school-curriculum';
 import {newFamily,startRun,validateFamily} from '../adventure';
 const schools=[['yongchun','康軒'],['nantun','翰林']] as const;
 it('keeps 246 independently solved questions traceable to all eleven sources',()=>{
- expect(rows).toHaveLength(246);expect(MATH_EXAMS).toHaveLength(246);
- expect(new Set(MATH_EXAMS.map(q=>q.id)).size).toBe(246);
- expect(MATH_EXAMS.filter(q=>q.publisher==='康軒')).toHaveLength(92);
- expect(MATH_EXAMS.filter(q=>q.publisher==='翰林')).toHaveLength(154);
- expect(new Set(MATH_EXAMS.flatMap(q=>q.examSources!.map(s=>s.id))).size).toBe(11);
- for(const q of MATH_EXAMS){
+ expect(rows).toHaveLength(246);expect(originalMath).toHaveLength(246);
+ expect(new Set(originalMath.map(q=>q.id)).size).toBe(246);
+ expect(originalMath.filter(q=>q.publisher==='康軒')).toHaveLength(92);
+ expect(originalMath.filter(q=>q.publisher==='翰林')).toHaveLength(154);
+ expect(new Set(originalMath.flatMap(q=>q.examSources!.map(s=>s.id))).size).toBe(11);
+ for(const q of originalMath){
   expect(questionById(q.id)).toBe(q);expect(q.grade).toBe(4);expect(q.course).toBe('math');
   expect(q.options[q.answer]?.text).toBeTruthy();expect(new Set(q.options.map(o=>o.text)).size).toBe(q.options.length);
   expect(q.prompt).not.toMatch(/如下圖|如右圖|EMBED|eq \\/);
   for(const s of q.examSources!){expect(EXAM_SOURCES[s.id].status).toBe('active');expect(s.id==='km4'?s.page===null:[1,2].includes(s.page!)).toBe(true);expect(examSourceLabel(s)).toContain(q.publisher);}
  }
  for(const row of rows){
-  const q=MATH_EXAMS.find(q=>q.examSources!.some(s=>s.id===row.sourceId&&s.locator===row.locator))!;
+  const q=originalMath.find(q=>q.examSources!.some(s=>s.id===row.sourceId&&s.locator===row.locator))!;
   expect(q.options[q.answer].text).toBe(row.options[row.answer]);
  }
 });
@@ -43,7 +45,7 @@ it('keeps generated math for unknown schools and isolates grade-four exams from 
   for(const [school] of schools){
    expect(coursePublisher(school,grade,'math')).toBe('南一');
    const selected=allocateQuestions({...freshLearning(),school},grade,'math',6);
-   expect(selected.every(q=>questionById(q.id)?.grade===grade&&!q.id.startsWith('mx1-'))).toBe(true);
+   expect(selected.every(q=>questionById(q.id)?.grade===grade&&!examIds.has(q.id))).toBe(true);
   }
  }
 });
@@ -52,8 +54,8 @@ it('excludes mastered math and other publishers after restoration, then falls ba
   let s={...freshLearning(),school};const ids=MATH_EXAMS.filter(q=>q.publisher===publisher).map(q=>q.id);
   ids.slice(0,-2).forEach(id=>markMastered(s,id));s=validateLearning(JSON.parse(JSON.stringify(s)),4) as typeof s;
   const q=allocateQuestions(s,4,'math',6);
-  expect(q.filter(q=>q.id.startsWith('mx1-')).map(q=>q.id).sort()).toEqual(ids.slice(-2).sort());
-  expect(q.filter(q=>!q.id.startsWith('mx1-')).every(q=>q.id.startsWith('n1-'))).toBe(true);
+  expect(q.filter(q=>examIds.has(q.id)).map(q=>q.id).sort()).toEqual(ids.slice(-2).sort());
+  expect(q.filter(q=>!examIds.has(q.id)).every(q=>q.id.startsWith('n1-'))).toBe(true);
   expect(new Set(q.map(q=>q.id)).size).toBe(6);
   ids.forEach(id=>markMastered(s,id));expect(allocateQuestions(s,4,'math',6).every(q=>q.id.startsWith('n1-'))).toBe(true);
  }

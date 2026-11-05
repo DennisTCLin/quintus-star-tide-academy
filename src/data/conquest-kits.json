@@ -1,0 +1,1487 @@
+[
+  {
+    "pet": "tideglow",
+    "name": "潮光獸",
+    "element": 0,
+    "motif": "tide",
+    "tactic": "mark",
+    "moves": [
+      {
+        "id": "tideglow-1",
+        "name": "潮弧尾斬",
+        "tier": "small",
+        "choreography": "keep four animal paws, side-step then sweep the unchanged luminous wave tail; two water crescents emerge visibly from its sweep and cross while traveling screen-right"
+      },
+      {
+        "id": "tideglow-2",
+        "name": "星羅印記",
+        "tier": "small",
+        "choreography": "keep four animal paws on the ground; the unchanged wave tail tip traces a large floating golden compass behind the creature, then the compass projects one star of light screen-right; no wand or held tool"
+      },
+      {
+        "id": "tideglow-3",
+        "name": "滄海極光破",
+        "tier": "ultimate",
+        "choreography": "crouch on four paws inside rising water rings; a translucent dragon-shaped water beam separate from its body surges screen-right; keep the original short flowing wave tail, no new serpent body"
+      }
+    ]
+  },
+  {
+    "pet": "pebblefin",
+    "name": "石礁鰭",
+    "element": 0,
+    "motif": "stone",
+    "tactic": "shield",
+    "moves": [
+      {
+        "id": "pebblefin-1",
+        "name": "碎礁拍尾",
+        "tier": "small",
+        "choreography": "slam broad tail to skip three flat reef stones across water"
+      },
+      {
+        "id": "pebblefin-2",
+        "name": "翠鰭石壘",
+        "tier": "small",
+        "choreography": "plant fins and raise a stepped crescent wall of turquoise pebbles"
+      },
+      {
+        "id": "pebblefin-3",
+        "name": "千礁奔流",
+        "tier": "ultimate",
+        "choreography": "surf a surging river that lifts a sequence of giant reef slabs into a rolling avalanche"
+      }
+    ]
+  },
+  {
+    "pet": "foamferret",
+    "name": "泡沫貂",
+    "element": 0,
+    "motif": "tide",
+    "tactic": "echo",
+    "moves": [
+      {
+        "id": "foamferret-1",
+        "name": "泡影連爪",
+        "tier": "small",
+        "choreography": "zigzag forward leaving three foam afterimages that strike in sequence"
+      },
+      {
+        "id": "foamferret-2",
+        "name": "漣漪回彈",
+        "tier": "small",
+        "choreography": "coil body around a floating bubble and rebound through a rippling ring"
+      },
+      {
+        "id": "foamferret-3",
+        "name": "百泡星瀑",
+        "tier": "ultimate",
+        "choreography": "spiral upward in a column of hundreds of bubbles then burst them into a cascading glitter wave"
+      }
+    ]
+  },
+  {
+    "pet": "seasprout",
+    "name": "海芽龜",
+    "element": 1,
+    "motif": "leaf",
+    "tactic": "mend",
+    "moves": [
+      {
+        "id": "seasprout-1",
+        "name": "芽葉旋刃",
+        "tier": "small",
+        "choreography": "rotate shell slowly then flick three broad glowing leaves forward"
+      },
+      {
+        "id": "seasprout-2",
+        "name": "潮芽新生",
+        "tier": "small",
+        "choreography": "lower head as a separate translucent leaf canopy sheds round golden restorative droplets inward onto the original shell, then gently fades"
+      },
+      {
+        "id": "seasprout-3",
+        "name": "碧海森羅",
+        "tier": "ultimate",
+        "choreography": "beat all four flippers as giant seagrass fronds unfold across the arena in successive waves"
+      }
+    ]
+  },
+  {
+    "pet": "mistotter",
+    "name": "霧潮獺",
+    "element": 0,
+    "motif": "mist",
+    "tactic": "weaken",
+    "moves": [
+      {
+        "id": "mistotter-1",
+        "name": "霧珠輕彈",
+        "tier": "small",
+        "choreography": "cup a misty droplet between paws then propel it into a soft expanding splash"
+      },
+      {
+        "id": "mistotter-2",
+        "name": "迷航薄霧",
+        "tier": "small",
+        "choreography": "roll sideways dragging a low ribbon of fog that curls around the opponent"
+      },
+      {
+        "id": "mistotter-3",
+        "name": "霧海月輪",
+        "tier": "ultimate",
+        "choreography": "float inside a pearl sphere as concentric moonlit fog wheels sweep outward then close into one impact"
+      }
+    ]
+  },
+  {
+    "pet": "sailskipper",
+    "name": "帆翼蛙",
+    "element": 1,
+    "motif": "cloud",
+    "tactic": "charge",
+    "moves": [
+      {
+        "id": "sailskipper-1",
+        "name": "帆翼躍踢",
+        "tier": "small",
+        "choreography": "spring diagonally upward and kick down a triangular gust from the sail fin"
+      },
+      {
+        "id": "sailskipper-2",
+        "name": "順風鼓帆",
+        "tier": "small",
+        "choreography": "inflate sail with curling air and vault through two wind hoops to gather momentum"
+      },
+      {
+        "id": "sailskipper-3",
+        "name": "九霄折返",
+        "tier": "ultimate",
+        "choreography": "ricochet between three floating wind platforms then dive along a giant folded sail of air"
+      }
+    ]
+  },
+  {
+    "pet": "kelpcub",
+    "name": "藻潮熊",
+    "element": 1,
+    "motif": "leaf",
+    "tactic": "drain",
+    "moves": [
+      {
+        "id": "kelpcub-1",
+        "name": "藻結重拳",
+        "tier": "small",
+        "choreography": "plant one foot and swing a kelp-wrapped paw into a dense green burst"
+      },
+      {
+        "id": "kelpcub-2",
+        "name": "青藻汲潮",
+        "tier": "small",
+        "choreography": "unroll flexible kelp ribbons from collar that pull glowing droplets back toward the chest"
+      },
+      {
+        "id": "kelpcub-3",
+        "name": "巨藻裂浪",
+        "tier": "ultimate",
+        "choreography": "raise both paws as huge braided kelp pillars spiral upward and crash in a sweeping green tidal arc"
+      }
+    ]
+  },
+  {
+    "pet": "shellmole",
+    "name": "貝甲鼴",
+    "element": 1,
+    "motif": "stone",
+    "tactic": "shield",
+    "moves": [
+      {
+        "id": "shellmole-1",
+        "name": "鑽貝突刺",
+        "tier": "small",
+        "choreography": "dig beneath a shallow spray of sand and emerge with a pearl drill spiral"
+      },
+      {
+        "id": "shellmole-2",
+        "name": "層貝堡壘",
+        "tier": "small",
+        "choreography": "curl under shell while three overlapping mother-of-pearl plates lock around the body"
+      },
+      {
+        "id": "shellmole-3",
+        "name": "地脈珠湧",
+        "tier": "ultimate",
+        "choreography": "tap the ground three times causing sequential pearlescent geysers that join into a shell-shaped shockwave"
+      }
+    ]
+  },
+  {
+    "pet": "starheron",
+    "name": "星汐鷺",
+    "element": 0,
+    "motif": "star",
+    "tactic": "mark",
+    "moves": [
+      {
+        "id": "starheron-1",
+        "name": "汐線點喙",
+        "tier": "small",
+        "choreography": "balance on one leg and thrust beak releasing a narrow star-tipped water needle"
+      },
+      {
+        "id": "starheron-2",
+        "name": "星距校準",
+        "tier": "small",
+        "choreography": "spread one wing and connect three star points into a triangular aiming constellation"
+      },
+      {
+        "id": "starheron-3",
+        "name": "銀河汐箭",
+        "tier": "ultimate",
+        "choreography": "rise on luminous stilt-like tides and launch a long comet spear through stacked star gates"
+      }
+    ]
+  },
+  {
+    "pet": "reefrabbit",
+    "name": "礁月兔",
+    "element": 1,
+    "motif": "moon",
+    "tactic": "echo",
+    "moves": [
+      {
+        "id": "reefrabbit-1",
+        "name": "月灣蹬躍",
+        "tier": "small",
+        "choreography": "hop in a crescent path and kick a pale coral moon arc toward the target"
+      },
+      {
+        "id": "reefrabbit-2",
+        "name": "雙月殘影",
+        "tier": "small",
+        "choreography": "ears glow as the rabbit makes two offset moon afterimages that converge"
+      },
+      {
+        "id": "reefrabbit-3",
+        "name": "月礁天降",
+        "tier": "ultimate",
+        "choreography": "spring against a giant hanging moon and descend on a crescent reef platform with a circular impact"
+      }
+    ]
+  },
+  {
+    "pet": "bubbleyak",
+    "name": "泡泡犛",
+    "element": 0,
+    "motif": "tide",
+    "tactic": "shield",
+    "moves": [
+      {
+        "id": "bubbleyak-1",
+        "name": "泡角頂浪",
+        "tier": "small",
+        "choreography": "lower round bubble horns and nudge a dense rolling foam sphere forward"
+      },
+      {
+        "id": "bubbleyak-2",
+        "name": "浮泡護身",
+        "tier": "small",
+        "choreography": "exhale a large clear bubble that lifts the feet while smaller bubbles reinforce its edge"
+      },
+      {
+        "id": "bubbleyak-3",
+        "name": "萬泡奔雷",
+        "tier": "ultimate",
+        "choreography": "gallop through three rising bubble arches that compress into one enormous foam shockwave"
+      }
+    ]
+  },
+  {
+    "pet": "covegecko",
+    "name": "灣光守宮",
+    "element": 1,
+    "motif": "prism",
+    "tactic": "weaken",
+    "moves": [
+      {
+        "id": "covegecko-1",
+        "name": "灣光甩尾",
+        "tier": "small",
+        "choreography": "adhere to an angled light plane then whip the tail into a sharp green streak"
+      },
+      {
+        "id": "covegecko-2",
+        "name": "光點迷陣",
+        "tier": "small",
+        "choreography": "tap wide toes to place a staggered path of blinking turquoise decoy spots"
+      },
+      {
+        "id": "covegecko-3",
+        "name": "碧灣折光陣",
+        "tier": "ultimate",
+        "choreography": "leap across five glasslike planes while each reflects a different tail strike into a single converging flash"
+      }
+    ]
+  },
+  {
+    "pet": "cloudsail",
+    "name": "雲帆鹿",
+    "element": 1,
+    "motif": "cloud",
+    "tactic": "shield",
+    "moves": [
+      {
+        "id": "cloudsail-1",
+        "name": "帆角風切",
+        "tier": "small",
+        "choreography": "step forward on four split hooves, lower then swing the existing sail antlers; three white wind blades detach directly from the antlers and travel screen-right; no hands or held tools"
+      },
+      {
+        "id": "cloudsail-2",
+        "name": "雲幕護帆",
+        "tier": "small",
+        "choreography": "keep four split hooves and the existing antler silhouette; a separate translucent cloud-energy sail opens protectively above the antlers while a low white mist ribbon wraps the deer"
+      },
+      {
+        "id": "cloudsail-3",
+        "name": "天穹白帆陣",
+        "tier": "ultimate",
+        "choreography": "raise the original antlers on four split hooves; three detached white energy sky sails open high above with visible air gaps and launch an opaque white cloudstorm with golden wind ribbons screen-right; no water or physical wings"
+      }
+    ]
+  },
+  {
+    "pet": "moonmanta",
+    "name": "月帆魟",
+    "element": 0,
+    "motif": "moon",
+    "tactic": "drain",
+    "moves": [
+      {
+        "id": "moonmanta-1",
+        "name": "月翼掠潮",
+        "tier": "small",
+        "choreography": "bank one broad wing close to the ground and carve a silver crescent water trail"
+      },
+      {
+        "id": "moonmanta-2",
+        "name": "月華回流",
+        "tier": "small",
+        "choreography": "fold wings around a lunar disc that draws gentle silver streams back into the body"
+      },
+      {
+        "id": "moonmanta-3",
+        "name": "滿月鏡海",
+        "tier": "ultimate",
+        "choreography": "unfurl wings beneath a rising full moon as the floor becomes a mirror and a huge reflected moonwave breaks forward"
+      }
+    ]
+  },
+  {
+    "pet": "driftturtle",
+    "name": "漂航龜",
+    "element": 0,
+    "motif": "tide",
+    "tactic": "shield",
+    "moves": [
+      {
+        "id": "driftturtle-1",
+        "name": "航甲衝浪",
+        "tier": "small",
+        "choreography": "lean shell forward and glide on a short crest of turquoise surf"
+      },
+      {
+        "id": "driftturtle-2",
+        "name": "定潮錨甲",
+        "tier": "small",
+        "choreography": "brace flippers while four glowing anchors of water pin a protective current ring around the shell"
+      },
+      {
+        "id": "driftturtle-3",
+        "name": "方舟破海",
+        "tier": "ultimate",
+        "choreography": "rise on a vast raft-shaped tidal shelf and send overlapping bow waves across the arena"
+      }
+    ]
+  },
+  {
+    "pet": "coralhare",
+    "name": "珊枝兔",
+    "element": 2,
+    "motif": "coral",
+    "tactic": "mark",
+    "moves": [
+      {
+        "id": "coralhare-1",
+        "name": "珊枝飛踢",
+        "tier": "small",
+        "choreography": "twist into a high sidekick scattering branching coral-orange splinters"
+      },
+      {
+        "id": "coralhare-2",
+        "name": "枝晶纏印",
+        "tier": "small",
+        "choreography": "ears trace a branching sigil that blossoms into a coral lattice around the target"
+      },
+      {
+        "id": "coralhare-3",
+        "name": "赤珊花嵐",
+        "tier": "ultimate",
+        "choreography": "leap through an opening coral flower as hundreds of luminous petals wheel into a rose-colored impact vortex"
+      }
+    ]
+  },
+  {
+    "pet": "gullwolf",
+    "name": "海風狼",
+    "element": 1,
+    "motif": "cloud",
+    "tactic": "weaken",
+    "moves": [
+      {
+        "id": "gullwolf-1",
+        "name": "掠風牙",
+        "tier": "small",
+        "choreography": "dash low then snap a silver wind crescent from a swift head turn"
+      },
+      {
+        "id": "gullwolf-2",
+        "name": "逆風長嘯",
+        "tier": "small",
+        "choreography": "howl toward the sky sending a layered pressure cone that bends approaching air away"
+      },
+      {
+        "id": "gullwolf-3",
+        "name": "蒼風群影",
+        "tier": "ultimate",
+        "choreography": "summon three translucent wind-wolf silhouettes along staggered paths that converge in a soaring gull-wing gust"
+      }
+    ]
+  },
+  {
+    "pet": "pearlbadger",
+    "name": "珠礁獾",
+    "element": 1,
+    "motif": "prism",
+    "tactic": "pierce",
+    "moves": [
+      {
+        "id": "pearlbadger-1",
+        "name": "珠爪鑿擊",
+        "tier": "small",
+        "choreography": "dig a luminous pearl claw into an invisible barrier sending angular sparks forward"
+      },
+      {
+        "id": "pearlbadger-2",
+        "name": "貫珠直衝",
+        "tier": "small",
+        "choreography": "compress a pearl bead between paws then shoulder-charge behind its narrow piercing trail"
+      },
+      {
+        "id": "pearlbadger-3",
+        "name": "萬珠轟潮",
+        "tier": "ultimate",
+        "choreography": "plant both claws as pearl nodes rise in concentric circles and fire sequentially into one radiant impact"
+      }
+    ]
+  },
+  {
+    "pet": "rainseal",
+    "name": "雨紋海豹",
+    "element": 0,
+    "motif": "tide",
+    "tactic": "mend",
+    "moves": [
+      {
+        "id": "rainseal-1",
+        "name": "雨紋水拍",
+        "tier": "small",
+        "choreography": "slap a flipper onto a shallow puddle launching a fan of sharply defined raindrops"
+      },
+      {
+        "id": "rainseal-2",
+        "name": "甘霖清唱",
+        "tier": "small",
+        "choreography": "raise head and sing visible soft rain rings while restorative droplets settle on the body"
+      },
+      {
+        "id": "rainseal-3",
+        "name": "天河驟雨",
+        "tier": "ultimate",
+        "choreography": "roll upward beneath a rotating storm halo and release dense luminous rain that gathers into a single surging river"
+      }
+    ]
+  },
+  {
+    "pet": "compasscrab",
+    "name": "羅盤蟹",
+    "element": 1,
+    "motif": "star",
+    "tactic": "mark",
+    "moves": [
+      {
+        "id": "compasscrab-1",
+        "name": "指針鉗擊",
+        "tier": "small",
+        "choreography": "snap one claw like a compass needle projecting an angular golden strike"
+      },
+      {
+        "id": "compasscrab-2",
+        "name": "北辰鎖定",
+        "tier": "small",
+        "choreography": "rotate a glowing compass disc between claws until its north ray pins a star mark on the target"
+      },
+      {
+        "id": "compasscrab-3",
+        "name": "八方星羅",
+        "tier": "ultimate",
+        "choreography": "spread all legs as eight compass rays become towering navigation pillars and converge in a radial starburst"
+      }
+    ]
+  },
+  {
+    "pet": "cloudfinch",
+    "name": "雲鰭雀",
+    "element": 1,
+    "motif": "cloud",
+    "tactic": "charge",
+    "moves": [
+      {
+        "id": "cloudfinch-1",
+        "name": "雲羽快啄",
+        "tier": "small",
+        "choreography": "dart through a tiny cloud and flick three feather-shaped air darts"
+      },
+      {
+        "id": "cloudfinch-2",
+        "name": "乘風展翅",
+        "tier": "small",
+        "choreography": "circle tightly with wings stretched drawing a rising thermal spiral under the body"
+      },
+      {
+        "id": "cloudfinch-3",
+        "name": "百羽天旋",
+        "tier": "ultimate",
+        "choreography": "rise on a corkscrew cloud column, sweep both wings forward and send a huge detached horizontal feather cyclone screen-right into a separate bright impact; remain visible on the left and land in the original silhouette"
+      }
+    ]
+  },
+  {
+    "pet": "tidellama",
+    "name": "潮角駝",
+    "element": 0,
+    "motif": "tide",
+    "tactic": "weaken",
+    "moves": [
+      {
+        "id": "tidellama-1",
+        "name": "潮角推波",
+        "tier": "small",
+        "choreography": "lower glass horns and push a pair of uneven parallel water waves"
+      },
+      {
+        "id": "tidellama-2",
+        "name": "潮差回擺",
+        "tier": "small",
+        "choreography": "sway its long neck to reverse a current between two hovering tide rings"
+      },
+      {
+        "id": "tidellama-3",
+        "name": "雙潮交響",
+        "tier": "ultimate",
+        "choreography": "raise two enormous curved walls of water of different heights and fold them together into a rolling impact"
+      }
+    ]
+  },
+  {
+    "pet": "coralflare",
+    "name": "珊火鯨",
+    "element": 2,
+    "motif": "coral",
+    "tactic": "burn",
+    "moves": [
+      {
+        "id": "coralflare-1",
+        "name": "珊焰濺射",
+        "tier": "small",
+        "choreography": "keep the original two pectoral flippers and whale tail; sweep the two flippers inward to spark a compact coral flare, then send its orange-cyan fan of sparks screen-right; no hands or extra fins"
+      },
+      {
+        "id": "coralflare-2",
+        "name": "熾潮渦流",
+        "tier": "small",
+        "choreography": "rotate the original whale body slightly to gather a warm coral energy ring, then send the ring away screen-right where it coils into an orange whirlpool at the empty target position"
+      },
+      {
+        "id": "coralflare-3",
+        "name": "熔珊星瀑",
+        "tier": "ultimate",
+        "choreography": "the existing coral-shaped dorsal fin ignites; seven incandescent coral meteors arc screen-right and detonate at the empty target position into a branching molten-coral geyser with fiery turquoise spray; no crown icon or added body parts"
+      }
+    ]
+  },
+  {
+    "pet": "lanternlynx",
+    "name": "燈潮猁",
+    "element": 2,
+    "motif": "star",
+    "tactic": "mark",
+    "moves": [
+      {
+        "id": "lanternlynx-1",
+        "name": "燈爪閃擊",
+        "tier": "small",
+        "choreography": "spring forward with ear lanterns flaring then rake two precise cyan claw streaks"
+      },
+      {
+        "id": "lanternlynx-2",
+        "name": "引燈追影",
+        "tier": "small",
+        "choreography": "swing ear lantern tufts to cast a tracking pool of light beneath the target"
+      },
+      {
+        "id": "lanternlynx-3",
+        "name": "千燈夜巡",
+        "tier": "ultimate",
+        "choreography": "leap along a spiraling chain of floating lanterns that ignite one by one and collapse into a luminous lynx-shaped rush"
+      }
+    ]
+  },
+  {
+    "pet": "currentowl",
+    "name": "流向鴞",
+    "element": 1,
+    "motif": "cloud",
+    "tactic": "weaken",
+    "moves": [
+      {
+        "id": "currentowl-1",
+        "name": "流羽斜切",
+        "tier": "small",
+        "choreography": "tilt wings in opposing directions and release a diagonal crosscurrent feather blade"
+      },
+      {
+        "id": "currentowl-2",
+        "name": "逆流迴旋",
+        "tier": "small",
+        "choreography": "turn head then wings as a backward spiral current curls toward the target and steals its momentum"
+      },
+      {
+        "id": "currentowl-3",
+        "name": "萬流歸翼",
+        "tier": "ultimate",
+        "choreography": "unfold broad wings over multiple converging streams that braid into a mighty forward torrent"
+      }
+    ]
+  },
+  {
+    "pet": "seaglasspanda",
+    "name": "海璃貓熊",
+    "element": 1,
+    "motif": "prism",
+    "tactic": "shield",
+    "moves": [
+      {
+        "id": "seaglasspanda-1",
+        "name": "璃掌震波",
+        "tier": "small",
+        "choreography": "press both palms together then push a hexagonal seaglass pulse forward"
+      },
+      {
+        "id": "seaglasspanda-2",
+        "name": "海璃方陣",
+        "tier": "small",
+        "choreography": "stack three translucent geometric plates around the body in a clearly readable protective cage"
+      },
+      {
+        "id": "seaglasspanda-3",
+        "name": "晶海萬花",
+        "tier": "ultimate",
+        "choreography": "stamp forward as a giant kaleidoscopic seaglass fan opens and releases interlocking polygon waves"
+      }
+    ]
+  },
+  {
+    "pet": "cyclonedolphin",
+    "name": "旋潮豚",
+    "element": 0,
+    "motif": "tide",
+    "tactic": "charge",
+    "moves": [
+      {
+        "id": "cyclonedolphin-1",
+        "name": "旋鰭切浪",
+        "tier": "small",
+        "choreography": "corkscrew through a low wave and leave a crisp crescent fin cut"
+      },
+      {
+        "id": "cyclonedolphin-2",
+        "name": "環流加速",
+        "tier": "small",
+        "choreography": "swim an accelerating figure eight inside a floating water ring"
+      },
+      {
+        "id": "cyclonedolphin-3",
+        "name": "颶潮龍捲",
+        "tier": "ultimate",
+        "choreography": "rise vertically within a water tornado then turn its entire column sideways into a spiraling blue impact"
+      }
+    ]
+  },
+  {
+    "pet": "sunkenram",
+    "name": "沉星盤羊",
+    "element": 1,
+    "motif": "stone",
+    "tactic": "recoil",
+    "moves": [
+      {
+        "id": "sunkenram-1",
+        "name": "沉角星撞",
+        "tier": "small",
+        "choreography": "brace and charge with spiral horns drawing two dense blue star trails"
+      },
+      {
+        "id": "sunkenram-2",
+        "name": "重星壓陣",
+        "tier": "small",
+        "choreography": "stamp a hoof and drag a compressed falling star disc forward with a powerful full-body shove"
+      },
+      {
+        "id": "sunkenram-3",
+        "name": "群星墜脈",
+        "tier": "ultimate",
+        "choreography": "rear as spiral horns gather a constellation of heavy stone stars that descend in ascending impact size"
+      }
+    ]
+  },
+  {
+    "pet": "reefgryphon",
+    "name": "礁翼獅鷲",
+    "element": 1,
+    "motif": "prism",
+    "tactic": "pierce",
+    "moves": [
+      {
+        "id": "reefgryphon-1",
+        "name": "礁翼俯爪",
+        "tier": "small",
+        "choreography": "bank sharply and slash down with golden foreclaws through a green reef wake"
+      },
+      {
+        "id": "reefgryphon-2",
+        "name": "雙翼破幕",
+        "tier": "small",
+        "choreography": "beat asymmetrical wings to peel apart a translucent barrier with two crossing pressure wedges"
+      },
+      {
+        "id": "reefgryphon-3",
+        "name": "海天獅鷲落",
+        "tier": "ultimate",
+        "choreography": "soar through a huge reef arch then dive with wings extended into a turquoise-gold wing-shaped shockwave"
+      }
+    ]
+  },
+  {
+    "pet": "echojelly",
+    "name": "回音水母",
+    "element": 0,
+    "motif": "prism",
+    "tactic": "echo",
+    "moves": [
+      {
+        "id": "echojelly-1",
+        "name": "音波觸擊",
+        "tier": "small",
+        "choreography": "pulse bell once and send three short tentacle-linked concentric sound rings"
+      },
+      {
+        "id": "echojelly-2",
+        "name": "回聲疊浪",
+        "tier": "small",
+        "choreography": "compress bell twice leaving a delayed second lavender shock ring behind the first"
+      },
+      {
+        "id": "echojelly-3",
+        "name": "千層共鳴",
+        "tier": "ultimate",
+        "choreography": "expand transparent bell into a luminous acoustic dome as nested sound spheres collapse toward one brilliant center"
+      }
+    ]
+  },
+  {
+    "pet": "aurorawolf",
+    "name": "極潮狼",
+    "element": 0,
+    "motif": "aurora",
+    "tactic": "charge",
+    "moves": [
+      {
+        "id": "aurorawolf-1",
+        "name": "極光裂爪",
+        "tier": "small",
+        "choreography": "sprint low with a bright aurora backline and slash a wide green-blue ribbon"
+      },
+      {
+        "id": "aurorawolf-2",
+        "name": "追光疾行",
+        "tier": "small",
+        "choreography": "weave through two suspended aurora gates to store streaming light in its paws"
+      },
+      {
+        "id": "aurorawolf-3",
+        "name": "極夜破曉",
+        "tier": "ultimate",
+        "choreography": "lower head beneath a broad polar curtain then race forward as the curtain folds into a giant luminous wolf silhouette"
+      }
+    ]
+  },
+  {
+    "pet": "stormibis",
+    "name": "霧電朱鷺",
+    "element": 2,
+    "motif": "storm",
+    "tactic": "weaken",
+    "moves": [
+      {
+        "id": "stormibis-1",
+        "name": "霧電穿喙",
+        "tier": "small",
+        "choreography": "stretch its long beak forward to fire a narrow cyan lightning needle through fog"
+      },
+      {
+        "id": "stormibis-2",
+        "name": "雷羽麻流",
+        "tier": "small",
+        "choreography": "shake layered feathers to scatter small branching electric arcs around the target"
+      },
+      {
+        "id": "stormibis-3",
+        "name": "霹靂天穹",
+        "tier": "ultimate",
+        "choreography": "rise with wings forming a storm circle then strike down a controlled chain of three towering lightning pillars"
+      }
+    ]
+  },
+  {
+    "pet": "mapleopard",
+    "name": "航圖豹",
+    "element": 1,
+    "motif": "star",
+    "tactic": "mark",
+    "moves": [
+      {
+        "id": "mapleopard-1",
+        "name": "航線躍爪",
+        "tier": "small",
+        "choreography": "leap along a sharply bent golden route line and land a precise crossing claw strike"
+      },
+      {
+        "id": "mapleopard-2",
+        "name": "星圖追獵",
+        "tier": "small",
+        "choreography": "tail draws an illuminated route map with a bright destination mark on the target"
+      },
+      {
+        "id": "mapleopard-3",
+        "name": "七曜追星",
+        "tier": "ultimate",
+        "choreography": "race across seven floating navigation points leaving long gold-green trails that converge on the final star"
+      }
+    ]
+  },
+  {
+    "pet": "tideserpent",
+    "name": "潮環龍",
+    "element": 0,
+    "motif": "tide",
+    "tactic": "drain",
+    "moves": [
+      {
+        "id": "tideserpent-1",
+        "name": "環尾浪刃",
+        "tier": "small",
+        "choreography": "coil its short body and whip a circular tail blade of blue water"
+      },
+      {
+        "id": "tideserpent-2",
+        "name": "迴潮汲環",
+        "tier": "small",
+        "choreography": "tighten three luminous water rings and draw a stream of droplets back into its mane"
+      },
+      {
+        "id": "tideserpent-3",
+        "name": "九環鎖海",
+        "tier": "ultimate",
+        "choreography": "uncoil through nine staggered tidal hoops that align into a long tunnel and discharge a massive revolving wave"
+      }
+    ]
+  },
+  {
+    "pet": "prismorca",
+    "name": "稜潮虎鯨",
+    "element": 0,
+    "motif": "prism",
+    "tactic": "pierce",
+    "moves": [
+      {
+        "id": "prismorca-1",
+        "name": "稜鰭光刃",
+        "tier": "small",
+        "choreography": "tilt a prismatic fin and flick a straight rainbow-edged blade"
+      },
+      {
+        "id": "prismorca-2",
+        "name": "折光穿浪",
+        "tier": "small",
+        "choreography": "swim through a triangular glass prism and project one concentrated refracted lance"
+      },
+      {
+        "id": "prismorca-3",
+        "name": "七彩破海柱",
+        "tier": "ultimate",
+        "choreography": "arc high as seven colored water columns rise then merge beneath its dive into a huge white-cyan splash"
+      }
+    ]
+  },
+  {
+    "pet": "cometcrane",
+    "name": "彗帆鶴",
+    "element": 2,
+    "motif": "star",
+    "tactic": "charge",
+    "moves": [
+      {
+        "id": "cometcrane-1",
+        "name": "彗羽點擊",
+        "tier": "small",
+        "choreography": "step lightly and snap its comet tail into a fast trailing star dart"
+      },
+      {
+        "id": "cometcrane-2",
+        "name": "星帆蓄勢",
+        "tier": "small",
+        "choreography": "spread translucent sail wings to catch drifting sparks into a glowing comet halo"
+      },
+      {
+        "id": "cometcrane-3",
+        "name": "長夜彗落",
+        "tier": "ultimate",
+        "choreography": "climb a long curving comet path then plunge with wings tucked through three star gates into a broad radiant landing ring"
+      }
+    ]
+  },
+  {
+    "pet": "crystalboar",
+    "name": "璃甲野豬",
+    "element": 1,
+    "motif": "stone",
+    "tactic": "pierce",
+    "moves": [
+      {
+        "id": "crystalboar-1",
+        "name": "晶牙突進",
+        "tier": "small",
+        "choreography": "dig hooves into the floor and thrust short pearl tusks through a jagged green crystal streak"
+      },
+      {
+        "id": "crystalboar-2",
+        "name": "破甲晶震",
+        "tier": "small",
+        "choreography": "shake shoulder plates to send a short angular fracture wave into the target's shield"
+      },
+      {
+        "id": "crystalboar-3",
+        "name": "萬晶山崩",
+        "tier": "ultimate",
+        "choreography": "raise a fan of giant crystal ridges then charge between them as they fall outward in a spectacular ordered avalanche"
+      }
+    ]
+  },
+  {
+    "pet": "nebulafox",
+    "name": "星霧狐",
+    "element": 2,
+    "motif": "mist",
+    "tactic": "weaken",
+    "moves": [
+      {
+        "id": "nebulafox-1",
+        "name": "霧星狐火",
+        "tier": "small",
+        "choreography": "flick its opal tail to launch three drifting violet star flames along offset paths"
+      },
+      {
+        "id": "nebulafox-2",
+        "name": "幻星迷蹤",
+        "tier": "small",
+        "choreography": "step backward through a nebula veil leaving a slowly fading fox-shaped constellation decoy"
+      },
+      {
+        "id": "nebulafox-3",
+        "name": "九霄星幻",
+        "tier": "ultimate",
+        "choreography": "circle a giant violet star orb as multiple nebula tails bloom behind it then fold into a spiraling cosmic wave"
+      }
+    ]
+  },
+  {
+    "pet": "atlaswhale",
+    "name": "天圖鯨",
+    "element": 0,
+    "motif": "star",
+    "tactic": "mark",
+    "moves": [
+      {
+        "id": "atlaswhale-1",
+        "name": "天圖波束",
+        "tier": "small",
+        "choreography": "light up silver map lines on its back and project a wide flat navigation beam"
+      },
+      {
+        "id": "atlaswhale-2",
+        "name": "銀線星標",
+        "tier": "small",
+        "choreography": "roll one fin to connect five map nodes into a targeting grid beneath the opponent"
+      },
+      {
+        "id": "atlaswhale-3",
+        "name": "蒼海天圖卷",
+        "tier": "ultimate",
+        "choreography": "unfurl an enormous luminous map across the sky then sweep its tail to turn the map into a layered falling ocean"
+      }
+    ]
+  },
+  {
+    "pet": "opalgriffin",
+    "name": "歐泊獅鷲",
+    "element": 1,
+    "motif": "prism",
+    "tactic": "shield",
+    "moves": [
+      {
+        "id": "opalgriffin-1",
+        "name": "歐泊翼刃",
+        "tier": "small",
+        "choreography": "slice one opalescent wing forward into two iridescent curved blades"
+      },
+      {
+        "id": "opalgriffin-2",
+        "name": "鏡羽守護",
+        "tier": "small",
+        "choreography": "fold pearl feathers into a rotating faceted shield with soft pink-cyan reflections"
+      },
+      {
+        "id": "opalgriffin-3",
+        "name": "虹翼審光",
+        "tier": "ultimate",
+        "choreography": "spread huge overlapping opal wings as many refracted shafts orbit the body then launch in a brilliant wing-shaped sweep"
+      }
+    ]
+  },
+  {
+    "pet": "solaraxolotl",
+    "name": "曙光六角龍",
+    "element": 2,
+    "motif": "coral",
+    "tactic": "mend",
+    "moves": [
+      {
+        "id": "solaraxolotl-1",
+        "name": "曙光泡彈",
+        "tier": "small",
+        "choreography": "pulse six external gills and spit a warm pink-gold bubble projectile"
+      },
+      {
+        "id": "solaraxolotl-2",
+        "name": "晨曦再生",
+        "tier": "small",
+        "choreography": "raise its gills like a sunrise crown as soft peach rays knit into restorative ripples"
+      },
+      {
+        "id": "solaraxolotl-3",
+        "name": "六芒朝陽",
+        "tier": "ultimate",
+        "choreography": "six luminous gill rays form a sunwheel that rises behind the creature then releases a wide expanding dawn wave"
+      }
+    ]
+  },
+  {
+    "pet": "meridiantiger",
+    "name": "經緯潮虎",
+    "element": 1,
+    "motif": "star",
+    "tactic": "pierce",
+    "moves": [
+      {
+        "id": "meridiantiger-1",
+        "name": "緯線虎爪",
+        "tier": "small",
+        "choreography": "pivot on one paw and rake three perfectly parallel turquoise claw lines"
+      },
+      {
+        "id": "meridiantiger-2",
+        "name": "經線破陣",
+        "tier": "small",
+        "choreography": "crouch then leap through an upright golden meridian frame to shatter a barrier plane"
+      },
+      {
+        "id": "meridiantiger-3",
+        "name": "天地縱橫",
+        "tier": "ultimate",
+        "choreography": "roar as enormous latitude and longitude rings intersect around the field then dash through their glowing crossing point"
+      }
+    ]
+  },
+  {
+    "pet": "aurorakirin",
+    "name": "極航麟",
+    "element": 1,
+    "motif": "aurora",
+    "tactic": "mend",
+    "moves": [
+      {
+        "id": "aurorakirin-1",
+        "name": "極光踏蹄",
+        "tier": "small",
+        "choreography": "step with a luminous hoof and send a curling aurora ripple across the ground"
+      },
+      {
+        "id": "aurorakirin-2",
+        "name": "霓鬃淨息",
+        "tier": "small",
+        "choreography": "shake translucent mane to release cleansing bands of violet-green light around itself"
+      },
+      {
+        "id": "aurorakirin-3",
+        "name": "萬里極航",
+        "tier": "ultimate",
+        "choreography": "gallop along a rising aurora bridge while engraved antlers draw a huge celestial sail that sweeps the arena"
+      }
+    ]
+  },
+  {
+    "pet": "eclipseowl",
+    "name": "蝕光夜鴞",
+    "element": 2,
+    "motif": "moon",
+    "tactic": "drain",
+    "moves": [
+      {
+        "id": "eclipseowl-1",
+        "name": "蝕月羽刺",
+        "tier": "small",
+        "choreography": "twist one wing and send dark-blue feathers edged with gold crescent light"
+      },
+      {
+        "id": "eclipseowl-2",
+        "name": "環蝕汲光",
+        "tier": "small",
+        "choreography": "close broad wings around a small eclipsed sun and pull thin light streams toward its center"
+      },
+      {
+        "id": "eclipseowl-3",
+        "name": "日蝕天輪",
+        "tier": "ultimate",
+        "choreography": "open wings before a huge eclipsed disc as its corona erupts into rotating golden-blue rings and one broad shadow-light pulse"
+      }
+    ]
+  },
+  {
+    "pet": "stellarmanta",
+    "name": "星界帆魟",
+    "element": 0,
+    "motif": "star",
+    "tactic": "shield",
+    "moves": [
+      {
+        "id": "stellarmanta-1",
+        "name": "星界翼波",
+        "tier": "small",
+        "choreography": "roll one wide transparent wing to project a curved panel of starlit energy"
+      },
+      {
+        "id": "stellarmanta-2",
+        "name": "界帆星障",
+        "tier": "small",
+        "choreography": "fold wing edges upward to weave a starfield barrier like a transparent sail"
+      },
+      {
+        "id": "stellarmanta-3",
+        "name": "星門萬潮",
+        "tier": "ultimate",
+        "choreography": "glide through a vast circular star gate as smaller portals fan out and release staggered celestial tidal waves"
+      }
+    ]
+  },
+  {
+    "pet": "tidephoenix",
+    "name": "潮汐鳳鳥",
+    "element": 0,
+    "motif": "aurora",
+    "tactic": "mend",
+    "moves": [
+      {
+        "id": "tidephoenix-1",
+        "name": "潮羽流矢",
+        "tier": "small",
+        "choreography": "snap its ocean-blue wings and launch a fan of translucent water-feather arrows"
+      },
+      {
+        "id": "tidephoenix-2",
+        "name": "汐光回羽",
+        "tier": "small",
+        "choreography": "spiral gently as glowing aqua feathers return toward the body in restorative loops"
+      },
+      {
+        "id": "tidephoenix-3",
+        "name": "滄羽涅潮",
+        "tier": "ultimate",
+        "choreography": "rise in a helix of ocean spray, unfurl immense translucent blue wings and release a phoenix-shaped tide with warm coral highlights"
+      }
+    ]
+  },
+  {
+    "pet": "aetherdragon",
+    "name": "蒼穹璃龍",
+    "element": 2,
+    "motif": "prism",
+    "tactic": "pierce",
+    "moves": [
+      {
+        "id": "aetherdragon-1",
+        "name": "蒼璃龍息",
+        "tier": "small",
+        "choreography": "lower its glasslike head and exhale a focused iridescent crystal mist lance"
+      },
+      {
+        "id": "aetherdragon-2",
+        "name": "虹鱗穿空",
+        "tier": "small",
+        "choreography": "flare rainbow scales and launch a clean prismatic shock cone through a translucent plane"
+      },
+      {
+        "id": "aetherdragon-3",
+        "name": "穹頂龍曜",
+        "tier": "ultimate",
+        "choreography": "spread map-etched wings under an enormous glass sky dome then fire a majestic rainbow-cyan dragon beam as the dome blossoms outward"
+      }
+    ]
+  },
+  {
+    "pet": "cosmicnautilus",
+    "name": "宙海鸚鵡螺",
+    "element": 0,
+    "motif": "moon",
+    "tactic": "echo",
+    "moves": [
+      {
+        "id": "cosmicnautilus-1",
+        "name": "螺旋星彈",
+        "tier": "small",
+        "choreography": "rotate its crystal shell and release a tightly coiled silver-violet star projectile"
+      },
+      {
+        "id": "cosmicnautilus-2",
+        "name": "時序回響",
+        "tier": "small",
+        "choreography": "light sequential rings on its shell that send two clearly delayed orbital pulses"
+      },
+      {
+        "id": "cosmicnautilus-3",
+        "name": "宙海回廊",
+        "tier": "ultimate",
+        "choreography": "open concentric spiral gateways from its shell and unfurl a vast cosmic current that coils outward like a galactic staircase"
+      }
+    ]
+  },
+  {
+    "pet": "infinitywhale",
+    "name": "無垠星鯨",
+    "element": 0,
+    "motif": "star",
+    "tactic": "charge",
+    "moves": [
+      {
+        "id": "infinitywhale-1",
+        "name": "無垠星浪",
+        "tier": "small",
+        "choreography": "sweep one crystalline fin to send a broad wave with several nested star trails"
+      },
+      {
+        "id": "infinitywhale-2",
+        "name": "星軌聚潮",
+        "tier": "small",
+        "choreography": "roll slowly as orbiting light tracks gather into a bright reservoir along its back"
+      },
+      {
+        "id": "infinitywhale-3",
+        "name": "寰宇鯨歌",
+        "tier": "ultimate",
+        "choreography": "rise beneath a spectacular deep-blue galaxy as star orbits become enormous concentric wavefronts released by a single whale song"
+      }
+    ]
+  },
+  {
+    "pet": "astraltide",
+    "name": "星潮萬象獸",
+    "element": 0,
+    "motif": "aurora",
+    "tactic": "mark",
+    "moves": [
+      {
+        "id": "astraltide-1",
+        "name": "萬象流羽",
+        "tier": "small",
+        "choreography": "shift ocean fins into cloudlike feather edges and flick a layered cyan-gold wing slash"
+      },
+      {
+        "id": "astraltide-2",
+        "name": "星潮共鳴",
+        "tier": "small",
+        "choreography": "trace a floating triad of ocean, cloud and star sigils that align on the target"
+      },
+      {
+        "id": "astraltide-3",
+        "name": "萬象歸潮",
+        "tier": "ultimate",
+        "choreography": "ascend as ocean, clouds and constellations spiral around its whale-fox-bird silhouette then unite in one immense luminous astral tide"
+      }
+    ]
+  },
+  {
+    "pet": "maltese",
+    "name": "棉花糖",
+    "element": 1,
+    "motif": "cloud",
+    "tactic": "shield",
+    "moves": [
+      {
+        "id": "maltese-1",
+        "name": "棉雲蹦擊",
+        "tier": "small",
+        "choreography": "bound forward with fluffy white ears and leave a soft but crisp cloud paw shockwave"
+      },
+      {
+        "id": "maltese-2",
+        "name": "軟雲抱抱",
+        "tier": "small",
+        "choreography": "curl into a white cloud cushion while a rounded translucent cloud shield forms"
+      },
+      {
+        "id": "maltese-3",
+        "name": "雲海棉花城",
+        "tier": "ultimate",
+        "choreography": "jump high as a whimsical castle of piled clouds rises and its rounded towers release rolling cloud waves"
+      }
+    ]
+  },
+  {
+    "pet": "pig",
+    "name": "奶茶",
+    "element": 1,
+    "motif": "stone",
+    "tactic": "recoil",
+    "moves": [
+      {
+        "id": "pig-1",
+        "name": "奶茶滾滾",
+        "tier": "small",
+        "choreography": "tuck tiny feet and roll forward in a warm sandy spiral with a bright final bounce"
+      },
+      {
+        "id": "pig-2",
+        "name": "勇氣鼻撞",
+        "tier": "small",
+        "choreography": "lower its snout then charge with a compact amber pressure ring and a visible recoil hop"
+      },
+      {
+        "id": "pig-3",
+        "name": "金穀大地波",
+        "tier": "ultimate",
+        "choreography": "stamp both front hooves and raise a sweeping golden field of rounded earth ripples that roll forward in three crests"
+      }
+    ]
+  },
+  {
+    "pet": "otter",
+    "name": "浪花",
+    "element": 0,
+    "motif": "tide",
+    "tactic": "drain",
+    "moves": [
+      {
+        "id": "otter-1",
+        "name": "浪花拍掌",
+        "tier": "small",
+        "choreography": "clap wet paws to send a sharp fan-shaped blue splash"
+      },
+      {
+        "id": "otter-2",
+        "name": "水珠抱抱",
+        "tier": "small",
+        "choreography": "catch a stream of glowing droplets with both paws and roll them back toward its heart"
+      },
+      {
+        "id": "otter-3",
+        "name": "碧浪遊龍",
+        "tier": "ultimate",
+        "choreography": "dive through an airborne river and emerge riding a long playful water-dragon wave with sparkling foam"
+      }
+    ]
+  },
+  {
+    "pet": "fox",
+    "name": "芒果",
+    "element": 2,
+    "motif": "coral",
+    "tactic": "burn",
+    "moves": [
+      {
+        "id": "fox-1",
+        "name": "芒星尾掃",
+        "tier": "small",
+        "choreography": "spin its orange tail into a golden mango-shaped crescent of warm sparks"
+      },
+      {
+        "id": "fox-2",
+        "name": "暖焰追蹤",
+        "tier": "small",
+        "choreography": "flick two bright orange wisps that circle the opponent before settling into a gentle burning ring"
+      },
+      {
+        "id": "fox-3",
+        "name": "金芒烈日",
+        "tier": "ultimate",
+        "choreography": "leap before a large golden-orange sun disc and sweep its tail to split the disc into soaring solar petals"
+      }
+    ]
+  },
+  {
+    "pet": "rabbit",
+    "name": "月亮",
+    "element": 1,
+    "motif": "moon",
+    "tactic": "echo",
+    "moves": [
+      {
+        "id": "rabbit-1",
+        "name": "月牙蹬踢",
+        "tier": "small",
+        "choreography": "spring sideways and kick a clean pearl crescent toward the target"
+      },
+      {
+        "id": "rabbit-2",
+        "name": "雙影月跳",
+        "tier": "small",
+        "choreography": "bounce between two offset pale moon shadows that strike in sequence"
+      },
+      {
+        "id": "rabbit-3",
+        "name": "銀月花海",
+        "tier": "ultimate",
+        "choreography": "jump through an enormous silver crescent as a sea of luminous white petals rises and curls into a graceful lunar vortex"
+      }
+    ]
+  }
+]

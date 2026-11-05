@@ -15,8 +15,8 @@ describe("five elements across companions, combat and reading", () => {
 
   it("gives every existing companion one named element without changing skills or identity", () => {
     expect(ELEMENTS.map(e => e.name)).toEqual(names);
-    expect(BASE_ROSTER).toHaveLength(105)
-    expect(ROSTER).toHaveLength(215);
+    expect(BASE_ROSTER).toHaveLength(185)
+    expect(ROSTER).toHaveLength(375);
     const savedIds = Object.keys(savedFamily.profiles.quintus.owned);
     expect(BASE_ROSTER.filter(c => c.catalogNumber <= 55).map(c => c.id).sort()).toEqual(savedIds.sort());
     for (const c of BASE_ROSTER.filter(c => c.catalogNumber <= 55)) {

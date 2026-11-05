@@ -1,3 +1,4 @@
+import { CREATURE_ART } from "./creature-art";
 export const TIDEGLOW_MOTIONS = ['idle', 'greet', 'pet', 'feed', 'play', 'listening', 'thinking', 'speaking', 'cheering', 'rest', 'highfive', 'bubbles'] as const;
 export type TideglowMotion = typeof TIDEGLOW_MOTIONS[number];
 export type CareAction = 'pet' | 'feed' | 'play' | 'highfive' | 'bubbles' | 'rest';
@@ -47,7 +48,7 @@ export function companionMascot(username: string | undefined, accountPlayer: str
 }
 export const companionName = (mascot: CompanionMascot = 'tideglow') => mascot === 'dog' ? '派對狗狗' : mascot === 'bow' ? '蝴蝶結寶寶' : '潮光獸';
 export const DOG_POSTER = '/assets/olivia-dog/poster-v1.png';
-export const companionPortrait = (mascot: CompanionMascot = 'tideglow') => mascot === 'dog' ? DOG_POSTER : mascot === 'bow' ? '/assets/feifei-bow/v1/portrait.jpg' : '/assets/tideglow-companion.png';
+export const companionPortrait = (mascot: CompanionMascot = 'tideglow') => mascot === 'dog' ? DOG_POSTER : mascot === 'bow' ? '/assets/feifei-bow/v1/portrait.jpg' : CREATURE_ART.tideglow.image;
 export const DOG_VIDEO = '/assets/olivia-dog/hello-v1.mp4';
 
 const TIDEGLOW_NEW_ACTIONS = ['highfive', 'bubbles', 'rest'] as const;

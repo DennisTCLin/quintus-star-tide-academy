@@ -1,3 +1,5 @@
+import { startNpcRaidWorker, NPC_TICK_MS } from './conquest-npc-worker.mjs';
+import { createConquestService } from './conquest.mjs';
 import { applySchoolCurriculum } from "./school-roster.mjs";
 import { createAdminService } from './admin.mjs';
 import { redeemInviteCode } from './invite-codes.mjs';
@@ -125,7 +127,7 @@ function publicState(row, user, csrf) {
     }
   }
   return {
-    family,
+    family: structuredClone(family),
     questions,
     questionAssets,
     reviews,
@@ -348,6 +350,8 @@ export async function createCloudApi({
   connectionString = process.env.DATABASE_URL,
   origin = process.env.APP_ORIGIN,
   production = process.env.NODE_ENV === "production",
+  npcRaidsEnabled = production && process.env.CONQUEST_NPC_RAIDS !== "off",
+  npcRaidIntervalMs = NPC_TICK_MS,
 } = {}) {
   assert(connectionString, "資料庫尚未設定", 503);
   assert(
@@ -419,7 +423,7 @@ export async function createCloudApi({
     () =>
       pool
         .query(
-          `DELETE FROM presence_leases WHERE seen_at<now()-interval '1 day'; DELETE FROM sessions WHERE expires_at<now(); DELETE FROM command_receipts WHERE created_at<now()-interval '30 days'; DELETE FROM request_limits WHERE expires_at<now(); DELETE FROM companion_voice_receipts WHERE created_at<now()-interval '7 days'; UPDATE companion_voice_conversations SET history=(SELECT COALESCE(jsonb_agg(h),'[]'::jsonb) FROM jsonb_array_elements(history) h WHERE (h->>'at')::bigint>extract(epoch FROM now()-interval '7 days')*1000) WHERE EXISTS(SELECT 1 FROM jsonb_array_elements(history) h WHERE (h->>'at')::bigint<=extract(epoch FROM now()-interval '7 days')*1000);`,
+          `DELETE FROM presence_leases WHERE seen_at<now()-interval '1 day'; DELETE FROM sessions WHERE expires_at<now(); DELETE FROM command_receipts WHERE created_at<now()-interval '30 days'; DELETE FROM conquest_commands WHERE created_at<now()-interval '30 days'; DELETE FROM request_limits WHERE expires_at<now(); DELETE FROM companion_voice_receipts WHERE created_at<now()-interval '7 days'; UPDATE companion_voice_conversations SET history=(SELECT COALESCE(jsonb_agg(h),'[]'::jsonb) FROM jsonb_array_elements(history) h WHERE (h->>'at')::bigint>extract(epoch FROM now()-interval '7 days')*1000) WHERE EXISTS(SELECT 1 FROM jsonb_array_elements(history) h WHERE (h->>'at')::bigint<=extract(epoch FROM now()-interval '7 days')*1000);`,
         )
         .catch(() => {}),
     60000,
@@ -481,6 +485,8 @@ export async function createCloudApi({
   }
   const guide = await createGuideService({ pool, transaction, lockSession, assert, limit, provider: guideProvider });
   const voice = await createCompanionVoiceService({ pool, transaction, lockSession, assert, limit, provider: voiceProvider, guide });
+  const conquest = await createConquestService({ pool, transaction, lockSession, assert });
+  const npcRaidWorker = npcRaidsEnabled ? startNpcRaidWorker({ tick: () => conquest.tickNpcRaids(), intervalMs: production ? NPC_TICK_MS : npcRaidIntervalMs }) : null;
   const onlineBattle = await createOnlineBattleService({ pool, transaction, lockSession, assert });
   async function friends(user) {
     const connected = await connectedPlayerFriends(pool, user);
@@ -760,6 +766,7 @@ export async function createCloudApi({
         send(res, 200, await voice.read(user, new URL(req.url, "http://localhost").searchParams.get("player")));
         return;
       }
+      if (path === "/api/conquest" && req.method === "GET") { send(res,200,await conquest.read(user,new URL(req.url,"http://localhost").searchParams.get("player"))); return; }
       if (path === "/api/online-battle" && req.method === "GET") {
         send(res, 200, await onlineBattle.read(user, new URL(req.url, "http://localhost").searchParams.get("player")));
         return;
@@ -794,6 +801,8 @@ export async function createCloudApi({
         send(res, 200, await guide.turn(user, body));
         return;
       }
+      if (path === "/api/conquest/reports/read") { send(res,200,await conquest.markReportsRead(user,body)); return; }
+      if (path === "/api/conquest") { send(res,200,await conquest.command(user,body)); return; }
       if (path === "/api/online-battle") {
         send(res, 200, await onlineBattle.command(user, body));
         return;
@@ -955,6 +964,9 @@ export async function createCloudApi({
           "另一個裝置已更新進度，請重新查看後操作",
           409,
         );
+        const collectionBefore=JSON.stringify(Object.values(row.family.profiles).map(p=>[p.owned,p.growth?.xp]));
+        const conquestRun = path === "/api/command" && ["answer","question-timeout"].includes(body.command?.type) ? row.family.profiles[body.command.player]?.run : null;
+        const conquestAttempt = conquestRun ? `${conquestRun.id}:${conquestRun.index}` : null;
         let result = true,
           family = applySchoolCurriculum(validateFamily(row.family), user);
         if (path === "/api/migrate") {
@@ -1042,6 +1054,8 @@ export async function createCloudApi({
           "UPDATE game_states SET family=$2,verified=$3,legacy_archive=$4,updated_at=now() WHERE account_id=$1",
           [user.id, row.family, row.verified, row.legacy_archive],
         );
+        if (path === "/api/command" && collectionBefore!==JSON.stringify(Object.values(row.family.profiles).map(p=>[p.owned,p.growth?.xp]))) await conquest.syncAccount(db,user,body.command.player);
+        if (conquestAttempt && typeof result === "boolean") await conquest.credit(db,user,body.command.player,conquestAttempt,result,Date.now());
         const completedRun = path === "/api/command" && ["answer","question-timeout"].includes(body.command.type)
           ? row.family.profiles[body.command.player].run : null;
         const captureReceipt = completedRun?.capture && completedRun.status === "won"
@@ -1080,8 +1094,10 @@ export async function createCloudApi({
   }
   handler.close = async () => {
     clearInterval(cleanup);
+    await npcRaidWorker?.stop();
     await pool.end();
   };
   handler.pool = pool;
+  handler.conquestNpcTick = () => conquest.tickNpcRaids();
   return handler;
 }

@@ -80,6 +80,8 @@ export type LearningQuestion = {
   retirementReason?: string;
   publisher?: Publisher;
   examSources?: ExamSource[];
+  /** Siblings sharing clues must not be allocated in the same voyage. */
+  sourceFamily?: string;
   /** Explicitly reviewed legacy-source intersection, never inferred from publisher alone. */
   curriculumMatch?: "hwg7-u1-u2";
   hideReadingHints?: boolean;

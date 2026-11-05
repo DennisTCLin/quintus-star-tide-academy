@@ -11,8 +11,9 @@ import {allocateQuestions,allocateAdventureQuestions,freshLearning,validateLearn
 import {markMastered} from '../mastered-questions';
 const added=SCIENCE_EXAMS.filter(q=>q.id.startsWith('sx1-ksu'));
 const baseline=SCIENCE_EXAMS.filter(q=>!q.id.startsWith('sx1-ksu'));
+const originalQuestions=SCIENCE_EXAMS.filter(q=>q.examSources!.some(s=>/^ks\d+$/.test(s.id)));
 it('retains 130 original questions and 373 supplement locators on 196 new questions',()=>{
- expect(baseline).toHaveLength(130);expect(rows).toHaveLength(373);expect(added).toHaveLength(196);expect(SCIENCE_EXAMS).toHaveLength(326);
+ expect(originalQuestions).toHaveLength(130);expect(rows).toHaveLength(373);expect(added).toHaveLength(196);expect([...originalQuestions,...added]).toHaveLength(326);
  expect(new Set(added.map(q=>q.id)).size).toBe(196);
  expect(new Set(added.flatMap(q=>q.examSources!.map(s=>s.id))).size).toBe(10);
  expect(added.flatMap(q=>q.examSources!)).toHaveLength(373);

@@ -1,0 +1,6 @@
+### Result
+{"freshNavigationErrors":[]}
+### Ran Playwright code
+```js
+await (async page => { const errors=[]; page.on("pageerror", e=>errors.push(e.message)); await page.goto("http://127.0.0.1:4336/output/playwright/creatures-unified/harness.html"); await page.getByRole("searchbox",{name:"搜尋怪物"}).waitFor(); await page.locator("img").first().evaluate(img=>img.decode()); if(errors.length)throw Error(JSON.stringify(errors)); return {freshNavigationErrors:errors}; })(page);
+```

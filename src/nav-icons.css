@@ -42,3 +42,32 @@
 .reduce-motion .family-nav button:focus-visible .nav-icon { transform: none; }
 
 .family-nav .nav-icon--territory { background:none; display:grid; place-items:center; font-size:38px; }
+
+/* Conquest is a primary destination: the raised banner signals territorial capture. */
+.family-nav .nav-icon--conquest {
+  width: 64px;
+  height: 64px;
+  flex-basis: 64px;
+  background: none;
+  display: grid;
+  place-items: center;
+  filter: drop-shadow(0 2px 3px #041d29aa);
+}
+.family-nav .nav-icon--conquest img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.family-nav button:has(.nav-icon--conquest) {
+  border-color: #b9984d55;
+  background: linear-gradient(135deg, #28475088, #122e3e88);
+}
+.family-nav button.selected:has(.nav-icon--conquest) {
+  color: #ffe4a4;
+  border-color: #dfb767;
+  background: linear-gradient(135deg, #354c4c, #163949);
+  box-shadow: inset 0 0 0 1px #e9c77e33, 0 3px 16px #00182433;
+}
+.family-nav button.selected .nav-icon--conquest { filter: drop-shadow(0 0 5px #efc57277); }
+@media (max-width: 900px) {
+  .family-nav .nav-icon--conquest { width: 56px; height: 56px; flex-basis: 56px; }
+}
+@media (max-width: 600px) {
+  .family-nav .nav-icon--conquest { width: 48px; height: 48px; flex-basis: 48px; }
+}

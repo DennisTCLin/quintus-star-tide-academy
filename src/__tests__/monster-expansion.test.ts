@@ -19,7 +19,7 @@ describe('fifty new monsters and scarce S tiers',()=>{
   it('adds exactly fifty unique species, numbered after existing companions, all with usable support skills',()=>{
     expect(MONSTER_CATALOG.slice(30,80)).toHaveLength(50);
     expect(MONSTER_FAMILIES.slice(0,8)).toHaveLength(8);
-    for(const field of ['id','name','catalogNumber'] as const)expect(new Set(ROSTER.map(p=>p[field])).size).toBe(215);
+    for(const field of ['id','name','catalogNumber'] as const)expect(new Set(ROSTER.map(p=>p[field])).size).toBe(375);
     for(const monster of MONSTER_CATALOG.slice(30,80)) {
       expect(['focus','shield','spark']).toContain(petSkill(monster.id));
       expect(petSkillName(monster.id)).toBe(monster.move);

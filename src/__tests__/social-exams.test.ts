@@ -7,6 +7,7 @@ import {questionById} from '../learning';
 import {markMastered} from '../mastered-questions';
 import {coursePublisher,socialCurriculumNotice} from '../school-curriculum';
 import {newFamily,startRun,validateFamily} from '../adventure';
+const examIds=new Set(SOCIAL_EXAMS.map(q=>q.id));
 it('keeps all reviewed source rows traceable and rejects pending papers',()=>{
  const SOCIAL_EXAMS=allSocialExams.filter(q=>rows.some(row=>row.id===q.id));
  expect(rows).toHaveLength(83);expect(SOCIAL_EXAMS).toHaveLength(83);
@@ -30,8 +31,8 @@ it('prioritizes parent social papers for both schools, every lane, and practice'
  for(const school of ['nantun','yongchun','dunhua'] as const){
   expect(coursePublisher(school,4,'social')).toBe('康軒');expect(socialCurriculumNotice(school)).toContain('舊版其他單元暫不列入');
   for(const lane of [1,2,3] as const){
-   const s={...freshLearning(),school};expect(allocateAdventureQuestions(s,4,'social',6,lane).every(q=>q.id.startsWith('soc1-'))).toBe(true);
-   expect(allocateQuestions(s,4,'social',1)[0].id.startsWith('soc1-')).toBe(true);
+   const s={...freshLearning(),school};expect(allocateAdventureQuestions(s,4,'social',6,lane).every(q=>examIds.has(q.id))).toBe(true);
+   expect(examIds.has(allocateQuestions(s,4,'social',1)[0].id)).toBe(true);
   }
  }
  expect(allocateQuestions(freshLearning(),4,'social',6).every(q=>!questionById(q.id)?.examSources)).toBe(true);
@@ -45,7 +46,7 @@ it('honors mastery after save restoration and uses general social after exhausti
   let s={...freshLearning(),school};const ids=SOCIAL_EXAMS.map(q=>q.id);
   ids.slice(0,-2).forEach(id=>markMastered(s,id));s=validateLearning(JSON.parse(JSON.stringify(s)),4) as typeof s;
   const q=allocateQuestions(s,4,'social',6);
-  expect(q.filter(q=>q.id.startsWith('soc1-')).map(q=>q.id).sort()).toEqual(ids.slice(-2).sort());
+  expect(q.filter(q=>examIds.has(q.id)).map(q=>q.id).sort()).toEqual(ids.slice(-2).sort());
   expect(new Set(q.map(q=>q.id)).size).toBe(6);
   ids.forEach(id=>markMastered(s,id));expect(allocateQuestions(s,4,'social',6).every(q=>!questionById(q.id)?.examSources)).toBe(true);
  }

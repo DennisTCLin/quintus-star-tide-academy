@@ -61,7 +61,9 @@ describe('reviewed cinematics in production', () => {
   it('seeks a late load to the shared clock and suppresses footage arriving after its impact', () => {
     for (const clip of Object.values(BATTLE_CINEMATICS)) {
       const t = cinematicTiming(clip);
-      expect(cinematicPosition(clip, 500)).toBeCloseTo(500 / t.end * clip.duration);
+      const beforeCutoff = Math.min(500, t.impact - 101);
+      expect(cinematicPosition(clip, beforeCutoff)).toBeCloseTo(beforeCutoff / t.end * clip.duration);
+      expect(cinematicPosition(clip, t.impact - 100)).toBeNull();
       expect(cinematicPosition(clip, t.impact)).toBeNull();
       expect(cinematicPosition(clip, t.end)).toBeNull();
     }

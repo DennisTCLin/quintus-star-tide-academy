@@ -1,0 +1,32 @@
+{
+  "base": "054f6a3db8ce093bb331020b5b8d5ded48fa1aed",
+  "fullNpmTest": {
+    "passed": 964,
+    "failed": 0,
+    "skipped": 215,
+    "note": "Database-dependent skips are not passes; targeted real PostgreSQL below."
+  },
+  "isolatedPostgres": {
+    "passed": 38,
+    "failed": 0,
+    "files": [
+      "family-seen-cloud",
+      "presence-history",
+      "all-child-curriculum-cloud",
+      "mastered-cloud",
+      "study-review-cloud"
+    ],
+    "additionalSchoolRouting": {
+      "passed": 21,
+      "failed": 0
+    }
+  },
+  "build": "PASS",
+  "coldReview": "PASS after fixing tolerated null profile and over-budget writer roundtrip",
+  "unchangedFixtureBudget": 98304,
+  "baseBytes": 105597,
+  "compactBytes": 85855,
+  "productionDataChanged": false,
+  "physicalIPad": "UNKNOWN",
+  "deployment": "NOT DEPLOYED; new live NPC baseline integration and release gate pending"
+}

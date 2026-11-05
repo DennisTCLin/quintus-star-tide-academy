@@ -7,8 +7,8 @@ import {coursePublisher} from '../school-curriculum';
 import {examSourceLabel} from '../exam-sources';
 import {newFamily,startRun,validateFamily} from '../adventure';
 it('keeps source-traceable, self-contained second-grade math with independently recalculated arithmetic',()=>{
- expect(bank).toHaveLength(172);expect(new Set(bank.map(q=>q.id)).size).toBe(bank.length);
- expect(new Set(bank.flatMap(q=>q.examSources!.map(s=>s.id))).size).toBe(5);
+ expect(bank).toHaveLength(198);expect(new Set(bank.map(q=>q.id)).size).toBe(bank.length);
+ expect(new Set(bank.flatMap(q=>q.examSources!.map(s=>s.id))).size).toBe(6);
  for(const q of bank){
   expect(questionById(q.id)).toBe(q);expect(q.grade).toBe(2);expect(q.publisher).toBe('南一');expect(q.course).toBe('math');
   expect(q.options[q.answer]?.text).toBeTruthy();expect(new Set(q.options.map(o=>o.text)).size).toBe(q.options.length);

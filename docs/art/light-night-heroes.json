@@ -1,0 +1,72 @@
+[
+  {
+    "hero": "half-orc",
+    "source": "outputs/hero-roster-v3-20261103/01-half-orc-v4.png",
+    "asset": "public/assets/conquest/portraits/hero-half-orc.webp"
+  },
+  {
+    "hero": "elf",
+    "source": "outputs/hero-roster-v3-20261103/02-elf-v3.png",
+    "asset": "public/assets/conquest/portraits/hero-elf.webp"
+  },
+  {
+    "hero": "necromancer",
+    "source": "outputs/hero-roster-v3-20261103/03-necromancer-v3.png",
+    "asset": "public/assets/conquest/portraits/hero-necromancer.webp"
+  },
+  {
+    "hero": "druid",
+    "source": "outputs/hero-roster-v3-20261103/04-druid-v3.png",
+    "asset": "public/assets/conquest/portraits/hero-druid.webp"
+  },
+  {
+    "hero": "gnome",
+    "source": "outputs/hero-roster-v3-20261103/06-gnome-v3.png",
+    "asset": "public/assets/conquest/portraits/hero-gnome.webp"
+  },
+  {
+    "hero": "dwarf",
+    "source": "outputs/hero-roster-v3-20261103/07-dwarf-v3.png",
+    "asset": "public/assets/conquest/portraits/hero-dwarf.webp"
+  },
+  {
+    "hero": "undead",
+    "source": "outputs/hero-roster-v3-20261103/08-undead-v3.png",
+    "asset": "public/assets/conquest/portraits/hero-undead.webp"
+  },
+  {
+    "hero": "tauren",
+    "source": "outputs/hero-roster-v3-20261103/09-tauren-v4.png",
+    "asset": "public/assets/conquest/portraits/hero-tauren.webp"
+  },
+  {
+    "hero": "troll",
+    "source": "outputs/hero-roster-v3-20261103/10-troll-v4.png",
+    "asset": "public/assets/conquest/portraits/hero-troll.webp"
+  },
+  {
+    "hero": "goblin",
+    "source": "outputs/hero-roster-v3-20261103/12-goblin-v4.png",
+    "asset": "public/assets/conquest/portraits/hero-goblin.webp"
+  },
+  {
+    "hero": "human-paladin",
+    "source": "outputs/hero-roster-v3-20261103/14-human-paladin-v4.png",
+    "asset": "public/assets/conquest/portraits/hero-human-paladin.webp"
+  },
+  {
+    "hero": "orc",
+    "source": "outputs/hero-animation-roster-20261103/references/orc-single-v1.png",
+    "asset": "public/assets/conquest/portraits/hero-orc.webp"
+  },
+  {
+    "hero": "blood-elf",
+    "source": "outputs/hero-animation-roster-20261103/references/blood-elf-single-v1.png",
+    "asset": "public/assets/conquest/portraits/hero-blood-elf.webp"
+  },
+  {
+    "hero": "werewolf",
+    "source": "outputs/hero-animation-roster-20261103/references/werewolf-single-v1.png",
+    "asset": "public/assets/conquest/portraits/hero-werewolf.webp"
+  }
+]

@@ -1,17 +1,19 @@
 import {it,expect} from 'vitest';
 import {GRADE1_CHINESE_EXAMS as bank} from '../grade1-chinese-exams';
 import {GRADE1_CHINESE_EXTRA_EXAMS as extra} from '../grade1-chinese-extra-exams';
+import {GRADE1_CHINESE_KANGXUAN_EXAMS as recent} from '../grade1-chinese-kangxuan-exams';
 import {questionById} from '../learning';
 import {allocateQuestions,allocateAdventureQuestions,freshLearning,validateLearning} from '../learning-engine';
 import {markMastered} from '../mastered-questions';
 import {coursePublisher,curriculumNotice} from '../school-curriculum';
 import {EXAM_SOURCES,examSourceLabel} from '../exam-sources';
 import {questionSpeech} from '../speech-text';
+const bankIds=new Set(bank.map(q=>q.id));
 const courses=['medials','tones','pairs'] as const;
 it('preserves the original 51 and adds traceable reviewed phonetic choices',()=>{
- const original=bank.filter(q=>!q.id.startsWith('cxg1-new-'));
+ const original=bank.filter(q=>q.examSources!.some(s=>['g1ck1','g1ck2','g1ck3'].includes(s.id)));
  expect(original).toHaveLength(51);
- expect(bank).toHaveLength(51+extra.length);expect(new Set(bank.map(q=>q.id)).size).toBe(bank.length);
+ expect(bank).toHaveLength(51+extra.length+recent.length);expect(new Set(bank.map(q=>q.id)).size).toBe(bank.length);
  expect(courses.map(c=>original.filter(q=>q.course===c).length)).toEqual([9,9,33]);
  expect(['g1ck1','g1ck2','g1ck3'].map(id=>bank.filter(q=>q.examSources![0].id===id).length)).toEqual([10,26,15]);
  for(const q of bank){
@@ -19,7 +21,7 @@ it('preserves the original 51 and adds traceable reviewed phonetic choices',()=>
   expect(q.options[q.answer]?.text).toBeTruthy();expect(new Set(q.options.map(o=>o.text)).size).toBe(q.options.length);
   expect(q.prompt).not.toMatch(/看圖|如下圖|如右圖|EMBED/);
   expect(q.audio).toBeUndefined();expect(q.speechText).toBeTruthy();expect(q.target).toBeUndefined();
-  for(const choice of q.options){expect(choice.zy).toBe(choice.text);expect(choice.text).toMatch(/^[ㄅ-ㄩˊˇˋ˙― ]+$/u);}
+  for(const choice of q.options){expect(choice.zy).toBe(choice.text);if(!recent.includes(q))expect(choice.text).toMatch(/^[ㄅ-ㄩˊˇˋ˙― ]+$/u);}
   const s=q.examSources![0];expect([1,2]).toContain(s.page);expect(EXAM_SOURCES[s.id].status).toBe('active');expect(examSourceLabel(s)).toContain('一上');
  }
  expect(new Set(bank.filter(q=>q.course!=='tones').map(q=>q.answer)).size).toBe(3);
@@ -56,7 +58,7 @@ it('respects mastery after restore and excludes pending sources, unknown schools
   const ids=bank.filter(q=>q.course===course).map(q=>q.id);
   ids.slice(0,-2).forEach(id=>markMastered(s,id));s=validateLearning(JSON.parse(JSON.stringify(s)),1) as typeof s;
   const picked=allocateQuestions(s,1,course,6);
-  expect(picked.filter(q=>q.id.startsWith('cxg1-')).map(q=>q.id).sort()).toEqual(ids.slice(-2).sort());
+  expect(picked.filter(q=>bankIds.has(q.id)).map(q=>q.id).sort()).toEqual(ids.slice(-2).sort());
   ids.forEach(id=>markMastered(s,id));expect(allocateQuestions(s,1,course,6).every(q=>!questionById(q.id)?.examSources)).toBe(true);
   expect(allocateQuestions(freshLearning(),1,course,6).every(q=>!questionById(q.id)?.examSources)).toBe(true);
   expect(allocateQuestions({...freshLearning(),school:'nantun'},2,course,6).every(q=>questionById(q.id)?.grade===2&&!q.id.startsWith('cxg1-'))).toBe(true);

@@ -1,0 +1,15 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run --maxWorkers=4
+
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/special-star-ticket/星潮網站開發
+
+
+ Test Files  141 passed | 24 skipped (165)
+      Tests  956 passed | 213 skipped (1169)
+   Start at  16:11:06
+   Duration  14.78s (import 50%, tests 44%, transform 5%, worker 1%)
+
+    Isolate  165 workers spawned · ~63ms startup each (spawn + environment, per file)
+             at least ~2.55s faster with isolate: false — reuses workers across files instead of one per file

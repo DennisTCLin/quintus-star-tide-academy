@@ -1,0 +1,85 @@
+{
+  "candidate": "c08790b5ca92d212d31b591cd3deb258680e8a83",
+  "verdict": "PASS",
+  "source": "independent isolated checkout",
+  "build": "PASS",
+  "ui": [
+    "normal registration and one starter per account",
+    "alliance and single hero enrollment",
+    "normal correct answers give energy/XP/coins",
+    "shared geometry and owner sync",
+    "A wild capture, B captures A, A recaptures B",
+    "both logout with 401",
+    "background NPC without game HTTP or sessions",
+    "login and reload preserve private report and no repeat wounds",
+    "unread notice, single/bulk read and separate-session sync",
+    "desktop1440/mobile390 no overflow or JS page errors",
+    "normal abandon/logout cleanup"
+  ],
+  "codecNpc": {
+    "candidate": "c08790b5ca92d212d31b591cd3deb258680e8a83",
+    "result": "PASS",
+    "scope": "isolated localhost; eligibility timestamps seeded only here",
+    "sessions": 0,
+    "gameHttpDuringSettlement": 0,
+    "compressedHistoriesPreserved": true,
+    "rewardsXpCollectionsAllSixProfilesUnchanged": true,
+    "reports": [
+      {
+        "username": "qa_merge_0145a3e96c_a",
+        "id": "30d92ccc-6168-4639-a83b-73a1ae1ef592",
+        "reportId": "season-2026-11:1:0,0:1793887455902",
+        "resolvedAt": 1793888116310
+      },
+      {
+        "username": "qa_merge_145b1f7961_b",
+        "id": "8c60b420-b3e8-4e5f-a742-2d1c4d63446e",
+        "reportId": "season-2026-11:1:1,0:1793887455902",
+        "resolvedAt": 1793888116310
+      }
+    ]
+  },
+  "creditOnce": {
+    "normalCorrectAnswers": 2,
+    "receiptReplays": 2,
+    "coinsGainedOnce": 20,
+    "xpGainedOnce": 20,
+    "energyGainedOnce": 20,
+    "historyRetained": true,
+    "otherProfilesUnchanged": true,
+    "ownedCompanionSyncedLevel": 2
+  },
+  "ack": {
+    "unreadLoginNotice": true,
+    "viewingDoesNotAcknowledge": true,
+    "individualAndBulkRead": true,
+    "separateSessionCrossDeviceSync": true,
+    "otherAccountIsolation": true,
+    "pageErrors": []
+  },
+  "limitations": [
+    "NPC eligibility timestamps and long history seeded only in this isolated localhost database; production natural wait still required after deployment",
+    "This test does not replace before/after production child-profile audit"
+  ],
+  "productionWrites": 0,
+  "cleanup": [
+    {
+      "account": "a",
+      "releasedTiles": [
+        "0,0"
+      ],
+      "remainingOwnedTiles": 0,
+      "battleReportsPreserved": true,
+      "loggedOut": true
+    },
+    {
+      "account": "b",
+      "releasedTiles": [
+        "1,0"
+      ],
+      "remainingOwnedTiles": 0,
+      "battleReportsPreserved": true,
+      "loggedOut": true
+    }
+  ]
+}
