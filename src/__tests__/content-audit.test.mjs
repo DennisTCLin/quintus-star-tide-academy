@@ -1,4 +1,3 @@
-import {GRADE5_NEW_EXAMS} from '../grade5-new-exams';
 import {afterAll,expect,it} from 'vitest';
 import {mkdtempSync,readFileSync,writeFileSync,rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
@@ -10,7 +9,8 @@ const baseline=JSON.parse(readFileSync(join(ROOT,'docs/content-review/approvals.
 const fixture={id:'fixture',grade:4,course:'math',prompt:'12 × 8 = ?',options:[{text:'96'},{text:'20'},{text:'86'}],answer:0,hint:'分組計算。',explanation:'12 × 8 = 96。'};
 it('certifies current catalog with all finite variants and no network AI dependency',async()=>{
  const {report}=await audit({reportPath:join(temp,'pass.json')});
- expect(report.status).toBe('PASS');expect(report.counts).toEqual({static:4515+96+407+GRADE5_NEW_EXAMS.length,generated:23192,pools:42,approvedStatic:4515+96+407+GRADE5_NEW_EXAMS.length,approvedTemplates:42});
+ // Base054f certified 6190 static questions; this batch adds 26, with one source-only dedup.
+ expect(report.status).toBe('PASS');expect(report.counts).toEqual({static:6190+26,generated:23192,pools:42,approvedStatic:6190+26,approvedTemplates:42});
  expect(report.mediaFiles).toBeGreaterThan(0);expect(report.findings).toEqual([]);
 });
 it('rejects pending, quarantine, changed hashes, missing evidence and removed identities in an actual audit',async()=>{

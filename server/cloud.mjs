@@ -125,7 +125,7 @@ function publicState(row, user, csrf) {
     }
   }
   return {
-    family,
+    family: structuredClone(family),
     questions,
     questionAssets,
     reviews,

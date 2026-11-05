@@ -145,3 +145,9 @@ suite('historical player presence (real PostgreSQL)', () => {
     expect(await history()).toEqual([]);
   });
 });
+
+it('recognizes compact seen-only history without inventing a precise login',()=>{
+ const profile={learning:{seen:{codec:'prefix-v1',entries:[[0,'historical-id']]}}};
+ expect(hasAdventureHistory(profile)).toBe(true);
+ expect(hasAdventureHistory({learning:{seen:{codec:'prefix-v1',entries:[]}}})).toBe(false);
+});

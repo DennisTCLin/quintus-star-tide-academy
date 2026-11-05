@@ -1,3 +1,4 @@
+import {decodeFamilySeen,withCompactSeen} from './family-seen-codec';
 import { createCaptureTrial, validateCaptureTrial, capturePending } from "./capture-trial";
 import { freshMastered, hasMastered, markMastered } from "./mastered-questions";
 import { routeForCourse } from "./subject-islands";
@@ -184,7 +185,7 @@ export function newFamily(
   }
   for (const id of Object.keys(profiles.quintus.owned))
     profiles.quintus.firstAcquired[id] = null;
-  return { version: 9, revision: 0, profiles, pendingTrade: null, log: [] };
+  return withCompactSeen({ version: 9, revision: 0, profiles, pendingTrade: null, log: [] });
 }
 // Explicit opt-in: legacy factories/imports must never gain a new draw.
 export function newOnboardingFamily(): Family {
@@ -223,6 +224,7 @@ function requireValue(
 }
 export function validateFamily(value: unknown): Family {
   value = structuredClone(value);
+  decodeFamilySeen(value);
   requireValue(
     record(value) &&
       ([1, 2, 3, 4, 5, 6, 7, 8, 9].includes(Number(value.version)) && typeof value.version === "number") &&
@@ -579,7 +581,7 @@ export function validateFamily(value: unknown): Family {
         t.receive !== initialCompanion(value.profiles[t.to as PlayerId] as Profile),
     );
   }
-  return structuredClone(value) as Family;
+  return withCompactSeen(structuredClone(value) as Family);
 }
 /** Backfill only explicit successes, never issuance or reward-reservation counters. */
 export function reconcileMasteredQuestions(p: Profile, grade: Grade) {
