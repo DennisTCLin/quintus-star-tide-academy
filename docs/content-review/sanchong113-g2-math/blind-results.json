@@ -1,0 +1,144 @@
+{
+  "reviewer": "blind_math_review read-only agent",
+  "inputs": "blind.json only (no answer/hint/explanation)",
+  "results": [
+    {
+      "id": "mxg2-sc113-i_1",
+      "independentAnswer": "57",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-i_2",
+      "independentAnswer": "110",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-i_3",
+      "independentAnswer": "5",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-i_4",
+      "independentAnswer": "102",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-i_6",
+      "independentAnswer": "18",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_1_1",
+      "independentAnswer": "＞",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_1_2",
+      "independentAnswer": "＞",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_1_3",
+      "independentAnswer": "＜",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_1_4",
+      "independentAnswer": "＜",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_1_5",
+      "independentAnswer": "＜",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_2_1a",
+      "independentAnswer": "297",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_2_1b",
+      "independentAnswer": "300",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_2_2a",
+      "independentAnswer": "148",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_2_2b",
+      "independentAnswer": "138",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_3_ones",
+      "independentAnswer": "7",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_3_tens",
+      "independentAnswer": "8",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_3_hundreds",
+      "independentAnswer": "2",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_4_1",
+      "independentAnswer": "19",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-ii_4_2",
+      "independentAnswer": "15",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-iv_1",
+      "independentAnswer": "6",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-iv_2_1",
+      "independentAnswer": "46",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-iv_2_2",
+      "independentAnswer": "18",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-iv_2_3",
+      "independentAnswer": "30",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-iv_2_4",
+      "independentAnswer": "68",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-iv_2_5",
+      "independentAnswer": "215",
+      "match": true
+    },
+    {
+      "id": "mxg2-sc113-iv_2_6",
+      "independentAnswer": "129",
+      "match": true
+    }
+  ],
+  "findings": [
+    "Comparison instructions revised to select correct comparison sign; options unchanged.",
+    "Sibling sourceFamily allocation enforced."
+  ],
+  "existingMetadataOnlyReviews": {
+    "mxg2-bfd6eed9dc1c1911": "66−28=38; old options/answer untouched; only new source provenance",
+    "mxg2-22eed7dd59041518": "296,297,□,299,□:298,300; old contents untouched; sourceFamily only"
+  }
+}

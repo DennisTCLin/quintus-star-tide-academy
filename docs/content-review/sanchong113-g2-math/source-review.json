@@ -1,0 +1,1045 @@
+{
+  "schema": "content-review-candidates-v1; NOT game import schema",
+  "sourcePagesVisuallyReviewed": [
+    1,
+    2
+  ],
+  "atomicTextCandidates": 27,
+  "officialAnswerVerification": false,
+  "curriculum": "南一標籤來源；正式115期中單元尚待確認",
+  "questions": [
+    {
+      "reviewId": "sanchong113-g2-math-I-1",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "I-1"
+      },
+      "prompt": "42+15＝？",
+      "answer": "57",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "42+15=57；反向運算核對通過",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-I-1",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-I-2",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "I-2"
+      },
+      "prompt": "77+33＝？",
+      "answer": "110",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "77+33=110；反向運算核對通過",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-I-2",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-I-3",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "I-3"
+      },
+      "prompt": "84-79＝？",
+      "answer": "5",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "84-79=5；反向運算核對通過",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-I-3",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-I-4",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "I-4"
+      },
+      "prompt": "9+93＝？",
+      "answer": "102",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "9+93=102；反向運算核對通過",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-I-4",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-I-5",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "I-5"
+      },
+      "prompt": "66-28＝？",
+      "answer": "38",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "66-28=38；反向運算核對通過",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-I-5",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-I-6",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "I-6"
+      },
+      "prompt": "50-32＝？",
+      "answer": "18",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "50-32=18；反向運算核對通過",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-I-6",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-1-1",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-1-1"
+      },
+      "prompt": "填入＞或＜：105（？）98",
+      "answer": ">",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "左右分別為105與98，因此填>",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-1-1",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-1-2",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-1-2"
+      },
+      "prompt": "填入＞或＜：300（？）299",
+      "answer": ">",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "左右分別為300與299，因此填>",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-1-2",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-1-3",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-1-3"
+      },
+      "prompt": "填入＞或＜：208（？）280",
+      "answer": "<",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "左右分別為208與280，因此填<",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-1-3",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-1-4",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-1-4"
+      },
+      "prompt": "填入＞或＜：86＋12（？）100",
+      "answer": "<",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "左右分別為98與100，因此填<",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-1-4",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-1-5",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-1-5"
+      },
+      "prompt": "填入＞或＜：60－30（？）60－25",
+      "answer": "<",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "左右分別為30與35，因此填<",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-1-5",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-2-1a",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-2-1a"
+      },
+      "prompt": "數字依序增加1：296、（？）、298、299、300。",
+      "answer": "297",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "296+1=297；297+1=298",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-2-1",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-2-1b",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-2-1b"
+      },
+      "prompt": "數字依序增加1：296、297、298、299、（？）。",
+      "answer": "300",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "299+1=300",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-2-1",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-2-2a",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-2-2a"
+      },
+      "prompt": "每次減少10：168、158、（？）、138、128。",
+      "answer": "148",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "158-10=148；148-10=138",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-2-2",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-2-2b",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-2-2b"
+      },
+      "prompt": "每次減少10：168、158、148、（？）、128。",
+      "answer": "138",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "148-10=138；138-10=128",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-2-2",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-3-ones",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-3-ones"
+      },
+      "prompt": "287的個位數字是？",
+      "answer": "7",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "287=2×100+8×10+7",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-3-ones",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-3-tens",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-3-tens"
+      },
+      "prompt": "287的十位數字是？",
+      "answer": "8",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "287=2×100+8×10+7",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-3-tens",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-3-hundreds",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-3-hundreds"
+      },
+      "prompt": "287的百位數字是？",
+      "answer": "2",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "287=2×100+8×10+7",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-3-hundreds",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-4-1",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-4-1"
+      },
+      "prompt": "已知15＋19＝34，34－15＝？",
+      "answer": "19",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "34-15=19；15+19=34",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-4",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "exerciseType": "inverse_operation_with_given_addition",
+      "difficultyNote": "提示已給加法結果，非獨立高難度題",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-II-4-2",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 1,
+        "originalQuestion": "II-4-2"
+      },
+      "prompt": "已知15＋19＝34，34－19＝？",
+      "answer": "15",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "34-19=15；19+15=34",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "1000以內的數與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-II-4",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "exerciseType": "inverse_operation_with_given_addition",
+      "difficultyNote": "提示已給加法結果，非獨立高難度題",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-IV-1",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 2,
+        "originalQuestion": "IV-1"
+      },
+      "prompt": "共有22個行政區，其中16個正常上班上課，其餘停止上班上課。停止上班上課的有幾個行政區？",
+      "answer": "6",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "22-16=6；16+6=22",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "加減應用",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-IV-1",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-IV-2-1",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 2,
+        "originalQuestion": "IV-2-1"
+      },
+      "prompt": "冰箱原有85個銅鑼燒，吃掉39個，還剩幾個？",
+      "answer": "46",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "85-39=46；46+39=85",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "加減應用",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-IV-2-1",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-IV-2-2",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 2,
+        "originalQuestion": "IV-2-2"
+      },
+      "prompt": "原有一些菠蘿麵包，再收到28個後共有46個，原來有幾個？",
+      "answer": "18",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "46-28=18；18+28=46",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "加減應用",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-IV-2-2",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-IV-2-3",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 2,
+        "originalQuestion": "IV-2-3"
+      },
+      "prompt": "吃了13個烤地瓜後還剩17個，原來有幾個？",
+      "answer": "30",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "13+17=30；30-13=17",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "加減應用",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-IV-2-3",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-IV-2-4",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 2,
+        "originalQuestion": "IV-2-4"
+      },
+      "prompt": "原有93元，買一個鬆餅後剩25元，鬆餅幾元？",
+      "answer": "68",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "93-25=68；68+25=93",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "加減應用",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-IV-2-4",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-IV-2-5",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 2,
+        "originalQuestion": "IV-2-5"
+      },
+      "prompt": "小夫花58元，胖虎比小夫多花157元，胖虎共花幾元？",
+      "answer": "215",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "58+157=215；215-157=58",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "加減應用",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-IV-2-5",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    },
+    {
+      "reviewId": "sanchong113-g2-math-IV-2-6",
+      "source": {
+        "school": "新北市三重國小",
+        "academicYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "period": "期中",
+        "publisherEvidence": "官方新北市課程備查網113上／市立三重國小／二年級／數學／南一版／2024-07-02",
+        "sourceExamId": "20003892",
+        "sha256": "77ab0df13b0d7e202e1c88651855495d8309ba27439dd3beb7d969ee7af236ef",
+        "file": "77ab0df13b0d7e20.pdf",
+        "page": 2,
+        "originalQuestion": "IV-2-6"
+      },
+      "prompt": "竹片用掉76公分後還剩53公分，原來長幾公分？",
+      "answer": "129",
+      "answerEvidence": {
+        "type": "AI independent mathematical derivation",
+        "basis": "76+53=129；129-76=53",
+        "officialAnswerSheet": "not obtained; do not label as official-key verified"
+      },
+      "adapted": true,
+      "adaptation": "轉為單一文字作答，保留原題條件；不要求直式書寫/驗算；故事題簡化角色及時事敘述",
+      "unitTag": "長度與加減",
+      "reviewStatus": "visual source checked; arithmetic derived; pending repository schema, dedup, curriculum scope and integration tests",
+      "publishable": false,
+      "sourceFamily": "sanchong113-g2-math-IV-2-6",
+      "selectionConstraint": "at most one from same sourceFamily per voyage",
+      "answerNormalizationRequirement": "use existing game schema; accept fullwidth/halfwidth comparison signs and numeric forms only as supported, verify in integration tests",
+      "secondMathReview": {
+        "reviewer": "integration coordinator chat",
+        "result": "no error found by recomputing adapted prompt",
+        "scope": "adapted text mathematical verification only; original PDF and official answer not checked by second reviewer"
+      }
+    }
+  ],
+  "materialDependencies": [
+    {
+      "sourceQuestion": "II-5(1),(2)",
+      "status": "原卷有容器圖片，需裁圖/轉製後審核；目前未納入27題",
+      "missingFromOriginal": false
+    },
+    {
+      "sourceQuestion": "II-6",
+      "status": "原卷彩帶比較圖存在，需裁圖/轉製後審核；目前未納入27題",
+      "missingFromOriginal": false
+    },
+    {
+      "sourceQuestion": "II-7",
+      "status": "原卷有容量對照圖，需裁圖/轉製後審核；目前未納入27題",
+      "missingFromOriginal": false
+    },
+    {
+      "sourceQuestion": "III",
+      "status": "尺畫8公分直線，需支援繪圖與實際比例驗證；未納入自動判分",
+      "missingFromOriginal": false
+    }
+  ],
+  "missingPassage": "本卷目視未發現需另附課文；僅代表本卷",
+  "studentDataTouched": false,
+  "integrationReviewNotes": {
+    "publisher": "南一僅搜尋標籤，尚需出版社證據，不能稱對版已核定",
+    "sameFamilyScheduling": "數列子題及逆運算同族不可在同趟互相洩答",
+    "drawing": "8公分畫線保持隔離，不用手機像素換算實際公分",
+    "progress": "schema conversion, dedup, isolated DB/UI tests and publishing not yet done"
+  }
+}

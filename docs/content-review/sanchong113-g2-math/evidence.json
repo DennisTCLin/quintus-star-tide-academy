@@ -1,0 +1,41 @@
+{
+  "publisher": {
+    "url": "https://rrcp.ntpc.edu.tw/Share/Share_BySchool",
+    "filters": {
+      "YearDDL": "113",
+      "TermDDL": "1",
+      "NineDDL": "4",
+      "LearnTypeDDL": "0",
+      "ContentPlaceHolder1_UnitDDL": "014754",
+      "ContentPlaceHolder1_DomainDDL": "數學"
+    },
+    "observedRow": [
+      "2",
+      "南一版",
+      "數學",
+      "2年級_數學課程計畫(上)",
+      "2024/07/02"
+    ],
+    "reviewer": "read-only publisher_evidence agent; normal public UI",
+    "fileLinkPublicKey": "ea05bcb09b6b4b8786562c8560d34c53"
+  },
+  "officialExam": {
+    "url": "https://drive.google.com/file/d/1MPVyur4vKPyJJs2xvRxOjzGt_KJzZrfn/view",
+    "sha256": "1c8a144c2b12fea64863e8df4b62e482a20ee6360875676b88a55dbe99e0b4a8"
+  },
+  "officialBlueprint": {
+    "url": "https://drive.google.com/file/d/1jInoJAhr5ycq3259O-oCeTxd--CYYfmT/view",
+    "sha256": "eb5a8c18ae2652170f6c59930c8fa5bec61a1c98b92d93864d289b0ff1ca1d36",
+    "units": [
+      "1數到300",
+      "2二位數的加法",
+      "3幾公分",
+      "4二位數的減法",
+      "5容量"
+    ],
+    "examDate": "2024-11-01"
+  },
+  "unitCaveat": "此為113來源卷範圍，不宣稱永春/南屯115當次期中正式範圍",
+  "dedup": "27 atoms, 26new IDs; I-5 appends provenance to mxg2-bfd6eed9dc1c1911",
+  "answerEvidence": "root visual transcription + mathematical derivation; independent blind26 MCQ solve matched; old66-28=38 recomputed and existing approval retained with renewed provenance binding; no official answer-key certification"
+}
