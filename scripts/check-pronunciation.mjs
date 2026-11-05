@@ -12,7 +12,7 @@ function scan(dir) {
     if (['__tests__', 'vendor'].includes(entry.name)) continue;
     const path = join(dir, entry.name);
     if (entry.isDirectory()) scan(path);
-    else if (/\.tsx?$/.test(path) && !path.endsWith('.d.ts'))
+    else if ((/\.tsx?$/.test(path) && !path.endsWith('.d.ts')) || path === 'src/data/g2-math-sanchong113.json')
       for (const match of readFileSync(path, 'utf8').matchAll(/[\u3400-\u9fff]+/gu)) runs.add(match[0]);
   }
 }

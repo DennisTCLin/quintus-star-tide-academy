@@ -130,9 +130,12 @@ export function startStudy(s: LearningState, grade: Grade, day: string, id: stri
   // Other known questions provide honest spacing before a pending original retry.
   const preferred = new Set(priority);
   const pool = [...priority, ...candidates.filter(id => !preferred.has(id))], questions: string[] = [];
+  const families = new Set<string>();
   for (let i = 0; i < 6; i++) {
-    const id = pool.find(id => { const e = study.entries[id]; return !questions.includes(id) && (!e || e.last < d || e.retryAfter <= study.sequence + i + 1); });
+    const id = pool.find(id => { const e = study.entries[id], family = questionById(id)?.sourceFamily; return !questions.includes(id) && (!family || !families.has(family)) && (!e || e.last < d || e.retryAfter <= study.sequence + i + 1); });
     if (!id) break; questions.push(id);
+    const family = questionById(id)?.sourceFamily;
+    if (family) families.add(family);
   }
   need(questions.length, '這題需要先間隔兩題再試；可以先挑戰其他題目，或明天再複習。');
   study.session = { id, mode, ...(course ? { course } : {}), questions, index: 0, answers: [], retries: questions.flatMap((id, i) => study.entries[id]?.needsPractice ? [i] : []), settled: false, assisted: false, status: 'active' };
