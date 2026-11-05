@@ -1,0 +1,15 @@
+{
+  "problem": "PublicQuestion omits top-level answer until settlement. onComplete used answer(q.answer!), sending undefined.",
+  "fix": "Teaching completion only unlocks existing formal AnswerOption controls, keyed by run ID and index. Formal choice still uses original server judging and receipt path. Settled questions show normal result options.",
+  "ui": {
+    "runtime": "in-app browser, local isolated PostgreSQL, synthetic qa_stepped only",
+    "question": "g4-step-mul-23x4",
+    "teachingInputs": [["23","4"],["12"],["9"],["92"]],
+    "afterTeaching": {"coins":1234,"tickets":3,"answers":[],"settled":false,"visibleFormalChoice":"選擇 92"},
+    "afterFormalChoice": {"coins":1244,"tickets":3,"answers":[true],"visibleResult":"這題已保存；答對1／目標4"},
+    "topLevelAnswerBeforeSettlement": "omitted by unchanged publicState",
+    "realChildDataChanged": false,
+    "physicalIPad": "UNKNOWN"
+  },
+  "note": "Local teaching attempt history is guidance, not server-verified scoring; completing teaching itself sends no answer or reward command. All original formal answer gating remains."
+}

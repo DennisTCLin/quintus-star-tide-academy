@@ -282,6 +282,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
     [feedback, setFeedback] = useState(""),
     [mood, setMood] = useState("idle");
   const [questionExpanded, setQuestionExpanded] = useState(false);
+  const [steppedReady, setSteppedReady] = useState<string | null>(null);
   const questionReading = useRef<HTMLDivElement>(null);
   const [petDetail, setPetDetail] = useState<string | null>(null),
     [query, setQuery] = useState(""),
@@ -1452,11 +1453,12 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                       </details>
                       </div>
                       <div className="quiz-answer-bank">
-                      {q.kind === "stepped" && q.steps ? (
+                      {!run.settled && q.kind === "stepped" && q.steps && steppedReady !== `${run.id}:${run.index}` ? (
                         <SteppedQuestion
+                          key={`${run.id}:${run.index}`}
                           question={q}
                           disabled={!cloud.online || busy || run.settled}
-                          onComplete={() => answer(q.answer!)}
+                          onComplete={() => setSteppedReady(`${run.id}:${run.index}`)}
                         />
                       ) : (<>
                       {!run.settled && <p className="answer-submit-cue">{label("點選答案，立即送出")}</p>}
