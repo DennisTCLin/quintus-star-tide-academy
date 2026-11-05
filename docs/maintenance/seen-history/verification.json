@@ -15,7 +15,11 @@
       "all-child-curriculum-cloud",
       "mastered-cloud",
       "study-review-cloud"
-    ]
+    ],
+    "additionalSchoolRouting": {
+      "passed": 21,
+      "failed": 0
+    }
   },
   "build": "PASS",
   "coldReview": "PASS after fixing tolerated null profile and over-budget writer roundtrip",

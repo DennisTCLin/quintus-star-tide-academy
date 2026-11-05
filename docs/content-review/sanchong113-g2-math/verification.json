@@ -53,11 +53,12 @@
     "all26awardflow/repeatsettlement independentlyrechecked PASS"
   ],
   "fullSuite": {
-    "status": "FAIL_BASELINE",
-    "passed": 893,
-    "failed": 13,
-    "newFailureNamesComparedToBase": [],
-    "note": "13 failures already present onbase054f; count/prefixfixtures and seen-historyperformance budget. Do not claim fullsuite PASS. Coordination pending beforemerge."
+    "status": "PASS_ON_CODEC_STACKED_BRANCH",
+    "npmTestsPassed": 964,
+    "failed": 0,
+    "dbDependentSkipped": 215,
+    "additionalRealPostgres": 59,
+    "note": "Question branch alone retains performance failure; stacked codec fixes original96KiB without reducing fixture. NPC live baseline integration/retest still pending."
   },
-  "deployment": "NOT DEPLOYED; draft PR only until baseline failures disposition and coordinator release window"
+  "deployment": "NOT DEPLOYED; coordinator integrating current live NPC baseline before final validation/release"
 }
