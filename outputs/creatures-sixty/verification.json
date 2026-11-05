@@ -1,0 +1,42 @@
+{
+  "base": "a2ce19d80a66cd3ffee78b355243073aea048b65",
+  "newCompanions": 30,
+  "newMonsters": 30,
+  "totalRoster": 275,
+  "unitTests": {
+    "passed": 950,
+    "skippedDatabaseTests": 213,
+    "filesPassed": 140,
+    "filesSkipped": 24,
+    "command": "npx vitest run --maxWorkers=4"
+  },
+  "build": "PASS",
+  "independentReview": {
+    "tests": 60,
+    "suites": 9,
+    "result": "PASS"
+  },
+  "browser": {
+    "engine": "WebKit",
+    "checks": 122,
+    "imagesDecoded": 120,
+    "viewports": [
+      [
+        390,
+        844
+      ],
+      [
+        768,
+        1024
+      ]
+    ],
+    "mode": "isolated synthetic profile; real components; no production writes"
+  },
+  "physicalIPad": "not tested",
+  "newVideoAnimations": false,
+  "oddsChanged": false,
+  "rawGenerationJobs": 12,
+  "quotedCredits": 12,
+  "assets": 120,
+  "assetBytes": 8609370
+}

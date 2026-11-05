@@ -42,8 +42,8 @@ describe("native creature strength without fabricated learning", () => {
     expect(creatureProgress("SSS",0).level).toBe(50);
     expect(castleGrowth(0,s.profiles.quintus.growth.xp).eligible).toBe(false);
     expect(validateFamily(s).profiles.quintus.growth).toEqual(before);
-    expect(companionDrawPool(s.profiles.quintus)).toHaveLength(104);
-    expect(ROSTER).toHaveLength(215);
+    expect(companionDrawPool(s.profiles.quintus)).toHaveLength(184);
+    expect(ROSTER).toHaveLength(375);
   });
   it("versions new voyages, preserves earned encounter tier, and freezes both stats", () => {
     const s=rareFamily(), p=s.profiles.quintus;

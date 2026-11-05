@@ -56,13 +56,13 @@ describe('one-time onboarding companion', () => {
     const {s:drawn,pet}=begin(); delete drawn.profiles.quintus.owned[pet]; expect(()=>validateFamily(drawn)).toThrow();
   });
   it('keeps all other collectible cards reachable under weighted ticket odds', () => {
-    const {s,p,pet}=begin(); p.tickets=104;
+    const {s,p,pet}=begin(); p.tickets=184;
     const pool=BASE_ROSTER.filter(x=>x.id!==pet);
     let offset=0;
     for(const rarity of RARITY_ORDER){const tier=pool.filter(c=>c.rarity===rarity);for(let i=0;i<tier.length;i++)expect(draw(s,'quintus',`pool-${rarity}-${i}`,(offset+.5)/10000,(i+.5)/tier.length).pet).toBe(tier[i].id);offset+=DRAW_WEIGHTS[rarity];}
-    expect(Object.keys(p.owned)).toHaveLength(105); expect(p.owned[pet]).toBe(1);
+    expect(Object.keys(p.owned)).toHaveLength(185); expect(p.owned[pet]).toBe(1);
     expect(validateFamily(s)).toEqual(s);
-    const old=newFamily(); old.profiles.quintus.tickets=104;
+    const old=newFamily(); old.profiles.quintus.tickets=184;
     const oldPool=BASE_ROSTER.filter(x=>x.id!=='tideglow');
     offset=0;
     for(const rarity of RARITY_ORDER){const tier=oldPool.filter(c=>c.rarity===rarity);for(let i=0;i<tier.length;i++)expect(draw(old,'quintus',`old-${rarity}-${i}`,(offset+.5)/10000,(i+.5)/tier.length).pet).toBe(tier[i].id);offset+=DRAW_WEIGHTS[rarity];}

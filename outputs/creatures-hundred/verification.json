@@ -1,0 +1,32 @@
+{
+  "assets": 100,
+  "files": 200,
+  "bytes": 6821118,
+  "uniqueFiles": 200,
+  "browser": "WebKit",
+  "browserAssertions": 202,
+  "build": "PASS",
+  "tests": {
+    "passed": 956,
+    "skipped": 213,
+    "reason": "Postgres integration tests require database environment"
+  },
+  "baseline": "d8234a1",
+  "oldCharactersPreserved": 275,
+  "oldMonstersPreserved": 140,
+  "totalCatalog": 375,
+  "newCompanions": 50,
+  "newMonsters": 50,
+  "generation": {
+    "provider": "Higgsfield",
+    "sheets": 20,
+    "quotedCredits": 20
+  },
+  "animatedClipsAdded": 0,
+  "production": {
+    "status": "PASS",
+    "verifiedFiles": 212,
+    "deployment": "6ba9d14f-e1d9-45a5-a9e1-891d17bae509",
+    "runtime": "7fd6c76391bf8a2f0e81076bad6771c11bdb3d68"
+  }
+}

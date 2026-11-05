@@ -1,0 +1,1073 @@
+{
+  "runtime": "7fd6c76391bf8a2f0e81076bad6771c11bdb3d68",
+  "deployment": "6ba9d14f-e1d9-45a5-a9e1-891d17bae509",
+  "health": {
+    "ok": true,
+    "service": "quintus-ocean-academy"
+  },
+  "anonymousState": 401,
+  "matchingHTML": true,
+  "verifiedAssets": [
+    {
+      "url": "/assets/RoomEditor.v-OkdS2_Gh.js",
+      "bytes": 10713,
+      "sha256": "b15fe4348354e9bd270966ef6e73a983005b74ebf3b71f45e7e1ffa573b1e535"
+    },
+    {
+      "url": "/assets/TerritoryPage.v-XpGSXE-r.css",
+      "bytes": 30002,
+      "sha256": "61878e294b8e1f9595dfcb318223dec97eb1c20b447eb6a2e06eb24d201a0d1d"
+    },
+    {
+      "url": "/assets/IslandApp.v-BT3pltt7.js",
+      "bytes": 209197,
+      "sha256": "629faf85a17752f7bec548958f28908848fff502c4596c7346c68451991f1289"
+    },
+    {
+      "url": "/assets/TerritoryPage.v-DlViVf38.js",
+      "bytes": 36069,
+      "sha256": "5aa7c2a788b907039cd93cca399e341bf9e06a90f22faed4351782ebcbcc496a"
+    },
+    {
+      "url": "/assets/index.v-Ducgxjwn.js",
+      "bytes": 3026989,
+      "sha256": "3a11405cfde798f183cb7e1f8e70fd83779e7003048f6af27db16c05aa424045"
+    },
+    {
+      "url": "/assets/IslandApp.v-ewABikei.css",
+      "bytes": 75228,
+      "sha256": "1f3075c2c9cea7488955e8fa9f47f5725994e126b443c9ad56400b217e873fcb"
+    },
+    {
+      "url": "/assets/index.v-D1ZGkbn6.css",
+      "bytes": 326350,
+      "sha256": "992197592c824fc7550fb1a03ff259a382ca23047c8e471c3e96f6fd62341895"
+    },
+    {
+      "url": "/assets/AdminConsole.v-S-PRKDGO.js",
+      "bytes": 41675,
+      "sha256": "4f556b917c168ba06809a0e84ce3ff458a03a76f85a73876bc8f13e64270e6d8"
+    },
+    {
+      "url": "/assets/AdminConsole.v-DPjcfd6M.css",
+      "bytes": 13175,
+      "sha256": "36a83240a51c71bf51f33431dc57fe6a0027ab0ce5fcd5f351c9d14006cd3964"
+    },
+    {
+      "url": "/assets/territory.v-CCTVMRD3.js",
+      "bytes": 5481,
+      "sha256": "c9db6ff48a8ba7445e73a54412118c0501e67bfd1fed06de96ffc9880d473ae1"
+    },
+    {
+      "url": "/assets/readability.v-trv-R25v.css",
+      "bytes": 1350,
+      "sha256": "564b4a934c945b91b532d11da78e63d9621ec826c51623c3e54c036141017e8a"
+    },
+    {
+      "url": "/assets/readability.v-_lAgLzMd.js",
+      "bytes": 1529576,
+      "sha256": "0aa5fe539fec96fb63da8963bfd5e98cd76f358556020aa582580f5dd37e2d94"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-bellbadger.webp?v=b96a29f8b374",
+      "bytes": 42088,
+      "sha256": "b96a29f8b3744783a78e6b9ef1698887c7cfd454c6daaf27c6680608bfc87a0e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-bellbadger-320.webp?v=37166da505d7",
+      "bytes": 17856,
+      "sha256": "37166da505d70130e23b1f4628c2fb650bed747d2d6a3285c0af90eec823dcca"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-cloversquirrel.webp?v=2d2b37ce868c",
+      "bytes": 49358,
+      "sha256": "2d2b37ce868c747f8fdf41b6f5f6ed2e941e21106133b781b915b9fe87eff1cf"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-cloversquirrel-320.webp?v=e445c1843309",
+      "bytes": 18276,
+      "sha256": "e445c184330934e93b8b86ebd4dcf7275b1f6c0f0497c719029f6da778f9653a"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-brookplatypus.webp?v=183ded2bb285",
+      "bytes": 45042,
+      "sha256": "183ded2bb2857faf6c17dc1b83dba27243bbd9b4ef79a8e3a5dab4ec66afafe7"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-brookplatypus-320.webp?v=f43cd0c02b9d",
+      "bytes": 17460,
+      "sha256": "f43cd0c02b9d2209d1569f207baf75d595bb3e8e4d9460ff21da5c0a716b0c82"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-coalhamster.webp?v=7f2b02e24d03",
+      "bytes": 38696,
+      "sha256": "7f2b02e24d036f029365e406a71ca987c8a6c9129a0950ad6daba0066c28aff1"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-coalhamster-320.webp?v=a86ea6e83731",
+      "bytes": 14502,
+      "sha256": "a86ea6e8373181bdb4b5ae1674cf68704d11847927fdb2642a668d5cd4116b62"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-pebblemole.webp?v=db068181005f",
+      "bytes": 35240,
+      "sha256": "db068181005f49912404b97f1ea65c0c63aa070663a6e9a00d21330f67202f29"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-pebblemole-320.webp?v=281f72143c38",
+      "bytes": 13424,
+      "sha256": "281f72143c382f482911d8e7d086c3c34ffd415d896002726b9de6c1e1a031a7"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-spoonibis.webp?v=970164c63d84",
+      "bytes": 35548,
+      "sha256": "970164c63d844ba1cf724decde7a828d847c2c25ef676f2f047d06def6c5c8ee"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-spoonibis-320.webp?v=f7aa99b910b2",
+      "bytes": 14642,
+      "sha256": "f7aa99b910b294816bfe2bae796b3cd8cd70867392223c0ed81af119f0320655"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-mosskoala.webp?v=0931241d220d",
+      "bytes": 40134,
+      "sha256": "0931241d220de8ce34343160fcea6e4539401e081c707d2201de7dc521a6a005"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-mosskoala-320.webp?v=e0d84a46f18e",
+      "bytes": 15292,
+      "sha256": "e0d84a46f18e646159f050d22900fc20c39d18e743323e53b02aab773222a673"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-shellpuffin.webp?v=45f7e1e50a84",
+      "bytes": 43036,
+      "sha256": "45f7e1e50a84f19c2c726396d736b12c32ddcdcf1df3d1d34ab16011c55c9aa2"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-shellpuffin-320.webp?v=825c7e7c18bb",
+      "bytes": 17298,
+      "sha256": "825c7e7c18bb88b58ce85642dea49f3a7d84bb5f8303f56454b6d110b35a978d"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-embergecko.webp?v=b50a65b9ebb6",
+      "bytes": 42410,
+      "sha256": "b50a65b9ebb6e19388e721c9bceea0c547027dc5530b85c2119a827bdf717324"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-embergecko-320.webp?v=0f30c1fd7675",
+      "bytes": 17620,
+      "sha256": "0f30c1fd7675f03a7efb668e94669f769768c5bc546f768fd6400f785e7bbff8"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-acornboar.webp?v=595758fccb0f",
+      "bytes": 38964,
+      "sha256": "595758fccb0fe64cfa17ee93a7a306f1344e98a95572402e99b62a1f6fd5ce3c"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-acornboar-320.webp?v=64fe3c9887f8",
+      "bytes": 15240,
+      "sha256": "64fe3c9887f8e8ad7fb67f3af621c7dc0ec63ffb0718fe2a2a1447f44183ac97"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-gearjerboa.webp?v=234ffbd72be0",
+      "bytes": 48316,
+      "sha256": "234ffbd72be097f75f2a0e6bdaddf39463d93efab3c50304c1cc01c0ff774e70"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-gearjerboa-320.webp?v=35d40fecc9db",
+      "bytes": 20052,
+      "sha256": "35d40fecc9db9ac3211947092720ff5a8a7d62be95452c16f5075dcfd29e0da9"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-fernlemur.webp?v=4a17332bee84",
+      "bytes": 60368,
+      "sha256": "4a17332bee84917e88d28450ac08b009476cc130649da242fccda035cfa04f94"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-fernlemur-320.webp?v=2f558747275a",
+      "bytes": 23480,
+      "sha256": "2f558747275a602c143650df2a95d3381e44b8726aedadfc8be9ae65034f4772"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-iceotter.webp?v=053d1961ea52",
+      "bytes": 45392,
+      "sha256": "053d1961ea524ac517b86c86778c71198b32fd77a644ec22a84c8665eae9d0aa"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-iceotter-320.webp?v=e5d2a047a57b",
+      "bytes": 18612,
+      "sha256": "e5d2a047a57b45400708e9a764dad77d8107bb1cdc06a5abcc734893d06d06b5"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-lanternkiwi.webp?v=6824b45aec13",
+      "bytes": 34582,
+      "sha256": "6824b45aec1396a44bc959b32005bcc385c1e25c5ec0af336341b1ef146a4571"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-lanternkiwi-320.webp?v=b5982ecb879e",
+      "bytes": 14726,
+      "sha256": "b5982ecb879e2f7824583d4f9f123e5bdedb7bf35a4cef466bde3c0e48650685"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-clayhedgehog.webp?v=d157354b6a13",
+      "bytes": 38544,
+      "sha256": "d157354b6a1378a0e8493320aa57eb5574b62ea39fa5f7bda2256d434776702e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-clayhedgehog-320.webp?v=6270f717ad9e",
+      "bytes": 15130,
+      "sha256": "6270f717ad9e85d22c49df1278ddac5a139b2292fe3b11b3ec439cc4394bf727"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-copperstoat.webp?v=f740cdc37c3f",
+      "bytes": 41638,
+      "sha256": "f740cdc37c3ff171717c1fef834825feb2a49448d0dca7310721e95d870c07a3"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-copperstoat-320.webp?v=194c732f923f",
+      "bytes": 16594,
+      "sha256": "194c732f923f4e1efa876e33f8e4f8c39d88ff5274e327457df93e865e034ee5"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-orchidnewt.webp?v=4d295a814274",
+      "bytes": 44044,
+      "sha256": "4d295a8142742739dfc0d4bcac160f6320cd6f29dda08572b3bb2ccc3983144d"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-orchidnewt-320.webp?v=e2ed262f1ebc",
+      "bytes": 16570,
+      "sha256": "e2ed262f1ebc47faf906d26efd2a136a0158b12e4c132a7329852773ee42797c"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-sailduck.webp?v=b475a3980e90",
+      "bytes": 31546,
+      "sha256": "b475a3980e90ff91e0285c3aa1505c8fd6c2818e59cee59e7001797c4fcf7e3a"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-sailduck-320.webp?v=bd1cf5db889e",
+      "bytes": 12876,
+      "sha256": "bd1cf5db889e0b442c82f95c4117a5d7cbaea5659da7ed6ae8a88e51ce06ab8d"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-pepperhare.webp?v=e92de86df1ca",
+      "bytes": 43456,
+      "sha256": "e92de86df1cabebf4fa7ccdf6b01b49941cc4ed1ead501a90f92d00ff7c65a22"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-pepperhare-320.webp?v=f313b68ed7bd",
+      "bytes": 16608,
+      "sha256": "f313b68ed7bd5be45600d3114a74f9c3183cfb5c67403d3ec48fdd4ea66c704d"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-boulderquokka.webp?v=de221777861b",
+      "bytes": 35934,
+      "sha256": "de221777861b83420886602e0ae12fb94f1e4437e20f166664afaf1d958582c0"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-boulderquokka-320.webp?v=32c61f38da76",
+      "bytes": 13620,
+      "sha256": "32c61f38da7634e4fb18bccbe358389affe7708c469d4b0a0e63c89a91ea8250"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-runeraccoon.webp?v=ea6733911a65",
+      "bytes": 46618,
+      "sha256": "ea6733911a652bb5c13c0d09ab4ae06701f2a377c709afaba5197ef23c71a6bc"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-runeraccoon-320.webp?v=3590adf39dd6",
+      "bytes": 17564,
+      "sha256": "3590adf39dd6d4c1211ecba7ad5a0ba30d3bbe6cb9b811bfea047f1becd15aaf"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-dreamfawn.webp?v=4b1a9c396bba",
+      "bytes": 43778,
+      "sha256": "4b1a9c396bba9139defd01a8ef69e09b2416ba889292b337320ee33a030776ac"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-dreamfawn-320.webp?v=cf6076c4448e",
+      "bytes": 17734,
+      "sha256": "cf6076c4448ecf135eb0c69d64354817d3c8d1643a1c13f8b8a568230e216cf5"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-frostlynx.webp?v=a7a1b5eb3d50",
+      "bytes": 50888,
+      "sha256": "a7a1b5eb3d5028ee15e81fd73d2e7d0148e4322da0a95f7b245548412544ad7e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-frostlynx-320.webp?v=3f4ed9cddd80",
+      "bytes": 18810,
+      "sha256": "3f4ed9cddd807f86b0e82f500ea4eb455b8c358f332ed716d8d5667dd0677b76"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-hearthpanda.webp?v=f6267b88013a",
+      "bytes": 32252,
+      "sha256": "f6267b88013a975e3b36d5d68b0bc8055fdcc5e6d0748832d474638974cc8d29"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-hearthpanda-320.webp?v=e8f528a9b18a",
+      "bytes": 16310,
+      "sha256": "e8f528a9b18abdb1ca4400917b34a19e92ff7492a4c91e1c976732c93869f802"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-crystalskunk.webp?v=edecae3781ff",
+      "bytes": 45074,
+      "sha256": "edecae3781ffbbc27ab374d4060ed1253d7ad3c9ed6c879f85b206ca3ecf4cad"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-crystalskunk-320.webp?v=4900168d5f01",
+      "bytes": 18090,
+      "sha256": "4900168d5f0153f10382de6f63b0d7a9cdfce103a8c876f12f5220fabc98ba7e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-anvilram.webp?v=8881c73d823c",
+      "bytes": 39396,
+      "sha256": "8881c73d823cba0ec162ebd47d9041d83583a856b4dceaf5a5503153d716a480"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-anvilram-320.webp?v=765389854538",
+      "bytes": 18292,
+      "sha256": "765389854538174abf729dad66ac41e42abe33223301eb5a13de26e8e7f938e6"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-canopymarten.webp?v=8273f08b1b78",
+      "bytes": 41864,
+      "sha256": "8273f08b1b78cbeac3b779d0ccb1dba68f58281f27ce9956952ce620bb5254a4"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-canopymarten-320.webp?v=32cf2d1abf00",
+      "bytes": 16658,
+      "sha256": "32cf2d1abf007298830e719198d31ed3b6d4135be4c932e2d478f909eda9c50a"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-misttern.webp?v=5bfe8df756cf",
+      "bytes": 43718,
+      "sha256": "5bfe8df756cf99f28e6982603a89e9b020d5ad16e48c29d2af45ed4f8cc4bbf3"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-misttern-320.webp?v=c04a230c3ef9",
+      "bytes": 17110,
+      "sha256": "c04a230c3ef9e133474a3b771beff139ec49d6771fcea8c72acda4b164c01544"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-sunfrill.webp?v=2b8d5af30c66",
+      "bytes": 42190,
+      "sha256": "2b8d5af30c66c68b7c3a7509056ee99d8848dc1a25ad76539880ae2a90542492"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-sunfrill-320.webp?v=82a52a32dfa9",
+      "bytes": 16870,
+      "sha256": "82a52a32dfa939dbff2f16272f998dccdff2ed1150e68f8ec0b6cab064d40420"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-dunepika.webp?v=a9428cabdec8",
+      "bytes": 33500,
+      "sha256": "a9428cabdec8c94a9f78c74fb0a81ce9760f44b7a1879bff9cab97173bf09a78"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-dunepika-320.webp?v=688a3978b1cb",
+      "bytes": 15552,
+      "sha256": "688a3978b1cbeac40bcb656bd1e3bad7988f6137bb8314687c25eda6c6cb18aa"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-clockstag.webp?v=a4d5d016950c",
+      "bytes": 44282,
+      "sha256": "a4d5d016950cbaae7efb2d38388d5212a83942387f062235e3a1d7015cbabc53"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-clockstag-320.webp?v=57fd7035b897",
+      "bytes": 18358,
+      "sha256": "57fd7035b897a94eb02c2d0cfffaf08b979129818f0fc7d0e752a93490f4091e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-groveowlbear.webp?v=051b1efacf76",
+      "bytes": 48066,
+      "sha256": "051b1efacf76d673bc8a4602528a185b4185ae2ef4a3bbb076b7c15ee8029db6"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-groveowlbear-320.webp?v=811ef3b19aea",
+      "bytes": 17808,
+      "sha256": "811ef3b19aea6cf75571f9af1786fe32f47884586a25aabecbae3d2ffb08188b"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-tidekelpie.webp?v=b79a0133e884",
+      "bytes": 69678,
+      "sha256": "b79a0133e884f05e0b64775e12ba3ca6d595920f18c4ace24a14cb69acad323b"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-tidekelpie-320.webp?v=d2e09b4167f4",
+      "bytes": 27652,
+      "sha256": "d2e09b4167f4e15d93106d51d1b15291ecba50c63e8d8d20fae97ac67f7ad9a2"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-cinderkirin.webp?v=15d78c885cab",
+      "bytes": 53654,
+      "sha256": "15d78c885cab6cd2c6a7dbd085746851de35e178b6ac7b92f3d903a386b9a896"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-cinderkirin-320.webp?v=817d1da07631",
+      "bytes": 21250,
+      "sha256": "817d1da076315a9b1b6fd9fe17135f7d83b43fddddacce0788de4a2873980318"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-ridgeyak.webp?v=0582b981070e",
+      "bytes": 37572,
+      "sha256": "0582b981070e062bf84f129f1efca6c894e260075eacf6408ac0579c74061017"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-ridgeyak-320.webp?v=617dff001f7d",
+      "bytes": 14144,
+      "sha256": "617dff001f7de2b4a653609296e55ecad3c76301c3d1faf5b04ede85255bb4f2"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-auroragrifflet.webp?v=373a023cc8b4",
+      "bytes": 57744,
+      "sha256": "373a023cc8b45511e0f042fb8b525e43c41c238067686111aa4c03bc4272bac2"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-auroragrifflet-320.webp?v=14efe130d4e1",
+      "bytes": 22016,
+      "sha256": "14efe130d4e171869b7f840549dce35c885f342ee6283003c613b15cc8c63d87"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-moonmothcat.webp?v=5379e6403f83",
+      "bytes": 58480,
+      "sha256": "5379e6403f8337249df34a6ca3406086f341352c831465d24e163c2960b95b5b"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-moonmothcat-320.webp?v=06ca09d25b8e",
+      "bytes": 22878,
+      "sha256": "06ca09d25b8e41e3871f3e2010b25b7676bf62a0860db292f8736f72591f31d9"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-glaciernarwhal.webp?v=e3e4a22715db",
+      "bytes": 36950,
+      "sha256": "e3e4a22715db8063c36e4734d87a3aa1aeede294496bf8f9fff395ef067b34d2"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-glaciernarwhal-320.webp?v=ba0c4713e3d0",
+      "bytes": 14152,
+      "sha256": "ba0c4713e3d08c4975cf394aaec3e19445983ae9890482b68ed53a9efe63d948"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-solarkestrel.webp?v=f4a5e69d328c",
+      "bytes": 46852,
+      "sha256": "f4a5e69d328c655f5e45a889926427c6c853107e603781640851dc4fd94af43b"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-solarkestrel-320.webp?v=6371b00cf122",
+      "bytes": 17408,
+      "sha256": "6371b00cf122d4a9171fc131d510e4d1d15021fe65e11747c289d1f18d965a35"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-amberbison.webp?v=048da592881d",
+      "bytes": 49696,
+      "sha256": "048da592881ddcd6d1e2b9032c8b22f1dd19f66ac5bd56354b698ea5e44f39b0"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-amberbison-320.webp?v=9e37f1a0462b",
+      "bytes": 17956,
+      "sha256": "9e37f1a0462b183581645db0fb4e8d47d9bf1de0fb1ed6a08a28e27069edff52"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-oathhippogryph.webp?v=27435ecea90d",
+      "bytes": 61116,
+      "sha256": "27435ecea90d566e46990be6c3a8bc371456e9de3852114517f18ead43436441"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-oathhippogryph-320.webp?v=d2eed797d598",
+      "bytes": 24944,
+      "sha256": "d2eed797d598b220811b04210ad6a172282d723b2b8e520c17c627ba611f2690"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-verdantlong.webp?v=780f5d4ca6c9",
+      "bytes": 63082,
+      "sha256": "780f5d4ca6c91e21c52fb1fc3b52b295a0945fec832a161f80d04271e5e75ef0"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-verdantlong-320.webp?v=d4630d03a713",
+      "bytes": 25992,
+      "sha256": "d4630d03a7130abeaf08c90eed83df84f2792dcecb4cfe647b1223016eef8e3e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-arcanemanta.webp?v=fa9a602dd98b",
+      "bytes": 35192,
+      "sha256": "fa9a602dd98ba4b2e5de71cdceba543633c5c1d77c7f90291583bbe392e97297"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-arcanemanta-320.webp?v=aec0810eaa8f",
+      "bytes": 13784,
+      "sha256": "aec0810eaa8fd921c47ff34ba6adc7672e9a4358c57b7002787e4830c3a1a718"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-dawnroc.webp?v=5fda0af5eef1",
+      "bytes": 66232,
+      "sha256": "5fda0af5eef125e6b96ad1177c36ed14e295f0005609914854107e87f584563a"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-dawnroc-320.webp?v=6ca5074f11fc",
+      "bytes": 26398,
+      "sha256": "6ca5074f11fc50685dd2b5b500eaf5858ef71a469cad4054fe157ee9c38d8b94"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-terracekirin.webp?v=4b59bfec4121",
+      "bytes": 52910,
+      "sha256": "4b59bfec41211a5838109f97c885c111c095679016d29bc7e55babf20f8e8103"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-terracekirin-320.webp?v=dd337cb3d08f",
+      "bytes": 21712,
+      "sha256": "dd337cb3d08ffc7cfae556c0671eccd0df3ba7766554aa8a49af323efce4279d"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-silverwarden.webp?v=c2382664bd18",
+      "bytes": 59786,
+      "sha256": "c2382664bd1863248f902b31c621a59e7be3af29e2a42c1638d407619d9cd26e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-silverwarden-320.webp?v=b21a18a39479",
+      "bytes": 24268,
+      "sha256": "b21a18a3947964b389ac6f87d22816a46534e4c871c875fe376003ea7533ecfe"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-dreamgroveguardian.webp?v=5cfa0dd098fc",
+      "bytes": 62754,
+      "sha256": "5cfa0dd098fcef28407231500136c4a0f52650d9aa022b60cb70f20274a02ec1"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-dreamgroveguardian-320.webp?v=262ca81a7933",
+      "bytes": 25242,
+      "sha256": "262ca81a79338d333badd2197e8791d000ca37402472cf01f34ded320f444bc2"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-moonwhaleling.webp?v=1d38de672be0",
+      "bytes": 37042,
+      "sha256": "1d38de672be00c0923b3a3757448b8ebadea2567b542f6d8fc09cf94588e0872"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-moonwhaleling-320.webp?v=a618d20a4a29",
+      "bytes": 14236,
+      "sha256": "a618d20a4a2956628d102c2baf60dfb71f1d4d9b3483f5d764c56a1b57df818c"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-sunmanepegasus.webp?v=ea09e4b7a061",
+      "bytes": 71056,
+      "sha256": "ea09e4b7a0618c361e71a9e48cd90d193da526486f3ad4053cc573d1bd2d5b84"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-sunmanepegasus-320.webp?v=355634dfe90c",
+      "bytes": 28186,
+      "sha256": "355634dfe90ca42d5d613d025d5e30619194f02ca2c3e85a3e2bf18ef3e078ad"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-worldseedturtle.webp?v=f45398b9736b",
+      "bytes": 49886,
+      "sha256": "f45398b9736b3d97ec172af5f37750c43654d1f7890419e3152c38b49de721d7"
+    },
+    {
+      "url": "/assets/creatures-hundred/w4-worldseedturtle-320.webp?v=a276fe01a364",
+      "bytes": 20558,
+      "sha256": "a276fe01a36409b4be825f5a0a2bf42e9120d14f81260c00ece51fa732de0f47"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-oremaw.webp?v=b2d866a69ff1",
+      "bytes": 52394,
+      "sha256": "b2d866a69ff1ae777c727fe72de7e125907420cf443660838db1dac3f75af61a"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-oremaw-320.webp?v=204304d5b851",
+      "bytes": 20028,
+      "sha256": "204304d5b8519b90bb3d133c61b31512ebb4800c0443a20a15b6d4e40d07852e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-bramblesprig.webp?v=eba86d72dfab",
+      "bytes": 47170,
+      "sha256": "eba86d72dfab336ee35d88a953f1b9e75348a62f48ead3ba909fa0c3633a8794"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-bramblesprig-320.webp?v=2a102cdbe5b8",
+      "bytes": 19276,
+      "sha256": "2a102cdbe5b8d1ede1309700b3727d606d4a9455fba6a3c5308f0743d2c7b27b"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-puddlehopper.webp?v=10816e6e7af7",
+      "bytes": 42622,
+      "sha256": "10816e6e7af7c0ae9cd32b1c36ac04f7870833b9b2aa4d7c2e04a38ecdfd3c1e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-puddlehopper-320.webp?v=2b7bb886b6e9",
+      "bytes": 16342,
+      "sha256": "2b7bb886b6e90810bac794252ed4a977b09d3fb4d466ffcb71004d6e32ba85bf"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-sootimp.webp?v=94494812771f",
+      "bytes": 40162,
+      "sha256": "94494812771fdf664af9239204803a4be284998e4dbbcde220930d60b77921e8"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-sootimp-320.webp?v=162b392f7faf",
+      "bytes": 17278,
+      "sha256": "162b392f7faf1b909239163c774b927a17c99f596885ddb67bef06f17fb3d598"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-dusttusk.webp?v=34ae3dd01286",
+      "bytes": 35864,
+      "sha256": "34ae3dd012861f599240b04a01921f99b0aa3e8d361aab563c43884526d7d6dc"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-dusttusk-320.webp?v=9de61a14d45c",
+      "bytes": 13562,
+      "sha256": "9de61a14d45c034399ae8bfe9932f153575af4d46a20243cc2dd395df009662f"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-brassscarab.webp?v=a722795082dc",
+      "bytes": 43152,
+      "sha256": "a722795082dc7d66804a181468a7a9f16c21aad0973b5e458eff4b9e9432e367"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-brassscarab-320.webp?v=8e170f13a66f",
+      "bytes": 16148,
+      "sha256": "8e170f13a66ff83b2d1139db9e55aededf7fdf1f5b4104f1e863648f02456440"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-rootgnasher.webp?v=2186734b24d2",
+      "bytes": 47310,
+      "sha256": "2186734b24d2a585b74400f7cc662438932edac80d29d3191c54567862f8539a"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-rootgnasher-320.webp?v=0d03493d9e14",
+      "bytes": 20742,
+      "sha256": "0d03493d9e14832c03269cf63481aeb60d37d3a73a613c1603fa816aa769b9b8"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-reefskipper.webp?v=c3e90c571349",
+      "bytes": 38842,
+      "sha256": "c3e90c57134940983126dc49b0291cfbc06d77ddbe6e886e6755bb801fbcc3f2"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-reefskipper-320.webp?v=93171a9ebad8",
+      "bytes": 14612,
+      "sha256": "93171a9ebad8931760a9db3ea73729f02dd5c130a1c5513f7729adda53edf0f1"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-candlebat.webp?v=69b2554bcf19",
+      "bytes": 35344,
+      "sha256": "69b2554bcf19beee68b3a66091065e94fa9c6d9a31e09ec0b6347559be92d271"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-candlebat-320.webp?v=0d379467682f",
+      "bytes": 13716,
+      "sha256": "0d379467682f38db8291be752f1b638c7417dbd5b5d16074d404d298d359a147"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-mudmuncher.webp?v=5c84b2202a0d",
+      "bytes": 36028,
+      "sha256": "5c84b2202a0d47e06fbd74e3fdce1c68ad449ad59490a7e5e5efd55aba7e9550"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-mudmuncher-320.webp?v=ee1e822d2466",
+      "bytes": 16078,
+      "sha256": "ee1e822d2466866563e752f9dba7b180d1bbfc38f1ee8eb7e8e5efd118c668c4"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-ironsnout.webp?v=290fcb560a8a",
+      "bytes": 39806,
+      "sha256": "290fcb560a8a8b76fd89e4a2a75d1a8d173bafac7f25180cc2e32d447cb7b60e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-ironsnout-320.webp?v=6f5cd528f944",
+      "bytes": 14986,
+      "sha256": "6f5cd528f9441e47b062a0f232a012f3d9242ab8a0e51dfb15dfd225e02f7440"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-thornhorn.webp?v=b2863b209f39",
+      "bytes": 52466,
+      "sha256": "b2863b209f394812383a286f0ea566faafc36d4e91a2529ef21c00f83e08d703"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-thornhorn-320.webp?v=cc5bc6a1b322",
+      "bytes": 20152,
+      "sha256": "cc5bc6a1b322d8ecac4d50bfc3e75db013c66d4751b89048ad396d1bd5a7b709"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-frostjaw.webp?v=ba5313673612",
+      "bytes": 45976,
+      "sha256": "ba5313673612ddc32423cde51dd18bb0d52de96b6b92355b17335bed658edcce"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-frostjaw-320.webp?v=ffb1175f654f",
+      "bytes": 17438,
+      "sha256": "ffb1175f654f5449f0fef8691cdfb550994ab92b8c465abf599360079a9327e1"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-ashraptor.webp?v=19c08b21590f",
+      "bytes": 51178,
+      "sha256": "19c08b21590f34ef81b2678ae832b940453635e3c85badb18ebae7571bf8c138"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-ashraptor-320.webp?v=ca096455e9dd",
+      "bytes": 19942,
+      "sha256": "ca096455e9dd61bda34480f7ad565bea633c62f6d7cc454e1910810851e3e84c"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-slatecrawler.webp?v=9aaf9f8d618a",
+      "bytes": 35156,
+      "sha256": "9aaf9f8d618aaebc594c871ae332fb2131ad2715fef956c27de2a79534bbdf2d"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-slatecrawler-320.webp?v=6630ddb4f27d",
+      "bytes": 13836,
+      "sha256": "6630ddb4f27d518ba444f8c3f351d0f236b5b7105ad5bea0b4f14af773bb97a2"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-cogjawhound.webp?v=002aaefb425b",
+      "bytes": 48180,
+      "sha256": "002aaefb425b3226ea53b482a6289e607fe9321872f2fc2c98da42fedd3366e8"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-cogjawhound-320.webp?v=057359b22f54",
+      "bytes": 18782,
+      "sha256": "057359b22f54a32d9a32ab0121bee8140d8116149aee96b05fba13da63be32b6"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-marshstalker.webp?v=1a8bb8b55ebb",
+      "bytes": 39004,
+      "sha256": "1a8bb8b55ebb69980377aac7888f8bc53c26d0e3eaa0dbaaf44c8d154d13c2bc"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-marshstalker-320.webp?v=4fe7f3e9baca",
+      "bytes": 18070,
+      "sha256": "4fe7f3e9baca1f49ae43cf6ba89807df43e80b5917595eb0acf736ed91c030af"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-brinesnapper.webp?v=81ca6d79bc3a",
+      "bytes": 52060,
+      "sha256": "81ca6d79bc3af2a54a75469d2f400108f9e4874a9c502119aaec9ba9e81f6439"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-brinesnapper-320.webp?v=45d49255109a",
+      "bytes": 20642,
+      "sha256": "45d49255109aa90a190f76c201a9df976be1b61f6865b26c85025245b7948150"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-emberhorn.webp?v=205a4e85107b",
+      "bytes": 44636,
+      "sha256": "205a4e85107b98199bc135ed3981b868b30ad66b1d9a243dd0ceff7672d863a1"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-emberhorn-320.webp?v=e00cc36dae06",
+      "bytes": 17212,
+      "sha256": "e00cc36dae069d3aa3dd8c82e3d87242d7012da3d96aaec881d281634aaddc48"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-quarrytoad.webp?v=3e9d3d6c62e6",
+      "bytes": 38666,
+      "sha256": "3e9d3d6c62e61c01272f497bd56a1f7d81a31f53efb26c8aa1af3eef2abefc18"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-quarrytoad-320.webp?v=7a4d3f49ca42",
+      "bytes": 14926,
+      "sha256": "7a4d3f49ca4205d0dd3339b17954c143b5c090e8fe837c73412aecd935d4b963"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-vaultcrab.webp?v=cf20f9d27d78",
+      "bytes": 49892,
+      "sha256": "cf20f9d27d78061cecbbbaa7a798545f5028da9b4e0cf6648dee3c4d715cc252"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-vaultcrab-320.webp?v=41e81b15d9de",
+      "bytes": 18922,
+      "sha256": "41e81b15d9de8c15870eda4fc48c386907f201503be967ddffd370b7a0040ee1"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-hollowbark.webp?v=5a79746cf7bc",
+      "bytes": 60738,
+      "sha256": "5a79746cf7bc931feaec84ae1280c67342bc1737f3f1b46e75afbe33a25da45c"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-hollowbark-320.webp?v=8f8d3917f902",
+      "bytes": 22418,
+      "sha256": "8f8d3917f902f3bb42da0513eb1e52473f1c695b6115645c76bca939cadd4488"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-rimewalker.webp?v=8d5dd1fa77f6",
+      "bytes": 42630,
+      "sha256": "8d5dd1fa77f629a0896b3747257c5abea101adb9c9d7aa3fea5fca133c099ffa"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-rimewalker-320.webp?v=8db60639f964",
+      "bytes": 17894,
+      "sha256": "8db60639f964c9a060b8247e75bc6d41053527767394ebcd295f4bad9d3d3a44"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-kilnmauler.webp?v=f233f655d166",
+      "bytes": 47116,
+      "sha256": "f233f655d166c5f8aa27ddaeb461f24391a77af9dbc1facbb22d441aa9170d53"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-kilnmauler-320.webp?v=ffc4c69c4885",
+      "bytes": 17762,
+      "sha256": "ffc4c69c48854edb7b1cb6136ee14a93853d6667cab97c505e9cc951cb8e8f13"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-shalehorn.webp?v=8f39bb68de3d",
+      "bytes": 40552,
+      "sha256": "8f39bb68de3d2a1b609e000cc73f87f314a88b4172433ec6714ed04400d57ef5"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-shalehorn-320.webp?v=a396e9225431",
+      "bytes": 16166,
+      "sha256": "a396e9225431826371fd5d45fb1b9b237cb16d2bc8570d5834fbd8fd9cabedf7"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-stormtalon.webp?v=f77e618defb8",
+      "bytes": 67958,
+      "sha256": "f77e618defb82fdec587eb188137c96218d1700f92435e5488f28cc25e2de628"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-stormtalon-320.webp?v=ac1fc168e488",
+      "bytes": 25040,
+      "sha256": "ac1fc168e48823cff67c02b5184b6ebbd37a3efe9daa52ef7398d5f69953b199"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-gloamspore.webp?v=452e31daaccc",
+      "bytes": 55600,
+      "sha256": "452e31daacccb129c361dc6ef6db564a3cddd381ddef2d1b5d4a225909ccba7f"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-gloamspore-320.webp?v=9cf51ac8d2f2",
+      "bytes": 21564,
+      "sha256": "9cf51ac8d2f2946122ec6217421db4c8eb5df207561dc177229dabfaa77ad59e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-deepfin.webp?v=9a11719d99c8",
+      "bytes": 47416,
+      "sha256": "9a11719d99c81fcb68caacc50a3d3e6cb133f646e527c7c58224d08ceaa9ada2"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-deepfin-320.webp?v=9777d48b6ce0",
+      "bytes": 17484,
+      "sha256": "9777d48b6ce0228500f00da8f7b5d58e2d6da6a7e25d5c8d1ee4d6890e9bb8ee"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-lavafang.webp?v=2b79de3e1846",
+      "bytes": 45946,
+      "sha256": "2b79de3e1846283752ee752b183aba01879e15dc55914758f8660a8fcfaa41ad"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-lavafang-320.webp?v=3b5513c434c4",
+      "bytes": 17108,
+      "sha256": "3b5513c434c46e8423f5dffa060a2db4a8a91cbfa5e28b1d86dc3f62a7142ff5"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-canyonbeetle.webp?v=7adcd101e2a7",
+      "bytes": 48946,
+      "sha256": "7adcd101e2a7cc06eef56b6e45284a37f0afd73192404660dcd78ae7286e8cbd"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-canyonbeetle-320.webp?v=d6622a33e0c5",
+      "bytes": 17790,
+      "sha256": "d6622a33e0c525f060142e2e32e20660ffe8307c571c21582bd5bb6104d4eaa4"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-aegisgargoyle.webp?v=80580a01cee8",
+      "bytes": 51496,
+      "sha256": "80580a01cee8369e6151e2c195370ee4b4342305c0bb1817d5e9c91f7ff83883"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-aegisgargoyle-320.webp?v=644b36f72e89",
+      "bytes": 19344,
+      "sha256": "644b36f72e89c815868390cc00003aab55c63dc329466e5a9b2155b113927c95"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-wildmoonpanther.webp?v=ed29dff77672",
+      "bytes": 46286,
+      "sha256": "ed29dff776726a96c320253a9d3bb2facfd2da5807ef889e4f2afbd14b643e1b"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-wildmoonpanther-320.webp?v=1ecbde12c5df",
+      "bytes": 20032,
+      "sha256": "1ecbde12c5df1d39f68728b07c9f80572c876cd452be24fba50cb8dffe506b40"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-blizzarddrake.webp?v=78d99e897e6f",
+      "bytes": 61382,
+      "sha256": "78d99e897e6fa9e0bacb5a6f7091b9219adf96e91fcce2aab809325e6c1cfcb7"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-blizzarddrake-320.webp?v=c8fe36d7f20f",
+      "bytes": 24838,
+      "sha256": "c8fe36d7f20f4e41d794ddb9d7641e5a9fa41604229255d8919aff0ecd8fade1"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-forgecolossus.webp?v=60dccd011b3c",
+      "bytes": 48104,
+      "sha256": "60dccd011b3ca0a4533b03d4c890fa7e7764b8a518a32ade0e4e98166107ed68"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-forgecolossus-320.webp?v=d1421d693899",
+      "bytes": 16564,
+      "sha256": "d1421d6938993a2750a853e9903921fff54fa52284ba8e14c279679bb50ec4de"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-mesahydra.webp?v=07a4c562a57b",
+      "bytes": 50928,
+      "sha256": "07a4c562a57be1e5e3a1bd2249f5df50dbfa9788594ad81292263b12fca18e68"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-mesahydra-320.webp?v=3b847cc12116",
+      "bytes": 19132,
+      "sha256": "3b847cc1211685c8dad946c133d212be02a48c0cb1577baf06402ac4cca6f7fd"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-argentmanticore.webp?v=63b5698b85d4",
+      "bytes": 56498,
+      "sha256": "63b5698b85d4e44dae0ba2dc98c4cf30e03bbbc80721d29d6baee72c97351820"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-argentmanticore-320.webp?v=afb48cf213f6",
+      "bytes": 21600,
+      "sha256": "afb48cf213f648b9842a5d1b4b00923e159a795f49673c37b76eca2d0f6ac106"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-dreambriarbeast.webp?v=7c51cca324b4",
+      "bytes": 56864,
+      "sha256": "7c51cca324b44914343b03c421486d0cfb1c92b625bae75e7db34ae5ebf8bc1e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-dreambriarbeast-320.webp?v=db6b58c17489",
+      "bytes": 22290,
+      "sha256": "db6b58c174899c11eee251bd8c3f839856a733b05c19aaafd0b4e05d7bbed6dd"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-abyssalisk.webp?v=0b3228ffbab1",
+      "bytes": 56408,
+      "sha256": "0b3228ffbab199bbb1042a0e001c6194f5baf344533b04435a70fddebaf22b0a"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-abyssalisk-320.webp?v=e54b99ac359f",
+      "bytes": 22614,
+      "sha256": "e54b99ac359f3cc79b21b22e29303cca25c6722a38bc015e0fe34433819b3fb3"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-crownflamebeast.webp?v=507cb6a427cb",
+      "bytes": 53544,
+      "sha256": "507cb6a427cbd74a76de19a7eabc9c0662dc059b9212e73426def5a540347b25"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-crownflamebeast-320.webp?v=87ff4643525e",
+      "bytes": 20114,
+      "sha256": "87ff4643525e3dcddc10253e39a3145a73a472eb51b4918d084359d7c4a52099"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-obsidiantusk.webp?v=8e6d0d900838",
+      "bytes": 44762,
+      "sha256": "8e6d0d9008382506bf364b1d599b750b8b611ab3cfce65799fdabaefa81c7d08"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-obsidiantusk-320.webp?v=790f21be802e",
+      "bytes": 16630,
+      "sha256": "790f21be802e5538a97dbf70ecd8e7374d18f63bcb790e0fdaa1c648d43fbde9"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-skyforgeleviathan.webp?v=2edfd821fcbb",
+      "bytes": 51720,
+      "sha256": "2edfd821fcbb9d835330f6a1da673d6e8f632cd913e8922730ae92fb8d6bb147"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-skyforgeleviathan-320.webp?v=22bdd658dc41",
+      "bytes": 18516,
+      "sha256": "22bdd658dc41804296bceb1cccba3e22a09167bc475d9874fe408920373439cb"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-ancientbloomtitan.webp?v=7d88166f3085",
+      "bytes": 77866,
+      "sha256": "7d88166f30858582361334f9901c2fc9a6c145759188730013abdf495c77c074"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-ancientbloomtitan-320.webp?v=dd719d7d20c2",
+      "bytes": 26556,
+      "sha256": "dd719d7d20c23aa985f3d0c45951c95b69bcfd9721210e92467bdf93fe8e52eb"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-tempestseadragon.webp?v=f7f6b83e5959",
+      "bytes": 85906,
+      "sha256": "f7f6b83e59599008658380031f8a3c69762d0a6f69892addfe1614b91f5f480e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-tempestseadragon-320.webp?v=2dba86e4a512",
+      "bytes": 30568,
+      "sha256": "2dba86e4a512636451edd54415164d8c33db6772f7db9adb32da8c6553878ed4"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-cindersunwyrm.webp?v=e4a7fc973d00",
+      "bytes": 77762,
+      "sha256": "e4a7fc973d00160dd396bd75cf3ea6c6f6527a0f5e810437eec7b15f1d706740"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-cindersunwyrm-320.webp?v=ab9da1aec167",
+      "bytes": 29162,
+      "sha256": "ab9da1aec167d5642b903cb2eb1932871694b4cfd7b044c9c6175930bb3f0be4"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-mountainheartgolem.webp?v=7e17a59c434e",
+      "bytes": 68334,
+      "sha256": "7e17a59c434e5ed1ef6de7b01d6daf896ee4debbc7d2a5cc6aaa9bafcd150800"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-mountainheartgolem-320.webp?v=a721b6128bd5",
+      "bytes": 23534,
+      "sha256": "a721b6128bd5bb1a016c6c594b4bf8a36c98471e2454d878e885a840fce86a91"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-dawnsteelwyrm.webp?v=cc4bc959bc28",
+      "bytes": 60852,
+      "sha256": "cc4bc959bc2824d9d71e8a3871a14f4d16f90b7e6b281ceaf4f372d5d8fae3e6"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-dawnsteelwyrm-320.webp?v=d63c6a6a4a45",
+      "bytes": 24142,
+      "sha256": "d63c6a6a4a454c39e3cb3ad06336fd70142d75a49040db11042d51ba236a1f92"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-emeraldgrovewyrm.webp?v=5aa3ebf08e56",
+      "bytes": 63718,
+      "sha256": "5aa3ebf08e56c7acf9a8e7590b699ed3ecb0527b48100071223ea7d2a2c73f9e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-emeraldgrovewyrm-320.webp?v=6d1d8cecfa14",
+      "bytes": 25602,
+      "sha256": "6d1d8cecfa14b3cdcabb74305566cfb06136b8dff97c04d04e3d5043f5b5988c"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-glacialtidewyrm.webp?v=aa6389ee0dbe",
+      "bytes": 74044,
+      "sha256": "aa6389ee0dbe6ef371cde227b91a3b2ecf6888a278ea1eaab0a612a2f575c9cb"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-glacialtidewyrm-320.webp?v=a932e36ae62a",
+      "bytes": 28056,
+      "sha256": "a932e36ae62a5d117309e24895c93dc3ea30c8bbc269b5a428f75c74b9b38fa0"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-emberoathwyrm.webp?v=30f46b913d3d",
+      "bytes": 67098,
+      "sha256": "30f46b913d3d6b8573c3b3572f0ab45e2c5d0547ef1558fd178718e26e09bf6e"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-emberoathwyrm-320.webp?v=a064b36bb529",
+      "bytes": 25934,
+      "sha256": "a064b36bb52907b53f87e31a6a022039e14b634236a5c1fed41a46bcda2d89bb"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-deepstonewyrm.webp?v=fd83f15c00db",
+      "bytes": 61652,
+      "sha256": "fd83f15c00dbcf1e56bd8f9fabb8f95558bae2e0ab61af020c60ff61362fe6f5"
+    },
+    {
+      "url": "/assets/creatures-hundred/w6-deepstonewyrm-320.webp?v=542b771709e9",
+      "bytes": 24486,
+      "sha256": "542b771709e9cafcd0e20b4ee561ab1b53fdd650e798e86dbd715a7afa68da3c"
+    }
+  ],
+  "scope": "Public bytes only; no real student writes."
+}

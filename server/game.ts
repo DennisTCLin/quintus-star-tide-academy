@@ -26,3 +26,11 @@ export { startStudy, answerStudy, nextStudy, hintStudy, pauseStudy, observeStudy
 export { selectAbilitySnapshot } from "../src/growth";
 
 export { answerCapture, skipCapture, captureIndex } from "../src/capture-trial";
+
+export { createConquest, advanceConquest, ensureSeason, syncConquestRoster, act as conquestAct, creditAnswer as conquestCreditAnswer, seasonAt, health as conquestHealth, alive as conquestAlive, power as conquestPower } from '../src/conquest';
+export { enrollConquest, validEnrollment } from '../src/conquest-alliance';
+export { expeditionRoster } from '../src/conquest-characters';
+
+export { incomingRaid, resolveNpcRaid } from '../src/conquest-enemy';
+
+export { acknowledgeRaidReports } from '../src/conquest-enemy';

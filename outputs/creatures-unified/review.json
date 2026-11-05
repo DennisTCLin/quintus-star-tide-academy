@@ -1,0 +1,14 @@
+{
+  "route": "Relay",
+  "reviewer": "unified_art_verify",
+  "status": "PASS",
+  "checks": [
+    "375 identities and ordering preserved",
+    "275 static portraits changed; 100 approved records unchanged",
+    "190 monster non-art definitions preserved",
+    "direct catalogs and conquest static art consistent",
+    "three crop findings fixed and original source comparison passed",
+    "four corrected characters / eight output files reverified"
+  ],
+  "scope": "Static portraits and thumbnails; existing video/animation/GLB retained"
+}

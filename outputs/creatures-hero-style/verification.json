@@ -1,0 +1,25 @@
+{
+  "characters": 100,
+  "assets": 200,
+  "bytes": 9130438,
+  "nonArtFieldsUnchanged": true,
+  "baseline": "6b15f4d",
+  "model": "gpt_image_2_5",
+  "submittedSheets": 20,
+  "quotedCredits": 20,
+  "submission429s": 4,
+  "notes": "Four 429 submission failures returned no job IDs and were resubmitted after active jobs completed; no successful submission was repeated. All20completed.",
+  "build": "PASS",
+  "testsPassed": 956,
+  "testsSkipped": 213,
+  "browser": "WebKit",
+  "browserAssertions": 202,
+  "transparentBorders": "PASS",
+  "uniqueAssets": 200,
+  "production": {
+    "status": "PASS",
+    "verifiedFiles": 212,
+    "deployment": "ed92bd7a-3103-4ae5-a21e-257c25b7172a",
+    "runtime": "73abee40f4d49d51e5b75c3898bf9fd503dc02d7"
+  }
+}

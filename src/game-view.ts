@@ -1,4 +1,7 @@
+import { withCreatureArt } from "./creature-art";
 import { chooseRarity, DRAW_WEIGHTS, STAR_TICKET_WEIGHTS } from "./rarity-odds";
+import { WAVE3_COMPANIONS } from "./companions-wave-three";
+import { WAVE4_COMPANIONS } from "./companions-wave-four";
 import { NEW_COMPANIONS } from "./companions-wave-two";
 import { MONSTER_COMPANIONS, monsterById } from "./monsters";
 import { combatStats, nativeCombatStats, baseDamage, type CombatStats } from "./creature-rules";
@@ -54,8 +57,10 @@ export const BASE_ROSTER: Character[] = [
     artBrief: "原注音航海團夥伴",
     palette: "",
     tags: ["注音航海團"],
-  })),
+  })).map(withCreatureArt),
   ...NEW_COMPANIONS,
+  ...WAVE3_COMPANIONS,
+  ...WAVE4_COMPANIONS,
 ];
 export const ROSTER: Character[] = [...BASE_ROSTER, ...MONSTER_COMPANIONS];
 const companionsById = new Map(ROSTER.map(pet => [pet.id, pet]));

@@ -11,7 +11,7 @@ import CareActionArt from './CareActionArt';
 import CompanionVoiceChat from './CompanionVoiceChat';
 import { useCompanionConversation } from './useCompanionConversation';
 import { COMPANION_CARE_LINES, COMPANION_FIXED_LINES } from './companion-fixed-voice';
-import { companionName, type CompanionMascot, CARE_ACTIONS, CARE_COPY, careGoal, companionContext, hitCareTarget, type CareRound, type CareAction, type TideglowMotion } from './tideglow-companion';
+import { companionPortrait, companionName, type CompanionMascot, CARE_ACTIONS, CARE_COPY, careGoal, companionContext, hitCareTarget, type CareRound, type CareAction, type TideglowMotion } from './tideglow-companion';
 import './tideglow-companion.css';
 
 type Props = DragonGuideProps & { mascot?: CompanionMascot; page: string; completed: boolean; courseName?: string; suppressed: boolean; openRequest: number; onOpenChange?: (open: boolean) => void };
@@ -41,7 +41,7 @@ export default function TideglowCompanion(props: Props) {
         if (target === undefined) return;
         e.preventDefault(); window.scrollTo({ top: target, behavior: 'instant' });
       }} onClick={e => { opener.current = e.currentTarget; e.currentTarget.focus({ preventScroll: true }); setHidden(false); setMode('dock'); }}>
-        <img className="tide-launch-cutout" src={props.mascot === 'bow' ? '/assets/companion-launcher-v3/bow.png' : props.mascot === 'dog' ? '/assets/olivia-dog/poster-v1.png' : '/assets/tideglow-companion.png'} alt="" width="480" height="480" onError={e => { e.currentTarget.style.visibility = 'hidden'; }} /><span>{hidden ? `找${name}` : '陪你一起學'}</span>
+        <img className="tide-launch-cutout" src={props.mascot === 'bow' ? '/assets/companion-launcher-v3/bow.png' : props.mascot === 'dog' ? '/assets/olivia-dog/poster-v1.png' : companionPortrait('tideglow')} alt="" width="480" height="480" onError={e => { e.currentTarget.style.visibility = 'hidden'; }} /><span>{hidden ? `找${name}` : '陪你一起學'}</span>
       </button>
     </div>
     {isOpen && <TideglowPanel {...props} paused={paused} setPaused={setPaused} large={mode === 'large'} onSize={() => setMode(mode === 'large' ? 'dock' : 'large')} onClose={closePanel} onHide={() => { closePanel(); setHidden(true); }} />}

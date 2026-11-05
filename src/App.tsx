@@ -1,3 +1,5 @@
+import ConquestRaidNotice from './ConquestRaidNotice';
+import { useSharedConquest } from './conquest-cloud';
 import { resetFamilyScroll } from './family-scroll';
 import CaptureChallenge from "./CaptureChallenge";
 import type { CaptureSource } from "./capture-trial";
@@ -46,6 +48,7 @@ import { canListenToEnglishChoices } from "./english-choice-listening";
 import MonsterBestiary from "./MonsterBestiary";
 import TrainingPanel from "./TrainingPanel";
 import HomeScene from "./HomeScene";
+import ConquestHomeEntry, { type ConquestDestination } from "./ConquestHomeEntry";
 import CollectionBoard, { CollectionViewer } from "./CollectionBoard";
 import FriendsPresence from "./FriendsPresence";
 import OnlineBattle from "./OnlineBattle";
@@ -113,12 +116,14 @@ import "./family.css";
 import "./friends.css";
 import "./quiz-ready.css";
 const IslandApp = recoverablePage(() => import("./island/IslandApp"), "數學島");
+const ConquestPage = recoverablePage(() => import("./ConquestPage"), "群島遠征");
 const TerritoryPage = recoverablePage(() => import("./TerritoryPage"), "領地");
 const RoomEditor = recoverablePage(() => import("./RoomEditor"), "房間");
 type Page =
   | "review"
   | "island"
   | "room"
+  | "conquest"
   | "territory"
   | "home"
   | "learn"
@@ -136,10 +141,12 @@ const navs: { page: NavIconName; name: string; zy: string }[] = [
   { page: "lottery", name: "扭蛋", zy: "ㄋㄧㄡˇ ㄉㄢˋ" },
   { page: "trade", name: "交換", zy: "ㄐㄧㄠ ㄏㄨㄢˋ" },
   { page: "battle", name: "對戰", zy: "ㄉㄨㄟˋ ㄓㄢˋ" },
+  { page: "conquest", name: "群島", zy: "ㄑㄩㄣˊ ㄉㄠˇ" },
   { page: "territory", name: "領地", zy: "ㄌㄧㄥˇ ㄉㄧˋ" },
   { page: "parent", name: "家長", zy: "ㄐㄧㄚ ㄓㄤˇ" },
 ];
 const guides: Record<Page, string> = {
+  conquest: "探索立體群島，選擇英雄與夥伴進攻，佔領後安排駐防與補給。所有玩家共用同一片群島，領地與戰果由伺服器保存。",
   review: "一起把學過的記牢。先看題目，答完看解法，想休息隨時可以回港口。",
   island: "這是數學島！選一座小島，先看夥伴示範，再一起闖關。",
   room: "點家具，再點想放的位置。可以轉向、收回與撤銷，完成後按儲存佈置。",
@@ -266,12 +273,14 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
     [busy, setBusy] = useState(false),
     [chooser, setChooser] = useState(false),
     [coursePicker, setCoursePicker] = useState(false);
+  const [conquestDestination, setConquestDestination] = useState<ConquestDestination>({});
   const [companionOpenRequest, setCompanionOpenRequest] = useState(0);
   const [companionOpen, setCompanionOpen] = useState(false);
   const [islandMapActive, setIslandMapActive] = useState(false);
   const [islandChoice, setIslandChoice] = useState<{ target: IslandDestination; runId?: string; mathId?: string } | null>(null);
   const switchingIsland = useRef(false);
   const social = useOnlineBattle(id, cloud.state?.csrf);
+  const sharedConquest = useSharedConquest(cloud.state?.username ?? '',id,cloud.state?.csrf);
   const [territoryGoalRequest, setTerritoryGoalRequest] = useState<GoalRequest | null>(null);
   const territoryGoalSequence = useRef(0);
   const [voice, setVoice] = useState(false),
@@ -470,9 +479,11 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
   }, [id, run?.id, run?.index]);
   useEffect(() => {
     stopVoice();
-    heading.current?.focus({ preventScroll: true });
-    resetFamilyScroll();
-    if (id && voice && allowsReadAloud(readingGrade)) speak(guides[page]);
+    if (!(page === "conquest" && conquestDestination.reports)) {
+      heading.current?.focus({ preventScroll: true });
+      resetFamilyScroll();
+    }
+    if (id && voice && allowsReadAloud(readingGrade)) speak(guides[page], setNotice);
     return () => stopVoice();
   }, [page, id, readingGrade, voice]);
   useEffect(() => {
@@ -784,6 +795,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
       choice,
     });
     if (correct === undefined) return;
+    void sharedConquest.refresh();
     setMood(correct ? "happy" : "encourage");
     const errors = mistakeCount(run) + Number(!correct);
     const message = errors >= MAX_MISTAKES
@@ -1017,7 +1029,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
   const pickedPet = petDetail ? petById(petDetail) : undefined;
   const harborAction = departure!.action;
   const harborHint = departure!.hint;
-  const companionPageQuiet = !!quizPreparing || page === "leaderboard" || page === "battle" || companionQuiet(page, !!quizCombatActive, arenaCombatActive, false);
+  const companionPageQuiet = !!quizPreparing || page === "leaderboard" || page === "battle" || page === "conquest" || companionQuiet(page, !!quizCombatActive, arenaCombatActive, false);
   const companionOverlay = !!(viewCollection || chooser || coursePicker || pickedPet || leave || handoff || islandChoice);
 
   return (
@@ -1074,6 +1086,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
               🔊
             </button></ReadAloud>
           </header>
+          {page !== "conquest" && page !== "learn" && <ConquestRaidNotice controller={sharedConquest} onOpen={() => { setConquestDestination({ reports: true }); navigate("conquest"); }} />}
           {page === "home" && <section id="harbor-departure" className="harbor-departure" aria-labelledby="harbor-departure-title" tabIndex={-1}>
             <div className="harbor-departure-copy">
               <h1 id="harbor-departure-title" tabIndex={-1} ref={heading}>一起去冒險</h1>
@@ -1087,6 +1100,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
               <ReadAloud grade={readingGrade}><button type="button" className="harbor-departure-listen" aria-label="聽出發說明" data-read-aloud onClick={() => speak(!cloud.online ? "目前離線，連線後就能開始學習。" : `${harborHint}按${harborAction}。`, setNotice)}>🔊</button></ReadAloud>
             </div>
           </section>}
+          {page === "home" && <ConquestHomeEntry controller={sharedConquest} key={`${cloud.state.username}:${id}`} account={cloud.state.username} player={id} name={player.name} onEnter={destination => { setConquestDestination(destination); navigate("conquest"); }} />}
           <OnlineBattle key={player.id} controller={social} profile={p} reduced={battleReducedMotion} />
           <ResourceRibbon profile={p} online={cloud.online} onVisit={() => navigate("territory")} />
           <nav className="family-nav" aria-label="主要導覽">
@@ -1095,7 +1109,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                 key={n.page}
                 className={page === n.page || (page === "bestiary" && n.page === "collection") ? "selected" : ""}
                 aria-current={page === n.page || (page === "bestiary" && n.page === "collection") ? "page" : undefined}
-                onClick={() => navigate(n.page)}
+                onClick={() => { if (n.page === "conquest") setConquestDestination({}); navigate(n.page); }}
               >
                 <NavIcon name={n.page} />
                 {label(n.name, n.zy)}
@@ -1118,6 +1132,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
               </div>
             )}
             {reviewOffer && !(page === "learn" && victoryReady && reviewOffer === run?.course) && <section className="f-panel"><h2>學過的題目，接著練</h2><p>原有精熟與獎勵都保留；複習不重複發獎勵。</p><button disabled={busy || !cloud.online} onClick={() => void beginReview('all', reviewOffer)}>開始複習</button><button onClick={() => { setReviewOffer(null); navigate('home'); }}>換個科目</button></section>}
+            {page === "conquest" && <ConquestPage controller={sharedConquest} destination={conquestDestination} key={`${cloud.state.username}:${id}`} account={cloud.state.username} player={id} name={player.name} owned={p.owned} growthXp={p.growth.xp} equipped={p.equipped} reduced={battleReducedMotion} onLearn={requestLearning} onLoadBack={()=>navigate("home")} />}
             {page === "territory" && <details className="home-building-details"><summary>建築目標與材料明細</summary><LearningBuildPanel key={id} profile={p} busy={busy} online={cloud.online} onGoal={goal=>change({type:"learning-goal",player:id,goal})} onVisit={openBuildingGoal} /></details>}
             {page === "territory" && <TerritoryPage key={id} onLoadBack={()=>navigate("home")} goalRequest={territoryGoalRequest} profile={p} reduced={battleReducedMotion} busy={busy} online={cloud.online} serverNow={cloud.state.serverNow} musicControl={musicControl} onRoom={()=>navigate("room")} onTrain={requestLearning} onAction={command => change({ ...command, player: id })} />}
             {page === "room" && <RoomEditor key={id} onLoadBack={()=>navigate("home")} profile={p} reduced={battleReducedMotion} busy={busy} online={cloud.online} onDirtyChange={setHomeDirty} onBack={()=>navigate("territory")} onTrain={requestLearning} onAction={command=>change({...command,player:id})}/>}

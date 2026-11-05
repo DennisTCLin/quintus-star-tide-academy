@@ -1,0 +1,10 @@
+.cq-element-badge { display:inline-flex; align-items:center; gap:.35em; width:fit-content; max-width:100%; padding:.18em .55em; border:1px solid color-mix(in srgb,var(--island-element) 60%,transparent); border-radius:4px; color:var(--island-element); background:#082531e8; font-size:.78rem; font-weight:700; line-height:1.5; white-space:nowrap; letter-spacing:.04em; }
+.cq-element-badge i { font-style:normal; font-size:1.1em; }
+.cq-affinity-info { display:flex; flex-wrap:wrap; gap:.65rem; align-items:center; margin:.8rem 0; padding:.75rem; border-left:2px solid var(--island-element,#c8b67f); background:#102f3c; color:#d9e4de; font-size:.85rem; line-height:1.6; }
+.cq-affinity-info p { margin:0; flex:1 1 180px; }
+.cq-affinity-unit { color:#c7e8aa; font-weight:700; }
+.cq-map-label .cq-element-badge { font-size:.64rem; padding:0 .3em; margin:.1rem 0; }
+.cq-directory-item .cq-element-badge { margin:.2rem 0; }
+.cq-home-holdings .cq-element-badge { font-size:.7rem; margin:.25rem 0; }
+.cq-battle-shell > .cq-affinity-info { margin:.5rem 1.2rem; }
+.cq-element-legend { display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; padding:.5rem 0; color:#b6ced2; font-size:.8rem; }

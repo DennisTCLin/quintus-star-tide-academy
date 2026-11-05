@@ -1,3 +1,4 @@
+import { withCreatureArt } from "./creature-art";
 import type { MilestoneState } from './core'
 import type { ElementName } from './elements'
 
@@ -174,7 +175,7 @@ const CHARACTER_SEEDS: CharacterSeed[] = [
   { id: 'astraltide', name: '星潮萬象獸', nameEn: 'Astraltide', title: '萬象合航員', rarity: 'SSS', unlockAt: 3240, image: artwork('astraltide'), element: '土', personality: '寧靜包容', story: '不是最強的夥伴，而是把海洋、雲霧與星光三種視角放在一起的合航者。', artBrief: '原創鯨、狐與鳥的優雅混合生物，海洋到雲霧再到星光的連續材質轉換、複雜但清楚的萬象紋', palette: '深海藍、雲白、星紫、極光青、極少量金' },
 ]
 
-export const CHARACTERS: readonly Character[] = CHARACTER_SEEDS.map(seed)
+export const CHARACTERS: readonly Character[] = CHARACTER_SEEDS.map(seed).map(withCreatureArt)
 export const DEFAULT_CHARACTER_ID = 'tideglow'
 export const EQUIPPED_CHARACTER_KEY = 'star-tide-academy.equipped-character.v1'
 

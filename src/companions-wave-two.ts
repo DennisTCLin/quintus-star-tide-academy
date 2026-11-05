@@ -1,6 +1,7 @@
+import { withCreatureArt } from "./creature-art";
 import type { Character } from "./characters";
 
-export const NEW_COMPANIONS: readonly Character[] = [
+const originalNEW_COMPANIONS: readonly Character[] = [
   {
     "id": "w2-belljerboa",
     "name": "鈴耳跳鼠",
@@ -1452,3 +1453,5 @@ export const NEW_COMPANIONS: readonly Character[] = [
     ]
   }
 ];
+
+export const NEW_COMPANIONS: readonly Character[] = originalNEW_COMPANIONS.map(withCreatureArt);

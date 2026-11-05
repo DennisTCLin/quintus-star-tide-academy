@@ -31,8 +31,8 @@ function finish(s: ReturnType<typeof newFamily>, roll = 0, date = day, correctMi
 describe("shared creature stats and acquisition", () => {
   it("keeps the original draw pool while registering all eighty recruits", () => {
     const p = newFamily().profiles.quintus;
-    expect(BASE_ROSTER).toHaveLength(105); expect(ROSTER).toHaveLength(215);
-    expect(companionDrawPool(p)).toHaveLength(104);
+    expect(BASE_ROSTER).toHaveLength(185); expect(ROSTER).toHaveLength(375);
+    expect(companionDrawPool(p)).toHaveLength(184);
     for (const m of MONSTER_CATALOG) {
       expect(petById(m.id)?.rarity).toBe(m.rarity);
       expect(companionDrawPool(p).some(pet => pet.id === m.id)).toBe(false);

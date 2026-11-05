@@ -22,6 +22,7 @@ const mime = {
   '.m4a': 'audio/mp4',
   '.mp3': 'audio/mpeg',
   '.webm': 'video/webm',
+  '.glb': 'model/gltf-binary',
 }
 
 export function cacheControlFor(path) {
@@ -64,7 +65,7 @@ function sendFile(req, res, path, status = 200) {
     'X-Content-Type-Options': 'nosniff',
     'X-Frame-Options': 'DENY',
     'Referrer-Policy': 'no-referrer',
-    'Content-Security-Policy': "default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'",
+    'Content-Security-Policy': "default-src 'self'; img-src 'self' data: blob:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self' blob:",
   }
   if (compressible) headers.Vary = 'Accept-Encoding'
   if (useGzip) headers['Content-Encoding'] = 'gzip'

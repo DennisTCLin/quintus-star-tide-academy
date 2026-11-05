@@ -1,0 +1,11 @@
+
+ RUN  v5.0.5 /Users/dennistclin/.codex/worktrees/special-star-ticket/星潮網站開發
+
+
+ Test Files  140 passed | 24 skipped (164)
+      Tests  950 passed | 213 skipped (1163)
+   Start at  12:47:49
+   Duration  16.36s (import 48%, tests 46%, transform 5%, worker 1%)
+
+    Isolate  164 workers spawned · ~71ms startup each (spawn + environment, per file)
+             at least ~2.84s faster with isolate: false — reuses workers across files instead of one per file

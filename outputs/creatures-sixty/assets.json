@@ -1,0 +1,1627 @@
+{
+  "model": "gpt_image_2_5",
+  "quotedCredits": 12,
+  "count": 60,
+  "assets": [
+    {
+      "id": "w3-magnetelephant",
+      "sheet": 1,
+      "jobId": "02f62ecf-4e62-47e8-8d2e-7ed1bf7eeac1",
+      "sourceSha256": "4915cebf4871e5755aaa19a2c235fcebfc068ad4f3f3b4b6ee46d5485136ed45",
+      "bounds": [
+        23,
+        115,
+        625,
+        655
+      ],
+      "edgeDistance": 23,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-magnetelephant.webp",
+          "bytes": 83254,
+          "sha256": "7cf3ff3dc962af27f8868cd10e89401c7fc432ec57e7ad128da17b0c1c6cb010",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-magnetelephant-320.webp",
+          "bytes": 27048,
+          "sha256": "3d0f06b752989df101333202641d92fc72d5fcc4e89867b314eef1817b18b23f",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-sproutsloth",
+      "sheet": 1,
+      "jobId": "02f62ecf-4e62-47e8-8d2e-7ed1bf7eeac1",
+      "sourceSha256": "4915cebf4871e5755aaa19a2c235fcebfc068ad4f3f3b4b6ee46d5485136ed45",
+      "bounds": [
+        736,
+        21,
+        1229,
+        667
+      ],
+      "edgeDistance": 12,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-sproutsloth.webp",
+          "bytes": 87852,
+          "sha256": "2cdcf87346e5c045c83019100558abc9690db903fe4240f89ce26f85fcbb73e4",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-sproutsloth-320.webp",
+          "bytes": 27604,
+          "sha256": "53f627318d95a016f3d061dd528ec9adc8a908397f456a31d993eb31277f98b0",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-dewdungong",
+      "sheet": 1,
+      "jobId": "02f62ecf-4e62-47e8-8d2e-7ed1bf7eeac1",
+      "sourceSha256": "4915cebf4871e5755aaa19a2c235fcebfc068ad4f3f3b4b6ee46d5485136ed45",
+      "bounds": [
+        1330,
+        129,
+        2028,
+        655
+      ],
+      "edgeDistance": 3,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-dewdungong.webp",
+          "bytes": 70138,
+          "sha256": "dd9582022e92d582386d38cd7af4c9c4cd17041e9186ca8c96e1c40b7b2474a4",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-dewdungong-320.webp",
+          "bytes": 22432,
+          "sha256": "07580203787a03cf52a7f256963308e939c95be151a218ac476f22cc99c7a329",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-stovepenguin",
+      "sheet": 1,
+      "jobId": "02f62ecf-4e62-47e8-8d2e-7ed1bf7eeac1",
+      "sourceSha256": "4915cebf4871e5755aaa19a2c235fcebfc068ad4f3f3b4b6ee46d5485136ed45",
+      "bounds": [
+        62,
+        697,
+        569,
+        1319
+      ],
+      "edgeDistance": 17,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-stovepenguin.webp",
+          "bytes": 85878,
+          "sha256": "9aae7e3e04804b6115aa3f9e20fa6b8b90fc61cf0ffe6f9286c0d76464864b57",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-stovepenguin-320.webp",
+          "bytes": 26854,
+          "sha256": "38ee8bc9d9b4c8031ad10422513bd695779b7688540b67801cfde9b8235824b4",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-potwombat",
+      "sheet": 1,
+      "jobId": "02f62ecf-4e62-47e8-8d2e-7ed1bf7eeac1",
+      "sourceSha256": "4915cebf4871e5755aaa19a2c235fcebfc068ad4f3f3b4b6ee46d5485136ed45",
+      "bounds": [
+        704,
+        780,
+        1295,
+        1315
+      ],
+      "edgeDistance": 28,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-potwombat.webp",
+          "bytes": 106776,
+          "sha256": "88f22e969e89f3f4794d16333368d661a4344001446f7cd8cb932a021dc0d5d4",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-potwombat-320.webp",
+          "bytes": 33462,
+          "sha256": "74d16a49b66de14588d4530fba803cbe32727db55cab344574fc3a9cd85b5843",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-copperflyfish",
+      "sheet": 2,
+      "jobId": "ef1b0b18-b008-4a00-ade5-7017e272070f",
+      "sourceSha256": "75241f66f561f1edf56fb4c62482b0e02ca696c8623ca193fd138ed9b2c80f54",
+      "bounds": [
+        41,
+        37,
+        569,
+        655
+      ],
+      "edgeDistance": 24,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-copperflyfish.webp",
+          "bytes": 84046,
+          "sha256": "d5753de58569de4bf4e1bc7bfeede37966b91232f6968ee342d19936b815f983",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-copperflyfish-320.webp",
+          "bytes": 28016,
+          "sha256": "431b4a2880e84e8f7b4bb7b6a34732c814595785e2cde00f34ae405ab8057d18",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-lotusfrog",
+      "sheet": 2,
+      "jobId": "ef1b0b18-b008-4a00-ade5-7017e272070f",
+      "sourceSha256": "75241f66f561f1edf56fb4c62482b0e02ca696c8623ca193fd138ed9b2c80f54",
+      "bounds": [
+        748,
+        20,
+        1237,
+        663
+      ],
+      "edgeDistance": 16,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-lotusfrog.webp",
+          "bytes": 88922,
+          "sha256": "7315a7583ece9d8cc61c80164b46fba5f07fddcfb18d7f1414a18fac44007e7d",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-lotusfrog-320.webp",
+          "bytes": 30022,
+          "sha256": "e71e07e8fedb7de4a70612c51520022aefcbc693f636a32bd2b16e7751300df1",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-icebellseal",
+      "sheet": 2,
+      "jobId": "ef1b0b18-b008-4a00-ade5-7017e272070f",
+      "sourceSha256": "75241f66f561f1edf56fb4c62482b0e02ca696c8623ca193fd138ed9b2c80f54",
+      "bounds": [
+        1350,
+        142,
+        1994,
+        669
+      ],
+      "edgeDistance": 5,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-icebellseal.webp",
+          "bytes": 96412,
+          "sha256": "079758e45325132c7372452458f3871458240e58caeb9ce14cdceb1698603323",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-icebellseal-320.webp",
+          "bytes": 30620,
+          "sha256": "b998351baf85b707f2869ca2ec8cbc74914e1aa9606ec89de83e611da89ca107",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-wickcamel",
+      "sheet": 2,
+      "jobId": "ef1b0b18-b008-4a00-ade5-7017e272070f",
+      "sourceSha256": "75241f66f561f1edf56fb4c62482b0e02ca696c8623ca193fd138ed9b2c80f54",
+      "bounds": [
+        97,
+        700,
+        608,
+        1323
+      ],
+      "edgeDistance": 20,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-wickcamel.webp",
+          "bytes": 95874,
+          "sha256": "5289d4a6cb7341b7d728fe9351a81237033ab230b14c6916a3937964dd973d1c",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-wickcamel-320.webp",
+          "bytes": 31732,
+          "sha256": "2a4b1269133cbba405a26a85923ad4bf099a0605f7e8d446c09d922ea2c40ef2",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-wheatmarmot",
+      "sheet": 2,
+      "jobId": "ef1b0b18-b008-4a00-ade5-7017e272070f",
+      "sourceSha256": "75241f66f561f1edf56fb4c62482b0e02ca696c8623ca193fd138ed9b2c80f54",
+      "bounds": [
+        801,
+        715,
+        1273,
+        1338
+      ],
+      "edgeDistance": 21,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-wheatmarmot.webp",
+          "bytes": 84256,
+          "sha256": "a8a04d0935b24c767fccbd5a9a789edd24067e52ac26aba24f5764ee292bd85d",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-wheatmarmot-320.webp",
+          "bytes": 26776,
+          "sha256": "6226e35a447d44eadb35c7efa6d1862a77ebc727f92983b48b83da9ed4316d9d",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-harphummingbird",
+      "sheet": 3,
+      "jobId": "57735562-b343-47e4-9d97-8af1ed33fcc3",
+      "sourceSha256": "6c4c198770f2a189b0773b3b4b2e7f8e947fba1b2f9ba598fc230da78eb6a773",
+      "bounds": [
+        27,
+        16,
+        617,
+        665
+      ],
+      "edgeDistance": 8,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-harphummingbird.webp",
+          "bytes": 93392,
+          "sha256": "9a7b909a2131203fd71a159ef735ca41a33df6677982d9a337d6949367ee1dd8",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-harphummingbird-320.webp",
+          "bytes": 30550,
+          "sha256": "b5218ecd5d32f399308df2425e9e7e6722fea8a242d171760e5390daad970b6b",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-flutemantis",
+      "sheet": 3,
+      "jobId": "57735562-b343-47e4-9d97-8af1ed33fcc3",
+      "sourceSha256": "6c4c198770f2a189b0773b3b4b2e7f8e947fba1b2f9ba598fc230da78eb6a773",
+      "bounds": [
+        738,
+        17,
+        1325,
+        673
+      ],
+      "edgeDistance": 0,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-flutemantis.webp",
+          "bytes": 91242,
+          "sha256": "7ef20a7834665f11290a7435d9d08b8cd6f55b5b0347e44efb7ee62e57e68f68",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-flutemantis-320.webp",
+          "bytes": 31086,
+          "sha256": "8e2c37d1e2807c20bba1dab168792aa8b4b8b326ec586380a2bc1f9cfdc65ce6",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-mirrorcuttle",
+      "sheet": 3,
+      "jobId": "57735562-b343-47e4-9d97-8af1ed33fcc3",
+      "sourceSha256": "6c4c198770f2a189b0773b3b4b2e7f8e947fba1b2f9ba598fc230da78eb6a773",
+      "bounds": [
+        1409,
+        50,
+        1997,
+        673
+      ],
+      "edgeDistance": 0,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-mirrorcuttle.webp",
+          "bytes": 129898,
+          "sha256": "5e92682360d08b1c08cd15bc0c798106122d2de5db1d61a20c07671c506e31dd",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-mirrorcuttle-320.webp",
+          "bytes": 38976,
+          "sha256": "9b94b31da2de7d8e46697eccf78d7fc91c75df0b6eeba877da0541ae9d75548c",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-tinderfennec",
+      "sheet": 3,
+      "jobId": "57735562-b343-47e4-9d97-8af1ed33fcc3",
+      "sourceSha256": "6c4c198770f2a189b0773b3b4b2e7f8e947fba1b2f9ba598fc230da78eb6a773",
+      "bounds": [
+        24,
+        674,
+        592,
+        1309
+      ],
+      "edgeDistance": 0,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-tinderfennec.webp",
+          "bytes": 110560,
+          "sha256": "d33e37ebb1e6356c2bc2e08ca26fa16c5b223dfdcb50d415edda305b7337a526",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-tinderfennec-320.webp",
+          "bytes": 34276,
+          "sha256": "e7111dfe9473a40463ffbec55dfad1dd64a9e77cacb265c2d8ed88c573131f0b",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-hourglassshrew",
+      "sheet": 3,
+      "jobId": "57735562-b343-47e4-9d97-8af1ed33fcc3",
+      "sourceSha256": "6c4c198770f2a189b0773b3b4b2e7f8e947fba1b2f9ba598fc230da78eb6a773",
+      "bounds": [
+        657,
+        739,
+        1341,
+        1341
+      ],
+      "edgeDistance": 4,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-hourglassshrew.webp",
+          "bytes": 84486,
+          "sha256": "b79b0ec75a7680cbe4b3f1815f3401b56700a5072855b7dd97d44e22c6730112",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-hourglassshrew-320.webp",
+          "bytes": 27592,
+          "sha256": "6a6221d8c4e20bdc6140066abe76af7d6197787252ca631a6b7183ae9182e236",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-giltfancrane",
+      "sheet": 4,
+      "jobId": "335a3f53-1261-44fd-879e-63a62b312d57",
+      "sourceSha256": "3fca5b2a944c98d6a228fcb4e7c8dcf1a414b475b2c91e1890903f1d52d95e9a",
+      "bounds": [
+        76,
+        16,
+        648,
+        704
+      ],
+      "edgeDistance": 10,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-giltfancrane.webp",
+          "bytes": 94556,
+          "sha256": "9e9e19156d8ca137dab18f29680e9385873dd3cd1ca2901f622546a1b0c8cf75",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-giltfancrane-320.webp",
+          "bytes": 31586,
+          "sha256": "32b5fa72b285d5a8167240ed69720adbcacfe54e7fec25e864fa5d22b1e5aada",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-flowercapybara",
+      "sheet": 4,
+      "jobId": "335a3f53-1261-44fd-879e-63a62b312d57",
+      "sourceSha256": "3fca5b2a944c98d6a228fcb4e7c8dcf1a414b475b2c91e1890903f1d52d95e9a",
+      "bounds": [
+        742,
+        24,
+        1238,
+        700
+      ],
+      "edgeDistance": 14,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-flowercapybara.webp",
+          "bytes": 85676,
+          "sha256": "f488dea158e62f423d7eeba4bc52620d4ac711ccb5637e3637b88c83010b9a6f",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-flowercapybara-320.webp",
+          "bytes": 27454,
+          "sha256": "97a81d880ae11035c20cc007d09985df95d2aad75c6bb6ff1093529da1a8eafb",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-starbubbleoctopus",
+      "sheet": 4,
+      "jobId": "335a3f53-1261-44fd-879e-63a62b312d57",
+      "sourceSha256": "3fca5b2a944c98d6a228fcb4e7c8dcf1a414b475b2c91e1890903f1d52d95e9a",
+      "bounds": [
+        1375,
+        115,
+        2012,
+        711
+      ],
+      "edgeDistance": 3,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-starbubbleoctopus.webp",
+          "bytes": 126958,
+          "sha256": "9bc6c97f2826acb0075bb1afa25926733353f61b49691e07bccd621fb37420e4",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-starbubbleoctopus-320.webp",
+          "bytes": 40890,
+          "sha256": "bd0ff3408f487b77bc3251832a28bdc1ae8612fc9dd2298048f359ff9fff0525",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-coalroadrunner",
+      "sheet": 4,
+      "jobId": "335a3f53-1261-44fd-879e-63a62b312d57",
+      "sourceSha256": "3fca5b2a944c98d6a228fcb4e7c8dcf1a414b475b2c91e1890903f1d52d95e9a",
+      "bounds": [
+        37,
+        727,
+        687,
+        1320
+      ],
+      "edgeDistance": 7,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-coalroadrunner.webp",
+          "bytes": 77028,
+          "sha256": "4f6228fa2a45624a26f5ab5d6cdd85449f3f78d708edf0f93b54fa5e60b3f1b3",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-coalroadrunner-320.webp",
+          "bytes": 26908,
+          "sha256": "fe4c5a3038d97e4015110bf6ae3d74f7ecfbe57130f927313354e734c01a3e90",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-glassarmadillo",
+      "sheet": 4,
+      "jobId": "335a3f53-1261-44fd-879e-63a62b312d57",
+      "sourceSha256": "3fca5b2a944c98d6a228fcb4e7c8dcf1a414b475b2c91e1890903f1d52d95e9a",
+      "bounds": [
+        719,
+        848,
+        1429,
+        1292
+      ],
+      "edgeDistance": 24,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-glassarmadillo.webp",
+          "bytes": 76434,
+          "sha256": "3112ecf7091197afa7a9f83724dea674a6e8d358c1ed0b018cb301e729531908",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-glassarmadillo-320.webp",
+          "bytes": 23852,
+          "sha256": "71d69e3357de4e399e019c95288c0cdd7c9687a8b3fb4e32769746fc2722b485",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-balancevulture",
+      "sheet": 5,
+      "jobId": "05fe0f58-4c58-408b-af60-f1d805e199fe",
+      "sourceSha256": "45609c9df78d2d5ebc78078c6faa32001bd2b60cf46f312c66e650b55eac12e7",
+      "bounds": [
+        82,
+        32,
+        675,
+        659
+      ],
+      "edgeDistance": 10,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-balancevulture.webp",
+          "bytes": 106314,
+          "sha256": "ca1b8303bb7476d73d09e7ac283bbf6d5168f074a1881f03fb92b79aac3a3774",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-balancevulture-320.webp",
+          "bytes": 33666,
+          "sha256": "5794022cff19533195b8b65558ecf927bdc89c568be81b1aba025d87193d7c9e",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-vinegiraffe",
+      "sheet": 5,
+      "jobId": "05fe0f58-4c58-408b-af60-f1d805e199fe",
+      "sourceSha256": "45609c9df78d2d5ebc78078c6faa32001bd2b60cf46f312c66e650b55eac12e7",
+      "bounds": [
+        750,
+        17,
+        1254,
+        679
+      ],
+      "edgeDistance": 12,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-vinegiraffe.webp",
+          "bytes": 89152,
+          "sha256": "792bfbbb6db2f71cabded14b527c992ec3da20191e744800a4f9de1f37a4eb43",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-vinegiraffe-320.webp",
+          "bytes": 29118,
+          "sha256": "6d3de03db16d0f95cb01a31f34a184cbbaad26c44ce9e571b8981b5fa6316ddf",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-moonsailfish",
+      "sheet": 5,
+      "jobId": "05fe0f58-4c58-408b-af60-f1d805e199fe",
+      "sourceSha256": "45609c9df78d2d5ebc78078c6faa32001bd2b60cf46f312c66e650b55eac12e7",
+      "bounds": [
+        1323,
+        50,
+        2007,
+        687
+      ],
+      "edgeDistance": 3,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-moonsailfish.webp",
+          "bytes": 120574,
+          "sha256": "133310602a75e0bd5b66076dcb6d5989dad211c4f6952f2e519dd111c977d30d",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-moonsailfish-320.webp",
+          "bytes": 39374,
+          "sha256": "0c986018f3083e81b706fa1434b06d4d22f9d0c74a2b948cee259b6b89442848",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-sunsetpeacock",
+      "sheet": 5,
+      "jobId": "05fe0f58-4c58-408b-af60-f1d805e199fe",
+      "sourceSha256": "45609c9df78d2d5ebc78078c6faa32001bd2b60cf46f312c66e650b55eac12e7",
+      "bounds": [
+        63,
+        696,
+        641,
+        1326
+      ],
+      "edgeDistance": 4,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-sunsetpeacock.webp",
+          "bytes": 139238,
+          "sha256": "4eaab2a65ef5d9f26c3df30f5f800de28917088590c0980354628d55c7fa857b",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-sunsetpeacock-320.webp",
+          "bytes": 41638,
+          "sha256": "ef155b32c6d602cb7c3ba73536075dcb047cd0bb942514c8a00cf519ad1a537f",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-jadeibex",
+      "sheet": 5,
+      "jobId": "05fe0f58-4c58-408b-af60-f1d805e199fe",
+      "sourceSha256": "45609c9df78d2d5ebc78078c6faa32001bd2b60cf46f312c66e650b55eac12e7",
+      "bounds": [
+        803,
+        704,
+        1295,
+        1340
+      ],
+      "edgeDistance": 12,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-jadeibex.webp",
+          "bytes": 100958,
+          "sha256": "4c8e3824743049fa1f8ff74b9ffcddc4910e385a9562777dd6d9755d81966b8b",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-jadeibex-320.webp",
+          "bytes": 32000,
+          "sha256": "b5431f415fccf1f186fbfd8818aa956954c08902d3e34faa5599c86b92345659",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-polarmechdeer",
+      "sheet": 6,
+      "jobId": "50bfc90f-8a75-4967-b4f8-42f1a90ad11d",
+      "sourceSha256": "1af876d02f56da06af80ba81ce8979e0e7d450e2a0eca99c94ef696d8d0a3ea7",
+      "bounds": [
+        75,
+        19,
+        607,
+        691
+      ],
+      "edgeDistance": 18,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-polarmechdeer.webp",
+          "bytes": 125094,
+          "sha256": "d0951b58e60f4854ef75f76f2ab75b625e78172846b946ba8c40feca5d1ea152",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-polarmechdeer-320.webp",
+          "bytes": 37340,
+          "sha256": "ecc890374d448d752711c4ef52260816215c3490f7adaf9b43ce7d2f27040f29",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-dreamtapir",
+      "sheet": 6,
+      "jobId": "50bfc90f-8a75-4967-b4f8-42f1a90ad11d",
+      "sourceSha256": "1af876d02f56da06af80ba81ce8979e0e7d450e2a0eca99c94ef696d8d0a3ea7",
+      "bounds": [
+        673,
+        32,
+        1355,
+        709
+      ],
+      "edgeDistance": 0,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-dreamtapir.webp",
+          "bytes": 148154,
+          "sha256": "2b674f6df31736251bcd1a5d92f73185dd0488fcc24d7f1695c5e08f65a32a22",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-dreamtapir-320.webp",
+          "bytes": 41376,
+          "sha256": "8fa3cae2a234827962f1b2a7bf310fcc6097348783b7452145083b0e79524a45",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-rainbowmanta",
+      "sheet": 6,
+      "jobId": "50bfc90f-8a75-4967-b4f8-42f1a90ad11d",
+      "sourceSha256": "1af876d02f56da06af80ba81ce8979e0e7d450e2a0eca99c94ef696d8d0a3ea7",
+      "bounds": [
+        1360,
+        26,
+        2013,
+        683
+      ],
+      "edgeDistance": 4,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-rainbowmanta.webp",
+          "bytes": 132386,
+          "sha256": "def76ec9018effe658196501529c0e257aba697e845535f467d5a8f705ec0f81",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-rainbowmanta-320.webp",
+          "bytes": 39392,
+          "sha256": "51ee847c46d1a4f0d9f1f0b465ca79dd852c1ee158150f715d282265e5743b49",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-suncrestlion",
+      "sheet": 6,
+      "jobId": "50bfc90f-8a75-4967-b4f8-42f1a90ad11d",
+      "sourceSha256": "1af876d02f56da06af80ba81ce8979e0e7d450e2a0eca99c94ef696d8d0a3ea7",
+      "bounds": [
+        33,
+        710,
+        693,
+        1326
+      ],
+      "edgeDistance": 0,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-suncrestlion.webp",
+          "bytes": 134658,
+          "sha256": "364be30822b0b5ec214a399b3189f83594f0f48f695e1248504247829a341a76",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-suncrestlion-320.webp",
+          "bytes": 39502,
+          "sha256": "b804c2802df85fc8feb8a8f74ca248aad01c2a2fd966091bda294405b287ea06",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w3-stardunetortoise",
+      "sheet": 6,
+      "jobId": "50bfc90f-8a75-4967-b4f8-42f1a90ad11d",
+      "sourceSha256": "1af876d02f56da06af80ba81ce8979e0e7d450e2a0eca99c94ef696d8d0a3ea7",
+      "bounds": [
+        694,
+        710,
+        1416,
+        1345
+      ],
+      "edgeDistance": 0,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w3-stardunetortoise.webp",
+          "bytes": 144150,
+          "sha256": "d60ae93ec64f8109725949015eee2e2378a2db9ca941ef020910bad79dd970be",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w3-stardunetortoise-320.webp",
+          "bytes": 40606,
+          "sha256": "7fb2969389567f7098d09901057624a196ce81e6247df3e05a822f8677ef5c72",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-hookspider",
+      "sheet": 7,
+      "jobId": "1ed1d008-447d-4a3b-98a5-6455c107a34f",
+      "sourceSha256": "03db07a95635db94bcf8438cb2aaf48d700cb1d76e89c5585898d90530badebf",
+      "bounds": [
+        31,
+        53,
+        632,
+        633
+      ],
+      "edgeDistance": 31,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-hookspider.webp",
+          "bytes": 100646,
+          "sha256": "f74ba540f6ec17e41ae7483c58ed3e0cf6ece64db98b0dc94050a090a4c2f462",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-hookspider-320.webp",
+          "bytes": 32624,
+          "sha256": "571dba317269b35e0880b50810dfd6a49bfde34decec6664e02a946c2f8e55ce",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-mosssnail",
+      "sheet": 7,
+      "jobId": "1ed1d008-447d-4a3b-98a5-6455c107a34f",
+      "sourceSha256": "03db07a95635db94bcf8438cb2aaf48d700cb1d76e89c5585898d90530badebf",
+      "bounds": [
+        741,
+        35,
+        1341,
+        636
+      ],
+      "edgeDistance": 20,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-mosssnail.webp",
+          "bytes": 127536,
+          "sha256": "43d63f55b64ef72eb5f403e931341e6b80c2f9f1c9da705681250659e943bbb8",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-mosssnail-320.webp",
+          "bytes": 40028,
+          "sha256": "aec91728c806e87e0a8f32f4bacae75baf5fe79e9a5c38ec768f2fb166684585",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-tideurn",
+      "sheet": 7,
+      "jobId": "1ed1d008-447d-4a3b-98a5-6455c107a34f",
+      "sourceSha256": "03db07a95635db94bcf8438cb2aaf48d700cb1d76e89c5585898d90530badebf",
+      "bounds": [
+        1460,
+        26,
+        1995,
+        670
+      ],
+      "edgeDistance": 0,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-tideurn.webp",
+          "bytes": 116668,
+          "sha256": "f6776d47f0d765de39a40df88c0a1112f881e2b2ac9839e4293edbabc6ccf31e",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-tideurn-320.webp",
+          "bytes": 36752,
+          "sha256": "d7e212d7728866db87e612de20074d39d6b59bb5672f5179b8c2ca2868bd6ea3",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-coalrooster",
+      "sheet": 7,
+      "jobId": "1ed1d008-447d-4a3b-98a5-6455c107a34f",
+      "sourceSha256": "03db07a95635db94bcf8438cb2aaf48d700cb1d76e89c5585898d90530badebf",
+      "bounds": [
+        43,
+        671,
+        613,
+        1333
+      ],
+      "edgeDistance": 0,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-coalrooster.webp",
+          "bytes": 97482,
+          "sha256": "350401f8bc7e0772290c4a5ad7581095736b0ad4b296e8db3aabd7b9640c2fdb",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-coalrooster-320.webp",
+          "bytes": 32352,
+          "sha256": "0e8e1c98396ecf903551f52dd61e057da49a2492c93d1cb4eb10aba25136edc8",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-crackedsalamander",
+      "sheet": 7,
+      "jobId": "1ed1d008-447d-4a3b-98a5-6455c107a34f",
+      "sourceSha256": "03db07a95635db94bcf8438cb2aaf48d700cb1d76e89c5585898d90530badebf",
+      "bounds": [
+        678,
+        803,
+        1425,
+        1312
+      ],
+      "edgeDistance": 3,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-crackedsalamander.webp",
+          "bytes": 94676,
+          "sha256": "8625038f3a0edf316feeb118938c5702d38dd3f352c6b4fe2d89f0aaf3623810",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-crackedsalamander-320.webp",
+          "bytes": 29534,
+          "sha256": "33a6cdb222479d215178aadfe2b887cedc8ff3ee13ad9dd39276630baf1de2ae",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-steelcatfish",
+      "sheet": 8,
+      "jobId": "96a7e3db-92ce-409c-b4dd-53eee803c3f6",
+      "sourceSha256": "793ba16dacbb8601850db48beff7ec534ebbb4cbac8dcb1fba2fbaefb9ef2ee8",
+      "bounds": [
+        34,
+        41,
+        678,
+        649
+      ],
+      "edgeDistance": 4,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-steelcatfish.webp",
+          "bytes": 93256,
+          "sha256": "f43e48ebe398c26e26971f8abbbb600b11bd20e1b1d465f94f9e67fa5f00876c",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-steelcatfish-320.webp",
+          "bytes": 31994,
+          "sha256": "fe71c665f81efce72b9c90e693b46f8d1fb5f66bfc73e59036bc588a3828e856",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-vinecage",
+      "sheet": 8,
+      "jobId": "96a7e3db-92ce-409c-b4dd-53eee803c3f6",
+      "sourceSha256": "793ba16dacbb8601850db48beff7ec534ebbb4cbac8dcb1fba2fbaefb9ef2ee8",
+      "bounds": [
+        769,
+        19,
+        1313,
+        662
+      ],
+      "edgeDistance": 17,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-vinecage.webp",
+          "bytes": 89268,
+          "sha256": "d60342e09e95d8f3703930e4292aae742f524071aac455bcd1497748c1ea953a",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-vinecage-320.webp",
+          "bytes": 31020,
+          "sha256": "e5fd9e3d7bf91c403e01bbaab46466cb830438563218296073fdaa3aa1c61b8a",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-mistumbrella",
+      "sheet": 8,
+      "jobId": "96a7e3db-92ce-409c-b4dd-53eee803c3f6",
+      "sourceSha256": "793ba16dacbb8601850db48beff7ec534ebbb4cbac8dcb1fba2fbaefb9ef2ee8",
+      "bounds": [
+        1445,
+        20,
+        1962,
+        668
+      ],
+      "edgeDistance": 11,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-mistumbrella.webp",
+          "bytes": 103026,
+          "sha256": "d253a0110ed4a9d13b34d75d07517e8f5de9176b3c0cd236cb3ebd077359893d",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-mistumbrella-320.webp",
+          "bytes": 34800,
+          "sha256": "bc5b92eebd9ab40e0a2283521555f9e53c1adfa501addfa18c2000ec2e78d26e",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-furnacebeetle",
+      "sheet": 8,
+      "jobId": "96a7e3db-92ce-409c-b4dd-53eee803c3f6",
+      "sourceSha256": "793ba16dacbb8601850db48beff7ec534ebbb4cbac8dcb1fba2fbaefb9ef2ee8",
+      "bounds": [
+        25,
+        708,
+        644,
+        1303
+      ],
+      "edgeDistance": 25,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-furnacebeetle.webp",
+          "bytes": 95648,
+          "sha256": "b00dc55d7078d71d3576f302937546365e466f0d170d6fafc39b092e9a356ea9",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-furnacebeetle-320.webp",
+          "bytes": 31982,
+          "sha256": "00d0a57048d196eb8907d237be203770c8b026d8d0b53cd16f9935b50e1c6049",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-drumlizard",
+      "sheet": 8,
+      "jobId": "96a7e3db-92ce-409c-b4dd-53eee803c3f6",
+      "sourceSha256": "793ba16dacbb8601850db48beff7ec534ebbb4cbac8dcb1fba2fbaefb9ef2ee8",
+      "bounds": [
+        733,
+        728,
+        1414,
+        1302
+      ],
+      "edgeDistance": 48,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-drumlizard.webp",
+          "bytes": 99272,
+          "sha256": "7ab7e1079f0a66a598e7151d5823e442d67268b1b3fe4b32dca4ee03bf9a460a",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-drumlizard-320.webp",
+          "bytes": 32526,
+          "sha256": "28015406e491452cae8bb9f3f46d87a850888d3885814fe6f220f0567e9c18ed",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-mirrormantis",
+      "sheet": 9,
+      "jobId": "56e01516-28f9-4735-90af-1a3d1cdc5e11",
+      "sourceSha256": "411a27b24f77af050b602b1536c191599a114026577a9a503f29aa613b618337",
+      "bounds": [
+        41,
+        69,
+        644,
+        676
+      ],
+      "edgeDistance": 20,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-mirrormantis.webp",
+          "bytes": 108030,
+          "sha256": "6ca3104a2cdc07cb725b85158a0e1be31cdf63e0ac031f7214ddb65602863b77",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-mirrormantis-320.webp",
+          "bytes": 37096,
+          "sha256": "dfc1e51b878e640df0ef29bab645146693d0f70a0f5f1144664ad35cb6ec2c84",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-thornporcupine",
+      "sheet": 9,
+      "jobId": "56e01516-28f9-4735-90af-1a3d1cdc5e11",
+      "sourceSha256": "411a27b24f77af050b602b1536c191599a114026577a9a503f29aa613b618337",
+      "bounds": [
+        712,
+        105,
+        1360,
+        647
+      ],
+      "edgeDistance": 8,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-thornporcupine.webp",
+          "bytes": 111950,
+          "sha256": "3157dc87fccb1dca0dc0d35bb3f2d4cb0a4bf783203fd3a4d89eb2880811cbc6",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-thornporcupine-320.webp",
+          "bytes": 36080,
+          "sha256": "7c4c1f4967813ec944e7db050cc4c84c579ec098f7b8d865befbcf8f509d7a48",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-vortexnautilus",
+      "sheet": 9,
+      "jobId": "56e01516-28f9-4735-90af-1a3d1cdc5e11",
+      "sourceSha256": "411a27b24f77af050b602b1536c191599a114026577a9a503f29aa613b618337",
+      "bounds": [
+        1421,
+        42,
+        2020,
+        696
+      ],
+      "edgeDistance": 0,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-vortexnautilus.webp",
+          "bytes": 126990,
+          "sha256": "ef12ff2f296e489338ec614af9ac383affe9daa54cdd162e42797a97a4a0c3dc",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-vortexnautilus-320.webp",
+          "bytes": 41638,
+          "sha256": "3f58c54ddb21e9b4c1621f68e34f510328037a07ab3e2b54e2e188d7af777c66",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-cinderbat",
+      "sheet": 9,
+      "jobId": "56e01516-28f9-4735-90af-1a3d1cdc5e11",
+      "sourceSha256": "411a27b24f77af050b602b1536c191599a114026577a9a503f29aa613b618337",
+      "bounds": [
+        18,
+        700,
+        683,
+        1321
+      ],
+      "edgeDistance": 0,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-cinderbat.webp",
+          "bytes": 78582,
+          "sha256": "f2fdc266585f6aade9a27238caecb20cc1dbb2ccde06b6709d0e9d163cee425f",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-cinderbat-320.webp",
+          "bytes": 27570,
+          "sha256": "b351f6fe4c9ee213ff10f9829f761dfd370d8c04c8c834783b1ffe7679e560ae",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-hammerdevil",
+      "sheet": 9,
+      "jobId": "56e01516-28f9-4735-90af-1a3d1cdc5e11",
+      "sourceSha256": "411a27b24f77af050b602b1536c191599a114026577a9a503f29aa613b618337",
+      "bounds": [
+        710,
+        702,
+        1393,
+        1306
+      ],
+      "edgeDistance": 5,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-hammerdevil.webp",
+          "bytes": 91822,
+          "sha256": "bf68a9143b3977674d2ed276b2417f77563264746f07f85c01e9101a4ad109d2",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-hammerdevil-320.webp",
+          "bytes": 30430,
+          "sha256": "f65276cc6071834ea5dd81cddda6332c75c84112c386a8f00f2cfd35f5544e57",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-chainrhino",
+      "sheet": 10,
+      "jobId": "a0f786f6-3cf2-42df-88f7-068c21cecf75",
+      "sourceSha256": "d904a6cea1f5d1e3a01499acd259161436717869981f24e2d646fe3cd0614b33",
+      "bounds": [
+        21,
+        125,
+        672,
+        637
+      ],
+      "edgeDistance": 3,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-chainrhino.webp",
+          "bytes": 90948,
+          "sha256": "fa755620a055f3c6516e87be4749b71595cdf1f8706b58b4b70348cf69b03cdb",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-chainrhino-320.webp",
+          "bytes": 29892,
+          "sha256": "0d9a88cc1dc1e889d5b4ea18af8dbf9fce4286a3342cfae617b47fccf560aaf8",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-rootcrocodile",
+      "sheet": 10,
+      "jobId": "a0f786f6-3cf2-42df-88f7-068c21cecf75",
+      "sourceSha256": "d904a6cea1f5d1e3a01499acd259161436717869981f24e2d646fe3cd0614b33",
+      "bounds": [
+        701,
+        27,
+        1419,
+        627
+      ],
+      "edgeDistance": 0,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-rootcrocodile.webp",
+          "bytes": 99788,
+          "sha256": "d07711e2cc5119c9471c5e615d1b3a1e2924ac55a99b68641445a883bd79a0ca",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-rootcrocodile-320.webp",
+          "bytes": 31810,
+          "sha256": "bb972920957076f9790b6b70f5306fefa2a817562458e95f27fea3b53639078d",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-frostseasnake",
+      "sheet": 10,
+      "jobId": "a0f786f6-3cf2-42df-88f7-068c21cecf75",
+      "sourceSha256": "d904a6cea1f5d1e3a01499acd259161436717869981f24e2d646fe3cd0614b33",
+      "bounds": [
+        1476,
+        34,
+        2007,
+        694
+      ],
+      "edgeDistance": 0,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-frostseasnake.webp",
+          "bytes": 112230,
+          "sha256": "7ba2c2a79331e736b6cf81a049feca997ace19dac2bc7b87facd3446e418b648",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-frostseasnake-320.webp",
+          "bytes": 35924,
+          "sha256": "13c75e7e71f16881aefb08cfb824c17f171d3ef8cbdb1199f42813604e4f8419",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-blazebison",
+      "sheet": 10,
+      "jobId": "a0f786f6-3cf2-42df-88f7-068c21cecf75",
+      "sourceSha256": "d904a6cea1f5d1e3a01499acd259161436717869981f24e2d646fe3cd0614b33",
+      "bounds": [
+        19,
+        699,
+        738,
+        1318
+      ],
+      "edgeDistance": 3,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-blazebison.webp",
+          "bytes": 106156,
+          "sha256": "b5a945a876227b44e578037f48d952081c549495b0259875d945c78c56635e37",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-blazebison-320.webp",
+          "bytes": 33630,
+          "sha256": "c70315548a14f65072d58d006462033d0067c917d9c9a7c2b72a72d8b0137071",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-crystalcamel",
+      "sheet": 10,
+      "jobId": "a0f786f6-3cf2-42df-88f7-068c21cecf75",
+      "sourceSha256": "d904a6cea1f5d1e3a01499acd259161436717869981f24e2d646fe3cd0614b33",
+      "bounds": [
+        756,
+        710,
+        1401,
+        1334
+      ],
+      "edgeDistance": 14,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-crystalcamel.webp",
+          "bytes": 109532,
+          "sha256": "2afe9387181179fad6ec64c867034aac1999521fb5855831ea78f835a822de79",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-crystalcamel-320.webp",
+          "bytes": 36312,
+          "sha256": "3d098992a18a615825f005038a82e193718b76dcf94ffd4c49b8cfd2445854f9",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-belfrygriffin",
+      "sheet": 11,
+      "jobId": "ed2e5fb8-74b8-4929-99d0-817c76fde242",
+      "sourceSha256": "cf9264387a9ea7427817345f6a7a0d84cb939956035bbf3a1816accf758ee53a",
+      "bounds": [
+        28,
+        18,
+        706,
+        646
+      ],
+      "edgeDistance": 3,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-belfrygriffin.webp",
+          "bytes": 123404,
+          "sha256": "d4e5e972123c6a9f65bcb72cf97c360f45a3a3dae448789addead5348ad10761",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-belfrygriffin-320.webp",
+          "bytes": 40542,
+          "sha256": "91f24ba394d887a83ec1372a01f06cb2f9782ad2f0c67ced90238ef813e96e85",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-vinecitadelape",
+      "sheet": 11,
+      "jobId": "ed2e5fb8-74b8-4929-99d0-817c76fde242",
+      "sourceSha256": "cf9264387a9ea7427817345f6a7a0d84cb939956035bbf3a1816accf758ee53a",
+      "bounds": [
+        740,
+        19,
+        1343,
+        654
+      ],
+      "edgeDistance": 3,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-vinecitadelape.webp",
+          "bytes": 121386,
+          "sha256": "79820d184322cb73a1f9f980e5143eff328dc1e6a80eae450ce5d94681d8cbfc",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-vinecitadelape-320.webp",
+          "bytes": 38188,
+          "sha256": "0d88673c7bd8da4abf4de57161f92de288d6b7144c6702249ed01421178eb867",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-waterfallshark",
+      "sheet": 11,
+      "jobId": "ed2e5fb8-74b8-4929-99d0-817c76fde242",
+      "sourceSha256": "cf9264387a9ea7427817345f6a7a0d84cb939956035bbf3a1816accf758ee53a",
+      "bounds": [
+        1347,
+        35,
+        2024,
+        651
+      ],
+      "edgeDistance": 0,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-waterfallshark.webp",
+          "bytes": 113694,
+          "sha256": "193f4758b2143a11b26a72613df3d3b8b85b0e76e5b5bd9c6cbdcb0c5525f734",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-waterfallshark-320.webp",
+          "bytes": 36652,
+          "sha256": "79a17f1b370bd0683b0ba047b40e3a31f31173522b7c32f202acb83ad6acde91",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-firewheelsnake",
+      "sheet": 11,
+      "jobId": "ed2e5fb8-74b8-4929-99d0-817c76fde242",
+      "sourceSha256": "cf9264387a9ea7427817345f6a7a0d84cb939956035bbf3a1816accf758ee53a",
+      "bounds": [
+        27,
+        682,
+        670,
+        1338
+      ],
+      "edgeDistance": 4,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-firewheelsnake.webp",
+          "bytes": 149974,
+          "sha256": "fd673dfac1bd31aabf8944968fe4d0a41add1c1e027a3515a59cdfbbae862a84",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-firewheelsnake-320.webp",
+          "bytes": 47694,
+          "sha256": "bc38031612c06fc07fc2ac1bc2dd6815c148caa5b0e81619147ce15b4a08af2d",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-obeliskmammoth",
+      "sheet": 11,
+      "jobId": "ed2e5fb8-74b8-4929-99d0-817c76fde242",
+      "sourceSha256": "cf9264387a9ea7427817345f6a7a0d84cb939956035bbf3a1816accf758ee53a",
+      "bounds": [
+        698,
+        689,
+        1388,
+        1339
+      ],
+      "edgeDistance": 11,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-obeliskmammoth.webp",
+          "bytes": 116978,
+          "sha256": "d14a009a0354cfca3de895a10f1c4a21ff3428687a6672cd6137e28b528acb7e",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-obeliskmammoth-320.webp",
+          "bytes": 36280,
+          "sha256": "1e1ab3f9a68091b3d0858d8723e9656b076516ccba8c8137264818af536a528f",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-helixdragon",
+      "sheet": 12,
+      "jobId": "b40d97d9-e8dc-4a60-b6d7-26fb381cdd99",
+      "sourceSha256": "0de919e3003d08f65bec167d373770eb597d64b681870e37c1d036e5fb48b5a1",
+      "bounds": [
+        32,
+        24,
+        646,
+        668
+      ],
+      "edgeDistance": 9,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-helixdragon.webp",
+          "bytes": 136106,
+          "sha256": "7f57f5bee59d37a9ec9eecd8779346db46ad5c652b25f1b022dd7ed7b2b7d670",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-helixdragon-320.webp",
+          "bytes": 44126,
+          "sha256": "0a59cbfe05540410f037d37bb1e0d931c8c23ece22473ae3d577df864deaa553",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-fernsovereign",
+      "sheet": 12,
+      "jobId": "b40d97d9-e8dc-4a60-b6d7-26fb381cdd99",
+      "sourceSha256": "0de919e3003d08f65bec167d373770eb597d64b681870e37c1d036e5fb48b5a1",
+      "bounds": [
+        661,
+        16,
+        1260,
+        670
+      ],
+      "edgeDistance": 5,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-fernsovereign.webp",
+          "bytes": 149824,
+          "sha256": "3b2dba3ff9b4104c0e972ebfe98870b71ec727182ecca1411df7130d5fd795f5",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-fernsovereign-320.webp",
+          "bytes": 47152,
+          "sha256": "bec0129c9d98af2bc17a5290a0ef2aef3b54456b0b62047e113da5cde8cc2743",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-abyssfirmament",
+      "sheet": 12,
+      "jobId": "b40d97d9-e8dc-4a60-b6d7-26fb381cdd99",
+      "sourceSha256": "0de919e3003d08f65bec167d373770eb597d64b681870e37c1d036e5fb48b5a1",
+      "bounds": [
+        1330,
+        21,
+        2032,
+        669
+      ],
+      "edgeDistance": 3,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-abyssfirmament.webp",
+          "bytes": 136568,
+          "sha256": "013f0a82e30d67f4afe9987a2c541e22fd6528032e8c6d2fbccd81fa0fa6bc34",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-abyssfirmament-320.webp",
+          "bytes": 41796,
+          "sha256": "f3581262c48d7c29b7b61661248cf66dd9e5bb1b245c35ccca84bed9a2244cba",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-moltensunphoenix",
+      "sheet": 12,
+      "jobId": "b40d97d9-e8dc-4a60-b6d7-26fb381cdd99",
+      "sourceSha256": "0de919e3003d08f65bec167d373770eb597d64b681870e37c1d036e5fb48b5a1",
+      "bounds": [
+        28,
+        699,
+        655,
+        1337
+      ],
+      "edgeDistance": 19,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-moltensunphoenix.webp",
+          "bytes": 184648,
+          "sha256": "4d387acab257ba45b1c7e36603d714905d1cedeffda9ab6e1ca4c5e402a143dc",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-moltensunphoenix-320.webp",
+          "bytes": 60640,
+          "sha256": "e28e91c4aa4c70746c3b09c3f05d5c93a6c053c11b23e62a70f54479fb16c6b3",
+          "size": 320
+        }
+      ]
+    },
+    {
+      "id": "w5-meteorarmorbear",
+      "sheet": 12,
+      "jobId": "b40d97d9-e8dc-4a60-b6d7-26fb381cdd99",
+      "sourceSha256": "0de919e3003d08f65bec167d373770eb597d64b681870e37c1d036e5fb48b5a1",
+      "bounds": [
+        694,
+        735,
+        1336,
+        1331
+      ],
+      "edgeDistance": 18,
+      "files": [
+        {
+          "path": "public/assets/creatures-sixty/w5-meteorarmorbear.webp",
+          "bytes": 144054,
+          "sha256": "1b0d5bd3964b471a9cb5bd276996a01c945d24e5bc99683a6885e84037c04e6a",
+          "size": 640
+        },
+        {
+          "path": "public/assets/creatures-sixty/w5-meteorarmorbear-320.webp",
+          "bytes": 46100,
+          "sha256": "81aaf09ba1e40d532b2a006f525b9401e675d7421d1d609da0b92e548775da31",
+          "size": 320
+        }
+      ]
+    }
+  ]
+}

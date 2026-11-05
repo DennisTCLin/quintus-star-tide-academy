@@ -24,14 +24,14 @@ describe('permanent gacha receipt and shared odds', () => {
     for(const modern of [false,true]) {
       const s=modern?newOnboardingFamily():newFamily(),p=s.profiles.quintus;
       if(modern){drawStarter(s,'quintus',.9,0);confirmStarter(s,'quintus');}
-      const pool=companionDrawPool(p);expect(pool).toHaveLength(104);p.tickets=104;
+      const pool=companionDrawPool(p);expect(pool).toHaveLength(184);p.tickets=184;
       let offset=0;
       for(const rarity of RARITY_ORDER) {
         const tier=pool.filter(pet=>pet.rarity===rarity),roll=(offset+0.5)/10000;
         for(let i=0;i<tier.length;i++) expect(draw(s,'quintus',`pool-${rarity}-${i}`,roll,(i+.5)/tier.length,p.day).pet).toBe(tier[i].id);
         offset+=DRAW_WEIGHTS[rarity];
       }
-      expect(new Set(Object.keys(p.owned)).size).toBe(105);
+      expect(new Set(Object.keys(p.owned)).size).toBe(185);
     }
   });
   it('keeps the historical receipt valid after that card has been exchanged', () => {

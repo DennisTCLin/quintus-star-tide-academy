@@ -1,0 +1,39 @@
+{
+  "jobId": "f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa",
+  "quotedCredits": 1,
+  "params": {
+    "model": "gpt_image_2_5",
+    "variant": "flare",
+    "quality": "medium",
+    "resolution": "2k",
+    "background": "transparent",
+    "aspect_ratio": "3:2",
+    "count": 1,
+    "medias": [
+      {
+        "role": "image",
+        "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/aurorawolf.webp"
+      },
+      {
+        "role": "image",
+        "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/aetherdragon.webp"
+      },
+      {
+        "role": "image",
+        "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-hundred/w4-bellbadger.webp"
+      },
+      {
+        "role": "image",
+        "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-hundred/w4-clockstag.webp"
+      },
+      {
+        "role": "image",
+        "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-hundred/w4-silverwarden.webp"
+      }
+    ],
+    "prompt": "ART DIRECTION CORRECTION for existing fantasy RPG characters. Image 1 wolf and image 2 dragon are EXISTING HERO STYLE REFERENCES: match their painterly dimensional fantasy game rendering, directional light, cool shadows and restrained warm rim highlights, sculpted anatomy and elegant energetic silhouettes, but REMOVE their excessive fine patterns and sparkles. Images 3,4,5 are EDIT TARGET IDENTITIES ONLY; their overly cute toy proportions and plastic surfaces are REJECTED. Redesign those EXACT THREE identities, not the reference heroes. Three FULL BODY subjects side by side in an invisible three-column layout, generous margins and gaps, transparent background, NO text. LEFT: grey-and-white badger scout, anatomical longer torso and functional legs, confident focused small eyes and defined muzzle, one plain bronze bell-shield on chest. CENTER: slender white guardian stag, mature cervid leg/body proportions and proud neck, two bronze antlers shaped like clock hands, one teal forehead disc. RIGHT: regal silver quadruped dragon guardian with long strong neck, defined shoulders, powerful tapered legs, two broad angular wings and a single blue round chest core. All face three-quarter left. Style: heroic stylized fantasy RPG illustration, capable battle companions, confident composed expressions, sculpted broad fur clumps and broad armor plates, selective edge detail with large quiet surfaces, rich but controlled palette, sophisticated lighting. Maintain friendly adventure appeal but NOT baby animals or mascot toys. Smaller eyes than targets, less spherical skulls, no broad smiles, no chibi, no plush, no clay, no smooth vinyl toy sheen. NO dense scales, intricate runes, tiny feathers, gold filigree, all-over glowing veins, or decorative particles. Entire horns, wings, paws and tails visible. No scenery, pedestals or props except the defined equipment. Exactly three redesigned characters, not a comparison grid."
+  },
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png",
+  "status": "completed",
+  "scope": "Three-character style exploration only; production assets unchanged"
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05",
+  "roster": 375,
+  "classicCopiedAssets": 200,
+  "restoredOriginalCinematics": 9,
+  "build": "passed",
+  "testFiles": 5,
+  "testsPassed": 27,
+  "browser": {
+    "portraitsDecoded": 375,
+    "brokenPortraits": 0,
+    "videosMetadataAndPlayback": 9,
+    "mobileViewport": 390,
+    "mobileScrollWidth": 390
+  },
+  "productionAccountVerified": false,
+  "productionPlayerDataModified": false,
+  "levelInvestigation": "Source uses per-creature rarity and XP. No constant Lv4. Production Quintus state inaccessible via current DB route; Chrome logged in as DennisTC test only."
+}

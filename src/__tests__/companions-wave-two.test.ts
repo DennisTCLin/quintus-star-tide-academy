@@ -14,8 +14,8 @@ describe('fifty new collectible companions', () => {
   it('adds fifty unique identities with balanced element coverage and the requested rarity mix', () => {
     expect(NEW_COMPANIONS).toHaveLength(50);
     for (const field of ['id', 'name', 'catalogNumber'] as const)
-      expect(new Set(ROSTER.map(c => c[field])).size).toBe(215);
-    expect(BASE_ROSTER).toHaveLength(105);
+      expect(new Set(ROSTER.map(c => c[field])).size).toBe(375);
+    expect(BASE_ROSTER).toHaveLength(185);
     expect(CHARACTERS).toHaveLength(50);
     expect(NEW_COMPANIONS.map(c => c.catalogNumber)).toEqual(Array.from({length:50}, (_,i) => 86+i));
     expect(Object.fromEntries(['金','木','水','火','土'].map(e=>[e,NEW_COMPANIONS.filter(c=>c.element===e).length]))).toEqual({金:10,木:10,水:10,火:10,土:10});

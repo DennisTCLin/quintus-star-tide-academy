@@ -1,3 +1,6 @@
+import { withCreatureArt } from "./creature-art";
+import { WAVE5_MONSTERS } from "./monster-wave-five";
+import { WAVE6_MONSTERS } from "./monster-wave-six";
 import { RELEASED_WAVE4_MONSTERS } from "./monster-wave4";
 import { chooseRarity, ENCOUNTER_WEIGHTS } from "./rarity-odds";
 import type { Character, CharacterRarity } from "./characters";
@@ -15,6 +18,14 @@ export const MONSTER_FAMILIES = [
   {id:"titan",name:"星械",icon:"⚙️",habitat:"星鑄要塞",phase:"機械核心漸漸平穩了"},
   {id:"groveboss",name:"古森巨獸",icon:"🌳",habitat:"巨木禁林",phase:"巨獸收攏了枝甲"},
   {id:"abyssboss",name:"深海巨獸",icon:"🌊",habitat:"冰淵海溝",phase:"深海巨獸放鬆了護甲"},
+  {id:"frontier",name:"邊境靈獸",icon:"🌱",habitat:"星岸邊境",phase:"靈獸放下了戒心"},
+  {id:"wildguard",name:"荒野守衛",icon:"🛡️",habitat:"迴光荒野",phase:"守衛慢慢收起護甲"},
+  {id:"ancientlord",name:"遠古領主",icon:"🌟",habitat:"遠古星域",phase:"領主的星光漸漸平穩"},
+  {id:"wildsprout",name:"野境幼獸",icon:"🌱",habitat:"嫩芽邊境",phase:"幼獸慢慢放下戒心"},
+  {id:"frontierpack",name:"荒原獵獸",icon:"🐾",habitat:"遠風荒原",phase:"獵獸收起了利爪"},
+  {id:"primalguard",name:"元素守衛",icon:"💠",habitat:"原初谷地",phase:"元素的力量漸漸平靜"},
+  {id:"realmwarden",name:"秘境領主",icon:"🌙",habitat:"月影秘境",phase:"領主低下了頭"},
+  {id:"dragonreach",name:"遠境龍裔",icon:"🐉",habitat:"曙光龍境",phase:"龍裔收攏了雙翼"},
 ] as const;
 export const MONSTER_FORMS = [
   { id: "scout", name: "初階", levels: "練習提升 0–3 級", minLevel: 1, maxLevel: 4 },
@@ -124,7 +135,7 @@ const legacyCatalog: readonly Monster[] = entries.map(([name, feature, move], i)
 export const MONSTER_CATALOG: readonly Monster[] = [...legacyCatalog,...RELEASED_WAVE4_MONSTERS.map((m,i)=>({
   ...m,number:81+i,family:8+Math.floor(i/10),form:"warden" as const,
   image:`/assets/monsters/wave4/${m.id}.webp`,thumbnail:`/assets/monsters/wave4/${m.id}-320.webp`,
-}))];
+})), ...WAVE5_MONSTERS, ...WAVE6_MONSTERS].map(withCreatureArt);
 const byId = new Map(MONSTER_CATALOG.map(monster => [monster.id, monster]));
 export const monsterById = (id: unknown): Monster | undefined => typeof id === "string" ? byId.get(id) : undefined;
 export const monsterForm = (monster: Monster) => MONSTER_FORMS.find(form => form.id === monster.form)!;
@@ -146,7 +157,7 @@ export function chooseMonster(level: number, seed: number, previousFamily?: numb
 
 // Acquisition remains separate: these cards can be befriended in voyages, not drawn or bought.
 export const MONSTER_COMPANIONS: Character[] = MONSTER_CATALOG.map(monster => ({
-  id: monster.id, catalogNumber: (monster.number <= 30 ? 55 : 105) + monster.number, name: monster.name, nameEn: monster.id,
+  id: monster.id, catalogNumber: (monster.number <= 30 ? 55 : monster.number <= 110 ? 105 : monster.number <= 140 ? 135 : 185) + monster.number, name: monster.name, nameEn: monster.id,
   title: `${MONSTER_FAMILIES[monster.family].name}族的冒險夥伴`, rarity: monster.rarity, unlockAt: 0,
   image: monster.image, ...(monster.thumbnail ? { thumbnail: monster.thumbnail } : {}), alt: monster.name, element: monster.element, personality: "勇敢",
   story: monster.feature, artBrief: monster.feature, palette: "", tags: ["降服夥伴"],

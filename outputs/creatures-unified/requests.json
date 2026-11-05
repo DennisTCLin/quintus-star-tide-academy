@@ -1,0 +1,2147 @@
+[
+  {
+    "index": 1,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/tideglow-companion.png?v=ba59a555c79c"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/pebblefin.webp?v=c2ae6c567473"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/foamferret.webp?v=8e2d243b87a9"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/seasprout.webp?v=f945f15dfa63"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/mistotter.webp?v=ea88d22de642"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 潮光獸 (tideglow), 水 element, E rarity: 青綠色狐龍，雪白胸毛、鰭狀耳與發光蒼藍尾巴. 2. 石礁鰭 (pebblefin), 土 element, E rarity: 圓潤的水獺與魚鰭混合生物，石灰短毛、翠綠鰭邊與寬扁尾. 3. 泡沫貂 (foamferret), 水 element, E rarity: 修長海貂，奶油白毛、泡沫狀淡青尾巴與小型潮紋. 4. 海芽龜 (seasprout), 木 element, E rarity: 小型海龜，海草綠背甲、葉芽狀邊緣與淺青鰭足. 5. 霧潮獺 (mistotter), 水 element, E rarity: 溫柔海獺，霧藍短毛、乳白肚皮與水滴狀耳鰭. "
+    }
+  },
+  {
+    "index": 2,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/sailskipper.webp?v=e048dc5c7495"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/kelpcub.webp?v=5f93afc1db4b"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/shellmole.webp?v=10cc2f14312d"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/starheron.webp?v=32aba9dc1752"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/reefrabbit.webp?v=c86e3cab14dd"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 帆翼蛙 (sailskipper), 木 element, E rarity: 小型樹蛙，青瓷皮膚、帆形背鰭與深藍腳掌. 2. 藻潮熊 (kelpcub), 木 element, E rarity: 矮壯小熊，深綠毛、海藻狀圍頸與寬大腳掌. 3. 貝甲鼴 (shellmole), 金 element, E rarity: 圓鼻鼴混合貝類，深灰絨毛、珍珠貝背甲與寬爪. 4. 星汐鷺 (starheron), 金 element, E rarity: 修長幼鷺，淡藍羽毛、星點翼尖與細長深青腿. 5. 礁月兔 (reefrabbit), 土 element, E rarity: 珊瑚礁兔，沙白毛、珊瑚粉長耳內緣與月灣尾. "
+    }
+  },
+  {
+    "index": 3,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/bubbleyak.webp?v=5495ba09eebf"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/covegecko.webp?v=b52128055265"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/cloudsail-companion.png?v=e467c7f472c3"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/moonmanta.webp?v=0112f729be85"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/driftturtle.webp?v=98e4e5e14bc5"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 泡泡犛 (bubbleyak), 土 element, E rarity: 蓬鬆小犛，灰藍長毛、圓泡狀短角與寬扁鰭耳. 2. 灣光守宮 (covegecko), 土 element, E rarity: 寬趾守宮，深青皮膚、湖綠光點與尾端小灣紋. 3. 雲帆鹿 (cloudsail), 木 element, D rarity: 珍珠白幼鹿，雲霧藍毛、海璃帆形角與雲狀鬃毛. 4. 月帆魟 (moonmanta), 水 element, D rarity: 漂浮魟魚，月白腹面、深藍翼面與半透明帆狀翼緣. 5. 漂航龜 (driftturtle), 土 element, D rarity: 航海龜，青灰甲片、淡綠潮紋與帆布質感前鰭. "
+    }
+  },
+  {
+    "index": 4,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/coralhare.webp?v=65b83bb3ca4d"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/gullwolf.webp?v=79fb12789b9c"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/pearlbadger.webp?v=58ee090ab847"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/rainseal.webp?v=5ba4f8e78c99"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/compasscrab.webp?v=269f8bb5901b"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 珊枝兔 (coralhare), 木 element, D rarity: 細長兔，暈粉短毛、小珊瑚狀耳緣與貝光尾. 2. 海風狼 (gullwolf), 木 element, D rarity: 苗條幼狼，銀灰毛、海鷗翼狀耳簇與潮紋腳部. 3. 珠礁獾 (pearlbadger), 金 element, D rarity: 寬肩小獾，深藍白條紋毛、珍珠點背脊與貝光爪. 4. 雨紋海豹 (rainseal), 水 element, D rarity: 流線海豹，藍灰皮毛、雨滴狀斑點與珍珠翼鰭. 5. 羅盤蟹 (compasscrab), 金 element, D rarity: 圓甲蟹，靛藍甲殼、青金羅盤紋與小帆狀側鰭. "
+    }
+  },
+  {
+    "index": 5,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/cloudfinch.webp?v=be7398dfa52b"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/tidellama.webp?v=04f42ea3e618"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/coralflare-companion.png?v=569ac509d10f"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/lanternlynx.webp?v=be109dd0b836"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/currentowl.webp?v=0f20f35289cf"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 雲鰭雀 (cloudfinch), 火 element, D rarity: 圓翼雀鳥，雲白羽毛、半透明青藍翼緣與短金喙. 2. 潮角駝 (tidellama), 土 element, D rarity: 蓬鬆幼駝，米白捲毛、海藍波紋長頸與海璃小角. 3. 珊火鯨 (coralflare), 火 element, C rarity: 深青幼鯨，珊瑚橘發光翼鰭、半透明背帆與星點. 4. 燈潮猁 (lanternlynx), 火 element, C rarity: 短尾猁，深紫藍毛、燈籠狀耳簇與海璃前腿紋. 5. 流向鴞 (currentowl), 水 element, C rarity: 寬翼鴞，墨藍羽毛、洋流螺旋紋胸羽與海璃眼圈. "
+    }
+  },
+  {
+    "index": 6,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/seaglasspanda.webp?v=5c977bfa9764"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/cyclonedolphin.webp?v=a4241d56490a"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/sunkenram.webp?v=4063785b733d"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/reefgryphon.webp?v=796e9d648eb0"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/echojelly.webp?v=0ffc6da616c8"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 海璃貓熊 (seaglasspanda), 金 element, C rarity: 圓潤貓熊，白青雙色毛、海璃耳緣與幾何潮紋四肢. 2. 旋潮豚 (cyclonedolphin), 水 element, C rarity: 幼海豚，亮青灰皮膚、旋渦背鰭與海璃彎月尾. 3. 沉星盤羊 (sunkenram), 土 element, C rarity: 厚毛盤羊，深海藍羊毛、星點螺旋角與淡珊瑚蹄. 4. 礁翼獅鷲 (reefgryphon), 土 element, C rarity: 小型獅鷲，沙金前肢、青藍礁鱗後身與半透明翼鰭. 5. 回音水母 (echojelly), 水 element, C rarity: 飄浮水母，透明藍紫傘蓋、貝光邊緣與柔軟短觸手. "
+    }
+  },
+  {
+    "index": 7,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/aurorawolf.webp?v=27865020c654"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/stormibis.webp?v=96c060901327"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/mapleopard.webp?v=51bc330fe1a3"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/tideserpent.webp?v=77d47f5a6dc8"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/prismorca.webp?v=0d91b7e29c34"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 極潮狼 (aurorawolf), 火 element, B rarity: 流線幼狼，深藍分層毛、青綠極光背線與海璃爪. 2. 霧電朱鷺 (stormibis), 火 element, B rarity: 高挑朱鷺，霧灰層疊羽、電青翼緣與珍珠長喙. 3. 航圖豹 (mapleopard), 木 element, B rarity: 輕盈幼豹，深青層毛、金青航圖斑點與海璃尾環. 4. 潮環龍 (tideserpent), 水 element, B rarity: 友善短身水龍，青藍分層鱗、海璃鰭鬃與柔光環紋. 5. 稜潮虎鯨 (prismorca), 金 element, B rarity: 緊湊幼虎鯨，深藍光滑皮膚、稜彩翼鰭邊與珍珠腹線. "
+    }
+  },
+  {
+    "index": 8,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/cometcrane.webp?v=61f1a89a93e0"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/crystalboar.webp?v=9c5d3dee231b"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/nebulafox.webp?v=9ec0aa203761"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/atlaswhale.webp?v=e03f80b1e46f"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/opalgriffin.webp?v=e6a73f3098ec"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 彗帆鶴 (cometcrane), 火 element, B rarity: 細長鶴鳥，星白分層羽、彗青尾羽與半透明帆翼緣. 2. 璃甲野豬 (crystalboar), 金 element, B rarity: 結實幼野豬，深綠層毛、海璃肩甲與珍珠短獠牙. 3. 星霧狐 (nebulafox), 水 element, A rarity: 修長星狐，夜藍多層毛、星座雀斑與蛋白石尾尖. 4. 天圖鯨 (atlaswhale), 土 element, A rarity: 寬翼天空鯨，深青多層皮膚、銀青天圖細線與蛋白石背帆. 5. 歐泊獅鷲 (opalgriffin), 金 element, A rarity: 優雅幼獅鷲，珍珠毛羽、歐泊翼鰭與星圖雀斑前肢. "
+    }
+  },
+  {
+    "index": 9,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/solaraxolotl.webp?v=62ae8c117ccd"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/meridiantiger.webp?v=287f042ac91a"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/aurorakirin.webp?v=90da3669b0ca"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/eclipseowl.webp?v=53b47d86dfed"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/stellarmanta.webp?v=76ed42f3e3d1"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 曙光六角龍 (solaraxolotl), 火 element, A rarity: 六角龍狀水生夥伴，曙光桃色皮膚、蛋白石外鰓與星圖淡斑. 2. 經緯潮虎 (meridiantiger), 金 element, A rarity: 青藍幼虎，分層短毛、經緯航圖條紋與蛋白石眼紋. 3. 極航麟 (aurorakirin), 木 element, S rarity: 原創麟鹿混合夥伴，半透明青紫鬃毛、極光漸層鱗與雕刻潮紋角. 4. 蝕光夜鴞 (eclipseowl), 火 element, S rarity: 大翼夜鴞，夜藍羽毛、蝕光金青翼環與半透明雕刻尾羽. 5. 星界帆魟 (stellarmanta), 水 element, S rarity: 廣翼星魟，半透明深青翼面、極光邊緣與精細星潮蝕刻. "
+    }
+  },
+  {
+    "index": 10,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/tidephoenix.webp?v=442b8832093e"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/aetherdragon.webp?v=8cadc29b55ca"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/cosmicnautilus.webp?v=5c28f1176440"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/infinitywhale.webp?v=85984a21a991"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions/astraltide.webp?v=244a12fc5c0c"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 潮汐鳳鳥 (tidephoenix), 火 element, S rarity: 非火焰的海洋鳳鳥，青藍半透明羽、珊瑚暖光翼根與潮紋蝕刻尾. 2. 蒼穹璃龍 (aetherdragon), 金 element, SS rarity: 溫和四足璃龍，虹彩海璃鱗、精密航圖翼膜與柔和次表面光. 3. 宙海鸚鵡螺 (cosmicnautilus), 水 element, SS rarity: 漂浮鸚鵡螺，虹彩晶體螺殼、精密時序航圖紋與短柔觸手. 4. 無垠星鯨 (infinitywhale), 水 element, SS rarity: 流線大小適中星鯨，虹彩深海皮膚、晶體翼鰭與多層柔光星軌紋. 5. 星潮萬象獸 (astraltide), 土 element, SSS rarity: 原創鯨、狐與鳥的優雅混合生物，海洋到雲霧再到星光的連續材質轉換、複雜但清楚的萬象紋. "
+    }
+  },
+  {
+    "index": 11,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/garden/companions/maltese.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/garden/companions/pig.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/garden/companions/otter.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/garden/companions/fox.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/garden/companions/rabbit.webp"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 棉花糖 (maltese), 金 element, E rarity: 原注音航海團夥伴. 2. 奶茶 (pig), 土 element, E rarity: 原注音航海團夥伴. 3. 浪花 (otter), 水 element, E rarity: 原注音航海團夥伴. 4. 芒果 (fox), 火 element, E rarity: 原注音航海團夥伴. 5. 月亮 (rabbit), 木 element, E rarity: 原注音航海團夥伴. "
+    }
+  },
+  {
+    "index": 12,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-belljerboa.webp?v=f5b845a8cf1c"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-pinhedgehog.webp?v=eb23447473da"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-buttonbeetle.webp?v=ebe0a8287a38"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-mirrorpuffin.webp?v=f904a9437e6b"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-magnetmantis.webp?v=7fa20221bcd9"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 鈴耳跳鼠 (w2-belljerboa), 金 element, E rarity: 黃銅鈴耳與細長跳腿. 2. 銀針刺蝟 (w2-pinhedgehog), 金 element, E rarity: 圓鈍銀針與銅色鼻尖. 3. 銅鈕甲蟲 (w2-buttonbeetle), 金 element, E rarity: 銅鈕圓殼與鉚釘小腳. 4. 鏡羽海鸚 (w2-mirrorpuffin), 金 element, D rarity: 鏡面羽翼與黃銅鳥喙. 5. 磁環螳螂 (w2-magnetmantis), 金 element, D rarity: 磁鐵前臂與漂浮磁環. "
+    }
+  },
+  {
+    "index": 13,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-gearpangolin.webp?v=4cbb093e35d8"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-silvermarlin.webp?v=9a77ed53c13a"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-belljelly.webp?v=e81f1db691d7"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-scalebeast.webp?v=bacfeba676f9"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-gildedmyriapod.webp?v=4b236090c89f"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 齒輪穿山甲 (w2-gearpangolin), 金 element, C rarity: 齒輪鱗甲與螺旋尾巴. 2. 銀梭劍魚 (w2-silvermarlin), 金 element, B rarity: 銀色劍喙與金屬背帆. 3. 金鐘水母 (w2-belljelly), 金 element, A rarity: 鏤空金鐘與珍珠核心. 4. 星秤天獸 (w2-scalebeast), 金 element, S rarity: 天秤環角與六足黑金身軀. 5. 鎏金千足龍 (w2-gildedmyriapod), 金 element, SS rarity: 白金節甲與細密金足. "
+    }
+  },
+  {
+    "index": 14,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-mushroomfrog.webp?v=f5a68ea5adf5"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-podcaterpillar.webp?v=278036a003e6"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-mossbadger.webp?v=70a5580d97b1"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-flowersnail.webp?v=e07cc9e32e8f"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-bamboomantis.webp?v=5f6b71afc89e"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 蘑帽樹蛙 (w2-mushroomfrog), 木 element, E rarity: 蘑菇圓帽與葉片腳掌. 2. 豆莢毛蟲 (w2-podcaterpillar), 木 element, E rarity: 豆莢背部與藤鬚觸角. 3. 苔球小獾 (w2-mossbadger), 木 element, E rarity: 苔蘚軟背與耳邊蕨葉. 4. 花傘螺 (w2-flowersnail), 木 element, D rarity: 花瓣螺殼與花傘. 5. 竹節螳 (w2-bamboomantis), 木 element, D rarity: 竹節細腿與葉片前臂. "
+    }
+  },
+  {
+    "index": 15,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-berrysquirrel.webp?v=dbad8b5cc88f"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-mapleglider.webp?v=068464d1a3e7"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-orchidbee.webp?v=7e108e08c15a"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-banyansloth.webp?v=290aad4190e1"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-forestmoose.webp?v=a9779fd29ce9"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 莓冠松鼠 (w2-berrysquirrel), 木 element, C rarity: 莓果頭冠與蕨葉大尾. 2. 楓翼飛蜥 (w2-mapleglider), 木 element, C rarity: 楓葉滑翔膜與藤蔓捲尾. 3. 蘭舟蜂 (w2-orchidbee), 木 element, B rarity: 蘭花船帆翅與蜜露腹燈. 4. 古榕樹懶 (w2-banyansloth), 木 element, A rarity: 榕樹背冠與垂落氣根. 5. 森冠麋王 (w2-forestmoose), 木 element, SS rarity: 森林巨角與發光種子紋. "
+    }
+  },
+  {
+    "index": 16,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-dewmanatee.webp?v=2c3c12730166"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-bubbleanemone.webp?v=1705790cc163"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-rainduck.webp?v=80fe26fc3edc"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-ribbonskater.webp?v=e70824e0f731"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-icesquid.webp?v=c02e560a51d2"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 滴露海牛 (w2-dewmanatee), 水 element, E rarity: 露珠臉頰與水滴尾巴. 2. 泡泡海葵 (w2-bubbleanemone), 水 element, E rarity: 水泡觸手與珊瑚圓身. 3. 雨靴小鴨 (w2-rainduck), 水 element, D rarity: 雨靴腳掌與水傘尾羽. 4. 緞帶水黽 (w2-ribbonskater), 水 element, D rarity: 緞帶長腳與腳下水環. 5. 冰帆魷 (w2-icesquid), 水 element, C rarity: 透明冰帆與藍色腕足. "
+    }
+  },
+  {
+    "index": 17,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-springaxolotl.webp?v=7f3571602358"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-glassseahorse.webp?v=46586291fa5e"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-tideplatypus.webp?v=34f2270572aa"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-glacierbeluga.webp?v=7eb8ca39145f"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-abyssnautilus.webp?v=881c09c14edc"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 泉冠蠑螈 (w2-springaxolotl), 水 element, C rarity: 噴泉外鰓與水流背冠. 2. 琉璃海馬 (w2-glassseahorse), 水 element, B rarity: 琉璃曲身與珍珠捲尾. 3. 潮輪鴨嘴獸 (w2-tideplatypus), 水 element, B rarity: 水輪大尾與波紋皮毛. 4. 冰川白鯨 (w2-glacierbeluga), 水 element, A rarity: 冰川背甲與透亮冰紋. 5. 深潮星螺 (w2-abyssnautilus), 水 element, S rarity: 星海螺殼與漂浮月珠. "
+    }
+  },
+  {
+    "index": 18,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-embergecko.webp?v=c953f8e7aa80"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-sparrowcoal.webp?v=de5fcffb32d2"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-lanternfirefly.webp?v=da36779f7365"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-peppernewt.webp?v=d312423017b8"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-cinderrooster.webp?v=2ed8f5034e1b"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 火絨壁虎 (w2-embergecko), 火 element, E rarity: 火絨趾墊與發光圓尾尖. 2. 炭羽麻雀 (w2-sparrowcoal), 火 element, E rarity: 銅光羽緣與火焰眉羽. 3. 燈籠螢 (w2-lanternfirefly), 火 element, D rarity: 紅燈籠腹部與細緻薄翅. 4. 辣椒火螈 (w2-peppernewt), 火 element, D rarity: 辣椒圓身與柔軟火鰓. 5. 赤冠火雞 (w2-cinderrooster), 火 element, C rarity: 赤焰頭冠與扇形尾羽. "
+    }
+  },
+  {
+    "index": 19,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-furnaceboar.webp?v=298bc25d67ae"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-cometkangaroo.webp?v=359989e827ba"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-sunlotus.webp?v=3f5f4652c6e5"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-phoenixcricket.webp?v=65a2a4054c56"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-dawnmanticore.webp?v=9ac5204d779b"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 熔爐野豬 (w2-furnaceboar), 火 element, B rarity: 熔爐背甲與圓鈍黑曜牙. 2. 彗尾袋鼠 (w2-cometkangaroo), 火 element, B rarity: 彗星長尾與發光育兒袋. 3. 日輪蓮靈 (w2-sunlotus), 火 element, A rarity: 火焰蓮瓣與金色種子臉. 4. 鳳羽鳴蟬 (w2-phoenixcricket), 火 element, S rarity: 鳳凰長翅與黑曜節身. 5. 曙焰獅蠍 (w2-dawnmanticore), 火 element, SS rarity: 曙光鬃毛與日輪蠍尾. "
+    }
+  },
+  {
+    "index": 20,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-pebblewombat.webp?v=175f2fca13c4"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-claymole.webp?v=a622523a9223"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-sandfennec.webp?v=11fb818aef09"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-amberant.webp?v=957ff1b6ffd4"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-crystalstar.webp?v=ffccdb0e7fef"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 卵石袋熊 (w2-pebblewombat), 土 element, E rarity: 卵石斑毛與圓石肩甲. 2. 陶罐鼴鼠 (w2-claymole), 土 element, E rarity: 陶罐圓身與寬大挖土掌. 3. 砂帆耳狐 (w2-sandfennec), 土 element, D rarity: 砂岩巨耳與流砂尾巴. 4. 琥珀工蟻 (w2-amberant), 土 element, D rarity: 琥珀腹部與礦石胸甲. 5. 晶簇海星 (w2-crystalstar), 土 element, C rarity: 五角晶臂與圓潤石心. "
+    }
+  },
+  {
+    "index": 21,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-terracedillo.webp?v=d3d760f2bb0f"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-canyontapir.webp?v=6905f1708a03"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-geodeoctopus.webp?v=4a86b794e6ae"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-mountainyak.webp?v=c536488e9cc1"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/companions-wave-two/w2-worldtortoise.webp?v=67c90cb6f718"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 梯田犰狳 (w2-terracedillo), 土 element, C rarity: 梯田背甲與石質捲尾. 2. 峽谷山貘 (w2-canyontapir), 土 element, B rarity: 峽谷層紋與背上晶谷. 3. 晶洞章魚 (w2-geodeoctopus), 土 element, A rarity: 晶洞頭冠與琥珀吸盤. 4. 山脊岩犛 (w2-mountainyak), 土 element, S rarity: 山脊背峰與岩層彎角. 5. 萬象星陸龜 (w2-worldtortoise), 土 element, SSS rarity: 星陸龜殼與發光世界樹. "
+    }
+  },
+  {
+    "index": 22,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-magnetelephant.webp?v=0f28364bb775"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-sproutsloth.webp?v=6abd24d87771"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-dewdungong.webp?v=8a1debf73f67"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-stovepenguin.webp?v=c847cf3f5913"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-potwombat.webp?v=bbcd8189b30a"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 磁鼻小象 (w3-magnetelephant), 金 element, E rarity: 磁鐵長鼻與銅環小腳，會把迷路的金屬星片吸回來。. 2. 芽帽樹懶 (w3-sproutsloth), 木 element, E rarity: 嫩芽帽子遮著圓臉，慢慢伸出長臂給朋友擁抱。. 3. 露珠海牛 (w3-dewdungong), 水 element, E rarity: 透明露珠罩護住額頭，圓圓雙鰭推開柔和水紋。. 4. 暖爐企鵝 (w3-stovepenguin), 火 element, E rarity: 陶爐肚子亮著暖光，短翅輕拍就能帶來溫暖。. 5. 陶罐袋熊 (w3-potwombat), 土 element, E rarity: 陶罐護甲包住圓背，小爪子擅長在沙地挖寶。. "
+    }
+  },
+  {
+    "index": 23,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-copperflyfish.webp?v=2860e651d72e"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-lotusfrog.webp?v=a092a8b44bea"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-icebellseal.webp?v=bb3a4be1aec1"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-wickcamel.webp?v=9cff1f2bd9a7"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-wheatmarmot.webp?v=fa6d179b3c3d"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 銅翼飛魚 (w3-copperflyfish), 金 element, D rarity: 銅製扇鰭迎風展開，羅盤尾環指引前進方向。. 2. 蓮葉跳蛙 (w3-lotusfrog), 木 element, D rarity: 長腿頂著蓮葉小傘，背上的花苞隨步伐搖晃。. 3. 冰鈴海豹 (w3-icebellseal), 水 element, D rarity: 冰晶鈴鐺圍著脖子，滑行時灑出細碎霜光。. 4. 燈芯小駝 (w3-wickcamel), 火 element, D rarity: 燈籠駝峰照亮夜路，垂耳上的流蘇一閃一閃。. 5. 麥穗土撥鼠 (w3-wheatmarmot), 土 element, D rarity: 麥穗鬍鬚隨風輕動，砂岩肩甲護著小小身體。. "
+    }
+  },
+  {
+    "index": 24,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-harphummingbird.webp?v=67358587f0f5"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-flutemantis.webp?v=08053c3979bf"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-mirrorcuttle.webp?v=30bfd821435b"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-tinderfennec.webp?v=bf0570e8e26e"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-hourglassshrew.webp?v=568ef18d3140"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 銀弦蜂鳥 (w3-harphummingbird), 金 element, C rarity: 銀弦羽翼細密透亮，振翅像彈奏一首輕快小曲。. 2. 竹笛螳螂 (w3-flutemantis), 木 element, C rarity: 細長竹臂與葉翼相連，安靜聆聽森林的風聲。. 3. 潮鏡墨魚 (w3-mirrorcuttle), 水 element, C rarity: 圓鏡背甲映出月光，柔軟觸鬚把水紋編成絲帶。. 4. 火絨耳狐 (w3-tinderfennec), 火 element, C rarity: 大耳朵像兩團火絨，捲尾閃著暖暖的星火。. 5. 砂漏長嘴獸 (w3-hourglassshrew), 土 element, C rarity: 長嘴與大腳穿梭沙地，胸前的砂漏記錄每次探索。. "
+    }
+  },
+  {
+    "index": 25,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-giltfancrane.webp?v=0e8954ba98d9"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-flowercapybara.webp?v=0cc65b78a699"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-starbubbleoctopus.webp?v=b7da5f6e2774"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-coalroadrunner.webp?v=e41a7fd40f41"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-glassarmadillo.webp?v=16392ab72c31"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 鎏金扇鶴 (w3-giltfancrane), 金 element, B rarity: 層層金扇羽毛展成長翼，細長雙腿走出優雅步伐。. 2. 花鐘水豚 (w3-flowercapybara), 木 element, B rarity: 背上花亭開著小花，安穩坐著就能讓朋友放鬆。. 3. 星泡章魚 (w3-starbubbleoctopus), 水 element, B rarity: 星紋圓頭閃著藍光，八條腕足捲起透明水泡。. 4. 炭羽走鵑 (w3-coalroadrunner), 火 element, B rarity: 炭色長羽包著火光，奔跑時金色頭冠迎風飛揚。. 5. 琉璃犰狳 (w3-glassarmadillo), 土 element, B rarity: 琉璃甲片像拼好的寶石，低低的身體穩穩前進。. "
+    }
+  },
+  {
+    "index": 26,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-balancevulture.webp?v=3a1d18f16e26"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-vinegiraffe.webp?v=3720d9b388ce"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-moonsailfish.webp?v=19ab53eb2cad"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-sunsetpeacock.webp?v=1f7177ee5e8b"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-jadeibex.webp?v=9abadc0b1455"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 天秤靈鷲 (w3-balancevulture), 金 element, A rarity: 銀白鬃羽襯著金色翅膀，安靜觀察航路上的變化。. 2. 星藤長頸鹿 (w3-vinegiraffe), 木 element, A rarity: 花枝鹿角伸向天空，長頸上纏著細細星藤。. 3. 月帆旗魚 (w3-moonsailfish), 水 element, A rarity: 月牙般的透明帆鰭展開，長吻劃過清亮水流。. 4. 赤霞孔雀 (w3-sunsetpeacock), 火 element, A rarity: 落霞般的尾屏閃著金眼羽紋，展翅時灑下火光。. 5. 玉階盤角羊 (w3-jadeibex), 土 element, A rarity: 階梯狀玉角高高彎起，岩石蹄子輕踏山路。. "
+    }
+  },
+  {
+    "index": 27,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-polarmechdeer.webp?v=efa4f75821a5"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-dreamtapir.webp?v=7c5e29942aa9"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-rainbowmanta.webp?v=7c8eddda9951"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-suncrestlion.webp?v=f954200aa9d4"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w3-stardunetortoise.webp?v=e20ca45abc47"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 極星機巧鹿 (w3-polarmechdeer), 金 element, S rarity: 白金機巧身軀映著極光，晶角旁的星儀慢慢旋轉。. 2. 千葉夢貘 (w3-dreamtapir), 木 element, S rarity: 背上花林盛開，長鼻聞得到夢境裡的青草香。. 3. 虹潮蝠鱝 (w3-rainbowmanta), 水 element, S rarity: 虹彩大鰭如星空絲綢，長尾拖著水晶光帶。. 4. 曜日冠獅 (w3-suncrestlion), 火 element, S rarity: 日輪鬃毛由火焰花瓣組成，昂首時金光照亮航道。. 5. 星砂巨龜 (w3-stardunetortoise), 土 element, S rarity: 龜背上的星台環繞晶柱，穩穩守護星砂平原。. "
+    }
+  },
+  {
+    "index": 28,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/cloud-scout-metal.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/cloud-scout-wood.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/cloud-scout-water.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/cloud-scout-fire.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/cloud-scout-earth.webp?v=82e19a5a7587"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 金羽雲靈 (cloud-scout-metal), 金 element, E rarity: 銀白羽毛藏著金色羽刃，振翅時像小小的流星。. 2. 青枝雲鹿 (cloud-scout-wood), 木 element, E rarity: 雲朵鬃毛裡開著小花，樹枝般的鹿角能帶來新芽。. 3. 碧波雲鰭 (cloud-scout-water), 水 element, D rarity: 半透明的雙鰭像海浪，長尾巴會留下亮亮的水紋。. 4. 焰尾雲狐 (cloud-scout-fire), 火 element, D rarity: 耳尖和捲尾燃著暖暖火光，跑起來會灑出火星。. 5. 砂角雲羊 (cloud-scout-earth), 土 element, C rarity: 砂岩彎角十分堅固，身旁的小石頭會跟著牠轉。. "
+    }
+  },
+  {
+    "index": 29,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/cloud-warden-metal.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/cloud-warden-wood.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/cloud-warden-water.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/cloud-warden-fire.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/cloud-warden-earth.webp?v=82e19a5a7587"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 金翼天隼 (cloud-warden-metal), 金 element, B rarity: 金屬巨翼劃過雲層，是守望高空的威風獵手。. 2. 蒼木雲龍 (cloud-warden-wood), 木 element, B rarity: 枝角與葉翼連成一片森林，飛過之處綠意甦醒。. 3. 滄海雲鯨 (cloud-warden-water), 水 element, A rarity: 捲起巨浪般的雲身，深藍雙鰭能引導整片水流。. 4. 赤焰天凰 (cloud-warden-fire), 火 element, A rarity: 火紅雙翼照亮夜空，金色尾羽像一條流動星河。. 5. 磐角雲王 (cloud-warden-earth), 土 element, S rarity: 厚實岩甲包住肩膀，巨角下盤旋著一圈砂雲。. "
+    }
+  },
+  {
+    "index": 30,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/crab-scout-metal.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/crab-scout-wood.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/crab-scout-water.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/crab-scout-fire.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/crab-scout-earth.webp?v=82e19a5a7587"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 銀甲齒輪蟹 (crab-scout-metal), 金 element, E rarity: 圓殼像一面金屬盾，大鉗與齒輪一起閃閃發亮。. 2. 苔枝寄居蟹 (crab-scout-wood), 木 element, D rarity: 把小樹和蘑菇種在殼上，鉗子像彎彎的樹根。. 3. 泡珠潮蟹 (crab-scout-water), 水 element, D rarity: 透明貝殼藏著珍珠，揮鉗時會冒出一串水泡。. 4. 熔殼火蟹 (crab-scout-fire), 火 element, C rarity: 火山般的背殼冒著熱氣，大鉗映出橘紅光芒。. 5. 砂丘岩蟹 (crab-scout-earth), 土 element, E rarity: 岩殼有一層層砂紋，鏟形大鉗擅長推開沙丘。. "
+    }
+  },
+  {
+    "index": 31,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/crab-warden-metal.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/crab-warden-wood.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/crab-warden-water.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/crab-warden-fire.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/crab-warden-earth.webp?v=82e19a5a7587"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 金城堡壘蟹 (crab-warden-metal), 金 element, B rarity: 背著金色尖塔城堡，巨大的金屬鉗像兩面城門。. 2. 古樹森王蟹 (crab-warden-wood), 木 element, A rarity: 背上的古樹長成綠色傘蓋，粗壯樹根化成蟹鉗。. 3. 深藍珊瑚王 (crab-warden-water), 水 element, A rarity: 藍色珊瑚像海底宮殿，雙鉗捲起彎月般的浪花。. 4. 黑曜熔岩蟹 (crab-warden-fire), 火 element, S rarity: 黑曜石巨殼包住熔岩，裂縫透出明亮的火光。. 5. 峽谷巨岩蟹 (crab-warden-earth), 土 element, B rarity: 背甲像一整座峽谷，琥珀石柱隨腳步微微震動。. "
+    }
+  },
+  {
+    "index": 32,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/golem-scout-metal.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/golem-scout-wood.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/golem-scout-water.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/golem-scout-fire.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/golem-scout-earth.webp?v=82e19a5a7587"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 金晶幼像 (golem-scout-metal), 金 element, D rarity: 鑽石般的胸口閃著白光，金色肩晶像小小護盾。. 2. 藤玉幼像 (golem-scout-wood), 木 element, D rarity: 綠藤把玉石連在一起，頭頂葉片隨心情晃動。. 3. 水晶幼像 (golem-scout-water), 水 element, C rarity: 透亮身體像流動的水，胸前藍色寶珠輕輕旋轉。. 4. 赤晶幼像 (golem-scout-fire), 火 element, E rarity: 紅晶石與黑岩相連，額頭火苗在出招時變亮。. 5. 琥珀幼像 (golem-scout-earth), 土 element, E rarity: 圓圓的岩石手腳很穩，肩上晶洞裝滿金色光點。. "
+    }
+  },
+  {
+    "index": 33,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/golem-warden-metal.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/golem-warden-wood.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/golem-warden-water.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/golem-warden-fire.webp?v=82e19a5a7587"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/golem-warden-earth.webp?v=82e19a5a7587"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 白金晶皇 (golem-warden-metal), 金 element, A rarity: 巨型金晶排成王冠，白金重甲守護著鑽石核心。. 2. 古森玉巨像 (golem-warden-wood), 木 element, A rarity: 樹冠般的晶角高高展開，藤臂守護古老森林。. 3. 冰瀑晶巨像 (golem-warden-water), 水 element, S rarity: 冰藍披甲像凝結的瀑布，巨拳帶著晶亮水紋。. 4. 熔冠赤巨像 (golem-warden-fire), 火 element, B rarity: 熔岩王冠燃起赤光，黑色重甲護住炙熱核心。. 5. 山嶽琥珀王 (golem-warden-earth), 土 element, B rarity: 肩背長出山峰與琥珀石柱，每一步都穩如大山。. "
+    }
+  },
+  {
+    "index": 34,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/moth-scout-metal.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/moth-scout-wood.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/moth-scout-water.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/moth-scout-fire.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/moth-scout-earth.webp?v=wave3-20261025"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 銀鈴月蛾 (moth-scout-metal), 金 element, D rarity: 銀色月牙翅與鈴形觸角，振翅時灑出細碎星光。. 2. 蘭葉燈蛾 (moth-scout-wood), 木 element, C rarity: 花瓣與綠葉交疊成翅，枝形觸角尋找花香。. 3. 水珠月蛾 (moth-scout-water), 水 element, E rarity: 透明水滴翅包著珍珠光，尾部像一滴月光。. 4. 暖燈火蛾 (moth-scout-fire), 火 element, E rarity: 小燈籠般的腹部亮著暖火，翅尖帶著火苗。. 5. 晶角琥蛾 (moth-scout-earth), 土 element, D rarity: 圓翅刻著岩石紋路，琥珀觸角閃閃發亮。. "
+    }
+  },
+  {
+    "index": 35,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/moth-warden-metal.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/moth-warden-wood.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/moth-warden-water.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/moth-warden-fire.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/moth-warden-earth.webp?v=wave3-20261025"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 銀輪蛾皇 (moth-warden-metal), 金 element, A rarity: 齒輪光環襯著刻紋巨翼，銀刃沿著翅緣展開。. 2. 古蕨蛾后 (moth-warden-wood), 木 element, S rarity: 巨大的蕨葉翅圍著花枝王冠，守望整座花谷。. 3. 瀑翼潮后 (moth-warden-water), 水 element, B rarity: 水晶雙翼垂下細小瀑布，珍珠王冠映著月色。. 4. 曜日燈凰 (moth-warden-fire), 火 element, B rarity: 火焰巨翼圍繞明亮燈心，振翅像日光升起。. 5. 岩冠晶蛾 (moth-warden-earth), 土 element, A rarity: 層層晶洞巨翼托著岩冠，沉穩守護星燈花谷。. "
+    }
+  },
+  {
+    "index": 36,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/newt-scout-metal.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/newt-scout-wood.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/newt-scout-water.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/newt-scout-fire.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/newt-scout-earth.webp?v=wave3-20261025"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 銀鰓靈螈 (newt-scout-metal), 金 element, C rarity: 小劍般的銀色外鰓立在臉旁，短腿踏出輕快步伐。. 2. 蕨尾靈螈 (newt-scout-wood), 木 element, E rarity: 葉片外鰓隨風擺動，細枝尾巴長著嫩芽。. 3. 泡珠靈螈 (newt-scout-water), 水 element, E rarity: 珍珠外鰓與透亮尾鰭，游過時留下一串泡泡。. 4. 燼尾火螈 (newt-scout-fire), 火 element, D rarity: 暖紅外鰓像火星，彎尾亮著不燙人的小火光。. 5. 砂鰓靈螈 (newt-scout-earth), 土 element, D rarity: 圓石外鰓圍著笑臉，琥珀背甲藏著細沙。. "
+    }
+  },
+  {
+    "index": 37,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/newt-warden-metal.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/newt-warden-wood.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/newt-warden-water.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/newt-warden-fire.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/newt-warden-earth.webp?v=wave3-20261025"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 白金槍螈 (newt-warden-metal), 金 element, S rarity: 白金盾甲包住身體，長槍般的外鰓閃著銀光。. 2. 古柳森螈 (newt-warden-wood), 木 element, B rarity: 柳根鬚鰓垂向水面，森林長尾帶來新生綠意。. 3. 深潮冠螈 (newt-warden-water), 水 element, B rarity: 珊瑚王冠與瀑布尾鰭，緩緩引領月泉水流。. 4. 熔甲炎螈 (newt-warden-fire), 火 element, A rarity: 熔岩護甲包著暖紅身軀，背上的火帆高高展開。. 5. 山晶巨螈 (newt-warden-earth), 土 element, A rarity: 水晶山峰般的外鰓與寬大岩尾，站得穩穩當當。. "
+    }
+  },
+  {
+    "index": 38,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/pangolin-scout-metal.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/pangolin-scout-wood.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/pangolin-scout-water.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/pangolin-scout-fire.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/pangolin-scout-earth.webp?v=wave3-20261025"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 銀錢鱗獸 (pangolin-scout-metal), 金 element, E rarity: 圓圓銀錢鱗片蓋住背部，星形鼻尖四處嗅探。. 2. 松果鱗獸 (pangolin-scout-wood), 木 element, E rarity: 松果鱗片冒出新芽，苔綠小爪踏過落葉。. 3. 珠貝鱗獸 (pangolin-scout-water), 水 element, D rarity: 貝殼鱗片藏著珍珠光，波浪尾巴輕輕捲起。. 4. 炭星鱗獸 (pangolin-scout-fire), 火 element, D rarity: 煤石鱗片間透著星火，背部小孔冒出暖暖光點。. 5. 蜜晶鱗獸 (pangolin-scout-earth), 土 element, C rarity: 蜜色晶鱗圍著圓身，砂岩小爪擅長挖寶。. "
+    }
+  },
+  {
+    "index": 39,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/pangolin-warden-metal.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/pangolin-warden-wood.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/pangolin-warden-water.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/pangolin-warden-fire.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/pangolin-warden-earth.webp?v=wave3-20261025"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 金盾鱗騎 (pangolin-warden-metal), 金 element, B rarity: 重疊金盾構成護甲，巨型尾甲守住整條山道。. 2. 古木鱗衛 (pangolin-warden-wood), 木 element, B rarity: 樹皮厚甲與濃綠冠葉，肩背像一座移動森林。. 3. 冰礁鱗王 (pangolin-warden-water), 水 element, A rarity: 冰藍鱗甲排列如浪，珊瑚巨角映著海底光芒。. 4. 熔脊鱗王 (pangolin-warden-fire), 火 element, A rarity: 黑岩厚甲包著熔光，巨尾上的火脊層層豎起。. 5. 山嶺鱗皇 (pangolin-warden-earth), 土 element, S rarity: 巨大岩鱗上長出晶柱，寬厚背脊像連綿山嶺。. "
+    }
+  },
+  {
+    "index": 40,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/sprite-scout-metal.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/sprite-scout-wood.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/sprite-scout-water.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/sprite-scout-fire.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/sprite-scout-earth.webp?v=wave3-20261025"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 銀傘菇靈 (sprite-scout-metal), 金 element, E rarity: 銀鈴傘帽遮著圓臉，短短金屬手臂喜歡打招呼。. 2. 花帽菇靈 (sprite-scout-wood), 木 element, D rarity: 花瓣傘帽與葉片披風，橡實小包收藏森林禮物。. 3. 水滴菇靈 (sprite-scout-water), 水 element, D rarity: 透明水滴傘帽搖搖晃晃，珍珠小手亮晶晶。. 4. 炭足火菇 (sprite-scout-fire), 火 element, C rarity: 橘紅傘帽像溫暖夜燈，木炭小腳踏出火花。. 5. 晶洞菇靈 (sprite-scout-earth), 土 element, E rarity: 晶洞傘帽藏著琥珀，厚厚岩靴走得很穩。. "
+    }
+  },
+  {
+    "index": 41,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/sprite-warden-metal.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/sprite-warden-wood.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/sprite-warden-water.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/sprite-warden-fire.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/sprite-warden-earth.webp?v=wave3-20261025"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 金塔菇騎 (sprite-warden-metal), 金 element, B rarity: 金屬塔形傘冠高高聳立，盾形雙手守護同伴。. 2. 古橡菇賢 (sprite-warden-wood), 木 element, A rarity: 寬闊森林傘冠與苔蘚長鬚，陪伴古樹慢慢成長。. 3. 瀑傘潮靈 (sprite-warden-water), 水 element, A rarity: 瀑布沿著巨傘流下，珊瑚法杖引來清亮潮聲。. 4. 熔頂巨菇 (sprite-warden-fire), 火 element, S rarity: 火山口般的傘冠亮著火光，黑曜拳頭十分堅固。. 5. 峽岩菇王 (sprite-warden-earth), 土 element, B rarity: 層層砂岩傘冠護住琥珀身軀，穩穩站在峽谷間。. "
+    }
+  },
+  {
+    "index": 42,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/drake-scout-metal.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/drake-scout-wood.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/drake-scout-water.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/drake-scout-fire.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/drake-scout-earth.webp?v=wave3-20261025"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 銀羅盤龍 (drake-scout-metal), 金 element, D rarity: 銀色細鰭像羅盤指針，星冠與捲尾指向航路。. 2. 海蕨幼龍 (drake-scout-wood), 木 element, D rarity: 葉角與蕨鰭隨水飄動，細長尾巴捲著海草。. 3. 珠泡幼龍 (drake-scout-water), 水 element, C rarity: 珍珠身軀與透明浪鰭，尾尖輕輕吐出泡泡。. 4. 燼鬃幼龍 (drake-scout-fire), 火 element, E rarity: 火焰小鬃毛圍著額頭，橘色玻璃鰭閃著暖光。. 5. 砂甲幼龍 (drake-scout-earth), 土 element, E rarity: 砂石甲片與琥珀小角，彎尾像一條金色海岸。. "
+    }
+  },
+  {
+    "index": 43,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/drake-warden-metal.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/drake-warden-wood.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/drake-warden-water.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/drake-warden-fire.webp?v=wave3-20261025"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/drake-warden-earth.webp?v=wave3-20261025"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 白金星龍 (drake-warden-metal), 金 element, A rarity: 白金刃鰭與金色頭冠，捲尾托著細碎星光。. 2. 古灣森龍 (drake-warden-wood), 木 element, A rarity: 紅樹般的枝角向外伸展，森林長鰭拖出綠色水紋。. 3. 深淵瀑龍 (drake-warden-water), 水 element, S rarity: 發光珊瑚王冠與巨大瀑布鰭，引領深海的潮汐。. 4. 曜日炎龍 (drake-warden-fire), 火 element, B rarity: 日焰王冠與流動鳳羽鰭，身體像一條暖金星河。. 5. 化石岩龍 (drake-warden-earth), 土 element, B rarity: 層疊峽岩護甲裹著古老身軀，金晶長鰭照亮龍灣。. "
+    }
+  },
+  {
+    "index": 44,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-metal-01.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-metal-02.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-metal-03.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-metal-04.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-metal-05.webp"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 星鑄裁決者 (wave4-metal-01), 金 element, B rarity: 六臂重甲環繞星環核心，巨盾同時展開。. 2. 鋼翼天災龍 (wave4-metal-02), 金 element, A rarity: 刀羽巨翼一片片扣合，鋼鐵龍軀盤踞高空。. 3. 重裝獅皇 (wave4-metal-03), 金 element, B rarity: 渦輪鬃毛圍住獅首，厚甲壓低迎擊。. 4. 天穹堡壘獸 (wave4-metal-04), 金 element, S rarity: 寬闊翼甲托起堡壘，像移動的空中城牆。. 5. 雷鑽獨角王 (wave4-metal-05), 金 element, B rarity: 巨鑽角與厚鋼甲連成一體，踏步震動地面。. "
+    }
+  },
+  {
+    "index": 45,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-metal-06.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-metal-07.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-metal-08.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-metal-09.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-metal-10.webp"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 軌道戰蠍 (wave4-metal-06), 金 element, A rarity: 長尾如軌道重砲，巨鉗守住兩側。. 2. 磁環蛇帝 (wave4-metal-07), 金 element, B rarity: 磁力環盤繞長軀，巨蛇昂首蓄力。. 3. 金剛六足王 (wave4-metal-08), 金 element, S rarity: 六足支撐重裝堡壘，機械關節穩穩推進。. 4. 斷空刃鷲 (wave4-metal-09), 金 element, B rarity: 層層刃羽組成巨翼，銳利頭冠俯視大地。. 5. 齒輪巨顎 (wave4-metal-10), 金 element, A rarity: 齒輪脊甲扣住長尾，機械巨顎緩緩張開。. "
+    }
+  },
+  {
+    "index": 46,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-wood-11.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-wood-12.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-wood-13.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-wood-14.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-wood-15.webp"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 古森機神 (wave4-wood-11), 木 element, B rarity: 古樹纏住機械重甲，綠色核心在胸前亮起。. 2. 荊冠暴君 (wave4-wood-12), 木 element, A rarity: 荊棘肩甲包住巨臂，猩猩以雙拳守護森林。. 3. 神木巨象 (wave4-wood-13), 木 element, B rarity: 巨象背上長著古木聖殿，長牙如兩道城門。. 4. 翠甲螳皇 (wave4-wood-14), 木 element, S rarity: 鐮形巨臂收在身側，葉甲層層掩護身體。. 5. 藤鎖九頭獸 (wave4-wood-15), 木 element, B rarity: 九個枝冠龍首一起轉向，根系連成龐大身軀。. "
+    }
+  },
+  {
+    "index": 47,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-wood-16.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-wood-17.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-wood-18.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-wood-19.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-wood-20.webp"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 孢子戰車王 (wave4-wood-16), 木 element, A rarity: 菌甲沿著野豬背脊隆起，粗壯獠牙撐開藤蔓。. 2. 森羅鹿帝 (wave4-wood-17), 木 element, B rarity: 鹿角像森林高塔，苔甲包覆壯碩身軀。. 3. 棘翼魔王 (wave4-wood-18), 木 element, S rarity: 荊棘巨翼展開，倒鉤甲片連成一道屏障。. 4. 碧核巨熊 (wave4-wood-19), 木 element, B rarity: 巨熊胸前的種子爐心發亮，木甲守住肩背。. 5. 根脈盤龍 (wave4-wood-20), 木 element, A rarity: 古根扭成龍身，枝角與巨爪緩緩舒展。. "
+    }
+  },
+  {
+    "index": 48,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-water-21.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-water-22.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-water-23.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-water-24.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-water-25.webp"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 深淵鐵鯨 (wave4-water-21), 水 element, B rarity: 潛航巨鯨披著鋼甲，深藍核心照亮腹部。. 2. 冰冠九首龍 (wave4-water-22), 水 element, A rarity: 九顆冰晶龍首高高昂起，寒甲環住厚重身軀。. 3. 寒潮戰艦獸 (wave4-water-23), 水 element, B rarity: 冰刃巨翼向兩側展開，魟魚穩穩滑行。. 4. 渦流巨章 (wave4-water-24), 水 element, S rarity: 八條機械觸臂環繞主體，吸盤如一圈圈護盾。. 5. 霜刃虎王 (wave4-water-25), 水 element, B rarity: 劍齒探出冰甲，巨虎踩著厚實霜爪前進。. "
+    }
+  },
+  {
+    "index": 49,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-water-26.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-water-27.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-water-28.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-water-29.webp"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/monsters/wave4/wave4-water-30.webp"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 幽海機魟 (wave4-water-26), 水 element, A rarity: 深海巨翼像暗藍盾牌，發光紋路沿翼緣延伸。. 2. 極冰雙顎 (wave4-water-27), 水 element, B rarity: 兩顆蛇首彼此守望，長軀盤起潮汐巨環。. 3. 海嘯鋼鯊 (wave4-water-28), 水 element, S rarity: 鎚形鯊首配上重裝鰭甲，巨尾帶動整個身軀。. 4. 凍星巨龜 (wave4-water-29), 水 element, B rarity: 冰川龜甲像一座高山，四足穩穩守住地面。. 5. 滄溟王座獸 (wave4-water-30), 水 element, A rarity: 額前明燈照亮巨顎，深海鎧甲護住厚重身體。. "
+    }
+  },
+  {
+    "index": 50,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-hookspider.webp?v=402a4a7f6305"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-mosssnail.webp?v=be638cf67e65"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-tideurn.webp?v=ecc7bed52c1d"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-coalrooster.webp?v=1d74d3366989"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-crackedsalamander.webp?v=163cf27db88d"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 鐵鉤跳蛛 (w5-hookspider), 金 element, E rarity: 鐵鉤前足與鉚釘圓腹相連，跳躍時閃出金屬亮光。. 2. 苔燈蝸牛 (w5-mosssnail), 木 element, E rarity: 樹樁殼裡點著暖燈，蕨葉眼柄警戒四周動靜。. 3. 潮壺寄居靈 (w5-tideurn), 水 element, E rarity: 裂紋陶壺護住發光雙眼，水流小腳悄悄移動。. 4. 煤球鬥雞 (w5-coalrooster), 火 element, E rarity: 煤黑尾羽高高翹起，火紅雞冠在衝刺時發亮。. 5. 裂岩蠑螈 (w5-crackedsalamander), 土 element, E rarity: 砂岩鱗片層層相疊，晶角與寬尾一起迎向對手。. "
+    }
+  },
+  {
+    "index": 51,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-steelcatfish.webp?v=9d231ae684b5"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-vinecage.webp?v=8b8027ac50fa"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-mistumbrella.webp?v=b9a9e9d29646"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-furnacebeetle.webp?v=9b507a310700"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-drumlizard.webp?v=dfcd384ecf6e"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 鋼鬚鯰衛 (w5-steelcatfish), 金 element, D rarity: 鋼板鰭護住厚實身軀，長鬚像兩把銀色短槍。. 2. 藤籠棘球 (w5-vinecage), 木 element, D rarity: 藤條圍成尖刺圓籠，根腳牢牢抓住林間地面。. 3. 霧傘水母 (w5-mistumbrella), 水 element, D rarity: 霧色傘冠緩緩漂浮，藍色長觸鬚捲起水流。. 4. 熔盔甲蟲 (w5-furnacebeetle), 火 element, D rarity: 熔爐頭角透出火光，黑色重甲保護堅硬前足。. 5. 砂鼓角蜥 (w5-drumlizard), 土 element, D rarity: 圓形砂鼓立在背上，短角與岩足隨震波發亮。. "
+    }
+  },
+  {
+    "index": 52,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-mirrormantis.webp?v=eeeae9a01a6d"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-thornporcupine.webp?v=435fad7339a6"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-vortexnautilus.webp?v=0d0aa8acb787"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-cinderbat.webp?v=061d1cd014a8"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-hammerdevil.webp?v=fcb66faec2c9"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 鏡甲劍螳 (w5-mirrormantis), 金 element, C rarity: 鏡面翅甲折射光芒，銀色前臂交錯成雙刃。. 2. 荊冠豪豬 (w5-thornporcupine), 木 element, C rarity: 荊棘與木刺向外張開，護住低伏的圓身。. 3. 漩齒鸚鵡螺 (w5-vortexnautilus), 水 element, C rarity: 螺旋玻璃殼蓄著潮光，柔韌腕足掀起漩渦。. 4. 燼翼蝠王 (w5-cinderbat), 火 element, C rarity: 火星沿著寬大翼膜流動，叉形耳冠聽見細小動靜。. 5. 岩槌袋獾 (w5-hammerdevil), 土 element, C rarity: 粗壯尾端凝成岩槌，石甲肩膀迎向每次挑戰。. "
+    }
+  },
+  {
+    "index": 53,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-chainrhino.webp?v=cf8531cab0ff"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-rootcrocodile.webp?v=1b9ad99f73c6"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-frostseasnake.webp?v=a3789718fe24"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-blazebison.webp?v=e6101c2435e1"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-crystalcamel.webp?v=7445428cac3c"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 鎖環犀衛 (w5-chainrhino), 金 element, B rarity: 青銅鎖環疊成重甲，粗壯銀角與四足穩穩推進。. 2. 古根鱷衛 (w5-rootcrocodile), 木 element, B rarity: 古根與蕨葉長在鱷背，長尾能掃出一片綠浪。. 3. 寒潮海蛇 (w5-frostseasnake), 水 element, B rarity: 冰晶頭冠圍著長頸，盤旋身軀藏著深藍寒潮。. 4. 焰鬃野牛 (w5-blazebison), 火 element, B rarity: 火焰鬃毛像翻滾雲層，黑色彎角迎向風暴。. 5. 晶峰駝獸 (w5-crystalcamel), 土 element, B rarity: 雙峰長滿透明晶柱，砂岩長腿跨過崎嶇山谷。. "
+    }
+  },
+  {
+    "index": 54,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-belfrygriffin.webp?v=4d6caf62ed7e"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-vinecitadelape.webp?v=9a49f7676183"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-waterfallshark.webp?v=58132f555e26"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-firewheelsnake.webp?v=76af02aef5b0"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-obeliskmammoth.webp?v=720d6a8dba6c"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 鐘樓獅鷲 (w5-belfrygriffin), 金 element, A rarity: 鐘塔頭冠襯著金屬羽翼，振翅時迴盪古老鐘聲。. 2. 藤城巨猿 (w5-vinecitadelape), 木 element, A rarity: 遺跡石拱長滿綠藤，巨臂護著森林最深的入口。. 3. 瀑冠鯊王 (w5-waterfallshark), 水 element, A rarity: 瀑布王冠浮在寬頭上，冰藍巨鰭劃出鋒利水浪。. 4. 火輪翼蛇 (w5-firewheelsnake), 火 element, A rarity: 火輪環繞長角頭冠，黑金翼膜捲起旋轉焰流。. 5. 碑林猛獁 (w5-obeliskmammoth), 土 element, A rarity: 石碑般的長牙刻著古紋，厚重身軀踏出山谷回音。. "
+    }
+  },
+  {
+    "index": 55,
+    "params": {
+      "model": "gpt_image_2_5",
+      "variant": "flare",
+      "quality": "medium",
+      "resolution": "2k",
+      "background": "transparent",
+      "aspect_ratio": "3:2",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "https://d8j0ntlcm91z4.cloudfront.net/user_3IddyqW3CuEo5SavyNhdLjWWZJu/hf_20261103_075645_f29fdcbe-1d3b-4e3c-9cfd-d4bc4cee6aaa.png"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-helixdragon.webp?v=51d06ee596eb"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-fernsovereign.webp?v=29a69fb6a2a6"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-abyssfirmament.webp?v=39a57e6a05bb"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-moltensunphoenix.webp?v=bc616a84aea0"
+        },
+        {
+          "role": "image",
+          "value": "https://quintus-star-tide-academy-production.up.railway.app/assets/creatures-sixty/w5-meteorarmorbear.webp?v=6dfc66487944"
+        }
+      ],
+      "prompt": "Restyle FIVE existing Star Tide Academy fantasy RPG creatures to the APPROVED HEROIC STYLE in reference image1. References2-6 are the five respective identities, in order: preserve species, palette and recognizable silhouette/features, but remove decorative clutter. Match image1 mature proportions, smaller focused eyes, defined shoulders and functional limbs, directional painterly dimensional lighting, sculpted broad forms, restrained rim lighting. NO toy/plush/chibi proportions, shiny vinyl, dense tiny scales, intricate filigree, all-over runes or particles. Majestic high-rarity creatures rely on strong silhouettes and ONE focal feature rather than ornament. Keep each original body plan (birds fly, fish swim, serpents coil, quadrupeds stand); do not turn them all into dogs or add limbs. Simplify surface patterns while retaining identity. STRICT LAYOUT: exactly5 full-body subjects in equal 3-column x2-row grid. Three top, two bottom LEFT and CENTER, bottom right EMPTY. Each fully within its cell with 12% clear margins. No overlapping subjects; complete horns/wings/tails/paws. Transparent alpha, NO floor/background/glowcloud/checkerboard/labels/text. Threequarter left-facing. STYLE reference background is NOT to be copied. FIVE identities in reading order: 1. 星鑄螺旋龍 (w5-helixdragon), 金 element, S rarity: 螺旋雙角引導星光，銀色環甲沿長身逐節展開。. 2. 萬蕨森皇 (w5-fernsovereign), 木 element, S rarity: 蕨角高高分岔，樹幹重甲與根足守住古森核心。. 3. 深穹鯨皇 (w5-abyssfirmament), 水 element, S rarity: 星空穹頂融進巨大鯨背，珊瑚王冠映出深海光點。. 4. 熔日鳳皇 (w5-moltensunphoenix), 火 element, S rarity: 熔日核心照亮胸前，黑金長翼托起層層火焰。. 5. 隕環山王 (w5-meteorarmorbear), 土 element, S rarity: 隕石光環圍著巨熊旋轉，紫晶肩峰映著星砂。. "
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "index": 1,
+    "job_id": "02f62ecf-4e62-47e8-8d2e-7ed1bf7eeac1",
+    "status": "pending"
+  },
+  {
+    "index": 2,
+    "job_id": "ef1b0b18-b008-4a00-ade5-7017e272070f",
+    "status": "pending"
+  },
+  {
+    "index": 3,
+    "job_id": "57735562-b343-47e4-9d97-8af1ed33fcc3",
+    "status": "pending"
+  },
+  {
+    "index": 4,
+    "job_id": "335a3f53-1261-44fd-879e-63a62b312d57",
+    "status": "pending"
+  },
+  {
+    "index": 5,
+    "job_id": "05fe0f58-4c58-408b-af60-f1d805e199fe",
+    "status": "pending"
+  },
+  {
+    "index": 6,
+    "job_id": "50bfc90f-8a75-4967-b4f8-42f1a90ad11d",
+    "status": "pending"
+  },
+  {
+    "index": 7,
+    "status": "submission_failed",
+    "error": "gpt_image_2_5 backend request failed (429): rate_limit_reached"
+  },
+  {
+    "index": 8,
+    "status": "submission_failed",
+    "error": "gpt_image_2_5 backend request failed (429): rate_limit_reached"
+  },
+  {
+    "index": 9,
+    "job_id": "56e01516-28f9-4735-90af-1a3d1cdc5e11",
+    "status": "pending"
+  },
+  {
+    "index": 10,
+    "job_id": "a0f786f6-3cf2-42df-88f7-068c21cecf75",
+    "status": "pending"
+  },
+  {
+    "index": 11,
+    "status": "submission_failed",
+    "error": "gpt_image_2_5 backend request failed (429): rate_limit_reached"
+  },
+  {
+    "index": 12,
+    "status": "submission_failed",
+    "error": "gpt_image_2_5 backend request failed (429): rate_limit_reached"
+  }
+]

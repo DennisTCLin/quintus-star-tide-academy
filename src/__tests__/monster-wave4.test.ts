@@ -5,13 +5,13 @@ import {newFamily,startRun,answerRun,nextQuestion,validateFamily} from '../adven
 import {answerCapture} from '../capture-trial';
 import {questionById} from '../learning';
 import {encounterStats} from '../creature-rules';
-const added=MONSTER_CATALOG.slice(80),day='2026-10-26';
+const added=MONSTER_CATALOG.slice(80,110),day='2026-10-26';
 describe('thirty released giant and mechanical bosses',()=>{
  it('appends 30 stable identities, keeps legacy numbers and gives all a working combat skill',()=>{
-  expect(added).toHaveLength(30);expect(MONSTER_CATALOG).toHaveLength(110);
-  for(const field of ['id','name','catalogNumber'] as const)expect(new Set(ROSTER.map(p=>p[field])).size).toBe(215);
+  expect(added).toHaveLength(30);expect(MONSTER_CATALOG).toHaveLength(190);
+  for(const field of ['id','name','catalogNumber'] as const)expect(new Set(ROSTER.map(p=>p[field])).size).toBe(375);
   expect(MONSTER_COMPANIONS[0].catalogNumber).toBe(56);expect(MONSTER_COMPANIONS[79].catalogNumber).toBe(185);
-  expect(MONSTER_COMPANIONS.slice(80).map(m=>m.catalogNumber)).toEqual(Array.from({length:30},(_,i)=>186+i));
+  expect(MONSTER_COMPANIONS.slice(80,110).map(m=>m.catalogNumber)).toEqual(Array.from({length:30},(_,i)=>186+i));
   for(const m of added){expect(['focus','shield','spark']).toContain(petSkill(m.id));expect(petSkillName(m.id)).toBe(m.move);expect(petSkillDescription(m.id).length).toBeGreaterThan(10);expect(battleMove(newBattle([m.id],['tideglow'],'cpu'),'attack').event?.amount).toBeGreaterThan(0);}
  });
  it('makes every new species reachable in its biome without changing tier odds or exposing bosses to starter voyages',()=>{
