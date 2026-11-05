@@ -8,6 +8,7 @@ import {questionById} from '../learning';
 import {markMastered} from '../mastered-questions';
 import {coursePublisher,scienceCurriculumNotice} from '../school-curriculum';
 import {newFamily,startRun,validateFamily} from '../adventure';
+const examIds=new Set(SCIENCE_EXAMS.map(q=>q.id));
 it('deduplicates 132 source rows into 130 traceable questions from nine distinct papers',()=>{
  expect(rows).toHaveLength(132);expect(originalExams).toHaveLength(130);
  expect(new Set(originalExams.map(q=>q.id)).size).toBe(130);
@@ -31,8 +32,8 @@ it('prioritizes parent science papers for both schools, every lane, and practice
  for(const school of ['nantun','yongchun','dunhua'] as const){
   expect(coursePublisher(school,4,'science')).toBe('康軒');expect(scienceCurriculumNotice(school)).toContain('月亮題暫不列入');
   for(const lane of [1,2,3] as const){
-   const s={...freshLearning(),school};expect(allocateAdventureQuestions(s,4,'science',6,lane).every(q=>q.id.startsWith('sx1-'))).toBe(true);
-   expect(allocateQuestions(s,4,'science',1)[0].id.startsWith('sx1-')).toBe(true);
+   const s={...freshLearning(),school};expect(allocateAdventureQuestions(s,4,'science',6,lane).every(q=>examIds.has(q.id))).toBe(true);
+   expect(examIds.has(allocateQuestions(s,4,'science',1)[0].id)).toBe(true);
   }
  }
  expect(allocateQuestions(freshLearning(),4,'science',6).every(q=>!questionById(q.id)?.examSources)).toBe(true);
@@ -46,7 +47,7 @@ it('honors mastery after save restoration and uses general science after exhaust
   let s={...freshLearning(),school};const ids=SCIENCE_EXAMS.map(q=>q.id);
   ids.slice(0,-2).forEach(id=>markMastered(s,id));s=validateLearning(JSON.parse(JSON.stringify(s)),4) as typeof s;
   const q=allocateQuestions(s,4,'science',6);
-  expect(q.filter(q=>q.id.startsWith('sx1-')).map(q=>q.id).sort()).toEqual(ids.slice(-2).sort());
+  expect(q.filter(q=>examIds.has(q.id)).map(q=>q.id).sort()).toEqual(ids.slice(-2).sort());
   expect(new Set(q.map(q=>q.id)).size).toBe(6);
   ids.forEach(id=>markMastered(s,id));expect(allocateQuestions(s,4,'science',6).every(q=>!questionById(q.id)?.examSources)).toBe(true);
  }
