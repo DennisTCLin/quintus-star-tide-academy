@@ -1,0 +1,47 @@
+{
+  "testedSource": "c08790b5ca92d212d31b591cd3deb258680e8a83",
+  "inputs": {
+    "newMain": "054f6a3db8ce093bb331020b5b8d5ded48fa1aed",
+    "production": "a8166b25da81fb5bf478124920130bd11891017e",
+    "contentMergeBase": "a2ce19d80a66cd3ffee78b355243073aea048b65"
+  },
+  "build": "PASS",
+  "contentAudit": {
+    "version": 1,
+    "status": "PASS",
+    "counts": {
+      "static": 6216,
+      "generated": 23192,
+      "pools": 42,
+      "approvedStatic": 6216,
+      "approvedTemplates": 42
+    },
+    "mediaFiles": 212,
+    "findings": [],
+    "coverage": {
+      "static": "6216/6216 hash-matched approvals; media bytes/existence checked, audio listening not certified",
+      "generated": "42/42 hash-matched template approvals; all 23192 variants checked structurally and by prompt-based oracle, not individually AI-reviewed"
+    },
+    "durationMs": 543,
+    "peakRssMB": 244
+  },
+  "generalTests": {
+    "numPassedTests": 1471,
+    "numFailedTests": 0,
+    "numPendingTests": 235,
+    "numTotalTests": 1706
+  },
+  "databaseTests": {
+    "files": 28,
+    "passed": 239,
+    "failed": 0,
+    "pending": 0,
+    "isolation": "Dedicated loopback PostgreSQL port15573, separate fresh database per file; no production DB access",
+    "note": "Includes four always-on tests repeated with DB enabled; do not sum counts as unique cases"
+  },
+  "testTimeoutsUnchanged": true,
+  "initialParallelRun": "4 CPU-contention timeouts; all39 tests in those4files passed with one worker, full suite then passed with2workers without changing timeout limits",
+  "browserChecks": "PENDING independent candidate checks",
+  "deployment": "NOT_DEPLOYED",
+  "dataAudit": "PENDING release-window baseline/after"
+}
