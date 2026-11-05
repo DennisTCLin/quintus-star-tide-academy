@@ -5,7 +5,8 @@ import {GRADE2_MATH_EXAMS as bank} from '../grade2-math-exams';
 import {questionById} from '../learning';
 import {allocateQuestions,allocateAdventureQuestions,freshLearning} from '../learning-engine';
 import {markMastered,hasMastered} from '../mastered-questions';
-import {newFamily,startRun,validateFamily} from '../adventure';
+import {newFamily,startRun,validateFamily,answerRun} from '../adventure';
+import {startStudy} from '../study-review';
 
 it('preserves every legacy ID, prompt, option, answer and explanation while merging one duplicate source',()=>{
  for(const old of legacy){
@@ -30,7 +31,7 @@ it('allocates all reviewed candidates only to matching grade/school without clue
    expect(new Set(families).size).toBe(families.length);
    expect(picked.some(q=>q.id.startsWith('mxg2-sc113-'))).toBe(true);
   }
-  const excluded='mxg2-sc113-ii_2_1a';
+  const excluded='mxg2-sc113-ii-2-1a';
   const picked=allocateQuestions(state,2,'math',6,undefined,[excluded]);
   expect(picked.map(q=>questionById(q.id)?.sourceFamily)).not.toContain(questionById(excluded)!.sourceFamily);
  }
@@ -50,4 +51,30 @@ it('keeps an in-progress legacy run, mastery and existing rewards across validat
  expect(after.run!.questions).toEqual(before.run!.questions);
  for(const key of ['coins','tickets','starTickets','rewardStars','rewardRounds','owned','growth','credited','attempted'] as const)expect(after[key]).toEqual(before[key]);
  expect(hasMastered(after.learning,legacy[8].id)).toBe(true);
+});
+
+it('spaces sibling clues in new review groups while retaining a saved active review',()=>{
+ const s={...freshLearning(),school:'nantun' as const};
+ for(const id of ['mxg2-sc113-ii-2-1a','mxg2-sc113-ii-2-1b'])markMastered(s,id);
+ startStudy(s,2,'2026-11-05','family-review','all','math');
+ expect(s.study!.session!.questions).toHaveLength(1);
+ const saved=structuredClone(s.study!.session);
+ startStudy(s,2,'2026-11-05','do-not-replace','all','math');
+ expect(s.study!.session).toEqual(saved);
+});
+
+it('accepts every new ID in the unchanged award ledger and never credits a settled answer twice',()=>{
+ for(const q of bank.filter(q=>q.id.startsWith('mxg2-sc113-'))){
+  const family=newFamily(),p=family.profiles.feifei;
+  p.learning.school='nantun';p.coins=1234;
+  startRun(family,'feifei','math','award-test',Date.now());
+  p.run!.questions[0]=q.id;
+  const before=p.coins;
+  answerRun(family,'feifei',p.run!.id,0,q.answer);
+  expect(p.run!.answers?.[0]).toBe(true);
+  expect(p.coins).toBe(before+10);
+  const credited=p.coins;
+  try{answerRun(family,'feifei',p.run!.id,0,q.answer);}catch{/* Already settled is rejected. */}
+  expect(p.coins).toBe(credited);
+ }
 });

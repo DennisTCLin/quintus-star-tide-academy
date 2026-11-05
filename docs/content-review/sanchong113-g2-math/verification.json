@@ -1,0 +1,63 @@
+{
+  "base": "054f6a3db8ce093bb331020b5b8d5ded48fa1aed",
+  "contentAudit": {
+    "status": "PASS",
+    "static": 6216,
+    "generated": 23192,
+    "templates": 42
+  },
+  "pronunciationAndBuild": "PASS; corrected new context readings and included supplemental JSON in scanning",
+  "focusedTests": {
+    "status": "PASS",
+    "tests": 31,
+    "includes": "all26awardonce, legacy172content, currentallchildrouting, reviewfamilyspacing"
+  },
+  "isolatedPostgres": {
+    "status": "PASS",
+    "tests": 25,
+    "files": [
+      "all-child-curriculum-cloud.test.mjs",
+      "mastered-cloud.test.mjs",
+      "study-review-cloud.test.mjs"
+    ],
+    "realDataAccess": false
+  },
+  "ui": {
+    "status": "PASS",
+    "runtime": "in-app browser; responsive viewport testing, not physical Safari",
+    "phone": {
+      "width": 390,
+      "height": 844,
+      "correctAnswer": "42+15=57",
+      "result": "correct; cloud save succeeded"
+    },
+    "tablet": {
+      "width": 1024,
+      "height": 1366,
+      "correctAnswer": "77+33=110",
+      "sourceLabel": "三重國小113二上南一期中第1頁I-2",
+      "reload": {
+        "answered": 2,
+        "coinsBefore": 1234,
+        "coinsAfter": 1254,
+        "ticketsBefore": 3,
+        "ticketsAfter": 3
+      }
+    },
+    "physicalIPadSafari": "UNKNOWN: not available; no claim of device certification"
+  },
+  "coldVerification": [
+    "26new IDs and legacy172contents PASS",
+    "source-family voyage/excludedIDs PASS",
+    "new study groups sourceFamily corrected and independently rechecked PASS",
+    "all26awardflow/repeatsettlement independentlyrechecked PASS"
+  ],
+  "fullSuite": {
+    "status": "FAIL_BASELINE",
+    "passed": 893,
+    "failed": 13,
+    "newFailureNamesComparedToBase": [],
+    "note": "13 failures already present onbase054f; count/prefixfixtures and seen-historyperformance budget. Do not claim fullsuite PASS. Coordination pending beforemerge."
+  },
+  "deployment": "NOT DEPLOYED; draft PR only until baseline failures disposition and coordinator release window"
+}
