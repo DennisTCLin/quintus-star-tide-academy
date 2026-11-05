@@ -1,5 +1,6 @@
 import {it,expect} from 'vitest';
 import {coursePublisher,eligibleExam,schoolDisplayName} from '../school-curriculum';
+import {GRADE1_CHINESE_EXAMS} from '../grade1-chinese-exams';
 import {LEARNING_BANK,questionById} from '../learning';
 import {freshLearning,allocateQuestions,validateLearning} from '../learning-engine';
 import {markMastered} from '../mastered-questions';
@@ -7,7 +8,7 @@ import {newFamily,startRun,validateFamily} from '../adventure';
 it('routes only verified first-grade subjects to existing exams',()=>{
  expect(schoolDisplayName('xingan')).toContain('幸安');
  const chinese=LEARNING_BANK.filter(q=>!q.retired&&q.grade===1&&eligibleExam('xingan',1,q.course,q));
- expect(chinese.filter(q=>q.course!=='math')).toHaveLength(159);expect(chinese.filter(q=>q.course==='math')).toHaveLength(134);
+ expect(new Set(chinese.filter(q=>q.course!=='math').map(q=>q.id))).toEqual(new Set(GRADE1_CHINESE_EXAMS.map(q=>q.id)));expect(chinese.filter(q=>q.course==='math')).toHaveLength(134);
  for(const course of ['tones','medials','pairs','math'] as const){
   const s={...freshLearning(),school:'xingan' as const};
   expect(()=>validateLearning(s,1)).not.toThrow();

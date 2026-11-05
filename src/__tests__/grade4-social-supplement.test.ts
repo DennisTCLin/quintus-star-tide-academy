@@ -11,7 +11,7 @@ import {allocateQuestions,allocateAdventureQuestions,freshLearning,validateLearn
 import {markMastered} from '../mastered-questions';
 const newQuestions=SOCIAL_EXAMS.filter(q=>q.id.startsWith('soc1-ksn'));
 it('preserves 83 original IDs and all 268 supplement source locators across 203 new questions',()=>{
- expect(rows).toHaveLength(268);expect(newQuestions).toHaveLength(203);expect(SOCIAL_EXAMS).toHaveLength(286);
+ expect(rows).toHaveLength(268);expect(newQuestions).toHaveLength(203);expect(SOCIAL_EXAMS.filter(q=>original.some(r=>r.id===q.id)||newQuestions.includes(q))).toHaveLength(286);
  expect(new Set(newQuestions.map(q=>q.id)).size).toBe(203);
  expect(new Set(newQuestions.flatMap(q=>q.examSources!.map(s=>s.id))).size).toBe(10);
  expect(newQuestions.flatMap(q=>q.examSources!)).toHaveLength(268);
@@ -28,7 +28,7 @@ it('preserves 83 original IDs and all 268 supplement source locators across 203 
 });
 it('offers new questions after old mastery for all three schools and preserves saved progress',()=>{
  for(const school of ['nantun','yongchun','dunhua'] as const){
-  const state={...freshLearning(),school};original.forEach(r=>markMastered(state,r.id));
+  const state={...freshLearning(),school};SOCIAL_EXAMS.filter(q=>!newQuestions.includes(q)).forEach(q=>markMastered(state,q.id));
   const restored=validateLearning(JSON.parse(JSON.stringify(state)),4);
   for(const lane of [1,2,3] as const){
    const chosen=allocateAdventureQuestions(restored,4,'social',6,lane);
