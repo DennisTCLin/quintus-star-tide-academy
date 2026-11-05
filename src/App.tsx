@@ -1,4 +1,6 @@
 import ConquestRaidNotice from './ConquestRaidNotice';
+import StoryCinemaEntry from './StoryCinemaEntry';
+import { storyFromSearch, type StoryId } from './story-films';
 import { useSharedConquest } from './conquest-cloud';
 import { resetFamilyScroll } from './family-scroll';
 import CaptureChallenge from "./CaptureChallenge";
@@ -119,7 +121,9 @@ const IslandApp = recoverablePage(() => import("./island/IslandApp"), "數學島
 const ConquestPage = recoverablePage(() => import("./ConquestPage"), "群島遠征");
 const TerritoryPage = recoverablePage(() => import("./TerritoryPage"), "領地");
 const RoomEditor = recoverablePage(() => import("./RoomEditor"), "房間");
+const StoryCinema = recoverablePage(() => import("./StoryCinema"), "星潮故事");
 type Page =
+  | "cinema"
   | "review"
   | "island"
   | "room"
@@ -142,10 +146,12 @@ const navs: { page: NavIconName; name: string; zy: string }[] = [
   { page: "trade", name: "交換", zy: "ㄐㄧㄠ ㄏㄨㄢˋ" },
   { page: "battle", name: "對戰", zy: "ㄉㄨㄟˋ ㄓㄢˋ" },
   { page: "conquest", name: "群島", zy: "ㄑㄩㄣˊ ㄉㄠˇ" },
+  { page: "cinema", name: "故事", zy: "ㄍㄨˋ ㄕˋ" },
   { page: "territory", name: "領地", zy: "ㄌㄧㄥˇ ㄉㄧˋ" },
   { page: "parent", name: "家長", zy: "ㄐㄧㄚ ㄓㄤˇ" },
 ];
 const guides: Record<Page, string> = {
+  cinema: "選一個星潮故事，再按播放。影片有國語旁白與中文字幕，也可以用播放器放大觀看。",
   conquest: "探索立體群島，選擇英雄與夥伴進攻，佔領後安排駐防與補給。所有玩家共用同一片群島，領地與戰果由伺服器保存。",
   review: "一起把學過的記牢。先看題目，答完看解法，想休息隨時可以回港口。",
   island: "這是數學島！選一座小島，先看夥伴示範，再一起闖關。",
@@ -266,7 +272,7 @@ export default function App() {
 function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
   const family = cloud.state?.family ?? null;
   const [id, setId] = useState<PlayerId | null>(cloud.state?.playerId ?? null),
-    [page, setPage] = useState<Page>("home"),
+    [page, setPage] = useState<Page>(() => storyFromSearch(window.location.search) ? 'cinema' : 'home'),
     [homeDirty, setHomeDirty] = useState(false),
     [notice, setNotice] = useState(""),
     [reviewOffer, setReviewOffer] = useState<Course | null>(null),
@@ -274,6 +280,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
     [chooser, setChooser] = useState(false),
     [coursePicker, setCoursePicker] = useState(false);
   const [conquestDestination, setConquestDestination] = useState<ConquestDestination>({});
+  const [cinemaStart, setCinemaStart] = useState<StoryId>(() => storyFromSearch(window.location.search) ?? 'opening');
   const [companionOpenRequest, setCompanionOpenRequest] = useState(0);
   const [companionOpen, setCompanionOpen] = useState(false);
   const [islandMapActive, setIslandMapActive] = useState(false);
@@ -437,7 +444,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
   const musicSource = page === "learn" || (page === "battle" && battle)
     ? BATTLE_MUSIC
     : page === "collection" || page === "battle" ? COMPANION_MUSIC : HOME_MUSIC;
-  const music = useHomeMusic(!id || page === "home" || page === "territory" || choosingCompanions || fighting, musicSource);
+  const music = useHomeMusic(page !== "cinema" && (!id || page === "home" || page === "territory" || choosingCompanions || fighting), musicSource);
   const musicControl = <button type="button" className="home-music-toggle" data-music-control
     aria-label={music.playing ? "暫停背景音樂" : "播放背景音樂"}
     aria-pressed={music.playing} onClick={music.toggle}>
@@ -685,7 +692,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
     setChooser(false);
     setIslandChoice(null);
     setCoursePicker(false);
-    setPage("home");
+    setPage(page === 'cinema' && !id ? 'cinema' : 'home');
     setTerritoryGoalRequest(null);
     setGive("");
     setReceive("");
@@ -1030,7 +1037,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
   const pickedPet = petDetail ? petById(petDetail) : undefined;
   const harborAction = departure!.action;
   const harborHint = departure!.hint;
-  const companionPageQuiet = !!quizPreparing || page === "leaderboard" || page === "battle" || page === "conquest" || companionQuiet(page, !!quizCombatActive, arenaCombatActive, false);
+  const companionPageQuiet = !!quizPreparing || page === "cinema" || page === "leaderboard" || page === "battle" || page === "conquest" || companionQuiet(page, !!quizCombatActive, arenaCombatActive, false);
   const companionOverlay = !!(viewCollection || chooser || coursePicker || pickedPet || leave || handoff || islandChoice);
 
   return (
@@ -1134,6 +1141,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
             )}
             {reviewOffer && !(page === "learn" && victoryReady && reviewOffer === run?.course) && <section className="f-panel"><h2>學過的題目，接著練</h2><p>原有精熟與獎勵都保留；複習不重複發獎勵。</p><button disabled={busy || !cloud.online} onClick={() => void beginReview('all', reviewOffer)}>開始複習</button><button onClick={() => { setReviewOffer(null); navigate('home'); }}>換個科目</button></section>}
             {page === "conquest" && <ConquestPage controller={sharedConquest} destination={conquestDestination} key={`${cloud.state.username}:${id}`} account={cloud.state.username} player={id} name={player.name} owned={p.owned} growthXp={p.growth.xp} equipped={p.equipped} reduced={battleReducedMotion} onLearn={requestLearning} onLoadBack={()=>navigate("home")} />}
+            {page === "cinema" && <StoryCinema key={`${cloud.state.username}:${id}`} initialStory={cinemaStart} onLoadBack={() => navigate("home")} />}
             {page === "territory" && <details className="home-building-details"><summary>建築目標與材料明細</summary><LearningBuildPanel key={id} profile={p} busy={busy} online={cloud.online} onGoal={goal=>change({type:"learning-goal",player:id,goal})} onVisit={openBuildingGoal} /></details>}
             {page === "territory" && <TerritoryPage key={id} onLoadBack={()=>navigate("home")} goalRequest={territoryGoalRequest} profile={p} reduced={battleReducedMotion} busy={busy} online={cloud.online} serverNow={cloud.state.serverNow} musicControl={musicControl} onRoom={()=>navigate("room")} onTrain={requestLearning} onAction={command => change({ ...command, player: id })} />}
             {page === "room" && <RoomEditor key={id} onLoadBack={()=>navigate("home")} profile={p} reduced={battleReducedMotion} busy={busy} online={cloud.online} onDirtyChange={setHomeDirty} onBack={()=>navigate("territory")} onTrain={requestLearning} onAction={command=>change({...command,player:id})}/>}
@@ -1172,6 +1180,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                     {run && run.status!=='active' && run.reward!=='pending' && <button onClick={()=>navigate('learn')}>🎁 {label('查看上次挑戰')}</button>}
                   </div>
                 </section>
+                <StoryCinemaEntry onOpen={story => { setCinemaStart(story); navigate("cinema"); }} />
                 <CourseSelection profile={p} onIsland={() => selectIsland("island")} islandRun={p.mathIsland?.run} grade={grade} run={run} online={cloud.online} busy={busy}
                   reduced={battleReducedMotion} motionGranted={islandMapActive} motionSuspended={companionOpen} onMotionActivity={setIslandMapActive}
                   onStart={selectIsland} onResume={() => navigate("learn")}
