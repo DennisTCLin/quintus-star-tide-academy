@@ -1,42 +1,95 @@
 {
-  "status": "LOCAL_MVP_VERIFIED_NOT_DEPLOYED",
+  "status": "CLEAN_CANDIDATE_VERIFIED_NOT_DEPLOYED",
   "date": "2026-11-06",
-  "baseCommit": "7229b56650b01fd66da54f241e2fb47d3f1554dc",
+  "runtimeCommit": "38fbb8f1",
+  "baseCommit": "4909c2655fd08098f45d02d29aa8ca880f01faa8",
   "adultRoute": "/adult",
-  "lessons": 6,
-  "exercises": 36,
+  "lessons": 15,
+  "exercises": 90,
   "targetedTests": {
     "status": "PASS",
-    "passed": 16
+    "contentEngine": 17,
+    "transportIntegrity": 4,
+    "realPostgreSQL": 13,
+    "total": 34
   },
   "regression": {
-    "status": "PASS_WITH_SKIPS",
-    "passed": 1489,
-    "skipped": 235,
-    "databaseTests": "NOT_RUN_NO_TEST_DATABASE_URL"
+    "status": "PASS",
+    "passed": 1501,
+    "skipped": 251,
+    "note": "DB suites intentionally skipped in general run and tested separately; counts overlap, do not add as unique totals"
   },
-  "build": "PASS npm run build (content audit, pronunciation, tsc, Vite, server bundle)",
+  "databaseRegression": {
+    "status": "PASS",
+    "suites": 29,
+    "passed": 255,
+    "skipped": 0,
+    "isolation": "one disposable DB per suite, dedicated local PostgreSQL55438",
+    "manifest": "output/adult-english/database-regression.json"
+  },
+  "build": "PASS npm run build on clean38fbb8f1 (content audit, pronunciation, TypeScript, Vite, server)",
   "childBootstrap": {
-    "status": "PASS_BYTE_IDENTICAL",
+    "status": "PASS_BYTE_IDENTICAL_TO_ORIGIN_MAIN",
     "sha256": "5e4ced8c65c9e1a4848706484ec20231531b057b99552fb669cc5028b994c199"
   },
-  "adultNamespace": "star-tide.adult-english.v1",
-  "productionMutations": 0,
-  "ui": {
-    "desktop": "PASS Chrome actual page",
-    "mobile375": "PASS responsive emulation, lesson four exercise types, feedback, reload, completion and review",
-    "tablet1024": "PASS responsive emulation homepage",
-    "lessonResult": "6 answered:4 independent correct,1 assisted,1wrong =>40XP; review replay remained40XP",
-    "hintReload": "PASS UI assisted feedback after transcript/reload/resume",
-    "audio": "TTS fallback UI checked; actual audible quality and physical iPad not certified"
+  "childContentAudit": {
+    "static": 6216,
+    "generated": 23192,
+    "findings": 0
   },
-  "independentReview": "PASS code-level,16 tests; due gating and current lesson level fixed",
-  "notImplemented": [
-    "adult cloud identity/sync",
-    "microphone or pronunciation scoring",
-    "full long-term CEFR curriculum",
-    "backup import"
+  "isolation": {
+    "tables": [
+      "adult_english_users",
+      "adult_english_states",
+      "adult_english_sessions",
+      "adult_english_receipts"
+    ],
+    "schemaKey": "adult-english-v1",
+    "migration": "additive at API startup, before requests",
+    "adultAuthority": "adult user UUID with independent cookie and FK, not a username-based child exclusion",
+    "childProfileWrites": 0
+  },
+  "independentReview": {
+    "status": "PASS",
+    "route": "codex-hyper Relay; root single writer",
+    "scope": "code + actual transpiled hook/component with mocked network and React runtime",
+    "cases": [
+      "reload restores pending",
+      "truncated200 retains pending + same-id retry",
+      "cross-account pending isolation",
+      "lateGET200 and401 cannot override later snapshot",
+      "auth secrets cleared after logout",
+      "consistent recovery locks",
+      "UI remount and recoverycode clear on account switch"
+    ]
+  },
+  "ui": {
+    "status": "PASS_LOCAL_BROWSER",
+    "sessions": "Chrome and in-app browser independently logged in to same synthetic adult; second resumes first active lesson, Chrome reload sees10XP after second submits",
+    "mobile375": "PASS all four exercise types, listening hint/reload, complete6 with5independent+1assisted=>50XP; guided dialogue accepts listed alternative",
+    "staleTab": "PASS409 alert and current question shown, no overwrite",
+    "tablet1024": "PASS dashboard screenshot, no horizontal overflow",
+    "evidence": [
+      "mobile-complete.png",
+      "mobile-dialogue.png",
+      "stale-tab-conflict.png",
+      "tablet-dashboard.png"
+    ],
+    "toolLimitation": "Chrome click dispatch stalled after initial login; actual answer flows completed in independent in-app browser. No fake pass claimed for Chrome clicks.",
+    "physicalIPad": "NOT_TESTED",
+    "audio": "TTS fallback verified, audible quality not certified"
+  },
+  "limitations": [
+    "guided authored dialogue, not free AI conversation",
+    "no microphone or pronunciation scoring",
+    "finite introductory curriculum",
+    "no offline continuous answering or backup import",
+    "local MVP snapshot preserved, not trusted as cloudXP"
   ],
-  "release": "Local branch only; no production deployment",
-  "preview": "http://127.0.0.1:4382/adult"
+  "production": "NOT_DEPLOYED; fresh child baseline, exact-head merge, Railway asset verification and production adultQA still required",
+  "rawLogsLocal": [
+    "build-current.txt",
+    "tests-current.txt",
+    "db-00.txt through db-28.txt"
+  ]
 }
