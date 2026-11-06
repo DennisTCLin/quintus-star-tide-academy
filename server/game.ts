@@ -33,4 +33,4 @@ export { expeditionRoster } from '../src/conquest-characters';
 
 export { incomingRaid, resolveNpcRaid } from '../src/conquest-enemy';
 
-export { acknowledgeRaidReports } from '../src/conquest-enemy';
+export { acknowledgeRaidReports, appendRaidReport, createPlayerRaidReport } from '../src/conquest-enemy';

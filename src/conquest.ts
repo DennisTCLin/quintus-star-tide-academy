@@ -1,4 +1,4 @@
-import { resolveNpcRaid, type NpcRaidProgress, type NpcRaidReport } from './conquest-enemy';
+import { resolveNpcRaid, type NpcRaidProgress, type RaidReport } from './conquest-enemy';
 import type { Enrollment } from './conquest-alliance';
 // Conquest is a separately persisted PvE world. Family learning saves are never changed.
 export const ELEMENTS = ['metal', 'wood', 'earth', 'water', 'fire'] as const;
@@ -25,7 +25,7 @@ export type Tile = {
   guards: Guard[]; owner: string | null; shieldUntil: number; shieldStartsAt?: number; capturedAt?: number; commander?: string;
 };
 export type ConquestState = {
-  schema: 2; npcRaids?: NpcRaidProgress; raidReports?: NpcRaidReport[]; raidReadIds?: string[]; playerId?: string; shared?: boolean; enrollment?: Enrollment; updatedAt: number; units: Record<string, Guard>; inventory: Inventory; season: string; energy: number; tiles: Tile[]; credited: string[];
+  schema: 2; npcRaids?: NpcRaidProgress; raidReports?: RaidReport[]; raidReadIds?: string[]; playerId?: string; shared?: boolean; enrollment?: Enrollment; updatedAt: number; units: Record<string, Guard>; inventory: Inventory; season: string; energy: number; tiles: Tile[]; credited: string[];
   log: string[]; lastBattle: BattleResult | null;
 };
 export type Hit = { round: number; side: -1 | 1; source: string; target: string; damage: number; hp: number; knockedOut: boolean };
