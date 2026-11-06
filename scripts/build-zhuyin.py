@@ -6,7 +6,7 @@ from pathlib import Path
 from pypinyin import lazy_pinyin,Style
 # Scan every maintained TypeScript module: generators/catalogues contain UI text too.
 sources=sorted(p for p in Path('src').rglob('*')
- if p.suffix in {'.ts','.tsx'} and '__tests__' not in p.parts and 'vendor' not in p.parts and not p.name.endswith('.d.ts'))
+ if p.suffix in {'.ts','.tsx'} and '__tests__' not in p.parts and 'vendor' not in p.parts and p.parts[:2] != ('src','adult') and not p.name.endswith('.d.ts'))
 sources.append(Path('src/data/g2-math-sanchong113.json'))
 reviewed=json.loads(Path('src/data/taiwan-zhuyin-overrides.json').read_text())
 runs=set()

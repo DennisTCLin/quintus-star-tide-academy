@@ -1,0 +1,97 @@
+{
+  "status": "CLEAN_CANDIDATE_VERIFIED_NOT_DEPLOYED",
+  "date": "2026-11-06",
+  "runtimeCommit": "38fbb8f1",
+  "baseCommit": "4909c2655fd08098f45d02d29aa8ca880f01faa8",
+  "adultRoute": "/adult",
+  "lessons": 15,
+  "exercises": 90,
+  "targetedTests": {
+    "status": "PASS",
+    "contentEngine": 17,
+    "transportIntegrity": 4,
+    "realPostgreSQL": 13,
+    "total": 38,
+    "hookOrderingRecovery": 4
+  },
+  "regression": {
+    "status": "PASS",
+    "passed": 1505,
+    "skipped": 251,
+    "note": "DB suites intentionally skipped in general run and tested separately; counts overlap, do not add as unique totals"
+  },
+  "databaseRegression": {
+    "status": "PASS",
+    "suites": 29,
+    "passed": 255,
+    "skipped": 0,
+    "isolation": "one disposable DB per suite, dedicated local PostgreSQL55438",
+    "manifest": "output/adult-english/database-regression.json"
+  },
+  "build": "PASS npm run build on clean38fbb8f1 (content audit, pronunciation, TypeScript, Vite, server)",
+  "childBootstrap": {
+    "status": "PASS_BYTE_IDENTICAL_TO_ORIGIN_MAIN",
+    "sha256": "5e4ced8c65c9e1a4848706484ec20231531b057b99552fb669cc5028b994c199"
+  },
+  "childContentAudit": {
+    "static": 6216,
+    "generated": 23192,
+    "findings": 0
+  },
+  "isolation": {
+    "tables": [
+      "adult_english_users",
+      "adult_english_states",
+      "adult_english_sessions",
+      "adult_english_receipts"
+    ],
+    "schemaKey": "adult-english-v1",
+    "migration": "additive at API startup, before requests",
+    "adultAuthority": "adult user UUID with independent cookie and FK, not a username-based child exclusion",
+    "childProfileWrites": 0
+  },
+  "independentReview": {
+    "status": "PASS",
+    "route": "codex-hyper Relay; root single writer",
+    "scope": "code + actual transpiled hook/component with mocked network and React runtime",
+    "cases": [
+      "reload restores pending",
+      "truncated200 retains pending + same-id retry",
+      "cross-account pending isolation",
+      "lateGET200 and401 cannot override later snapshot",
+      "auth secrets cleared after logout",
+      "consistent recovery locks",
+      "UI remount and recoverycode clear on account switch"
+    ],
+    "persistedRegression": "src/__tests__/adult-hook.test.ts (actual hook VM, 4PASS; explicit render checkpoints, not a complete React renderer)"
+  },
+  "ui": {
+    "status": "PASS_LOCAL_BROWSER",
+    "sessions": "Chrome and in-app browser independently logged in to same synthetic adult; second resumes first active lesson, Chrome reload sees10XP after second submits",
+    "mobile375": "PASS all four exercise types, listening hint/reload, complete6 with5independent+1assisted=>50XP; guided dialogue accepts listed alternative",
+    "staleTab": "PASS409 alert and current question shown, no overwrite",
+    "tablet1024": "PASS dashboard screenshot, no horizontal overflow",
+    "evidence": [
+      "mobile-complete.png",
+      "mobile-dialogue.png",
+      "stale-tab-conflict.png",
+      "tablet-dashboard.png"
+    ],
+    "toolLimitation": "Chrome click dispatch stalled after initial login; actual answer flows completed in independent in-app browser. No fake pass claimed for Chrome clicks.",
+    "physicalIPad": "NOT_TESTED",
+    "audio": "TTS fallback verified, audible quality not certified"
+  },
+  "limitations": [
+    "guided authored dialogue, not free AI conversation",
+    "no microphone or pronunciation scoring",
+    "finite introductory curriculum",
+    "no offline continuous answering or backup import",
+    "local MVP snapshot preserved, not trusted as cloudXP"
+  ],
+  "production": "NOT_DEPLOYED; fresh child baseline, exact-head merge, Railway asset verification and production adultQA still required",
+  "rawLogsLocal": [
+    "build-current.txt",
+    "tests-current.txt",
+    "db-00.txt through db-28.txt"
+  ]
+}
