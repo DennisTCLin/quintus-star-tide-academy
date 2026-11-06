@@ -1,3 +1,4 @@
+import WorldLobby from './WorldLobby';
 import CharacterPortrait from './CharacterPortrait';
 import FriendTrades from './FriendTrades';
 import {AdultGameContext} from './adult/game-context';
@@ -440,10 +441,11 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
     window.addEventListener("resize", scheduleUpdate);
     return () => { observer.disconnect(); window.removeEventListener("resize", scheduleUpdate); if (frame !== undefined) cancelAnimationFrame(frame); root.style.removeProperty("--quiz-viewport-height"); main?.style.removeProperty("--quiz-stage-height"); };
   }, [quizFocused, questionExpanded, run?.id, run?.index]);
+  const socialQuiet=page==="learn"||page==="island"||page==="review"||arenaCombatActive||(page==="battle"&&social.state?.room?.status!=="active");
   const friendsPresence = usePresence(id, cloud.state?.csrf,
     social.state?.room?.status === "active" || arenaCombatActive ? "battle"
       : page === "battle" ? "preparing"
-      : page === "learn" || page === "island" || page === "review" ? "learning"
+      : page === "learn" && !adultFinished || page === "island" || page === "review" ? "learning"
       : page === "collection" || page === "bestiary" ? "collection"
       : page === "territory" || page === "room" ? "territory"
       : page === "lottery" ? "lottery" : page === "trade" ? "trade" : page === "leaderboard" ? "leaderboard" : "home");
@@ -1092,6 +1094,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
               {!cloud.state.playerId && <span>⌄</span>}
             </button>
             <FriendsPresence key={player.id} player={player.id} snapshot={friendsPresence} profile={p} social={social} onCollection={setViewCollection} />
+            <WorldLobby key={`world-${cloud.state.username}-${id}`} player={player.id} account={cloud.state.username} csrf={cloud.state.csrf} profile={p} social={social} presence={friendsPresence} occupied={socialQuiet} />
             <div className="wallet">
               <span title="可用星幣">
                 🟡 <b>{p.coins}</b>
@@ -1123,7 +1126,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
             </div>
           </section>}
           {page === "home" && (!isAdult||cloud.state.learner?.socialApproved) && <ConquestHomeEntry controller={sharedConquest} key={`${cloud.state.username}:${id}`} account={cloud.state.username} player={id} name={player.name} onEnter={destination => { setConquestDestination(destination); navigate("conquest"); }} />}
-          <OnlineBattle key={player.id} controller={social} profile={p} reduced={battleReducedMotion} />
+          <OnlineBattle key={player.id} controller={social} profile={p} reduced={battleReducedMotion} quiet={socialQuiet} />
           <ResourceRibbon profile={p} online={cloud.online} onVisit={() => navigate("territory")} />
           <nav className="family-nav" aria-label="主要導覽">
             {navs.map((n) => (

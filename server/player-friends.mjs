@@ -1,3 +1,4 @@
+import {worldContacts} from './world-identity.mjs';
 import { collectionIdentity } from './player-collections.mjs';
 import { ensureSchema } from './schema-migration.mjs';
 import { hasAdventureHistory } from './presence-history.mjs';
@@ -59,8 +60,9 @@ export async function connectedPlayerFriends(pool, user) {
     LEFT JOIN player_last_seen h ON h.account_id=m.account_id AND h.player_id=m.player_id
     LEFT JOIN game_states g ON g.account_id=m.account_id
     ORDER BY m.username,m.id`, [user.id, user.member_id ?? null]);
+  const publicContacts=await worldContacts(pool,user.member_id,rows.map(r=>r.id),user.id);
   if (!rows.length) return null; // Preserve the existing family roster for other accounts.
-  return { serverNow: Date.now(), friends: rows.map(row => ({
+  return { serverNow: Date.now(), friends: rows.filter(row=>!publicContacts.get(row.id)?.hidden).map(row => ({
     key: row.id,
     activity: row.online_until ? row.activity : null,
     id: row.player_id,
@@ -70,5 +72,7 @@ export async function connectedPlayerFriends(pool, user) {
     lastSeenAt: row.seen_at?.getTime() ?? null,
     hasActivity: hasAdventureHistory(row.profile),
     onlineUntil: row.online_until?.getTime() ?? null,
+    ...publicContacts.get(row.id),
+    ...(publicContacts.has(row.id)?{onlineUntil:row.online_until?Date.now()+20000:null,activity:row.online_until?(row.activity==='learning'?'learning':['battle','preparing'].includes(row.activity)?'battle':'home'):null}:{}),
   })) };
 }

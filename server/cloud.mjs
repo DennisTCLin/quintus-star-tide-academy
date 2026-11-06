@@ -8,6 +8,7 @@ import { createGuideService } from './dragon-guide.mjs';
 import { createCompanionVoiceProvider } from './companion-voice-provider.mjs';
 import { createCompanionVoiceService } from './companion-voice.mjs';
 import pg from "pg";
+import { createWorldService } from './world.mjs';
 import { createCrewService } from './crew.mjs';
 import { createFriendTradeService } from './friend-trades.mjs';
 import { createAdultGameService } from './adult-game.mjs';
@@ -498,9 +499,9 @@ export async function createCloudApi({
   const conquest = await createConquestService({ pool, transaction, lockSession, assert });
   const npcRaidWorker = npcRaidsEnabled ? startNpcRaidWorker({ tick: () => conquest.tickNpcRaids(), intervalMs: production ? NPC_TICK_MS : npcRaidIntervalMs }) : null;
   const onlineBattle = await createOnlineBattleService({ pool, transaction, lockSession, assert });
-  async function friends(user) {
+  async function friends(user,player) {
     const connected = await connectedPlayerFriends(pool, user);
-    if (connected) return connected;
+    if (connected) return {...connected,world:await world.count(user,player)};
     const { rows } = await pool.query(`
       SELECT p.player_id, m.display_name, h.seen_at,
         (SELECT l.activity FROM presence_leases l JOIN sessions s ON s.token_hash=l.token_hash
@@ -604,6 +605,7 @@ export async function createCloudApi({
   adultEnglish.revokeGameSessions=adultGame.revokeSessions;
   const crew=await createCrewService({pool,transaction,lockSession,limit});
   const friendTrades=await createFriendTradeService({pool,transaction,lockSession,limit});
+  const world=await createWorldService({pool,transaction,lockSession,limit});
   let activeRequests = 0;
   async function handler(req, res) {
     if (activeRequests >= 64) {
@@ -622,7 +624,7 @@ export async function createCloudApi({
           403,
         );
       if(path==='/api/adult/game/enter'){assert(req.method==='POST','不支援的方法',405);fields(await readBody(req),[]);send(res,200,await adultGame.enter(req));return;}
-      if(adultContext){path='/api/'+path.slice('/api/adult/game/'.length);assert(['state','command','friends','collections','online-battle','presence','conquest','conquest/reports/read','crew','friend-trades','guide','companion-talk','companion-talk/reset','companion-talk/speech','practice','logout','migrate'].some(route=>path==='/api/'+route),'找不到服務',404);}
+      if(adultContext){path='/api/'+path.slice('/api/adult/game/'.length);assert(['state','command','friends','collections','online-battle','presence','conquest','conquest/reports/read','crew','friend-trades','world','guide','companion-talk','companion-talk/reset','companion-talk/speech','practice','logout','migrate'].some(route=>path==='/api/'+route),'找不到服務',404);}
       if (!adultContext && path.startsWith('/api/adult/')) { await adultEnglish(req,res,path); return; }
       if (path.startsWith('/api/admin/')) { await adminService(req,res,path); return; }
       if (path === '/api/redeem-invite') {
@@ -797,6 +799,7 @@ export async function createCloudApi({
         send(res,200,await readPlayerCollections(pool,user,{player:params.get("player"),target:params.get("target")},assert));
         return;
       }
+      if(path==='/api/world'&&req.method==='GET'){send(res,200,await world.read(user,new URL(req.url,'http://localhost').searchParams.get('player')));return;}
       if(path==='/api/crew'&&req.method==='GET'){send(res,200,await crew.read(user,new URL(req.url,"http://localhost").searchParams.get("player")));return;}
       if(path==='/api/friend-trades'&&req.method==='GET'){const params=new URL(req.url,'http://localhost').searchParams;send(res,200,await friendTrades.read(user,params.get('player'),params.get('friend')));return;}
       if (path === "/api/friends" && req.method === "GET") {
@@ -816,6 +819,7 @@ export async function createCloudApi({
       const body = await readBody(req);
       const receivedAt=Date.now();
       adultGame.guard(user,path,body);
+      if(path==='/api/world'){send(res,200,await world.command(user,body));return;}
       if(path==='/api/crew'){send(res,200,await crew.command(user,body));return;}
       if(path==='/api/friend-trades'){send(res,200,await friendTrades.command(user,body));return;}
       if (path === "/api/companion-talk" || path === "/api/companion-talk/reset" || path === "/api/companion-talk/speech") {
@@ -835,7 +839,7 @@ export async function createCloudApi({
       }
       if (path === "/api/presence") {
         await heartbeat(user, body);
-        send(res, 200, await friends(user));
+        send(res, 200, await friends(user,body.player));
         return;
       }
       if (path === "/api/recovery-code") {

@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { parseState, type AdultState } from './engine';
 import {clientId}from'../client-id';
-export type AdultCommand = {type:'profile';name:string;track:string;dailyGoal:number}|{type:'lesson-start';lessonId:string}|{type:'review-start';mode:string}|{type:'answer';sessionId:string;index:number;answer:string}|{type:'hint'|'next';sessionId:string;index:number}|{type:'end';sessionId:string};
+export type AdultCommand = {type:'profile';name:string;track:string;dailyGoal:number}|{type:'plan-set';purposes:import('./catalog').Track[];minutes:5|10|15;weeklyDays:3|5|7;confidence:'new'|'some'|'confident';focus:'balanced'|'understanding'|'expression'}|{type:'placement-start'}|{type:'placement-answer';placementId:string;index:number;answer?:string;skip?:true}|{type:'placement-confirm';placementId:string}|{type:'lesson-start';lessonId:string}|{type:'review-start';mode:string}|{type:'answer';sessionId:string;index:number;answer:string;autoNext?:boolean}|{type:'hint'|'next';sessionId:string;index:number}|{type:'end';sessionId:string};
 type Snapshot = {state:AdultState;username:string;csrf:string;day:string};
 type Pending = {username:string;id:string;revision:number;command:AdultCommand};
 class RequestError extends Error { constructor(message:string,public status:number){super(message);} }

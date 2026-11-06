@@ -33,10 +33,10 @@ export default function PlayerAvatar({ id, className = "", avatarKey }: {
   const matches = avatarKey !== undefined || account?.playerId === id;
   const override = username && matches && accountPhotos[username]?.playerId === id
     ? accountPhotos[username] : undefined;
-  const photo = avatarKey === "unknown" || (avatarKey===undefined&&account?.kind==='adult') ? null : override ? override.photo : playerPhotos[id];
+  const photo = ["unknown","world"].includes(avatarKey??"") || (avatarKey===undefined&&account?.kind==='adult') ? null : override ? override.photo : playerPhotos[id];
   return (
     <span className={`player-avatar avatar-${id}${override ? ` account-avatar-${username}` : ""} ${className}`} aria-hidden="true">
-      {photo ? <img src={photo} alt="" decoding="async" /> : <BrandText text={PLAYERS.find(player => player.id === id)?.icon ?? "🐾"} />}
+      {photo ? <img src={photo} alt="" decoding="async" /> : <BrandText text={avatarKey==="world"?"🧭":PLAYERS.find(player => player.id === id)?.icon ?? "🐾"} />}
     </span>
   );
 }

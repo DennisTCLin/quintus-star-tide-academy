@@ -41,10 +41,12 @@ export async function request<T = CloudState>(
   body?: unknown,
   csrf?: string,
   keepalive = false,
+  signal?: AbortSignal,
 ): Promise<T> {
   // AbortSignal.timeout is missing in Safari 15; AbortController works there.
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 12000);
+  const cancel=()=>controller.abort();signal?.addEventListener("abort",cancel,{once:true});if(signal?.aborted)cancel();
   try {
     let response: Response;
     try {
@@ -79,7 +81,7 @@ export async function request<T = CloudState>(
       throw new CloudError(data.error || "雲端暫時無法連線", response.status);
     return data;
   } finally {
-    clearTimeout(timer);
+    clearTimeout(timer);signal?.removeEventListener("abort",cancel);
   }
 }
 export async function practiceRequest(

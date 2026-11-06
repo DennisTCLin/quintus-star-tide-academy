@@ -50,7 +50,9 @@ export async function createAdultGameService({pool,transaction,adultAuth,publicS
  async function afterCommand(db,user,before,next,command,day){
   const enrollment=(await db.query('SELECT * FROM adult_game_enrollments WHERE user_id=$1',[user.id])).rows[0];if(!enrollment)return;
   if(command.type==='profile'){await db.query('UPDATE player_logins SET display_name=$2 WHERE id=$1 AND account_id=$1',[user.id,next.profile.name]);return;}
+  if(!['lesson-start','review-start','answer','hint','next','end'].includes(command.type))return;
   const session=next.session;if(!session)return;
+  const answeredId=command.type==='answer'?before.session.ids[before.session.index]:undefined;
   const row=(await db.query('SELECT * FROM game_states WHERE account_id=$1 FOR UPDATE',[user.id])).rows[0],family=validateFamily(row.family),p=family.profiles[slot];
   need(p.onboarding?.confirmed,'請先迎接你的初始夥伴');
   await db.query('INSERT INTO adult_game_runs(user_id,session_id,companion) VALUES($1,$2,$3) ON CONFLICT DO NOTHING',[user.id,session.id,p.equipped]);
@@ -61,13 +63,13 @@ export async function createAdultGameService({pool,transaction,adultAuth,publicS
   const delta=next.xp-before.xp;
   if(command.type==='answer'&&delta>0){
    need(delta===10,'英文獎勵資料不符',422);
-   const id=session.ids[session.index],awarded=awardQuestion(p.milestones,{questionId:id,subject:'english',dayKey:day,attempts:1});need(awarded.awarded,'英文獎勵已領取',409);
+   const id=answeredId,awarded=awardQuestion(p.milestones,{questionId:id,subject:'english',dayKey:day,attempts:1});need(awarded.awarded,'英文獎勵已領取',409);
    p.milestones=awarded.state;p.coins+=10;const oldXp=p.growth.xp[run.companion]??0;p.growth.xp[run.companion]=Math.min(MAX_COMPANION_XP,oldXp+QUESTION_XP);run.encounter.earned+=p.growth.xp[run.companion]-oldXp;awardLearningMaterials(p);
    row.verified[slot]=(row.verified[slot]??0)+20;run.earned_answers++;changed=true;
    await db.query('UPDATE adult_game_runs SET earned_answers=$3,encounter=$4 WHERE user_id=$1 AND session_id=$2',[user.id,session.id,run.earned_answers,run.encounter]);
   }
   if(command.type==='answer'&&session.results.filter(r=>!r.correct).length>=3){run.outcome='failed';await db.query("UPDATE adult_game_runs SET outcome='failed' WHERE user_id=$1 AND session_id=$2",[user.id,session.id]);}
-  if(command.type==='next'&&session.complete){
+  if((command.type==='next'||command.type==='answer')&&session.complete){
    const won=session.results.filter(r=>r.correct).length>=Math.min(4,session.ids.length);
    run.outcome=won?'won':'failed';await db.query('UPDATE adult_game_runs SET outcome=$3 WHERE user_id=$1 AND session_id=$2',[user.id,session.id,run.outcome]);
    if(won&&session.mode==='lesson'&&session.ids.length===6&&run.earned_answers>=4){
@@ -78,7 +80,7 @@ export async function createAdultGameService({pool,transaction,adultAuth,publicS
   p.adultAdventure={sessionId:session.id,companion:run.companion,outcome:run.outcome,earned:run.earned_answers,rewarded:!!run.rewarded,encounter:run.encounter};changed=true;
   if(changed){family.revision++;await db.query('UPDATE game_states SET family=$2,verified=$3,updated_at=now() WHERE account_id=$1',[user.id,validateFamily(family),row.verified]);if(enrollment.approved_at)await conquest.syncAccount(db,{...user,member_id:user.id,player_id:slot,adult_id:user.id},slot);}
   // Private energy follows the same first daily independent answer gate; no duplicate reward endpoint.
-  if(enrollment.approved_at&&command.type==='answer'&&delta>0)await conquest.credit(db,{...user,member_id:user.id,player_id:slot},slot,`adult:${day}:${session.ids[session.index]}`,true,Date.now());
+  if(enrollment.approved_at&&command.type==='answer'&&delta>0)await conquest.credit(db,{...user,member_id:user.id,player_id:slot},slot,`adult:${day}:${answeredId}`,true,Date.now());
  }
  function practiceQuestion(id,revealed=false){
   const q=exerciseById(id);need(q?.options,'找不到成人英文題目',409);

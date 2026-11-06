@@ -35,8 +35,8 @@ export default function FriendsPresence({ player, snapshot, profile, social, onC
         {profile&&social&&<>
           <PetSelect profile={profile} value={chosenPet} onChange={setPet}/>
           <p>邀請好友一人派一位夥伴切磋，對方接受後才會開始。邀請 90 秒後失效。</p>
-          <button className="social-invite" disabled={!friend.key||!online(friend.onlineUntil)||!social.connected||!social.state?.available||social.busy||!!social.uncertain||!!occupied} onClick={async()=>{if(await social.act("invite",{friend:friend.key,pet:chosenPet}))close();}}>邀請線上對戰</button>
-          <p>{occupied?"你已有邀請或對戰，請從上方通知查看。":!friend.key||!social.state?.available?"這位玩家尚未開通線上邀戰。":!online(friend.onlineUntil)?"等好友上線後就能邀請。":friend.activity==="learning"||friend.activity==="battle"?"好友正在挑戰中，可以等他有空再接受。":""}</p>
+          <button className="social-invite" disabled={!friend.key||!online(friend.onlineUntil)||!social.connected||!social.state?.available||social.busy||!!social.uncertain||!!occupied||["learning","battle","preparing"].includes(friend.activity??"")} onClick={async()=>{if(await social.act("invite",{friend:friend.key,pet:chosenPet}))close();}}>邀請線上對戰</button>
+          <p>{occupied?"你已有邀請或對戰，請從上方通知查看。":!friend.key||!social.state?.available?"這位玩家尚未開通線上邀戰。":!online(friend.onlineUntil)?"等好友上線後就能邀請。":friend.activity==="learning"||friend.activity==="battle"?"好友正在挑戰中，等他回到港口再邀請。":""}</p>
           {social.error&&<p role="alert">{social.error}</p>}
           {social.uncertain&&<button disabled={social.busy} onClick={()=>void social.retry()}>確認同步</button>}
         </>}

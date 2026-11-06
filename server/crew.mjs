@@ -1,3 +1,4 @@
+import {hasWorld} from './world-identity.mjs';
 import {randomBytes,randomUUID,createHash} from 'node:crypto';
 import {ensureSchema} from './schema-migration.mjs';
 const need=(v,message='同玩資料不正確',status=400)=>{if(!v)throw Object.assign(Error(message),{status});};
@@ -38,6 +39,8 @@ export async function createCrewService({pool,transaction,lockSession,limit}){
     if(request.status!=='pending'){need(request.status===(b.action==='accept'?'accepted':'declined'),'這份邀請已回覆',409);return view(db,me.id);}
     await db.query('UPDATE crew_requests SET status=$2 WHERE id=$1',[request.id,b.action==='accept'?'accepted':'declined']);
     if(b.action==='accept'){
+     await db.query("SELECT pg_advisory_xact_lock(hashtext('star-tide-player-friends'))");
+     if(await hasWorld(db))await db.query('DELETE FROM world_links WHERE (member_id=$1 AND friend_id=$2) OR (member_id=$2 AND friend_id=$1)',[me.id,request.requester_id]);
      await db.query('INSERT INTO player_friendships(member_id,friend_id) VALUES($1,$2),($2,$1) ON CONFLICT DO NOTHING',[me.id,request.requester_id]);
      // Only an existing school member or an already vouched-for adult can sponsor
      // shared-world access. Two untrusted public signups cannot self-approve.
