@@ -105,4 +105,44 @@ suite('automatic offline NPC raids in PostgreSQL',()=>{
   const after=await state(0);delete after.raidReadIds;delete before.raidReadIds;expect(after).toEqual(before);expect(await world()).toEqual(w);expect(await state(1)).toEqual(other);
  });
 
+ it('occupies a defeated island durably, withdraws wounded player guards and lets a player reclaim it',async()=>{
+  const before=await families(),w=await world(),tile=w.tiles.find(t=>t.id==='0,0');
+  // No garrison: the same production worker path must perform the capture.
+  tile.guards=[];await api.pool.query("UPDATE conquest_worlds SET tiles=$1 WHERE id='global'",[JSON.stringify(w.tiles)]);
+  expect((await api.conquestNpcTick()).raids).toBe(1);
+  const saved=await state(0),captured=(await world()).tiles.find(t=>t.id==='0,0');
+  expect(captured.owner).toBe('dark-tide');expect(captured.guards.length).toBeGreaterThan(0);
+  expect(captured.shieldUntil).toBe(0);expect(captured.commander).toBeUndefined();
+  expect(saved.raidReports[0]).toMatchObject({captured:true,defended:false});
+  const snapshot=await loginRead(0);expect(snapshot.state.tiles.find(t=>t.id==='0,0').ownerInfo.name).toBe('黯潮軍團');
+  expect(snapshot.players.some(p=>p.id==='dark-tide')).toBe(false);
+  expect((await api.conquestNpcTick()).raids).toBe(0);expect((await world()).tiles.find(t=>t.id==='0,0').owner).toBe('dark-tide');
+  const owned=await world();owned.tiles.find(t=>t.id==='0,0').battleUntil=0;
+  await api.pool.query("UPDATE conquest_worlds SET tiles=$1 WHERE id='global'",[JSON.stringify(owned.tiles)]);
+  const current=await state(0);current.energy=1000;await api.pool.query('UPDATE conquest_players SET state=$2 WHERE id=$1',[players[0].id,current]);
+  const client=await login(0),view=await loginRead(0),commandId=randomUUID();
+  const command={player:'quintus',type:'claim',tileId:'0,0',team:['aetherdragon','tideglow','kelpcub'],season:view.state.season,revision:view.revision,commandId};
+  const send=()=>fetch(url+'/api/conquest',{method:'POST',headers:{Origin:url,'Content-Type':'application/json',Cookie:client.cookie,'X-CSRF-Token':client.csrf},body:JSON.stringify(command)});
+  const response=await send(),result=await response.json();expect(response.status,JSON.stringify(result)).toBe(200);
+  expect(result.result.state.lastBattle.won).toBe(true);expect(result.state.tiles.find(t=>t.id==='0,0').owner).toBe(players[0].id);
+  expect((await (await send()).json()).replayed).toBe(true);expect(await families()).toBe(before);
+ });
+ it('expands with no enrolled owners, serializes replicas and retains cooldown after all NPC land is reclaimed',async()=>{
+  await api.pool.query('TRUNCATE conquest_commands,conquest_players');
+  const w=await world();w.tiles.forEach(t=>{t.owner=null;t.guards=t.wild;});
+  await api.pool.query("UPDATE conquest_worlds SET tiles=$1 WHERE id='global'",[JSON.stringify(w.tiles)]);
+  const before=await families(),ticks=await Promise.all([api.conquestNpcTick(),api.conquestNpcTick()]);
+  expect(ticks.map(t=>t.expansions).sort()).toEqual([0,1]);
+  const first=await world(),outposts=first.tiles.filter(t=>t.owner==='dark-tide');expect(outposts).toHaveLength(1);
+  expect(outposts[0].distance).toBe(5);const revision=Number(first.revision);
+  expect((await api.conquestNpcTick()).expansions).toBe(0);expect(Number((await world()).revision)).toBe(revision);
+  // Eliminate the outpost without deleting the durable expansion clock.
+  first.tiles.find(t=>t.owner==='dark-tide').owner=null;
+  await api.pool.query("UPDATE conquest_worlds SET tiles=$1 WHERE id='global'",[JSON.stringify(first.tiles)]);
+  expect((await api.conquestNpcTick()).expansions).toBe(0);
+  await api.pool.query("UPDATE conquest_npc_clock SET last_expansion_at=$1",[Date.now()-6*3600000-1]);
+  expect((await api.conquestNpcTick()).expansions).toBe(1);expect((await world()).tiles.filter(t=>t.owner==='dark-tide')).toHaveLength(1);
+  expect(await families()).toBe(before);
+ });
+
 });

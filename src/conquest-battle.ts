@@ -1,10 +1,11 @@
+import { isNpcOwner } from './conquest-enemy';
 import { companionById, characterModel, heroById, wildIdentity, type ConquestHero } from './conquest-characters';
 import { ELEMENT_LABEL, advanceConquest, syncConquestRoster, currentUnit, deploymentBlock, battleResult, claimBlock, claimCost, power, seasonAt, territories, type BattleResult, type Companion, type ConquestState, type Guard, type Tile } from './conquest';
 
 export type BattleMode = 'claim' | 'drill';
 export type DrillTier = 'coast' | 'offshore' | 'deep';
 export const DRILL_TIERS: Record<DrillTier, string> = { coast: '近岸偵察', offshore: '外海突襲', deep: '深海強敵' };
-export type BattleUnit = Guard & { name: string; image?: string; model?: string; speciesId?: string; wild: boolean };
+export type BattleUnit = Guard & { name: string; image?: string; model?: string; speciesId?: string; wild: boolean; npc?: boolean };
 export type BattlePlan = { mode: BattleMode; player: string; season: string; tileId: string };
 export type BattleSetup = {
   mode: BattleMode; tileId: string; islandName: string; terrain: Tile['terrain']; element: Tile['element']; facility: Tile['facility'];
@@ -12,9 +13,9 @@ export type BattleSetup = {
   commander?: ConquestHero; defenderCommander?: ConquestHero; fullCost: number; block: string | null; source: string;
 };
 export type BattleReport = BattleSetup & { playerWon: boolean; energyAfter: number; shieldUntil: number; occurredAt: number };
-const units = (guards: readonly Guard[], roster: Companion[], wild: boolean): BattleUnit[] => guards.map((guard, index) => {
+const units = (guards: readonly Guard[], roster: Companion[], wild: boolean, npc = false): BattleUnit[] => guards.map((guard, index) => {
   const companion = wild ? wildIdentity(guard) : companionById(guard.id) ?? roster.find(c => c.id === guard.id);
-  return { ...guard, name: (companion && wild ? `${ELEMENT_LABEL[guard.element]}・${companion.name}` : companion?.name) ?? (wild ? `野怪 ${index + 1}` : `守衛 ${index + 1}`), image: companion?.image, speciesId: companion?.id, model: companion && characterModel(companion.id), wild };
+  return { ...guard, ...(npc ? {npc:true} : {}), name: (companion && wild ? `${ELEMENT_LABEL[guard.element]}・${companion.name}` : companion?.name) ?? (wild ? `野怪 ${index + 1}` : `守衛 ${index + 1}`), image: companion?.image, speciesId: companion?.id, model: companion && characterModel(companion.id), wild };
 });
 
 export function prepareBattle(state: ConquestState, plan: BattlePlan, team: string[], roster: Companion[], tier: DrillTier, now: number, commander?: string): BattleSetup {
@@ -40,9 +41,9 @@ export function prepareBattle(state: ConquestState, plan: BattlePlan, team: stri
   const count = territories(state, plan.player).length;
   return {
     commander: heroById(commander), defenderCommander: tile.owner ? heroById(tile.commander) : undefined, mode: 'claim', tileId: tile.id, islandName: tile.name, terrain: tile.terrain, element: tile.element, facility: tile.facility,
-    attackers: units(guards, roster, false), defenders: units(tile.guards, roster, !tile.owner),
+    attackers: units(guards, roster, false), defenders: units(tile.guards, roster, !tile.owner || isNpcOwner(tile.owner), isNpcOwner(tile.owner)),
     result: battleResult(guards, tile, count, tile.owner ? territories(state, tile.owner).length : 0), fullCost: claimCost(tile, count),
-    block: invalid ? '請選擇 3–5 位不同的出征夥伴。' : claimBlock(state, plan.player, tile, now, state.shared) ?? guards.map(g => deploymentBlock(state, g)).find(Boolean) ?? null, source: tile.owner ? '進攻其他玩家駐守的島嶼' : '進攻野怪駐守的島嶼',
+    block: invalid ? '請選擇 3–5 位不同的出征夥伴。' : claimBlock(state, plan.player, tile, now, state.shared) ?? guards.map(g => deploymentBlock(state, g)).find(Boolean) ?? null, source: isNpcOwner(tile.owner) ? '奪回黯潮軍團佔領的島嶼' : tile.owner ? '進攻其他玩家駐守的島嶼' : '進攻野怪駐守的島嶼',
   };
 }
 

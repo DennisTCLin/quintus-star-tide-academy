@@ -1,4 +1,5 @@
 import { islandCoordinates } from './conquest-names';
+import { buildNpcSmoke } from './conquest-npc-smoke';
 import { ELEMENT_LABEL } from './conquest';
 import ConquestElementBadge from './ConquestElementBadge';
 import { HEX_STEP_X, ISLAND_WIDTH, TERRITORY_SCALE } from './conquest-scale';
@@ -17,7 +18,7 @@ import { buildArchipelago, buildLockedFrontier, loadIslandModels, makeOcean, mak
 
 export type SceneControl = { home: () => void; rotate: (amount: number) => void; zoom: (factor: number) => void; overview: () => void; frontierInfo: () => void; focusTile: (id: string) => void };
 type Props = { guidance: Record<string, ClaimGuidance>; tiles: Tile[]; player: string; playerName: string; combatTileId?: string | null; selected: string; onSelect: (id: string, invoker?: HTMLElement) => void; reduced: boolean; now: number; suspended?: boolean };
-type Runtime = { camera: THREE.PerspectiveCamera; controls: OrbitControls; overlays: THREE.Group; heights: Map<string, IslandHeight>; focus: THREE.Vector3; render: () => void };
+type Runtime = { camera: THREE.PerspectiveCamera; controls: OrbitControls; overlays: THREE.Group; smoke: THREE.Group; clock: { value: number }; heights: Map<string, IslandHeight>; focus: THREE.Vector3; render: () => void };
 const CHART_LENS = Math.tan(THREE.MathUtils.degToRad(21)) / Math.tan(THREE.MathUtils.degToRad(14));
 function home(r: Runtime) { r.camera.fov = 28; r.camera.updateProjectionMatrix(); r.controls.target.copy(r.focus); r.camera.position.set(3, 13, 17).multiplyScalar(CHART_LENS).multiplyScalar(r.camera.aspect < 1 ? 1.35 : 1).add(r.focus); r.controls.update(); r.render(); }
 function glowLine(points: THREE.Vector3[], color: string, radius = .022) {
@@ -97,14 +98,14 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ guidance
     const sun = new THREE.DirectionalLight('#fff0cf', 2.7); sun.position.set(-18, 28, 14); sun.castShadow = true;
     sun.shadow.mapSize.set(2048, 2048); Object.assign(sun.shadow.camera, { left: -34, right: 34, top: 34, bottom: -34, near: 1, far: 85 }); sun.shadow.bias = -.0002; sun.shadow.normalBias = .025; scene.add(sun);
     const fill = new THREE.DirectionalLight('#addcff', .55); fill.position.set(18, 9, -12); scene.add(fill);
-    const clock = makeOcean(scene, 1800), overlays = new THREE.Group(); scene.add(overlays);
+    const clock = makeOcean(scene, 1800), overlays = new THREE.Group(), smoke = new THREE.Group(); scene.add(overlays, smoke);
     makeFrontierMist(scene, clock);
     const composer = new EffectComposer(renderer); const base = new RenderPass(scene, camera), bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), .22, .35, 1.1), output = new OutputPass();
     composer.addPass(base); composer.addPass(bloom); composer.addPass(output);
     const render = () => { if (!disposed) { composer.render(); updateLabels.current(); } };
     const castle = tiles.find(t => t.id === selected) ?? tiles.find(t => t.facility === 'castle');
     const focus = castle ? point(castle) : new THREE.Vector3(); focus.y = .3;
-    const current: Runtime = { camera, controls, overlays, heights: new Map(), focus, render }; runtime.current = current;
+    const current: Runtime = { camera, controls, overlays, smoke, clock, heights: new Map(), focus, render }; runtime.current = current;
     controls.addEventListener('change', render);
     let firstResize = true;
     const resize = () => { const { width, height } = container.getBoundingClientRect(); camera.aspect = width / Math.max(1, height); camera.updateProjectionMatrix(); renderer.setSize(width, height, false); composer.setSize(width, height); if (firstResize) home(current); firstResize = false; render(); };
@@ -189,6 +190,19 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ guidance
     }
     r.render();
   }, [tiles, guidance, player, selected, combatTileId, playerName, now, ready, reduced]);
+  // Only ownership/geography changes rebuild smoke; the once-a-second UI clock
+  // and five-second shared-world refresh must not reallocate GPU buffers.
+  const smokeKey = tiles.filter(t => territoryMarker(t, player)?.kind === 'npc').map(t => t.id).join('|');
+  useEffect(() => {
+    const r = runtime.current; if (!r || !ready || r.heights.size !== tiles.length) return;
+    release(r.smoke); r.smoke.clear();
+    const smoke = buildNpcSmoke(tiles, r.heights, r.clock);
+    if (smoke) r.smoke.add(smoke);
+    host.current?.setAttribute('data-npc-smoke-islands', String(smoke?.userData.islandIds.length ?? 0));
+    r.render();
+    // Ownership signature intentionally excludes changing HP and UI timestamps.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [smokeKey, layoutKey, ready, reduced]);
   return <div className="cq-canvas" data-overview={overview} ref={host} data-ready={ready ? 'true' : 'false'} data-art="higgsfield-glb-v2"><div className="cq-map-labels" hidden={!ready || !!error} aria-label="海圖領地標記">{tiles.map(tile => {
     const status = territoryStatus(tile, player, combatTileId, now);
     const protection = islandProtection(tile, now, combatTileId);

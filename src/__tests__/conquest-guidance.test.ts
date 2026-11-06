@@ -52,3 +52,13 @@ it('blocks incomplete, duplicate, unavailable and missing teams plus pending/off
  s.tiles[0].owner='p';s.tiles[0].guards=[roster[0]];expect(claimGuidance(s,'p',t,team,roster,now).teamReason).toContain('駐守');
  s.tiles[0].guards=[];s.units.c0={...roster[0],hp:0};expect(claimGuidance(s,'p',t,team,roster,now).teamReason).toContain('倒地');
 });
+it('treats NPC islands as PvE targets with accurate labels in both shared and local worlds',()=>{
+ for(const shared of [true,false])for(const energy of [0,1000])for(const count of [2,3])for(const battleUntil of [0,now+1]) {
+  const s=fresh();s.shared=shared;s.energy=energy;s.playerId='p';s.tiles.find(t=>t.id==='0,0')!.owner='p';
+  const t=s.tiles.find(t=>t.id==='1,0')!;t.owner='dark-tide';t.battleUntil=battleUntil;t.shieldUntil=0;
+  const ids=team.slice(0,count),g=claimGuidance(s,'p',t,ids,roster,now);
+  const setup=prepareBattle(s,{mode:'claim',player:'p',season:s.season,tileId:t.id},ids,roster,'coast',now);
+  expect(g.ready).toBe(!setup.block);expect(g.label).not.toContain('玩家搶地');
+  if(battleUntil>now)expect(g.label).toBe('交戰中');else if(!energy)expect(g.label).toBe('能量不足');else if(count<3)expect(g.label).toBe('隊伍未就緒');else expect(g.label).toBe('可出征');
+ }
+});

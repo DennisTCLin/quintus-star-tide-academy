@@ -1,3 +1,4 @@
+import { isNpcOwner, NPC_FACTION } from './conquest-enemy';
 import { claimBlock, claimCost, deploymentBlock, hexDistance, shieldActive, territories, type Companion, type ConquestState, type Tile } from './conquest';
 
 // Presentation composes the same rules used by combat; it never grants a claim.
@@ -14,7 +15,7 @@ export function claimGuidance(state: ConquestState, player: string, tile: Tile, 
   const ready = !own && !reason;
   const label = own ? '我的領地' : ready ? '可出征' : storageError ? '等待連線或確認戰果' : busy ? '操作處理中'
     : (tile.battleUntil ?? 0) > now ? '交戰中' : shieldActive(tile, now) ? '護盾保護中'
-    : tile.owner && !state.shared ? '尚未開放玩家搶地' : !adjacentTarget ? `不相鄰・距領地 ${distance} 格`
+    : tile.owner && !isNpcOwner(tile.owner) && !state.shared ? '尚未開放玩家搶地' : !adjacentTarget ? `不相鄰・距領地 ${distance} 格`
     : state.energy < claimCost(tile, owned.length) ? '能量不足' : '隊伍未就緒';
   return { own, ready, adjacentTarget, label, reason: reason || null, tileReason, teamReason, distance, cost: claimCost(tile, owned.length) };
 }
@@ -24,6 +25,7 @@ export type ClaimGuidance = ReturnType<typeof claimGuidance>;
 // is hidden by collisions on a small screen. This never changes ownership.
 export function territoryMarker(tile: Tile, player: string) {
   if (!tile.owner) return null;
+  if (isNpcOwner(tile.owner)) return { kind: 'npc' as const, color: '#ff775c' };
   return tile.owner === player
     ? { kind: 'own' as const, color: '#ffbf4b' }
     : { kind: 'other' as const, color: '#c8a4ff' };
@@ -36,7 +38,7 @@ export function territoryStatus(tile: Tile, player: string, combatTileId?: strin
   return {
     kind: fighting ? 'war' : tile.owner ? 'occupied' : 'unoccupied',
     label: fighting ? '交戰中' : tile.owner ? '已被佔領' : '尚未佔領',
-    ownerLabel: own ? '我的領地' : tile.owner ? tile.ownerInfo?.name ?? '其他領主' : '野怪駐守',
+    ownerLabel: isNpcOwner(tile.owner) ? NPC_FACTION.name : own ? '我的領地' : tile.owner ? tile.ownerInfo?.name ?? '其他領主' : '野怪駐守',
     own,
   } as const;
 }
