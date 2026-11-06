@@ -1,11 +1,11 @@
 import { describe,it,expect } from 'vitest';
-import { createConquest,ensureSeason } from '../conquest';
+import { createConquest,ensureSeason,withHealth } from '../conquest';
 import { enrollConquest } from '../conquest-alliance';
 import { incomingRaid,nextRaidWindow,resolveNpcRaid,unreadRaidReports,acknowledgeRaidReports,RAID_INTERVAL_MS,RAID_WARNING_MS } from '../conquest-enemy';
 import { parseConquest } from '../conquest-store';
 import { raidDuration } from '../ConquestRaidCountdown';
 const start=Date.UTC(2026,10,5),owner='quintus';
-function fixture(){const state=enrollConquest(createConquest(undefined,start),owner,'light','hero-elf',{},start),tile=state.tiles[0];Object.assign(tile,{owner,capturedAt:start,guards:[],shieldUntil:0});return {state,tile};}
+function fixture(){const state=enrollConquest(createConquest(undefined,start),owner,'light','hero-elf',{},start),tile=state.tiles[0];const guard=withHealth({id:'tideglow',level:1000,element:'water'});state.units[guard.id]=guard;Object.assign(tile,{owner,capturedAt:start,guards:[guard],shieldUntil:0});return {state,tile};}
 function fight(){const {state,tile}=fixture(),now=start+RAID_WARNING_MS,raid=incomingRaid(state,owner,now)!;return {state:resolveNpcRaid(state,owner,raid.id,now),tile,now};}
 describe('raid countdown and unread reports',()=>{
  it('shows no countdown without territory or enrollment and the first capture grace otherwise',()=>{

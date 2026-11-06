@@ -31,6 +31,6 @@ export { createConquest, advanceConquest, ensureSeason, syncConquestRoster, act 
 export { enrollConquest, validEnrollment } from '../src/conquest-alliance';
 export { expeditionRoster } from '../src/conquest-characters';
 
-export { incomingRaid, resolveNpcRaid } from '../src/conquest-enemy';
+export { incomingRaid, resolveNpcRaid, NPC_FACTION, isNpcOwner, expandNpcTerritory } from '../src/conquest-enemy';
 
 export { acknowledgeRaidReports, appendRaidReport, createPlayerRaidReport } from '../src/conquest-enemy';

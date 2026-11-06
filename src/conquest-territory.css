@@ -26,3 +26,8 @@
 .cq-island-protection[data-protection=protected] .cq-protection-time{color:#dcf8ff}
 .cq-protection-warning{font-size:10px;line-height:1.3;color:#ffd4b2}
 @media(max-width:600px){.family-app .cq-game .cq-map-label{min-width:140px;max-width:172px;padding:7px 8px;gap:5px}.cq-map-label-heading{gap:5px}}
+
+.cq-status-legend .cq-legend-npc{background:#ff775c}
+.family-app .cq-game .cq-map-label[data-owner-kind=npc][data-status=occupied]{border-color:#ff775c;color:#ffd5cb}
+.family-app .cq-game .cq-owner-overview button[data-npc=true]{border-color:#ff775c;color:#ffd5cb}
+.family-app .cq-game .cq-owner-overview button[data-npc=true][aria-pressed=true]{background:#ffd5cb;color:#442016;border-color:#ff775c}

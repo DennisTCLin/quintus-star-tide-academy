@@ -1,4 +1,4 @@
-import { validRaidProgress, validRaidReport, RAID_REPORT_LIMIT } from './conquest-enemy';
+import { isNpcOwner, validRaidProgress, validRaidReport, RAID_REPORT_LIMIT } from './conquest-enemy';
 import { migrateEnrollment } from './conquest-alliance';
 import { advanceConquest, createConquest, ensureSeason, health, maxHealth, type ConquestState, type Guard } from './conquest';
 export const CONQUEST_CHANGED = 'star-tide:conquest-changed';
@@ -18,10 +18,10 @@ export function parseConquest(raw: string, player: string): ConquestState {
   const base = createConquest(s.season, s.updatedAt), used = new Set<string>(), seen = new Set<string>();
   const tiles = base.tiles.map(original => {
     const tile = s.tiles.find(t => t?.id === original.id);
-    if (!tile || seen.has(tile.id) || tile.owner !== null && tile.owner !== player || !number(tile.shieldUntil) || tile.shieldStartsAt !== undefined && !number(tile.shieldStartsAt) || tile.capturedAt !== undefined && !number(tile.capturedAt) || !Array.isArray(tile.guards) || tile.guards.length > 5 || !tile.guards.every(validGuard)) return bad();
+    if (!tile || seen.has(tile.id) || tile.owner !== null && tile.owner !== player && !isNpcOwner(tile.owner) || !number(tile.shieldUntil) || tile.shieldStartsAt !== undefined && !number(tile.shieldStartsAt) || tile.capturedAt !== undefined && !number(tile.capturedAt) || !Array.isArray(tile.guards) || tile.guards.length > 5 || !tile.guards.every(validGuard)) return bad();
     seen.add(tile.id);
-    if (tile.owner) for (const g of tile.guards) { if (used.has(g.id) || !s.units[g.id] || health(s.units[g.id]) <= 0) bad(); used.add(g.id); }
-    return { ...original, owner: tile.owner, guards: tile.owner ? tile.guards.map(g => ({ ...s.units[g.id] })) : tile.guards, shieldUntil: tile.shieldUntil, shieldStartsAt: tile.shieldStartsAt ?? 0, capturedAt: tile.capturedAt ?? 0, commander: tile.owner && s.enrollment ? s.enrollment.heroId : typeof tile.commander === 'string' ? tile.commander : undefined };
+    if (tile.owner === player) for (const g of tile.guards) { if (used.has(g.id) || !s.units[g.id] || health(s.units[g.id]) <= 0) bad(); used.add(g.id); }
+    return { ...original, owner: tile.owner, guards: tile.owner === player ? tile.guards.map(g => ({ ...s.units[g.id] })) : tile.guards, shieldUntil: tile.shieldUntil, shieldStartsAt: tile.shieldStartsAt ?? 0, capturedAt: tile.capturedAt ?? 0, commander: tile.owner === player && s.enrollment ? s.enrollment.heroId : typeof tile.commander === 'string' ? tile.commander : undefined };
   });
   return { ...base, enrollment: s.enrollment, npcRaids: s.npcRaids, raidReports: s.raidReports, raidReadIds: s.raidReadIds, energy: s.energy, units: s.units, inventory: s.inventory, tiles, credited: s.credited, log: s.log.slice(0,30), lastBattle: null };
 }
