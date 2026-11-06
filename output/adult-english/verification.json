@@ -11,11 +11,12 @@
     "contentEngine": 17,
     "transportIntegrity": 4,
     "realPostgreSQL": 13,
-    "total": 34
+    "total": 38,
+    "hookOrderingRecovery": 4
   },
   "regression": {
     "status": "PASS",
-    "passed": 1501,
+    "passed": 1505,
     "skipped": 251,
     "note": "DB suites intentionally skipped in general run and tested separately; counts overlap, do not add as unique totals"
   },
@@ -61,7 +62,8 @@
       "auth secrets cleared after logout",
       "consistent recovery locks",
       "UI remount and recoverycode clear on account switch"
-    ]
+    ],
+    "persistedRegression": "src/__tests__/adult-hook.test.ts (actual hook VM, 4PASS; explicit render checkpoints, not a complete React renderer)"
   },
   "ui": {
     "status": "PASS_LOCAL_BROWSER",
