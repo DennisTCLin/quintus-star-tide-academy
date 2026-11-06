@@ -23,7 +23,7 @@ function Recovery({ title, onRetry, onBack }: { title: string; onRetry: () => vo
   const heading = useRef<HTMLHeadingElement>(null);
   const [voiceError, setVoiceError] = useState("");
   useEffect(() => { heading.current?.focus({ preventScroll: true }); return stopVoice; }, []);
-  const message = `${title}還沒準備好。可以再試一次，或先回港口。`;
+  const message = `${title}還沒準備好。可以重新載入，或先回港口。`;
   return <section className="route-recovery f-panel" role="alert">
     <div className="route-recovery-symbol" aria-hidden="true">🧭</div>
     {annotateTree(<><h1 ref={heading} tabIndex={-1}>這裡暫時打不開</h1><p>{message}</p>
@@ -32,7 +32,10 @@ function Recovery({ title, onRetry, onBack }: { title: string; onRetry: () => vo
         speak(message, () => setVoiceError("這台裝置暫時無法朗讀。請按下方按鈕繼續。"));
       }}>🔊 聽說明</button></ReadAloud>
       <div className="route-recovery-actions">
-        <button className="f-primary" aria-label="再試一次" onClick={onRetry}>↻ 再試一次</button>
+        {/* A stale deployment URL cannot be fixed by retrying the same import.
+            Keep a full reload user-triggered; never discard another page's draft automatically. */}
+        <button className="f-primary" aria-label="重新載入" onClick={() => window.location.reload()}>↻ 重新載入</button>
+        <button aria-label="再試一次" onClick={onRetry}>再試一次</button>
         <button aria-label="先回港口" onClick={onBack}>⛵ 先回港口</button>
       </div>
       {voiceError && <p role="status">{voiceError}</p>}
