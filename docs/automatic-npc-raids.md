@@ -50,3 +50,7 @@ Additional checks: `conquest-raid-notifications.test.ts` covers future shields, 
 ## Territory implementation checks (2026-11-06)
 
 Implemented in `codex/dark-tide-territories` from `b8566bd8`, with one writer and an independent read-only verifier (Relay). Pure conquest suites, the shared/NPC PostgreSQL suites against a new isolated local database, pronunciation checks, TypeScript and the production build passed. Browser fixture checks at 390 and 1440 px cover the separate NPC filter, exclusion from other-player filters, guard images, battle army labels and no horizontal overflow/page errors. Existing learning data is unchanged in the integration tests. The verifier's battle-label and repeated-loss-count findings were fixed and the affected tests rerun. This is local verification; no production deployment or live-player migration was performed.
+
+### Occupation smoke
+
+NPC islands display dark violet smoke in the 3D chart. All puffs share one instanced draw and the existing scene clock; reduced-motion users retain static smoke. The effect rebuilds only when ownership or geography changes, disappears on reclaim, and releases GPU resources on replacement/unmount. Unit checks cover the 91-island bound and disposal; Chromium checks cover desktop, 390 px mobile, static reduced-motion and reclaim with no WebGL/page errors.
