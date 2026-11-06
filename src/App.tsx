@@ -1044,7 +1044,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
     <ReadingContext.Provider value={{ grade: readingGrade, voice: voice && allowsReadAloud(readingGrade) }}>
       {annotateTree(
         <div
-          className={`family-app ${quizFocused ? "quiz-focused" : ""} ${quizPreparing ? "quiz-preparing" : ""} ${questionExpanded ? "question-expanded" : ""} grade-${readingGrade} ${page === "learn" && run ? `quiz-active ${run.status !== "active" ? "quiz-complete" : ""} ${resultReady ? `quiz-result-ready ${run.status === "failed" ? "quiz-result-failed" : ""}` : ""}` : ""} ${reduceMotion ? "reduce-motion" : ""} ${contrast ? "high-contrast" : ""}`}
+          className={`family-app ${page === "home" ? "home-page" : ""} ${quizFocused ? "quiz-focused" : ""} ${quizPreparing ? "quiz-preparing" : ""} ${questionExpanded ? "question-expanded" : ""} grade-${readingGrade} ${page === "learn" && run ? `quiz-active ${run.status !== "active" ? "quiz-complete" : ""} ${resultReady ? `quiz-result-ready ${run.status === "failed" ? "quiz-result-failed" : ""}` : ""}` : ""} ${reduceMotion ? "reduce-motion" : ""} ${contrast ? "high-contrast" : ""}`}
         >
           <a className="skip-link" href={page === "home" ? "#harbor-departure" : "#family-main"}>
             跳到主要內容
