@@ -220,6 +220,26 @@
 .harbor-departure-start .ruby-line rt { font-size: 14px; color: #123349; }
 .harbor-departure-listen { flex: 0 0 48px; padding: 10px !important; }
 .harbor-departure :focus-visible { outline: 3px solid #ffdb8b; outline-offset: 4px; }
+/* These cards sit outside family-main and share its responsive content edges. */
+.family-app > .cq-raid-notice,
+.family-app > .harbor-departure,
+.family-app > .cq-home-entry {
+  box-sizing: border-box;
+  width: min(1216px, calc(100% - 64px));
+  margin-inline: auto;
+}
+.family-app .harbor-departure h1:focus { outline: none; }
+.cq-home-holdings b { display: inline-block; margin-inline-end: 8px; }
+@media (max-width: 900px) {
+  .family-app > .cq-raid-notice,
+  .family-app > .harbor-departure,
+  .family-app > .cq-home-entry { width: calc(100% - 40px); }
+}
+@media (max-width: 600px) {
+  .family-app > .cq-raid-notice,
+  .family-app > .harbor-departure,
+  .family-app > .cq-home-entry { width: calc(100% - 28px); }
+}
 @media (max-width: 700px) {
   .harbor-departure {
     width: calc(100% - 28px);
