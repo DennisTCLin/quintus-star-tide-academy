@@ -112,3 +112,5 @@
 .cq-claim-summary{padding:14px 18px;background:#f5e5bf;border-bottom:1px solid #c2ad7d;color:#123945}.cq-claim-summary strong{font-size:18px}.cq-claim-summary[data-ready=true]{background:#d8eee2}.family-app .cq-claim-summary p{margin:6px 0;line-height:1.6;color:#123945;font-size:14px}.cq-claim-summary small{display:block}.cq-claim-summary button{margin-top:10px}
 .cq-directory-guidance{color:#704812!important;font-weight:600}.cq-directory-guidance[data-ready=true]{color:#16644f!important}
 @media(max-width:760px){.cq-target-guide{padding:12px 14px;gap:8px}.cq-target-guide>div{flex-basis:100%}.family-app .cq-game .cq-map-invitation{max-width:min(290px,calc(100% - 28px));padding:9px 12px}.cq-map-invitation strong{font-size:21px}.cq-game .cq-map-invitation>span{font-size:10px}}
+
+.cq-target-empty{flex-basis:100%;border-top:1px solid #c3ac7155;padding-top:8px}.family-app .cq-target-empty p{font-size:13px;color:#f7e6bf;margin:0 0 8px}.cq-target-empty button+button{margin-left:8px}
