@@ -1,9 +1,11 @@
+import { isNpcOwner, NPC_FACTION } from './conquest-enemy';
 import { shieldActive, type Tile } from './conquest';
 
 // Every occupied island has a persistent 3D marker, even when its HTML label
 // is hidden by collisions on a small screen. This never changes ownership.
 export function territoryMarker(tile: Tile, player: string) {
   if (!tile.owner) return null;
+  if (isNpcOwner(tile.owner)) return { kind: 'npc' as const, color: '#ff775c' };
   return tile.owner === player
     ? { kind: 'own' as const, color: '#ffbf4b' }
     : { kind: 'other' as const, color: '#c8a4ff' };
@@ -16,7 +18,7 @@ export function territoryStatus(tile: Tile, player: string, combatTileId?: strin
   return {
     kind: fighting ? 'war' : tile.owner ? 'occupied' : 'unoccupied',
     label: fighting ? '交戰中' : tile.owner ? '已被佔領' : '尚未佔領',
-    ownerLabel: own ? '我的領地' : tile.owner ? tile.ownerInfo?.name ?? '其他領主' : '野怪駐守',
+    ownerLabel: isNpcOwner(tile.owner) ? NPC_FACTION.name : own ? '我的領地' : tile.owner ? tile.ownerInfo?.name ?? '其他領主' : '野怪駐守',
     own,
   } as const;
 }

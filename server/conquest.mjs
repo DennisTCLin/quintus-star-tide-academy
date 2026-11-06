@@ -2,7 +2,7 @@ import {conquestPublicIdentities,publicConquestState} from './world-identity.mjs
 import { randomUUID, createHash } from 'node:crypto';
 import { ensureSchema } from './schema-migration.mjs';
 import { collectionIdentity } from './player-collections.mjs';
-import { PLAYERS, createConquest, advanceConquest, ensureSeason, syncConquestRoster, conquestAct, conquestCreditAnswer, seasonAt, conquestAlive, conquestPower, enrollConquest, validEnrollment, expeditionRoster, incomingRaid, resolveNpcRaid, acknowledgeRaidReports, appendRaidReport, createPlayerRaidReport } from '../build/game.mjs';
+import { PLAYERS, createConquest, advanceConquest, ensureSeason, syncConquestRoster, conquestAct, conquestCreditAnswer, seasonAt, conquestAlive, conquestPower, enrollConquest, validEnrollment, expeditionRoster, NPC_FACTION, isNpcOwner, expandNpcTerritory, incomingRaid, resolveNpcRaid, acknowledgeRaidReports, appendRaidReport, createPlayerRaidReport } from '../build/game.mjs';
 const uuid = value => typeof value === 'string' && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(value);
 const privateState = ({ tiles, lastBattle, playerId, shared, ...state }) => state;
 const digest = body => createHash('sha256').update(JSON.stringify(body, Object.keys(body).sort())).digest('hex');
@@ -16,6 +16,7 @@ export async function createConquestService({ pool, transaction, lockSession, as
     CREATE INDEX IF NOT EXISTS conquest_command_retention ON conquest_commands(created_at);
   `);
   await ensureSchema(pool, 'conquest-npc-clock-v1', `CREATE TABLE IF NOT EXISTS conquest_npc_clock(id text PRIMARY KEY,last_tick_at bigint NOT NULL,last_raid_at bigint NOT NULL DEFAULT 0);`);
+  await ensureSchema(pool, 'conquest-npc-territory-v1', `ALTER TABLE conquest_npc_clock ADD COLUMN IF NOT EXISTS last_expansion_at bigint;`);
   const scope = (user,player) => {
     assert(PLAYERS.some(p=>p.id===player),'請先選擇航海員',400);
     assert(!user.member_id || user.player_id===player,'只能操作自己的群島領地',403);
@@ -50,11 +51,11 @@ export async function createConquestService({ pool, transaction, lockSession, as
       await saveWorld(db,world);
     }
     // Wild wounds have a world clock; personal recovery has each owner's clock.
-    const agedWild=advanceConquest({...base,updatedAt:Number(world.updated_at),tiles:world.tiles.filter(t=>!t.owner)},now);
+    const agedWild=advanceConquest({...base,updatedAt:Number(world.updated_at),tiles:world.tiles.filter(t=>!t.owner||isNpcOwner(t.owner))},now);
     const wildById=new Map(agedWild.tiles.map(t=>[t.id,t]));
-    world.tiles=world.tiles.map(t=>!t.owner?wildById.get(t.id):t);
+    world.tiles=world.tiles.map(t=>!t.owner||isNpcOwner(t.owner)?wildById.get(t.id):t);
     const livingOwners=new Set(rows.map(r=>r.id));
-    world.tiles=world.tiles.map(t=>t.owner&&!livingOwners.has(t.owner)?{...t,owner:null,guards:t.wild.map(g=>({...g})),commander:undefined,shieldUntil:0,shieldStartsAt:0,battleUntil:0}:t);
+    world.tiles=world.tiles.map(t=>t.owner&&!isNpcOwner(t.owner)&&!livingOwners.has(t.owner)?{...t,owner:null,guards:t.wild.map(g=>({...g})),commander:undefined,shieldUntil:0,shieldStartsAt:0,battleUntil:0}:t);
     for(const row of rows) {
       row.roster=expeditionRoster(row.profile?.owned??{},row.state.enrollment,row.profile?.growth?.xp??{});
       row.current=syncConquestRoster(advanceConquest({...row.state,tiles:world.tiles,playerId:row.id,shared:true,lastBattle:null},now),row.roster);
@@ -71,10 +72,15 @@ export async function createConquestService({ pool, transaction, lockSession, as
   }
   const saveWorld = (db,world) => db.query("UPDATE conquest_worlds SET season=$1,revision=$2,tiles=$3,updated_at=$4 WHERE id='global'",[world.season,world.revision,JSON.stringify(world.tiles),world.updated_at]);
   const savePlayer = (db,row) => db.query('UPDATE conquest_players SET state=$2 WHERE id=$1',[row.id,JSON.stringify(privateState(row.current))]);
+  function projectionIdentities(rows) {
+    const identities=new Map(rows.map(row=>[row.id,{name:row.publicIdentity.name,profile:row.publicIdentity.profile,avatarKey:row.publicIdentity.avatarKey}]));
+    identities.set(NPC_FACTION.id,{name:NPC_FACTION.name,profile:'npc',avatarKey:'npc'});
+    return identities;
+  }
   function snapshot(context) {
     const {world,rows,me,now}=context;
     assert(me,'找不到群島玩家資料',409);
-    const identities=new Map(rows.map(row=>[row.id,{name:row.publicIdentity.name,profile:row.publicIdentity.profile,avatarKey:row.publicIdentity.avatarKey}]));
+    const identities=projectionIdentities(rows);
     const tiles=world.tiles.map(tile=>({...tile,ownerInfo:tile.owner?identities.get(tile.owner):undefined}));
     const players=rows.filter(row=>row.current.enrollment).map(row=>({id:row.id,...identities.get(row.id),allianceId:row.current.enrollment.allianceId,heroId:row.current.enrollment.heroId,count:tiles.filter(t=>t.owner===row.id).length,defense:tiles.filter(t=>t.owner===row.id).reduce((sum,t)=>sum+conquestPower(t.guards),0)}));
     return {serverNow:now,revision:Number(world.revision),me:me.id,state:publicConquestState({...me.current,tiles,lastBattle:null},identities),collection:{owned:me.profile?.owned??{},growthXp:me.profile?.growth?.xp??{}},players};
@@ -85,6 +91,9 @@ export async function createConquestService({ pool, transaction, lockSession, as
     // PvP, healing and learning; never acquire account/learning locks from here.
     tickNpcRaids: async () => transaction(async db => {
       const {world,rows,now} = await load(db,null,null,Date.now(),false);
+      const clock=(await db.query("SELECT last_expansion_at FROM conquest_npc_clock WHERE id='global'")).rows[0];
+      const expansion=expandNpcTerritory(world.tiles,now,clock?.last_expansion_at == null ? null : Number(clock.last_expansion_at));
+      if(expansion)world.tiles=expansion.tiles.map(t=>t.id===expansion.tileId?{...t,battleUntil:now+combatMs}:t);
       let raids = 0;
       for (const row of rows) {
         row.current.tiles = world.tiles;
@@ -97,11 +106,11 @@ export async function createConquestService({ pool, transaction, lockSession, as
         // Persist each owner's clock and recovery together with wounds/reports.
         await savePlayer(db,row);
       }
-      if (raids) world.revision = Number(world.revision) + 1;
+      if (raids || expansion) world.revision = Number(world.revision) + 1;
       await saveWorld(db,world);
-      await db.query(`INSERT INTO conquest_npc_clock(id,last_tick_at,last_raid_at) VALUES('global',$1,$2)
-        ON CONFLICT(id) DO UPDATE SET last_tick_at=EXCLUDED.last_tick_at,last_raid_at=CASE WHEN EXCLUDED.last_raid_at>0 THEN EXCLUDED.last_raid_at ELSE conquest_npc_clock.last_raid_at END`,[now,raids ? now : 0]);
-      return {raids,at:now};
+      await db.query(`INSERT INTO conquest_npc_clock(id,last_tick_at,last_raid_at,last_expansion_at) VALUES('global',$1,$2,$3)
+        ON CONFLICT(id) DO UPDATE SET last_tick_at=EXCLUDED.last_tick_at,last_raid_at=CASE WHEN EXCLUDED.last_raid_at>0 THEN EXCLUDED.last_raid_at ELSE conquest_npc_clock.last_raid_at END,last_expansion_at=COALESCE(EXCLUDED.last_expansion_at,conquest_npc_clock.last_expansion_at)`,[now,raids ? now : 0,expansion ? now : null]);
+      return {raids,expansions:expansion ? 1 : 0,at:now};
     }),
     read: async(user,player)=>{scope(user,player);return transaction(async db=>{await lockSession(db,user);return snapshot(await load(db,user,player,Date.now()));});},
     markReportsRead: async(user,body)=>{
@@ -130,7 +139,7 @@ export async function createConquestService({ pool, transaction, lockSession, as
         await lockSession(db,user);
         const context=await load(db,user,body.player,Date.now()),{world,me,rows,now}=context;
         const hash=digest(body),old=(await db.query('SELECT payload_hash,result FROM conquest_commands WHERE player_id=$1 AND id=$2',[me.id,body.commandId])).rows[0];
-        if(old){assert(old.payload_hash===hash,'操作識別碼已使用，請勿更改內容',409);return {...snapshot(context),result:{...old.result,state:publicConquestState(old.result.state,new Map(rows.map(r=>[r.id,r.publicIdentity])))},replayed:true};}
+        if(old){assert(old.payload_hash===hash,'操作識別碼已使用，請勿更改內容',409);return {...snapshot(context),result:{...old.result,state:publicConquestState(old.result.state,projectionIdentities(rows))},replayed:true};}
         assert(body.season===world.season&&body.revision===Number(world.revision),'群島戰況已更新，請重新查看後操作',409);
         let next;
         const tile=world.tiles.find(t=>t.id===body.tileId),defender=tile?.owner&&rows.find(r=>r.id===tile.owner);
@@ -158,7 +167,7 @@ export async function createConquestService({ pool, transaction, lockSession, as
         // Original outcome is immutable even if a retry happens after another player attacks.
         const result={state:{...me.current,tiles:world.tiles},occurredAt:now};
         await db.query('INSERT INTO conquest_commands(player_id,id,payload_hash,result) VALUES($1,$2,$3,$4)',[me.id,body.commandId,hash,JSON.stringify(result)]);
-        return {...snapshot(context),result:{...result,state:publicConquestState(result.state,new Map(rows.map(r=>[r.id,r.publicIdentity])))},replayed:false};
+        return {...snapshot(context),result:{...result,state:publicConquestState(result.state,projectionIdentities(rows))},replayed:false};
       });
     },
     syncAccount:async(db,user,player)=>{

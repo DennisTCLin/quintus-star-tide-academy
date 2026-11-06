@@ -37,13 +37,31 @@ describe('dark tide NPC raids',()=>{
   expect(ensureSeason(result,Date.UTC(2026,11,1)).raidReports).toEqual(result.raidReports);
   expect(ensureSeason(result,Date.UTC(2026,11,1)).npcRaids).toEqual(result.npcRaids);
  });
- it('bounds defeat losses and cannot heal by previewing or turn the enemy into a player owner',()=>{
+ it('bounds defeat losses and occupies the island with surviving invaders',()=>{
   const {state,roster,tile}=fixture();tile.guards=[];state.inventory.herbs=3;state.inventory.spring=1;
   const now=start+RAID_WARNING_MS,raid=incomingRaid(state,player,now)!;const result=act(state,player,{type:'defend',raidId:raid.id},roster,now);
   expect(result.npcRaids?.defended).toBe(false);expect(result.inventory.herbs).toBeGreaterThanOrEqual(0);expect(result.inventory.spring).toBeGreaterThanOrEqual(0);
-  expect(result.inventory.bandage).toBe(2);expect(result.inventory.potion).toBe(1);expect(result.tiles.find(t=>t.id===tile.id)?.owner).toBe(player);
-  expect(result.tiles.some(t=>t.owner===NPC_FACTION.id)).toBe(false);
+  expect(result.inventory.bandage).toBe(2);expect(result.inventory.potion).toBe(1);expect(result.tiles.find(t=>t.id===tile.id)?.owner).toBe(NPC_FACTION.id);
+  const captured=result.tiles.find(t=>t.id===tile.id)!;
+  expect(captured.guards).toEqual(result.lastBattle!.attackersAfter.filter(g=>health(g)>0));
+  expect(captured).toMatchObject({shieldUntil:0,shieldStartsAt:0,capturedAt:now});expect(captured.commander).toBeUndefined();
+  expect(result.raidReports![0]).toMatchObject({captured:true,defended:false});
+  expect(incomingRaid(result,player,now+RAID_INTERVAL_MS)).toBeNull();
+  expect(parseConquest(JSON.stringify(result),player).tiles.find(t=>t.id===tile.id)?.guards).toEqual(captured.guards);
+  const reclaimed=act({...result,energy:1000},player,{type:'claim',tileId:tile.id,team:roster.map(g=>g.id)},roster,now);
+  expect(reclaimed.lastBattle!.won).toBe(true);expect(reclaimed.tiles.find(t=>t.id===tile.id)?.owner).toBe(player);
   expect(()=>act(state,'other',{type:'defend',raidId:raid.id},roster,now)).toThrow();
+ });
+ it('saves defeated player wounds separately from the occupying NPC garrison',()=>{
+  const {state,roster,tile}=fixture();
+  const guard={...withHealth(roster[0]),hp:1};tile.guards=[guard];state.units[guard.id]=guard;
+  const now=start+RAID_WARNING_MS,raid=incomingRaid(state,player,now)!;
+  const next=act(state,player,{type:'defend',raidId:raid.id},roster,now);
+  expect(next.npcRaids?.defended).toBe(false);expect(next.units[guard.id].hp).toBe(0);
+  const occupied=next.tiles.find(t=>t.id===tile.id)!;
+  expect(occupied.owner).toBe(NPC_FACTION.id);expect(occupied.guards.some(g=>g.id===guard.id)).toBe(false);
+  expect(occupied.guards.every(g=>health(g)>0)).toBe(true);
+  expect(parseConquest(JSON.stringify(next),player).units[guard.id].hp).toBe(0);
  });
  it('keeps the latest thirty immutable reports across later waves and season rollover',()=>{
   let {state,roster}=fixture();const first=start+RAID_WARNING_MS;

@@ -3,7 +3,7 @@ import{randomUUID}from'node:crypto';
 import{createCloudApi}from'../../server/cloud.mjs';
 import{createAppServer}from'../../server.mjs';
 import{provisionChildAccount}from'../../server/child-account.mjs';
-import{ROSTER}from'../../build/game.mjs';
+import{ROSTER,NPC_FACTION}from'../../build/game.mjs';
 import{connectedPlayerFriends}from'../../server/player-friends.mjs';
 import{readPlayerCollections}from'../../server/player-collections.mjs';
 const suite=process.env.TEST_DATABASE_URL?describe:describe.skip;
@@ -47,9 +47,33 @@ suite('public world, mutual contacts, privacy and learning availability',()=>{
   expect((await call(adult,'online-battle',{player:'quintus',action:'leave',commandId:randomUUID(),room:accepted.data.room.id,revision:accepted.data.room.revision})).status).toBe(200);await api.pool.query('UPDATE adult_game_enrollments SET approved_at=now() WHERE member_id=$1',[member]);expect(await gameSnapshot()).toBe(baseline);
  });
  it('enforces invite closure, decline cooldown, request expiry and bilateral mute across old direct APIs',async()=>{const bk=await key(b),ck=await key(c);expect((await action(c,'invites',{enabled:false})).status).toBe(200);expect((await action(a,'request',{target:ck})).status).toBe(409);await action(c,'invites',{enabled:true});const req=await action(a,'request',{target:ck});expect(req.status).toBe(200);const id=req.data.requests.find(r=>r.key===ck).id;expect((await action(c,'decline',{requestId:id})).status).toBe(200);expect((await action(a,'request',{target:ck})).status).toBe(429);await api.pool.query("UPDATE world_requests SET created_at=now()-interval '11 minutes' WHERE id=$1",[id]);const again=await action(a,'request',{target:ck});const next=again.data.requests.find(r=>r.key===ck).id;await api.pool.query("UPDATE world_requests SET expires_at=now()-interval '1 second' WHERE id=$1",[next]);expect((await action(c,'accept',{requestId:next})).status).toBe(404);expect((await action(a,'mute',{target:bk,value:true})).status).toBe(200);expect((await read(a)).data.roster.some(p=>p.key===bk)).toBe(false);expect((await action(b,'greet',{target:await key(a),phrase:'thanks'})).status).toBe(403);expect((await call(b,'online-battle',{player:b.playerId,action:'invite',commandId:randomUUID(),friend:await key(a),pet:b.data.family.profiles[b.playerId].equipped})).status).toBe(403);expect((await action(a,'mute',{target:bk,value:false})).status).toBe(200);expect(await gameSnapshot()).toBe(baseline);});
- it('projects unrelated conquest identities, historical names and receipt replays without rewriting stored reports',async()=>{const mine=await call(a,`conquest?player=${a.playerId}`),other=await call(c,`conquest?player=${c.playerId}`);expect(mine.status).toBe(200);expect(other.status).toBe(200);const before=(await api.pool.query('SELECT state FROM conquest_players WHERE id=$1',[mine.data.me])).rows[0].state;const retained={...before,log:['DELETED_PRIVATE_NAME進攻測試島：守軍成功防守。','PRIVATE_FULL_NAME_C舊版紀錄'],raidReports:[{kind:'pvp',id:'old-report',attackerId:other.data.me,attackerName:'DELETED_PRIVATE_NAME',previousOwnerId:mine.data.me,nextOwnerId:mine.data.me}]};await api.pool.query('UPDATE conquest_players SET state=$2 WHERE id=$1',[mine.data.me,retained]);const view=await call(a,`conquest?player=${a.playerId}`);expect(JSON.stringify(view.data)).not.toContain('DELETED_PRIVATE_NAME');expect(JSON.stringify(view.data)).not.toContain('PRIVATE_FULL_NAME_C');expect(view.data.state.raidReports[0].attackerName).toBe((await read(c)).data.self.name);expect((await api.pool.query('SELECT state FROM conquest_players WHERE id=$1',[mine.data.me])).rows[0].state).toEqual(retained);
- // Old receipt can contain an earlier identity-bearing snapshot; replay projection must be as strict as GET.
- const commandId=randomUUID(),body={player:a.playerId,type:'join',commandId,season:view.data.state.season,revision:view.data.revision,alliance:'light',hero:'hero-elf'};const join=await call(a,'conquest',body);expect(join.status,JSON.stringify(join.data)).toBe(200);const replay=await call(a,'conquest',body);expect(replay.status).toBe(200);expect(replay.data.replayed).toBe(true);for(const data of[join.data,replay.data]){expect(JSON.stringify(data)).not.toContain('DELETED_PRIVATE_NAME');expect(JSON.stringify(data)).not.toContain('PRIVATE_FULL_NAME_C');expect(JSON.stringify(data)).not.toContain(c.memberId);expect(JSON.stringify(data)).not.toContain(c.accountId);}expect(await gameSnapshot()).toBe(baseline);});
+ it('keeps human history private and NPC identities consistent in snapshots, commands and receipt replays',async()=>{
+  const mine=await call(a,`conquest?player=${a.playerId}`),other=await call(c,`conquest?player=${c.playerId}`);
+  expect(mine.status).toBe(200);expect(other.status).toBe(200);
+  const tiles=(await api.pool.query("SELECT tiles FROM conquest_worlds WHERE id='global'")).rows[0].tiles;
+  const npcTile=tiles.findLast(t=>!t.owner);
+  await api.pool.query("UPDATE conquest_worlds SET tiles=$1 WHERE id='global'",[JSON.stringify(tiles.map(t=>t.id===npcTile.id?{...t,owner:NPC_FACTION.id}:t))]);
+  const before=(await api.pool.query('SELECT state FROM conquest_players WHERE id=$1',[mine.data.me])).rows[0].state;
+  const retained={...before,log:['DELETED_PRIVATE_NAME進攻測試島：守軍成功防守。','PRIVATE_FULL_NAME_C舊版紀錄'],raidReports:[{kind:'pvp',id:'old-report',attackerId:other.data.me,attackerName:'DELETED_PRIVATE_NAME',previousOwnerId:mine.data.me,nextOwnerId:mine.data.me}]};
+  await api.pool.query('UPDATE conquest_players SET state=$2 WHERE id=$1',[mine.data.me,retained]);
+  const expectNpc=state=>expect(state.tiles.find(t=>t.id===npcTile.id)).toMatchObject({owner:NPC_FACTION.id,ownerInfo:{name:NPC_FACTION.name,profile:'npc',avatarKey:'npc'}});
+  const view=await call(a,`conquest?player=${a.playerId}`);
+  expect(JSON.stringify(view.data)).not.toContain('DELETED_PRIVATE_NAME');expect(JSON.stringify(view.data)).not.toContain('PRIVATE_FULL_NAME_C');
+  expect(view.data.state.raidReports[0].attackerName).toBe((await read(c)).data.self.name);expectNpc(view.data.state);
+  expect((await api.pool.query('SELECT state FROM conquest_players WHERE id=$1',[mine.data.me])).rows[0].state).toEqual(retained);
+  // Stored history and durable receipts remain untouched; sanitize response copies only.
+  const commandId=randomUUID(),body={player:a.playerId,type:'join',commandId,season:view.data.state.season,revision:view.data.revision,alliance:'light',hero:'hero-elf'};
+  const join=await call(a,'conquest',body);expect(join.status,JSON.stringify(join.data)).toBe(200);
+  const storedReceipt=(await api.pool.query('SELECT result FROM conquest_commands WHERE player_id=$1 AND id=$2',[mine.data.me,commandId])).rows[0].result;
+  const replay=await call(a,'conquest',body);expect(replay.status).toBe(200);expect(replay.data.replayed).toBe(true);
+  for(const data of[join.data,replay.data]){
+   expect(JSON.stringify(data)).not.toContain('DELETED_PRIVATE_NAME');expect(JSON.stringify(data)).not.toContain('PRIVATE_FULL_NAME_C');
+   expect(JSON.stringify(data)).not.toContain(c.memberId);expect(JSON.stringify(data)).not.toContain(c.accountId);
+   expectNpc(data.state);expectNpc(data.result.state);
+  }
+  expect((await api.pool.query('SELECT result FROM conquest_commands WHERE player_id=$1 AND id=$2',[mine.data.me,commandId])).rows[0].result).toEqual(storedReceipt);
+  expect(await gameSnapshot()).toBe(baseline);
+ });
  it('resolves public friend keys for atomic card exchange, enforces mute at accept, and never moves learning rewards',async()=>{
   const ak=await key(a),bk=await key(b),rows=(await api.pool.query('SELECT account_id,family,verified FROM game_states WHERE account_id=ANY($1::uuid[])',[[a.accountId,b.accountId]])).rows;
   const pa=rows.find(r=>r.account_id===a.accountId).family.profiles[a.playerId],pb=rows.find(r=>r.account_id===b.accountId).family.profiles[b.playerId],give=ROSTER.find(p=>!pa.owned[p.id]&&!pb.owned[p.id]).id,receive=ROSTER.find(p=>p.id!==give&&!pa.owned[p.id]&&!pb.owned[p.id]).id;

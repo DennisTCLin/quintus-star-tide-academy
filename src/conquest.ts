@@ -1,4 +1,4 @@
-import { resolveNpcRaid, type NpcRaidProgress, type RaidReport } from './conquest-enemy';
+import { isNpcOwner, resolveNpcRaid, type NpcRaidProgress, type RaidReport } from './conquest-enemy';
 import type { Enrollment } from './conquest-alliance';
 // Conquest is a separately persisted PvE world. Family learning saves are never changed.
 export const ELEMENTS = ['metal', 'wood', 'earth', 'water', 'fire'] as const;
@@ -42,7 +42,7 @@ export const alive = (guard: Guard) => health(guard) > 0;
 export const readyToDeploy = (guard: Guard) => health(guard) >= maxHealth(guard) * .2;
 export const withHealth = (guard: Guard): Guard => ({ ...guard, maxHp: maxHealth(guard), hp: Math.max(0, Math.min(maxHealth(guard), health(guard))) });
 export const shieldActive = (tile: Tile, now: number) => !!tile.owner && (tile.shieldStartsAt ?? 0) <= now && tile.shieldUntil > now;
-export const stationed = (state: ConquestState, id: string) => state.tiles.find(t => t.owner && (!state.playerId || t.owner === state.playerId) && t.guards.some(g => g.id === id));
+export const stationed = (state: ConquestState, id: string) => state.tiles.find(t => t.owner && !isNpcOwner(t.owner) && (!state.playerId || t.owner === state.playerId) && t.guards.some(g => g.id === id));
 export function currentUnit(state: ConquestState, unit: Guard): Guard {
   const saved = state.units[unit.id];
   if (!saved) return withHealth(unit);
@@ -57,11 +57,11 @@ export function syncConquestRoster(state: ConquestState, roster: readonly Compan
   for (const source of roster) if (units[source.id]) units[source.id] = currentUnit(state, source);
   // Keep absent/legacy units and historical battle receipts. Wild guards have their
   // own island difficulty and must never inherit collection levels.
-  const tiles = state.tiles.map(tile => tile.owner && (!state.playerId || tile.owner === state.playerId) ? { ...tile, guards: tile.guards.map(guard => units[guard.id] ?? guard) } : tile);
+  const tiles = state.tiles.map(tile => tile.owner && !isNpcOwner(tile.owner) && (!state.playerId || tile.owner === state.playerId) ? { ...tile, guards: tile.guards.map(guard => units[guard.id] ?? guard) } : tile);
   return { ...state, units, tiles };
 }
 export function production(tile: Tile) {
-  if (!tile.owner || !tile.guards.some(alive)) return { herbs: 0, spring: 0 };
+  if (!tile.owner || isNpcOwner(tile.owner) || !tile.guards.some(alive)) return { herbs: 0, spring: 0 };
   const multiplier = tile.facility === 'resource' ? 2 : 1;
   return { herbs: (tile.terrain === 'river' ? 0 : ['plains', 'forest'].includes(tile.terrain) ? 3 : 1) * multiplier, spring: ((tile.terrain === 'river' ? 2 : 0) + (tile.facility === 'knowledge' ? 1 : 0)) * multiplier };
 }
@@ -192,7 +192,7 @@ export function claimBlock(state: ConquestState, player: string, tile: Tile, now
   if (tile.owner === player) return '這是你的領地，可以增援或放棄。';
   if ((tile.battleUntil ?? 0) > now) return '這座島正在交戰，請等待戰況結束。';
   if (shieldActive(tile, now)) return '這座島仍有護盾，現在無法攻擊。';
-  if (tile.owner && !pvp) return '目前開放 PvE，尚未開放玩家搶地。';
+  if (tile.owner && !isNpcOwner(tile.owner) && !pvp) return '目前開放 PvE，尚未開放玩家搶地。';
   if (owned.length && !owned.some(t => adjacent(t, tile))) return '請選擇與自己領地相鄰的島嶼。';
   if (state.energy < claimCost(tile, owned.length)) return '能量不足，先答題補充能量。';
   return null;
@@ -256,7 +256,7 @@ export function act(input: ConquestState, player: string, action: ConquestAction
   }
   return finish({ ...state, units, energy, lastBattle, tiles: state.tiles.map(t => t.id === tile.id ? nextTile : t) }, message);
 }
-export const knowledgeBonus = (state: ConquestState) => Math.min(6, state.tiles.filter(t => t.owner && (!state.playerId || t.owner === state.playerId) && t.facility === 'knowledge' && t.guards.some(alive)).length * 2);
+export const knowledgeBonus = (state: ConquestState) => Math.min(6, state.tiles.filter(t => t.owner && !isNpcOwner(t.owner) && (!state.playerId || t.owner === state.playerId) && t.facility === 'knowledge' && t.guards.some(alive)).length * 2);
 // A correction can earn the correct-answer reward, but repeated wrong taps cannot farm energy.
 export function creditAnswer(state: ConquestState, attempt: string, correct: boolean): ConquestState {
   const key = `${attempt}:${correct ? 'correct' : 'wrong'}`;
