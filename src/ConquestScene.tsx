@@ -30,6 +30,7 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ tiles, p
   updateLabels.current = () => {
     const r = runtime.current, container = host.current; if (!r || !container) return;
     const width = container.clientWidth, height = container.clientHeight;
+    const bottomReserve = window.innerWidth <= 760 ? 255 : 205;
     const placed: { x: number; y: number; w: number; h: number }[] = [];
     const priority = (t: Tile) => t.id === selected ? 0 : t.id === combatTileId || (t.battleUntil ?? 0) > now ? 1 : t.owner === player ? 2 : t.owner ? 3 : 4;
     for (const tile of [...tiles].sort((a, b) => priority(a) - priority(b))) {
@@ -41,10 +42,10 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ tiles, p
       // Keep the selected owner's label readable on narrow screens and tall islands.
       if (tile.id === selected && width >= w + 16 && height > h + 290) {
         x = Math.max(8, Math.min(width - w - 8, x));
-        y = Math.max(81, Math.min(height - h - 206, y));
+        y = Math.max(81, Math.min(height - h - bottomReserve - 1, y));
       }
       const collision = placed.some(box => x < box.x + box.w + 8 && x + w + 8 > box.x && y < box.y + box.h + 8 && y + h + 8 > box.y);
-      const visible = v.z > -1 && v.z < 1 && x >= 8 && x + w <= width - 8 && y > 80 && y + h < height - 205 && !collision;
+      const visible = v.z > -1 && v.z < 1 && x >= 8 && x + w <= width - 8 && y > 80 && y + h < height - bottomReserve && !collision;
       node.style.visibility = visible ? 'visible' : 'hidden';
       if (visible) { node.style.transform = `translate(${x}px, ${y}px)`; placed.push({ x, y, w, h }); }
     }

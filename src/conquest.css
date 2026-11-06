@@ -87,3 +87,8 @@
 
 .cq-touch-help{display:none}
 @media(any-pointer:coarse){.cq-touch-help{display:inline}.cq-mouse-help{display:none}}
+@media(max-width:760px){
+  .cq-map-controls{bottom:57px}
+  .family-app .cq-game .cq-map-invitation{bottom:112px}
+  .family-app .cq-map-help{left:14px;right:14px;bottom:10px;max-width:none;font-size:12px;line-height:1.5}
+}
