@@ -1,3 +1,4 @@
+import { islandCoordinates } from './conquest-names';
 import { ELEMENT_LABEL } from './conquest';
 import ConquestElementBadge from './ConquestElementBadge';
 import { HEX_STEP_X, ISLAND_WIDTH, TERRITORY_SCALE } from './conquest-scale';
@@ -11,11 +12,11 @@ import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 import { adjacent, type Tile } from './conquest';
 import ConquestTerritoryBadge from './ConquestTerritoryBadge';
 import ConquestIslandProtection from './ConquestIslandProtection';
-import { islandProtection, territoryMarker, territoryStatus } from './conquest-presentation';
+import { islandProtection, territoryMarker, territoryStatus, type ClaimGuidance } from './conquest-presentation';
 import { buildArchipelago, buildLockedFrontier, loadIslandModels, makeOcean, makeFrontierMist, point, release, type IslandHeight } from './conquest-art';
 
 export type SceneControl = { home: () => void; rotate: (amount: number) => void; zoom: (factor: number) => void; overview: () => void; frontierInfo: () => void; focusTile: (id: string) => void };
-type Props = { tiles: Tile[]; player: string; playerName: string; combatTileId?: string | null; selected: string; onSelect: (id: string) => void; reduced: boolean; now: number; suspended?: boolean };
+type Props = { guidance: Record<string, ClaimGuidance>; tiles: Tile[]; player: string; playerName: string; combatTileId?: string | null; selected: string; onSelect: (id: string) => void; reduced: boolean; now: number; suspended?: boolean };
 type Runtime = { camera: THREE.PerspectiveCamera; controls: OrbitControls; overlays: THREE.Group; heights: Map<string, IslandHeight>; focus: THREE.Vector3; render: () => void };
 const CHART_LENS = Math.tan(THREE.MathUtils.degToRad(21)) / Math.tan(THREE.MathUtils.degToRad(14));
 function home(r: Runtime) { r.camera.fov = 28; r.camera.updateProjectionMatrix(); r.controls.target.copy(r.focus); r.camera.position.set(3, 13, 17).multiplyScalar(CHART_LENS).multiplyScalar(r.camera.aspect < 1 ? 1.35 : 1).add(r.focus); r.controls.update(); r.render(); }
@@ -23,16 +24,17 @@ function glowLine(points: THREE.Vector3[], color: string, radius = .022) {
   const curve = new THREE.CatmullRomCurve3(points, false, 'catmullrom', 0);
   return new THREE.Mesh(new THREE.TubeGeometry(curve, points.length * 5, radius, 5, false), new THREE.MeshBasicMaterial({ color: new THREE.Color(color).multiplyScalar(2) }));
 }
-export default forwardRef<SceneControl, Props>(function ConquestScene({ tiles, player, playerName, combatTileId, selected, onSelect, reduced, now, suspended = false }, ref) {
+export default forwardRef<SceneControl, Props>(function ConquestScene({ guidance, tiles, player, playerName, combatTileId, selected, onSelect, reduced, now, suspended = false }, ref) {
   const host = useRef<HTMLDivElement>(null), runtime = useRef<Runtime | null>(null);
   const labels = useRef(new Map<string, HTMLButtonElement>());
   const updateLabels = useRef<() => void>(() => {});
   updateLabels.current = () => {
     const r = runtime.current, container = host.current; if (!r || !container) return;
     const width = container.clientWidth, height = container.clientHeight;
-    const bottomReserve = window.innerWidth <= 760 ? 255 : 205;
+    const invitationHeight = container.parentElement?.querySelector<HTMLElement>('.cq-map-invitation')?.offsetHeight ?? 150;
+    const bottomReserve = Math.max(window.innerWidth <= 760 ? 255 : 205, invitationHeight + (window.innerWidth <= 760 ? 122 : 94));
     const placed: { x: number; y: number; w: number; h: number }[] = [];
-    const priority = (t: Tile) => t.id === selected ? 0 : t.id === combatTileId || (t.battleUntil ?? 0) > now ? 1 : t.owner === player ? 2 : t.owner ? 3 : 4;
+    const priority = (t: Tile) => t.id === selected ? 0 : t.id === combatTileId || (t.battleUntil ?? 0) > now ? 1 : guidance[t.id]?.ready ? 2 : guidance[t.id]?.adjacentTarget ? 3 : t.owner === player ? 4 : t.owner ? 5 : 6;
     for (const tile of [...tiles].sort((a, b) => priority(a) - priority(b))) {
       const node = labels.current.get(tile.id), island = r.heights.get(tile.id); if (!node) continue;
       if (!island) { node.style.visibility = 'hidden'; continue; }
@@ -152,6 +154,20 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ tiles, p
     release(r.overlays); r.overlays.clear();
     const ring = (tile: Tile, color: string, radius: number, thickness: number) => { const p = point(tile); const points = Array.from({ length: 7 }, (_, i) => new THREE.Vector3(p.x + Math.cos(i * Math.PI / 3 + Math.PI / 6) * radius * TERRITORY_SCALE, .1, p.z + Math.sin(i * Math.PI / 3 + Math.PI / 6) * radius * TERRITORY_SCALE)); r.overlays.add(glowLine(points, color, thickness)); };
     for (const tile of tiles) {
+      const eligibility = guidance[tile.id];
+      if (eligibility?.adjacentTarget) {
+        const color = eligibility.ready ? '#83f5dc' : '#d5a760';
+        ring(tile, color, 1.9, eligibility.ready ? .055 : .025);
+        if (eligibility.ready) {
+          const p = point(tile), h = r.heights.get(tile.id)!;
+          const swords = new THREE.Group();
+          for (const angle of [-.65, .65]) {
+            const blade = new THREE.Mesh(new THREE.BoxGeometry(.06, .7, .06), new THREE.MeshBasicMaterial({ color }));
+            blade.rotation.z = angle; swords.add(blade);
+          }
+          swords.position.set(p.x, h.top + 1, p.z); r.overlays.add(swords);
+        }
+      }
       const marker = territoryMarker(tile, player);
       if (!marker) continue;
       ring(tile, marker.color, 1.77, .025);
@@ -172,15 +188,16 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ tiles, p
       }
     }
     r.render();
-  }, [tiles, player, selected, combatTileId, playerName, now, ready, reduced]);
+  }, [tiles, guidance, player, selected, combatTileId, playerName, now, ready, reduced]);
   return <div className="cq-canvas" data-overview={overview} ref={host} data-ready={ready ? 'true' : 'false'} data-art="higgsfield-glb-v2"><div className="cq-map-labels" hidden={!ready || !!error} aria-label="海圖領地標記">{tiles.map(tile => {
     const status = territoryStatus(tile, player, combatTileId, now);
     const protection = islandProtection(tile, now, combatTileId);
     const owner = tile.owner === player ? `${playerName}的領地` : status.ownerLabel;
     const protectionText = protection ? `，${protection.label}，${protection.detail}${protection.kind === 'preparing' ? '，仍可被進攻' : ''}` : '';
-    return <button type="button" key={tile.id} ref={node => { if (node) labels.current.set(tile.id, node); else labels.current.delete(tile.id); }} className="cq-map-label" data-status={status.kind} data-owner-kind={territoryMarker(tile, player)?.kind} data-tile={tile.id} aria-label={`${tile.name}，${ELEMENT_LABEL[tile.element]}之島，${status.label}，${owner}${protectionText}`} aria-pressed={selected === tile.id} onClick={() => onPick.current(tile.id)}>
-      <span className="cq-map-label-heading"><strong>{tile.name}</strong><ConquestElementBadge element={tile.element} /></span>
+    return <button type="button" key={tile.id} ref={node => { if (node) labels.current.set(tile.id, node); else labels.current.delete(tile.id); }} className="cq-map-label" data-claim-ready={guidance[tile.id]?.ready} data-adjacent-target={guidance[tile.id]?.adjacentTarget} data-status={status.kind} data-owner-kind={territoryMarker(tile, player)?.kind} data-tile={tile.id} aria-label={`${tile.name}，座標 ${islandCoordinates(tile)}，${guidance[tile.id]?.label}，${guidance[tile.id]?.reason ?? ''}，${ELEMENT_LABEL[tile.element]}之島，${status.label}，${owner}${protectionText}`} aria-pressed={selected === tile.id} onClick={() => onPick.current(tile.id)}>
+      <span className="cq-map-label-heading"><strong>{tile.name}<small className="cq-map-coordinates">{islandCoordinates(tile)}</small></strong><ConquestElementBadge element={tile.element} /></span>
       <ConquestTerritoryBadge tile={tile} player={player} name={playerName} combatTileId={combatTileId} now={now} />
+      {!guidance[tile.id]?.own && <span className="cq-map-eligibility">{guidance[tile.id]?.ready ? '⚔ ' : ''}{guidance[tile.id]?.label}</span>}
       {protection && <ConquestIslandProtection status={protection} />}
     </button>;
   })}</div>{lockedIsland && <div className="cq-locked-notice" role="status"><span aria-hidden="true">🔒</span><div><strong>這片群島尚未開放</strong><p>{lockedIsland}・航線已連接，等待未來開啟。</p></div><button aria-label="關閉未開放提示" onClick={() => setLockedIsland(null)}>×</button></div>}{error ? <div className="cq-render-error" role="alert">{error}</div> : !ready && <div className="cq-model-loading" role="status"><span>✥</span><strong>正在展開立體海圖</strong><small>載入岩岸、主城與島嶼材質…</small></div>}</div>;

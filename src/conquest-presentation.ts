@@ -1,4 +1,24 @@
-import { shieldActive, type Tile } from './conquest';
+import { claimBlock, claimCost, deploymentBlock, hexDistance, shieldActive, territories, type Companion, type ConquestState, type Tile } from './conquest';
+
+// Presentation composes the same rules used by combat; it never grants a claim.
+export function claimGuidance(state: ConquestState, player: string, tile: Tile, team: readonly string[], roster: readonly Companion[], now: number, busy = false, storageError?: string) {
+  const owned = territories(state, player), own = tile.owner === player;
+  const distance = owned.length ? Math.min(...owned.map(t => hexDistance(t.q - tile.q, t.r - tile.r))) : null;
+  const adjacentTarget = !own && (distance === null || distance === 1);
+  const tileReason = claimBlock(state, player, tile, now, state.shared);
+  const units = team.map(id => roster.find(unit => unit.id === id));
+  const teamReason = team.length < 3 || team.length > 5 || new Set(team).size !== team.length || units.some(unit => !unit)
+    ? '請選擇 3–5 位不同的出征夥伴。'
+    : units.map(unit => deploymentBlock(state, unit!)).find(Boolean) ?? null;
+  const reason = own ? tileReason : storageError || (busy ? '請等待目前操作完成。' : tileReason ?? teamReason);
+  const ready = !own && !reason;
+  const label = own ? '我的領地' : ready ? '可出征' : storageError ? '等待連線或確認戰果' : busy ? '操作處理中'
+    : (tile.battleUntil ?? 0) > now ? '交戰中' : shieldActive(tile, now) ? '護盾保護中'
+    : tile.owner && !state.shared ? '尚未開放玩家搶地' : !adjacentTarget ? `不相鄰・距領地 ${distance} 格`
+    : state.energy < claimCost(tile, owned.length) ? '能量不足' : '隊伍未就緒';
+  return { own, ready, adjacentTarget, label, reason: reason || null, tileReason, teamReason, distance, cost: claimCost(tile, owned.length) };
+}
+export type ClaimGuidance = ReturnType<typeof claimGuidance>;
 
 // Every occupied island has a persistent 3D marker, even when its HTML label
 // is hidden by collisions on a small screen. This never changes ownership.
