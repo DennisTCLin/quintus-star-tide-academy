@@ -74,7 +74,7 @@ export function streak(state: AdultState, today: string) {
   let day = state.days.includes(today) ? today : plusDays(today,-1), count = 0;
   while(state.days.includes(day)) { count++; day=plusDays(day,-1); } return count;
 }
-export function nextLesson(state: AdultState) { const preferred = LESSONS.filter(l=>l.track === (state.profile?.track ?? 'everyday')); return preferred.find(l=>!state.practiced.includes(l.id)) ?? LESSONS.find(l=>!state.practiced.includes(l.id)) ?? preferred[0]; }
+export function nextLesson(state: AdultState) { const basics=LESSONS.filter(l=>l.category==='foundation'); const nextBasic=basics.find(l=>!state.practiced.includes(l.id)); if(nextBasic)return nextBasic; const preferred = LESSONS.filter(l=>l.track === (state.profile?.track ?? 'everyday')); return preferred.find(l=>!state.practiced.includes(l.id)) ?? LESSONS.find(l=>!state.practiced.includes(l.id)) ?? preferred[0]; }
 /** Compare the whole previous snapshot: other tabs must never silently overwrite each other. */
 export function saveState(storage: Pick<Storage,'getItem'|'setItem'>, expected: string | null, next: AdultState): string {
   if(storage.getItem(ADULT_KEY) !== expected) throw Error('另一個分頁已更新進度。請重新載入，接續最新練習。');

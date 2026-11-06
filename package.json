@@ -13,7 +13,7 @@
     "build:zhuyin": "node scripts/pack-zhuyin.mjs",
     "start": "node server.mjs",
     "test": "vitest run",
-    "build:server": "esbuild server/game.ts --bundle --platform=node --format=esm --outfile=build/game.mjs",
+    "build:server": "esbuild server/game.ts --bundle --platform=node --format=esm --outfile=build/game.mjs && esbuild src/adult/server-engine.ts --bundle --platform=node --format=esm --outfile=build/adult.mjs",
     "check:pronunciation": "node scripts/check-pronunciation.mjs && node scripts/pack-zhuyin.mjs --check",
     "audit:content": "node scripts/content-audit.mjs",
     "audit:content:inventory": "node scripts/content-audit.mjs --inventory"

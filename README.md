@@ -295,6 +295,6 @@ Question visuals marked `data-learning-content`, answer choices, native form fie
 有新影片的角色不再建立舊 Spell SVG，也不疊加舊蓄力、護盾、命中圈與粒子；保留血量與傷害數字。沒有影片的角色繼續使用自身圖像與屬性備援。一般答題、練習與共用對戰畫面均適用；伺服器傷害、結算與獎勵沒有改動。
 
 
-## 成人英文體驗版
+## 成人英文
 
-新增獨立入口 `/adult`，6 堂生活／旅遊／工作情境課、36 題原創練習，含選擇、裝置合成語音聽句意、排句、輸入、間隔複習與本機接續。只保存 `star-tide.adult-english.v1`；尚未串接成人登入、雲端同步或口說評分，不改兒童帳號、進度或獎勵。產品邊界與後續整合方案見 [docs/adult-english.md](docs/adult-english.md)。
+獨立入口 `/adult`，15 堂基礎／生活／旅遊／工作課、90 題原創練習，包含 3 組引導式情境對話。成人獨立帳號與雲端進度支援跨裝置接續、間隔複習、復原碼與可重送操作；同用既有服務與 PostgreSQL，保留孩子帳號、進度、題目 ID 與獎勵。聽力使用裝置合成語音；未提供自由 AI 聊天或口說評分。產品邊界與驗證見 [docs/adult-english.md](docs/adult-english.md)。

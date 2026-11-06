@@ -8,6 +8,7 @@ import { createGuideService } from './dragon-guide.mjs';
 import { createCompanionVoiceProvider } from './companion-voice-provider.mjs';
 import { createCompanionVoiceService } from './companion-voice.mjs';
 import pg from "pg";
+import { createAdultEnglishService } from './adult-english.mjs';
 import { createOnlineBattleService } from "./online-battle.mjs";
 import {
   randomBytes,
@@ -423,7 +424,7 @@ export async function createCloudApi({
     () =>
       pool
         .query(
-          `DELETE FROM presence_leases WHERE seen_at<now()-interval '1 day'; DELETE FROM sessions WHERE expires_at<now(); DELETE FROM command_receipts WHERE created_at<now()-interval '30 days'; DELETE FROM conquest_commands WHERE created_at<now()-interval '30 days'; DELETE FROM request_limits WHERE expires_at<now(); DELETE FROM companion_voice_receipts WHERE created_at<now()-interval '7 days'; UPDATE companion_voice_conversations SET history=(SELECT COALESCE(jsonb_agg(h),'[]'::jsonb) FROM jsonb_array_elements(history) h WHERE (h->>'at')::bigint>extract(epoch FROM now()-interval '7 days')*1000) WHERE EXISTS(SELECT 1 FROM jsonb_array_elements(history) h WHERE (h->>'at')::bigint<=extract(epoch FROM now()-interval '7 days')*1000);`,
+          `DELETE FROM presence_leases WHERE seen_at<now()-interval '1 day'; DELETE FROM sessions WHERE expires_at<now(); DELETE FROM command_receipts WHERE created_at<now()-interval '30 days'; DELETE FROM conquest_commands WHERE created_at<now()-interval '30 days'; DELETE FROM request_limits WHERE expires_at<now(); DELETE FROM adult_english_sessions WHERE expires_at<now(); DELETE FROM adult_english_receipts WHERE created_at<now()-interval '30 days'; DELETE FROM companion_voice_receipts WHERE created_at<now()-interval '7 days'; UPDATE companion_voice_conversations SET history=(SELECT COALESCE(jsonb_agg(h),'[]'::jsonb) FROM jsonb_array_elements(history) h WHERE (h->>'at')::bigint>extract(epoch FROM now()-interval '7 days')*1000) WHERE EXISTS(SELECT 1 FROM jsonb_array_elements(history) h WHERE (h->>'at')::bigint<=extract(epoch FROM now()-interval '7 days')*1000);`,
         )
         .catch(() => {}),
     60000,
@@ -588,6 +589,7 @@ export async function createCloudApi({
     }
   }
   const adminService = await createAdminService({pool, production, limit, readBody, send});
+  const adultEnglish = await createAdultEnglishService({pool, transaction, limit, readBody, send, production});
   let activeRequests = 0;
   async function handler(req, res) {
     if (activeRequests >= 64) {
@@ -604,6 +606,7 @@ export async function createCloudApi({
           "來源驗證失敗，請重新開啟網站",
           403,
         );
+      if (path.startsWith('/api/adult/')) { await adultEnglish(req,res,path); return; }
       if (path.startsWith('/api/admin/')) { await adminService(req,res,path); return; }
       if (path === '/api/redeem-invite') {
         assert(req.method === 'POST', '不支援的方法', 405);

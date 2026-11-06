@@ -1,10 +1,11 @@
+import { FOUNDATIONS, CONVERSATIONS } from './extra-content';
 export type Track = 'everyday' | 'travel' | 'work';
 export type Exercise = {
-  id: string; lessonId: string; kind: 'choice' | 'listen' | 'order' | 'type';
+  id: string; lessonId: string; kind: 'choice' | 'listen' | 'order' | 'type' | 'respond';
   instruction: string; context?: string; prompt: string; options?: string[];
   answer: string; accepted?: string[]; words?: string[]; explanation: string; translation: string;
 };
-export type Lesson = { id: string; track: Track; title: string; subtitle: string; level: 'A1' | 'A2'; phrase: string; meaning: string; questions: Exercise[] };
+export type Lesson = { id: string; track: Track; title: string; subtitle: string; level: 'A1' | 'A2'; category?: 'foundation' | 'conversation'; phrase: string; meaning: string; questions: Exercise[] };
 export const TRACKS: { id: Track; label: string; description: string }[] = [
   { id: 'everyday', label: '日常生活', description: '從打招呼到把話接下去' },
   { id: 'travel', label: '旅行途中', description: '點餐、問路，自己說得清楚' },
@@ -64,6 +65,8 @@ export const LESSONS: Lesson[] = [
     {kind:'type',instruction:'自己把這句話打出來',prompt:'謝謝你告訴我最新進度。',answer:'Thanks for the update.',accepted:['Thank you for the update.'],explanation:'Thanks for the update 是收到進度回覆時常用的簡短感謝。',translation:'謝謝你告訴我最新進度。'},
   ]),
 ];
+LESSONS.unshift(...FOUNDATIONS);
+LESSONS.push(...CONVERSATIONS);
 // Distribute the correct choice across positions, while keeping order stable on resume.
 for (const l of LESSONS) for (const q of l.questions) if (q.options) {
   const hash = [...q.id].reduce((h,c) => Math.imul(h ^ c.charCodeAt(0),16777619) >>> 0,2166136261);
