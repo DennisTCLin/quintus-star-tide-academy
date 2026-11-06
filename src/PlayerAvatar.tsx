@@ -19,7 +19,7 @@ const accountPhotos: Record<string, { playerId: PlayerId; photo: string | null }
   dennistc: { playerId: "alston", photo: null },
   trial_g6: { playerId: "alston", photo: null },
 };
-const AccountAvatarContext = createContext<{ username: string; playerId?: PlayerId | null } | null>(null);
+const AccountAvatarContext = createContext<{ username: string; playerId?: PlayerId | null;kind?:'adult' } | null>(null);
 export const AccountAvatarProvider = AccountAvatarContext.Provider;
 
 // Decorative beside the visible player name; all contexts share one photo source.
@@ -33,7 +33,7 @@ export default function PlayerAvatar({ id, className = "", avatarKey }: {
   const matches = avatarKey !== undefined || account?.playerId === id;
   const override = username && matches && accountPhotos[username]?.playerId === id
     ? accountPhotos[username] : undefined;
-  const photo = avatarKey === "unknown" ? null : override ? override.photo : playerPhotos[id];
+  const photo = avatarKey === "unknown" || (avatarKey===undefined&&account?.kind==='adult') ? null : override ? override.photo : playerPhotos[id];
   return (
     <span className={`player-avatar avatar-${id}${override ? ` account-avatar-${username}` : ""} ${className}`} aria-hidden="true">
       {photo ? <img src={photo} alt="" decoding="async" /> : <BrandText text={PLAYERS.find(player => player.id === id)?.icon ?? "🐾"} />}

@@ -17,7 +17,8 @@ function Portrait({ pet, eager = false, selected = false }: { pet: Character; ea
     <CharacterPortrait characterId={pet.id} motion={pet.motion} pose={selected ? "selected" : "idle"} src={pet.image} alt="" width={160} height={160} loading={eager ? "eager" : "lazy"} decoding="async" onError={() => setBroken(true)} />;
 }
 
-export default function TrainingPanel({ profile, day, online, busy, onSelect, onTrain, children }: {
+export default function TrainingPanel({ profile, day, online, busy, onSelect, onTrain, children,adultToday }: {
+  adultToday?: number;
   children?: ReactNode;
   profile: Profile; day: string; online: boolean; busy: boolean;
   onSelect: (pet: string) => Promise<boolean | undefined>; onTrain: () => void;
@@ -32,7 +33,7 @@ export default function TrainingPanel({ profile, day, online, busy, onSelect, on
   const current = petById(profile.equipped)!;
   const journeyPet = journey ? petById(journey.companion)! : null;
   const progress = creatureProgress(current.rarity, profile.growth.xp[current.id] ?? 0);
-  const completedToday = profile.growth.day === day ? profile.growth.credited.length : 0;
+  const completedToday = adultToday ?? (profile.growth.day === day ? profile.growth.credited.length : 0);
   const initial = owned.slice(0, 4);
   if (!initial.some(pet => pet.id === current.id) && initial.length === 4) initial[3] = current;
   const choices = expanded ? owned : initial;
@@ -81,6 +82,6 @@ export default function TrainingPanel({ profile, day, online, busy, onSelect, on
       <div><strong>{journey.reward === "pending" ? "上一趟已完成" : "還有一趟挑戰進行中"} · {journeyPet.name}</strong>
         <p>{journey.reward === "pending" ? `先領取上一趟獎勵，就能和${current.name}開始新航程。` : `本趟仍由${journeyPet.name}完成；${current.name}已準備好陪你開始下一趟。`} 已獲得的經驗值保留給{journeyPet.name}。</p></div>
     </aside>}
-    <details className="training-rules"><summary>今日已完成 {completedToday} 道成長題 · 經驗持續累積</summary><p>每道合資格題目完成後 +10 XP，不再限制每天十五題。同題每天一次；使用提示與複習題答對同樣有效；答錯不發經驗。每五道再獲得一份建材，未滿五題的進度會保留。練習航程和跨日舊航程不發經驗與建材。</p></details>
+    <details className="training-rules"><summary>今日已完成 {completedToday} 道成長題 · 經驗持續累積</summary>{adultToday!==undefined?<p>英文每題每日第一次獨立答對，獲得星幣、夥伴經驗與建材進度。提示作答與當日重做不重複領獎。隔天可再獨立複習，所有成果跟著帳號保存。</p>:<p>每道合資格題目完成後 +10 XP，不再限制每天十五題。同題每天一次；使用提示與複習題答對同樣有效；答錯不發經驗。每五道再獲得一份建材，未滿五題的進度會保留。練習航程和跨日舊航程不發經驗與建材。</p>}</details>
   </section>, grade);
 }

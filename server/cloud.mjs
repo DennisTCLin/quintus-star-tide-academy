@@ -8,6 +8,9 @@ import { createGuideService } from './dragon-guide.mjs';
 import { createCompanionVoiceProvider } from './companion-voice-provider.mjs';
 import { createCompanionVoiceService } from './companion-voice.mjs';
 import pg from "pg";
+import { createCrewService } from './crew.mjs';
+import { createFriendTradeService } from './friend-trades.mjs';
+import { createAdultGameService } from './adult-game.mjs';
 import { createAdultEnglishService } from './adult-english.mjs';
 import { createOnlineBattleService } from "./online-battle.mjs";
 import {
@@ -138,6 +141,7 @@ function publicState(row, user, csrf) {
     username: user.username,
     playerId: user.player_id ?? null,
     displayName: user.display_name ?? null,
+    ...(user.adult_id?{learner:{kind:'adult',programme:'adult-english',grade:null,socialApproved:!!user.social_approved}}:{}),
     csrf,
     serverNow: Date.now(),
     day: taipeiDay(),
@@ -469,13 +473,18 @@ export async function createCloudApi({
       ?.slice(cookieName.length + 1);
     assert(secret && /^[a-f0-9]{64}$/.test(secret), "請登入家庭帳號", 401);
     const r = await pool.query(
-      `SELECT a.id,COALESCE(m.username,a.username) username,s.csrf,s.token_hash,s.member_id,m.player_id,m.display_name,m.trial_curriculum FROM sessions s JOIN accounts a ON a.id=s.account_id LEFT JOIN player_logins m ON m.id=s.member_id AND m.account_id=a.id WHERE s.token_hash=$1 AND s.expires_at>now() AND (s.member_id IS NULL OR m.id IS NOT NULL)`,
+      `SELECT a.id,COALESCE(m.username,a.username) username,s.csrf,s.token_hash,s.member_id,m.player_id,m.display_name,m.trial_curriculum FROM sessions s JOIN accounts a ON a.id=s.account_id LEFT JOIN player_logins m ON m.id=s.member_id AND m.account_id=a.id WHERE s.token_hash=$1 AND s.expires_at>now() AND (s.member_id IS NULL OR m.id IS NOT NULL) AND NOT EXISTS(SELECT 1 FROM adult_game_enrollments e WHERE e.account_id=s.account_id)`,
       [hash(secret)],
     );
     assert(r.rows[0], "登入已到期，請重新登入", 401);
     return r.rows[0];
   }
   async function lockSession(db, user) {
+    if(user.adult_id){
+      await db.query('SELECT id FROM adult_english_users WHERE id=$1 FOR SHARE',[user.adult_id]);
+      const parent=await db.query('SELECT token_hash FROM adult_english_sessions WHERE user_id=$1 AND token_hash=$2 AND expires_at>now() FOR SHARE',[user.adult_id,user.token_hash]);
+      assert(parent.rowCount===1,'成人登入已到期，請重新登入',401);
+    }
     // Account -> session -> game state is the shared lock order with login/recovery.
     await db.query("SELECT id FROM accounts WHERE id=$1 FOR SHARE", [user.id]);
     const valid = await db.query(
@@ -590,6 +599,11 @@ export async function createCloudApi({
   }
   const adminService = await createAdminService({pool, production, limit, readBody, send});
   const adultEnglish = await createAdultEnglishService({pool, transaction, limit, readBody, send, production});
+  const adultGame = await createAdultGameService({pool,transaction,adultAuth:adultEnglish,publicState,conquest,lockSession});
+  adultEnglish.afterCommand=adultGame.afterCommand;
+  adultEnglish.revokeGameSessions=adultGame.revokeSessions;
+  const crew=await createCrewService({pool,transaction,lockSession,limit});
+  const friendTrades=await createFriendTradeService({pool,transaction,lockSession,limit});
   let activeRequests = 0;
   async function handler(req, res) {
     if (activeRequests >= 64) {
@@ -598,7 +612,8 @@ export async function createCloudApi({
     }
     activeRequests++;
     try {
-      const path = new URL(req.url, "http://localhost").pathname;
+      let path = new URL(req.url, "http://localhost").pathname;
+      const adultContext=path.startsWith('/api/adult/game/');
       assert(["GET", "POST"].includes(req.method), "不支援的方法", 405);
       if (req.method === "POST")
         assert(
@@ -606,7 +621,9 @@ export async function createCloudApi({
           "來源驗證失敗，請重新開啟網站",
           403,
         );
-      if (path.startsWith('/api/adult/')) { await adultEnglish(req,res,path); return; }
+      if(path==='/api/adult/game/enter'){assert(req.method==='POST','不支援的方法',405);fields(await readBody(req),[]);send(res,200,await adultGame.enter(req));return;}
+      if(adultContext){path='/api/'+path.slice('/api/adult/game/'.length);assert(['state','command','friends','collections','online-battle','presence','conquest','conquest/reports/read','crew','friend-trades','guide','companion-talk','companion-talk/reset','companion-talk/speech','practice','logout','migrate'].some(route=>path==='/api/'+route),'找不到服務',404);}
+      if (!adultContext && path.startsWith('/api/adult/')) { await adultEnglish(req,res,path); return; }
       if (path.startsWith('/api/admin/')) { await adminService(req,res,path); return; }
       if (path === '/api/redeem-invite') {
         assert(req.method === 'POST', '不支援的方法', 405);
@@ -753,7 +770,8 @@ export async function createCloudApi({
         send(res, 200, payload, { "Set-Cookie": cookie(secret) });
         return;
       }
-      const user = await authenticate(req);
+      const user = adultContext?await adultGame.authenticate(req):await authenticate(req);
+      if(req.method==='GET')adultGame.guard(user,path,{});
       await limit("account:" + user.id, 300, 60);
       if (req.method === "POST")
         assert(
@@ -779,6 +797,8 @@ export async function createCloudApi({
         send(res,200,await readPlayerCollections(pool,user,{player:params.get("player"),target:params.get("target")},assert));
         return;
       }
+      if(path==='/api/crew'&&req.method==='GET'){send(res,200,await crew.read(user,new URL(req.url,"http://localhost").searchParams.get("player")));return;}
+      if(path==='/api/friend-trades'&&req.method==='GET'){const params=new URL(req.url,'http://localhost').searchParams;send(res,200,await friendTrades.read(user,params.get('player'),params.get('friend')));return;}
       if (path === "/api/friends" && req.method === "GET") {
         send(res, 200, await friends(user));
         return;
@@ -795,6 +815,9 @@ export async function createCloudApi({
       assert(req.method === "POST", "找不到服務", 404);
       const body = await readBody(req);
       const receivedAt=Date.now();
+      adultGame.guard(user,path,body);
+      if(path==='/api/crew'){send(res,200,await crew.command(user,body));return;}
+      if(path==='/api/friend-trades'){send(res,200,await friendTrades.command(user,body));return;}
       if (path === "/api/companion-talk" || path === "/api/companion-talk/reset" || path === "/api/companion-talk/speech") {
         const result = path.endsWith('/reset') ? await voice.reset(user, body) : path.endsWith('/speech') ? await voice.speech(user, body) : await voice.turn(user, body);
         send(res, 200, result);
@@ -851,6 +874,7 @@ export async function createCloudApi({
         send(res, 200, { recoveryCode });
         return;
       }
+      if (path === "/api/practice" && user.adult_id) {send(res,200,await adultGame.practice(user,body));return;}
       if (path === "/api/practice") {
         // Historical clients share the same durable, account-owned question history.
         // No points/inventory are awarded by this endpoint.
@@ -905,11 +929,12 @@ export async function createCloudApi({
         fields(body, []);
         await transaction(async (db) => {
           await lockSession(db, user);
+          if(user.adult_id)await db.query("DELETE FROM adult_english_sessions WHERE token_hash=$1 AND user_id=$2",[user.token_hash,user.adult_id]);
           await db.query("DELETE FROM sessions WHERE token_hash=$1", [
             user.token_hash,
           ]);
         });
-        send(res, 200, { ok: true }, { "Set-Cookie": cookie("", 0) });
+        send(res, 200, { ok: true }, { "Set-Cookie": user.adult_id?`${adultEnglish.cookieName}=; Path=/; HttpOnly; SameSite=Strict; Max-Age=0${production?'; Secure':''}`:cookie("", 0) });
         return;
       }
       assert(
@@ -1039,7 +1064,9 @@ export async function createCloudApi({
             ]),
           );
           try {
-            result = applyCommand(family, body.command, taipeiDay(),receivedAt);
+            result = user.adult_id&&['battle-start','battle-answer'].includes(body.command.type)
+              ?await adultGame.battleCommand(db,user,body.command)
+              :applyCommand(family, body.command, taipeiDay(),receivedAt);
           } catch (e) {
             if (e instanceof ApiError) throw e;
             throw new ApiError(400, e.message);

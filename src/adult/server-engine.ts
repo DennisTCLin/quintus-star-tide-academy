@@ -1,2 +1,2 @@
 export * from './engine';
-export { exerciseById, lessonById } from './catalog';
+export { exerciseById, lessonById, EXERCISES } from './catalog';

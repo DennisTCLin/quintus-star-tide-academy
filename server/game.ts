@@ -34,3 +34,11 @@ export { expeditionRoster } from '../src/conquest-characters';
 export { incomingRaid, resolveNpcRaid } from '../src/conquest-enemy';
 
 export { acknowledgeRaidReports, appendRaidReport, createPlayerRaidReport } from '../src/conquest-enemy';
+
+export { awardQuestion, completeVoyage } from '../src/core';
+export { awardLearningMaterials } from '../src/learning-rewards';
+export { QUESTION_XP, MAX_COMPANION_XP } from '../src/companion-growth';
+export { growthProgress } from '../src/companion-growth';
+export { chooseMonster } from '../src/monsters';
+export { encounterStats } from '../src/creature-rules';
+export { initialCompanion, needsOnboarding } from '../src/starter';

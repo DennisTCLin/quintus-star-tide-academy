@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { parseState, type AdultState } from './engine';
+import {clientId}from'../client-id';
 export type AdultCommand = {type:'profile';name:string;track:string;dailyGoal:number}|{type:'lesson-start';lessonId:string}|{type:'review-start';mode:string}|{type:'answer';sessionId:string;index:number;answer:string}|{type:'hint'|'next';sessionId:string;index:number}|{type:'end';sessionId:string};
 type Snapshot = {state:AdultState;username:string;csrf:string;day:string};
 type Pending = {username:string;id:string;revision:number;command:AdultCommand};
@@ -86,7 +87,7 @@ export function useAdultCloud(){
     try {
       if(!operation){
         if(!command)return false;
-        operation={username:current.username,id:crypto.randomUUID(),revision:current.state.revision,command};
+        operation={username:current.username,id:clientId(),revision:current.state.revision,command};
         // Persist the id before sending, so a lost response/reload can replay exactly once.
         sessionStorage.setItem(pendingKey(current.username),JSON.stringify(operation));pending.current=operation;
       }
