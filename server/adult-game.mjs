@@ -55,9 +55,9 @@ export async function createAdultGameService({pool,transaction,adultAuth,publicS
   const answeredId=command.type==='answer'?before.session.ids[before.session.index]:undefined;
   const row=(await db.query('SELECT * FROM game_states WHERE account_id=$1 FOR UPDATE',[user.id])).rows[0],family=validateFamily(row.family),p=family.profiles[slot];
   need(p.onboarding?.confirmed,'請先迎接你的初始夥伴');
-  await db.query('INSERT INTO adult_game_runs(user_id,session_id,companion) VALUES($1,$2,$3) ON CONFLICT DO NOTHING',[user.id,session.id,p.equipped]);
+  const created=await db.query('INSERT INTO adult_game_runs(user_id,session_id,companion) VALUES($1,$2,$3) ON CONFLICT DO NOTHING RETURNING user_id',[user.id,session.id,p.equipped]);
   let run=(await db.query('SELECT * FROM adult_game_runs WHERE user_id=$1 AND session_id=$2 FOR UPDATE',[user.id,session.id])).rows[0];
-  if(!run.encounter){const level=growthProgress(p.growth.xp[run.companion]??0).level,monster=chooseMonster(level,randomInt(2**32));run.encounter={monster:monster.family,variant:monster.id,level,earned:0,combat:{version:2,ally:encounterStats(2,petById(run.companion).rarity,level),foe:encounterStats(2,monster.rarity,level)}};await db.query('UPDATE adult_game_runs SET encounter=$3 WHERE user_id=$1 AND session_id=$2',[user.id,session.id,run.encounter]);}
+  if(!run.encounter){const level=growthProgress(p.growth.xp[run.companion]??0).level,monster=chooseMonster(level,randomInt(2**32));run.encounter={...(created.rowCount&&!['lesson-start','review-start'].includes(command.type)?{legacy:true}:{}),monster:monster.family,variant:monster.id,level,earned:0,combat:{version:2,ally:encounterStats(2,petById(run.companion).rarity,level),foe:encounterStats(2,monster.rarity,level)}};await db.query('UPDATE adult_game_runs SET encounter=$3 WHERE user_id=$1 AND session_id=$2',[user.id,session.id,run.encounter]);}
   need(run.outcome!=='failed'||command.type==='end','這場挑戰已結束，回港口後再出發');
   let changed=false;
   const delta=next.xp-before.xp;
@@ -68,7 +68,7 @@ export async function createAdultGameService({pool,transaction,adultAuth,publicS
    row.verified[slot]=(row.verified[slot]??0)+20;run.earned_answers++;changed=true;
    await db.query('UPDATE adult_game_runs SET earned_answers=$3,encounter=$4 WHERE user_id=$1 AND session_id=$2',[user.id,session.id,run.earned_answers,run.encounter]);
   }
-  if(command.type==='answer'&&session.results.filter(r=>!r.correct).length>=3){run.outcome='failed';await db.query("UPDATE adult_game_runs SET outcome='failed' WHERE user_id=$1 AND session_id=$2",[user.id,session.id]);}
+  if(!run.encounter.legacy&&command.type==='answer'&&session.results.filter(r=>!r.correct).length>=3){run.outcome='failed';await db.query("UPDATE adult_game_runs SET outcome='failed' WHERE user_id=$1 AND session_id=$2",[user.id,session.id]);}
   if((command.type==='next'||command.type==='answer')&&session.complete){
    const won=session.results.filter(r=>r.correct).length>=Math.min(4,session.ids.length);
    run.outcome=won?'won':'failed';await db.query('UPDATE adult_game_runs SET outcome=$3 WHERE user_id=$1 AND session_id=$2',[user.id,session.id,run.outcome]);
@@ -77,7 +77,8 @@ export async function createAdultGameService({pool,transaction,adultAuth,publicS
     if(claim.rowCount){p.milestones=completeVoyage(p.milestones,run.earned_answers*20);if(p.day!==day){p.day=day;p.rewardRounds=0;p.draws=0;}p.rewardRounds++;saveCompletionStar(p);changed=true;run.rewarded=true;await db.query('UPDATE adult_game_runs SET rewarded=true WHERE user_id=$1 AND session_id=$2',[user.id,session.id]);}
    }
   }
-  p.adultAdventure={sessionId:session.id,companion:run.companion,outcome:run.outcome,earned:run.earned_answers,rewarded:!!run.rewarded,encounter:run.encounter};changed=true;
+  const {legacy:legacyCourse,...publicEncounter}=run.encounter;
+  p.adultAdventure={...(legacyCourse?{legacy:true}:{}),sessionId:session.id,companion:run.companion,outcome:run.outcome,earned:run.earned_answers,rewarded:!!run.rewarded,encounter:publicEncounter};changed=true;
   if(changed){family.revision++;await db.query('UPDATE game_states SET family=$2,verified=$3,updated_at=now() WHERE account_id=$1',[user.id,validateFamily(family),row.verified]);if(enrollment.approved_at)await conquest.syncAccount(db,{...user,member_id:user.id,player_id:slot,adult_id:user.id},slot);}
   // Private energy follows the same first daily independent answer gate; no duplicate reward endpoint.
   if(enrollment.approved_at&&command.type==='answer'&&delta>0)await conquest.credit(db,{...user,member_id:user.id,player_id:slot},slot,`adult:${day}:${answeredId}`,true,Date.now());

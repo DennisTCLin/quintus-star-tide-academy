@@ -1,3 +1,4 @@
+import{adultSessionStatus}from'./adult/session-status';
 import WorldLobby from './WorldLobby';
 import CharacterPortrait from './CharacterPortrait';
 import FriendTrades from './FriendTrades';
@@ -394,7 +395,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
   const restartCourseAvailable = !!run && COURSES[grade].some(c => c.id === run.course);
   const arenaCombatActive = page === "battle" && !!battle && (battle.winner === null || !!battlePlayback);
   const adultSession=adult?.learning.snapshot?.state.session;
-  const adultFinished=!!adultSession&&(adultSession.complete||adultSession.results.filter(r=>!r.correct).length>=3);
+  const adultFinished=adultSessionStatus(adultSession,p?.adultAdventure).complete;
   const quizCombatActive = page === "learn" && (isAdult ? !!adultSession&&!adultFinished : run?.status === "active" && !!q);
   const quizPreparing = page === "learn" && run?.status === "active" && !!run.challenge && !run.challenge.clock && !run.settled;
   const quizFocused = quizCombatActive && (isAdult||!run?.challenge || !!run.challenge.clock || !!run.settled);

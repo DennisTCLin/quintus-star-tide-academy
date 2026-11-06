@@ -31,7 +31,7 @@ export async function createFriendTradeService({pool,transaction,lockSession,lim
    need(!needsOnboarding(p)&&card!==initialCompanion(p)&&p.owned[card]>0,'夥伴已不在收藏中，或是不能交換的初始夥伴',409);
    need(!ongoing(p)&&!families.find(x=>x.row.account_id===m.account_id).family.pendingTrade,'請先結束雙方目前的學習或交換，再進行交換',409);
    const learning=(await db.query('SELECT state FROM adult_english_states WHERE user_id=$1',[m.id])).rows[0]?.state;
-   need(!learning?.session||learning.session.complete||learning.session.results.filter(r=>!r.correct).length>=3,'請先結束雙方目前的英文挑戰，再進行交換',409);
+   need(!learning?.session||learning.session.complete||(p.adultAdventure?.sessionId===learning.session.id&&p.adultAdventure.outcome==='failed'),'請先結束雙方目前的英文挑戰，再進行交換',409);
   }
   return{families,a,b};
  }
