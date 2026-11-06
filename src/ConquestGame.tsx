@@ -133,7 +133,7 @@ export default function ConquestGame({ raidConnected=true, onReadReports, server
           <button aria-label="查看完整海圖" onClick={() => scene.current?.overview()}>◎</button>
           <button aria-label="重設地圖視角" onClick={() => scene.current?.home()}>⌂</button>
         </div>
-        <p className="cq-map-help"><span className="cq-touch-help">單指滑動頁面 · 雙指旋轉縮放 · 點島嶼探索</span><span className="cq-mouse-help">拖曳旋轉 · 滾輪縮放 · 點島嶼探索</span></p>
+        <p className="cq-map-help"><span className="cq-touch-help">單指滑動頁面 · 海面雙指旋轉縮放 · 點島嶼探索</span><span className="cq-mouse-help">拖曳旋轉 · 滾輪縮放 · 點島嶼探索</span></p>
       </div>
       <aside id="cq-island-inspector" className="cq-dossier" aria-label="選中島嶼詳情" hidden={!inspectorOpen} onKeyDown={event => { if (event.key === 'Escape') { event.preventDefault(); closeInspector(); } }}>
         <button className="cq-close-inspector" aria-label="收起島嶼情報" onClick={closeInspector}>收起情報 ×</button>
