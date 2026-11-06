@@ -1,6 +1,7 @@
 import {useEffect,useState,type CSSProperties}from'react';
 import AnimatedArchipelago from'../AnimatedArchipelago';
 import QuizEncounter from'../QuizEncounter';
+import LocalBackup from'./LocalBackup';
 import type{Profile,Run}from'../adventure';
 import type{AdultCloud,AdultCommand}from'./cloud';
 import {LESSONS,TRACKS,exerciseById,lessonById}from'./catalog';
@@ -44,5 +45,5 @@ export function AdultGameStudy({learning,profile,onHome,refreshGame,reduced,onEq
 }
 export function AdultRecord({learning}:{learning:AdultCloud}){
  const s=learning.snapshot!.state,[password,setPassword]=useState('');
- return <section className="f-panel"><h1>我的英文航海誌</h1><p>{s.profile?.name} · 已練習 {s.practiced.length}/{LESSONS.length} 堂課 · {s.xp} 英文學習點 · 連續 {streak(s,learning.snapshot!.day)} 天</p><p>原有英文進度已保留；學習點和星幣分開記錄，花星幣不會扣學習成果。</p><p>每日目標 {s.daily[learning.snapshot!.day]?.length??0}/{s.profile?.dailyGoal??6} 題。循序路線包括 {TRACKS.map(t=>t.label).join('、')}。</p><form onSubmit={e=>{e.preventDefault();void learning.rotateRecovery(password).finally(()=>setPassword(''));}}><h2>帳號安全</h2><p>如果沒有保存復原碼，驗證目前密碼後可產生新的一組。</p><label className="form-label">目前的成人密碼<input type="password" autoComplete="current-password" minLength={12} maxLength={128} required value={password} onChange={e=>setPassword(e.target.value)}/></label><button disabled={learning.busy||learning.needsRetry}>產生新復原碼</button></form><LearningError learning={learning}/></section>;
+ return <section className="f-panel"><h1>我的英文航海誌</h1><p>{s.profile?.name} · 已練習 {s.practiced.length}/{LESSONS.length} 堂課 · {s.xp} 英文學習點 · 連續 {streak(s,learning.snapshot!.day)} 天</p><p>原有英文進度已保留；學習點和星幣分開記錄，花星幣不會扣學習成果。</p><p>每日目標 {s.daily[learning.snapshot!.day]?.length??0}/{s.profile?.dailyGoal??6} 題。循序路線包括 {TRACKS.map(t=>t.label).join('、')}。</p><form onSubmit={e=>{e.preventDefault();void learning.rotateRecovery(password).finally(()=>setPassword(''));}}><h2>帳號安全</h2><p>如果沒有保存復原碼，驗證目前密碼後可產生新的一組。</p><label className="form-label">目前的成人密碼<input type="password" autoComplete="current-password" minLength={12} maxLength={128} required value={password} onChange={e=>setPassword(e.target.value)}/></label><button disabled={learning.busy||learning.needsRetry}>產生新復原碼</button></form><LearningError learning={learning}/><LocalBackup/></section>;
 }
