@@ -1,0 +1,48 @@
+/* Portrait motion complements, never replaces, cinematic video or rigged combat. */
+.character-portrait {
+  --portrait-idle: portrait-breathe;
+  --portrait-period: 4.8s;
+  transform-origin: 50% 85%;
+  animation: var(--portrait-idle) var(--portrait-period) ease-in-out var(--portrait-phase, 0s) infinite;
+  animation-play-state: paused;
+}
+.character-portrait[data-character-active="true"] { animation-play-state: running; }
+/* Legacy scene choreography may set animation shorthand; hidden art still pauses. */
+.character-portrait:not([data-character-active="true"]) { animation-play-state: paused !important; }
+.character-portrait[data-character-motion="stride"] { --portrait-idle: portrait-stride; }
+.character-portrait[data-character-motion="hop"] { --portrait-idle: portrait-hop; --portrait-period: 4.4s; }
+.character-portrait[data-character-motion="crawl"] { --portrait-idle: portrait-crawl; --portrait-period: 5.2s; }
+.character-portrait[data-character-motion="flutter"] { --portrait-idle: portrait-flutter; --portrait-period: 3.2s; }
+.character-portrait[data-character-motion="swim"] { --portrait-idle: portrait-swim; --portrait-period: 4.2s; }
+.character-portrait[data-character-motion="float"] { --portrait-idle: portrait-float; --portrait-period: 5.6s; }
+.character-portrait[data-character-motion="sentinel"] { --portrait-idle: portrait-sentinel; --portrait-period: 5.6s; }
+.character-portrait[data-character-motion="channel"] { --portrait-idle: portrait-channel; --portrait-period: 5.2s; }
+.character-portrait[data-character-pose="selected"], .character-portrait[data-character-pose="greet"] {
+  animation-name: portrait-greet; animation-duration: .7s; animation-delay: 0s; animation-iteration-count: 1;
+}
+.character-portrait[data-character-pose="reveal"], .character-portrait[data-character-pose="victory"] {
+  animation-name: portrait-reveal; animation-duration: 1.1s; animation-delay: 0s; animation-iteration-count: 1;
+}
+.character-portrait[data-character-pose="rest"] { --portrait-idle: portrait-rest; --portrait-period: 6s; }
+.character-portrait[data-character-pose="defeated"] { rotate: 8deg; scale: .96; }
+.character-portrait[data-character-paused="true"] { animation: none !important; }
+.reduce-motion .character-portrait, .duel-reduced .character-portrait { animation: none !important; }
+@media (prefers-reduced-motion: reduce) { .character-portrait { animation: none !important; } }
+/* Individual transforms preserve any layout/facing transform on the image. */
+@keyframes portrait-breathe { 0%,100% { scale: 1 1; } 50% { scale: 1.012 1.024; } }
+@keyframes portrait-stride { 0%,100% { translate: 0 0; rotate: -1deg; } 50% { translate: 0 -2px; rotate: 1deg; } }
+@keyframes portrait-hop { 0%,65%,100% { translate: 0 0; scale: 1; } 72% { scale: 1.02 .97; } 84% { translate: 0 -5%; scale: .99 1.02; } }
+@keyframes portrait-crawl { 0%,100% { translate: -1% 0; rotate: -.6deg; } 50% { translate: 1% 0; rotate: .6deg; } }
+@keyframes portrait-flutter { 0%,100% { translate: 0 -1%; rotate: -1deg; } 50% { translate: 0 -4%; rotate: 1deg; } }
+@keyframes portrait-swim { 0%,100% { translate: -2% 0; rotate: -2deg; } 50% { translate: 2% -1%; rotate: 2deg; } }
+@keyframes portrait-float { 0%,100% { translate: 0 1%; } 50% { translate: 0 -4%; } }
+@keyframes portrait-sentinel { 0%,100% { rotate: -.5deg; scale: 1; } 50% { rotate: .5deg; scale: 1.015; } }
+@keyframes portrait-channel { 0%,100% { translate: 0 0; scale: 1; } 50% { translate: 0 -2%; scale: 1.02; } }
+@keyframes portrait-greet { 0%,100% { rotate: 0deg; translate: 0 0; } 35% { rotate: -3deg; translate: 0 -4%; } 70% { rotate: 2deg; } }
+@keyframes portrait-reveal { 0% { scale: .94; translate: 0 3%; } 45% { scale: 1.035; translate: 0 -3%; } 100% { scale: 1; translate: 0 0; } }
+@keyframes portrait-rest { 0%,100% { scale: 1; } 50% { scale: 1 1.008; } }
+
+.character-portrait[data-character-pose="attack"] { animation-name: portrait-strike; animation-duration: .55s; animation-delay: 0s; animation-iteration-count: 1; }
+.character-portrait[data-character-pose="hit"] { animation-name: portrait-hit; animation-duration: .4s; animation-delay: 0s; animation-iteration-count: 1; }
+@keyframes portrait-strike { 0%,100% { translate: 0 0; rotate: 0deg; } 25% { translate: -3% 1%; } 55% { translate: 7% -3%; rotate: -4deg; } }
+@keyframes portrait-hit { 0%,100% { translate: 0 0; rotate: 0deg; } 30% { translate: -3% 1%; rotate: 4deg; } 65% { translate: 1% 0; rotate: -2deg; } }

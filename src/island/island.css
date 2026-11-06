@@ -294,8 +294,8 @@
   width: 104px;
   height: 104px;
   object-fit: contain;
-  animation: isl-bob 3s ease-in-out infinite;
 }
+#math-island .isl-island-head img:not(.character-portrait) { animation: isl-bob 3s ease-in-out infinite; }
 #math-island .isl-island-head img.tamed {
   filter: drop-shadow(0 0 10px var(--i-sun));
 }
@@ -1703,7 +1703,7 @@
 #math-island .isl-farm { background:#e5eedb; }
 #math-island .isl-harbor { background:#d5edf0; }
 /* Only teaching/reaction motion remains; targets do not drift while children answer. */
-#math-island .mood-idle, #math-island .isl-island-head img, #math-island .isl-guardian img,
+#math-island .mood-idle, #math-island .isl-island-head img:not(.character-portrait), #math-island .isl-guardian img,
 #math-island .isl-obj:not(.on), #math-island .isl-bubble:not(.pop), #math-island .isl-boat,
 #math-island .isl-wait, #math-island .isl-action { animation:none; }
 #math-island .isl-guardian.hit img { animation:isl-hit .6s ease; }

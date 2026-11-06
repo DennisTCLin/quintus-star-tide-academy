@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import { useEffect, useRef, useState } from 'react';
 import type { GuideMood } from './dragon-dialogue';
 
@@ -27,7 +28,7 @@ export default function DragonMascot({ mood, reduced }: { mood: GuideMood; reduc
     <div className="dragon-moon" />
     {!reduced && !failed ? <video key={mood} ref={video} className="dragon-character" muted playsInline loop preload="none"
       src={`/assets/dragon-guide/${mood}.mp4`} poster={`/assets/dragon-guide/${mood}-poster.webp`} onError={() => setFailed(true)} />
-      : <img className="dragon-character" src={`/assets/dragon-guide/${mood}-poster.webp`} alt="" width="480" height="480" onError={e => { if (!e.currentTarget.src.endsWith('/assets/star-tide-dragon.png')) e.currentTarget.src = '/assets/star-tide-dragon.png'; }} />}
+      : <CharacterPortrait characterId="star-tide-dragon" paused={reduced || !pageVisible || !inView} pose={mood === "cheering" ? "victory" : mood === "welcome" ? "greet" : "idle"} className="dragon-character" src={`/assets/dragon-guide/${mood}-poster.webp`} alt="" width="480" height="480" onError={e => { if (!e.currentTarget.src.endsWith('/assets/star-tide-dragon.png')) e.currentTarget.src = '/assets/star-tide-dragon.png'; }} />}
     <span className="dragon-star star-one">✦</span><span className="dragon-star star-two">✧</span>
     <div className="dragon-voice-wave">{[0, 1, 2, 3, 4].map(i => <i key={i} />)}</div>
   </div>;

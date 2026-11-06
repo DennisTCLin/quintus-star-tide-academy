@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import ReadAloud from './ReadAloud';
 import { CreatureBadge, StatLine } from "./CreatureInfo";
 import { nativeCombatStats } from "./creature-rules";
@@ -10,10 +11,10 @@ import { ReadingContext, annotateTree } from "./readability";
 import "./training-panel.css";
 import { speak } from "./voice";
 
-function Portrait({ pet, eager = false }: { pet: Character; eager?: boolean }) {
+function Portrait({ pet, eager = false, selected = false }: { pet: Character; eager?: boolean; selected?: boolean }) {
   const [broken, setBroken] = useState(false);
   return broken ? <span className="training-art-fallback" role="img" aria-label={pet.name}><BrandText text="🐾" /></span> :
-    <img src={pet.image} alt="" width={160} height={160} loading={eager ? "eager" : "lazy"} decoding="async" onError={() => setBroken(true)} />;
+    <CharacterPortrait characterId={pet.id} motion={pet.motion} pose={selected ? "selected" : "idle"} src={pet.image} alt="" width={160} height={160} loading={eager ? "eager" : "lazy"} decoding="async" onError={() => setBroken(true)} />;
 }
 
 export default function TrainingPanel({ profile, day, online, busy, onSelect, onTrain, children }: {
@@ -69,7 +70,7 @@ export default function TrainingPanel({ profile, day, online, busy, onSelect, on
       <div className="training-picker-heading"><h3>選擇陪練夥伴</h3><small>已擁有 {owned.length} 位</small></div>
       <div className={`training-choices ${expanded ? "is-expanded" : ""}`} role="group" aria-label="選擇陪練夥伴">
         {choices.map(pet => <button key={pet.id} className={`training-choice ${profile.equipped === pet.id ? "is-selected" : ""}`} aria-pressed={profile.equipped === pet.id} aria-label={`選擇${pet.name}陪練，Lv.${creatureProgress(pet.rarity, profile.growth.xp[pet.id] ?? 0).level}`} disabled={!online} aria-disabled={!online || busy || Boolean(saving)} onClick={() => void select(pet)}>
-          <Portrait pet={pet} />
+          <Portrait pet={pet} selected={profile.equipped === pet.id} />
           <span className="training-choice-info"><b>{pet.name}</b><CreatureBadge rarity={pet.rarity} level={creatureProgress(pet.rarity, profile.growth.xp[pet.id] ?? 0).level} /><small>{saving === pet.id ? "儲存中…" : profile.equipped === pet.id ? "✓ 已選擇" : "選我陪練"}</small></span>
         </button>)}
       </div>

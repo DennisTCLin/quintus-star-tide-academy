@@ -57,7 +57,7 @@ describe('island companion preview', () => {
     expect(buttons).toHaveLength(1);
     buttons[0].props.onClick(); expect(onSpeak).toHaveBeenCalledWith(expect.stringContaining('可以收集42種夥伴')); expect(onSpeak).toHaveBeenCalledWith(expect.stringContaining('金羽雲靈，有了'));
     const strip=elements(tree,'ul').find(e=>e.props.className==='island-collection-strip');
-    expect(elements(strip,'img')).toHaveLength(3);
+    expect((renderToStaticMarkup(strip).match(/<img\b/g) ?? [])).toHaveLength(3);
     expect(html).toContain('金羽雲靈，有了');expect(html).toContain('雷鉤翼獸，還沒');
     expect(elements(tree,'summary')).toHaveLength(1);
     expect(elements(elements(tree,'summary')[0],'button')).toHaveLength(0);

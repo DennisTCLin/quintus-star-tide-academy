@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import {useEffect,useRef,useState} from 'react';
 import type {Monster} from './monsters';
 import {useStageVisibility} from './useStageVisibility';
@@ -42,12 +43,13 @@ export default function MonsterMotion({monster,action='idle',nonce=0,reduced=fal
    raf=requestAnimationFrame(paint);
   };
   movie.muted=true;movie.currentTime=0;
-  const play=()=>{void movie.play().catch(()=>{if(!disposed)setFailed(true);});};
-  movie.addEventListener('canplay',play);play();raf=requestAnimationFrame(paint);
-  return()=>{disposed=true;cancelAnimationFrame(raf);movie.removeEventListener('canplay',play);movie.pause();};
+  const fail=()=>{if(!disposed){setFailed(true);cancelAnimationFrame(raf);}};
+  const play=()=>{void movie.play().catch(fail);};
+  movie.addEventListener('canplay',play);movie.addEventListener('error',fail);play();raf=requestAnimationFrame(paint);
+  return()=>{disposed=true;cancelAnimationFrame(raf);movie.removeEventListener('canplay',play);movie.removeEventListener('error',fail);movie.pause();};
  },[active,src,retry,playing]);
  return <div ref={stageRef} className="monster-art monster-motion" role="img" aria-label={monster.name} data-monster-action={playing} data-source-action={sourceAction} data-motion-backup={backup} data-motion-ready={active&&ready&&!failed}>
-  <img src={monster.image} alt="" draggable={false} style={{visibility:active&&ready&&!failed?'hidden':'visible'}}/>
+  <CharacterPortrait key={`${monster.id}:${nonce}`} characterId={monster.id} paused={!active || ready && !failed} pose={playing === "attack" ? "attack" : playing === "hit" ? "hit" : playing === "capture" || playing === "entrance" ? "reveal" : "idle"} src={monster.image} alt="" draggable={false} style={{visibility:active&&ready&&!failed?'hidden':'visible'}}/>
   {active&&<><video ref={video} src={src} muted playsInline autoPlay preload="auto" loop={playing==='idle'} aria-hidden="true" onError={()=>setFailed(true)} onEnded={()=>setPlaying('idle')}/><canvas ref={canvas} width={384} height={384} aria-hidden="true" style={{visibility:ready&&!failed?'visible':'hidden'}}/></>}
   {active&&failed&&<button type="button" className="monster-motion-retry" aria-label={`播放${monster.name}的動畫`} onClick={()=>setRetry(x=>x+1)}>▶</button>}
  </div>;

@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import BattleCinematic from './BattleCinematic';
 import { battleCinematic, quizCinematic, quizMoveSlot, cinematicTiming, type Cinematic } from './battle-cinematics';
 import { correctNeeded } from "./tiered-challenge";
@@ -117,7 +118,7 @@ export default function QuizEncounter({ run, xp, reduced, oldDay = false, musicC
     </div>
     </>}
     {won && capture && capture.outcome!=="pending" && recruit && <section className={`capture-result ${joined ? "" : "is-quiet"}`} aria-label="降服結果">
-      {joined && <img src={recruit.image} alt={recruit.name} />}
+      {joined && <CharacterPortrait paused={reduced} characterId={recruit.id} pose="reveal" src={recruit.image} alt={recruit.name} />}
       <div><h3>{capture.outcome === "joined" ? `${recruit.name}加入了！` : capture.outcome === "duplicate" ? `${recruit.name}又來作伴了！` : capture.outcome === "escaped" ? "航程完成，牠還想繼續冒險" : "挑戰完成，努力已記錄"}</h3>
         {joined ? <><CreatureBadge rarity={recruit.rarity} level={creatureProgress(recruit.rarity, profile.growth.xp[recruit.id] ?? 0).level} /><p>{capture.outcome === "duplicate" ? `同種夥伴卡片 +1，本次結算共 ${capture.copies} 張；既有等級與經驗值保留。` : (profile.growth.xp[recruit.id] ?? 0) > 0 ? "老朋友回來了，原有等級與經驗值都保留。" : `新夥伴已加入卡冊，天生 Lv.${NATIVE_LEVELS[recruit.rarity]}，繼續練習還能成長。`}</p>
           {!!profile.owned[recruit.id] && <button type="button" className="f-primary" disabled={busy || !online || profile.equipped === recruit.id} onClick={() => void onRecruit(recruit.id)}>{profile.equipped === recruit.id ? "✓ 已選擇陪練" : "選牠陪練"}</button>}

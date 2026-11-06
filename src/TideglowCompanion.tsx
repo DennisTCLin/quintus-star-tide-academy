@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import ReadAloud, { allowsReadAloud } from './ReadAloud';
 import { useContext, useEffect, useRef, useState } from 'react';
 import type { DragonGuideProps } from './DragonGuide';
@@ -41,7 +42,7 @@ export default function TideglowCompanion(props: Props) {
         if (target === undefined) return;
         e.preventDefault(); window.scrollTo({ top: target, behavior: 'instant' });
       }} onClick={e => { opener.current = e.currentTarget; e.currentTarget.focus({ preventScroll: true }); setHidden(false); setMode('dock'); }}>
-        <img className="tide-launch-cutout" src={props.mascot === 'bow' ? '/assets/companion-launcher-v3/bow.png' : props.mascot === 'dog' ? '/assets/olivia-dog/poster-v1.png' : companionPortrait('tideglow')} alt="" width="480" height="480" onError={e => { e.currentTarget.style.visibility = 'hidden'; }} /><span>{hidden ? `找${name}` : '陪你一起學'}</span>
+        <CharacterPortrait characterId={`mascot-${props.mascot}`} paused={props.reduced || paused || inactive || editing} className="tide-launch-cutout" src={props.mascot === 'bow' ? '/assets/companion-launcher-v3/bow.png' : props.mascot === 'dog' ? '/assets/olivia-dog/poster-v1.png' : companionPortrait('tideglow')} alt="" width="480" height="480" onError={e => { e.currentTarget.style.visibility = 'hidden'; }} /><span>{hidden ? `找${name}` : '陪你一起學'}</span>
       </button>
     </div>
     {isOpen && <TideglowPanel {...props} paused={paused} setPaused={setPaused} large={mode === 'large'} onSize={() => setMode(mode === 'large' ? 'dock' : 'large')} onClose={closePanel} onHide={() => { closePanel(); setHidden(true); }} />}

@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import { useEffect, useRef, useState } from 'react';
 import { countOnCurrentSpeech, countOnFrame, countOnIntroduction, countOnLesson, type CountOnInput, type CountOnLesson } from './count-on';
 import './count-on.css';
@@ -45,10 +46,10 @@ function CountOnSteps({ lesson, companion, reduced, onSpeak, onStop }: Pick<Prop
   }
   return <section className={`count-on ${reduced ? 'count-on-reduced' : ''}`} aria-label="跟夥伴數星星">
     {!open ? <button className="count-on-open" onClick={restart} aria-label="和夥伴一起數一次">
-      <img src={companion.image} alt={companion.name} loading="lazy" />
+      <CharacterPortrait characterId={companion.name} key={step} pose={open ? "greet" : "idle"} paused={reduced} src={companion.image} alt={companion.name} loading="lazy" />
       <span><b>和夥伴數一次</b><small aria-hidden="true">👆 ＋1 → ⭐</small></span><span aria-hidden="true">▶</span>
     </button> : <>
-      <div className="count-on-heading"><img src={companion.image} alt={companion.name} loading="lazy" />
+      <div className="count-on-heading"><CharacterPortrait characterId={companion.name} key={step} pose={open ? "greet" : "idle"} paused={reduced} src={companion.image} alt={companion.name} loading="lazy" />
         <strong aria-label={`${lesson.start}加${lesson.add}`}>{lesson.start} ＋ {lesson.add}</strong>
         <button className="count-on-close" onClick={close} aria-label="停止並收起解說">■</button>
       </div>

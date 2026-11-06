@@ -1,0 +1,33 @@
+src/TideglowActor.tsx:51:    <img className="tide-actor-poster" data-frame-ready={ready} src={companionPoster(mascot, motion)} alt="" width="640" height="640"
+src/CourseSelection.tsx:48:    <span className="journey-portrait" aria-hidden="true">{art ? <img src={art} alt="" width="96" height="96" onError={e => { e.currentTarget.hidden = true; }} /> : <span>⛵</span>}</span>
+src/CourseSelection.tsx:108:            <span className="subject-island-art" aria-hidden="true"><img src={islandArt(island.id)} alt="" width="600" height="600" loading="lazy" onError={e => { e.currentTarget.hidden = true; }}/><span className="subject-island-fallback">{island.element}</span></span>
+src/AnimatedArchipelago.tsx:34:      <img src={fallback ? FALLBACK : POSTER} srcSet={fallback ? undefined : SOURCES} sizes="(max-width: 760px) calc(100vw - 48px), (max-width: 1600px) calc(100vw - 96px), 1600px" width="5456" height="3072" loading="lazy" decoding="async" alt="五座漂浮在雲海上的冒險島嶼" onError={() => setFallback(true)} />
+src/PlayerAvatar.tsx:39:      {photo ? <img src={photo} alt="" decoding="async" /> : <BrandText text={PLAYERS.find(player => player.id === id)?.icon ?? "🐾"} />}
+src/HomeScene.tsx:21:      <img className="home-island-bg" src="/assets/territory/island.webp" alt="你的城堡、花園與已建成的領地" draggable={false}/>
+src/App.tsx:920:                <img
+src/CastleIllustration.tsx:11:  return <img className="castle-illustration"
+src/CaptureChallenge.tsx:36:     {question.image&&<img className="capture-question-image" src={question.image} alt="題目圖片"/>}
+src/GachaVisual.tsx:12:      {!failed && <img className="gacha-machine-art" src="/assets/gacha/starwish-machine.webp?v=a9ee8fdfbf5f" alt="" width="1024" height="1024" draggable={false} onError={() => setFailed(true)} />}
+src/CareActionArt.tsx:9:    {failed ? <span className="tide-care-art-fallback">{CARE_ACTIONS[index].fallback}</span> : <img src={CARE_ICON_ATLAS} width="1536" height="1024" alt="" decoding="async" onError={() => setFailed(true)} />}
+src/QuestionFigure.tsx:18:  {failed?<div role="alert"><p>題圖暫時沒有載入，請先重新載入圖片再作答。</p><button type="button" onClick={()=>{setFailed(false);setAttempt(n=>n+1);}}>重新載入題圖</button></div>:<img key={attempt} src={attempt?`${src}?retry=${attempt}`:src} alt={alt} onLoad={()=>{setLoaded(true);onReady?.(true);}} onError={()=>{setFailed(true);setLoaded(false);onReady?.(false);}} />}
+src/ConquestHomeEntry.tsx:29:      <img className="cq-home-fortress" src="/assets/navigation/conquest-fortress.v-c1549f292cd3.webp" alt="" width="192" height="192" />
+src/RoomEditor.tsx:114:          {(category==="wall"||category==="floor") && <div className="home-finish-grid">{(category==="wall"?WALLS:FLOORS).map((id,i)=><button key={id} disabled={disabled||stale} aria-label={`${category==="wall"?"牆面":"地板"}：${["原色",category==="wall"?"月夜":"木紋",category==="wall"?"花葉":"海洋"][i]}`} aria-pressed={draft.rooms[room][category]===id} onClick={()=>mutate(d=>{(d.rooms[room] as unknown as Record<string,string>)[category]=id;})}><img src={i===0?"/assets/home/room.webp":`/assets/home/${category}-${id}.webp`} alt=""/><span>{["原色",category==="wall"?"月夜":"木紋",category==="wall"?"花葉":"海洋"][i]}</span></button>)}</div>}
+src/NavIcon.tsx:9:  if (name === "conquest") return <span className="nav-icon nav-icon--conquest" aria-hidden="true"><img src="/assets/navigation/conquest-fortress.v-c1549f292cd3.webp" alt="" width="192" height="192" decoding="async" /></span>;
+src/IslandHabitat.tsx:16:  return failed ? <span className="island-pet-fallback" aria-hidden="true">✦</span> : <img src={pet.thumbnail ?? pet.image} alt="" draggable={false} decoding="async" onError={() => setFailed(true)} />;
+src/QuizEncounter.tsx:108:          {broken ? <span>{monster.icon}</span> : <img src="/assets/battle/quiz-monsters.png" alt="" onError={() => setBroken(true)} style={{ transform: `translateX(-${run.encounter.monster * 100 / 3}%)` }} />}
+src/HomeArt.tsx:9:  return <img className="furniture-art" src={`/assets/home/${kind}-${rotation}.webp`} alt="" draggable={false} loading="lazy" />;
+src/HomeArt.tsx:68:    <img className="room-background" src="/assets/home/room.webp" alt="白石拱窗望向星海，陽光照進你的房間" draggable={false} />
+src/HomeArt.tsx:69:    {finish.wall !== "ivory" && <img className="room-skin room-wall" src={`/assets/home/wall-${finish.wall}.webp`} alt="" draggable={false} />}
+src/HomeArt.tsx:70:    {finish.floor !== "stone" && <img className="room-skin room-floor" src={`/assets/home/floor-${finish.floor}.webp`} alt="" draggable={false} />}
+src/BrandLogo.tsx:6:      <img
+src/CharacterPortrait.tsx:18:  return <img {...props} ref={ref} onLoad={event => { refreshPortraitVisibility(); onLoad?.(event); }} onError={event => { refreshPortraitVisibility(); onError?.(event); }} className={`character-portrait ${className}`}
+src/OutcomeAnimation.tsx:46:      <img className="outcome-poster" src={`/assets/outcome-motion-v1/${kind}-poster.jpg`} alt="" onError={e => { if (!e.currentTarget.dataset.fallback) { e.currentTarget.dataset.fallback='true'; e.currentTarget.src=BATTLE_ARENA; } }} />
+src/OutcomeAnimation.tsx:50:    <img key={nonce} className="outcome-companion" src={pet.image} alt={pet.name} />
+src/ElementGuide.tsx:80:              : <img src={pet.image} alt={pet.name} draggable={false} loading="lazy" onError={() => setBroken(old => old.includes(pet.id) ? old : [...old, pet.id])} />}
+src/TerritoryPage.tsx:254:          <img
+src/TerritoryPage.tsx:350:                <img
+src/HeroVideoCarousel.tsx:294:            <img src={activeSlide.desktopPosterSrc} alt="" />
+src/island/IslandApp.tsx:96:  return <span className="isl-landscape" aria-hidden="true"><img src={ISLAND_ART[unit] ?? Object.values(ISLAND_ART)[((UNIT_BY_ID[unit]?.n ?? 1)-1)%3]} alt="" width="640" height="671" loading={eager ? "eager" : "lazy"} decoding="async" onError={e => { e.currentTarget.style.visibility = "hidden"; }} /></span>;
+src/island/IslandApp.tsx:337:      <img className={`mood-${mood}`} src={pal.image} alt={pal.name} decoding="async" />
+src/island/IslandApp.tsx:379:              <img src={guardian.image} alt={guardian.name} decoding="async" />
+src/island/IslandApp.tsx:474:        {exam && guardian ? <img className={`isl-boss-end ${pass ? "beaten" : ""}`} src={guardian.image} alt={guardian.name} /> : palCard(true)}

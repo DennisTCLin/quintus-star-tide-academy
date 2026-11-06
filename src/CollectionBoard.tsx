@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import { useEffect, useLayoutEffect, useState, type RefObject } from 'react';
 import { request } from './cloud';
 import { petById, collectionWeekStart, type PlayerId, type RankingPeriod } from './game-view';
@@ -34,7 +35,7 @@ export function CollectionViewer({player,target,onClose}:{player:PlayerId;target
    {person&&<><div className="friend-collection-identity"><PlayerAvatar id={person.id} avatarKey={person.avatarKey}/><div><h3>{person.name}{person.isSelf?' · 我':''}</h3><p>{person.available?`${person.unique} 種夥伴 · ${person.total} 張卡`:'收藏暫時無法讀取'}</p></div></div>
     <p>這裡可以欣賞收藏；不會更換陪練夥伴或使用卡片。</p>
     {person.available&&!person.cards?.length&&<p>還沒有收集到夥伴，第一場冒險正在等著他！</p>}
-    <ul className="friend-collection-cards">{person.cards?.slice(0,limit).map(card=>{const pet=petById(card.id);return pet?<li key={card.id}><img src={pet.image} alt="" loading="lazy" decoding="async"/><strong>{pet.name}</strong><span className={`rarity-label rarity-${pet.rarity}`}>{pet.rarity} 級 · Lv.{card.level}</span><span>{card.count} 張</span></li>:null;})}</ul>
+    <ul className="friend-collection-cards">{person.cards?.slice(0,limit).map(card=>{const pet=petById(card.id);return pet?<li key={card.id}><CharacterPortrait characterId={pet.id} motion={pet.motion} src={pet.image} alt="" loading="lazy" decoding="async"/><strong>{pet.name}</strong><span className={`rarity-label rarity-${pet.rarity}`}>{pet.rarity} 級 · Lv.{card.level}</span><span>{card.count} 張</span></li>:null;})}</ul>
     {(person.cards?.length??0)>limit&&<button onClick={()=>setLimit(n=>n+24)}>查看更多夥伴</button>}
    </>}
  </SocialDialog>;

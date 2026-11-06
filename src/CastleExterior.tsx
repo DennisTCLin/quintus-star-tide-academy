@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import { useContext, useEffect, useRef, useState } from "react";
 import { castleGrowth, castleStage, castleStyle, CASTLE_STYLES, type CastleStyleId } from "./castle-growth";
 import CastleIllustration from "./CastleIllustration";
@@ -17,7 +18,7 @@ export function CastleExpansion({ profile, disabled, onExpand, onTrain }: {
     {progress.next ? <>
       <div className="castle-next"><CastleIllustration styleId={castleStyle(t.castleStyle).id} expansion={t.expansion + 1} decorative /><div><strong>{progress.next.name}</strong><p>{progress.next.detail}</p></div></div>
       <p>任一夥伴靠練習提升 <strong>{progress.next.companionLevel - 1} 級</strong>，就能免費擴建。</p>
-      {pet && <div className="castle-companion"><img src={pet.image} alt="" width="56" height="56" loading="lazy"/><span>{pet.name}的成長{!profile.owned[pet.id] ? "紀錄" : ""}<strong>{progress.eligible ? "已達成！" : `再 ${progress.remaining} XP`}</strong></span></div>}
+      {pet && <div className="castle-companion"><CharacterPortrait characterId={pet.id} motion={pet.motion} pose={progress.eligible ? "victory" : "idle"} src={pet.image} alt="" width="56" height="56" loading="lazy"/><span>{pet.name}的成長{!profile.owned[pet.id] ? "紀錄" : ""}<strong>{progress.eligible ? "已達成！" : `再 ${progress.remaining} XP`}</strong></span></div>}
       <progress aria-label="下一次擴建的夥伴成長進度" max={progress.required} value={Math.min(progress.required, progress.earned)} />
       <button className="territory-primary" disabled={disabled || !progress.eligible} onClick={onExpand}>擴建我的家</button>
       {!progress.eligible && onTrain && <button className="castle-train" disabled={disabled} onClick={onTrain}>和夥伴去陪練</button>}

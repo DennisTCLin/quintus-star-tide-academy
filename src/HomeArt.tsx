@@ -1,3 +1,4 @@
+import CharacterPortrait from './CharacterPortrait';
 import { ReadingContext, annotateTree } from "./readability";
 import { useContext, useEffect, useRef, useState, type CSSProperties, type PointerEvent } from "react";
 import { furnitureSpec, itemPosition, type HomeDecor, type HomeItem, type FurnitureKind } from "./home-decoration";
@@ -78,7 +79,7 @@ export function RoomStage({ decor, room, profile, selected, ghost, editable = fa
     })}
     {ghost && <div className="room-item room-ghost" style={{ left: `${ghost.x}%`, top: `${ghost.y}%`, width: `${furnitureSpec(ghost.kind)!.width}%`, zIndex: 1000 }}><FurnitureArt kind={ghost.kind} rotation={ghost.rotation} /><span>試擺</span></div>}
     {!editable && pet && <button className={`room-resident mood-${activity?.mood ?? "rest"}`} style={{ left: `${activity?.x ?? 63}%`, top: `${activity?.y ?? 76}%`, zIndex: (activity?.y ?? 76) * 10 + 30 }} onClick={() => { setActivity({ x: 63, y: 76, name: "一起佈置我們的家", mood: "hello" }); onVisit?.(); }} aria-label={`${pet.name}住在這裡`}>
-      <img src={pet.thumbnail ?? pet.image} alt="" draggable={false} /><span>{activity?.name ?? pet.name}</span>
+      <CharacterPortrait characterId={pet.id} motion={pet.motion} paused={reduced} pose={activity?.mood === "hello" ? "greet" : activity?.mood === "rest" ? "rest" : "idle"} src={pet.thumbnail ?? pet.image} alt="" draggable={false} /><span>{activity?.name ?? pet.name}</span>
     </button>}
   </div>, grade);
 }

@@ -1,0 +1,41 @@
+{
+  "phase": "result",
+  "trace": "tideglow:idle / pebblefin:idle / foamferret:idle / seasprout:idle / mistotter:idle / reefrabbit:idle / kelpcub:idle / reefrabbit:attack / tideglow:hit / tideglow:attack / reefrabbit:hit / kelpcub:attack / pebblefin:attack / foamferret:attack / seasprout:attack / mistotter:attack / reefrabbit:rest / reefrabbit:defeated / kelpcub:hit / kelpcub:defeated / tideglow:victory / pebblefin:victory / foamferret:victory / seasprout:victory / mistotter:victory",
+  "units": [
+    {
+      "animation": "portrait-reveal",
+      "id": "tideglow",
+      "pose": "victory"
+    },
+    {
+      "animation": "portrait-reveal",
+      "id": "pebblefin",
+      "pose": "victory"
+    },
+    {
+      "animation": "portrait-reveal",
+      "id": "foamferret",
+      "pose": "victory"
+    },
+    {
+      "animation": "portrait-reveal",
+      "id": "seasprout",
+      "pose": "victory"
+    },
+    {
+      "animation": "portrait-reveal",
+      "id": "mistotter",
+      "pose": "victory"
+    },
+    {
+      "animation": "none",
+      "id": "reefrabbit",
+      "pose": "defeated"
+    },
+    {
+      "animation": "none",
+      "id": "kelpcub",
+      "pose": "defeated"
+    }
+  ]
+}
