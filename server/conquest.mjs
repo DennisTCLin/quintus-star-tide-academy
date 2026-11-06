@@ -1,7 +1,7 @@
 import { randomUUID, createHash } from 'node:crypto';
 import { ensureSchema } from './schema-migration.mjs';
 import { collectionIdentity } from './player-collections.mjs';
-import { PLAYERS, createConquest, advanceConquest, ensureSeason, syncConquestRoster, conquestAct, conquestCreditAnswer, seasonAt, conquestAlive, conquestPower, enrollConquest, validEnrollment, expeditionRoster, incomingRaid, resolveNpcRaid, acknowledgeRaidReports } from '../build/game.mjs';
+import { PLAYERS, createConquest, advanceConquest, ensureSeason, syncConquestRoster, conquestAct, conquestCreditAnswer, seasonAt, conquestAlive, conquestPower, enrollConquest, validEnrollment, expeditionRoster, incomingRaid, resolveNpcRaid, acknowledgeRaidReports, appendRaidReport, createPlayerRaidReport } from '../build/game.mjs';
 const uuid = value => typeof value === 'string' && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(value);
 const privateState = ({ tiles, lastBattle, playerId, shared, ...state }) => state;
 const digest = body => createHash('sha256').update(JSON.stringify(body, Object.keys(body).sort())).digest('hex');
@@ -145,7 +145,8 @@ export async function createConquestService({ pool, transaction, lockSession, as
           if(defender&&defender.id!==me.id) {
             const units={...defender.current.units};
             for(const guard of next.lastBattle.defendersAfter)units[guard.id]={...guard};
-            defender.current={...defender.current,units,tiles:world.tiles,log:[`${me.identity.name}進攻${tile.name}：${next.lastBattle.won?'領地失守，守軍返回休養':'守軍成功防守'}。`,...defender.current.log].slice(0,30)};
+            const report=createPlayerRaidReport({id:`pvp:${me.id}:${body.commandId}`,season:world.season,now,tile,attackerId:me.id,attackerName:me.identity.name,defenderId:defender.id,territoryCountBefore:defender.current.tiles.filter(t=>t.owner===defender.id).length,battle:next.lastBattle});
+            defender.current={...defender.current,...appendRaidReport(defender.current,report),units,tiles:world.tiles,log:[`${me.identity.name}進攻${tile.name}：${next.lastBattle.won?'領地失守，守軍返回休養':'守軍成功防守'}。`,...defender.current.log].slice(0,30)};
             await savePlayer(db,defender);
           }
           world.tiles=world.tiles.map(t=>t.id===body.tileId?{...t,guards:t.guards.filter(conquestAlive),battleUntil:now+combatMs}:t);
