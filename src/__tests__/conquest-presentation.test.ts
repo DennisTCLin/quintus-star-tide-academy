@@ -1,6 +1,6 @@
 import { expect, it } from 'vitest';
 import { createConquest, SHIELD_DELAY_MS, SHIELD_MS } from '../conquest';
-import { protectionStatus, territoryStatus } from '../conquest-presentation';
+import { protectionStatus, territoryMarker, territoryStatus } from '../conquest-presentation';
 
 const now = Date.UTC(2026, 10, 3);
 const wild = createConquest(undefined, now).tiles[0];
@@ -22,4 +22,21 @@ it('only marks the active battle island and restores its actual ownership after 
   expect(territoryStatus(wild, 'quintus', 'another-island').kind).toBe('unoccupied');
   expect(territoryStatus(owned, 'quintus', null).kind).toBe('occupied');
   expect(territoryStatus({ ...owned, owner: null }, 'quintus', null).kind).toBe('unoccupied');
+});
+it('shows every occupied island to either viewer, and updates markers as ownership changes', () => {
+  const board = createConquest(undefined, now).tiles;
+  board.slice(0,10).forEach(t => {t.owner = 'owner-a';});
+  board[10].owner = 'owner-b';
+  const original = JSON.stringify(board);
+  for (const viewer of ['owner-a','owner-b','new-viewer']) {
+    expect(board.filter(t => territoryMarker(t,viewer))).toHaveLength(11);
+  }
+  expect(board.filter(t => territoryMarker(t,'owner-b')?.kind === 'other')).toHaveLength(10);
+  expect(territoryMarker(board[0],'owner-b')?.color).not.toBe(territoryMarker(board[10],'owner-b')?.color);
+  expect(JSON.stringify(board)).toBe(original);
+  const tile = {...wild};
+  expect(territoryMarker(tile,'viewer')).toBeNull();
+  tile.owner='other'; expect(territoryMarker(tile,'viewer')?.kind).toBe('other');
+  tile.owner='viewer'; expect(territoryMarker(tile,'viewer')?.kind).toBe('own');
+  tile.owner=null; expect(territoryMarker(tile,'viewer')).toBeNull();
 });

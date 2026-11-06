@@ -1,5 +1,14 @@
 import { shieldActive, type Tile } from './conquest';
 
+// Every occupied island has a persistent 3D marker, even when its HTML label
+// is hidden by collisions on a small screen. This never changes ownership.
+export function territoryMarker(tile: Tile, player: string) {
+  if (!tile.owner) return null;
+  return tile.owner === player
+    ? { kind: 'own' as const, color: '#ffbf4b' }
+    : { kind: 'other' as const, color: '#c8a4ff' };
+}
+
 // Ownership, battle playback, and protection are independent; none is persisted here.
 export function territoryStatus(tile: Tile, player: string, combatTileId?: string | null, now = Date.now()) {
   const fighting = combatTileId === tile.id || (tile.battleUntil ?? 0) > now;
