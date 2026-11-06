@@ -1,0 +1,42 @@
+{
+  "status": "LOCAL_MVP_VERIFIED_NOT_DEPLOYED",
+  "date": "2026-11-06",
+  "baseCommit": "7229b56650b01fd66da54f241e2fb47d3f1554dc",
+  "adultRoute": "/adult",
+  "lessons": 6,
+  "exercises": 36,
+  "targetedTests": {
+    "status": "PASS",
+    "passed": 16
+  },
+  "regression": {
+    "status": "PASS_WITH_SKIPS",
+    "passed": 1489,
+    "skipped": 235,
+    "databaseTests": "NOT_RUN_NO_TEST_DATABASE_URL"
+  },
+  "build": "PASS npm run build (content audit, pronunciation, tsc, Vite, server bundle)",
+  "childBootstrap": {
+    "status": "PASS_BYTE_IDENTICAL",
+    "sha256": "5e4ced8c65c9e1a4848706484ec20231531b057b99552fb669cc5028b994c199"
+  },
+  "adultNamespace": "star-tide.adult-english.v1",
+  "productionMutations": 0,
+  "ui": {
+    "desktop": "PASS Chrome actual page",
+    "mobile375": "PASS responsive emulation, lesson four exercise types, feedback, reload, completion and review",
+    "tablet1024": "PASS responsive emulation homepage",
+    "lessonResult": "6 answered:4 independent correct,1 assisted,1wrong =>40XP; review replay remained40XP",
+    "hintReload": "PASS UI assisted feedback after transcript/reload/resume",
+    "audio": "TTS fallback UI checked; actual audible quality and physical iPad not certified"
+  },
+  "independentReview": "PASS code-level,16 tests; due gating and current lesson level fixed",
+  "notImplemented": [
+    "adult cloud identity/sync",
+    "microphone or pronunciation scoring",
+    "full long-term CEFR curriculum",
+    "backup import"
+  ],
+  "release": "Local branch only; no production deployment",
+  "preview": "http://127.0.0.1:4382/adult"
+}
