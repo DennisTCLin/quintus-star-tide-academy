@@ -15,6 +15,8 @@
 .nav-icon--trade { background-position: 50% 50%; }
 .nav-icon--battle { background-position: 100% 50%; }
 .nav-icon--parent { background-position: 0% 100%; }
+.family-nav .nav-icon.nav-icon--cinema { background: none; display: grid; place-items: center; }
+.nav-icon--cinema svg { width: 36px; height: 36px; fill: none; stroke: #edc477; stroke-width: 1.6; }
 /* The generated first-row glow slightly crosses the atlas cell boundary. */
 .nav-icon--lottery, .nav-icon--trade, .nav-icon--battle { clip-path: inset(8% 0 0); }
 .family-nav button.selected .nav-icon {
