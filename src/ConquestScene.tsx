@@ -10,7 +10,8 @@ import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js'
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 import { adjacent, type Tile } from './conquest';
 import ConquestTerritoryBadge from './ConquestTerritoryBadge';
-import { territoryMarker, territoryStatus } from './conquest-presentation';
+import ConquestIslandProtection from './ConquestIslandProtection';
+import { islandProtection, territoryMarker, territoryStatus } from './conquest-presentation';
 import { buildArchipelago, buildLockedFrontier, loadIslandModels, makeOcean, makeFrontierMist, point, release, type IslandHeight } from './conquest-art';
 
 export type SceneControl = { home: () => void; rotate: (amount: number) => void; zoom: (factor: number) => void; overview: () => void; frontierInfo: () => void; focusTile: (id: string) => void };
@@ -30,7 +31,7 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ tiles, p
     const r = runtime.current, container = host.current; if (!r || !container) return;
     const width = container.clientWidth, height = container.clientHeight;
     const placed: { x: number; y: number; w: number; h: number }[] = [];
-    const priority = (t: Tile) => t.id === selected ? 0 : t.id === combatTileId ? 1 : t.owner ? 2 : 3;
+    const priority = (t: Tile) => t.id === selected ? 0 : t.id === combatTileId || (t.battleUntil ?? 0) > now ? 1 : t.owner === player ? 2 : t.owner ? 3 : 4;
     for (const tile of [...tiles].sort((a, b) => priority(a) - priority(b))) {
       const node = labels.current.get(tile.id), island = r.heights.get(tile.id); if (!node) continue;
       if (!island) { node.style.visibility = 'hidden'; continue; }
@@ -167,5 +168,15 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ tiles, p
     }
     r.render();
   }, [tiles, player, selected, combatTileId, playerName, now, ready, reduced]);
-  return <div className="cq-canvas" data-overview={overview} ref={host} data-ready={ready ? 'true' : 'false'} data-art="higgsfield-glb-v2"><div className="cq-map-labels" hidden={!ready || !!error} aria-label="海圖領地標記">{tiles.map(tile => <button type="button" key={tile.id} ref={node => { if (node) labels.current.set(tile.id, node); else labels.current.delete(tile.id); }} className="cq-map-label" data-status={territoryStatus(tile, player, combatTileId, now).kind} data-owner-kind={territoryMarker(tile, player)?.kind} data-tile={tile.id} aria-label={`${tile.name}，${ELEMENT_LABEL[tile.element]}之島，${territoryStatus(tile, player, combatTileId, now).label}，${tile.owner === player ? `${playerName}的領地` : territoryStatus(tile, player).ownerLabel}`} aria-pressed={selected === tile.id} onClick={() => onPick.current(tile.id)}><strong>{tile.name}</strong><ConquestElementBadge element={tile.element} /><ConquestTerritoryBadge tile={tile} player={player} name={playerName} combatTileId={combatTileId} now={now} /></button>)}</div>{lockedIsland && <div className="cq-locked-notice" role="status"><span aria-hidden="true">🔒</span><div><strong>這片群島尚未開放</strong><p>{lockedIsland}・航線已連接，等待未來開啟。</p></div><button aria-label="關閉未開放提示" onClick={() => setLockedIsland(null)}>×</button></div>}{error ? <div className="cq-render-error" role="alert">{error}</div> : !ready && <div className="cq-model-loading" role="status"><span>✥</span><strong>正在展開立體海圖</strong><small>載入岩岸、主城與島嶼材質…</small></div>}</div>;
+  return <div className="cq-canvas" data-overview={overview} ref={host} data-ready={ready ? 'true' : 'false'} data-art="higgsfield-glb-v2"><div className="cq-map-labels" hidden={!ready || !!error} aria-label="海圖領地標記">{tiles.map(tile => {
+    const status = territoryStatus(tile, player, combatTileId, now);
+    const protection = islandProtection(tile, now, combatTileId);
+    const owner = tile.owner === player ? `${playerName}的領地` : status.ownerLabel;
+    const protectionText = protection ? `，${protection.label}，${protection.detail}${protection.kind === 'preparing' ? '，仍可被進攻' : ''}` : '';
+    return <button type="button" key={tile.id} ref={node => { if (node) labels.current.set(tile.id, node); else labels.current.delete(tile.id); }} className="cq-map-label" data-status={status.kind} data-owner-kind={territoryMarker(tile, player)?.kind} data-tile={tile.id} aria-label={`${tile.name}，${ELEMENT_LABEL[tile.element]}之島，${status.label}，${owner}${protectionText}`} aria-pressed={selected === tile.id} onClick={() => onPick.current(tile.id)}>
+      <span className="cq-map-label-heading"><strong>{tile.name}</strong><ConquestElementBadge element={tile.element} /></span>
+      <ConquestTerritoryBadge tile={tile} player={player} name={playerName} combatTileId={combatTileId} now={now} />
+      {protection && <ConquestIslandProtection status={protection} />}
+    </button>;
+  })}</div>{lockedIsland && <div className="cq-locked-notice" role="status"><span aria-hidden="true">🔒</span><div><strong>這片群島尚未開放</strong><p>{lockedIsland}・航線已連接，等待未來開啟。</p></div><button aria-label="關閉未開放提示" onClick={() => setLockedIsland(null)}>×</button></div>}{error ? <div className="cq-render-error" role="alert">{error}</div> : !ready && <div className="cq-model-loading" role="status"><span>✥</span><strong>正在展開立體海圖</strong><small>載入岩岸、主城與島嶼材質…</small></div>}</div>;
 });

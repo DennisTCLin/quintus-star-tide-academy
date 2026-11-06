@@ -20,11 +20,24 @@ export function territoryStatus(tile: Tile, player: string, combatTileId?: strin
     own,
   } as const;
 }
+// Presentation only: use the same server-aligned clock and shield predicate as combat.
+// A battle lock takes precedence over the vulnerable label, but never changes shield dates.
+export function islandProtection(tile: Tile, now: number, combatTileId?: string | null) {
+  if (!tile.owner) return null;
+  if (combatTileId === tile.id || (tile.battleUntil ?? 0) > now) {
+    return { kind: 'war', label: '交戰中', detail: '戰況結算中', until: null } as const;
+  }
+  if (shieldActive(tile, now)) {
+    return { kind: 'protected', label: '保護中', detail: `剩餘 ${remaining(tile.shieldUntil, now)}`, until: tile.shieldUntil } as const;
+  }
+  if ((tile.shieldStartsAt ?? 0) > now) {
+    return { kind: 'preparing', label: '整備中', detail: `${remaining(tile.shieldStartsAt!, now)}後開盾`, until: tile.shieldStartsAt! } as const;
+  }
+  return { kind: 'vulnerable', label: '可被進攻', detail: '護盾已失效', until: null } as const;
+}
 export function protectionStatus(tile: Tile, now: number) {
-  if (!tile.owner) return '';
-  if (shieldActive(tile, now)) return `護盾保護 · 剩 ${remaining(tile.shieldUntil, now)}`;
-  if ((tile.shieldStartsAt ?? 0) > now) return `整備中 · ${remaining(tile.shieldStartsAt!, now)}後開盾`;
-  return '無護盾';
+  const status = islandProtection(tile, now);
+  return status ? `${status.label} · ${status.detail}` : '';
 }
 function remaining(end: number, now: number) {
   const minutes = Math.max(1, Math.ceil((end - now) / 60000));
