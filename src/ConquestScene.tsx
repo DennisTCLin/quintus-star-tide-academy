@@ -84,6 +84,10 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ tiles, p
     renderer.domElement.setAttribute('aria-label', '可旋轉縮放的 3D 群島；也可使用島嶼清單操作'); renderer.domElement.setAttribute('role', 'img'); renderer.domElement.dataset.islandWidth = String(ISLAND_WIDTH);
     container.appendChild(renderer.domElement);
     const controls = new OrbitControls(camera, renderer.domElement); controls.enableDamping = false;
+    // Reserve one-finger vertical gestures for page scrolling. Set this after
+    // OrbitControls connects, since its constructor writes touch-action:none.
+    controls.touches = { ONE: undefined, TWO: THREE.TOUCH.DOLLY_ROTATE };
+    renderer.domElement.style.touchAction = 'pan-y';
     controls.minDistance = 7; controls.maxDistance = 600; controls.minPolarAngle = .2; controls.maxPolarAngle = Math.PI * .43; controls.maxTargetRadius = 28 * TERRITORY_SCALE;
     controls.mouseButtons = { LEFT: THREE.MOUSE.ROTATE, MIDDLE: THREE.MOUSE.DOLLY, RIGHT: THREE.MOUSE.PAN };
     scene.add(new THREE.HemisphereLight('#d5e8ff', '#647246', 1.25));
