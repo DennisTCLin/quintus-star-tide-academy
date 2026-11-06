@@ -8,7 +8,7 @@
 .family-app .cq-title h1{font-family:'Noto Serif TC','Songti TC',serif;font-size:clamp(23px,2.3vw,34px);letter-spacing:.05em;color:inherit;margin:0;line-height:1.35}.cq-title h1:focus{outline:none}
 .family-app .cq-title p{font-size:12px;margin:4px 0 0;color:#c2d8d7}.cq-status{display:flex;align-items:center;gap:24px}.cq-status>div{display:grid;gap:3px}.cq-status span{font-size:12px;color:#c5dcd9}.cq-status strong{font-size:25px;font-weight:650;line-height:1.1}.cq-status small{font-size:12px;font-weight:400;color:#c5dcd9}
 .family-app .cq-game .cq-gold{background:var(--cq-gold);color:#243f42;border:1px solid #d8a44b;font-weight:750;padding:11px 18px;box-shadow:inset 0 1px #fff4cd88}.family-app .cq-game .cq-gold:hover:not(:disabled){background:#ffd486}
-.cq-layout{display:grid;grid-template-columns:minmax(0,1fr) 310px}.cq-world{position:relative;min-width:0;height:610px;background:#4ca0b5;isolation:isolate;overflow:hidden}.cq-canvas{position:absolute;inset:0}.cq-canvas canvas{display:block;width:100%;height:100%;touch-action:none}
+.cq-layout{display:grid;grid-template-columns:minmax(0,1fr) 310px}.cq-world{position:relative;min-width:0;height:610px;background:#4ca0b5;isolation:isolate;overflow:hidden}.cq-canvas{position:absolute;inset:0}.cq-canvas canvas{display:block;width:100%;height:100%;touch-action:pan-y}
 .cq-render-error{position:absolute;inset:20% 10% auto;z-index:5;padding:24px;background:var(--cq-paper);color:var(--cq-ink);border-radius:10px;box-shadow:0 15px 60px #07384655}
 .cq-map-caption{position:absolute;left:22px;top:22px;padding:9px 13px;background:#123e4ccb;color:#fff5dd;display:flex;align-items:center;gap:8px;border-radius:6px;font-size:12px;pointer-events:none}.cq-map-caption>span:last-child{color:#c1dfd6;margin-left:8px}.cq-live-dot{width:6px;height:6px;background:#e7bf6a;border-radius:50%}
 .cq-map-invitation{position:absolute;left:24px;bottom:72px;pointer-events:none;max-width:270px;color:#fff5de;text-shadow:0 2px 9px #123e4c;padding:18px 20px;border-left:2px solid #f6cc80;background:linear-gradient(90deg,#0c3d4dd9,#0c3d4d22)}.cq-map-invitation>span{font-size:11px;color:#e2e8ce}.cq-map-invitation strong{display:block;font-family:'Songti TC',serif;font-size:27px;margin:5px 0}.family-app .cq-map-invitation p{font-size:12px;line-height:1.6;margin:0;color:inherit}
@@ -84,3 +84,11 @@
 
 .cq-raid>div{width:100%;min-width:0}.cq-raid-reports{margin-top:16px}.cq-raid-reports summary{cursor:pointer;padding:10px 0;min-height:44px;line-height:1.7}.cq-raid-report{border-top:1px solid #526073;margin-top:8px;padding:4px 0}.cq-raid-report summary{font-weight:700}.cq-raid-report ul{padding-left:22px;line-height:1.9;font-size:13px}.cq-raid-report time{font-variant-numeric:tabular-nums}
 .family-app .cq-game .cq-raid h2{color:#f2e8ff}.family-app .cq-game .cq-raid p{color:#e0deed}
+
+.cq-touch-help{display:none}
+@media(any-pointer:coarse){.cq-touch-help{display:inline}.cq-mouse-help{display:none}}
+@media(max-width:760px){
+  .cq-map-controls{bottom:57px}
+  .family-app .cq-game .cq-map-invitation{bottom:112px}
+  .family-app .cq-map-help{left:14px;right:14px;bottom:10px;max-width:none;font-size:12px;line-height:1.5}
+}
