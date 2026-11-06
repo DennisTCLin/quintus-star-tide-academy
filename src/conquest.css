@@ -92,3 +92,25 @@
   .family-app .cq-game .cq-map-invitation{bottom:112px}
   .family-app .cq-map-help{left:14px;right:14px;bottom:10px;max-width:none;font-size:12px;line-height:1.5}
 }
+
+/* Claim guidance shares the chart's brass, ivory and ocean palette. */
+.cq-target-guide{display:flex;align-items:center;flex-wrap:wrap;gap:10px;padding:14px 20px;background:#092f40;border-block:1px solid #a88b50;color:#e4f7ef}
+.cq-target-guide>div{flex:1;min-width:190px}.cq-target-guide strong,.cq-target-guide span{display:block}.cq-target-guide strong{color:#9cf5df;font-size:19px}.cq-target-guide span{font-size:12px;margin-top:5px}
+.family-app .cq-target-guide button,.family-app .cq-claim-summary button{border:1px solid #a4c6ba;background:#164653;color:#e7fff3;border-radius:5px;padding:9px 12px;min-height:44px;font-size:13px}
+.family-app .cq-target-guide button:disabled{opacity:.55;cursor:default}
+.cq-game .cq-map-coordinates{display:block;color:#d2e7de;font-size:10px;font-family:system-ui,sans-serif;font-weight:400;white-space:nowrap}
+.cq-map-label[data-claim-ready=true]{border-color:#8ee8d6;box-shadow:0 0 0 1px #8ee8d6,0 0 15px #60e6cb77}
+.cq-map-label[data-adjacent-target=true][data-claim-ready=false]{border-color:#d5a760}
+.cq-map-eligibility{display:block;border-top:1px solid #ffffff30;margin-top:5px;padding-top:4px;color:#f6d293;font-size:11px;font-weight:700}
+.cq-map-label[data-claim-ready=true] .cq-map-eligibility{color:#a4ffe9}
+.family-app .cq-game .cq-map-invitation{background:#083346f5;max-width:310px}
+.cq-map-invitation strong small{font:11px system-ui,sans-serif;white-space:nowrap;color:#d2e7de}
+.cq-claim-guidance{border-top:1px solid #c3ac7155;margin-top:6px;padding-top:6px;white-space:normal}
+.cq-claim-guidance b{font-size:14px;color:#ffe0a0}.cq-claim-guidance[data-ready=true] b{color:#9cf5df}
+.family-app .cq-game .cq-claim-guidance p{display:block;font-size:12px!important;line-height:1.6;margin:3px 0;color:#f7f0dd}
+.cq-game .cq-claim-guidance small{display:block;color:#e3e9dc;font-size:11px}
+.cq-claim-summary{padding:14px 18px;background:#f5e5bf;border-bottom:1px solid #c2ad7d;color:#123945}.cq-claim-summary strong{font-size:18px}.cq-claim-summary[data-ready=true]{background:#d8eee2}.family-app .cq-claim-summary p{margin:6px 0;line-height:1.6;color:#123945;font-size:14px}.cq-claim-summary small{display:block}.cq-claim-summary button{margin-top:10px}
+.cq-directory-guidance{color:#704812!important;font-weight:600}.cq-directory-guidance[data-ready=true]{color:#16644f!important}
+@media(max-width:760px){.cq-target-guide{padding:12px 14px;gap:8px}.cq-target-guide>div{flex-basis:100%}.family-app .cq-game .cq-map-invitation{max-width:min(290px,calc(100% - 28px));padding:9px 12px}.cq-map-invitation strong{font-size:21px}.cq-game .cq-map-invitation>span{font-size:10px}}
+
+.cq-target-empty{flex-basis:100%;border-top:1px solid #c3ac7155;padding-top:8px}.family-app .cq-target-empty p{font-size:13px;color:#f7e6bf;margin:0 0 8px}.cq-target-empty button+button{margin-left:8px}
