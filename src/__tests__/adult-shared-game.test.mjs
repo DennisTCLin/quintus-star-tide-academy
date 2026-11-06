@@ -135,6 +135,12 @@ suite('adult and child shared star-tide game',()=>{
   const a=await call('adult/game/conquest?player=quintus',undefined,adult),b=await call('conquest?player=quintus',undefined,child);expect(a.status).toBe(200);expect(b.status).toBe(200);expect(a.data.me).not.toBe(b.data.me);expect(a.data.state.tiles).toEqual(b.data.state.tiles);
   const join=await call('adult/game/conquest',{player:'quintus',type:'join',commandId:randomUUID(),revision:b.data.revision,season:a.data.state.season,alliance:'light',hero:'hero-elf'},adult);expect(join.status,JSON.stringify(join.data)).toBe(200);expect(join.data.state.enrollment).toBeTruthy();expect(await children()).toEqual(beforeChildren);
  });
+ it('credits shared-world energy exactly once from an approved adult answer and leaves children unchanged',async()=>{
+  const before=(await call('adult/game/conquest?player=quintus',undefined,adult)).data.state.energy;
+  const command={type:'answer',...ptr(adult),answer:exerciseById(adult.learning.session.ids[0]).answer},op={username,id:randomUUID(),revision:adult.learning.revision,command};
+  expect((await adultCommand(adult,command,op)).status).toBe(200);expect((await call('adult/game/conquest?player=quintus',undefined,adult)).data.state.energy).toBe(before+10);
+  expect((await adultCommand(adult,command,op)).data.replayed).toBe(true);expect((await call('adult/game/conquest?player=quintus',undefined,adult)).data.state.energy).toBe(before+10);expect(await children()).toEqual(beforeChildren);
+ });
  it('allocates adult English for assist questions and never charges child curriculum to an adult',async()=>{
   await gameRead();const start=await gameCommand(adult,{type:'battle-start',course:'english',used:[]});expect(start.status).toBe(200);const q=start.data.result.question;expect(q.programme).toBe('adult-english');expect(q.grade).toBeNull();expect(q.id).toMatch(/^adult-en-v1-/);expect(q.answer).toBeUndefined();
   const source=exerciseById(q.id),answer=source.options.indexOf(source.answer);const result=await gameCommand(adult,{type:'battle-answer',token:start.data.result.token,question:q.id,choice:answer});expect(result.status).toBe(200);expect(result.data.result.answer).toBe(answer);expect(await children()).toEqual(beforeChildren);
