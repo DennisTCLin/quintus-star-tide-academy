@@ -1,3 +1,4 @@
+import { islandDisplayTiles, islandCoordinates } from './conquest-names';
 import ConquestRaidCountdown from './ConquestRaidCountdown';
 import ConquestElementBadge from './ConquestElementBadge';
 import type { SharedConquestController } from './conquest-cloud';
@@ -12,7 +13,7 @@ export type ConquestDestination = { tileId?: string; owned?: boolean; reports?: 
 type Props = { controller:SharedConquestController; account: string; player: PlayerId; name: string; onEnter: (destination: ConquestDestination) => void };
 export default function ConquestHomeEntry({ controller, player, name, onEnter }: Props) {
   const state=controller.snapshot?.state, now=controller.now(), error=!!controller.error;
-  const islands=state?.tiles.filter(t=>t.owner===controller.snapshot?.me).sort((a,b)=>(b.capturedAt??0)-(a.capturedAt??0))??[];
+  const islands=(state ? islandDisplayTiles(state.tiles) : []).filter(t=>t.owner===controller.snapshot?.me).sort((a,b)=>(b.capturedAt??0)-(a.capturedAt??0))??[];
   const protectedCount = islands.filter(t => shieldActive(t, now)).length;
   const waitingCount = islands.filter(t => (t.shieldStartsAt ?? 0) > now).length;
   return <section className="cq-home-entry" aria-labelledby="cq-home-title">
@@ -27,7 +28,7 @@ export default function ConquestHomeEntry({ controller, player, name, onEnter }:
     </div>
     <div className="cq-home-islands">
       <img className="cq-home-fortress" src="/assets/navigation/conquest-fortress.v-c1549f292cd3.webp" alt="" width="192" height="192" />
-      {!!islands.length && <div className="cq-home-holdings" aria-label="最近佔領的島嶼">{islands.slice(0, 3).map(tile => <button key={tile.id} onClick={() => onEnter({ owned: true, tileId: tile.id })}><span aria-hidden="true">⚑</span><span><b>{tile.name}</b><ConquestElementBadge element={tile.element} /><small>{protectionStatus(tile, now)}</small></span><span aria-hidden="true">›</span></button>)}{islands.length > 3 && <small>另有 {islands.length - 3} 座，進入我的領地查看</small>}</div>}
+      {!!islands.length && <div className="cq-home-holdings" aria-label="最近佔領的島嶼">{islands.slice(0, 3).map(tile => <button key={tile.id} onClick={() => onEnter({ owned: true, tileId: tile.id })}><span aria-hidden="true">⚑</span><span><b>{tile.name} {islandCoordinates(tile)}</b><ConquestElementBadge element={tile.element} /><small>{protectionStatus(tile, now)}</small></span><span aria-hidden="true">›</span></button>)}{islands.length > 3 && <small>另有 {islands.length - 3} 座，進入我的領地查看</small>}</div>}
     </div>
   </section>;
 }

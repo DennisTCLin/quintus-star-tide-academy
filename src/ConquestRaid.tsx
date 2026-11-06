@@ -1,3 +1,4 @@
+import { reportIslandLabel } from './conquest-names';
 import { useEffect, useRef, useState } from 'react';
 import ConquestRaidCountdown from './ConquestRaidCountdown';
 import { incomingRaid, unreadRaidReports } from './conquest-enemy';
@@ -32,7 +33,7 @@ export default function ConquestRaid({ state, player, now, serverNow, connected 
       <p role="status" className="cq-raid-read-status">{message}</p>
       {!reports.length && <p>{last ? `歷史紀錄：第 ${last.wave} 波 · ${last.tileName} · ${last.defended ? '成功擊退' : '補給遭劫'}。此紀錄建立於自動守城啟用前。` : '尚無守城戰報。敵軍來襲後，戰果會自動保存於此。'}</p>}
       {reports.map(report => <details key={report.id} className="cq-raid-report">
-        <summary>{unreadIds.has(report.id) && <span className="cq-raid-unread">未讀</span>}<time dateTime={new Date(report.resolvedAt).toISOString()}>{time(report.resolvedAt)}</time> · {report.tileName} · {report.kind === 'pvp' ? `${report.attackerName}進攻 · ${report.defended ? '守城成功' : '領地失守'}` : `${report.defended ? '成功擊退' : report.captured ? '領地失守' : '補給遭劫'} · 第 ${report.wave} 波`}</summary>
+        <summary>{unreadIds.has(report.id) && <span className="cq-raid-unread">未讀</span>}<time dateTime={new Date(report.resolvedAt).toISOString()}>{time(report.resolvedAt)}</time> · {reportIslandLabel(state, report)} · {report.kind === 'pvp' ? `${report.attackerName}進攻 · ${report.defended ? '守城成功' : '領地失守'}` : `${report.defended ? '成功擊退' : report.captured ? '領地失守' : '補給遭劫'} · 第 ${report.wave} 波`}</summary>
         {unreadIds.has(report.id) && onReadReports && <button type="button" className="cq-read-reports" disabled={!connected || saving} onClick={()=>void markRead([report.id])}>標記此戰報已讀</button>}
         <p>{report.season.replace('season-', '')} 航季 · 戰鬥 {report.rounds} 回合 · 敵軍 {report.attackersBefore.length} 位 · 駐軍 {report.defendersBefore.length} 位</p>
         {report.kind === 'pvp' ? <div className="cq-pvp-outcome">
