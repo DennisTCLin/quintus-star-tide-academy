@@ -6,7 +6,15 @@ A player must be enrolled and own an island for at least 10 minutes. The first r
 
 The worker takes the same PostgreSQL world transaction lock as PvP, healing and roster synchronization. It reads committed collection XP for each owner, preserves the current HP ratio and normal elapsed recovery, and atomically writes wounds, resources, ownership, cooldown, raid progress and the report. It never writes learning/collection XP or ownership. Multiple replicas/restarts see persisted wave progress after acquiring that lock. A failed transaction changes none of these records and the worker retries on its next cycle. Shutdown stops scheduling and awaits the in-flight transaction before closing the pool.
 
-Loss is capped at five herbs and two spring; energy, territory, learning and collection progress remain. The latest 30 private reports contain scheduled/actual times, season, wave, island, outcome, supply losses and both armies before/after. They survive reconnect, restart and season rollover. Reading reports does not settle anything. The API rejects legacy `defend` commands. No HTTP endpoint exposes the worker tick.
+Loss is capped at five herbs and two spring; energy, learning and collection progress remain. A defeated island now transfers to Dark Tide with its surviving attackers; the old garrison retains its wounds in the player ledger. NPC holdings have no shield and can be reclaimed through normal claim combat after the 20-second battle lock. New NPC reports include an explicit `captured` flag. Historical reports without the flag keep the original territory-retained meaning. The latest 30 private reports contain scheduled/actual times, season, wave, island, outcome, supply losses and both armies before/after. They survive reconnect, restart and season rollover. Reading reports does not settle anything. The API rejects legacy `defend` commands. No HTTP endpoint exposes the worker tick.
+
+## Territory expansion
+
+The same background transaction makes at most one neutral-island attack per six hours, even after downtime. Its first target is an outer island; subsequent targets must be adjacent to an NPC holding. Neutral islands within distance one of the center are reserved from this expansion, and player-owned or battle-locked islands are never targeted by expansion. The existing player-raid grace, shield and six-hour cadence still govern attacks on occupied islands.
+
+Expansion uses a force derived from the island's original wild guards at two levels higher (minimum level three), resolves normal combat, and leaves only surviving attackers as the garrison. NPC recovery uses the world's clock. NPC islands produce no player supplies or knowledge bonus, do not join alliances or player rankings, and appear under a separate red-flag map filter.
+
+`conquest_npc_clock.last_expansion_at` is an additive nullable column; the world lock serializes its update with territory changes and revision. Reclaiming every NPC holding does not reset this clock. The cooldown also persists across seasons. A failed transaction rolls back expansion and the clock together.
 
 ## Verification
 
@@ -25,7 +33,7 @@ The automatic DB suite seeds owners without sessions, starts real background wor
 
 `conquest_npc_clock` is additive. Query `SELECT * FROM conquest_npc_clock WHERE id='global'` to verify `last_tick_at` advances without traffic; `last_raid_at` only changes on a committed raid. A healthy idle world still updates the tick clock. Inspect private report count and timestamps only for a designated QA account; do not expose all players' reports publicly.
 
-To pause attacks, set `CONQUEST_NPC_RAIDS=off` and restart/redeploy the same application. Existing reports remain readable. Re-enable by removing the override and restarting. To roll back code, redeploy the previous integrated release; the additive table and JSON fields may remain. Do not restore an old database snapshot, delete reports, or reset injuries. The shared-world writer owns the single production integration/deployment; this feature branch must not deploy over it.
+To pause attacks, set `CONQUEST_NPC_RAIDS=off` and restart/redeploy the same application. Existing reports remain readable. Re-enable by removing the override and restarting. Older runtimes treat unknown owners as deleted players and would neutralize NPC holdings. To pause safely, disable the worker while retaining this version. A code rollback must preserve NPC-owner handling if those holdings should remain; the additive table and JSON fields may remain. Do not restore an old database snapshot, delete reports, or reset injuries. The shared-world writer owns the single production integration/deployment; this feature branch must not deploy over it.
 
 ## Countdown and unread reports
 
@@ -38,3 +46,7 @@ After login, an unread notice appears outside learning and conquest views with r
 The client uses a short request gate and scope/sequence checks, without creating an uncertain combat command for a lost acknowledgment. Read state updates after server confirmation and is refreshed on polling/reconnect. A failed acknowledgment retains the unread UI and can safely be retried; old account responses cannot expose reports to the next account.
 
 Additional checks: `conquest-raid-notifications.test.ts` covers future shields, grace/battle boundaries, no territory, due formatting, exact-ID acknowledgment, retention and season persistence. `conquest-npc-automatic.test.mjs` also verifies owner/CSRF scope, concurrent arrivals, two-device union and no world/combat writes including at a historical season boundary. Actual-app browser QA at 390/1440 px covers countdown ticks, final report-heading focus, failed acknowledgment, no pending combat command, two-device polling, reload and other-account isolation.
+
+## Territory implementation checks (2026-11-06)
+
+Implemented in `codex/dark-tide-territories` from `b8566bd8`, with one writer and an independent read-only verifier (Relay). Pure conquest suites, the shared/NPC PostgreSQL suites against a new isolated local database, pronunciation checks, TypeScript and the production build passed. Browser fixture checks at 390 and 1440 px cover the separate NPC filter, exclusion from other-player filters, guard images, battle army labels and no horizontal overflow/page errors. Existing learning data is unchanged in the integration tests. The verifier's battle-label and repeated-loss-count findings were fixed and the affected tests rerun. This is local verification; no production deployment or live-player migration was performed.
