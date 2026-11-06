@@ -1,5 +1,5 @@
 import { islandCoordinates } from './conquest-names';
-import { buildNpcSmoke } from './conquest-npc-smoke';
+import { buildNpcOccupation } from './conquest-npc-smoke';
 import { ELEMENT_LABEL } from './conquest';
 import ConquestElementBadge from './ConquestElementBadge';
 import { HEX_STEP_X, ISLAND_WIDTH, TERRITORY_SCALE } from './conquest-scale';
@@ -10,7 +10,7 @@ import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
-import { adjacent, type Tile } from './conquest';
+import { type Tile } from './conquest';
 import ConquestTerritoryBadge from './ConquestTerritoryBadge';
 import ConquestIslandProtection from './ConquestIslandProtection';
 import { islandProtection, territoryMarker, territoryStatus, type ClaimGuidance } from './conquest-presentation';
@@ -35,7 +35,7 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ guidance
     const invitationHeight = container.parentElement?.querySelector<HTMLElement>('.cq-map-invitation')?.offsetHeight ?? 150;
     const bottomReserve = Math.max(window.innerWidth <= 760 ? 255 : 205, invitationHeight + (window.innerWidth <= 760 ? 122 : 94));
     const placed: { x: number; y: number; w: number; h: number }[] = [];
-    const priority = (t: Tile) => t.id === selected ? 0 : t.id === combatTileId || (t.battleUntil ?? 0) > now ? 1 : guidance[t.id]?.ready ? 2 : guidance[t.id]?.adjacentTarget ? 3 : t.owner === player ? 4 : t.owner ? 5 : 6;
+    const priority = (t: Tile) => t.id === selected ? 0 : t.id === combatTileId || (t.battleUntil ?? 0) > now ? 1 : territoryMarker(t, player)?.kind === 'npc' ? 2 : guidance[t.id]?.ready ? 3 : t.owner === player ? 4 : t.owner ? 5 : 6;
     for (const tile of [...tiles].sort((a, b) => priority(a) - priority(b))) {
       const node = labels.current.get(tile.id), island = r.heights.get(tile.id); if (!node) continue;
       if (!island) { node.style.visibility = 'hidden'; continue; }
@@ -156,7 +156,7 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ guidance
     const ring = (tile: Tile, color: string, radius: number, thickness: number) => { const p = point(tile); const points = Array.from({ length: 7 }, (_, i) => new THREE.Vector3(p.x + Math.cos(i * Math.PI / 3 + Math.PI / 6) * radius * TERRITORY_SCALE, .1, p.z + Math.sin(i * Math.PI / 3 + Math.PI / 6) * radius * TERRITORY_SCALE)); r.overlays.add(glowLine(points, color, thickness)); };
     for (const tile of tiles) {
       const eligibility = guidance[tile.id];
-      if (eligibility?.adjacentTarget) {
+      if (tile.id === selected && eligibility?.inRangeTarget && territoryMarker(tile, player)?.kind !== 'npc') {
         const color = eligibility.ready ? '#83f5dc' : '#d5a760';
         ring(tile, color, 1.9, eligibility.ready ? .055 : .025);
         if (eligibility.ready) {
@@ -184,9 +184,7 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ guidance
       ring(tile, '#ffd66b', 1.83, .045);
       const p = point(tile), height = r.heights.get(tile.id)?.top ?? 2;
       const marker = new THREE.Mesh(new THREE.OctahedronGeometry(.16), new THREE.MeshBasicMaterial({ color: new THREE.Color('#ffdc83').multiplyScalar(1.8) })); marker.position.set(p.x, height + .48, p.z); marker.scale.y = 1.6; r.overlays.add(marker);
-      for (const neighbor of tiles.filter(t => adjacent(tile, t))) {
-        const a = point(tile), b = point(neighbor), d = b.clone().sub(a).normalize(); a.addScaledVector(d, 1.8 * TERRITORY_SCALE); b.addScaledVector(d, -1.6 * TERRITORY_SCALE); a.y = b.y = .13; r.overlays.add(glowLine([a, b], '#ffd56a', .025));
-      }
+
     }
     r.render();
   }, [tiles, guidance, player, selected, combatTileId, playerName, now, ready, reduced]);
@@ -196,7 +194,7 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ guidance
   useEffect(() => {
     const r = runtime.current; if (!r || !ready || r.heights.size !== tiles.length) return;
     release(r.smoke); r.smoke.clear();
-    const smoke = buildNpcSmoke(tiles, r.heights, r.clock);
+    const smoke = buildNpcOccupation(tiles, r.heights, r.clock);
     if (smoke) r.smoke.add(smoke);
     host.current?.setAttribute('data-npc-smoke-islands', String(smoke?.userData.islandIds.length ?? 0));
     r.render();
@@ -208,11 +206,11 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ guidance
     const protection = islandProtection(tile, now, combatTileId);
     const owner = tile.owner === player ? `${playerName}的領地` : status.ownerLabel;
     const protectionText = protection ? `，${protection.label}，${protection.detail}${protection.kind === 'preparing' ? '，仍可被進攻' : ''}` : '';
-    return <button type="button" key={tile.id} ref={node => { if (node) labels.current.set(tile.id, node); else labels.current.delete(tile.id); }} className="cq-map-label" data-claim-ready={guidance[tile.id]?.ready} data-adjacent-target={guidance[tile.id]?.adjacentTarget} data-status={status.kind} data-owner-kind={territoryMarker(tile, player)?.kind} data-tile={tile.id} aria-label={`${tile.name}，座標 ${islandCoordinates(tile)}，${guidance[tile.id]?.label}，${guidance[tile.id]?.reason ?? ''}，${ELEMENT_LABEL[tile.element]}之島，${status.label}，${owner}${protectionText}`} aria-pressed={selected === tile.id} onClick={event => onPick.current(tile.id, event.currentTarget)}>
+    return <button type="button" key={tile.id} ref={node => { if (node) labels.current.set(tile.id, node); else labels.current.delete(tile.id); }} className="cq-map-label" data-claim-ready={guidance[tile.id]?.ready} data-in-range-target={guidance[tile.id]?.inRangeTarget} data-status={status.kind} data-owner-kind={territoryMarker(tile, player)?.kind} data-tile={tile.id} aria-label={`${tile.name}，座標 ${islandCoordinates(tile)}，${guidance[tile.id]?.label}，${guidance[tile.id]?.reason ?? ''}，${ELEMENT_LABEL[tile.element]}之島，${status.label}，${owner}${protectionText}`} aria-pressed={selected === tile.id} onClick={event => onPick.current(tile.id, event.currentTarget)}>
       <span className="cq-map-label-heading"><strong>{tile.name}<small className="cq-map-coordinates">{islandCoordinates(tile)}</small></strong><ConquestElementBadge element={tile.element} /></span>
       <ConquestTerritoryBadge tile={tile} player={player} name={playerName} combatTileId={combatTileId} now={now} />
       {!guidance[tile.id]?.own && <span className="cq-map-eligibility">{guidance[tile.id]?.ready ? '⚔ ' : ''}{guidance[tile.id]?.label}</span>}
-      {protection && <ConquestIslandProtection status={protection} />}
+      {territoryMarker(tile, player)?.kind === 'npc' ? <span className="cq-npc-label">✦ 航路遭封鎖 · {protection?.kind === 'war' ? '交戰中' : '等待奪回'}</span> : protection && <ConquestIslandProtection status={protection} />}
     </button>;
   })}</div>{lockedIsland && <div className="cq-locked-notice" role="status"><span aria-hidden="true">🔒</span><div><strong>這片群島尚未開放</strong><p>{lockedIsland}・航線已連接，等待未來開啟。</p></div><button aria-label="關閉未開放提示" onClick={() => setLockedIsland(null)}>×</button></div>}{error ? <div className="cq-render-error" role="alert">{error}</div> : !ready && <div className="cq-model-loading" role="status"><span>✥</span><strong>正在展開立體海圖</strong><small>載入岩岸、主城與島嶼材質…</small></div>}</div>;
 });

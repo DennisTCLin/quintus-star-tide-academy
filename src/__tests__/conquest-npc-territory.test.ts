@@ -1,12 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import { act, adjacent, advanceConquest, claimBlock, createConquest, health, knowledgeBonus, production, withHealth } from '../conquest';
+import { act, hexDistance, advanceConquest, claimBlock, createConquest, health, knowledgeBonus, production, withHealth } from '../conquest';
 import { expandNpcTerritory, isNpcOwner, NPC_FACTION, NPC_EXPANSION_INTERVAL_MS, occupyNpcTile, validRaidReport } from '../conquest-enemy';
 import { territoryMarker, territoryStatus } from '../conquest-presentation';
 import { parseConquest } from '../conquest-store';
 import { prepareBattle } from '../conquest-battle';
 const now=Date.UTC(2026,10,6), player='quintus';
 describe('Dark Tide territory',()=>{
- it('establishes an outer outpost and expands to only one adjacent neutral island per interval',()=>{
+ it('establishes an outer outpost and expands to only one neutral island per interval',()=>{
   const state=createConquest(undefined,now),before=JSON.stringify(state);
   const first=expandNpcTerritory(state.tiles,now,null)!;
   expect(first.captured).toBe(true);expect(JSON.stringify(state)).toBe(before);
@@ -14,7 +14,7 @@ describe('Dark Tide territory',()=>{
   expect(expandNpcTerritory(first.tiles,now+NPC_EXPANSION_INTERVAL_MS-1,now)).toBeNull();
   const second=expandNpcTerritory(first.tiles,now+NPC_EXPANSION_INTERVAL_MS,now)!;
   expect(second.captured).toBe(true);expect(second.tiles.filter(t=>isNpcOwner(t.owner))).toHaveLength(2);
-  expect(adjacent(outpost,second.tiles.find(t=>t.id===second.tileId)!)).toBe(true);
+  expect(second.tileId).not.toBe(outpost.id);
   expect(expandNpcTerritory(state.tiles,now+NPC_EXPANSION_INTERVAL_MS*100,now)!.tiles.filter(t=>isNpcOwner(t.owner))).toHaveLength(1);
   expect(expandNpcTerritory(state.tiles,NaN,null)).toBeNull();
  });
@@ -45,11 +45,42 @@ describe('Dark Tide territory',()=>{
   const next=act(state,player,{type:'claim',tileId:target.id,team:roster.map(g=>g.id)},roster,now);
   expect(next.tiles[0].owner).toBe(player);expect(next.tiles[0].shieldUntil).toBeGreaterThan(now);
   expect(next.units['npc:one']).toBeUndefined();expect(next.lastBattle!.attackersAfter.some(g=>health(g)>0)).toBe(true);
-  state.tiles[state.tiles.length-1].owner=player;expect(claimBlock(state,player,target,now)).toContain('相鄰');
+  state.tiles[state.tiles.length-1].owner=player;expect(claimBlock(state,player,target,now)).toBeNull();
  });
  it('accepts legacy raid reports without retroactively marking land captured',()=>{
   const report={id:'old',season:'season-2026-11',wave:1,scheduledAt:now,resolvedAt:now,tileId:'0,0',tileName:'島',defended:false,herbsLost:2,springLost:1,rounds:0,defendersBefore:[],defendersAfter:[],attackersBefore:[],attackersAfter:[]};
   expect(validRaidReport(report)).toBe(true);expect(validRaidReport({...report,captured:true})).toBe(true);
   expect(validRaidReport({...report,captured:true,defended:true})).toBe(false);
  });
+});
+
+it('expands across the chart without adjacency but excludes the starter ring and outside radius five',()=>{
+ const state=createConquest(undefined,now);
+ state.tiles.forEach(t=>{t.owner=player;});
+ const outpost=state.tiles.find(t=>t.id==='-5,0')!,target=state.tiles.find(t=>t.id==='5,0')!;
+ outpost.owner='dark-tide';target.owner=null;target.distance=0;
+ const invalid={...target,id:'6,0',q:6,r:0,distance:5};
+ const starter={...target,id:'0,0',q:0,r:0,distance:5};
+ expect(hexDistance(outpost.q-target.q,outpost.r-target.r)).toBe(10);
+ expect(expandNpcTerritory([outpost,invalid,starter],now,null)).toBeNull();
+ expect(expandNpcTerritory([...state.tiles,invalid],now+NPC_EXPANSION_INTERVAL_MS-1,now)).toBeNull();
+ const next=expandNpcTerritory([...state.tiles,invalid],now+NPC_EXPANSION_INTERVAL_MS,now)!;
+ expect(next.tileId).toBe('5,0');expect(next.captured).toBe(true);
+ expect(next.tiles.find(t=>t.id==='6,0')!.owner).toBeNull();
+});
+it('uses coordinates for player range and keeps full combat validation for nonadjacent claims',()=>{
+ for(const shared of [true,false]) {
+  const s=createConquest(undefined,now);s.energy=1000;s.shared=shared;
+  s.tiles.find(t=>t.id==='-5,0')!.owner=player;
+  const target=s.tiles.find(t=>t.id==='5,0')!;target.guards=[];
+  const roster=['a','b','c'].map(id=>({...withHealth({id,level:20,element:'wood' as const}),name:id,image:'',loan:false}));
+  const team=roster.map(g=>g.id),action={type:'claim' as const,tileId:target.id,team};
+  expect(act(s,player,action,roster,now,shared).tiles.find(t=>t.id===target.id)!.owner).toBe(player);
+  target.q=6;target.distance=0;
+  expect(()=>act(s,player,action,roster,now,shared)).toThrow('五格');
+  target.q=5;target.battleUntil=now+1;
+  expect(()=>act(s,player,action,roster,now,shared)).toThrow('交戰');
+  target.battleUntil=0;target.owner='other';target.shieldUntil=now+1;
+  expect(()=>act(s,player,action,roster,now,shared)).toThrow('護盾');
+ }
 });
