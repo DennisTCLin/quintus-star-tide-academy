@@ -1,3 +1,4 @@
+import { useConquestClock } from './useConquestClock';
 import { healthPose } from './character-motion';
 import CharacterPortrait from './CharacterPortrait';
 import ConquestRaid from './ConquestRaid';
@@ -35,7 +36,8 @@ export default function ConquestGame({ raidConnected=true, onReadReports, server
   const [team, setTeam] = useState<string[]>([]);
   const [notice, setNotice] = useState('');
   const [confirmAbandon, setConfirmAbandon] = useState(false);
-  const [now, setNow] = useState(serverNow), [busy, setBusy] = useState(false);
+  const { now, refresh: refreshNow } = useConquestClock(sessions[player], serverNow);
+  const [busy, setBusy] = useState(false);
   const agedState = useMemo(() => ensureSeason(sessions[player], now), [sessions[player], now]);
   const collectionRoster = useMemo(() => expeditionRoster(owned, agedState.enrollment, growthXp), [owned, agedState.enrollment, growthXp]);
   const state = useMemo(() => syncConquestRoster(agedState, collectionRoster), [agedState, collectionRoster]);
@@ -53,7 +55,7 @@ export default function ConquestGame({ raidConnected=true, onReadReports, server
   const alliance = allianceById(state.enrollment?.allianceId);
   useEffect(() => { setBattlePlan(null); setTeam(initialExpedition(roster.filter(c => !deploymentBlock(state, c)), equipped)); setSelected(destination?.tileId ?? '0,0'); setNotice(''); setConfirmAbandon(false); if(!destination?.reports)heading.current?.focus({ preventScroll: true }); }, [player, state.season, equipped]);
   useEffect(() => { setTeam(previous => { const next = previous.filter(id => roster.some(c => c.id === id && !deploymentBlock(state, c))); return next.length === previous.length ? previous : next; }); }, [roster]);
-  useEffect(() => { const timer = setInterval(() => setNow(serverNow()), 5000); return () => { clearInterval(timer); stopVoice(); }; }, []);
+  useEffect(() => () => stopVoice(), []);
   const tile = state.tiles.find(t => t.id === selected) ?? state.tiles.find(t => t.id === '0,0')!;
   const garrisonRoster = [...roster, ...tile.guards.filter(g => !roster.some(c => c.id === g.id)).map(g => ({ ...g, name: companionById(g.id)?.name ?? g.id, image: companionById(g.id)?.image ?? '', loan: false }))];
   const guards = team.map(id => roster.find(c => c.id === id)).filter((c): c is typeof roster[number] => !!c);
@@ -83,7 +85,7 @@ export default function ConquestGame({ raidConnected=true, onReadReports, server
     if (busy) return; setBusy(true);
     try {
       const result = await onAct({ ...action, season: state.season }, roster);
-      setNotice(result.log[0]); setConfirmAbandon(false); setNow(serverNow());
+      setNotice(result.log[0]); setConfirmAbandon(false); refreshNow();
     } catch (error) { setNotice(error instanceof Error ? error.message : '操作未完成，請再試一次。'); } finally { setBusy(false); }
   };
   const commitBattle = async (tier: DrillTier) => {
@@ -92,7 +94,7 @@ export default function ConquestGame({ raidConnected=true, onReadReports, server
     if (setup.block) throw Error(setup.block);
     if (battlePlan.mode === 'drill') return drillReport(setup, state, timestamp);
     const committed = await onAct({ type: 'claim', tileId: battlePlan.tileId, expectedCost: setup.fullCost, team: [...team], season: battlePlan.season, commander: hero.id }, roster);
-    setNotice(committed.log[0]); setNow(timestamp);
+    setNotice(committed.log[0]); refreshNow();
     return claimReport(setup, committed, committed.updatedAt);
   };
   const toggle = (id: string) => {
