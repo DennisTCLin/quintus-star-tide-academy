@@ -2399,3 +2399,44 @@
   transform: scale(1.8);
   transform-origin: 78% 30%;
 }
+
+/* One content frame for the entire homepage, including its shared shell. */
+.family-app.home-page { --home-content-width: min(1216px, calc(100% - 64px)); }
+.family-app.home-page > :is(.family-header, .cq-raid-notice, .harbor-departure, .cq-home-entry, .resource-ribbon, .family-nav, .family-main, .family-footer) {
+  width: var(--home-content-width);
+  max-width: none;
+  box-sizing: border-box;
+  margin-inline: auto;
+}
+.family-app.home-page > :is(.family-header, .family-footer) { padding-inline: 0; }
+.family-app.home-page > .family-nav {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  gap: 8px;
+  overflow: visible;
+}
+.family-app.home-page > .family-nav > button {
+  min-width: 0;
+  width: 100%;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px 4px;
+  font-size: 15px;
+}
+.family-app.home-page .family-nav .nav-icon {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+}
+@media (max-width: 1100px) {
+  .family-app.home-page > .family-nav { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+@media (max-width: 900px) {
+  .family-app.home-page { --home-content-width: calc(100% - 40px); }
+}
+@media (max-width: 600px) {
+  .family-app.home-page { --home-content-width: calc(100% - 28px); }
+  .family-app.home-page > .family-nav { gap: 6px; }
+  .family-app.home-page > .family-nav > button { padding: 10px 2px; gap: 6px; font-size: 13px; }
+  .family-app.home-page .family-nav .nav-icon { width: 36px; height: 36px; flex-basis: 36px; }
+}

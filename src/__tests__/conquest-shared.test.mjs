@@ -216,4 +216,89 @@ suite('shared conquest authoritative world',()=>{
   expect(persisted.units.tideglow).toMatchObject({level:2,hp:50,maxHp:100});
   await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=$1',[players[0].account,newFamily()]);baseline=await familyBytes();
  });
+ it.each(['win','loss'])('synchronizes a same-household doudou attack against offline quintus: %s',async outcome=>{
+  const sibling={member:randomUUID(),username:'sibling_'+randomUUID().slice(0,8)};
+  const hash=await passwordHash('0042',undefined,4),idx=clients.length;
+  await api.pool.query("INSERT INTO player_logins(id,account_id,username,password_hash,player_id,display_name) VALUES($1,$2,$3,$4,'doudou','Test sibling attacker')",[sibling.member,players[0].account,sibling.username,hash]);
+  try {
+   clients.push(await call('login',{username:sibling.username,password:'0042'},99));
+   const siblingRead=()=>call('conquest?player=doudou',undefined,idx);
+   const siblingBody=async(type,extra={})=>{const s=(await siblingRead()).data;return {player:'doudou',type,commandId:randomUUID(),revision:s.revision,season:s.state.season,...extra};};
+   expect((await call('conquest',await siblingBody('join',{alliance:'light',hero:'hero-elf'}),idx)).status).toBe(200);
+   const attacker=(await siblingRead()).data.me;
+   await api.pool.query("UPDATE conquest_players SET state=jsonb_set(state,'{energy}','500'::jsonb) WHERE id=$1",[attacker]);
+   expect((await action(0,'claim',{tileId:'0,0',team})).status).toBe(200);
+   const defender=(await read(0)).data.me;
+   if(outcome==='win') {
+    const u=(await read(0)).data.state.units;for(const g of Object.values(u))g.hp=1;
+    await setPlayer(0,{units:u,updatedAt:Date.now()+120000});
+    await tile('0,0',t=>{t.guards.forEach(g=>g.hp=1);t.battleUntil=0;t.shieldStartsAt=0;t.shieldUntil=0;});
+   } else {
+    const f=(await api.pool.query('SELECT family FROM game_states WHERE account_id=$1',[players[0].account])).rows[0].family;
+    f.profiles.quintus.owned.aetherdragon=1;f.profiles.quintus.firstAcquired.aetherdragon=taipeiDay();f.profiles.quintus.growth.xp.aetherdragon=xpForLevel(23);
+    await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=$1',[players[0].account,f]);
+    const unit={id:'aetherdragon',level:62,element:'water',hp:1300,maxHp:1300};
+    await setPlayer(0,{units:{aetherdragon:unit},updatedAt:Date.now()+120000});
+    await tile('0,0',t=>{t.guards=[unit];t.battleUntil=0;t.shieldStartsAt=0;t.shieldUntil=0;});
+   }
+   const savedFamily=await familyBytes();
+   const defenderBefore=(await api.pool.query('SELECT state FROM conquest_players WHERE id=$1',[defender])).rows[0].state;
+   await api.pool.query('DELETE FROM sessions WHERE member_id=$1',[players[0].member]);
+   const command=await siblingBody('claim',{tileId:'0,0',team});
+   const fight=await call('conquest',command,idx);expect(fight.status,JSON.stringify(fight.data)).toBe(200);
+   const battle=fight.data.result.state.lastBattle;expect(battle.won).toBe(outcome==='win');
+   expect(fight.data.state.energy).toBeCloseTo(500-battle.cost,6);
+   const ledger=(await api.pool.query('SELECT state FROM conquest_players WHERE id=$1',[defender])).rows[0].state;
+   for(const g of battle.defendersAfter)expect(ledger.units[g.id]).toEqual(g);
+   const report=ledger.raidReports.find(r=>r.kind==='pvp');
+   expect(report).toMatchObject({id:`pvp:${attacker}:${command.commandId}`,attackerId:attacker,attackerName:'Test sibling attacker',previousOwnerId:defender,nextOwnerId:outcome==='win'?attacker:defender,defended:outcome!=='win',territoryCountBefore:1,territoryCountAfter:outcome==='win'?0:1,defendersBefore:battle.initialDefenders,defendersAfter:battle.defendersAfter,attackersBefore:battle.initialAttackers,attackersAfter:battle.attackersAfter});
+   expect(ledger.raidReadIds??[]).not.toContain(report.id);expect(ledger.npcRaids).toEqual(defenderBefore.npcRaids);
+   expect(fight.data.state.raidReports??[]).not.toContainEqual(report);
+   expect(JSON.stringify(report)).not.toContain(sibling.username);expect(JSON.stringify(report)).not.toContain(players[0].account);
+   expect(ledger.energy).toBe(defenderBefore.energy);
+   expect(ledger.inventory).toEqual(defenderBefore.inventory);
+   expect(ledger.log[0]).toContain(outcome==='win'?'領地失守':'守軍成功防守');
+   expect(fight.data.state.log[0]).toContain(outcome==='win'?'佔領成功':'出征未成功');
+   for(const repeat of await Promise.all([call('conquest',command,idx),call('conquest',command,idx)])) {
+    expect(repeat.status).toBe(200);expect(repeat.data.replayed).toBe(true);expect(repeat.data.result).toEqual(fight.data.result);expect(repeat.data.state.energy).toBe(fight.data.state.energy);
+   }
+   clients[0]=await call('login',{username:players[0].username,password:'0042'},99);expect(clients[0].status,JSON.stringify(clients[0].data)).toBe(200);
+   clients[idx]=await call('login',{username:sibling.username,password:'0042'},99);expect(clients[idx].status,JSON.stringify(clients[idx].data)).toBe(200);
+   const defenderView=(await read(0)).data,attackerView=(await siblingRead()).data;
+   const owner=outcome==='win'?attacker:defender;
+   expect(defenderView.state.tiles.find(t=>t.id==='0,0').owner).toBe(owner);expect(attackerView.state.tiles.find(t=>t.id==='0,0').owner).toBe(owner);
+   expect(defenderView.state.tiles.map(t=>[t.id,t.owner])).toEqual(attackerView.state.tiles.map(t=>[t.id,t.owner]));
+   expect(defenderView.players.map(p=>[p.id,p.count])).toEqual(attackerView.players.map(p=>[p.id,p.count]));
+   expect(attackerView.state.energy).toBeCloseTo(500-battle.cost,6);expect(defenderView.state.energy).toBe(defenderBefore.energy);
+   for(const g of battle.attackersAfter){const live=attackerView.state.units[g.id];expect(live.level).toBe(g.level);expect(live.hp).toBeGreaterThanOrEqual(g.hp);expect(live.hp-g.hp).toBeLessThan(.2);}
+   expect(defenderView.state.raidReports.filter(r=>r.id===report.id)).toEqual([report]);
+   expect(attackerView.state.raidReports??[]).not.toContainEqual(report);
+   const beforeAck=(await api.pool.query('SELECT state FROM conquest_players WHERE id=$1',[defender])).rows[0].state;
+   const ack=await call('conquest/reports/read',{player:'quintus',reportIds:[report.id]});expect(ack.status).toBe(200);expect(ack.data.raidReadIds).toContain(report.id);
+   const afterAck=(await api.pool.query('SELECT state FROM conquest_players WHERE id=$1',[defender])).rows[0].state;
+   expect({...afterAck,raidReadIds:undefined}).toEqual({...beforeAck,raidReadIds:undefined});
+   clients[0]=await call('login',{username:players[0].username,password:'0042'},99);
+   expect((await read(0)).data.state.raidReadIds).toContain(report.id);
+   expect(await familyBytes()).toBe(savedFamily);
+  } finally {
+   clients.splice(idx,1);
+   await api.pool.query('DELETE FROM sessions WHERE member_id=$1',[sibling.member]);
+   await api.pool.query('DELETE FROM player_logins WHERE id=$1',[sibling.member]);
+  }
+ });
+
+ it('rolls back defender reports, both armies and ownership when receipt persistence fails',async()=>{
+  await action(0,'claim',{tileId:'0,0',team});
+  await tile('0,0',t=>{t.battleUntil=0;t.shieldUntil=0;t.shieldStartsAt=0;});
+  const command=await body(1,'claim',{tileId:'0,0',team});
+  const snapshot=async()=>({players:(await api.pool.query('SELECT * FROM conquest_players ORDER BY id')).rows,world:(await api.pool.query('SELECT * FROM conquest_worlds')).rows,receipts:(await api.pool.query('SELECT * FROM conquest_commands ORDER BY player_id,id')).rows});
+  const before=await snapshot(),family=await familyBytes();
+  await api.pool.query("CREATE FUNCTION pvp_report_fail() RETURNS trigger LANGUAGE plpgsql AS $$ BEGIN RAISE EXCEPTION 'injected PvP receipt failure'; END $$");
+  await api.pool.query('CREATE TRIGGER pvp_report_fail BEFORE INSERT ON conquest_commands FOR EACH ROW EXECUTE FUNCTION pvp_report_fail()');
+  try {expect((await call('conquest',command,1)).status).toBe(503);expect(await snapshot()).toEqual(before);expect(await familyBytes()).toBe(family);}
+  finally {await api.pool.query('DROP TRIGGER pvp_report_fail ON conquest_commands');await api.pool.query('DROP FUNCTION pvp_report_fail()');}
+  expect((await call('conquest',command,1)).status).toBe(200);
+  const defender=(await read(0)).data;expect(defender.state.raidReports.filter(r=>r.kind==='pvp')).toHaveLength(1);
+ });
+
 });

@@ -29,8 +29,6 @@
 .family-app .story-player-actions .story-play { background: #edc477; color: #102b38; border-color: #f7daa2; font-weight: 800; }
 .story-player-actions p { margin: 0; flex: 1; min-width: 160px; }
 .family-app .story-synopsis { max-width: 48em; line-height: 1.8; margin: 22px 0 0; color: #d1e1e8; }
-.family-nav .nav-icon--cinema { background: none; display: grid; place-items: center; }
-.nav-icon--cinema svg { width: 36px; height: 36px; fill: none; stroke: #edc477; stroke-width: 1.6; }
 @media (max-width: 700px) {
   .story-entry { padding: 18px; }
   .story-entry-films, .story-film-list { grid-template-columns: 1fr; }

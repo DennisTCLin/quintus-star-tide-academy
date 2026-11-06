@@ -10,7 +10,7 @@ import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js'
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 import { adjacent, type Tile } from './conquest';
 import ConquestTerritoryBadge from './ConquestTerritoryBadge';
-import { territoryStatus } from './conquest-presentation';
+import { territoryMarker, territoryStatus } from './conquest-presentation';
 import { buildArchipelago, buildLockedFrontier, loadIslandModels, makeOcean, makeFrontierMist, point, release, type IslandHeight } from './conquest-art';
 
 export type SceneControl = { home: () => void; rotate: (amount: number) => void; zoom: (factor: number) => void; overview: () => void; frontierInfo: () => void; focusTile: (id: string) => void };
@@ -35,7 +35,13 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ tiles, p
       const node = labels.current.get(tile.id), island = r.heights.get(tile.id); if (!node) continue;
       if (!island) { node.style.visibility = 'hidden'; continue; }
       const v = point(tile); v.y = island.top + .8; v.project(r.camera);
-      const w = node.offsetWidth, h = node.offsetHeight, x = (v.x + 1) / 2 * width - w / 2, y = (1 - v.y) / 2 * height - h;
+      const w = node.offsetWidth, h = node.offsetHeight;
+      let x = (v.x + 1) / 2 * width - w / 2, y = (1 - v.y) / 2 * height - h;
+      // Keep the selected owner's label readable on narrow screens and tall islands.
+      if (tile.id === selected && width >= w + 16 && height > h + 290) {
+        x = Math.max(8, Math.min(width - w - 8, x));
+        y = Math.max(81, Math.min(height - h - 206, y));
+      }
       const collision = placed.some(box => x < box.x + box.w + 8 && x + w + 8 > box.x && y < box.y + box.h + 8 && y + h + 8 > box.y);
       const visible = v.z > -1 && v.z < 1 && x >= 8 && x + w <= width - 8 && y > 80 && y + h < height - 205 && !collision;
       node.style.visibility = visible ? 'visible' : 'hidden';
@@ -139,11 +145,13 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ tiles, p
     const r = runtime.current; if (!r || !ready || r.heights.size !== tiles.length) return;
     release(r.overlays); r.overlays.clear();
     const ring = (tile: Tile, color: string, radius: number, thickness: number) => { const p = point(tile); const points = Array.from({ length: 7 }, (_, i) => new THREE.Vector3(p.x + Math.cos(i * Math.PI / 3 + Math.PI / 6) * radius * TERRITORY_SCALE, .1, p.z + Math.sin(i * Math.PI / 3 + Math.PI / 6) * radius * TERRITORY_SCALE)); r.overlays.add(glowLine(points, color, thickness)); };
-    for (const tile of tiles) if (tile.owner === player) {
-      ring(tile, '#ffbf4b', 1.77, .025);
+    for (const tile of tiles) {
+      const marker = territoryMarker(tile, player);
+      if (!marker) continue;
+      ring(tile, marker.color, 1.77, .025);
       const p = point(tile), h = r.heights.get(tile.id)!;
       const pole = new THREE.Mesh(new THREE.CylinderGeometry(.02, .025, 1.1, 8), new THREE.MeshStandardMaterial({ color: '#ba934c' })); pole.position.set(p.x + .75, h.top + .25, p.z + .45); r.overlays.add(pole);
-      const flag = new THREE.Mesh(new THREE.PlaneGeometry(.47, .25), new THREE.MeshStandardMaterial({ color: '#ffbe45', side: THREE.DoubleSide })); flag.position.set(p.x + .98, h.top + .64, p.z + .45); r.overlays.add(flag);
+      const flag = new THREE.Mesh(new THREE.PlaneGeometry(.47, .25), new THREE.MeshStandardMaterial({ color: marker.color, side: THREE.DoubleSide })); flag.position.set(p.x + .98, h.top + .64, p.z + .45); r.overlays.add(flag);
       if ((tile.shieldStartsAt ?? 0) <= now && tile.shieldUntil > now) {
         const shield = new THREE.Mesh(new THREE.SphereGeometry(1.65 * TERRITORY_SCALE, 28, 16, 0, Math.PI * 2, 0, Math.PI / 2), new THREE.ShaderMaterial({ transparent: true, depthWrite: false, side: THREE.DoubleSide, vertexShader: 'varying vec3 vN;varying vec3 vView;void main(){vec4 p=modelViewMatrix*vec4(position,1.);vView=-p.xyz;vN=normalMatrix*normal;gl_Position=projectionMatrix*p;}', fragmentShader: 'varying vec3 vN;varying vec3 vView;void main(){float f=pow(1.-abs(dot(normalize(vN),normalize(vView))),3.);gl_FragColor=vec4(.4,.91,1.,f*.25);}' })); shield.position.set(p.x, h.ground, p.z); shield.scale.y = Math.max(1, (h.top - h.ground + .45) / (1.65 * TERRITORY_SCALE)); r.overlays.add(shield);
       }
@@ -159,5 +167,5 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ tiles, p
     }
     r.render();
   }, [tiles, player, selected, combatTileId, playerName, now, ready, reduced]);
-  return <div className="cq-canvas" data-overview={overview} ref={host} data-ready={ready ? 'true' : 'false'} data-art="higgsfield-glb-v2"><div className="cq-map-labels" hidden={!ready || !!error} aria-label="海圖領地標記">{tiles.map(tile => <button type="button" key={tile.id} ref={node => { if (node) labels.current.set(tile.id, node); else labels.current.delete(tile.id); }} className="cq-map-label" data-status={territoryStatus(tile, player, combatTileId, now).kind} data-tile={tile.id} aria-label={`${tile.name}，${ELEMENT_LABEL[tile.element]}之島，${territoryStatus(tile, player, combatTileId, now).label}，${tile.owner === player ? `${playerName}的領地` : territoryStatus(tile, player).ownerLabel}`} aria-pressed={selected === tile.id} onClick={() => onPick.current(tile.id)}><strong>{tile.name}</strong><ConquestElementBadge element={tile.element} /><ConquestTerritoryBadge tile={tile} player={player} name={playerName} combatTileId={combatTileId} now={now} /></button>)}</div>{lockedIsland && <div className="cq-locked-notice" role="status"><span aria-hidden="true">🔒</span><div><strong>這片群島尚未開放</strong><p>{lockedIsland}・航線已連接，等待未來開啟。</p></div><button aria-label="關閉未開放提示" onClick={() => setLockedIsland(null)}>×</button></div>}{error ? <div className="cq-render-error" role="alert">{error}</div> : !ready && <div className="cq-model-loading" role="status"><span>✥</span><strong>正在展開立體海圖</strong><small>載入岩岸、主城與島嶼材質…</small></div>}</div>;
+  return <div className="cq-canvas" data-overview={overview} ref={host} data-ready={ready ? 'true' : 'false'} data-art="higgsfield-glb-v2"><div className="cq-map-labels" hidden={!ready || !!error} aria-label="海圖領地標記">{tiles.map(tile => <button type="button" key={tile.id} ref={node => { if (node) labels.current.set(tile.id, node); else labels.current.delete(tile.id); }} className="cq-map-label" data-status={territoryStatus(tile, player, combatTileId, now).kind} data-owner-kind={territoryMarker(tile, player)?.kind} data-tile={tile.id} aria-label={`${tile.name}，${ELEMENT_LABEL[tile.element]}之島，${territoryStatus(tile, player, combatTileId, now).label}，${tile.owner === player ? `${playerName}的領地` : territoryStatus(tile, player).ownerLabel}`} aria-pressed={selected === tile.id} onClick={() => onPick.current(tile.id)}><strong>{tile.name}</strong><ConquestElementBadge element={tile.element} /><ConquestTerritoryBadge tile={tile} player={player} name={playerName} combatTileId={combatTileId} now={now} /></button>)}</div>{lockedIsland && <div className="cq-locked-notice" role="status"><span aria-hidden="true">🔒</span><div><strong>這片群島尚未開放</strong><p>{lockedIsland}・航線已連接，等待未來開啟。</p></div><button aria-label="關閉未開放提示" onClick={() => setLockedIsland(null)}>×</button></div>}{error ? <div className="cq-render-error" role="alert">{error}</div> : !ready && <div className="cq-model-loading" role="status"><span>✥</span><strong>正在展開立體海圖</strong><small>載入岩岸、主城與島嶼材質…</small></div>}</div>;
 });
