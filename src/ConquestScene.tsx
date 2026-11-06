@@ -1,5 +1,5 @@
 import { islandCoordinates } from './conquest-names';
-import { buildNpcOccupation } from './conquest-npc-smoke';
+import { buildNpcOccupation, loadNpcSmokeAtlas } from './conquest-npc-smoke';
 import { ELEMENT_LABEL } from './conquest';
 import ConquestElementBadge from './ConquestElementBadge';
 import { HEX_STEP_X, ISLAND_WIDTH, TERRITORY_SCALE } from './conquest-scale';
@@ -39,9 +39,10 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ guidance
     for (const tile of [...tiles].sort((a, b) => priority(a) - priority(b))) {
       const node = labels.current.get(tile.id), island = r.heights.get(tile.id); if (!node) continue;
       if (!island) { node.style.visibility = 'hidden'; continue; }
-      const v = point(tile); v.y = island.top + .8; v.project(r.camera);
+      const v = point(tile); v.y = island.top + (territoryMarker(tile, player)?.kind === 'npc' ? 2.8 : .8); v.project(r.camera);
       const w = node.offsetWidth, h = node.offsetHeight;
       let x = (v.x + 1) / 2 * width - w / 2, y = (1 - v.y) / 2 * height - h;
+      if (territoryMarker(tile, player)?.kind === 'npc') x -= w * 1.45;
       // Keep the selected owner's label readable on narrow screens and tall islands.
       if (tile.id === selected && width >= w + 16 && height > h + 290) {
         x = Math.max(8, Math.min(width - w - 8, x));
@@ -57,6 +58,17 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ guidance
   const onPick = useRef(onSelect); onPick.current = onSelect;
   const [overview, setOverview] = useState(false);
   const [error, setError] = useState(''), [ready, setReady] = useState(false);
+  const [smokeAtlas, setSmokeAtlas] = useState<THREE.Texture | null>(null);
+  const [smokeLoadError, setSmokeLoadError] = useState(false), [smokeAttempt, setSmokeAttempt] = useState(0);
+  useEffect(() => {
+    let disposed = false, texture: THREE.Texture | null = null;
+    setSmokeLoadError(false); setSmokeAtlas(null);
+    loadNpcSmokeAtlas().then(loaded => {
+      if (disposed) { loaded.dispose(); return; }
+      texture = loaded; setSmokeAtlas(loaded);
+    }).catch(() => { if (!disposed) setSmokeLoadError(true); });
+    return () => { disposed = true; texture?.dispose(); };
+  }, [smokeAttempt]);
   const [lockedIsland, setLockedIsland] = useState<string | null>(null);
   const layoutKey = tiles.map(t => `${t.id}:${t.element}:${t.terrain}:${t.facility}:${t.shrineElement}`).join('|');
   useImperativeHandle(ref, () => ({
@@ -194,14 +206,14 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ guidance
   useEffect(() => {
     const r = runtime.current; if (!r || !ready || r.heights.size !== tiles.length) return;
     release(r.smoke); r.smoke.clear();
-    const smoke = buildNpcOccupation(tiles, r.heights, r.clock);
+    const smoke = buildNpcOccupation(tiles, r.heights, r.clock, smokeAtlas);
     if (smoke) r.smoke.add(smoke);
-    host.current?.setAttribute('data-npc-smoke-islands', String(smoke?.userData.islandIds.length ?? 0));
+    host.current?.setAttribute('data-npc-smoke-islands', String(smokeAtlas ? smoke?.userData.islandIds.length ?? 0 : 0));
     r.render();
     // Ownership signature intentionally excludes changing HP and UI timestamps.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [smokeKey, layoutKey, ready, reduced]);
-  return <div className="cq-canvas" data-overview={overview} ref={host} data-ready={ready ? 'true' : 'false'} data-art="higgsfield-glb-v2"><div className="cq-map-labels" hidden={!ready || !!error} aria-label="海圖領地標記">{tiles.map(tile => {
+  }, [smokeKey, layoutKey, ready, reduced, smokeAtlas]);
+  return <div className="cq-canvas" data-overview={overview} data-npc-smoke-ready={!!smokeAtlas} ref={host} data-ready={ready ? 'true' : 'false'} data-art="higgsfield-glb-v2"><div className="cq-map-labels" hidden={!ready || !!error} aria-label="海圖領地標記">{tiles.map(tile => {
     const status = territoryStatus(tile, player, combatTileId, now);
     const protection = islandProtection(tile, now, combatTileId);
     const owner = tile.owner === player ? `${playerName}的領地` : status.ownerLabel;
@@ -210,7 +222,7 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ guidance
       <span className="cq-map-label-heading"><strong>{tile.name}<small className="cq-map-coordinates">{islandCoordinates(tile)}</small></strong><ConquestElementBadge element={tile.element} /></span>
       <ConquestTerritoryBadge tile={tile} player={player} name={playerName} combatTileId={combatTileId} now={now} />
       {!guidance[tile.id]?.own && <span className="cq-map-eligibility">{guidance[tile.id]?.ready ? '⚔ ' : ''}{guidance[tile.id]?.label}</span>}
-      {territoryMarker(tile, player)?.kind === 'npc' ? <span className="cq-npc-label">✦ 航路遭封鎖 · {protection?.kind === 'war' ? '交戰中' : '等待奪回'}</span> : protection && <ConquestIslandProtection status={protection} />}
+      {territoryMarker(tile, player)?.kind === 'npc' ? <span className="cq-npc-label">✦ 黯潮軍團 · {protection?.kind === 'war' ? '交戰中' : '等待奪回'}</span> : protection && <ConquestIslandProtection status={protection} />}
     </button>;
-  })}</div>{lockedIsland && <div className="cq-locked-notice" role="status"><span aria-hidden="true">🔒</span><div><strong>這片群島尚未開放</strong><p>{lockedIsland}・航線已連接，等待未來開啟。</p></div><button aria-label="關閉未開放提示" onClick={() => setLockedIsland(null)}>×</button></div>}{error ? <div className="cq-render-error" role="alert">{error}</div> : !ready && <div className="cq-model-loading" role="status"><span>✥</span><strong>正在展開立體海圖</strong><small>載入岩岸、主城與島嶼材質…</small></div>}</div>;
+  })}</div>{smokeLoadError && smokeKey && <div className="cq-smoke-load-note" role="status">黑霧尚未載入<button onClick={() => setSmokeAttempt(attempt => attempt + 1)}>重試特效</button></div>}{lockedIsland && <div className="cq-locked-notice" role="status"><span aria-hidden="true">🔒</span><div><strong>這片群島尚未開放</strong><p>{lockedIsland}・航線已連接，等待未來開啟。</p></div><button aria-label="關閉未開放提示" onClick={() => setLockedIsland(null)}>×</button></div>}{error ? <div className="cq-render-error" role="alert">{error}</div> : !ready && <div className="cq-model-loading" role="status"><span>✥</span><strong>正在展開立體海圖</strong><small>載入岩岸、主城與島嶼材質…</small></div>}</div>;
 });
