@@ -1,0 +1,54 @@
+{
+  "base": "386bd57046ba8e12828afbeb6b0310774af680e0",
+  "oldPR23": "8a9da0287492bd4a985f698a76f5dcbb891765c9",
+  "main": "8465de69f91ff51d6f8c677a634fb68f7dbfb45a",
+  "status": "STRUCTURED_THREE_WAY_NOT_RUNTIME_APPROVAL",
+  "files": {
+    "src/data/interface-zhuyin.json": {
+      "phrases": {
+        "baseCount": 26693,
+        "oldPR23Count": 27242,
+        "mainCount": 26843,
+        "mergedCount": 27392,
+        "deltaFromMain": 549
+      },
+      "chars": {
+        "baseCount": 3028,
+        "oldPR23Count": 3034,
+        "mainCount": 3029,
+        "mergedCount": 3035,
+        "deltaFromMain": 6
+      }
+    },
+    "src/data/taiwan-zhuyin-overrides.json": {
+      "source": {
+        "baseCount": 4,
+        "oldPR23Count": 4,
+        "mainCount": 4,
+        "mergedCount": 4,
+        "deltaFromMain": 0
+      },
+      "characterReadings": {
+        "baseCount": 26,
+        "oldPR23Count": 26,
+        "mainCount": 26,
+        "mergedCount": 26,
+        "deltaFromMain": 0
+      },
+      "phrases": {
+        "baseCount": 437,
+        "oldPR23Count": 441,
+        "mainCount": 440,
+        "mergedCount": 444,
+        "deltaFromMain": 4
+      },
+      "displayPolicy": {
+        "baseCount": 2,
+        "oldPR23Count": 2,
+        "mainCount": 2,
+        "mergedCount": 2,
+        "deltaFromMain": 0
+      }
+    }
+  }
+}

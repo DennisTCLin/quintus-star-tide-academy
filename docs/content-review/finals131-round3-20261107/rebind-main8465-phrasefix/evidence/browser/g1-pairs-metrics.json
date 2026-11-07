@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g1-pairs",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "「小狗會看家。」的「看」，正確注音是哪個？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g1-pairs",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "「為什麼球會掉在路上？」的「什」，正確注音是哪個？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g1-pairs",
+    "firstQuestion": "phase3-lang-20003305-2",
+    "answerButton": "選擇 ㄎㄢ",
+    "total": 6,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

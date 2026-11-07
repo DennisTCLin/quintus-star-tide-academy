@@ -1,0 +1,66 @@
+[
+  {
+    "lane": "g1-tones",
+    "firstQuestion": "phase3-lang-20003305-3",
+    "answerButton": "選擇 四聲",
+    "total": 6,
+    "advanceInteraction": "waited for Q2; no next-button click",
+    "reloadQ2": true
+  },
+  {
+    "lane": "g1-pairs",
+    "firstQuestion": "phase3-lang-20003305-2",
+    "answerButton": "選擇 ㄎㄢ",
+    "total": 6,
+    "advanceInteraction": "waited for Q2; no next-button click",
+    "reloadQ2": true
+  },
+  {
+    "lane": "g2-words",
+    "firstQuestion": "phase3-lang-20003915-25",
+    "answerButton": "選擇 牽",
+    "total": 6,
+    "advanceInteraction": "waited for Q2; no next-button click",
+    "reloadQ2": true
+  },
+  {
+    "lane": "g2-pairs",
+    "firstQuestion": "phase3-lang-20003915-21",
+    "answerButton": "選擇 ㄌㄧㄠˊ",
+    "total": 4,
+    "advanceInteraction": "waited for Q2; no next-button click",
+    "reloadQ2": true
+  },
+  {
+    "lane": "g5-math",
+    "firstQuestion": "phase3-g5-math-1",
+    "answerButton": "選擇 5",
+    "total": 6,
+    "advanceInteraction": "waited for Q2; no next-button click",
+    "reloadQ2": true
+  },
+  {
+    "lane": "g5-social",
+    "firstQuestion": "phase3-g5-social-1",
+    "answerButton": "選擇 正確",
+    "total": 6,
+    "advanceInteraction": "waited for Q2; no next-button click",
+    "reloadQ2": true
+  },
+  {
+    "lane": "g6-science",
+    "firstQuestion": "phase3-h6-114-i2",
+    "answerButton": "選擇 風化的岩石碎屑與腐植質",
+    "total": 6,
+    "advanceInteraction": "waited for Q2; no next-button click",
+    "reloadQ2": true
+  },
+  {
+    "lane": "g6-math",
+    "firstQuestion": "phase3-dd6m-20003226-i1",
+    "answerButton": "選擇 錯誤",
+    "total": 6,
+    "advanceInteraction": "waited for Q2; no next-button click",
+    "reloadQ2": true
+  }
+]

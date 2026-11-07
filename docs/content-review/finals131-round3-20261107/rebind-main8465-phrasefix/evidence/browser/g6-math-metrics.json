@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g6-math",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "圓周率等於圓周長除以直徑，而且這個除法可以剛好除盡，得到有限小數。這個敘述正確嗎？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g6-math",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "一個圓心角大於0°且小於360°的扇形，其周長等於它的弧長加上原圓的直徑。這個敘述正確嗎？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g6-math",
+    "firstQuestion": "phase3-dd6m-20003226-i1",
+    "answerButton": "選擇 錯誤",
+    "total": 6,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

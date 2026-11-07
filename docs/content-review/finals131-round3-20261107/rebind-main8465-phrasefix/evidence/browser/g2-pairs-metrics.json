@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g2-pairs",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "「邊吃邊聊天」的「聊」，正確注音是哪個？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g2-pairs",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "「享受歡快的團圓時光」的「圓」，正確注音是哪個？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g2-pairs",
+    "firstQuestion": "phase3-lang-20003915-21",
+    "answerButton": "選擇 ㄌㄧㄠˊ",
+    "total": 4,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

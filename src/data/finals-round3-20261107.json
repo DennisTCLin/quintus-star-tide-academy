@@ -1,0 +1,2895 @@
+[
+  {
+    "id": "phase3-lang-20003305-2",
+    "grade": 1,
+    "course": "pairs",
+    "publisher": "康軒",
+    "prompt": "「小狗會看家。」的「看」，正確注音是哪個？",
+    "options": [
+      "ㄎㄤ",
+      "ㄎㄢ"
+    ],
+    "answer": 1,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「看家」表示看守門戶，讀ㄎㄢ ㄐㄧㄚ，「看」是第一聲。",
+    "sourceFamily": "phase3-lang-20003305-ii2-kan",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003305",
+        "page": 1,
+        "locator": "ii2-kan",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003305-3",
+    "grade": 1,
+    "course": "tones",
+    "publisher": "康軒",
+    "prompt": "「教室書櫃的右邊掛了一幅畫。」的「右」是第幾聲？",
+    "options": [
+      "ˇ",
+      "ˋ"
+    ],
+    "answer": 1,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「右邊」的「右」是第四聲。",
+    "sourceFamily": "phase3-lang-20003305-ii3",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003305",
+        "page": 1,
+        "locator": "ii3-you",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出標示字的聲調。"
+  },
+  {
+    "id": "phase3-lang-20003305-4",
+    "grade": 1,
+    "course": "tones",
+    "publisher": "康軒",
+    "prompt": "「一幅畫」的「一」，在這裡連讀時是哪個聲調？",
+    "options": [
+      "ˋ",
+      "ˊ"
+    ],
+    "answer": 0,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「一」在第二聲字前連讀變第四聲；「一幅」連讀為ㄧˋ ㄈㄨˊ。",
+    "sourceFamily": "phase3-lang-20003305-ii3",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003305",
+        "page": 1,
+        "locator": "ii3-yi",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出標示字的聲調。"
+  },
+  {
+    "id": "phase3-lang-20003305-5",
+    "grade": 1,
+    "course": "pairs",
+    "publisher": "康軒",
+    "prompt": "「為什麼球會掉在路上？」的「什」，正確注音是哪個？",
+    "options": [
+      "ㄕˊ",
+      "ㄕㄣˊ"
+    ],
+    "answer": 1,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「什麼」的「什」讀ㄕㄣˊ。",
+    "sourceFamily": "phase3-shenme-context",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003305",
+        "page": 1,
+        "locator": "ii4-shen",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003305-6",
+    "grade": 1,
+    "course": "pairs",
+    "publisher": "康軒",
+    "prompt": "「為什麼球會掉在路上？」的「麼」，正確注音是哪個？",
+    "options": [
+      "˙ㄇㄜ",
+      "˙ㄇㄛ"
+    ],
+    "answer": 0,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「什麼」的「麼」讀輕聲˙ㄇㄜ。",
+    "sourceFamily": "phase3-shenme-context",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003305",
+        "page": 1,
+        "locator": "ii4-me",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003305-7",
+    "grade": 1,
+    "course": "pairs",
+    "publisher": "康軒",
+    "prompt": "「為什麼球會掉在路上？」的「上」，正確注音是哪個？",
+    "options": [
+      "ㄙㄤˋ",
+      "ㄕㄤˋ"
+    ],
+    "answer": 1,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「路上」的「上」讀ㄕㄤˋ。",
+    "sourceFamily": "phase3-shenme-context",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003305",
+        "page": 1,
+        "locator": "ii4-shang",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003305-8",
+    "grade": 1,
+    "course": "pairs",
+    "publisher": "康軒",
+    "prompt": "「長頸鹿長得真可愛！」中，「長頸鹿」的「長」讀哪個音？",
+    "options": [
+      "ㄓㄤˇ",
+      "ㄔㄤˊ"
+    ],
+    "answer": 1,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「長頸鹿」的「長」形容長度，讀ㄔㄤˊ。",
+    "sourceFamily": "phase3-chang-zhang",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003305",
+        "page": 1,
+        "locator": "ii5-chang",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003305-9",
+    "grade": 1,
+    "course": "pairs",
+    "publisher": "康軒",
+    "prompt": "「長頸鹿長得真可愛！」中，「長得」的「長」讀哪個音？",
+    "options": [
+      "ㄓㄤˇ",
+      "ㄔㄤˊ"
+    ],
+    "answer": 0,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「長得真可愛」的「長」表示生長，讀ㄓㄤˇ。",
+    "sourceFamily": "phase3-chang-zhang",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003305",
+        "page": 1,
+        "locator": "ii5-zhang",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003305-10",
+    "grade": 1,
+    "course": "pairs",
+    "publisher": "康軒",
+    "prompt": "「有很多人來找我玩。」的「人」，正確注音是哪個？",
+    "options": [
+      "ㄖㄣˊ",
+      "ㄌㄣˊ"
+    ],
+    "answer": 0,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「人」讀ㄖㄣˊ。",
+    "sourceFamily": "phase3-lang-20003305-i",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003305",
+        "page": 1,
+        "locator": "i-ren",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003305-11",
+    "grade": 1,
+    "course": "tones",
+    "publisher": "康軒",
+    "prompt": "「不推擠」的「不」，在這裡連讀時是哪個聲調？",
+    "options": [
+      "ˊ",
+      "ˋ"
+    ],
+    "answer": 1,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「不」在第一聲的「推」前面，讀第四聲ㄅㄨˋ。",
+    "sourceFamily": "phase3-lang-20003305-i",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003305",
+        "page": 1,
+        "locator": "i-bu",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出標示字的聲調。"
+  },
+  {
+    "id": "phase3-lang-20003913-12",
+    "grade": 1,
+    "course": "pairs",
+    "publisher": "康軒",
+    "prompt": "「朋友手拉手」的「朋」，正確注音是哪個？",
+    "options": [
+      "ㄆㄣˊ",
+      "ㄆㄥˊ"
+    ],
+    "answer": 1,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「朋友」的「朋」讀ㄆㄥˊ。",
+    "sourceFamily": "phase3-lang-20003913-i1",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003913",
+        "page": 1,
+        "locator": "i1-peng",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003913-13",
+    "grade": 1,
+    "course": "pairs",
+    "publisher": "康軒",
+    "prompt": "「一起走去操場玩遊戲」的「走」，正確注音是哪個？",
+    "options": [
+      "ㄗㄡˇ",
+      "ㄓㄡˇ"
+    ],
+    "answer": 0,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「走」讀ㄗㄡˇ。",
+    "sourceFamily": "phase3-lang-20003913-i1",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003913",
+        "page": 1,
+        "locator": "i1-zou",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003913-16",
+    "grade": 1,
+    "course": "tones",
+    "publisher": "康軒",
+    "prompt": "「紅玫瑰」的「紅」是第幾聲？",
+    "options": [
+      "ˊ",
+      "ˋ"
+    ],
+    "answer": 0,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「紅」讀第二聲ㄏㄨㄥˊ。",
+    "sourceFamily": "phase3-lang-20003913-i3-hong",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003913",
+        "page": 1,
+        "locator": "i3-hong",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出標示字的聲調。"
+  },
+  {
+    "id": "phase3-lang-20003913-17",
+    "grade": 1,
+    "course": "tones",
+    "publisher": "康軒",
+    "prompt": "「分別是春夏秋冬」的「分」是第幾聲？",
+    "options": [
+      "ˋ",
+      "―"
+    ],
+    "answer": 1,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「分別」的「分」讀第一聲ㄈㄣ。",
+    "sourceFamily": "phase3-lang-20003913-i4-fen",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003913",
+        "page": 1,
+        "locator": "i4-fen",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出標示字的聲調。"
+  },
+  {
+    "id": "phase3-lang-20003913-20",
+    "grade": 1,
+    "course": "tones",
+    "publisher": "康軒",
+    "prompt": "「奶奶和子女住在台北。」的「子」，字典中的本調是哪個聲調？",
+    "options": [
+      "˙",
+      "ˇ"
+    ],
+    "answer": 1,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「子女」的「子」本調為第三聲ㄗˇ；這題不問連讀時的三聲變調。",
+    "sourceFamily": "phase3-lang-20003913-iv6-zi",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003913",
+        "page": 1,
+        "locator": "iv6-zi",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出標示字的聲調。"
+  },
+  {
+    "id": "phase3-lang-20003915-21",
+    "grade": 2,
+    "course": "pairs",
+    "publisher": "康軒",
+    "prompt": "「邊吃邊聊天」的「聊」，正確注音是哪個？",
+    "options": [
+      "ㄌㄧㄠˊ",
+      "ㄋㄧㄠˊ"
+    ],
+    "answer": 0,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「聊天」的「聊」讀ㄌㄧㄠˊ。",
+    "sourceFamily": "phase3-lang-20003915-i1",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 1,
+        "locator": "i1-liao",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003915-22",
+    "grade": 2,
+    "course": "pairs",
+    "publisher": "康軒",
+    "prompt": "「享受歡快的團圓時光」的「圓」，正確注音是哪個？",
+    "options": [
+      "ㄩㄣˊ",
+      "ㄩㄢˊ"
+    ],
+    "answer": 1,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「團圓」的「圓」讀ㄩㄢˊ。",
+    "sourceFamily": "phase3-lang-20003915-i1",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 1,
+        "locator": "i1-yuan",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003915-23",
+    "grade": 2,
+    "course": "pairs",
+    "publisher": "康軒",
+    "prompt": "「買到喜歡的衣服，款式大方。」的「式」，正確注音是哪個？",
+    "options": [
+      "ㄕˋ",
+      "ㄙˋ"
+    ],
+    "answer": 0,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「款式」的「式」讀ㄕˋ。",
+    "sourceFamily": "phase3-lang-20003915-i3-shi",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 1,
+        "locator": "i3-shi",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003915-24",
+    "grade": 2,
+    "course": "pairs",
+    "publisher": "康軒",
+    "prompt": "「老師請我們戴上口罩。」的「戴」，正確注音是哪個？",
+    "options": [
+      "ㄊㄞˋ",
+      "ㄉㄞˋ"
+    ],
+    "answer": 1,
+    "hint": "依完整詞語的意思或字音判斷。",
+    "explanation": "「戴上」的「戴」讀ㄉㄞˋ。",
+    "sourceFamily": "phase3-lang-20003915-i6-dai",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 1,
+        "locator": "i6-dai",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003915-25",
+    "grade": 2,
+    "course": "words",
+    "publisher": "康軒",
+    "prompt": "「俗語說：『牛簽到北京，還是牛。』」句中的「簽」應改成哪個字？",
+    "options": [
+      "簽",
+      "牽"
+    ],
+    "answer": 1,
+    "hint": "仔細比較字義、字形或字典部首。",
+    "explanation": "拉著牛行走用「牽」。",
+    "sourceFamily": "phase3-lang-20003915-ii1",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 1,
+        "locator": "ii1",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003915-26",
+    "grade": 2,
+    "course": "words",
+    "publisher": "康軒",
+    "prompt": "「樹上的小鳥非走了。」句中的「非」應改成哪個字？",
+    "options": [
+      "非",
+      "飛"
+    ],
+    "answer": 1,
+    "hint": "仔細比較字義、字形或字典部首。",
+    "explanation": "小鳥「飛走」，應用「飛」。",
+    "sourceFamily": "phase3-lang-20003915-ii2",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 1,
+        "locator": "ii2",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003915-27",
+    "grade": 2,
+    "course": "words",
+    "publisher": "康軒",
+    "prompt": "「全家一起到百霍公司採購。」句中的「霍」應改成哪個字？",
+    "options": [
+      "霍",
+      "貨"
+    ],
+    "answer": 1,
+    "hint": "仔細比較字義、字形或字典部首。",
+    "explanation": "正確詞語是「百貨公司」。",
+    "sourceFamily": "phase3-lang-20003915-ii3",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 1,
+        "locator": "ii3",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003915-28",
+    "grade": 2,
+    "course": "words",
+    "publisher": "康軒",
+    "prompt": "「沖電器可以隨時補足電量。」句中的「沖」應改成哪個字？",
+    "options": [
+      "沖",
+      "充"
+    ],
+    "answer": 1,
+    "hint": "仔細比較字義、字形或字典部首。",
+    "explanation": "正確詞語是「充電器」。",
+    "sourceFamily": "phase3-lang-20003915-ii4",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 1,
+        "locator": "ii4",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003915-29",
+    "grade": 2,
+    "course": "words",
+    "publisher": "康軒",
+    "prompt": "「弟弟在運動會跑步比賽的表現很磅，取得第一名。」句中的「磅」應改成哪個字？",
+    "options": [
+      "磅",
+      "棒"
+    ],
+    "answer": 1,
+    "hint": "仔細比較字義、字形或字典部首。",
+    "explanation": "稱讚表現出色用「棒」。",
+    "sourceFamily": "phase3-lang-20003915-ii5",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 1,
+        "locator": "ii5",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003915-31",
+    "grade": 2,
+    "course": "words",
+    "publisher": "康軒",
+    "prompt": "「直」的部首是哪個？",
+    "options": [
+      "十",
+      "八",
+      "目"
+    ],
+    "answer": 2,
+    "hint": "仔細比較字義、字形或字典部首。",
+    "explanation": "字典中「直」屬目部。",
+    "sourceFamily": "phase3-lang-20003915-iii2",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 2,
+        "locator": "iii2",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003915-32",
+    "grade": 2,
+    "course": "words",
+    "publisher": "康軒",
+    "prompt": "「幾」的部首是哪個？",
+    "options": [
+      "幺",
+      "戈",
+      "八"
+    ],
+    "answer": 0,
+    "hint": "仔細比較字義、字形或字典部首。",
+    "explanation": "字典中「幾」屬幺部。",
+    "sourceFamily": "phase3-lang-20003915-iii3",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 2,
+        "locator": "iii3",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003915-33",
+    "grade": 2,
+    "course": "words",
+    "publisher": "康軒",
+    "prompt": "「具」的部首是哪個？",
+    "options": [
+      "目",
+      "八",
+      "日"
+    ],
+    "answer": 1,
+    "hint": "仔細比較字義、字形或字典部首。",
+    "explanation": "字典中「具」屬八部。",
+    "sourceFamily": "phase3-lang-20003915-iii4",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 2,
+        "locator": "iii4",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003915-34",
+    "grade": 2,
+    "course": "words",
+    "publisher": "康軒",
+    "prompt": "「皮」的部首是哪個？",
+    "options": [
+      "又",
+      "皮",
+      "手"
+    ],
+    "answer": 1,
+    "hint": "仔細比較字義、字形或字典部首。",
+    "explanation": "字典中「皮」屬皮部。",
+    "sourceFamily": "phase3-lang-20003915-iii5",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 2,
+        "locator": "iii5",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-lang-20003915-35",
+    "grade": 2,
+    "course": "words",
+    "publisher": "康軒",
+    "prompt": "「奶奶自製〔ㄨ〕梅汁，清涼止渴。」括號中的注音應寫成哪個字？",
+    "options": [
+      "鳥",
+      "烏"
+    ],
+    "answer": 1,
+    "hint": "仔細比較字義、字形或字典部首。",
+    "explanation": "「烏梅」的「烏」讀ㄨ，不能寫成「鳥」。",
+    "sourceFamily": "phase3-lang-20003915-i7-wu",
+    "subject": "chinese",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003915",
+        "page": 1,
+        "locator": "i7-wu",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase3-g5-math-1",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "564×49＋49×□＝569×49，□應填入哪個數？",
+    "options": [
+      "5",
+      "49",
+      "564",
+      "569"
+    ],
+    "answer": 0,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "左邊是(564＋□)×49，因此564＋□＝569，□＝5。",
+    "sourceFamily": "phase3-20003319-I1",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 1,
+        "locator": "I1",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-2",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "一個角錐有8個頂點，它有幾條邊？",
+    "options": [
+      "24條",
+      "21條",
+      "16條",
+      "14條"
+    ],
+    "answer": 3,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "底面有7個頂點，底面7條邊，加上連接錐頂的7條邊，共14條。",
+    "sourceFamily": "phase3-20003319-I3",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 1,
+        "locator": "I3",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-3",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "計算異分母分數的加法時，應先做什麼，再相加？",
+    "options": [
+      "把兩個分數的分母相加",
+      "把兩個分數的分子相減",
+      "把兩個分數通分",
+      "找兩個分子的公因數"
+    ],
+    "answer": 2,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "通分後兩個分數具有相同分母，才能把分子相加。",
+    "sourceFamily": "phase3-20003319-I5",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 1,
+        "locator": "I5",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-4",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "2/3－5/12＝(2×□－5)/12，□應填多少？",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "8"
+    ],
+    "answer": 1,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "分母3乘4變12，分子也乘4，因此□＝4。",
+    "sourceFamily": "phase3-20003319-I6",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 1,
+        "locator": "I6",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-5",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "100＋(120－5×4)÷2＝？",
+    "options": [
+      "250",
+      "150",
+      "105",
+      "60"
+    ],
+    "answer": 1,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "5×4＝20，120－20＝100；100÷2＝50，最後100＋50＝150。",
+    "sourceFamily": "phase3-20003319-I7",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 1,
+        "locator": "I7",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-6",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "甲三角形的底和高，分別都是乙三角形底和高的3倍。甲的面積是乙的幾倍？",
+    "options": [
+      "1倍",
+      "3倍",
+      "6倍",
+      "9倍"
+    ],
+    "answer": 3,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "面積＝底×高÷2；底乘3、高乘3，面積為3×3＝9倍。",
+    "sourceFamily": "phase3-20003319-I8",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 1,
+        "locator": "I8",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-7",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "下列哪種形體有18條邊、12個頂點及8個面？",
+    "options": [
+      "六角柱",
+      "六角錐",
+      "八角柱",
+      "八角錐"
+    ],
+    "answer": 0,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "六角柱有18條邊、12個頂點、6個側面和2個底面。",
+    "sourceFamily": "phase3-20003319-I9",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 1,
+        "locator": "I9",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-8",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "算式「(45×69)×25＝45×25＋69×25」是否正確？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 1,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "左邊77625，右邊2850；不能把括號內的乘法當作加法使用分配律。",
+    "sourceFamily": "phase3-20003319-ii1",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 1,
+        "locator": "II1a",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-9",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "算式「25×(45－18)＝25×45－25×18」是否正確？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "乘法對減法可使用分配律，兩邊均為675。",
+    "sourceFamily": "phase3-20003319-ii1",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 1,
+        "locator": "II1b",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-10",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "算式「2×40÷8÷5＝2×40÷(8×5)」是否正確？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "左邊80÷8÷5＝2，右邊80÷40＝2。",
+    "sourceFamily": "phase3-20003319-ii1",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 1,
+        "locator": "II1c",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-11",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "十角柱和十角錐的邊數相差幾條？",
+    "options": [
+      "5條",
+      "10條",
+      "20條",
+      "30條"
+    ],
+    "answer": 1,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "十角柱有30條邊，十角錐有20條邊，相差10條。",
+    "sourceFamily": "phase3-20003319-II6",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 2,
+        "locator": "II6",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-12",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "3又13/16＋2又5/12＝？",
+    "options": [
+      "5又11/48",
+      "6又1/4",
+      "6又11/48",
+      "6又13/48"
+    ],
+    "answer": 2,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "13/16＋5/12＝39/48＋20/48＝1又11/48，加整數部分5得6又11/48。",
+    "sourceFamily": "phase3-20003319-III1",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 2,
+        "locator": "III1",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-13",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "2又11/15＋1又6/20＝？",
+    "options": [
+      "3又1/30",
+      "4又1/30",
+      "4又1/6",
+      "3又29/30"
+    ],
+    "answer": 1,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "11/15＋3/10＝22/30＋9/30＝1又1/30，加整數部分3得4又1/30。",
+    "sourceFamily": "phase3-20003319-III2",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 2,
+        "locator": "III2",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-14",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "2又7/8－3/6＝？",
+    "options": [
+      "1又3/8",
+      "2又1/4",
+      "2又3/8",
+      "2又5/8"
+    ],
+    "answer": 2,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "3/6＝1/2＝4/8，所以2又7/8－4/8＝2又3/8。",
+    "sourceFamily": "phase3-20003319-III3",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 2,
+        "locator": "III3",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-15",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "5又1/4－2又5/18＝？",
+    "options": [
+      "2又35/36",
+      "3又1/36",
+      "3又35/36",
+      "2又1/36"
+    ],
+    "answer": 0,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "5又9/36－2又10/36＝4又45/36－2又10/36＝2又35/36。",
+    "sourceFamily": "phase3-20003319-III4",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 2,
+        "locator": "III4",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-16",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "250－56×(9＋8)÷7＝？",
+    "options": [
+      "114",
+      "136",
+      "138",
+      "194"
+    ],
+    "answer": 0,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "9＋8＝17，56×17÷7＝136，250－136＝114。",
+    "sourceFamily": "phase3-20003319-III5",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 2,
+        "locator": "III5",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-17",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "4800÷6÷25÷8＝？",
+    "options": [
+      "4",
+      "16",
+      "100",
+      "400"
+    ],
+    "answer": 0,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "6×25×8＝1200，4800÷1200＝4。",
+    "sourceFamily": "phase3-20003319-III6",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 2,
+        "locator": "III6",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-18",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "工廠有7200根筆芯，每20根裝一盒，每6盒裝一袋。每袋售價150元，全部賣完共可得多少元？",
+    "options": [
+      "1500元",
+      "6000元",
+      "9000元",
+      "54000元"
+    ],
+    "answer": 2,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "7200÷20＝360盒，360÷6＝60袋，60×150＝9000元。",
+    "sourceFamily": "phase3-20003319-IV1",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 2,
+        "locator": "IV1",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-19",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "小寶國語、數學、社會、自然四科的平均分數是88.5分。加入英文後，五科平均變成90分。英文考幾分？",
+    "options": [
+      "90分",
+      "94分",
+      "96分",
+      "98分"
+    ],
+    "answer": 2,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "四科總分88.5＋88.5＋88.5＋88.5＝354；五科90×5＝450，英文450－354＝96。",
+    "sourceFamily": "phase3-20003319-IV2",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 2,
+        "locator": "IV2",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-math-20",
+    "grade": 5,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "2公升果汁平均倒成5杯，15公升水平均倒成10杯。每杯水比每杯果汁多多少公升？",
+    "options": [
+      "7/10公升",
+      "9/10公升",
+      "1又1/10公升",
+      "1又9/10公升"
+    ],
+    "answer": 2,
+    "hint": "先找出算式或題目中的已知條件。",
+    "explanation": "每杯水15/10，每杯果汁2/5＝4/10，相差11/10＝1又1/10公升。",
+    "sourceFamily": "phase3-20003319-IV3",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003319",
+        "page": 2,
+        "locator": "IV3",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-social-1",
+    "grade": 5,
+    "course": "social",
+    "publisher": "南一",
+    "prompt": "荷蘭人曾使用拉丁字母，也就是羅馬字母，拼寫臺灣原住民族的語言。這個說法是否正確？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "hint": "分辨題目所指的時期、事件與貿易方向。",
+    "explanation": "荷蘭宣教師曾用羅馬字母記錄西拉雅語，並教導當地族人書寫自己的語言。",
+    "sourceFamily": "phase3-20000686-roman",
+    "subject": "social",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20000686",
+        "page": 1,
+        "locator": "I3",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-social-2",
+    "grade": 5,
+    "course": "social",
+    "publisher": "南一",
+    "prompt": "葡萄牙航海者曾把臺灣稱為「高山國」。這個說法是否正確？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 1,
+    "hint": "分辨題目所指的時期、事件與貿易方向。",
+    "explanation": "此處常見的稱呼是Formosa福爾摩沙，並非「高山國」。",
+    "sourceFamily": "phase3-20000686-I4",
+    "subject": "social",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20000686",
+        "page": 1,
+        "locator": "I4",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-social-3",
+    "grade": 5,
+    "course": "social",
+    "publisher": "南一",
+    "prompt": "歐洲人為取得亞洲的香料、絲綢等商品而拓展海上貿易，是大航海時期形成的一個重要原因。這個說法是否正確？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "hint": "分辨題目所指的時期、事件與貿易方向。",
+    "explanation": "取得有貿易價值的亞洲商品，是當時歐洲拓展海上航路的重要動機之一。",
+    "sourceFamily": "phase3-20000686-I5",
+    "subject": "social",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20000686",
+        "page": 1,
+        "locator": "I5",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-social-4",
+    "grade": 5,
+    "course": "social",
+    "publisher": "南一",
+    "prompt": "鄭成功在臺灣建立基地，主要是為了繼續對抗哪個帝國？",
+    "options": [
+      "元帝國",
+      "明帝國",
+      "清帝國",
+      "日本帝國"
+    ],
+    "answer": 2,
+    "hint": "分辨題目所指的時期、事件與貿易方向。",
+    "explanation": "鄭成功支持明朝，以臺灣作為繼續對抗清朝的根據地。",
+    "sourceFamily": "phase3-20000686-zheng",
+    "subject": "social",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20000686",
+        "page": 1,
+        "locator": "II4",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-social-5",
+    "grade": 5,
+    "course": "social",
+    "publisher": "南一",
+    "prompt": "臺南安平的熱蘭遮城，最初由下列哪一群人興建？",
+    "options": [
+      "西班牙人",
+      "荷蘭人",
+      "日本人",
+      "漢人"
+    ],
+    "answer": 1,
+    "hint": "分辨題目所指的時期、事件與貿易方向。",
+    "explanation": "荷蘭人在大員興建熱蘭遮城，作為防禦與治理據點。",
+    "sourceFamily": "phase3-20000686-II13",
+    "subject": "social",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20000686",
+        "page": 1,
+        "locator": "II13",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-social-7",
+    "grade": 5,
+    "course": "social",
+    "publisher": "南一",
+    "prompt": "1662年，在臺灣迫使荷蘭人投降的鄭氏領袖是誰？",
+    "options": [
+      "鄭經",
+      "鄭成功",
+      "鄭芝龍",
+      "鄭克塽"
+    ],
+    "answer": 1,
+    "hint": "分辨題目所指的時期、事件與貿易方向。",
+    "explanation": "鄭成功於1661年率軍來臺，1662年迫使荷蘭人投降。",
+    "sourceFamily": "phase3-20000686-zheng",
+    "subject": "social",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20000686",
+        "page": 1,
+        "locator": "II18",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-social-8",
+    "grade": 5,
+    "course": "social",
+    "publisher": "南一",
+    "prompt": "下列哪項對鄭氏時期臺灣經濟活動的敘述錯誤？",
+    "options": [
+      "曾向海外輸出蔗糖與鹿皮",
+      "曾由海外買進民生用品與軍用品",
+      "完全無法從中國取得任何商品",
+      "曾與英國東印度公司進行貿易"
+    ],
+    "answer": 2,
+    "hint": "分辨題目所指的時期、事件與貿易方向。",
+    "explanation": "鄭氏仍透過走私等方式取得中國商品，並經營日本、東南亞等地的貿易，不能說完全無法取得。",
+    "sourceFamily": "phase3-20000686-trade",
+    "subject": "social",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20000686",
+        "page": 1,
+        "locator": "II19",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-social-9",
+    "grade": 5,
+    "course": "social",
+    "publisher": "南一",
+    "prompt": "以鄭氏時期臺灣對外貿易的主要商品分類來看，臺灣的蔗糖主要屬於哪類？",
+    "options": [
+      "從臺灣輸往海外的商品",
+      "主要從海外買進臺灣的商品"
+    ],
+    "answer": 0,
+    "hint": "分辨題目所指的時期、事件與貿易方向。",
+    "explanation": "蔗糖是當時重要輸出商品，曾大量銷往日本等地。",
+    "sourceFamily": "phase3-20000686-trade",
+    "subject": "social",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20000686",
+        "page": 2,
+        "locator": "IV1a",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-g5-social-10",
+    "grade": 5,
+    "course": "social",
+    "publisher": "南一",
+    "prompt": "以鄭氏時期臺灣對外貿易的主要商品分類來看，臺灣的鹿皮主要屬於哪類？",
+    "options": [
+      "從臺灣輸往海外的商品",
+      "主要從海外買進臺灣的商品"
+    ],
+    "answer": 0,
+    "hint": "分辨題目所指的時期、事件與貿易方向。",
+    "explanation": "臺灣鹿皮是當時重要輸出商品，鄭氏商船曾運往日本販售。",
+    "sourceFamily": "phase3-20000686-trade",
+    "subject": "social",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20000686",
+        "page": 2,
+        "locator": "IV1b",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i2",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "下列哪組最能說明土壤中固體物質的主要來源？",
+    "options": [
+      "風化的岩石碎屑與腐植質",
+      "只有沙子與黏土",
+      "只有小石頭與空氣",
+      "只有岩石碎屑與水"
+    ],
+    "answer": 0,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "岩石風化產生碎屑，生物遺體分解形成腐植質；完整土壤還含有水與空氣。",
+    "sourceFamily": "phase3-h6-114-i2",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一2",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i3",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "其他條件相同時，下列哪個方法通常能增強電磁鐵吸迴紋針的能力？",
+    "options": [
+      "減少線圈圈數",
+      "在線圈中放入塑膠棒",
+      "在線圈中放入鐵棒",
+      "把電路斷開"
+    ],
+    "answer": 2,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "鐵芯能增強通電線圈的磁場；減少圈數或斷電不能達到這個目的。",
+    "sourceFamily": "phase3-h6-114-i3",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一3",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i4",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "臺灣地震報告中的「芮氏規模」，主要表示什麼？",
+    "options": [
+      "某一地點地面的搖晃程度",
+      "地震釋放能量的大小",
+      "震源距離地表多深",
+      "餘震發生的次數"
+    ],
+    "answer": 1,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "規模用來描述地震大小，與釋放能量有關；震度則描述各地的搖晃程度。",
+    "sourceFamily": "phase3-h6-114-i4",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一4",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i5",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "以刻劃法比較指甲與方解石，若方解石能在指甲上留下刮痕，而指甲不能刮傷方解石，何者正確？",
+    "options": [
+      "兩者硬度一樣",
+      "指甲比方解石硬",
+      "無法判斷兩者硬度",
+      "方解石比指甲硬"
+    ],
+    "answer": 3,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "較硬的物體能刮傷較軟的物體。",
+    "sourceFamily": "phase3-h6-114-i5",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一5",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i6",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "下列哪個景觀主要由堆積作用形成？",
+    "options": [
+      "野柳女王頭",
+      "高聳瀑布",
+      "河流出海口的沙洲",
+      "陡峭峽谷"
+    ],
+    "answer": 2,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "泥沙在流速減慢處沉積，可形成河口沙洲；女王頭與峽谷主要和侵蝕有關。",
+    "sourceFamily": "phase3-h6-114-i6",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一6",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i7",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "下列關於指北針的敘述，何者正確？",
+    "options": [
+      "指針是一根普通塑膠棒",
+      "地球有磁場，會影響磁性指針，使它大致指向南北",
+      "指針靠風向決定北方",
+      "在月球上也一定能像地球上一樣指北"
+    ],
+    "answer": 1,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "磁性指針受地球磁場作用，大致沿南北方向；並非靠風向運作。",
+    "sourceFamily": "phase3-h6-114-i7",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一7",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i8",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "安山岩、玄武岩與花崗岩的共同特徵為何？",
+    "options": [
+      "都含大量化石",
+      "都是河流泥沙直接堆積而成",
+      "都能輕易用指甲刮傷",
+      "都屬於岩漿或熔岩冷卻形成的火成岩"
+    ],
+    "answer": 3,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "三者均為火成岩；花崗岩主要在地下冷卻，安山岩與玄武岩通常由熔岩冷卻形成。",
+    "sourceFamily": "phase3-h6-114-i8",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一8",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i10",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "下列哪種岩石是製造水泥的重要原料？",
+    "options": [
+      "板岩",
+      "玄武岩",
+      "石灰岩",
+      "花崗岩"
+    ],
+    "answer": 2,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "石灰岩是製造水泥的重要原料之一。",
+    "sourceFamily": "phase3-h6-114-i10",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一10",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i11",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "奧斯特發現電流磁效應，這表示什麼？",
+    "options": [
+      "通電導線周圍會產生磁場",
+      "只有鐵製品能導電",
+      "磁鐵一定會自己產生電流",
+      "電池越熱，電力一定越強"
+    ],
+    "answer": 0,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "導線中有電流時，周圍會出現磁場，能影響附近的磁性指針。",
+    "sourceFamily": "phase3-h6-114-i11",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一11",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i12",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "河流經過彎道時，哪一側通常水流較快、較容易受侵蝕而使岸邊後退？",
+    "options": [
+      "凸岸",
+      "凹岸",
+      "河道正中央",
+      "兩岸一定同樣侵蝕"
+    ],
+    "answer": 1,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "彎道外側的凹岸通常流速較快、侵蝕較強；內側凸岸較容易堆積。",
+    "sourceFamily": "phase3-h6-114-i12",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一12",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i13",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "下列哪個物品的主要運作原理與電磁鐵最無關？",
+    "options": [
+      "磁浮列車",
+      "吸廢鐵的起重機",
+      "電動馬達",
+      "傳統磁性指北針"
+    ],
+    "answer": 3,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "傳統指北針主要利用永久磁性指針與地球磁場，不須通電線圈。",
+    "sourceFamily": "phase3-h6-114-i13",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一13",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i14",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "若要把同一個通電線圈電磁鐵的N、S極互換，最直接的方法為何？",
+    "options": [
+      "抽掉鐵芯",
+      "把電池正、負極反過來接，使電流方向相反",
+      "只增加電池數量而不改方向",
+      "只把線圈拉長"
+    ],
+    "answer": 1,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "改變線圈內的電流方向，會使電磁鐵的磁極方向反轉。",
+    "sourceFamily": "phase3-h6-114-i14",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一14",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i15",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "花崗岩中，通常呈黑色、有光澤，並能剝成薄片的礦物是什麼？",
+    "options": [
+      "方解石",
+      "硫黃",
+      "雲母",
+      "石英"
+    ],
+    "answer": 2,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "花崗岩中常見石英、長石與雲母；黑雲母有光澤，常呈片狀。",
+    "sourceFamily": "phase3-h6-114-i15",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一15",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i16",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "下列關於震源與震央的敘述，何者正確？",
+    "options": [
+      "震源是地下岩層開始破裂錯動的地方",
+      "震源在地表，震央在地下",
+      "震源與震央都一定在地表",
+      "震央是地震波最後到達的地方"
+    ],
+    "answer": 0,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "震源位於地下；震央是震源正上方對應的地表位置。",
+    "sourceFamily": "phase3-h6-114-i16",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一16",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i17",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "同一條通電直導線，電流方向不變且其他位置條件相同：放在指北針正上方時指針向東偏，把導線改放正下方，指針會如何偏轉？",
+    "options": [
+      "仍向東偏",
+      "向西偏",
+      "完全不受影響",
+      "持續旋轉不停"
+    ],
+    "answer": 1,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "導線上下兩側的磁場方向相反；電流方向相同時，上下換位會使偏轉方向相反。",
+    "sourceFamily": "phase3-h6-114-i17",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一17",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i18",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "準備緊急避難包時，為何不適合放入需要冷藏的牛奶？",
+    "options": [
+      "液體一定會引起地震",
+      "包裝一定會導電",
+      "牛奶瓶一定會破裂",
+      "容易腐壞，難以長期保存備用"
+    ],
+    "answer": 3,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "避難包需要便於保存的物資；需冷藏的食物在無冷藏條件下容易腐壞。",
+    "sourceFamily": "phase3-h6-114-i18",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一18",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i19",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "下列哪項普通物品靠近指北針時，最不可能使指針因磁性或電流磁場而明顯偏轉？",
+    "options": [
+      "正在運轉的吹風機",
+      "普通不帶磁的玻璃杯",
+      "磁鐵",
+      "鐵製剪刀"
+    ],
+    "answer": 1,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "磁鐵、鐵製品及運轉中的電器可能影響指針；普通玻璃杯通常不會產生明顯影響。",
+    "sourceFamily": "phase3-h6-114-i19",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一19",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i20",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "鉛筆筆芯通常利用哪種礦物顏色黑、質地較軟的特性，混合黏土製成？",
+    "options": [
+      "硫磺",
+      "雲母",
+      "石英",
+      "石墨"
+    ],
+    "answer": 3,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "鉛筆筆芯主要由石墨與黏土等混合製成，並不是鉛。",
+    "sourceFamily": "phase3-h6-114-i20",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一20",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i21",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "相較於一般永久磁鐵，下列哪個是電磁鐵的重要優點？",
+    "options": [
+      "不需要任何能量就能運作",
+      "磁力永遠不會改變",
+      "可用通電與斷電控制線圈產生的主要磁場",
+      "任何電磁鐵一定比永久磁鐵輕"
+    ],
+    "answer": 2,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "通電線圈產生磁場，斷電後線圈的電流磁場消失；鐵芯仍可能有少量殘磁。",
+    "sourceFamily": "phase3-h6-114-i21",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一21",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i22",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "下列何者較符合河流上游河床的常見特徵？",
+    "options": [
+      "坡度陡，常有大石塊",
+      "河道一定寬闊而水流平緩",
+      "只鋪滿細沙與泥土",
+      "一定最適合大面積農耕"
+    ],
+    "answer": 0,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "上游常較陡，河床多較大石塊；下游通常較平緩，較容易沉積細小泥沙。",
+    "sourceFamily": "phase3-h6-114-i22",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 1,
+        "locator": "一22",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i23",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "用主要成分為石墨的鉛筆芯與石英互相刻劃，最可能觀察到何種結果？",
+    "options": [
+      "石英被石墨刮傷，石墨不受損",
+      "兩者都無變化，所以硬度一定相同",
+      "兩者一定都碎裂，無法比較",
+      "鉛筆芯磨損，石英未被刮傷，顯示石英較硬"
+    ],
+    "answer": 3,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "石英的硬度大於石墨；較軟的鉛筆芯會磨損。",
+    "sourceFamily": "phase3-h6-114-i23",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 2,
+        "locator": "一23",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i25",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "哪種作用能使岩石逐漸破碎，也能與其他成土作用共同促成土壤形成？",
+    "options": [
+      "磁力作用",
+      "風化作用",
+      "光合作用",
+      "蒸發作用"
+    ],
+    "answer": 1,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "風化能使岩石破碎或分解；碎屑再和腐植質等混合，可逐漸形成土壤。",
+    "sourceFamily": "phase3-h6-114-i25",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 2,
+        "locator": "一25",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i26",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "磁浮列車利用磁力使車體懸浮，主要運用了哪種特性？",
+    "options": [
+      "磁鐵的導電性",
+      "鐵粉的顏色",
+      "磁極之間可產生相斥或相吸的力",
+      "地磁一定會沿軌道前進"
+    ],
+    "answer": 2,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "不同磁浮系統可利用磁力的排斥或吸引，使車體獲得懸浮所需的力。",
+    "sourceFamily": "phase3-h6-114-i26",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 2,
+        "locator": "一26",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i27",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "製作電磁鐵的線圈常用表面有絕緣漆的銅線，主要目的為何？",
+    "options": [
+      "防止相鄰線圈短路，使電流沿著繞好的導線流動",
+      "增加重量使線圈不會移動",
+      "讓顏色好看",
+      "絕緣漆本身會產生強磁力"
+    ],
+    "answer": 0,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "絕緣漆防止相鄰圈的銅導體直接接觸短路；接電處仍需適當去除絕緣層。",
+    "sourceFamily": "phase3-h6-114-i27",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 2,
+        "locator": "一27",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i28",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "兩個通電電磁鐵的S極互相靠近，通常會如何？",
+    "options": [
+      "互相吸引",
+      "互相排斥",
+      "磁力一定消失",
+      "一定完全沒有作用"
+    ],
+    "answer": 1,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "同名磁極互相排斥，異名磁極互相吸引。",
+    "sourceFamily": "phase3-h6-114-i28",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 2,
+        "locator": "一28",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i29",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "某海岸岩石長期受海浪侵蝕，形成海蝕景觀。下列哪個景觀的主要形成作用最相似？",
+    "options": [
+      "河口堆積的沙洲",
+      "海浪侵蝕岸邊岩石形成的海蝕洞",
+      "泥沙堆積的沙灘",
+      "風搬運砂粒堆成的沙丘"
+    ],
+    "answer": 1,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "海蝕洞與題幹景觀都主要受到海浪侵蝕；其他選項主要是堆積作用。",
+    "sourceFamily": "phase3-h6-114-i29",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 2,
+        "locator": "一29",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-i30",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "河流下游接近出海口時，最常見下列哪種情形？",
+    "options": [
+      "河道一定狹窄，兩岸十分陡峭",
+      "水流非常湍急，到處是瀑布",
+      "河面較寬，水流較平緩，容易堆積泥沙",
+      "河床只留下有稜角的巨大石塊"
+    ],
+    "answer": 2,
+    "hint": "先找出題目中正在比較的條件或作用。",
+    "explanation": "下游坡度通常較緩，流速減慢時容易沉積泥沙。",
+    "sourceFamily": "phase3-h6-114-i30",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 2,
+        "locator": "一30",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-ii2-1",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "下列哪種岩石屬於沉積岩？",
+    "options": [
+      "大理岩",
+      "安山岩",
+      "石灰岩"
+    ],
+    "answer": 2,
+    "hint": "依岩石的形成原因判斷。",
+    "explanation": "大理岩屬於變質岩，安山岩屬於火成岩，石灰岩屬於沉積岩。",
+    "sourceFamily": "phase3-h6-114-ii2",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 2,
+        "locator": "二2(1)",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-ii2-2",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "下列哪種岩石通常由熔岩在地表附近冷卻凝固形成？",
+    "options": [
+      "大理岩",
+      "安山岩",
+      "石灰岩"
+    ],
+    "answer": 1,
+    "hint": "依岩石的形成原因判斷。",
+    "explanation": "大理岩屬於變質岩，安山岩屬於火成岩，石灰岩屬於沉積岩。",
+    "sourceFamily": "phase3-h6-114-ii2",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 2,
+        "locator": "二2(2)",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-h6-114-ii2-3",
+    "grade": 6,
+    "course": "science",
+    "publisher": "翰林",
+    "prompt": "下列哪種岩石由原有岩石受到高溫、高壓等作用而變質形成？",
+    "options": [
+      "大理岩",
+      "安山岩",
+      "石灰岩"
+    ],
+    "answer": 0,
+    "hint": "依岩石的形成原因判斷。",
+    "explanation": "大理岩屬於變質岩，安山岩屬於火成岩，石灰岩屬於沉積岩。",
+    "sourceFamily": "phase3-h6-114-ii2",
+    "subject": "science",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003326",
+        "page": 2,
+        "locator": "二2(3)",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-i1",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "圓周率等於圓周長除以直徑，而且這個除法可以剛好除盡，得到有限小數。這個敘述正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 1,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "圓周率是圓周長除以直徑的比值，但不是有限小數；3.14是常用近似值。",
+    "sourceFamily": "p3-20003226-i1",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 1,
+        "locator": "一1",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-i2",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "一個圓心角大於0°且小於360°的扇形，其周長等於它的弧長加上原圓的直徑。這個敘述正確嗎？",
+    "options": [
+      "錯誤",
+      "正確"
+    ],
+    "answer": 1,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "扇形周長是弧長加上兩條半徑；兩條半徑長度相加等於原圓直徑。",
+    "sourceFamily": "p3-20003226-i2",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 1,
+        "locator": "一2",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-i3",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "長方形甲長10公分、寬8公分；長方形乙長20公分、寬16公分。甲是乙的幾倍縮圖？",
+    "options": [
+      "1/2倍",
+      "2倍",
+      "1/4倍",
+      "4倍"
+    ],
+    "answer": 0,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "10÷20＝1/2，8÷16＝1/2，甲的每組對應邊都是乙的1/2。",
+    "sourceFamily": "p3-20003226-i3",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 1,
+        "locator": "一3",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-i4",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "在半徑相同的兩個圓中，各取一個圓心角大於0°且小於360°的扇形。這兩個扇形的圓心角比、弧長比和面積比都相等。這個敘述正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "半徑相同，整圓周長與面積也相同；弧長和面積都按圓心角所占比例改變。",
+    "sourceFamily": "p3-20003226-i4",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 1,
+        "locator": "一4",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-ii1",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "一個圓的半徑是幾公分時，圓周長以公分表示的數值，會和圓面積以平方公分表示的數值相同？",
+    "options": [
+      "1公分",
+      "2公分",
+      "3公分",
+      "4公分"
+    ],
+    "answer": 1,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "半徑2公分時，圓周長的數值為2×2×圓周率，面積的數值為2×2×圓周率。",
+    "sourceFamily": "p3-20003226-ii1",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 1,
+        "locator": "二1",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-ii2",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "邊長99公分的正方形，與直徑99公分的圓形，哪個圖形的面積比較大？",
+    "options": [
+      "正方形",
+      "圓形",
+      "一樣大",
+      "無法比較"
+    ],
+    "answer": 0,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "這個圓可放在正方形內，正方形四個角仍有圓外的區域，所以正方形面積較大。",
+    "sourceFamily": "p3-20003226-ii2",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 1,
+        "locator": "二2",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-ii6",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "地圖上的比例尺為1：1000。把長度換成相同單位後，這個比表示什麼？",
+    "options": [
+      "圖上面積與實際面積的比",
+      "圖上房屋數與實際房屋數的比",
+      "圖上道路數量與實際道路數量的比",
+      "圖上距離與實際距離的比"
+    ],
+    "answer": 3,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "比例尺是相同單位下圖上距離與實際距離的比，圖上1單位對應實際1000單位。",
+    "sourceFamily": "p3-20003226-ii6",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 1,
+        "locator": "二6",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-iv3-length",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "甲圖是乙圖的1/2倍縮圖。甲圖的一條邊長9公分，乙圖與它對應的邊長幾公分？",
+    "options": [
+      "4.5公分",
+      "9公分",
+      "18公分",
+      "36公分"
+    ],
+    "answer": 2,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "甲對應邊是乙的1/2，因此乙的邊長是9÷1/2＝18公分。",
+    "sourceFamily": "p3-20003226-iv3",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 2,
+        "locator": "四3(1)-長度",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-iv3-angle",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "甲圖是乙圖的1/2倍縮圖。乙圖的一個角是120°，甲圖與它對應的角是多少度？",
+    "options": [
+      "60°",
+      "120°",
+      "240°",
+      "360°"
+    ],
+    "answer": 1,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "放大圖、縮圖的對應角大小不變，因此仍是120°。",
+    "sourceFamily": "p3-20003226-iv3",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 2,
+        "locator": "四3(2)-角度",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-iv3-area",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "甲圖是乙圖的1/2倍縮圖。乙圖的面積是甲圖的幾倍？",
+    "options": [
+      "1/4倍",
+      "1/2倍",
+      "2倍",
+      "4倍"
+    ],
+    "answer": 3,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "乙對應邊長是甲的2倍，面積是2×2＝4倍。",
+    "sourceFamily": "p3-20003226-iv3",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 2,
+        "locator": "四3(4)",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-iv4a",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "甲跑100公尺花13秒，乙跑100公尺花15秒。比較兩人的平均速率，甲的速率＿＿乙的速率，應填哪個符號？",
+    "options": [
+      "＞",
+      "＜",
+      "＝"
+    ],
+    "answer": 0,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "相同距離下，所花時間較少，平均速率較快。",
+    "sourceFamily": "p3-20003226-iv4",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 2,
+        "locator": "四4(1)",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-iv4b",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "2.5公里／小時＿＿2又1/5公里／小時，應填哪個符號？",
+    "options": [
+      "＞",
+      "＜",
+      "＝"
+    ],
+    "answer": 0,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "2又1/5＝2.2，2.5大於2.2。",
+    "sourceFamily": "p3-20003226-iv4",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 2,
+        "locator": "四4(2)",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-v1",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "一個圓的直徑是16公分，圓周率取3.14，圓周長約是多少公分？",
+    "options": [
+      "25.12公分",
+      "50.24公分",
+      "100.48公分",
+      "200.96公分"
+    ],
+    "answer": 1,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "圓周長＝直徑×圓周率＝16×3.14＝50.24公分。",
+    "sourceFamily": "p3-20003226-v1",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 2,
+        "locator": "五1",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-v2",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "一個圓的半徑是6公尺，圓周率取3.14，圓面積約是多少平方公尺？",
+    "options": [
+      "18.84平方公尺",
+      "37.68平方公尺",
+      "113.04平方公尺",
+      "226.08平方公尺"
+    ],
+    "answer": 2,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "圓面積＝半徑×半徑×圓周率＝6×6×3.14＝113.04平方公尺。",
+    "sourceFamily": "p3-20003226-v2",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 2,
+        "locator": "五2",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-v3",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "柔柔距離山壁680公尺。她大叫後，聲音傳到山壁再反射回她耳中，往返一次共花4秒。假設聲音速率固定，每秒傳幾公尺？",
+    "options": [
+      "170公尺",
+      "340公尺",
+      "680公尺",
+      "1360公尺"
+    ],
+    "answer": 1,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "聲音往返距離680×2＝1360公尺；1360÷4＝340公尺／秒。",
+    "sourceFamily": "p3-20003226-v3",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 2,
+        "locator": "五3",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-vi1-area",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "把暴風圈視為圓形。某颱風的暴風圈半徑由120公里增加為150公里，圓周率取3.14，暴風圈面積約增加多少平方公里？",
+    "options": [
+      "2826平方公里",
+      "25434平方公里",
+      "45216平方公里",
+      "70650平方公里"
+    ],
+    "answer": 1,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "增加後150×150×3.14＝70650，增加前120×120×3.14＝45216，相差25434平方公里。",
+    "sourceFamily": "p3-20003226-vi1",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 2,
+        "locator": "六題組一2",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-vi2-speed",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "爸爸騎車從A點到B點，實際行駛18公尺，花了2秒。這段路的平均速率相當於每小時幾公里？",
+    "options": [
+      "9公里",
+      "32.4公里",
+      "64.8公里",
+      "324公里"
+    ],
+    "answer": 1,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "18÷2＝9公尺／秒；9×3600÷1000＝32.4公里／小時。",
+    "sourceFamily": "p3-20003226-vi2",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 2,
+        "locator": "六題組二1",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-vi2-scale",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "地圖上某一路線長15公分，實際路線長120公里。把兩邊長度換成相同單位後，這張地圖的比例尺是多少？",
+    "options": [
+      "1：8000",
+      "1：80000",
+      "1：800000",
+      "1：8000000"
+    ],
+    "answer": 2,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "120公里＝12000000公分，15：12000000＝1：800000。",
+    "sourceFamily": "p3-20003226-vi2",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 3,
+        "locator": "六題組二3",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-vi2-arrival",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "遊覽車上午7時50分出發，路程共120公里。行駛時的速率固定為每小時100公里，途中另外停車休息15分鐘，沒有其他停留。遊覽車上午幾時幾分到達？",
+    "options": [
+      "9時02分",
+      "9時05分",
+      "9時17分",
+      "9時32分"
+    ],
+    "answer": 2,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "120÷100＝1.2小時＝72分鐘，加15分鐘共87分鐘；7時50分加87分鐘為9時17分。",
+    "sourceFamily": "p3-20003226-vi2",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 3,
+        "locator": "六題組二4",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  },
+  {
+    "id": "phase3-dd6m-20003226-vi2-arc",
+    "grade": 6,
+    "course": "math",
+    "publisher": "康軒",
+    "prompt": "某座椅沿半徑12公尺的同一圓周轉動，累計轉過3750°。圓周率取3.14，座椅沿圓周移動的距離約是多少公尺？",
+    "options": [
+      "78.5公尺",
+      "753.6公尺",
+      "785公尺",
+      "1507.2公尺"
+    ],
+    "answer": 2,
+    "hint": "先確認題目給的半徑、直徑、距離、時間或縮放倍率，再選公式。",
+    "explanation": "一圈長12×2×3.14＝75.36公尺；3750÷360＝125/12圈，總距離75.36×125/12＝785公尺。",
+    "sourceFamily": "p3-20003226-vi2",
+    "subject": "math",
+    "level": 1,
+    "examSources": [
+      {
+        "id": "f3b20003226",
+        "page": 3,
+        "locator": "六題組二5",
+        "kind": "歷屆期末交集改編；必要圖文完整文字化，新增干擾項及校訂另載審查紀錄"
+      }
+    ]
+  }
+]

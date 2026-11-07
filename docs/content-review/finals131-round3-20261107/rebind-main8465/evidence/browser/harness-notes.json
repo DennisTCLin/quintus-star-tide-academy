@@ -1,0 +1,7 @@
+{
+  "initialAttempt": {
+    "lane": "g1-pairs",
+    "failure": "Loading status was temporarily absent before React render, hidden-status wait finished before harbor ready;no answer sent"
+  },
+  "correction": "Wait actual visible harbor region, then observe snapshot; no app source changes"
+}

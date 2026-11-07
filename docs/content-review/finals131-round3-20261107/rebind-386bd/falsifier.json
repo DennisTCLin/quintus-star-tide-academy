@@ -1,0 +1,51 @@
+{
+  "reviewer": "pr23_rebind_falsifier",
+  "mode": "independent read-only exact-Git in-memory source comparison and raw evidence reconciliation",
+  "status": "BOUNDED_PASS",
+  "base": "386bd57046ba8e12828afbeb6b0310774af680e0",
+  "checks": {
+    "preservedStaticQuestionObjectsAndApprovals": 6521,
+    "preservedGenerated": 23192,
+    "originalRound3ObjectsAndApprovalsUnchanged": 108,
+    "indexedNew": 108,
+    "gitArchiveSourceFilesMatched": 592,
+    "fixturesReproduced": 8,
+    "storageRepresentations": 16,
+    "dictionaryUnion": "all corrected-parent and original-PR23 entries retained;packed/readable equal;both long-nose contexts ㄔㄤˊ",
+    "targetedPassed": 31,
+    "ordinaryPassed": 1577,
+    "ordinaryConditionalSkip": 296,
+    "freshPgFiles": 31,
+    "freshPgPassed": 300,
+    "distinctDbNames": 31,
+    "allPublicTablesBefore": 0,
+    "matchedSkips": 296,
+    "overlap": 4,
+    "uniquePassed": 1873,
+    "uiCases": 8,
+    "uiJpegsVisuallyChecked": 10,
+    "uiIndexAfterReload": 1,
+    "uiCoinsAfterOneAnswer": 1244,
+    "uiOverflowMissingImagesConsole": 0
+  },
+  "findings": [
+    {
+      "finding": "g2-pairs fixture contains4 questions, initial wait assumed6",
+      "resolution": "wait corrected and reload verified;no app modification"
+    }
+  ],
+  "limits": [
+    "unchanged108 semantic evidence rebound,not a fresh131-paper review",
+    "synthetic injected UI/challenge removed;API commands alone do not distinguish auto/manual advance",
+    "no production DB access or BEFORE/AFTER",
+    "no deployment/release approval",
+    "no filesystem writes by reviewer"
+  ],
+  "inputs": {
+    "evidence/general.json": "a66270dc8afb0e0225af6b5f5232dd090482fb7d000bef974a2134f1226f15d7",
+    "evidence/cloud-per-file/results.json": "84ad26b5858f96b12a9ed41e9036e91036d2f7266e036af2c5d13128053e5d50",
+    "evidence/skip-pg-coverage.json": "7db6c0f68217c4f905ac2096a121c6cf1970252bf7a7a9cae1b97142981d57a7",
+    "evidence/browser/checks.json": "387994e421ae8416d0a89f84a717d3e658a942d9789ac58e62b1dddc7fa6e1f1",
+    "evidence/browser/api-evidence.json": "8dc3c99ae9052a4c89fed5adef691bf081332d04ac762541e0c2d944c1160140"
+  }
+}

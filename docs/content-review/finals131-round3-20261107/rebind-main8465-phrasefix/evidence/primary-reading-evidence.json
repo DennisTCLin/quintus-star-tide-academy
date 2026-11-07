@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-11-07T08:16:38.415760+00:00",
+  "priorE5Superseded": "Unreleased e5 filled磅 fallback but missed磅礴. Earlier páng notation was wrong and is superseded by MOE pāng,firsttone.",
+  "preciseFix": {
+    "phrase": "磅礴",
+    "reading": [
+      "ㄆㄤ",
+      "ㄅㄛˊ"
+    ],
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=23998&la=0&powerMode=0"
+  },
+  "weightControl": {
+    "phrase": "英磅",
+    "reading": [
+      "ㄧㄥ",
+      "ㄅㄤˋ"
+    ],
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=157843&la=0&powerMode=0"
+  },
+  "guardingHome": {
+    "phrase": "看家",
+    "reading": [
+      "ㄎㄢ",
+      "ㄐㄧㄚ"
+    ],
+    "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=77333&la=0&powerMode=0"
+  },
+  "scope": "Exact phraseoverride only;磅 char remainsㄅㄤˋ and看 remainsㄎㄢˋ;108questionobjects/options/answers/approvals unchanged."
+}

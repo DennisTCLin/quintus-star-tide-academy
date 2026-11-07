@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g5-social",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "荷蘭人曾使用拉丁字母，也就是羅馬字母，拼寫臺灣原住民族的語言。這個說法是否正確？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g5-social",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "葡萄牙航海者曾把臺灣稱為「高山國」。這個說法是否正確？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g5-social",
+    "firstQuestion": "phase3-g5-social-1",
+    "answerButton": "選擇 正確",
+    "total": 6,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

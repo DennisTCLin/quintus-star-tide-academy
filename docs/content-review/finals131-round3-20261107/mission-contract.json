@@ -1,0 +1,28 @@
+{
+  "userGoal": "Review131sourcepapers then admit only source/publisher/book/unit/answer verified self-contained questions;preserve all old child state/rewards",
+  "rootOnlyWriter": true,
+  "stackedBase": "386bd57046ba8e12828afbeb6b0310774af680e0",
+  "legacyStaticObjects": 6521,
+  "candidates": 115,
+  "new": 108,
+  "duplicatesMappingOnly": 6,
+  "held": 1,
+  "courseCounts": {
+    "g1tones": 6,
+    "g1pairs": 9,
+    "g2words": 10,
+    "g2pairs": 4,
+    "g5math": 20,
+    "g5social": 9,
+    "g6science": 30,
+    "g6math": 20
+  },
+  "forbidden": [
+    "editing preexistingquestion object/ID/approval",
+    "resetting/mastery/state/rewards/accounts",
+    "mixing adult changes",
+    "production writes without coordinated fresh release gate"
+  ],
+  "verificationStatus": "build,31 targeted,1873 unique ordinary+freshPG and8 synthetic UI PASS; independent source/evidence BOUNDED_PASS; formal release pending",
+  "productionReleased": false
+}
