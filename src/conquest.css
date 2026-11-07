@@ -114,3 +114,39 @@
 @media(max-width:760px){.cq-target-guide{padding:12px 14px;gap:8px}.cq-target-guide>div{flex-basis:100%}.family-app .cq-game .cq-map-invitation{max-width:min(290px,calc(100% - 28px));padding:9px 12px}.cq-map-invitation strong{font-size:21px}.cq-game .cq-map-invitation>span{font-size:10px}}
 
 .cq-target-empty{flex-basis:100%;border-top:1px solid #c3ac7155;padding-top:8px}.family-app .cq-target-empty p{font-size:13px;color:#f7e6bf;margin:0 0 8px}.cq-target-empty button+button{margin-left:8px}
+
+.cq-phone-owner{display:none}
+
+/* Keep phone chart controls and full explanations outside the navigable sea. */
+@media(max-width:900px){
+  .cq-world{--cq-phone-chart-height:clamp(320px,56svh,520px);height:auto;display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:var(--cq-phone-chart-height) auto auto auto;overflow:visible}
+  .cq-world>.cq-canvas{position:relative;inset:auto;grid-row:1;height:var(--cq-phone-chart-height);min-width:0;overflow:hidden}
+  .cq-world:after{bottom:auto;height:var(--cq-phone-chart-height)}
+  .family-app .cq-game .cq-map-invitation{position:relative;inset:auto;grid-row:2;max-width:none;width:100%;margin:0;padding:12px 16px;border-radius:0;border-width:1px 0;border-left:3px solid #e1b961;box-shadow:none;text-shadow:none}
+  .cq-map-invitation strong,.cq-world:has(.cq-canvas[data-overview=true]) .cq-map-invitation strong{font-size:21px;margin:3px 0}
+  .cq-game .cq-map-invitation>span{display:block!important;font-size:12px}
+  .family-app .cq-game .cq-claim-guidance p{font-size:14px!important;line-height:1.5}
+  .cq-game .cq-claim-guidance small{font-size:12px}
+  .cq-map-controls{position:relative;inset:auto;grid-row:3;display:flex;justify-content:center;gap:6px;padding:10px 12px;background:#082d40}
+  .family-app .cq-game .cq-map-controls button{width:44px;min-height:44px;flex:0 0 44px}
+  .family-app .cq-map-help{position:relative;inset:auto;grid-row:4;max-width:none;text-align:center;margin:0;padding:0 10px 10px;font-size:12px;line-height:1.5;background:#082d40}
+  .cq-phone-owner{display:block;margin-top:6px}
+  .cq-phone-owner .cq-territory-badge b{font-size:13px}.cq-phone-owner .cq-territory-badge small{font-size:12px}
+  .cq-compass{display:none}.cq-dossier{position:relative;inset:auto;width:auto;max-height:none;margin:0;border-radius:0;box-shadow:none;border-width:1px 0 0}
+  .family-app .cq-game .cq-map-label{min-width:140px;max-width:174px;padding:5px 7px;gap:3px;grid-template-columns:24px minmax(0,1fr)}
+  .cq-map-label-heading{grid-column:1/-1;gap:5px}.cq-map-label-heading>strong{font-size:12px;overflow:visible;text-overflow:clip}
+  .cq-game .cq-map-coordinates{font-size:11px}
+  .cq-map-label>.cq-territory-badge{grid-column:1;grid-row:2}.cq-map-label>.cq-territory-badge>span:last-child{display:none}
+  .cq-map-label .cq-territory-badge .player-avatar,.cq-map-label .cq-owner-symbol{width:24px;height:24px}
+  .cq-map-label>.cq-npc-label{grid-column:1/-1;grid-row:2}
+  .cq-map-label>.cq-map-eligibility{grid-column:2;grid-row:2;align-self:center;border:0;padding:0;margin:0;font-size:12px;line-height:1.4}
+  .cq-map-label>.cq-island-protection{grid-column:2;grid-row:2;gap:0;margin:0;padding:0;border:0;background:transparent!important}
+  .cq-map-label:has(.cq-island-protection[data-protection=protected])>.cq-map-eligibility,.cq-map-label:has(.cq-island-protection[data-protection=war])>.cq-map-eligibility{display:none}
+  .cq-map-label:not([data-owner-kind=own])>.cq-island-protection[data-protection=vulnerable]{display:none}
+  .cq-map-label:not([data-owner-kind=own])>.cq-island-protection[data-protection=preparing]{grid-column:1/-1;grid-row:3}
+  .cq-map-label .cq-island-protection>svg{display:none}.cq-map-label .cq-island-protection>span{gap:1px}
+  .cq-map-label .cq-island-protection b{font-size:12px;letter-spacing:0}.cq-map-label .cq-protection-time{font-size:11px;white-space:normal}
+  .cq-map-label .cq-protection-warning{font-size:11px}
+}
+
+@media(max-width:370px){.cq-map-controls{display:grid;grid-template-columns:repeat(3,44px)}}
