@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-11-07T06:49:28.211113+00:00",
+  "sourceParent": "386bd570",
+  "base": "047bda19",
+  "reviewed210QuestionAndApprovalInputs": [
+    {
+      "path": "src/data/finals-followup-20261107.json",
+      "sha256": "e1cb89ab814d2e4a61223a147ac4776c43ab2012bf3bc898e876d6d9428b46cf",
+      "reviewedParentBytesExact": true
+    },
+    {
+      "path": "docs/content-review/finals131-followup-20261107/blind-expected.json",
+      "sha256": "4fcd7fa6d9930df2235dc2bfa97967d044de7f6fda866c87cce6d9545afe8aea",
+      "reviewedParentBytesExact": true
+    },
+    {
+      "path": "docs/content-review/finals131-followup-20261107/mapping.json",
+      "sha256": "0ea657464ab84a0e2419a0aebf47cfee98da99b8be9d76f59547c5ac10a38786",
+      "reviewedParentBytesExact": true
+    },
+    {
+      "path": "docs/content-review/approvals.json",
+      "sha256": "d66e608dcf9bba29128ced315a4953943f5b33cf8833949a079bd3c20aed1cb8",
+      "reviewedParentBytesExact": true
+    }
+  ],
+  "forbiddenRuntimePathsChanged": [],
+  "adultWorldDatabaseAuthRulesByteUnchanged": true,
+  "formalDatabaseChecked": false
+}

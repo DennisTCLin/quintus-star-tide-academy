@@ -1,7 +1,7 @@
 import CharacterPortrait from './CharacterPortrait';
 import MonsterMotion, {hasMonsterMotion,type MonsterAction} from "./MonsterMotion";
 import ReadAloud from './ReadAloud';
-import { CreatureBadge, StatLine } from "./CreatureInfo";
+import { CreatureBadge, CreatureBodyFacts, StatLine } from "./CreatureInfo";
 import { nativeCombatStats, encounterStats, NATIVE_LEVELS, type CombatStats } from "./creature-rules";
 import { creatureProgress } from "./companion-growth";
 import { petSkillName, petSkillDescription, type Profile } from "./game-view";
@@ -48,6 +48,7 @@ function MonsterDetail({ monster, level, stats, ownedLevel, close }: { monster: 
       <CreatureBadge rarity={monster.rarity} level={level} />
       <p>野外能力預覽 · Lv.{level}{ownedLevel ? ` · 我的夥伴 Lv.${ownedLevel}` : ""}</p>
       <StatLine stats={stats} />
+      <CreatureBodyFacts id={monster.id} />
       <div className="monster-tags"><span>{affinity.icon} {affinity.name}屬性</span><span>{form.name} · {form.levels}</span></div>
       <p>{monster.feature}</p>
       <dl className="monster-facts"><div><dt>出沒地點</dt><dd>{family.habitat}</dd></div><div><dt>夥伴技能</dt><dd><b>{petSkillName(monster.id)}</b><p>{petSkillDescription(monster.id)}</p></dd></div><div><dt>五行關係</dt><dd>剋{affinity.overcomes} · 被{counter.name}剋</dd></div></dl>

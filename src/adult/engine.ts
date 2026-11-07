@@ -1,14 +1,15 @@
+import {isCorrect}from'./answers';
+export {normalizeAnswer,isCorrect}from'./answers';
+import {validPlan,validPlacement,placementReport,type LearningPlan,type Placement}from'./placement';
 import { EXERCISES, LESSONS, exerciseById, lessonById, type Track } from './catalog';
 export const ADULT_KEY = 'star-tide.adult-english.v1';
 export const INTERVALS = [1, 3, 7, 14];
 export type Review = { due: string; stage: number; lastDay: string; correct: boolean; attempts: number };
 export type Session = { id: string; mode: 'lesson' | 'due' | 'mistakes' | 'all'; lessonId?: string; ids: string[]; index: number; results: { correct: boolean; assisted: boolean; answer: string }[]; assistedIds?: string[]; complete: boolean };
-export type AdultState = { version: 1; revision: number; profile: { name: string; track: Track; dailyGoal: number } | null; xp: number; entries: Record<string, Review>; practiced: string[]; days: string[]; daily: Record<string, string[]>; session: Session | null };
+export type AdultState = {plan?:LearningPlan;placement?:Placement; version: 1; revision: number; profile: { name: string; track: Track; dailyGoal: number } | null; xp: number; entries: Record<string, Review>; practiced: string[]; days: string[]; daily: Record<string, string[]>; session: Session | null };
 export const freshState = (): AdultState => ({ version: 1, revision: 0, profile: null, xp: 0, entries: {}, practiced: [], days: [], daily: {}, session: null });
 export function taipeiDay(now = new Date()): string { return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Taipei', year:'numeric',month:'2-digit',day:'2-digit' }).format(now); }
 const plusDays = (day: string, n: number) => new Date(Date.parse(day + 'T00:00:00Z') + n * 86400000).toISOString().slice(0,10);
-export function normalizeAnswer(value: string) { return value.normalize('NFKC').toLowerCase().replace(/[‘’]/g,"'").replace(/[.,!?;:]/g,'').trim().replace(/\s+/g,' '); }
-export function isCorrect(id: string, answer: string) { const q = exerciseById(id); return !!q && [q.answer, ...(q.accepted ?? [])].some(a => normalizeAnswer(a) === normalizeAnswer(answer)); }
 const obj = (v: unknown): v is Record<string, unknown> => !!v && typeof v === 'object' && !Array.isArray(v);
 const nat = (v: unknown) => Number.isSafeInteger(v) && Number(v) >= 0;
 const validDay = (v: unknown): v is string => typeof v === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(v) && Number.isFinite(Date.parse(v+'T00:00:00Z')) && new Date(v+'T00:00:00Z').toISOString().slice(0,10) === v;
@@ -16,6 +17,7 @@ export function parseState(raw: string | null): AdultState {
   if (raw === null) return freshState();
   const s: unknown = JSON.parse(raw); const need = (v: unknown) => { if (!v) throw Error('成人學習紀錄無法讀取。原資料已保留，請下載備份後再聯絡管理員。'); };
   need(obj(s)); const x = s as AdultState;
+  need((x.plan===undefined||validPlan(x.plan))&&(x.placement===undefined||(validPlacement(x.placement)&&validPlan(x.plan))));
   need(x.version === 1 && nat(x.revision) && nat(x.xp) && obj(x.entries) && Array.isArray(x.practiced) && Array.isArray(x.days) && obj(x.daily));
   need(x.profile === null || (obj(x.profile) && typeof x.profile.name === 'string' && x.profile.name.trim().length > 0 && x.profile.name.length <= 24 && ['everyday','travel','work'].includes(x.profile.track) && [6,12].includes(x.profile.dailyGoal)));
   need(Object.keys(x.entries).length <= EXERCISES.length && x.practiced.every(id => !!lessonById(id)) && x.days.every(validDay));
@@ -74,7 +76,7 @@ export function streak(state: AdultState, today: string) {
   let day = state.days.includes(today) ? today : plusDays(today,-1), count = 0;
   while(state.days.includes(day)) { count++; day=plusDays(day,-1); } return count;
 }
-export function nextLesson(state: AdultState) { const basics=LESSONS.filter(l=>l.category==='foundation'); const nextBasic=basics.find(l=>!state.practiced.includes(l.id)); if(nextBasic)return nextBasic; const preferred = LESSONS.filter(l=>l.track === (state.profile?.track ?? 'everyday')); return preferred.find(l=>!state.practiced.includes(l.id)) ?? LESSONS.find(l=>!state.practiced.includes(l.id)) ?? preferred[0]; }
+export function nextLesson(state: AdultState) { if(state.plan&&state.placement?.acknowledged){const report=placementReport(state.placement,state.plan);const id=report.path.find(id=>!state.practiced.includes(id));if(id)return lessonById(id)!;} const basics=LESSONS.filter(l=>l.category==='foundation'); const nextBasic=basics.find(l=>!state.practiced.includes(l.id)); if(nextBasic)return nextBasic; const preferred = LESSONS.filter(l=>l.track === (state.profile?.track ?? 'everyday')); return preferred.find(l=>!state.practiced.includes(l.id)) ?? LESSONS.find(l=>!state.practiced.includes(l.id)) ?? preferred[0]; }
 /** Compare the whole previous snapshot: other tabs must never silently overwrite each other. */
 export function saveState(storage: Pick<Storage,'getItem'|'setItem'>, expected: string | null, next: AdultState): string {
   if(storage.getItem(ADULT_KEY) !== expected) throw Error('另一個分頁已更新進度。請重新載入，接續最新練習。');

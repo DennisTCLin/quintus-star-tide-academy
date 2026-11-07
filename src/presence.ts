@@ -8,7 +8,7 @@ export type Friend = { id: PlayerId; key?: string; sameAccount?: boolean; avatar
 export function otherFriends(friends: Friend[], player: PlayerId): Friend[] {
   return friends.filter(friend => friend.id !== player || (Boolean(friend.key) && friend.sameAccount === false));
 }
-export type FriendsState = { serverNow: number; friends: Friend[] };
+export type FriendsState = { serverNow: number; friends: Friend[];world?:{eligible:boolean;online:number} };
 export type PresenceSnapshot = { data: FriendsState; receivedAt: number } | null;
 
 export function lastSeenLabel(lastSeenAt: number | null, now: number, hasActivity = false): string {
@@ -60,7 +60,7 @@ export function trackPresence(
   window.addEventListener("offline", offline);
   const timer = setInterval(refresh, 10000);
   refresh();
-  return () => {
+  const stop = () => {
     stopped = true;
     clearInterval(timer);
     document.removeEventListener("visibilitychange", visibility);
@@ -70,15 +70,18 @@ export function trackPresence(
     window.removeEventListener("offline", offline);
     void send(false);
   };
+  return Object.assign(stop,{activityChanged:()=>{if(!stopped&&visible())void send(true);}});
 }
 
 export function usePresence(player: PlayerId | null, csrf: string | undefined, activity: Activity = "home") {
   const currentActivity = useRef(activity);
   currentActivity.current = activity;
+  const tracker=useRef<ReturnType<typeof trackPresence>|null>(null),previousActivity=useRef(activity);
   const [snapshot, setSnapshot] = useState<PresenceSnapshot>(null);
   useEffect(() => {
     setSnapshot(null);
-    if (player && csrf) return trackPresence(player, csrf, setSnapshot, () => currentActivity.current);
+    if(player&&csrf){const tracked=trackPresence(player,csrf,setSnapshot,()=>currentActivity.current);tracker.current=tracked;return()=>{tracker.current=null;tracked();};}
   }, [player, csrf]);
+  useEffect(()=>{if(previousActivity.current!==activity){previousActivity.current=activity;tracker.current?.activityChanged();}},[activity]);
   return snapshot;
 }

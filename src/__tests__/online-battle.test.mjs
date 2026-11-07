@@ -12,7 +12,7 @@ suite('server-owned online friend battles',()=>{
   const r=await fetch(url+'/api/'+path,{method:body===undefined?'GET':'POST',headers:{Origin:url,...(body===undefined?{}:{'Content-Type':'application/json'}),...(client?{Cookie:client.cookie,'X-CSRF-Token':client.csrf}:{}),...extra},body:body===undefined?undefined:JSON.stringify(body)});
   const data=await r.json();return {status:r.status,data,cookie:r.headers.get('set-cookie')?.split(';')[0],csrf:data.csrf};
  }
- const beat=(i,extra={})=>call('presence',{player:'quintus',clientId:randomUUID(),sequence:1,active:true,activity:'learning',...extra},clients[i]);
+ const beat=(i,extra={})=>call('presence',{player:'quintus',clientId:randomUUID(),sequence:1,active:true,activity:'home',...extra},clients[i]);
  const read=i=>call('online-battle?player=quintus',undefined,clients[i]);
  const action=(i,action,room,extra={})=>call('online-battle',{player:'quintus',action,commandId:randomUUID(),...(room?{room:room.id,revision:room.revision}:{}),...extra},clients[i]);
  const invite=async()=>{const r=await action(0,'invite',null,{friend:players[1].member,pet});expect(r.status).toBe(200);return r.data.room;};
@@ -33,7 +33,7 @@ suite('server-owned online friend battles',()=>{
  },30000);
  beforeEach(async()=>{
   await api.pool.query('DELETE FROM online_battles WHERE host=ANY($1::uuid[]) OR guest=ANY($1::uuid[])',[players.map(p=>p.member)]);
-  await api.pool.query('DELETE FROM request_limits');await beat(0);await beat(1);
+  await api.pool.query('DELETE FROM request_limits');await api.pool.query('DELETE FROM presence_leases WHERE token_hash IN(SELECT token_hash FROM sessions WHERE account_id=ANY($1::uuid[]))',[players.map(p=>p.account)]);await beat(0);await beat(1);
  });
  afterAll(async()=>{
   if(server)await new Promise(r=>server.close(r));
@@ -41,12 +41,18 @@ suite('server-owned online friend battles',()=>{
   await api?.close();
  });
  it('uses member identity across same-slot accounts; shows only live allowlisted activity',async()=>{
+  await beat(0,{activity:'learning'});
   let s=(await call('friends',undefined,clients[1])).data;
   expect(s.friends.find(f=>f.key===players[0].member).activity).toBe('learning');
   expect((await beat(0,{activity:'secret free text'})).status).toBe(400);
   expect((await beat(0,{player:'feifei'})).status).toBe(403);
   await api.pool.query("UPDATE presence_leases SET seen_at=now()-interval '40 seconds' WHERE token_hash IN (SELECT token_hash FROM sessions WHERE account_id=$1)",[players[0].account]);
   s=(await call('friends',undefined,clients[1])).data;expect(s.friends.find(f=>f.key===players[0].member).activity).toBe(null);
+ });
+ it('protects private friends from invitations while learning, including a second busy check on acceptance',async()=>{
+  await beat(1,{activity:'learning'});expect((await action(0,'invite',null,{friend:players[1].member,pet})).status).toBe(409);
+  await api.pool.query("UPDATE presence_leases SET activity='home' WHERE token_hash IN(SELECT token_hash FROM sessions WHERE member_id=$1)",[players[1].member]);const room=await invite();
+  await beat(1,{activity:'learning'});expect((await action(1,'accept',room,{pet})).status).toBe(409);expect(await progress()).toBe(baseline);
  });
  it('requires login, CSRF, player scope, explicit friend and live recipient',async()=>{
   expect((await call('online-battle?player=quintus')).status).toBe(401);
