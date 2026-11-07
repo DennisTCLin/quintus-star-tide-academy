@@ -1,0 +1,48 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107
+
+stdout | src/__tests__/finals-next100-cloud.test.mjs > next100 content on a fresh isolated PostgreSQL database > 1.pairs: preserves actual-main65d progress and raw storage on login/state
+next100-pinned-storage {"synthetic":true,"grade":1,"course":"pairs","mode":"array","base":"65d3a309bf012f6f54bd21d9b81387d45bf1c992","before":"dc8fd73318645157d5aeca9e9a36fcf0e982670407447ade7b2fda8b62e5388f","after":"dc8fd73318645157d5aeca9e9a36fcf0e982670407447ade7b2fda8b62e5388f","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-next100-cloud.test.mjs > next100 content on a fresh isolated PostgreSQL database > 1.pairs: preserves actual-main65d progress and raw storage on login/state
+next100-pinned-storage {"synthetic":true,"grade":1,"course":"pairs","mode":"prefix","base":"65d3a309bf012f6f54bd21d9b81387d45bf1c992","before":"8e7f1ba94179e50b8c205344a850901a9d46fd935ab4ac92da808b4ee7ada1b2","after":"8e7f1ba94179e50b8c205344a850901a9d46fd935ab4ac92da808b4ee7ada1b2","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-next100-cloud.test.mjs > next100 content on a fresh isolated PostgreSQL database > 2.words: preserves actual-main65d progress and raw storage on login/state
+next100-pinned-storage {"synthetic":true,"grade":2,"course":"words","mode":"array","base":"65d3a309bf012f6f54bd21d9b81387d45bf1c992","before":"6c8498e5653ace0a81342aeccaadff3ab15d7daadf3fb361817bf94342863131","after":"6c8498e5653ace0a81342aeccaadff3ab15d7daadf3fb361817bf94342863131","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-next100-cloud.test.mjs > next100 content on a fresh isolated PostgreSQL database > 2.words: preserves actual-main65d progress and raw storage on login/state
+next100-pinned-storage {"synthetic":true,"grade":2,"course":"words","mode":"prefix","base":"65d3a309bf012f6f54bd21d9b81387d45bf1c992","before":"26b66a078f922e7cad54eac3e034b5b6f3cb361d7b14294ab76bcbe5de05f522","after":"26b66a078f922e7cad54eac3e034b5b6f3cb361d7b14294ab76bcbe5de05f522","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-next100-cloud.test.mjs > next100 content on a fresh isolated PostgreSQL database > 2.math: preserves actual-main65d progress and raw storage on login/state
+next100-pinned-storage {"synthetic":true,"grade":2,"course":"math","mode":"array","base":"65d3a309bf012f6f54bd21d9b81387d45bf1c992","before":"91fb2faaab6dfb4ec4fdf5b44a881b148bc93ffe3a9f223ba81b77effdc54b59","after":"91fb2faaab6dfb4ec4fdf5b44a881b148bc93ffe3a9f223ba81b77effdc54b59","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-next100-cloud.test.mjs > next100 content on a fresh isolated PostgreSQL database > 2.math: preserves actual-main65d progress and raw storage on login/state
+next100-pinned-storage {"synthetic":true,"grade":2,"course":"math","mode":"prefix","base":"65d3a309bf012f6f54bd21d9b81387d45bf1c992","before":"42d63d3a68c5af33132902cd4888acf0f47c04d6bea25701bf6eff7d137b337c","after":"42d63d3a68c5af33132902cd4888acf0f47c04d6bea25701bf6eff7d137b337c","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-next100-cloud.test.mjs > next100 content on a fresh isolated PostgreSQL database > 6.science: preserves actual-main65d progress and raw storage on login/state
+next100-pinned-storage {"synthetic":true,"grade":6,"course":"science","mode":"array","base":"65d3a309bf012f6f54bd21d9b81387d45bf1c992","before":"4f9e2ea99671da42185f05dbfd7c4b23c02940134475d3664cb1894954957440","after":"4f9e2ea99671da42185f05dbfd7c4b23c02940134475d3664cb1894954957440","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-next100-cloud.test.mjs > next100 content on a fresh isolated PostgreSQL database > 6.science: preserves actual-main65d progress and raw storage on login/state
+next100-pinned-storage {"synthetic":true,"grade":6,"course":"science","mode":"prefix","base":"65d3a309bf012f6f54bd21d9b81387d45bf1c992","before":"fd7357cbc9d685464d311736d00107f99f7e635115e7024ab967c1e674c33188","after":"fd7357cbc9d685464d311736d00107f99f7e635115e7024ab967c1e674c33188","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-next100-cloud.test.mjs > next100 content on a fresh isolated PostgreSQL database > 6.math: preserves actual-main65d progress and raw storage on login/state
+next100-pinned-storage {"synthetic":true,"grade":6,"course":"math","mode":"array","base":"65d3a309bf012f6f54bd21d9b81387d45bf1c992","before":"bf1550372ca611355f8cc3af1ca6e1b5b4841f6920bf8dda4bf12ff0ea9fc379","after":"bf1550372ca611355f8cc3af1ca6e1b5b4841f6920bf8dda4bf12ff0ea9fc379","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-next100-cloud.test.mjs > next100 content on a fresh isolated PostgreSQL database > 6.math: preserves actual-main65d progress and raw storage on login/state
+next100-pinned-storage {"synthetic":true,"grade":6,"course":"math","mode":"prefix","base":"65d3a309bf012f6f54bd21d9b81387d45bf1c992","before":"9f2691813b9575bf1187e0e1db3c227247bd3ec9615e662d7f79aa85ff64a37d","after":"9f2691813b9575bf1187e0e1db3c227247bd3ec9615e662d7f79aa85ff64a37d","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+ ✓ src/__tests__/finals-next100-cloud.test.mjs (10 tests) 4638ms
+   ✓ next100 content on a fresh isolated PostgreSQL database (10)
+     ✓ 1.pairs: preserves actual-main65d progress and raw storage on login/state 425ms
+     ✓ 1.pairs: allocates new matched sources, reloads and rewards an answer once 318ms
+     ✓ 2.words: preserves actual-main65d progress and raw storage on login/state 396ms
+     ✓ 2.math: preserves actual-main65d progress and raw storage on login/state 394ms
+     ✓ 6.science: preserves actual-main65d progress and raw storage on login/state 396ms
+     ✓ 6.math: preserves actual-main65d progress and raw storage on login/state 396ms
+
+ Test Files  1 passed (1)
+      Tests  10 passed (10)
+   Start at  18:58:03
+   Duration  5.36s (tests 88%, import 8%, transform 4%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107/output/round6-paper-context/cloud-per-file/finals-next100-cloud.test.json

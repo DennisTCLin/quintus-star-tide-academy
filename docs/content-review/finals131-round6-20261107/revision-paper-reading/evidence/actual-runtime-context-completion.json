@@ -1,0 +1,1061 @@
+{
+  "reason": "Dictionary-only enumeration missed dynamically composed actual corpus text; complete exact Chinese runs from real static/generated/source values",
+  "rows": [
+    {
+      "word": "原卷註",
+      "readings": [
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄓㄨˋ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "hc1-hc-ca108-9-1",
+          "field": "prompt"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-hc-ca108-9-2",
+          "field": "prompt"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-hc-ca108-9-3",
+          "field": "prompt"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-hc-ca108-9-4",
+          "field": "prompt"
+        }
+      ]
+    },
+    {
+      "word": "原卷文字題改編",
+      "readings": [
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄨㄣˊ",
+        "ㄗˋ",
+        "ㄊㄧˊ",
+        "ㄍㄞˇ",
+        "ㄅㄧㄢ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "hc1-extra-c77f4985303f1d19",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-bcd00e365c32f629",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-45e57046efe00c5a",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-e9ef6f13801a0f3a",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-870728face7184e1",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-6ed1bac290b58e5d",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-04c0e86c39299a41",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-6e16c28c4466c957",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-0742921cd036476b",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-82edd0729e15db02",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-acc2b782ca0f85a5",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-75ab1d0db94ba7e1",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-d8e57757b7377ac7",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-9c031a6b36980c6e",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-620fe0699d4fb49e",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-86093bfc1ac97998",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-cdb1851731c4b9bd",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-6711da894b07d566",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-999143348cf8f6ad",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-cf34ab100e07cf26",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-08677a0c9792c9f1",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-8eb11eb656f10714",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-3c3d45b82f668bb1",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-86552908c3e9d1ef",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-f71f75cdb260b482",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-d3a54fc45253bc9a",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-917ca75ebae2fdd0",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-6c3783d3f584fee3",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-37e2fbaf5b5a88f2",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-90054f928a2e8c60",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-834444611121c053",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-1c3db645755242da",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-c2447207ab85b56d",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-a7d685dabab8067e",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-0b7a5f1b78d744c8",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-4740539192ac175a",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-58fede48b64243b9",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-82b225eb405c17a5",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-a055e3184e823403",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-5b2a16ff8cedde10",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-1913f0ce0e92f84f",
+          "field": "examSources.0.kind"
+        }
+      ]
+    },
+    {
+      "word": "原卷節錄",
+      "readings": [
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄐㄧㄝˊ",
+        "ㄌㄨˋ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "hc1-extra-b7eb40df5dd979a3",
+          "field": "prompt"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-e73847f3badd1909",
+          "field": "prompt"
+        }
+      ]
+    },
+    {
+      "word": "原卷節錄整理",
+      "readings": [
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄐㄧㄝˊ",
+        "ㄌㄨˋ",
+        "ㄓㄥˇ",
+        "ㄌㄧˇ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "hc1-extra-24b1772888fda446",
+          "field": "prompt"
+        },
+        {
+          "kind": "static",
+          "id": "hc1-extra-8b3b3b8787ffa215",
+          "field": "prompt"
+        }
+      ]
+    },
+    {
+      "word": "原卷地震報告摘錄",
+      "readings": [
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄉㄧˋ",
+        "ㄓㄣˋ",
+        "ㄅㄠˋ",
+        "ㄍㄠˋ",
+        "ㄓㄞ",
+        "ㄌㄨˋ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "sx1-ks1-4-1-3",
+          "field": "prompt"
+        },
+        {
+          "kind": "static",
+          "id": "sx1-ks1-4-1-5",
+          "field": "prompt"
+        }
+      ]
+    },
+    {
+      "word": "原卷水域調查表文字化",
+      "readings": [
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄕㄨㄟˇ",
+        "ㄩˋ",
+        "ㄉㄧㄠˋ",
+        "ㄔㄚˊ",
+        "ㄅㄧㄠˇ",
+        "ㄨㄣˊ",
+        "ㄗˋ",
+        "ㄏㄨㄚˋ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "sx1-ks2-5-1",
+          "field": "prompt"
+        },
+        {
+          "kind": "static",
+          "id": "sx1-ks2-5-2",
+          "field": "prompt"
+        },
+        {
+          "kind": "static",
+          "id": "sx1-ks2-5-4",
+          "field": "prompt"
+        }
+      ]
+    },
+    {
+      "word": "原卷介紹臺灣每年",
+      "readings": [
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄐㄧㄝˋ",
+        "ㄕㄠˋ",
+        "ㄊㄞˊ",
+        "ㄨㄢ",
+        "ㄇㄟˇ",
+        "ㄋㄧㄢˊ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "sx1-ksu9-4-1",
+          "field": "prompt"
+        },
+        {
+          "kind": "static",
+          "id": "sx1-ksu9-4-2",
+          "field": "prompt"
+        },
+        {
+          "kind": "static",
+          "id": "sx1-ksu9-4-3",
+          "field": "prompt"
+        }
+      ]
+    },
+    {
+      "word": "原卷閱讀文章指出",
+      "readings": [
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄩㄝˋ",
+        "ㄉㄨˊ",
+        "ㄨㄣˊ",
+        "ㄓㄤ",
+        "ㄓˇ",
+        "ㄔㄨ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "soc1-ksn3-5-1",
+          "field": "prompt"
+        }
+      ]
+    },
+    {
+      "word": "這段文字整理自原卷所附",
+      "readings": [
+        "ㄓㄜˋ",
+        "ㄉㄨㄢˋ",
+        "ㄨㄣˊ",
+        "ㄗˋ",
+        "ㄓㄥˇ",
+        "ㄌㄧˇ",
+        "ㄗˋ",
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄙㄨㄛˇ",
+        "ㄈㄨˋ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "soc1-ksn3-5-1",
+          "field": "prompt"
+        }
+      ]
+    },
+    {
+      "word": "原卷氣溫圖中",
+      "readings": [
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄑㄧˋ",
+        "ㄨㄣ",
+        "ㄊㄨˊ",
+        "ㄓㄨㄥ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "soc1-ksn7-6-2-1",
+          "field": "prompt"
+        },
+        {
+          "kind": "static",
+          "id": "soc1-ksn7-6-2-2",
+          "field": "prompt"
+        }
+      ]
+    },
+    {
+      "word": "原卷午餐方案",
+      "readings": [
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄨˇ",
+        "ㄘㄢ",
+        "ㄈㄤ",
+        "ㄢˋ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "mx1-hm1-9-3-1",
+          "field": "prompt"
+        },
+        {
+          "kind": "static",
+          "id": "mx1-hm1-9-3-2",
+          "field": "prompt"
+        }
+      ]
+    },
+    {
+      "word": "原卷里程表",
+      "readings": [
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄌㄧˇ",
+        "ㄔㄥˊ",
+        "ㄅㄧㄠˇ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "mx1-hm6-2-5-里程",
+          "field": "prompt"
+        }
+      ]
+    },
+    {
+      "word": "原卷路線表",
+      "readings": [
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄌㄨˋ",
+        "ㄒㄧㄢˋ",
+        "ㄅㄧㄠˇ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "mx1-hm7-6-5-1",
+          "field": "prompt"
+        },
+        {
+          "kind": "static",
+          "id": "mx1-hm7-6-5-2",
+          "field": "prompt"
+        }
+      ]
+    },
+    {
+      "word": "原卷條件重述",
+      "readings": [
+        "ㄩㄢˊ",
+        "ㄐㄩㄢˋ",
+        "ㄊㄧㄠˊ",
+        "ㄐㄧㄢˋ",
+        "ㄔㄨㄥˊ",
+        "ㄕㄨˋ"
+      ],
+      "refs": [
+        {
+          "kind": "static",
+          "id": "m1hx-c77f4985303f1d19",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-bcd00e365c32f629",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-45e57046efe00c5a",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-e9ef6f13801a0f3a",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-8bb0708f6609911c",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-54069543840d71fe",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-65e8c182ea71a390",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-9232f62161a66060",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-4d25d4a7083e2509",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-eb76b8759e6ea38e",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-4a1254212b4c8c28",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-c9e320c825910246",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-964d01ccf184fa14",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-c39f362357dc0e05",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-37c3f852e5684452",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-0300e3a0a68e59e6",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-1a6b929e905c91f7",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-663147de9b558cb3",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-891945632f6d7e5b",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-3ced3e016cc5bc06",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-46e09899fd7740e7",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-50f9cac9947e8edf",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-8325cf9bb62851c6",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-771289b1c4034790",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-68850c80f6d0446d",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-815fc6346fa22528",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-f71f75cdb260b482",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-d3a54fc45253bc9a",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-bece286373065868",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-9b789a9fa2d2a6fc",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-f396eb3b52cec683",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-44430edc07733f94",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-16697167ac89bfb2",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-2f0f4f9bd66ed9b6",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-16e641bf32849ebc",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-983719628affd954",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-0b5ffc722ee4a057",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-408ab571319f0db2",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-222d2ff61b8e4aa3",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-e9d7567b6d15c395",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-e06978b48a5fb280",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-98c95b0863dcf868",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-00313d69c065f114",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-6ead974801b21f36",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-bc278b0e23a223df",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-d1cc2d23b3e5ad46",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-30b7130bf0fe2c7f",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-55041a7022b36f47",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-8922eceb19ab1aca",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-3b1981605460007b",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-8048d2d2a85b820a",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-204591ea1da8be6f",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-43bf266bfe177f50",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-60937d473caa5e3f",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-df8df8de5d7401cd",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-3b049401ea75317b",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-bd17e15fed628c23",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-e83025e27bdf91a3",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-0fcebe8a5dd685ba",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-8b9d546e29e800e3",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-3ba726fde33ab8cb",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-c5fe6bbcdea3432a",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-a5f6bb8bd820b880",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-835708aeb9d254bd",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-683da11ff8ad4648",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-7f1337061abcdea9",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-9c093eeb9c885c3f",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-bf207a0291c50163",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-1c0d37eb4bbb0e38",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-3e2201a2d19308c2",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-625b8489351c1d8f",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-50e3f497f4629b73",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-9345ca383d4797c5",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-69394db8e8cbe635",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-95c4664732cd0471",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-f0205306e9a47604",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-b3cf2de3cc4f3c0f",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-06067d055d0375c8",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-39376f72049b8494",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-2d643dfc873a06a1",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-31b2cdcc24597e5d",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-31c7f42b86a21207",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-374b9c6f3f7d573c",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-3134cf8dbecf5a7b",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-a3ca91c8bb28ed0e",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-14155180ee6b6d75",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-f899deae7c239f5e",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-ffec94e37bedbafb",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-7e5c7b42ab555f84",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-2fb84818cf03ef6d",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-d431efef8db15db5",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-b63384aae9d251ff",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-b8eccb21173e5ce7",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-9051aefb69bf3372",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-5296907233ae4c25",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-a669ca5fa1f94e78",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-7df48c91854334d4",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-cfd417c25ad03a15",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-f09bf4c92e7adf82",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-cf676b1ced884deb",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-f397bc73f0fe5ce0",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-6fed99ed9bf91693",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-ad54778428cb2819",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-2928ea677566fa4d",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-a1a9cbab4c831ba4",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-30e33a9d8043279a",
+          "field": "examSources.0.kind"
+        },
+        {
+          "kind": "static",
+          "id": "m1hx-2932150a0bc7d4ec",
+          "field": "examSources.0.kind"
+        }
+      ]
+    }
+  ]
+}

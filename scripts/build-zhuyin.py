@@ -61,5 +61,6 @@ for s,zs in phrases.items():
 # Exact reviewed new runs only; do not rewrite older phrases or global polyphone fallbacks.
 phrases.update(json.loads(Path('src/data/finals-next100-reading-overrides.json').read_text()))
 phrases.update(json.loads(Path('src/data/finals-round6-reading-overrides.json').read_text()))
+phrases.update(json.loads(Path('src/data/paper-context-reading-overrides.json').read_text()))
 Path('src/data/interface-zhuyin.json').write_text(json.dumps({'phrases':phrases,'chars':chars},ensure_ascii=False,separators=(',',':')))
 print(f'{len(phrases)} phrases, {len(chars)} characters')

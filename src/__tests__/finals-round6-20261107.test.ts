@@ -1,7 +1,7 @@
 import {it,expect} from 'vitest';
 import {createHash} from 'node:crypto';
 import {FINALS_ROUND6_20261107 as bank} from '../finals-round6-20261107';
-import {LEARNING_BANK,questionById} from '../learning';
+import {LEARNING_BANK,ENGLISH_REPHRASES,questionById} from '../learning';
 import {GENERATED_POOLS,generatedId,generatedQuestion} from '../question-generator';
 import {EXAM_SOURCES} from '../exam-sources';
 import {eligibleExam} from '../school-curriculum';
@@ -56,4 +56,29 @@ it('uses complete prompt/hint/answer contexts for points, polyphones and rare Ch
  expect(syllables(bank.find(q=>q.id==='r6-g6c-20003716-idiom4')!.prompt).filter(x=>x.text==='為').map(x=>x.zy)).toEqual(['ㄨㄟˊ']);
  expect(syllables(bank.find(q=>q.id==='r6-g6c-20003716-bo2')!.explanation).filter(x=>x.text==='薄').map(x=>x.zy)).toEqual(['ㄅㄛˊ','ㄅㄛˊ']);
  expect(syllables('腳踝').map(x=>x.zy)).toEqual(['ㄐㄧㄠˇ','ㄏㄨㄞˊ']);expect(syllables('醞釀').map(x=>x.zy)).toEqual(['ㄩㄣˋ','ㄋㄧㄤˋ']);expect(syllables('恣意').map(x=>x.zy)).toEqual(['ㄗˋ','ㄧˋ']);
+});
+
+it('reads the actual complete source kind as paper卷 and preserves curling捲 context',()=>{
+ const withPaper=bank.filter(q=>q.examSources?.some(s=>s.kind?.includes('卷')));expect(withPaper).toHaveLength(27);
+ for(const q of withPaper)for(const s of q.examSources??[])if(s.kind?.includes('卷'))expect(syllables(s.kind).filter(x=>x.text==='卷').map(x=>x.zy),q.id+':'+s.kind).toEqual(['ㄐㄩㄢˋ']);
+ for(const id of ['r6m20000588','r6c20000878','r6c20003716'] as const){const meta=EXAM_SOURCES[id];for(const field of [meta.publisherEvidence,meta.scope])expect(syllables(field).filter(x=>x.text==='卷').map(x=>x.zy),id+':'+field).toEqual(['ㄐㄩㄢˋ']);}
+ const existing=questionById('g6c-c9d6a24638e211fc1b')!;expect(syllables(existing.options[0].text).at(-1)?.zy).toBe('ㄐㄩㄢˋ');expect(syllables(existing.explanation).filter(x=>x.text==='卷').map(x=>x.zy)).toEqual(['ㄐㄩㄢˇ','ㄐㄩㄢˇ','ㄐㄩㄢˋ','ㄐㄩㄢˋ']);expect(syllables('書卷').map(x=>x.zy)).toEqual(['ㄕㄨ','ㄐㄩㄢˋ']);expect(syllables('銀絲卷').at(-1)?.zy).toBe('ㄐㄩㄢˇ');
+ expect(syllables('試卷').map(x=>x.zy)).toEqual(['ㄕˋ','ㄐㄩㄢˋ']);expect(syllables('考卷').map(x=>x.zy)).toEqual(['ㄎㄠˇ','ㄐㄩㄢˋ']);expect(syllables('捲曲').map(x=>x.zy)).toEqual(['ㄐㄩㄢˇ','ㄑㄩ']);
+});
+
+it('checks paper meanings in every actual static/generated/source field, including composed JSON text',()=>{
+ const terms=['試卷','考卷','原卷','整卷','舊卷','書卷','卷首','卷面','手不釋卷'];let occurrences=0;
+ const cache=new Map<string,ReturnType<typeof syllables>>();
+ function check(value:unknown,label:string){
+  if(typeof value==='string'){
+   if(!terms.some(term=>value.includes(term)))return;
+   if(!cache.has(value))cache.set(value,syllables(value));const actual=cache.get(value)!;
+   for(const term of terms){let start=0,at:number;while((at=value.indexOf(term,start))>=0){const position=Array.from(value.slice(0,at+term.indexOf('卷'))).length;expect(actual[position]?.zy,label+':'+value).toBe('ㄐㄩㄢˋ');occurrences++;start=at+term.length;}}
+  }else if(value&&typeof value==='object')for(const[k,v]of Object.entries(value))check(v,label+'.'+k);
+ }
+ for(const q of [...LEARNING_BANK,...ENGLISH_REPHRASES])check(q,q.id);
+ for(const pool of GENERATED_POOLS)for(let i=0;i<pool.params.length;i++){const id=generatedId(pool,i);check(generatedQuestion(id),id);}
+ for(const[id,source]of Object.entries(EXAM_SOURCES))check(source,'source.'+id);
+ expect(occurrences).toBeGreaterThan(600);
+ expect(syllables('銀絲卷').at(-1)?.zy).toBe('ㄐㄩㄢˇ');expect(syllables('捲曲')[0].zy).toBe('ㄐㄩㄢˇ');
 });

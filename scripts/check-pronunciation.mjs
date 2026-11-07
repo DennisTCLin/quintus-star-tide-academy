@@ -55,6 +55,8 @@ for (const [word,expected] of Object.entries(read('src/data/finals-next100-readi
   if (JSON.stringify(dictionary.phrases[word]) !== JSON.stringify(expected)) failures.push(`Exact next100 reading changed: ${word}`);
 for (const [word,expected] of Object.entries(read('src/data/finals-round6-reading-overrides.json')))
   if (JSON.stringify(dictionary.phrases[word]) !== JSON.stringify(expected)) failures.push(`Exact round6 reading changed: ${word}`);
+for (const [word,expected] of Object.entries(read('src/data/paper-context-reading-overrides.json')))
+  if (JSON.stringify(dictionary.phrases[word]) !== JSON.stringify(expected)) failures.push(`Exact paper context reading changed: ${word}`);
 if (failures.length) {
   console.error([...new Set(failures)].join('\n'));
   console.error('Review new text against Taiwan MOE readings, update reviewed context rules, then regenerate with scripts/build-zhuyin.py.');

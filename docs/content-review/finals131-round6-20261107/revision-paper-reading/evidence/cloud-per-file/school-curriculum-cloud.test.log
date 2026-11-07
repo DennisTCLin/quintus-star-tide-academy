@@ -1,0 +1,61 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+authenticated-routing-evidence {"synthetic":true,"case":"jimmy","id":"cxg2-102ce80cad5806c8","grade":2,"course":"words","publisher":"康軒","sources":["g2ck1"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+authenticated-grade2-battle-evidence {"synthetic":true,"case":"jimmy","id":"cxg2-2209ad15c59344bc","grade":2,"course":"words","publisher":"康軒","sources":["g2ck2"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+authenticated-routing-evidence {"synthetic":true,"case":"jimmy","id":"cxg2-04303d22f075fdb4","grade":2,"course":"pairs","publisher":"康軒","sources":["g2ck2"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+authenticated-grade2-battle-evidence {"synthetic":true,"case":"jimmy","id":"cxg2-33d2a99fa27f0e59","grade":2,"course":"pairs","publisher":"康軒","sources":["g2ck2"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+authenticated-routing-evidence {"synthetic":true,"case":"jimmy","id":"f2-20003916-i10-2","grade":2,"course":"math","publisher":"南一","sources":["f220003916"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+authenticated-grade2-battle-evidence {"synthetic":true,"case":"jimmy","id":"f2-20003916-i10-4","grade":2,"course":"math","publisher":"南一","sources":["f220003916"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+authenticated-routing-evidence {"synthetic":true,"case":"feifei","id":"cxg2-02202e4b33e9d6cc","grade":2,"course":"words","publisher":"康軒","sources":["g2ck3"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+authenticated-grade2-battle-evidence {"synthetic":true,"case":"feifei","id":"cxg2-102ce80cad5806c8","grade":2,"course":"words","publisher":"康軒","sources":["g2ck1"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+authenticated-routing-evidence {"synthetic":true,"case":"feifei","id":"cxg2-04303d22f075fdb4","grade":2,"course":"pairs","publisher":"康軒","sources":["g2ck2"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+authenticated-grade2-battle-evidence {"synthetic":true,"case":"feifei","id":"cxg2-33d2a99fa27f0e59","grade":2,"course":"pairs","publisher":"康軒","sources":["g2ck2"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+authenticated-routing-evidence {"synthetic":true,"case":"feifei","id":"f2-20003916-i10-2","grade":2,"course":"math","publisher":"南一","sources":["f220003916"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+authenticated-grade2-battle-evidence {"synthetic":true,"case":"feifei","id":"f2-20003916-i10-4","grade":2,"course":"math","publisher":"南一","sources":["f220003916"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > routes math by authenticated school and keeps younger math age appropriate
+authenticated-math-routing-evidence {"synthetic":true,"case":"alan","id":"mx1-hm1-1-1","grade":4,"course":"math","publisher":"翰林","sources":["hm1"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > routes math by authenticated school and keeps younger math age appropriate
+authenticated-math-routing-evidence {"synthetic":true,"case":"quintus","id":"g4mk1-1-1","grade":4,"course":"math","publisher":"康軒","sources":["g4m-k1"]}
+
+stdout | src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > routes math by authenticated school and keeps younger math age appropriate
+authenticated-math-routing-evidence {"synthetic":true,"case":"jimmy","id":"f2-20003916-i10-6","grade":2,"course":"math","publisher":"南一","sources":["f220003916"]}
+
+ ✓ src/__tests__/school-curriculum-cloud.test.mjs (21 tests) 8704ms
+   ✓ school routing through authenticated cloud API (21)
+     ✓ routes authenticated Jasper to first-grade exams and preserves existing saves and rewards 401ms
+     ✓ routes Jay by the authenticated account and saves supplied and fallback courses without answer leakage 892ms
+     ✓ serves continuation questions after old-source mastery without resetting rewards 620ms
+     ✓ persists new math/social and English intersection voyages while retaining prior source mastery 604ms
+
+ Test Files  1 passed (1)
+      Tests  21 passed (21)
+   Start at  18:58:59
+   Duration  9.30s (tests 94%, import 4%, transform 2%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107/output/round6-paper-context/cloud-per-file/school-curriculum-cloud.test.json
