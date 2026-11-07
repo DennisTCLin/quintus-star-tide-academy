@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g5-math",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "564×49＋49×□＝569×49，□應填入哪個數？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g5-math",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "一個角錐有8個頂點，它有幾條邊？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g5-math",
+    "firstQuestion": "phase3-g5-math-1",
+    "answerButton": "選擇 5",
+    "total": 6,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

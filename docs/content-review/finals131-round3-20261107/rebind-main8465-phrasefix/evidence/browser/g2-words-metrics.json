@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g2-words",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "「俗語說：『牛簽到北京，還是牛。』」句中的「簽」應改成哪個字？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g2-words",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "「樹上的小鳥非走了。」句中的「非」應改成哪個字？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g2-words",
+    "firstQuestion": "phase3-lang-20003915-25",
+    "answerButton": "選擇 牽",
+    "total": 6,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

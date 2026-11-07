@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g6-science",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "下列哪組最能說明土壤中固體物質的主要來源？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g6-science",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "其他條件相同時，下列哪個方法通常能增強電磁鐵吸迴紋針的能力？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g6-science",
+    "firstQuestion": "phase3-h6-114-i2",
+    "answerButton": "選擇 風化的岩石碎屑與腐植質",
+    "total": 6,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

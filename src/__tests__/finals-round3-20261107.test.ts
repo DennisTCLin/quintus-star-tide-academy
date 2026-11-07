@@ -110,3 +110,13 @@ it('uses reviewed readings for看家and長頸鹿',()=>{
  expect(syllables('看家').map(x=>x.zy)).toEqual(['ㄎㄢ','ㄐㄧㄚ']);
  expect(syllables('長頸鹿').map(x=>x.zy)).toEqual(['ㄔㄤˊ','ㄐㄧㄥˇ','ㄌㄨˋ']);
 });
+
+it('keeps the precise磅礴reading separate from the weight-unit fallback',()=>{
+ expect(syllables('磅礴').map(x=>x.zy)).toEqual(['ㄆㄤ','ㄅㄛˊ']);
+ expect(syllables('氣勢磅礴').slice(-2).map(x=>x.zy)).toEqual(['ㄆㄤ','ㄅㄛˊ']);
+ expect(syllables('一磅').at(-1)?.zy).toBe('ㄅㄤˋ');
+ expect(syllables('英磅').map(x=>x.zy)).toEqual(['ㄧㄥ','ㄅㄤˋ']);
+ expect(syllables('看家').map(x=>x.zy)).toEqual(['ㄎㄢ','ㄐㄧㄚ']);
+ expect(syllables('觀看').at(-1)?.zy).toBe('ㄎㄢˋ');
+ expect(syllables('看').at(-1)?.zy).toBe('ㄎㄢˋ');
+});

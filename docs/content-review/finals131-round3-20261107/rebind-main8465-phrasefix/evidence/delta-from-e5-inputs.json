@@ -1,0 +1,31 @@
+{
+  "historicalHead": "e5c01dcb54764281c31e3ae2c6fe713312cfc361",
+  "changes": [
+    {
+      "path": "src/__tests__/finals-round3-20261107.test.ts",
+      "old": "a8693836f09e72396a9253c12e8d23011faf1b7d26a8f8063c7dcbe8c01818c2",
+      "new": "8016f7b3629c5a411a60a518df7048e6e0c5d0242aeb2dab56117744313b7e91"
+    },
+    {
+      "path": "src/data/interface-zhuyin-packed.json",
+      "old": "bd663e9a834c5f3791a2ac8c5e64ae9491fbefcea4177c19a3f244b61b4728d7",
+      "new": "9f70bceaf3144e5a22ad8406deacd8d3a65fe17ad5b91181ceebb677739a6c47"
+    },
+    {
+      "path": "src/data/interface-zhuyin.json",
+      "old": "872f5100557f70b8b535fcfc9335368990deb22a20e72df9d8e95819b6181aa2",
+      "new": "dd55fefd75b0190602f8e00026895aa98f797a35d582017ea915af2cf22d0e54"
+    },
+    {
+      "path": "src/data/taiwan-zhuyin-overrides.json",
+      "old": "699bfa2516c249fb58e94a2016e27348a2b62d4fa485442a0460eb4a6f986afa",
+      "new": "f002d2198422053658aeae4d3f0c7854f94196289317e3e3de3dbfc0c6834633"
+    },
+    {
+      "path": "build/game.mjs",
+      "old": "6c0b0953d4b6ce6b41ab8c0c54031a3f4023041a772dbae1f3005882ed3afe1e",
+      "new": "654ad79f921b1bcbebae16f1aa57289d79a2470c78fd1a3f30ff9f17b25fdb03"
+    }
+  ],
+  "allOtherInputsUnchanged": 779
+}
