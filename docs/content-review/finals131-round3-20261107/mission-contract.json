@@ -1,7 +1,7 @@
 {
   "userGoal": "Review131sourcepapers then admit only source/publisher/book/unit/answer verified self-contained questions;preserve all old child state/rewards",
   "rootOnlyWriter": true,
-  "stackedBase": "036cf3818ae0df912b934378a77f0349295e5537",
+  "stackedBase": "386bd57046ba8e12828afbeb6b0310774af680e0",
   "legacyStaticObjects": 6521,
   "candidates": 115,
   "new": 108,
@@ -23,6 +23,6 @@
     "mixing adult changes",
     "production writes without coordinated fresh release gate"
   ],
-  "verificationStatus": "content, build, 1576 ordinary tests, 300 fresh-PG tests, exact296-skip coverage, 8 synthetic UI lanes PASS; pending coordinated final-main gate and production BEFORE/AFTER",
+  "verificationStatus": "build,31 targeted,1873 unique ordinary+freshPG and8 synthetic UI PASS; independent source/evidence BOUNDED_PASS; formal release pending",
   "productionReleased": false
 }

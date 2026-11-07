@@ -1,0 +1,7 @@
+# 修訂後上游固定基線
+
+來源為精確git archive 386bd57046ba8e12828afbeb6b0310774af680e0的src/curriculum，tree aa2c492d522ba39c844e3da2a57d52d4753dcf87，archive SHA與執行位置在base-provenance.json。不是本支108題candidate，也不是正式資料庫快照。
+
+將該archive解開到臨時資料夾，連結已安裝repo dependencies，用esbuild(platform=node、format=esm)分別bundle src/adventure.ts及src/learning.ts到output/finals131-phase3/rebind386bd的base-adventure.mjs、base-learning.mjs；把此處generate-fixtures.mjs複製到同資料夾，從repo根執行。8條課程完成第一題並移到index1後保存完整family、原序列化狀態與run題物件SHA。重建當下時間可不同，不承諾逐byte同一JSON；本次使用已提交固定fixture作斷言。
+
+base036cf的原fixture與舊報告仍在上層fixtures/evidence作歷史。baseline-transition.json逐一核對6521個ID，只一個上游已修訂題的物件hash改變，無ID/選項/答鍵變更。所有當前保存及source guard測試綁本base386bd，而不是略過失敗、或讓候選產生自己的預期值。合併PR19後仍須當時main的新固定基線及正式BEFORE/AFTER。

@@ -3425,14 +3425,14 @@
     "course": "words",
     "subject": "chinese",
     "publisher": "康軒",
-    "prompt": "大〔ㄒㄧㄤˋ〕粗壯的腿像柱子。括號注音應寫成哪個字？",
+    "prompt": "這種動物有長鼻子。大〔ㄒㄧㄤˋ〕粗壯的腿像柱子。括號注音應寫成哪個字？",
     "options": [
       "象",
       "像"
     ],
     "answer": 0,
     "hint": "留意前後詞句，再比較字形、字音或詞語的意思。",
-    "explanation": "依這段詞句的意思，正確答案是「象」。",
+    "explanation": "前句已明指有長鼻子的動物，這裡的動物名稱是「大象」，應填「象」；「像」可表示相似或雕像。",
     "level": 1,
     "sourceFamily": "p2-20003307-letter",
     "examSources": [

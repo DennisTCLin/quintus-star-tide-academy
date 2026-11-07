@@ -11,7 +11,7 @@ import {newFamily,startRun,answerRun,validateFamily} from '../adventure';
 import legacy from '../../docs/content-review/finals131-round3-20261107/legacy-digests.json';
 import expected from '../../docs/content-review/finals131-round3-20261107/blind-expected.json';
 import mapping from '../../docs/content-review/finals131-round3-20261107/mapping.json';
-import fixtures from '../../docs/content-review/finals131-round3-20261107/fixtures/base036cf-families.json';
+import fixtures from '../../docs/content-review/finals131-round3-20261107/rebind-386bd/fixtures/base386bd-families.json';
 const hash=(value:unknown)=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const cases=[
  ['qingqing',1,'xingan','tones'],['qingqing',1,'xingan','pairs'],
@@ -20,7 +20,7 @@ const cases=[
  ['alston',6,'jianan','science'],['alston',6,'jianan','math'],
 ] as const;
 
-it('preserves every base036cf static question, saved ID and answer semantics',()=>{
+it('preserves every base386bd static question, saved ID and answer semantics',()=>{
  expect(Object.keys(legacy)).toHaveLength(6521);
  for(const [id,digest] of Object.entries(legacy))expect(hash(questionById(id)),id).toBe(digest);
 });
@@ -65,7 +65,7 @@ it('keeps six duplicate provenance records without altering stable question obje
  for(const duplicate of duplicates){expect(bank.some(q=>q.id===duplicate.candidateId)).toBe(false);expect(questionById(duplicate.retainedId!)).toBeDefined();}
 });
 it('retains full pinned pre-followup voyages and rewards across both storage representations',()=>{
- expect(fixtures.base).toBe('036cf3818ae0df912b934378a77f0349295e5537');
+ expect(fixtures.base).toBe('386bd57046ba8e12828afbeb6b0310774af680e0');
  expect(fixtures.items).toHaveLength(8);
  for(const item of fixtures.items){
   for(const [id,digest] of Object.entries(item.runQuestionHashes))expect(hash(questionById(id)),id).toBe(digest);

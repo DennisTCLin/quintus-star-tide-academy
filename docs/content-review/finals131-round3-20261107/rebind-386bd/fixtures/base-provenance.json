@@ -1,0 +1,12 @@
+{
+  "baseCommit": "386bd57046ba8e12828afbeb6b0310774af680e0",
+  "baseTree": "aa2c492d522ba39c844e3da2a57d52d4753dcf87",
+  "sourceArchiveSha256": "d0d8fc0827683a3d1ffcf5ed03651b45ae6c68d2784762e53fb4c72d4b222413",
+  "paths": [
+    "src",
+    "curriculum"
+  ],
+  "temporarySourceRoot": "/var/folders/x2/wg63mxn9069gk06z14x00w7r0000gn/T/finals131-base386bd-zbnykvyr",
+  "productionSnapshot": false,
+  "sourceOfTruth": "exact git archive corrected PR22; not target PR23 or formal DB"
+}

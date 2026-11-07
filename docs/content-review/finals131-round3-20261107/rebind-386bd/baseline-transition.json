@@ -1,0 +1,15 @@
+{
+  "oldBase": "036cf3818ae0df912b934378a77f0349295e5537",
+  "newBase": "386bd57046ba8e12828afbeb6b0310774af680e0",
+  "changedIds": [
+    "phase2-g2h-20003307-i-5"
+  ],
+  "changes": {
+    "phase2-g2h-20003307-i-5": {
+      "before": "f31ba72a343f42a09018e3f5b404b682306a19e017780aba70280a6538519ffa",
+      "after": "656513d0577819ba17e1a8f4616b9e16738c3f0743c6e7f2def2d65f7f096b38"
+    }
+  },
+  "keysUnchanged": 6521,
+  "reason": "one upstream candidate context correction; stable ID/options/answer preserved; no PR23 question edits"
+}

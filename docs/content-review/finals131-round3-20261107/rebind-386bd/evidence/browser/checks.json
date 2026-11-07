@@ -1,0 +1,106 @@
+{
+  "synthetic": true,
+  "production": false,
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "cases": [
+    {
+      "label": "g1-tones",
+      "id": "phase3-lang-20003305-3",
+      "answer": "選擇 四聲",
+      "afterReloadIndex": 1,
+      "metrics": {
+        "brokenImages": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "console": []
+    },
+    {
+      "label": "g1-pairs",
+      "id": "phase3-lang-20003305-2",
+      "answer": "選擇 ㄎㄢ",
+      "afterReloadIndex": 1,
+      "metrics": {
+        "brokenImages": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "console": []
+    },
+    {
+      "label": "g2-words",
+      "id": "phase3-lang-20003915-25",
+      "answer": "選擇 牽",
+      "afterReloadIndex": 1,
+      "metrics": {
+        "brokenImages": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "console": []
+    },
+    {
+      "label": "g2-pairs",
+      "id": "phase3-lang-20003915-21",
+      "answer": "選擇 ㄌㄧㄠˊ",
+      "afterReloadIndex": 1,
+      "metrics": {
+        "brokenImages": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "console": []
+    },
+    {
+      "label": "g5-math",
+      "id": "phase3-g5-math-1",
+      "answer": "選擇 5",
+      "afterReloadIndex": 1,
+      "metrics": {
+        "brokenImages": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "console": []
+    },
+    {
+      "label": "g5-social",
+      "id": "phase3-g5-social-1",
+      "answer": "選擇 正確",
+      "afterReloadIndex": 1,
+      "metrics": {
+        "brokenImages": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "console": []
+    },
+    {
+      "label": "g6-science",
+      "id": "phase3-h6-114-i2",
+      "answer": "選擇 風化的岩石碎屑與腐植質",
+      "afterReloadIndex": 1,
+      "metrics": {
+        "brokenImages": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "console": []
+    },
+    {
+      "label": "g6-math",
+      "id": "phase3-dd6m-20003226-i1",
+      "answer": "選擇 錯誤",
+      "afterReloadIndex": 1,
+      "metrics": {
+        "brokenImages": [],
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "console": []
+    }
+  ]
+}
