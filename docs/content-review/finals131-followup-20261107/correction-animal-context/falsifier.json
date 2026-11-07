@@ -1,0 +1,42 @@
+{
+  "reviewer": "pr22_context_falsifier",
+  "status": "BOUNDED_PASS",
+  "resolvedFindings": [
+    {
+      "priority": "P2",
+      "issue": "new explanation長 wronglyㄓㄤˇ",
+      "fix": "exact full explanation sentence override; real runtime characters/readings asserted",
+      "rechecked": "prompt index5/explanation index6 text長 zyㄔㄤˊ"
+    }
+  ],
+  "independentChecks": {
+    "upstream6311QuestionObjectsAndApprovalsUnchanged": true,
+    "frozenOther209ObjectsAndApprovalsUnchanged": true,
+    "all210IdsOptionsAnswersUnchanged": true,
+    "generatedUnchanged": 23192,
+    "oldDictionaryPhrasesUnchanged": 26688,
+    "oldDictionaryCharsUnchanged": 3028,
+    "newPhrases": 5,
+    "newChars": 0,
+    "oldQuestionRuntimePronunciationsUnchanged": true,
+    "packedReadableEqual": true,
+    "targetApprovalHash": "89c92b1d4245123707f26cd22e94dbe8ca15be81fc2f8097e5b37aa55833a941",
+    "sourcePdfAndPublisherShaSpotChecks": "PASS",
+    "targetedPass": 16,
+    "ordinaryPass": 1562,
+    "ordinarySkip": 280,
+    "freshPgFiles": 30,
+    "freshPgPass": 284,
+    "freshDatabaseNamesUnique": 30,
+    "preflightTablesAll": 0,
+    "exactSkippedCovered": 280,
+    "overlap": 4,
+    "uniqueTestsPass": 1842,
+    "browserSyntheticPass": true
+  },
+  "limits": [
+    "scope is only this content correction and evidence",
+    "no formal DB BEFORE/AFTER",
+    "no deployment or release approval"
+  ]
+}

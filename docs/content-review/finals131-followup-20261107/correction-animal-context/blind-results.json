@@ -1,0 +1,23 @@
+{
+  "reviewer": "grade2_final_content_review",
+  "mode": "independent answer-free blind",
+  "packetSHA": "067d182b561b733bd66aa3c39a818ba13dbb336635035da1173fc5bc3fcc1cb9",
+  "results": [
+    {
+      "id": "phase2-g2h-20003307-i-5",
+      "answerIndex": 0,
+      "answerText": "象",
+      "unique": true,
+      "reason": "動物與長鼻子自足條件限定為大象；像不是此處動物名稱的正確用字。",
+      "prompt": "這種動物有長鼻子。大〔ㄒㄧㄤˋ〕粗壯的腿像柱子。括號注音應寫成哪個字？",
+      "options": [
+        "象",
+        "像"
+      ]
+    }
+  ],
+  "sources": [
+    "https://dict.mini.moe.edu.tw/SearchIndex/word_detail?breadcrumbs=Search_%E8%B1%A1_one&dictSearchField=%E8%B1%A1&wordID=D0002772"
+  ],
+  "scope": "answer uniqueness only; no deployment approval"
+}

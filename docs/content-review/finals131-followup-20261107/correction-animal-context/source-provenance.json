@@ -1,0 +1,19 @@
+{
+  "sourceId": "20003307",
+  "locator": "page1 i-5",
+  "originalQ": {
+    "file": "/Users/dennistclin/Downloads/題庫續抓-20261103/待核對期末原卷/來源頁首待核/9416ba023eda6297.pdf",
+    "sha256": "9416ba023eda629791204a0f8259d0e6499e187ce1dce7ba5663a58b0cd6fb56",
+    "header": "臺南市和順國小114第一學期第二次評量二年級國語",
+    "sourceContext": "動物園段落已有粗壯腿及長鼻；單題化時補回必要情境"
+  },
+  "publisher": {
+    "file": "/Users/dennistclin/Documents/ChatGPT/星潮網站開發/outputs/content-review-131-20261107/curriculum-evidence/114-heshun-selection.pdf",
+    "sha256": "33b5f2626923322aa0fdeacfd3caf581d1b83ebdfacf2ccc250837332f9111f4",
+    "page": 1,
+    "cell": "國語文x二年級=康軒"
+  },
+  "independentReviewer": "pr22_context_falsifier",
+  "provenance": "offline retained original byte and visual verification PASS; live recordedURLs inaccessible this run",
+  "originalAnswerPaperUsed": false
+}

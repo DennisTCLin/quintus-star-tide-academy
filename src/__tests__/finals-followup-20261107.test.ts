@@ -12,6 +12,7 @@ import legacy from '../../docs/content-review/finals131-followup-20261107/legacy
 import expected from '../../docs/content-review/finals131-followup-20261107/blind-expected.json';
 import mapping from '../../docs/content-review/finals131-followup-20261107/mapping.json';
 import fixtures from '../../docs/content-review/finals131-followup-20261107/fixtures/base92ad-families.json';
+import animalContext from '../../docs/content-review/finals131-followup-20261107/correction-animal-context/blind-packet.json';
 const hash=(value:unknown)=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const cases=[
  ['qingqing',1,'xingan','math'],['qingqing',1,'xingan','tones'],
@@ -45,6 +46,17 @@ it('binds only the individually solved, self-contained source intersections',()=
  }
  expect(bank.some(q=>q.course==='english')).toBe(false);
  for(const held of mapping.filter(x=>x.status==='held'))expect(bank.some(q=>q.id===held.candidateId)).toBe(false);
+});
+it('keeps the elephant item ID while binding its independently solved animal context',()=>{
+ const solved=animalContext.items[0];
+ const q=questionById(solved.id)!;
+ expect(q.prompt).toBe(solved.prompt);
+ expect(q.options.map(o=>o.text)).toEqual(solved.options);
+ expect(q.options[q.answer].text).toBe('象');
+ expect(q.prompt).toContain('這種動物有長鼻子');
+ expect(q.hideReadingHints).toBe(true);
+ expect(syllables('這種動物有長鼻子')[5]).toEqual({text:'長',zy:'ㄔㄤˊ'});
+ expect(syllables('前句已明指有長鼻子的動物')[6]).toEqual({text:'長',zy:'ㄔㄤˊ'});
 });
 it.each(cases)('%s grade%s %s %s can receive its matching additions without sibling repeats',(_player,grade,school,course)=>{
  const additions=bank.filter(q=>q.grade===grade&&q.course===course);
