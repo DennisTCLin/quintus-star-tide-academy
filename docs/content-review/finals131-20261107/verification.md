@@ -1,6 +1,8 @@
 # 驗證紀錄
 
-候選基線：正式main `3437ad63e8bfb8e0b689440176d94a0ea223be8c`。本批分支 `codex/content-131-20261107`，獨立worktree；發佈窗口仍須即時重新核對main。未合併成人PR14、Conquest PR19。
+**最新整合基線：正式main `acfc325806be99254856ff31f88c4138961da8db`（PR21）。** 本批分支 `codex/content-131-20261107`，獨立worktree；發佈窗口仍須即時重新核對main。最新驗證見本文件末段「整合PR21後重新驗證」。以下3437/e310數據保留為歷史紀錄，不能代替最新候選驗收。未另行合併成人PR14、Conquest PR19。
+
+原始候選基線：`3437ad63e8bfb8e0b689440176d94a0ea223be8c`；舊候選 `e310785dcb9022bae42ec22401f707759e3a84be` 的內容／驗證證據完整保留。
 
 | 檢查 | 結果／證據 |
 |---|---|
@@ -36,3 +38,24 @@
 [base與舊候選逐檔新DB對照](evidence/pg-base-comparison/results.json)：base三檔全部通過；1437cee的all-child/school保留6+2個失敗，child-account在隔離下通過，支持上述根因。最終29檔267項全通過，另完整一般套件1540項及build再通過。完整測試共1803項由這兩種執行模式涵蓋，沒有用「無workflow run」冒稱CI通過。
 
 重現：本機新建隔離PG55931、專用空白角色／DB，在備妥repo依賴後執行[evidence/run-cloud-isolated.py](evidence/run-cloud-isolated.py)，每檔createdb新庫。基底fixture產生器為[fixtures/generate-base3437.mjs](fixtures/generate-base3437.mjs)，需先於/tmp/finals131-base-3437建立乾淨指定SHA worktree並build:server。此腳本驗證base HEAD與tracked source乾淨，不會存取正式DB。
+
+## 整合PR21後重新驗證
+
+正式main於本批等待驗收期間前進到acfc325。唯讀確認Railway部署 `15b12cdc-1e33-43dd-9690-ef3cbdb90372` 為SUCCESS、來源acfc325，舊3437部署已REMOVED；因此沒有直接發布e310。整合採merge保留舊證據與歷史，並保留PR21中心五格範圍、取消領地相鄰限制、NPC擴張及煙霧美術的全部變更。
+
+三個衝突僅涉及注音：`taiwan-zhuyin-overrides.json` 作三向結構聯集，同key異值即停止；保留PR21「為中心」「吞沒」和本批五條情境。兩個generated檔使用合併後全部來源、pypinyin0.55.0重生。428條已審情境、26005詞句、3009字；沒有用某一邊的generated檔覆蓋另一邊。PR21其餘18檔逐位元等於acfc325；本批95題data/adapter/learning/exam-sources/approvals五檔逐位元等於e310。逐檔hash見[merge-preservation.json](evidence/integrated-acfc325/merge-preservation.json)。
+
+| 最新必要檢查 | 結果／證據 |
+|---|---|
+| build／audit／tsc／注音 | PASS，[完整build log（gzip）](evidence/integrated-acfc325/build.log.gz)。題庫6311／生成23192／42池，0 findings。|
+| 一般全套 | 176檔PASS／28條件式跳過；1546項PASS、264項跳過、0 failed。[原始JSON](evidence/integrated-acfc325/full-tests.json)、[原始log（gzip）](evidence/integrated-acfc325/full-tests.log.gz)。|
+| 逐檔全新合成PG | 29個檔、268項PASS，0 failed／pending；PR21較舊候選增加1項DB測試。[結果及全部斷言](evidence/integrated-acfc325/cloud-per-file/results.json)，每檔另存原始Vitest JSON及lossless gzip log。|
+| 跳過項精確覆蓋 | 以repo-relative file＋exact fullName＋occurrence ordinal逐項配對：264/264普通skipped均對到PG passed，未覆蓋0、額外未解釋0；PG另4項為普通已PASS項的重跑。共1810項唯一測試有PASS證據。[逐項映射](evidence/integrated-acfc325/skip-pg-coverage.json)。不以總數相等代替測試身份核對。|
+| 舊內容／新功能保留 | 獨立審查重建6216舊題hash全相同，95新approval及6311 ID唯一性PASS；18份PR21檔逐位元相同。Conquest新版規則／finals／readability重點7檔68項另PASS。|
+| 雲端資料保存 | 最新PG全套仍包含20份真實base3437合成舊航程的兩種儲存編碼及10份current情境；原始JSON text、hash、updated_at不變，完整family decode、API learning/seen、舊航程／獎勵斷言全部PASS。3437→acfc325未變更題庫或Family儲存實作，既有舊航程fixture仍作跨版測試；另外完整保留acfc325的Conquest新規則。|
+
+普通suite首次在受限沙箱內執行，`server.test.mjs` 因本機listen EPERM而失敗；該次[原始log](evidence/integrated-acfc325/full-tests-sandbox-bind-denied.log.gz)保留。允許本機監聽後，以相同命令重跑完整suite通過；未修改產品碼、斷言或timeout。
+
+新的[PG重現腳本](evidence/integrated-acfc325/run-cloud-isolated.py)在專用本機PG55931逐檔createdb，僅使用合成帳號；不讀正式DB。所有原始log以gzip無損保存，JSON內每檔log路徑對應其`.gz`封存檔；原始Vitest JSON未改動。重跑後可用[覆蓋核對腳本](evidence/integrated-acfc325/make-coverage.py)重建file/fullName/occurrence映射。
+
+**狀態仍為candidate_not_deployed。** 等待最新head獨立複核、基於acfc325的新正式資料基準與專屬發布窗口。尚未mark-ready、合併PR20或觸發部署。

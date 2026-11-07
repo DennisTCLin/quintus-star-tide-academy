@@ -118,6 +118,8 @@ suite('automatic offline NPC raids in PostgreSQL',()=>{
   expect(snapshot.players.some(p=>p.id==='dark-tide')).toBe(false);
   expect((await api.conquestNpcTick()).raids).toBe(0);expect((await world()).tiles.find(t=>t.id==='0,0').owner).toBe('dark-tide');
   const owned=await world();owned.tiles.find(t=>t.id==='0,0').battleUntil=0;
+  // An existing distant holding must not prevent reclaiming this NPC island.
+  Object.assign(owned.tiles.find(t=>t.id==='5,0'),{owner:players[0].id,guards:[],shieldUntil:0,capturedAt:Date.now()});
   await api.pool.query("UPDATE conquest_worlds SET tiles=$1 WHERE id='global'",[JSON.stringify(owned.tiles)]);
   const current=await state(0);current.energy=1000;await api.pool.query('UPDATE conquest_players SET state=$2 WHERE id=$1',[players[0].id,current]);
   const client=await login(0),view=await loginRead(0),commandId=randomUUID();
@@ -142,6 +144,23 @@ suite('automatic offline NPC raids in PostgreSQL',()=>{
   expect((await api.conquestNpcTick()).expansions).toBe(0);
   await api.pool.query("UPDATE conquest_npc_clock SET last_expansion_at=$1",[Date.now()-6*3600000-1]);
   expect((await api.conquestNpcTick()).expansions).toBe(1);expect((await world()).tiles.filter(t=>t.owner==='dark-tide')).toHaveLength(1);
+  expect(await families()).toBe(before);
+ });
+
+ it('persists one nonadjacent expansion at the due boundary without changing family data',async()=>{
+  const before=await families(),w=await world();
+  w.tiles.forEach(t=>{t.owner='dark-tide';t.shieldUntil=0;});
+  const target=w.tiles.find(t=>t.id==='5,0');target.owner=null;target.guards=target.wild;
+  // Leave only one distant NPC foothold; all intermediate islands are locked neutral.
+  w.tiles.forEach(t=>{if(t.id!=='5,0' && t.id!=='-5,0'){t.owner=null;t.battleUntil=Date.now()+3600000;}});
+  await api.pool.query("UPDATE conquest_worlds SET tiles=$1 WHERE id='global'",[JSON.stringify(w.tiles)]);
+  await api.pool.query("INSERT INTO conquest_npc_clock(id,last_tick_at,last_raid_at,last_expansion_at) VALUES('global',0,0,$1)",[Date.now()]);
+  expect((await api.conquestNpcTick()).expansions).toBe(0);
+  await api.pool.query('UPDATE conquest_npc_clock SET last_expansion_at=$1',[Date.now()-6*3600000-1]);
+  const ticks=await Promise.all([api.conquestNpcTick(),api.conquestNpcTick()]);
+  expect(ticks.map(t=>t.expansions).sort()).toEqual([0,1]);
+  expect((await world()).tiles.find(t=>t.id==='5,0').owner).toBe('dark-tide');
+  expect((await world()).tiles.filter(t=>t.owner==='dark-tide')).toHaveLength(2);
   expect(await families()).toBe(before);
  });
 

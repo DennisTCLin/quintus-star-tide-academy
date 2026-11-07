@@ -62,4 +62,6 @@ ledger逐份列原因，優先清單如下。這些沒有進入本批正式題�
 
 注音：新JSON加入產生器與檢查器的掃描範圍。人工檢出「邊長／時間比較長」被自動標成ㄓㄤˇ，以及「又抽中」的中被標成ㄓㄨㄥ；新增5個有上下文的校正規則，依[教育部長字義與音](https://dict.concised.moe.edu.tw/dictView.jsp?ID=32100&la=0&powerMode=1)、[中：獲得／得到](https://dict.concised.moe.edu.tw/dictView.jsp?ID=31280&la=0&powerMode=0)審訂，並由實際runtime syllables測試防退步。與其他分支重疊的注音產物必須從整合後來源重新生成。
 
-隔離PG後續已補跑：29檔各自fresh DB、267項全部通過；另pinned真base舊航程20儲存情境與10個current情境原始資料、timestamp及完整語義保留。首次失敗與base對照、新測試加強及完整log皆見verification.md，沒有以刪斷言通過。普通全套1540通過，263項環境跳過已由隔離PG涵蓋。
+歷史e310候選隔離PG：29檔各自fresh DB、267項通過；普通全套1540通過，263項環境跳過。首次失敗與base對照及測試加強證據保留，沒有以刪斷言通過。
+
+最新整合main acfc325（PR21）後，普通全套1546項PASS、264項條件式skip；29檔各自fresh PG共268項PASS。依file/fullName/occurrence精確映射264/264 skip均有PG PASS，0遺漏、4重跑，共1810唯一測試有PASS證據。pinned真base舊航程20儲存情境及10個current情境仍保存原始資料、timestamp及完整語義。18個PR21非注音檔逐位元保留，95題與舊6216題不變，注音從合併來源重生且獨立比對一致。詳verification.md末段與evidence/integrated-acfc325/。尚未部署。
