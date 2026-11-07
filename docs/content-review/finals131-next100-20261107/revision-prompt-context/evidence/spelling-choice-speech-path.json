@@ -1,0 +1,28 @@
+{
+  "question": "phase4-lang-g2-fa",
+  "display": {
+    "hideReadingHints": true,
+    "options": [
+      "發",
+      "髮"
+    ],
+    "zy": null,
+    "choiceRenderer": "ChoiceView.tsx:withoutchoice.zy displayschoice.text;noAutoRuby",
+    "noNewHintLeak": true
+  },
+  "questionListening": "App.listen;StudyReview.listen;BattleReview.onListen;assist listening usequestionSpeech(q),whichprioritizesspeechText=請看畫面中的詞句，選出正確答案。",
+  "optionListening": "canListenToEnglishChoices returnsfalse forgrade2Chinesewords;normal/StudyReview/remediation/assist allgatechoice speech bythishelper",
+  "afterAnswerListening": "Mayplayentireexplanation;voice.speak passesChinese text through speechParts toSpeechSynthesisUtterance,selectszh-TWvoice;doesnotimportsyllables/dictionary. Fullvisibleexplanation dictionaryreadingsforboth髮 arefa3.",
+  "legacyFallback": "bare syllables髮fa4 retained;not passed asphonetic text toany app speechpath; not a certificate ofOS actual acoustic pronunciation",
+  "physicalAudioCertified": false,
+  "sourceHashes": {
+    "src/ChoiceView.tsx": "d0b3a753ff9f0f11e94a559685ed6324d1d9a0a611321d351da8d09952465707",
+    "src/QuestionPrompt.tsx": "77c26e1641cb3e24e9c34ea19b3086fdd879f03da73987bc35fcc4781136becc",
+    "src/english-choice-listening.ts": "8784c6c01d9c406bc0f7c2faa5f1d21a1214fba8b23bd639418a0ab44bb430b4",
+    "src/speech-text.ts": "507d0cd55805051a5e63d584c1cd421aa4b22cd925b50590a0e01577cb409b84",
+    "src/voice.ts": "df67d862adb1aaf2098838d5e2c44634e7630521bbeac388b66926185aba5f23",
+    "src/App.tsx": "44f5988994ad7e851fedc5dac2ca726149f603ec96eb198ecbfa152cea83e197",
+    "src/StudyReview.tsx": "593da0b5fd7853fc6b93f7568b7cbb632d0e766b52242b76712d28c8fbfe7289",
+    "src/BattleReview.tsx": "2759216fa3bc533aeca328c36f528250c53f2ccc01f11cfe23e1ea2a261e0213"
+  }
+}

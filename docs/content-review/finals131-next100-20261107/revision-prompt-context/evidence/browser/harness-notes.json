@@ -1,0 +1,18 @@
+{
+  "source": "output/next100-contextfix/qa-server.mjs",
+  "synthetic": true,
+  "database": false,
+  "formalAccounts": false,
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "scope": "five new grade/course lanes: injected first questions;memory API server;challenge flag removed;actual normal allocation and persisted storage covered separately by fresh PostgreSQL tests",
+  "limitations": [
+    "not physical Safari/device/audio listening proof",
+    "not normal random allocation proof from screenshots alone",
+    "g1 synthetic run5questions;normal six-question allocation uses matching old fillers and sourceFamily exclusion tested separately",
+    "unrelatedsocial/conquest APIs intentionally unavailable;no new formal actor requests"
+  ],
+  "g2WordsFirstQuestion": "phase4-lang-g2-fix1"
+}

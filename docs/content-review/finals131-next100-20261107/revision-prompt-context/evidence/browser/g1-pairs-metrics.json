@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g1-pairs",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "「小朋友」的「友」，書面本調注音是哪一個？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g1-pairs",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "「家裡多了一隻小狗」的「多」，正確注音是哪一個？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g1-pairs",
+    "firstQuestion": "phase4-lang-g1-you",
+    "answerButton": "選擇 ㄧㄡˇ",
+    "total": 5,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

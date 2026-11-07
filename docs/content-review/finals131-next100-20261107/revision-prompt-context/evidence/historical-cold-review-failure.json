@@ -1,0 +1,14 @@
+{
+  "reviewer": "fixture_audit",
+  "head": "0fec28a9a83143d0d36ae7ccb6be253543f93be6",
+  "tree": "9718e2f39afa136d4ef0ff47b97853faaf594638",
+  "status": "FAIL",
+  "failure": "Full phase4-lang-g2-fix1 prompt misread著 aszhuo2 after【千】 markers. Explanation-only test passed but did not coverprompt.",
+  "otherChecks": "178artifact/Gitblob,6629oldstatic/23192generated/oldapproval42templates,5fixtures,raw1984unique/38PG,5UIlanes content source andanswer scope boundedPASS",
+  "limits": [
+    "No formalDB/deploy release authorization",
+    "24coreoldreadingfields vs25allnested includinglocator",
+    "dictionary-additions rawpre-fix artifact later independently foundstale"
+  ],
+  "resolution": "new separate append revision required;old0fec/index unchanged"
+}
