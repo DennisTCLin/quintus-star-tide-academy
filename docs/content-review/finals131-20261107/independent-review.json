@@ -1,0 +1,23 @@
+{
+  "reviewer": "finals131_release_falsifier",
+  "mode": "read-only independent reconstruction and targeted falsification",
+  "result": "PASS",
+  "legacyBase": "3437ad63e8bfb8e0b689440176d94a0ea223be8c",
+  "legacyObjectsReconstructedAndMatched": 6216,
+  "newApprovalHashesVerified": 95,
+  "changedLegacyApprovals": 0,
+  "mappingCandidates": 102,
+  "duplicateAtoms": 7,
+  "sourceFiles": 131,
+  "sourcePages": 347,
+  "allocationFamilyChecks": 95,
+  "helperMasteryByGrade": {
+    "1": 26,
+    "2": 27,
+    "4": 0,
+    "5": 13,
+    "6": 29
+  },
+  "helperValidation": "validateMastered + validateLearning all pass; no cross-grade IDs",
+  "findings": []
+}

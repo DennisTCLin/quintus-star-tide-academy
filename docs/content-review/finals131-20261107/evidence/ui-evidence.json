@@ -1,0 +1,100 @@
+{
+  "environment": "local synthetic API; no database; production preservation pending release window",
+  "results": [
+    {
+      "synthetic": true,
+      "grade": 1,
+      "school": "xingan",
+      "question": "f1-20002858-i5a",
+      "index": 1,
+      "coins": 1244,
+      "commands": [
+        {
+          "type": "answer",
+          "index": 0,
+          "result": true
+        },
+        {
+          "type": "advance-question",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "grade": 2,
+      "school": "nantun",
+      "question": "f2-20003916-i4a",
+      "index": 1,
+      "coins": 1244,
+      "commands": [
+        {
+          "type": "answer",
+          "index": 0,
+          "result": true
+        },
+        {
+          "type": "advance-question",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "grade": 5,
+      "school": "dongmen",
+      "question": "f5-12752-i1",
+      "index": 1,
+      "coins": 1244,
+      "commands": [
+        {
+          "type": "answer",
+          "index": 0,
+          "result": true
+        },
+        {
+          "type": "advance-question",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "synthetic": true,
+      "grade": 6,
+      "school": "jianan",
+      "question": "f6-50000074-p1i1",
+      "index": 1,
+      "coins": 1244,
+      "commands": [
+        {
+          "type": "answer",
+          "index": 0,
+          "result": true
+        },
+        {
+          "type": "advance-question",
+          "index": 0
+        }
+      ]
+    }
+  ],
+  "viewports": {
+    "g1": [
+      375,
+      812
+    ],
+    "g2": [
+      375,
+      812
+    ],
+    "g5": [
+      768,
+      1024
+    ],
+    "g6": [
+      375,
+      812
+    ]
+  },
+  "observed": "correct answer accepted, controls settle, auto-advance reaches index1, coins1234->1244 once; no x overflow in measured views; grades5/6 have no read-aloud button"
+}

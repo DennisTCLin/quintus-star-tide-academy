@@ -1,0 +1,25 @@
+{
+  "uniqueFiles": 131,
+  "pages": 347,
+  "manualHeaderTriageFiles": 131,
+  "fullyReviewedForCandidateQuestionSources": 5,
+  "newQuestions": 95,
+  "byGrade": {
+    "1": 26,
+    "2": 27,
+    "5": 13,
+    "6": 29
+  },
+  "newEnglish": 0,
+  "grade3Files": 0,
+  "duplicateAtomsSuppressed": 7,
+  "sourceStatuses": {
+    "blocked_before_question_review": 106,
+    "publisher_confirmed_pending_question_review": 12,
+    "paired_answer_reference_checked": 2,
+    "partially_reviewed_candidate_source": 5,
+    "quarantined_source_or_answer_integrity": 6
+  },
+  "deployment": "not_deployed",
+  "note": "Header triage, publisher proof, atomic content approval and production release are separate states. Missing proof is not a wrong publisher verdict."
+}
