@@ -100,7 +100,7 @@
 .family-app .cq-target-guide button:disabled{opacity:.55;cursor:default}
 .cq-game .cq-map-coordinates{display:block;color:#d2e7de;font-size:10px;font-family:system-ui,sans-serif;font-weight:400;white-space:nowrap}
 .cq-map-label[data-claim-ready=true]{border-color:#8ee8d6;box-shadow:0 0 0 1px #8ee8d6,0 0 15px #60e6cb77}
-.cq-map-label[data-adjacent-target=true][data-claim-ready=false]{border-color:#d5a760}
+.cq-map-label[data-in-range-target=true][data-claim-ready=false]{border-color:#d5a760}
 .cq-map-eligibility{display:block;border-top:1px solid #ffffff30;margin-top:5px;padding-top:4px;color:#f6d293;font-size:11px;font-weight:700}
 .cq-map-label[data-claim-ready=true] .cq-map-eligibility{color:#a4ffe9}
 .family-app .cq-game .cq-map-invitation{background:#083346f5;max-width:310px}
@@ -138,6 +138,7 @@
   .cq-game .cq-map-coordinates{font-size:11px}
   .cq-map-label>.cq-territory-badge{grid-column:1;grid-row:2}.cq-map-label>.cq-territory-badge>span:last-child{display:none}
   .cq-map-label .cq-territory-badge .player-avatar,.cq-map-label .cq-owner-symbol{width:24px;height:24px}
+  .cq-map-label>.cq-npc-label{grid-column:1/-1;grid-row:2}
   .cq-map-label>.cq-map-eligibility{grid-column:2;grid-row:2;align-self:center;border:0;padding:0;margin:0;font-size:12px;line-height:1.4}
   .cq-map-label>.cq-island-protection{grid-column:2;grid-row:2;gap:0;margin:0;padding:0;border:0;background:transparent!important}
   .cq-map-label:has(.cq-island-protection[data-protection=protected])>.cq-map-eligibility,.cq-map-label:has(.cq-island-protection[data-protection=war])>.cq-map-eligibility{display:none}

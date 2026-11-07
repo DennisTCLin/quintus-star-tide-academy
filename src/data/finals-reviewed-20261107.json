@@ -1,0 +1,2467 @@
+[
+  {
+    "id": "f2-20003916-i4a",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "鐘面上，分針走1大格是幾分鐘？",
+    "options": [
+      "5分鐘",
+      "1分鐘",
+      "10分鐘"
+    ],
+    "answer": 0,
+    "hint": "看清楚時間單位，想一想每一大格代表多久。",
+    "explanation": "分針每走一大格就是5分鐘。",
+    "level": 1,
+    "sourceFamily": "f2-minute-marks",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "i4a",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-i4b",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "鐘面上，分針走11大格是幾分鐘？",
+    "options": [
+      "60分鐘",
+      "55分鐘",
+      "11分鐘"
+    ],
+    "answer": 1,
+    "hint": "看清楚時間單位，想一想每一大格代表多久。",
+    "explanation": "每大格5分鐘，11大格是5×11＝55分鐘。",
+    "level": 1,
+    "sourceFamily": "f2-minute-marks",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "i4b",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-i10-8",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "8 × 8 ＝？",
+    "options": [
+      "56",
+      "72",
+      "64"
+    ],
+    "answer": 2,
+    "hint": "想一想，相同的數量要重複幾次。",
+    "explanation": "8個8合起來是64，所以8×8＝64。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-i10",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "i10-8",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-i10-7",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "8 × 7 ＝？",
+    "options": [
+      "56",
+      "48",
+      "64"
+    ],
+    "answer": 0,
+    "hint": "想一想，相同的數量要重複幾次。",
+    "explanation": "7個8合起來是56，所以8×7＝56。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-i10",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "i10-7",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-i10-2",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "8 × 2 ＝？",
+    "options": [
+      "24",
+      "16",
+      "8"
+    ],
+    "answer": 1,
+    "hint": "想一想，相同的數量要重複幾次。",
+    "explanation": "2個8合起來是16，所以8×2＝16。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-i10",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "i10-2",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-i10-6",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "8 × 6 ＝？",
+    "options": [
+      "40",
+      "56",
+      "48"
+    ],
+    "answer": 2,
+    "hint": "想一想，相同的數量要重複幾次。",
+    "explanation": "6個8合起來是48，所以8×6＝48。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-i10",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "i10-6",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-i10-9",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "8 × 9 ＝？",
+    "options": [
+      "72",
+      "64",
+      "80"
+    ],
+    "answer": 0,
+    "hint": "想一想，相同的數量要重複幾次。",
+    "explanation": "9個8合起來是72，所以8×9＝72。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-i10",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "i10-9",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-i10-4",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "8 × 4 ＝？",
+    "options": [
+      "40",
+      "32",
+      "24"
+    ],
+    "answer": 1,
+    "hint": "想一想，相同的數量要重複幾次。",
+    "explanation": "4個8合起來是32，所以8×4＝32。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-i10",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "i10-4",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-i11-5",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "6 × 5 ＝？",
+    "options": [
+      "24",
+      "36",
+      "30"
+    ],
+    "answer": 2,
+    "hint": "先找每一組的數量，再看有幾組。",
+    "explanation": "5個6合起來是30，所以6×5＝30。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-i11",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "i11-5",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-i11-7",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "6 × 7 ＝？",
+    "options": [
+      "48",
+      "42",
+      "36"
+    ],
+    "answer": 1,
+    "hint": "先找每一組的數量，再看有幾組。",
+    "explanation": "7個6合起來是42，所以6×7＝42。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-i11",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "i11-7",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-i11-9",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "6 × 9 ＝？",
+    "options": [
+      "54",
+      "48",
+      "60"
+    ],
+    "answer": 0,
+    "hint": "先找每一組的數量，再看有幾組。",
+    "explanation": "9個6合起來是54，所以6×9＝54。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-i11",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "i11-9",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-i11-4",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "6 × 4 ＝？",
+    "options": [
+      "30",
+      "24",
+      "18"
+    ],
+    "answer": 1,
+    "hint": "先找每一組的數量，再看有幾組。",
+    "explanation": "4個6合起來是24，所以6×4＝24。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-i11",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "i11-4",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-ii1-a",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "7＋7＋7＝21，算式中有幾個7？",
+    "options": [
+      "2個",
+      "7個",
+      "3個"
+    ],
+    "answer": 2,
+    "hint": "先找每一組的數量，再看有幾組。",
+    "explanation": "算式中有三個7相加。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-ii1",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "ii1-a",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-ii1-b",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "每堆有7塊積木，共有3堆，一共有幾塊積木？",
+    "options": [
+      "21塊",
+      "10塊",
+      "28塊"
+    ],
+    "answer": 0,
+    "hint": "先找每一組的數量，再看有幾組。",
+    "explanation": "7＋7＋7＝21，共有21塊。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-ii1",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "ii1-b",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-ii2-a",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "4×3比4×8少幾個4？",
+    "options": [
+      "20個",
+      "5個",
+      "4個"
+    ],
+    "answer": 1,
+    "hint": "想一想，相同的數量要重複幾次。",
+    "explanation": "8個4和3個4相差5個4。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-ii2",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "ii2-a",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-ii2-b",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "4×3比4×8少多少？",
+    "options": [
+      "5",
+      "12",
+      "20"
+    ],
+    "answer": 2,
+    "hint": "想一想，相同的數量要重複幾次。",
+    "explanation": "4×8＝32，4×3＝12，32－12＝20。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-ii2",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "ii2-b",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-ii3",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "2×7表示幾個2？",
+    "options": [
+      "7個",
+      "2個",
+      "14個"
+    ],
+    "answer": 0,
+    "hint": "想一想，相同的數量要重複幾次。",
+    "explanation": "2×7表示7個2相加。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-ii3",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 2,
+        "locator": "ii3",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-ii4-a",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "1盒冰棒有6枝，4盒冰棒共有幾枝？",
+    "options": [
+      "18枝",
+      "24枝",
+      "10枝"
+    ],
+    "answer": 1,
+    "hint": "先找每一組的數量，再看有幾組。",
+    "explanation": "6×4＝24，共有24枝。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-ii4",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 2,
+        "locator": "ii4-a",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-ii4-b",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "1盒冰棒有6枝，「6有4個」表示有幾盒冰棒？",
+    "options": [
+      "6盒",
+      "24盒",
+      "4盒"
+    ],
+    "answer": 2,
+    "hint": "先找每一組的數量，再看有幾組。",
+    "explanation": "每盒有6枝，有4個6就表示有4盒。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-ii4",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 2,
+        "locator": "ii4-b",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-ii5-a",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "每袋檸檬有9個，曉君有5袋，喬原有3袋。曉君比喬原多幾袋？",
+    "options": [
+      "2袋",
+      "8袋",
+      "18袋"
+    ],
+    "answer": 0,
+    "hint": "先找每一組的數量，再看有幾組。",
+    "explanation": "5－3＝2，曉君多2袋。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-ii5",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 2,
+        "locator": "ii5-a",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-ii5-b",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "每袋檸檬有9個，曉君有5袋，喬原有3袋。曉君比喬原多幾個檸檬？",
+    "options": [
+      "72個",
+      "18個",
+      "2個"
+    ],
+    "answer": 1,
+    "hint": "先找每一組的數量，再看有幾組。",
+    "explanation": "相差5－3＝2袋，每袋9個，9×2＝18個。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-ii5",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 2,
+        "locator": "ii5-b",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-ii7",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "舞會從上午11時開始，到下午3時結束，共經過幾小時？",
+    "options": [
+      "3小時",
+      "8小時",
+      "4小時"
+    ],
+    "answer": 2,
+    "hint": "看清楚時間單位，想一想每一大格代表多久。",
+    "explanation": "上午11時到中午12時1小時，再到下午3時3小時，共4小時。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-ii7",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 2,
+        "locator": "ii7",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-iii2",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "佩華沿著邊長9公尺的正方形花圃散步，走了2圈，總共走了幾公尺？",
+    "options": [
+      "72公尺",
+      "36公尺",
+      "18公尺"
+    ],
+    "answer": 0,
+    "hint": "沿著圖形外圍一圈，把每一邊的長度加起來。",
+    "explanation": "一圈有4條9公尺的邊，兩圈有8條，9×8＝72公尺。",
+    "level": 2,
+    "sourceFamily": "f2-20003916-iii2",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 2,
+        "locator": "iii2",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-iii3",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "小美有5張郵票，欣欣的郵票是小美的3倍，欣欣有幾張郵票？",
+    "options": [
+      "10張",
+      "15張",
+      "8張"
+    ],
+    "answer": 1,
+    "hint": "想一想，相同的數量要重複幾次。",
+    "explanation": "5×3＝15，欣欣有15張。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-iii3",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 2,
+        "locator": "iii3",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-iii4",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "每個麵包特價7元，小玉買了6個，共要付幾元？",
+    "options": [
+      "13元",
+      "49元",
+      "42元"
+    ],
+    "answer": 2,
+    "hint": "先找每一組的數量，再看有幾組。",
+    "explanation": "7×6＝42，共付42元。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-iii4",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 2,
+        "locator": "iii4",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-iii5",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "媽媽買了3盒甜甜圈，1盒有9個，媽媽共買了幾個甜甜圈？",
+    "options": [
+      "27個",
+      "12個",
+      "18個"
+    ],
+    "answer": 0,
+    "hint": "先找每一組的數量，再看有幾組。",
+    "explanation": "9×3＝27，共有27個。",
+    "level": 1,
+    "sourceFamily": "f2-20003916-iii5",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 2,
+        "locator": "iii5",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f2-20003916-i12",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "一個四邊形的四條邊依序長6、7、7、10公分，周長是多少公分？",
+    "options": [
+      "24公分",
+      "30公分",
+      "20公分"
+    ],
+    "answer": 1,
+    "hint": "沿著圖形外圍一圈，把每一邊的長度加起來。",
+    "explanation": "周長是四邊總和：6＋7＋7＋10＝30公分。",
+    "level": 2,
+    "sourceFamily": "f2-20003916-i12",
+    "examSources": [
+      {
+        "id": "f220003916",
+        "page": 1,
+        "locator": "i12",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p1i1",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "一個圓直徑的3倍多一點，大約是圓周長的長度。這個說法正確嗎？",
+    "options": [
+      "錯誤",
+      "正確"
+    ],
+    "answer": 1,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "圓周長約為直徑的3.14倍。",
+    "level": 2,
+    "sourceFamily": "f6-circumference",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 1,
+        "locator": "p1i1",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p1i2",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "「扇形的圓心角：整個圓的圓心角」和「扇形弧長：圓周長」這兩個比相等。這個說法正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "扇形弧長占圓周長的比例，等於圓心角占360度的比例。",
+    "level": 2,
+    "sourceFamily": "f6-sector-ratio",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 1,
+        "locator": "p1i2",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p1i3",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "一個半圓的周長，就是把圓周長除以2。這個說法正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 1,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "半圓的周長還包含直徑，應為半個圓周長加上直徑。",
+    "level": 2,
+    "sourceFamily": "f6-circumference",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 1,
+        "locator": "p1i3",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p1i4",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "在一個正方形中畫一個最大的圓，此時正方形的周長和圓的周長一樣長。這個說法正確嗎？",
+    "options": [
+      "錯誤",
+      "正確"
+    ],
+    "answer": 0,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "正方形邊長等於圓直徑。正方形周長是直徑的4倍，圓周長約是直徑的3.14倍。",
+    "level": 2,
+    "sourceFamily": "f6-circumference",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 1,
+        "locator": "p1i4",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p1i5",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "圓周長和直徑的比值稱為圓周率。這個說法正確嗎？",
+    "options": [
+      "錯誤",
+      "正確"
+    ],
+    "answer": 1,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "圓周率＝圓周長÷直徑。",
+    "level": 2,
+    "sourceFamily": "f6-circumference",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 1,
+        "locator": "p1i5",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p1ii5",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "小昌自行車輪胎半徑約50公分，騎了628公尺。圓周率取3.14，車輪約轉幾圈？",
+    "options": [
+      "400圈",
+      "200圈",
+      "100圈"
+    ],
+    "answer": 1,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "每圈前進2×50×3.14＝314公分＝3.14公尺，628÷3.14＝200圈。",
+    "level": 2,
+    "sourceFamily": "f6-50000074-p1ii5",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 1,
+        "locator": "p1ii5",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p2i1",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "圓面積＝半徑×半徑×圓周率。這個說法正確嗎？",
+    "options": [
+      "錯誤",
+      "正確"
+    ],
+    "answer": 1,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "圓面積公式為半徑×半徑×圓周率。",
+    "level": 2,
+    "sourceFamily": "f6-area",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 2,
+        "locator": "p2i1",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p2i2",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "圓周率會根據不同大小的圓而改變。這個說法正確嗎？",
+    "options": [
+      "錯誤",
+      "正確"
+    ],
+    "answer": 0,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "圓周率是所有圓的圓周長與直徑的固定比值。",
+    "level": 2,
+    "sourceFamily": "f6-circumference",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 2,
+        "locator": "p2i2",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p2i3",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "扇形的圓心角與整個圓圓心角之比，等於扇形面積與圓面積之比。這個說法正確嗎？",
+    "options": [
+      "錯誤",
+      "正確"
+    ],
+    "answer": 1,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "扇形面積占圓面積的比例，等於圓心角占360度的比例。",
+    "level": 2,
+    "sourceFamily": "f6-sector-ratio",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 2,
+        "locator": "p2i3",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p2i4",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "以同種披薩每單位面積的價格比較，大披薩直徑是小披薩的3倍、價格是5倍，買大披薩比較划算。這個說法正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "直徑變3倍，面積變9倍；付5倍價格得到9倍面積，每單位面積較便宜。",
+    "level": 2,
+    "sourceFamily": "f6-50000074-p2i4",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 2,
+        "locator": "p2i4",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3i1",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "距離相同，花的時間比較長，就跑得比較快。這個說法正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 1,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "距離相同時，時間越長，平均速率越小。",
+    "level": 2,
+    "sourceFamily": "f6-speed-formula",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3i1",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3i2",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "速率是平均每單位時間所移動的距離，可以表示運動的快慢。這個說法正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "平均速率＝距離÷時間。",
+    "level": 2,
+    "sourceFamily": "f6-speed-formula",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3i2",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3i3",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "「60公尺／分」指每分鐘移動60公尺。這個說法正確嗎？",
+    "options": [
+      "錯誤",
+      "正確"
+    ],
+    "answer": 1,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "公尺／分表示每分鐘移動的公尺數。",
+    "level": 2,
+    "sourceFamily": "f6-speed-formula",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3i3",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3i4",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "時間固定，速率變為原來的3倍，距離也變為3倍。這個說法正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "距離＝速率×時間，時間固定時距離與速率同倍變化。",
+    "level": 2,
+    "sourceFamily": "f6-speed-formula",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3i4",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3i5",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "時間等於距離乘以速率。這個說法正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 1,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "時間＝距離÷速率。",
+    "level": 2,
+    "sourceFamily": "f6-speed-formula",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3i5",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3ii1a",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "36公里／時等於多少公尺／時？",
+    "options": [
+      "3600公尺／時",
+      "600公尺／時",
+      "36000公尺／時"
+    ],
+    "answer": 2,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "1公里＝1000公尺，36×1000＝36000。",
+    "level": 2,
+    "sourceFamily": "f6-36kph",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3ii1a",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3ii1b",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "36公里／時等於多少公里／分？",
+    "options": [
+      "0.6公里／分",
+      "6公里／分",
+      "60公里／分"
+    ],
+    "answer": 0,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "1小時＝60分鐘，36÷60＝0.6。",
+    "level": 2,
+    "sourceFamily": "f6-36kph",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3ii1b",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3ii1c",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "36公里／時等於多少公尺／秒？",
+    "options": [
+      "0.1公尺／秒",
+      "10公尺／秒",
+      "100公尺／秒"
+    ],
+    "answer": 1,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "36公里＝36000公尺，1小時＝3600秒，36000÷3600＝10。",
+    "level": 2,
+    "sourceFamily": "f6-36kph",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3ii1c",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3iii1",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "小睿以每分鐘200公尺的速率騎滑板車25分鐘，共騎多少公尺？",
+    "options": [
+      "225公尺",
+      "800公尺",
+      "5000公尺"
+    ],
+    "answer": 2,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "距離＝速率×時間，200×25＝5000公尺。",
+    "level": 2,
+    "sourceFamily": "f6-50000074-p3iii1",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3iii1",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3iii2",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "小薰跑42公里，從上午10時到下午1時20分跑完，平均速率是多少公里／時？",
+    "options": [
+      "12.6公里／時",
+      "10.5公里／時",
+      "14公里／時"
+    ],
+    "answer": 0,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "經過3小時20分＝10／3小時，42÷(10／3)＝12.6公里／時。",
+    "level": 2,
+    "sourceFamily": "f6-50000074-p3iii2",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3iii2",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3iii3a",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "依題目給定速率1.022公里／秒，月亮繞行60秒約移動多少公里？",
+    "options": [
+      "613.2公里",
+      "61.32公里",
+      "6.132公里"
+    ],
+    "answer": 1,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "距離＝1.022×60＝61.32公里。",
+    "level": 2,
+    "sourceFamily": "f6-moon",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3iii3a",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3iii3b",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "月亮維持每秒1.022公里的速率，120秒移動的距離是60秒的幾倍？",
+    "options": [
+      "1倍",
+      "4倍",
+      "2倍"
+    ],
+    "answer": 2,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "速率固定，時間120÷60＝2倍，距離也為2倍。",
+    "level": 2,
+    "sourceFamily": "f6-moon",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3iii3b",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3iii4",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "一條步道全長1005公尺，小綸每分鐘走20.1公尺，走完要幾分鐘？",
+    "options": [
+      "50分鐘",
+      "5分鐘",
+      "500分鐘"
+    ],
+    "answer": 0,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "時間＝1005÷20.1＝50分鐘。",
+    "level": 2,
+    "sourceFamily": "f6-50000074-p3iii4",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3iii4",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3iii5",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "小恩投球，球移動18公尺用了0.45秒，平均速率是多少公尺／秒？",
+    "options": [
+      "8.1公尺／秒",
+      "40公尺／秒",
+      "4公尺／秒"
+    ],
+    "answer": 1,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "速率＝18÷0.45＝40公尺／秒。",
+    "level": 2,
+    "sourceFamily": "f6-50000074-p3iii5",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3iii5",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p3iii6",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "聲音以每秒340公尺傳播，傳播170公尺需幾秒？",
+    "options": [
+      "2秒",
+      "5秒",
+      "0.5秒"
+    ],
+    "answer": 2,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "時間＝170÷340＝0.5秒。",
+    "level": 2,
+    "sourceFamily": "f6-50000074-p3iii6",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 3,
+        "locator": "p3iii6",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p4i1",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "放大圖和原圖各組對應角一樣大。這個說法正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "放大與縮小改變長度，對應角的角度保持不變。",
+    "level": 2,
+    "sourceFamily": "f6-scale",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 4,
+        "locator": "p4i1",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p4i2",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "甲圖是乙圖的3倍放大圖，甲圖面積是乙圖面積的3倍。這個說法正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 1,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "長度變3倍，面積變3×3＝9倍。",
+    "level": 2,
+    "sourceFamily": "f6-scale",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 4,
+        "locator": "p4i2",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p4i4",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "比例尺1：100，圖上1公分代表實際1公尺。這個說法正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "圖上1公分代表實際100公分，也就是1公尺。",
+    "level": 2,
+    "sourceFamily": "f6-50000074-p4i4",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 4,
+        "locator": "p4i4",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f6-50000074-p4iv1",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "同一塊正方形草地，在比例尺1：2000的圖上邊長90公分，在比例尺1：1200的圖上邊長是多少公分？",
+    "options": [
+      "150公分",
+      "54公分",
+      "180公分"
+    ],
+    "answer": 0,
+    "hint": "先找題目給的條件，注意單位是否相同。",
+    "explanation": "實際邊長90×2000＝180000公分，180000÷1200＝150公分。",
+    "level": 2,
+    "sourceFamily": "f6-50000074-p4iv1",
+    "examSources": [
+      {
+        "id": "f650000074",
+        "page": 4,
+        "locator": "p4iv1",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-i5a",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "按照順序填數：26、□、28、29、30。□裡應填哪個數？",
+    "options": [
+      "25",
+      "29",
+      "27"
+    ],
+    "answer": 2,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "每次加1，26後面是27。",
+    "level": 1,
+    "sourceFamily": "f1-sequence-26-30",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 1,
+        "locator": "i5a",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-i5b",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "按照順序填數：26、27、28、29、□。□裡應填哪個數？",
+    "options": [
+      "31",
+      "30",
+      "28"
+    ],
+    "answer": 1,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "每次加1，29後面是30。",
+    "level": 1,
+    "sourceFamily": "f1-sequence-26-30",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 1,
+        "locator": "i5b",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-i12",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "10、21、17這三個數中，哪個數比12小？",
+    "options": [
+      "10",
+      "21",
+      "17"
+    ],
+    "answer": 0,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "10比12小，21和17都比12大。",
+    "level": 1,
+    "sourceFamily": "f1-20002858-i12",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 2,
+        "locator": "i12",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-i14a",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "2、3、6、8這四個數中，哪兩個數合起來是10？",
+    "options": [
+      "2和6",
+      "3和6",
+      "2和8"
+    ],
+    "answer": 2,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "2＋8＝10。",
+    "level": 1,
+    "sourceFamily": "f1-make-ten-2-8",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 2,
+        "locator": "i14a",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      },
+      {
+        "id": "f120002163",
+        "page": 1,
+        "locator": "iii1",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-i14b",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "0、4、7、6這四個數中，哪兩個數合起來是10？",
+    "options": [
+      "4和7",
+      "4和6",
+      "0和7"
+    ],
+    "answer": 1,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "4＋6＝10。",
+    "level": 1,
+    "sourceFamily": "f1-make-ten-4-6",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 2,
+        "locator": "i14b",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      },
+      {
+        "id": "f120002163",
+        "page": 1,
+        "locator": "iii4",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-i15",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "一般情況下，洗手和洗澡，做哪件事花的時間比較長？",
+    "options": [
+      "洗手",
+      "洗澡"
+    ],
+    "answer": 1,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "一般完整洗澡所需的時間比洗手長。",
+    "level": 1,
+    "sourceFamily": "f1-20002858-i15",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 2,
+        "locator": "i15",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-i16b",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "5＋4＝多少？",
+    "options": [
+      "11",
+      "9",
+      "10"
+    ],
+    "answer": 1,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "5＋4＝9。",
+    "level": 1,
+    "sourceFamily": "f1-20002858-i16b",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 2,
+        "locator": "i16b",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-i16c",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "2－2＝多少？",
+    "options": [
+      "0",
+      "1",
+      "2"
+    ],
+    "answer": 0,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "2－2＝0。",
+    "level": 1,
+    "sourceFamily": "f1-20002858-i16c",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 2,
+        "locator": "i16c",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-i16d",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "8－1＝多少？",
+    "options": [
+      "8",
+      "9",
+      "7"
+    ],
+    "answer": 2,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "8－1＝7。",
+    "level": 1,
+    "sourceFamily": "f1-20002858-i16d",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 2,
+        "locator": "i16d",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-i16e",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "9－3＝多少？",
+    "options": [
+      "8",
+      "6",
+      "7"
+    ],
+    "answer": 1,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "9－3＝6。",
+    "level": 1,
+    "sourceFamily": "f1-20002858-i16e",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 2,
+        "locator": "i16e",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-ii1",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "丹丹在園遊會準備賣8個氣球，一個都沒有賣出去，還剩下幾個氣球？",
+    "options": [
+      "8個",
+      "0個",
+      "7個"
+    ],
+    "answer": 0,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "8－0＝8，一個都沒賣出，所以還有8個。",
+    "level": 1,
+    "sourceFamily": "f1-20002858-ii1",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 3,
+        "locator": "ii1",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-ii2",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "公車上有9位乘客，到站後9位乘客都下車了，車上還有幾位乘客？",
+    "options": [
+      "9位",
+      "1位",
+      "0位"
+    ],
+    "answer": 2,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "9－9＝0，乘客都下車了。",
+    "level": 1,
+    "sourceFamily": "f1-20002858-ii2",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 3,
+        "locator": "ii2",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-ii3",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "掃具櫃裡有10支掃把，3個小朋友每人拿走1支，櫃裡還剩幾支掃把？",
+    "options": [
+      "8支",
+      "7支",
+      "6支"
+    ],
+    "answer": 1,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "共拿走3支，10－3＝7支。",
+    "level": 1,
+    "sourceFamily": "f1-20002858-ii3",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 3,
+        "locator": "ii3",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002858-ii4",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "箱子裡有3顆紅蘋果、2顆西瓜和4顆青蘋果，箱子裡一共有幾顆蘋果？",
+    "options": [
+      "7顆",
+      "9顆",
+      "5顆"
+    ],
+    "answer": 0,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "只算蘋果，3＋4＝7顆，不把西瓜加進去。",
+    "level": 1,
+    "sourceFamily": "f1-20002858-ii4",
+    "examSources": [
+      {
+        "id": "f120002858",
+        "page": 3,
+        "locator": "ii4",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002163-iii2",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "9、5、1、6這四個數中，哪兩個數合起來是10？",
+    "options": [
+      "9和5",
+      "9和1",
+      "5和6"
+    ],
+    "answer": 1,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "9＋1＝10。",
+    "level": 1,
+    "sourceFamily": "f1-20002163-iii2",
+    "examSources": [
+      {
+        "id": "f120002163",
+        "page": 1,
+        "locator": "iii2",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002163-iii3",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "7、5、6、3這四個數中，哪兩個數合起來是10？",
+    "options": [
+      "7和3",
+      "7和5",
+      "6和3"
+    ],
+    "answer": 0,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "7＋3＝10。",
+    "level": 1,
+    "sourceFamily": "f1-20002163-iii3",
+    "examSources": [
+      {
+        "id": "f120002163",
+        "page": 1,
+        "locator": "iii3",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002163-viii2",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "籃子裡有7顆蘋果，白雪公主和7個小矮人每人要拿1顆。蘋果比全部的人數多、少，還是一樣多？",
+    "options": [
+      "一樣多",
+      "少",
+      "多"
+    ],
+    "answer": 1,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "白雪公主和7個小矮人一共8人，7顆蘋果比8人少。",
+    "level": 1,
+    "sourceFamily": "f1-20002163-viii2",
+    "examSources": [
+      {
+        "id": "f120002163",
+        "page": 2,
+        "locator": "viii2",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002163-ixa",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "2和哪個數合起來是6？",
+    "options": [
+      "4",
+      "3",
+      "5"
+    ],
+    "answer": 0,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "2＋4＝6。",
+    "level": 1,
+    "sourceFamily": "f1-20002163-ixa",
+    "examSources": [
+      {
+        "id": "f120002163",
+        "page": 2,
+        "locator": "ixa",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002163-ixb",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "哪個數和5合起來是6？",
+    "options": [
+      "0",
+      "2",
+      "1"
+    ],
+    "answer": 2,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "1＋5＝6。",
+    "level": 1,
+    "sourceFamily": "f1-20002163-ixb",
+    "examSources": [
+      {
+        "id": "f120002163",
+        "page": 2,
+        "locator": "ixb",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002163-x1",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "老師有9顆氣球，分給7個小朋友，每人拿1顆，老師還剩幾顆氣球？",
+    "options": [
+      "3顆",
+      "2顆",
+      "1顆"
+    ],
+    "answer": 1,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "9－7＝2顆。",
+    "level": 1,
+    "sourceFamily": "f1-20002163-x1",
+    "examSources": [
+      {
+        "id": "f120002163",
+        "page": 3,
+        "locator": "x1",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002163-x2",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "媽媽早上烤了5個蛋塔，下午又烤了3個，一共烤了幾個蛋塔？",
+    "options": [
+      "8個",
+      "7個",
+      "9個"
+    ],
+    "answer": 0,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "5＋3＝8個。",
+    "level": 1,
+    "sourceFamily": "f1-20002163-x2",
+    "examSources": [
+      {
+        "id": "f120002163",
+        "page": 3,
+        "locator": "x2",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002163-x3",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "弟弟買了5支草莓冰棒，又抽中2支巧克力冰棒，一共有幾支冰棒？",
+    "options": [
+      "5支",
+      "3支",
+      "7支"
+    ],
+    "answer": 2,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "5＋2＝7支。",
+    "level": 1,
+    "sourceFamily": "f1-20002163-x3",
+    "examSources": [
+      {
+        "id": "f120002163",
+        "page": 3,
+        "locator": "x3",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002163-x4",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "鉛筆盒裡有4枝鉛筆，全部都不見了，鉛筆盒裡還有幾枝鉛筆？",
+    "options": [
+      "1枝",
+      "0枝",
+      "4枝"
+    ],
+    "answer": 1,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "4－4＝0枝。",
+    "level": 1,
+    "sourceFamily": "f1-20002163-x4",
+    "examSources": [
+      {
+        "id": "f120002163",
+        "page": 3,
+        "locator": "x4",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002163-xia",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "10－7＝多少？",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 0,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "10－7＝3。",
+    "level": 1,
+    "sourceFamily": "f1-20002163-xia",
+    "examSources": [
+      {
+        "id": "f120002163",
+        "page": 3,
+        "locator": "xia",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002163-xib",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "8－5＝多少？",
+    "options": [
+      "4",
+      "5",
+      "3"
+    ],
+    "answer": 2,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "8－5＝3。",
+    "level": 1,
+    "sourceFamily": "f1-20002163-xib",
+    "examSources": [
+      {
+        "id": "f120002163",
+        "page": 3,
+        "locator": "xib",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f1-20002163-xic",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "9－6＝多少？",
+    "options": [
+      "5",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "hint": "讀清楚題目的數量，可以用手指或畫圈圈算一算。",
+    "explanation": "9－6＝3。",
+    "level": 1,
+    "sourceFamily": "f1-20002163-xic",
+    "examSources": [
+      {
+        "id": "f120002163",
+        "page": 3,
+        "locator": "xic",
+        "kind": "逐題核對之獨立文字選擇題改編"
+      }
+    ]
+  },
+  {
+    "id": "f5-12752-i1",
+    "grade": 5,
+    "course": "social",
+    "subject": "social",
+    "publisher": "南一",
+    "prompt": "荷西時期，荷蘭人完全以溫和勸導的方式，使臺灣原住民歸順其統治。這個說法正確嗎？",
+    "options": [
+      "錯誤",
+      "正確"
+    ],
+    "answer": 0,
+    "hint": "先分辨題目所指的時期，再回想當時的生活與事件。",
+    "explanation": "荷蘭殖民統治包含軍事征服與衝突，不能說完全靠溫和勸導。",
+    "level": 2,
+    "sourceFamily": "f5-12752-i1",
+    "examSources": [
+      {
+        "id": "f512752",
+        "page": 1,
+        "locator": "i1",
+        "kind": "舊課綱原卷之115上冊概念交集；獨立文字改編"
+      }
+    ]
+  },
+  {
+    "id": "f5-12752-i3",
+    "grade": 5,
+    "course": "social",
+    "subject": "social",
+    "publisher": "南一",
+    "prompt": "鄭成功為了取得「反清復明」的基地而來到臺灣。這個說法正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "hint": "先分辨題目所指的時期，再回想當時的生活與事件。",
+    "explanation": "鄭成功在臺灣建立政權，作為反清復明的基地。",
+    "level": 2,
+    "sourceFamily": "f5-zheng-arrival",
+    "examSources": [
+      {
+        "id": "f512752",
+        "page": 1,
+        "locator": "i3",
+        "kind": "舊課綱原卷之115上冊概念交集；獨立文字改編"
+      }
+    ]
+  },
+  {
+    "id": "f5-12752-i7",
+    "grade": 5,
+    "course": "social",
+    "subject": "social",
+    "publisher": "南一",
+    "prompt": "在漢人大規模遷移來臺前，島上已經有原住民定居。這個說法正確嗎？",
+    "options": [
+      "錯誤",
+      "正確"
+    ],
+    "answer": 1,
+    "hint": "先分辨題目所指的時期，再回想當時的生活與事件。",
+    "explanation": "漢人大規模移入之前，臺灣已有原住民族長期居住。",
+    "level": 2,
+    "sourceFamily": "f5-12752-i7",
+    "examSources": [
+      {
+        "id": "f512752",
+        "page": 1,
+        "locator": "i7",
+        "kind": "舊課綱原卷之115上冊概念交集；獨立文字改編"
+      }
+    ]
+  },
+  {
+    "id": "f5-12752-i9",
+    "grade": 5,
+    "course": "social",
+    "subject": "social",
+    "publisher": "南一",
+    "prompt": "十七世紀時，荷蘭人率軍北上，將西班牙勢力逐出臺灣。這個說法正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "hint": "先分辨題目所指的時期，再回想當時的生活與事件。",
+    "explanation": "1642年荷蘭人攻下西班牙在北臺灣的據點。",
+    "level": 2,
+    "sourceFamily": "f5-12752-i9",
+    "examSources": [
+      {
+        "id": "f512752",
+        "page": 1,
+        "locator": "i9",
+        "kind": "舊課綱原卷之115上冊概念交集；獨立文字改編"
+      }
+    ]
+  },
+  {
+    "id": "f5-12752-i12",
+    "grade": 5,
+    "course": "social",
+    "subject": "social",
+    "publisher": "南一",
+    "prompt": "荷蘭人統治臺灣時，曾引進耕牛協助農民耕作。這個說法正確嗎？",
+    "options": [
+      "錯誤",
+      "正確"
+    ],
+    "answer": 1,
+    "hint": "先分辨題目所指的時期，再回想當時的生活與事件。",
+    "explanation": "荷蘭統治時期發展農業，曾引進耕牛協助耕作。",
+    "level": 2,
+    "sourceFamily": "f5-12752-i12",
+    "examSources": [
+      {
+        "id": "f512752",
+        "page": 1,
+        "locator": "i12",
+        "kind": "舊課綱原卷之115上冊概念交集；獨立文字改編"
+      }
+    ]
+  },
+  {
+    "id": "f5-12752-i14",
+    "grade": 5,
+    "course": "social",
+    "subject": "social",
+    "publisher": "南一",
+    "prompt": "鄭氏時期，臺灣出產大量絲綢與瓷器，並外銷到東南亞地區。這個說法正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 1,
+    "hint": "先分辨題目所指的時期，再回想當時的生活與事件。",
+    "explanation": "絲綢、瓷器屬鄭氏貿易中的進口與轉口商品，不能說是臺灣大量生產。",
+    "level": 2,
+    "sourceFamily": "f5-12752-i14",
+    "examSources": [
+      {
+        "id": "f512752",
+        "page": 1,
+        "locator": "i14",
+        "kind": "舊課綱原卷之115上冊概念交集；獨立文字改編"
+      }
+    ]
+  },
+  {
+    "id": "f5-12752-ii2",
+    "grade": 5,
+    "course": "social",
+    "subject": "social",
+    "publisher": "南一",
+    "prompt": "荷西時期，荷蘭人利用哪一種符號拼寫原住民族語聖經，以利傳教？",
+    "options": [
+      "甲骨文",
+      "阿拉伯數字",
+      "羅馬字母",
+      "注音符號"
+    ],
+    "answer": 2,
+    "hint": "先分辨題目所指的時期，再回想當時的生活與事件。",
+    "explanation": "荷蘭傳教士以羅馬字母拼寫原住民族語。",
+    "level": 2,
+    "sourceFamily": "f5-12752-ii2",
+    "examSources": [
+      {
+        "id": "f512752",
+        "page": 1,
+        "locator": "ii2",
+        "kind": "舊課綱原卷之115上冊概念交集；獨立文字改編"
+      }
+    ]
+  },
+  {
+    "id": "f5-12752-ii3",
+    "grade": 5,
+    "course": "social",
+    "subject": "social",
+    "publisher": "南一",
+    "prompt": "下列哪一個史前文化的人們尚未擁有製作陶器的技術？",
+    "options": [
+      "長濱文化",
+      "卑南文化",
+      "十三行文化",
+      "圓山文化"
+    ],
+    "answer": 0,
+    "hint": "先分辨題目所指的時期，再回想當時的生活與事件。",
+    "explanation": "長濱文化屬舊石器時代，尚未出現製陶技術。",
+    "level": 2,
+    "sourceFamily": "f5-changbin",
+    "examSources": [
+      {
+        "id": "f512752",
+        "page": 1,
+        "locator": "ii3",
+        "kind": "舊課綱原卷之115上冊概念交集；獨立文字改編"
+      }
+    ]
+  },
+  {
+    "id": "f5-12752-ii5",
+    "grade": 5,
+    "course": "social",
+    "subject": "social",
+    "publisher": "南一",
+    "prompt": "鄭氏時期，實施「屯田制度」的主要目的是什麼？",
+    "options": [
+      "鍛鍊士兵體能",
+      "解決糧食不足的問題",
+      "停止所有農業生產",
+      "消耗多餘人力"
+    ],
+    "answer": 1,
+    "hint": "先分辨題目所指的時期，再回想當時的生活與事件。",
+    "explanation": "讓軍隊在駐地開墾耕作，供應糧食。",
+    "level": 2,
+    "sourceFamily": "f5-12752-ii5",
+    "examSources": [
+      {
+        "id": "f512752",
+        "page": 1,
+        "locator": "ii5",
+        "kind": "舊課綱原卷之115上冊概念交集；獨立文字改編"
+      }
+    ]
+  },
+  {
+    "id": "f5-12752-ii8",
+    "grade": 5,
+    "course": "social",
+    "subject": "social",
+    "publisher": "南一",
+    "prompt": "荷蘭人統治時期，漢人發起反抗行動的重要原因是下列哪一個？",
+    "options": [
+      "漢人被課徵重稅",
+      "漢人被迫改信基督宗教",
+      "荷蘭人強迫漢人移民到歐洲",
+      "荷蘭人強迫漢人與原住民通婚"
+    ],
+    "answer": 0,
+    "hint": "先分辨題目所指的時期，再回想當時的生活與事件。",
+    "explanation": "重稅與統治壓力是郭懷一抗荷事件等反抗的重要背景。",
+    "level": 2,
+    "sourceFamily": "f5-12752-ii8",
+    "examSources": [
+      {
+        "id": "f512752",
+        "page": 1,
+        "locator": "ii8",
+        "kind": "舊課綱原卷之115上冊概念交集；獨立文字改編"
+      }
+    ]
+  },
+  {
+    "id": "f5-12752-ii11",
+    "grade": 5,
+    "course": "social",
+    "subject": "social",
+    "publisher": "南一",
+    "prompt": "阿兩是生活在長濱文化的史前居民，他較可能居住在哪一個地方？",
+    "options": [
+      "天然形成的海蝕洞",
+      "架高的干欄式住屋",
+      "利用木材和石柱搭建的房舍",
+      "以磚瓦興建的三合院"
+    ],
+    "answer": 0,
+    "hint": "先分辨題目所指的時期，再回想當時的生活與事件。",
+    "explanation": "長濱文化的八仙洞等遺址，位在天然海蝕洞穴。",
+    "level": 2,
+    "sourceFamily": "f5-changbin",
+    "examSources": [
+      {
+        "id": "f512752",
+        "page": 1,
+        "locator": "ii11",
+        "kind": "舊課綱原卷之115上冊概念交集；獨立文字改編"
+      }
+    ]
+  },
+  {
+    "id": "f5-12752-iv1",
+    "grade": 5,
+    "course": "social",
+    "subject": "social",
+    "publisher": "南一",
+    "prompt": "鄭成功率軍經★水道進入臺江內海後，陸續占領許多地區。熱蘭遮城易守難攻，鄭軍改採圍城封鎖戰略，歷經約9個月的圍攻後，守軍投降。短文中的★指的是哪一個地方？",
+    "options": [
+      "和平島",
+      "鹿耳門",
+      "鵝鑾鼻",
+      "三貂角"
+    ],
+    "answer": 1,
+    "hint": "先分辨題目所指的時期，再回想當時的生活與事件。",
+    "explanation": "鄭成功率軍經鹿耳門水道進入臺江內海；須與後來禾寮港登岸紮營的地點分開理解。",
+    "level": 2,
+    "sourceFamily": "f5-zheng-arrival",
+    "examSources": [
+      {
+        "id": "f512752",
+        "page": 2,
+        "locator": "iv1",
+        "kind": "舊課綱原卷之115上冊概念交集；獨立文字改編"
+      }
+    ]
+  },
+  {
+    "id": "f5-12752-iv2",
+    "grade": 5,
+    "course": "social",
+    "subject": "social",
+    "publisher": "南一",
+    "prompt": "鄭成功從★登臺後，陸續占領許多地區。熱蘭遮城易守難攻，鄭軍改採圍城封鎖戰略，歷經約9個月的圍攻後，守軍投降。短文中熱蘭遮城的守軍是哪一方？",
+    "options": [
+      "西班牙人",
+      "荷蘭人",
+      "清朝軍隊",
+      "葡萄牙人"
+    ],
+    "answer": 1,
+    "hint": "先分辨題目所指的時期，再回想當時的生活與事件。",
+    "explanation": "熱蘭遮城是荷蘭在臺灣的主要據點。",
+    "level": 2,
+    "sourceFamily": "f5-zheng-arrival",
+    "examSources": [
+      {
+        "id": "f512752",
+        "page": 2,
+        "locator": "iv2",
+        "kind": "舊課綱原卷之115上冊概念交集；獨立文字改編"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "version": "base3437",
+    "file": "all-child-curriculum-cloud",
+    "exitCode": 0,
+    "freshDatabasePerFile": true,
+    "log": "docs/content-review/finals131-20261107/evidence/pg-base-comparison/base3437-all-child-curriculum-cloud.log"
+  },
+  {
+    "version": "base3437",
+    "file": "school-curriculum-cloud",
+    "exitCode": 0,
+    "freshDatabasePerFile": true,
+    "log": "docs/content-review/finals131-20261107/evidence/pg-base-comparison/base3437-school-curriculum-cloud.log"
+  },
+  {
+    "version": "base3437",
+    "file": "child-account",
+    "exitCode": 0,
+    "freshDatabasePerFile": true,
+    "log": "docs/content-review/finals131-20261107/evidence/pg-base-comparison/base3437-child-account.log"
+  },
+  {
+    "version": "candidate1437",
+    "file": "all-child-curriculum-cloud",
+    "exitCode": 1,
+    "freshDatabasePerFile": true,
+    "log": "docs/content-review/finals131-20261107/evidence/pg-base-comparison/candidate1437-all-child-curriculum-cloud.log"
+  },
+  {
+    "version": "candidate1437",
+    "file": "school-curriculum-cloud",
+    "exitCode": 1,
+    "freshDatabasePerFile": true,
+    "log": "docs/content-review/finals131-20261107/evidence/pg-base-comparison/candidate1437-school-curriculum-cloud.log"
+  },
+  {
+    "version": "candidate1437",
+    "file": "child-account",
+    "exitCode": 0,
+    "freshDatabasePerFile": true,
+    "log": "docs/content-review/finals131-20261107/evidence/pg-base-comparison/candidate1437-child-account.log"
+  }
+]

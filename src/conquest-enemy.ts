@@ -1,4 +1,4 @@
-import { adjacent, alive, battleResult, health, maxHealth, round, shieldActive, withHealth, type BattleResult, type ConquestState, type Guard, type Tile } from './conquest';
+import { hexDistance, withinConquestRange, alive, battleResult, health, maxHealth, round, shieldActive, withHealth, type BattleResult, type ConquestState, type Guard, type Tile } from './conquest';
 
 // Reserved NPC owner, deliberately outside player UUIDs and selectable alliances.
 export const NPC_FACTION = { id: 'dark-tide', name: '黯潮軍團', title: '吞沒星光、掠奪航路的入侵軍團' } as const;
@@ -15,9 +15,7 @@ export function occupyNpcTile(tile: Tile, guards: Guard[], now: number): Tile {
 // the central seven islands available to new explorers; never seize player land here.
 export function expandNpcTerritory(tiles: Tile[], now: number, lastExpansionAt: number | null) {
   if (!Number.isFinite(now) || lastExpansionAt !== null && now < lastExpansionAt + NPC_EXPANSION_INTERVAL_MS) return null;
-  const owned = tiles.filter(t => isNpcOwner(t.owner));
-  const tile = tiles.filter(t => !t.owner && t.distance > 1 && (t.battleUntil ?? 0) <= now
-    && (!owned.length || owned.some(o => adjacent(o, t))))
+  const tile = tiles.filter(t => !t.owner && withinConquestRange(t) && hexDistance(t.q, t.r) > 1 && (t.battleUntil ?? 0) <= now)
     .sort((a,b) => b.distance - a.distance || a.id.localeCompare(b.id))[0];
   if (!tile) return null;
   const army = tile.wild.map((g,i) => withHealth({ id: `npc:dark-tide:outpost:${tile.id}:${now}:${i}`, element: g.element, level: Math.max(1,g.level) + 2 }));

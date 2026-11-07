@@ -97,9 +97,10 @@ it("reads inventory difference in context without changing shortage readings", (
 });
 
 it("keeps reviewed readings inside generated sentence entries after rebuilding", () => {
+  const sentences = Object.entries(generatedDictionary.phrases);
   for (const [word, expected] of Object.entries(reviewedReadings.phrases)) {
     expect(syllables(word).map(x => x.zy), word).toEqual(expected);
-    for (const [sentence, readings] of Object.entries(generatedDictionary.phrases)) {
+    for (const [sentence, readings] of sentences) {
       let start = sentence.indexOf(word);
       while (start !== -1) {
         expect(readings.slice(start, start + word.length), sentence).toEqual(expected);

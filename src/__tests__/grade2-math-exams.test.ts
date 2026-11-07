@@ -1,6 +1,7 @@
+import {preFinalsLearning as freshLearning} from './helpers/pre-finals-learning';
 import {it,expect} from 'vitest';
 import {GRADE2_MATH_EXAMS as bank} from '../grade2-math-exams';
-import {allocateQuestions,allocateAdventureQuestions,freshLearning} from '../learning-engine';
+import {allocateQuestions,allocateAdventureQuestions} from '../learning-engine';
 import {questionById} from '../learning';
 import {markMastered} from '../mastered-questions';
 import {coursePublisher} from '../school-curriculum';
@@ -28,13 +29,13 @@ it('ignores stale invisible PDF2 answers and handles inverse word problems corre
 it('prioritizes both school banks in practice and every adventure lane, with unknown/other-grade isolation and mastery fallback',()=>{
  for(const school of ['yongchun','nantun'] as const){
   expect(coursePublisher(school,2,'math')).toBe('南一');
-  for(const level of [1,2,3] as const)for(const picked of [allocateQuestions({...freshLearning(),school},2,'math',6),allocateAdventureQuestions({...freshLearning(),school},2,'math',6,level)]){
+  for(const level of [1,2,3] as const)for(const picked of [allocateQuestions({...freshLearning(2),school},2,'math',6),allocateAdventureQuestions({...freshLearning(2),school},2,'math',6,level)]){
    expect(picked).toHaveLength(6);expect(new Set(picked.map(q=>q.id)).size).toBe(6);expect(picked.every(q=>q.id.startsWith('mxg2-'))).toBe(true);
   }
-  for(const grade of [1,4] as const)expect(allocateQuestions({...freshLearning(),school},grade,'math',6).every(q=>!q.id.startsWith('mxg2-'))).toBe(true);
-  const state={...freshLearning(),school};bank.forEach(q=>markMastered(state,q.id));expect(allocateQuestions(state,2,'math',6).every(q=>!q.id.startsWith('mxg2-'))).toBe(true);
+  for(const grade of [1,4] as const)expect(allocateQuestions({...freshLearning(grade),school},grade,'math',6).every(q=>!q.id.startsWith('mxg2-'))).toBe(true);
+  const state={...freshLearning(2),school};bank.forEach(q=>markMastered(state,q.id));expect(allocateQuestions(state,2,'math',6).every(q=>!q.id.startsWith('mxg2-'))).toBe(true);
  }
- expect(allocateQuestions(freshLearning(),2,'math',6).every(q=>!q.id.startsWith('mxg2-'))).toBe(true);
+ expect(allocateQuestions(freshLearning(2),2,'math',6).every(q=>!q.id.startsWith('mxg2-'))).toBe(true);
 });
 it('preserves ongoing grade-two sessions when school-matched sources become available',()=>{
  const family=newFamily();startRun(family,'feifei','math','old-math',7);const ids=[...family.profiles.feifei.run!.questions];family.profiles.feifei.learning.school='nantun';

@@ -1,0 +1,13 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-131-release-20261107
+
+ ✓ src/__tests__/adult-cloud.test.mjs (13 tests) 2019ms
+   ✓ adult accounts and cloud learning (real PostgreSQL) (13)
+     ✓ creates isolated adult identity, strong password, private cookie and one-time recovery code 561ms
+     ✓ lets a signed-in adult replace a lost recovery code after password confirmation without touching learning 398ms
+     ✓ recovery rotates only adult credentials/sessions without clearing learning or child data 590ms
+
+ Test Files  1 passed (1)
+      Tests  13 passed (13)
+   Start at  09:51:16
+   Duration  2.47s (tests 84%, import 12%, transform 4%)

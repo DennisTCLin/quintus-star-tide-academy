@@ -1,0 +1,20 @@
+
+ RUN  v5.0.5 /private/tmp/finals131-base-3437
+
+ ✓ src/__tests__/all-child-curriculum-cloud.test.mjs (20 tests) 14104ms
+   ✓ all parent-confirmed child curriculum routing (20)
+     ✓ quintus: all matching subject voyages save and reload without cross-school sources 1076ms
+     ✓ alan: all matching subject voyages save and reload without cross-school sources 1046ms
+     ✓ brownie: all matching subject voyages save and reload without cross-school sources 856ms
+     ✓ jay: all matching subject voyages save and reload without cross-school sources 1045ms
+     ✓ alston: all matching subject voyages save and reload without cross-school sources 999ms
+     ✓ jimmy: all matching subject voyages save and reload without cross-school sources 614ms
+     ✓ feifei: all matching subject voyages save and reload without cross-school sources 612ms
+     ✓ olivia: all matching subject voyages save and reload without cross-school sources 774ms
+     ✓ sunny: all matching subject voyages save and reload without cross-school sources 775ms
+     ✓ jasper: all matching subject voyages save and reload without cross-school sources 767ms
+
+ Test Files  1 passed (1)
+      Tests  20 passed (20)
+   Start at  09:40:49
+   Duration  16.13s (tests 88%, transform 10%, import 2%)

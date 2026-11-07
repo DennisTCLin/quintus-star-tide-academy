@@ -1,0 +1,5 @@
+
+> quintus-ocean-academy@1.0.0 audit:content
+> node scripts/content-audit.mjs
+
+{"status":"PASS","static":6311,"generated":23192,"pools":42,"approvedStatic":6311,"approvedTemplates":42,"findings":0,"durationMs":470,"report":"output/content-audit/report.json"}

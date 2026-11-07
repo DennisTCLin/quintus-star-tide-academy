@@ -1,15 +1,17 @@
 import {beforeAll,afterAll,describe,it,expect} from 'vitest';
-import {randomUUID} from 'node:crypto';
+import {randomUUID,createHash} from 'node:crypto';
+import pinned from '../../docs/content-review/finals131-20261107/fixtures/base3437-cloud-families.json';
 import {createCloudApi} from '../../server/cloud.mjs';
 import {createAppServer} from '../../server.mjs';
 import {provisionChildAccount} from '../../server/child-account.mjs';
-import {newFamily,startRun,answerRun,nextQuestion,questionById,markMastered} from '../../build/game.mjs';
+import {newFamily,startRun,answerRun,nextQuestion,questionById,markMastered,validateFamily} from '../../build/game.mjs';
 import {LEARNING_BANK} from '../learning';
 import {eligibleExam} from '../school-curriculum';
 import {EXPECTED_CHILD_CURRICULA} from './helpers/child-curricula';
 const suite=process.env.TEST_DATABASE_URL?describe:describe.skip;
 suite('all parent-confirmed child curriculum routing',()=>{
  let api,server,url;const accounts=[];const clients={};
+ async function storage(accountId){return (await api.pool.query('SELECT family,family::text AS family_text,updated_at::text AS updated_at FROM game_states WHERE account_id=$1',[accountId])).rows[0];}
  async function call(path,body,c){const r=await fetch(url+'/api/'+path,{method:body===undefined?'GET':'POST',headers:{Origin:url,...(body===undefined?{}:{'Content-Type':'application/json'}),...(c?{Cookie:c.cookie,'X-CSRF-Token':c.data.csrf}:{})},body:body===undefined?undefined:JSON.stringify(body)});return {status:r.status,data:await r.json(),cookie:r.headers.get('set-cookie')?.split(';')[0]};}
  beforeAll(async()=>{
   api=await createCloudApi({connectionString:process.env.TEST_DATABASE_URL,production:false});server=createAppServer({api});await new Promise(r=>server.listen(0,'127.0.0.1',r));url=`http://127.0.0.1:${server.address().port}`;
@@ -23,8 +25,9 @@ suite('all parent-confirmed child curriculum routing',()=>{
    const oldRun=original.profiles[player].run;answerRun(original,player,oldRun.id,0,questionById(oldRun.questions[0]).answer);nextQuestion(original,player,oldRun.id,0);
    delete original.profiles[player].learning.school;
    await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=$1',[made.accountId,original]);
+   const storedBeforeLogin=await storage(made.accountId);
    const c=await call('login',{username:username.toUpperCase(),password:'0742'});expect(c.status,JSON.stringify(c.data)).toBe(200);expect(c.data.playerId).toBe(player);expect(c.data.family.profiles[player].learning.school).toBe(school);
-   clients[username]={...c,accountId:made.accountId,original,oldId:old.id};
+   clients[username]={...c,accountId:made.accountId,original,oldId:old.id,storedBeforeLogin};
   }
  },30000);
  afterAll(async()=>{
@@ -35,7 +38,10 @@ suite('all parent-confirmed child curriculum routing',()=>{
  for(const [username,player,grade,school,courses] of EXPECTED_CHILD_CURRICULA){
   it(`${username}: school overlay preserves old voyage, mastery, rewards and database bytes`,async()=>{
    const c=clients[username],st=await call('state',undefined,c);expect(st.status).toBe(200);expect(st.data.family.profiles[player].learning.school).toBe(school);
-   const raw=(await api.pool.query('SELECT family FROM game_states WHERE account_id=$1',[c.accountId])).rows[0].family;expect(raw).toEqual(c.original);
+   const raw=await storage(c.accountId);
+   expect(raw.family_text).toBe(c.storedBeforeLogin.family_text);expect(raw.updated_at).toBe(c.storedBeforeLogin.updated_at);
+   expect(validateFamily(structuredClone(raw.family))).toEqual(structuredClone(c.original));
+   console.info('current-routing-storage-evidence',JSON.stringify({synthetic:true,case:username,before:createHash('sha256').update(c.storedBeforeLogin.family_text).digest('hex'),after:createHash('sha256').update(raw.family_text).digest('hex'),updatedAtUnchanged:raw.updated_at===c.storedBeforeLogin.updated_at}));
    expect(st.data.family.profiles[player].run.id).toBe(c.original.profiles[player].run.id);expect(st.data.family.profiles[player].run.answers).toEqual(c.original.profiles[player].run.answers);expect(st.data.family.profiles[player].coins).toBe(c.original.profiles[player].coins);expect(st.data.family.profiles[player].tickets).toBe(5);
   });
   it(`${username}: all matching subject voyages save and reload without cross-school sources`,async()=>{
@@ -65,5 +71,29 @@ suite('all parent-confirmed child curriculum routing',()=>{
    }
    const final=(await call('state',undefined,c)).data.family;expect(final.profiles[player].learning.school).toBe(school);for(const id of [...c.original.profiles[player].learning.mastered.ids,...earned])expect(final.profiles[player].learning.mastered.ids).toContain(id);expect(final.profiles[player].coins).toBeGreaterThanOrEqual(735);expect(final.profiles[player].tickets).toBeGreaterThanOrEqual(5);for(const [id,p] of Object.entries(c.original.profiles))if(id!==player)expect(final.profiles[id]).toEqual(p);
   },60000);
+  it(`${username}: preserves an actual pinned-base voyage in both array and prefix storage`,async()=>{
+   expect(pinned.sourceCommit).toBe('3437ad63e8bfb8e0b689440176d94a0ea223be8c');
+   const c=clients[username],legacy=pinned.snapshots[username];expect(legacy.player).toBe(player);expect(legacy.school).toBe(school);
+   for(const [id,hash] of Object.entries(legacy.questionHashes))expect(createHash('sha256').update(JSON.stringify(questionById(id))).digest('hex'),id).toBe(hash);
+   for(const mode of ['array','prefix']){
+    const original=structuredClone(legacy.runtime),stored=structuredClone(original);
+    if(mode==='prefix'){
+     // Valid prefix-v1 storage with literal entries; oracle remains the independently captured base runtime.
+     stored.profiles[player].learning.seen={codec:'prefix-v1',entries:original.profiles[player].learning.seen.map(id=>[0,id])};
+    }
+    await api.pool.query('UPDATE game_states SET family=$2,updated_at=now() WHERE account_id=$1',[c.accountId,stored]);
+    const before=await storage(c.accountId),logged=await call('login',{username:username.toUpperCase(),password:'0742'});
+    expect(logged.status,JSON.stringify(logged.data)).toBe(200);
+    const fresh={...logged},state=await call('state',undefined,fresh);expect(state.status).toBe(200);
+    const after=await storage(c.accountId);expect(after.family_text,mode).toBe(before.family_text);expect(after.updated_at,mode).toBe(before.updated_at);
+    const decoded=validateFamily(structuredClone(after.family));expect(decoded,mode).toEqual(original);
+    const actual=state.data.family.profiles[player],expected=original.profiles[player];
+    expect(actual.run.id).toBe(expected.run.id);expect(actual.run.index).toBe(expected.run.index);expect(actual.run.answers).toEqual(expected.run.answers);
+    expect(actual.learning).toEqual({...expected.learning,school});
+    expect(actual.learning.seen).toEqual(expected.learning.seen);expect(actual.learning.mastered).toEqual(expected.learning.mastered);
+    for(const key of ['coins','tickets','starTickets','rewardStars','rewardRounds','owned','firstAcquired','equipped','growth'])expect(actual[key],`${mode}.${key}`).toEqual(expected[key]);
+    console.info('pinned-legacy-storage-evidence',JSON.stringify({synthetic:true,case:username,mode,sourceCommit:pinned.sourceCommit,before:createHash('sha256').update(before.family_text).digest('hex'),after:createHash('sha256').update(after.family_text).digest('hex'),updatedAtUnchanged:after.updated_at===before.updated_at,oldRun:actual.run.id,index:actual.run.index,fullRuntimeEqual:true}));
+   }
+  },30000);
  }
 });

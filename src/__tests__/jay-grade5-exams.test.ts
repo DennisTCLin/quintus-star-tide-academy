@@ -1,3 +1,4 @@
+import {preFinalsLearning as freshLearning} from './helpers/pre-finals-learning';
 import {GRADE5_NEW_EXAMS} from '../grade5-new-exams';
 import {describe,it,expect} from 'vitest';
 import {readFileSync} from 'node:fs';
@@ -5,7 +6,7 @@ import {GRADE5_REMAINING_EXAMS} from '../grade5-remaining-exams';
 import {GRADE5_DONGMEN_EXAMS} from '../grade5-dongmen-exams';
 import {EXAM_SOURCES,examSourceLabel} from '../exam-sources';
 import {coursePublisher,eligibleExam,examPracticePriority} from '../school-curriculum';
-import {freshLearning,allocateQuestions} from '../learning-engine';
+import {allocateQuestions} from '../learning-engine';
 import {markMastered} from '../mastered-questions';
 import {questionById} from '../learning';
 import {newFamily,startRun,answerRun,nextQuestion,validateFamily} from '../adventure';
@@ -32,7 +33,7 @@ describe('Jay 115 Dongmen grade-five sources',()=>{
   expect(eligibleExam('jianan',5,'english',english)).toBe(false);
  });
  it('prioritizes unseen midterm sources, then final supplements, then general practice after mastery',()=>{
-  const s=freshLearning();s.school='dongmen';const first=allocateQuestions(s,5,'chinese',6);
+  const s=freshLearning(5);s.school='dongmen';const first=allocateQuestions(s,5,'chinese',6);
   expect(first.every(item=>examPracticePriority(questionById(item.id)!)===0)).toBe(true);
   for(const q of [...GRADE5_DONGMEN_EXAMS,...GRADE5_REMAINING_EXAMS].filter(q=>q.course==='chinese'&&examPracticePriority(q)===0))markMastered(s,q.id);
   expect(allocateQuestions(s,5,'chinese',6).every(item=>item.id.startsWith('j5-')&&examPracticePriority(questionById(item.id)!)===1)).toBe(true);
@@ -40,7 +41,7 @@ describe('Jay 115 Dongmen grade-five sources',()=>{
   expect(allocateQuestions(s,5,'chinese',6).every(item=>item.id.startsWith('g5-general-'))).toBe(true);
  });
  it.each(['math','social'] as const)('uses original %s general questions after source mastery',course=>{
-  const s=freshLearning();s.school='dongmen';for(const q of GRADE5_NEW_EXAMS)markMastered(s,q.id);const ids=allocateQuestions(s,5,course,6);expect(ids).toHaveLength(6);for(const {id} of ids){const q=questionById(id)!;expect(q.grade).toBe(5);expect(q.course).toBe(course);expect(q.examSources).toBeUndefined();}
+  const s=freshLearning(5);s.school='dongmen';for(const q of GRADE5_NEW_EXAMS)markMastered(s,q.id);const ids=allocateQuestions(s,5,course,6);expect(ids).toHaveLength(6);for(const {id} of ids){const q=questionById(id)!;expect(q.grade).toBe(5);expect(q.course).toBe(course);expect(q.examSources).toBeUndefined();}
  });
  it.each(supplied)('completes a six-question %s voyage and round-trips without rewriting other players',course=>{
   const f=newFamily();f.profiles.jay.learning.school='dongmen';const before=structuredClone(f);startRun(f,'jay',course,'jay-'+course,0,false,'2026-10-27');

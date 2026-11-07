@@ -1,8 +1,9 @@
+import {preFinalsLearning as freshLearning} from './helpers/pre-finals-learning';
 import {it,expect} from 'vitest';
 import {GRADE6_ENGLISH_EXAMS} from '../grade6-english-exams';
 import {GRADE6_MATH_EXAMS} from '../grade6-math-exams';
 import {GRADE6_GENERAL_PRACTICE} from '../grade6-general-practice';
-import {freshLearning,allocateQuestions} from '../learning-engine';
+import {allocateQuestions} from '../learning-engine';
 import {newFamily,startRun,validateFamily} from '../adventure';
 import {questionById} from '../learning';
 import {markMastered} from '../mastered-questions';
@@ -21,9 +22,9 @@ it('serves six English questions to Jianan grade six without replacing the math 
  const f=newFamily();f.profiles.alston.learning.school='jianan';startRun(f,'alston','english','english6',0,false,'2026-10-26');
  const r=f.profiles.alston.run!;expect(r.questions).toHaveLength(6);expect(new Set(r.questions).size).toBe(6);expect(r.questions.every(id=>questionById(id)?.grade===6&&questionById(id)?.course==='english')).toBe(true);
  expect(r.encounter.route?.island).toBe('water');expect(validateFamily(f)).toEqual(f);expect(coursePublisher('jianan',6,'english')).toBe('何嘉仁');
- const l=freshLearning();l.school='jianan';expect(allocateQuestions(l,6,'math',6).every(a=>GRADE6_MATH_EXAMS.some(q=>q.id===a.id))).toBe(true);
- for(const grade of [1,4] as const){const l=freshLearning();l.school='jianan';expect(allocateQuestions(l,grade,'english',6).every(a=>questionById(a.id)!.grade===grade)).toBe(true);}
- for(const school of [undefined,'nantun'] as const){const l=freshLearning();l.school=school;const alloc=allocateQuestions(l,6,'english',6);expect(alloc).toHaveLength(6);expect(alloc.every(a=>questionById(a.id)?.grade===6)).toBe(true);}
+ const l=freshLearning(6);l.school='jianan';expect(allocateQuestions(l,6,'math',6).every(a=>GRADE6_MATH_EXAMS.some(q=>q.id===a.id))).toBe(true);
+ for(const grade of [1,4] as const){const l=freshLearning(grade);l.school='jianan';expect(allocateQuestions(l,grade,'english',6).every(a=>questionById(a.id)!.grade===grade)).toBe(true);}
+ for(const school of [undefined,'nantun'] as const){const l=freshLearning(6);l.school=school;const alloc=allocateQuestions(l,6,'english',6);expect(alloc).toHaveLength(6);expect(alloc.every(a=>questionById(a.id)?.grade===6)).toBe(true);}
 });
 it('preserves mastery and rewards, supports English review, and never falls back to lower grades on exhaustion',()=>{
  const f=newFamily(),p=f.profiles.alston;p.learning.school='jianan';for(const q of GRADE6_ENGLISH_EXAMS)markMastered(p.learning,q.id);for(const q of GRADE6_GENERAL_PRACTICE.filter(q=>q.course==='english'))markMastered(p.learning,q.id);

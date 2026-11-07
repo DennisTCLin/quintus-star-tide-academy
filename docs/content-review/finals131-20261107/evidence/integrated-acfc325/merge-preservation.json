@@ -1,0 +1,125 @@
+{
+  "integratedBase": "acfc325806be99254856ff31f88c4138961da8db",
+  "previousCandidate": "e310785dcb9022bae42ec22401f707759e3a84be",
+  "conflictPaths": [
+    "src/data/taiwan-zhuyin-overrides.json",
+    "src/data/interface-zhuyin.json",
+    "src/data/interface-zhuyin-packed.json"
+  ],
+  "resolution": "three-way structural union of reviewed overrides; regenerate both generated assets from complete merged sources using pinned pypinyin0.55.0",
+  "latestMainFiles": [
+    {
+      "file": "public/assets/conquest/fx/dark-tide-smoke-v2.json",
+      "sha256": "33df80c70e7dd94aad2aa4aed73b691062d2c47f0ab37e54426e2bd1949c4a61",
+      "matchesMain": true
+    },
+    {
+      "file": "public/assets/conquest/fx/dark-tide-smoke-v2.webp",
+      "sha256": "3bdbfb2a2121222e1ed07ee34304c943be48ce579c0d0c51c9746e041c5b3c99",
+      "matchesMain": true
+    },
+    {
+      "file": "scripts/build-dark-tide-smoke.py",
+      "sha256": "3d7778898f5c7477cb79c8590cc9e21013885d025ece985f77746f186419e8d2",
+      "matchesMain": true
+    },
+    {
+      "file": "src/ConquestBattle.tsx",
+      "sha256": "47bfb40cc7d947d4436048d4088d3600b412a3a0855d8659e9fb0f00d0ebbcbc",
+      "matchesMain": true
+    },
+    {
+      "file": "src/ConquestGame.tsx",
+      "sha256": "d2d79cf939637ffd7a942af74204beb585780bd571ffe4dda5654e516de9e564",
+      "matchesMain": true
+    },
+    {
+      "file": "src/ConquestRaid.tsx",
+      "sha256": "a26563ed9a5682baa0254f287e4910dfa7d786ad75cc68155a3c4a02069f76dd",
+      "matchesMain": true
+    },
+    {
+      "file": "src/ConquestScene.tsx",
+      "sha256": "5e60321c29e87435e9aa11b324262c61d8fb3a06d96e40224f7b87e2c2f7e015",
+      "matchesMain": true
+    },
+    {
+      "file": "src/__tests__/conquest-guidance.test.ts",
+      "sha256": "b4dd5e48b21364d6792d723ad3e30714253d4bdc3269b9af4b6657f764f2d63b",
+      "matchesMain": true
+    },
+    {
+      "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+      "sha256": "83fc40bb2352b0fddbcdf17887a2efd81e0c0a95cd0d15ad925c056fc982a351",
+      "matchesMain": true
+    },
+    {
+      "file": "src/__tests__/conquest-npc-smoke.test.ts",
+      "sha256": "ef61f5d58a2e7c0565528da56064365a6b128a8861cc4a0e8e071a93fec270c8",
+      "matchesMain": true
+    },
+    {
+      "file": "src/__tests__/conquest-npc-territory.test.ts",
+      "sha256": "0be708cb65a5f2b1115e6127e3fe70cb205bf55e65260425011955f7b258605a",
+      "matchesMain": true
+    },
+    {
+      "file": "src/__tests__/conquest.test.ts",
+      "sha256": "fe7141507f5669d2593be40e803e9895d0b623abf90ad27b1a71ee4057aff6da",
+      "matchesMain": true
+    },
+    {
+      "file": "src/conquest-enemy.ts",
+      "sha256": "3f92d238310ff7e313a55625aae4a91f397335e7d1f69826f09561c331fd6636",
+      "matchesMain": true
+    },
+    {
+      "file": "src/conquest-npc-smoke.ts",
+      "sha256": "d13931116b121c92375cdd8154c58724ea726380eb75b51a2dddb63981469341",
+      "matchesMain": true
+    },
+    {
+      "file": "src/conquest-presentation.ts",
+      "sha256": "f3f12da07dc4e05183876bde5798d81a76341baa15125b4090fac5e5fb7ff81e",
+      "matchesMain": true
+    },
+    {
+      "file": "src/conquest-reclamation.css",
+      "sha256": "e0be692a204ba1aec83b6dd72472e27a9500066a5bba14e4848ce004e58aad53",
+      "matchesMain": true
+    },
+    {
+      "file": "src/conquest.css",
+      "sha256": "43f4d8118dbde1462c6859810ec7852ba2a011101d9b3e6a6ffa53043455cabe",
+      "matchesMain": true
+    },
+    {
+      "file": "src/conquest.ts",
+      "sha256": "279eb5ba9fba6d3a0b5ae806b57c4c47a58498a7a655b45671c3e836071bd78c",
+      "matchesMain": true
+    }
+  ],
+  "candidateFilesUnchanged": [
+    {
+      "file": "src/data/finals-reviewed-20261107.json",
+      "sha256": "fc2038c09146edec8804779bebbd84a2ba483f5414051d8384724035ef32c9e3"
+    },
+    {
+      "file": "src/finals-reviewed-20261107.ts",
+      "sha256": "3e1e98c89cbefc49bfcfb110d52c6c45605fbc8121995f36ba7bf41fb7af30a3"
+    },
+    {
+      "file": "src/learning.ts",
+      "sha256": "118ed227a217d3ba26810ffa63d94aa41d96da92cac78682f01fc1196af132c4"
+    },
+    {
+      "file": "src/exam-sources.ts",
+      "sha256": "2302544a0c229149043b7b076b21cdcc12290c978ff9a598900ec4bfa06a4575"
+    },
+    {
+      "file": "docs/content-review/approvals.json",
+      "sha256": "5a8327b6d1b17c293753ff85a792119415a01d47be8b6f806d42dfeac303a063"
+    }
+  ],
+  "mergedReviewedPhraseCount": 428
+}
