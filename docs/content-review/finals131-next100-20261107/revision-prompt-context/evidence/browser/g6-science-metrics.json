@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g6-science",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "同一條直導線的位置不變，流過的直流電流大小相同，但方向相反。在導線旁同一位置，僅比較這條導線的電流所產生的磁場，其方向會如何改變？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g6-science",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "平時準備緊急避難包、了解避難路線並進行防災演練，有助於降低地震發生時的風險。",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g6-science",
+    "firstQuestion": "phase4-g6s-20003548-c01",
+    "answerButton": "選擇 方向相反",
+    "total": 6,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

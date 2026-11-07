@@ -1,0 +1,37 @@
+{
+  "instruction": "Independently solve each revised prompt and every option; no key; report ambiguity",
+  "items": [
+    {
+      "id": "phase4-g6s-20003548-c21",
+      "grade": 6,
+      "prompt": "部分傳統煙火配方會使用一種通常呈黃色、容易燃燒的礦物。這種礦物是哪一種？",
+      "options": [
+        "安山岩",
+        "石灰岩",
+        "硫黃",
+        "石墨",
+        "大理岩"
+      ]
+    },
+    {
+      "id": "phase4-g6s-20003548-c23",
+      "grade": 6,
+      "prompt": "在臺灣的一般地區，忽略磁偏角，且沒有附近磁鐵、電流或大型鐵製品干擾。讓一支條形磁鐵能自由地在水平方向轉動，靜止後，它的N極大致指向哪個地理方位？",
+      "options": [
+        "北方",
+        "南方",
+        "東方",
+        "西方"
+      ]
+    },
+    {
+      "id": "phase2-g2h-20003307-i-5",
+      "grade": 2,
+      "prompt": "這種動物有長鼻子。大〔ㄒㄧㄤˋ〕粗壯的腿像柱子。括號注音應寫成哪個字？",
+      "options": [
+        "象",
+        "像"
+      ]
+    }
+  ]
+}

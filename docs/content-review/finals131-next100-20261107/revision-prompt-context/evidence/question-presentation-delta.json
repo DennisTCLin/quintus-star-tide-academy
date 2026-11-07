@@ -1,0 +1,64 @@
+{
+  "baseCandidate": "0fec28a9a83143d0d36ae7ccb6be253543f93be6",
+  "changes": [
+    {
+      "id": "phase4-lang-g2-fix1",
+      "fields": {
+        "prompt": {
+          "before": "「我們手【千】著手，【韋】成一個圓圈。」兩個【】中的錯字，依序應改成哪一組？",
+          "after": "「我們手千著手，韋成一個圓圈。」句中「千」「韋」兩個錯字，依序應改成哪一組？"
+        }
+      },
+      "answerText": "牽、圍",
+      "sourceFamily": "tcool-20003529-p1-ii1"
+    },
+    {
+      "id": "phase4-g6s-20003548-c08",
+      "fields": {
+        "prompt": {
+          "before": "下列哪些情況可能使土壤或土地環境變差？甲：長期乾旱造成土壤缺水，植物較難生長。乙：乾旱、半乾旱地區的不當開發加劇土地退化。丙：長期不當施用某些肥料，造成土壤酸鹼性不適合原有作物。",
+          "after": "下列哪些情況可能使土壤或土地環境變差？甲：長期乾旱造成土壤缺水，植物較難生長。乙：乾旱與半乾旱地區的不當開發加劇土地退化。丙：長期不當施用某些肥料，造成土壤酸鹼性不適合原有作物。"
+        }
+      },
+      "answerText": "甲、乙、丙都是",
+      "sourceFamily": "20003548-q-II3"
+    },
+    {
+      "id": "phase5-g6m-20000967-iii7",
+      "fields": {
+        "prompt": {
+          "before": "長30公尺、寬10公尺的長方形空地內，畫一個放得下的最大圓。圓周長約多少公尺？（圓周率用3.14）",
+          "after": "長邊30公尺、短邊10公尺的長方形空地內，畫一個放得下的最大圓。圓周長約多少公尺？（圓周率用3.14）"
+        }
+      },
+      "answerText": "31.4",
+      "sourceFamily": "tcool-20000967-p1-iii7"
+    },
+    {
+      "id": "more-g2m-20000947-i4",
+      "fields": {
+        "options": {
+          "before": [
+            "邊長3公分的正三角形",
+            "邊長2公分的正方形",
+            "長3公分、寬1公分的長方形"
+          ],
+          "after": [
+            "邊長3公分的正三角形",
+            "邊長2公分的正方形",
+            "長邊3公分、短邊1公分的長方形"
+          ]
+        }
+      },
+      "answerText": "邊長3公分的正三角形",
+      "sourceFamily": "tcool-20000947-p1-i4"
+    }
+  ],
+  "unreleasedQuestionObjectsChanged": 4,
+  "productionQuestionObjectsChanged": 0,
+  "other96NewQuestionsUnchanged": true,
+  "allAnswerTextsUnchanged": true,
+  "approvalHashesRebound": 4,
+  "independentMeaningCheck": "degao_content_check:4 equivalent contexts,uniqueanswers preserved;full100840fieldscan caughtlastverb數nowfixed",
+  "sourcePackets": "original4readyproposalsremainhistorical;this delta explains exactpresentation adaptation,not a hidden modification"
+}

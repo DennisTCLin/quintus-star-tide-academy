@@ -1,0 +1,315 @@
+{
+  "sourceId": "20000967",
+  "sourceSchool": "臺北市民權國小",
+  "sourceYear": 113,
+  "grade": 6,
+  "subject": "math",
+  "publisher": "康軒",
+  "book": 11,
+  "sourceSha256": "b789b14e6cf3ee6deb464abe0f32fc8dd6603697b85306f14eb2054f595544f6",
+  "sourcePublisherProof": "curriculum-evidence/113-minquan-selection.json",
+  "targetUnitProof": "curriculum-evidence/115-g6-kangxuan-dalun.pdf",
+  "status": "BLIND_SOURCE_AND_ANSWER_CHECK_PENDING; no admission or runtime tests",
+  "items": [
+    {
+      "id": "phase5-g6m-20000967-i1",
+      "sourcePage": 1,
+      "locator": "一1",
+      "prompt": "甲圓的圓周長是乙圓的2倍，甲圓的面積就是乙圓面積的2倍。這句話正確嗎？",
+      "options": [
+        "正確",
+        "錯誤"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-i3",
+      "sourcePage": 1,
+      "locator": "一3",
+      "prompt": "「秒速」表示平均每一秒移動的距離。這句話正確嗎？",
+      "options": [
+        "正確",
+        "錯誤"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-i4",
+      "sourcePage": 1,
+      "locator": "一4",
+      "prompt": "甲、乙兩圓的半徑一樣長，圓周長也一樣長。這句話正確嗎？",
+      "options": [
+        "正確",
+        "錯誤"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-ii1",
+      "sourcePage": 1,
+      "locator": "二1",
+      "prompt": "A車速率是60公里／時，B車速率是800公尺／分。哪一輛車比較快？",
+      "options": [
+        "A車",
+        "B車",
+        "兩車一樣快",
+        "無法比較"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-ii2",
+      "sourcePage": 1,
+      "locator": "二2",
+      "prompt": "圓的直徑變成原來的3倍，圓周長變成原來的幾倍？",
+      "options": [
+        "不變",
+        "6倍",
+        "3倍",
+        "9倍"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-ii3",
+      "sourcePage": 1,
+      "locator": "二3",
+      "prompt": "同一個圓內，扇形面積越大，下列哪一個敘述正確？",
+      "options": [
+        "半徑越大",
+        "圓周長越小",
+        "圓周率越大",
+        "弧長越長"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-ii4",
+      "sourcePage": 1,
+      "locator": "二4",
+      "prompt": "小睿跑500公尺花1分鐘，小瀚跑1公里花3分鐘。誰跑得比較快？",
+      "options": [
+        "小瀚",
+        "小睿",
+        "一樣快",
+        "無法比較"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-ii5",
+      "sourcePage": 1,
+      "locator": "二5",
+      "prompt": "B圖是A圖的二分之一倍縮圖，B圖的邊長是A圖邊長的幾倍？",
+      "options": [
+        "2倍",
+        "4倍",
+        "二分之一倍",
+        "四分之一倍"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-iii1",
+      "sourcePage": 1,
+      "locator": "三1",
+      "prompt": "小川家到遊樂園實際距離2.4公里，地圖上距離2公分。這張地圖的比例尺是多少？",
+      "options": [
+        "1：1200",
+        "1：12000",
+        "1：120000",
+        "1：1200000"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-iii2",
+      "sourcePage": 1,
+      "locator": "三2",
+      "prompt": "一架噴射機的速率是1160公里／時，換成公尺／時是多少？",
+      "options": [
+        "11600",
+        "116000",
+        "1160000",
+        "11600000"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-iii3",
+      "sourcePage": 1,
+      "locator": "三3",
+      "prompt": "蝸牛每天爬20公尺，保持相同速率爬120公尺，需要幾天？",
+      "options": [
+        "4天",
+        "5天",
+        "6天",
+        "8天"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-iii4",
+      "sourcePage": 1,
+      "locator": "三4",
+      "prompt": "半徑8公分的圓形月餅平均分成8塊，每一塊的面積約是多少平方公分？（圓周率用3.14）",
+      "options": [
+        "6.28",
+        "25.12",
+        "50.24",
+        "200.96"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-iii5",
+      "sourcePage": 1,
+      "locator": "三5",
+      "prompt": "琪琪和樂樂雙臂張開共長244.92公分，剛好抱住大樹一圈。這棵樹的直徑約多少公分？（把樹幹視為圓，圓周率用3.14）",
+      "options": [
+        "39",
+        "78",
+        "122.46",
+        "156"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-iii6",
+      "sourcePage": 1,
+      "locator": "三6",
+      "prompt": "用圓規畫半徑10公分的圓，圓周長約多少公分？（圓周率用3.14）",
+      "options": [
+        "31.4",
+        "62.8",
+        "100",
+        "314"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-iii7",
+      "sourcePage": 1,
+      "locator": "三7",
+      "prompt": "長30公尺、寬10公尺的長方形空地內，畫一個放得下的最大圓。圓周長約多少公尺？（圓周率用3.14）",
+      "options": [
+        "15.7",
+        "31.4",
+        "62.8",
+        "94.2"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-iii8",
+      "sourcePage": 2,
+      "locator": "三8",
+      "prompt": "一塊四分之一圓扇形土地面積28.26平方公尺，原來整個圓的直徑約多少公尺？（圓周率用3.14）",
+      "options": [
+        "3",
+        "6",
+        "12",
+        "24"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-iii9",
+      "sourcePage": 2,
+      "locator": "三9",
+      "prompt": "比例尺1：4000的地圖上，正方形公園邊長2公分。實際邊長是多少公分？",
+      "options": [
+        "2000",
+        "4000",
+        "8000",
+        "16000"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-iii11",
+      "sourcePage": 2,
+      "locator": "三11",
+      "prompt": "田徑場一圈400公尺，弟弟跑一圈花1分鐘20秒。他的平均速率是多少公尺／秒？",
+      "options": [
+        "4",
+        "5",
+        "20",
+        "80"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-iii12",
+      "sourcePage": 2,
+      "locator": "三12",
+      "prompt": "圓周長188.4公分的圓，面積約多少平方公分？（圓周率用3.14）",
+      "options": [
+        "282.6",
+        "942",
+        "2826",
+        "11304"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-iii13",
+      "sourcePage": 2,
+      "locator": "三13",
+      "prompt": "時速12公里與分速0.2公里相比，哪一項正確？",
+      "options": [
+        "時速12公里較快",
+        "分速0.2公里較快",
+        "兩者一樣快",
+        "單位不同不能比較"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-vii2",
+      "sourcePage": 3,
+      "locator": "七2",
+      "prompt": "比例尺1：1200的導覽告示牌上，步道長90公分。同一條步道在比例尺1：2400的傳單上長幾公分？",
+      "options": [
+        "22.5",
+        "45",
+        "90",
+        "180"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-vii3",
+      "sourcePage": 3,
+      "locator": "七3",
+      "prompt": "小謙一步約42公分，沿圓形花園外圍走一圈共157步。花園半徑約多少公尺？（圓周率用3.14）",
+      "options": [
+        "10.5",
+        "21",
+        "42",
+        "1050"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-vii4",
+      "sourcePage": 3,
+      "locator": "七4",
+      "prompt": "列車行駛180公里花0.75小時，平均速率是多少公里／時？",
+      "options": [
+        "135",
+        "180",
+        "240",
+        "270"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-vii5",
+      "sourcePage": 3,
+      "locator": "七5",
+      "prompt": "投手投球速率約108公里／時，球飛行0.6秒到捕手手套。以此速率估算，距離約幾公尺？",
+      "options": [
+        "10.8",
+        "18",
+        "30",
+        "64.8"
+      ]
+    },
+    {
+      "id": "phase5-g6m-20000967-vii6",
+      "sourcePage": 3,
+      "locator": "七6",
+      "prompt": "腳踏車輪胎半徑35公分，向前行駛420公尺且車輪沒有打滑。車輪約轉幾圈？（圓周率用3.14，四捨五入到整數）",
+      "options": [
+        "19",
+        "191",
+        "382",
+        "1911"
+      ]
+    }
+  ],
+  "heldOriginalSections": [
+    "一2/一5 map extent needs fixed-size-map qualifier; not selected",
+    "三10/四/五/六/七1/七7/七8 excluded from this text-only packet; figures/scale/selection scope not yet admitted"
+  ],
+  "authorNotes": "Necessary conditions explicitly added: same-circle sector, tree circular section, pi3.14, no-slip wheel, unit requested. Removed unsupported fastest-aircraft superlative. These are proposed selections only; reviewer must flag any altered skill/ambiguous key/mismatched source.",
+  "revision": "v3: retain v2 source-name repair;restore original distinct ii3 distractors;complete vii4 rate unit"
+}

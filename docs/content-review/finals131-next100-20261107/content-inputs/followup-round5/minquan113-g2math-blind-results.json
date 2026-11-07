@@ -1,0 +1,63 @@
+{
+  "reviewer": "degao_content_check",
+  "mode": "read-only blind input and actual source images;didnot read author key",
+  "packetSha256": "db1c35e3d0ce2650faf5e468a545b2ab68555703bcecc6c679c8f6afe55b5669",
+  "count": 12,
+  "uniqueAnswers": [
+    {
+      "id": "more-g2m-20000947-i2",
+      "answerText": "3圈"
+    },
+    {
+      "id": "more-g2m-20000947-i4",
+      "answerText": "邊長3公分的正三角形"
+    },
+    {
+      "id": "more-g2m-20000947-ii1",
+      "answerText": "12時25分"
+    },
+    {
+      "id": "more-g2m-20000947-ii2",
+      "answerText": "43分鐘"
+    },
+    {
+      "id": "more-g2m-20000947-ii3",
+      "answerText": "12"
+    },
+    {
+      "id": "more-g2m-20000947-ii5",
+      "answerText": "14本"
+    },
+    {
+      "id": "more-g2m-20000947-iii5",
+      "answerText": "24朵"
+    },
+    {
+      "id": "more-g2m-20000947-v1",
+      "answerText": "30公分"
+    },
+    {
+      "id": "more-g2m-20000947-v2",
+      "answerText": "40公分"
+    },
+    {
+      "id": "more-g2m-20000947-vi1a",
+      "answerText": "6顆"
+    },
+    {
+      "id": "more-g2m-20000947-vi1b",
+      "answerText": "21位"
+    },
+    {
+      "id": "more-g2m-20000947-vi2",
+      "answerText": "30個"
+    }
+  ],
+  "sourceImageChecks": "Both actual pages;8pots3flowers each;triangle8/8/14 andquadrilateral17/7/9/7 directly verified",
+  "limitations": [
+    "Not whole-paper admission, runtime, or deployment.",
+    "113Minquan ownselection supportsNanyi;explicitbook3 reference is114Fuan samepublisher/samegrade-semester,not113Minquanownbookcaption.",
+    "115NantunconceptintersectionsU7/U8/U9/U10 only;not fullcurrentexamrange.",
+    "Ambiguousmultiplicationrepresentations,truncatedcrosscolumnandunmatchedweightitemsnotadmitted."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://tten.tp.edu.tw/Login/Downment?grade=2&spid=896dda2c-aa3d-42f3-a18f-603c49d04c1f&subject=AddMathematics",
+  "source": "Actual official TTEN PDF opened from search result; not guessed SPID",
+  "downloadedAt": "2026-11-07T07:44:52.312453+00:00",
+  "bytes": 1302982,
+  "sha256": "c6b890949d7a79420c33f0cb972c2c42c93450bcc17897c98469ad22fb1436b0",
+  "scope": "114 same publisher/book explicit reference; not a statement of source school Minquan or target school Nantun using Fuan plan",
+  "visualCheck": "ROOT_P1_EXPLICIT_114_FIRST_SEMESTER_G2_NANYI_BOOK3_PASS",
+  "scopeLimitations": [
+    "Same publisher/book mapping reference only; not Minquan or Nantun school selection.",
+    "PDF contains both semesters. Page34 second-semester header repeats 第三冊 (template conflict); do not use page34+ as book/semester proof.",
+    "114 source plan uses U6 multiplication2/5/4/8, U7 time, U8 multiplication3/6/7/9;115 Nantun plan uses U7/U8/U9 for matching concepts. Unit numbering must be mapped by content, not copied."
+  ]
+}

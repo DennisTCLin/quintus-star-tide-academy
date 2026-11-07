@@ -1,0 +1,215 @@
+{
+  "reviewer": "finals131_release_falsifier",
+  "packetSHA": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632",
+  "scope": "independent blind only",
+  "uniqueCount": 31,
+  "heldCount": 2,
+  "results": [
+    {
+      "id": "phase4-lang-g1-you",
+      "answerIndex": 0,
+      "answerText": "ㄧㄡˇ",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g1-duo",
+      "answerIndex": 1,
+      "answerText": "ㄉㄨㄛ",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g1-le",
+      "answerIndex": 0,
+      "answerText": "˙ㄌㄜ",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g1-bu",
+      "answerIndex": 1,
+      "answerText": "ㄅㄨˋ",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g1-jia",
+      "answerIndex": 0,
+      "answerText": "ㄐㄧㄚ",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-ju",
+      "answerIndex": 0,
+      "answerText": "聚",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-si",
+      "answerIndex": 1,
+      "answerText": "思",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-fa",
+      "answerIndex": 0,
+      "answerText": "發",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-cong",
+      "answerIndex": 1,
+      "answerText": "聰",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-ming",
+      "answerIndex": 0,
+      "answerText": "明",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-wu",
+      "answerIndex": 1,
+      "answerText": "烏",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-han",
+      "answerIndex": 0,
+      "answerText": "寒",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-leng",
+      "answerIndex": 1,
+      "answerText": "冷",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-ye",
+      "answerIndex": 0,
+      "answerText": "夜",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-he",
+      "answerIndex": 1,
+      "answerText": "喝",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-xing",
+      "answerIndex": 0,
+      "answerText": "幸",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-xiang",
+      "answerIndex": null,
+      "answerText": null,
+      "unique": false,
+      "reason": "像有雕像義，未明動物"
+    },
+    {
+      "id": "phase4-lang-g2-tui",
+      "answerIndex": 0,
+      "answerText": "腿",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-zhu",
+      "answerIndex": 1,
+      "answerText": "柱",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-fix1",
+      "answerIndex": 0,
+      "answerText": "牽、圍",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-fix2",
+      "answerIndex": null,
+      "answerText": null,
+      "unique": false,
+      "reason": "忻為欣異體，且忻賞有實例，未限定正字標準"
+    },
+    {
+      "id": "phase4-lang-g2-fix4",
+      "answerIndex": 3,
+      "answerText": "沿、直",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-fix5",
+      "answerIndex": 2,
+      "answerText": "忘、渴",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-fix6",
+      "answerIndex": 0,
+      "answerText": "貨、東",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-fix7",
+      "answerIndex": 2,
+      "answerText": "操、充",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-fix8",
+      "answerIndex": 3,
+      "answerText": "翅、飛",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-fix9",
+      "answerIndex": 0,
+      "answerText": "待、鍋",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-fix10",
+      "answerIndex": 1,
+      "answerText": "針",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-fix11",
+      "answerIndex": 0,
+      "answerText": "飯",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-fix12",
+      "answerIndex": 1,
+      "answerText": "具",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-mcq2",
+      "answerIndex": 0,
+      "answerText": "伸",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-mcq3",
+      "answerIndex": 1,
+      "answerText": "居然",
+      "unique": true
+    },
+    {
+      "id": "phase4-lang-g2-mcq5",
+      "answerIndex": 1,
+      "answerText": "期、服",
+      "unique": true
+    }
+  ],
+  "sources": [
+    "https://dict.variants.moe.edu.tw/dictView.jsp?educode=A02054-005",
+    "https://digitalarchive.npm.gov.tw/Collection/Detail/34320?dep=P",
+    "https://dict.mini.moe.edu.tw/SearchIndex/word_detail?wordID=D0002156"
+  ],
+  "transcription": "answer keys transcribed from delivered review; reasons abridged; no approval implied"
+}

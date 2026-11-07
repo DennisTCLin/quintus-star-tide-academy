@@ -1,0 +1,24 @@
+{
+  "path": "output/content-audit/report.json",
+  "tracked": true,
+  "purpose": "npm run build/audit naturally rewrites default audit output; never staged in0fec and not evidence of frozen source by itself",
+  "gitHead": "0fec28a9a83143d0d36ae7ccb6be253543f93be6",
+  "gitBlobSha256": "5bdc91ef6ac3ece417d00b94ae4aeb8ab9aa9ec1f1903ea54af2d0fb142b0c7a",
+  "workingSha256": "09203dc050c0b0b09e2d5c6d8c883bc1658075ad15071a2a219d00dadaaf459d",
+  "gitReportCounts": {
+    "static": 6629,
+    "generated": 23192,
+    "pools": 42,
+    "approvedStatic": 6629,
+    "approvedTemplates": 42
+  },
+  "workingReportCounts": {
+    "static": 6729,
+    "generated": 23192,
+    "pools": 42,
+    "approvedStatic": 6729,
+    "approvedTemplates": 42
+  },
+  "in178Index": false,
+  "action": "preserved both bytes outside reviewed tree; no restore/discard or commit of this cache"
+}

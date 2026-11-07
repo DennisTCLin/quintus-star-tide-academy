@@ -1,0 +1,190 @@
+{
+  "reviewer": "round3_falsifier",
+  "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116",
+  "scope": "independent blind only",
+  "uniqueCount": 23,
+  "heldCount": 2,
+  "results": [
+    {
+      "id": "phase4-g6s-20003548-c01",
+      "answerIndex": 0,
+      "answerText": "方向相反",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c02",
+      "answerIndex": 0,
+      "answerText": "正確",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c03",
+      "answerIndex": 0,
+      "answerText": "正確",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c04",
+      "answerIndex": 3,
+      "answerText": "凸岸主要是因為水流較緩的一側侵蝕最強而形成",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c05",
+      "answerIndex": 1,
+      "answerText": "錯誤",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c06",
+      "answerIndex": 2,
+      "answerText": "為取得石材而開山採石",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c07",
+      "answerIndex": 0,
+      "answerText": "線圈圈數",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c08",
+      "answerIndex": 3,
+      "answerText": "甲、乙、丙都是",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c09",
+      "answerIndex": 1,
+      "answerText": "錯誤",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c10",
+      "answerIndex": 2,
+      "answerText": "玄武岩",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c11",
+      "answerIndex": 0,
+      "answerText": "線圈中持續的電流已停止，但鐵芯仍可能保留一些殘磁",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c12",
+      "answerIndex": 2,
+      "answerText": "軟鐵棒",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c13",
+      "answerIndex": 0,
+      "answerText": "正確",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c14",
+      "answerIndex": 1,
+      "answerText": "錯誤",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c15",
+      "answerIndex": 2,
+      "answerText": "甲、乙都可以",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c16",
+      "answerIndex": 3,
+      "answerText": "甲、乙、丙都是",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c17",
+      "answerIndex": 1,
+      "answerText": "錯誤",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c18",
+      "answerIndex": 0,
+      "answerText": "甲、丙、戊、己",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c19",
+      "answerIndex": 0,
+      "answerText": "N、S、N、S",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c20",
+      "answerIndex": 3,
+      "answerText": "石墨",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c21",
+      "answerIndex": null,
+      "answerText": null,
+      "unique": false,
+      "blockingReason": "石墨亦可用於部分火藥顆粒加工；用途範圍太廣"
+    },
+    {
+      "id": "phase4-g6s-20003548-c22",
+      "answerIndex": 2,
+      "answerText": "接觸電池的漆包線兩端，絕緣漆是否已磨除",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c23",
+      "answerIndex": null,
+      "answerText": null,
+      "unique": false,
+      "blockingReason": "未限定地點/磁偏角；高緯等可能不指地理北"
+    },
+    {
+      "id": "phase4-g6s-20003548-c24",
+      "answerIndex": 0,
+      "answerText": "S極",
+      "unique": true,
+      "blockingReason": null
+    },
+    {
+      "id": "phase4-g6s-20003548-c25",
+      "answerIndex": 2,
+      "answerText": "磁力",
+      "unique": true,
+      "blockingReason": null
+    }
+  ],
+  "sources": [
+    "https://www.nps.gov/casa/learn/historyculture/gunpowder.htm",
+    "https://www.usgs.gov/faqs/what-declination",
+    "https://www.ngdc.noaa.gov/geomag/declination.shtml"
+  ],
+  "transcription": "delivered answer keys transcribed; reasons abridged"
+}

@@ -1,0 +1,211 @@
+{
+  "count": 8,
+  "status": "8_CONTENT_READY_PROPOSAL_ONLY_NOT_IMPORTED_NOT_RUNTIME_TESTED_NOT_DEPLOYED",
+  "items": [
+    {
+      "id": "phase5-g2m-20003700-i1",
+      "sourcePage": 1,
+      "locator": "一1",
+      "prompt": "小丸子有5盒餅乾，每盒8塊，想請每位小朋友吃1塊，最多可以請幾位小朋友？",
+      "options": [
+        "30位",
+        "40位",
+        "50位",
+        "80位"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "expectedBook": 3,
+      "answer": 1,
+      "answerText": "40位",
+      "explanation": "5×8＝40塊，每人1塊可給40位。",
+      "sourceFamily": "tcool-20003700-p1-i1",
+      "status": "CONTENT_READY_PROPOSAL_NOT_IMPORTED",
+      "book": 3,
+      "unit115Target": "U7乘法2/5/4/8"
+    },
+    {
+      "id": "phase5-g2m-20003700-i2",
+      "sourcePage": 1,
+      "locator": "一2",
+      "prompt": "關於時鐘與時間，哪一個敘述錯誤？",
+      "options": [
+        "分針是長針",
+        "時針是短針",
+        "時針走一圈經過60分鐘",
+        "分針走6大格是30分鐘"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "expectedBook": 3,
+      "answer": 2,
+      "answerText": "時針走一圈經過60分鐘",
+      "explanation": "一般12小時制時鐘，時針一圈12小時，不是60分鐘。",
+      "sourceFamily": "tcool-20003700-p1-i2",
+      "status": "CONTENT_READY_PROPOSAL_NOT_IMPORTED",
+      "book": 3,
+      "unit115Target": "U8幾時幾分"
+    },
+    {
+      "id": "phase5-g2m-20003700-ii2",
+      "sourcePage": 1,
+      "locator": "二2",
+      "prompt": "8×7比8×5多多少？",
+      "options": [
+        "8",
+        "16",
+        "24",
+        "40"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "expectedBook": 3,
+      "answer": 1,
+      "answerText": "16",
+      "explanation": "8×7－8×5＝56－40＝16。",
+      "sourceFamily": "tcool-20003700-p1-ii2",
+      "status": "CONTENT_READY_PROPOSAL_NOT_IMPORTED",
+      "book": 3,
+      "unit115Target": "U7乘法2/5/4/8"
+    },
+    {
+      "id": "phase5-g2m-20003700-ii3",
+      "sourcePage": 1,
+      "locator": "二3",
+      "prompt": "2×4比2×8少多少？",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "16"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "expectedBook": 3,
+      "answer": 1,
+      "answerText": "8",
+      "explanation": "2×8－2×4＝16－8＝8。",
+      "sourceFamily": "tcool-20003700-p1-ii3",
+      "status": "CONTENT_READY_PROPOSAL_NOT_IMPORTED",
+      "book": 3,
+      "unit115Target": "U7乘法2/5/4/8"
+    },
+    {
+      "id": "phase5-g2m-20003700-ii4",
+      "sourcePage": 1,
+      "locator": "二4",
+      "prompt": "3的2倍加上3的5倍，是3的幾倍？",
+      "options": [
+        "3倍",
+        "5倍",
+        "7倍",
+        "10倍"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "expectedBook": 3,
+      "answer": 2,
+      "answerText": "7倍",
+      "explanation": "3×2＋3×5＝3×7，是3的7倍。",
+      "sourceFamily": "tcool-20003700-p1-ii4",
+      "status": "CONTENT_READY_PROPOSAL_NOT_IMPORTED",
+      "book": 3,
+      "unit115Target": "U9乘法3/6/7/9"
+    },
+    {
+      "id": "phase5-g2m-20003700-iii1",
+      "sourcePage": 1,
+      "locator": "三1",
+      "prompt": "1串香蕉有5根，4串香蕉共有幾根？",
+      "options": [
+        "9根",
+        "15根",
+        "20根",
+        "25根"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "expectedBook": 3,
+      "answer": 2,
+      "answerText": "20根",
+      "explanation": "5×4＝20根。",
+      "sourceFamily": "tcool-20003700-p1-iii1",
+      "status": "CONTENT_READY_PROPOSAL_NOT_IMPORTED",
+      "book": 3,
+      "unit115Target": "U7乘法2/5/4/8"
+    },
+    {
+      "id": "phase5-g2m-20003700-iii2",
+      "sourcePage": 1,
+      "locator": "三2",
+      "prompt": "1串糖葫蘆有4顆小番茄，3串共有幾顆小番茄？",
+      "options": [
+        "7顆",
+        "8顆",
+        "12顆",
+        "16顆"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "expectedBook": 3,
+      "answer": 2,
+      "answerText": "12顆",
+      "explanation": "4×3＝12顆。",
+      "sourceFamily": "tcool-20003700-p1-iii2",
+      "status": "CONTENT_READY_PROPOSAL_NOT_IMPORTED",
+      "book": 3,
+      "unit115Target": "U7乘法2/5/4/8"
+    },
+    {
+      "id": "phase5-g2m-20003700-iii3",
+      "sourcePage": 1,
+      "locator": "三3",
+      "prompt": "體育表演會從上午8點開始，中午12點結束，共經過幾小時？",
+      "options": [
+        "3小時",
+        "4小時",
+        "5小時",
+        "8小時"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "expectedBook": 3,
+      "answer": 1,
+      "answerText": "4小時",
+      "explanation": "同日12－8＝4小時。",
+      "sourceFamily": "tcool-20003700-p1-iii3",
+      "status": "CONTENT_READY_PROPOSAL_NOT_IMPORTED",
+      "book": 3,
+      "unit115Target": "U8幾時幾分"
+    }
+  ],
+  "evidence": {
+    "sourceSchoolPublisher": "114-minquan-selection.pdf confirms114MinquanG2mathNanyi",
+    "samePublisherExplicitBookReference": "114-fuan-g2-math-nanyi-book3.pdf p1 confirms114firstsemesterG2Nanyi第三冊;not source or target school selection",
+    "targetUnitReference": "115-nantun-g2-plan.pdf p4 U7/U8/U9 concept mapping;not explicitbookcaption",
+    "independentBookCheck": "read-only checker confirmed p1/15/17/19/20/22/24; secondsemesterp34templateconflict excluded",
+    "wholePaperApproved": false,
+    "runtimeAdmission": false
+  },
+  "dedupe": {
+    "staticCatalogAnd80Proposals": "minquan-g2math-dedupe-neighbors.json;no exact normalizedprompt/ID/sourceFamily conflicts",
+    "nearestReview": "0.75 4×3vs4×8 differs from2×4vs2×8;0.625 11AMto3PM differs from8AMto12noon;sameelapsedanswer not duplicate original problem",
+    "generatedPools": "PASS minquan-g2math-generated-dedupe.json; generatedmathG2:0"
+  }
+}

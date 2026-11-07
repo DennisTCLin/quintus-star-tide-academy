@@ -1,0 +1,526 @@
+[
+  {
+    "candidateId": "phase4-lang-g1-you",
+    "sourceId": "20003527",
+    "sourcePage": 1,
+    "locator": "一1友注音",
+    "sourceFamily": "tcool-20003527-p1-i1",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g1-you"
+  },
+  {
+    "candidateId": "phase4-lang-g1-duo",
+    "sourceId": "20003527",
+    "sourcePage": 1,
+    "locator": "一2多注音",
+    "sourceFamily": "tcool-20003527-p1-i2",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g1-duo"
+  },
+  {
+    "candidateId": "phase4-lang-g1-le",
+    "sourceId": "20003527",
+    "sourcePage": 1,
+    "locator": "一2了注音",
+    "sourceFamily": "tcool-20003527-p1-i2",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g1-le"
+  },
+  {
+    "candidateId": "phase4-lang-g1-bu",
+    "sourceId": "20003527",
+    "sourcePage": 1,
+    "locator": "一2不注音",
+    "sourceFamily": "tcool-20003527-p1-i2",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g1-bu"
+  },
+  {
+    "candidateId": "phase4-lang-g1-jia",
+    "sourceId": "20003527",
+    "sourcePage": 1,
+    "locator": "一2末段家注音",
+    "sourceFamily": "tcool-20003527-p1-i2",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g1-jia"
+  },
+  {
+    "candidateId": "phase4-lang-g2-ju",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一1第1格",
+    "sourceFamily": "tcool-20003529-p1-i1",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-ju"
+  },
+  {
+    "candidateId": "phase4-lang-g2-si",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一1第2格",
+    "sourceFamily": "tcool-20003529-p1-i1",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-si"
+  },
+  {
+    "candidateId": "phase4-lang-g2-fa",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一1第3格",
+    "sourceFamily": "tcool-20003529-p1-i1",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-fa"
+  },
+  {
+    "candidateId": "phase4-lang-g2-cong",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一2第1格",
+    "sourceFamily": "tcool-20003529-p1-i2",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-cong"
+  },
+  {
+    "candidateId": "phase4-lang-g2-ming",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一2第2格",
+    "sourceFamily": "tcool-20003529-p1-i2",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-ming"
+  },
+  {
+    "candidateId": "phase4-lang-g2-wu",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一2第3格",
+    "sourceFamily": "tcool-20003529-p1-i2",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-wu"
+  },
+  {
+    "candidateId": "phase4-lang-g2-han",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一3第1格",
+    "sourceFamily": "tcool-20003529-p1-i3",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-han"
+  },
+  {
+    "candidateId": "phase4-lang-g2-leng",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一3第2格",
+    "sourceFamily": "tcool-20003529-p1-i3",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-leng"
+  },
+  {
+    "candidateId": "phase4-lang-g2-ye",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一3第3格",
+    "sourceFamily": "tcool-20003529-p1-i3",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-ye"
+  },
+  {
+    "candidateId": "phase4-lang-g2-he",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一3第4格",
+    "sourceFamily": "tcool-20003529-p1-i3",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-he"
+  },
+  {
+    "candidateId": "phase4-lang-g2-xing",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一3第5格",
+    "sourceFamily": "tcool-20003529-p1-i3",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-xing"
+  },
+  {
+    "candidateId": "phase4-lang-g2-xiang",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一4第1格",
+    "sourceFamily": "tcool-20003529-p1-i4",
+    "status": "duplicate",
+    "existingId": "phase2-g2h-20003307-i-5",
+    "reason": "相同動物腿像柱子的目標與語境，保留原ID；象題須先帶入PR22補明動物的修正"
+  },
+  {
+    "candidateId": "phase4-lang-g2-tui",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一4第2格",
+    "sourceFamily": "tcool-20003529-p1-i4",
+    "status": "duplicate",
+    "existingId": "phase2-g2h-20003307-i-7",
+    "reason": "相同動物腿像柱子的目標與語境，保留原ID；象題須先帶入PR22補明動物的修正"
+  },
+  {
+    "candidateId": "phase4-lang-g2-zhu",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "一4第3格",
+    "sourceFamily": "tcool-20003529-p1-i4",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-zhu"
+  },
+  {
+    "candidateId": "phase4-lang-g2-fix1",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "二1",
+    "sourceFamily": "tcool-20003529-p1-ii1",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-fix1"
+  },
+  {
+    "candidateId": "phase4-lang-g2-fix2",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "二2",
+    "sourceFamily": "tcool-20003529-p1-ii2",
+    "status": "held",
+    "reason": "忻/欣異體及忻賞實例；原兩字改錯題未限定標準正字"
+  },
+  {
+    "candidateId": "phase4-lang-g2-fix4",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "二4",
+    "sourceFamily": "tcool-20003529-p1-ii4",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-fix4"
+  },
+  {
+    "candidateId": "phase4-lang-g2-fix5",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "二5",
+    "sourceFamily": "tcool-20003529-p1-ii5",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-fix5"
+  },
+  {
+    "candidateId": "phase4-lang-g2-fix6",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "二6",
+    "sourceFamily": "tcool-20003529-p1-ii6",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-fix6"
+  },
+  {
+    "candidateId": "phase4-lang-g2-fix7",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "二7",
+    "sourceFamily": "tcool-20003529-p1-ii7",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-fix7"
+  },
+  {
+    "candidateId": "phase4-lang-g2-fix8",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "二8",
+    "sourceFamily": "tcool-20003529-p1-ii8",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-fix8"
+  },
+  {
+    "candidateId": "phase4-lang-g2-fix9",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "二9",
+    "sourceFamily": "tcool-20003529-p1-ii9",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-fix9"
+  },
+  {
+    "candidateId": "phase4-lang-g2-fix10",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "二10",
+    "sourceFamily": "tcool-20003529-p1-ii10",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-fix10"
+  },
+  {
+    "candidateId": "phase4-lang-g2-fix11",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "二11",
+    "sourceFamily": "tcool-20003529-p1-ii11",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-fix11"
+  },
+  {
+    "candidateId": "phase4-lang-g2-fix12",
+    "sourceId": "20003529",
+    "sourcePage": 1,
+    "locator": "二12",
+    "sourceFamily": "tcool-20003529-p1-ii12",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-fix12"
+  },
+  {
+    "candidateId": "phase4-lang-g2-mcq2",
+    "sourceId": "20003529",
+    "sourcePage": 2,
+    "locator": "五2",
+    "sourceFamily": "tcool-20003529-p2-v2",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-mcq2"
+  },
+  {
+    "candidateId": "phase4-lang-g2-mcq3",
+    "sourceId": "20003529",
+    "sourcePage": 2,
+    "locator": "五3",
+    "sourceFamily": "tcool-20003529-p2-v3",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-mcq3"
+  },
+  {
+    "candidateId": "phase4-lang-g2-mcq5",
+    "sourceId": "20003529",
+    "sourcePage": 2,
+    "locator": "五5",
+    "sourceFamily": "tcool-20003529-p2-v5",
+    "status": "ready_for_import",
+    "questionId": "phase4-lang-g2-mcq5"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c01",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "一2",
+    "sourceFamily": "20003548-q-I2",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c01"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c02",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "一4",
+    "sourceFamily": "20003548-q-I4",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c02"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c03",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "一6",
+    "sourceFamily": "20003548-q-I6",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c03"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c04",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "一7",
+    "sourceFamily": "20003548-q-I7",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c04"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c05",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "一8",
+    "sourceFamily": "20003548-q-I8",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c05"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c06",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "二1",
+    "sourceFamily": "20003548-q-II1",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c06"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c07",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "二2",
+    "sourceFamily": "20003548-q-II2",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c07"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c08",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "二3",
+    "sourceFamily": "20003548-q-II3",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c08"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c09",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "二4",
+    "sourceFamily": "20003548-q-II4",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c09"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c10",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "二7",
+    "sourceFamily": "20003548-q-II7",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c10"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c11",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "二9",
+    "sourceFamily": "20003548-q-II9",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c11"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c12",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "二10",
+    "sourceFamily": "20003548-q-II10",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c12"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c13",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "三1(2)",
+    "sourceFamily": "20003548-q-III1",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c13"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c14",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "三1(3)",
+    "sourceFamily": "20003548-q-III1",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c14"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c15",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "三1(4)/1(5)",
+    "sourceFamily": "20003548-q-III1",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c15"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c16",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "三2(1)/2(3)/2(5)",
+    "sourceFamily": "20003548-q-III2",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c16"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c17",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "三2(6)",
+    "sourceFamily": "20003548-q-III2",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c17"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c18",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "三3圖文完整轉寫",
+    "sourceFamily": "20003548-q-III3",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c18"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c19",
+    "sourceId": "20003548",
+    "sourcePage": 1,
+    "locator": "四1磁鐵四端圖轉文",
+    "sourceFamily": "20003548-q-IV1",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c19"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c20",
+    "sourceId": "20003548",
+    "sourcePage": 2,
+    "locator": "五1(1)",
+    "sourceFamily": "20003548-q-V1",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c20"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c21",
+    "sourceId": "20003548",
+    "sourcePage": 2,
+    "locator": "五1(2)",
+    "sourceFamily": "20003548-q-V1",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c21"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c22",
+    "sourceId": "20003548",
+    "sourcePage": 2,
+    "locator": "五2(3)",
+    "sourceFamily": "20003548-q-V2",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c22"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c23",
+    "sourceId": "20003548",
+    "sourcePage": 2,
+    "locator": "五3(1)",
+    "sourceFamily": "20003548-q-V3",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c23"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c24",
+    "sourceId": "20003548",
+    "sourcePage": 2,
+    "locator": "五3(2)",
+    "sourceFamily": "20003548-q-V3",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c24"
+  },
+  {
+    "candidateId": "phase4-g6s-20003548-c25",
+    "sourceId": "20003548",
+    "sourcePage": 2,
+    "locator": "六2(2)",
+    "sourceFamily": "20003548-q-VI2",
+    "status": "ready_for_import",
+    "questionId": "phase4-g6s-20003548-c25"
+  }
+]

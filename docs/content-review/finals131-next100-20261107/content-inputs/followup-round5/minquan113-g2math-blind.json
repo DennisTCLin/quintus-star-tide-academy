@@ -1,0 +1,266 @@
+{
+  "count": 12,
+  "status": "BLIND_INPUT_ONLY_NO_KEY",
+  "items": [
+    {
+      "id": "more-g2m-20000947-i2",
+      "sourceId": "20000947",
+      "sourcePage": 1,
+      "locator": "一2",
+      "prompt": "同一天上午3時到上午6時，時鐘的分針共走了多少？",
+      "options": [
+        "3圈",
+        "3大格",
+        "3小格"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "book": 3,
+      "sourceFamily": "tcool-20000947-p1-i2",
+      "unit115Target": "U8幾時幾分",
+      "adaptation": "原題補上同日與上午，排除跨日歧義。"
+    },
+    {
+      "id": "more-g2m-20000947-i4",
+      "sourceId": "20000947",
+      "sourcePage": 1,
+      "locator": "一4",
+      "prompt": "哪一個圖形的周長最長？",
+      "options": [
+        "邊長3公分的正三角形",
+        "邊長2公分的正方形",
+        "長3公分、寬1公分的長方形"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "book": 3,
+      "sourceFamily": "tcool-20000947-p1-i4",
+      "unit115Target": "U10認識周長",
+      "adaptation": "原三個文字選項完整保留。"
+    },
+    {
+      "id": "more-g2m-20000947-ii1",
+      "sourceId": "20000947",
+      "sourcePage": 1,
+      "locator": "二1",
+      "prompt": "時針在12與1之間，分針指向5，時鐘顯示幾時幾分？",
+      "options": [
+        "12時5分",
+        "12時25分",
+        "1時25分",
+        "11時25分"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "book": 3,
+      "sourceFamily": "tcool-20000947-p1-ii1",
+      "unit115Target": "U8幾時幾分",
+      "adaptation": "原兩填空合成同一時刻選擇；不指定上午下午。"
+    },
+    {
+      "id": "more-g2m-20000947-ii2",
+      "sourceId": "20000947",
+      "sourcePage": 1,
+      "locator": "二2",
+      "prompt": "分針從12出發，順時針走8大格又3小格，共經過幾分鐘？",
+      "options": [
+        "11分鐘",
+        "38分鐘",
+        "43分鐘",
+        "53分鐘"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "book": 3,
+      "sourceFamily": "tcool-20000947-p1-ii2",
+      "unit115Target": "U8幾時幾分",
+      "adaptation": "補明順時針走法；原數值完整。"
+    },
+    {
+      "id": "more-g2m-20000947-ii3",
+      "sourceId": "20000947",
+      "sourcePage": 1,
+      "locator": "二3",
+      "prompt": "6＋6＋6＋6＋6，比6×7少多少？",
+      "options": [
+        "2",
+        "6",
+        "12",
+        "18"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "book": 3,
+      "sourceFamily": "tcool-20000947-p1-ii3",
+      "unit115Target": "U9乘法應用",
+      "adaptation": "原題只取最後差值填空；同原兩填空共族。"
+    },
+    {
+      "id": "more-g2m-20000947-ii5",
+      "sourceId": "20000947",
+      "sourcePage": 1,
+      "locator": "二5",
+      "prompt": "小傑每天向圖書館借2本書，一週共借幾本書？",
+      "options": [
+        "7本",
+        "9本",
+        "12本",
+        "14本"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "book": 3,
+      "sourceFamily": "tcool-20000947-p1-ii5",
+      "unit115Target": "U7乘法應用",
+      "adaptation": "原填空轉選擇；一週7天。"
+    },
+    {
+      "id": "more-g2m-20000947-iii5",
+      "sourceId": "20000947",
+      "sourcePage": 1,
+      "locator": "三5",
+      "prompt": "有8盆花，每盆有3朵花，共有幾朵花？",
+      "options": [
+        "11朵",
+        "16朵",
+        "24朵",
+        "32朵"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "book": 3,
+      "sourceFamily": "tcool-20000947-p1-iii5",
+      "unit115Target": "U9乘法應用",
+      "adaptation": "原圖8盆、每盆3朵全部轉成文字；需第二人確認實際圖像數量。"
+    },
+    {
+      "id": "more-g2m-20000947-v1",
+      "sourceId": "20000947",
+      "sourcePage": 2,
+      "locator": "五1",
+      "prompt": "一個三角形三條邊長分別為8公分、8公分與14公分，周長是多少？",
+      "options": [
+        "22公分",
+        "24公分",
+        "30公分",
+        "38公分"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "book": 3,
+      "sourceFamily": "tcool-20000947-p2-v1",
+      "unit115Target": "U10認識周長",
+      "adaptation": "原圖三邊數字完整文字化，不要求依圖量測。"
+    },
+    {
+      "id": "more-g2m-20000947-v2",
+      "sourceId": "20000947",
+      "sourcePage": 2,
+      "locator": "五2",
+      "prompt": "一個四邊形四條邊長分別為17公分、7公分、9公分與7公分，周長是多少？",
+      "options": [
+        "26公分",
+        "33公分",
+        "40公分",
+        "48公分"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "book": 3,
+      "sourceFamily": "tcool-20000947-p2-v2",
+      "unit115Target": "U10認識周長",
+      "adaptation": "原圖四邊數字完整文字化，不要求依圖量測。"
+    },
+    {
+      "id": "more-g2m-20000947-vi1a",
+      "sourceId": "20000947",
+      "sourcePage": 2,
+      "locator": "六1①",
+      "prompt": "大會舞示範要派3位小朋友，每位帶2顆彩球，共需要幾顆彩球？",
+      "options": [
+        "5顆",
+        "6顆",
+        "7顆",
+        "9顆"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "book": 3,
+      "sourceFamily": "tcool-20000947-p2-vi1",
+      "unit115Target": "U7乘法應用",
+      "adaptation": "完整文字題縮選第一子題；與六1②共來源族。"
+    },
+    {
+      "id": "more-g2m-20000947-vi1b",
+      "sourceId": "20000947",
+      "sourcePage": 2,
+      "locator": "六1②",
+      "prompt": "每班派3位小朋友示範大會舞，7個班共派幾位小朋友？",
+      "options": [
+        "10位",
+        "14位",
+        "21位",
+        "24位"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "book": 3,
+      "sourceFamily": "tcool-20000947-p2-vi1",
+      "unit115Target": "U9乘法應用",
+      "adaptation": "完整文字題縮選第二子題；與六1①共來源族。"
+    },
+    {
+      "id": "more-g2m-20000947-vi2",
+      "sourceId": "20000947",
+      "sourcePage": 2,
+      "locator": "六2",
+      "prompt": "1個五十元錢幣可以換成5個十元錢幣，6個五十元錢幣共可換成幾個十元錢幣？",
+      "options": [
+        "11個",
+        "25個",
+        "30個",
+        "60個"
+      ],
+      "grade": 2,
+      "subject": "math",
+      "course": "math",
+      "publisher": "南一",
+      "book": 3,
+      "sourceFamily": "tcool-20000947-p2-vi2",
+      "unit115Target": "U7乘法應用",
+      "adaptation": "保留已給兌換關係；只考同數累加/乘法，不推定額外錢幣單元。"
+    }
+  ],
+  "sourceHeader": "臺北市民權國小113學年第一學期期末二年級數學，兩頁實際渲染已目視",
+  "sourceImages": [
+    "../grade2/20000947-q-02b2a2a30f/page-1.jpg",
+    "../grade2/20000947-q-02b2a2a30f/page-2.jpg"
+  ],
+  "evidence": {
+    "publisherEvidence": "113-minquan-selection.pdf math grade2 南一",
+    "bookReference": "114-fuan-g2-math-nanyi-book3.pdf p1明示同出版社二上第三冊，非113民權自身冊次原文",
+    "targetUnitEvidence": "115-nantun-g2-plan.pdf p4 U7/U8/U9/U10"
+  }
+}

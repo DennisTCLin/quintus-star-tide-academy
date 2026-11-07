@@ -1,0 +1,302 @@
+{
+  "sources": [
+    {
+      "registryId": "f4b20003527",
+      "sourceId": "20003527",
+      "sourceHeader": {
+        "schoolYear": 114,
+        "grade": 1,
+        "subject": "國語",
+        "semester": 1,
+        "sha256": "dc5c05c90ee3f5b4e109fc0403b985b6bec691e8f5625490cc93bebc15dd32ec",
+        "sourcePdfUrl": "https://www.tcool.cc/v/2/09h7b3gjz4ngt9t9kh0r.pdf"
+      },
+      "publisherStatus": "confirmed",
+      "publisherPrimary": {
+        "file": "/Users/dennistclin/Documents/ChatGPT/星潮網站開發/outputs/content-review-131-20261107/curriculum-evidence/114-yongan-selection.json",
+        "pdfSha256": "bc2e7e78c1ced2fc6385ec96a1ca38b18549a8229e2631157340f591a4550885",
+        "page": 1,
+        "reviewers": [
+          "root",
+          "grade2_final_content_review"
+        ],
+        "scope": "historical publisher only;book/unit/content pending"
+      },
+      "book": 1,
+      "scope": "Only namedsource-school/year publisher plus selfcontained revieweditem;book/unit limitation below."
+    },
+    {
+      "registryId": "f4b20003529",
+      "sourceId": "20003529",
+      "sourceHeader": {
+        "schoolYear": 114,
+        "grade": 2,
+        "subject": "國語",
+        "semester": 1,
+        "sha256": "3612ede74f10933c481aa4596ec05c36999a0e4855e62616817ba7f05425fb88",
+        "sourcePdfUrl": "https://www.tcool.cc/v/2/09h7b4kbae90y7nh5avn.pdf"
+      },
+      "publisherStatus": "confirmed",
+      "publisherPrimary": {
+        "file": "/Users/dennistclin/Documents/ChatGPT/星潮網站開發/outputs/content-review-131-20261107/curriculum-evidence/114-yongan-selection.json",
+        "pdfSha256": "bc2e7e78c1ced2fc6385ec96a1ca38b18549a8229e2631157340f591a4550885",
+        "page": 1,
+        "reviewers": [
+          "root",
+          "grade2_final_content_review"
+        ],
+        "scope": "historical publisher only;book/unit/content pending"
+      },
+      "book": 3,
+      "scope": "Only namedsource-school/year publisher plus selfcontained revieweditem;book/unit limitation below."
+    },
+    {
+      "registryId": "f4b20003548",
+      "sourceId": "20003548",
+      "sourceHeader": {
+        "schoolYear": 114,
+        "grade": 6,
+        "subject": "自然",
+        "semester": 1,
+        "sha256": "d3a00d745bc8cd0e13d5b6a6144d1da3b77977b1c47bef3b874a7f0b2ddb2f54",
+        "sourcePdfUrl": "https://www.tcool.cc/v/2/09h7be4136xghwmrcnev.pdf"
+      },
+      "publisherStatus": "confirmed",
+      "publisherPrimary": {
+        "file": "/Users/dennistclin/Documents/ChatGPT/星潮網站開發/outputs/content-review-131-20261107/curriculum-evidence/114-yongan-selection.json",
+        "pdfSha256": "bc2e7e78c1ced2fc6385ec96a1ca38b18549a8229e2631157340f591a4550885",
+        "page": 1,
+        "reviewers": [
+          "root",
+          "grade2_final_content_review"
+        ],
+        "scope": "historical publisher only;book/unit/content pending"
+      },
+      "book": 7,
+      "scope": "Only namedsource-school/year publisher plus selfcontained revieweditem;book/unit limitation below."
+    },
+    {
+      "registryId": "nx20000967",
+      "sourceId": "20000967",
+      "sourceHeader": {
+        "schoolYear": 113,
+        "grade": 6,
+        "subject": "數學",
+        "semester": 1,
+        "sha256": "b789b14e6cf3ee6deb464abe0f32fc8dd6603697b85306f14eb2054f595544f6",
+        "sourcePdfUrl": "https://www.tcool.cc/v/2/09h633q977qgpvcc00b1.pdf"
+      },
+      "publisherStatus": "confirmed",
+      "publisherPrimary": {
+        "sourceId": "20000967",
+        "school": "臺北市松山區民權國民小學",
+        "schoolYear": 113,
+        "grade": 6,
+        "subject": "數學",
+        "publisher": "康軒",
+        "page": 1,
+        "cell": "數學列×6年級欄",
+        "reviewKeys": [
+          "20000967-q-b789b14e6c"
+        ],
+        "publisherMatch": true,
+        "evidence": {
+          "school": "臺北市松山區民權國民小學",
+          "schoolYear": 113,
+          "url": "https://tten.tp.edu.tw/Login/DownloadOSchoolPlan?SPID=880ec47c-f59f-4109-bba9-b3d37e03e233&item=item5_1",
+          "resolvedUrl": "https://tten.tp.edu.tw/Login/DownloadOSchoolPlan?SPID=880ec47c-f59f-4109-bba9-b3d37e03e233&item=item5_1",
+          "contentType": "application/pdf",
+          "bytes": 114417,
+          "sha256": "8907e2408a169eea17a8d46c0c5cf5929c0a07c161eb129be06fb67f265974b1",
+          "actualAttachmentObservedViaNormalPublicUi": true,
+          "status": "PRIMARY_PUBLISHER_TABLE_VISUALLY_VERIFIED",
+          "visualPage": 1,
+          "confirmedCells": [
+            {
+              "grade": 2,
+              "subject": "數學",
+              "publisher": "南一"
+            },
+            {
+              "grade": 6,
+              "subject": "國語",
+              "publisher": "康軒"
+            },
+            {
+              "grade": 6,
+              "subject": "數學",
+              "publisher": "康軒"
+            }
+          ],
+          "scope": "Publisher proof only; no unit/answer/full-paper approval; partial print/cutoff problems remain."
+        },
+        "sourceHeader": "Actual original page1 visually verified by root; matches city/school/year/grade/subject/semester.",
+        "reviewers": [
+          "root visual original source page1 + official textbook table"
+        ],
+        "doesNotClearOtherIntegrityFlags": true,
+        "questionApproval": false,
+        "fullPaperApproved": false
+      },
+      "book": 11,
+      "scope": "Only namedsource-school/year publisher plus selfcontained revieweditem;book/unit limitation below."
+    },
+    {
+      "registryId": "nx20003700",
+      "sourceId": "20003700",
+      "sourceHeader": {
+        "schoolYear": 114,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "sha256": "5a796613b10211d78a1ee7962c4717eba7eb8d063c1fc9adf8074edce36bf0fb",
+        "sourcePdfUrl": "https://www.tcool.cc/v/2/09h7dt25g30ghejjf7gd.pdf"
+      },
+      "publisherStatus": "confirmed",
+      "publisherPrimary": {
+        "sourceId": "20003700",
+        "school": "臺北市松山區民權國民小學",
+        "schoolYear": 114,
+        "grade": 2,
+        "subject": "數學",
+        "publisher": "南一",
+        "page": 1,
+        "cell": "數學列×2年級欄",
+        "reviewKeys": [
+          "20003700-q-5a796613b1"
+        ],
+        "publisherMatch": true,
+        "evidence": {
+          "school": "臺北市松山區民權國民小學",
+          "schoolYear": 114,
+          "url": "https://tten.tp.edu.tw/Login/DownloadOSchoolPlan?SPID=cd245635-f32d-47c6-8f0d-b714adeac7e9&item=item5_1",
+          "resolvedUrl": "https://tten.tp.edu.tw/Login/DownloadOSchoolPlan?SPID=cd245635-f32d-47c6-8f0d-b714adeac7e9&item=item5_1",
+          "contentType": "application/pdf",
+          "bytes": 106841,
+          "sha256": "cdf7e7afa39544dd14184249239afbc5d7aed6da2c1c1123f1faf7f7b6dac8a7",
+          "actualAttachmentObservedViaNormalPublicUi": true,
+          "publicFilters": {
+            "year": 114,
+            "schoolName": "民權"
+          },
+          "schoolPlanSpid": "cd245635-f32d-47c6-8f0d-b714adeac7e9",
+          "status": "PRIMARY_PUBLISHER_TABLE_VISUALLY_VERIFIED",
+          "visualPage": 1,
+          "confirmedCells": [
+            {
+              "grade": 2,
+              "subject": "國語",
+              "publisher": "康軒"
+            },
+            {
+              "grade": 2,
+              "subject": "數學",
+              "publisher": "南一"
+            },
+            {
+              "grade": 6,
+              "subject": "國語",
+              "publisher": "康軒"
+            }
+          ],
+          "scope": "Publisher evidence only; source headers separately verified; no full-paper/answer/unit approval."
+        },
+        "sourceHeader": "Actual original page1 visually verified by root; matches city/school/year/grade/subject/semester.",
+        "reviewers": [
+          "root visual original source page1 + official textbook table"
+        ],
+        "doesNotClearOtherIntegrityFlags": true,
+        "questionApproval": false,
+        "fullPaperApproved": false
+      },
+      "book": 3,
+      "scope": "Only namedsource-school/year publisher plus selfcontained revieweditem;book/unit limitation below."
+    },
+    {
+      "registryId": "nx20000947",
+      "sourceId": "20000947",
+      "sourceHeader": {
+        "schoolYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "semester": 1,
+        "sha256": "02b2a2a30f80db2a41c3f0fa47a1b2639fb778ac8a68388d90cdaf572b85fe10",
+        "sourcePdfUrl": "https://www.tcool.cc/v/2/09h62snfgfygpjqee9bk.pdf"
+      },
+      "publisherStatus": "confirmed",
+      "publisherPrimary": {
+        "sourceId": "20000947",
+        "school": "臺北市松山區民權國民小學",
+        "schoolYear": 113,
+        "grade": 2,
+        "subject": "數學",
+        "publisher": "南一",
+        "page": 1,
+        "cell": "數學列×2年級欄",
+        "reviewKeys": [
+          "20000947-q-02b2a2a30f"
+        ],
+        "publisherMatch": true,
+        "evidence": {
+          "school": "臺北市松山區民權國民小學",
+          "schoolYear": 113,
+          "url": "https://tten.tp.edu.tw/Login/DownloadOSchoolPlan?SPID=880ec47c-f59f-4109-bba9-b3d37e03e233&item=item5_1",
+          "resolvedUrl": "https://tten.tp.edu.tw/Login/DownloadOSchoolPlan?SPID=880ec47c-f59f-4109-bba9-b3d37e03e233&item=item5_1",
+          "contentType": "application/pdf",
+          "bytes": 114417,
+          "sha256": "8907e2408a169eea17a8d46c0c5cf5929c0a07c161eb129be06fb67f265974b1",
+          "actualAttachmentObservedViaNormalPublicUi": true,
+          "status": "PRIMARY_PUBLISHER_TABLE_VISUALLY_VERIFIED",
+          "visualPage": 1,
+          "confirmedCells": [
+            {
+              "grade": 2,
+              "subject": "數學",
+              "publisher": "南一"
+            },
+            {
+              "grade": 6,
+              "subject": "國語",
+              "publisher": "康軒"
+            },
+            {
+              "grade": 6,
+              "subject": "數學",
+              "publisher": "康軒"
+            }
+          ],
+          "scope": "Publisher proof only; no unit/answer/full-paper approval; partial print/cutoff problems remain."
+        },
+        "sourceHeader": "Actual original page1 visually verified by root; matches city/school/year/grade/subject/semester.",
+        "reviewers": [
+          "root visual original source page1 + official textbook table"
+        ],
+        "doesNotClearOtherIntegrityFlags": true,
+        "questionApproval": false,
+        "fullPaperApproved": false
+      },
+      "book": 3,
+      "scope": "Only namedsource-school/year publisher plus selfcontained revieweditem;book/unit limitation below."
+    }
+  ],
+  "bookUnitReferences": {
+    "g1Chinese": "115福東官方表p1康軒國語第1冊（同出版社冊次參照，非來源/孩子學校選書證明）；一年級基礎字音交集，不認證115單課生字",
+    "g2Chinese": "114東園官方計畫p1康軒版國語第三冊（同出版社冊次參照，非來源/孩子學校選書證明）；二上字音字形綜合交集，不認證115單課生字",
+    "g6Science": "115屈尺翰林自然第7冊U3岩礦地貌/U4電磁鐵交集",
+    "g6Math": "115大崙康軒第11冊U6圓周U7面積U8速率U9縮放比例尺",
+    "g2Math": "114富安原件p1二上南一第三冊，僅同出版社冊次參照；115南屯自己計畫p4 U7/8/9/10概念交集；113民權並未明印第三冊，不能冒稱自身冊次原文"
+  },
+  "wholePapersApproved": false,
+  "quarantineNotes": [
+    "114民權二數一3literal兩個可真敘述，未收。",
+    "114民權二數文字層10×4=40與實際5×4/4×3圖不符，按實際圖核對，未作答鍵。",
+    "113民權二數一1/一3乘法表示歧義、二6跨欄截斷、未對應重量題不收。",
+    "永安語文忻/欣/記念變體及已重複項保持原mapping隔離。",
+    "新25六數需圖/物理量尺/條件不足部分不收；三4平均8份為明載校訂。"
+  ],
+  "currentSourceBase": "65d3a309bf012f6f54bd21d9b81387d45bf1c992",
+  "bookReferenceVisualChecks": [
+    "root viewed115-fudong-book-reference.png:國語一年級康軒第1冊，二年級南一/六年級翰林不作康軒證據",
+    "root viewed114-dongyuan-g2-chinese.png:114上二年級教材版本康軒版國語第三冊"
+  ]
+}

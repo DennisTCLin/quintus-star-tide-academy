@@ -1,0 +1,30 @@
+{
+  "reviewer": "grade2_final_content_review",
+  "packetSHA": "a61be02928fd38e35d7a9a3dc04f4d485963c4608afc3a6d058966fc262895ad",
+  "results": [
+    {
+      "id": "phase4-g6s-20003548-c21",
+      "answerIndex": 2,
+      "answerText": "硫黃",
+      "unique": true,
+      "reason": "黃色、可燃及部分煙火配方礦物限定；石墨灰黑不符，不將黃色誤稱焰色。"
+    },
+    {
+      "id": "phase4-g6s-20003548-c23",
+      "answerIndex": 0,
+      "answerText": "北方",
+      "unique": true,
+      "reason": "臺灣一般地區、忽略磁偏角/排除附近干擾，N極大致朝地理北方；不得泛化全球。"
+    },
+    {
+      "id": "phase2-g2h-20003307-i-5",
+      "answerIndex": 0,
+      "answerText": "象",
+      "unique": true,
+      "reason": "動物及長鼻子明確限定動物名稱大象。"
+    }
+  ],
+  "singlePr22PacketSHA": "067d182b561b733bd66aa3c39a818ba13dbb336635035da1173fc5bc3fcc1cb9",
+  "singlePr22ItemIdentical": true,
+  "scope": "blind answer only; no deployment approval"
+}

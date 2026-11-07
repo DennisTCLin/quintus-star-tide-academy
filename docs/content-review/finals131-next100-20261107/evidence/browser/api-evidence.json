@@ -1,0 +1,102 @@
+[
+  {
+    "synthetic": true,
+    "grade": 1,
+    "school": "xingan",
+    "course": "pairs",
+    "question": "phase4-lang-g1-duo",
+    "index": 1,
+    "coins": 1244,
+    "commands": [
+      {
+        "type": "answer",
+        "index": 0,
+        "result": true
+      },
+      {
+        "type": "advance-question",
+        "index": 0
+      }
+    ]
+  },
+  {
+    "synthetic": true,
+    "grade": 2,
+    "school": "nantun",
+    "course": "words",
+    "question": "phase4-lang-g2-si",
+    "index": 1,
+    "coins": 1244,
+    "commands": [
+      {
+        "type": "answer",
+        "index": 0,
+        "result": true
+      },
+      {
+        "type": "advance-question",
+        "index": 0
+      }
+    ]
+  },
+  {
+    "synthetic": true,
+    "grade": 2,
+    "school": "nantun",
+    "course": "math",
+    "question": "phase5-g2m-20003700-i2",
+    "index": 1,
+    "coins": 1244,
+    "commands": [
+      {
+        "type": "answer",
+        "index": 0,
+        "result": true
+      },
+      {
+        "type": "advance-question",
+        "index": 0
+      }
+    ]
+  },
+  {
+    "synthetic": true,
+    "grade": 6,
+    "school": "jianan",
+    "course": "science",
+    "question": "phase4-g6s-20003548-c02",
+    "index": 1,
+    "coins": 1244,
+    "commands": [
+      {
+        "type": "answer",
+        "index": 0,
+        "result": true
+      },
+      {
+        "type": "advance-question",
+        "index": 0
+      }
+    ]
+  },
+  {
+    "synthetic": true,
+    "grade": 6,
+    "school": "jianan",
+    "course": "math",
+    "question": "phase5-g6m-20000967-i3",
+    "index": 1,
+    "coins": 1244,
+    "commands": [
+      {
+        "type": "answer",
+        "index": 0,
+        "result": true
+      },
+      {
+        "type": "advance-question",
+        "index": 0
+      }
+    ]
+  }
+]
