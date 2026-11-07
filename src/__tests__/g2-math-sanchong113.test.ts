@@ -1,9 +1,11 @@
+import {preFinalsLearning as freshLearning} from './helpers/pre-finals-learning';
+import {freshLearning as currentLearning} from '../learning-engine';
 import {it,expect} from 'vitest';
 import legacy from '../../docs/content-review/sanchong113-g2-math/legacy-snapshot.json';
 import mapping from '../../docs/content-review/sanchong113-g2-math/mapping.json';
 import {GRADE2_MATH_EXAMS as bank} from '../grade2-math-exams';
 import {questionById} from '../learning';
-import {allocateQuestions,allocateAdventureQuestions,freshLearning} from '../learning-engine';
+import {allocateQuestions,allocateAdventureQuestions} from '../learning-engine';
 import {markMastered,hasMastered} from '../mastered-questions';
 import {newFamily,startRun,validateFamily,answerRun} from '../adventure';
 import {startStudy} from '../study-review';
@@ -23,7 +25,7 @@ it('preserves every legacy ID, prompt, option, answer and explanation while merg
 
 it('allocates all reviewed candidates only to matching grade/school without clue-sharing siblings in one voyage',()=>{
  for(const school of ['nantun','yongchun'] as const){
-  const state={...freshLearning(),school};
+  const state={...freshLearning(2),school};
   legacy.forEach(q=>markMastered(state,q.id));
   for(let round=0;round<8;round++){
    const picked=allocateAdventureQuestions(state,2,'math',6);
@@ -35,8 +37,8 @@ it('allocates all reviewed candidates only to matching grade/school without clue
   const picked=allocateQuestions(state,2,'math',6,undefined,[excluded]);
   expect(picked.map(q=>questionById(q.id)?.sourceFamily)).not.toContain(questionById(excluded)!.sourceFamily);
  }
- expect(allocateQuestions(freshLearning(),2,'math',6).some(q=>q.id.startsWith('mxg2-sc113-'))).toBe(false);
- const other={...freshLearning(),school:'xingan' as const};
+ expect(allocateQuestions(freshLearning(2),2,'math',6).some(q=>q.id.startsWith('mxg2-sc113-'))).toBe(false);
+ const other={...freshLearning(1),school:'xingan' as const};
  expect(allocateQuestions(other,1,'math',6).some(q=>q.id.startsWith('mxg2-sc113-'))).toBe(false);
 });
 
@@ -54,7 +56,7 @@ it('keeps an in-progress legacy run, mastery and existing rewards across validat
 });
 
 it('spaces sibling clues in new review groups while retaining a saved active review',()=>{
- const s={...freshLearning(),school:'nantun' as const};
+ const s={...currentLearning(),school:'nantun' as const};
  for(const id of ['mxg2-sc113-ii-2-1a','mxg2-sc113-ii-2-1b'])markMastered(s,id);
  startStudy(s,2,'2026-11-05','family-review','all','math');
  expect(s.study!.session!.questions).toHaveLength(1);

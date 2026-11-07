@@ -37300,6 +37300,576 @@
       "status": "approved",
       "reviewer": "root visual/arithmetic + blind_math_review; ID-only format corrected before publication",
       "evidence": "docs/content-review/sanchong113-g2-math/README.md"
+    },
+    "f2-20003916-i4a": {
+      "status": "approved",
+      "hash": "b8f6dd0506a154cf0443b190d0899b3393dfac27b78f1c6ca37fe4e95b26bf90",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-i4b": {
+      "status": "approved",
+      "hash": "b921b328176175f0852cff69b802eb4fef031a32d1b6ea8e304210b16b3c4497",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-i10-8": {
+      "status": "approved",
+      "hash": "b113757a9a016fd1e10c432a1c7204e4563f481726e3082ee8ae20a718adb843",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-i10-7": {
+      "status": "approved",
+      "hash": "6d3172991ddcf2cc22be9aad19aaebb88425df69742a83c0d1412fcc6bb374cf",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-i10-2": {
+      "status": "approved",
+      "hash": "bdf852edc16ef7ba0b4953af01d6053e8be2359d9117e79e88cf15f0ec168388",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-i10-6": {
+      "status": "approved",
+      "hash": "3d96e77e3f065b6eb956d9c2b2647cfd3938cb2c66b0e7f283de2c1227d55074",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-i10-9": {
+      "status": "approved",
+      "hash": "30b69e10b95aea1640d373b34abe0d6f21cfc621bf9d30b8bd65f891311cf4ce",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-i10-4": {
+      "status": "approved",
+      "hash": "bdae06646b6c204ec5d8a83e2b64cd207c846924c141f56a462de9f32d153a47",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-i11-5": {
+      "status": "approved",
+      "hash": "a9c662af2c8e833a50de0e6f2893946b00ad7a08107e0ee67baa821cf20ec263",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-i11-7": {
+      "status": "approved",
+      "hash": "1224c5c5a4519f7e62592aeec09516c0514376def17dc028ba536cd87a4c5316",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-i11-9": {
+      "status": "approved",
+      "hash": "0a7a6e08dfd585ca828926d60458deae3a2cd0baf1c9633c1acf88cbdabbb20c",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-i11-4": {
+      "status": "approved",
+      "hash": "26038b11cdf1bbf71e97e3f28d661d6bdd7b5d1388fa67ceb172320e8a6763d3",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-ii1-a": {
+      "status": "approved",
+      "hash": "c14398414fc3216779f27dcd7968dd9a1407ec896ff643f026a4a92a33b2c217",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-ii1-b": {
+      "status": "approved",
+      "hash": "f68b7fa201e463f96a767030bfa0ae6d386613e6f9883403cc19dbf6d1c0a4bd",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-ii2-a": {
+      "status": "approved",
+      "hash": "36dc366eb47f394ca81033cec11500579517686d6a85c56b170e611343e316c6",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-ii2-b": {
+      "status": "approved",
+      "hash": "02b02d0d2816803aa2fd5f2a5946f5b5672602f6cdb8de1d5d298aa8b8d04d14",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-ii3": {
+      "status": "approved",
+      "hash": "e44836bcbf1dea7b14eaa58d8597cf584206bb915b1f25471867e769c169b65c",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-ii4-a": {
+      "status": "approved",
+      "hash": "1a344daba97c648f3b7eece4d4aa660d22d3e8e4e491b00fdef7eb565ce1f99e",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-ii4-b": {
+      "status": "approved",
+      "hash": "0a926866d3cba500464c6da78facd7987d615274ffaaf5860c96f1bd03b44d48",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-ii5-a": {
+      "status": "approved",
+      "hash": "e48bdd034392fefcc3871a2ae2d04f235bd614986642b2c884303303532c910f",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-ii5-b": {
+      "status": "approved",
+      "hash": "eb449614639d40c362ed7d5c48622cb08a88e5d6d0e7bc84b6514babb120cf6a",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-ii7": {
+      "status": "approved",
+      "hash": "f4077e601021c65ffa8a004bd519ebc3abc5487f159eafc89589b3e58161714a",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-iii2": {
+      "status": "approved",
+      "hash": "340581ae7c5cd34ad17ac0ab83896298dcde7481ddbf1037aa7a481ba9e1e9d9",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-iii3": {
+      "status": "approved",
+      "hash": "406ed31e90329c3fb843f6c074e762fc75d7d7484126d4ce39fe08dbfc2092d2",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-iii4": {
+      "status": "approved",
+      "hash": "2e16d565fc41af7fc7ac3eaf847c459c850ec48349fcb1b7b08e9c837ee1af8b",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-iii5": {
+      "status": "approved",
+      "hash": "6fc9a020363b1a55949b28bf0e5d4b351c674bca1fe389a5dc5cf94d5aaa47c1",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f2-20003916-i12": {
+      "status": "approved",
+      "hash": "5d40516d0ce24673501bfd45d081cf26b1480cd43fc9577449fd498fd666edd4",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p1i1": {
+      "status": "approved",
+      "hash": "7b61bb68c86e2a5de8b7ea02f80ccab91280c523b85eb716e5a88e359df3c476",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p1i2": {
+      "status": "approved",
+      "hash": "f9c54f80a7f5c011d9a66f21da137c169e343851c6dd92ac0ee66db825315ddb",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p1i3": {
+      "status": "approved",
+      "hash": "c3f91cee756e8e8029e11cf8875924685ff2e7d8bf65a0f1c0f86000102b1e87",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p1i4": {
+      "status": "approved",
+      "hash": "35d96cf2b84018e096f58837bae3c8eb8b7ec8df68bb08f9904f26d88c617e8b",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p1i5": {
+      "status": "approved",
+      "hash": "a7f015db7e969b986cafc5e759df53e28d08fdf59ee52a26e86cd66b673bd61e",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p1ii5": {
+      "status": "approved",
+      "hash": "30f76137a1566756b60ad8b3cce699ee69ce9569f790880fae18638339cc94ba",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p2i1": {
+      "status": "approved",
+      "hash": "a818df60b94980d9711f070f183e446be860eaf0e569c32def721264fc597dc1",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p2i2": {
+      "status": "approved",
+      "hash": "0d2286079273bb90140816a03829e0fd05132e806c4814a3bc5d956ff49e0bd0",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p2i3": {
+      "status": "approved",
+      "hash": "1caa0091ffd139e77b794d2015d7ae4a1e367202ac679d13a1769b2d7c15c5a9",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p2i4": {
+      "status": "approved",
+      "hash": "2b5166fa40791bde494da342e9a76803287a561ba2327a6bf9426734062d00df",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3i1": {
+      "status": "approved",
+      "hash": "781ffbdae7bd97d78cd87362d2a3187925ca9156158d292ea73d6468dee467ef",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3i2": {
+      "status": "approved",
+      "hash": "1f1da0aac5aba5d282bd7250478edd5328c82d2a8dea0fb44883db981d7ed286",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3i3": {
+      "status": "approved",
+      "hash": "9a063feaeba78977911cecc704e448a61b8b4f47689b2822ebc6264a883f0f86",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3i4": {
+      "status": "approved",
+      "hash": "e08fee0e2169fea285b79c8f7a0b79eeda375123f3b6680b681d20af6ddadc8f",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3i5": {
+      "status": "approved",
+      "hash": "e74d7f124f1ad71c4ad84de1a974a04efa3fdc01dc9a60c609d41a553923b74a",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3ii1a": {
+      "status": "approved",
+      "hash": "0dcb25918dc823c405cdb54660297e8500b65de658f81d9cd82b7318475e873d",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3ii1b": {
+      "status": "approved",
+      "hash": "1a31ffd7a44490cdf704a7f652f37b93e2fbef3d8c5b04eb3d47582fea1705e3",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3ii1c": {
+      "status": "approved",
+      "hash": "41bad69f4c326676e827d116b5a0bc54fa033b9bad0228ef69d3a2d42a6b74f5",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3iii1": {
+      "status": "approved",
+      "hash": "5e41083fdfb4c50ccaf95a5a39e656445df1ce16b50bc120c172990ce574dcd2",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3iii2": {
+      "status": "approved",
+      "hash": "d4f3ad6c0d364b664ae9b6bed27befbd158e9ebf85152267a0a866694f88c718",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3iii3a": {
+      "status": "approved",
+      "hash": "ef289e4b322c22e8a73852ef2a8948dc476c459353866ec97dbb17d4ae144d20",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3iii3b": {
+      "status": "approved",
+      "hash": "8cb1c1461db8708290be7b6c274177a442d53020b2467c53eb8d9cf8af6fbee0",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3iii4": {
+      "status": "approved",
+      "hash": "4b98ae8d3c8adb2ee73da23d1fe6c7e62c06115bfb5a87dd6fbc1ccdbfe73a62",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3iii5": {
+      "status": "approved",
+      "hash": "356bbefa009e15a8a419e3e0a2422572eb7ea8eb16b7766ccd659b0b67547853",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p3iii6": {
+      "status": "approved",
+      "hash": "fb2b478244c4f286455be2da6bc12552e0f71a54a1e0b40dfbf38a93b5608076",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p4i1": {
+      "status": "approved",
+      "hash": "b2f194868e73c3fa097cee827718adccc07c0f4f913beb8789d23b634af6455a",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p4i2": {
+      "status": "approved",
+      "hash": "6bb9e83350b2ae07712e152bc581ee35e0cddf9c265d6751ff8e361b6375d338",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p4i4": {
+      "status": "approved",
+      "hash": "5c717cf6b0a2cf1c719665ef4d2aba46a896b4feafc7f1af0c0eb1bde2baef7d",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f6-50000074-p4iv1": {
+      "status": "approved",
+      "hash": "6239f56f3c484e4a329cd93c4bf5fb2310551b8b7e985e2593cde92c39abad50",
+      "reviewer": "root visual/source review + independent blind answer: grade2_final_content_review",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-i5a": {
+      "status": "approved",
+      "hash": "be37c01c949713c65a0a2ea23e485a555cf2a6a6dc419b6f5aaad43dda8430db",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-i5b": {
+      "status": "approved",
+      "hash": "bded10617b3f4955a4ae9c7a19a4acde1cd401adb77eae9b4d4ce3fedb2b1d6c",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-i12": {
+      "status": "approved",
+      "hash": "d4c98b4ecadaa12083ca38db1ee0b8e12cef66f1b3f881fd33711aac3b153a97",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-i14a": {
+      "status": "approved",
+      "hash": "282eb961d6b7b8ab9373ad2ccd2c62c6efda285378e8aa203d23665620d7bf68",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-i14b": {
+      "status": "approved",
+      "hash": "67178009eec78f25da4beff28e6c80b48871d1639882da41b6d3b8636b848af2",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-i15": {
+      "status": "approved",
+      "hash": "d2c430f16271b32d0aef2850a29c51b51f03bf15a75b4664dd94634152851be4",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-i16b": {
+      "status": "approved",
+      "hash": "4178ce880e788dbfbff11e6795874466d043e5ae7054d136d480b5aa9dbf8f99",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-i16c": {
+      "status": "approved",
+      "hash": "712c7977b25b9106a101ecde7e0a4c1c3d9d06a9fd5c6a71ab42b10350256b39",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-i16d": {
+      "status": "approved",
+      "hash": "992fe22e22ad03a24b1c9ef153c9f33b63612a618e0c48dde6cd61ebc8a5865b",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-i16e": {
+      "status": "approved",
+      "hash": "0325d52322df4c05f56ba472f843934b27b39b70e3a407096f343b991f102f18",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-ii1": {
+      "status": "approved",
+      "hash": "eebccc82295fdf43a5d5430c715291374d3851b536d4d8db27ea63548bbc1968",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-ii2": {
+      "status": "approved",
+      "hash": "44ee336d7764af1a328d5caa26a200efe40f285bf442f74368c0292034b935b0",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-ii3": {
+      "status": "approved",
+      "hash": "562e7712366d271de78291c8d3b357218de4c894b24aba0d09a03f55b60230a8",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002858-ii4": {
+      "status": "approved",
+      "hash": "000eb673d94b9646e63f8ff99a24b5aba9a236fe728f6f7b22fad5832a938d1e",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002163-iii2": {
+      "status": "approved",
+      "hash": "c5214d9ef866a56910cfd0f5bc28f89d25f67937c09967858492b8119f8aaddd",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002163-iii3": {
+      "status": "approved",
+      "hash": "15c88f016cf6d941a98cb95f4ac25ee9c2ca2d34d950939204938b53fb1ec744",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002163-viii2": {
+      "status": "approved",
+      "hash": "32e6329528fd8a0df3fa02fb5c3aac4f683c1fd1e55e0c3a98cb686a35cd5ed2",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002163-ixa": {
+      "status": "approved",
+      "hash": "8bc92722eb678a3d8e44a9d616297532a8dd18f68632d242028493452b4a3a07",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002163-ixb": {
+      "status": "approved",
+      "hash": "117cd881750557b860b9bbbcf649f0d66a233d530e6ae9017ae24ccc616286f9",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002163-x1": {
+      "status": "approved",
+      "hash": "a59a96e60937ddc93b825ebc79059567f495f70009c660e87c25c42149a09b84",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002163-x2": {
+      "status": "approved",
+      "hash": "08b2068e397aaac977d62d1412eb1aad17b310cfb3b63a536108af4c07e3f3ff",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002163-x3": {
+      "status": "approved",
+      "hash": "cb30f971f7b625b1ef6d5ffac11c36c56f032c682d8865fb55c1166d4c1b7d0e",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002163-x4": {
+      "status": "approved",
+      "hash": "fbdc9ce552a858e815580449dd4a808c2ee49ce1dca80bab3edfd36a5b174a53",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002163-xia": {
+      "status": "approved",
+      "hash": "d7023244952b6d530bc84a4abf2ee931bd354f32f215bd0a3d477a701da42930",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002163-xib": {
+      "status": "approved",
+      "hash": "8c203c6c09b13c48a7c394b82eac573465e10562bdd23a43bc9988dec9aa95d6",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f1-20002163-xic": {
+      "status": "approved",
+      "hash": "0bed51a99dd2dde382aea1f7da3f4fe7b66deb10c2234ca3773148c870812f5b",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_primary",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f5-12752-i1": {
+      "status": "approved",
+      "hash": "7e82a6de983fbd5e8b0e7f42adc3aa10ccc32e6f42bdd468b1e5f8e30514390e",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f5-12752-i3": {
+      "status": "approved",
+      "hash": "c7d757e6686e11b61c4693ee3f27a08b70b2f679dc674a61a3b7256d5561982e",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f5-12752-i7": {
+      "status": "approved",
+      "hash": "d4afa79a78edf00e8696d7bdb5ea346c7e7732cfe87659d3992bfda1a3c5ee7e",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f5-12752-i9": {
+      "status": "approved",
+      "hash": "b802325cc7fea01ce0054ebe1c7712eec867ec1a37d51092db92280beda993dd",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f5-12752-i12": {
+      "status": "approved",
+      "hash": "42fd0b5939377c3a2d6bc5c2b6d685dd9bf8058d8ceb0f04898f5422d1411388",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f5-12752-i14": {
+      "status": "approved",
+      "hash": "d91ac045b32df09ae7e09893bd48956e9faeb798fbb63c8ad9304fbb2c42a504",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f5-12752-ii2": {
+      "status": "approved",
+      "hash": "5a871dd67f54ce2dbbc26ee9088d0fef218b7a889b5fed455b45518dbb06b24c",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f5-12752-ii3": {
+      "status": "approved",
+      "hash": "b111bafb2d45f529e5ec653357ef53e2df52906a5c2e423ad98d4202993a6526",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f5-12752-ii5": {
+      "status": "approved",
+      "hash": "e638a0dc13c789cc0ec7a067763b880268a99e7a13ccb0e96672f7ed1a845c1b",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f5-12752-ii8": {
+      "status": "approved",
+      "hash": "dfd8d1f47580dcc723594422c7b98fe118492ba745a3e6ae0061348f345a9168",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f5-12752-ii11": {
+      "status": "approved",
+      "hash": "a11c0fea4afa74929e0d7dc07e22c8b2aeaa5c3cc9c03eb2a8e65f2f57740fa4",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f5-12752-iv1": {
+      "status": "approved",
+      "hash": "f3e7ef2133e5af26fa08d2a6b3e4bb15a0ce198e228491a1cd7ef95c76ee258f",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "f5-12752-iv2": {
+      "status": "approved",
+      "hash": "10230031b1cb9bdcda4ebc212974a27dadba33e1de0969bda586daa5821d84fd",
+      "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
+      "evidence": "docs/content-review/finals131-20261107/README.md"
     }
   },
   "templates": {

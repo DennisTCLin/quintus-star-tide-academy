@@ -1,0 +1,1895 @@
+{
+  "integratedBase": "acfc325806be99254856ff31f88c4138961da8db",
+  "identity": "repo-relative file + exact fullName + occurrence ordinal",
+  "ordinaryPassed": 1546,
+  "ordinarySkipped": 264,
+  "pgPassed": 268,
+  "matchedSkippedToPgPassed": 264,
+  "uncoveredSkipped": [],
+  "overlappingAlreadyPassed": 4,
+  "uniqueTestsCovered": 1810,
+  "mappings": [
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation keeps legacy owner authority across repeat migrations and excludes credentials",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation requires initial password replacement before any child or grant access",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation limits assigned grants and reports to exact child IDs even with the same player slot",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation does not extend delegated star-ticket permission to ordinary tickets",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation retains one permanent receipt for concurrent authorized retries and hides other children history",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation denies staff administration, escalation, operator forgery, and superadmin edits",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation supports readers without grant permission and denies every grant endpoint",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation includes future children for owner/all scope, excludes them for assigned scope",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation revokes old sessions and prevents unassigned receipt replay after policy changes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation reconciles only the operator own receipt after scope loss without child data",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation uses ledger member identity for replays even if a username is reused",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation rejects stale edits and keeps empty assignments private",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation serializes a grant authorization behind a committed revocation",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation rolls policy edits back when their audit write fails",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation returns current locked permissions when a policy changes during login",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation password reset and disable revoke every old session permanently",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "fullName": "delegated administrator boundaries and revocation keeps permission audits credential-free and does not provision a staff identity as owner",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants creates only an explicit hashed admin, refusing credential overwrite",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants denies every admin route to anonymous, child, and household sessions",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants does not accept registration or forged role/operator assertions",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants checks exact origin and CSRF before any grant",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants returns actual member identity and scoped learning aggregates without writing progress",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants isolates malformed learning records and never invents zero balances",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants previews without changing balance then serializes concurrent duplicates into one receipt",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants rejects invalid amount, missing member and blank reason",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants rejects an exceeded cap after preview without changing balance or issuing a receipt",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants grants ordinary tickets once, preserves all other progress, and can spend them in normal gacha",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants preserves untyped legacy star receipts and rejects reusing their UUID as ordinary tickets",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants serializes different ticket types without losing either balance",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants rejects invalid ticket types and honors the existing ordinary balance cap",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants rejects wrong credentials and disables revoked admins immediately",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants uses separate HttpOnly Strict cookies and rejects expired/logged-out sessions",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "fullName": "separate super-admin authority and audited grants rate limits repeated admin authentication",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-live-reports.test.mjs",
+      "fullName": "admin live presence, radar and per-child parent reports requires admin authority and preserves assigned child scope",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-live-reports.test.mjs",
+      "fullName": "admin live presence, radar and per-child parent reports does not treat a recent login or administrative reads as online activity",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-live-reports.test.mjs",
+      "fullName": "admin live presence, radar and per-child parent reports keeps same-grade players separate and aggregates multiple devices until all leave",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-live-reports.test.mjs",
+      "fullName": "admin live presence, radar and per-child parent reports expires stale leases and caps presence at the actual session expiry",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-live-reports.test.mjs",
+      "fullName": "admin live presence, radar and per-child parent reports does not revive a closed tab after a delayed older heartbeat",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-live-reports.test.mjs",
+      "fullName": "admin live presence, radar and per-child parent reports returns the exact main-site ability calculation without answer keys or raw progress",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-live-reports.test.mjs",
+      "fullName": "admin live presence, radar and per-child parent reports parent reports only the selected child and typed grants, with no child data mutation",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-live-reports.test.mjs",
+      "fullName": "admin live presence, radar and per-child parent reports returns only the selected child review summary without mutation or answer leakage",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-live-reports.test.mjs",
+      "fullName": "admin live presence, radar and per-child parent reports isolates invalid progress rather than inventing radar values or parent counts",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-live-reports.test.mjs",
+      "fullName": "admin live presence, radar and per-child parent reports revokes report access with disabled admins",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-trials.test.mjs",
+      "fullName": "super-admin trial account creation (isolated PostgreSQL) rejects staff, player, missing authentication and forged CSRF without creating an account",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-trials.test.mjs",
+      "fullName": "super-admin trial account creation (isolated PostgreSQL) atomically creates a ready grade-six identity and exposes correct grade questions after normal login",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-trials.test.mjs",
+      "fullName": "super-admin trial account creation (isolated PostgreSQL) replays a request safely and rejects changed credentials without altering progress or balances",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-trials.test.mjs",
+      "fullName": "super-admin trial account creation (isolated PostgreSQL) concurrent retries create exactly one isolated account",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-trials.test.mjs",
+      "fullName": "super-admin trial account creation (isolated PostgreSQL) provides working five-subject curricula for every supported grade, preserving fresh onboarding when requested",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-trials.test.mjs",
+      "fullName": "super-admin trial account creation (isolated PostgreSQL) preserves both player and household usernames on collisions",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-trials.test.mjs",
+      "fullName": "super-admin trial account creation (isolated PostgreSQL) rejects unsupported grades, malformed passwords, extra identity fields and unbounded resources",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-trials.test.mjs",
+      "fullName": "super-admin trial account creation (isolated PostgreSQL) rolls back identity, balances, metadata and audit together, then allows retry with the same request ID",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-trials.test.mjs",
+      "fullName": "super-admin trial account creation (isolated PostgreSQL) rechecks the currently locked owner role during creation",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/admin-trials.test.mjs",
+      "fullName": "super-admin trial account creation (isolated PostgreSQL) lists usable balances and creator history without credentials or children's question answers",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "fullName": "adult accounts and cloud learning (real PostgreSQL) creates isolated adult identity, strong password, private cookie and one-time recovery code",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "fullName": "adult accounts and cloud learning (real PostgreSQL) denies cross-family authentication and never changes child account, progress, rewards or sessions",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "fullName": "adult accounts and cloud learning (real PostgreSQL) uses Origin and adult CSRF validation, denies forged state/date/ownership and invalid actions",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "fullName": "adult accounts and cloud learning (real PostgreSQL) resumes the same active foundation and submitted feedback on another independent login",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "fullName": "adult accounts and cloud learning (real PostgreSQL) returns the latest state when a committed command is replayed after a lost response, without duplicate XP",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "fullName": "adult accounts and cloud learning (real PostgreSQL) serializes competing fresh commands from two devices and rejects stale revision",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "fullName": "adult accounts and cloud learning (real PostgreSQL) persists listening assistance before grading, even across reload/device changes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "fullName": "adult accounts and cloud learning (real PostgreSQL) grades authored guided dialogue, completes a lesson, and preserves existing entries",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "fullName": "adult accounts and cloud learning (real PostgreSQL) same-day repeats cannot farm XP or daily counts",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "fullName": "adult accounts and cloud learning (real PostgreSQL) lets a signed-in adult replace a lost recovery code after password confirmation without touching learning",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "fullName": "adult accounts and cloud learning (real PostgreSQL) recovery rotates only adult credentials/sessions without clearing learning or child data",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "fullName": "adult accounts and cloud learning (real PostgreSQL) persists adult progress and sessions through API shutdown and restart without child writes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "fullName": "adult accounts and cloud learning (real PostgreSQL) logout expires the current adult session and leaves another account and children intact",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing quintus: school overlay preserves old voyage, mastery, rewards and database bytes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing quintus: all matching subject voyages save and reload without cross-school sources",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing quintus: preserves an actual pinned-base voyage in both array and prefix storage",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing alan: school overlay preserves old voyage, mastery, rewards and database bytes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing alan: all matching subject voyages save and reload without cross-school sources",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing alan: preserves an actual pinned-base voyage in both array and prefix storage",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing brownie: school overlay preserves old voyage, mastery, rewards and database bytes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing brownie: all matching subject voyages save and reload without cross-school sources",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing brownie: preserves an actual pinned-base voyage in both array and prefix storage",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing jay: school overlay preserves old voyage, mastery, rewards and database bytes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing jay: all matching subject voyages save and reload without cross-school sources",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing jay: preserves an actual pinned-base voyage in both array and prefix storage",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing alston: school overlay preserves old voyage, mastery, rewards and database bytes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing alston: all matching subject voyages save and reload without cross-school sources",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing alston: preserves an actual pinned-base voyage in both array and prefix storage",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing jimmy: school overlay preserves old voyage, mastery, rewards and database bytes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing jimmy: all matching subject voyages save and reload without cross-school sources",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing jimmy: preserves an actual pinned-base voyage in both array and prefix storage",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing feifei: school overlay preserves old voyage, mastery, rewards and database bytes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing feifei: all matching subject voyages save and reload without cross-school sources",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing feifei: preserves an actual pinned-base voyage in both array and prefix storage",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing olivia: school overlay preserves old voyage, mastery, rewards and database bytes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing olivia: all matching subject voyages save and reload without cross-school sources",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing olivia: preserves an actual pinned-base voyage in both array and prefix storage",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing sunny: school overlay preserves old voyage, mastery, rewards and database bytes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing sunny: all matching subject voyages save and reload without cross-school sources",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing sunny: preserves an actual pinned-base voyage in both array and prefix storage",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing jasper: school overlay preserves old voyage, mastery, rewards and database bytes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing jasper: all matching subject voyages save and reload without cross-school sources",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "fullName": "all parent-confirmed child curriculum routing jasper: preserves an actual pinned-base voyage in both array and prefix storage",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/capture-cloud.test.mjs",
+      "fullName": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) hides future capture questions and commits three correct answers exactly once across competing devices",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/capture-cloud.test.mjs",
+      "fullName": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) persists a wrong capture answer without retry, keeps rewards and isolates another account",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/capture-cloud.test.mjs",
+      "fullName": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) compensates legacy mastery once across concurrent commands, reads and another device",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/capture-cloud.test.mjs",
+      "fullName": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) persists third-mistake defeat once across concurrent replay and a second device",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/capture-cloud.test.mjs",
+      "fullName": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) does not double-count a wrong answer submitted with competing request IDs",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/capture-cloud.test.mjs",
+      "fullName": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) commits capture, quota and ownership once across concurrent receipt replay and another login",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/capture-cloud.test.mjs",
+      "fullName": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) rejects a competing request ID and all client-authored capture fields",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/capture-cloud.test.mjs",
+      "fullName": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) persists misses without rerolling and still allows a fourth capture",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/capture-cloud.test.mjs",
+      "fullName": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) preserves legacy fights and rejects forged monster import atomically",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/child-account.test.mjs",
+      "fullName": "independent child provisioning (real PostgreSQL) creates a separate grade four child without changing any existing account or game state",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/child-account.test.mjs",
+      "fullName": "independent child provisioning (real PostgreSQL) retries without resetting progress, changing hashes or invalidating sessions",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/child-account.test.mjs",
+      "fullName": "independent child provisioning (real PostgreSQL) rejects identity, grade, password and household collisions without partial inserts",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/child-account.test.mjs",
+      "fullName": "independent child provisioning (real PostgreSQL) denies sibling commands, migration and parent recovery while keeping onboarding untouched",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/child-account.test.mjs",
+      "fullName": "independent child provisioning (real PostgreSQL) creates grade-six child, preserves other accounts, and supports leading-zero authentication",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/child-account.test.mjs",
+      "fullName": "independent child provisioning (real PostgreSQL) provisions grade five after legacy checks, connects only new-old friendships and preserves all prior states",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) upgrades a four-slot v7 verified ledger without null or changed legacy scores",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) atomically credits the fifth learning answer and pending materials once across receipt retries",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) clears client-authored construction rewards on legacy import",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) authorizes castle expansion from server growth, retains land, and persists cosmetics across devices",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) preserves all player progress through territory transactions, conflict and replay",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) persists one randomized starter across competing devices, reloads and fresh request IDs",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) only operators issue invitations; grants and draws are atomic, replayable and import-safe",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) recovers a charged gacha across retries/devices, isolates players and strips imported receipts",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) replays the original draw result even if another device has since drawn again",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) resumes retired grade-one words but starts new English voyages and battle questions",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) imports do not grant new starter eligibility",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) requires authentication, exact origin and session CSRF; rejects snapshot/foreign-account fields",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) commits once across simultaneous devices and withholds answer keys",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) server grades and awards points once; replay after lost response returns the committed result",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) rejects stale different commands and forged time/randomness, without changing state",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) imports once without overwriting, archives original and keeps historical points out of verified scores",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) atomically swaps both inventories, rejects duplicate acceptance, and draws once",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) normalizes existing schema3 cloud rows on read without retroactive awards",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) legacy server completion choices survive devices and concurrent/replayed claims without double rewards",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) imports a pending local reward once, retaining stars and resetting only old-day quota (false)",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) imports a pending local reward once, retaining stars and resetting only old-day quota (true)",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) persists adaptive allocation and battle answers through one authoritative transaction path",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) survives full application restart with the same account and receipts",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) rejects a delayed command body after its session was revoked",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) migrates oldest milestone format and can replace a lost recovery code with password confirmation",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) serves practice questions without bundling answers and awards no persistent points",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "fullName": "authoritative cloud game (real PostgreSQL) rotates one-time recovery code and revokes old device sessions",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/companion-voice-cloud.test.mjs",
+      "fullName": "voice conversation authenticated persistence checks auth, CSRF, child ownership and audio shape before provider",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/companion-voice-cloud.test.mjs",
+      "fullName": "voice conversation authenticated persistence remembers free sentences, isolates children/accounts, replays same UUID and never touches family",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/companion-voice-cloud.test.mjs",
+      "fullName": "voice conversation authenticated persistence TTS failure leaves text saved; TTS cannot speak arbitrary submitted text",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/companion-voice-cloud.test.mjs",
+      "fullName": "voice conversation authenticated persistence reset increments revision and prevents a slow turn and old receipt from restoring erased text",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/companion-voice-cloud.test.mjs",
+      "fullName": "voice conversation authenticated persistence coalesces duplicate requests; races across devices commit once",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/companion-voice-cloud.test.mjs",
+      "fullName": "voice conversation authenticated persistence retains only twelve recent turns and filters expired content",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/companion-voice-cloud.test.mjs",
+      "fullName": "voice conversation authenticated persistence revalidates session after provider work, rejecting a logged-out child",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+      "fullName": "automatic offline NPC raids in PostgreSQL attacks without HTTP or sessions, uses latest owner XP and wounds, and exposes private reports after login",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+      "fullName": "automatic offline NPC raids in PostgreSQL serializes two replicas and restart, then automatically settles the next due wave exactly once",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+      "fullName": "automatic offline NPC raids in PostgreSQL rolls back wounds, report, resources and world when commit work fails, then retries once",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+      "fullName": "automatic offline NPC raids in PostgreSQL respects active battles, shields and the first ten minutes even with no connected player",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+      "fullName": "automatic offline NPC raids in PostgreSQL persists owner-private read acknowledgments across login without changing combat or world state",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+      "fullName": "automatic offline NPC raids in PostgreSQL leaves a concurrently arriving raid unread and merges two-device acknowledgments",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+      "fullName": "automatic offline NPC raids in PostgreSQL rejects unauthenticated, CSRF, cross-profile and malformed acknowledgments; foreign IDs have no effect",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+      "fullName": "automatic offline NPC raids in PostgreSQL does not trigger season rollover or world writes when marking a previous-season report read",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+      "fullName": "automatic offline NPC raids in PostgreSQL occupies a defeated island durably, withdraws wounded player guards and lets a player reclaim it",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+      "fullName": "automatic offline NPC raids in PostgreSQL expands with no enrolled owners, serializes replicas and retains cooldown after all NPC land is reclaimed",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+      "fullName": "automatic offline NPC raids in PostgreSQL persists one nonadjacent expansion at the due boundary without changing family data",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world starts fresh with 50 energy and shares the same map across same-slot accounts",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world rejects unauthenticated, cross-profile, forged stats and malformed items",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world rejects cached manual raid commands; reads cannot settle a raid",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world serializes simultaneous claims and replays the exact original result without charging twice",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world allows same-species opponents, saves defeated defenders to their owner and survives relogin",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world blocks battle cooldown and active shields but permits the first vulnerable hour and expired shields",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world keeps private HP/production separate across owners and persists offline recovery without repeated gains",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world syncs consecutive offline defender levels by owner, retains HP ratio and never writes collection data",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world never rewinds a stored season or world timestamp when wall time is behind the world clock",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world serializes real collection trading against PvP without overwriting XP, wounds or returning an unowned garrison",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world updates a fully logged-out defender from attacker reads and commits exact PvP wounds without changing learning saves",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world credits authenticated learning answers once inside the same transaction",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world synchronizes a same-household doudou attack against offline quintus: win",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world synchronizes a same-household doudou attack against offline quintus: loss",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "fullName": "shared conquest authoritative world rolls back defender reports, both armies and ownership when receipt persistence fails",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/dragon-cloud.test.mjs",
+      "fullName": "dragon guide authenticated PostgreSQL persistence requires auth, CSRF, valid choice and own child slot",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/dragon-cloud.test.mjs",
+      "fullName": "dragon guide authenticated PostgreSQL persistence replays requests, rejects changed payload and keeps family untouched",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/dragon-cloud.test.mjs",
+      "fullName": "dragon guide authenticated PostgreSQL persistence serializes competing turns and coalesces same-session retries",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/dragon-cloud.test.mjs",
+      "fullName": "dragon guide authenticated PostgreSQL persistence caps history, preserves preference and reads actual starter result after refresh",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/dragon-cloud.test.mjs",
+      "fullName": "dragon guide authenticated PostgreSQL persistence does not retain stale phase claims when the draw finishes during AI generation",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/dragon-cloud.test.mjs",
+      "fullName": "dragon guide authenticated PostgreSQL persistence persists isolated care turns without changing family, grants or the equipped companion",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/family-seen-cloud.test.mjs",
+      "fullName": "lossless seen history through real PostgreSQL and existing public API reads old arrays, persists compact on a real command, hides future IDs, and replays once",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/family-seen-cloud.test.mjs",
+      "fullName": "lossless seen history through real PostgreSQL and existing public API admin grant preserves compact data byte for byte apart from balance and revision",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/home-decor-cloud.test.mjs",
+      "fullName": "home decoration transactions (real PostgreSQL) deduplicates simultaneous crafts, charges once, and retains every player's original data",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/home-decor-cloud.test.mjs",
+      "fullName": "home decoration transactions (real PostgreSQL) saves room layouts across login and rejects stale local drafts even with fresh family revision",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/home-decor-cloud.test.mjs",
+      "fullName": "home decoration transactions (real PostgreSQL) rejects forged costs and furniture; legacy import cannot mint a decorated room",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/island-api.test.mjs",
+      "fullName": "Math Island PostgreSQL transactions persists lower-semester quantities, money and calendar rounds through the actual API",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/island-api.test.mjs",
+      "fullName": "Math Island PostgreSQL transactions deduplicates concurrent submissions, rejects stale and forged commands, resumes from a second session",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/island-api.test.mjs",
+      "fullName": "Math Island PostgreSQL transactions saves upper-grade card answers for existing players and keeps future solutions private",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/island-api.test.mjs",
+      "fullName": "Math Island PostgreSQL transactions finishes exactly once and preserves progress/first attempts after leaving the round",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/island-api.test.mjs",
+      "fullName": "Math Island PostgreSQL transactions settles island capture and a ticket once after three previous successes, with stable replay after a new round",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/island-api.test.mjs",
+      "fullName": "Math Island PostgreSQL transactions redacts unsubmitted answers even from early-finish receipts",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/mastered-cloud.test.mjs",
+      "fullName": "durable successes across cloud devices never reissues 48 correct question IDs when alternating devices, retries and server restart",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/online-battle.test.mjs",
+      "fullName": "server-owned online friend battles uses member identity across same-slot accounts; shows only live allowlisted activity",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/online-battle.test.mjs",
+      "fullName": "server-owned online friend battles requires login, CSRF, player scope, explicit friend and live recipient",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/online-battle.test.mjs",
+      "fullName": "server-owned online friend battles never accepts client stats, unowned pets, self acceptance or outsiders",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/online-battle.test.mjs",
+      "fullName": "server-owned online friend battles makes invitation retry idempotent and prevents simultaneous crossed invites",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/online-battle.test.mjs",
+      "fullName": "server-owned online friend battles enforces turn ownership and revisions; retries cannot attack twice",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/online-battle.test.mjs",
+      "fullName": "server-owned online friend battles serializes simultaneous moves and exposes no outsider match data",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/online-battle.test.mjs",
+      "fullName": "server-owned online friend battles supports decline, cooldown, cancel and dismiss without rewards changes",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/online-battle.test.mjs",
+      "fullName": "server-owned online friend battles lets both participants acknowledge a terminal result from the same revision",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/online-battle.test.mjs",
+      "fullName": "server-owned online friend battles expires unaccepted invites; timed out turns and leave have one result",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/online-battle.test.mjs",
+      "fullName": "server-owned online friend battles resumes the same room after a new login, then can concede",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/player-friends.test.mjs",
+      "fullName": "explicit current-player friendships across accounts gives every enrolled child the same six identities with five other friends and correct portraits",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/player-friends.test.mjs",
+      "fullName": "explicit current-player friendships across accounts does not auto-enroll other accounts; preserves the original household boundary",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/player-friends.test.mjs",
+      "fullName": "explicit current-player friendships across accounts is idempotent and rejects an incomplete snapshot atomically",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/player-friends.test.mjs",
+      "fullName": "explicit current-player friendships across accounts keeps same-grade presence distinct across accounts and obeys logout and expiration",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/player-friends.test.mjs",
+      "fullName": "explicit current-player friendships across accounts ranks real members and reveals only authorized collection projections without mutating saves",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/player-friends.test.mjs",
+      "fullName": "explicit current-player friendships across accounts checks friendship again for collection detail after a link is removed",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/player-friends.test.mjs",
+      "fullName": "explicit current-player friendships across accounts uses the same member keys for an unlinked household and its collection links",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/player-logins.test.mjs",
+      "fullName": "individual logins preserve the existing household (real PostgreSQL) provisions four identities without rewriting any stored progress, archive or timestamp",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/player-logins.test.mjs",
+      "fullName": "individual logins preserve the existing household (real PostgreSQL) all four PINs including leading zero log into the original player with identical scores",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/player-logins.test.mjs",
+      "fullName": "individual logins preserve the existing household (real PostgreSQL) reprovision and restart preserve data and existing member sessions",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/player-logins.test.mjs",
+      "fullName": "individual logins preserve the existing household (real PostgreSQL) denies sibling writes, receipt replay, whole-family migration and owner recovery",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/player-logins.test.mjs",
+      "fullName": "individual logins preserve the existing household (real PostgreSQL) keeps ordinary registration at twelve characters and rejects reassigning a member atomically",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/player-logins.test.mjs",
+      "fullName": "individual logins preserve the existing household (real PostgreSQL) allows own commands, cross-member trades and idempotent cancellations without resetting scores",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence-history.test.mjs",
+      "fullName": "historical player presence (real PostgreSQL) backfills exact player login and matching draw times, without creating online state or changing saves",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence-history.test.mjs",
+      "fullName": "historical player presence (real PostgreSQL) can recover a retained member login alone, including expired sessions, without marking anyone online",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence-history.test.mjs",
+      "fullName": "historical player presence (real PostgreSQL) does not attribute parent sessions or another household receipt to a player",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence-history.test.mjs",
+      "fullName": "historical player presence (real PostgreSQL) distinguishes old progress with unknown time from starter defaults; never uses family save time or collection dates",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence-history.test.mjs",
+      "fullName": "historical player presence (real PostgreSQL) records successful member login durably but ignores failed authentication and parent login identity",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence-history.test.mjs",
+      "fullName": "historical player presence (real PostgreSQL) records only the acting player after valid commands; receipt replay cannot repeat rewards or rewrite saves",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence-history.test.mjs",
+      "fullName": "historical player presence (real PostgreSQL) does not add history for failed commands or unauthorized cross-player requests",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence.test.mjs",
+      "fullName": "family friends presence (real PostgreSQL) shows all four mutual friends with real display names and no invented history",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence.test.mjs",
+      "fullName": "family friends presence (real PostgreSQL) requires login, CSRF, same origin and own player, ignoring client timestamps",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence.test.mjs",
+      "fullName": "family friends presence (real PostgreSQL) does not change any game progress, revision, archive or save timestamp",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence.test.mjs",
+      "fullName": "family friends presence (real PostgreSQL) aggregates multiple tabs and devices; logout removes only its own sessions leases",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence.test.mjs",
+      "fullName": "family friends presence (real PostgreSQL) expires dropped connections by TTL and preserves durable last-seen across restart",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence.test.mjs",
+      "fullName": "family friends presence (real PostgreSQL) does not revive closed tabs when requests arrive out of order, including leave before first beat",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence.test.mjs",
+      "fullName": "family friends presence (real PostgreSQL) expires sessions even before cleanup and keeps history after revocation",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence.test.mjs",
+      "fullName": "family friends presence (real PostgreSQL) permits parent-selected players but does not change the identity of an existing tab lease",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence.test.mjs",
+      "fullName": "family friends presence (real PostgreSQL) bounds open tab leases per session",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/ready-screen-cloud.test.mjs",
+      "fullName": "preparation preferences and image preflight defaults by grade and persists an explicit choice without practice overwriting it",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/ready-screen-cloud.test.mjs",
+      "fullName": "preparation preferences and image preflight new clients advance without starting a clock; ready is still idempotent",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/ready-screen-cloud.test.mjs",
+      "fullName": "preparation preferences and image preflight rejects invalid stored preference",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/remediation-cloud.test.mjs",
+      "fullName": "remediation authoritative transaction and projection reveals no future questions and automatically opens the next clock exactly once",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/remediation-cloud.test.mjs",
+      "fullName": "remediation authoritative transaction and projection projects only wrong completed questions, rejects forged commands, and resumes corrections",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/remediation-cloud.test.mjs",
+      "fullName": "remediation authoritative transaction and projection commits the last correction/reward once under duplicate and competing final requests",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/schema-migration.test.mjs",
+      "fullName": "concurrent PostgreSQL bootstrap serializes cold table/type creation across independent app pools",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API routes authenticated Jasper to first-grade exams and preserves existing saves and rewards",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API supports three consecutive grade-six battle questions and denies unavailable grade-one courses",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API opens authenticated grade-six English, hides answers and persists progress without changing math mastery",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API saves authenticated sixth-grade Chinese, science and social answers without leaking answers",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API routes Jay by the authenticated account and saves supplied and fallback courses without answer leakage",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API serves continuation questions after old-source mastery without resetting rewards",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API persists new math/social and English intersection voyages while retaining prior source mastery",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API derives the school on login without changing other gameplay fields",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API allocates the right publisher server-side without sending future questions or answers",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API saves grade-two source answers and points for both schools in normal play",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API routes grade-one math for the authenticated Yongchun student and hides answers",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API serves and grades source phonetics for grade one without exposing future answers",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API routes English practice by each authenticated account without leaking answers",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API routes science battle questions for both schools and keeps answers server-only",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API rejects a grade-two account trying to request grade-four science",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API routes social battle questions for both schools and keeps answers server-only",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API rejects a grade-two account trying to request grade-four social",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API routes math by authenticated school and keeps younger math age appropriate",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API authenticates Dunhua, persists Nanyi math progress and keeps book 3 out of English",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API serves the new social supplement for three authenticated schools after prior mastery",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "fullName": "school routing through authenticated cloud API serves the new science supplement for three authenticated schools after prior mastery",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/study-review-cloud.test.mjs",
+      "fullName": "review transactions, permissions and zero rewards respects ownership, rejects forged dates/rewards and hides future answers",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/study-review-cloud.test.mjs",
+      "fullName": "review transactions, permissions and zero rewards duplicate/concurrent answers settle once, stale devices resync and can resume the same question",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/study-review-cloud.test.mjs",
+      "fullName": "review transactions, permissions and zero rewards keeps all reward ledgers and old completion/compensation exactly unchanged across the group",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/study-review-cloud.test.mjs",
+      "fullName": "review transactions, permissions and zero rewards refuses review while a normal challenge is active without losing saved progress",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/subject-islands-cloud.test.mjs",
+      "fullName": "server-authoritative elemental voyages (PostgreSQL) persists one same-element encounter across racing start replay and another device",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/subject-islands-cloud.test.mjs",
+      "fullName": "server-authoritative elemental voyages (PostgreSQL) rejects forged elements, routes and species without changing the saved state",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/tiered-cloud.test.mjs",
+      "fullName": "tiered challenge authoritative PostgreSQL protocol rejects falsy/forged timing and conceals question until a durable ready command",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/tiered-cloud.test.mjs",
+      "fullName": "tiered challenge authoritative PostgreSQL protocol settles a timeout once despite concurrent replay and a late correct answer",
+      "occurrence": 1,
+      "ordinaryStatus": "skipped",
+      "pgStatus": "passed"
+    }
+  ],
+  "overlap": [
+    {
+      "file": "src/__tests__/presence-history.test.mjs",
+      "fullName": "recognizes an old practice-only learning record after leaving the voyage",
+      "occurrence": 1,
+      "ordinaryStatus": "passed",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence-history.test.mjs",
+      "fullName": "recognizes retained collection history even if old inventory and collection dates were restored",
+      "occurrence": 1,
+      "ordinaryStatus": "passed",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence-history.test.mjs",
+      "fullName": "recognizes a previously started territory without using its settlement time as a login time",
+      "occurrence": 1,
+      "ordinaryStatus": "passed",
+      "pgStatus": "passed"
+    },
+    {
+      "file": "src/__tests__/presence-history.test.mjs",
+      "fullName": "recognizes compact seen-only history without inventing a precise login",
+      "occurrence": 1,
+      "ordinaryStatus": "passed",
+      "pgStatus": "passed"
+    }
+  ],
+  "inputs": {
+    "full-tests.json": "439958a5674057c02904bdef352fd2cd3a70e3507fcd5447f616a85b776ee58d",
+    "cloud-per-file/results.json": "920a39131591fbac45fc520e54ce3d9f28736287fa542a11dc15ece07ac9e120"
+  }
+}

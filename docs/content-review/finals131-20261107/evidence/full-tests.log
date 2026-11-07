@@ -1,0 +1,15 @@
+
+> quintus-ocean-academy@1.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-131-release-20261107
+
+
+ Test Files  176 passed | 28 skipped (204)
+      Tests  1540 passed | 263 skipped (1803)
+   Start at  09:54:06
+   Duration  11.76s (import 49%, tests 41%, transform 9%, worker 1%)
+
+    Isolate  204 workers spawned · ~94ms startup each (spawn + environment, per file)
+             at least ~1.37s faster with isolate: false — reuses workers across files instead of one per file

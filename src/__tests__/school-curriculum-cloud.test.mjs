@@ -1,8 +1,11 @@
+import {FINALS_REVIEWED_20261107} from '../finals-reviewed-20261107';
+import {eligibleExam} from '../school-curriculum';
 import {SCIENCE_EXAMS} from '../science-exams';
 import {SOCIAL_EXAMS} from '../social-exams';
 import {MATH_EXAMS} from '../math-exams';
 import {GRADE2_MATH_EXAMS} from '../grade2-math-exams';
 import {GRADE1_CHINESE_EXAMS} from '../grade1-chinese-exams';
+const grade2MathIds=new Set([...GRADE2_MATH_EXAMS,...FINALS_REVIEWED_20261107.filter(q=>q.grade===2&&q.course==='math')].map(q=>q.id));
 const scienceIds=new Set(SCIENCE_EXAMS.map(q=>q.id)),socialIds=new Set(SOCIAL_EXAMS.map(q=>q.id)),g1ChineseIds=new Set(GRADE1_CHINESE_EXAMS.map(q=>q.id));
 const socialSupplement=new Set(SOCIAL_EXAMS.filter(q=>q.examSources.some(s=>/^ksn\d+$/.test(s.id))).map(q=>q.id));
 const scienceSupplement=new Set(SCIENCE_EXAMS.filter(q=>q.examSources.some(s=>/^ksu\d+$/.test(s.id))).map(q=>q.id));
@@ -181,8 +184,11 @@ suite('school routing through authenticated cloud API',()=>{
    const ready=await call('command',{id:randomUUID(),revision:started.data.family.revision,command:{type:'ready-question',player:'feifei',runId:run.id,index:0}},c);
    expect(ready.status,JSON.stringify(ready.data)).toBe(200);
    const q=ready.data.questions.feifei;
-   expect(q.grade).toBe(2);expect(q.publisher).toBe(course==='math'?'南一':'康軒');expect(q.id.startsWith(course==='math'?'mxg2-':'cxg2-')).toBe(true);
+   expect(q.grade).toBe(2);expect(q.publisher).toBe(course==='math'?'南一':'康軒');expect(q.course).toBe(course);
+   if(course==='math'){expect(grade2MathIds.has(q.id),q.id).toBe(true);expect(eligibleExam(name==='jimmy'?'nantun':'yongchun',2,course,questionById(q.id)),q.id).toBe(true);}
+   else expect(q.id.startsWith('cxg2-'),q.id).toBe(true);
    expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefined();
+   console.info('authenticated-routing-evidence',JSON.stringify({synthetic:true,case:name,id:q.id,grade:q.grade,course:q.course,publisher:q.publisher,sources:q.examSources?.map(s=>s.id)}));
    if(course==='pairs')expect(q.hideReadingHints).toBe(true);
    expect(ready.data.family.profiles.feifei.run.questions.slice(1).every(id=>id==='')).toBe(true);
    const answered=await call('command',{id:randomUUID(),revision:ready.data.family.revision,command:{type:'answer',player:'feifei',runId:run.id,index:0,choice:questionById(q.id).answer}},c);
@@ -193,7 +199,12 @@ suite('school routing through authenticated cloud API',()=>{
    const ended=await call('command',{id:randomUUID(),revision:restored.data.family.revision,command:{type:'quit',player:'feifei',runId:run.id}},c);
    expect(ended.status,JSON.stringify(ended.data)).toBe(200);
    const battle=await call('command',{id:randomUUID(),revision:ended.data.family.revision,command:{type:'battle-start',player:'feifei',course,used:[]}},c);
-   expect(battle.status,JSON.stringify(battle.data)).toBe(200);expect(battle.data.result.question.id.startsWith(course==='math'?'mxg2-':'cxg2-')).toBe(true);
+   expect(battle.status,JSON.stringify(battle.data)).toBe(200);const bq=battle.data.result.question;
+   expect(bq.grade).toBe(2);expect(bq.course).toBe(course);expect(bq.publisher).toBe(course==='math'?'南一':'康軒');
+   if(course==='math')expect(grade2MathIds.has(bq.id),bq.id).toBe(true);else expect(bq.id.startsWith('cxg2-'),bq.id).toBe(true);
+   expect(eligibleExam(name==='jimmy'?'nantun':'yongchun',2,course,questionById(bq.id)),bq.id).toBe(true);
+   expect(bq.examSources).toEqual(questionById(bq.id).examSources);expect(bq.answer).toBeUndefined();expect(bq.explanation).toBeUndefined();
+   console.info('authenticated-grade2-battle-evidence',JSON.stringify({synthetic:true,case:name,id:bq.id,grade:bq.grade,course:bq.course,publisher:bq.publisher,sources:bq.examSources?.map(s=>s.id)}));
    if(course==='pairs')expect(battle.data.result.question.hideReadingHints).toBe(true);
   }
  });
@@ -276,8 +287,9 @@ suite('school routing through authenticated cloud API',()=>{
    const q=r.data.result.question;
    expect(q.course).toBe('math');expect(q.grade).toBe(name==='jimmy'?2:4);
    expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefined();
-   if(publisher){expect(q.publisher).toBe(publisher);expect((name==='jimmy'?GRADE2_MATH_EXAMS:MATH_EXAMS).some(item=>item.id===q.id&&item.publisher===publisher)).toBe(true);}
+   if(publisher){expect(q.publisher).toBe(publisher);expect(name==='jimmy'?grade2MathIds.has(q.id):MATH_EXAMS.some(item=>item.id===q.id&&item.publisher===publisher),q.id).toBe(true);expect(eligibleExam(name==='quintus'?'yongchun':'nantun',q.grade,'math',questionById(q.id)),q.id).toBe(true);}
    else {expect(q.examSources).toBeUndefined();expect(q.id.startsWith('n1-')).toBe(true);}
+   console.info('authenticated-math-routing-evidence',JSON.stringify({synthetic:true,case:name,id:q.id,grade:q.grade,course:q.course,publisher:q.publisher,sources:q.examSources?.map(s=>s.id)}));
    // Grade two alternates words then math; grade four starts with math.
    const practice=await call('practice',{type:'start',player,used:name==='jimmy'?['words-previous']:[]},c);
    expect(practice.status,JSON.stringify(practice.data)).toBe(200);

@@ -1,0 +1,18 @@
+{
+  "scope": "initial entirely synthetic local finals131_review database only",
+  "query": "player_logins excluding legacy four slots joined to admin_trial_accounts; aggregate only",
+  "rows": [
+    {
+      "playerId": "alston",
+      "rows": 5,
+      "matchingTrialReceipts": 5
+    },
+    {
+      "playerId": "jay",
+      "rows": 2,
+      "matchingTrialReceipts": 2
+    }
+  ],
+  "conclusion": "all7 nonlegacy rows came from admin trial fixtures; legacy four-slot CHECK cannot be added in shared DB; fresh per-file child-account passes6/6 for base and candidate",
+  "candidate": "1437ceeac4cfe0244d91669e0d55e178f0c51ed0"
+}

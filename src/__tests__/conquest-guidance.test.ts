@@ -39,9 +39,9 @@ it('matches actual preparation for all 91 tiles, including PvP, shield boundarie
   }
  }
 });
-it('distinguishes adjacency from readiness and accepts a first island anywhere',()=>{
+it('allows any target within central radius five regardless of owned islands',()=>{
  const s=fresh(),t=s.tiles.find(t=>t.id==='-2,1')!;expect(claimGuidance(s,'p',t,team,roster,now).ready).toBe(true);
- s.tiles.find(t=>t.id==='1,0')!.owner='p';const g=claimGuidance(s,'p',t,team,roster,now);expect(g).toMatchObject({ready:false,adjacentTarget:false,distance:3});expect(g.reason).toContain('相鄰');
+ s.tiles.find(t=>t.id==='1,0')!.owner='p';const g=claimGuidance(s,'p',t,team,roster,now);expect(g).toMatchObject({ready:true,inRangeTarget:true,distance:2,canPrepare:true});expect(g.reason).toBeNull();
 });
 it('blocks incomplete, duplicate, unavailable and missing teams plus pending/offline states without writes',()=>{
  const s=fresh(),t=s.tiles.find(t=>t.id==='0,0')!,before=JSON.stringify(s);
@@ -61,4 +61,14 @@ it('treats NPC islands as PvE targets with accurate labels in both shared and lo
   expect(g.ready).toBe(!setup.block);expect(g.label).not.toContain('玩家搶地');
   if(battleUntil>now)expect(g.label).toBe('交戰中');else if(!energy)expect(g.label).toBe('能量不足');else if(count<3)expect(g.label).toBe('隊伍未就緒');else expect(g.label).toBe('可出征');
  }
+});
+
+it('allows preparation to repair energy and team blockers but never allows premature combat',()=>{
+ const s=fresh(),t=s.tiles[0];s.energy=0;
+ expect(claimGuidance(s,'p',t,[],roster,now)).toMatchObject({ready:false,canPrepare:true,energyShortfall:24});
+ expect(claimGuidance(s,'p',t,[],roster,now,true).canPrepare).toBe(false);
+ expect(claimGuidance(s,'p',t,[],roster,now,false,'offline').canPrepare).toBe(false);
+ t.owner='p';expect(claimGuidance(s,'p',t,team,roster,now).canPrepare).toBe(false);
+ t.owner=null;t.q=6;t.r=0;t.distance=0;
+ expect(claimGuidance(s,'p',t,team,roster,now)).toMatchObject({ready:false,canPrepare:false,inRangeTarget:false,label:'超出五格航域'});
 });

@@ -71,6 +71,8 @@ export const TRIAL_LEVEL = 4;
 export const DIRECTIONS = [[1, 0], [1, -1], [0, -1], [-1, 0], [-1, 1], [0, 1]] as const;
 export const hexDistance = (q: number, r: number) => Math.max(Math.abs(q), Math.abs(r), Math.abs(q + r));
 export const adjacent = (a: Pick<Tile, 'q' | 'r'>, b: Pick<Tile, 'q' | 'r'>) => hexDistance(a.q - b.q, a.r - b.r) === 1;
+export const CONQUEST_RADIUS = 5;
+export const withinConquestRange = (tile: Pick<Tile, 'q' | 'r'>) => Number.isInteger(tile.q) && Number.isInteger(tile.r) && hexDistance(tile.q, tile.r) <= CONQUEST_RADIUS;
 export const power = (guards: readonly Guard[]) => guards.reduce((sum, g) => sum + (alive(g) ? 10 + g.level * 5 : 0), 0);
 export const round = (value: number) => Math.round(value * 100) / 100;
 export function seasonAt(now = Date.now()) {
@@ -193,7 +195,7 @@ export function claimBlock(state: ConquestState, player: string, tile: Tile, now
   if ((tile.battleUntil ?? 0) > now) return '這座島正在交戰，請等待戰況結束。';
   if (shieldActive(tile, now)) return '這座島仍有護盾，現在無法攻擊。';
   if (tile.owner && !isNpcOwner(tile.owner) && !pvp) return '目前開放 PvE，尚未開放玩家搶地。';
-  if (owned.length && !owned.some(t => adjacent(t, tile))) return '請選擇與自己領地相鄰的島嶼。';
+  if (!withinConquestRange(tile)) return '只能出征啟航之島中心五格內的島嶼。';
   if (state.energy < claimCost(tile, owned.length)) return '能量不足，先答題補充能量。';
   return null;
 }
