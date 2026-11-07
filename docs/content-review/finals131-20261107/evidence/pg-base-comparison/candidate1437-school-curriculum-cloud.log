@@ -1,0 +1,72 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-131-release-20261107
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs (21 tests | 2 failed) 8521ms
+   ❯ school routing through authenticated cloud API (21)
+     ✓ routes authenticated Jasper to first-grade exams and preserves existing saves and rewards 428ms
+     ✓ supports three consecutive grade-six battle questions and denies unavailable grade-one courses 70ms
+     ✓ opens authenticated grade-six English, hides answers and persists progress without changing math mastery 48ms
+     ✓ saves authenticated sixth-grade Chinese, science and social answers without leaking answers 121ms
+     ✓ routes Jay by the authenticated account and saves supplied and fallback courses without answer leakage 940ms
+     ✓ serves continuation questions after old-source mastery without resetting rewards 584ms
+     ✓ persists new math/social and English intersection voyages while retaining prior source mastery 625ms
+     ✓ derives the school on login without changing other gameplay fields 0ms
+     ✓ allocates the right publisher server-side without sending future questions or answers 67ms
+     × saves grade-two source answers and points for both schools in normal play 115ms
+     ✓ routes grade-one math for the authenticated Yongchun student and hides answers 11ms
+     ✓ serves and grades source phonetics for grade one without exposing future answers 102ms
+     ✓ routes English practice by each authenticated account without leaking answers 10ms
+     ✓ routes science battle questions for both schools and keeps answers server-only 22ms
+     ✓ rejects a grade-two account trying to request grade-four science 7ms
+     ✓ routes social battle questions for both schools and keeps answers server-only 22ms
+     ✓ rejects a grade-two account trying to request grade-four social 8ms
+     × routes math by authenticated school and keeps younger math age appropriate 44ms
+     ✓ authenticates Dunhua, persists Nanyi math progress and keeps book 3 out of English 97ms
+     ✓ serves the new social supplement for three authenticated schools after prior mastery 36ms
+     ✓ serves the new science supplement for three authenticated schools after prior mastery 37ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:184:137
+    182|    expect(ready.status,JSON.stringify(ready.data)).toBe(200);
+    183|    const q=ready.data.questions.feifei;
+    184|    expect(q.grade).toBe(2);expect(q.publisher).toBe(course==='math'?'南…
+       |                                                                                                                                         ^
+    185|    expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefine…
+    186|    if(course==='pairs')expect(q.hideReadingHints).toBe(true);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > routes math by authenticated school and keeps younger math age appropriate
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:279:163
+    277|    expect(q.course).toBe('math');expect(q.grade).toBe(name==='jimmy'?2…
+    278|    expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefine…
+    279|    if(publisher){expect(q.publisher).toBe(publisher);expect((name==='j…
+       |                                                                                                                                                                   ^
+    280|    else {expect(q.examSources).toBeUndefined();expect(q.id.startsWith(…
+    281|    // Grade two alternates words then math; grade four starts with mat…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 19 passed (21)
+   Start at  09:41:37
+   Duration  9.17s (tests 94%, import 4%, transform 2%)

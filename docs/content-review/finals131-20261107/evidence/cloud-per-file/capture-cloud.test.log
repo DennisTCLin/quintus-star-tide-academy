@@ -1,0 +1,16 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-131-release-20261107
+
+ ✓ src/__tests__/capture-cloud.test.mjs (9 tests) 3430ms
+   ✓ capture transactions, legacy receipts and three-question guarantees (PostgreSQL) (9)
+     ✓ hides future capture questions and commits three correct answers exactly once across competing devices 599ms
+     ✓ persists a wrong capture answer without retry, keeps rewards and isolates another account 429ms
+     ✓ compensates legacy mastery once across concurrent commands, reads and another device 430ms
+     ✓ persists third-mistake defeat once across concurrent replay and a second device 405ms
+     ✓ commits capture, quota and ownership once across concurrent receipt replay and another login 439ms
+     ✓ preserves legacy fights and rejects forged monster import atomically 424ms
+
+ Test Files  1 passed (1)
+      Tests  9 passed (9)
+   Start at  09:51:39
+   Duration  3.95s (tests 88%, import 9%, transform 3%)

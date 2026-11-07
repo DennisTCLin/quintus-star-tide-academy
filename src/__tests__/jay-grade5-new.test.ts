@@ -1,3 +1,4 @@
+import {preFinalsLearning as freshLearning} from './helpers/pre-finals-learning';
 import {describe,it,expect} from 'vitest';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -5,7 +6,7 @@ import {GRADE5_NEW_EXAMS} from '../grade5-new-exams';
 import {GRADE5_DONGMEN_EXAMS} from '../grade5-dongmen-exams';
 import {GRADE5_REMAINING_EXAMS} from '../grade5-remaining-exams';
 import {LEARNING_BANK,questionById} from '../learning';
-import {freshLearning,allocateQuestions} from '../learning-engine';
+import {allocateQuestions} from '../learning-engine';
 import {markMastered} from '../mastered-questions';
 import {eligibleExam,examPracticePriority} from '../school-curriculum';
 import {EXAM_SOURCES} from '../exam-sources';
@@ -40,6 +41,6 @@ describe('Jay new math/social and reviewed English intersection',()=>{
   const f=newFamily();f.profiles.jay.learning.school='dongmen';for(const q of GRADE5_NEW_EXAMS)markMastered(f.profiles.jay.learning,q.id);startRun(f,'jay','english','old-source-run',0,false,'2026-10-27');expect(f.profiles.jay.run!.questions.every(id=>old.some(q=>q.id===id))).toBe(true);const saved=structuredClone(f);expect(validateFamily(JSON.parse(JSON.stringify(f)))).toEqual(saved);
  });
  it('keeps midterm before final within the unseen lane and falls back after mastery',()=>{
-  const s=freshLearning();s.school='dongmen';expect(allocateQuestions(s,5,'social',6).every(({id})=>examPracticePriority(questionById(id)!)===0)).toBe(true);for(const q of GRADE5_NEW_EXAMS.filter(q=>q.course==='social'&&examPracticePriority(q)===0))markMastered(s,q.id);expect(allocateQuestions(s,5,'social',6).every(({id})=>examPracticePriority(questionById(id)!)===1)).toBe(true);for(const q of GRADE5_NEW_EXAMS.filter(q=>q.course==='social'))markMastered(s,q.id);expect(allocateQuestions(s,5,'social',6).every(({id})=>!questionById(id)!.examSources)).toBe(true);
+  const s=freshLearning(5);s.school='dongmen';expect(allocateQuestions(s,5,'social',6).every(({id})=>examPracticePriority(questionById(id)!)===0)).toBe(true);for(const q of GRADE5_NEW_EXAMS.filter(q=>q.course==='social'&&examPracticePriority(q)===0))markMastered(s,q.id);expect(allocateQuestions(s,5,'social',6).every(({id})=>examPracticePriority(questionById(id)!)===1)).toBe(true);for(const q of GRADE5_NEW_EXAMS.filter(q=>q.course==='social'))markMastered(s,q.id);expect(allocateQuestions(s,5,'social',6).every(({id})=>!questionById(id)!.examSources)).toBe(true);
  });
 });

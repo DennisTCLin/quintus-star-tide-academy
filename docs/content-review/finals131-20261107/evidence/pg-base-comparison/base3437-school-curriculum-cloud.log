@@ -1,0 +1,14 @@
+
+ RUN  v5.0.5 /private/tmp/finals131-base-3437
+
+ ✓ src/__tests__/school-curriculum-cloud.test.mjs (21 tests) 8259ms
+   ✓ school routing through authenticated cloud API (21)
+     ✓ routes authenticated Jasper to first-grade exams and preserves existing saves and rewards 378ms
+     ✓ routes Jay by the authenticated account and saves supplied and fallback courses without answer leakage 811ms
+     ✓ serves continuation questions after old-source mastery without resetting rewards 558ms
+     ✓ persists new math/social and English intersection voyages while retaining prior source mastery 549ms
+
+ Test Files  1 passed (1)
+      Tests  21 passed (21)
+   Start at  09:41:06
+   Duration  8.83s (tests 94%, import 4%, transform 2%)

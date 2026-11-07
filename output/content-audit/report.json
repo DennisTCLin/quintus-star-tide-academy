@@ -2,18 +2,18 @@
   "version": 1,
   "status": "PASS",
   "counts": {
-    "static": 6216,
+    "static": 6311,
     "generated": 23192,
     "pools": 42,
-    "approvedStatic": 6216,
+    "approvedStatic": 6311,
     "approvedTemplates": 42
   },
   "mediaFiles": 212,
   "findings": [],
   "coverage": {
-    "static": "6216/6216 hash-matched approvals; media bytes/existence checked, audio listening not certified",
+    "static": "6311/6311 hash-matched approvals; media bytes/existence checked, audio listening not certified",
     "generated": "42/42 hash-matched template approvals; all 23192 variants checked structurally and by prompt-based oracle, not individually AI-reviewed"
   },
-  "durationMs": 543,
-  "peakRssMB": 244
+  "durationMs": 417,
+  "peakRssMB": 241
 }

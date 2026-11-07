@@ -1,0 +1,279 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-131-release-20261107
+
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs (20 tests | 6 failed) 14826ms
+   ❯ all parent-confirmed child curriculum routing (20)
+     ✓ quintus: school overlay preserves old voyage, mastery, rewards and database bytes 5ms
+     ✓ quintus: all matching subject voyages save and reload without cross-school sources 1098ms
+     ✓ alan: school overlay preserves old voyage, mastery, rewards and database bytes 4ms
+     ✓ alan: all matching subject voyages save and reload without cross-school sources 1035ms
+     ✓ brownie: school overlay preserves old voyage, mastery, rewards and database bytes 4ms
+     ✓ brownie: all matching subject voyages save and reload without cross-school sources 808ms
+     ✓ jay: school overlay preserves old voyage, mastery, rewards and database bytes 4ms
+     ✓ jay: all matching subject voyages save and reload without cross-school sources 1077ms
+     × alston: school overlay preserves old voyage, mastery, rewards and database bytes 13ms
+     ✓ alston: all matching subject voyages save and reload without cross-school sources 1002ms
+     × jimmy: school overlay preserves old voyage, mastery, rewards and database bytes 8ms
+     ✓ jimmy: all matching subject voyages save and reload without cross-school sources 655ms
+     × feifei: school overlay preserves old voyage, mastery, rewards and database bytes 7ms
+     ✓ feifei: all matching subject voyages save and reload without cross-school sources 674ms
+     × olivia: school overlay preserves old voyage, mastery, rewards and database bytes 7ms
+     ✓ olivia: all matching subject voyages save and reload without cross-school sources 957ms
+     × sunny: school overlay preserves old voyage, mastery, rewards and database bytes 7ms
+     ✓ sunny: all matching subject voyages save and reload without cross-school sources 985ms
+     × jasper: school overlay preserves old voyage, mastery, rewards and database bytes 6ms
+     ✓ jasper: all matching subject voyages save and reload without cross-school sources 889ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 6 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > alston: school overlay preserves old voyage, mastery, rewards and database bytes
+AssertionError: expected { log: [], version: 9, …(3) } to deeply equal { version: 9, revision: +0, …(4) }
+
+Compared values serialize to the same structure.
+Printing internal object structure without calling `toJSON` instead.
+
+- Expected
++ Received
+
+@@ -36,18 +36,39 @@
+              "f6-50000074-p1i1",
+            ],
+          },
+          "pending": null,
+          "review": {},
+-         "seen": [
++         "seen": {
++           "codec": "prefix-v1",
++           "entries": [
++             [
++               0,
+                "f6-50000074-p1i1",
+-           "f6-50000074-p1i2",
+-           "f6-50000074-p1ii5",
+-           "f6-50000074-p2i1",
+-           "f6-50000074-p2i4",
+-           "f6-50000074-p3i1",
++             ],
++             [
++               15,
++               "2",
++             ],
++             [
++               15,
++               "i5",
++             ],
++             [
++               13,
++               "2i1",
++             ],
++             [
++               15,
++               "4",
+              ],
++             [
++               13,
++               "3i1",
++             ],
++           ],
++         },
+          "skills": {
+            "math": {
+              "answered": 1,
+              "correct": 1,
+              "level": 1,
+
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs:38:132
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/6]⎯
+
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > jimmy: school overlay preserves old voyage, mastery, rewards and database bytes
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > feifei: school overlay preserves old voyage, mastery, rewards and database bytes
+AssertionError: expected { log: [], version: 9, …(3) } to deeply equal { version: 9, revision: +0, …(4) }
+
+Compared values serialize to the same structure.
+Printing internal object structure without calling `toJSON` instead.
+
+- Expected
++ Received
+
+@@ -180,18 +180,39 @@
+              "f2-20003916-i10-2",
+            ],
+          },
+          "pending": null,
+          "review": {},
+-         "seen": [
++         "seen": {
++           "codec": "prefix-v1",
++           "entries": [
++             [
++               0,
+                "f2-20003916-i10-2",
+-           "f2-20003916-i11-4",
+-           "f2-20003916-i12",
+-           "f2-20003916-i4a",
+-           "f2-20003916-ii1-a",
+-           "f2-20003916-ii2-a",
++             ],
++             [
++               14,
++               "1-4",
++             ],
++             [
++               14,
++               "2",
++             ],
++             [
++               13,
++               "4a",
++             ],
++             [
++               13,
++               "i1-a",
+              ],
++             [
++               14,
++               "2-a",
++             ],
++           ],
++         },
+          "skills": {
+            "math": {
+              "answered": 1,
+              "correct": 1,
+              "level": 1,
+
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs:38:132
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/6]⎯
+
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > olivia: school overlay preserves old voyage, mastery, rewards and database bytes
+AssertionError: expected { log: [], version: 9, …(3) } to deeply equal { version: 9, revision: +0, …(4) }
+
+Compared values serialize to the same structure.
+Printing internal object structure without calling `toJSON` instead.
+
+- Expected
++ Received
+
+@@ -108,18 +108,39 @@
+              "f1-20002163-iii2",
+            ],
+          },
+          "pending": null,
+          "review": {},
+-         "seen": [
++         "seen": {
++           "codec": "prefix-v1",
++           "entries": [
++             [
++               0,
+                "f1-20002163-iii2",
+-           "f1-20002163-iii3",
+-           "f1-20002163-ixa",
+-           "f1-20002163-ixb",
+-           "f1-20002163-viii2",
+-           "f1-20002163-x1",
++             ],
++             [
++               15,
++               "3",
++             ],
++             [
++               13,
++               "xa",
++             ],
++             [
++               14,
++               "b",
++             ],
++             [
++               12,
++               "viii2",
+              ],
++             [
++               12,
++               "x1",
++             ],
++           ],
++         },
+          "skills": {
+            "math": {
+              "answered": 1,
+              "correct": 1,
+              "level": 1,
+
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs:38:132
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/6]⎯
+
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > sunny: school overlay preserves old voyage, mastery, rewards and database bytes
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > jasper: school overlay preserves old voyage, mastery, rewards and database bytes
+AssertionError: expected { log: [], version: 9, …(3) } to deeply equal { version: 9, revision: +0, …(4) }
+
+Compared values serialize to the same structure.
+Printing internal object structure without calling `toJSON` instead.
+
+- Expected
++ Received
+
+@@ -324,18 +324,39 @@
+              "f1-20002163-iii2",
+            ],
+          },
+          "pending": null,
+          "review": {},
+-         "seen": [
++         "seen": {
++           "codec": "prefix-v1",
++           "entries": [
++             [
++               0,
+                "f1-20002163-iii2",
+-           "f1-20002163-iii3",
+-           "f1-20002163-ixa",
+-           "f1-20002163-ixb",
+-           "f1-20002163-viii2",
+-           "f1-20002163-x1",
++             ],
++             [
++               15,
++               "3",
++             ],
++             [
++               13,
++               "xa",
++             ],
++             [
++               14,
++               "b",
++             ],
++             [
++               12,
++               "viii2",
+              ],
++             [
++               12,
++               "x1",
++             ],
++           ],
++         },
+          "skills": {
+            "math": {
+              "answered": 1,
+              "correct": 1,
+              "level": 1,
+
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs:38:132
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/6]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  6 failed | 14 passed (20)
+   Start at  09:41:21
+   Duration  15.58s (tests 96%, import 3%, transform 2%)

@@ -1,7 +1,8 @@
+import {preFinalsLearning as freshLearning} from './helpers/pre-finals-learning';
 import {it,expect} from 'vitest';
 import {GRADE1_MATH_EXAMS} from '../grade1-math-exams';
 import {questionById} from '../learning';
-import {allocateQuestions,allocateAdventureQuestions,freshLearning} from '../learning-engine';
+import {allocateQuestions,allocateAdventureQuestions} from '../learning-engine';
 import {markMastered} from '../mastered-questions';
 import {examSourceLabel,EXAM_SOURCES} from '../exam-sources';
 import {coursePublisher} from '../school-curriculum';
@@ -27,18 +28,18 @@ it('selects school-matched grade-one papers in practice and all adventure lanes'
  for(const [school,publisher] of [['yongchun','翰林'],['nantun','康軒']] as const){
   expect(coursePublisher(school,1,'math')).toBe(publisher);
   for(const lane of [1,2,3] as const){
-   const s={...freshLearning(),school};
+   const s={...freshLearning(1),school};
    for(const selected of [allocateQuestions(s,1,'math',6),allocateAdventureQuestions(s,1,'math',6,lane)]){
     expect(selected).toHaveLength(6);
     expect(selected.every(x=>questionById(x.id)?.publisher===publisher&&questionById(x.id)?.grade===1)).toBe(true);
    }
   }
-  const s={...freshLearning(),school};
+  const s={...freshLearning(1),school};
   GRADE1_MATH_EXAMS.filter(q=>q.publisher===publisher).forEach(q=>markMastered(s,q.id));
   expect(allocateQuestions(s,1,'math',6).every(x=>!questionById(x.id)?.examSources)).toBe(true);
-  expect(allocateQuestions({...freshLearning(),school},2,'math',6).every(x=>questionById(x.id)?.grade===2&&!x.id.startsWith('mxg1-'))).toBe(true);
+  expect(allocateQuestions({...freshLearning(2),school},2,'math',6).every(x=>questionById(x.id)?.grade===2&&!x.id.startsWith('mxg1-'))).toBe(true);
  }
- expect(allocateQuestions(freshLearning(),1,'math',6).every(x=>!questionById(x.id)?.examSources)).toBe(true);
+ expect(allocateQuestions(freshLearning(1),1,'math',6).every(x=>!questionById(x.id)?.examSources)).toBe(true);
  expect(GRADE1_MATH_EXAMS.every(q=>q.publisher!=='南一')).toBe(true);
 });
 
@@ -47,7 +48,7 @@ it('retains original identities and serves the supplement after old Hanlin maste
  const extra=GRADE1_MATH_EXAMS.filter(q=>q.id.startsWith('m1hx-'));
  expect(extra).toHaveLength(107);
  expect(GRADE1_MATH_EXAMS.filter(q=>q.publisher==='翰林')).toHaveLength(134);
- const state={...freshLearning(),school:'yongchun' as const};
+ const state={...freshLearning(1),school:'yongchun' as const};
  for(const q of GRADE1_MATH_EXAMS.filter(q=>q.id.startsWith('mxg1-')&&q.publisher==='翰林'))markMastered(state,q.id);
  expect(allocateQuestions(state,1,'math',6).every(q=>q.id.startsWith('m1hx-'))).toBe(true);
  for(const q of extra){
