@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g1-sort",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "把18、26、7、21從小排到大，哪個順序正確？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g1-sort",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "桌上有7瓶果汁，丹丹喝掉1瓶，還剩下幾瓶？哪個算式符合題意？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g1-sort",
+    "firstQuestion": "r6-g1m-20000588-iii4",
+    "answerButton": "選擇 7、18、21、26",
+    "total": 6,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

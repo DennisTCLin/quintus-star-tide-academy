@@ -1,0 +1,40 @@
+{
+  "base": "c66f492811c51298673fede44d0997d33aa64494",
+  "seed": 117,
+  "day": "2026-11-07",
+  "cases": [
+    {
+      "player": "qingqing",
+      "school": "xingan",
+      "course": "math",
+      "storedHash": "35adc9221b8fa4f3cb23919b4d2f7155c850d462e4a26927905ae185ff6550db",
+      "runtimeHash": "74aaacffce31ab9f6369963e99fcca39f034e6794408a1a425f8c520d24e5dbf",
+      "questionHashesEqual": true
+    },
+    {
+      "player": "qingqing",
+      "school": "yongchun",
+      "course": "math",
+      "storedHash": "b1e6151f9e49d5056b6f64f5573f2e372f2d447fcc962337df916c67f526cc6d",
+      "runtimeHash": "d06a207b6fa387ad6d92fc5aa929498a6cf2819ab8e0d0ff66ff112c2e69f2da",
+      "questionHashesEqual": true
+    },
+    {
+      "player": "jay",
+      "school": "dongmen",
+      "course": "chinese",
+      "storedHash": "546066c54bc9a7f6f43f7936fcd7dd47656214f71fc9964a0e57275b8521d899",
+      "runtimeHash": "95de0368decf9d52388fad89daf277f6128f63bae3ccf1d1c3e6ec0071404401",
+      "questionHashesEqual": true
+    },
+    {
+      "player": "alston",
+      "school": "jianan",
+      "course": "chinese",
+      "storedHash": "ecf2503fb4b46a4297682c211108d0266fe6b7d32e7cefc19fbb4cf9300a5bcc",
+      "runtimeHash": "3103489376fa1304b7689164672c7ca01819326e613485a3c81991303971d9ea",
+      "questionHashesEqual": true
+    }
+  ],
+  "passed": true
+}

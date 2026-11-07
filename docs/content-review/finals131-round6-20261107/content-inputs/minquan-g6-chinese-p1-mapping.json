@@ -1,0 +1,229 @@
+{
+  "rawCandidates": 22,
+  "nonduplicateCandidates": 21,
+  "duplicates": 1,
+  "state": "NOT_IMPORTED_NOT_RUNTIME_TESTED_NOT_DEPLOYED_NOT_IN_PR25",
+  "currentSourceCompare": "main65d +localcabc100notpublished",
+  "samePublisherBookReference": "111博愛康軒第11冊僅參照，114民權自己的康軒選書另外已核；不認證115單課生字",
+  "mapping": [
+    {
+      "id": "r6-g6c-20003716-bo",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "一①",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-i1",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-zi",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "一②",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-i1",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-bai",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "一④",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-i1",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-huai",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "一⑤",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-i1",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-cuan",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "一⑦",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-i2",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-yun",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "一⑧",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-i2",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-guan",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "一⑨",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-i2",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-su",
+      "status": "duplicate_semantic_word_target",
+      "retainedId": "g6c-55ded244eb74ad9a50",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "一⑫",
+      "action": "provenanceonly;do not alter retained questionobject/approval"
+    },
+    {
+      "id": "r6-g6c-20003716-yan",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "一⑬",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-i3",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-zhi",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "一⑭",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-i3",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-lin",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "一⑮",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-i3",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-ti",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "一⑯",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-i3",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-ting",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "二1指定聽→廳",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-ii1",
+      "adaptation": "僅指定單點錯字；不要求一次修全句或地/的文法"
+    },
+    {
+      "id": "r6-g6c-20003716-tang",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "二1指定尚→倘",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-ii1",
+      "adaptation": "僅指定單點錯字；不要求一次修全句或地/的文法"
+    },
+    {
+      "id": "r6-g6c-20003716-hua",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "二2指定划→滑",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-ii2",
+      "adaptation": "僅指定單點錯字；不要求一次修全句或地/的文法"
+    },
+    {
+      "id": "r6-g6c-20003716-bo2",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "二3指定簿→薄",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-ii3",
+      "adaptation": "僅指定單點錯字；不要求一次修全句或地/的文法"
+    },
+    {
+      "id": "r6-g6c-20003716-xi",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "二3指定習→息",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-ii3",
+      "adaptation": "僅指定單點錯字；不要求一次修全句或地/的文法"
+    },
+    {
+      "id": "r6-g6c-20003716-idiom1",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "三1第一空",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-iii1",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-idiom2",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "三1第二空；明載欲表達詞義",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-iii1",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-idiom3",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "三2第一空",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-iii2",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-idiom4",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "三2第二空；將成語定義條件明載",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-iii2",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    },
+    {
+      "id": "r6-g6c-20003716-idiom5",
+      "status": "content_ready_candidate_only",
+      "sourceId": "20003716",
+      "page": 1,
+      "locator": "三3",
+      "book": 11,
+      "sourceFamily": "tcool-20003716-p1-iii3",
+      "adaptation": "原卷自足語詞轉封閉選擇；不認證115單課生字/完整考試範圍"
+    }
+  ]
+}

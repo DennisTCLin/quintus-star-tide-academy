@@ -1,0 +1,43 @@
+{
+  "base": "c66f492811c51298673fede44d0997d33aa64494",
+  "withdrawnCandidate": "6d2a491966e31f9873a9237ae027fb273cb26603",
+  "historical181IndexSha256": "623a1dfde0ca988ab96da69535b74e5b152a92d98d524dd7ccaaa478fcdb7ae4",
+  "historical181ExactUnchanged": true,
+  "explicitPaperBookFullContexts": 89,
+  "newDynamicFullContexts": 14,
+  "correctedLegacyFullPhraseKeys": 43,
+  "newPhrases": 210,
+  "newChars": 19,
+  "oldCharacterFallbackChanges": 0,
+  "oldStaticObjectsUnchanged": 6729,
+  "oldGeneratedObjectsUnchanged": 23192,
+  "changedReadingsByKind": {
+    "static": 697,
+    "source": 94
+  },
+  "staticChangedByTopField": {
+    "examSources": 540,
+    "options": 4,
+    "explanation": 6,
+    "retirementReason": 2,
+    "imageAlt": 93,
+    "prompt": 52
+  },
+  "sourceChangedByTopField": {
+    "scope": 18,
+    "publisherEvidence": 59,
+    "bookEvidence": 5,
+    "compatibleScope": 5,
+    "file": 7
+  },
+  "oldFieldsChanged": 791,
+  "newFullChineseFields": 326,
+  "actualCurrentCorpus": {
+    "static": 6764,
+    "generated": 23192,
+    "sources": 271
+  },
+  "clearPaperBookReadingResiduals": 0,
+  "residualCheckScope": "Current actual runtime Chinese runs only; no arbitrary unseen text NLP guarantee",
+  "content35ObjectsUnchangedFromWithdrawnCandidate": true
+}

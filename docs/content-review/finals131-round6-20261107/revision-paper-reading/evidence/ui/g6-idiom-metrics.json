@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g6-idiom",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "那位主管利用老闆的名義作威作福，使下屬敢怒不敢言。哪個成語最能形容他借他人威勢欺壓人的行為？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g6-idiom",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "「生氣蓬勃」中的「勃」，正確注音是哪一個？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g6-idiom",
+    "firstQuestion": "r6-g6c-20003716-idiom4",
+    "answerButton": "選擇 狐假虎威",
+    "total": 6,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

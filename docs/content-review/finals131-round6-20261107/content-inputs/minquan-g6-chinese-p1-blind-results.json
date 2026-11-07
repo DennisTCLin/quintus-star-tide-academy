@@ -1,0 +1,143 @@
+{
+  "packetSha256": "33a19ec072435f756af1173840852cba31412bb003de1b26982d0311061f22e6",
+  "reviewer": "degao_content_check",
+  "results": [
+    {
+      "id": "r6-g6c-20003716-bo",
+      "answerText": "ㄅㄛˊ",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-zi",
+      "answerText": "ㄗˋ",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-bai",
+      "answerText": "ㄅㄞˇ",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-huai",
+      "answerText": "ㄏㄨㄞˊ",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-cuan",
+      "answerText": "ㄘㄨㄢˋ",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-yun",
+      "answerText": "ㄩㄣˋ",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-guan",
+      "answerText": "ㄍㄨㄢˋ",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-su",
+      "answerText": "ㄙㄨˋ",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-yan",
+      "answerText": "ㄧㄢˋ",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-zhi",
+      "answerText": "ㄓˋ",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-lin",
+      "answerText": "ㄌㄧㄣˊ",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-ti",
+      "answerText": "ㄊㄧˋ",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-ting",
+      "answerText": "廳",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-tang",
+      "answerText": "倘",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-hua",
+      "answerText": "滑",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-bo2",
+      "answerText": "薄",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-xi",
+      "answerText": "息",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-idiom1",
+      "answerText": "垂頭喪氣",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-idiom2",
+      "answerText": "放之四海而皆準",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-idiom3",
+      "answerText": "自私自利",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-idiom4",
+      "answerText": "狐假虎威",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g6c-20003716-idiom5",
+      "answerText": "彬彬有禮",
+      "unique": true,
+      "sourceSupported": true
+    }
+  ],
+  "limits": [
+    "22candidate content only; notimported/deduped/tested or part of next100",
+    "same paragraph sourceFamily retained; singletypo or explicitidiom meaningconditions only",
+    "not115specificlesson or fullpaper certification"
+  ]
+}

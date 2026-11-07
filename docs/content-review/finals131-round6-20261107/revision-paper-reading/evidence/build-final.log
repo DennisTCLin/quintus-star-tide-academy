@@ -1,0 +1,75 @@
+
+> quintus-ocean-academy@1.0.0 build
+> npm run audit:content && npm run build:zhuyin && npm run check:pronunciation && tsc -b && vite build && npm run build:server
+
+
+> quintus-ocean-academy@1.0.0 audit:content
+> node scripts/content-audit.mjs
+
+{"status":"PASS","static":6764,"generated":23192,"pools":42,"approvedStatic":6764,"approvedTemplates":42,"findings":0,"durationMs":487,"report":"output/content-audit/report.json"}
+
+> quintus-ocean-academy@1.0.0 build:zhuyin
+> node scripts/pack-zhuyin.mjs
+
+Packed 28183 phrases and 3063 characters into 1046 shared syllables: /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107/src/data/interface-zhuyin-packed.json
+
+> quintus-ocean-academy@1.0.0 check:pronunciation
+> node scripts/check-pronunciation.mjs && node scripts/pack-zhuyin.mjs --check
+
+Pronunciation checks passed: 28214 source runs, 165 curated lessons, 448 reviewed context rules.
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 421 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                   1.40 kB │ gzip:   0.87 kB
+dist/assets/game-view.v-trv-R25v.css              1.35 kB │ gzip:   0.57 kB
+dist/assets/CharacterPortrait.v-BYrZmSXF.css      3.58 kB │ gzip:   0.79 kB
+dist/assets/entry.v-D26JuRzL.css                  6.56 kB │ gzip:   1.75 kB
+dist/assets/AdminConsole.v-DPjcfd6M.css          13.17 kB │ gzip:   3.09 kB
+dist/assets/TerritoryPage.v-XpGSXE-r.css         30.00 kB │ gzip:   6.46 kB
+dist/assets/ConquestPage.v-B9kAf6-U.css          68.70 kB │ gzip:  14.92 kB
+dist/assets/IslandApp.v-DDLHicIv.css             75.31 kB │ gzip:  14.36 kB
+dist/assets/styles.v-Wb9b06AP.css               348.13 kB │ gzip:  71.18 kB
+dist/assets/learning-rewards.v-DSUyJAs9.js        0.15 kB │ gzip:   0.14 kB
+dist/assets/ReadAloud.v-oBtZ4mpW.js               0.19 kB │ gzip:   0.17 kB
+dist/assets/subject-catalog.v-BpYjBu6v.js         0.41 kB │ gzip:   0.29 kB
+dist/assets/child-entry.v-BGSPaXbE.js             1.48 kB │ gzip:   0.79 kB
+dist/assets/learning-journey.v-BKZm08k3.js        1.55 kB │ gzip:   0.99 kB
+dist/assets/CharacterPortrait.v-R89qbMSu.js       1.92 kB │ gzip:   1.09 kB
+dist/assets/voice.v-Bv1bySv8.js                   3.17 kB │ gzip:   1.69 kB
+dist/assets/index.v-V90GU7fN.js                   3.51 kB │ gzip:   1.78 kB
+dist/assets/StoryCinema.v-BUqsRu6U.js             3.76 kB │ gzip:   1.71 kB
+dist/assets/territory.v-QD82_zQm.js               5.47 kB │ gzip:   3.11 kB
+dist/assets/jsx-runtime.v-BIUEfZIL.js             7.65 kB │ gzip:   2.94 kB
+dist/assets/RoomEditor.v-DITdgZt2.js             10.95 kB │ gzip:   4.29 kB
+dist/assets/entry.v-aZ-fF_2N.js                  11.08 kB │ gzip:   4.37 kB
+dist/assets/GameStudy.v-BbN94mvv.js              13.51 kB │ gzip:   5.12 kB
+dist/assets/creature-body.v-DeLjGuyP.js          24.81 kB │ gzip:   6.20 kB
+dist/assets/TerritoryPage.v-Jz3ty1jZ.js          36.27 kB │ gzip:  13.13 kB
+dist/assets/Onboarding.v-OUC24j88.js             42.42 kB │ gzip:  14.55 kB
+dist/assets/AdminConsole.v-BYRdjBya.js           47.37 kB │ gzip:  13.76 kB
+dist/assets/IslandApp.v-BGjvyQzx.js             213.41 kB │ gzip:  69.93 kB
+dist/assets/ConquestPage.v-_wqUMjEZ.js          880.95 kB │ gzip: 240.58 kB
+dist/assets/game-view.v-DtZKiWMz.js           1,761.83 kB │ gzip: 669.25 kB
+dist/assets/styles.v-CQPoelix.js              3,743.41 kB │ gzip: 814.02 kB
+
+✓ built in 2.69s
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+> quintus-ocean-academy@1.0.0 build:server
+> esbuild server/game.ts --bundle --platform=node --format=esm --outfile=build/game.mjs && esbuild src/adult/server-engine.ts --bundle --platform=node --format=esm --outfile=build/adult.mjs
+
+
+  build/game.mjs   8.7mb ⚠️
+  build/game.css  10.0kb
+
+⚡ Done in 49ms
+
+  build/adult.mjs  52.4kb
+
+⚡ Done in 2ms

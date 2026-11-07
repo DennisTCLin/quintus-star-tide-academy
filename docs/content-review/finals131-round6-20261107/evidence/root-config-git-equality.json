@@ -1,0 +1,41 @@
+{
+  "base": "c66f492811c51298673fede44d0997d33aa64494",
+  "scope": "post-run equality to untouched root configuration; not an additional pre-run snapshot",
+  "files": [
+    {
+      "path": "server.mjs",
+      "sha256": "7e0ba552c9c0beea10596fa826fe3a4fd7bf788e0a54d67d907294dfb5b1f7ac",
+      "exactGitBase": true
+    },
+    {
+      "path": "package.json",
+      "sha256": "510ac541385ccb1172e7a7fd587611c3216c4601c31160592ecef5f260e4048b",
+      "exactGitBase": true
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "c0313b9e673a8c3b7c0858c852d641ec97ef1a4300e52f5e4c005e58bbf81b67",
+      "exactGitBase": true
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "f4455d812d2f4899fe7fc4d689933631fc5035d910931a5828a19c6962eb8f35",
+      "exactGitBase": true
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808",
+      "exactGitBase": true
+    },
+    {
+      "path": "tsconfig.app.json",
+      "sha256": "eefedfbe03751035c1db0ec26291dbb5326aeca6d041ad6e7588dadb546b83dc",
+      "exactGitBase": true
+    },
+    {
+      "path": "tsconfig.node.json",
+      "sha256": "f08d33457fe4c71b2cd0aac534bf59acd68c769447eb175ef3d471ae12de1a14",
+      "exactGitBase": true
+    }
+  ]
+}

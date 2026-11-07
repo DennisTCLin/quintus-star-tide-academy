@@ -1,0 +1,21 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107
+
+ ❯ src/__tests__/grade6-pending-media.test.ts (3 tests | 1 failed) 25ms
+   × does not allocate withdrawn questions but can finish an already-saved review 10ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/grade6-pending-media.test.ts > does not allocate withdrawn questions but can finish an already-saved review
+AssertionError: expected [Function] to throw an error
+ ❯ src/__tests__/grade6-pending-media.test.ts:26:154
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 3 passed (4)
+      Tests  1 failed | 19 passed (20)
+   Start at  18:10:09
+   Duration  1.65s (tests 55%, import 32%, transform 12%)
+

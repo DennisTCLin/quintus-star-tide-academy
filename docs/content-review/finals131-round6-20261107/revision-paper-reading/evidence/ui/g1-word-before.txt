@@ -1,0 +1,45 @@
+- link "跳到主要內容":
+  - /url: "#family-main"
+- main:
+  - button "回到港口":
+    - generic: ⛵
+  - strong: 第 1／6 題
+  - generic: 答對 0／目標 4
+  - button "結束航程":
+    - generic: ✕
+  - region "答題怪物戰鬥":
+    - strong: 潮光獸
+    - meter "夥伴生命"
+    - generic: 失誤 0／3
+    - strong: 金羽雲靈
+    - meter "怪物體力"
+    - img "潮光獸"
+    - img "金羽雲靈"
+    - status: 每題只作答一次；答對攻擊，答錯或超時扣血。累計三錯就結束這場。
+    - generic "戰鬥說明"
+  - region "題目與解說":
+    - heading "多多帶了5瓶果汁，美美和阿布每人喝掉1瓶，還剩幾瓶？" [active] [level=1]
+    - button "播放題目聲音":
+      - generic: 👂
+      - generic: 聽題目
+    - generic "題目來源與規則"
+  - paragraph: 點選答案，立即送出
+  - button "選擇 4瓶":
+    - generic: 4瓶
+  - button "選擇 3瓶":
+    - generic: 3瓶
+  - button "選擇 2瓶":
+    - generic: 2瓶
+  - button "選擇 5瓶":
+    - generic: 5瓶
+  - button "🛡️ 護盾":
+    - generic: 🛡️
+    - text: 護盾
+  - button "💡 提示":
+    - generic: 💡
+    - text: 提示
+  - button "展開題目"
+  - button "暫停背景音樂" [pressed]:
+    - generic: Ⅱ
+    - text: 暫停音樂
+  - generic: 選好答案，夥伴就出招

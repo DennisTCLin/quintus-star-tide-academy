@@ -1,0 +1,20 @@
+{
+  "path": "output/content-audit/report.json",
+  "gitSha256": "5bdc91ef6ac3ece417d00b94ae4aeb8ab9aa9ec1f1903ea54af2d0fb142b0c7a",
+  "workingSha256": "1ac58162a002734570e8f056ba9baaf4f5f48ada68561d69ecab992da707ed9e",
+  "gitCounts": {
+    "static": 6629,
+    "generated": 23192,
+    "pools": 42,
+    "approvedStatic": 6629,
+    "approvedTemplates": 42
+  },
+  "workingCounts": {
+    "static": 6764,
+    "generated": 23192,
+    "pools": 42,
+    "approvedStatic": 6764,
+    "approvedTemplates": 42
+  },
+  "disposition": "Natural default audit/build output retained unstaged; final successful report copied as evidence/content-audit-final.json. No restore/discard or unrelated-stage."
+}

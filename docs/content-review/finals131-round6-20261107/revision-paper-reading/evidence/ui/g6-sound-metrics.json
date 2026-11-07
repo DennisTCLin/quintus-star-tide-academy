@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g6-sound",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "「腳踝」中的「踝」，正確注音是哪一個？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g6-sound",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "「生氣蓬勃」中的「勃」，正確注音是哪一個？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g6-sound",
+    "firstQuestion": "r6-g6c-20003716-huai",
+    "answerButton": "選擇 ㄏㄨㄞˊ",
+    "total": 6,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

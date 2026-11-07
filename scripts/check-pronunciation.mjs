@@ -14,7 +14,7 @@ function scan(dir) {
     // Adult English has no zhuyin renderer; child source coverage remains unchanged.
     if (path === 'src/adult') continue;
     if (entry.isDirectory()) scan(path);
-    else if ((/\.tsx?$/.test(path) && !path.endsWith('.d.ts')) || ['src/data/g2-math-sanchong113.json','src/data/finals-reviewed-20261107.json','src/data/finals-followup-20261107.json','src/data/finals-round3-20261107.json','src/data/finals-next100-20261107.json'].includes(path))
+    else if ((/\.tsx?$/.test(path) && !path.endsWith('.d.ts')) || ['src/data/g2-math-sanchong113.json','src/data/finals-reviewed-20261107.json','src/data/finals-followup-20261107.json','src/data/finals-round3-20261107.json','src/data/finals-next100-20261107.json','src/data/finals-round6-20261107.json'].includes(path))
       for (const match of readFileSync(path, 'utf8').matchAll(/[\u3400-\u9fff]+/gu)) runs.add(match[0]);
   }
 }
@@ -53,6 +53,10 @@ for (const [word, expected] of Object.entries(reviewed.phrases)) {
 }
 for (const [word,expected] of Object.entries(read('src/data/finals-next100-reading-overrides.json')))
   if (JSON.stringify(dictionary.phrases[word]) !== JSON.stringify(expected)) failures.push(`Exact next100 reading changed: ${word}`);
+for (const [word,expected] of Object.entries(read('src/data/finals-round6-reading-overrides.json')))
+  if (JSON.stringify(dictionary.phrases[word]) !== JSON.stringify(expected)) failures.push(`Exact round6 reading changed: ${word}`);
+for (const [word,expected] of Object.entries(read('src/data/paper-context-reading-overrides.json')))
+  if (JSON.stringify(dictionary.phrases[word]) !== JSON.stringify(expected)) failures.push(`Exact paper context reading changed: ${word}`);
 if (failures.length) {
   console.error([...new Set(failures)].join('\n'));
   console.error('Review new text against Taiwan MOE readings, update reviewed context rules, then regenerate with scripts/build-zhuyin.py.');

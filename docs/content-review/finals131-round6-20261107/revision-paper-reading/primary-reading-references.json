@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-11-07",
+  "method": "Read-only official Ministry of Education pages via web tool. Exact three word direct pages partially unavailable; verified list and Education Encyclopedia entries are available. Only pronunciations recorded, no full-page copies.",
+  "sources": [
+    {
+      "title": "教育部重編國語辭典：試卷",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=128602&la=1&powerMode=0",
+      "reading": "ㄕˋ ㄐㄩㄢˋ"
+    },
+    {
+      "title": "教育部重編國語辭典：卷四聲詞目列表",
+      "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&order=0&page=2&powerMode=0&word=%E5%8D%B7+%E3%84%90%E3%84%A9%E3%84%A2%CB%8B",
+      "readings": {
+        "手不釋卷": "ㄕㄡˇ ㄅㄨˋ ㄕˋ ㄐㄩㄢˋ",
+        "書卷": "ㄕㄨ ㄐㄩㄢˋ"
+      }
+    },
+    {
+      "title": "教育百科：卷，含國語小字典與簡編本",
+      "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E5%8D%B7",
+      "scope": "Paper/book examples fourth tone; cylindrical food roll third tone, including 銀絲卷. Website headword label drops tones in one table; use full example phonetics."
+    }
+  ],
+  "derivation": "原卷、整卷與來源說明中的卷以實際考試紙本語境判定；89個全文特例並非辭典直接列出89條。保持裸卷fallback與非紙本反例，故不概括認證故意錯拼詞。"
+}

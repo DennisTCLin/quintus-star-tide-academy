@@ -1,0 +1,7 @@
+{
+  "id": "r6-g6c-20003716-hua",
+  "beforeBlindPrompt": "「走路要小心，避免划倒。」句中的「划」應改成哪個字？",
+  "after": "「走路要小心，避免划倒。」句中的錯字，應改成哪個字？",
+  "reason": "Preserves the same single typo and options while avoiding a legacy bare划 fallback; complete quoted sentence unchanged.",
+  "answerOptionsAndSourceFamilyUnchanged": true
+}

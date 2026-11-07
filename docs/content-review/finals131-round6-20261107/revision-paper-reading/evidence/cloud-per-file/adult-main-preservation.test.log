@@ -1,0 +1,68 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 1.tones: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":1,"course":"tones","mode":"array","before":"6050810c93109677e8f1db1be880cd8cac58211faa8b0caeea5fc95b34e34e36","after":"6050810c93109677e8f1db1be880cd8cac58211faa8b0caeea5fc95b34e34e36","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 1.tones: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":1,"course":"tones","mode":"prefix","before":"87ac3a9bc3b97f2fd7c5547eee652ac74ea2771078a1688c2ff7441083479b76","after":"87ac3a9bc3b97f2fd7c5547eee652ac74ea2771078a1688c2ff7441083479b76","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 2.words: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":2,"course":"words","mode":"array","before":"3cb0b0570c716e829c3523f2aa22e3d06cc56095bbc300b6b78049d46b8b0dc8","after":"3cb0b0570c716e829c3523f2aa22e3d06cc56095bbc300b6b78049d46b8b0dc8","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 2.words: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":2,"course":"words","mode":"prefix","before":"46146ebd5ca105798dc2ad0ac2b8e93f4cec7a40fed5f1c19d88f5f9ac905e21","after":"46146ebd5ca105798dc2ad0ac2b8e93f4cec7a40fed5f1c19d88f5f9ac905e21","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 4.math: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":4,"course":"math","mode":"array","before":"1e2fb24b828cbb59291ed52bf2e8ed9fa0ff02f6cad063c8e3f106d005e6c123","after":"1e2fb24b828cbb59291ed52bf2e8ed9fa0ff02f6cad063c8e3f106d005e6c123","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 4.math: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":4,"course":"math","mode":"prefix","before":"39c20f1af152f9aabe2b6458eb594a8ba8a7dbc6d6e30d7380a4b70788f65108","after":"39c20f1af152f9aabe2b6458eb594a8ba8a7dbc6d6e30d7380a4b70788f65108","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 4.english: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":4,"course":"english","mode":"array","before":"2b94425f58dab154cdb875263b3c9ad44ba409dd12158f4c1800fee5c9f0020a","after":"2b94425f58dab154cdb875263b3c9ad44ba409dd12158f4c1800fee5c9f0020a","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 4.english: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":4,"course":"english","mode":"prefix","before":"426356adb5d571849a74a888f2c6e07766e9672d64c10455e8845930206bcb89","after":"426356adb5d571849a74a888f2c6e07766e9672d64c10455e8845930206bcb89","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 5.math: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":5,"course":"math","mode":"array","before":"745a23b25fab9b669efb573bee3df1900176cc67f593634de2c6c95f92d29cc2","after":"745a23b25fab9b669efb573bee3df1900176cc67f593634de2c6c95f92d29cc2","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 5.math: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":5,"course":"math","mode":"prefix","before":"fb431503cd2b935fd4fc116a6bf2f7fe7a610ed5bca842644e6f51cace0c82a8","after":"fb431503cd2b935fd4fc116a6bf2f7fe7a610ed5bca842644e6f51cace0c82a8","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 5.social: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":5,"course":"social","mode":"array","before":"e0973433b40a0c5797c813c4a3f75ab723a195a92cd6976a482845963b3dd26f","after":"e0973433b40a0c5797c813c4a3f75ab723a195a92cd6976a482845963b3dd26f","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 5.social: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":5,"course":"social","mode":"prefix","before":"5effc8c538d980f825974e0bcee8137834fd092af48e2dc7a29b82b4c858da05","after":"5effc8c538d980f825974e0bcee8137834fd092af48e2dc7a29b82b4c858da05","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 6.math: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":6,"course":"math","mode":"array","before":"277dd0c9693956f6d007cb204a6a0ede4b436402257bb2a63ebfd2bd915682ac","after":"277dd0c9693956f6d007cb204a6a0ede4b436402257bb2a63ebfd2bd915682ac","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 6.math: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":6,"course":"math","mode":"prefix","before":"8e056c496946ef97be5bd00c650ef01683a46976944da79d54d4b964962850b0","after":"8e056c496946ef97be5bd00c650ef01683a46976944da79d54d4b964962850b0","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 6.science: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":6,"course":"science","mode":"array","before":"7f4fbae669d2c22cfa9e18a9ae6c6f4779a946c887c88b3379a02d6636f13999","after":"7f4fbae669d2c22cfa9e18a9ae6c6f4779a946c887c88b3379a02d6636f13999","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/adult-main-preservation.test.mjs > adult integration retains exact-main child saves on login and state > 6.science: array/prefix storage and complete family unchanged
+adult-main-storage {"synthetic":true,"base":"4543cdebbf95a07c9250d2566068d9b7166b1ebd","grade":6,"course":"science","mode":"prefix","before":"3d8365b899a511c4d0ee817bd8206f66c1bde95beb7b1ed3b2091eca2f6a33f3","after":"3d8365b899a511c4d0ee817bd8206f66c1bde95beb7b1ed3b2091eca2f6a33f3","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+ ✓ src/__tests__/adult-main-preservation.test.mjs (9 tests) 5035ms
+   ✓ adult integration retains exact-main child saves on login and state (8)
+     ✓ 1.tones: array/prefix storage and complete family unchanged 417ms
+     ✓ 2.words: array/prefix storage and complete family unchanged 392ms
+     ✓ 4.math: array/prefix storage and complete family unchanged 390ms
+     ✓ 4.english: array/prefix storage and complete family unchanged 390ms
+     ✓ 5.math: array/prefix storage and complete family unchanged 390ms
+     ✓ 5.social: array/prefix storage and complete family unchanged 387ms
+     ✓ 6.math: array/prefix storage and complete family unchanged 386ms
+     ✓ 6.science: array/prefix storage and complete family unchanged 388ms
+
+ Test Files  1 passed (1)
+      Tests  9 passed (9)
+   Start at  18:56:49
+   Duration  5.54s (tests 92%, import 6%, transform 2%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107/output/round6-paper-context/cloud-per-file/adult-main-preservation.test.json

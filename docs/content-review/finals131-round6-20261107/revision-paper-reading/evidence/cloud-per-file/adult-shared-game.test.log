@@ -1,0 +1,14 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107
+
+ ✓ src/__tests__/adult-shared-game.test.mjs (15 tests) 3461ms
+   ✓ adult and child shared star-tide game (15)
+     ✓ keeps two open adult registrations unapproved even after mutual pairing 1172ms
+     ✓ retains adult progress and compatibility membership across another login, then revokes both session types on recovery 446ms
+
+ Test Files  1 passed (1)
+      Tests  15 passed (15)
+   Start at  18:56:57
+   Duration  3.95s (tests 89%, import 8%, transform 3%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107/output/round6-paper-context/cloud-per-file/adult-shared-game.test.json

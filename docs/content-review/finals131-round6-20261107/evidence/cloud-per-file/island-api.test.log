@@ -1,0 +1,16 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107
+
+ ✓ src/__tests__/island-api.test.mjs (6 tests) 2862ms
+   ✓ Math Island PostgreSQL transactions (6)
+     ✓ persists lower-semester quantities, money and calendar rounds through the actual API 878ms
+     ✓ deduplicates concurrent submissions, rejects stale and forged commands, resumes from a second session 597ms
+     ✓ finishes exactly once and preserves progress/first attempts after leaving the round 476ms
+     ✓ settles island capture and a ticket once after three previous successes, with stable replay after a new round 312ms
+
+ Test Files  1 passed (1)
+      Tests  6 passed (6)
+   Start at  18:13:53
+   Duration  3.30s (tests 88%, import 9%, transform 3%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107/output/round6/cloud-per-file/island-api.test.json

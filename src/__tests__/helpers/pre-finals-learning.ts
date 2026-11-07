@@ -1,3 +1,4 @@
+import {FINALS_ROUND6_20261107} from '../../finals-round6-20261107';
 import {FINALS_NEXT100_20261107} from '../../finals-next100-20261107';
 import type {Grade} from '../../learning';
 import {freshLearning} from '../../learning-engine';
@@ -10,6 +11,6 @@ import {FINALS_FOLLOWUP_20261107} from '../../finals-followup-20261107';
  */
 export function preFinalsLearning(grade:Grade){
  const state=freshLearning();
- for(const q of [...FINALS_REVIEWED_20261107,...FINALS_FOLLOWUP_20261107,...FINALS_ROUND3_20261107,...FINALS_NEXT100_20261107].filter(q=>q.grade===grade))markMastered(state,q.id);
+ for(const q of [...FINALS_REVIEWED_20261107,...FINALS_FOLLOWUP_20261107,...FINALS_ROUND3_20261107,...FINALS_NEXT100_20261107,...FINALS_ROUND6_20261107].filter(q=>q.grade===grade))markMastered(state,q.id);
  return state;
 }

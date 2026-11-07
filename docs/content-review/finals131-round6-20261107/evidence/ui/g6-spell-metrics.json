@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g6-spell",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "「走路要小心，避免划倒。」句中的錯字，應改成哪個字？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g6-spell",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "「生氣蓬勃」中的「勃」，正確注音是哪一個？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g6-spell",
+    "firstQuestion": "r6-g6c-20003716-hua",
+    "answerButton": "選擇 滑",
+    "total": 6,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

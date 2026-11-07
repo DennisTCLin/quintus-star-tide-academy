@@ -1,0 +1,22 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107
+
+stderr | src/__tests__/admin-trials.test.mjs > super-admin trial account creation (isolated PostgreSQL) > rolls back identity, balances, metadata and audit together, then allows retry with the same request ID
+Cloud operation failed P0001
+
+ ✓ src/__tests__/admin-trials.test.mjs (10 tests) 11237ms
+   ✓ super-admin trial account creation (isolated PostgreSQL) (10)
+     ✓ atomically creates a ready grade-six identity and exposes correct grade questions after normal login 575ms
+     ✓ replays a request safely and rejects changed credentials without altering progress or balances 1082ms
+     ✓ concurrent retries create exactly one isolated account 552ms
+     ✓ provides working five-subject curricula for every supported grade, preserving fresh onboarding when requested 5514ms
+     ✓ preserves both player and household usernames on collisions 716ms
+     ✓ rolls back identity, balances, metadata and audit together, then allows retry with the same request ID 729ms
+     ✓ rechecks the currently locked owner role during creation 359ms
+
+ Test Files  1 passed (1)
+      Tests  10 passed (10)
+   Start at  18:56:31
+   Duration  11.73s (tests 96%, import 3%, transform 1%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107/output/round6-paper-context/cloud-per-file/admin-trials.test.json

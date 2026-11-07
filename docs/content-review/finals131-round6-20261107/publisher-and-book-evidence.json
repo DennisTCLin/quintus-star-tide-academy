@@ -1,0 +1,194 @@
+{
+  "sources": [
+    {
+      "historical": {
+        "reviewKey": "20000588-q-5a7b82c40d",
+        "sourceId": "20000588",
+        "siteKind": "q",
+        "detectedRole": "q",
+        "school": "大墩國小",
+        "schoolYear": 113,
+        "grade": 1,
+        "subject": "數學",
+        "publisherFilter": "翰林",
+        "semester": 1,
+        "siteExamStage": "final2",
+        "expectedCurrentBook": "首冊／第1冊",
+        "sha256": "5a7b82c40d4411f5fbce32021df3d02ccb0ec322e0b61338e45c6e7be519db9e",
+        "bytes": 789202,
+        "pages": 2,
+        "sourcePdfUrl": "https://www.tcool.cc/v/2/09h5x65arqn06a54xb0b.pdf",
+        "headerReview": "manual_page1_plus_flagged_followups",
+        "fileIntegrity": "sha256_and_pdf_magic_verified",
+        "publisherEvidence": null,
+        "status": "blocked_before_question_review",
+        "flags": [],
+        "admittedQuestionReferences": 0,
+        "releaseStatus": "candidate_not_deployed"
+      },
+      "latestPublisherStatus": "confirmed",
+      "supplementalPublisherEvidence": {
+        "school": "臺中市南屯區大墩國民小學",
+        "schoolYear": 113,
+        "grade": 1,
+        "subject": "數學",
+        "publisher": "翰林",
+        "page": 1,
+        "cell": "數學列×1年級欄",
+        "reviewKeys": [
+          "20000588-q-5a7b82c40d"
+        ],
+        "publisherMatch": true,
+        "evidence": {
+          "pageUrl": "https://school.tc.edu.tw/open-message/193663/view-news/18064",
+          "pdfUrl": "https://school.tc.edu.tw/open-message/193663/get-file/66558039b5182012d56974ab",
+          "sha256": "856ad9017d358eec19a8d875409875af450636cafbc27851bf1e8ba43918fa88",
+          "bytes": 158372,
+          "isPdf": true
+        },
+        "reviewers": [
+          "root visual original PDF",
+          "grade2_final_content_review independent visual PDF"
+        ],
+        "doesNotClearOtherIntegrityFlags": true,
+        "questionApproval": false
+      },
+      "fullPaperApproved": false
+    },
+    {
+      "historical": {
+        "reviewKey": "20000878-q-0f1492bd00",
+        "sourceId": "20000878",
+        "siteKind": "q",
+        "detectedRole": "q",
+        "school": "明義國小",
+        "schoolYear": 113,
+        "grade": 5,
+        "subject": "國語",
+        "publisherFilter": "翰林",
+        "semester": 1,
+        "siteExamStage": "final2",
+        "expectedCurrentBook": "第9冊",
+        "sha256": "0f1492bd00326786ca75e06beabc4407e784cd9af206f52eb018e6fc9544a28b",
+        "bytes": 395726,
+        "pages": 3,
+        "sourcePdfUrl": "https://www.tcool.cc/v/2/09h61q4ykcgg2f0h2m6v.pdf",
+        "headerReview": "manual_page1_plus_flagged_followups",
+        "fileIntegrity": "sha256_and_pdf_magic_verified",
+        "publisherEvidence": null,
+        "status": "blocked_before_question_review",
+        "flags": [],
+        "admittedQuestionReferences": 0,
+        "releaseStatus": "candidate_not_deployed"
+      },
+      "latestPublisherStatus": "confirmed",
+      "supplementalPublisherEvidence": {
+        "sourceId": "20000878",
+        "school": "花蓮縣花蓮市明義國小",
+        "schoolYear": 113,
+        "grade": 5,
+        "subject": "國語",
+        "publisher": "翰林",
+        "page": 1,
+        "proof": "/Users/dennistclin/Documents/ChatGPT/星潮網站開發/outputs/content-review-131-20261107/curriculum-evidence/113-mingyi-selection.json",
+        "pdfSha256": "f67fe212f990034430ad5d66d46d0480bf30ba1bb85238071289fdfd371895b9",
+        "reviewers": [
+          "root",
+          "round3_falsifier"
+        ],
+        "publisherMatch": true,
+        "fullPaperApproved": false
+      },
+      "fullPaperApproved": false
+    },
+    {
+      "historical": {
+        "reviewKey": "20003716-q-f35e23cf73",
+        "sourceId": "20003716",
+        "siteKind": "q",
+        "detectedRole": "q",
+        "school": "民權國小",
+        "schoolYear": 114,
+        "grade": 6,
+        "subject": "國語",
+        "publisherFilter": "康軒",
+        "semester": 1,
+        "siteExamStage": "final2",
+        "expectedCurrentBook": "第11冊",
+        "sha256": "f35e23cf734cde3244ffc7ae15a85bd98081fecdfad3b4dcf6948597bb3e3be0",
+        "bytes": 736628,
+        "pages": 4,
+        "sourcePdfUrl": "https://www.tcool.cc/v/2/09h7e27wh110bgvb5fgb.pdf",
+        "headerReview": "manual_page1_plus_flagged_followups",
+        "fileIntegrity": "sha256_and_pdf_magic_verified",
+        "publisherEvidence": null,
+        "status": "blocked_before_question_review",
+        "flags": [],
+        "admittedQuestionReferences": 0,
+        "releaseStatus": "candidate_not_deployed"
+      },
+      "latestPublisherStatus": "confirmed",
+      "supplementalPublisherEvidence": {
+        "sourceId": "20003716",
+        "school": "臺北市松山區民權國民小學",
+        "schoolYear": 114,
+        "grade": 6,
+        "subject": "國語",
+        "publisher": "康軒",
+        "page": 1,
+        "cell": "國語列×6年級欄",
+        "reviewKeys": [
+          "20003716-q-f35e23cf73"
+        ],
+        "publisherMatch": true,
+        "evidence": {
+          "school": "臺北市松山區民權國民小學",
+          "schoolYear": 114,
+          "url": "https://tten.tp.edu.tw/Login/DownloadOSchoolPlan?SPID=cd245635-f32d-47c6-8f0d-b714adeac7e9&item=item5_1",
+          "resolvedUrl": "https://tten.tp.edu.tw/Login/DownloadOSchoolPlan?SPID=cd245635-f32d-47c6-8f0d-b714adeac7e9&item=item5_1",
+          "contentType": "application/pdf",
+          "bytes": 106841,
+          "sha256": "cdf7e7afa39544dd14184249239afbc5d7aed6da2c1c1123f1faf7f7b6dac8a7",
+          "actualAttachmentObservedViaNormalPublicUi": true,
+          "publicFilters": {
+            "year": 114,
+            "schoolName": "民權"
+          },
+          "schoolPlanSpid": "cd245635-f32d-47c6-8f0d-b714adeac7e9",
+          "status": "PRIMARY_PUBLISHER_TABLE_VISUALLY_VERIFIED",
+          "visualPage": 1,
+          "confirmedCells": [
+            {
+              "grade": 2,
+              "subject": "國語",
+              "publisher": "康軒"
+            },
+            {
+              "grade": 2,
+              "subject": "數學",
+              "publisher": "南一"
+            },
+            {
+              "grade": 6,
+              "subject": "國語",
+              "publisher": "康軒"
+            }
+          ],
+          "scope": "Publisher evidence only; source headers separately verified; no full-paper/answer/unit approval."
+        },
+        "sourceHeader": "Actual original page1 visually verified by root; matches city/school/year/grade/subject/semester.",
+        "reviewers": [
+          "root visual original source page1 + official textbook table"
+        ],
+        "doesNotClearOtherIntegrityFlags": true,
+        "questionApproval": false,
+        "fullPaperApproved": false
+      },
+      "fullPaperApproved": false
+    }
+  ],
+  "scope": "Source/year publisher proof separate from same-publisher semester/book reference. g1Book1 math U4/6/7/8; g5Book9 and g6Book11 self-contained language intersection only, no 115 lesson/complete exam range certification.",
+  "targetRoutingSource": "src/school-curriculum.ts existing confirmed xingan/yongchun1 math Hanlin, dongmen5 Chinese Hanlin, jianan6 Chinese Kangxuan; unchanged",
+  "BrownieEnglish": "EXCLUDED",
+  "all131FullyApproved": false
+}

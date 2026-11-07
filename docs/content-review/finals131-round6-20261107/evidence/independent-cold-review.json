@@ -1,0 +1,38 @@
+{
+  "status": "BOUNDED_CONTENT_AND_LOCAL_EVIDENCE_PASS_NOT_FIXED_GIT_OR_RELEASE_APPROVAL",
+  "reviewer": "fixture_audit",
+  "readOnly": true,
+  "base": "c66f492811c51298673fede44d0997d33aa64494",
+  "questionCount": 35,
+  "coldTests": {
+    "files": 2,
+    "passed": 17
+  },
+  "independentChecks": {
+    "actualNestedFields": 326,
+    "newPhrases": 194,
+    "newChars": 19,
+    "oldNonemptyDictionaryEntriesChanged": 0,
+    "oldReadingFieldsEmptyFilled": 3,
+    "oldQuestionsEmptyFilled": 2,
+    "oldStaticObjects": 6729,
+    "generatedObjects": 23192,
+    "fixtureArchiveFiles": 634,
+    "archiveSha256": "155f512461d73f820518b37d5959be5da4e21b335abcbfee192aad1cfc6dd41d",
+    "fixturesReproduced": 4,
+    "ordinaryPassed": 1636,
+    "ordinarySkipped": 366,
+    "freshPgFiles": 39,
+    "pgPassed": 371,
+    "uniqueTests": 2002,
+    "uiScreenshotsViewed": 12,
+    "uiCases": 6
+  },
+  "limitations": [
+    "Working tree not yet frozen at this review; requires final Git/artifact binding.",
+    "PG raw reports re-counted but PG not independently rerun.",
+    "UI memory fixture injects first question and removes challenge; actual normal routing covered in local PG.",
+    "OS audio and physical Safari UNKNOWN.",
+    "Not a formal DB preservation or release gate."
+  ]
+}

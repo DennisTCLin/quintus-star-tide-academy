@@ -1,0 +1,1003 @@
+[
+  {
+    "id": "r6-g1m-20000588-i5",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "桌上有7瓶果汁，丹丹喝掉1瓶，還剩下幾瓶？哪個算式符合題意？",
+    "options": [
+      "7＋1＝8",
+      "6＋1＝7",
+      "7－1＝6",
+      "5－2＝3"
+    ],
+    "sourceFamily": "tcool-20000588-p1-i5",
+    "answer": 2,
+    "level": 2,
+    "hint": "先想想喝掉後是增加還是減少。",
+    "explanation": "原有7瓶，喝掉1瓶，7－1＝6，剩6瓶。",
+    "examSources": [
+      {
+        "id": "r6m20000588",
+        "page": 1,
+        "locator": "一5",
+        "kind": "原文瓶／罐統一為瓶；數量及原算式選項不變"
+      }
+    ]
+  },
+  {
+    "id": "r6-g1m-20000588-iii4",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "把18、26、7、21從小排到大，哪個順序正確？",
+    "options": [
+      "7、18、21、26",
+      "26、21、18、7",
+      "7、21、18、26",
+      "18、7、21、26"
+    ],
+    "sourceFamily": "tcool-20000588-p2-iii4",
+    "answer": 0,
+    "level": 2,
+    "hint": "先找最小的數，再依數量由小到大排列。",
+    "explanation": "7最小，接著是18、21、26，所以順序是7、18、21、26。",
+    "examSources": [
+      {
+        "id": "r6m20000588",
+        "page": 2,
+        "locator": "三4",
+        "kind": "原卷完整文字條件轉為單選；數量、方向與單位保留"
+      }
+    ]
+  },
+  {
+    "id": "r6-g1m-20000588-iv1",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "書桌上有7枝鉛筆，皮皮拿走2枝，還剩幾枝？",
+    "options": [
+      "9枝",
+      "7枝",
+      "5枝",
+      "2枝"
+    ],
+    "sourceFamily": "tcool-20000588-p2-iv1",
+    "answer": 2,
+    "level": 2,
+    "hint": "拿走後要從原來的數量減去。",
+    "explanation": "7－2＝5，所以還剩5枝鉛筆。",
+    "examSources": [
+      {
+        "id": "r6m20000588",
+        "page": 2,
+        "locator": "四1",
+        "kind": "原卷完整文字條件轉為單選；數量、方向與單位保留"
+      }
+    ]
+  },
+  {
+    "id": "r6-g1m-20000588-iv2",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "多多帶了5瓶果汁，美美和阿布每人喝掉1瓶，還剩幾瓶？",
+    "options": [
+      "4瓶",
+      "3瓶",
+      "2瓶",
+      "5瓶"
+    ],
+    "sourceFamily": "tcool-20000588-p2-iv2",
+    "answer": 1,
+    "level": 2,
+    "hint": "先算有幾個人喝果汁。",
+    "explanation": "美美和阿布共2人，每人喝1瓶，共喝2瓶，5－2＝3，還剩3瓶。",
+    "examSources": [
+      {
+        "id": "r6m20000588",
+        "page": 2,
+        "locator": "四2",
+        "kind": "原卷完整文字條件轉為單選；數量、方向與單位保留"
+      }
+    ]
+  },
+  {
+    "id": "r6-g1m-20000588-iv3",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "朵朵原有1枝鉛筆，爸爸又給她9枝，現在有幾枝？",
+    "options": [
+      "8枝",
+      "9枝",
+      "1枝",
+      "10枝"
+    ],
+    "sourceFamily": "tcool-20000588-p2-iv3",
+    "answer": 3,
+    "level": 2,
+    "hint": "把原有的和爸爸給的合起來。",
+    "explanation": "1＋9＝10，所以現在有10枝鉛筆。",
+    "examSources": [
+      {
+        "id": "r6m20000588",
+        "page": 2,
+        "locator": "四3",
+        "kind": "原卷完整文字條件轉為單選；數量、方向與單位保留"
+      }
+    ]
+  },
+  {
+    "id": "r6-g1m-20000588-iv4",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "樹上原有7隻小鳥，3隻飛走了，現在還有幾隻？",
+    "options": [
+      "10隻",
+      "3隻",
+      "4隻",
+      "7隻"
+    ],
+    "sourceFamily": "tcool-20000588-p2-iv4",
+    "answer": 2,
+    "level": 2,
+    "hint": "飛走的小鳥要從原來的數量扣掉。",
+    "explanation": "7－3＝4，所以現在還有4隻小鳥。",
+    "examSources": [
+      {
+        "id": "r6m20000588",
+        "page": 2,
+        "locator": "四4",
+        "kind": "原卷完整文字條件轉為單選；數量、方向與單位保留"
+      }
+    ]
+  },
+  {
+    "id": "r6-g1m-20000588-iv5",
+    "grade": 1,
+    "course": "math",
+    "subject": "math",
+    "publisher": "翰林",
+    "prompt": "每丟進1顆球得1分，小平丟進4顆，小安丟進5顆，兩人合計得幾分？",
+    "options": [
+      "1分",
+      "4分",
+      "5分",
+      "9分"
+    ],
+    "sourceFamily": "tcool-20000588-p2-iv5",
+    "answer": 3,
+    "level": 2,
+    "hint": "每球得1分，將兩人的得分合起來。",
+    "explanation": "小平得4分，小安得5分，4＋5＝9，合計9分。",
+    "examSources": [
+      {
+        "id": "r6m20000588",
+        "page": 2,
+        "locator": "四5",
+        "kind": "原卷完整文字條件轉為單選；數量、方向與單位保留"
+      }
+    ]
+  },
+  {
+    "id": "r6-g5c-20000878-fix1",
+    "grade": 5,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "翰林",
+    "prompt": "「點點繁星，在膝黑的夜裡明亮閃爍。」句中「膝」應改成哪個字？",
+    "options": [
+      "漆",
+      "膝",
+      "悉",
+      "棲"
+    ],
+    "sourceFamily": "tcool-20000878-p1-ii1",
+    "answer": 0,
+    "level": 2,
+    "hint": "依照句子的意思，分辨指定字或詞語的用法。",
+    "explanation": "表示深黑色用「漆黑」，膝應改為漆。",
+    "examSources": [
+      {
+        "id": "r6c20000878",
+        "page": 1,
+        "locator": "二1指定膝→漆",
+        "kind": "指定單點錯字或完整自足語句改編；不認證115單課生字與完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g5c-20000878-fix2",
+    "grade": 5,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "翰林",
+    "prompt": "「春天的山谷生氣逢勃，十分熱鬧。」句中「逢」應改成哪個字？",
+    "options": [
+      "縫",
+      "蓬",
+      "篷",
+      "逢"
+    ],
+    "sourceFamily": "tcool-20000878-p1-ii2",
+    "answer": 1,
+    "level": 2,
+    "hint": "依照句子的意思，分辨指定字或詞語的用法。",
+    "explanation": "「生氣蓬勃」形容生命力旺盛，逢應改為蓬。",
+    "examSources": [
+      {
+        "id": "r6c20000878",
+        "page": 1,
+        "locator": "二2指定逢→蓬",
+        "kind": "指定單點錯字或完整自足語句改編；不認證115單課生字與完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g5c-20000878-fix3",
+    "grade": 5,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "翰林",
+    "prompt": "「廚師使用崑布煮湯，讓料理帶有鮮味。」句中「崑」應改成哪個字？",
+    "options": [
+      "昆",
+      "琨",
+      "錕",
+      "崑"
+    ],
+    "sourceFamily": "tcool-20000878-p1-ii3",
+    "answer": 0,
+    "level": 2,
+    "hint": "依照句子的意思，分辨指定字或詞語的用法。",
+    "explanation": "食用的海藻稱昆布，崑應改為昆。",
+    "examSources": [
+      {
+        "id": "r6c20000878",
+        "page": 1,
+        "locator": "二3指定崑→昆",
+        "kind": "指定單點錯字或完整自足語句改編；不認證115單課生字與完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g5c-20000878-fix4",
+    "grade": 5,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "翰林",
+    "prompt": "「姐姐壇長收納，總可以把亂七八糟的房間快速收拾好。」句中「壇」應改成哪個字？",
+    "options": [
+      "壇",
+      "擅",
+      "檀",
+      "顫"
+    ],
+    "sourceFamily": "tcool-20000878-p1-ii4",
+    "answer": 1,
+    "level": 2,
+    "hint": "依照句子的意思，分辨指定字或詞語的用法。",
+    "explanation": "表示很會做某件事用「擅長」，壇應改為擅。",
+    "examSources": [
+      {
+        "id": "r6c20000878",
+        "page": 1,
+        "locator": "二4指定壇→擅",
+        "kind": "指定單點錯字或完整自足語句改編；不認證115單課生字與完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g5c-20000878-opposite",
+    "grade": 5,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "翰林",
+    "prompt": "下面哪一組語詞是相反詞？",
+    "options": [
+      "偏遠／偏僻",
+      "疲倦／勞累",
+      "消極／積極",
+      "付出／支出"
+    ],
+    "sourceFamily": "tcool-20000878-p1-iii2",
+    "answer": 2,
+    "level": 2,
+    "hint": "依照句子的意思，分辨指定字或詞語的用法。",
+    "explanation": "消極與積極的意思相反；偏遠與偏僻、疲倦與勞累意思相近。",
+    "examSources": [
+      {
+        "id": "r6c20000878",
+        "page": 1,
+        "locator": "三2",
+        "kind": "指定單點錯字或完整自足語句改編；不認證115單課生字與完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g5c-20000878-jingkuang",
+    "grade": 5,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "翰林",
+    "prompt": "「雖然我們深陷糟糕的境況，但只要不放棄，就還有希望。」句中的「境況」是什麼意思？",
+    "options": [
+      "所處的環境或情況",
+      "夢中經歷的幻境",
+      "盛大而熱烈的場面",
+      "敵方管轄、占領的土地"
+    ],
+    "sourceFamily": "tcool-20000878-p1-iii4",
+    "answer": 0,
+    "level": 2,
+    "hint": "依照句子的意思，分辨指定字或詞語的用法。",
+    "explanation": "境況指所處的環境或情況。",
+    "examSources": [
+      {
+        "id": "r6c20000878",
+        "page": 1,
+        "locator": "三4",
+        "kind": "指定單點錯字或完整自足語句改編；不認證115單課生字與完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g5c-20000878-turn",
+    "grade": 5,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "翰林",
+    "prompt": "「一轉眼，我們已經一起度過了一年的時間。」用下列哪個詞語替換「一轉眼」，意思會改變？",
+    "options": [
+      "瞬間",
+      "眨眼",
+      "轉變",
+      "轉瞬"
+    ],
+    "sourceFamily": "tcool-20000878-p1-iv5",
+    "answer": 2,
+    "level": 2,
+    "hint": "依照句子的意思，分辨指定字或詞語的用法。",
+    "explanation": "一轉眼表示很短的時間；轉變表示發生改變，替換後意思不同。",
+    "examSources": [
+      {
+        "id": "r6c20000878",
+        "page": 1,
+        "locator": "四5完整例句，自足替換方向不反讀",
+        "kind": "指定單點錯字或完整自足語句改編；不認證115單課生字與完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-bo",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「生氣蓬勃」中的「勃」，正確注音是哪一個？",
+    "options": [
+      "ㄅㄛˊ",
+      "ㄅㄛˋ",
+      "ㄅㄟˋ",
+      "ㄅㄨˊ"
+    ],
+    "sourceFamily": "tcool-20003716-p1-i1",
+    "answer": 0,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "把指定的字放回詞語，分辨聲母、韻母和聲調。",
+    "explanation": "在「生氣蓬勃」這個詞裡，「勃」讀ㄅㄛˊ。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "一①",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-zi",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「恣意」中的「恣」，正確注音是哪一個？",
+    "options": [
+      "ㄗ",
+      "ㄗˊ",
+      "ㄗˇ",
+      "ㄗˋ"
+    ],
+    "sourceFamily": "tcool-20003716-p1-i1",
+    "answer": 3,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "把指定的字放回詞語，分辨聲母、韻母和聲調。",
+    "explanation": "在「恣意」這個詞裡，「恣」讀ㄗˋ。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "一②",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-bai",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「裙襬」中的「襬」，正確注音是哪一個？",
+    "options": [
+      "ㄅㄞ",
+      "ㄅㄞˊ",
+      "ㄅㄞˇ",
+      "ㄅㄞˋ"
+    ],
+    "sourceFamily": "tcool-20003716-p1-i1",
+    "answer": 2,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "把指定的字放回詞語，分辨聲母、韻母和聲調。",
+    "explanation": "在「裙襬」這個詞裡，「襬」讀ㄅㄞˇ。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "一④",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-huai",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「腳踝」中的「踝」，正確注音是哪一個？",
+    "options": [
+      "ㄎㄜ",
+      "ㄏㄨㄞˊ",
+      "ㄍㄨㄛˇ",
+      "ㄏㄨㄞˋ"
+    ],
+    "sourceFamily": "tcool-20003716-p1-i1",
+    "answer": 1,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "把指定的字放回詞語，分辨聲母、韻母和聲調。",
+    "explanation": "在「腳踝」這個詞裡，「踝」讀ㄏㄨㄞˊ。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "一⑤",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-cuan",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「抱頭鼠竄」中的「竄」，正確注音是哪一個？",
+    "options": [
+      "ㄘㄨㄢ",
+      "ㄘㄨㄢˊ",
+      "ㄘㄨㄢˇ",
+      "ㄘㄨㄢˋ"
+    ],
+    "sourceFamily": "tcool-20003716-p1-i2",
+    "answer": 3,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "把指定的字放回詞語，分辨聲母、韻母和聲調。",
+    "explanation": "在「抱頭鼠竄」這個詞裡，「竄」讀ㄘㄨㄢˋ。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "一⑦",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-yun",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「醞釀」中的「醞」，正確注音是哪一個？",
+    "options": [
+      "ㄩㄣ",
+      "ㄩㄣˊ",
+      "ㄩㄣˇ",
+      "ㄩㄣˋ"
+    ],
+    "sourceFamily": "tcool-20003716-p1-i2",
+    "answer": 3,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "把指定的字放回詞語，分辨聲母、韻母和聲調。",
+    "explanation": "在「醞釀」這個詞裡，「醞」讀ㄩㄣˋ。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "一⑧",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-guan",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「灌醉」中的「灌」，正確注音是哪一個？",
+    "options": [
+      "ㄍㄨㄢ",
+      "ㄍㄨㄢˊ",
+      "ㄍㄨㄢˇ",
+      "ㄍㄨㄢˋ"
+    ],
+    "sourceFamily": "tcool-20003716-p1-i2",
+    "answer": 3,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "把指定的字放回詞語，分辨聲母、韻母和聲調。",
+    "explanation": "在「灌醉」這個詞裡，「灌」讀ㄍㄨㄢˋ。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "一⑨",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-yan",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「厭倦」中的「厭」，正確注音是哪一個？",
+    "options": [
+      "ㄧㄢ",
+      "ㄧㄢˊ",
+      "ㄧㄢˇ",
+      "ㄧㄢˋ"
+    ],
+    "sourceFamily": "tcool-20003716-p1-i3",
+    "answer": 3,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "把指定的字放回詞語，分辨聲母、韻母和聲調。",
+    "explanation": "在「厭倦」這個詞裡，「厭」讀ㄧㄢˋ。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "一⑬",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-zhi",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「旗幟」中的「幟」，正確注音是哪一個？",
+    "options": [
+      "ㄓ",
+      "ㄓˊ",
+      "ㄓˇ",
+      "ㄓˋ"
+    ],
+    "sourceFamily": "tcool-20003716-p1-i3",
+    "answer": 3,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "把指定的字放回詞語，分辨聲母、韻母和聲調。",
+    "explanation": "在「旗幟」這個詞裡，「幟」讀ㄓˋ。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "一⑭",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-lin",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「鄰市」中的「鄰」，正確注音是哪一個？",
+    "options": [
+      "ㄌㄧㄣ",
+      "ㄌㄧㄣˊ",
+      "ㄌㄧㄣˇ",
+      "ㄌㄧㄣˋ"
+    ],
+    "sourceFamily": "tcool-20003716-p1-i3",
+    "answer": 1,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "把指定的字放回詞語，分辨聲母、韻母和聲調。",
+    "explanation": "在「鄰市」這個詞裡，「鄰」讀ㄌㄧㄣˊ。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "一⑮",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-ti",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「警惕」中的「惕」，正確注音是哪一個？",
+    "options": [
+      "ㄊㄧ",
+      "ㄊㄧˊ",
+      "ㄊㄧˇ",
+      "ㄊㄧˋ"
+    ],
+    "sourceFamily": "tcool-20003716-p1-i3",
+    "answer": 3,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "把指定的字放回詞語，分辨聲母、韻母和聲調。",
+    "explanation": "在「警惕」這個詞裡，「惕」讀ㄊㄧˋ。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "一⑯",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-ting",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「聽堂」要表示大廳或廳房，第一個錯字應改成哪個字？",
+    "options": [
+      "廳",
+      "聽",
+      "挺",
+      "庭"
+    ],
+    "sourceFamily": "tcool-20003716-p1-ii1",
+    "answer": 0,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "按照句子要表達的意思，選出合適的字形。",
+    "explanation": "表示大廳、廳房的字是廳，所以聽堂應改為廳堂。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "二1指定聽→廳",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-tang",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「尚若」要表達「假如」，第一個錯字應改成哪個字？",
+    "options": [
+      "尚",
+      "躺",
+      "淌",
+      "倘"
+    ],
+    "sourceFamily": "tcool-20003716-p1-ii1",
+    "answer": 3,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "按照句子要表達的意思，選出合適的字形。",
+    "explanation": "表示假如可用倘若，所以尚若應改為倘若。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "二1指定尚→倘",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-hua",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「走路要小心，避免划倒。」句中的錯字，應改成哪個字？",
+    "options": [
+      "滑",
+      "劃",
+      "花",
+      "華"
+    ],
+    "sourceFamily": "tcool-20003716-p1-ii2",
+    "answer": 0,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "按照句子要表達的意思，選出合適的字形。",
+    "explanation": "因地面滑而跌倒用滑倒，應將划改為滑。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "二2指定划→滑",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-bo2",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「簿暮時分」是指傍晚，「簿」應改成哪個字？",
+    "options": [
+      "薄",
+      "博",
+      "泊",
+      "搏"
+    ],
+    "sourceFamily": "tcool-20003716-p1-ii3",
+    "answer": 0,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "按照句子要表達的意思，選出合適的字形。",
+    "explanation": "傍晚稱薄暮，所以簿暮的簿應改為薄。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "二3指定簿→薄",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-xi",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「芬芳的氣習」中，「習」應改成哪個字？",
+    "options": [
+      "息",
+      "喜",
+      "洗",
+      "惜"
+    ],
+    "sourceFamily": "tcool-20003716-p1-ii3",
+    "answer": 0,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "按照句子要表達的意思，選出合適的字形。",
+    "explanation": "氣味可稱氣息，所以氣習的習應改為息。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "二3指定習→息",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-idiom1",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "小雨因為沒有得獎，整個人顯得□，讓關心他的同學都很擔心。□最適合填入哪個成語？",
+    "options": [
+      "垂頭喪氣",
+      "彬彬有禮",
+      "神機妙算",
+      "狐假虎威"
+    ],
+    "sourceFamily": "tcool-20003716-p1-iii1",
+    "answer": 0,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "先找出句中描述的情緒或行為，再對照成語意思。",
+    "explanation": "「垂頭喪氣」形容失望沮喪、意志消沉的樣子。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "三1第一空",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-idiom2",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "他本來覺得「一分耕耘，一分收穫」是一個□的道理。□要表達「不論在何處都適用」，應填哪個成語？",
+    "options": [
+      "放之四海而皆準",
+      "垂頭喪氣",
+      "自私自利",
+      "神機妙算"
+    ],
+    "sourceFamily": "tcool-20003716-p1-iii1",
+    "answer": 0,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "先找出句中描述的情緒或行為，再對照成語意思。",
+    "explanation": "「放之四海而皆準」指無論到哪裡都能適用的準則。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "三1第二空；明載欲表達詞義",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-idiom3",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "那位主管凡事都只顧自己的利益，作風非常□。□最適合填入哪個成語？",
+    "options": [
+      "自私自利",
+      "彬彬有禮",
+      "神機妙算",
+      "放之四海而皆準"
+    ],
+    "sourceFamily": "tcool-20003716-p1-iii2",
+    "answer": 0,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "先找出句中描述的情緒或行為，再對照成語意思。",
+    "explanation": "「自私自利」指只圖自己的利益，不顧別人。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "三2第一空",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-idiom4",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "那位主管利用老闆的名義作威作福，使下屬敢怒不敢言。哪個成語最能形容他借他人威勢欺壓人的行為？",
+    "options": [
+      "狐假虎威",
+      "垂頭喪氣",
+      "神機妙算",
+      "彬彬有禮"
+    ],
+    "sourceFamily": "tcool-20003716-p1-iii2",
+    "answer": 0,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "先找出句中描述的情緒或行為，再對照成語意思。",
+    "explanation": "「狐假虎威」比喻憑藉別人的威勢欺壓人。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "三2第二空；將成語定義條件明載",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "r6-g6c-20003716-idiom5",
+    "grade": 6,
+    "course": "chinese",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "小花待人總是□，贏得大家的好感，還當選禮儀楷模。□最適合填入哪個成語？",
+    "options": [
+      "彬彬有禮",
+      "自私自利",
+      "狐假虎威",
+      "垂頭喪氣"
+    ],
+    "sourceFamily": "tcool-20003716-p1-iii3",
+    "answer": 0,
+    "level": 2,
+    "hideReadingHints": true,
+    "hint": "先找出句中描述的情緒或行為，再對照成語意思。",
+    "explanation": "「彬彬有禮」形容文雅而有禮貌。",
+    "examSources": [
+      {
+        "id": "r6c20003716",
+        "page": 1,
+        "locator": "三3",
+        "kind": "原卷語詞自足改編；必要詞義條件明載，同冊綜合交集非115單課生字或完整範圍"
+      }
+    ],
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  }
+]

@@ -1,0 +1,4705 @@
+{
+  "base": "c66f492811c51298673fede44d0997d33aa64494",
+  "synthetic": true,
+  "gitArchiveSha256": "155f512461d73f820518b37d5959be5da4e21b335abcbfee192aad1cfc6dd41d",
+  "items": [
+    {
+      "player": "qingqing",
+      "grade": 1,
+      "school": "xingan",
+      "course": "math",
+      "storedFamily": {
+        "version": 9,
+        "revision": 0,
+        "profiles": {
+          "quintus": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "feifei": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "qingqing": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {
+                "tideglow": 10
+              },
+              "day": "2026-11-07",
+              "credited": [
+                "f1-20002163-iii2"
+              ]
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [
+                  "f1-20002163-iii2"
+                ],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": {
+                "codec": "prefix-v1",
+                "entries": [
+                  [
+                    0,
+                    "f1-20002163-iii2"
+                  ],
+                  [
+                    15,
+                    "3"
+                  ],
+                  [
+                    13,
+                    "xa"
+                  ],
+                  [
+                    14,
+                    "b"
+                  ],
+                  [
+                    12,
+                    "viii2"
+                  ],
+                  [
+                    12,
+                    "x1"
+                  ]
+                ]
+              },
+              "review": {},
+              "skills": {
+                "math": {
+                  "level": 1,
+                  "recent": "1",
+                  "answered": 1,
+                  "correct": 1,
+                  "reviewDay": ""
+                }
+              },
+              "pending": null,
+              "school": "xingan",
+              "study": {
+                "version": 1,
+                "sequence": 1,
+                "entries": {
+                  "f1-20002163-iii2": {
+                    "last": 20764,
+                    "order": 1,
+                    "due": 20765,
+                    "stage": 1,
+                    "correctDay": 20764,
+                    "retryAfter": 0,
+                    "needsPractice": false,
+                    "attempts": 1,
+                    "independent": 1,
+                    "correct": 1,
+                    "crossDay": 0
+                  }
+                },
+                "session": null
+              }
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 20,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {
+                "2026-11-07": [
+                  "f1-20002163-iii2"
+                ]
+              },
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 20,
+                  "creditedAnswers": 1
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 1244,
+            "tickets": 3,
+            "starTickets": 2,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [
+              "f1-20002163-iii2"
+            ],
+            "attempted": [
+              "f1-20002163-iii2"
+            ],
+            "draws": 0,
+            "pity": 0,
+            "run": {
+              "captureRule": "three-correct-v1",
+              "remediation": {
+                "version": 1,
+                "coinTarget": 30,
+                "xpTarget": 30,
+                "corrected": [],
+                "receipt": null
+              },
+              "answers": [
+                true
+              ],
+              "materials": {
+                "credited": 1,
+                "packs": 0
+              },
+              "encounter": {
+                "route": {
+                  "version": 1,
+                  "island": "metal",
+                  "element": "金"
+                },
+                "monster": 0,
+                "variant": "cloud-scout-metal",
+                "level": 1,
+                "earned": 10,
+                "combat": {
+                  "version": 2,
+                  "ally": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  },
+                  "foe": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  }
+                }
+              },
+              "reward": "none",
+              "id": "round6-pinned-xingan",
+              "day": "2026-11-07",
+              "course": "math",
+              "questions": [
+                "f1-20002163-iii2",
+                "f1-20002163-iii3",
+                "f1-20002163-ixa",
+                "f1-20002163-ixb",
+                "f1-20002163-viii2",
+                "f1-20002163-x1"
+              ],
+              "review": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+              ],
+              "assisted": false,
+              "learningEnabled": true,
+              "index": 1,
+              "streak": 0,
+              "wrong": [],
+              "settled": false,
+              "status": "active",
+              "rewarded": 1,
+              "points": 20,
+              "practice": false,
+              "skillUsed": false,
+              "eliminated": null,
+              "companion": "tideglow"
+            },
+            "gardenImported": false,
+            "lastMonsterVariant": "cloud-scout-metal",
+            "learningRewards": {
+              "progress": 1,
+              "pending": {
+                "wood": 0,
+                "stone": 0,
+                "star": 0
+              },
+              "goal": null
+            }
+          },
+          "doudou": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "jay": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "alston": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          }
+        },
+        "pendingTrade": null,
+        "log": []
+      },
+      "expectedRuntime": {
+        "version": 9,
+        "revision": 0,
+        "profiles": {
+          "quintus": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "feifei": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "qingqing": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {
+                "tideglow": 10
+              },
+              "day": "2026-11-07",
+              "credited": [
+                "f1-20002163-iii2"
+              ]
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [
+                  "f1-20002163-iii2"
+                ],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [
+                "f1-20002163-iii2",
+                "f1-20002163-iii3",
+                "f1-20002163-ixa",
+                "f1-20002163-ixb",
+                "f1-20002163-viii2",
+                "f1-20002163-x1"
+              ],
+              "review": {},
+              "skills": {
+                "math": {
+                  "level": 1,
+                  "recent": "1",
+                  "answered": 1,
+                  "correct": 1,
+                  "reviewDay": ""
+                }
+              },
+              "pending": null,
+              "school": "xingan",
+              "study": {
+                "version": 1,
+                "sequence": 1,
+                "entries": {
+                  "f1-20002163-iii2": {
+                    "last": 20764,
+                    "order": 1,
+                    "due": 20765,
+                    "stage": 1,
+                    "correctDay": 20764,
+                    "retryAfter": 0,
+                    "needsPractice": false,
+                    "attempts": 1,
+                    "independent": 1,
+                    "correct": 1,
+                    "crossDay": 0
+                  }
+                },
+                "session": null
+              }
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 20,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {
+                "2026-11-07": [
+                  "f1-20002163-iii2"
+                ]
+              },
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 20,
+                  "creditedAnswers": 1
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 1244,
+            "tickets": 3,
+            "starTickets": 2,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [
+              "f1-20002163-iii2"
+            ],
+            "attempted": [
+              "f1-20002163-iii2"
+            ],
+            "draws": 0,
+            "pity": 0,
+            "run": {
+              "captureRule": "three-correct-v1",
+              "remediation": {
+                "version": 1,
+                "coinTarget": 30,
+                "xpTarget": 30,
+                "corrected": [],
+                "receipt": null
+              },
+              "answers": [
+                true
+              ],
+              "materials": {
+                "credited": 1,
+                "packs": 0
+              },
+              "encounter": {
+                "route": {
+                  "version": 1,
+                  "island": "metal",
+                  "element": "金"
+                },
+                "monster": 0,
+                "variant": "cloud-scout-metal",
+                "level": 1,
+                "earned": 10,
+                "combat": {
+                  "version": 2,
+                  "ally": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  },
+                  "foe": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  }
+                }
+              },
+              "reward": "none",
+              "id": "round6-pinned-xingan",
+              "day": "2026-11-07",
+              "course": "math",
+              "questions": [
+                "f1-20002163-iii2",
+                "f1-20002163-iii3",
+                "f1-20002163-ixa",
+                "f1-20002163-ixb",
+                "f1-20002163-viii2",
+                "f1-20002163-x1"
+              ],
+              "review": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+              ],
+              "assisted": false,
+              "learningEnabled": true,
+              "index": 1,
+              "streak": 0,
+              "wrong": [],
+              "settled": false,
+              "status": "active",
+              "rewarded": 1,
+              "points": 20,
+              "practice": false,
+              "skillUsed": false,
+              "eliminated": null,
+              "companion": "tideglow"
+            },
+            "gardenImported": false,
+            "lastMonsterVariant": "cloud-scout-metal",
+            "learningRewards": {
+              "progress": 1,
+              "pending": {
+                "wood": 0,
+                "stone": 0,
+                "star": 0
+              },
+              "goal": null
+            }
+          },
+          "doudou": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "jay": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "alston": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          }
+        },
+        "pendingTrade": null,
+        "log": []
+      },
+      "runQuestionHashes": {
+        "f1-20002163-iii2": "31c5eb896bd89cce1da16c8fb2f0f6a78881d837edb52744357d72e2fa921894",
+        "f1-20002163-iii3": "f318119337db18a5a1fd4a67896fcfaa9db2a6ac1396623a2d724f4f9d83eab8",
+        "f1-20002163-ixa": "3d8bf555d745086a101f14abac373f6a813a4014c83a2b768ccfa23bb503c246",
+        "f1-20002163-ixb": "693d1d4203c2886c7d6aae86a0a03fae98991522fef90316e476f4433bbb4787",
+        "f1-20002163-viii2": "4b6adc689087482d92919b4a5bac6f4033ab91582935e0fbfbdca47572767698",
+        "f1-20002163-x1": "79cbc3dd820c5f78d5b00ee7ba768ce419cbde11682aa96bfc1f855d34cc0cc0"
+      }
+    },
+    {
+      "player": "qingqing",
+      "grade": 1,
+      "school": "yongchun",
+      "course": "math",
+      "storedFamily": {
+        "version": 9,
+        "revision": 0,
+        "profiles": {
+          "quintus": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "feifei": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "qingqing": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {
+                "tideglow": 10
+              },
+              "day": "2026-11-07",
+              "credited": [
+                "f1-20002163-iii2"
+              ]
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [
+                  "f1-20002163-iii2"
+                ],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": {
+                "codec": "prefix-v1",
+                "entries": [
+                  [
+                    0,
+                    "f1-20002163-iii2"
+                  ],
+                  [
+                    15,
+                    "3"
+                  ],
+                  [
+                    13,
+                    "xa"
+                  ],
+                  [
+                    14,
+                    "b"
+                  ],
+                  [
+                    12,
+                    "viii2"
+                  ],
+                  [
+                    12,
+                    "x1"
+                  ]
+                ]
+              },
+              "review": {},
+              "skills": {
+                "math": {
+                  "level": 1,
+                  "recent": "1",
+                  "answered": 1,
+                  "correct": 1,
+                  "reviewDay": ""
+                }
+              },
+              "pending": null,
+              "school": "yongchun",
+              "study": {
+                "version": 1,
+                "sequence": 1,
+                "entries": {
+                  "f1-20002163-iii2": {
+                    "last": 20764,
+                    "order": 1,
+                    "due": 20765,
+                    "stage": 1,
+                    "correctDay": 20764,
+                    "retryAfter": 0,
+                    "needsPractice": false,
+                    "attempts": 1,
+                    "independent": 1,
+                    "correct": 1,
+                    "crossDay": 0
+                  }
+                },
+                "session": null
+              }
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 20,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {
+                "2026-11-07": [
+                  "f1-20002163-iii2"
+                ]
+              },
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 20,
+                  "creditedAnswers": 1
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 1244,
+            "tickets": 3,
+            "starTickets": 2,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [
+              "f1-20002163-iii2"
+            ],
+            "attempted": [
+              "f1-20002163-iii2"
+            ],
+            "draws": 0,
+            "pity": 0,
+            "run": {
+              "captureRule": "three-correct-v1",
+              "remediation": {
+                "version": 1,
+                "coinTarget": 30,
+                "xpTarget": 30,
+                "corrected": [],
+                "receipt": null
+              },
+              "answers": [
+                true
+              ],
+              "materials": {
+                "credited": 1,
+                "packs": 0
+              },
+              "encounter": {
+                "route": {
+                  "version": 1,
+                  "island": "metal",
+                  "element": "金"
+                },
+                "monster": 0,
+                "variant": "cloud-scout-metal",
+                "level": 1,
+                "earned": 10,
+                "combat": {
+                  "version": 2,
+                  "ally": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  },
+                  "foe": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  }
+                }
+              },
+              "reward": "none",
+              "id": "round6-pinned-yongchun",
+              "day": "2026-11-07",
+              "course": "math",
+              "questions": [
+                "f1-20002163-iii2",
+                "f1-20002163-iii3",
+                "f1-20002163-ixa",
+                "f1-20002163-ixb",
+                "f1-20002163-viii2",
+                "f1-20002163-x1"
+              ],
+              "review": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+              ],
+              "assisted": false,
+              "learningEnabled": true,
+              "index": 1,
+              "streak": 0,
+              "wrong": [],
+              "settled": false,
+              "status": "active",
+              "rewarded": 1,
+              "points": 20,
+              "practice": false,
+              "skillUsed": false,
+              "eliminated": null,
+              "companion": "tideglow"
+            },
+            "gardenImported": false,
+            "lastMonsterVariant": "cloud-scout-metal",
+            "learningRewards": {
+              "progress": 1,
+              "pending": {
+                "wood": 0,
+                "stone": 0,
+                "star": 0
+              },
+              "goal": null
+            }
+          },
+          "doudou": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "jay": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "alston": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          }
+        },
+        "pendingTrade": null,
+        "log": []
+      },
+      "expectedRuntime": {
+        "version": 9,
+        "revision": 0,
+        "profiles": {
+          "quintus": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "feifei": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "qingqing": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {
+                "tideglow": 10
+              },
+              "day": "2026-11-07",
+              "credited": [
+                "f1-20002163-iii2"
+              ]
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [
+                  "f1-20002163-iii2"
+                ],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [
+                "f1-20002163-iii2",
+                "f1-20002163-iii3",
+                "f1-20002163-ixa",
+                "f1-20002163-ixb",
+                "f1-20002163-viii2",
+                "f1-20002163-x1"
+              ],
+              "review": {},
+              "skills": {
+                "math": {
+                  "level": 1,
+                  "recent": "1",
+                  "answered": 1,
+                  "correct": 1,
+                  "reviewDay": ""
+                }
+              },
+              "pending": null,
+              "school": "yongchun",
+              "study": {
+                "version": 1,
+                "sequence": 1,
+                "entries": {
+                  "f1-20002163-iii2": {
+                    "last": 20764,
+                    "order": 1,
+                    "due": 20765,
+                    "stage": 1,
+                    "correctDay": 20764,
+                    "retryAfter": 0,
+                    "needsPractice": false,
+                    "attempts": 1,
+                    "independent": 1,
+                    "correct": 1,
+                    "crossDay": 0
+                  }
+                },
+                "session": null
+              }
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 20,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {
+                "2026-11-07": [
+                  "f1-20002163-iii2"
+                ]
+              },
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 20,
+                  "creditedAnswers": 1
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 1244,
+            "tickets": 3,
+            "starTickets": 2,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [
+              "f1-20002163-iii2"
+            ],
+            "attempted": [
+              "f1-20002163-iii2"
+            ],
+            "draws": 0,
+            "pity": 0,
+            "run": {
+              "captureRule": "three-correct-v1",
+              "remediation": {
+                "version": 1,
+                "coinTarget": 30,
+                "xpTarget": 30,
+                "corrected": [],
+                "receipt": null
+              },
+              "answers": [
+                true
+              ],
+              "materials": {
+                "credited": 1,
+                "packs": 0
+              },
+              "encounter": {
+                "route": {
+                  "version": 1,
+                  "island": "metal",
+                  "element": "金"
+                },
+                "monster": 0,
+                "variant": "cloud-scout-metal",
+                "level": 1,
+                "earned": 10,
+                "combat": {
+                  "version": 2,
+                  "ally": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  },
+                  "foe": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  }
+                }
+              },
+              "reward": "none",
+              "id": "round6-pinned-yongchun",
+              "day": "2026-11-07",
+              "course": "math",
+              "questions": [
+                "f1-20002163-iii2",
+                "f1-20002163-iii3",
+                "f1-20002163-ixa",
+                "f1-20002163-ixb",
+                "f1-20002163-viii2",
+                "f1-20002163-x1"
+              ],
+              "review": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+              ],
+              "assisted": false,
+              "learningEnabled": true,
+              "index": 1,
+              "streak": 0,
+              "wrong": [],
+              "settled": false,
+              "status": "active",
+              "rewarded": 1,
+              "points": 20,
+              "practice": false,
+              "skillUsed": false,
+              "eliminated": null,
+              "companion": "tideglow"
+            },
+            "gardenImported": false,
+            "lastMonsterVariant": "cloud-scout-metal",
+            "learningRewards": {
+              "progress": 1,
+              "pending": {
+                "wood": 0,
+                "stone": 0,
+                "star": 0
+              },
+              "goal": null
+            }
+          },
+          "doudou": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "jay": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "alston": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          }
+        },
+        "pendingTrade": null,
+        "log": []
+      },
+      "runQuestionHashes": {
+        "f1-20002163-iii2": "31c5eb896bd89cce1da16c8fb2f0f6a78881d837edb52744357d72e2fa921894",
+        "f1-20002163-iii3": "f318119337db18a5a1fd4a67896fcfaa9db2a6ac1396623a2d724f4f9d83eab8",
+        "f1-20002163-ixa": "3d8bf555d745086a101f14abac373f6a813a4014c83a2b768ccfa23bb503c246",
+        "f1-20002163-ixb": "693d1d4203c2886c7d6aae86a0a03fae98991522fef90316e476f4433bbb4787",
+        "f1-20002163-viii2": "4b6adc689087482d92919b4a5bac6f4033ab91582935e0fbfbdca47572767698",
+        "f1-20002163-x1": "79cbc3dd820c5f78d5b00ee7ba768ce419cbde11682aa96bfc1f855d34cc0cc0"
+      }
+    },
+    {
+      "player": "jay",
+      "grade": 5,
+      "school": "dongmen",
+      "course": "chinese",
+      "storedFamily": {
+        "version": 9,
+        "revision": 0,
+        "profiles": {
+          "quintus": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "feifei": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "qingqing": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "doudou": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "jay": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {
+                "tideglow": 10
+              },
+              "day": "2026-11-07",
+              "credited": [
+                "j5-04839422044988ecc2"
+              ]
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [
+                  "j5-04839422044988ecc2"
+                ],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [
+                "j5-04839422044988ecc2",
+                "j5-05e090a55ed26113ba",
+                "j5-0643be474fa523786a",
+                "j5-06fd772f058612da2d",
+                "j5-087aca50ab6e1db287",
+                "j5-0947a4bea5b14276ec"
+              ],
+              "review": {},
+              "skills": {
+                "chinese": {
+                  "level": 1,
+                  "recent": "1",
+                  "answered": 1,
+                  "correct": 1,
+                  "reviewDay": ""
+                }
+              },
+              "pending": null,
+              "school": "dongmen",
+              "study": {
+                "version": 1,
+                "sequence": 1,
+                "entries": {
+                  "j5-04839422044988ecc2": {
+                    "last": 20764,
+                    "order": 1,
+                    "due": 20765,
+                    "stage": 1,
+                    "correctDay": 20764,
+                    "retryAfter": 0,
+                    "needsPractice": false,
+                    "attempts": 1,
+                    "independent": 1,
+                    "correct": 1,
+                    "crossDay": 0
+                  }
+                },
+                "session": null
+              }
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 20,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {
+                "2026-11-07": [
+                  "j5-04839422044988ecc2"
+                ]
+              },
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 20,
+                  "creditedAnswers": 1
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 1244,
+            "tickets": 3,
+            "starTickets": 2,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [
+              "j5-04839422044988ecc2"
+            ],
+            "attempted": [
+              "j5-04839422044988ecc2"
+            ],
+            "draws": 0,
+            "pity": 0,
+            "run": {
+              "captureRule": "three-correct-v1",
+              "remediation": {
+                "version": 1,
+                "coinTarget": 30,
+                "xpTarget": 30,
+                "corrected": [],
+                "receipt": null
+              },
+              "answers": [
+                true
+              ],
+              "materials": {
+                "credited": 1,
+                "packs": 0
+              },
+              "encounter": {
+                "route": {
+                  "version": 1,
+                  "island": "wood",
+                  "element": "木"
+                },
+                "monster": 0,
+                "variant": "cloud-scout-wood",
+                "level": 1,
+                "earned": 10,
+                "combat": {
+                  "version": 2,
+                  "ally": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  },
+                  "foe": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  }
+                }
+              },
+              "reward": "none",
+              "id": "round6-pinned-dongmen",
+              "day": "2026-11-07",
+              "course": "chinese",
+              "questions": [
+                "j5-04839422044988ecc2",
+                "j5-05e090a55ed26113ba",
+                "j5-0643be474fa523786a",
+                "j5-06fd772f058612da2d",
+                "j5-087aca50ab6e1db287",
+                "j5-0947a4bea5b14276ec"
+              ],
+              "review": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+              ],
+              "assisted": false,
+              "learningEnabled": true,
+              "index": 1,
+              "streak": 0,
+              "wrong": [],
+              "settled": false,
+              "status": "active",
+              "rewarded": 1,
+              "points": 20,
+              "practice": false,
+              "skillUsed": false,
+              "eliminated": null,
+              "companion": "tideglow"
+            },
+            "gardenImported": false,
+            "lastMonsterVariant": "cloud-scout-wood",
+            "learningRewards": {
+              "progress": 1,
+              "pending": {
+                "wood": 0,
+                "stone": 0,
+                "star": 0
+              },
+              "goal": null
+            }
+          },
+          "alston": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          }
+        },
+        "pendingTrade": null,
+        "log": []
+      },
+      "expectedRuntime": {
+        "version": 9,
+        "revision": 0,
+        "profiles": {
+          "quintus": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "feifei": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "qingqing": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "doudou": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "jay": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {
+                "tideglow": 10
+              },
+              "day": "2026-11-07",
+              "credited": [
+                "j5-04839422044988ecc2"
+              ]
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [
+                  "j5-04839422044988ecc2"
+                ],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [
+                "j5-04839422044988ecc2",
+                "j5-05e090a55ed26113ba",
+                "j5-0643be474fa523786a",
+                "j5-06fd772f058612da2d",
+                "j5-087aca50ab6e1db287",
+                "j5-0947a4bea5b14276ec"
+              ],
+              "review": {},
+              "skills": {
+                "chinese": {
+                  "level": 1,
+                  "recent": "1",
+                  "answered": 1,
+                  "correct": 1,
+                  "reviewDay": ""
+                }
+              },
+              "pending": null,
+              "school": "dongmen",
+              "study": {
+                "version": 1,
+                "sequence": 1,
+                "entries": {
+                  "j5-04839422044988ecc2": {
+                    "last": 20764,
+                    "order": 1,
+                    "due": 20765,
+                    "stage": 1,
+                    "correctDay": 20764,
+                    "retryAfter": 0,
+                    "needsPractice": false,
+                    "attempts": 1,
+                    "independent": 1,
+                    "correct": 1,
+                    "crossDay": 0
+                  }
+                },
+                "session": null
+              }
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 20,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {
+                "2026-11-07": [
+                  "j5-04839422044988ecc2"
+                ]
+              },
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 20,
+                  "creditedAnswers": 1
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 1244,
+            "tickets": 3,
+            "starTickets": 2,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [
+              "j5-04839422044988ecc2"
+            ],
+            "attempted": [
+              "j5-04839422044988ecc2"
+            ],
+            "draws": 0,
+            "pity": 0,
+            "run": {
+              "captureRule": "three-correct-v1",
+              "remediation": {
+                "version": 1,
+                "coinTarget": 30,
+                "xpTarget": 30,
+                "corrected": [],
+                "receipt": null
+              },
+              "answers": [
+                true
+              ],
+              "materials": {
+                "credited": 1,
+                "packs": 0
+              },
+              "encounter": {
+                "route": {
+                  "version": 1,
+                  "island": "wood",
+                  "element": "木"
+                },
+                "monster": 0,
+                "variant": "cloud-scout-wood",
+                "level": 1,
+                "earned": 10,
+                "combat": {
+                  "version": 2,
+                  "ally": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  },
+                  "foe": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  }
+                }
+              },
+              "reward": "none",
+              "id": "round6-pinned-dongmen",
+              "day": "2026-11-07",
+              "course": "chinese",
+              "questions": [
+                "j5-04839422044988ecc2",
+                "j5-05e090a55ed26113ba",
+                "j5-0643be474fa523786a",
+                "j5-06fd772f058612da2d",
+                "j5-087aca50ab6e1db287",
+                "j5-0947a4bea5b14276ec"
+              ],
+              "review": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+              ],
+              "assisted": false,
+              "learningEnabled": true,
+              "index": 1,
+              "streak": 0,
+              "wrong": [],
+              "settled": false,
+              "status": "active",
+              "rewarded": 1,
+              "points": 20,
+              "practice": false,
+              "skillUsed": false,
+              "eliminated": null,
+              "companion": "tideglow"
+            },
+            "gardenImported": false,
+            "lastMonsterVariant": "cloud-scout-wood",
+            "learningRewards": {
+              "progress": 1,
+              "pending": {
+                "wood": 0,
+                "stone": 0,
+                "star": 0
+              },
+              "goal": null
+            }
+          },
+          "alston": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          }
+        },
+        "pendingTrade": null,
+        "log": []
+      },
+      "runQuestionHashes": {
+        "j5-04839422044988ecc2": "e3a2cf7e47d635b1c53a76341dcd125f820a98a7bcbbb73ad6d3bff6f51c99ee",
+        "j5-05e090a55ed26113ba": "af9e418ed832843bfc6f4ab321fed4b4ca9a2cc829461c684b5bc987fc7498fd",
+        "j5-0643be474fa523786a": "684aed63a565580aa104ca46235fb9d640a92d2ddd874a9eb8cdb71365ae84da",
+        "j5-06fd772f058612da2d": "a464d83bb0efea138352818ef573696ba14d1fa2d61e0cacc687311a6198f745",
+        "j5-087aca50ab6e1db287": "ea1802704ca15f15be7b2f301b742d5624db4abad3b0509315bdda761bbd6a24",
+        "j5-0947a4bea5b14276ec": "dd96d891b7d74c3467da25674950cd922166911e3a4c2420ea624b4d93b2a6ac"
+      }
+    },
+    {
+      "player": "alston",
+      "grade": 6,
+      "school": "jianan",
+      "course": "chinese",
+      "storedFamily": {
+        "version": 9,
+        "revision": 0,
+        "profiles": {
+          "quintus": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "feifei": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "qingqing": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "doudou": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "jay": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "awardedByDay": {},
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "alston": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {
+                "tideglow": 10
+              },
+              "day": "2026-11-07",
+              "credited": [
+                "g6c-019233e23a0eeae6f1"
+              ]
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [
+                  "g6c-019233e23a0eeae6f1"
+                ],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [
+                "g6c-019233e23a0eeae6f1",
+                "g6c-01cd8ecbc3b1abb298",
+                "g6c-0203f8fcc823ae16b0",
+                "g6c-02a354d14ee83a654f",
+                "g6c-03704ce72315f8f3d3",
+                "g6c-0399190e33228db9c3"
+              ],
+              "review": {},
+              "skills": {
+                "chinese": {
+                  "level": 1,
+                  "recent": "1",
+                  "answered": 1,
+                  "correct": 1,
+                  "reviewDay": ""
+                }
+              },
+              "pending": null,
+              "school": "jianan",
+              "study": {
+                "version": 1,
+                "sequence": 1,
+                "entries": {
+                  "g6c-019233e23a0eeae6f1": {
+                    "last": 20764,
+                    "order": 1,
+                    "due": 20765,
+                    "stage": 1,
+                    "correctDay": 20764,
+                    "retryAfter": 0,
+                    "needsPractice": false,
+                    "attempts": 1,
+                    "independent": 1,
+                    "correct": 1,
+                    "crossDay": 0
+                  }
+                },
+                "session": null
+              }
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 20,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {
+                "2026-11-07": [
+                  "g6c-019233e23a0eeae6f1"
+                ]
+              },
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 20,
+                  "creditedAnswers": 1
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 1244,
+            "tickets": 3,
+            "starTickets": 2,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [
+              "g6c-019233e23a0eeae6f1"
+            ],
+            "attempted": [
+              "g6c-019233e23a0eeae6f1"
+            ],
+            "draws": 0,
+            "pity": 0,
+            "run": {
+              "captureRule": "three-correct-v1",
+              "remediation": {
+                "version": 1,
+                "coinTarget": 30,
+                "xpTarget": 30,
+                "corrected": [],
+                "receipt": null
+              },
+              "answers": [
+                true
+              ],
+              "materials": {
+                "credited": 1,
+                "packs": 0
+              },
+              "encounter": {
+                "route": {
+                  "version": 1,
+                  "island": "wood",
+                  "element": "木"
+                },
+                "monster": 0,
+                "variant": "cloud-scout-wood",
+                "level": 1,
+                "earned": 10,
+                "combat": {
+                  "version": 2,
+                  "ally": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  },
+                  "foe": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  }
+                }
+              },
+              "reward": "none",
+              "id": "round6-pinned-jianan",
+              "day": "2026-11-07",
+              "course": "chinese",
+              "questions": [
+                "g6c-019233e23a0eeae6f1",
+                "g6c-01cd8ecbc3b1abb298",
+                "g6c-0203f8fcc823ae16b0",
+                "g6c-02a354d14ee83a654f",
+                "g6c-03704ce72315f8f3d3",
+                "g6c-0399190e33228db9c3"
+              ],
+              "review": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+              ],
+              "assisted": false,
+              "learningEnabled": true,
+              "index": 1,
+              "streak": 0,
+              "wrong": [],
+              "settled": false,
+              "status": "active",
+              "rewarded": 1,
+              "points": 20,
+              "practice": false,
+              "skillUsed": false,
+              "eliminated": null,
+              "companion": "tideglow"
+            },
+            "gardenImported": false,
+            "lastMonsterVariant": "cloud-scout-wood",
+            "learningRewards": {
+              "progress": 1,
+              "pending": {
+                "wood": 0,
+                "stone": 0,
+                "star": 0
+              },
+              "goal": null
+            }
+          }
+        },
+        "pendingTrade": null,
+        "log": []
+      },
+      "expectedRuntime": {
+        "version": 9,
+        "revision": 0,
+        "profiles": {
+          "quintus": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "feifei": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "qingqing": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "doudou": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "jay": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {},
+              "day": "2026-11-07",
+              "credited": []
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [],
+              "review": {},
+              "skills": {},
+              "pending": null
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 0,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {},
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 0,
+            "tickets": 0,
+            "starTickets": 0,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [],
+            "attempted": [],
+            "draws": 0,
+            "pity": 0,
+            "run": null,
+            "gardenImported": false
+          },
+          "alston": {
+            "masteryConversion": {
+              "version": 1,
+              "points": 0,
+              "coins": 0
+            },
+            "growth": {
+              "xp": {
+                "tideglow": 10
+              },
+              "day": "2026-11-07",
+              "credited": [
+                "g6c-019233e23a0eeae6f1"
+              ]
+            },
+            "learning": {
+              "version": 1,
+              "mastered": {
+                "ids": [
+                  "g6c-019233e23a0eeae6f1"
+                ],
+                "generated": {}
+              },
+              "cursors": {},
+              "seen": [
+                "g6c-019233e23a0eeae6f1",
+                "g6c-01cd8ecbc3b1abb298",
+                "g6c-0203f8fcc823ae16b0",
+                "g6c-02a354d14ee83a654f",
+                "g6c-03704ce72315f8f3d3",
+                "g6c-0399190e33228db9c3"
+              ],
+              "review": {},
+              "skills": {
+                "chinese": {
+                  "level": 1,
+                  "recent": "1",
+                  "answered": 1,
+                  "correct": 1,
+                  "reviewDay": ""
+                }
+              },
+              "pending": null,
+              "school": "jianan",
+              "study": {
+                "version": 1,
+                "sequence": 1,
+                "entries": {
+                  "g6c-019233e23a0eeae6f1": {
+                    "last": 20764,
+                    "order": 1,
+                    "due": 20765,
+                    "stage": 1,
+                    "correctDay": 20764,
+                    "retryAfter": 0,
+                    "needsPractice": false,
+                    "attempts": 1,
+                    "independent": 1,
+                    "correct": 1,
+                    "crossDay": 0
+                  }
+                },
+                "session": null
+              }
+            },
+            "milestones": {
+              "version": 3,
+              "masteryPoints": 20,
+              "completedVoyages": 0,
+              "bestVoyagePoints": 0,
+              "awardedByDay": {
+                "2026-11-07": [
+                  "g6c-019233e23a0eeae6f1"
+                ]
+              },
+              "subjectGrowth": {
+                "math": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "chinese": {
+                  "masteryPoints": 20,
+                  "creditedAnswers": 1
+                },
+                "english": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "science": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                },
+                "social": {
+                  "masteryPoints": 0,
+                  "creditedAnswers": 0
+                }
+              }
+            },
+            "coins": 1244,
+            "tickets": 3,
+            "starTickets": 2,
+            "rewardStars": 0,
+            "rewardRounds": 0,
+            "owned": {
+              "tideglow": 1
+            },
+            "firstAcquired": {
+              "tideglow": null
+            },
+            "equipped": "tideglow",
+            "day": "2026-11-07",
+            "credited": [
+              "g6c-019233e23a0eeae6f1"
+            ],
+            "attempted": [
+              "g6c-019233e23a0eeae6f1"
+            ],
+            "draws": 0,
+            "pity": 0,
+            "run": {
+              "captureRule": "three-correct-v1",
+              "remediation": {
+                "version": 1,
+                "coinTarget": 30,
+                "xpTarget": 30,
+                "corrected": [],
+                "receipt": null
+              },
+              "answers": [
+                true
+              ],
+              "materials": {
+                "credited": 1,
+                "packs": 0
+              },
+              "encounter": {
+                "route": {
+                  "version": 1,
+                  "island": "wood",
+                  "element": "木"
+                },
+                "monster": 0,
+                "variant": "cloud-scout-wood",
+                "level": 1,
+                "earned": 10,
+                "combat": {
+                  "version": 2,
+                  "ally": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  },
+                  "foe": {
+                    "level": 1,
+                    "hp": 100,
+                    "attack": 22,
+                    "defense": 8
+                  }
+                }
+              },
+              "reward": "none",
+              "id": "round6-pinned-jianan",
+              "day": "2026-11-07",
+              "course": "chinese",
+              "questions": [
+                "g6c-019233e23a0eeae6f1",
+                "g6c-01cd8ecbc3b1abb298",
+                "g6c-0203f8fcc823ae16b0",
+                "g6c-02a354d14ee83a654f",
+                "g6c-03704ce72315f8f3d3",
+                "g6c-0399190e33228db9c3"
+              ],
+              "review": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+              ],
+              "assisted": false,
+              "learningEnabled": true,
+              "index": 1,
+              "streak": 0,
+              "wrong": [],
+              "settled": false,
+              "status": "active",
+              "rewarded": 1,
+              "points": 20,
+              "practice": false,
+              "skillUsed": false,
+              "eliminated": null,
+              "companion": "tideglow"
+            },
+            "gardenImported": false,
+            "lastMonsterVariant": "cloud-scout-wood",
+            "learningRewards": {
+              "progress": 1,
+              "pending": {
+                "wood": 0,
+                "stone": 0,
+                "star": 0
+              },
+              "goal": null
+            }
+          }
+        },
+        "pendingTrade": null,
+        "log": []
+      },
+      "runQuestionHashes": {
+        "g6c-019233e23a0eeae6f1": "c33d9e2656e081f7dc65511a8b976aaca41c2d70136781abb52be010ef3d9817",
+        "g6c-01cd8ecbc3b1abb298": "1f51c8b48840994420f8aa6e075443e9e2e58503e0bcfe7d9d964a110358bad2",
+        "g6c-0203f8fcc823ae16b0": "525153c44a14d3fe9565167d37aa9c3e3f4f679180a6f75cd037448c0547da58",
+        "g6c-02a354d14ee83a654f": "677512693cc48fa9b5cd9adea1b7185ea5be67e872a01c440bc8386f3555ba9d",
+        "g6c-03704ce72315f8f3d3": "0147e3c0054d07602fff5e374e5e4e1abe7b7d93322a70c1e0daca182e510a49",
+        "g6c-0399190e33228db9c3": "28f34ecb4ea2b8a3bfd895c0a173b7cea7051c769dc0a3c3d18bc3c4ebf356c5"
+      }
+    }
+  ]
+}
