@@ -33,6 +33,7 @@ export default function CaptureChallenge({capture,question,busy,online,reduced=f
     <small>{trial.grade} 年級 · 本階段不另發星幣或完成獎勵</small>
     {question?<>
      <div className="capture-prompt"><h3>{question.prompt}</h3>{(allowsReadAloud(trial.grade)||!!question.audio)&&<button aria-label={question.audio?'播放題目音檔':'聽題目'} disabled={busy||!online} onClick={()=>onListen(question,()=>setHeard(question.id))}>{question.audio?'播放題目音檔':'🔊 聽題目'}</button>}</div>
+     {question.visual&&<p className="math-visual" data-learning-content>{question.visual}</p>}
      {question.image&&<img className="capture-question-image" src={question.image} alt="題目圖片"/>}
      <div className="capture-answers">{question.options.map((o,i)=><button key={i} disabled={busy||!online||!!question.audio&&heard!==question.id} onClick={async()=>{if(lock.current)return;lock.current=true;try{await onAnswer(index,i);}finally{lock.current=false;}}}>
       <ChoiceView choice={o} grade={trial.grade} hideReadingHints={question.hideReadingHints} pictureOnly={trial.grade===1&&question.course==='words'}/>
