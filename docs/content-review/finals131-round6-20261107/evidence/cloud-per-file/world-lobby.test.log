@@ -1,0 +1,13 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107
+
+ ✓ src/__tests__/world-lobby.test.mjs (12 tests) 2902ms
+   ✓ public world, mutual contacts, privacy and learning availability (12)
+     ✓ excludes unapproved adults in both directions, while family confirmation alone can approve access 435ms
+
+ Test Files  1 passed (1)
+      Tests  12 passed (12)
+   Start at  18:14:40
+   Duration  3.36s (tests 88%, import 9%, transform 3%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107/output/round6/cloud-per-file/world-lobby.test.json

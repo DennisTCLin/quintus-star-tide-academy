@@ -1,0 +1,14 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107
+
+ ✓ src/__tests__/home-decor-cloud.test.mjs (3 tests) 1077ms
+   ✓ home decoration transactions (real PostgreSQL) (3)
+     ✓ saves room layouts across login and rejects stale local drafts even with fresh family revision 385ms
+     ✓ rejects forged costs and furniture; legacy import cannot mint a decorated room 388ms
+
+ Test Files  1 passed (1)
+      Tests  3 passed (3)
+   Start at  18:13:51
+   Duration  1.51s (tests 74%, import 19%, transform 7%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107/output/round6/cloud-per-file/home-decor-cloud.test.json

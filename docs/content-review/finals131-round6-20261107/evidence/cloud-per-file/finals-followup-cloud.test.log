@@ -1,0 +1,68 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 1.math: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":1,"course":"math","mode":"array","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"5c9d00038c30a02945fa0d501f134bf6f9e4cb75e0c8ad835670b24f5b6627cc","after":"5c9d00038c30a02945fa0d501f134bf6f9e4cb75e0c8ad835670b24f5b6627cc","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 1.math: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":1,"course":"math","mode":"prefix","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"303857017d7a0e6dc5cd361a2540537ef1c43227f4846cb2189ffeda8c4202c4","after":"303857017d7a0e6dc5cd361a2540537ef1c43227f4846cb2189ffeda8c4202c4","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 1.tones: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":1,"course":"tones","mode":"array","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"b8b9dd701f8244ba504666bcc3503d36e296d603920ec12efd2eeb139db07634","after":"b8b9dd701f8244ba504666bcc3503d36e296d603920ec12efd2eeb139db07634","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 1.tones: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":1,"course":"tones","mode":"prefix","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"b3df260ee7435fd42c6e1dd9fb865429df90b0c153d25e12092017aab24e1147","after":"b3df260ee7435fd42c6e1dd9fb865429df90b0c153d25e12092017aab24e1147","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 1.medials: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":1,"course":"medials","mode":"array","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"e4c48ee925daf3e876ca6d26e9e6840b7815ce1eb263c68f77a6499404a9e582","after":"e4c48ee925daf3e876ca6d26e9e6840b7815ce1eb263c68f77a6499404a9e582","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 1.medials: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":1,"course":"medials","mode":"prefix","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"785c0373fd0695f7317352ea822b8170ebefa20155d46e3e6688dd5dd8216e8b","after":"785c0373fd0695f7317352ea822b8170ebefa20155d46e3e6688dd5dd8216e8b","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 1.pairs: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":1,"course":"pairs","mode":"array","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"35189440f48c6750f69f70c90ba7dd623782b1fb68808f48f6a73068ae70e31c","after":"35189440f48c6750f69f70c90ba7dd623782b1fb68808f48f6a73068ae70e31c","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 1.pairs: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":1,"course":"pairs","mode":"prefix","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"189244a77257a18cfbccc759759b29ebabf2edca901d22da5d8308ec0ed18ae7","after":"189244a77257a18cfbccc759759b29ebabf2edca901d22da5d8308ec0ed18ae7","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 2.words: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":2,"course":"words","mode":"array","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"71d2bd833c2809aa307842f56a15ba5aa39d30d7166aa58162c94866b6652231","after":"71d2bd833c2809aa307842f56a15ba5aa39d30d7166aa58162c94866b6652231","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 2.words: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":2,"course":"words","mode":"prefix","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"8f03e0b594db75132633a81c70dc1c108ea60e890c426e3c2b173494679bba21","after":"8f03e0b594db75132633a81c70dc1c108ea60e890c426e3c2b173494679bba21","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 2.pairs: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":2,"course":"pairs","mode":"array","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"ab5b83a9e4f58c8d797f6f1af73dd322ee085b03a0d436d99e69abff74067a58","after":"ab5b83a9e4f58c8d797f6f1af73dd322ee085b03a0d436d99e69abff74067a58","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 2.pairs: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":2,"course":"pairs","mode":"prefix","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"fbdbf62e03aba944ecd851258340f5b162f03af31c2a7689dfe008f2a02ce4d4","after":"fbdbf62e03aba944ecd851258340f5b162f03af31c2a7689dfe008f2a02ce4d4","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 5.chinese: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":5,"course":"chinese","mode":"array","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"175927c215c857ddb79bf80fbef799a737b63d4bcebd78a7dd69dba6c96d3f17","after":"175927c215c857ddb79bf80fbef799a737b63d4bcebd78a7dd69dba6c96d3f17","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 5.chinese: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":5,"course":"chinese","mode":"prefix","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"dd2bffb4980cf645cdc4ec92001e2484a9b8cb9d8b722feff3e7a521121298cf","after":"dd2bffb4980cf645cdc4ec92001e2484a9b8cb9d8b722feff3e7a521121298cf","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 6.science: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":6,"course":"science","mode":"array","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"caacc6775d2d44684bd4f0bdf849ed3023e0146bd017419236ef2b7bc77ca637","after":"caacc6775d2d44684bd4f0bdf849ed3023e0146bd017419236ef2b7bc77ca637","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-followup-cloud.test.mjs > followup content on a fresh isolated PostgreSQL database > 6.science: preserves pinned 92ad progress and raw storage on login/state
+followup-pinned-storage {"synthetic":true,"grade":6,"course":"science","mode":"prefix","base":"92ad44e7e95a94a6e6d75ed583c2378bca3123c5","before":"e9329afb1b30311953e96e90a2d98ba893d3b8dc8fef65990923222efd9160fc","after":"e9329afb1b30311953e96e90a2d98ba893d3b8dc8fef65990923222efd9160fc","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+ ✓ src/__tests__/finals-followup-cloud.test.mjs (16 tests) 6280ms
+   ✓ followup content on a fresh isolated PostgreSQL database (16)
+     ✓ 1.math: preserves pinned 92ad progress and raw storage on login/state 398ms
+     ✓ 1.tones: preserves pinned 92ad progress and raw storage on login/state 368ms
+     ✓ 1.medials: preserves pinned 92ad progress and raw storage on login/state 371ms
+     ✓ 1.pairs: preserves pinned 92ad progress and raw storage on login/state 368ms
+     ✓ 2.words: preserves pinned 92ad progress and raw storage on login/state 370ms
+     ✓ 2.pairs: preserves pinned 92ad progress and raw storage on login/state 365ms
+     ✓ 5.chinese: preserves pinned 92ad progress and raw storage on login/state 366ms
+     ✓ 6.science: preserves pinned 92ad progress and raw storage on login/state 367ms
+
+ Test Files  1 passed (1)
+      Tests  16 passed (16)
+   Start at  18:13:24
+   Duration  6.97s (tests 91%, import 6%, transform 3%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107/output/round6/cloud-per-file/finals-followup-cloud.test.json

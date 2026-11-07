@@ -1,0 +1,15 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107
+
+ ✓ src/__tests__/adult-legacy-cloud.test.mjs (3 tests) 1810ms
+   ✓ original noncombat adult courses survive first game enrollment (3)
+     ✓ continues all remaining original questions despite four pre-enrollment mistakes, without retroactive battle loss or rewards 922ms
+     ✓ still enforces three mistakes for a new course started after game enrollment 430ms
+     ✓ carries original completed-course XP once and never fabricates a historical companion XP or completion star 401ms
+
+ Test Files  1 passed (1)
+      Tests  3 passed (3)
+   Start at  18:12:19
+   Duration  2.26s (tests 82%, import 13%, transform 5%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-round6-20261107/output/round6/cloud-per-file/adult-legacy-cloud.test.json
