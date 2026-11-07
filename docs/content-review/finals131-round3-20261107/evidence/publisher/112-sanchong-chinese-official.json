@@ -1,0 +1,106 @@
+{
+  "rows": [
+    [
+      "1",
+      "",
+      "1",
+      "康軒版",
+      "國語文",
+      "1年級_國語文課程計畫(上)(彈出瀏覽視窗)",
+      "2023/07/05"
+    ],
+    [
+      "2",
+      "",
+      "2",
+      "康軒版",
+      "國語文",
+      "2年級_國語文課程計畫(上)(彈出瀏覽視窗)",
+      "2023/07/05"
+    ],
+    [
+      "3",
+      "",
+      "3",
+      "康軒版",
+      "國語文",
+      "3年級_國語文課程計畫(上)(彈出瀏覽視窗)",
+      "2023/07/05"
+    ],
+    [
+      "4",
+      "",
+      "4",
+      "康軒版",
+      "國語文",
+      "4年級_國語文課程計畫(上)(彈出瀏覽視窗)",
+      "2023/07/05"
+    ],
+    [
+      "5",
+      "",
+      "5",
+      "翰林版",
+      "國語文",
+      "5年級_國語文課程計畫(上)(彈出瀏覽視窗)",
+      "2023/07/05"
+    ],
+    [
+      "6",
+      "",
+      "6",
+      "翰林版",
+      "國語文",
+      "6年級_國語文課程計畫(上)(彈出瀏覽視窗)",
+      "2023/07/05"
+    ]
+  ],
+  "selectors": [
+    {
+      "id": "YearDDL",
+      "label": "112",
+      "value": "112"
+    },
+    {
+      "id": "TermDDL",
+      "label": "上學期",
+      "value": "1"
+    },
+    {
+      "id": "NineDDL",
+      "label": "三重分區",
+      "value": "4"
+    },
+    {
+      "id": "LearnTypeDDL",
+      "label": "國小",
+      "value": "0"
+    },
+    {
+      "id": "ContentPlaceHolder1_UnitDDL",
+      "label": "市立三重國小",
+      "value": "014754"
+    },
+    {
+      "id": "ContentPlaceHolder1_DomainDDL",
+      "label": "國語文",
+      "value": "國語文"
+    },
+    {
+      "id": "expsearchddl",
+      "label": "領域(類別)",
+      "value": "NewDomain"
+    },
+    {
+      "id": "ContentPlaceHolder1_GridViewExpend1_PageSize",
+      "label": "100",
+      "value": "100"
+    },
+    {
+      "id": "ContentPlaceHolder1_GridViewExpend1_GPageDDL",
+      "label": "1",
+      "value": "0"
+    }
+  ],
+  "url": "https://rrcp.ntpc.edu.tw/Share/Share_BySchool"
+}

@@ -1,0 +1,62 @@
+{
+  "reviewer": "round3_falsifier",
+  "mode": "read-only independent bundles from git baseline; answer-free packets and primary pages",
+  "status": "BOUNDED_PASS",
+  "resolvedFindings": [
+    {
+      "priority": "P1",
+      "finding": "108 appended after questionIndex made questionById undefined",
+      "fix": "register before index; all108 deepEqual regression; independently recompiled PASS"
+    }
+  ],
+  "checks": {
+    "newQuestionsRead": 108,
+    "mapping": {
+      "approved": 108,
+      "duplicate": 6,
+      "held": 1
+    },
+    "legacyQuestionObjectsUnchanged": 6521,
+    "legacyApprovalsUnchanged": 6521,
+    "generatedUnchanged": 23192,
+    "sourceLanes": 8,
+    "savedRepresentations": 16,
+    "oldPhoneticEntriesChanged": 0
+  },
+  "scopeAtInitialConclusion": [
+    "content",
+    "unit/build",
+    "publisher-book-unit primary intersections"
+  ],
+  "initialUnknown": [
+    "full ordinary suite",
+    "fresh PG",
+    "UI",
+    "production BEFORE/AFTER",
+    "deployment"
+  ],
+  "followupEvidenceReview": {
+    "status": "BOUNDED_PASS",
+    "ordinaryPass": 1576,
+    "ordinaryConditionalSkip": 296,
+    "freshPgFiles": 31,
+    "freshPgPass": 300,
+    "freshDatabaseNamesUnique": 31,
+    "allPublicTablesBefore": 0,
+    "exactMappedSkips": 296,
+    "overlap": 4,
+    "uniqueTestsPass": 1872,
+    "browserCases": 8,
+    "pairedScreenshotsRead": 16,
+    "allReloadIndex": 1,
+    "allCoins": 1244,
+    "horizontalOverflow": 0,
+    "missingImages": 0,
+    "consoleWarningsErrors": 0,
+    "autoManualDistinction": "not independently evidenced by API; do not claim8 automatic",
+    "productionBeforeAfter": "UNKNOWN",
+    "deployment": "UNKNOWN"
+  },
+  "productionReleaseApproval": false,
+  "artifactNote": "UI screenshot extensions corrected to .jpg to match JPEG bytes; no image transformation."
+}

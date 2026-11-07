@@ -1,0 +1,129 @@
+{
+  "reviewer": "finals131_release_falsifier",
+  "scope": "fresh answer-free only;no primary,original A,other solver",
+  "packetSha256": "35e6e6db06b708bbf6a14f4cca42013e7d97b5e5c81ae480913b94fb068dc538",
+  "results": [
+    {
+      "id": "phase3-dd6m-20003226-i1",
+      "answerIndex": 1,
+      "answerText": "錯誤",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-i2",
+      "answerIndex": 1,
+      "answerText": "正確",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-i3",
+      "answerIndex": 0,
+      "answerText": "1/2倍",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-i4",
+      "answerIndex": 0,
+      "answerText": "正確",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-ii1",
+      "answerIndex": 1,
+      "answerText": "2公分",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-ii2",
+      "answerIndex": 0,
+      "answerText": "正方形",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-ii6",
+      "answerIndex": 3,
+      "answerText": "圖上距離與實際距離的比",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-iv3-length",
+      "answerIndex": 2,
+      "answerText": "18公分",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-iv3-angle",
+      "answerIndex": 1,
+      "answerText": "120°",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-iv3-area",
+      "answerIndex": 3,
+      "answerText": "4倍",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-iv4a",
+      "answerIndex": 0,
+      "answerText": "＞",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-iv4b",
+      "answerIndex": 0,
+      "answerText": "＞",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-v1",
+      "answerIndex": 1,
+      "answerText": "50.24公分",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-v2",
+      "answerIndex": 2,
+      "answerText": "113.04平方公尺",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-v3",
+      "answerIndex": 1,
+      "answerText": "340公尺",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-vi1-area",
+      "answerIndex": 1,
+      "answerText": "25434平方公里",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-vi2-speed",
+      "answerIndex": 1,
+      "answerText": "32.4公里",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-vi2-scale",
+      "answerIndex": 2,
+      "answerText": "1：800000",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-vi2-arrival",
+      "answerIndex": 2,
+      "answerText": "9時17分",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-dd6m-20003226-vi2-arc",
+      "answerIndex": 2,
+      "answerText": "785公尺",
+      "status": "unique"
+    }
+  ],
+  "held": [],
+  "notAdmissionOrDeployment": true
+}

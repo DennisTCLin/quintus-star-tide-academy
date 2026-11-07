@@ -1,0 +1,7 @@
+# 獨立前版本合成保存檔
+
+base036cf-families.json來自精確git archive 036cf3818ae0df912b934378a77f0349295e5537的src/curriculum（其tree為b3c890b3ad93c851117dd7863cecd84e8786ad94）；archive SHA在base-provenance.json。不是production快照，也不是用本批candidate做expected。
+
+重建：在臨時資料夾解開該git archive，連結已安裝repo dependencies，以esbuild(platform=node/format=esm)分別bundle舊src/adventure.ts及src/learning.ts成output/finals131-phase3/base-adventure.mjs、base-learning.mjs。將此處generate-fixtures.mjs複製到同一output資料夾，從repo根執行。8個匹配學校/課程先完成第一題並移到index1，保存完整family、舊run題ID物件SHA。當下產生的時間值可能不同，不承諾重新生成JSON逐byte相同；固定基線原件與已提交fixture才是本次斷言依據。
+
+PG測試對每條課程再以expectedRuntime明文array獨立構造prefix-v1 literal entries，兩模式login/state前後驗證DB rawtext SHA、updated_at及全family解碼均不變；新抽題與replay只領一次獎勵獨立驗證。未連線正式DB，不能代替發布時新BEFORE/AFTER。

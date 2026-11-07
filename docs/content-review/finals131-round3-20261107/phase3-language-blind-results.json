@@ -1,0 +1,223 @@
+{
+  "reviewer": "phase2_falsifier",
+  "packetSha256": "43a9caa25d10cec9d8f1663bedecde4ac99e15a326d46654f6c6899c8cf5ad98",
+  "scope": "answer-free packet only;not candidate/source answer/other solver",
+  "results": [
+    {
+      "id": "phase3-lang-20003305-1",
+      "answerIndex": 0,
+      "answerText": "ㄓㄨˇ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003305-2",
+      "answerIndex": 1,
+      "answerText": "ㄎㄢ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003305-3",
+      "answerIndex": 1,
+      "answerText": "ˋ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003305-4",
+      "answerIndex": 0,
+      "answerText": "ˋ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003305-5",
+      "answerIndex": 1,
+      "answerText": "ㄕㄣˊ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003305-6",
+      "answerIndex": 0,
+      "answerText": "˙ㄇㄜ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003305-7",
+      "answerIndex": 1,
+      "answerText": "ㄕㄤˋ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003305-8",
+      "answerIndex": 1,
+      "answerText": "ㄔㄤˊ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003305-9",
+      "answerIndex": 0,
+      "answerText": "ㄓㄤˇ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003305-10",
+      "answerIndex": 0,
+      "answerText": "ㄖㄣˊ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003305-11",
+      "answerIndex": 1,
+      "answerText": "ˋ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003913-12",
+      "answerIndex": 1,
+      "answerText": "ㄆㄥˊ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003913-13",
+      "answerIndex": 0,
+      "answerText": "ㄗㄡˇ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003913-14",
+      "answerIndex": 0,
+      "answerText": "ㄕㄣˊ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003913-15",
+      "answerIndex": 1,
+      "answerText": "˙ㄇㄜ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003913-16",
+      "answerIndex": 0,
+      "answerText": "ˊ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003913-17",
+      "answerIndex": 1,
+      "answerText": "―",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003913-18",
+      "answerIndex": 0,
+      "answerText": "ㄔㄤˊ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003913-19",
+      "answerIndex": 1,
+      "answerText": "ㄓㄤˇ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003913-20",
+      "answerIndex": 1,
+      "answerText": "ˇ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-21",
+      "answerIndex": 0,
+      "answerText": "ㄌㄧㄠˊ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-22",
+      "answerIndex": 1,
+      "answerText": "ㄩㄢˊ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-23",
+      "answerIndex": 0,
+      "answerText": "ㄕˋ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-24",
+      "answerIndex": 1,
+      "answerText": "ㄉㄞˋ",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-25",
+      "answerIndex": 1,
+      "answerText": "牽",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-26",
+      "answerIndex": 1,
+      "answerText": "飛",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-27",
+      "answerIndex": 1,
+      "answerText": "貨",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-28",
+      "answerIndex": 1,
+      "answerText": "充",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-29",
+      "answerIndex": 1,
+      "answerText": "棒",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-30",
+      "answerIndex": 0,
+      "answerText": "十",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-31",
+      "answerIndex": 2,
+      "answerText": "目",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-32",
+      "answerIndex": 0,
+      "answerText": "幺",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-33",
+      "answerIndex": 1,
+      "answerText": "八",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-34",
+      "answerIndex": 1,
+      "answerText": "皮",
+      "status": "unique"
+    },
+    {
+      "id": "phase3-lang-20003915-35",
+      "answerIndex": 1,
+      "answerText": "烏",
+      "status": "unique"
+    }
+  ],
+  "held": [],
+  "sourceURL": [
+    "https://dict.revised.moe.edu.tw/dictView.jsp?ID=77333&la=0&powerMode=0",
+    "https://dict.concised.moe.edu.tw/dictView.jsp?ID=34679&la=0&powerMode=0"
+  ],
+  "notAdmissionOrDeployment": true
+}

@@ -9,8 +9,8 @@ const baseline=JSON.parse(readFileSync(join(ROOT,'docs/content-review/approvals.
 const fixture={id:'fixture',grade:4,course:'math',prompt:'12 × 8 = ?',options:[{text:'96'},{text:'20'},{text:'86'}],answer:0,hint:'分組計算。',explanation:'12 × 8 = 96。'};
 it('certifies current catalog with all finite variants and no network AI dependency',async()=>{
  const {report}=await audit({reportPath:join(temp,'pass.json')});
- // Base3437 certified 6216 static questions; reviewed batches append 95 and 210.
- expect(report.status).toBe('PASS');expect(report.counts).toEqual({static:6216+95+210,generated:23192,pools:42,approvedStatic:6216+95+210,approvedTemplates:42});
+ // Base3437 certified 6216 static questions; reviewed batches append 95,210and108.
+ expect(report.status).toBe('PASS');expect(report.counts).toEqual({static:6216+95+210+108,generated:23192,pools:42,approvedStatic:6216+95+210+108,approvedTemplates:42});
  expect(report.mediaFiles).toBeGreaterThan(0);expect(report.findings).toEqual([]);
 });
 it('rejects pending, quarantine, changed hashes, missing evidence and removed identities in an actual audit',async()=>{
