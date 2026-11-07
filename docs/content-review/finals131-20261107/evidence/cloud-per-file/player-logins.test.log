@@ -1,0 +1,15 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-131-release-20261107
+
+ ✓ src/__tests__/player-logins.test.mjs (6 tests) 6029ms
+   ✓ individual logins preserve the existing household (real PostgreSQL) (6)
+     ✓ provisions four identities without rewriting any stored progress, archive or timestamp 721ms
+     ✓ all four PINs including leading zero log into the original player with identical scores 932ms
+     ✓ reprovision and restart preserve data and existing member sessions 1655ms
+     ✓ keeps ordinary registration at twelve characters and rejects reassigning a member atomically 1636ms
+     ✓ allows own commands, cross-member trades and idempotent cancellations without resetting scores 604ms
+
+ Test Files  1 passed (1)
+      Tests  6 passed (6)
+   Start at  09:52:29
+   Duration  6.48s (tests 94%, import 4%, transform 2%)

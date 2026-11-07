@@ -1,0 +1,15 @@
+
+ RUN  v5.0.5 /private/tmp/finals131-base-3437
+
+ ✓ src/__tests__/child-account.test.mjs (6 tests) 5260ms
+   ✓ independent child provisioning (real PostgreSQL) (6)
+     ✓ creates a separate grade four child without changing any existing account or game state 551ms
+     ✓ retries without resetting progress, changing hashes or invalidating sessions 544ms
+     ✓ rejects identity, grade, password and household collisions without partial inserts 1667ms
+     ✓ creates grade-six child, preserves other accounts, and supports leading-zero authentication 1100ms
+     ✓ provisions grade five after legacy checks, connects only new-old friendships and preserves all prior states 1110ms
+
+ Test Files  1 passed (1)
+      Tests  6 passed (6)
+   Start at  09:41:15
+   Duration  5.69s (tests 94%, import 5%, transform 2%)

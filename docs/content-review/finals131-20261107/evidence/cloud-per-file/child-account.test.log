@@ -1,0 +1,15 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-131-release-20261107
+
+ ✓ src/__tests__/child-account.test.mjs (6 tests) 5593ms
+   ✓ independent child provisioning (real PostgreSQL) (6)
+     ✓ creates a separate grade four child without changing any existing account or game state 645ms
+     ✓ retries without resetting progress, changing hashes or invalidating sessions 687ms
+     ✓ rejects identity, grade, password and household collisions without partial inserts 1698ms
+     ✓ creates grade-six child, preserves other accounts, and supports leading-zero authentication 1140ms
+     ✓ provisions grade five after legacy checks, connects only new-old friendships and preserves all prior states 1134ms
+
+ Test Files  1 passed (1)
+      Tests  6 passed (6)
+   Start at  09:51:43
+   Duration  6.09s (tests 93%, import 5%, transform 2%)

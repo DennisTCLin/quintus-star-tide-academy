@@ -1,0 +1,15 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-131-release-20261107
+
+ ✓ src/__tests__/conquest-npc-automatic.test.mjs (10 tests) 3778ms
+   ✓ automatic offline NPC raids in PostgreSQL (10)
+     ✓ attacks without HTTP or sessions, uses latest owner XP and wounds, and exposes private reports after login 647ms
+     ✓ persists owner-private read acknowledgments across login without changing combat or world state 823ms
+     ✓ leaves a concurrently arriving raid unread and merges two-device acknowledgments 431ms
+     ✓ rejects unauthenticated, CSRF, cross-profile and malformed acknowledgments; foreign IDs have no effect 437ms
+     ✓ occupies a defeated island durably, withdraws wounded player guards and lets a player reclaim it 755ms
+
+ Test Files  1 passed (1)
+      Tests  10 passed (10)
+   Start at  09:52:00
+   Duration  4.23s (tests 91%, import 7%, transform 2%)

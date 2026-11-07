@@ -19,5 +19,23 @@
     "6": 29
   },
   "helperValidation": "validateMastered + validateLearning all pass; no cross-grade IDs",
-  "findings": []
+  "findings": [],
+  "cloudSupplement": {
+    "result": "PASS",
+    "freshDatabases": 29,
+    "passedTests": 267,
+    "pinnedBaseRuntimeFixturesRebuiltAndMatched": 10,
+    "oldUniqueRunQuestionHashes": 42,
+    "oldRunHashReferences": 60,
+    "currentStorageUnchangedCases": 10,
+    "pinnedStorageUnchangedCases": 20,
+    "apiLearningSeenPreserved": true,
+    "actualNewGrade2ApiIds": [
+      "f2-20003916-i10-2",
+      "f2-20003916-i10-4",
+      "f2-20003916-i10-6"
+    ],
+    "productCodeUnchangedFrom": "1437ceeac4cfe0244d91669e0d55e178f0c51ed0",
+    "remainingFindings": []
+  }
 }
