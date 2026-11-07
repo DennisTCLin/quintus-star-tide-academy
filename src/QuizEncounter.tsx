@@ -14,6 +14,7 @@ import { petById, petElement, petSkillName, petSkillDescription } from "./game-v
 import { Sprite, Spell } from "./BattleScene";
 import { BATTLE_ARENA } from "./battle-assets";
 import { MonsterArt } from "./MonsterBestiary";
+import CreatureStageSize from './CreatureStageSize';
 import { monsterById, MONSTER_FAMILIES, monsterForm } from "./monsters";
 import { MONSTERS, completedHits, creatureProgress, growthProgress, growthStyle, nextGrowthStyle } from "./companion-growth";
 import "./quiz-encounter.css";
@@ -30,8 +31,9 @@ export function GrowthMeter({ xp = 0, compact = false, rarity = "E" }: { xp?: nu
   </div>, grade);
 }
 type Motion = { clip?: Cinematic; startedAt: number; phase: string; kind: "attack" | "burst" | "hurt"; before: number; beforeMistakes: number; nonce: number; gain: number; levelUp: boolean };
-export default function QuizEncounter({ run, xp, reduced, oldDay = false, musicControl, onBestiary, profile, busy, online, onRecruit, summaryOnly = false, onResultReady }: { profile: Profile; day: string; busy: boolean; online: boolean; onRecruit: (pet: string) => Promise<unknown>; summaryOnly?: boolean; onResultReady?: (runId: string, live: boolean) => void; run: Run; xp: number; reduced: boolean; oldDay?: boolean; musicControl?: ReactNode; onBestiary?: () => void }) {
+export default function QuizEncounter({ learningProgramme,run, xp, reduced, oldDay = false, musicControl, onBestiary, profile, busy, online, onRecruit, summaryOnly = false, onResultReady }: { learningProgramme?:"adult-english"; profile: Profile; day: string; busy: boolean; online: boolean; onRecruit: (pet: string) => Promise<unknown>; summaryOnly?: boolean; onResultReady?: (runId: string, live: boolean) => void; run: Run; xp: number; reduced: boolean; oldDay?: boolean; musicControl?: ReactNode; onBestiary?: () => void }) {
   const { grade } = useContext(ReadingContext);
+  const adult=learningProgramme==="adult-english";
   const mistakes = mistakeCount(run);
   const hits = completedHits(run), pet = petById(run.companion)!;
   const previous = useRef({ hits, mistakes, index: run.index, xp });
@@ -88,7 +90,7 @@ export default function QuizEncounter({ run, xp, reduced, oldDay = false, musicC
   const joined = capture?.outcome === "joined" || capture?.outcome === "duplicate";
   return annotateTree(<section ref={root} className={`quiz-encounter ${fitsSticky ? "quiz-sticky-fit" : ""}`} aria-label="答題怪物戰鬥">
     {!summaryOnly && <>
-    <div className="quiz-battle-intro"><span>⚔️ 答對就出招</span>{musicControl}<strong>{failed ? (mistakes>=3?"三次錯誤，這場挑戰失敗":"未達答對目標，星幣已保留") : won ? "六題完成，挑戰成功！" : `答題 ${run.index + Number(run.settled)} / ${run.questions.length} · 答錯 ${mistakes} / ${MAX_MISTAKES}`}</strong></div>
+    <div className="quiz-battle-intro"><span>⚔️ 答對就出招</span>{musicControl}<strong>{failed ? (mistakes>=3?"三次錯誤，這場挑戰失敗":"未達答對目標，星幣已保留") : won ? `${run.questions.length}題完成，挑戰成功！` : `答題 ${run.index + Number(run.settled)} / ${run.questions.length} · 答錯 ${mistakes} / ${MAX_MISTAKES}`}</strong></div>
     <div ref={stageRef} className={`quiz-stage duel-stage ${motion?.clip ? "has-cinematic" : ""} theme-${petElement(run.companion)} phase-${motion?.phase ?? "idle"} action-${motion?.kind ?? "idle"} ${cosmeticReduced ? "duel-reduced" : ""} ${run.encounter.level >= 5 ? "quiz-starburst" : ""}`}
       data-phase={motion?.phase ?? "idle"} data-hits={hits} data-victory={won} data-defeat={failed} style={{ "--arena-image": `url("${BATTLE_ARENA}")` } as CSSProperties}>
       <div className="duel-sky" aria-hidden="true" />
@@ -104,7 +106,7 @@ export default function QuizEncounter({ run, xp, reduced, oldDay = false, musicC
       </div>
       <div className={`duel-combatant side-1 ${motion?.kind === "hurt" ? "duel-casting" : ""} ${species?.form === "warden" ? "quiz-warden" : ""} ${motion && motion.kind !== "hurt" && landing ? "duel-hit" : ""} ${hp === 0 ? "quiz-monster-rest" : ""}`}>
         <div className="duel-summon-circle" aria-hidden="true" />
-        <div className="duel-body">{species ? <MonsterArt monster={species} eager action={motion?(motion.kind==="hurt"?"attack":"hit"):"idle"} nonce={motion?.nonce??0} reduced={cosmeticReduced} /> : <div className="quiz-monster" role="img" aria-label={monsterName}>
+        <div className="duel-body">{species ? <CreatureStageSize id={species.id}><MonsterArt monster={species} eager action={motion?(motion.kind==="hurt"?"attack":"hit"):"idle"} nonce={motion?.nonce??0} reduced={cosmeticReduced} /></CreatureStageSize> : <div className="quiz-monster" role="img" aria-label={monsterName}>
           {broken ? <span>{monster.icon}</span> : <img src="/assets/battle/quiz-monsters.png" alt="" onError={() => setBroken(true)} style={{ transform: `translateX(-${run.encounter.monster * 100 / 3}%)` }} />}
         </div>}</div>
         {motion && motion.kind !== "hurt" && landing && damage > 0 && <div className="duel-reaction"><b className="duel-damage">−{damage}</b>{!cosmeticReduced && <span className="duel-impact-ring" />}</div>}
@@ -114,7 +116,7 @@ export default function QuizEncounter({ run, xp, reduced, oldDay = false, musicC
       {!motion && (won || failed) && <strong className={`quiz-win ${failed ? "quiz-defeat" : ""}`} role="status">{failed ? "挑戰失敗 · 一起補練，再出發" : "✦ 挑戰成功"}</strong>}
     </div>
     <div className="quiz-message" role="status" aria-live="polite">
-      {run.status === "failed" ? (mistakes>=3?"累計答錯或超時三題，夥伴生命歸零。答對的星幣與進度保留。":`需要答對 ${correctNeeded(run.challenge)} 題，這次答對 ${hits} 題。怪物仍有體力，答對的星幣與進度都保留。`) : motion?.kind === "hurt" ? `怪物反擊，生命 −${allyDamage}。${run.status === "won" ? "六題已完成，記得聽這題的正確答案。" : "這題記下來，戰後一起補練。"}` : won ? `完成挑戰！這趟夥伴獲得 ${run.encounter.earned} XP。` : motion && landing ? `攻擊命中！${motion.gain ? `夥伴 +${motion.gain} XP` : "努力已記錄"}` : "每題只作答一次；答對攻擊，答錯或超時扣血。累計三錯就結束這場。"}
+      {run.status === "failed" ? (mistakes>=3?"累計答錯或超時三題，夥伴生命歸零。答對的星幣與進度保留。":`需要答對 ${(adult?Math.min(4,run.questions.length):correctNeeded(run.challenge))} 題，這次答對 ${hits} 題。怪物仍有體力，答對的星幣與進度都保留。`) : motion?.kind === "hurt" ? `怪物反擊，生命 −${allyDamage}。${run.status === "won" ? "六題已完成，記得聽這題的正確答案。" : "這題記下來，戰後一起補練。"}` : won ? `完成挑戰！這趟夥伴獲得 ${run.encounter.earned} XP。` : motion && landing ? `攻擊命中！${motion.gain ? `夥伴 +${motion.gain} XP` : "努力已記錄"}` : "每題只作答一次；答對攻擊，答錯或超時扣血。累計三錯就結束這場。"}
     </div>
     </>}
     {won && capture && capture.outcome!=="pending" && recruit && <section className={`capture-result ${joined ? "" : "is-quiet"}`} aria-label="降服結果">
@@ -133,16 +135,16 @@ export default function QuizEncounter({ run, xp, reduced, oldDay = false, musicC
       <summary><span className="quiz-info-label-full">夥伴成長與戰鬥說明</span><span className="quiz-info-label-compact">戰鬥說明</span></summary>
     <GrowthMeter rarity={pet.rarity} xp={xp} />
     <p className="quiz-detail-growth-style">{growthStyle(run.encounter.level)}</p>
-    {!won && <MaterialProgress profile={profile} run={run} oldDay={oldDay} />}
+    {!adult && !won && <MaterialProgress profile={profile} run={run} oldDay={oldDay} />}
     <details className="quiz-stat-details"><summary>查看雙方能力與技能</summary>
       <div className="quiz-stat-grid"><div><h3>{pet.name} · 本趟能力</h3>{run.encounter.combat ? <CreatureSheet pet={pet} level={allyLevel} stats={run.encounter.combat.ally} /> : <CreatureBadge rarity={pet.rarity} level={allyLevel} />}</div>
       {species && <div><h3>{species.name} · 野外能力</h3><CreatureBadge rarity={species.rarity} level={foeLevel} /><p>{species.element}屬性 · {monsterForm(species).name}</p>{run.encounter.combat && <StatLine stats={run.encounter.combat.foe} />}<p><b>{petSkillName(species.id)}</b> · 降服後：{petSkillDescription(species.id)}</p></div>}</div>
       {run.encounter.combat && <p>答對依攻擊、防禦與五行發動攻擊；答錯扣除約三分之一生命，第三次歸零。每題只能作答一次。完成六題並達到本場答對目標才通關；怪物會保留最後一點體力直到通關。本趟能力在出發時固定，升級效果會在下趟生效。</p>}
     </details>
-    {!species && <p className="capture-rules">{CAPTURE_SKIP_TEXT.legacy}</p>}
-    {run.status === "active" && species && <p className="capture-rules">{!run.encounter.combat ? CAPTURE_SKIP_TEXT.legacy : run.practice ? CAPTURE_SKIP_TEXT.practice : oldDay ? CAPTURE_SKIP_TEXT["old-day"] : run.captureRule ? <>六題挑戰成功後，再連續答對三題就能降服；答錯一題本次失敗。</> : <>舊版航程：降服機率 <strong>{CAPTURE_RATES[species.rarity]}%</strong>。</>}</p>}
+    {!adult && !species && <p className="capture-rules">{CAPTURE_SKIP_TEXT.legacy}</p>}
+    {!adult && run.status === "active" && species && <p className="capture-rules">{!run.encounter.combat ? CAPTURE_SKIP_TEXT.legacy : run.practice ? CAPTURE_SKIP_TEXT.practice : oldDay ? CAPTURE_SKIP_TEXT["old-day"] : run.captureRule ? <>六題挑戰成功後，再連續答對三題就能降服；答錯一題本次失敗。</> : <>舊版航程：降服機率 <strong>{CAPTURE_RATES[species.rarity]}%</strong>。</>}</p>}
     {onBestiary && <div className="quiz-bestiary-link"><button type="button" onClick={onBestiary}>📖 怪物圖鑑</button>{species && <span>招式特色 · {species.move}</span>}</div>}
-    <details className="quiz-growth-rule"><summary>成長規則 · 經驗持續累積</summary><p>{run.practice ? "練習對戰：不發經驗與建材，放心練習。" : oldDay ? "這是先前日期的航程；完成後開新航程才能獲得經驗與建材。" : "每道合資格題目 +10 XP，每五道再獲得建材；超過三次挑戰也能繼續成長。"}<small>使用提示與複習題答對仍有效；答錯不發經驗，同題一天一次。等級與經驗值跟著你的帳號保存。</small></p></details>
+    <details className="quiz-growth-rule"><summary>成長規則 · 經驗持續累積</summary><p>{adult ? "英文每題每日第一次獨立答對，獲得星幣、夥伴經驗與建材進度。" : run.practice ? "練習對戰：不發經驗與建材，放心練習。" : oldDay ? "這是先前日期的航程；完成後開新航程才能獲得經驗與建材。" : "每道合資格題目 +10 XP，每五道再獲得建材；超過三次挑戰也能繼續成長。"}<small>{adult ? "提示作答與當日重做不重複領獎。隔天可再獨立複習，所有成果跟著帳號保存。" : "使用提示與複習題答對仍有效；答錯不發經驗，同題一天一次。等級與經驗值跟著你的帳號保存。"}</small></p></details>
     </details>
   </section>, grade);
 }

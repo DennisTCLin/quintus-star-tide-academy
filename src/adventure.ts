@@ -91,6 +91,7 @@ export type Run = {
   learningEnabled: boolean;
 };
 export type Profile = {
+  adultAdventure?: {legacy?:boolean;sessionId:string;companion:string;outcome:'active'|'won'|'failed';earned:number;rewarded:boolean;encounter?:QuizEncounter};
   challengeTiming?: TimingMode;
   masteryConversion: MasteryConversion;
   mathIsland?: CloudIsland;
@@ -259,6 +260,11 @@ export function validateFamily(value: unknown): Family {
     if (p.learningRewards !== undefined) validateLearningRewards(p.learningRewards);
     if (p.territory !== undefined) validateTerritory(p.territory);
     if (p.homeDecor !== undefined) validateHomeDecor(p.homeDecor, roomCount(p.territory));
+    if(p.adultAdventure!==undefined){
+      const a=p.adultAdventure;requireValue(record(a)&&typeof a.sessionId==='string'&&a.sessionId.length<=100&&typeof a.companion==='string'&&!!petById(a.companion)&&typeof a.outcome==='string'&&['active','won','failed'].includes(a.outcome)&&integer(a.earned,6)&&typeof a.rewarded==='boolean');
+      requireValue(a.legacy===undefined||typeof a.legacy==='boolean');
+      if(a.encounter!==undefined){const e=a.encounter as QuizEncounter;requireValue(record(e));const m=monsterById(e.variant);requireValue(integer(e.level,1000)&&e.level>=1&&integer(e.earned,60)&&m&&m.family===e.monster&&monsterEligible(m,e.level)&&e.combat?.version===2&&sameStats(e.combat.ally,encounterStats(2,petById(a.companion)!.rarity,e.level))&&sameStats(e.combat.foe,encounterStats(2,m.rarity,e.level)));}
+    }
     if (p.lastMonsterVariant !== undefined) requireValue(monsterById(p.lastMonsterVariant));
     if (sourceVersion < 6) {
       p.growth = { xp: {}, day: p.day, credited: [] };

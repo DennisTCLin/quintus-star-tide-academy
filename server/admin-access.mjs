@@ -1,3 +1,4 @@
+import {schoolMemberPredicate} from './learner-programme.mjs';
 import { randomUUID } from 'node:crypto';
 import { passwordHash, passwordMatches } from './credentials.mjs';
 import { ensureSchema } from './schema-migration.mjs';
@@ -30,7 +31,7 @@ async function policy(db,b){
  need(Number.isInteger(b.grantLimit)&&b.grantLimit>=1&&b.grantLimit<=100,'每次發券上限須為 1–100 張');
  need(Array.isArray(b.memberIds)&&b.memberIds.length<=1000&&b.memberIds.every(uuid),'孩子範圍不正確');
  const ids=[...new Set(b.memberIds.map(x=>x.toLowerCase()))].sort();
- const existing=await db.query('SELECT id FROM player_logins WHERE id=ANY($1::uuid[]) FOR SHARE',[ids]);
+ const existing=await db.query(`SELECT m.id FROM player_logins m WHERE m.id=ANY($1::uuid[]) AND (${await schoolMemberPredicate(db)}) FOR SHARE`,[ids]);
  need(existing.rowCount===ids.length,'孩子名單已變更，請重新整理');
  return {enabled:b.enabled,canGrant:b.canGrant,scope:b.scope,memberIds:b.scope==='all'?[]:ids,grantLimit:b.grantLimit};
 }

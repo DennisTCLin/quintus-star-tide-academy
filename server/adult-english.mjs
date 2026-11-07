@@ -1,7 +1,7 @@
 import { randomBytes, randomUUID, createHash, timingSafeEqual } from 'node:crypto';
 import { passwordHash, passwordMatches } from './credentials.mjs';
 import { ensureSchema } from './schema-migration.mjs';
-import { freshState, parseState, startLesson, startReview, answerCurrent, advance, taipeiDay, exerciseById } from '../build/adult.mjs';
+import { freshState, parseState, startLesson, startReview, answerCurrent, advance, taipeiDay, exerciseById,validPlan,startPlacement,answerPlacement,placementReport } from '../build/adult.mjs';
 const hash = value => createHash('sha256').update(value).digest('hex');
 const secret = () => randomBytes(32).toString('hex');
 const need = (v,message='操作資料不正確',status=400) => { if(!v)throw Object.assign(Error(message),{status}); };
@@ -24,7 +24,7 @@ export async function createAdultEnglishService({pool,transaction,limit,readBody
   async function session(db,user){const token=secret(),csrf=secret();await db.query("INSERT INTO adult_english_sessions(token_hash,user_id,csrf,expires_at) VALUES($1,$2,$3,now()+interval '30 days')",[hash(token),user.id,csrf]);return {token,csrf};}
   async function authenticate(req){const token=String(req.headers.cookie??'').split(';').map(s=>s.trim()).find(s=>s.startsWith(name+'='))?.slice(name.length+1);need(token&&/^[a-f\d]{64}$/.test(token),'請登入成人英文帳號',401);const user=(await pool.query('SELECT u.id,u.username,s.csrf,s.token_hash FROM adult_english_sessions s JOIN adult_english_users u ON u.id=s.user_id WHERE s.token_hash=$1 AND s.expires_at>now()',[hash(token)])).rows[0];need(user,'登入已到期，請重新登入',401);return user;}
   async function lockSession(db,user){need((await db.query('SELECT token_hash FROM adult_english_sessions WHERE token_hash=$1 AND user_id=$2 AND expires_at>now() FOR UPDATE',[user.token_hash,user.id])).rowCount===1,'登入已到期，請重新登入',401);}
-  return async function adult(req,res,path){
+  const handle=async function adult(req,res,path){
     const ip=production?String(req.headers['x-forwarded-for']||req.socket.remoteAddress).split(',').at(-1).trim():req.socket.remoteAddress;
     const auth=['/api/adult/register','/api/adult/login','/api/adult/recover'].includes(path);
     if(auth){
@@ -36,7 +36,7 @@ export async function createAdultEnglishService({pool,transaction,limit,readBody
       else {const matches=await passwordMatches(body.password,user?.password_hash||'0'.repeat(32)+':'+ '0'.repeat(128));need(user&&matches,'帳號或密碼不正確',401);}
       const payload=await transaction(async db=>{
         if(path.endsWith('/register')){user={id:randomUUID(),username};await db.query('INSERT INTO adult_english_users(id,username,password_hash,recovery_hash) VALUES($1,$2,$3,$4)',[user.id,username,password,hash(recoveryCode)]);await db.query('INSERT INTO adult_english_states(user_id,state) VALUES($1,$2)',[user.id,JSON.stringify(freshState())]);}
-        else {const current=(await db.query('SELECT * FROM adult_english_users WHERE id=$1 FOR UPDATE',[user.id])).rows[0];need(current&&current.password_hash===user.password_hash&&current.recovery_hash===user.recovery_hash,'帳號已更新，請重新登入',401);if(password){await db.query('UPDATE adult_english_users SET password_hash=$2,recovery_hash=$3 WHERE id=$1',[user.id,password,hash(recoveryCode)]);await db.query('DELETE FROM adult_english_sessions WHERE user_id=$1',[user.id]);}}
+        else {const current=(await db.query('SELECT * FROM adult_english_users WHERE id=$1 FOR UPDATE',[user.id])).rows[0];need(current&&current.password_hash===user.password_hash&&current.recovery_hash===user.recovery_hash,'帳號已更新，請重新登入',401);if(password){await db.query('UPDATE adult_english_users SET password_hash=$2,recovery_hash=$3 WHERE id=$1',[user.id,password,hash(recoveryCode)]);if(handle.revokeGameSessions)await handle.revokeGameSessions(db,user.id);await db.query('DELETE FROM adult_english_sessions WHERE user_id=$1',[user.id]);}}
         const login=await session(db,user),state=(await db.query('SELECT state FROM adult_english_states WHERE user_id=$1',[user.id])).rows[0].state;return {...view(state,{...user,csrf:login.csrf}),token:login.token,...(recoveryCode?{recoveryCode}:{})};
       });const {token,...data}=payload;send(res,200,data,{'Set-Cookie':cookie(token)});return;
     }
@@ -56,24 +56,32 @@ export async function createAdultEnglishService({pool,transaction,limit,readBody
         return {...view(state,user),recoveryCode};
       });send(res,200,payload);return;
     }
-    if(path==='/api/adult/logout'){await transaction(async db=>{await lockSession(db,user);await db.query('DELETE FROM adult_english_sessions WHERE token_hash=$1',[user.token_hash]);});send(res,200,{ok:true},{'Set-Cookie':cookie('',0)});return;}
+    if(path==='/api/adult/logout'){await transaction(async db=>{await lockSession(db,user);if(handle.revokeGameSessions)await handle.revokeGameSessions(db,user.id,user.token_hash);await db.query('DELETE FROM adult_english_sessions WHERE token_hash=$1',[user.token_hash]);});send(res,200,{ok:true},{'Set-Cookie':cookie('',0)});return;}
     need(path==='/api/adult/command','找不到服務',404);const body=await readBody(req);fields(body,['username','id','revision','command']);need(body.username===user.username,'成人帳號已切換，請重新同步',409);need(uuid(body.id)&&Number.isSafeInteger(body.revision)&&body.revision>=0&&object(body.command));const digest=hash(JSON.stringify(body));
     const response=await transaction(async db=>{
       await lockSession(db,user);const row=(await db.query('SELECT state FROM adult_english_states WHERE user_id=$1 FOR UPDATE',[user.id])).rows[0];const previous=(await db.query('SELECT payload_hash FROM adult_english_receipts WHERE user_id=$1 AND command_id=$2',[user.id,body.id])).rows[0];
       if(previous){need(previous.payload_hash===digest,'操作編號已使用',409);return {...view(row.state,user),replayed:true};}
-      need(row.state.revision===body.revision,'其他裝置已更新進度，請先重新同步',409);let state=parseState(JSON.stringify(row.state));const c=body.command,day=taipeiDay();
+      need(row.state.revision===body.revision,'其他裝置已更新進度，請先重新同步',409);let state=parseState(JSON.stringify(row.state));const before=structuredClone(state),c=body.command,day=taipeiDay();
       const current=()=>{need(state.session&&!state.session.complete&&c.sessionId===state.session.id&&c.index===state.session.index,'這組練習已更新，請重新同步',409);};
       switch(c.type){
         case 'profile': fields(c,['type','name','track','dailyGoal']);need(typeof c.name==='string'&&c.name.trim().length>0&&c.name.trim().length<=24&&['everyday','travel','work'].includes(c.track)&&[6,12].includes(c.dailyGoal));state.profile={name:c.name.trim(),track:c.track,dailyGoal:c.dailyGoal};break;
+        case 'plan-set': fields(c,['type','purposes','minutes','weeklyDays','confidence','focus']);need(state.profile,'請先設定學習名稱');{const plan={version:1,purposes:c.purposes,minutes:c.minutes,weeklyDays:c.weeklyDays,confidence:c.confidence,focus:c.focus,startedDay:state.plan?.startedDay??day};need(validPlan(plan),'請選擇學習目標、時間與頻率');state.plan=plan;state.profile.track=plan.purposes[0];state.profile.dailyGoal=plan.minutes===5?6:12;}break;
+        case 'placement-start': fields(c,['type']);need(state.profile&&state.plan,'請先設定學習目標');need(!state.placement,'起點測驗已開始，請接續原測驗',409);state.placement=startPlacement(day);break;
+        case 'placement-answer': fields(c,['type','placementId','index','answer','skip']);need(state.placement?.status==='active'&&c.placementId===state.placement.id&&c.index===state.placement.index,'起點測驗已更新，請重新同步',409);need(c.skip===true?(c.answer===undefined&&exerciseById(state.placement.ids[c.index])?.kind==='listen'):(c.skip===undefined&&typeof c.answer==='string'&&c.answer.trim().length>0&&c.answer.length<=300));state.placement=transition(()=>answerPlacement(state.placement,c.skip?'':c.answer,!!c.skip,day));break;
+        case 'placement-confirm': fields(c,['type','placementId']);need(state.placement?.id===c.placementId&&state.placement.status==='complete'&&state.plan,'請先完成起點測驗');placementReport(state.placement,state.plan);state.placement.acknowledged=true;break;
         case 'lesson-start': fields(c,['type','lessonId']);need(state.profile,'請先完成學習設定');need(typeof c.lessonId==='string');state=transition(()=>startLesson(state,c.lessonId));break;
         case 'review-start': fields(c,['type','mode']);need(state.profile,'請先完成學習設定');need(['due','mistakes','all'].includes(c.mode));state=transition(()=>startReview(state,c.mode,day));break;
-        case 'answer': fields(c,['type','sessionId','index','answer']);current();need(typeof c.answer==='string'&&c.answer.trim().length>0&&c.answer.length<=300);state=transition(()=>answerCurrent(state,c.answer,false,day));break;
+        case 'answer': fields(c,['type','sessionId','index','answer','autoNext']);current();need(typeof c.answer==='string'&&c.answer.trim().length>0&&c.answer.length<=300&&(c.autoNext===undefined||typeof c.autoNext==='boolean'));state=transition(()=>answerCurrent(state,c.answer,false,day));if(c.autoNext===true&&state.session.results.at(-1).correct)state=transition(()=>advance(state,day));break;
         case 'hint': fields(c,['type','sessionId','index']);current();need(state.session.results.length===state.session.index,'這題已送出');need(exerciseById(state.session.ids[state.session.index])?.kind==='listen','此題沒有聽力文字提示');state.session.assistedIds=[...new Set([...(state.session.assistedIds??[]),state.session.ids[state.session.index]])];break;
         case 'next': fields(c,['type','sessionId','index']);current();state=transition(()=>advance(state,day));break;
         case 'end': fields(c,['type','sessionId']);need(state.session&&c.sessionId===state.session.id,'這組練習已更新',409);state.session=null;break;
         default:need(false,'找不到這個成人學習操作');
       }
+      if(handle.afterCommand)await handle.afterCommand(db,user,before,state,c,day);
       state.revision++;parseState(JSON.stringify(state));await db.query('UPDATE adult_english_states SET state=$2,updated_at=now() WHERE user_id=$1',[user.id,JSON.stringify(state)]);await db.query('INSERT INTO adult_english_receipts(user_id,command_id,payload_hash) VALUES($1,$2,$3)',[user.id,body.id,digest]);return {...view(state,user),replayed:false};
     });send(res,200,response);
   };
+  handle.authenticate=authenticate;
+  handle.cookieName=name;
+  return handle;
 }

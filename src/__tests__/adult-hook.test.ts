@@ -4,6 +4,7 @@ import vm from 'node:vm';
 import {transformSync} from 'esbuild';
 import {randomUUID} from 'node:crypto';
 import * as engine from '../adult/engine';
+import * as ids from '../client-id';
 // Execute the real hook without adding a DOM-test dependency. Renders are explicit
 // checkpoints; this harness does not certify React Strict Mode or browser layout.
 const compiled=transformSync(readFileSync(new URL('../adult/cloud.ts',import.meta.url),'utf8'),{loader:'ts',format:'cjs'}).code;
@@ -20,7 +21,7 @@ function harness(initial:Record<string,string>={}){
   useEffect(fn:any,deps:any[]){const i=cursor++;if(!slots[i]||!same(slots[i].deps,deps)){slots[i]?.cleanup?.();slots[i]={deps};effects.push(()=>{slots[i].cleanup=fn();});}},
  };
  const module={exports:{} as any};
- vm.runInNewContext(compiled,{module,exports:module.exports,require:(name:string)=>{if(name==='react')return react;if(name==='./engine')return engine;throw Error('Unexpected module '+name);},AbortController,setTimeout,clearTimeout,setInterval:()=>1,clearInterval:()=>{},crypto:{randomUUID},window:{addEventListener(){},removeEventListener(){}},document:{hidden:false},sessionStorage:{getItem:(k:string)=>storage.get(k)??null,setItem:(k:string,v:string)=>storage.set(k,v),removeItem:(k:string)=>storage.delete(k)},fetch:(path:string,options:any)=>new Promise(resolve=>calls.push({path,body:options.body&&JSON.parse(options.body),resolve}))});
+ vm.runInNewContext(compiled,{module,exports:module.exports,require:(name:string)=>{if(name==='react')return react;if(name==='./engine')return engine;if(name==='../client-id')return ids;throw Error('Unexpected module '+name);},AbortController,setTimeout,clearTimeout,setInterval:()=>1,clearInterval:()=>{},crypto:{randomUUID},window:{addEventListener(){},removeEventListener(){}},document:{hidden:false},sessionStorage:{getItem:(k:string)=>storage.get(k)??null,setItem:(k:string,v:string)=>storage.set(k,v),removeItem:(k:string)=>storage.delete(k)},fetch:(path:string,options:any)=>new Promise(resolve=>calls.push({path,body:options.body&&JSON.parse(options.body),resolve}))});
  return {calls,storage,render(){cursor=0;const result=module.exports.useAdultCloud();while(effects.length)effects.shift()!();return result;},respond(index:number,data:any,status=200){calls[index].resolve({ok:status>=200&&status<300,status,json:async()=>typeof data==='string'?JSON.parse(data):data});}};
 }
 const operation=()=>({username:'adult_a',id:randomUUID(),revision:0,command:{type:'profile',name:'A',track:'everyday',dailyGoal:6}});

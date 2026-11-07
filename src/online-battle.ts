@@ -51,6 +51,6 @@ export function useOnlineBattle(player:PlayerId|null,csrf:string|undefined) {
     const room=state?.room;
     return send({player,action,commandId:createClientId(),...(action==="invite"?{}:{room:room?.id,revision:room?.revision}),...extra});
   };
-  return {state,connected,busy,error,uncertain,act,retry:()=>uncertainRef.current?send(uncertainRef.current):Promise.resolve(false),clockOffset};
+  return {state,connected,busy,error,uncertain,csrf:csrf??'',act,retry:()=>uncertainRef.current?send(uncertainRef.current):Promise.resolve(false),clockOffset};
 }
 export type OnlineController = ReturnType<typeof useOnlineBattle>;

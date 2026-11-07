@@ -1,5 +1,5 @@
 type QuestionForListening = {
-  id: string; grade: number; course: string; audio?: string;
+  id: string; grade: number | null; course: string; audio?: string;
   options: { text: string }[];
 };
 /** Presentation only. No answer key or question-bank import belongs here. */

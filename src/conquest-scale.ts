@@ -1,3 +1,4 @@
+import { creatureBattleSpan } from './creature-body';
 // World proportions shared by the chart and close-up battlefield.
 // Buildings keep their authored size while territories gain surrounding land.
 export const ISLAND_EXPANSION = 1.5;
@@ -16,8 +17,6 @@ const HEIGHTS: Record<string, number> = {
   'hero-elf': .4, 'hero-necromancer': .44, 'hero-druid': .45,
   'hero-gnome': .25, 'hero-dwarf': .3, 'hero-undead': .43, 'hero-goblin': .27,
   'hero-tauren': .52, 'hero-half-orc': .42, 'hero-human-paladin': .44, 'hero-orc': .48, 'hero-werewolf': .47, 'hero-blood-elf': .43, 'hero-troll': .53,
-  tideglow: .29, pebblefin: .22, foamferret: .17, seasprout: .17,
-  mistotter: .22, sailskipper: .15, kelpcub: .34, shellmole: .17,
-  starheron: .34, reefrabbit: .23,
 };
-export function figureHeight(id: string) { return (HEIGHTS[id] ?? .28) * BATTLE_SCALE; }
+// Commanders retain their reference height; creature art uses its longest visible axis.
+export function figureSpan(id: string) { return id in HEIGHTS ? HEIGHTS[id] * BATTLE_SCALE : creatureBattleSpan(id); }

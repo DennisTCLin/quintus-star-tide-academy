@@ -1,4 +1,9 @@
+import{adultSessionStatus}from'./adult/session-status';
+import WorldLobby from './WorldLobby';
 import CharacterPortrait from './CharacterPortrait';
+import FriendTrades from './FriendTrades';
+import {AdultGameContext} from './adult/game-context';
+import CrewPanel from './CrewPanel';
 import ConquestRaidNotice from './ConquestRaidNotice';
 import StoryCinemaEntry from './StoryCinemaEntry';
 import { storyFromSearch, type StoryId } from './story-films';
@@ -68,7 +73,7 @@ import { battlePresentationTiming, visibleBattle, advanceBattlePhase, type Battl
 import useHomeMusic, { HOME_MUSIC, COMPANION_MUSIC, BATTLE_MUSIC } from "./useHomeMusic";
 import { learningSummary } from "./learning-summary";
 import { SKILL_NAMES } from "./learning-catalog";
-import { useContext, useEffect, useRef, useState, type ReactNode } from "react";
+import { useContext, useEffect, useRef, useState, lazy, Suspense, type ReactNode } from "react";
 import { recoverablePage } from "./RecoverablePage";
 import AccountGate, { LegacyTransfer, RecoverySettings } from "./AccountGate";
 import { useCloud, type PublicQuestion } from "./cloud";
@@ -123,6 +128,9 @@ const ConquestPage = recoverablePage(() => import("./ConquestPage"), "群島遠�
 const TerritoryPage = recoverablePage(() => import("./TerritoryPage"), "領地");
 const RoomEditor = recoverablePage(() => import("./RoomEditor"), "房間");
 const StoryCinema = recoverablePage(() => import("./StoryCinema"), "星潮故事");
+const AdultCourseMap=lazy(()=>import('./adult/GameStudy').then(m=>({default:m.AdultCourseMap})));
+const AdultGameStudy=lazy(()=>import('./adult/GameStudy').then(m=>({default:m.AdultGameStudy})));
+const AdultRecord=lazy(()=>import('./adult/GameStudy').then(m=>({default:m.AdultRecord})));
 type Page =
   | "cinema"
   | "review"
@@ -273,7 +281,8 @@ export default function App() {
     </AccountAvatarProvider>
   );
 }
-function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
+export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
+  const adult=useContext(AdultGameContext),isAdult=cloud.state?.learner?.kind==='adult';
   const family = cloud.state?.family ?? null;
   const [id, setId] = useState<PlayerId | null>(cloud.state?.playerId ?? null),
     [page, setPage] = useState<Page>(() => storyFromSearch(window.location.search) ? 'cinema' : 'home'),
@@ -291,7 +300,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
   const [islandChoice, setIslandChoice] = useState<{ target: IslandDestination; runId?: string; mathId?: string } | null>(null);
   const switchingIsland = useRef(false);
   const social = useOnlineBattle(id, cloud.state?.csrf);
-  const sharedConquest = useSharedConquest(cloud.state?.username ?? '',id,cloud.state?.csrf);
+  const sharedConquest = useSharedConquest(cloud.state?.username ?? '',isAdult&&!cloud.state?.learner?.socialApproved?null:id,cloud.state?.csrf);
   const [territoryGoalRequest, setTerritoryGoalRequest] = useState<GoalRequest | null>(null);
   const territoryGoalSequence = useRef(0);
   const [voice, setVoice] = useState(false),
@@ -385,9 +394,11 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
   const consumeOutcomeAnimation = () => setResultPresentation(old => old?.live ? { ...old, live: false } : old);
   const restartCourseAvailable = !!run && COURSES[grade].some(c => c.id === run.course);
   const arenaCombatActive = page === "battle" && !!battle && (battle.winner === null || !!battlePlayback);
-  const quizCombatActive = page === "learn" && run?.status === "active" && !!q;
+  const adultSession=adult?.learning.snapshot?.state.session;
+  const adultFinished=adultSessionStatus(adultSession,p?.adultAdventure).complete;
+  const quizCombatActive = page === "learn" && (isAdult ? !!adultSession&&!adultFinished : run?.status === "active" && !!q);
   const quizPreparing = page === "learn" && run?.status === "active" && !!run.challenge && !run.challenge.clock && !run.settled;
-  const quizFocused = quizCombatActive && (!run?.challenge || !!run.challenge.clock || !!run.settled);
+  const quizFocused = quizCombatActive && (isAdult||!run?.challenge || !!run.challenge.clock || !!run.settled);
   useEffect(() => {
     setQuestionExpanded(false);
     questionReading.current?.scrollTo({ top: 0 });
@@ -431,10 +442,11 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
     window.addEventListener("resize", scheduleUpdate);
     return () => { observer.disconnect(); window.removeEventListener("resize", scheduleUpdate); if (frame !== undefined) cancelAnimationFrame(frame); root.style.removeProperty("--quiz-viewport-height"); main?.style.removeProperty("--quiz-stage-height"); };
   }, [quizFocused, questionExpanded, run?.id, run?.index]);
+  const socialQuiet=page==="learn"||page==="island"||page==="review"||arenaCombatActive||(page==="battle"&&social.state?.room?.status!=="active");
   const friendsPresence = usePresence(id, cloud.state?.csrf,
     social.state?.room?.status === "active" || arenaCombatActive ? "battle"
       : page === "battle" ? "preparing"
-      : page === "learn" || page === "island" || page === "review" ? "learning"
+      : page === "learn" && !adultFinished || page === "island" || page === "review" ? "learning"
       : page === "collection" || page === "bestiary" ? "collection"
       : page === "territory" || page === "room" ? "territory"
       : page === "lottery" ? "lottery" : page === "trade" ? "trade" : page === "leaderboard" ? "leaderboard" : "home");
@@ -609,7 +621,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
     const source = battle,
       owner = id;
     const course =
-      grade === 1
+      isAdult ? "english" : grade === 1
         ? "english"
         : grade === 2
           ? battle.quizUsed.length % 2
@@ -773,6 +785,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
     });
   }
   function requestLearning() {
+    if(isAdult){navigate("learn");return;}
     if (!id || busy || pending.current || !cloud.online || !departure) return;
     if (departure.kind === "capture") {
       // WebKit pointer clicks do not reliably focus buttons before the dialog mounts.
@@ -1039,16 +1052,16 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
   const islandPet = petById(p.mathIsland?.run && !p.mathIsland.run.completed ? p.mathIsland.run.companion : p.equipped) ?? pet;
   const suggestions = tradeSuggestions(family, id);
   const pickedPet = petDetail ? petById(petDetail) : undefined;
-  const harborAction = departure!.action;
-  const harborHint = departure!.hint;
-  const companionPageQuiet = !!quizPreparing || page === "cinema" || page === "leaderboard" || page === "battle" || page === "conquest" || companionQuiet(page, !!quizCombatActive, arenaCombatActive, false);
+  const harborAction = isAdult?(adult?.learning.snapshot?.state.session&&!adult.learning.snapshot.state.session.complete?"繼續英文挑戰":"選一座英文島出發"):departure!.action;
+  const harborHint = isAdult?"學英文、養夥伴，和家人一起航向星海。":departure!.hint;
+  const companionPageQuiet = (isAdult&&page==="learn") || !!quizPreparing || page === "cinema" || page === "leaderboard" || page === "battle" || page === "conquest" || companionQuiet(page, !!quizCombatActive, arenaCombatActive, false);
   const companionOverlay = !!(viewCollection || chooser || coursePicker || pickedPet || leave || handoff || islandChoice);
 
   return (
     <ReadingContext.Provider value={{ grade: readingGrade, voice: voice && allowsReadAloud(readingGrade) }}>
       {annotateTree(
         <div
-          className={`family-app ${page === "home" ? "home-page" : ""} ${quizFocused ? "quiz-focused" : ""} ${quizPreparing ? "quiz-preparing" : ""} ${questionExpanded ? "question-expanded" : ""} grade-${readingGrade} ${page === "learn" && run ? `quiz-active ${run.status !== "active" ? "quiz-complete" : ""} ${resultReady ? `quiz-result-ready ${run.status === "failed" ? "quiz-result-failed" : ""}` : ""}` : ""} ${reduceMotion ? "reduce-motion" : ""} ${contrast ? "high-contrast" : ""}`}
+          className={`family-app ${isAdult?"adult-game":""} ${page === "home" ? "home-page" : ""} ${quizFocused ? "quiz-focused" : ""} ${quizPreparing ? "quiz-preparing" : ""} ${questionExpanded ? "question-expanded" : ""} grade-${readingGrade} ${isAdult&&page==="learn"&&adultSession?`quiz-active ${adultFinished?"quiz-complete quiz-result-ready":""}`:page === "learn" && run ? `quiz-active ${run.status !== "active" ? "quiz-complete" : ""} ${resultReady ? `quiz-result-ready ${run.status === "failed" ? "quiz-result-failed" : ""}` : ""}` : ""} ${reduceMotion ? "reduce-motion" : ""} ${contrast ? "high-contrast" : ""}`}
         >
           <a className="skip-link" href={page === "home" ? "#harbor-departure" : "#family-main"}>
             跳到主要內容
@@ -1077,11 +1090,12 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
               <PlayerAvatar id={player.id} />
               <b>
                 {player.name}
-                <small>{grade} 年級</small>
+                <small>{isAdult?"成人英文":`${grade} 年級`}</small>
               </b>
               {!cloud.state.playerId && <span>⌄</span>}
             </button>
             <FriendsPresence key={player.id} player={player.id} snapshot={friendsPresence} profile={p} social={social} onCollection={setViewCollection} />
+            <WorldLobby key={`world-${cloud.state.username}-${id}`} player={player.id} account={cloud.state.username} csrf={cloud.state.csrf} profile={p} social={social} presence={friendsPresence} occupied={socialQuiet} />
             <div className="wallet">
               <span title="可用星幣">
                 🟡 <b>{p.coins}</b>
@@ -1112,8 +1126,8 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
               <ReadAloud grade={readingGrade}><button type="button" className="harbor-departure-listen" aria-label="聽出發說明" data-read-aloud onClick={() => speak(!cloud.online ? "目前離線，連線後就能開始學習。" : `${harborHint}按${harborAction}。`, setNotice)}>🔊</button></ReadAloud>
             </div>
           </section>}
-          {page === "home" && <ConquestHomeEntry controller={sharedConquest} key={`${cloud.state.username}:${id}`} account={cloud.state.username} player={id} name={player.name} onEnter={destination => { setConquestDestination(destination); navigate("conquest"); }} />}
-          <OnlineBattle key={player.id} controller={social} profile={p} reduced={battleReducedMotion} />
+          {page === "home" && (!isAdult||cloud.state.learner?.socialApproved) && <ConquestHomeEntry controller={sharedConquest} key={`${cloud.state.username}:${id}`} account={cloud.state.username} player={id} name={player.name} onEnter={destination => { setConquestDestination(destination); navigate("conquest"); }} />}
+          <OnlineBattle key={player.id} controller={social} profile={p} reduced={battleReducedMotion} quiet={socialQuiet} />
           <ResourceRibbon profile={p} online={cloud.online} onVisit={() => navigate("territory")} />
           <nav className="family-nav" aria-label="主要導覽">
             {navs.map((n) => (
@@ -1124,7 +1138,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                 onClick={() => { if (n.page === "conquest") setConquestDestination({}); navigate(n.page); }}
               >
                 <NavIcon name={n.page} />
-                {label(n.name, n.zy)}
+                {isAdult&&n.page==="parent"?"紀錄":label(n.name, n.zy)}
               </button>
             ))}
           </nav>
@@ -1144,7 +1158,8 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
               </div>
             )}
             {reviewOffer && !(page === "learn" && victoryReady && reviewOffer === run?.course) && <section className="f-panel"><h2>學過的題目，接著練</h2><p>原有精熟與獎勵都保留；複習不重複發獎勵。</p><button disabled={busy || !cloud.online} onClick={() => void beginReview('all', reviewOffer)}>開始複習</button><button onClick={() => { setReviewOffer(null); navigate('home'); }}>換個科目</button></section>}
-            {page === "conquest" && <ConquestPage controller={sharedConquest} destination={conquestDestination} key={`${cloud.state.username}:${id}`} account={cloud.state.username} player={id} name={player.name} owned={p.owned} growthXp={p.growth.xp} equipped={p.equipped} reduced={battleReducedMotion} onLearn={requestLearning} onLoadBack={()=>navigate("home")} />}
+            {page === "conquest" && isAdult&&!cloud.state.learner?.socialApproved && <CrewPanel key={`${cloud.state.username}:${cloud.state.csrf}:${id}`} player={id} csrf={cloud.state.csrf} onConnected={()=>void cloud.refresh()}/> }
+            {page === "conquest" && (!isAdult||cloud.state.learner?.socialApproved) && <ConquestPage controller={sharedConquest} destination={conquestDestination} key={`${cloud.state.username}:${id}`} account={cloud.state.username} player={id} name={player.name} owned={p.owned} growthXp={p.growth.xp} equipped={p.equipped} reduced={battleReducedMotion} onLearn={requestLearning} onLoadBack={()=>navigate("home")} />}
             {page === "cinema" && <StoryCinema key={`${cloud.state.username}:${id}`} initialStory={cinemaStart} onLoadBack={() => navigate("home")} />}
             {page === "territory" && <details className="home-building-details"><summary>建築目標與材料明細</summary><LearningBuildPanel key={id} profile={p} busy={busy} online={cloud.online} onGoal={goal=>change({type:"learning-goal",player:id,goal})} onVisit={openBuildingGoal} /></details>}
             {page === "territory" && <TerritoryPage key={id} onLoadBack={()=>navigate("home")} goalRequest={territoryGoalRequest} profile={p} reduced={battleReducedMotion} busy={busy} online={cloud.online} serverNow={cloud.state.serverNow} musicControl={musicControl} onRoom={()=>navigate("room")} onTrain={requestLearning} onAction={command => change({ ...command, player: id })} />}
@@ -1185,13 +1200,13 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                   </div>
                 </section>
                 <StoryCinemaEntry onOpen={story => { setCinemaStart(story); navigate("cinema"); }} />
-                <CourseSelection profile={p} onIsland={() => selectIsland("island")} islandRun={p.mathIsland?.run} grade={grade} run={run} online={cloud.online} busy={busy}
+                {isAdult&&adult?<Suspense fallback={<p role="status">正在展開英文航線…</p>}><AdultCourseMap learning={adult.learning} onStart={()=>navigate("learn")}/></Suspense>:<CourseSelection profile={p} onIsland={() => selectIsland("island")} islandRun={p.mathIsland?.run} grade={grade} run={run} online={cloud.online} busy={busy}
                   reduced={battleReducedMotion} motionGranted={islandMapActive} motionSuspended={companionOpen} onMotionActivity={setIslandMapActive}
                   onStart={selectIsland} onResume={() => navigate("learn")}
-                  onSpeak={text => speak(text, () => setNotice("暫時無法朗讀航線說明，請依照圖案和文字操作。"))} />
+                  onSpeak={text => speak(text, () => setNotice("暫時無法朗讀航線說明，請依照圖案和文字操作。"))} />}
                 <button className="tide-harbor-entry" onClick={e => { e.currentTarget.focus({ preventScroll: true }); setCompanionOpenRequest(n => n + 1); }}><CharacterPortrait characterId={`mascot-${mascot}`} paused={battleReducedMotion} src={companionPortrait(mascot)} alt="" width="72" height="72" /><span><strong>{companionName(mascot)}陪你一起學</strong>摸摸、餵點心，或聊聊今天的冒險</span><b aria-hidden="true">✦</b></button>
-                <StudyEntry summary={cloud.state.studySummaries?.[id]} session={p.learning.study?.session} disabled={busy || !cloud.online || run?.status === 'active' || !!(p.mathIsland?.run && !p.mathIsland.run.completed)} onStart={mode => void beginReview(mode)} onFinish={() => { void change({ type: "review-finish", player: id, sessionId: p.learning.study?.session?.id }); }} />
-                <TrainingPanel key={id} profile={p} day={cloud.state.day} online={cloud.online} busy={busy}
+                {!isAdult&&<StudyEntry summary={cloud.state.studySummaries?.[id]} session={p.learning.study?.session} disabled={busy || !cloud.online || run?.status === 'active' || !!(p.mathIsland?.run && !p.mathIsland.run.completed)} onStart={mode => void beginReview(mode)} onFinish={() => { void change({ type: "review-finish", player: id, sessionId: p.learning.study?.session?.id }); }} />}
+                <TrainingPanel adultToday={isAdult?(p.milestones.awardedByDay[cloud.state.day]?.length??0):undefined} key={id} profile={p} day={cloud.state.day} online={cloud.online} busy={busy}
                   onSelect={pet => change<boolean>({ type: "equip", player: id, pet })}
                   onTrain={requestLearning}><HomeScene profile={p} onTerritory={()=>navigate("territory")} onRoom={()=>navigate("room")} reduced={battleReducedMotion}/></TrainingPanel>
                 {run?.reward === "pending" && <div className="pending-reward-banner">
@@ -1248,7 +1263,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                       </button>
                     </div>
                   </div>
-                  {grade === 4 ? (
+                  {!isAdult&&grade === 4 ? (
                     <div className="f-panel radar-panel">
                       <h2>五科航海羅盤</h2>
                       <AbilityRadar
@@ -1271,7 +1286,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                         {grade === 1 ? (
                           "👂 → 🖼️ → 🐾"
                         ) : (
-                          grade === 5 ? "五年級五科通用暖身已開放，先讀懂題目再出發。學校教材版本待確認。" : grade === 6 ? "先讀題、列式，再選答案。六年級五科已開放歷屆補充練習，先讀懂題目再出發。" : <AutoRuby text="慢慢聽仔細看" />
+                          isAdult ? "從基礎、生活、旅遊到工作情境，循序練英文。原有英文進度會繼續保留。" : grade === 5 ? "五年級五科通用暖身已開放，先讀懂題目再出發。學校教材版本待確認。" : grade === 6 ? "先讀題、列式，再選答案。六年級五科已開放歷屆補充練習，先讀懂題目再出發。" : <AutoRuby text="慢慢聽仔細看" />
                         )}
                       </p>
                       <ReadAloud grade={readingGrade}><button data-read-aloud
@@ -1289,7 +1304,8 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                 </section>
               </>
             )}
-            {page === "island" && <IslandApp key={id} onLoadBack={()=>navigate("home")}
+            {isAdult&&adult&&page==="learn"&&<Suspense fallback={<p role="status">正在準備英文挑戰…</p>}><AdultGameStudy learning={adult.learning} profile={p} onHome={()=>navigate("home")} refreshGame={cloud.refresh} reduced={battleReducedMotion} onEquip={pet=>change({type:"equip",player:id,pet})}/></Suspense>}
+            {!isAdult && page === "island" && <IslandApp key={id} onLoadBack={()=>navigate("home")}
               player={{id,name:player.name,icon:player.icon,grade}}
               companion={{name:islandPet.name,image:islandPet.image,skill:petSkill(islandPet.id),skillName:SKILLS[petSkill(islandPet.id)].name,skillIcon:SKILLS[petSkill(islandPet.id)].icon}}
               embed={{voice,reduced:battleReducedMotion,online:cloud.online,day:today,progress:p.mathIsland ?? {units:{},pool:[],stats:{},day:"",attempted:[]},
@@ -1298,7 +1314,7 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                 onHelp:(runId,index)=>change({type:"island-help",player:id,runId,index}),
                 onRound:runId=>change({type:"island-finish",player:id,runId}),
                 onQuit:runId=>change({type:"island-quit",player:id,runId}),onExit:(to="home")=>navigate(to)}} />}
-            {page === "learn" && run && quizFocused && (
+            {!isAdult && page === "learn" && run && quizFocused && (
                   <div className="challenge-top quiz-progress-header">
                     <button
                       onClick={() => navigate("home")}
@@ -1325,12 +1341,12 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                   </button>
                   </div>
             )}
-            {page === "learn" && run && <QuizEncounter profile={p} day={cloud.state.day} busy={busy} online={cloud.online} onRecruit={pet => change({ type: "equip", player: id, pet })} key={run.id} run={run}
+            {!isAdult && page === "learn" && run && <QuizEncounter profile={p} day={cloud.state.day} busy={busy} online={cloud.online} onRecruit={pet => change({ type: "equip", player: id, pet })} key={run.id} run={run}
               onBestiary={() => navigate("bestiary")}
               musicControl={!quizFocused && quizCombatActive ? musicControl : undefined}
               xp={p.growth.xp[run.companion] ?? 0}
               reduced={battleReducedMotion} oldDay={run.day !== today} summaryOnly={resultReady} onResultReady={(id, live) => setResultPresentation({ id, live })} />}
-            {page === "learn" &&
+            {!isAdult && page === "learn" &&
               (run?.challenge && !run.challenge.clock && run.status==='active' && !run.settled ? (
                 <ChallengePreparation key={`${run.id}:${run.index}`} assets={cloud.state.questionAssets?.[id]} runId={run.id} blocked={!!leave} challenge={run.challenge} index={run.index} busy={busy} online={cloud.online}
                   correct={run.answers?.filter(Boolean).length??0} answered={run.answers?.length??0}
@@ -1701,7 +1717,8 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
               onEquip={async pet => { if (await change<boolean>({ type: "equip", player: id, pet })) navigate("home"); }}
               onLearn={() => (run?.status === "active" || run?.reward === "pending") ? navigate("learn") : navigate("home")}
               onCollection={() => navigate("collection")} onTrade={() => navigate("trade")} />}
-            {page === "trade" && (
+            {page==="trade"&&<><CrewPanel key={`${cloud.state.username}:${cloud.state.csrf}:${id}`} player={id} csrf={cloud.state.csrf} onConnected={()=>void cloud.refresh()}/><FriendTrades key={`${cloud.state.username}:${cloud.state.csrf}:${id}`} player={id} csrf={cloud.state.csrf} account={cloud.state.username} onChanged={()=>void cloud.refresh()}/></>}
+            {!isAdult && page === "trade" && (
               <>
                 <div className="page-title">
                   <div>
@@ -2216,7 +2233,8 @@ function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
             )}
             {page === "review" && <StudyReview session={p.learning.study?.session} question={cloud.state.studyQuestions?.[id]} grade={grade} busy={busy} online={cloud.online}
               onCommand={(type, extra) => change({ type, player: id, ...extra })} onStart={beginReview} onHome={() => navigate('home')} onCourse={() => { navigate('home'); setCoursePicker(true); }} onError={setNotice} />}
-            {page === "parent" && (
+            {isAdult&&adult&&page==="parent"&&<Suspense fallback={<p role="status">正在讀取英文紀錄…</p>}><AdultRecord learning={adult.learning}/></Suspense>}
+            {!isAdult && page === "parent" && (
               <>
                 <h1 ref={heading} tabIndex={-1}>
                   家長艙

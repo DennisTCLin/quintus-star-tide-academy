@@ -1,3 +1,4 @@
+import {schoolMemberPredicate} from './learner-programme.mjs';
 import {ensureTrialSchema,trialAccountRoutes} from './trial-accounts.mjs';
 import {ensureInviteSchema,inviteCodeRoutes} from './invite-codes.mjs';
 import {trialCurriculumFor} from './trial-curricula.mjs';
@@ -53,7 +54,7 @@ export async function readAdminStudents(pool, admin) {
       (SELECT count(*) FROM player_logins peers WHERE peers.account_id=m.account_id) AS household_size
     FROM player_logins m JOIN game_states g ON g.account_id=m.account_id
     LEFT JOIN player_last_seen seen ON seen.account_id=m.account_id AND seen.player_id=m.player_id
-    WHERE ($1::boolean OR m.id=ANY($2::uuid[])) ORDER BY m.username`,[!admin || allStudents(admin),admin?.member_ids ?? []])).rows;
+    WHERE (${await schoolMemberPredicate(pool)}) AND ($1::boolean OR m.id=ANY($2::uuid[])) ORDER BY m.username`,[!admin || allStudents(admin),admin?.member_ids ?? []])).rows;
   return rows.map(row => {
     const identity = collectionIdentity(row, {}, row.player_id);
     const confirmed = SCHOOL_ROSTER.find(s=>s.username===row.username?.toLowerCase() && s.playerId===row.player_id);
