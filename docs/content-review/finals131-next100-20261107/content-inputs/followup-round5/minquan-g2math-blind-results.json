@@ -1,0 +1,64 @@
+{
+  "status": "8_BLIND_SOURCE_AND_UNIQUE_ANSWERS_PASS_WITH_EXPLICIT_BOOK_PROOF_LIMITATION",
+  "reviewer": "degao_content_check; readonly, noauthor key",
+  "packetSha256": "40498559eae3128f7a7b77eb6f3568b63e00db84b23992b1661075dbe67ad828",
+  "results": [
+    {
+      "id": "phase5-g2m-20003700-i1",
+      "answerText": "40位",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g2m-20003700-i2",
+      "answerText": "時針走一圈經過60分鐘",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g2m-20003700-ii2",
+      "answerText": "16",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g2m-20003700-ii3",
+      "answerText": "8",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g2m-20003700-ii4",
+      "answerText": "7倍",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g2m-20003700-iii1",
+      "answerText": "20根",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g2m-20003700-iii2",
+      "answerText": "12顆",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g2m-20003700-iii3",
+      "answerText": "4小時",
+      "matchesAuthor": true,
+      "unique": true
+    }
+  ],
+  "sourceImagePage": 1,
+  "publisherProof": "114民權同校二年級數學南一官方表",
+  "targetUnitProof": "115南屯二年級第一學期p4 U7/8/9，該PDF沒有明印南一/第3冊",
+  "limits": [
+    "book3 expected grade/semester mapping, not falsely described as explicitly printed in target progressPDF",
+    "Original i3 held: options3 arithmetic4+4+4=12 and4 product12 both literally true",
+    "Hidden text10+10+10+10=40 and10x4=40 contradicts visible problem data; never used as answer key",
+    "Only8 selected subquestions; not whole paper approved or runtime admitted"
+  ]
+}

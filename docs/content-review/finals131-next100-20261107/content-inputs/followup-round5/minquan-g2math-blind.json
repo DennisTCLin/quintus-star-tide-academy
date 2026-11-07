@@ -1,0 +1,118 @@
+{
+  "sourceId": "20003700",
+  "school": "臺北市民權國小",
+  "schoolYear": 114,
+  "grade": 2,
+  "subject": "math",
+  "publisher": "南一",
+  "book": 3,
+  "sourceSha256": "5a796613b10211d78a1ee7962c4717eba7eb8d063c1fc9adf8074edce36bf0fb",
+  "publisherProof": "../curriculum-evidence/114-minquan-selection.json",
+  "targetUnitProof": "../curriculum-evidence/115-nantun-g2-plan.pdf",
+  "items": [
+    {
+      "id": "phase5-g2m-20003700-i1",
+      "sourcePage": 1,
+      "locator": "一1",
+      "prompt": "小丸子有5盒餅乾，每盒8塊，想請每位小朋友吃1塊，最多可以請幾位小朋友？",
+      "options": [
+        "30位",
+        "40位",
+        "50位",
+        "80位"
+      ]
+    },
+    {
+      "id": "phase5-g2m-20003700-i2",
+      "sourcePage": 1,
+      "locator": "一2",
+      "prompt": "關於時鐘與時間，哪一個敘述錯誤？",
+      "options": [
+        "分針是長針",
+        "時針是短針",
+        "時針走一圈經過60分鐘",
+        "分針走6大格是30分鐘"
+      ]
+    },
+    {
+      "id": "phase5-g2m-20003700-ii2",
+      "sourcePage": 1,
+      "locator": "二2",
+      "prompt": "8×7比8×5多多少？",
+      "options": [
+        "8",
+        "16",
+        "24",
+        "40"
+      ]
+    },
+    {
+      "id": "phase5-g2m-20003700-ii3",
+      "sourcePage": 1,
+      "locator": "二3",
+      "prompt": "2×4比2×8少多少？",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "16"
+      ]
+    },
+    {
+      "id": "phase5-g2m-20003700-ii4",
+      "sourcePage": 1,
+      "locator": "二4",
+      "prompt": "3的2倍加上3的5倍，是3的幾倍？",
+      "options": [
+        "3倍",
+        "5倍",
+        "7倍",
+        "10倍"
+      ]
+    },
+    {
+      "id": "phase5-g2m-20003700-iii1",
+      "sourcePage": 1,
+      "locator": "三1",
+      "prompt": "1串香蕉有5根，4串香蕉共有幾根？",
+      "options": [
+        "9根",
+        "15根",
+        "20根",
+        "25根"
+      ]
+    },
+    {
+      "id": "phase5-g2m-20003700-iii2",
+      "sourcePage": 1,
+      "locator": "三2",
+      "prompt": "1串糖葫蘆有4顆小番茄，3串共有幾顆小番茄？",
+      "options": [
+        "7顆",
+        "8顆",
+        "12顆",
+        "16顆"
+      ]
+    },
+    {
+      "id": "phase5-g2m-20003700-iii3",
+      "sourcePage": 1,
+      "locator": "三3",
+      "prompt": "體育表演會從上午8點開始，中午12點結束，共經過幾小時？",
+      "options": [
+        "3小時",
+        "4小時",
+        "5小時",
+        "8小時"
+      ]
+    }
+  ],
+  "status": "BLIND_SOURCE_AND_ANSWER_CHECK_PENDING_NO_IMPORT",
+  "heldForReview": [
+    {
+      "locator": "一3",
+      "reason": "Original asks unique true statement about3x4=12; option3 expresses4+4+4=12 while option4 says12 is product. Potential multiple literal numeric truths, not selected without explicit grouping convention."
+    }
+  ],
+  "adaptation": "必要數字與語句均在p1；香蕉/小番茄圖案改成文字物名，題目不依賴被省略的圖片。"
+}

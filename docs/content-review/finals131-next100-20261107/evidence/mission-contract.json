@@ -1,0 +1,33 @@
+{
+  "outcome": "Add100 individually reviewed selfcontained finals intersections in5 grade/course lanes, retain old stable objects/accounts/save/progress/rewards",
+  "base": "65d3a309bf012f6f54bd21d9b81387d45bf1c992",
+  "allowed": [
+    "100newquestion objects",
+    "6source registrations",
+    "new approvals",
+    "exactnewphrase readings",
+    "currentcapacity test expectations",
+    "fixedmain65d synthetic fixtures/evidence"
+  ],
+  "forbidden": [
+    "oldquestion/oldapproval/template changes",
+    "runtimeallocation/save/reward/auth changes",
+    "newEnglish/grade3 content",
+    "formal actor commands",
+    "directformalDB",
+    "directdeploy/newservice"
+  ],
+  "route": "Relay;rootsolewriter,bounded readonlyblindcontent/pronunciationreview,coldreadonlyfalsifierafterfixedcommit",
+  "doneWhen": [
+    "content/sourcepublisher/book/unit intersections independently bound",
+    "fulltestsand38freshPGpass",
+    "all6629oldstatic/23192generatedunchanged",
+    "5mobileUIlanesQ1correct->automaticQ2->reloadQ2,one+10coinreward",
+    "sourcefalsifierPASS",
+    "authorizedintegrationwindow/canonicalGitHubmainRailwayflow",
+    "independentformalpreservationgateandpublicassetIDverify"
+  ],
+  "formalActorCommands": [],
+  "formalDatabaseAccess": false,
+  "releaseStatus": "NOT_RELEASE_READY"
+}

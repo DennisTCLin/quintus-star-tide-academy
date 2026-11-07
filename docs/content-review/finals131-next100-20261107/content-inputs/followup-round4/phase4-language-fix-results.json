@@ -1,0 +1,17 @@
+{
+  "reviewer": "finals131_release_falsifier",
+  "packetSHA": "18ab500337158584112ec0528455e1f76eb2102a5f036a937de05f115f8cab80",
+  "results": [
+    {
+      "id": "phase4-lang-g2-xiang",
+      "answerIndex": 1,
+      "answerText": "象",
+      "unique": true
+    }
+  ],
+  "correction": {
+    "id": "phase4-lang-g1-bu",
+    "reason": "「不」在第一聲「知」之前，維持本調第四聲ㄅㄨˋ。",
+    "originalReasonMissingQuotes": true
+  }
+}

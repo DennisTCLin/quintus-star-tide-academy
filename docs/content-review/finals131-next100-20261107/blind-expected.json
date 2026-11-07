@@ -1,0 +1,502 @@
+{
+  "phase4-lang-g1-you": {
+    "answerText": "ㄧㄡˇ",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g1-duo": {
+    "answerText": "ㄉㄨㄛ",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g1-le": {
+    "answerText": "˙ㄌㄜ",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g1-bu": {
+    "answerText": "ㄅㄨˋ",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g1-jia": {
+    "answerText": "ㄐㄧㄚ",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-ju": {
+    "answerText": "聚",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-si": {
+    "answerText": "思",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-fa": {
+    "answerText": "發",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-cong": {
+    "answerText": "聰",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-ming": {
+    "answerText": "明",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-wu": {
+    "answerText": "烏",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-han": {
+    "answerText": "寒",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-leng": {
+    "answerText": "冷",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-ye": {
+    "answerText": "夜",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-he": {
+    "answerText": "喝",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-xing": {
+    "answerText": "幸",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-zhu": {
+    "answerText": "柱",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-fix1": {
+    "answerText": "牽、圍",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-fix4": {
+    "answerText": "沿、直",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-fix5": {
+    "answerText": "忘、渴",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-fix6": {
+    "answerText": "貨、東",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-fix7": {
+    "answerText": "操、充",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-fix8": {
+    "answerText": "翅、飛",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-fix9": {
+    "answerText": "待、鍋",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-fix10": {
+    "answerText": "針",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-fix11": {
+    "answerText": "飯",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-fix12": {
+    "answerText": "具",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-mcq2": {
+    "answerText": "伸",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-mcq3": {
+    "answerText": "居然",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-lang-g2-mcq5": {
+    "answerText": "期、服",
+    "evidence": "followup-round4/phase4-language-blind-results.json",
+    "packetSha256": "f6e969fe905b1e9c85dd821716443d042d407f909efe22283fcef242b142b632"
+  },
+  "phase4-g6s-20003548-c01": {
+    "answerText": "方向相反",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c02": {
+    "answerText": "正確",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c03": {
+    "answerText": "正確",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c04": {
+    "answerText": "凸岸主要是因為水流較緩的一側侵蝕最強而形成",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c05": {
+    "answerText": "錯誤",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c06": {
+    "answerText": "為取得石材而開山採石",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c07": {
+    "answerText": "線圈圈數",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c08": {
+    "answerText": "甲、乙、丙都是",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c09": {
+    "answerText": "錯誤",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c10": {
+    "answerText": "玄武岩",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c11": {
+    "answerText": "線圈中持續的電流已停止，但鐵芯仍可能保留一些殘磁",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c12": {
+    "answerText": "軟鐵棒",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c13": {
+    "answerText": "正確",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c14": {
+    "answerText": "錯誤",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c15": {
+    "answerText": "甲、乙都可以",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c16": {
+    "answerText": "甲、乙、丙都是",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c17": {
+    "answerText": "錯誤",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c18": {
+    "answerText": "甲、丙、戊、己",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c19": {
+    "answerText": "N、S、N、S",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c20": {
+    "answerText": "石墨",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c21": {
+    "answerText": "硫黃",
+    "evidence": "followup-round4/phase4-three-fixes-results.json",
+    "packetSha256": "a61be02928fd38e35d7a9a3dc04f4d485963c4608afc3a6d058966fc262895ad"
+  },
+  "phase4-g6s-20003548-c22": {
+    "answerText": "接觸電池的漆包線兩端，絕緣漆是否已磨除",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c23": {
+    "answerText": "北方",
+    "evidence": "followup-round4/phase4-three-fixes-results.json",
+    "packetSha256": "a61be02928fd38e35d7a9a3dc04f4d485963c4608afc3a6d058966fc262895ad"
+  },
+  "phase4-g6s-20003548-c24": {
+    "answerText": "S極",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase4-g6s-20003548-c25": {
+    "answerText": "磁力",
+    "evidence": "followup-round4/phase4-science-blind-results.json",
+    "packetSha256": "2c728b7fcfaf8f365288cb981c0ba4bdbe4d668d08d50a968d7dca00c97ad116"
+  },
+  "phase5-g6m-20000967-i1": {
+    "answerText": "錯誤",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-i3": {
+    "answerText": "正確",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-i4": {
+    "answerText": "正確",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-ii1": {
+    "answerText": "A車",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-ii2": {
+    "answerText": "3倍",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-ii3": {
+    "answerText": "弧長越長",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-ii4": {
+    "answerText": "小睿",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-ii5": {
+    "answerText": "二分之一倍",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-iii1": {
+    "answerText": "1：120000",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-iii2": {
+    "answerText": "1160000",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-iii3": {
+    "answerText": "6天",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-iii4": {
+    "answerText": "25.12",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-iii5": {
+    "answerText": "78",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-iii6": {
+    "answerText": "62.8",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-iii7": {
+    "answerText": "31.4",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-iii8": {
+    "answerText": "12",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-iii9": {
+    "answerText": "8000",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-iii11": {
+    "answerText": "5",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-iii12": {
+    "answerText": "2826",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-iii13": {
+    "answerText": "兩者一樣快",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-vii2": {
+    "answerText": "45",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-vii3": {
+    "answerText": "10.5",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-vii4": {
+    "answerText": "240",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-vii5": {
+    "answerText": "18",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g6m-20000967-vii6": {
+    "answerText": "191",
+    "evidence": "followup-round5/minquan-g6math-blind-results.json",
+    "packetSha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815"
+  },
+  "phase5-g2m-20003700-i1": {
+    "answerText": "40位",
+    "evidence": "followup-round5/minquan-g2math-blind-results.json",
+    "packetSha256": "40498559eae3128f7a7b77eb6f3568b63e00db84b23992b1661075dbe67ad828"
+  },
+  "phase5-g2m-20003700-i2": {
+    "answerText": "時針走一圈經過60分鐘",
+    "evidence": "followup-round5/minquan-g2math-blind-results.json",
+    "packetSha256": "40498559eae3128f7a7b77eb6f3568b63e00db84b23992b1661075dbe67ad828"
+  },
+  "phase5-g2m-20003700-ii2": {
+    "answerText": "16",
+    "evidence": "followup-round5/minquan-g2math-blind-results.json",
+    "packetSha256": "40498559eae3128f7a7b77eb6f3568b63e00db84b23992b1661075dbe67ad828"
+  },
+  "phase5-g2m-20003700-ii3": {
+    "answerText": "8",
+    "evidence": "followup-round5/minquan-g2math-blind-results.json",
+    "packetSha256": "40498559eae3128f7a7b77eb6f3568b63e00db84b23992b1661075dbe67ad828"
+  },
+  "phase5-g2m-20003700-ii4": {
+    "answerText": "7倍",
+    "evidence": "followup-round5/minquan-g2math-blind-results.json",
+    "packetSha256": "40498559eae3128f7a7b77eb6f3568b63e00db84b23992b1661075dbe67ad828"
+  },
+  "phase5-g2m-20003700-iii1": {
+    "answerText": "20根",
+    "evidence": "followup-round5/minquan-g2math-blind-results.json",
+    "packetSha256": "40498559eae3128f7a7b77eb6f3568b63e00db84b23992b1661075dbe67ad828"
+  },
+  "phase5-g2m-20003700-iii2": {
+    "answerText": "12顆",
+    "evidence": "followup-round5/minquan-g2math-blind-results.json",
+    "packetSha256": "40498559eae3128f7a7b77eb6f3568b63e00db84b23992b1661075dbe67ad828"
+  },
+  "phase5-g2m-20003700-iii3": {
+    "answerText": "4小時",
+    "evidence": "followup-round5/minquan-g2math-blind-results.json",
+    "packetSha256": "40498559eae3128f7a7b77eb6f3568b63e00db84b23992b1661075dbe67ad828"
+  },
+  "more-g2m-20000947-i2": {
+    "answerText": "3圈",
+    "evidence": "followup-round5/minquan113-g2math-blind-results.json",
+    "packetSha256": "db1c35e3d0ce2650faf5e468a545b2ab68555703bcecc6c679c8f6afe55b5669"
+  },
+  "more-g2m-20000947-i4": {
+    "answerText": "邊長3公分的正三角形",
+    "evidence": "followup-round5/minquan113-g2math-blind-results.json",
+    "packetSha256": "db1c35e3d0ce2650faf5e468a545b2ab68555703bcecc6c679c8f6afe55b5669"
+  },
+  "more-g2m-20000947-ii1": {
+    "answerText": "12時25分",
+    "evidence": "followup-round5/minquan113-g2math-blind-results.json",
+    "packetSha256": "db1c35e3d0ce2650faf5e468a545b2ab68555703bcecc6c679c8f6afe55b5669"
+  },
+  "more-g2m-20000947-ii2": {
+    "answerText": "43分鐘",
+    "evidence": "followup-round5/minquan113-g2math-blind-results.json",
+    "packetSha256": "db1c35e3d0ce2650faf5e468a545b2ab68555703bcecc6c679c8f6afe55b5669"
+  },
+  "more-g2m-20000947-ii3": {
+    "answerText": "12",
+    "evidence": "followup-round5/minquan113-g2math-blind-results.json",
+    "packetSha256": "db1c35e3d0ce2650faf5e468a545b2ab68555703bcecc6c679c8f6afe55b5669"
+  },
+  "more-g2m-20000947-ii5": {
+    "answerText": "14本",
+    "evidence": "followup-round5/minquan113-g2math-blind-results.json",
+    "packetSha256": "db1c35e3d0ce2650faf5e468a545b2ab68555703bcecc6c679c8f6afe55b5669"
+  },
+  "more-g2m-20000947-iii5": {
+    "answerText": "24朵",
+    "evidence": "followup-round5/minquan113-g2math-blind-results.json",
+    "packetSha256": "db1c35e3d0ce2650faf5e468a545b2ab68555703bcecc6c679c8f6afe55b5669"
+  },
+  "more-g2m-20000947-v1": {
+    "answerText": "30公分",
+    "evidence": "followup-round5/minquan113-g2math-blind-results.json",
+    "packetSha256": "db1c35e3d0ce2650faf5e468a545b2ab68555703bcecc6c679c8f6afe55b5669"
+  },
+  "more-g2m-20000947-v2": {
+    "answerText": "40公分",
+    "evidence": "followup-round5/minquan113-g2math-blind-results.json",
+    "packetSha256": "db1c35e3d0ce2650faf5e468a545b2ab68555703bcecc6c679c8f6afe55b5669"
+  },
+  "more-g2m-20000947-vi1a": {
+    "answerText": "6顆",
+    "evidence": "followup-round5/minquan113-g2math-blind-results.json",
+    "packetSha256": "db1c35e3d0ce2650faf5e468a545b2ab68555703bcecc6c679c8f6afe55b5669"
+  },
+  "more-g2m-20000947-vi1b": {
+    "answerText": "21位",
+    "evidence": "followup-round5/minquan113-g2math-blind-results.json",
+    "packetSha256": "db1c35e3d0ce2650faf5e468a545b2ab68555703bcecc6c679c8f6afe55b5669"
+  },
+  "more-g2m-20000947-vi2": {
+    "answerText": "30個",
+    "evidence": "followup-round5/minquan113-g2math-blind-results.json",
+    "packetSha256": "db1c35e3d0ce2650faf5e468a545b2ab68555703bcecc6c679c8f6afe55b5669"
+  }
+}

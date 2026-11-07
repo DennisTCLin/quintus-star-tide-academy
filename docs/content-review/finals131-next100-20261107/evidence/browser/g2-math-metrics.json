@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g2-math",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "小丸子有5盒餅乾，每盒8塊，想請每位小朋友吃1塊，最多可以請幾位小朋友？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g2-math",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "關於時鐘與時間，哪一個敘述錯誤？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g2-math",
+    "firstQuestion": "phase5-g2m-20003700-i1",
+    "answerButton": "選擇 40位",
+    "total": 6,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

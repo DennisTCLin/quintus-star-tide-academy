@@ -39778,6 +39778,606 @@
       "status": "approved",
       "reviewer": "primary source visual/independent calculation + fresh answer-free solver and corrected-packet review",
       "evidence": "docs/content-review/finals131-round3-20261107/README.md"
+    },
+    "phase4-lang-g1-you": {
+      "status": "approved",
+      "hash": "de496bae09bf5286a0f8f64805d538dfbcf4bf455c73be6546b57ff2884f2d01",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g1-duo": {
+      "status": "approved",
+      "hash": "4cdf542a358cc3d0b5f3644b6f540df471ce2dd4911a44d4ab71835ef58884f9",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g1-le": {
+      "status": "approved",
+      "hash": "4aba4f74ecea58633267a1a6b10700b12c371ac8ab5b067167d5d9866f153234",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g1-bu": {
+      "status": "approved",
+      "hash": "edab53af5a1a568edacf3e91cba1c0a4b4639fda4c1653443f062870f9886015",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g1-jia": {
+      "status": "approved",
+      "hash": "e69970c089b05198f1e495b35bfdd882a3a5cb60cb2f6f306fb6f1dee14e82e8",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-ju": {
+      "status": "approved",
+      "hash": "41c7c89405d2668175117e793c8efe8f1f5d9ae51e5ae6a5515c622bfb91e80f",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-si": {
+      "status": "approved",
+      "hash": "f004fd7ad7a641205975a6af2362f665d4815e7086336b705ff9b49e1f9d7de4",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-fa": {
+      "status": "approved",
+      "hash": "d9d604b42fec1ff3a7dde97160c86fc4c63f58e786ecacc27425bc26b43cd79e",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-cong": {
+      "status": "approved",
+      "hash": "89932741aad38736ff9aa488124aef03a3a83ad9ed6b189da3c3ec68dd4097e0",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-ming": {
+      "status": "approved",
+      "hash": "1be5c64b4ab737647c9094212665f1bd724f0cf1e749f5c642b6b07465a5dde8",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-wu": {
+      "status": "approved",
+      "hash": "40854a545a3216d22790e4042a05ca954508ab97546856f150848da4025df31a",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-han": {
+      "status": "approved",
+      "hash": "4c3299c9e95a002902b990f60b5b6886bc7eca698d5070bf840c021b2ec44588",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-leng": {
+      "status": "approved",
+      "hash": "ba5c50d8515af6a7704f421d90a6ccb3749c706abf47e75a0c4af3c20414abab",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-ye": {
+      "status": "approved",
+      "hash": "8088fa651645fc96e3e51cdc6e213767bada1880cca2f57251e710e8d9940965",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-he": {
+      "status": "approved",
+      "hash": "f6298a4ed019c74038ee4ec7d4a68020e28dfdedbf9e2cd30b0f9879e4107794",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-xing": {
+      "status": "approved",
+      "hash": "f383c94aa2911d95085537358ee7e4300a227b91cc19718ebda4ab5f8073f23d",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-zhu": {
+      "status": "approved",
+      "hash": "239c2d280fc289b0d983e2cfa1f74bcf6127809db5474bbc03edb346ff52ea24",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-fix1": {
+      "status": "approved",
+      "hash": "2edc07070058b263b206bbdad834cfc8106778aa9becc5e15a3cc247efe3d51b",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-fix4": {
+      "status": "approved",
+      "hash": "9076123f119fd203dcc95ed11cfa6634dcbb3fed8396739823bf80821d030985",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-fix5": {
+      "status": "approved",
+      "hash": "58e156c2f7446e17d48f17d73f70bb360c535f042e35232a08d6251968bf9a5b",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-fix6": {
+      "status": "approved",
+      "hash": "805b2f52d6de2a5308145a7ca36d2b41bec74f7a7a214f3ed26c6e29a58b22e3",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-fix7": {
+      "status": "approved",
+      "hash": "8b6437bbd314413acc44c4ec421a57211682fb37c30506545c5fc75adc30b2ec",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-fix8": {
+      "status": "approved",
+      "hash": "9e1729da02f72aa49e44daef2e95f405020e3453fffa5d3ed00b86a8a10bec79",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-fix9": {
+      "status": "approved",
+      "hash": "095dd9f2ebb1787c3da7b6adb69b2c9af0f86bbf9c53653f495d485bf21f707d",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-fix10": {
+      "status": "approved",
+      "hash": "d88a06ecc8983262c1477ecb903227416b1c2d7d0b2359b5f44210f489e3549e",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-fix11": {
+      "status": "approved",
+      "hash": "4ae08fa08689377e01d3aa2f3663d1f961eb98fa3e10602cad4744616fc7eb7d",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-fix12": {
+      "status": "approved",
+      "hash": "27496bdb3a5e56714378f7ee49b6d8bb4b180a304bad8165190f3267583f8f0e",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-mcq2": {
+      "status": "approved",
+      "hash": "24b2c7e32e68043c5ff33f59654e62c0f33bc3bd81b795fa15eaf4f278f8d8ff",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-mcq3": {
+      "status": "approved",
+      "hash": "d50ba61a69fa9dcfc001ba03d65291da0b650a060a4f0b57265976b14492fbc2",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-lang-g2-mcq5": {
+      "status": "approved",
+      "hash": "908124d181f5b0b6e34582bbde9d5e0543a52d4a47f8c5350176063eb7a8e38a",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c01": {
+      "status": "approved",
+      "hash": "42a0063c47b3f5074d77dd61fc8a0d27686f0d7911ee05875e06eeb5a9d9baf9",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c02": {
+      "status": "approved",
+      "hash": "33b09dac061bb1ab41f8bd0272ddb7e5ae3249256d15fd755e90e181b69460f3",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c03": {
+      "status": "approved",
+      "hash": "aa8d76c61acc19dd4fea5bad967925929ead78b927d2837afe2310c6718fe2be",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c04": {
+      "status": "approved",
+      "hash": "590408bc9339dea2b54bd0336c0fc8fe3176c3b00700293f680f1e448c4f6db7",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c05": {
+      "status": "approved",
+      "hash": "b3fe8464b57760dd1280163fd7a7e691b6e2a2aa91840c5f667f18358eebb7f9",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c06": {
+      "status": "approved",
+      "hash": "12fa62388813d7588f0f50c9768d96117432a3fb35d8fe174692af7953d5c230",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c07": {
+      "status": "approved",
+      "hash": "a3818768dca39e172fb14876f53083f28fa1c1e44d785b35738291b43ea172b7",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c08": {
+      "status": "approved",
+      "hash": "5147c6d78aecab65ec478b63575f362b6f78e3340a6a66a6b87643d8c123b1ec",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c09": {
+      "status": "approved",
+      "hash": "efe2fa9bcfa1c834362948801426139b255b03fbb306a1a2eaea0c654a7def59",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c10": {
+      "status": "approved",
+      "hash": "0621c76669dd3c45adc5738fda36b8bb61e3e39c0da98b2eca0b548c122231f7",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c11": {
+      "status": "approved",
+      "hash": "13ce263925d96fd0e3a73d0be42f56fb13c765065ff1448e8cd868fc4266a0b2",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c12": {
+      "status": "approved",
+      "hash": "5543a0e5982b354184fcacc0ecf359eede2e20504c2237a5e48cbe88cc0cfd90",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c13": {
+      "status": "approved",
+      "hash": "1e64280b35f7a2b622000943fab6f26ca7f0ea908f7522c5d995cea3b13da8fe",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c14": {
+      "status": "approved",
+      "hash": "3a3057c3f174aa443d1db4b4698b3de9fe6993d1c585c235e1357be00dc0417e",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c15": {
+      "status": "approved",
+      "hash": "38dc8f7a724cc8aa2425355dac7eb0283f65d650f8059e7a30937e0e7a77f7fe",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c16": {
+      "status": "approved",
+      "hash": "926152094c6cffe49940d30645c9f5a29811d803f743e0d962eb6c0c10f403c0",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c17": {
+      "status": "approved",
+      "hash": "cf57c94c11088c62e3cc0fb247c7951900058b1186c1fe87b9dc37c0b1d0d2f7",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c18": {
+      "status": "approved",
+      "hash": "bf40dfc0cb4c6b43dfbe21739de920bc90dca44e138572349d65bd9a2b47da02",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c19": {
+      "status": "approved",
+      "hash": "f6e260a7cf7d0c106f6f1c46ebbaa9f14b8c6bd71b7a1257cae811eb5eb0115c",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c20": {
+      "status": "approved",
+      "hash": "ff792ee05184b04b64e9fb51c36d48010724c3e61f01e9ccb6e19f5a48f05289",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c21": {
+      "status": "approved",
+      "hash": "33c70b6d008e182963ac5f1fb6ebbed9405a6c7482226ca35d58247902b1a3c6",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c22": {
+      "status": "approved",
+      "hash": "c95f153ae58f55948eba73378ebc0a37e2830f9b604a57d2ce101777b76a862a",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c23": {
+      "status": "approved",
+      "hash": "6e5720bb31a5dbdc9cce4650da46eb3e43b9ae15413b8beab93764225e26be34",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c24": {
+      "status": "approved",
+      "hash": "760489493e95bb0853cc6adfe7506b16aa5924e555b1ceaff7202a59bb0274d4",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase4-g6s-20003548-c25": {
+      "status": "approved",
+      "hash": "06fa36b7b0d4e2475b1632e088f39dc1b0270330fb13a63ace56d57230b342ce",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-i1": {
+      "status": "approved",
+      "hash": "371b5c32c76bf2c0d5c50668d82d5828e16c0ea3a34cadd8be865b34a399632f",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-i3": {
+      "status": "approved",
+      "hash": "3ff3e9d0ea470f931cb64598ec2fd355137ed3c6de4a7f03b8cbdc4f4171e9de",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-i4": {
+      "status": "approved",
+      "hash": "8640ad6a5b02249b17082bb734c4fc764cba811283da7314e3f79c2e1a2d59f2",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-ii1": {
+      "status": "approved",
+      "hash": "92288a237b441fc55f6693dadfdd2770fd91465a4e02e7dd5ee3cdd853cfa973",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-ii2": {
+      "status": "approved",
+      "hash": "95f9e94e77d824a51f8737863f5e93dba7946ca93c387388093d45f7dc33a4af",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-ii3": {
+      "status": "approved",
+      "hash": "2c08864e34270d0f4942af9063a1431308a630424386b1f12668f9e9f9179476",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-ii4": {
+      "status": "approved",
+      "hash": "b8cf1808045569f79ba247984c079d1af6f879187391d3dc98a140a951104917",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-ii5": {
+      "status": "approved",
+      "hash": "a6e028288b441e43827dbb2d994e64c165e2810019c132ba5121ad130ff46a8d",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-iii1": {
+      "status": "approved",
+      "hash": "1e6ea643ee70f170c03c1a1c527016bc549dcb5bf3eab4baa65840f273681624",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-iii2": {
+      "status": "approved",
+      "hash": "bbaa6a87afc392979cebdc872c1d02367702fc478905acc496719014916bc45d",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-iii3": {
+      "status": "approved",
+      "hash": "e4911df9ed90056f7b77a8274642de4c18bbf18d6936fa0719db3ef5c2945637",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-iii4": {
+      "status": "approved",
+      "hash": "a8c2f74516c0a1af02f7f7049d86df9947d3d40e431e311bfcd4e4f838f4b8ad",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-iii5": {
+      "status": "approved",
+      "hash": "6b74aa717826703d8dc1a699d220d79c56133999e18cc6f1c8fe69c68ff93c00",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-iii6": {
+      "status": "approved",
+      "hash": "64ecb27543fc9f2cbfec5f9f7f543b0c19a31c20f821a2777fb2a9326491def6",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-iii7": {
+      "status": "approved",
+      "hash": "0f6750c1ffead3559ddd4a2edd344948b9387aab31c8108800c30c004b2877c5",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-iii8": {
+      "status": "approved",
+      "hash": "b70c51bc1ce823e8fe59ff5800ff05676e6811b7dd78ea9375fceb2396144bfc",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-iii9": {
+      "status": "approved",
+      "hash": "502a830bc83e6ce7273f5623653375a58417a31ae352a96c1698f7dce17876e1",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-iii11": {
+      "status": "approved",
+      "hash": "6f2fa5e1ef3a10ae4fb1327c29bce238291375806e0d43a96bb6044b5f41b4d7",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-iii12": {
+      "status": "approved",
+      "hash": "029ed3a37b5178aa59ce8cf0b76caaca1575f259c178511b56c4d81893eaf593",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-iii13": {
+      "status": "approved",
+      "hash": "41ac4a5fefcbdd80cedabd89769ca7de1e35bcff826eb620d8893881d3647ef3",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-vii2": {
+      "status": "approved",
+      "hash": "adf1c6a382c7b724dd7e04b3d6a7159ffc15399ce4c8779e7231ed8aaafe6603",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-vii3": {
+      "status": "approved",
+      "hash": "878da2d6768bb2b3c96c5fbdd6909eefd0d87fd9e1ee9a0afd431a9e55f6e8d1",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-vii4": {
+      "status": "approved",
+      "hash": "cf561f2672e4471c8a97e2b83f430c14f0be28d0cb5f60a02065f2fcadaf236f",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-vii5": {
+      "status": "approved",
+      "hash": "9ee0be629381bed6deb46e65c040b63e83bd2d93bab4a9e753ae94ce506b0aac",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g6m-20000967-vii6": {
+      "status": "approved",
+      "hash": "61ae0474ef2f7378710ee53556258546db0b3d6d441780394c3bf7a9c6ca8c37",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g2m-20003700-i1": {
+      "status": "approved",
+      "hash": "e3376337467728e27eb8415e2b8a2da85ded1f9d9c6f0375c29063063e035c05",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g2m-20003700-i2": {
+      "status": "approved",
+      "hash": "5eeffcac0415a76e82c221b3e82e9a364d2065be6bf7c73ac44963c63e165016",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g2m-20003700-ii2": {
+      "status": "approved",
+      "hash": "d3345f99139b8915d76353953b6b4ecc4e3be35c20ad62f4d70ebbb28804285b",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g2m-20003700-ii3": {
+      "status": "approved",
+      "hash": "7fea39586533b7bb4453d0620c4599c073ce6a46eff5d89a906fa7f79ca0b6ff",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g2m-20003700-ii4": {
+      "status": "approved",
+      "hash": "386bf3a18a8486f27e849d5b27e0c18ab2ef666af7173f165c5ed2eb1d1bc64e",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g2m-20003700-iii1": {
+      "status": "approved",
+      "hash": "1ebe4c7e179c2cf2255077ac5eb3b9b9d52f5769bfdbb1574bbd53dff99f432e",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g2m-20003700-iii2": {
+      "status": "approved",
+      "hash": "927dd47ad1e6c6677597310f0f4d4a16d7ef11b96c2af10bbfd7e28d007930dc",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "phase5-g2m-20003700-iii3": {
+      "status": "approved",
+      "hash": "18fe37ab3557c08f0165e74c8ddc5cfc257d7b859b467021a534955b22c641d0",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "more-g2m-20000947-i2": {
+      "status": "approved",
+      "hash": "d9ecffad6cf3b7da96b6c0928e8783da63647f1b98911c549aaf9c73585f68b3",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "more-g2m-20000947-i4": {
+      "status": "approved",
+      "hash": "7d2f5dc85e4423d4b26203c697d07c36f247bcc0c157096fdb6ba3f23658db47",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "more-g2m-20000947-ii1": {
+      "status": "approved",
+      "hash": "e6d58cb418f6e86c0cb0cd74a437507b3c1c7c78b0bad9b71a2ae38f4814518a",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "more-g2m-20000947-ii2": {
+      "status": "approved",
+      "hash": "b56d32a6e731e89dfb0e8bca469a2b0b8a492f2418987b405be7fac62de677dd",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "more-g2m-20000947-ii3": {
+      "status": "approved",
+      "hash": "207c6293c606c80ca85e37b9e760448f064ca0d023f0078a355235dfddffe0a7",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "more-g2m-20000947-ii5": {
+      "status": "approved",
+      "hash": "9c1f25fddffed3dc4b6f49e356fdd4c5b271d759a87de03f20f1d182a79afcd3",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "more-g2m-20000947-iii5": {
+      "status": "approved",
+      "hash": "a207689a14624ec2cafcfdac53197f3bfe366809307236ffebb8271f8b8cc9fa",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "more-g2m-20000947-v1": {
+      "status": "approved",
+      "hash": "3faafa7b769a1c6ec26052e281622ee0e7be21e65eef637915be3c0a87f42714",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "more-g2m-20000947-v2": {
+      "status": "approved",
+      "hash": "44ea7fbd5ff710c4d0d6d217995d885f85bdc13b373c76e1f90266f978444788",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "more-g2m-20000947-vi1a": {
+      "status": "approved",
+      "hash": "2a2684cc81dca04ca5101034ad59b82f5bef663b8b0f86d999093a10521de15e",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "more-g2m-20000947-vi1b": {
+      "status": "approved",
+      "hash": "8e86270e684ed8017a6fe05bf9430647d7f51f2e907404675c6c478fc375871e",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
+    },
+    "more-g2m-20000947-vi2": {
+      "status": "approved",
+      "hash": "344f574ceaf19da8aae9aebd0e5fe6aeb1a401ee141c95fcdc4216683d29523b",
+      "reviewer": "root source visual + bounded independent blind answer review",
+      "evidence": "docs/content-review/finals131-next100-20261107/README.md"
     }
   },
   "templates": {

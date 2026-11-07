@@ -1,0 +1,180 @@
+{
+  "status": "25_UNIQUE_SOLUTIONS_AND_BOUNDED_V3_SOURCE_REPAIRS_PASS_NOT_ADMITTED",
+  "reviewer": "degao_content_check;readonly_no_author_keys",
+  "blindV1Sha256": "65ad53ba7c3f1a4a07837f16393276ae04f51998d4314738f1df75ab7e0d2101",
+  "blindV3Sha256": "ad195a0a2a1ae82ae1cb93ffca6d0430c14b812011dd838f6f0687f0b681b815",
+  "results": [
+    {
+      "id": "phase5-g6m-20000967-i1",
+      "answerText": "錯誤",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-i3",
+      "answerText": "正確",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-i4",
+      "answerText": "正確",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-ii1",
+      "answerText": "A車",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-ii2",
+      "answerText": "3倍",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-ii3",
+      "answerText": "弧長越長",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-ii4",
+      "answerText": "小睿",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-ii5",
+      "answerText": "二分之一倍",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-iii1",
+      "answerText": "1：120000",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-iii2",
+      "answerText": "1160000",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-iii3",
+      "answerText": "6天",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-iii4",
+      "answerText": "25.12",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-iii5",
+      "answerText": "78",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-iii6",
+      "answerText": "62.8",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-iii7",
+      "answerText": "31.4",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-iii8",
+      "answerText": "12",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-iii9",
+      "answerText": "8000",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-iii11",
+      "answerText": "5",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-iii12",
+      "answerText": "2826",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-iii13",
+      "answerText": "兩者一樣快",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-vii2",
+      "answerText": "45",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-vii3",
+      "answerText": "10.5",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-vii4",
+      "answerText": "240",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-vii5",
+      "answerText": "18",
+      "matchesAuthor": true,
+      "unique": true
+    },
+    {
+      "id": "phase5-g6m-20000967-vii6",
+      "answerText": "191",
+      "matchesAuthor": true,
+      "unique": true
+    }
+  ],
+  "sourceOriginalPagesVisuallyChecked": [
+    1,
+    2,
+    3
+  ],
+  "publisherEvidence": "113同校六年級數學康軒官方格；原卷未印版別/冊次",
+  "currentUnitEvidence": "115康軒第11冊U6/7/8/9，僅使用55頁PDF前半第一學期，第26頁起第12冊不可使用",
+  "fixes": [
+    "三5環琪→琪琪，已源圖核對",
+    "二3恢復原卷互異干擾敘述，避免半徑同義選項",
+    "七4完整公里/時單位"
+  ],
+  "adaptationLimits": [
+    "三4原卷未明說等分，提案補平均分8塊並標記改編",
+    "三5圓形樹幹，三8全圓直徑，七6不打滑/pi3.14等必要條件補齊",
+    "三2移除最快客機時效斷言"
+  ],
+  "notClaimed": [
+    "whole original paper approved",
+    "115 child-school actual exam range confirmed",
+    "runtime admission/tests/deployment complete"
+  ]
+}

@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "phase4-lang-g1-you",
+    "grade": 1,
+    "course": "pairs",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「小朋友」的「友」，書面本調注音是哪一個？",
+    "options": [
+      "ㄧㄡˇ",
+      "ㄧㄡˋ"
+    ],
+    "answer": 0,
+    "explanation": "朋友的友，本調是第三聲ㄧㄡˇ；本題明問書面本調。",
+    "sourceFamily": "tcool-20003527-p1-i1",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003527",
+        "page": 1,
+        "locator": "一1友注音",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g1-duo",
+    "grade": 1,
+    "course": "pairs",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「家裡多了一隻小狗」的「多」，正確注音是哪一個？",
+    "options": [
+      "ㄉㄨㄛˊ",
+      "ㄉㄨㄛ"
+    ],
+    "answer": 1,
+    "explanation": "增加的多讀第一聲ㄉㄨㄛ。",
+    "sourceFamily": "tcool-20003527-p1-i2",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003527",
+        "page": 1,
+        "locator": "一2多注音",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g1-le",
+    "grade": 1,
+    "course": "pairs",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「家裡多了一隻小狗」中，助詞「了」應讀哪一個注音？",
+    "options": [
+      "˙ㄌㄜ",
+      "ㄌㄧㄠˇ"
+    ],
+    "answer": 0,
+    "explanation": "這裡的了表示變化已發生，是助詞，讀輕聲˙ㄌㄜ。",
+    "sourceFamily": "tcool-20003527-p1-i2",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003527",
+        "page": 1,
+        "locator": "一2了注音",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g1-bu",
+    "grade": 1,
+    "course": "pairs",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「不知道這是誰家的小狗」中，「不知道」連讀時，「不」應讀哪一個注音？",
+    "options": [
+      "ㄅㄨˊ",
+      "ㄅㄨˋ"
+    ],
+    "answer": 1,
+    "explanation": "不的本調是第四聲；後面的知是第一聲，這裡仍讀ㄅㄨˋ。",
+    "sourceFamily": "tcool-20003527-p1-i2",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003527",
+        "page": 1,
+        "locator": "一2不注音",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g1-jia",
+    "grade": 1,
+    "course": "pairs",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「誰家的小狗」中，「家」的正確注音是哪一個？",
+    "options": [
+      "ㄐㄧㄚ",
+      "ㄐㄧㄚˋ"
+    ],
+    "answer": 0,
+    "explanation": "這裡的家指家庭，讀第一聲ㄐㄧㄚ。",
+    "sourceFamily": "tcool-20003527-p1-i2",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003527",
+        "page": 1,
+        "locator": "一2末段家注音",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-ju",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「我們□在一起，思考如何發明新產品。」□讀ㄐㄩˋ，應填哪個字？",
+    "options": [
+      "聚",
+      "取"
+    ],
+    "answer": 0,
+    "explanation": "聚表示集合，聚在一起符合原句意思。",
+    "sourceFamily": "tcool-20003529-p1-i1",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "一1第1格",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-si",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「我們聚在一起，□考如何發明新產品。」□讀ㄙ，應填哪個字？",
+    "options": [
+      "恩",
+      "思"
+    ],
+    "answer": 1,
+    "explanation": "思考表示動腦想，思讀ㄙ。",
+    "sourceFamily": "tcool-20003529-p1-i1",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "一1第2格",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-fa",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「我們聚在一起，思考如何□明新產品。」□讀ㄈㄚ，應填哪個字？",
+    "options": [
+      "發",
+      "髮"
+    ],
+    "answer": 0,
+    "explanation": "創造新事物叫發明，應用發，不是頭髮的髮。",
+    "sourceFamily": "tcool-20003529-p1-i1",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "一1第3格",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-cong",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「□明的烏鴉。」□讀ㄘㄨㄥ，應填哪個字？",
+    "options": [
+      "聽",
+      "聰"
+    ],
+    "answer": 1,
+    "explanation": "聰明表示理解、反應能力好，第一個字是聰。",
+    "sourceFamily": "tcool-20003529-p1-i2",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "一2第1格",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-ming",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「聰□的烏鴉。」□讀ㄇㄧㄥˊ，應填哪個字？",
+    "options": [
+      "明",
+      "朋"
+    ],
+    "answer": 0,
+    "explanation": "聰明的明讀ㄇㄧㄥˊ。",
+    "sourceFamily": "tcool-20003529-p1-i2",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "一2第2格",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-wu",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「聰明的□鴉。」□讀ㄨ，應填哪個字？",
+    "options": [
+      "鳥",
+      "烏"
+    ],
+    "answer": 1,
+    "explanation": "鳥名烏鴉的第一字是烏，讀ㄨ；鳥讀ㄋㄧㄠˇ。",
+    "sourceFamily": "tcool-20003529-p1-i2",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "一2第3格",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-han",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「在□冷的夜晚有熱湯可以喝，真是太幸福了！」□讀ㄏㄢˊ，應填哪個字？",
+    "options": [
+      "寒",
+      "塞"
+    ],
+    "answer": 0,
+    "explanation": "寒冷表示很冷，寒讀ㄏㄢˊ。",
+    "sourceFamily": "tcool-20003529-p1-i3",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "一3第1格",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-leng",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「在寒□的夜晚有熱湯可以喝，真是太幸福了！」□讀ㄌㄥˇ，應填哪個字？",
+    "options": [
+      "令",
+      "冷"
+    ],
+    "answer": 1,
+    "explanation": "冷表示溫度低，寒冷的冷讀ㄌㄥˇ。",
+    "sourceFamily": "tcool-20003529-p1-i3",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "一3第2格",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-ye",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「在寒冷的□晚有熱湯可以喝，真是太幸福了！」□讀ㄧㄝˋ，應填哪個字？",
+    "options": [
+      "夜",
+      "液"
+    ],
+    "answer": 0,
+    "explanation": "夜晚指天黑以後的時間，應用夜。",
+    "sourceFamily": "tcool-20003529-p1-i3",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "一3第3格",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-he",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「在寒冷的夜晚有熱湯可以□，真是太幸福了！」□讀ㄏㄜ，應填哪個字？",
+    "options": [
+      "渴",
+      "喝"
+    ],
+    "answer": 1,
+    "explanation": "把湯飲入口中是喝；口渴的渴讀ㄎㄜˇ。",
+    "sourceFamily": "tcool-20003529-p1-i3",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "一3第4格",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-xing",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「在寒冷的夜晚有熱湯可以喝，真是太□福了！」□讀ㄒㄧㄥˋ，應填哪個字？",
+    "options": [
+      "幸",
+      "辛"
+    ],
+    "answer": 0,
+    "explanation": "幸福的幸讀ㄒㄧㄥˋ；辛苦的辛讀ㄒㄧㄣ。",
+    "sourceFamily": "tcool-20003529-p1-i3",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "一3第5格",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-zhu",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「大象的腿像□子。」□讀ㄓㄨˋ，應填哪個字？",
+    "options": [
+      "住",
+      "柱"
+    ],
+    "answer": 1,
+    "explanation": "支撐建築的柱子用木部的柱。",
+    "sourceFamily": "tcool-20003529-p1-i4",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "一4第3格",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-fix1",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「我們手【千】著手，【韋】成一個圓圈。」兩個【】中的錯字，依序應改成哪一組？",
+    "options": [
+      "牽、圍",
+      "千、圍",
+      "牽、韋",
+      "千、韋"
+    ],
+    "answer": 0,
+    "explanation": "手牽著手用牽；圍成圓圈用圍。",
+    "sourceFamily": "tcool-20003529-p1-ii1",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "二1",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-fix4",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「你【延】著這條馬路一【值】往前走，就會看到大海了。」兩個【】中的錯字，依序應改成哪一組？",
+    "options": [
+      "延、值",
+      "沿、值",
+      "延、直",
+      "沿、直"
+    ],
+    "answer": 3,
+    "explanation": "順著道路走是沿著；持續朝前走用一直。",
+    "sourceFamily": "tcool-20003529-p1-ii4",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "二4",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-fix5",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「我【望】了帶水壺，現在覺得口很【可】。」兩個【】中的錯字，依序應改成哪一組？",
+    "options": [
+      "望、可",
+      "忘、可",
+      "忘、渴",
+      "望、渴"
+    ],
+    "answer": 2,
+    "explanation": "沒有記住帶水壺是忘了；想喝水是口渴。",
+    "sourceFamily": "tcool-20003529-p1-ii5",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "二5",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-fix6",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「我們週末去百【霍】公司買【冬】西。」兩個【】中的錯字，依序應改成哪一組？",
+    "options": [
+      "貨、東",
+      "霍、東",
+      "貨、冬",
+      "霍、冬"
+    ],
+    "answer": 0,
+    "explanation": "販售各類商品的是百貨公司；物品稱為東西。",
+    "sourceFamily": "tcool-20003529-p1-ii6",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "二6",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-fix7",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「下課時，【噪】場上【沖】滿了同學的歡笑聲。」兩個【】中的錯字，依序應改成哪一組？",
+    "options": [
+      "噪、充",
+      "操、沖",
+      "操、充",
+      "噪、沖"
+    ],
+    "answer": 2,
+    "explanation": "運動活動的場地叫操場；到處都是歡笑聲用充滿。",
+    "sourceFamily": "tcool-20003529-p1-ii7",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "二7",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-fix8",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「老鷹張開巨大【次】膀，在空中來回【非】翔。」兩個【】中的錯字，依序應改成哪一組？",
+    "options": [
+      "翅、非",
+      "次、飛",
+      "次、非",
+      "翅、飛"
+    ],
+    "answer": 3,
+    "explanation": "鳥用來飛行的部位是翅膀；在空中飛行用飛翔。",
+    "sourceFamily": "tcool-20003529-p1-ii8",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "二8",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-fix9",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「我最期【帶】的就是和家人吃熱呼呼的火【堝】。」兩個【】中的錯字，依序應改成哪一組？",
+    "options": [
+      "待、鍋",
+      "帶、鍋",
+      "待、堝",
+      "帶、堝"
+    ],
+    "answer": 0,
+    "explanation": "盼望某件事用期待；烹煮食物的鍋具是金部的鍋。",
+    "sourceFamily": "tcool-20003529-p1-ii9",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "二9",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-fix10",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「這件衣服是奶奶一【真】一線縫的。」【真】應改成哪個字？",
+    "options": [
+      "真",
+      "針"
+    ],
+    "answer": 1,
+    "explanation": "一針一線的針，是縫衣服使用的工具。",
+    "sourceFamily": "tcool-20003529-p1-ii10",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "二10",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-fix11",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「弟弟喜歡吃炒【販】，我喜歡吃炒麵。」【販】應改成哪個字？",
+    "options": [
+      "飯",
+      "販"
+    ],
+    "answer": 0,
+    "explanation": "用米飯炒成的食物是炒飯，飯用食部。",
+    "sourceFamily": "tcool-20003529-p1-ii11",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "二11",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-fix12",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「舞會上，大家戴上各式各樣的面【俱】。」【俱】應改成哪個字？",
+    "options": [
+      "俱",
+      "具"
+    ],
+    "answer": 1,
+    "explanation": "戴在臉上的用品叫面具，具沒有亻。",
+    "sourceFamily": "tcool-20003529-p1-ii12",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 1,
+        "locator": "二12",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-mcq2",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「我們坐車時，不可以把頭和手□出窗外。」空格中應該填入哪個字？",
+    "options": [
+      "伸",
+      "跨",
+      "充",
+      "站"
+    ],
+    "answer": 0,
+    "explanation": "把身體的一部分向外延展叫伸出；其餘選項不符合此處動作。",
+    "sourceFamily": "tcool-20003529-p2-v2",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 2,
+        "locator": "五2",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-mcq3",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "「沒想到這個機器人竟然會和老師聊天，真是太厲害了！」句子中「竟然」可以用下面哪個詞語替代？",
+    "options": [
+      "自然",
+      "居然",
+      "突然",
+      "雖然"
+    ],
+    "answer": 1,
+    "explanation": "竟然和居然都表示出乎意料；突然著重事情發生得急遽。",
+    "sourceFamily": "tcool-20003529-p2-v3",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 2,
+        "locator": "五3",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-lang-g2-mcq5",
+    "grade": 2,
+    "course": "words",
+    "subject": "chinese",
+    "publisher": "康軒",
+    "prompt": "依教育部字典的部首分類，哪兩個字的部首相同？",
+    "options": [
+      "妙、少",
+      "期、服",
+      "冒、貨",
+      "寒、冬"
+    ],
+    "answer": 1,
+    "explanation": "期和服均列在月部；另外三組的兩字部首各不相同。",
+    "sourceFamily": "tcool-20003529-p2-v5",
+    "level": 1,
+    "hint": "看清楚字詞，再比較每個選項。",
+    "examSources": [
+      {
+        "id": "f4b20003529",
+        "page": 2,
+        "locator": "五5",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ],
+    "hideReadingHints": true,
+    "speechText": "請看畫面中的詞句，選出正確答案。"
+  },
+  {
+    "id": "phase4-g6s-20003548-c01",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "同一條直導線的位置不變，流過的直流電流大小相同，但方向相反。在導線旁同一位置，僅比較這條導線的電流所產生的磁場，其方向會如何改變？",
+    "options": [
+      "方向相反",
+      "方向不變",
+      "磁場一定消失",
+      "磁場方向與電流方向完全無關"
+    ],
+    "answer": 0,
+    "explanation": "導線周圍磁場的方向與電流方向有關；電流反向時，同一位置的電流磁場也反向。",
+    "sourceFamily": "20003548-q-I2",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "一2",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c02",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "平時準備緊急避難包、了解避難路線並進行防災演練，有助於降低地震發生時的風險。",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "explanation": "事先準備物資並熟悉應變方式，有助於在地震及震後採取適當行動。",
+    "sourceFamily": "20003548-q-I4",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "一4",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c03",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "為因應地震後可能出現的通訊中斷，家人可以平時就在家庭防災卡上記錄聯絡方式，並預先約定安全的集合地點。",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "explanation": "家庭防災卡可記錄聯絡資訊與集合地點，協助家人在無法即時通訊時依事先約定應變。",
+    "sourceFamily": "20003548-q-I6",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "一6",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c04",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "依一般天然河流曲流的侵蝕與堆積情形，下列敘述何者錯誤？",
+    "options": [
+      "彎曲河道兩岸附近的水流速度通常不同",
+      "水流較急的一側通常侵蝕較強，形成凹岸",
+      "水流較緩的一側通常堆積較明顯，形成凸岸",
+      "凸岸主要是因為水流較緩的一側侵蝕最強而形成"
+    ],
+    "answer": 3,
+    "explanation": "一般曲流的凸岸以堆積作用較明顯；凹岸則通常有較強的侵蝕作用。",
+    "sourceFamily": "20003548-q-I7",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "一7",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c05",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "海積地形主要由侵蝕作用形成，海蝕地形主要由堆積作用形成。",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 1,
+    "explanation": "海積地形主要與物質堆積有關，海蝕地形主要與海水侵蝕有關；題目將兩者顛倒。",
+    "sourceFamily": "20003548-q-I8",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "一8",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c06",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "下列哪一項地表改變，是人類直接施工造成的？",
+    "options": [
+      "河水長期侵蝕形成峽谷",
+      "海浪長期侵蝕形成海蝕洞",
+      "為取得石材而開山採石",
+      "河流搬運的泥沙在河口堆積"
+    ],
+    "answer": 2,
+    "explanation": "開山採石是人類直接改變地表的活動；其餘選項描述自然侵蝕或堆積作用。",
+    "sourceFamily": "20003548-q-II1",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "二1",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c07",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "小明想研究線圈圈數是否會影響自製簡易馬達的轉速。他讓其他條件盡量相同，只改變一項條件。這個實驗的操作變因應是哪一項？",
+    "options": [
+      "線圈圈數",
+      "磁鐵形狀",
+      "漆包線粗細",
+      "串聯電池數量"
+    ],
+    "answer": 0,
+    "explanation": "操作變因是研究者主動改變、用來比較影響的條件；本題要研究的是線圈圈數。",
+    "sourceFamily": "20003548-q-II2",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "二2",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c08",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "下列哪些情況可能使土壤或土地環境變差？甲：長期乾旱造成土壤缺水，植物較難生長。乙：乾旱、半乾旱地區的不當開發加劇土地退化。丙：長期不當施用某些肥料，造成土壤酸鹼性不適合原有作物。",
+    "options": [
+      "只有甲、乙",
+      "只有甲、丙",
+      "只有乙、丙",
+      "甲、乙、丙都是"
+    ],
+    "answer": 3,
+    "explanation": "缺水、不當開發及不當施肥都可能影響土壤品質與植物生長；實際影響仍取決於環境和使用方式。",
+    "sourceFamily": "20003548-q-II3",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "二3",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c09",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "線圈的繞法與直流電流方向都不變，只在線圈中放入一支原本未磁化的軟鐵棒，就一定會使電磁鐵原來的N極變成S極。",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 1,
+    "explanation": "放入軟鐵芯通常用來增強磁場，不會因為插入鐵芯就必然將同一端的N、S極對調。",
+    "sourceFamily": "20003548-q-II4",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "二4",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c10",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "下列哪一種岩石屬於火成岩？",
+    "options": [
+      "頁岩",
+      "砂岩",
+      "玄武岩",
+      "大理岩"
+    ],
+    "answer": 2,
+    "explanation": "玄武岩由岩漿或熔岩冷卻凝固形成，屬於火成岩；頁岩、砂岩屬沉積岩，大理岩屬變質岩。",
+    "sourceFamily": "20003548-q-II7",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "二7",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c11",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "將有鐵芯的直流電磁鐵斷開電路，等瞬間的電流變化結束後，下列哪一項敘述最精確？",
+    "options": [
+      "線圈中持續的電流已停止，但鐵芯仍可能保留一些殘磁",
+      "鐵芯一定完全沒有任何殘磁",
+      "電流停止後，線圈仍會自行持續產生與通電時相同的電流磁場",
+      "斷電一定會使電磁鐵的磁力比通電時更強"
+    ],
+    "answer": 0,
+    "explanation": "電流停止後，該電流產生的磁場不再持續存在；鐵磁性材料則可能因磁化歷史保留殘磁，不能一概宣稱完全零磁力。",
+    "sourceFamily": "20003548-q-II9",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "二9",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c12",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "使用同一個通直流電的線圈，保持電流相同，分別插入大小相近的下列物品。哪一種通常最能增強這個電磁鐵吸引迴紋針的能力？",
+    "options": [
+      "塑膠吸管",
+      "鋁棒",
+      "軟鐵棒",
+      "木棒"
+    ],
+    "answer": 2,
+    "explanation": "軟鐵容易在磁場中被磁化，可作為鐵芯增強電磁鐵的作用；其餘材料沒有相同的增強效果。",
+    "sourceFamily": "20003548-q-II10",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "二10",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c13",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "經自然作用保存下來的古代生物遺骸，或古代生物活動留下的痕跡，都可能成為化石。",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "explanation": "化石包括古代生物的遺骸，也包括足跡等活動痕跡；不只限於骨骼或身體本身。",
+    "sourceFamily": "20003548-q-III1",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "三1(2)",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c14",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "小狗今天在泥地留下新鮮腳印，腳印尚未經長時間的自然保存過程，就一定已經是化石。",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 1,
+    "explanation": "新鮮的現代腳印不會因為留下形狀，就立即成為古代生物活動的化石紀錄。",
+    "sourceFamily": "20003548-q-III1",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "三1(3)",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c15",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "研究化石可以提供哪些資訊？甲：某些化石可協助推定地層的相對年代。乙：化石可提供過去生物及其生活環境的線索。",
+    "options": [
+      "只有甲",
+      "只有乙",
+      "甲、乙都可以",
+      "甲、乙都不可以"
+    ],
+    "answer": 2,
+    "explanation": "化石可作為比較地層年代及重建古生物、古環境的證據，但判讀仍需配合化石種類與地質資料。",
+    "sourceFamily": "20003548-q-III1",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "三1(4)/1(5)",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c16",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "比較一支有磁性的普通條形磁鐵與一個正常通電的條形電磁鐵，下列哪些是兩者都有的特質？甲：有N極和S極。乙：能吸引鐵製品。丙：磁極相互靠近時，同極相斥、異極相吸。",
+    "options": [
+      "只有甲、乙",
+      "只有甲、丙",
+      "只有乙、丙",
+      "甲、乙、丙都是"
+    ],
+    "answer": 3,
+    "explanation": "普通條形磁鐵與正常通電的條形電磁鐵均具有兩極，也呈現吸鐵及磁極間吸斥的特性。",
+    "sourceFamily": "20003548-q-III2",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "三2(1)/2(3)/2(5)",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c17",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "普通永久磁鐵必須接上電池、持續通電，才會有磁性。",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 1,
+    "explanation": "普通永久磁鐵不需要外接電池持續通電，仍能保有磁性。",
+    "sourceFamily": "20003548-q-III2",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "三2(6)",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c18",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "下列哪些做法有助於地震防災？甲：平時固定好櫥櫃。乙：把容易掉落的花瓶放在高處邊緣。丙：地震搖晃時採取趴下、掩護、穩住。丁：地震搖晃時搭電梯下樓。戊：平時準備緊急避難包。己：平時了解家中的避難路線。",
+    "options": [
+      "甲、丙、戊、己",
+      "甲、乙、丁、戊",
+      "乙、丙、丁、己",
+      "甲、乙、丙、丁、戊、己"
+    ],
+    "answer": 0,
+    "explanation": "固定家具、正確掩護、準備物資及熟悉避難路線都有助防災；高處易掉落物與搖晃時使用電梯會增加風險。",
+    "sourceFamily": "20003548-q-III3",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "三3圖文完整轉寫",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c19",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "一支均勻磁化的條形磁鐵，原來左端是N極、右端是S極。沿中央切成左右兩段後，兩段都保持原來方向，沒有翻轉。把左段的左端、左段的右端、右段的左端、右段的右端依序記為甲、乙、丙、丁。這四端的磁極依序為何？",
+    "options": [
+      "N、S、N、S",
+      "N、N、S、S",
+      "N、S、S、N",
+      "S、N、N、S"
+    ],
+    "answer": 0,
+    "explanation": "切開後每一段仍各自具有N、S兩極；兩段都保留原有磁化方向，因此各段左端為N、右端為S。",
+    "sourceFamily": "20003548-q-IV1",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 1,
+        "locator": "四1磁鐵四端圖轉文",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c20",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "傳統鋅碳乾電池中的導電碳棒，常使用下列哪一種具有導電性的礦物製成？",
+    "options": [
+      "安山岩",
+      "石灰岩",
+      "硫黃",
+      "石墨",
+      "大理岩"
+    ],
+    "answer": 3,
+    "explanation": "石墨具有導電性，可作為傳統鋅碳乾電池導電碳棒的材料。",
+    "sourceFamily": "20003548-q-V1",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 2,
+        "locator": "五1(1)",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c21",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "部分傳統煙火配方會使用一種通常呈黃色、容易燃燒的礦物。這種礦物是哪一種？",
+    "options": [
+      "安山岩",
+      "石灰岩",
+      "硫黃",
+      "石墨",
+      "大理岩"
+    ],
+    "answer": 2,
+    "explanation": "硫黃是部分傳統煙火與鞭炮配方使用的原料；不能由此推論所有煙火都含有硫黃。",
+    "sourceFamily": "20003548-q-V1",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 2,
+        "locator": "五1(2)",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c22",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "小明用漆包線繞製電磁鐵，卻無法吸起迴紋針。他已確認電池有電、電池接法正確、線圈圈數足夠且已放入鐵芯。接下來最應檢查哪一項，確認電流能通過漆包線？",
+    "options": [
+      "電池是不是同一個品牌",
+      "電磁鐵哪一端朝北",
+      "接觸電池的漆包線兩端，絕緣漆是否已磨除",
+      "旁邊指北針的外殼顏色"
+    ],
+    "answer": 2,
+    "explanation": "漆包線表面的漆具有絕緣作用；接點未去漆可能使電路無法導通。",
+    "sourceFamily": "20003548-q-V2",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 2,
+        "locator": "五2(3)",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c23",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "在臺灣的一般地區，忽略磁偏角，且沒有附近磁鐵、電流或大型鐵製品干擾。讓一支條形磁鐵能自由地在水平方向轉動，靜止後，它的N極大致指向哪個地理方位？",
+    "options": [
+      "北方",
+      "南方",
+      "東方",
+      "西方"
+    ],
+    "answer": 0,
+    "explanation": "磁鐵受到地磁影響，其N極會大致指向地理北方；實際方向可有磁偏角，因此不說精確重合。",
+    "sourceFamily": "20003548-q-V3",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 2,
+        "locator": "五3(1)",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c24",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "用一支等效的巨大條形磁鐵，近似表示地球的磁場。依磁鐵N極會被S極吸引的性質，這支等效磁鐵靠近地理北極的一端，相當於哪一種磁極？",
+    "options": [
+      "S極",
+      "N極",
+      "只有正電極",
+      "只有負電極"
+    ],
+    "answer": 0,
+    "explanation": "指北針的N極大致朝向地理北方，因此在這個磁鐵近似模型中，靠近地理北極的一端相當於S極。",
+    "sourceFamily": "20003548-q-V3",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 2,
+        "locator": "五3(2)",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase4-g6s-20003548-c25",
+    "grade": 6,
+    "course": "science",
+    "subject": "science",
+    "publisher": "翰林",
+    "prompt": "某種傳統電話聽筒使用電磁鐵：電流訊號通過線圈，使電磁鐵的作用隨訊號變化，吸引金屬膜片振動而發聲。電磁鐵對金屬膜片的這種吸引，主要屬於哪一種力？",
+    "options": [
+      "風力",
+      "重力",
+      "磁力",
+      "摩擦力"
+    ],
+    "answer": 2,
+    "explanation": "此情境中，電流使線圈產生磁場，電磁鐵以磁力吸引金屬膜片；膜片振動再產生聲音。",
+    "sourceFamily": "20003548-q-VI2",
+    "level": 2,
+    "hint": "把題目的條件分開想，逐項判斷。",
+    "examSources": [
+      {
+        "id": "f4b20003548",
+        "page": 2,
+        "locator": "六2(2)",
+        "kind": "歷屆期末交集改編；必要條件補齊，同冊單元交集非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-i1",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "甲圓的圓周長是乙圓的2倍，甲圓的面積就是乙圓面積的2倍。這句話正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 1,
+    "explanation": "圓周長與半徑成正比，半徑2倍則面積4倍，不是2倍。",
+    "sourceFamily": "tcool-20000967-p1-i1",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "一1",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-i3",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "「秒速」表示平均每一秒移動的距離。這句話正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "explanation": "秒速的單位是距離／秒。",
+    "sourceFamily": "tcool-20000967-p1-i3",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "一3",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-i4",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "甲、乙兩圓的半徑一樣長，圓周長也一樣長。這句話正確嗎？",
+    "options": [
+      "正確",
+      "錯誤"
+    ],
+    "answer": 0,
+    "explanation": "C＝2πr；半徑相同則圓周長相同。",
+    "sourceFamily": "tcool-20000967-p1-i4",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "一4",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-ii1",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "A車速率是60公里／時，B車速率是800公尺／分。哪一輛車比較快？",
+    "options": [
+      "A車",
+      "B車",
+      "兩車一樣快",
+      "無法比較"
+    ],
+    "answer": 0,
+    "explanation": "60公里／時＝1000公尺／分，大於800。",
+    "sourceFamily": "tcool-20000967-p1-ii1",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "二1",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-ii2",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "圓的直徑變成原來的3倍，圓周長變成原來的幾倍？",
+    "options": [
+      "不變",
+      "6倍",
+      "3倍",
+      "9倍"
+    ],
+    "answer": 2,
+    "explanation": "C＝πd，直徑3倍則圓周長3倍。",
+    "sourceFamily": "tcool-20000967-p1-ii2",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "二2",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-ii3",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "同一個圓內，扇形面積越大，下列哪一個敘述正確？",
+    "options": [
+      "半徑越大",
+      "圓周長越小",
+      "圓周率越大",
+      "弧長越長"
+    ],
+    "answer": 3,
+    "explanation": "同圓的半徑和圓周率不變；面積所占比例越大，弧長所占比例越大。",
+    "sourceFamily": "tcool-20000967-p1-ii3",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "二3",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-ii4",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "小睿跑500公尺花1分鐘，小瀚跑1公里花3分鐘。誰跑得比較快？",
+    "options": [
+      "小瀚",
+      "小睿",
+      "一樣快",
+      "無法比較"
+    ],
+    "answer": 1,
+    "explanation": "小睿500公尺／分；小瀚1000÷3公尺／分，小睿較快。",
+    "sourceFamily": "tcool-20000967-p1-ii4",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "二4",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-ii5",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "B圖是A圖的二分之一倍縮圖，B圖的邊長是A圖邊長的幾倍？",
+    "options": [
+      "2倍",
+      "4倍",
+      "二分之一倍",
+      "四分之一倍"
+    ],
+    "answer": 2,
+    "explanation": "二分之一倍縮圖的對應邊長為原圖的二分之一。",
+    "sourceFamily": "tcool-20000967-p1-ii5",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "二5",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-iii1",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "小川家到遊樂園實際距離2.4公里，地圖上距離2公分。這張地圖的比例尺是多少？",
+    "options": [
+      "1：1200",
+      "1：12000",
+      "1：120000",
+      "1：1200000"
+    ],
+    "answer": 2,
+    "explanation": "2.4公里＝240000公分，2：240000＝1：120000。",
+    "sourceFamily": "tcool-20000967-p1-iii1",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "三1",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-iii2",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "一架噴射機的速率是1160公里／時，換成公尺／時是多少？",
+    "options": [
+      "11600",
+      "116000",
+      "1160000",
+      "11600000"
+    ],
+    "answer": 2,
+    "explanation": "1160×1000＝1160000公尺／時。",
+    "sourceFamily": "tcool-20000967-p1-iii2",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "三2",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-iii3",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "蝸牛每天爬20公尺，保持相同速率爬120公尺，需要幾天？",
+    "options": [
+      "4天",
+      "5天",
+      "6天",
+      "8天"
+    ],
+    "answer": 2,
+    "explanation": "120÷20＝6天。",
+    "sourceFamily": "tcool-20000967-p1-iii3",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "三3",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-iii4",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "半徑8公分的圓形月餅平均分成8塊，每一塊的面積約是多少平方公分？（圓周率用3.14）",
+    "options": [
+      "6.28",
+      "25.12",
+      "50.24",
+      "200.96"
+    ],
+    "answer": 1,
+    "explanation": "3.14×8×8÷8＝25.12平方公分。",
+    "sourceFamily": "tcool-20000967-p1-iii4",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "三4",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-iii5",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "琪琪和樂樂雙臂張開共長244.92公分，剛好抱住大樹一圈。這棵樹的直徑約多少公分？（把樹幹視為圓，圓周率用3.14）",
+    "options": [
+      "39",
+      "78",
+      "122.46",
+      "156"
+    ],
+    "answer": 1,
+    "explanation": "244.92÷3.14＝78公分。",
+    "sourceFamily": "tcool-20000967-p1-iii5",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "三5",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-iii6",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "用圓規畫半徑10公分的圓，圓周長約多少公分？（圓周率用3.14）",
+    "options": [
+      "31.4",
+      "62.8",
+      "100",
+      "314"
+    ],
+    "answer": 1,
+    "explanation": "2×3.14×10＝62.8公分。",
+    "sourceFamily": "tcool-20000967-p1-iii6",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "三6",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-iii7",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "長30公尺、寬10公尺的長方形空地內，畫一個放得下的最大圓。圓周長約多少公尺？（圓周率用3.14）",
+    "options": [
+      "15.7",
+      "31.4",
+      "62.8",
+      "94.2"
+    ],
+    "answer": 1,
+    "explanation": "最大圓直徑等於短邊10公尺，圓周長＝3.14×10＝31.4。",
+    "sourceFamily": "tcool-20000967-p1-iii7",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 1,
+        "locator": "三7",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-iii8",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "一塊四分之一圓扇形土地面積28.26平方公尺，原來整個圓的直徑約多少公尺？（圓周率用3.14）",
+    "options": [
+      "3",
+      "6",
+      "12",
+      "24"
+    ],
+    "answer": 2,
+    "explanation": "整圓面積＝28.26×4＝113.04，半徑平方＝113.04÷3.14＝36，半徑6、直徑12。",
+    "sourceFamily": "tcool-20000967-p2-iii8",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 2,
+        "locator": "三8",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-iii9",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "比例尺1：4000的地圖上，正方形公園邊長2公分。實際邊長是多少公分？",
+    "options": [
+      "2000",
+      "4000",
+      "8000",
+      "16000"
+    ],
+    "answer": 2,
+    "explanation": "2×4000＝8000公分。",
+    "sourceFamily": "tcool-20000967-p2-iii9",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 2,
+        "locator": "三9",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-iii11",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "田徑場一圈400公尺，弟弟跑一圈花1分鐘20秒。他的平均速率是多少公尺／秒？",
+    "options": [
+      "4",
+      "5",
+      "20",
+      "80"
+    ],
+    "answer": 1,
+    "explanation": "1分鐘20秒＝80秒；400÷80＝5公尺／秒。",
+    "sourceFamily": "tcool-20000967-p2-iii11",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 2,
+        "locator": "三11",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-iii12",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "圓周長188.4公分的圓，面積約多少平方公分？（圓周率用3.14）",
+    "options": [
+      "282.6",
+      "942",
+      "2826",
+      "11304"
+    ],
+    "answer": 2,
+    "explanation": "直徑188.4÷3.14＝60，半徑30；3.14×30×30＝2826。",
+    "sourceFamily": "tcool-20000967-p2-iii12",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 2,
+        "locator": "三12",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-iii13",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "時速12公里與分速0.2公里相比，哪一項正確？",
+    "options": [
+      "時速12公里較快",
+      "分速0.2公里較快",
+      "兩者一樣快",
+      "單位不同不能比較"
+    ],
+    "answer": 2,
+    "explanation": "0.2公里／分×60＝12公里／時。",
+    "sourceFamily": "tcool-20000967-p2-iii13",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 2,
+        "locator": "三13",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-vii2",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "比例尺1：1200的導覽告示牌上，步道長90公分。同一條步道在比例尺1：2400的傳單上長幾公分？",
+    "options": [
+      "22.5",
+      "45",
+      "90",
+      "180"
+    ],
+    "answer": 1,
+    "explanation": "實際長90×1200；新圖長90×1200÷2400＝45公分。",
+    "sourceFamily": "tcool-20000967-p3-vii2",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 3,
+        "locator": "七2",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-vii3",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "小謙一步約42公分，沿圓形花園外圍走一圈共157步。花園半徑約多少公尺？（圓周率用3.14）",
+    "options": [
+      "10.5",
+      "21",
+      "42",
+      "1050"
+    ],
+    "answer": 0,
+    "explanation": "42×157＝6594公分；半徑6594÷3.14÷2＝1050公分＝10.5公尺。",
+    "sourceFamily": "tcool-20000967-p3-vii3",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 3,
+        "locator": "七3",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-vii4",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "列車行駛180公里花0.75小時，平均速率是多少公里／時？",
+    "options": [
+      "135",
+      "180",
+      "240",
+      "270"
+    ],
+    "answer": 2,
+    "explanation": "180÷0.75＝240公里／時。",
+    "sourceFamily": "tcool-20000967-p3-vii4",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 3,
+        "locator": "七4",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-vii5",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "投手投球速率約108公里／時，球飛行0.6秒到捕手手套。以此速率估算，距離約幾公尺？",
+    "options": [
+      "10.8",
+      "18",
+      "30",
+      "64.8"
+    ],
+    "answer": 1,
+    "explanation": "108公里／時＝30公尺／秒；30×0.6＝18公尺。",
+    "sourceFamily": "tcool-20000967-p3-vii5",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 3,
+        "locator": "七5",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g6m-20000967-vii6",
+    "grade": 6,
+    "course": "math",
+    "subject": "math",
+    "publisher": "康軒",
+    "prompt": "腳踏車輪胎半徑35公分，向前行駛420公尺且車輪沒有打滑。車輪約轉幾圈？（圓周率用3.14，四捨五入到整數）",
+    "options": [
+      "19",
+      "191",
+      "382",
+      "1911"
+    ],
+    "answer": 1,
+    "explanation": "一圈2×3.14×35＝219.8公分；42000÷219.8約191.08，四捨五入到整數為191圈。",
+    "sourceFamily": "tcool-20000967-p3-vii6",
+    "level": 2,
+    "hint": "先確認題目要比較的量、關係與單位。",
+    "examSources": [
+      {
+        "id": "nx20000967",
+        "page": 3,
+        "locator": "七6",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g2m-20003700-i1",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "小丸子有5盒餅乾，每盒8塊，想請每位小朋友吃1塊，最多可以請幾位小朋友？",
+    "options": [
+      "30位",
+      "40位",
+      "50位",
+      "80位"
+    ],
+    "answer": 1,
+    "explanation": "5×8＝40塊，每人1塊可給40位。",
+    "sourceFamily": "tcool-20003700-p1-i1",
+    "level": 1,
+    "hint": "先算一共有多少塊餅乾，每人拿1塊。",
+    "examSources": [
+      {
+        "id": "nx20003700",
+        "page": 1,
+        "locator": "一1",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g2m-20003700-i2",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "關於時鐘與時間，哪一個敘述錯誤？",
+    "options": [
+      "分針是長針",
+      "時針是短針",
+      "時針走一圈經過60分鐘",
+      "分針走6大格是30分鐘"
+    ],
+    "answer": 2,
+    "explanation": "一般12小時制時鐘，時針一圈12小時，不是60分鐘。",
+    "sourceFamily": "tcool-20003700-p1-i2",
+    "level": 1,
+    "hint": "分清時針與分針走一圈各代表多久。",
+    "examSources": [
+      {
+        "id": "nx20003700",
+        "page": 1,
+        "locator": "一2",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g2m-20003700-ii2",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "8×7比8×5多多少？",
+    "options": [
+      "8",
+      "16",
+      "24",
+      "40"
+    ],
+    "answer": 1,
+    "explanation": "8×7－8×5＝56－40＝16。",
+    "sourceFamily": "tcool-20003700-p1-ii2",
+    "level": 1,
+    "hint": "先算兩個乘積，再求它們的差。",
+    "examSources": [
+      {
+        "id": "nx20003700",
+        "page": 1,
+        "locator": "二2",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g2m-20003700-ii3",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "2×4比2×8少多少？",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "2×8－2×4＝16－8＝8。",
+    "sourceFamily": "tcool-20003700-p1-ii3",
+    "level": 1,
+    "hint": "先算兩個乘積，再求它們的差。",
+    "examSources": [
+      {
+        "id": "nx20003700",
+        "page": 1,
+        "locator": "二3",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g2m-20003700-ii4",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "3的2倍加上3的5倍，是3的幾倍？",
+    "options": [
+      "3倍",
+      "5倍",
+      "7倍",
+      "10倍"
+    ],
+    "answer": 2,
+    "explanation": "3×2＋3×5＝3×7，是3的7倍。",
+    "sourceFamily": "tcool-20003700-p1-ii4",
+    "level": 1,
+    "hint": "先想想總共有幾個3。",
+    "examSources": [
+      {
+        "id": "nx20003700",
+        "page": 1,
+        "locator": "二4",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g2m-20003700-iii1",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "1串香蕉有5根，4串香蕉共有幾根？",
+    "options": [
+      "9根",
+      "15根",
+      "20根",
+      "25根"
+    ],
+    "answer": 2,
+    "explanation": "5×4＝20根。",
+    "sourceFamily": "tcool-20003700-p1-iii1",
+    "level": 1,
+    "hint": "每串有5根，看看共有幾串。",
+    "examSources": [
+      {
+        "id": "nx20003700",
+        "page": 1,
+        "locator": "三1",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g2m-20003700-iii2",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "1串糖葫蘆有4顆小番茄，3串共有幾顆小番茄？",
+    "options": [
+      "7顆",
+      "8顆",
+      "12顆",
+      "16顆"
+    ],
+    "answer": 2,
+    "explanation": "4×3＝12顆。",
+    "sourceFamily": "tcool-20003700-p1-iii2",
+    "level": 1,
+    "hint": "把每串的數量連加3次。",
+    "examSources": [
+      {
+        "id": "nx20003700",
+        "page": 1,
+        "locator": "三2",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "phase5-g2m-20003700-iii3",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "體育表演會從上午8點開始，中午12點結束，共經過幾小時？",
+    "options": [
+      "3小時",
+      "4小時",
+      "5小時",
+      "8小時"
+    ],
+    "answer": 1,
+    "explanation": "同日12－8＝4小時。",
+    "sourceFamily": "tcool-20003700-p1-iii3",
+    "level": 1,
+    "hint": "從上午8時往後一小時一小時點數。",
+    "examSources": [
+      {
+        "id": "nx20003700",
+        "page": 1,
+        "locator": "三3",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "more-g2m-20000947-i2",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "同一天上午3時到上午6時，時鐘的分針共走了多少？",
+    "options": [
+      "3圈",
+      "3大格",
+      "3小格"
+    ],
+    "answer": 0,
+    "explanation": "經過3小時，分針每小時走一圈，所以共3圈。",
+    "sourceFamily": "tcool-20000947-p1-i2",
+    "level": 1,
+    "hint": "分針每過1小時會走一圈。",
+    "examSources": [
+      {
+        "id": "nx20000947",
+        "page": 1,
+        "locator": "一2",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "more-g2m-20000947-i4",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "哪一個圖形的周長最長？",
+    "options": [
+      "邊長3公分的正三角形",
+      "邊長2公分的正方形",
+      "長3公分、寬1公分的長方形"
+    ],
+    "answer": 0,
+    "explanation": "周長依序為9、8、8公分，正三角形最長。",
+    "sourceFamily": "tcool-20000947-p1-i4",
+    "level": 1,
+    "hint": "分別算出三個圖形的周長，再比較。",
+    "examSources": [
+      {
+        "id": "nx20000947",
+        "page": 1,
+        "locator": "一4",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "more-g2m-20000947-ii1",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "時針在12與1之間，分針指向5，時鐘顯示幾時幾分？",
+    "options": [
+      "12時5分",
+      "12時25分",
+      "1時25分",
+      "11時25分"
+    ],
+    "answer": 1,
+    "explanation": "分針指向5是25分；時針在12與1之間表示12時多。",
+    "sourceFamily": "tcool-20000947-p1-ii1",
+    "level": 1,
+    "hint": "分針走1大格代表5分鐘，先讀時針再讀分針。",
+    "examSources": [
+      {
+        "id": "nx20000947",
+        "page": 1,
+        "locator": "二1",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "more-g2m-20000947-ii2",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "分針從12出發，順時針走8大格又3小格，共經過幾分鐘？",
+    "options": [
+      "11分鐘",
+      "38分鐘",
+      "43分鐘",
+      "53分鐘"
+    ],
+    "answer": 2,
+    "explanation": "8大格是40分鐘，再走3小格是3分鐘，共43分鐘。",
+    "sourceFamily": "tcool-20000947-p1-ii2",
+    "level": 1,
+    "hint": "先把8大格換成分鐘，再加上3小格。",
+    "examSources": [
+      {
+        "id": "nx20000947",
+        "page": 1,
+        "locator": "二2",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "more-g2m-20000947-ii3",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "6＋6＋6＋6＋6，比6×7少多少？",
+    "options": [
+      "2",
+      "6",
+      "12",
+      "18"
+    ],
+    "answer": 2,
+    "explanation": "前者是6×5，與6×7相差2個6，所以少12。",
+    "sourceFamily": "tcool-20000947-p1-ii3",
+    "level": 1,
+    "hint": "先把連加改寫成乘法，再比較兩邊的差。",
+    "examSources": [
+      {
+        "id": "nx20000947",
+        "page": 1,
+        "locator": "二3",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "more-g2m-20000947-ii5",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "小傑每天向圖書館借2本書，一週共借幾本書？",
+    "options": [
+      "7本",
+      "9本",
+      "12本",
+      "14本"
+    ],
+    "answer": 3,
+    "explanation": "一週7天，每天2本，2×7＝14本。",
+    "sourceFamily": "tcool-20000947-p1-ii5",
+    "level": 1,
+    "hint": "一週有7天，看看每天借幾本書。",
+    "examSources": [
+      {
+        "id": "nx20000947",
+        "page": 1,
+        "locator": "二5",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "more-g2m-20000947-iii5",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "有8盆花，每盆有3朵花，共有幾朵花？",
+    "options": [
+      "11朵",
+      "16朵",
+      "24朵",
+      "32朵"
+    ],
+    "answer": 2,
+    "explanation": "每盆3朵，8盆共有3×8＝24朵。",
+    "sourceFamily": "tcool-20000947-p1-iii5",
+    "level": 1,
+    "hint": "每一份都是3朵，找出共有幾份。",
+    "examSources": [
+      {
+        "id": "nx20000947",
+        "page": 1,
+        "locator": "三5",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "more-g2m-20000947-v1",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "一個三角形三條邊長分別為8公分、8公分與14公分，周長是多少？",
+    "options": [
+      "22公分",
+      "24公分",
+      "30公分",
+      "38公分"
+    ],
+    "answer": 2,
+    "explanation": "三條邊相加：8＋8＋14＝30公分。",
+    "sourceFamily": "tcool-20000947-p2-v1",
+    "level": 1,
+    "hint": "周長就是沿著圖形外圍繞一圈的長度。",
+    "examSources": [
+      {
+        "id": "nx20000947",
+        "page": 2,
+        "locator": "五1",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "more-g2m-20000947-v2",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "一個四邊形四條邊長分別為17公分、7公分、9公分與7公分，周長是多少？",
+    "options": [
+      "26公分",
+      "33公分",
+      "40公分",
+      "48公分"
+    ],
+    "answer": 2,
+    "explanation": "四條邊相加：17＋7＋9＋7＝40公分。",
+    "sourceFamily": "tcool-20000947-p2-v2",
+    "level": 1,
+    "hint": "周長就是沿著圖形外圍繞一圈的長度。",
+    "examSources": [
+      {
+        "id": "nx20000947",
+        "page": 2,
+        "locator": "五2",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "more-g2m-20000947-vi1a",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "大會舞示範要派3位小朋友，每位帶2顆彩球，共需要幾顆彩球？",
+    "options": [
+      "5顆",
+      "6顆",
+      "7顆",
+      "9顆"
+    ],
+    "answer": 1,
+    "explanation": "每人2顆，3人共2×3＝6顆。",
+    "sourceFamily": "tcool-20000947-p2-vi1",
+    "level": 1,
+    "hint": "每人有2顆，把3個人的彩球合起來。",
+    "examSources": [
+      {
+        "id": "nx20000947",
+        "page": 2,
+        "locator": "六1①",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "more-g2m-20000947-vi1b",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "每班派3位小朋友示範大會舞，7個班共派幾位小朋友？",
+    "options": [
+      "10位",
+      "14位",
+      "21位",
+      "24位"
+    ],
+    "answer": 2,
+    "explanation": "每班3位，7班共3×7＝21位。",
+    "sourceFamily": "tcool-20000947-p2-vi1",
+    "level": 1,
+    "hint": "每班人數相同，找出一共有幾班。",
+    "examSources": [
+      {
+        "id": "nx20000947",
+        "page": 2,
+        "locator": "六1②",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  },
+  {
+    "id": "more-g2m-20000947-vi2",
+    "grade": 2,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "prompt": "1個五十元錢幣可以換成5個十元錢幣，6個五十元錢幣共可換成幾個十元錢幣？",
+    "options": [
+      "11個",
+      "25個",
+      "30個",
+      "60個"
+    ],
+    "answer": 2,
+    "explanation": "每個五十元換5個十元，6個可換5×6＝30個。",
+    "sourceFamily": "tcool-20000947-p2-vi2",
+    "level": 1,
+    "hint": "先看1個五十元可以換幾個十元，再算6份。",
+    "examSources": [
+      {
+        "id": "nx20000947",
+        "page": 2,
+        "locator": "六2",
+        "kind": "個別核准歷屆上冊交集改編；必要圖形數據完整文字化；非115完整考試範圍"
+      }
+    ]
+  }
+]

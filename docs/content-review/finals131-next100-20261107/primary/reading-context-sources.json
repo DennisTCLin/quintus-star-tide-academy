@@ -1,0 +1,40 @@
+{
+  "sources": {
+    "不當": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=1968",
+    "適當": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=33741",
+    "應變": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=42575",
+    "反應": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=5638",
+    "因應": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=41950",
+    "乾旱": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=16363",
+    "盡量": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=23394",
+    "髮": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=5278",
+    "縫": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=6240",
+    "搖晃": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=41068",
+    "切": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=24798",
+    "差": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=31519",
+    "東西": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=9787",
+    "得助詞": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=7458",
+    "地助詞": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=7455",
+    "著手": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=30825",
+    "著助詞": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=29560",
+    "建築": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=23018",
+    "轉速": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=30996",
+    "衣服": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=40246",
+    "著重": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=118963"
+  },
+  "scope": "Precise complete new runs only; no existing phrase or character readings overwritten. Simplified MOE current educational readings; 一/不 written base tones preserved.",
+  "review": "root full context + bounded read-only 573newphrases/9newchars review",
+  "negativeControls": [
+    "生長",
+    "為取得",
+    "為因應",
+    "看家",
+    "觀看",
+    "一磅",
+    "磅礴",
+    "熟悉",
+    "建築",
+    "轉速",
+    "衣服"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "findings": [
+    {
+      "context": "手牽著手用牽",
+      "wrong": "zhuo2 from embedded著手",
+      "correct": "zhe0 for sustained action",
+      "detectedBy": "root semantic control"
+    },
+    {
+      "context": "這個實驗的操作變因應是哪一項",
+      "wrong": "ying4 from cross-word因應",
+      "correct": "ying1 meaning應該",
+      "detectedBy": "read-only context verifier"
+    }
+  ],
+  "status": "fixed before final rerun; preliminary test run is superseded",
+  "oldDictionaryEntriesChanged": 0,
+  "preliminaryRunNotes": [
+    "First dictionary merge was attempted while generator still running; discarded zero-addition interim, waited generator completion and rebuilt573phrases9chars preserving all old entries.",
+    "Preliminary full run overlapped final precise fix and is superseded.",
+    "Sandbox ordinary suite server hook could not bind127.0.0.1; 1617 tests passed/onehook timedout. Final ordinary rerun uses explicitly reviewed local network permission."
+  ]
+}

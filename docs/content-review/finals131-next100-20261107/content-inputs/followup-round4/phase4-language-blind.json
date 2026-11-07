@@ -1,0 +1,325 @@
+{
+  "candidateCount": 33,
+  "instruction": "Independently solve; do not read primary candidates/key/source answer; indicate ambiguity or no unique answer",
+  "items": [
+    {
+      "id": "phase4-lang-g1-you",
+      "grade": 1,
+      "prompt": "「小朋友」的「友」，書面本調注音是哪一個？",
+      "options": [
+        "ㄧㄡˇ",
+        "ㄧㄡˋ"
+      ]
+    },
+    {
+      "id": "phase4-lang-g1-duo",
+      "grade": 1,
+      "prompt": "「家裡多了一隻小狗」的「多」，正確注音是哪一個？",
+      "options": [
+        "ㄉㄨㄛˊ",
+        "ㄉㄨㄛ"
+      ]
+    },
+    {
+      "id": "phase4-lang-g1-le",
+      "grade": 1,
+      "prompt": "「家裡多了一隻小狗」中，助詞「了」應讀哪一個注音？",
+      "options": [
+        "˙ㄌㄜ",
+        "ㄌㄧㄠˇ"
+      ]
+    },
+    {
+      "id": "phase4-lang-g1-bu",
+      "grade": 1,
+      "prompt": "「不知道這是誰家的小狗」中，「不知道」連讀時，「不」應讀哪一個注音？",
+      "options": [
+        "ㄅㄨˊ",
+        "ㄅㄨˋ"
+      ]
+    },
+    {
+      "id": "phase4-lang-g1-jia",
+      "grade": 1,
+      "prompt": "「誰家的小狗」中，「家」的正確注音是哪一個？",
+      "options": [
+        "ㄐㄧㄚ",
+        "ㄐㄧㄚˋ"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-ju",
+      "grade": 2,
+      "prompt": "「我們□在一起，思考如何發明新產品。」□讀ㄐㄩˋ，應填哪個字？",
+      "options": [
+        "聚",
+        "取"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-si",
+      "grade": 2,
+      "prompt": "「我們聚在一起，□考如何發明新產品。」□讀ㄙ，應填哪個字？",
+      "options": [
+        "恩",
+        "思"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-fa",
+      "grade": 2,
+      "prompt": "「我們聚在一起，思考如何□明新產品。」□讀ㄈㄚ，應填哪個字？",
+      "options": [
+        "發",
+        "髮"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-cong",
+      "grade": 2,
+      "prompt": "「□明的烏鴉。」□讀ㄘㄨㄥ，應填哪個字？",
+      "options": [
+        "聽",
+        "聰"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-ming",
+      "grade": 2,
+      "prompt": "「聰□的烏鴉。」□讀ㄇㄧㄥˊ，應填哪個字？",
+      "options": [
+        "明",
+        "朋"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-wu",
+      "grade": 2,
+      "prompt": "「聰明的□鴉。」□讀ㄨ，應填哪個字？",
+      "options": [
+        "鳥",
+        "烏"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-han",
+      "grade": 2,
+      "prompt": "「在□冷的夜晚有熱湯可以喝，真是太幸福了！」□讀ㄏㄢˊ，應填哪個字？",
+      "options": [
+        "寒",
+        "塞"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-leng",
+      "grade": 2,
+      "prompt": "「在寒□的夜晚有熱湯可以喝，真是太幸福了！」□讀ㄌㄥˇ，應填哪個字？",
+      "options": [
+        "令",
+        "冷"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-ye",
+      "grade": 2,
+      "prompt": "「在寒冷的□晚有熱湯可以喝，真是太幸福了！」□讀ㄧㄝˋ，應填哪個字？",
+      "options": [
+        "夜",
+        "液"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-he",
+      "grade": 2,
+      "prompt": "「在寒冷的夜晚有熱湯可以□，真是太幸福了！」□讀ㄏㄜ，應填哪個字？",
+      "options": [
+        "渴",
+        "喝"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-xing",
+      "grade": 2,
+      "prompt": "「在寒冷的夜晚有熱湯可以喝，真是太□福了！」□讀ㄒㄧㄥˋ，應填哪個字？",
+      "options": [
+        "幸",
+        "辛"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-xiang",
+      "grade": 2,
+      "prompt": "「大□的腿像柱子。」□讀ㄒㄧㄤˋ，應填哪個字？",
+      "options": [
+        "像",
+        "象"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-tui",
+      "grade": 2,
+      "prompt": "「大象的□像柱子。」□讀ㄊㄨㄟˇ，應填哪個字？",
+      "options": [
+        "腿",
+        "退"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-zhu",
+      "grade": 2,
+      "prompt": "「大象的腿像□子。」□讀ㄓㄨˋ，應填哪個字？",
+      "options": [
+        "住",
+        "柱"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-fix1",
+      "grade": 2,
+      "prompt": "「我們手【千】著手，【韋】成一個圓圈。」兩個【】中的錯字，依序應改成哪一組？",
+      "options": [
+        "牽、圍",
+        "千、圍",
+        "牽、韋",
+        "千、韋"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-fix2",
+      "grade": 2,
+      "prompt": "「我們今天晚上在頂樓【忻】賞美麗的跨年【淹】火秀。」兩個【】中的錯字，依序應改成哪一組？",
+      "options": [
+        "欣、淹",
+        "忻、煙",
+        "欣、煙",
+        "忻、淹"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-fix4",
+      "grade": 2,
+      "prompt": "「你【延】著這條馬路一【值】往前走，就會看到大海了。」兩個【】中的錯字，依序應改成哪一組？",
+      "options": [
+        "延、值",
+        "沿、值",
+        "延、直",
+        "沿、直"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-fix5",
+      "grade": 2,
+      "prompt": "「我【望】了帶水壺，現在覺得口很【可】。」兩個【】中的錯字，依序應改成哪一組？",
+      "options": [
+        "望、可",
+        "忘、可",
+        "忘、渴",
+        "望、渴"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-fix6",
+      "grade": 2,
+      "prompt": "「我們週末去百【霍】公司買【冬】西。」兩個【】中的錯字，依序應改成哪一組？",
+      "options": [
+        "貨、東",
+        "霍、東",
+        "貨、冬",
+        "霍、冬"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-fix7",
+      "grade": 2,
+      "prompt": "「下課時，【噪】場上【沖】滿了同學的歡笑聲。」兩個【】中的錯字，依序應改成哪一組？",
+      "options": [
+        "噪、充",
+        "操、沖",
+        "操、充",
+        "噪、沖"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-fix8",
+      "grade": 2,
+      "prompt": "「老鷹張開巨大【次】膀，在空中來回【非】翔。」兩個【】中的錯字，依序應改成哪一組？",
+      "options": [
+        "翅、非",
+        "次、飛",
+        "次、非",
+        "翅、飛"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-fix9",
+      "grade": 2,
+      "prompt": "「我最期【帶】的就是和家人吃熱呼呼的火【堝】。」兩個【】中的錯字，依序應改成哪一組？",
+      "options": [
+        "待、鍋",
+        "帶、鍋",
+        "待、堝",
+        "帶、堝"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-fix10",
+      "grade": 2,
+      "prompt": "「這件衣服是奶奶一【真】一線縫的。」【真】應改成哪個字？",
+      "options": [
+        "真",
+        "針"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-fix11",
+      "grade": 2,
+      "prompt": "「弟弟喜歡吃炒【販】，我喜歡吃炒麵。」【販】應改成哪個字？",
+      "options": [
+        "飯",
+        "販"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-fix12",
+      "grade": 2,
+      "prompt": "「舞會上，大家戴上各式各樣的面【俱】。」【俱】應改成哪個字？",
+      "options": [
+        "俱",
+        "具"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-mcq2",
+      "grade": 2,
+      "prompt": "「我們坐車時，不可以把頭和手□出窗外。」空格中應該填入哪個字？",
+      "options": [
+        "伸",
+        "跨",
+        "充",
+        "站"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-mcq3",
+      "grade": 2,
+      "prompt": "「沒想到這個機器人竟然會和老師聊天，真是太厲害了！」句子中「竟然」可以用下面哪個詞語替代？",
+      "options": [
+        "自然",
+        "居然",
+        "突然",
+        "雖然"
+      ]
+    },
+    {
+      "id": "phase4-lang-g2-mcq5",
+      "grade": 2,
+      "prompt": "依教育部字典的部首分類，哪兩個字的部首相同？",
+      "options": [
+        "妙、少",
+        "期、服",
+        "冒、貨",
+        "寒、冬"
+      ]
+    }
+  ]
+}
