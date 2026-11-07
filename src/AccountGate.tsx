@@ -223,7 +223,7 @@ export default function AccountGate({
                 </button>
               </form>
             )}
-            <div className="account-links">
+            <div className="account-links"><a href="/adult">成人英文登入，一起冒險</a>
               <a href="/admin">管理員登入</a>
               {(["login", "register", "invite", "recover"] as const)
                 .filter((x) => x !== mode)

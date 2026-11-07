@@ -1,3 +1,4 @@
+import {resolveWorldContact,publicBattleNames,socialGuard} from './world-identity.mjs';
 import { randomInt } from 'node:crypto';
 import { newBattle, battleMove, PLAYERS } from '../build/game.mjs';
 import { ensureSchema } from './schema-migration.mjs';
@@ -75,11 +76,13 @@ export async function createOnlineBattleService({ pool, transaction, lockSession
       assert(Object.hasOwn(allowed,body.action) && Object.keys(body).every(k=>allowed[body.action].includes(k)) && uuid(body.commandId),'操作無效',400);
       return serialized(user,body.player,async(db,me)=>{
         if(body.action==='invite') {
+          const friendKey=body.friend;body={...body,friend:await resolveWorldContact(db,me.id,friendKey)};
           assert(uuid(body.friend)&&body.friend!==me.id,'請選擇好友',400);
           const existing=(await db.query('SELECT * FROM online_battles WHERE id=$1',[body.commandId])).rows[0];
           if(existing) { assert(existing.host===me.id && existing.guest===body.friend && existing.host_pet===body.pet,'邀請識別碼已使用',409);return; }
           const linked=(await db.query('SELECT 1 FROM player_friendships WHERE member_id=$1 AND friend_id=$2',[me.id,body.friend])).rowCount;
           assert(linked,'只能邀請自己的好友',403);
+          await socialGuard(db,me.id,body.friend,assert);
           assert(await online(db,me.id) && await online(db,body.friend),'好友目前不在線，請稍後再邀請',409);
           const busy=(await db.query("SELECT 1 FROM online_battles WHERE status IN ('pending','active') AND (host=ANY($1::uuid[]) OR guest=ANY($1::uuid[]))",[[me.id,body.friend]])).rowCount;
           assert(!busy,'你或好友已有邀請或對戰，請先完成',409);
@@ -87,7 +90,7 @@ export async function createOnlineBattleService({ pool, transaction, lockSession
           assert(!recent,'請等 30 秒再發出邀請',429);
           await profile(db,me,body.pet);
           const guest=(await db.query('SELECT display_name FROM player_logins WHERE id=$1',[body.friend])).rows[0];
-          await db.query("INSERT INTO online_battles(id,host,guest,status,host_pet,names,deadline) VALUES($1,$2,$3,'pending',$4,$5,now()+interval '90 seconds')",[body.commandId,me.id,body.friend,body.pet,JSON.stringify([me.display_name,guest.display_name])]);
+          await db.query("INSERT INTO online_battles(id,host,guest,status,host_pet,names,deadline) VALUES($1,$2,$3,'pending',$4,$5,now()+interval '90 seconds')",[body.commandId,me.id,body.friend,body.pet,JSON.stringify(await publicBattleNames(db,me.id,body.friend,[me.display_name,guest.display_name],friendKey!==body.friend))]);
           return;
         }
         assert(uuid(body.room)&&Number.isSafeInteger(body.revision)&&body.revision>=0,'操作無效',400);
@@ -101,12 +104,14 @@ export async function createOnlineBattleService({ pool, transaction, lockSession
         const side=row.host===me.id?0:1;
         if(body.action==='accept') {
           assert(row.status==='pending' && side===1,'邀請已結束或無法接受',409);
+          await socialGuard(db,row.host,row.guest,assert);
           assert(await online(db,row.host) && await online(db,row.guest),'對方目前已離線，請重新邀請',409);
           const host=(await db.query('SELECT * FROM player_logins WHERE id=$1',[row.host])).rows[0];
           const left=await profile(db,host,row.host_pet), right=await profile(db,me,body.pet);
           row.battle=newBattle([row.host_pet],[body.pet],'duo',[left.growth?.xp??{},right.growth?.xp??{}]);
           row.battle.turn=randomInt(2);row.status='active';
         } else if(body.action==='move') {
+          await socialGuard(db,row.host,row.guest,assert,{invite:false,busy:false});
           assert(row.status==='active' && row.battle.turn===side,'請等待你的回合',409);
           assert(['attack','guard','heal','burst'].includes(body.move),'招式無效',400);
           try { row.battle=battleMove(row.battle,body.move); } catch(e) {assert(false,e.message,400);}

@@ -4,6 +4,11 @@ import { request } from "../cloud";
 afterEach(() => { vi.useRealTimers(); vi.unstubAllGlobals(); });
 
 describe("cloud requests on older Safari", () => {
+  it("uses the adult game namespace only on the adult route, including reload and nested routes", async () => {
+    const fetcher=vi.fn().mockResolvedValue({ok:true,json:async()=>({ok:true})});vi.stubGlobal('fetch',fetcher);
+    for(const pathname of ['/adult','/adult/','/adult/progress']){vi.stubGlobal('window',{location:{pathname}});await request('state');expect(fetcher.mock.calls.at(-1)![0]).toBe('/api/adult/game/state');}
+    for(const pathname of ['/','/admin','/adultish']){vi.stubGlobal('window',{location:{pathname}});await request('state');expect(fetcher.mock.calls.at(-1)![0]).toBe('/api/state');}
+  });
   it("sends login even when AbortSignal.timeout is unavailable", async () => {
     vi.useFakeTimers();
     vi.stubGlobal("AbortSignal", {});

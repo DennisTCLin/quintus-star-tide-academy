@@ -1,7 +1,9 @@
+import {worldContacts} from './world-identity.mjs';
 import { PLAYERS, ROSTER, taipeiDay, collectionWeekStart, creatureProgress } from '../build/game.mjs';
 const pets = new Map(ROSTER.map(p=>[p.id,p]));
 const originalAvatars = {quintus:'quintus',olivia:'doudou',sunny:'qingqing',feifei:'feifei',alston:'alston'};
 export function collectionIdentity(row, user, player) {
+  if(row.worldIdentity)return {...row.worldIdentity,isSelf:false};
   const avatarKey = ['alan','jimmy','brownie','jasper'].includes(row.username) ? row.username
     : originalAvatars[row.username] === row.player_id || Number(row.household_size)>1 || !row.member_id ? row.player_id : 'unknown';
   return {key:row.member_id ?? `household:${row.player_id}`,id:row.player_id,
@@ -34,8 +36,11 @@ export async function readPlayerCollections(pool,user,{player,target},assert) {
     const state=(await pool.query('SELECT family FROM game_states WHERE account_id=$1',[user.id])).rows[0];
     for(const p of PLAYERS)rows.push({account_id:user.id,player_id:p.id,display_name:p.name,profile:state?.family?.profiles?.[p.id]});
   }
+  const contacts=await worldContacts(pool,user.member_id,rows.map(r=>r.member_id).filter(Boolean),user.id);
+  for(const row of rows)row.worldIdentity=contacts.get(row.member_id);
+  const visible=rows.filter(row=>!row.worldIdentity?.hidden);
   const day=taipeiDay();
-  if(target!==null){const row=rows.find(r=>collectionIdentity(r,user,player).key===target);assert(row,'找不到這位好友的收藏',404);return {day,player:{...collectionIdentity(row,user,player),...collectionProjection(row.profile,day,true)}};}
-  const roster=rows.map(row=>({...collectionIdentity(row,user,player),...collectionProjection(row.profile,day)}));
+  if(target!==null){const row=visible.find(r=>collectionIdentity(r,user,player).key===target);assert(row,'找不到這位好友的收藏',404);return {day,player:{...collectionIdentity(row,user,player),...collectionProjection(row.profile,day,true)}};}
+  const roster=visible.map(row=>({...collectionIdentity(row,user,player),...collectionProjection(row.profile,day)}));
   return {day,players:roster};
 }

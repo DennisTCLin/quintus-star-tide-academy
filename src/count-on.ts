@@ -1,8 +1,8 @@
 /** A local explanation for an already revealed answer; never a scoring input. */
 export type CountOnInput = {
-  grade: number;
+  grade: number | null;
   run: { course: string; settled: boolean; questions: string[]; index: number };
-  question: { id: string; grade: number; course: string; prompt: string; options: { text: string }[]; answer?: number };
+  question: { id: string; grade: number | null; course: string; prompt: string; options: { text: string }[]; answer?: number };
 };
 export type CountOnLesson = { start: number; add: number; total: number };
 export function countOnLesson({ grade, run, question: q }: CountOnInput): CountOnLesson | undefined {

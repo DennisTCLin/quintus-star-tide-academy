@@ -33,23 +33,24 @@ export default forwardRef<SceneControl, Props>(function ConquestScene({ guidance
     const r = runtime.current, container = host.current; if (!r || !container) return;
     const width = container.clientWidth, height = container.clientHeight;
     const invitationHeight = container.parentElement?.querySelector<HTMLElement>('.cq-map-invitation')?.offsetHeight ?? 150;
-    const bottomReserve = Math.max(window.innerWidth <= 760 ? 255 : 205, invitationHeight + (window.innerWidth <= 760 ? 122 : 94));
+    const phoneChart = window.matchMedia('(max-width: 900px)').matches;
+    const bottomReserve = phoneChart ? 10 : Math.max(205, invitationHeight + 94);
     const placed: { x: number; y: number; w: number; h: number }[] = [];
     const priority = (t: Tile) => t.id === selected ? 0 : t.id === combatTileId || (t.battleUntil ?? 0) > now ? 1 : territoryMarker(t, player)?.kind === 'npc' ? 2 : guidance[t.id]?.ready ? 3 : t.owner === player ? 4 : t.owner ? 5 : 6;
     for (const tile of [...tiles].sort((a, b) => priority(a) - priority(b))) {
       const node = labels.current.get(tile.id), island = r.heights.get(tile.id); if (!node) continue;
-      if (!island) { node.style.visibility = 'hidden'; continue; }
+      if (!island || phoneChart && tile.id !== selected && tile.owner !== player && !guidance[tile.id]?.inRangeTarget) { node.style.visibility = 'hidden'; continue; }
       const v = point(tile); v.y = island.top + (territoryMarker(tile, player)?.kind === 'npc' ? 2.8 : .8); v.project(r.camera);
       const w = node.offsetWidth, h = node.offsetHeight;
       let x = (v.x + 1) / 2 * width - w / 2, y = (1 - v.y) / 2 * height - h;
       if (territoryMarker(tile, player)?.kind === 'npc') x -= w * 1.45;
       // Keep the selected owner's label readable on narrow screens and tall islands.
-      if (tile.id === selected && width >= w + 16 && height > h + 290) {
+      if (tile.id === selected && width >= w + 16 && height > h + bottomReserve + 90) {
         x = Math.max(8, Math.min(width - w - 8, x));
         y = Math.max(81, Math.min(height - h - bottomReserve - 1, y));
       }
       const collision = placed.some(box => x < box.x + box.w + 8 && x + w + 8 > box.x && y < box.y + box.h + 8 && y + h + 8 > box.y);
-      const visible = v.z > -1 && v.z < 1 && x >= 8 && x + w <= width - 8 && y > 80 && y + h < height - bottomReserve && !collision;
+      const visible = v.z > -1 && v.z < 1 && x >= 8 && x + w <= width - 8 && y > 80 && y + h < height - bottomReserve && !collision && (!phoneChart || placed.length < (width < 600 ? 2 : 3));
       node.style.visibility = visible ? 'visible' : 'hidden';
       if (visible) { node.style.transform = `translate(${x}px, ${y}px)`; placed.push({ x, y, w, h }); }
     }

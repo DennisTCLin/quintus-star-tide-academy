@@ -67,6 +67,13 @@ describe('presence lifecycle and relative times', () => {
     activity='battle';await vi.advanceTimersByTimeAsync(10000);
     expect(vi.mocked(request).mock.lastCall?.[1]).toMatchObject({clientId:first.clientId,activity:'battle',sequence:2});
   });
+  it('publishes a changed activity immediately on the same sequenced lease, even with an older heartbeat pending',async()=>{
+    let resolve!:(v:typeof state)=>void;vi.mocked(request).mockImplementationOnce(()=>new Promise(r=>{resolve=r;}));
+    let activity:'home'|'learning'='home';const receive=vi.fn(),stop=trackPresence('feifei','test-csrf',receive,()=>activity);stops.push(stop);
+    const first=vi.mocked(request).mock.calls[0][1]as{clientId:string};activity='learning';stop.activityChanged();await flush();
+    expect(vi.mocked(request).mock.lastCall?.[1]).toMatchObject({clientId:first.clientId,activity:'learning',sequence:2});
+    expect(receive).toHaveBeenCalledTimes(1);resolve({...state,serverNow:5});await flush();expect(receive).toHaveBeenCalledTimes(1);
+  });
   it('formats seconds, minutes, hours, days and unknown history without future negatives',()=>{
     expect(lastSeenLabel(null,1000)).toBe('上線時間未記錄');
     expect(lastSeenLabel(null,1000,true)).toBe('已有冒險紀錄・時間未記錄');

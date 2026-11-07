@@ -1,4 +1,5 @@
 import CharacterPortrait from './CharacterPortrait';
+import CreatureStageSize from './CreatureStageSize';
 import MonsterMotion, {hasMonsterMotion} from "./MonsterMotion";
 import {monsterById} from "./monsters";
 import BattleCinematic from './BattleCinematic';
@@ -60,13 +61,13 @@ export function Sprite({ pet, attacking, reduced, nonce, hit=false }: { pet: str
     raf = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(raf);
   }, [clip, clipReady, reduced, attacking, nonce]);
-  if(hasMonsterMotion(pet))return <MonsterMotion key={pet} monster={monsterById(pet)!} action={attacking?"attack":hit?"hit":"idle"} nonce={nonce} reduced={reduced}/>;
+  if(hasMonsterMotion(pet))return <CreatureStageSize id={pet}><MonsterMotion key={pet} monster={monsterById(pet)!} action={attacking?"attack":hit?"hit":"idle"} nonce={nonce} reduced={reduced}/></CreatureStageSize>;
   const showSheet = clip && clipReady && !reduced;
   const content = <div className="duel-art" data-motion={showSheet ? art.motion : undefined} data-rarity={art.rarity} data-series={art.series} role="img" aria-label={art.name} data-sprite={showSheet ? "animated" : "still"}>
     {showSheet ? <span ref={sheet} className="duel-spritesheet" style={{ backgroundImage: `url("${clip.src}")`, backgroundSize: `${clip.columns * 100}% ${clip.rows * 100}%` }} />
       : broken ? <span className="duel-art-fallback" aria-hidden="true"><BrandText text="✦" /></span> : <CharacterPortrait characterId={art.id} motion={art.motion} paused={reduced} pose={hit ? "hit" : attacking ? "attack" : "idle"} src={art.image} alt="" onError={() => setBroken(true)} draggable={false} />}
   </div>;
-  return art.motion ? <div className="duel-entry" data-motion={art.motion} key={pet}>{content}</div> : content;
+  return <CreatureStageSize id={pet}>{art.motion ? <div className="duel-entry" data-motion={art.motion} key={pet}>{content}</div> : content}</CreatureStageSize>;
 }
 
 function Energy({ value }: { value: number }) {

@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import {LEARNING_BANK,ENGLISH_REPHRASES,questionById} from './base-learning.mjs';
+import {GENERATED_POOLS,generatedId,generatedQuestion} from './base-generator.mjs';
+const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
+const dir='docs/content-review/finals131-round3-20261107/rebind-main8465/fixtures';
+const legacy=Object.fromEntries([...LEARNING_BANK,...ENGLISH_REPHRASES].map(q=>[q.id,hash(questionById(q.id))]));
+const previous=JSON.parse(fs.readFileSync('docs/content-review/finals131-round3-20261107/legacy-digests.json','utf8'));
+if(JSON.stringify(legacy)!==JSON.stringify(previous))throw Error('Actual main static objects differ from recorded historical baseline');
+fs.writeFileSync(dir+'/base8465-digests.json',JSON.stringify(legacy,null,2)+'\n');
+const generated=GENERATED_POOLS.map(pool=>({key:pool.key,count:pool.params.length,hash:hash(pool.params.map((_,i)=>generatedQuestion(generatedId(pool,i))))}));
+fs.writeFileSync(dir+'/base8465-generated-digests.json',JSON.stringify({base:'8465de69f91ff51d6f8c677a634fb68f7dbfb45a',count:generated.reduce((n,p)=>n+p.count,0),pools:generated},null,2)+'\n');
+console.log({staticObjects:Object.keys(legacy).length,generatedObjects:generated.reduce((n,p)=>n+p.count,0),pools:generated.length});

@@ -58,7 +58,7 @@ export async function createCompanionVoiceService({pool,transaction,lockSession,
           text=isAudio?await provider.transcribe(file):typed;
           assert(Boolean(normalizeSpeech(text)),'沒有聽清楚，請再說一句短短的話',422);
           const facts=await guide.read(user,body.player);
-          reply=await provider.reply({text,persona:companionPersona(user,body.player),history:before.history,context:{grade:PLAYERS.find(p=>p.id===body.player).grade,preference:facts.preference,recent_choices:facts.history.slice(-4).map(h=>h.choice)}});
+          reply=await provider.reply({text,persona:companionPersona(user,body.player),history:before.history,context:{grade:user.adult_id?null:PLAYERS.find(p=>p.id===body.player).grade,...(user.adult_id?{programme:'adult-english'}:{}),preference:facts.preference,recent_choices:facts.history.slice(-4).map(h=>h.choice)}});
         } catch(e) { if(e.status)throw e; assert(false,'學伴暫時沒有聽清楚，請稍後再試。圖卡還可以使用。',503); }
         assert(reply && typeof reply.user==='string'&&reply.user.length<=400&&typeof reply.reply==='string'&&reply.reply.length>0&&reply.reply.length<=140,'回覆暫時無法使用',503);
         return transaction(async db=>{

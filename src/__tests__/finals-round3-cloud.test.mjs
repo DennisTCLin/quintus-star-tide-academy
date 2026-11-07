@@ -1,6 +1,6 @@
 import {beforeAll,afterAll,describe,it,expect} from 'vitest';
 import {randomUUID,createHash} from 'node:crypto';
-import pinned from '../../docs/content-review/finals131-round3-20261107/rebind-386bd/fixtures/base386bd-families.json';
+import pinned from '../../docs/content-review/finals131-round3-20261107/rebind-main8465/fixtures/base8465-families.json';
 import {createCloudApi} from '../../server/cloud.mjs';
 import {createAppServer} from '../../server.mjs';
 import {provisionChildAccount} from '../../server/child-account.mjs';
@@ -25,7 +25,7 @@ suite('round3 content on a fresh isolated PostgreSQL database',()=>{
  });
  for(const item of pinned.items){
   const {player,grade,school,course}=item;
-  it(`${grade}.${course}: preserves pinned386bd progress and raw storage on login/state`,async()=>{
+  it(`${grade}.${course}: preserves actual-main8465 progress and raw storage on login/state`,async()=>{
    for(const mode of ['array','prefix']){
     const stored=structuredClone(item.expectedRuntime);
     if(mode==='prefix')stored.profiles[player].learning.seen={codec:'prefix-v1',entries:item.expectedRuntime.profiles[player].learning.seen.map(id=>[0,id])};

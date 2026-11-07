@@ -1,0 +1,23 @@
+{
+  "base": "8465de69f91ff51d6f8c677a634fb68f7dbfb45a",
+  "scope": "3 previously empty glyph readings populate33 Chinese string fields of24 old static questions;no existing reading values changed/deleted;not a blanket UI claim",
+  "primaryReferences": [
+    {
+      "character": "霍",
+      "zy": "ㄏㄨㄛˋ",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=5063&la=0&powerMode=0"
+    },
+    {
+      "character": "陡",
+      "zy": "ㄉㄡˇ",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1992&q=1&word=%E9%99%A1"
+    },
+    {
+      "character": "磅",
+      "zy": "ㄅㄤˋ",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=157843&la=0&powerMode=0",
+      "context": "英磅weight unit;not globalproof for磅礴páng"
+    }
+  ],
+  "existingReadingComparison": "existing-reading-delta.json"
+}

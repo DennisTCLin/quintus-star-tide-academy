@@ -1,5 +1,7 @@
 import { elementScenery, ELEMENT_MATERIALS } from './conquest-element-art';
-import { BATTLE_FRAME_WIDTH, BATTLE_ISLAND_WIDTH, figureHeight } from './conquest-scale';
+import { BATTLE_FRAME_WIDTH, BATTLE_ISLAND_WIDTH, figureSpan } from './conquest-scale';
+import { fitCharacter, fitPortrait, fitCameraToPoints } from './conquest-body-fit';
+import { sizeOrderedOffsets } from './creature-body';
 import { useEffect, useRef, useState } from 'react';
 import * as T from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
@@ -16,12 +18,12 @@ import { health, maxHealth, ELEMENT_COLOR } from './conquest';
 import { islandSurfaceTexture, makeOcean, release } from './conquest-art';
 import type { BattleSetup, BattleUnit } from './conquest-battle';
 
-type Actor = { root: T.Group; body: T.Group; marker: T.Mesh<T.TorusGeometry, T.MeshBasicMaterial>; markerColor: T.Color; hpLabel: T.Sprite | null; initialHp: number; maxHp: number; lastHp: number; key: string; height: number; side: number; index: number; count: number; commander?: boolean; heroId?: string; motion?: ReturnType<typeof attachHeroMotion>; joints: { bone: T.Bone; rest: T.Quaternion }[] };
-type Field = { scene: T.Scene; actors: Actor[]; units: T.Group; effects: ReturnType<typeof createCombatEffects>; victory: ReturnType<typeof createVictory>; heroEffects: ReturnType<typeof createHeroEffects>; gentle: boolean; playerSide: number; ground: number; surface: T.Object3D | null; groundCache: Map<string, number>; clock: { value: number }; camera: T.PerspectiveCamera; controls: OrbitControls; savedCamera: T.Vector3 | null; settlementCamera: T.Vector3 | null; settlementTarget: T.Vector3; savedTarget: T.Vector3; lastProgress: number; render: () => void };
+type Actor = { root: T.Group; body: T.Group; marker: T.Mesh<T.TorusGeometry, T.MeshBasicMaterial>; markerColor: T.Color; hpLabel: T.Sprite | null; initialHp: number; maxHp: number; lastHp: number; key: string; height: number; span: number; radius: number; slotOffset: number; victoryOffset: number; side: number; index: number; count: number; commander?: boolean; heroId?: string; motion?: ReturnType<typeof attachHeroMotion>; joints: { bone: T.Bone; rest: T.Quaternion }[] };
+type Field = { manualView: boolean; scene: T.Scene; actors: Actor[]; units: T.Group; effects: ReturnType<typeof createCombatEffects>; victory: ReturnType<typeof createVictory>; heroEffects: ReturnType<typeof createHeroEffects>; gentle: boolean; playerSide: number; ground: number; surface: T.Object3D | null; groundCache: Map<string, number>; clock: { value: number }; camera: T.PerspectiveCamera; controls: OrbitControls; savedCamera: T.Vector3 | null; settlementCamera: T.Vector3 | null; settlementTarget: T.Vector3; savedTarget: T.Vector3; lastProgress: number; render: () => void };
 // Each actor retains its real identity while its textured Higgsfield mesh loads.
 // Unmodeled collection members use their original art, never a different creature.
 function characterBase(unit: Pick<BattleUnit, 'image' | 'element' | 'id' | 'speciesId' | 'name' | 'level' | 'hp' | 'maxHp'>, commander = false) {
-  const root = new T.Group(), body = new T.Group(), height = figureHeight(unit.speciesId ?? unit.id);
+  const root = new T.Group(), body = new T.Group(), height = figureSpan(unit.speciesId ?? unit.id);
   const ring = new T.Mesh(new T.TorusGeometry(height * .32, .012, 6, 40), new T.MeshBasicMaterial({ color: commander ? '#ffda91' : ELEMENT_COLOR[unit.element] }));
   ring.rotation.x = Math.PI / 2; ring.position.y = .025; root.add(ring);
   const label = document.createElement('canvas'); label.width = 256; label.height = 128;
@@ -29,13 +31,6 @@ function characterBase(unit: Pick<BattleUnit, 'image' | 'element' | 'id' | 'spec
   const portrait = new T.Sprite(new T.SpriteMaterial({ map: new T.CanvasTexture(label), transparent: true, depthWrite: false, color: '#ffffff' }));
   portrait.scale.set(height * 1.5, height * .75, 1); portrait.position.y = height / 2; body.add(portrait); root.add(body);
   return { root, body, portrait, marker: ring };
-}
-function fitCharacter(model: T.Group, id: string) {
-  model.updateMatrixWorld(true);
-  const bounds = new T.Box3().setFromObject(model), size = bounds.getSize(new T.Vector3()), center = bounds.getCenter(new T.Vector3());
-  const height = figureHeight(id), scale = Math.min(height / size.y, height * 1.8 / Math.max(size.x, size.z));
-  model.scale.setScalar(scale); model.position.set(-center.x * scale, -bounds.min.y * scale, -center.z * scale);
-  model.traverse(o => { if (o instanceof T.Mesh) { o.castShadow = true; o.receiveShadow = true; } });
 }
 function groundAt(field: Field, x: number, z: number) {
   if (!field.surface) return field.ground;
@@ -46,7 +41,7 @@ function groundAt(field: Field, x: number, z: number) {
   const floor = ray.intersectObject(field.surface, true).find(hit => hit.point.y <= field.ground + .55 && hit.point.y >= field.ground - .5)?.point.y ?? field.ground;
   field.groundCache.set(key, floor); return floor;
 }
-const home = (actor: Actor, portrait = false) => { const x = actor.side * (actor.commander ? 2.65 : 1.65 + (actor.index % 2) * .38), z = actor.commander ? 1.55 : (actor.index - (actor.count - 1) / 2) * .95; return portrait ? new T.Vector3(z * .85, 0, -x * .72) : new T.Vector3(x, 0, z); };
+const home = (actor: Actor, portrait = false) => { const x = actor.side * (actor.commander ? 3.5 : 2.1 + (actor.index % 2) * .38), z = actor.commander ? .4 : actor.slotOffset; return portrait ? new T.Vector3(z, 0, -x) : new T.Vector3(x, 0, z); };
 function pose(field: Field, progress: number, attackWon: boolean, beats: CombatBeat[], cinematic: boolean) {
   const portrait = field.camera.aspect < 1, slot = (actor: Actor) => home(actor, portrait);
   const p = Math.max(0, progress), active = progress >= 0 && p < 1, beat = active ? beatAt(beats, p) : undefined;
@@ -113,7 +108,7 @@ function pose(field: Field, progress: number, attackWon: boolean, beats: CombatB
       body.scale.set(1 + windup * .08, 1 - windup * .1, 1 + windup * .08);
       actor.root.position.addScaledVector(direction, -windup * .13);
       if (isMelee(beat)) {
-        const destination = slot(target).addScaledVector(direction, -(actor.height + target.height) * .34);
+        const destination = slot(target).addScaledVector(direction, -(actor.radius + target.radius + .12));
         const amount = fly * (1 - recovery);
         actor.root.position.x = T.MathUtils.lerp(base.x, destination.x, amount);
         actor.root.position.z = T.MathUtils.lerp(base.z, destination.z, amount) + Math.sin(amount * Math.PI) * .22 * side;
@@ -138,7 +133,7 @@ function pose(field: Field, progress: number, attackWon: boolean, beats: CombatB
       const retreat = settlement; if (portrait) actor.root.position.z -= side * retreat * .3; else actor.root.position.x += side * retreat * .5; body.rotation.z = side * retreat * .13;
     }
     if (settlement > 0 && playerWon && side === winnerSide && actor.root.visible) {
-      const destination = commander ? new T.Vector3(-.45, 0, .65) : new T.Vector3((actor.index - (actor.count - 1) / 2) * .85, 0, -.55 - (actor.index % 2) * .35);
+      const destination = commander ? new T.Vector3(-.45, 0, .65) : new T.Vector3(actor.victoryOffset, 0, -1.1 - (actor.index % 2) * .35);
       const x = T.MathUtils.lerp(actor.root.position.x, destination.x, settlement), z = T.MathUtils.lerp(actor.root.position.z, destination.z, settlement);
       actor.root.position.set(x, groundAt(field, x, z), z);
       actor.root.rotation.y = T.MathUtils.lerp(actor.root.rotation.y, commander && actor.root.userData.archer ? -.6 : -.4, settlement);
@@ -182,13 +177,21 @@ function pose(field: Field, progress: number, attackWon: boolean, beats: CombatB
   }
   field.lastProgress = p;
   field.victory.show(playerWon ? settlement : 0, seconds, new T.Vector3(.55, groundAt(field, .55, .2), .2), !field.gentle && !document.hidden);
+  if (!field.manualView || active && cinematic) {
+    const bounds: T.Vector3[] = [];
+    for (const actor of field.actors.filter(actor => actor.root.visible)) {
+      const radius = actor.span / 2;
+      for (const x of [-radius, radius]) for (const z of [-radius, radius]) for (const y of [-.12, actor.height + .4]) bounds.push(actor.root.position.clone().add(new T.Vector3(x, y, z)));
+    }
+    fitCameraToPoints(camera, controls.target, bounds);
+  }
   field.render();
 }
 export default function ConquestBattlefield({ setup, progress, cinematic, gentle, onReady }: { setup: BattleSetup; progress: number; cinematic: boolean; gentle: boolean; onReady: (ready: boolean) => void }) {
   const host = useRef<HTMLDivElement>(null), field = useRef<Field | null>(null), current = useRef({ setup, progress, cinematic, gentle }); current.current = { setup, progress, cinematic, gentle };
   const [ready, setReady] = useState(false), [error, setError] = useState(''), [artState, setArtState] = useState('loading'), [terrainReady, setTerrainReady] = useState(false);
   useEffect(() => { onReady(!!error || (terrainReady && artState !== 'loading')); }, [error, terrainReady, artState, onReady]);
-  const signature = [...setup.attackers, ...setup.defenders].map(u => `${u.id}:${u.element}:${u.wild}:${u.model}`).join('|') + `:${setup.commander?.id ?? ''}:${setup.defenderCommander?.id ?? ''}`;
+  const signature = [...setup.attackers, ...setup.defenders].map(u => `${u.id}:${u.speciesId}:${u.image}:${u.element}:${u.wild}:${u.model}`).join('|') + `:${setup.commander?.id ?? ''}:${setup.defenderCommander?.id ?? ''}`;
   useEffect(() => {
     const container = host.current!; let renderer: T.WebGLRenderer;
     try { renderer = new T.WebGLRenderer({ antialias: true, powerPreference: 'high-performance' }); }
@@ -209,7 +212,8 @@ export default function ConquestBattlefield({ setup, progress, cinematic, gentle
     const composer = new EffectComposer(renderer), basePass = new RenderPass(scene, camera), bloom = new UnrealBloomPass(new T.Vector2(1, 1), .24, .45, 1.35), outputPass = new OutputPass();
     composer.addPass(basePass); composer.addPass(bloom); composer.addPass(outputPass);
     const render = () => { if (!disposed) composer.render(); }; controls.addEventListener('change', render);
-    const runtime: Field = { scene, units, effects, heroEffects, gentle, playerSide: setup.mode === 'drill' ? 1 : -1, camera, controls, savedCamera: null, settlementCamera: null, settlementTarget: new T.Vector3(), savedTarget: new T.Vector3(), lastProgress: 0, victory, actors: [], ground: fallbackHeight + .02, surface: null, groundCache: new Map(), clock, render }; field.current = runtime;
+    const runtime: Field = { manualView: false, scene, units, effects, heroEffects, gentle, playerSide: setup.mode === 'drill' ? 1 : -1, camera, controls, savedCamera: null, settlementCamera: null, settlementTarget: new T.Vector3(), savedTarget: new T.Vector3(), lastProgress: 0, victory, actors: [], ground: fallbackHeight + .02, surface: null, groundCache: new Map(), clock, render }; field.current = runtime;
+    controls.addEventListener('start', () => { runtime.manualView = true; });
     let previousFit = 0, ambientFrame = 0, lastAmbient = 0;
     const ambient = (time: number) => {
       ambientFrame = requestAnimationFrame(ambient);
@@ -272,21 +276,30 @@ export default function ConquestBattlefield({ setup, progress, cinematic, gentle
       const timer = setTimeout(() => { timers.delete(timer); resolve(false); }, ms); timers.add(timer);
       void promise.then(value => { clearTimeout(timer); timers.delete(timer); resolve(value); });
     });
-    const add = (unit: Pick<BattleUnit, 'id' | 'image' | 'model' | 'element' | 'speciesId' | 'name' | 'level' | 'hp' | 'maxHp'>, side: number, index: number, count: number, commander = false) => {
+    const add = (unit: Pick<BattleUnit, 'id' | 'image' | 'model' | 'element' | 'speciesId' | 'name' | 'level' | 'hp' | 'maxHp'>, side: number, index: number, count: number, commander = false, slotOffset = 0, victoryOffset = 0) => {
       const { root, body, portrait, marker } = characterBase(unit, commander); root.userData.archer = unit.id === 'hero-elf'; group.add(root);
       let hpLabel: T.Sprite | null = null;
-      if (!commander) { const canvas = document.createElement('canvas'); canvas.width = 192; canvas.height = 48; hpLabel = new T.Sprite(new T.SpriteMaterial({ map: new T.CanvasTexture(canvas), transparent: true, depthWrite: false, depthTest: false })); hpLabel.position.y = figureHeight(unit.speciesId ?? unit.id) + .19; hpLabel.scale.set(.7,.175,1); hpLabel.renderOrder = 10; root.add(hpLabel); }
-      const actor: Actor = { root, body, marker, hpLabel, initialHp: health(unit), maxHp: maxHealth(unit), lastHp: -1, markerColor: marker.material.color.clone(), key: combatKey(side, unit.id), height: figureHeight(unit.speciesId ?? unit.id), side, index, count, commander, heroId: commander ? unit.id : undefined, joints: [] }; runtime.actors.push(actor);
+      if (!commander) { const canvas = document.createElement('canvas'); canvas.width = 192; canvas.height = 48; hpLabel = new T.Sprite(new T.SpriteMaterial({ map: new T.CanvasTexture(canvas), transparent: true, depthWrite: false, depthTest: false })); hpLabel.position.y = figureSpan(unit.speciesId ?? unit.id) + .19; hpLabel.scale.set(.7,.175,1); hpLabel.renderOrder = 10; root.add(hpLabel); }
+      const actor: Actor = { root, body, marker, hpLabel, initialHp: health(unit), maxHp: maxHealth(unit), lastHp: -1, markerColor: marker.material.color.clone(), key: combatKey(side, unit.id), height: figureSpan(unit.speciesId ?? unit.id), span: figureSpan(unit.speciesId ?? unit.id), radius: figureSpan(unit.speciesId ?? unit.id) * .32, slotOffset, victoryOffset, side, index, count, commander, heroId: commander ? unit.id : undefined, joints: [] }; runtime.actors.push(actor);
+      const dimensions = (size: {height: number; width: number; depth?: number}, art: string) => {
+        actor.height = size.height; actor.radius = Math.max(.1, Math.max(size.width, size.depth ?? size.width * .65) * .4);
+        actor.hpLabel?.position.set(0, actor.height + .19, 0);
+        marker.geometry.dispose(); marker.geometry = new T.TorusGeometry(actor.radius, .012, 6, 40);
+        root.userData.bodySize = { id: unit.speciesId ?? unit.id, span: actor.span, ...size, radius: actor.radius, art, slotOffset };
+        if (host.current) host.current.dataset.bodySizes = JSON.stringify(runtime.actors.map(a => a.root.userData.bodySize).filter(Boolean));
+      };
       let meshLoaded = false;
       const portraitRequest = unit.image ? bounded(new Promise<boolean>(resolve => { new T.TextureLoader().load(unit.image!, texture => {
         if (cancelled) { texture.dispose(); resolve(false); return; }
         texture.colorSpace = T.SRGBColorSpace; portrait.material.map?.dispose(); portrait.material.map = texture; portrait.material.needsUpdate = true;
-        const ratio = texture.image.width / texture.image.height, height = figureHeight(unit.speciesId ?? unit.id);
-        portrait.scale.set(height * ratio, height, 1); portrait.visible = !meshLoaded; runtime.render(); resolve(true);
+        const size = fitPortrait(texture, unit.speciesId ?? unit.id);
+        portrait.scale.set(size.width, size.height, 1); portrait.position.y = size.height / 2;
+        if (!meshLoaded) dimensions(size, 'portrait');
+        portrait.visible = !meshLoaded; runtime.render(); resolve(true);
       }, undefined, () => resolve(false)); }), 8000) : Promise.resolve(false);
       const modelRequest = unit.model ? bounded(new GLTFLoader().loadAsync(unit.model).then(gltf => {
         if (cancelled) { release(gltf.scene); return false; }
-        if (commander) { actor.motion = attachHeroMotion(gltf.scene, unit.id); containerMotionStats(); } fitCharacter(gltf.scene, unit.speciesId ?? unit.id); gltf.scene.traverse(object => { if (object instanceof T.Bone) actor.joints.push({ bone: object, rest: object.quaternion.clone() }); }); const facing = new T.Group(); facing.rotation.y = unit.id === 'hero-elf' ? 0 : Math.PI; facing.add(gltf.scene); body.add(facing); meshLoaded = true; portrait.visible = false;
+        if (commander) { actor.motion = attachHeroMotion(gltf.scene, unit.id); containerMotionStats(); } dimensions(fitCharacter(gltf.scene, unit.speciesId ?? unit.id), 'model'); gltf.scene.traverse(object => { if (object instanceof T.Bone) actor.joints.push({ bone: object, rest: object.quaternion.clone() }); }); const facing = new T.Group(); facing.rotation.y = unit.id === 'hero-elf' ? 0 : Math.PI; facing.add(gltf.scene); body.add(facing); meshLoaded = true; portrait.visible = false;
         runtime.render(); return true;
       }).catch(() => false), 15000) : Promise.resolve(false);
       requests.push(modelRequest.then(async loaded => {
@@ -301,11 +314,14 @@ export default function ConquestBattlefield({ setup, progress, cinematic, gentle
         return meshLoaded;
       }));
     };
-    for (const [list, side] of [[setup.attackers, -1], [setup.defenders, 1]] as const) list.forEach((unit, index) => add(unit, side, index, list.length));
+    for (const [list, side] of [[setup.attackers, -1], [setup.defenders, 1]] as const) {
+      const offsets = sizeOrderedOffsets(list.map(unit => figureSpan(unit.speciesId ?? unit.id)));
+      list.forEach((unit, index) => add(unit, side, index, list.length, false, offsets[index], offsets[index]));
+    }
     if (setup.commander) add({ ...setup.commander, element: 'metal', level: 0 }, setup.mode === 'drill' ? 1 : -1, 0, 1, true);
     if (setup.defenderCommander && setup.mode === 'claim') add({ ...setup.defenderCommander, element: 'metal', level: 0 }, 1, 0, 1, true);
     pose(runtime, progress, setup.result.won, createChoreography(setup), cinematic);
-    void Promise.all(requests).then(results => { if (!cancelled) setArtState(results.every(Boolean) ? 'ready' : 'portraits'); });
+    void Promise.all(requests).then(results => { if (!cancelled) { setArtState(results.every(Boolean) ? 'ready' : 'portraits'); pose(runtime, current.current.progress, current.current.setup.result.won, createChoreography(current.current.setup), current.current.cinematic); } });
     return () => { cancelled = true; timers.forEach(clearTimeout); runtime.actors.forEach(a => a.motion?.dispose()); runtime.units.remove(group); release(group); };
   }, [signature]);
   useEffect(() => { if (field.current) { field.current.gentle = gentle; for (const actor of field.current.actors) { const unit = (actor.side === -1 ? setup.attackers : setup.defenders).find(u => u.id === actor.key.slice(actor.key.indexOf(':') + 1)); if (unit) { actor.initialHp = health(unit); actor.maxHp = maxHealth(unit); } } pose(field.current, progress, setup.result.won, createChoreography(setup), cinematic); } }, [progress, setup, cinematic, gentle]);

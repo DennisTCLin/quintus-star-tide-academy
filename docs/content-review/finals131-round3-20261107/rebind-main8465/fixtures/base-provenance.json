@@ -1,0 +1,13 @@
+{
+  "baseCommit": "8465de69f91ff51d6f8c677a634fb68f7dbfb45a",
+  "baseTree": "a0856a689be9ff949fc71c4fa08b5b9ccaeb61dc",
+  "sourceArchiveSha256": "b654d019992c9f351792c2009760c13da4d59f8d763c6d8e1e755e352fa4eec8",
+  "paths": [
+    "src",
+    "curriculum"
+  ],
+  "temporarySourceRoot": "/var/folders/x2/wg63mxn9069gk06z14x00w7r0000gn/T/pr23-main8465-baseline-2vq3emzr",
+  "productionSnapshot": false,
+  "sourceOfTruth": "exact actual Git main archive;not targetPR23 or productionDB",
+  "archivedFiles": 625
+}

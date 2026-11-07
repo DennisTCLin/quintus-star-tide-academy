@@ -1,0 +1,23 @@
+{
+  "main": "341affcee7af44c095bcdde6ce953264c6ce8745",
+  "rows": [
+    {
+      "path": "src/ConquestGame.tsx",
+      "main341BytesExact": true,
+      "sha256": "e78ca19959d92018ccd6cc954bec5088315a31af3384d87e8245c25ba79dc286"
+    },
+    {
+      "path": "src/ConquestScene.tsx",
+      "main341BytesExact": true,
+      "sha256": "3e6a9c98ac07a5bd5ee7ad3815bfa896838402d631986718cbd76e54745f5e59"
+    },
+    {
+      "path": "src/conquest.css",
+      "main341BytesExact": true,
+      "sha256": "749a356f34582f8e7ea22f0f303082b7200cfe97ffd0241f8414dcda8193c19f"
+    }
+  ],
+  "compiledGameAndAdultPreserved": "delta-input-identity.json",
+  "source210ApprovalInputsPreservedFrom": "386bd57046ba8e12828afbeb6b0310774af680e0",
+  "formalDatabaseAccessed": false
+}
