@@ -1,11 +1,11 @@
 import { isNpcOwner, NPC_FACTION } from './conquest-enemy';
-import { claimBlock, claimCost, deploymentBlock, hexDistance, shieldActive, territories, type Companion, type ConquestState, type Tile } from './conquest';
+import { claimBlock, claimCost, deploymentBlock, hexDistance, withinConquestRange, shieldActive, territories, type Companion, type ConquestState, type Tile } from './conquest';
 
 // Presentation composes the same rules used by combat; it never grants a claim.
 export function claimGuidance(state: ConquestState, player: string, tile: Tile, team: readonly string[], roster: readonly Companion[], now: number, busy = false, storageError?: string) {
   const owned = territories(state, player), own = tile.owner === player;
-  const distance = owned.length ? Math.min(...owned.map(t => hexDistance(t.q - tile.q, t.r - tile.r))) : null;
-  const adjacentTarget = !own && (distance === null || distance === 1);
+  const distance = hexDistance(tile.q, tile.r);
+  const inRangeTarget = !own && withinConquestRange(tile);
   const tileReason = claimBlock(state, player, tile, now, state.shared);
   const units = team.map(id => roster.find(unit => unit.id === id));
   const teamReason = team.length < 3 || team.length > 5 || new Set(team).size !== team.length || units.some(unit => !unit)
@@ -15,9 +15,12 @@ export function claimGuidance(state: ConquestState, player: string, tile: Tile, 
   const ready = !own && !reason;
   const label = own ? '我的領地' : ready ? '可出征' : storageError ? '等待連線或確認戰果' : busy ? '操作處理中'
     : (tile.battleUntil ?? 0) > now ? '交戰中' : shieldActive(tile, now) ? '護盾保護中'
-    : tile.owner && !isNpcOwner(tile.owner) && !state.shared ? '尚未開放玩家搶地' : !adjacentTarget ? `不相鄰・距領地 ${distance} 格`
+    : tile.owner && !isNpcOwner(tile.owner) && !state.shared ? '尚未開放玩家搶地' : !inRangeTarget ? '超出五格航域'
     : state.energy < claimCost(tile, owned.length) ? '能量不足' : '隊伍未就緒';
-  return { own, ready, adjacentTarget, label, reason: reason || null, tileReason, teamReason, distance, cost: claimCost(tile, owned.length) };
+  const cost = claimCost(tile, owned.length);
+  // Preparation is reversible; only final combat confirmation requires readiness.
+  const canPrepare = inRangeTarget && !busy && !storageError;
+  return { own, ready, inRangeTarget, canPrepare, label, reason: reason || null, tileReason, teamReason, distance, cost, energyShortfall: Math.max(0, cost - state.energy) };
 }
 export type ClaimGuidance = ReturnType<typeof claimGuidance>;
 

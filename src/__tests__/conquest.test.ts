@@ -88,9 +88,9 @@ describe('conquest actions', () => {
     expect(result.energy).toBe(50 - claimCost(center(s.tiles), 0));
     expect(claimBlock(s, 'p', s.tiles.find(t => t.id === '5,0')!, now)).toBeNull();
   });
-  it('enforces adjacency after first capture and rejects insufficient full cost', () => {
+  it('allows nonadjacent captures within the chart and rejects insufficient full cost', () => {
     const s = { ...act(fresh(), 'p', { type: 'claim', tileId: '0,0', team }, roster, now), energy: 100 };
-    expect(() => act(s, 'p', { type: 'claim', tileId: '5,0', team }, roster, now)).toThrow('相鄰');
+    expect(claimBlock(s, 'p', s.tiles.find(t => t.id === '5,0')!, now)).toBeNull();
     expect(act(s, 'p', { type: 'claim', tileId: '1,0', team: roster.slice(5).map(g => g.id) }, roster, now).tiles.find(t => t.id === '1,0')!.owner).toBe('p');
     expect(() => act({ ...s, energy: 12 }, 'p', { type: 'claim', tileId: '1,0', team }, roster, now)).toThrow('能量不足');
   });

@@ -1,0 +1,37 @@
+/* Dark Tide is the story's broken starlight, distinct from the allied night faction. */
+.cq-dark-tide-alert{display:flex;align-items:center;gap:18px;padding:20px 24px;background:#20152d;border-block:2px solid #ec7557;color:#ffead0}
+.cq-dark-tide-alert>div{flex:1;min-width:0}.cq-dark-tide-alert strong{font:700 22px 'Songti TC',serif}
+.family-app .cq-dark-tide-alert p{margin:7px 0 0;color:#f5d3cd;font-size:14px;line-height:1.7}
+.cq-broken-star{display:grid;place-items:center;flex:none;width:56px;height:64px;color:#ff986e;font-size:50px;clip-path:polygon(0 0,55% 0,42% 46%,64% 56%,50% 100%,0 100%,0 0,100% 0,100% 100%,62% 100%,76% 54%,54% 43%,67% 0);text-shadow:0 0 15px #ff593d}
+.family-app .cq-dark-tide-alert button{flex:none;min-height:48px;border:1px solid #ffb581;background:#ffcf86;color:#29142b;font-weight:800;padding:12px 18px;border-radius:5px}
+.family-app .cq-dark-tide-alert button:hover{background:#ffe1af}
+.family-app .cq-game .cq-map-label[data-owner-kind=npc]{border:2px solid #ff8e6a;background:#25142ef5;box-shadow:0 0 0 2px #25142e,0 0 20px #ff755778}
+.family-app .cq-game .cq-map-label[data-owner-kind=npc][data-claim-ready=true]{border-color:#ffb081;box-shadow:0 0 0 2px #25142e,0 0 20px #ff755778}
+.cq-map-label .cq-npc-label{display:block;margin-top:6px;padding-top:6px;border-top:1px solid #f58b7555;color:#ffba91;font-size:12px;font-weight:700}
+.family-app .cq-game .cq-map-label[data-owner-kind=npc] .cq-map-eligibility{color:#ffddb2}
+.cq-claim-summary[data-npc=true]{border-top:4px solid #e46e52}
+.cq-reclaim-story{padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #be7556}.cq-reclaim-story strong{font-family:'Songti TC',serif;color:#79331f}
+.cq-preparation-facts{display:flex;flex-wrap:wrap;gap:5px 12px;margin:10px 0;font-size:12px}.cq-preparation-facts b{white-space:nowrap}
+.family-app .cq-claim-summary .cq-prepare-button{width:100%;min-height:48px;margin:3px 0 8px;background:#123f48;color:#fff1ce;border:1px solid #123f48;font-size:16px;font-weight:800}
+.family-app .cq-claim-summary[data-npc=true] .cq-prepare-button{background:#642b35;border-color:#642b35}
+.family-app .cq-claim-summary .cq-prepare-button:disabled{opacity:.5;cursor:not-allowed}
+.family-app .cq-claim-summary .cq-energy-link{width:100%;background:transparent;color:#163c48;border-color:#648b82}
+.cq-sortie-check{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:16px 20px;background:#0d3542;border-bottom:1px solid #739c94;color:#fff1d2}
+.cq-sortie-check span,.cq-sortie-check strong{display:block}.cq-sortie-check span{font-size:12px;color:#d5e4db}.cq-sortie-check strong{font-size:20px;margin-top:4px}.family-app .cq-sortie-check p{grid-column:1/-1;color:#fff1d2;margin:0;line-height:1.7;font-size:14px}
+.cq-battle-dialog[data-phase=planning] .cq-battle-commander{padding:8px 20px}.cq-battle-dialog[data-phase=planning] .cq-battle-commander img{width:52px;height:56px;object-fit:contain}
+.cq-battle-dialog[data-phase=planning] .cq-battle-footer{position:sticky;bottom:0;z-index:3;box-shadow:0 -6px 20px #001c2870}
+.family-app .cq-game button:focus-visible,.cq-battle-dialog button:focus-visible{outline:3px solid #66e9d1;outline-offset:3px}
+@media(max-width:760px){
+ .cq-dark-tide-alert{padding:16px;gap:12px;flex-wrap:wrap}.cq-dark-tide-alert strong{font-size:20px}.cq-broken-star{width:40px;height:52px;font-size:42px}.family-app .cq-dark-tide-alert button{width:100%}
+ .family-app .cq-game .cq-map-label[data-owner-kind=npc]{max-width:190px}.cq-map-label .cq-npc-label{font-size:11px}
+ .cq-sortie-check{gap:8px;padding:14px}.cq-sortie-check strong{font-size:16px}
+ .cq-battle-dialog[data-phase=planning] .cq-battle-footer{gap:8px}.cq-battle-dialog[data-phase=planning] .cq-battle-footer>div{flex-basis:100%}
+}
+@media(prefers-reduced-motion:reduce){.cq-dark-tide-alert,.family-app .cq-game .cq-map-label[data-owner-kind=npc]{animation:none}}
+
+.family-app .cq-game .cq-battle-header h2{color:#fff0cc}
+
+.cq-smoke-load-note{position:absolute;right:12px;bottom:85px;z-index:3;display:flex;align-items:center;gap:8px;padding:8px 12px;background:#25142e;color:#fff0cc;font-size:12px;border:1px solid #dd9578;border-radius:5px}
+
+/* Keep the animated plume visible; detailed readiness lives in the island sheet. */
+.cq-map-label[data-owner-kind=npc] .cq-territory-badge,.cq-map-label[data-owner-kind=npc] .cq-map-eligibility{display:none}

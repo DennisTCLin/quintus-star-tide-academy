@@ -23,7 +23,7 @@ export default function ConquestRaid({ state, player, now, serverNow, connected 
     <div><small>玩家攻城 · NPC 來襲</small><h2 ref={heading} tabIndex={-1}>守城戰報與自動防守</h2>
     <p>黯潮軍團在取得領地 10 分鐘後可能來襲，每波至少間隔 6 小時。離線時駐軍仍會自動防守，護盾與交戰保護期間不受襲擊。</p>
     <p>守城不耗能量。遭黯潮軍團攻破時，島嶼會被敵軍佔領，並最多損失 5 草藥與 2 靈泉；可重新出征奪回。玩家攻城若失守，領地會轉移給攻擊者。雙方傷勢都會保存。</p>
-    <p>黯潮軍團會在外圍建立據點，每 6 小時嘗試佔領一座相鄰無主島；中央七島不受無主島擴張影響。敵軍據點沒有護盾，交戰結束後即可進攻。</p>
+    <p>黯潮軍團會在外圍建立據點，每 6 小時嘗試佔領中心五格內的一座無主島，不需要相鄰；中央七島不受無主島擴張影響。敵軍據點沒有護盾，交戰結束後即可進攻。</p>
     <ConquestRaidCountdown state={state} player={player} serverNow={serverNow ?? (()=>now)} connected={connected} />
     {raid && <p role="status">{raid.tileName}出現黯潮蹤跡，駐軍已進入自動防守；最新戰果將自動更新。</p>}
     <details ref={details} className="cq-raid-reports" open={reports.length > 0}>
