@@ -1,0 +1,2252 @@
+{
+  "tideglow": {
+    "lengthM": 1.3,
+    "widthM": 0.45,
+    "heightM": 0.85,
+    "massKg": 18.0
+  },
+  "pebblefin": {
+    "lengthM": 0.8,
+    "widthM": 0.34,
+    "heightM": 0.5,
+    "massKg": 8.0
+  },
+  "foamferret": {
+    "lengthM": 0.75,
+    "widthM": 0.2,
+    "heightM": 0.3,
+    "massKg": 2.2
+  },
+  "seasprout": {
+    "lengthM": 0.55,
+    "widthM": 0.65,
+    "heightM": 0.28,
+    "massKg": 4.5
+  },
+  "mistotter": {
+    "lengthM": 0.95,
+    "widthM": 0.35,
+    "heightM": 0.65,
+    "massKg": 12.0
+  },
+  "sailskipper": {
+    "lengthM": 0.22,
+    "widthM": 0.25,
+    "heightM": 0.2,
+    "massKg": 0.35
+  },
+  "kelpcub": {
+    "lengthM": 1.1,
+    "widthM": 0.7,
+    "heightM": 0.95,
+    "massKg": 55.0
+  },
+  "shellmole": {
+    "lengthM": 0.38,
+    "widthM": 0.28,
+    "heightM": 0.32,
+    "massKg": 2.8
+  },
+  "starheron": {
+    "lengthM": 0.75,
+    "widthM": 1.4,
+    "heightM": 1.15,
+    "massKg": 4.8
+  },
+  "reefrabbit": {
+    "lengthM": 0.5,
+    "widthM": 0.26,
+    "heightM": 0.6,
+    "massKg": 3.5
+  },
+  "bubbleyak": {
+    "lengthM": 1.5,
+    "widthM": 0.85,
+    "heightM": 1.2,
+    "massKg": 145.0
+  },
+  "covegecko": {
+    "lengthM": 0.35,
+    "widthM": 0.18,
+    "heightM": 0.15,
+    "massKg": 0.25
+  },
+  "cloudsail": {
+    "lengthM": 1.6,
+    "widthM": 0.65,
+    "heightM": 1.8,
+    "massKg": 75.0
+  },
+  "moonmanta": {
+    "lengthM": 1.8,
+    "widthM": 2.6,
+    "heightM": 0.6,
+    "massKg": 45.0
+  },
+  "driftturtle": {
+    "lengthM": 1.25,
+    "widthM": 1.4,
+    "heightM": 0.6,
+    "massKg": 70.0
+  },
+  "coralhare": {
+    "lengthM": 0.65,
+    "widthM": 0.3,
+    "heightM": 0.75,
+    "massKg": 5.0
+  },
+  "gullwolf": {
+    "lengthM": 1.4,
+    "widthM": 0.4,
+    "heightM": 0.95,
+    "massKg": 28.0
+  },
+  "pearlbadger": {
+    "lengthM": 0.85,
+    "widthM": 0.45,
+    "heightM": 0.55,
+    "massKg": 18.0
+  },
+  "rainseal": {
+    "lengthM": 1.5,
+    "widthM": 0.65,
+    "heightM": 0.6,
+    "massKg": 65.0
+  },
+  "compasscrab": {
+    "lengthM": 0.5,
+    "widthM": 0.9,
+    "heightM": 0.35,
+    "massKg": 9.0
+  },
+  "cloudfinch": {
+    "lengthM": 0.25,
+    "widthM": 0.65,
+    "heightM": 0.32,
+    "massKg": 0.45
+  },
+  "tidellama": {
+    "lengthM": 1.4,
+    "widthM": 0.6,
+    "heightM": 1.7,
+    "massKg": 80.0
+  },
+  "coralflare": {
+    "lengthM": 3.4,
+    "widthM": 2.4,
+    "heightM": 1.3,
+    "massKg": 420.0
+  },
+  "lanternlynx": {
+    "lengthM": 1.25,
+    "widthM": 0.45,
+    "heightM": 0.9,
+    "massKg": 24.0
+  },
+  "currentowl": {
+    "lengthM": 0.6,
+    "widthM": 1.6,
+    "heightM": 0.8,
+    "massKg": 5.0
+  },
+  "seaglasspanda": {
+    "lengthM": 1.25,
+    "widthM": 0.7,
+    "heightM": 1.1,
+    "massKg": 65.0
+  },
+  "cyclonedolphin": {
+    "lengthM": 2.2,
+    "widthM": 1.25,
+    "heightM": 0.9,
+    "massKg": 140.0
+  },
+  "sunkenram": {
+    "lengthM": 1.8,
+    "widthM": 1.05,
+    "heightM": 1.4,
+    "massKg": 140.0
+  },
+  "reefgryphon": {
+    "lengthM": 1.9,
+    "widthM": 2.8,
+    "heightM": 1.35,
+    "massKg": 95.0
+  },
+  "echojelly": {
+    "lengthM": 0.5,
+    "widthM": 0.65,
+    "heightM": 1.05,
+    "massKg": 4.0
+  },
+  "aurorawolf": {
+    "lengthM": 1.8,
+    "widthM": 0.55,
+    "heightM": 1.15,
+    "massKg": 48.0
+  },
+  "stormibis": {
+    "lengthM": 1.0,
+    "widthM": 1.9,
+    "heightM": 1.55,
+    "massKg": 7.0
+  },
+  "mapleopard": {
+    "lengthM": 1.9,
+    "widthM": 0.5,
+    "heightM": 1.0,
+    "massKg": 44.0
+  },
+  "tideserpent": {
+    "lengthM": 2.7,
+    "widthM": 1.6,
+    "heightM": 1.35,
+    "massKg": 95.0
+  },
+  "prismorca": {
+    "lengthM": 3.6,
+    "widthM": 1.9,
+    "heightM": 1.35,
+    "massKg": 620.0
+  },
+  "cometcrane": {
+    "lengthM": 1.25,
+    "widthM": 2.4,
+    "heightM": 1.8,
+    "massKg": 10.0
+  },
+  "crystalboar": {
+    "lengthM": 1.65,
+    "widthM": 0.8,
+    "heightM": 1.05,
+    "massKg": 125.0
+  },
+  "nebulafox": {
+    "lengthM": 1.45,
+    "widthM": 0.45,
+    "heightM": 0.9,
+    "massKg": 20.0
+  },
+  "atlaswhale": {
+    "lengthM": 6.5,
+    "widthM": 4.2,
+    "heightM": 2.5,
+    "massKg": 2200.0
+  },
+  "opalgriffin": {
+    "lengthM": 2.1,
+    "widthM": 3.4,
+    "heightM": 1.55,
+    "massKg": 125.0
+  },
+  "solaraxolotl": {
+    "lengthM": 0.65,
+    "widthM": 0.5,
+    "heightM": 0.4,
+    "massKg": 3.2
+  },
+  "meridiantiger": {
+    "lengthM": 2.6,
+    "widthM": 0.85,
+    "heightM": 1.3,
+    "massKg": 175.0
+  },
+  "aurorakirin": {
+    "lengthM": 2.5,
+    "widthM": 1.1,
+    "heightM": 2.3,
+    "massKg": 280.0
+  },
+  "eclipseowl": {
+    "lengthM": 0.95,
+    "widthM": 2.8,
+    "heightM": 1.2,
+    "massKg": 12.0
+  },
+  "stellarmanta": {
+    "lengthM": 3.5,
+    "widthM": 5.6,
+    "heightM": 1.1,
+    "massKg": 260.0
+  },
+  "tidephoenix": {
+    "lengthM": 2.8,
+    "widthM": 4.8,
+    "heightM": 2.5,
+    "massKg": 60.0
+  },
+  "aetherdragon": {
+    "lengthM": 4.8,
+    "widthM": 6.5,
+    "heightM": 3.2,
+    "massKg": 620.0
+  },
+  "cosmicnautilus": {
+    "lengthM": 1.4,
+    "widthM": 1.25,
+    "heightM": 1.6,
+    "massKg": 55.0
+  },
+  "infinitywhale": {
+    "lengthM": 9.0,
+    "widthM": 5.0,
+    "heightM": 3.3,
+    "massKg": 4800.0
+  },
+  "astraltide": {
+    "lengthM": 3.8,
+    "widthM": 3.1,
+    "heightM": 2.6,
+    "massKg": 320.0
+  },
+  "maltese": {
+    "lengthM": 0.45,
+    "widthM": 0.22,
+    "heightM": 0.32,
+    "massKg": 3.5
+  },
+  "pig": {
+    "lengthM": 0.9,
+    "widthM": 0.45,
+    "heightM": 0.55,
+    "massKg": 35.0
+  },
+  "otter": {
+    "lengthM": 0.8,
+    "widthM": 0.25,
+    "heightM": 0.45,
+    "massKg": 7.0
+  },
+  "fox": {
+    "lengthM": 1.0,
+    "widthM": 0.28,
+    "heightM": 0.55,
+    "massKg": 6.0
+  },
+  "rabbit": {
+    "lengthM": 0.4,
+    "widthM": 0.22,
+    "heightM": 0.4,
+    "massKg": 2.0
+  },
+  "w2-belljerboa": {
+    "lengthM": 0.25,
+    "widthM": 0.16,
+    "heightM": 0.3,
+    "massKg": 0.3
+  },
+  "w2-pinhedgehog": {
+    "lengthM": 0.3,
+    "widthM": 0.25,
+    "heightM": 0.22,
+    "massKg": 1.3
+  },
+  "w2-buttonbeetle": {
+    "lengthM": 0.18,
+    "widthM": 0.16,
+    "heightM": 0.12,
+    "massKg": 0.18
+  },
+  "w2-mirrorpuffin": {
+    "lengthM": 0.42,
+    "widthM": 0.8,
+    "heightM": 0.5,
+    "massKg": 1.5
+  },
+  "w2-magnetmantis": {
+    "lengthM": 0.4,
+    "widthM": 0.6,
+    "heightM": 0.5,
+    "massKg": 0.6
+  },
+  "w2-gearpangolin": {
+    "lengthM": 1.1,
+    "widthM": 0.4,
+    "heightM": 0.55,
+    "massKg": 18.0
+  },
+  "w2-silvermarlin": {
+    "lengthM": 2.0,
+    "widthM": 0.65,
+    "heightM": 0.7,
+    "massKg": 28.0
+  },
+  "w2-belljelly": {
+    "lengthM": 0.6,
+    "widthM": 0.6,
+    "heightM": 1.1,
+    "massKg": 8.0
+  },
+  "w2-scalebeast": {
+    "lengthM": 3.2,
+    "widthM": 1.6,
+    "heightM": 2.2,
+    "massKg": 260.0
+  },
+  "w2-gildedmyriapod": {
+    "lengthM": 4.5,
+    "widthM": 0.85,
+    "heightM": 0.95,
+    "massKg": 95.0
+  },
+  "w2-mushroomfrog": {
+    "lengthM": 0.28,
+    "widthM": 0.3,
+    "heightM": 0.32,
+    "massKg": 0.65
+  },
+  "w2-podcaterpillar": {
+    "lengthM": 0.35,
+    "widthM": 0.18,
+    "heightM": 0.2,
+    "massKg": 0.4
+  },
+  "w2-mossbadger": {
+    "lengthM": 0.75,
+    "widthM": 0.4,
+    "heightM": 0.45,
+    "massKg": 12.0
+  },
+  "w2-flowersnail": {
+    "lengthM": 0.45,
+    "widthM": 0.35,
+    "heightM": 0.55,
+    "massKg": 3.0
+  },
+  "w2-bamboomantis": {
+    "lengthM": 0.55,
+    "widthM": 0.35,
+    "heightM": 0.65,
+    "massKg": 0.6
+  },
+  "w2-berrysquirrel": {
+    "lengthM": 0.8,
+    "widthM": 0.28,
+    "heightM": 0.55,
+    "massKg": 2.0
+  },
+  "w2-mapleglider": {
+    "lengthM": 1.1,
+    "widthM": 1.3,
+    "heightM": 0.45,
+    "massKg": 3.5
+  },
+  "w2-orchidbee": {
+    "lengthM": 0.35,
+    "widthM": 0.8,
+    "heightM": 0.4,
+    "massKg": 0.5
+  },
+  "w2-banyansloth": {
+    "lengthM": 1.5,
+    "widthM": 1.2,
+    "heightM": 2.2,
+    "massKg": 120.0
+  },
+  "w2-forestmoose": {
+    "lengthM": 3.2,
+    "widthM": 2.8,
+    "heightM": 3.4,
+    "massKg": 650.0
+  },
+  "w2-dewmanatee": {
+    "lengthM": 1.7,
+    "widthM": 0.8,
+    "heightM": 0.75,
+    "massKg": 180.0
+  },
+  "w2-bubbleanemone": {
+    "lengthM": 0.45,
+    "widthM": 0.6,
+    "heightM": 0.65,
+    "massKg": 4.0
+  },
+  "w2-rainduck": {
+    "lengthM": 0.4,
+    "widthM": 0.55,
+    "heightM": 0.5,
+    "massKg": 1.6
+  },
+  "w2-ribbonskater": {
+    "lengthM": 0.3,
+    "widthM": 0.8,
+    "heightM": 0.25,
+    "massKg": 0.2
+  },
+  "w2-icesquid": {
+    "lengthM": 1.25,
+    "widthM": 0.65,
+    "heightM": 1.5,
+    "massKg": 18.0
+  },
+  "w2-springaxolotl": {
+    "lengthM": 1.3,
+    "widthM": 0.65,
+    "heightM": 0.75,
+    "massKg": 10.0
+  },
+  "w2-glassseahorse": {
+    "lengthM": 0.65,
+    "widthM": 0.35,
+    "heightM": 1.1,
+    "massKg": 5.0
+  },
+  "w2-tideplatypus": {
+    "lengthM": 1.15,
+    "widthM": 0.55,
+    "heightM": 0.6,
+    "massKg": 16.0
+  },
+  "w2-glacierbeluga": {
+    "lengthM": 4.5,
+    "widthM": 2.0,
+    "heightM": 1.65,
+    "massKg": 1400.0
+  },
+  "w2-abyssnautilus": {
+    "lengthM": 2.4,
+    "widthM": 2.2,
+    "heightM": 2.5,
+    "massKg": 180.0
+  },
+  "w2-embergecko": {
+    "lengthM": 0.35,
+    "widthM": 0.16,
+    "heightM": 0.2,
+    "massKg": 0.3
+  },
+  "w2-sparrowcoal": {
+    "lengthM": 0.22,
+    "widthM": 0.45,
+    "heightM": 0.28,
+    "massKg": 0.2
+  },
+  "w2-lanternfirefly": {
+    "lengthM": 0.22,
+    "widthM": 0.5,
+    "heightM": 0.3,
+    "massKg": 0.15
+  },
+  "w2-peppernewt": {
+    "lengthM": 0.55,
+    "widthM": 0.28,
+    "heightM": 0.35,
+    "massKg": 1.3
+  },
+  "w2-cinderrooster": {
+    "lengthM": 0.8,
+    "widthM": 1.2,
+    "heightM": 1.1,
+    "massKg": 7.0
+  },
+  "w2-furnaceboar": {
+    "lengthM": 1.9,
+    "widthM": 0.95,
+    "heightM": 1.2,
+    "massKg": 180.0
+  },
+  "w2-cometkangaroo": {
+    "lengthM": 1.8,
+    "widthM": 0.65,
+    "heightM": 1.9,
+    "massKg": 65.0
+  },
+  "w2-sunlotus": {
+    "lengthM": 0.75,
+    "widthM": 1.1,
+    "heightM": 1.2,
+    "massKg": 8.0
+  },
+  "w2-phoenixcricket": {
+    "lengthM": 0.65,
+    "widthM": 1.6,
+    "heightM": 0.9,
+    "massKg": 2.0
+  },
+  "w2-dawnmanticore": {
+    "lengthM": 3.3,
+    "widthM": 3.6,
+    "heightM": 2.1,
+    "massKg": 320.0
+  },
+  "w2-pebblewombat": {
+    "lengthM": 0.85,
+    "widthM": 0.55,
+    "heightM": 0.5,
+    "massKg": 25.0
+  },
+  "w2-claymole": {
+    "lengthM": 0.45,
+    "widthM": 0.35,
+    "heightM": 0.42,
+    "massKg": 6.0
+  },
+  "w2-sandfennec": {
+    "lengthM": 0.8,
+    "widthM": 0.4,
+    "heightM": 0.6,
+    "massKg": 5.0
+  },
+  "w2-amberant": {
+    "lengthM": 0.3,
+    "widthM": 0.2,
+    "heightM": 0.2,
+    "massKg": 0.5
+  },
+  "w2-crystalstar": {
+    "lengthM": 0.65,
+    "widthM": 0.65,
+    "heightM": 0.25,
+    "massKg": 5.0
+  },
+  "w2-terracedillo": {
+    "lengthM": 1.25,
+    "widthM": 0.6,
+    "heightM": 0.65,
+    "massKg": 35.0
+  },
+  "w2-canyontapir": {
+    "lengthM": 2.2,
+    "widthM": 1.0,
+    "heightM": 1.35,
+    "massKg": 260.0
+  },
+  "w2-geodeoctopus": {
+    "lengthM": 1.8,
+    "widthM": 2.4,
+    "heightM": 1.6,
+    "massKg": 80.0
+  },
+  "w2-mountainyak": {
+    "lengthM": 3.2,
+    "widthM": 1.6,
+    "heightM": 2.4,
+    "massKg": 950.0
+  },
+  "w2-worldtortoise": {
+    "lengthM": 5.5,
+    "widthM": 4.5,
+    "heightM": 3.6,
+    "massKg": 4200.0
+  },
+  "w3-magnetelephant": {
+    "lengthM": 1.8,
+    "widthM": 0.9,
+    "heightM": 1.5,
+    "massKg": 280.0
+  },
+  "w3-sproutsloth": {
+    "lengthM": 0.7,
+    "widthM": 0.55,
+    "heightM": 0.85,
+    "massKg": 8.0
+  },
+  "w3-dewdungong": {
+    "lengthM": 1.5,
+    "widthM": 0.7,
+    "heightM": 0.65,
+    "massKg": 130.0
+  },
+  "w3-stovepenguin": {
+    "lengthM": 0.55,
+    "widthM": 0.6,
+    "heightM": 0.9,
+    "massKg": 14.0
+  },
+  "w3-potwombat": {
+    "lengthM": 0.85,
+    "widthM": 0.55,
+    "heightM": 0.55,
+    "massKg": 28.0
+  },
+  "w3-copperflyfish": {
+    "lengthM": 0.55,
+    "widthM": 0.85,
+    "heightM": 0.35,
+    "massKg": 2.0
+  },
+  "w3-lotusfrog": {
+    "lengthM": 0.32,
+    "widthM": 0.4,
+    "heightM": 0.35,
+    "massKg": 0.6
+  },
+  "w3-icebellseal": {
+    "lengthM": 1.5,
+    "widthM": 0.65,
+    "heightM": 0.65,
+    "massKg": 60.0
+  },
+  "w3-wickcamel": {
+    "lengthM": 1.7,
+    "widthM": 0.65,
+    "heightM": 1.65,
+    "massKg": 160.0
+  },
+  "w3-wheatmarmot": {
+    "lengthM": 0.5,
+    "widthM": 0.3,
+    "heightM": 0.5,
+    "massKg": 6.0
+  },
+  "w3-harphummingbird": {
+    "lengthM": 0.16,
+    "widthM": 0.35,
+    "heightM": 0.2,
+    "massKg": 0.08
+  },
+  "w3-flutemantis": {
+    "lengthM": 0.5,
+    "widthM": 0.4,
+    "heightM": 0.65,
+    "massKg": 0.6
+  },
+  "w3-mirrorcuttle": {
+    "lengthM": 0.65,
+    "widthM": 0.6,
+    "heightM": 0.75,
+    "massKg": 4.0
+  },
+  "w3-tinderfennec": {
+    "lengthM": 0.85,
+    "widthM": 0.4,
+    "heightM": 0.65,
+    "massKg": 5.0
+  },
+  "w3-hourglassshrew": {
+    "lengthM": 0.35,
+    "widthM": 0.2,
+    "heightM": 0.35,
+    "massKg": 0.6
+  },
+  "w3-giltfancrane": {
+    "lengthM": 1.0,
+    "widthM": 2.0,
+    "heightM": 1.5,
+    "massKg": 7.0
+  },
+  "w3-flowercapybara": {
+    "lengthM": 1.4,
+    "widthM": 0.75,
+    "heightM": 1.35,
+    "massKg": 85.0
+  },
+  "w3-starbubbleoctopus": {
+    "lengthM": 1.2,
+    "widthM": 1.6,
+    "heightM": 1.1,
+    "massKg": 28.0
+  },
+  "w3-coalroadrunner": {
+    "lengthM": 0.7,
+    "widthM": 0.6,
+    "heightM": 0.75,
+    "massKg": 2.2
+  },
+  "w3-glassarmadillo": {
+    "lengthM": 0.85,
+    "widthM": 0.45,
+    "heightM": 0.45,
+    "massKg": 12.0
+  },
+  "w3-balancevulture": {
+    "lengthM": 1.1,
+    "widthM": 2.8,
+    "heightM": 1.2,
+    "massKg": 12.0
+  },
+  "w3-vinegiraffe": {
+    "lengthM": 2.5,
+    "widthM": 0.8,
+    "heightM": 3.8,
+    "massKg": 420.0
+  },
+  "w3-moonsailfish": {
+    "lengthM": 2.8,
+    "widthM": 1.6,
+    "heightM": 1.8,
+    "massKg": 90.0
+  },
+  "w3-sunsetpeacock": {
+    "lengthM": 1.8,
+    "widthM": 2.2,
+    "heightM": 1.8,
+    "massKg": 12.0
+  },
+  "w3-jadeibex": {
+    "lengthM": 1.8,
+    "widthM": 1.1,
+    "heightM": 1.8,
+    "massKg": 130.0
+  },
+  "w3-polarmechdeer": {
+    "lengthM": 2.4,
+    "widthM": 1.5,
+    "heightM": 2.5,
+    "massKg": 300.0
+  },
+  "w3-dreamtapir": {
+    "lengthM": 2.6,
+    "widthM": 1.3,
+    "heightM": 1.9,
+    "massKg": 380.0
+  },
+  "w3-rainbowmanta": {
+    "lengthM": 3.0,
+    "widthM": 5.0,
+    "heightM": 1.0,
+    "massKg": 180.0
+  },
+  "w3-suncrestlion": {
+    "lengthM": 3.0,
+    "widthM": 1.4,
+    "heightM": 1.8,
+    "massKg": 280.0
+  },
+  "w3-stardunetortoise": {
+    "lengthM": 4.8,
+    "widthM": 4.0,
+    "heightM": 3.0,
+    "massKg": 3200.0
+  },
+  "w4-bellbadger": {
+    "lengthM": 0.65,
+    "widthM": 0.35,
+    "heightM": 0.45,
+    "massKg": 8.0
+  },
+  "w4-cloversquirrel": {
+    "lengthM": 0.45,
+    "widthM": 0.25,
+    "heightM": 0.38,
+    "massKg": 0.7
+  },
+  "w4-brookplatypus": {
+    "lengthM": 0.75,
+    "widthM": 0.35,
+    "heightM": 0.4,
+    "massKg": 4.0
+  },
+  "w4-coalhamster": {
+    "lengthM": 0.18,
+    "widthM": 0.14,
+    "heightM": 0.2,
+    "massKg": 0.2
+  },
+  "w4-pebblemole": {
+    "lengthM": 0.28,
+    "widthM": 0.22,
+    "heightM": 0.2,
+    "massKg": 0.7
+  },
+  "w4-spoonibis": {
+    "lengthM": 0.55,
+    "widthM": 0.9,
+    "heightM": 0.8,
+    "massKg": 1.6
+  },
+  "w4-mosskoala": {
+    "lengthM": 0.65,
+    "widthM": 0.45,
+    "heightM": 0.8,
+    "massKg": 8.0
+  },
+  "w4-shellpuffin": {
+    "lengthM": 0.4,
+    "widthM": 0.7,
+    "heightM": 0.55,
+    "massKg": 1.2
+  },
+  "w4-embergecko": {
+    "lengthM": 0.3,
+    "widthM": 0.14,
+    "heightM": 0.16,
+    "massKg": 0.2
+  },
+  "w4-acornboar": {
+    "lengthM": 0.9,
+    "widthM": 0.45,
+    "heightM": 0.65,
+    "massKg": 30.0
+  },
+  "w4-gearjerboa": {
+    "lengthM": 0.3,
+    "widthM": 0.18,
+    "heightM": 0.32,
+    "massKg": 0.4
+  },
+  "w4-fernlemur": {
+    "lengthM": 1.0,
+    "widthM": 0.3,
+    "heightM": 0.6,
+    "massKg": 3.0
+  },
+  "w4-iceotter": {
+    "lengthM": 0.95,
+    "widthM": 0.4,
+    "heightM": 0.65,
+    "massKg": 12.0
+  },
+  "w4-lanternkiwi": {
+    "lengthM": 0.5,
+    "widthM": 0.32,
+    "heightM": 0.5,
+    "massKg": 2.5
+  },
+  "w4-clayhedgehog": {
+    "lengthM": 0.28,
+    "widthM": 0.25,
+    "heightM": 0.23,
+    "massKg": 1.4
+  },
+  "w4-copperstoat": {
+    "lengthM": 0.55,
+    "widthM": 0.18,
+    "heightM": 0.3,
+    "massKg": 1.0
+  },
+  "w4-orchidnewt": {
+    "lengthM": 0.4,
+    "widthM": 0.28,
+    "heightM": 0.25,
+    "massKg": 0.6
+  },
+  "w4-sailduck": {
+    "lengthM": 0.45,
+    "widthM": 0.6,
+    "heightM": 0.5,
+    "massKg": 2.0
+  },
+  "w4-pepperhare": {
+    "lengthM": 0.65,
+    "widthM": 0.3,
+    "heightM": 0.7,
+    "massKg": 4.5
+  },
+  "w4-boulderquokka": {
+    "lengthM": 0.75,
+    "widthM": 0.45,
+    "heightM": 0.7,
+    "massKg": 8.0
+  },
+  "w4-runeraccoon": {
+    "lengthM": 1.0,
+    "widthM": 0.45,
+    "heightM": 0.75,
+    "massKg": 14.0
+  },
+  "w4-dreamfawn": {
+    "lengthM": 1.2,
+    "widthM": 0.45,
+    "heightM": 1.2,
+    "massKg": 35.0
+  },
+  "w4-frostlynx": {
+    "lengthM": 1.35,
+    "widthM": 0.5,
+    "heightM": 1.0,
+    "massKg": 25.0
+  },
+  "w4-hearthpanda": {
+    "lengthM": 1.2,
+    "widthM": 0.45,
+    "heightM": 0.65,
+    "massKg": 8.0
+  },
+  "w4-crystalskunk": {
+    "lengthM": 0.85,
+    "widthM": 0.32,
+    "heightM": 0.5,
+    "massKg": 5.0
+  },
+  "w4-anvilram": {
+    "lengthM": 1.6,
+    "widthM": 0.95,
+    "heightM": 1.3,
+    "massKg": 100.0
+  },
+  "w4-canopymarten": {
+    "lengthM": 1.1,
+    "widthM": 0.7,
+    "heightM": 0.5,
+    "massKg": 5.0
+  },
+  "w4-misttern": {
+    "lengthM": 0.45,
+    "widthM": 1.2,
+    "heightM": 0.4,
+    "massKg": 1.2
+  },
+  "w4-sunfrill": {
+    "lengthM": 0.85,
+    "widthM": 0.65,
+    "heightM": 0.55,
+    "massKg": 3.0
+  },
+  "w4-dunepika": {
+    "lengthM": 0.3,
+    "widthM": 0.2,
+    "heightM": 0.3,
+    "massKg": 0.5
+  },
+  "w4-clockstag": {
+    "lengthM": 2.2,
+    "widthM": 1.6,
+    "heightM": 2.4,
+    "massKg": 210.0
+  },
+  "w4-groveowlbear": {
+    "lengthM": 2.0,
+    "widthM": 1.2,
+    "heightM": 2.1,
+    "massKg": 240.0
+  },
+  "w4-tidekelpie": {
+    "lengthM": 2.5,
+    "widthM": 0.85,
+    "heightM": 2.1,
+    "massKg": 420.0
+  },
+  "w4-cinderkirin": {
+    "lengthM": 2.5,
+    "widthM": 1.0,
+    "heightM": 2.2,
+    "massKg": 380.0
+  },
+  "w4-ridgeyak": {
+    "lengthM": 3.0,
+    "widthM": 1.5,
+    "heightM": 2.0,
+    "massKg": 800.0
+  },
+  "w4-auroragrifflet": {
+    "lengthM": 1.7,
+    "widthM": 2.5,
+    "heightM": 1.3,
+    "massKg": 80.0
+  },
+  "w4-moonmothcat": {
+    "lengthM": 1.2,
+    "widthM": 2.0,
+    "heightM": 0.9,
+    "massKg": 12.0
+  },
+  "w4-glaciernarwhal": {
+    "lengthM": 5.5,
+    "widthM": 2.0,
+    "heightM": 1.6,
+    "massKg": 1300.0
+  },
+  "w4-solarkestrel": {
+    "lengthM": 0.9,
+    "widthM": 2.1,
+    "heightM": 1.1,
+    "massKg": 6.0
+  },
+  "w4-amberbison": {
+    "lengthM": 3.2,
+    "widthM": 1.7,
+    "heightM": 2.1,
+    "massKg": 900.0
+  },
+  "w4-oathhippogryph": {
+    "lengthM": 2.8,
+    "widthM": 4.0,
+    "heightM": 2.3,
+    "massKg": 280.0
+  },
+  "w4-verdantlong": {
+    "lengthM": 6.0,
+    "widthM": 1.2,
+    "heightM": 2.5,
+    "massKg": 260.0
+  },
+  "w4-arcanemanta": {
+    "lengthM": 3.2,
+    "widthM": 5.2,
+    "heightM": 1.0,
+    "massKg": 220.0
+  },
+  "w4-dawnroc": {
+    "lengthM": 2.8,
+    "widthM": 6.0,
+    "heightM": 3.0,
+    "massKg": 120.0
+  },
+  "w4-terracekirin": {
+    "lengthM": 3.0,
+    "widthM": 1.6,
+    "heightM": 2.3,
+    "massKg": 620.0
+  },
+  "w4-silverwarden": {
+    "lengthM": 5.2,
+    "widthM": 7.0,
+    "heightM": 3.2,
+    "massKg": 800.0
+  },
+  "w4-dreamgroveguardian": {
+    "lengthM": 2.5,
+    "widthM": 2.4,
+    "heightM": 4.5,
+    "massKg": 680.0
+  },
+  "w4-moonwhaleling": {
+    "lengthM": 6.5,
+    "widthM": 3.0,
+    "heightM": 2.2,
+    "massKg": 2400.0
+  },
+  "w4-sunmanepegasus": {
+    "lengthM": 3.0,
+    "widthM": 4.8,
+    "heightM": 2.7,
+    "massKg": 450.0
+  },
+  "w4-worldseedturtle": {
+    "lengthM": 6.0,
+    "widthM": 4.6,
+    "heightM": 3.5,
+    "massKg": 4800.0
+  },
+  "cloud-scout-metal": {
+    "lengthM": 0.4,
+    "widthM": 0.85,
+    "heightM": 0.55,
+    "massKg": 1.5
+  },
+  "cloud-scout-wood": {
+    "lengthM": 1.3,
+    "widthM": 0.55,
+    "heightM": 1.4,
+    "massKg": 45.0
+  },
+  "cloud-scout-water": {
+    "lengthM": 0.9,
+    "widthM": 0.6,
+    "heightM": 0.7,
+    "massKg": 12.0
+  },
+  "cloud-scout-fire": {
+    "lengthM": 0.95,
+    "widthM": 0.35,
+    "heightM": 0.65,
+    "massKg": 8.0
+  },
+  "cloud-scout-earth": {
+    "lengthM": 1.25,
+    "widthM": 0.75,
+    "heightM": 1.0,
+    "massKg": 55.0
+  },
+  "cloud-warden-metal": {
+    "lengthM": 1.5,
+    "widthM": 3.5,
+    "heightM": 1.8,
+    "massKg": 28.0
+  },
+  "cloud-warden-wood": {
+    "lengthM": 4.5,
+    "widthM": 3.2,
+    "heightM": 2.7,
+    "massKg": 380.0
+  },
+  "cloud-warden-water": {
+    "lengthM": 6.5,
+    "widthM": 3.8,
+    "heightM": 3.2,
+    "massKg": 2600.0
+  },
+  "cloud-warden-fire": {
+    "lengthM": 3.0,
+    "widthM": 5.5,
+    "heightM": 3.2,
+    "massKg": 100.0
+  },
+  "cloud-warden-earth": {
+    "lengthM": 3.3,
+    "widthM": 2.2,
+    "heightM": 2.7,
+    "massKg": 750.0
+  },
+  "crab-scout-metal": {
+    "lengthM": 0.65,
+    "widthM": 1.0,
+    "heightM": 0.5,
+    "massKg": 18.0
+  },
+  "crab-scout-wood": {
+    "lengthM": 0.7,
+    "widthM": 1.1,
+    "heightM": 0.75,
+    "massKg": 15.0
+  },
+  "crab-scout-water": {
+    "lengthM": 0.55,
+    "widthM": 0.9,
+    "heightM": 0.6,
+    "massKg": 10.0
+  },
+  "crab-scout-fire": {
+    "lengthM": 0.75,
+    "widthM": 1.15,
+    "heightM": 0.6,
+    "massKg": 22.0
+  },
+  "crab-scout-earth": {
+    "lengthM": 0.7,
+    "widthM": 1.2,
+    "heightM": 0.55,
+    "massKg": 25.0
+  },
+  "crab-warden-metal": {
+    "lengthM": 3.2,
+    "widthM": 4.5,
+    "heightM": 3.2,
+    "massKg": 1800.0
+  },
+  "crab-warden-wood": {
+    "lengthM": 3.5,
+    "widthM": 4.8,
+    "heightM": 3.5,
+    "massKg": 1400.0
+  },
+  "crab-warden-water": {
+    "lengthM": 3.4,
+    "widthM": 4.6,
+    "heightM": 3.0,
+    "massKg": 1600.0
+  },
+  "crab-warden-fire": {
+    "lengthM": 3.8,
+    "widthM": 5.2,
+    "heightM": 3.5,
+    "massKg": 2400.0
+  },
+  "crab-warden-earth": {
+    "lengthM": 4.2,
+    "widthM": 5.5,
+    "heightM": 3.8,
+    "massKg": 3200.0
+  },
+  "golem-scout-metal": {
+    "lengthM": 0.65,
+    "widthM": 0.75,
+    "heightM": 1.2,
+    "massKg": 160.0
+  },
+  "golem-scout-wood": {
+    "lengthM": 0.6,
+    "widthM": 0.75,
+    "heightM": 1.15,
+    "massKg": 90.0
+  },
+  "golem-scout-water": {
+    "lengthM": 0.55,
+    "widthM": 0.7,
+    "heightM": 1.1,
+    "massKg": 65.0
+  },
+  "golem-scout-fire": {
+    "lengthM": 0.65,
+    "widthM": 0.8,
+    "heightM": 1.3,
+    "massKg": 150.0
+  },
+  "golem-scout-earth": {
+    "lengthM": 0.75,
+    "widthM": 0.9,
+    "heightM": 1.25,
+    "massKg": 180.0
+  },
+  "golem-warden-metal": {
+    "lengthM": 2.0,
+    "widthM": 2.8,
+    "heightM": 4.2,
+    "massKg": 3200.0
+  },
+  "golem-warden-wood": {
+    "lengthM": 2.2,
+    "widthM": 3.0,
+    "heightM": 4.5,
+    "massKg": 2200.0
+  },
+  "golem-warden-water": {
+    "lengthM": 2.1,
+    "widthM": 2.9,
+    "heightM": 4.4,
+    "massKg": 2800.0
+  },
+  "golem-warden-fire": {
+    "lengthM": 2.3,
+    "widthM": 3.2,
+    "heightM": 4.6,
+    "massKg": 3600.0
+  },
+  "golem-warden-earth": {
+    "lengthM": 2.6,
+    "widthM": 3.6,
+    "heightM": 5.2,
+    "massKg": 5200.0
+  },
+  "moth-scout-metal": {
+    "lengthM": 0.28,
+    "widthM": 0.7,
+    "heightM": 0.4,
+    "massKg": 0.4
+  },
+  "moth-scout-wood": {
+    "lengthM": 0.25,
+    "widthM": 0.65,
+    "heightM": 0.38,
+    "massKg": 0.25
+  },
+  "moth-scout-water": {
+    "lengthM": 0.25,
+    "widthM": 0.7,
+    "heightM": 0.38,
+    "massKg": 0.3
+  },
+  "moth-scout-fire": {
+    "lengthM": 0.3,
+    "widthM": 0.75,
+    "heightM": 0.42,
+    "massKg": 0.35
+  },
+  "moth-scout-earth": {
+    "lengthM": 0.32,
+    "widthM": 0.8,
+    "heightM": 0.45,
+    "massKg": 0.8
+  },
+  "moth-warden-metal": {
+    "lengthM": 1.1,
+    "widthM": 2.6,
+    "heightM": 1.5,
+    "massKg": 10.0
+  },
+  "moth-warden-wood": {
+    "lengthM": 1.2,
+    "widthM": 3.0,
+    "heightM": 1.7,
+    "massKg": 8.0
+  },
+  "moth-warden-water": {
+    "lengthM": 1.15,
+    "widthM": 2.8,
+    "heightM": 1.6,
+    "massKg": 12.0
+  },
+  "moth-warden-fire": {
+    "lengthM": 1.4,
+    "widthM": 3.4,
+    "heightM": 1.9,
+    "massKg": 16.0
+  },
+  "moth-warden-earth": {
+    "lengthM": 1.3,
+    "widthM": 3.2,
+    "heightM": 1.8,
+    "massKg": 35.0
+  },
+  "newt-scout-metal": {
+    "lengthM": 0.6,
+    "widthM": 0.3,
+    "heightM": 0.35,
+    "massKg": 2.0
+  },
+  "newt-scout-wood": {
+    "lengthM": 0.65,
+    "widthM": 0.3,
+    "heightM": 0.35,
+    "massKg": 1.8
+  },
+  "newt-scout-water": {
+    "lengthM": 0.55,
+    "widthM": 0.35,
+    "heightM": 0.3,
+    "massKg": 1.6
+  },
+  "newt-scout-fire": {
+    "lengthM": 0.65,
+    "widthM": 0.3,
+    "heightM": 0.38,
+    "massKg": 2.4
+  },
+  "newt-scout-earth": {
+    "lengthM": 0.7,
+    "widthM": 0.4,
+    "heightM": 0.35,
+    "massKg": 3.5
+  },
+  "newt-warden-metal": {
+    "lengthM": 2.2,
+    "widthM": 0.85,
+    "heightM": 1.4,
+    "massKg": 90.0
+  },
+  "newt-warden-wood": {
+    "lengthM": 2.5,
+    "widthM": 0.95,
+    "heightM": 1.5,
+    "massKg": 100.0
+  },
+  "newt-warden-water": {
+    "lengthM": 2.4,
+    "widthM": 1.1,
+    "heightM": 1.6,
+    "massKg": 120.0
+  },
+  "newt-warden-fire": {
+    "lengthM": 2.6,
+    "widthM": 1.1,
+    "heightM": 1.7,
+    "massKg": 180.0
+  },
+  "newt-warden-earth": {
+    "lengthM": 3.0,
+    "widthM": 1.3,
+    "heightM": 1.8,
+    "massKg": 260.0
+  },
+  "pangolin-scout-metal": {
+    "lengthM": 0.9,
+    "widthM": 0.35,
+    "heightM": 0.5,
+    "massKg": 12.0
+  },
+  "pangolin-scout-wood": {
+    "lengthM": 0.85,
+    "widthM": 0.35,
+    "heightM": 0.48,
+    "massKg": 9.0
+  },
+  "pangolin-scout-water": {
+    "lengthM": 0.95,
+    "widthM": 0.4,
+    "heightM": 0.55,
+    "massKg": 14.0
+  },
+  "pangolin-scout-fire": {
+    "lengthM": 1.0,
+    "widthM": 0.4,
+    "heightM": 0.55,
+    "massKg": 18.0
+  },
+  "pangolin-scout-earth": {
+    "lengthM": 0.9,
+    "widthM": 0.4,
+    "heightM": 0.5,
+    "massKg": 16.0
+  },
+  "pangolin-warden-metal": {
+    "lengthM": 2.5,
+    "widthM": 1.1,
+    "heightM": 1.8,
+    "massKg": 280.0
+  },
+  "pangolin-warden-wood": {
+    "lengthM": 2.8,
+    "widthM": 1.2,
+    "heightM": 2.0,
+    "massKg": 260.0
+  },
+  "pangolin-warden-water": {
+    "lengthM": 3.0,
+    "widthM": 1.3,
+    "heightM": 2.2,
+    "massKg": 420.0
+  },
+  "pangolin-warden-fire": {
+    "lengthM": 3.2,
+    "widthM": 1.4,
+    "heightM": 2.3,
+    "massKg": 550.0
+  },
+  "pangolin-warden-earth": {
+    "lengthM": 3.5,
+    "widthM": 1.6,
+    "heightM": 2.5,
+    "massKg": 850.0
+  },
+  "sprite-scout-metal": {
+    "lengthM": 0.4,
+    "widthM": 0.7,
+    "heightM": 0.65,
+    "massKg": 8.0
+  },
+  "sprite-scout-wood": {
+    "lengthM": 0.4,
+    "widthM": 0.75,
+    "heightM": 0.7,
+    "massKg": 4.0
+  },
+  "sprite-scout-water": {
+    "lengthM": 0.35,
+    "widthM": 0.65,
+    "heightM": 0.65,
+    "massKg": 3.0
+  },
+  "sprite-scout-fire": {
+    "lengthM": 0.45,
+    "widthM": 0.75,
+    "heightM": 0.7,
+    "massKg": 7.0
+  },
+  "sprite-scout-earth": {
+    "lengthM": 0.5,
+    "widthM": 0.85,
+    "heightM": 0.75,
+    "massKg": 15.0
+  },
+  "sprite-warden-metal": {
+    "lengthM": 1.5,
+    "widthM": 2.2,
+    "heightM": 2.8,
+    "massKg": 480.0
+  },
+  "sprite-warden-wood": {
+    "lengthM": 1.7,
+    "widthM": 3.0,
+    "heightM": 3.2,
+    "massKg": 340.0
+  },
+  "sprite-warden-water": {
+    "lengthM": 1.6,
+    "widthM": 2.8,
+    "heightM": 3.0,
+    "massKg": 300.0
+  },
+  "sprite-warden-fire": {
+    "lengthM": 1.8,
+    "widthM": 3.2,
+    "heightM": 3.4,
+    "massKg": 650.0
+  },
+  "sprite-warden-earth": {
+    "lengthM": 2.0,
+    "widthM": 3.5,
+    "heightM": 3.6,
+    "massKg": 950.0
+  },
+  "drake-scout-metal": {
+    "lengthM": 1.2,
+    "widthM": 0.45,
+    "heightM": 1.0,
+    "massKg": 12.0
+  },
+  "drake-scout-wood": {
+    "lengthM": 1.3,
+    "widthM": 0.5,
+    "heightM": 1.1,
+    "massKg": 10.0
+  },
+  "drake-scout-water": {
+    "lengthM": 1.1,
+    "widthM": 0.45,
+    "heightM": 0.95,
+    "massKg": 9.0
+  },
+  "drake-scout-fire": {
+    "lengthM": 1.35,
+    "widthM": 0.55,
+    "heightM": 1.2,
+    "massKg": 16.0
+  },
+  "drake-scout-earth": {
+    "lengthM": 1.4,
+    "widthM": 0.6,
+    "heightM": 1.2,
+    "massKg": 24.0
+  },
+  "drake-warden-metal": {
+    "lengthM": 4.0,
+    "widthM": 1.6,
+    "heightM": 2.8,
+    "massKg": 260.0
+  },
+  "drake-warden-wood": {
+    "lengthM": 4.5,
+    "widthM": 2.2,
+    "heightM": 3.2,
+    "massKg": 300.0
+  },
+  "drake-warden-water": {
+    "lengthM": 5.0,
+    "widthM": 2.8,
+    "heightM": 3.5,
+    "massKg": 520.0
+  },
+  "drake-warden-fire": {
+    "lengthM": 5.2,
+    "widthM": 3.0,
+    "heightM": 3.8,
+    "massKg": 480.0
+  },
+  "drake-warden-earth": {
+    "lengthM": 5.5,
+    "widthM": 2.8,
+    "heightM": 3.6,
+    "massKg": 900.0
+  },
+  "wave4-metal-01": {
+    "lengthM": 3.5,
+    "widthM": 5.5,
+    "heightM": 6.0,
+    "massKg": 6500.0
+  },
+  "wave4-metal-02": {
+    "lengthM": 8.0,
+    "widthM": 12.0,
+    "heightM": 5.0,
+    "massKg": 4200.0
+  },
+  "wave4-metal-03": {
+    "lengthM": 5.0,
+    "widthM": 2.8,
+    "heightM": 3.2,
+    "massKg": 2800.0
+  },
+  "wave4-metal-04": {
+    "lengthM": 12.0,
+    "widthM": 16.0,
+    "heightM": 4.5,
+    "massKg": 12000.0
+  },
+  "wave4-metal-05": {
+    "lengthM": 6.0,
+    "widthM": 3.2,
+    "heightM": 3.8,
+    "massKg": 6800.0
+  },
+  "wave4-metal-06": {
+    "lengthM": 6.5,
+    "widthM": 4.5,
+    "heightM": 4.0,
+    "massKg": 3200.0
+  },
+  "wave4-metal-07": {
+    "lengthM": 14.0,
+    "widthM": 3.5,
+    "heightM": 6.0,
+    "massKg": 4800.0
+  },
+  "wave4-metal-08": {
+    "lengthM": 7.0,
+    "widthM": 5.0,
+    "heightM": 4.2,
+    "massKg": 9000.0
+  },
+  "wave4-metal-09": {
+    "lengthM": 4.0,
+    "widthM": 10.0,
+    "heightM": 5.0,
+    "massKg": 1100.0
+  },
+  "wave4-metal-10": {
+    "lengthM": 8.0,
+    "widthM": 3.5,
+    "heightM": 3.8,
+    "massKg": 5600.0
+  },
+  "wave4-wood-11": {
+    "lengthM": 3.5,
+    "widthM": 5.0,
+    "heightM": 7.0,
+    "massKg": 4200.0
+  },
+  "wave4-wood-12": {
+    "lengthM": 4.5,
+    "widthM": 5.0,
+    "heightM": 5.5,
+    "massKg": 3800.0
+  },
+  "wave4-wood-13": {
+    "lengthM": 9.0,
+    "widthM": 5.0,
+    "heightM": 7.5,
+    "massKg": 14000.0
+  },
+  "wave4-wood-14": {
+    "lengthM": 5.0,
+    "widthM": 6.0,
+    "heightM": 6.0,
+    "massKg": 1800.0
+  },
+  "wave4-wood-15": {
+    "lengthM": 12.0,
+    "widthM": 9.0,
+    "heightM": 8.0,
+    "massKg": 12000.0
+  },
+  "wave4-wood-16": {
+    "lengthM": 7.0,
+    "widthM": 4.0,
+    "heightM": 4.5,
+    "massKg": 5800.0
+  },
+  "wave4-wood-17": {
+    "lengthM": 7.0,
+    "widthM": 7.5,
+    "heightM": 9.0,
+    "massKg": 4800.0
+  },
+  "wave4-wood-18": {
+    "lengthM": 5.5,
+    "widthM": 12.0,
+    "heightM": 6.0,
+    "massKg": 2600.0
+  },
+  "wave4-wood-19": {
+    "lengthM": 5.0,
+    "widthM": 4.5,
+    "heightM": 6.0,
+    "massKg": 5600.0
+  },
+  "wave4-wood-20": {
+    "lengthM": 16.0,
+    "widthM": 5.0,
+    "heightM": 7.0,
+    "massKg": 9000.0
+  },
+  "wave4-water-21": {
+    "lengthM": 18.0,
+    "widthM": 9.0,
+    "heightM": 7.0,
+    "massKg": 38000.0
+  },
+  "wave4-water-22": {
+    "lengthM": 12.0,
+    "widthM": 9.0,
+    "heightM": 9.0,
+    "massKg": 16000.0
+  },
+  "wave4-water-23": {
+    "lengthM": 12.0,
+    "widthM": 20.0,
+    "heightM": 4.5,
+    "massKg": 18000.0
+  },
+  "wave4-water-24": {
+    "lengthM": 10.0,
+    "widthM": 14.0,
+    "heightM": 8.0,
+    "massKg": 14000.0
+  },
+  "wave4-water-25": {
+    "lengthM": 6.0,
+    "widthM": 3.5,
+    "heightM": 3.5,
+    "massKg": 2600.0
+  },
+  "wave4-water-26": {
+    "lengthM": 10.0,
+    "widthM": 18.0,
+    "heightM": 4.0,
+    "massKg": 12000.0
+  },
+  "wave4-water-27": {
+    "lengthM": 18.0,
+    "widthM": 4.5,
+    "heightM": 7.0,
+    "massKg": 11000.0
+  },
+  "wave4-water-28": {
+    "lengthM": 14.0,
+    "widthM": 8.0,
+    "heightM": 5.5,
+    "massKg": 18000.0
+  },
+  "wave4-water-29": {
+    "lengthM": 10.0,
+    "widthM": 8.0,
+    "heightM": 7.0,
+    "massKg": 28000.0
+  },
+  "wave4-water-30": {
+    "lengthM": 12.0,
+    "widthM": 8.0,
+    "heightM": 8.0,
+    "massKg": 22000.0
+  },
+  "w5-hookspider": {
+    "lengthM": 0.35,
+    "widthM": 0.5,
+    "heightM": 0.25,
+    "massKg": 1.2
+  },
+  "w5-mosssnail": {
+    "lengthM": 0.5,
+    "widthM": 0.4,
+    "heightM": 0.6,
+    "massKg": 3.0
+  },
+  "w5-tideurn": {
+    "lengthM": 0.4,
+    "widthM": 0.6,
+    "heightM": 0.65,
+    "massKg": 4.0
+  },
+  "w5-coalrooster": {
+    "lengthM": 0.65,
+    "widthM": 0.8,
+    "heightM": 0.85,
+    "massKg": 5.0
+  },
+  "w5-crackedsalamander": {
+    "lengthM": 1.0,
+    "widthM": 0.45,
+    "heightM": 0.4,
+    "massKg": 12.0
+  },
+  "w5-steelcatfish": {
+    "lengthM": 1.5,
+    "widthM": 0.9,
+    "heightM": 0.7,
+    "massKg": 35.0
+  },
+  "w5-vinecage": {
+    "lengthM": 0.7,
+    "widthM": 0.9,
+    "heightM": 1.0,
+    "massKg": 18.0
+  },
+  "w5-mistumbrella": {
+    "lengthM": 0.75,
+    "widthM": 0.9,
+    "heightM": 1.5,
+    "massKg": 8.0
+  },
+  "w5-furnacebeetle": {
+    "lengthM": 1.1,
+    "widthM": 0.9,
+    "heightM": 0.85,
+    "massKg": 45.0
+  },
+  "w5-drumlizard": {
+    "lengthM": 1.3,
+    "widthM": 0.6,
+    "heightM": 0.9,
+    "massKg": 30.0
+  },
+  "w5-mirrormantis": {
+    "lengthM": 1.4,
+    "widthM": 1.8,
+    "heightM": 1.9,
+    "massKg": 30.0
+  },
+  "w5-thornporcupine": {
+    "lengthM": 1.4,
+    "widthM": 1.3,
+    "heightM": 1.0,
+    "massKg": 45.0
+  },
+  "w5-vortexnautilus": {
+    "lengthM": 1.8,
+    "widthM": 1.6,
+    "heightM": 1.7,
+    "massKg": 65.0
+  },
+  "w5-cinderbat": {
+    "lengthM": 1.1,
+    "widthM": 3.0,
+    "heightM": 1.3,
+    "massKg": 12.0
+  },
+  "w5-hammerdevil": {
+    "lengthM": 1.7,
+    "widthM": 0.8,
+    "heightM": 1.3,
+    "massKg": 80.0
+  },
+  "w5-chainrhino": {
+    "lengthM": 3.5,
+    "widthM": 1.8,
+    "heightM": 2.2,
+    "massKg": 1800.0
+  },
+  "w5-rootcrocodile": {
+    "lengthM": 4.5,
+    "widthM": 1.2,
+    "heightM": 1.1,
+    "massKg": 550.0
+  },
+  "w5-frostseasnake": {
+    "lengthM": 6.0,
+    "widthM": 0.8,
+    "heightM": 2.8,
+    "massKg": 220.0
+  },
+  "w5-blazebison": {
+    "lengthM": 3.4,
+    "widthM": 1.8,
+    "heightM": 2.2,
+    "massKg": 1100.0
+  },
+  "w5-crystalcamel": {
+    "lengthM": 3.5,
+    "widthM": 1.3,
+    "heightM": 3.6,
+    "massKg": 850.0
+  },
+  "w5-belfrygriffin": {
+    "lengthM": 4.0,
+    "widthM": 6.5,
+    "heightM": 4.0,
+    "massKg": 750.0
+  },
+  "w5-vinecitadelape": {
+    "lengthM": 4.5,
+    "widthM": 4.0,
+    "heightM": 5.5,
+    "massKg": 1800.0
+  },
+  "w5-waterfallshark": {
+    "lengthM": 6.5,
+    "widthM": 3.0,
+    "heightM": 2.8,
+    "massKg": 2200.0
+  },
+  "w5-firewheelsnake": {
+    "lengthM": 9.0,
+    "widthM": 6.0,
+    "heightM": 4.0,
+    "massKg": 650.0
+  },
+  "w5-obeliskmammoth": {
+    "lengthM": 7.0,
+    "widthM": 3.5,
+    "heightM": 4.8,
+    "massKg": 6800.0
+  },
+  "w5-helixdragon": {
+    "lengthM": 14.0,
+    "widthM": 4.0,
+    "heightM": 5.5,
+    "massKg": 4800.0
+  },
+  "w5-fernsovereign": {
+    "lengthM": 4.5,
+    "widthM": 6.5,
+    "heightM": 9.0,
+    "massKg": 5200.0
+  },
+  "w5-abyssfirmament": {
+    "lengthM": 24.0,
+    "widthM": 13.0,
+    "heightM": 9.0,
+    "massKg": 65000.0
+  },
+  "w5-moltensunphoenix": {
+    "lengthM": 6.0,
+    "widthM": 14.0,
+    "heightM": 7.0,
+    "massKg": 1200.0
+  },
+  "w5-meteorarmorbear": {
+    "lengthM": 7.0,
+    "widthM": 5.0,
+    "heightM": 6.5,
+    "massKg": 7500.0
+  },
+  "w6-oremaw": {
+    "lengthM": 0.65,
+    "widthM": 0.4,
+    "heightM": 0.45,
+    "massKg": 12.0
+  },
+  "w6-bramblesprig": {
+    "lengthM": 0.25,
+    "widthM": 0.5,
+    "heightM": 0.5,
+    "massKg": 1.5
+  },
+  "w6-puddlehopper": {
+    "lengthM": 0.35,
+    "widthM": 0.4,
+    "heightM": 0.45,
+    "massKg": 2.0
+  },
+  "w6-sootimp": {
+    "lengthM": 0.3,
+    "widthM": 0.35,
+    "heightM": 0.55,
+    "massKg": 3.0
+  },
+  "w6-dusttusk": {
+    "lengthM": 0.7,
+    "widthM": 0.45,
+    "heightM": 0.4,
+    "massKg": 18.0
+  },
+  "w6-brassscarab": {
+    "lengthM": 0.7,
+    "widthM": 0.6,
+    "heightM": 0.4,
+    "massKg": 15.0
+  },
+  "w6-rootgnasher": {
+    "lengthM": 0.6,
+    "widthM": 0.55,
+    "heightM": 0.65,
+    "massKg": 12.0
+  },
+  "w6-reefskipper": {
+    "lengthM": 0.8,
+    "widthM": 0.5,
+    "heightM": 0.4,
+    "massKg": 9.0
+  },
+  "w6-candlebat": {
+    "lengthM": 0.25,
+    "widthM": 0.75,
+    "heightM": 0.35,
+    "massKg": 0.6
+  },
+  "w6-mudmuncher": {
+    "lengthM": 0.7,
+    "widthM": 0.75,
+    "heightM": 0.65,
+    "massKg": 45.0
+  },
+  "w6-ironsnout": {
+    "lengthM": 1.2,
+    "widthM": 0.6,
+    "heightM": 0.75,
+    "massKg": 85.0
+  },
+  "w6-thornhorn": {
+    "lengthM": 1.35,
+    "widthM": 0.85,
+    "heightM": 1.1,
+    "massKg": 65.0
+  },
+  "w6-frostjaw": {
+    "lengthM": 1.2,
+    "widthM": 0.4,
+    "heightM": 0.8,
+    "massKg": 20.0
+  },
+  "w6-ashraptor": {
+    "lengthM": 1.6,
+    "widthM": 0.5,
+    "heightM": 1.1,
+    "massKg": 25.0
+  },
+  "w6-slatecrawler": {
+    "lengthM": 1.3,
+    "widthM": 0.7,
+    "heightM": 0.45,
+    "massKg": 55.0
+  },
+  "w6-cogjawhound": {
+    "lengthM": 1.5,
+    "widthM": 0.55,
+    "heightM": 1.0,
+    "massKg": 65.0
+  },
+  "w6-marshstalker": {
+    "lengthM": 1.8,
+    "widthM": 0.85,
+    "heightM": 0.95,
+    "massKg": 90.0
+  },
+  "w6-brinesnapper": {
+    "lengthM": 1.4,
+    "widthM": 1.6,
+    "heightM": 1.0,
+    "massKg": 70.0
+  },
+  "w6-emberhorn": {
+    "lengthM": 2.0,
+    "widthM": 1.05,
+    "heightM": 1.6,
+    "massKg": 220.0
+  },
+  "w6-quarrytoad": {
+    "lengthM": 1.5,
+    "widthM": 1.5,
+    "heightM": 1.1,
+    "massKg": 120.0
+  },
+  "w6-vaultcrab": {
+    "lengthM": 2.8,
+    "widthM": 3.8,
+    "heightM": 2.2,
+    "massKg": 650.0
+  },
+  "w6-hollowbark": {
+    "lengthM": 1.5,
+    "widthM": 2.5,
+    "heightM": 3.2,
+    "massKg": 480.0
+  },
+  "w6-rimewalker": {
+    "lengthM": 1.5,
+    "widthM": 2.0,
+    "heightM": 3.0,
+    "massKg": 420.0
+  },
+  "w6-kilnmauler": {
+    "lengthM": 3.2,
+    "widthM": 2.0,
+    "heightM": 2.2,
+    "massKg": 1100.0
+  },
+  "w6-shalehorn": {
+    "lengthM": 3.2,
+    "widthM": 2.0,
+    "heightM": 2.7,
+    "massKg": 1400.0
+  },
+  "w6-stormtalon": {
+    "lengthM": 2.2,
+    "widthM": 5.0,
+    "heightM": 2.5,
+    "massKg": 90.0
+  },
+  "w6-gloamspore": {
+    "lengthM": 2.5,
+    "widthM": 4.0,
+    "heightM": 3.8,
+    "massKg": 380.0
+  },
+  "w6-deepfin": {
+    "lengthM": 5.0,
+    "widthM": 2.8,
+    "heightM": 2.6,
+    "massKg": 1200.0
+  },
+  "w6-lavafang": {
+    "lengthM": 4.5,
+    "widthM": 1.6,
+    "heightM": 2.0,
+    "massKg": 850.0
+  },
+  "w6-canyonbeetle": {
+    "lengthM": 3.5,
+    "widthM": 2.5,
+    "heightM": 2.1,
+    "massKg": 1800.0
+  },
+  "w6-aegisgargoyle": {
+    "lengthM": 2.5,
+    "widthM": 5.0,
+    "heightM": 3.0,
+    "massKg": 1600.0
+  },
+  "w6-wildmoonpanther": {
+    "lengthM": 3.2,
+    "widthM": 1.0,
+    "heightM": 1.8,
+    "massKg": 260.0
+  },
+  "w6-blizzarddrake": {
+    "lengthM": 5.5,
+    "widthM": 8.0,
+    "heightM": 4.0,
+    "massKg": 950.0
+  },
+  "w6-forgecolossus": {
+    "lengthM": 2.8,
+    "widthM": 3.5,
+    "heightM": 5.0,
+    "massKg": 4600.0
+  },
+  "w6-mesahydra": {
+    "lengthM": 5.0,
+    "widthM": 3.0,
+    "heightM": 4.0,
+    "massKg": 2200.0
+  },
+  "w6-argentmanticore": {
+    "lengthM": 5.0,
+    "widthM": 6.0,
+    "heightM": 3.5,
+    "massKg": 1100.0
+  },
+  "w6-dreambriarbeast": {
+    "lengthM": 4.5,
+    "widthM": 4.0,
+    "heightM": 5.0,
+    "massKg": 1300.0
+  },
+  "w6-abyssalisk": {
+    "lengthM": 6.5,
+    "widthM": 3.5,
+    "heightM": 3.5,
+    "massKg": 1800.0
+  },
+  "w6-crownflamebeast": {
+    "lengthM": 4.5,
+    "widthM": 2.8,
+    "heightM": 3.0,
+    "massKg": 900.0
+  },
+  "w6-obsidiantusk": {
+    "lengthM": 5.5,
+    "widthM": 3.0,
+    "heightM": 3.5,
+    "massKg": 3800.0
+  },
+  "w6-skyforgeleviathan": {
+    "lengthM": 14.0,
+    "widthM": 12.0,
+    "heightM": 5.0,
+    "massKg": 18000.0
+  },
+  "w6-ancientbloomtitan": {
+    "lengthM": 4.5,
+    "widthM": 6.0,
+    "heightM": 9.0,
+    "massKg": 6200.0
+  },
+  "w6-tempestseadragon": {
+    "lengthM": 12.0,
+    "widthM": 10.0,
+    "heightM": 6.0,
+    "massKg": 4800.0
+  },
+  "w6-cindersunwyrm": {
+    "lengthM": 14.0,
+    "widthM": 11.0,
+    "heightM": 6.5,
+    "massKg": 5600.0
+  },
+  "w6-mountainheartgolem": {
+    "lengthM": 4.5,
+    "widthM": 6.0,
+    "heightM": 8.0,
+    "massKg": 16000.0
+  },
+  "w6-dawnsteelwyrm": {
+    "lengthM": 12.0,
+    "widthM": 16.0,
+    "heightM": 7.0,
+    "massKg": 8500.0
+  },
+  "w6-emeraldgrovewyrm": {
+    "lengthM": 13.0,
+    "widthM": 17.0,
+    "heightM": 7.5,
+    "massKg": 6800.0
+  },
+  "w6-glacialtidewyrm": {
+    "lengthM": 14.0,
+    "widthM": 18.0,
+    "heightM": 8.0,
+    "massKg": 11000.0
+  },
+  "w6-emberoathwyrm": {
+    "lengthM": 13.0,
+    "widthM": 17.0,
+    "heightM": 7.5,
+    "massKg": 9000.0
+  },
+  "w6-deepstonewyrm": {
+    "lengthM": 14.0,
+    "widthM": 18.0,
+    "heightM": 8.0,
+    "massKg": 16000.0
+  }
+}

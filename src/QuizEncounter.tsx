@@ -14,6 +14,7 @@ import { petById, petElement, petSkillName, petSkillDescription } from "./game-v
 import { Sprite, Spell } from "./BattleScene";
 import { BATTLE_ARENA } from "./battle-assets";
 import { MonsterArt } from "./MonsterBestiary";
+import CreatureStageSize from './CreatureStageSize';
 import { monsterById, MONSTER_FAMILIES, monsterForm } from "./monsters";
 import { MONSTERS, completedHits, creatureProgress, growthProgress, growthStyle, nextGrowthStyle } from "./companion-growth";
 import "./quiz-encounter.css";
@@ -104,7 +105,7 @@ export default function QuizEncounter({ run, xp, reduced, oldDay = false, musicC
       </div>
       <div className={`duel-combatant side-1 ${motion?.kind === "hurt" ? "duel-casting" : ""} ${species?.form === "warden" ? "quiz-warden" : ""} ${motion && motion.kind !== "hurt" && landing ? "duel-hit" : ""} ${hp === 0 ? "quiz-monster-rest" : ""}`}>
         <div className="duel-summon-circle" aria-hidden="true" />
-        <div className="duel-body">{species ? <MonsterArt monster={species} eager action={motion?(motion.kind==="hurt"?"attack":"hit"):"idle"} nonce={motion?.nonce??0} reduced={cosmeticReduced} /> : <div className="quiz-monster" role="img" aria-label={monsterName}>
+        <div className="duel-body">{species ? <CreatureStageSize id={species.id}><MonsterArt monster={species} eager action={motion?(motion.kind==="hurt"?"attack":"hit"):"idle"} nonce={motion?.nonce??0} reduced={cosmeticReduced} /></CreatureStageSize> : <div className="quiz-monster" role="img" aria-label={monsterName}>
           {broken ? <span>{monster.icon}</span> : <img src="/assets/battle/quiz-monsters.png" alt="" onError={() => setBroken(true)} style={{ transform: `translateX(-${run.encounter.monster * 100 / 3}%)` }} />}
         </div>}</div>
         {motion && motion.kind !== "hurt" && landing && damage > 0 && <div className="duel-reaction"><b className="duel-damage">−{damage}</b>{!cosmeticReduced && <span className="duel-impact-ring" />}</div>}
