@@ -1,9 +1,10 @@
+import {preFinalsLearning} from './helpers/pre-finals-learning';
 import {it,expect} from 'vitest';
 import {GRADE1_CHINESE_EXAMS as bank} from '../grade1-chinese-exams';
 import {GRADE1_CHINESE_EXTRA_EXAMS as extra} from '../grade1-chinese-extra-exams';
 import {GRADE1_CHINESE_KANGXUAN_EXAMS as recent} from '../grade1-chinese-kangxuan-exams';
 import {questionById} from '../learning';
-import {allocateQuestions,allocateAdventureQuestions,freshLearning,validateLearning} from '../learning-engine';
+import {allocateQuestions,allocateAdventureQuestions,validateLearning} from '../learning-engine';
 import {markMastered} from '../mastered-questions';
 import {coursePublisher,curriculumNotice} from '../school-curriculum';
 import {EXAM_SOURCES,examSourceLabel} from '../exam-sources';
@@ -43,7 +44,7 @@ it('prioritizes each supplied phonetic course for both schools in every lane',()
   for(const course of courses){
    expect(coursePublisher(school,1,course)).toBe('康軒');
    for(const difficulty of [1,2,3] as const){
-    const s={...freshLearning(),school};
+    const s={...preFinalsLearning(1),school};
     for(const selected of [allocateQuestions(s,1,course,6),allocateAdventureQuestions(s,1,course,6,difficulty)]){
      expect(selected).toHaveLength(6);expect(new Set(selected.map(q=>q.id)).size).toBe(6);
      for(const q of selected){const item=questionById(q.id)!;expect(item.id.startsWith('cxg1-')).toBe(true);expect(item.course).toBe(course);expect(item.grade).toBe(1);}
@@ -54,14 +55,14 @@ it('prioritizes each supplied phonetic course for both schools in every lane',()
 });
 it('respects mastery after restore and excludes pending sources, unknown schools and grade two',()=>{
  for(const course of courses){
-  let s={...freshLearning(),school:'yongchun' as const};
+  let s={...preFinalsLearning(1),school:'yongchun' as const};
   const ids=bank.filter(q=>q.course===course).map(q=>q.id);
   ids.slice(0,-2).forEach(id=>markMastered(s,id));s=validateLearning(JSON.parse(JSON.stringify(s)),1) as typeof s;
   const picked=allocateQuestions(s,1,course,6);
   expect(picked.filter(q=>bankIds.has(q.id)).map(q=>q.id).sort()).toEqual(ids.slice(-2).sort());
   ids.forEach(id=>markMastered(s,id));expect(allocateQuestions(s,1,course,6).every(q=>!questionById(q.id)?.examSources)).toBe(true);
-  expect(allocateQuestions(freshLearning(),1,course,6).every(q=>!questionById(q.id)?.examSources)).toBe(true);
-  expect(allocateQuestions({...freshLearning(),school:'nantun'},2,course,6).every(q=>questionById(q.id)?.grade===2&&!q.id.startsWith('cxg1-'))).toBe(true);
+  expect(allocateQuestions(preFinalsLearning(1),1,course,6).every(q=>!questionById(q.id)?.examSources)).toBe(true);
+  expect(allocateQuestions({...preFinalsLearning(1),school:'nantun'},2,course,6).every(q=>questionById(q.id)?.grade===2&&!q.id.startsWith('cxg1-'))).toBe(true);
  }
  expect(EXAM_SOURCES.g1cn1.status).toBe('pending-school');expect(EXAM_SOURCES.g1ch1.status).toBe('pending-school');
 });
@@ -71,7 +72,7 @@ it('adds only distinct self-contained questions and preserves mastered old recor
  expect(extra.every(q=>!bank.filter(p=>!p.id.startsWith('cxg1-new-')).some(p=>p.prompt===q.prompt))).toBe(true);
  expect(new Set(extra.flatMap(q=>q.examSources!.map(s=>s.id)))).toEqual(new Set(['g1cxn1','g1cxn2','g1cxn3','g1cxn4','g1cxn5','g1cxn6','g1cxn7','g1cxn9','g1cxn10']));
  for(const course of courses){
-  const state={...freshLearning(),school:'yongchun' as const};
+  const state={...preFinalsLearning(1),school:'yongchun' as const};
   bank.filter(q=>!q.id.startsWith('cxg1-new-')).forEach(q=>markMastered(state,q.id));
   const restored=validateLearning(JSON.parse(JSON.stringify(state)),1);
   expect(restored.mastered).toEqual(state.mastered);

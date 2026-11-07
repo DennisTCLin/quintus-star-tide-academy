@@ -1,0 +1,80 @@
+{
+  "reviewer": "finals131_release_falsifier",
+  "mode": "read-only answer-free packet and primary official facts; no candidates or original answer key read",
+  "blindSha256": "e1b379f6dadb9448fb21f65a32dbd30349222392b69fbb10733505970ee4753d",
+  "shaReportedByReviewer": true,
+  "results": [
+    {
+      "id": "phase2-g1m112-p1-i5a",
+      "answer": 1,
+      "answerText": "29、26",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g1m112-p1-i5b",
+      "answer": 2,
+      "answerText": "19、22",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g1m112-p1-i7b",
+      "answer": 0,
+      "answerText": "5塊",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g1m112-p2-i10",
+      "answer": 0,
+      "answerText": "買菜→洗菜→煮菜",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g1m112-p3-iii1",
+      "answer": null,
+      "answerText": null,
+      "uniquePass": false
+    },
+    {
+      "id": "phase2-g1m112-p3-iii2",
+      "answer": null,
+      "answerText": null,
+      "uniquePass": false
+    },
+    {
+      "id": "phase2-g1m112-p3-v1",
+      "answer": 0,
+      "answerText": "7隻",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g1m112-p3-v2",
+      "answer": 1,
+      "answerText": "6顆",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g1m112-p3-v3",
+      "answer": 2,
+      "answerText": "10片",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g1m112-p3-v4",
+      "answer": 1,
+      "answerText": "3枝",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g1m112-p3-v5",
+      "answer": 1,
+      "answerText": "夠",
+      "uniquePass": true
+    }
+  ],
+  "issues": [
+    "iii1/iii2 lack actual comparable duration; held",
+    "root additionally holds p2-i10 cookingorder pending stronger samebatch context"
+  ],
+  "notAdmitted": true,
+  "notDeployed": true
+}

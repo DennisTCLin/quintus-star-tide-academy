@@ -1,10 +1,9 @@
 import {it,expect} from 'vitest';
 import baseline from '../../scripts/imports/grade6-supplement-baseline.json';
 import {GRADE6_SUPPLEMENT_EXAMS as bank} from '../grade6-supplement-exams';
-import {GRADE6_GENERAL_PRACTICE} from '../grade6-general-practice';
 import {allocateQuestions,freshLearning} from '../learning-engine';
 import {newFamily,startRun,validateFamily} from '../adventure';
-import {questionById} from '../learning';
+import {LEARNING_BANK,questionById} from '../learning';
 import {markMastered} from '../mastered-questions';
 import {routeForCourse} from '../subject-islands';
 import {startStudy,answerStudy} from '../study-review';
@@ -24,7 +23,7 @@ it('routes all new courses to matching sixth-grade school only, preserving other
  }
 });
 it('retains mastery on exhaustion and supports review for each new course',()=>{
- for(const course of courses){const f=newFamily(),p=f.profiles.alston;p.learning.school='jianan';for(const q of bank.filter(q=>q.course===course))markMastered(p.learning,q.id);for(const q of GRADE6_GENERAL_PRACTICE.filter(q=>q.course===course))markMastered(p.learning,q.id);
+ for(const course of courses){const f=newFamily(),p=f.profiles.alston;p.learning.school='jianan';for(const q of LEARNING_BANK.filter(q=>q.grade===6&&q.course===course))markMastered(p.learning,q.id);
  const before=structuredClone(p);expect(()=>allocateQuestions(p.learning,6,course,6)).toThrow();expect(p).toEqual(before);
  startStudy(p.learning,6,'2026-10-26','review-'+course,'all');const q=questionById(p.learning.study!.session!.questions[0])!;expect(q.course).toBe(course);answerStudy(p.learning,6,'review-'+course,0,q.answer,'2026-10-26');expect(p.learning.mastered).toEqual(before.learning.mastered);expect(p.coins).toBe(before.coins);expect(p.tickets).toBe(before.tickets);
  }

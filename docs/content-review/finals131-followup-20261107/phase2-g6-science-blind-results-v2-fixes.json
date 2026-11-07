@@ -1,0 +1,50 @@
+{
+  "reviewer": "finals131_release_falsifier",
+  "blindSha256": "674c75e532a57d9380a6d62fde8825f9a4f7946ad603583aaa1723984bcf39bd",
+  "mode": "fresh read-only answer-free repair packet; no originalkeys/candidates/v1results",
+  "results": [
+    {
+      "id": "phase2-g6s-20002242-i1",
+      "answer": 1,
+      "answerText": "正確"
+    },
+    {
+      "id": "phase2-g6s-20002242-i3",
+      "answer": 0,
+      "answerText": "正確"
+    },
+    {
+      "id": "phase2-g6s-20002878-i6",
+      "answer": 1,
+      "answerText": "正確"
+    },
+    {
+      "id": "phase2-g6s-20002878-i11",
+      "answer": 0,
+      "answerText": "錯誤"
+    },
+    {
+      "id": "phase2-g6s-20002878-i15",
+      "answer": 0,
+      "answerText": "正確"
+    },
+    {
+      "id": "phase2-g6s-20002878-ii1",
+      "answer": 2,
+      "answerText": "電磁鐵改變電流方向，磁力會消失"
+    },
+    {
+      "id": "phase2-g6s-20002878-ii9",
+      "answer": 3,
+      "answerText": "甲、乙、丙都可能是原因"
+    }
+  ],
+  "issues": [],
+  "notAdmitted": true,
+  "sources": [
+    "https://home.nps.gov/articles/000/weathering-erosion.htm",
+    "https://openstax.org/books/college-physics-2e/pages/22-3-magnetic-fields-and-magnetic-field-lines",
+    "https://openstax.org/books/university-physics-volume-2/pages/12-7-magnetism-in-matter",
+    "https://pubs.usgs.gov/of/2014/1208/pdf/ofr2014-1208.pdf"
+  ]
+}

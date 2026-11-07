@@ -1,0 +1,134 @@
+{
+  "scope": "210 locally admitted; independent content PASS; current build/UI PASS; fresh PG and release gates recorded separately",
+  "firstBatchFrozen": "f29e96b0d5dea29665d076a9a174c658acc53a57",
+  "groups": [
+    {
+      "sources": [
+        "20002160:q",
+        "20002857:q",
+        "20002857:a"
+      ],
+      "grade": 1,
+      "subject": "國語",
+      "publisher": "康軒",
+      "book": 1,
+      "primaryCandidates": 48,
+      "preparedProperlyRoutedPhoneticCandidates": 18,
+      "otherLiteracyCandidates": 30,
+      "status": "16 admitted, including one context fix independently re-solved;2 tone/audio-context held;30 nonphonetic literacy candidates pending suitable route"
+    },
+    {
+      "sources": [
+        "20002078:q",
+        "20002078:a"
+      ],
+      "grade": 1,
+      "subject": "數學",
+      "publisher": "翰林",
+      "book": 1,
+      "primaryCandidates": 12,
+      "knownOldDuplicate": 1,
+      "status": "8 admitted,3 ambiguities held,one earlier duplicate outside designed11",
+      "historicalPrototypeFile": "phase2-math112-candidates.json"
+    },
+    {
+      "sources": [
+        "20002167:q",
+        "20002167:a",
+        "20002859:q",
+        "20002859:a"
+      ],
+      "grade": 2,
+      "subject": "國語",
+      "publisher": "康軒",
+      "book": 3,
+      "primaryCandidates": 50,
+      "status": "50 admitted after independent blind answers all matched",
+      "historicalPrototypeFile": "phase2-lowgrade-candidates.json"
+    },
+    {
+      "sources": [
+        "20002211:a"
+      ],
+      "grade": 5,
+      "subject": "國語",
+      "publisher": "翰林",
+      "book": 9,
+      "primaryCandidates": 28,
+      "exactLessonMatches": 4,
+      "status": "14 admitted,1 ambiguous definition held; long/other passages still pending",
+      "currentEvidence": "curriculum-evidence/115-yiren-g5-chinese-hanlin.json",
+      "warnings": [
+        "歷史L8與山為鄰≠現行L8葫蘆瓜，不直映課號",
+        "刻苦銘心應刻骨銘心",
+        "貝殼砂第2題第四選項疑排版問題，需勘誤及盲答",
+        "時鳴的時=偶爾／不時可能與原正答形成多解，root需重新核實"
+      ]
+    },
+    {
+      "sources": [
+        "20002242:a",
+        "20002878:a"
+      ],
+      "grade": 6,
+      "subject": "自然",
+      "publisher": "翰林",
+      "book": 7,
+      "primaryCandidates": 59,
+      "status": "31 admitted after7 fresh independent fixes; remaining primary candidates not admitted",
+      "currentUnits": [
+        "3-1大地變動",
+        "3-2岩石礦物土壤",
+        "3-3防災地景保育",
+        "4-1地球磁場",
+        "4-2電磁鐵",
+        "4-3電磁鐵應用"
+      ],
+      "currentEvidence": "curriculum-evidence/115-quchi-g6-science-hanlin.json",
+      "warnings": [
+        "厄斯特1820年屬19世紀，原題18世紀錯誤",
+        "日光燈/檯燈未限定型式，不能直接判無電磁裝置",
+        "長期電磁波暴露必傷健康缺頻率劑量條件，隔離",
+        "外牆/戶外地板選項花崗岩與安山岩可多解",
+        "馬太鞍堰塞湖由崩塌阻河，不能等同搬運沉積三角洲",
+        "113地震報告震源未明列，某題①/③文字多解，隔離"
+      ]
+    },
+    {
+      "grade": 1,
+      "subject": "數學",
+      "sourceIds": [
+        "20000773",
+        "20003306"
+      ],
+      "admitted": 32,
+      "status": "fresh blind32/32;source publisher and current first book verified"
+    },
+    {
+      "grade": 2,
+      "subject": "國語",
+      "sourceIds": [
+        "20003307"
+      ],
+      "admitted": 59,
+      "status": "fresh blind59/59;source publisher and current third book verified"
+    }
+  ],
+  "publisherEvidenceResearch": {
+    "school": "臺南市和順國小",
+    "years": [
+      112,
+      113,
+      114
+    ],
+    "status": "112/113/114 original PDFs visually verified independently;23 sourcefiles matched and1 conflict across Heshun/Sanchong, see publisher-evidence"
+  },
+  "grade3": "none_in_131_batch_last_priority",
+  "BrownieEnglish": "excluded",
+  "historicalSnapshotAt": "2026-11-07T02:15:02.141792+00:00",
+  "updatedAt": "2026-11-07T03:14:22.364604+00:00",
+  "firstBatchReleasedMain": "92ad44e7e95a94a6e6d75ed583c2378bca3123c5",
+  "all131QuestionContentApproved": false,
+  "releasedFollowup": false,
+  "historicalPrototypeLocation": "External preparation outputs/content-review-131-20261107;not required current artifacts. Current answer-free packets/results/mapping in this directory are authoritative."
+}

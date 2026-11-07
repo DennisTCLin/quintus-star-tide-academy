@@ -1,0 +1,48 @@
+{
+  "base": "92ad44",
+  "pr22": "386bd57046ba8e12828afbeb6b0310774af680e0",
+  "main": "047bda19d2d74e4d550c0ede4eeb436e7846f953",
+  "conflicts": [],
+  "dictionaryChanges": {
+    "src/data/interface-zhuyin.json": {
+      "phrases": {
+        "base": 26005,
+        "pr22": 26693,
+        "main": 26155,
+        "merged": 26843
+      },
+      "chars": {
+        "base": 3009,
+        "pr22": 3028,
+        "main": 3010,
+        "merged": 3029
+      }
+    },
+    "src/data/taiwan-zhuyin-overrides.json": {
+      "source": {
+        "base": 4,
+        "pr22": 4,
+        "main": 4,
+        "merged": 4
+      },
+      "characterReadings": {
+        "base": 26,
+        "pr22": 26,
+        "main": 26,
+        "merged": 26
+      },
+      "phrases": {
+        "base": 428,
+        "pr22": 437,
+        "main": 431,
+        "merged": 440
+      },
+      "displayPolicy": {
+        "base": 2,
+        "pr22": 2,
+        "main": 2,
+        "merged": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "priorHead": "d521e5962d722612abb3fa2b57344798247c2ea9",
+  "newIntegratedMain": "341affcee7af44c095bcdde6ce953264c6ce8745",
+  "comparedInputCount": 777,
+  "changedPaths": [
+    "src/ConquestGame.tsx",
+    "src/ConquestScene.tsx",
+    "src/conquest.css"
+  ],
+  "allOtherSourceScriptsTestFilesAndCompiledGameAdultBundlesIdentical": true,
+  "databaseValidation": "Current full36fresh-empty-PG rerun is authoritative for this main341 integration; oldd521 PG was not relabeled or combined with new results.",
+  "priorProof": "../pr22-main047b/cloud-per-file/results.json",
+  "phase": "Input identity diagnostic before full DB rerun; superseded by current fresh per-file PG validation"
+}

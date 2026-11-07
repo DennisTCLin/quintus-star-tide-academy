@@ -1,0 +1,10 @@
+{
+  "baseCommit": "92ad44e7e95a94a6e6d75ed583c2378bca3123c5",
+  "archiveSha256": "92a98da639bcb763f9f7622df9340be6b63cd334e24814af0a4d614a40975ffe",
+  "paths": [
+    "src",
+    "curriculum"
+  ],
+  "sourceOfTruth": "git archive of exact merged base92ad; no candidate source files used",
+  "curriculumArchiveSha256": "706a5469cb8256123aa1e5323dc6532f01d29cf41f37c8fb2dede6b179ed6109"
+}

@@ -1,0 +1,7 @@
+# 獨立基線fixture
+
+base92ad-families.json來自git archive精確92ad44的src及curriculum，非本批candidate。原始兩個archive SHA在base-source-provenance.json；8條課程先開始航程、答第一題並移到index1，保存完整runtime、原序列化結果及48個舊run題ID的digest。
+
+重建方法：於臨時資料夾解開`git archive 92ad44e7e95a94a6e6d75ed583c2378bca3123c5 src curriculum`，將該資料夾node_modules連到已安裝的repo依賴（不改依賴）。用esbuild將臨時src/adventure.ts及src/learning.ts分別bundle成repo的output/finals131-phase2/base-adventure.mjs與base-learning.mjs（platform=node、format=esm）；將此處generate-base-fixtures.mjs複製到同一output資料夾，從repo根執行。動態log時間與現在重建時間不同，不能宣稱輸出JSON每byte相同；題ID/答鍵、航程與各欄位語義以固定SHA來源為準。
+
+新PG測試獨立以expectedRuntime的array原值構造合法prefix-v1 literal entries；每一課程兩個模式均跑login/state前後raw DB text/updated_at、完整解碼family與API目前題遮蔽斷言。原自然序列化storedFamily亦保留並在unit測試驗證，沒有用candidate encoder生成expectedRuntime。

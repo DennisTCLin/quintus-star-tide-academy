@@ -1,0 +1,23 @@
+{
+  "id": "phase2-g2h-20003307-i-5",
+  "grade": 2,
+  "originalPrompt": "大〔ㄒㄧㄤˋ〕粗壯的腿像柱子。括號注音應寫成哪個字？",
+  "options": [
+    "象",
+    "像"
+  ],
+  "proposedPrompt": "這種動物有長鼻子。大〔ㄒㄧㄤˋ〕粗壯的腿像柱子。括號注音應寫成哪個字？",
+  "affectedCandidate": "PR22 036cf381; not deployed",
+  "fixScope": "keep question ID, update only this new candidate prompt and its approval; no old6311/state changes",
+  "status": "BLOCKING_PENDING_FROZEN_CANDIDATE_INTEGRATION_FIX",
+  "resolution": {
+    "prompt": "這種動物有長鼻子。大〔ㄒㄧㄤˋ〕粗壯的腿像柱子。括號注音應寫成哪個字？",
+    "questionIdUnchanged": true,
+    "answerOptionsUnchanged": true,
+    "blindUnique": "PASS",
+    "sourceHash": "89c92b1d4245123707f26cd22e94dbe8ca15be81fc2f8097e5b37aa55833a941",
+    "pronunciationFix": "exact phrase overrides for prompt and explanation; both長=ㄔㄤˊ",
+    "buildTests": "PASS; independent final content/evidence BOUNDED_PASS",
+    "productionReleased": false
+  }
+}

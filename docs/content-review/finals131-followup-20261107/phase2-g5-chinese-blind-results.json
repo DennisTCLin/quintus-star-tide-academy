@@ -1,0 +1,104 @@
+{
+  "reviewer": "finals131_blind_primary",
+  "mode": "read-only answer-free packet and primary official facts; no candidates or original answer key read",
+  "blindSha256": "84071f29d50e9727e8f0dc980d4eaab7976ac18507859f7afc9000bc9cc2b3b5",
+  "shaReportedByReviewer": false,
+  "results": [
+    {
+      "id": "phase2-g5c-20002211-iii1",
+      "answer": 1,
+      "answerText": "「拂」淚／「拂」袖而去",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g5c-20002211-iii2",
+      "answer": 0,
+      "answerText": "時間都是傍晚",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g5c-20002211-iii4",
+      "answer": 3,
+      "answerText": "所處的環境、情況",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g5c-20002211-iii6",
+      "answer": 1,
+      "answerText": "「捨」我其誰",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g5c-20002211-iii7",
+      "answer": 2,
+      "answerText": "眾所皆知／家喻戶曉",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g5c-20002211-iii12",
+      "answer": null,
+      "answerText": null,
+      "uniquePass": false
+    },
+    {
+      "id": "phase2-g5c-20002211-iii13",
+      "answer": 2,
+      "answerText": "尊：寸部",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g5c-20002211-iii15",
+      "answer": 2,
+      "answerText": "每句的字數都固定",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g5c-20002211-v1",
+      "answer": 2,
+      "answerText": "循循善誘",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g5c-20002211-v2",
+      "answer": 1,
+      "answerText": "文情並茂",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g5c-20002211-v3",
+      "answer": 2,
+      "answerText": "開天闢地",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g5c-20002211-v4",
+      "answer": 2,
+      "answerText": "不置可否",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g5c-20002211-v5",
+      "answer": 2,
+      "answerText": "寄人籬下",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g5c-20002211-v6",
+      "answer": 0,
+      "answerText": "斷簡殘編",
+      "uniquePass": true
+    },
+    {
+      "id": "phase2-g5c-20002211-v7",
+      "answer": 2,
+      "answerText": "文過飾非",
+      "uniquePass": true
+    }
+  ],
+  "issues": [
+    "iii12 may have another defensible incorrect option because thirdargumentcomponentomitted; hold originalquestion",
+    "source https://market.cloud.edu.tw/resources/video/1816565"
+  ],
+  "notAdmitted": true,
+  "notDeployed": true
+}
