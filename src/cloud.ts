@@ -4,10 +4,11 @@ import type { Family, PlayerId } from "./game-view";
 import type { LearningQuestion } from "./learning";
 export type PublicQuestion = Omit<
   LearningQuestion,
-  "answer" | "explanation" | "target"
-> &
+  "answer" | "explanation" | "target" | "grade"
+> & {grade:LearningQuestion["grade"]|null;programme?:"adult-english"} &
   Partial<Pick<LearningQuestion, "answer" | "explanation" | "target">>;
 export type CloudState = {
+  learner?: {kind:'adult';programme:'adult-english';grade:null;socialApproved:boolean};
   serverNow?: number;
   questionAssets?: Partial<Record<PlayerId, {runId:string;index:number;images:string[]}>>;
   family: Family;
@@ -40,14 +41,16 @@ export async function request<T = CloudState>(
   body?: unknown,
   csrf?: string,
   keepalive = false,
+  signal?: AbortSignal,
 ): Promise<T> {
   // AbortSignal.timeout is missing in Safari 15; AbortController works there.
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 12000);
+  const cancel=()=>controller.abort();signal?.addEventListener("abort",cancel,{once:true});if(signal?.aborted)cancel();
   try {
     let response: Response;
     try {
-      response = await fetch("/api/" + path, {
+      response = await fetch((typeof window!=='undefined'&&/^\/adult(?:\/|$)/.test(window.location?.pathname??'')?'/api/adult/game/':'/api/') + path, {
         method: body === undefined ? "GET" : "POST",
         credentials: "same-origin",
         cache: "no-store",
@@ -78,7 +81,7 @@ export async function request<T = CloudState>(
       throw new CloudError(data.error || "雲端暫時無法連線", response.status);
     return data;
   } finally {
-    clearTimeout(timer);
+    clearTimeout(timer);signal?.removeEventListener("abort",cancel);
   }
 }
 export async function practiceRequest(
@@ -87,13 +90,13 @@ export async function practiceRequest(
 ): Promise<PublicQuestion> {
   return (await request("practice", body, csrf)) as unknown as PublicQuestion;
 }
-export function useCloud() {
-  const [state, setState] = useState<CloudState | null>(null),
-    [loading, setLoading] = useState(true),
+export function useCloud(initial:CloudState|null=null) {
+  const [state, setState] = useState<CloudState | null>(initial),
+    [loading, setLoading] = useState(!initial),
     [status, setStatus] = useState("正在連接雲端…"),
     [error, setError] = useState(""),
     [online, setOnline] = useState(true);
-  const current = useRef<CloudState | null>(null),
+  const current = useRef<CloudState | null>(initial),
     inFlight = useRef(false),
     epoch = useRef(0);
   const refreshing = useRef<Promise<boolean> | null>(null);

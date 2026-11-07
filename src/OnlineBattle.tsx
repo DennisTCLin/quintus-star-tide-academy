@@ -14,12 +14,13 @@ export function PetSelect({profile,value,onChange}:{profile:Profile;value:string
     {Object.keys(profile.owned).filter(id=>profile.owned[id]>0&&petById(id)).map(id=>{const pet=petById(id)!;return <option key={id} value={id}>{pet.name} · {pet.rarity} · Lv.{creatureProgress(pet.rarity,profile.growth.xp[id]??0).level}</option>;})}
   </select></label>;
 }
-export default function OnlineBattle({controller:c,profile,reduced,onOpenChange}:{controller:OnlineController;profile:Profile;reduced:boolean;onOpenChange?:(value:boolean)=>void}) {
+export default function OnlineBattle({controller:c,profile,reduced,onOpenChange,quiet=false}:{controller:OnlineController;profile:Profile;reduced:boolean;quiet?:boolean;onOpenChange?:(value:boolean)=>void}) {
   const [open,setOpen]=useState(false),[pet,setPet]=useState(profile.equipped),[now,setNow]=useState(Date.now()),[confirmLeave,setConfirmLeave]=useState(false);
   const [playback,setPlayback]=useState<BattlePlayback|null>(null);
   const previous=useRef(c.state?.room);const room=c.state?.room;
   const chosenPet=selectedOwnedPet(profile,pet);
   useEffect(()=>{const timer=setInterval(()=>setNow(Date.now()),1000);return()=>clearInterval(timer);},[]);
+  useEffect(()=>{if(quiet)setOpen(false);},[quiet]);
   useEffect(()=>{onOpenChange?.(open);},[open,onOpenChange]);
   useEffect(()=>{
     const before=previous.current;previous.current=room;
@@ -36,7 +37,7 @@ export default function OnlineBattle({controller:c,profile,reduced,onOpenChange}
     timers.push(setTimeout(()=>setPlayback(p=>p?.nonce===nonce?null:p),Math.max(0,timing.end-elapsed)));
     return()=>timers.forEach(clearTimeout);
   },[playback?.nonce,reduced]);
-  if(!room&&!c.uncertain)return null;
+  if(quiet||!room&&!c.uncertain)return null;
   const seconds=room?Math.max(0,Math.ceil((room.deadline-now-c.clockOffset.current)/1000)):0;
   const terminal=room&&!['pending','active'].includes(room.status);
   const title=!room?"確認邀請狀態":room.status==="pending"?(room.side===1?`${room.names[0]}邀你對戰`:`等待${room.names[1]}接受邀請`):room.status==="active"?"好友線上對戰":"好友對戰結果";
