@@ -1,0 +1,35 @@
+{
+  "school": "臺北市松山區民權國民小學",
+  "schoolYear": 114,
+  "url": "https://tten.tp.edu.tw/Login/DownloadOSchoolPlan?SPID=cd245635-f32d-47c6-8f0d-b714adeac7e9&item=item5_1",
+  "resolvedUrl": "https://tten.tp.edu.tw/Login/DownloadOSchoolPlan?SPID=cd245635-f32d-47c6-8f0d-b714adeac7e9&item=item5_1",
+  "contentType": "application/pdf",
+  "bytes": 106841,
+  "sha256": "cdf7e7afa39544dd14184249239afbc5d7aed6da2c1c1123f1faf7f7b6dac8a7",
+  "actualAttachmentObservedViaNormalPublicUi": true,
+  "publicFilters": {
+    "year": 114,
+    "schoolName": "民權"
+  },
+  "schoolPlanSpid": "cd245635-f32d-47c6-8f0d-b714adeac7e9",
+  "status": "PRIMARY_PUBLISHER_TABLE_VISUALLY_VERIFIED",
+  "visualPage": 1,
+  "confirmedCells": [
+    {
+      "grade": 2,
+      "subject": "國語",
+      "publisher": "康軒"
+    },
+    {
+      "grade": 2,
+      "subject": "數學",
+      "publisher": "南一"
+    },
+    {
+      "grade": 6,
+      "subject": "國語",
+      "publisher": "康軒"
+    }
+  ],
+  "scope": "Publisher evidence only; source headers separately verified; no full-paper/answer/unit approval."
+}

@@ -1,0 +1,113 @@
+{
+  "url": "https://www.myps.hlc.edu.tw/modules/tadnews/index.php?op=tufdl&files_sn=17500&fn=%E6%98%8E%E7%BE%A9%E5%9C%8B%E5%B0%8F113%E5%AD%B8%E5%B9%B4%E5%BA%A6%E6%95%99%E7%A7%91%E6%9B%B8%E9%81%B8%E7%94%A8%E7%89%88%E6%9C%AC%E4%B8%80%E8%A6%BD%E8%A1%A8.pdf",
+  "observedHref": "https://www.myps.hlc.edu.tw/modules/tadnews/index.php?op=tufdl&files_sn=17500&fn=明義國小113學年度教科書選用版本一覽表.pdf",
+  "finalUrl": "https://www.myps.hlc.edu.tw/uploads/tadnews/tmp/17500/%E6%98%8E%E7%BE%A9%E5%9C%8B%E5%B0%8F113%E5%AD%B8%E5%B9%B4%E5%BA%A6%E6%95%99%E7%A7%91%E6%9B%B8%E9%81%B8%E7%94%A8%E7%89%88%E6%9C%AC%E4%B8%80%E8%A6%BD%E8%A1%A8.pdf",
+  "announcement": "https://www.myps.hlc.edu.tw/modules/tadnews/index.php?nsn=14643",
+  "bytes": 71825,
+  "sha256": "f67fe212f990034430ad5d66d46d0480bf30ba1bb85238071289fdfd371895b9",
+  "publisherCells": "pending visual",
+  "verifiedCells": [
+    {
+      "sourceId": "20000866",
+      "school": "花蓮縣花蓮市明義國小",
+      "schoolYear": 113,
+      "grade": 2,
+      "subject": "數學",
+      "publisher": "南一",
+      "page": 1,
+      "proof": "/Users/dennistclin/Documents/ChatGPT/星潮網站開發/outputs/content-review-131-20261107/curriculum-evidence/113-mingyi-selection.json",
+      "pdfSha256": "f67fe212f990034430ad5d66d46d0480bf30ba1bb85238071289fdfd371895b9",
+      "reviewers": [
+        "root",
+        "round3_falsifier"
+      ],
+      "publisherMatch": true,
+      "fullPaperApproved": false
+    },
+    {
+      "sourceId": "20000878",
+      "school": "花蓮縣花蓮市明義國小",
+      "schoolYear": 113,
+      "grade": 5,
+      "subject": "國語",
+      "publisher": "翰林",
+      "page": 1,
+      "proof": "/Users/dennistclin/Documents/ChatGPT/星潮網站開發/outputs/content-review-131-20261107/curriculum-evidence/113-mingyi-selection.json",
+      "pdfSha256": "f67fe212f990034430ad5d66d46d0480bf30ba1bb85238071289fdfd371895b9",
+      "reviewers": [
+        "root",
+        "round3_falsifier"
+      ],
+      "publisherMatch": true,
+      "fullPaperApproved": false
+    },
+    {
+      "sourceId": "20000879",
+      "school": "花蓮縣花蓮市明義國小",
+      "schoolYear": 113,
+      "grade": 5,
+      "subject": "數學",
+      "publisher": "康軒",
+      "page": 1,
+      "proof": "/Users/dennistclin/Documents/ChatGPT/星潮網站開發/outputs/content-review-131-20261107/curriculum-evidence/113-mingyi-selection.json",
+      "pdfSha256": "f67fe212f990034430ad5d66d46d0480bf30ba1bb85238071289fdfd371895b9",
+      "reviewers": [
+        "root",
+        "round3_falsifier"
+      ],
+      "publisherMatch": true,
+      "fullPaperApproved": false
+    },
+    {
+      "sourceId": "20000882",
+      "school": "花蓮縣花蓮市明義國小",
+      "schoolYear": 113,
+      "grade": 6,
+      "subject": "國語",
+      "publisher": "康軒",
+      "page": 1,
+      "proof": "/Users/dennistclin/Documents/ChatGPT/星潮網站開發/outputs/content-review-131-20261107/curriculum-evidence/113-mingyi-selection.json",
+      "pdfSha256": "f67fe212f990034430ad5d66d46d0480bf30ba1bb85238071289fdfd371895b9",
+      "reviewers": [
+        "root",
+        "round3_falsifier"
+      ],
+      "publisherMatch": true,
+      "fullPaperApproved": false
+    },
+    {
+      "sourceId": "20000883",
+      "school": "花蓮縣花蓮市明義國小",
+      "schoolYear": 113,
+      "grade": 6,
+      "subject": "數學",
+      "publisher": "康軒",
+      "page": 1,
+      "proof": "/Users/dennistclin/Documents/ChatGPT/星潮網站開發/outputs/content-review-131-20261107/curriculum-evidence/113-mingyi-selection.json",
+      "pdfSha256": "f67fe212f990034430ad5d66d46d0480bf30ba1bb85238071289fdfd371895b9",
+      "reviewers": [
+        "root",
+        "round3_falsifier"
+      ],
+      "publisherMatch": true,
+      "fullPaperApproved": false
+    },
+    {
+      "sourceId": "20000880",
+      "school": "花蓮縣花蓮市明義國小",
+      "schoolYear": 113,
+      "grade": 6,
+      "subject": "自然",
+      "publisher": "翰林",
+      "page": 1,
+      "proof": "/Users/dennistclin/Documents/ChatGPT/星潮網站開發/outputs/content-review-131-20261107/curriculum-evidence/113-mingyi-selection.json",
+      "pdfSha256": "f67fe212f990034430ad5d66d46d0480bf30ba1bb85238071289fdfd371895b9",
+      "reviewers": [
+        "root",
+        "round3_falsifier"
+      ],
+      "publisherMatch": true,
+      "fullPaperApproved": false
+    }
+  ]
+}

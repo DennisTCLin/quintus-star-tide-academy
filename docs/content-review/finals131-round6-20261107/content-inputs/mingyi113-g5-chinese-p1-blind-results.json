@@ -1,0 +1,56 @@
+{
+  "packetSha256": "b3a311e1978df196ff0685013021a9f48cab3b2921804de191e1c171bc656a6f",
+  "reviewer": "degao_content_check",
+  "authorKeyNotRead": true,
+  "results": [
+    {
+      "id": "r6-g5c-20000878-fix1",
+      "answerText": "漆",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g5c-20000878-fix2",
+      "answerText": "蓬",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g5c-20000878-fix3",
+      "answerText": "昆",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g5c-20000878-fix4",
+      "answerText": "擅",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g5c-20000878-opposite",
+      "answerText": "消極／積極",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g5c-20000878-jingkuang",
+      "answerText": "所處的環境或情況",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g5c-20000878-turn",
+      "answerText": "轉變",
+      "unique": true,
+      "sourceSupported": true
+    }
+  ],
+  "scope": "futurecandidatecontentonly;notdeduped/imported/runtime-tested/deployed;notPR25",
+  "notes": [
+    "fix1/4specifiedsingletypoonly",
+    "fix3昆布standardMOE,notassumearbitrary昆/崑interchange;original熬湯to煮湯equivalentadaptation",
+    "turnaskswhichCHANGESmeaning",
+    "撲哧/事績heldasofficiallyacceptedvariants"
+  ]
+}

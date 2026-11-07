@@ -11,7 +11,7 @@ import {newFamily,startRun,validateFamily} from '../adventure';
 it('routes only verified first-grade subjects to existing exams',()=>{
  expect(schoolDisplayName('xingan')).toContain('幸安');
  const chinese=LEARNING_BANK.filter(q=>!q.retired&&q.grade===1&&eligibleExam('xingan',1,q.course,q));
- expect(new Set(chinese.filter(q=>q.course!=='math').map(q=>q.id))).toEqual(new Set([...GRADE1_CHINESE_EXAMS,...FINALS_NEXT100_20261107.filter(q=>q.grade===1&&q.subject==='chinese'),...FINALS_ROUND3_20261107.filter(q=>q.grade===1&&q.subject==='chinese'),...FINALS_FOLLOWUP_20261107.filter(q=>q.grade===1&&q.subject==='chinese')].map(q=>q.id)));expect(chinese.filter(q=>q.course==='math')).toHaveLength(200);
+ expect(new Set(chinese.filter(q=>q.course!=='math').map(q=>q.id))).toEqual(new Set([...GRADE1_CHINESE_EXAMS,...FINALS_NEXT100_20261107.filter(q=>q.grade===1&&q.subject==='chinese'),...FINALS_ROUND3_20261107.filter(q=>q.grade===1&&q.subject==='chinese'),...FINALS_FOLLOWUP_20261107.filter(q=>q.grade===1&&q.subject==='chinese')].map(q=>q.id)));expect(chinese.filter(q=>q.course==='math')).toHaveLength(207);
  for(const course of ['tones','medials','pairs','math'] as const){
   const s={...freshLearning(),school:'xingan' as const};
   expect(()=>validateLearning(s,1)).not.toThrow();

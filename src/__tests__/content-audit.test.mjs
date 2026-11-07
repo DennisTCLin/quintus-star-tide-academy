@@ -10,7 +10,7 @@ const fixture={id:'fixture',grade:4,course:'math',prompt:'12 × 8 = ?',options:[
 it('certifies current catalog with all finite variants and no network AI dependency',async()=>{
  const {report}=await audit({reportPath:join(temp,'pass.json')});
  // Base3437 certified 6216 static questions; reviewed batches append 95,210and108.
- expect(report.status).toBe('PASS');expect(report.counts).toEqual({static:6216+95+210+108+100,generated:23192,pools:42,approvedStatic:6216+95+210+108+100,approvedTemplates:42});
+ expect(report.status).toBe('PASS');expect(report.counts).toEqual({static:6216+95+210+108+100+35,generated:23192,pools:42,approvedStatic:6216+95+210+108+100+35,approvedTemplates:42});
  expect(report.mediaFiles).toBeGreaterThan(0);expect(report.findings).toEqual([]);
 });
 it('rejects pending, quarantine, changed hashes, missing evidence and removed identities in an actual audit',async()=>{

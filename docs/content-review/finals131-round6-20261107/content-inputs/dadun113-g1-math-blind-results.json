@@ -1,0 +1,61 @@
+{
+  "packetSha256": "56e086a826e0108c6dea9417f104b92ab7f56cd633e1fda6a74a5ce2756d7b77",
+  "reviewer": "fixture_audit",
+  "readOnly": true,
+  "blindAuthorKeyNotRead": true,
+  "results": [
+    {
+      "id": "r6-g1m-20000588-i5",
+      "answerText": "7－1＝6",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g1m-20000588-i7",
+      "answerText": "5",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g1m-20000588-iii4",
+      "answerText": "7、18、21、26",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g1m-20000588-iv1",
+      "answerText": "5枝",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g1m-20000588-iv2",
+      "answerText": "3瓶",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g1m-20000588-iv3",
+      "answerText": "10枝",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g1m-20000588-iv4",
+      "answerText": "4隻",
+      "unique": true,
+      "sourceSupported": true
+    },
+    {
+      "id": "r6-g1m-20000588-iv5",
+      "answerText": "9分",
+      "unique": true,
+      "sourceSupported": true
+    }
+  ],
+  "limitations": [
+    "8 questions only; no publisher/book/current scope certification",
+    "Mobile sorting choices must fully wrap; verify actual UI",
+    "Original bottle/can measureword normalized to bottle explicitly"
+  ]
+}

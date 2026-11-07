@@ -1,0 +1,16 @@
+{
+  "baseline": "c66f492811c51298673fede44d0997d33aa64494",
+  "baseStatic": 6729,
+  "exactPromptDuplicatesHeld": [
+    {
+      "id": "r6-g1m-20000588-i7",
+      "oldId": "m1hx-983719628affd954"
+    }
+  ],
+  "idsConflicts": 0,
+  "semanticDuplicateHeld": {
+    "id": "r6-g6c-20003716-su",
+    "existingId": "g6c-55ded244eb74ad9a50",
+    "reason": "嚴肅的肅字音相同，保留既有題/ID/審核物件"
+  }
+}

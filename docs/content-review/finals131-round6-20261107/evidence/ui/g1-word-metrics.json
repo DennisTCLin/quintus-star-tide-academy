@@ -1,0 +1,31 @@
+{
+  "metrics": [
+    {
+      "lane": "g1-word",
+      "phase": "before",
+      "failedImages": [],
+      "heading": "多多帶了5瓶果汁，美美和阿布每人喝掉1瓶，還剩幾瓶？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "lane": "g1-word",
+      "phase": "reload",
+      "automaticAdvance": true,
+      "failedImages": [],
+      "heading": "桌上有7瓶果汁，丹丹喝掉1瓶，還剩下幾瓶？哪個算式符合題意？",
+      "height": 812,
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ],
+  "action": {
+    "lane": "g1-word",
+    "firstQuestion": "r6-g1m-20000588-iv2",
+    "answerButton": "選擇 3瓶",
+    "total": 6,
+    "advanceInteraction": "waitedQ2;noNextClick",
+    "reloadQ2": true
+  }
+}

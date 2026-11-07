@@ -1,0 +1,179 @@
+{
+  "sourceId": "20000588",
+  "sourceSha256": "5a7b82c40d4411f5fbce32021df3d02ccb0ec322e0b61338e45c6e7be519db9e",
+  "sourceUrl": "https://www.tcool.cc/v/2/09h5x65arqn06a54xb0b.pdf",
+  "school": "臺中市南屯區大墩國小",
+  "schoolYear": 113,
+  "semester": 1,
+  "scope": "8 self-contained candidates only; not a whole-paper certificate",
+  "questions": [
+    {
+      "id": "r6-g1m-20000588-i5",
+      "grade": 1,
+      "course": "math",
+      "subject": "math",
+      "publisher": "翰林",
+      "prompt": "桌上有7瓶果汁，丹丹喝掉1瓶，還剩下幾瓶？哪個算式符合題意？",
+      "options": [
+        "7＋1＝8",
+        "6＋1＝7",
+        "7－1＝6",
+        "5－2＝3"
+      ],
+      "sourceFamily": "tcool-20000588-p1-i5",
+      "sourceId": "20000588",
+      "page": 1,
+      "locator": "一5",
+      "book": 1,
+      "unit": "U7 10以內的減法",
+      "adaptation": "原文瓶／罐統一為瓶；數量及原算式選項不變"
+    },
+    {
+      "id": "r6-g1m-20000588-i7",
+      "grade": 1,
+      "course": "math",
+      "subject": "math",
+      "publisher": "翰林",
+      "prompt": "8可以分成3和多少？",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "4"
+      ],
+      "sourceFamily": "tcool-20000588-p1-i7",
+      "sourceId": "20000588",
+      "page": 1,
+      "locator": "一7",
+      "book": 1,
+      "unit": "U4 分與合",
+      "adaptation": "原卷完整文字條件轉為單選；數量、方向與單位保留"
+    },
+    {
+      "id": "r6-g1m-20000588-iii4",
+      "grade": 1,
+      "course": "math",
+      "subject": "math",
+      "publisher": "翰林",
+      "prompt": "把18、26、7、21從小排到大，哪個順序正確？",
+      "options": [
+        "7、18、21、26",
+        "26、21、18、7",
+        "7、21、18、26",
+        "18、7、21、26"
+      ],
+      "sourceFamily": "tcool-20000588-p2-iii4",
+      "sourceId": "20000588",
+      "page": 2,
+      "locator": "三4",
+      "book": 1,
+      "unit": "U8 30以內的數",
+      "adaptation": "原卷完整文字條件轉為單選；數量、方向與單位保留"
+    },
+    {
+      "id": "r6-g1m-20000588-iv1",
+      "grade": 1,
+      "course": "math",
+      "subject": "math",
+      "publisher": "翰林",
+      "prompt": "書桌上有7枝鉛筆，皮皮拿走2枝，還剩幾枝？",
+      "options": [
+        "9枝",
+        "7枝",
+        "5枝",
+        "2枝"
+      ],
+      "sourceFamily": "tcool-20000588-p2-iv1",
+      "sourceId": "20000588",
+      "page": 2,
+      "locator": "四1",
+      "book": 1,
+      "unit": "U7 10以內的減法",
+      "adaptation": "原卷完整文字條件轉為單選；數量、方向與單位保留"
+    },
+    {
+      "id": "r6-g1m-20000588-iv2",
+      "grade": 1,
+      "course": "math",
+      "subject": "math",
+      "publisher": "翰林",
+      "prompt": "多多帶了5瓶果汁，美美和阿布每人喝掉1瓶，還剩幾瓶？",
+      "options": [
+        "4瓶",
+        "3瓶",
+        "2瓶",
+        "5瓶"
+      ],
+      "sourceFamily": "tcool-20000588-p2-iv2",
+      "sourceId": "20000588",
+      "page": 2,
+      "locator": "四2",
+      "book": 1,
+      "unit": "U7 10以內的減法",
+      "adaptation": "原卷完整文字條件轉為單選；數量、方向與單位保留"
+    },
+    {
+      "id": "r6-g1m-20000588-iv3",
+      "grade": 1,
+      "course": "math",
+      "subject": "math",
+      "publisher": "翰林",
+      "prompt": "朵朵原有1枝鉛筆，爸爸又給她9枝，現在有幾枝？",
+      "options": [
+        "8枝",
+        "9枝",
+        "1枝",
+        "10枝"
+      ],
+      "sourceFamily": "tcool-20000588-p2-iv3",
+      "sourceId": "20000588",
+      "page": 2,
+      "locator": "四3",
+      "book": 1,
+      "unit": "U6 10以內的加法",
+      "adaptation": "原卷完整文字條件轉為單選；數量、方向與單位保留"
+    },
+    {
+      "id": "r6-g1m-20000588-iv4",
+      "grade": 1,
+      "course": "math",
+      "subject": "math",
+      "publisher": "翰林",
+      "prompt": "樹上原有7隻小鳥，3隻飛走了，現在還有幾隻？",
+      "options": [
+        "10隻",
+        "3隻",
+        "4隻",
+        "7隻"
+      ],
+      "sourceFamily": "tcool-20000588-p2-iv4",
+      "sourceId": "20000588",
+      "page": 2,
+      "locator": "四4",
+      "book": 1,
+      "unit": "U7 10以內的減法",
+      "adaptation": "原卷完整文字條件轉為單選；數量、方向與單位保留"
+    },
+    {
+      "id": "r6-g1m-20000588-iv5",
+      "grade": 1,
+      "course": "math",
+      "subject": "math",
+      "publisher": "翰林",
+      "prompt": "每丟進1顆球得1分，小平丟進4顆，小安丟進5顆，兩人合計得幾分？",
+      "options": [
+        "1分",
+        "4分",
+        "5分",
+        "9分"
+      ],
+      "sourceFamily": "tcool-20000588-p2-iv5",
+      "sourceId": "20000588",
+      "page": 2,
+      "locator": "四5",
+      "book": 1,
+      "unit": "U6 10以內的加法",
+      "adaptation": "原卷完整文字條件轉為單選；數量、方向與單位保留"
+    }
+  ]
+}
