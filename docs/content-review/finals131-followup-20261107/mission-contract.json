@@ -1,0 +1,41 @@
+{
+  "outcome": "Only verified intersections from the original131sourcebatch admitted and independently tested, through coordinated productionrelease",
+  "base": "92ad44e7e95a94a6e6d75ed583c2378bca3123c5",
+  "route": "Relay",
+  "rootOnlyWriter": true,
+  "inScope": [
+    "new revieweddata/source descriptors",
+    "pronunciation coverage",
+    "targeted and current-catalog tests",
+    "append-only approval hashes",
+    "coordinated GitHub release"
+  ],
+  "outOfScope": [
+    "adultPR14",
+    "ConquestPR19/21changes",
+    "accounts/auth/schema",
+    "saved-state/reward logic",
+    "new Tcool downloads"
+  ],
+  "immutable": [
+    "all6311oldquestionobjects/IDs/approvals",
+    "childandadultprogress/collection/rewards",
+    "BrownieEnglish excluded"
+  ],
+  "candidateAtoms": 216,
+  "admittedCandidateCount": 210,
+  "held": 6,
+  "duplicatesSuppressed": 0,
+  "doneWhen": [
+    "content andcurriculumproof perID",
+    "legacy6311hashmatch",
+    "versionrouting+familyisolation+onceawards",
+    "complete testsandfreshPG",
+    "browser",
+    "independentfalsifier",
+    "latestmainexclusivewindow+freshBEFORE+AFTER",
+    "deploy exactacceptedtree andpublicassets"
+  ],
+  "status": "local_candidate_unreleased",
+  "dedupPolicy": "Only reachable samepublisher or activegeneral questions may suppress new source atoms; never use old excluded g1/g2 warmup items"
+}

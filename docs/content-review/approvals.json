@@ -37870,6 +37870,1266 @@
       "hash": "10230031b1cb9bdcda4ebc212974a27dadba33e1de0969bda586daa5821d84fd",
       "reviewer": "root visual/source review + independent blind answer: finals131_blind_social",
       "evidence": "docs/content-review/finals131-20261107/README.md"
+    },
+    "phase2-g1-20002160-i1-men": {
+      "hash": "495d76ef2119693c47072b3b89fa95b12d9c70d65450eb030a6fcaf98366e6c1",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002160-i2-zi": {
+      "hash": "a1796eb1c90854138c9ced5a36c052ba51160e32781e91b288e9a184293284e0",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002160-i3-peng": {
+      "hash": "5f02e932800cdb43d05349ed334cc0659ac2cc10b53d1e2c5a54c1c2a85c720b",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002160-i4-lv": {
+      "hash": "b28224b2bfc212e1ee2ee796f02a621df144772ef4e97fd82811cc3e33baa447",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002160-i4-zao": {
+      "hash": "2d2dbaf1cb6e37d6967ec89276af29fb20b6e4400932ac6e67b9b382e3f4b1c8",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002160-i5-xiao": {
+      "hash": "ca6e85dd5635dcdd12d22cea0f3ca57a02c9d53a1412a71c3956404991233e05",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002857-i1-cong": {
+      "hash": "3cd1e242e37b858da099e38af2a0e487bb4bb6aa05bd5059722594e4e10f9fb7",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002857-i2-you": {
+      "hash": "c61f06a4295c45f1d14196fc41911d9f045ff7948be6a79d4564c164007a0f20",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002857-i4-zhu": {
+      "hash": "60486626d07c5e13e642222c7cf0abdc09a631110a357b4c599ca5578826cea0",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002857-i4-zhi": {
+      "hash": "3fcc4ccf5ddad0e67dd8ce9c4c05bed59e5e118bff7631f6037b089db71a182e",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002160-ii1-chang": {
+      "hash": "579f6f61740b775b5ba09c15d033944436efe6a080d5c8898cf123cb9b885f9e",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002160-ii1-zhang": {
+      "hash": "3bfac76d835ac5e995fd3fc4f94ba262a2dd2bdcb15f3adf1b08597d3ba2081e",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002160-ii2-zi": {
+      "hash": "19140479eb35961207db6d4629a0b18b83bb86d11615ca80b68364069e4ee477",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002160-ii3-qing": {
+      "hash": "c68efd7212804ba32a04ba3a60b431f48f585540124c75a9cc1901c56aeeb3dc",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002857-iii3-chang": {
+      "hash": "e52c1862ea22f0d301d673f9873301b3b9a1b81079a738c3aa3dca9c4f581f56",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1-20002857-p2-iv5": {
+      "hash": "e6c936e4f65ea4e2038e6e5827ba46a363f7085028126e65389d7141ee337e80",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i1-1": {
+      "hash": "f9864c09eda83661203270be770d2756a7775cd27f766d6c64dc4876434fd145",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i1-2": {
+      "hash": "f35a0bee06e7ba9386fb9009e117043b4bdb1e7d01a33a285f279461de57c468",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i1-3": {
+      "hash": "3f232ec8563b8a76ec102a9d26b8cd0bf9f5daf78a56561825d8fe187705ddee",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i1-4": {
+      "hash": "2f1f407e41c02b2fb6e2ab78a3b96c6991ba952e177152dc90bdd2259f499078",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i1-5": {
+      "hash": "9099ea8c6a4a1f6d8b73ac23d67a32593fe288852b29f3339dc211ada0f8b42f",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i1-6": {
+      "hash": "7f4299e06c69f291f5226a05b02e437fab1192dc113790f3b0a2f65c3fd2d429",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i1-7": {
+      "hash": "903e2fb42660da5b367c6835ae74cc87d23f7546a82cd372e54b31b4f478b978",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i1-8": {
+      "hash": "646365babae331b0b256f45b31292e92a8eb414fe3745580f7d7f8a70936ea02",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i1-9": {
+      "hash": "17d6525f6af8a37c517adafc6a5da8a98933aa4907c87f18834bfeba8c9fedfc",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i2-1": {
+      "hash": "d35ff50e7c945f1a2701e9a2d0ca90d30e32087c0231f28c33c5662edbeff2ea",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i2-2": {
+      "hash": "4b5c136184913dea3e614a815f0f8268b77fec2e619d04baad87bc638cba7524",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i2-3": {
+      "hash": "74cfe1151ce7ca05ba2d29ca405240c98591bd0b4561bfa40b5c8ff310507ba0",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i2-4": {
+      "hash": "276677a192118554367522637bff313302cc9ddc2c1fdd7f16516fcf6a7030be",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i2-5": {
+      "hash": "e3111cc6a5e35b4df2cebee30476b618143f4a11fcdfdb98c0feb16325a55140",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i2-6": {
+      "hash": "969d2f28c498999e470f1bf2db2907cbebec50a29d17875aaf85061a34dfb1c6",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i2-7": {
+      "hash": "02eac8cd4fcd702e9816efff9b3c41eda8132bb0af0463f3cdae35fc36780e36",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i2-8": {
+      "hash": "3a0576f2be94b81b43a765cacd16f46cbb1e495add6259bd5b56248e5f37e3ae",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i3-1": {
+      "hash": "edb3daef4599c78db32240592d6720daa5dc62a02e734dce594e1455ade0548f",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i3-2": {
+      "hash": "897140f1cd232e27ca481133b226549e10912034beca964df829e4958cb42dd5",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i3-3": {
+      "hash": "af890591c8784ed86c7c2151e75bab4e3c7ee62f2ca980840e2af4ffb0cef7df",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i3-4": {
+      "hash": "2b7a4d4019866ffe879045a9039d478bd2104ce35a88fff97dc3fdf5507bc56b",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i3-5": {
+      "hash": "a665d9671ccd74eadbb2b3564cdad4272100c89ecb875581a5a6d18376c07195",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i3-6": {
+      "hash": "c34ef301f9f4db9bb41d3650ab521670a2f932f64ad8216707f99a4ce84f23ee",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i3-7": {
+      "hash": "2004b26088e6e333cdb63d795b7845bd0391ac627233ac3930ab29f36c36708d",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002167-i3-8": {
+      "hash": "52d86ffae5a6fb9ffe40f5680d99518d22488bada19b0f0ae3979f361e9161f0",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1a-1": {
+      "hash": "6e54fc95c455d4bc09fd1237411c4a68cf90cd131a5a61f7ea088a6644bb2623",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1a-2": {
+      "hash": "c69bf872b3f4e2532d46b4fe2e4d6a9f42682b4049f5f3c6b7536352c4d7a97c",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1a-3": {
+      "hash": "eb33dcfb5f47557df0579cf4088b7293a897b34012302e06a5dbec48ee40cf71",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1a-4": {
+      "hash": "82c53c23824fb03760de7eefac93c534b08a03f42076fa4820ff9d8b192fd634",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1a-5": {
+      "hash": "9a14812cb443b02cc48760aad2edf4e60f1a1a05379e6362a6d890514b375231",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1a-6": {
+      "hash": "a3a50894a87111557d0df7b225f8adb1484fa43994e3866fd5d90fa4e1ea61a4",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1a-7": {
+      "hash": "6bdc608ef00e8e3e7b7be403cb49d37c9cfd79b096453e42990f957b5d3d40a4",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1a-8": {
+      "hash": "8caa62cd356a8e845c8f72ef3d97e541447355db4eca052c60d79a62b09f2ece",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1a-9": {
+      "hash": "bda5fb0de9a9eeffea3272b917cf30e969b23db5a450026b0a96a5083e3601b8",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1a-10": {
+      "hash": "17f47ece5c95d86330551fad5cb54941eba970006210f675e007abc5c33d0f63",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1a-11": {
+      "hash": "6d5c2f5f3bd89956f973105dedb4dc890305574c30678c5396831ebf37704a6e",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1b-1": {
+      "hash": "08476002280eb17b0287722430a5b41de14fcf42b56fb973093259840df9f71c",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1b-2": {
+      "hash": "437adfc8fddc511cfdee2ff2f309ce51fbd29e2576a91f90509979731bac8e58",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1b-3": {
+      "hash": "eec8f66497bd4a411c05b1feac243065c7974808c43a9ae66b891dfd14926239",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1b-4": {
+      "hash": "272ec95348d50e70becaf5230fb31ef0077eeb4f6da8e70bbe91056681f2136a",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1b-5": {
+      "hash": "1b635b6f959a459485b05a5165c40de0f3e9a4be2244bc519deb2b93e457ee51",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i1b-6": {
+      "hash": "7d76552f17537201160c3e54d4dd2ec823c2a4ad9440bdf2b494a176e6eb363c",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i2-1": {
+      "hash": "9fd7e4f49a4579a66a16f7740f67aa3bff61ba2cc595cb6c40bd026f5bd4e6d6",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i2-2": {
+      "hash": "a58cf2c06b1755183012a13a93fc127be3d80a0eb725249f265452dd3bc7807e",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i2-3": {
+      "hash": "871b1dd9af57b701ce4ca9e5ae09dcc01802de24ae5de5cc8ea16071f24cf138",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i2-4": {
+      "hash": "de2f147166dcc8651d3a893b2f70a0e0561c04f778818979d9581dc3bfa7dc35",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i2-5": {
+      "hash": "237d62e0c9b371ff3a3d20d21e1b8402aa65b94352c9867f615b8f2bf7ad7d84",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i2-6": {
+      "hash": "3ad2bf47eb644df1de41aee32b26f6529e448dd985860bef17bcb6eaaf825583",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-i2-7": {
+      "hash": "5b3011855ca73cbdb53f630c2da2f7794131a3515f5b73ab70e0080f6266a906",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2-20002859-ii7": {
+      "hash": "f58599fb4d16b568a7f02c941332fdc0ed1a42fd1e02197326160234467da3d9",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1m112-p1-i5a": {
+      "hash": "858c640583f2c76defee7ae159fa7051f29364f7d563dd8469e33f577f6f1889",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1m112-p1-i5b": {
+      "hash": "cfddafde72083fd9af4442819ccf5a2c2a60ccbbb91fe8e7c7be1d0163ad12a3",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1m112-p1-i7b": {
+      "hash": "a95815a0b82a7779d6a19713869bf0b0023c683484d9a5e501a04a6d3fc146f4",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1m112-p3-v1": {
+      "hash": "770f1a9ddf650a934268cbbb1506695732d94570850c0d16b319dc45d79307f1",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1m112-p3-v2": {
+      "hash": "eaa97dbe0cddd0070d3fac25f0393d48359c4714a9f029231eea6f6b86040df8",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1m112-p3-v3": {
+      "hash": "adcdde5a0aa1bc9e201fc8462f033132c02cf7aa687b85e1c7485efffe458aea",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1m112-p3-v4": {
+      "hash": "136979a03162112e4a2f3ffc4c35d1aebd8a9cdcf5308a9d37c329dc2057ca0b",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1m112-p3-v5": {
+      "hash": "9aecc66c2ebbe988c516ce979e0b3b0c62dbfa71717b1b1235ec61d3e17235c0",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-i1b": {
+      "hash": "394de4ddff794194afa4330e3a3c6d7638c920ab85ea3196de35a32626617c12",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-i1c": {
+      "hash": "1a5c38acd6c6b910fd31fd72c02830fffcfac397d52d5450d5b73ea087e7e205",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-i3b": {
+      "hash": "a544ce473f29d7fe92a53e3ffaed521a6b33fb7e3791a879481b4638a5d00436",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-i3c": {
+      "hash": "c15704bdf98546c35d8967db934431ae96fd8b5d519452f2f3b7409cb6543f53",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-i8": {
+      "hash": "729bb803e32fe9a2c2c346f3de5eba31e526531389e0943359c182a2a3d60e45",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-iii1": {
+      "hash": "08b49647971806eabd9013b376505ae9c57541093e91c54b12be45ba0f15e834",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-iii2": {
+      "hash": "41f368c37e8503e3fccdcbba5f506f7434b77630416b1a809570a85de213b3b8",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-iii3": {
+      "hash": "a205fb042968d01e791a5a3da877b36263591327d09998fbf064c7297ac804d5",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-iii4": {
+      "hash": "e2c9d72f967be083947a790245330c129187e0a29746344bd62be3460d983472",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-ii1-1": {
+      "hash": "be5092f41f9130aebf2f48b96db142cc192ef35ffd42be132e46e7bbb26a34c9",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-ii1-2": {
+      "hash": "9e0e60fd51080569a171b6f35365ca14d0addeb67796120f2aee8eab4ac3e10a",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-ii1-3": {
+      "hash": "4a01776e7e19ee0e4dfd3e56c1968983ab4413b63d16bb40279e3c8ef67be3d1",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-ii1-4": {
+      "hash": "b9cb9ffef063a461bd410f87469150cb787d61823121df098c7a389c53864ae4",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-ii1-5": {
+      "hash": "32fe507c82f6b758dc4f2cdbdc64444ba68177a3d8a01afd726614d1e729e932",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-iv": {
+      "hash": "04b631f76e339d8c777bfdec7dc1c4178ebb20bfb8c240098c22269e0385b216",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-vii2": {
+      "hash": "bc14f953846d8513f4ba0a0e948040b63692d2008259aaa0cdef9aebc1a28a0a",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-vii3": {
+      "hash": "8b795e524764b5818fe9b489ac093a830b4bbe0cd1a1ab4ef9c80a206e97f029",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-vii4": {
+      "hash": "a0513c3ad24cc71c98de6151c337d99967b1f05eb8adbcacf21aaa9fa73bceba",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-vii5": {
+      "hash": "a15e91c85bd13585485c12853bb72eafe914aaab0e40f4c163c76218aed3f979",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-vii6": {
+      "hash": "de23a58020b0fada9d52fee8fc7d779c3b0b1d092507d357cc45aa2ac76d514b",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-ix4a": {
+      "hash": "d5c9846ca07e75ae4f62752227bec253d74ab8677cd327989ddb6a37e6dd0155",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-ix4b": {
+      "hash": "fe27c926bf1f4f5139ed53b500f2208682a33ef1a5fc3478baebaca4895b81c7",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-x1": {
+      "hash": "8cc08df71b6e354d6b6a44547fcf1ba8eabb614daa070e190c517fe379d789bd",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-x2": {
+      "hash": "dea11906941bd4f91e24b23adae588509c6ca51487991cb095afcd6669e8c58d",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-xi1": {
+      "hash": "a42658d8870bc9a368f2965aa6ab77c633e3c054761dbf8139403c3d07b37616",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-xi2": {
+      "hash": "36874089b92a2145157e8681c1f98d28ac6138499dcfb4d363347c7a08505010",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-vi1": {
+      "hash": "ffa33964e9174bd5e9222b9578faa330aabd98e89afa264a314e9f7f40379980",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-vi2": {
+      "hash": "b91387260ccb39493af2d708c816b570c2d000f1120e02b856625c8e79bc24eb",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-vi3": {
+      "hash": "f147b4c74e988c40e1897d10e27b53c0d9f145bd39b4adb7991cca2ece8b66eb",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-vi4": {
+      "hash": "89f35d522a520dc545f08ff345e722d472384c0a5ba176daf2d6f0294f687f78",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-iii1": {
+      "hash": "511e233c0c80b3dee7dbe276e6c1eb8759b37edaf6e97595e9135f60466c1607",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-iii2": {
+      "hash": "f6208d8ac7cffab08d5cefd36bdea4e09bae2842acc6c1b9b76a2d1c70223358",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-iii4": {
+      "hash": "709772f2c5a49fa77dd4c0d186b293b2410d377d85b03410597fd6618606a9d5",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-iii6": {
+      "hash": "4be958b379afa43c2f4ac14b52aa5712ab3869f716917e4bbcde812b30c5991f",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-iii7": {
+      "hash": "a8b702127f4382b868bcfab341a1cd53615cffbf9e79fb8fa602f1c109f3ebe5",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-iii13": {
+      "hash": "acde0916758afed70aabdc831b1a101a400a8974ec180ec67d688f66842fabc1",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-iii15": {
+      "hash": "864bfc9ab6fc66f009451c7910f282e0834e0c8967e9c4bb929a85c9ee139caa",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-v1": {
+      "hash": "08e8cbdd0f4553c3ae0d7d0a9fd553e3a2aee2679afc9088bc38d85045667074",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-v2": {
+      "hash": "73f17681385e55a7e291559f02427cd24288e713366ff4bfe681a881839ce295",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-v3": {
+      "hash": "ceb456d75b627b86852fb07f0820429ff91d5fb3a411c24b8f5e910ba45fe3e3",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-v4": {
+      "hash": "c1687f37cba36c934b761d5061348e3bdd7506548bcd05a5169d8774d66832fe",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-v5": {
+      "hash": "739755ab8cfad092c5a7ee5751ef3ab63c15a91941db0c8771735eee071fe668",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-v6": {
+      "hash": "91e0a855f8777a33e88c1fc4632ad4a075f28163e20ca0b33cc3b8e319297de9",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g5c-20002211-v7": {
+      "hash": "ac8c9822e1e8a7913ddf55bb4fd98c4a2b2cc431cb54a08bc111e09f6f21e666",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-1": {
+      "hash": "84ccf550f86e2b1e435211a318a0674cb4459acf5de83d6a9979a87a925d68ed",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-2": {
+      "hash": "7134b1fe360195f3befd32c8616785771cec800248f7d67203c6c45f8a84c011",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-3": {
+      "hash": "a8ee98204ce1f1422d24b96579469bfe11eca6f54d5f8b5bf789d1b39b99f6a3",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-4": {
+      "hash": "f126e9a0b6ad350f5776f8ef75c6e1056643f2a64708dbf181aa76b5032aed9a",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-5": {
+      "hash": "dae954ad721974f89b07dc4ffd2306088420fd09f90d6f547e27cf9142c5615c",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-6": {
+      "hash": "03bcecfd0781be274f33e689fcb5d0589817da84c53f51dab013455e7fa1252b",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-7": {
+      "hash": "c99a486db7ac4183b6b7fcfa24a85a54ad93d55d68dc333ec90ce8220cb717db",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-8": {
+      "hash": "a9f8b47e5b85ac1ef4b0af75fb28b1cb1d0ce0239c93550c527e217d3f659f4f",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-9": {
+      "hash": "21819c69000691341d467834daac34946258562d3b28464fa406699f64f95a0a",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-10": {
+      "hash": "13efaba97eeb39d3f1c698da4eee6d988a5f54b69efac4175a37b5f779553a18",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-11": {
+      "hash": "7f51c738e1f6ee89f5ca5bb634c1d98222a530f06ae1029ae3ab2baa328275cf",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-12": {
+      "hash": "e1714e0533ab42f11ee357f756b507e95a6903598fc27cfb2bd381089e0f91c8",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-13": {
+      "hash": "820ce6d9a9f4af224a6f2fb17ae9667f176dbae97a461d6102f04c20a67e123d",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-14": {
+      "hash": "621a41a6168df43ec1f9f00546fc0c597545e483719d777d2003ea526bfaa0a9",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-15": {
+      "hash": "c48bef4bc06a1fee75650a2d73f3d288cc68209830741669ecd8be6b898250fd",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-16": {
+      "hash": "2ddfae0e16fbe6b78b3033bd8a3d515b2893a7eddb0f189ecfa8363e5fcbd3ae",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-17": {
+      "hash": "70ce35815c78725a4f1f41f2c4949c5ace7be425cbded73b4acc3cd0cc70ab95",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-18": {
+      "hash": "839b8dfcd05aea4701cc5fee17624e333cb43ce4e42673fe8071addcc652fd5a",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-19": {
+      "hash": "8c4205efa6b26373ef103e874afd8271a2afc762d40d9c70fb17154f05ae27f5",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-20": {
+      "hash": "1bdd529054751d496997f834b75e7412384ae3e5e15e6b0d9eb8ea59adaa9f26",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-21": {
+      "hash": "c0fcdf47ea9efd82c59fbe9d89d8fb5f71ec7098a85a7acceab9f715c5da4491",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-22": {
+      "hash": "edaca12a07aa0fb26e6f44fb6557ce4d5145b7312452424276f7759f222aacdb",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-23": {
+      "hash": "966d5051b43315cf18b53b6edc0fa9b229be4a893951f7d57133324dd7c1d3a3",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-24": {
+      "hash": "31db036cf55901d77e7867d95aaccf801315fd3b31430a3c18f83b56fbecb432",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-25": {
+      "hash": "582c26aa53b47713651e7bbda1d52c2408923f43757a73259baf5a1d807b001d",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-26": {
+      "hash": "37a86cd281b300859f3d06daf07e0a89a463fe1aa0370cda257e3e12d396a61c",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-27": {
+      "hash": "0cd7f8bad48cf3cf1afc0e87cd3a91f268e24a4109eb2974d2a10ee18b4f298a",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-28": {
+      "hash": "3cf2770c16413bca2d171033695cce130239300f365af30d5ac96fa8efbc59bd",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-29": {
+      "hash": "9c703e6133db275b5014a27b88ced3b4857b72b7a36d759c4786c03bdc3bb1b1",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-30": {
+      "hash": "4212132c85f40a87e285e8637c0f877ed0cdc0ef2fd102f9094672a98235e343",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-31": {
+      "hash": "e4eb9f9f7d13b96d5eea526c1e69937572c11200d7ecfdf999d459fb9d590108",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-32": {
+      "hash": "a52343ad8bced65649a090bf4201b0a3209f3f6d7624f4f40dc800f51a2bfd34",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-33": {
+      "hash": "48e6af58dc98de77962af6cd999f1d6eb7ecebcb7c1f57ff0a6441e8c426de82",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-34": {
+      "hash": "8caaf0f119978b5a939b8cd1dc3d2514d823c9657f5f56750a2605d6d7cc3843",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-35": {
+      "hash": "727e592c205cb5299e3da14bcecdc45f31c2931c36978931aa56e3973ad6549e",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-36": {
+      "hash": "9ed613cfdb6411fd37c1806722ed41a2ae25c00cd7c5566361642ffa40d9f481",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-q1": {
+      "hash": "b5e2f456a6b37a177b181873ab0c3432f53f219ca1610f8a725fef6dd91e1ff3",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-q2": {
+      "hash": "c55c3d7525fa627b9524ce2184793f0e02fd9dfd60bf660068c0fb26c4d89fe5",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-q3": {
+      "hash": "3fc1ccc14486808a7a7628e96edbb92ef3a72b6ee1f4042be29a42f9a1c80950",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-i-q4": {
+      "hash": "2efd1fadf49043629363a21644f03bd4f24f92386f38c75d24fc996272bc8a78",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-ii-1": {
+      "hash": "67257d497998b2f33506e5ae270fabf7e990c0340b74d2dffcdb5057f30db8ec",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-ii-2": {
+      "hash": "6311d672ddbc2f924e2042dbaa471e056645e32efdcf827b4d7849f6e6c4bada",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-ii-3": {
+      "hash": "d064490b9df162f97b8ea28c7dd13c83752896c61fd953af795cb7b95bd7fb7a",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-ii-4": {
+      "hash": "a15d5caa63b4f7c7bcbda3e07869c53ae5dff4be86790898026daf9795a94735",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-ii-5": {
+      "hash": "a4e05d69b08eac63fd8d9996dfd1f842269ae0cfaa0d59414334bca2d926f215",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-iii-1": {
+      "hash": "207e12630a297e0e1944de6381866b778583c926dda78ba1151242d0fcaeabd2",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-iii-2": {
+      "hash": "ffaa91e05531e8e704fb078cd0e33aa93a66b1e5c33572992fed7673259469c2",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-iii-3": {
+      "hash": "3d0eae82c37681e90a931a68bdffc9c61d2a334ce3c0eb5ab66ebe07bfa41720",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-iv-1a": {
+      "hash": "347e8ea6eb8a209d3328fd66e54ac9e7fd305077f3b34d797ed1c8f952e288b2",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-iv-1b": {
+      "hash": "e17a62ed607d4b89c412177c784cf74cb581dbac90687665004922dae03138d0",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-iv-1c": {
+      "hash": "8da753e2e663d91ac0c04c83f6aa5ba81764ab4d4862cf4368d6f8dc21a6ad04",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-iv-2": {
+      "hash": "b9f597d65351aa3b32ccf1172d7892354a0b8b78e0bf855e148df701a313d066",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-iv-3a": {
+      "hash": "d91af8e3fdee178cdc43fadf128176e7d343b6bf705e35f101610bee1f613438",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-iv-3b": {
+      "hash": "a5363d63f03e958412a2f2f4e8f462a323290428619715ee406d74d49dcab1f3",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-iv-4": {
+      "hash": "53be0379f71158e11fed09f096b50f66784e0a79bf25947dcdff72725d229218",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-iv-5": {
+      "hash": "c39149342f068e73a8790dabff7daaf8b5aa0d6c94dd4f338b40826578bd2df8",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-iv-6": {
+      "hash": "84d46ad9a9d9d9757b6ed1020de76548966c8bdfb3c907ac867355a7bf637e66",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-v-3": {
+      "hash": "2d9706a69c10dfd006c76c30fae818c75f9240cdd2600e3a4a5f8ea30dc442b2",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g2h-20003307-v-4": {
+      "hash": "f04bf9515cf5a7be28f2f04c1f9a5f7582ac55150ae0aa0761237a1ff0e33193",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002242-i1": {
+      "hash": "e9b3bd07208529088933018909a315ad135c813fed9de48fc51a9a2701edb77c",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002242-i3": {
+      "hash": "7ad431a7397daa145d3c3ca5418f46ab78541b0002fd45ad37388d7d6571838e",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002242-i8": {
+      "hash": "adc1c6fa860cb050d394e54728e0ac2685740bff3ae4a70245cd60b58d7dce86",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002242-i9": {
+      "hash": "ae0ae8be07423da51de7fbb173ce1314ae480da9fa2cb4013bf274ffc19a03ed",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002242-i10": {
+      "hash": "be034a8fb60f89c3e3bc378995f6c787282ef7a10807e13d6f04c414a9d988f6",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002242-i11": {
+      "hash": "6743e2b54f7a5ecceb8ad599e99ffdb4e502b8491d50f3577c25e975661c8d77",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i1": {
+      "hash": "0a151c6f0d569a8f302ff5de0795d6e9e35a3c73542d963cc88357c85e8192de",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i2": {
+      "hash": "b072edaaaa6d959d12d641b4c85808adcc965a5fc7614afe7f9e7d2dd837117f",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i3": {
+      "hash": "e45a0c96ccab455677edfb1ade8c23389b257aad36a8af4460d9ab798c773e55",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i4": {
+      "hash": "a5c7d70fc57da6974a3b6dd0a35ec38543de0e41f6e782e571f37e9a449fdc2e",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i5": {
+      "hash": "39fc7605fe6662b2e540d4b08da8f17fb17036ddbb824d1e904e16784de35457",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i6": {
+      "hash": "0c01429220b62f8eb34d1b9ee5f1d553f6268e655610c6b5d08b1aa4a33ef66c",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i8": {
+      "hash": "af9775c90c6b080c43e733c31c5a77a7c5b0e3b4e614c8f76e804a9e9b1becc2",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i9": {
+      "hash": "759b15c4afd8abd63da8c4561dd05cd976148c44089c69db8bb14d32dd80b47d",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i10": {
+      "hash": "7aef63164bdd48a4fa3b2275c255fef1adaf578b3fad06e410b524aa5a65b994",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i11": {
+      "hash": "61e9d3d1985eb1dd5ef1df406a91a4c1d59b99e8111a4f46d2b52cda10f19c86",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i12": {
+      "hash": "f8351c0faf9ee398502084e2c713c105b52632ad2bf354597876d0b6244ed8ee",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i13": {
+      "hash": "cc527d016cf1bee198b0fd87b42e5d1ef9eb941743dbf249946d8bf1831436d5",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i14": {
+      "hash": "bd48180de924fde069cbecd625946130a833f62ca7a74c4456fdb5583f9cfd91",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-i15": {
+      "hash": "b2c33778c68f8ba271e1325f1afcb998d5d13a5f4c49e7f3973b26eb4ff699e8",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002242-ii1": {
+      "hash": "162ac758f4eb0cb5162518483a2bb5a027ee5e01e0883fccbfec487b0cb8f2f5",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002242-ii6": {
+      "hash": "dffb869f83b499cd5aad98124f9911177fd6f3f068d8a55e25c35c55df8b8e44",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002242-iii5-1": {
+      "hash": "d6a8f062588caafc31e7abb9945b6cbb820ae10e00350548af66e7199b7445d5",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002242-iii5-2": {
+      "hash": "f284fe9e0fe9666c1476dab28d68a2a3f3886dd91432adbc16b801b0f4e4db28",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002242-iii5-3": {
+      "hash": "ba8924c222825a67c04ad9bb056811c804f190a62b7207ca7e5a7cdf98c9bbf3",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-ii1": {
+      "hash": "b5a4d7d08fe5b242fd6ce826d8c147f580b2ee801117beb674b566e2d79f440b",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-ii2": {
+      "hash": "f47eebf3d01c849f6a222e088c0c62d4b65b79ef2b63061190de069d4593264a",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-ii3": {
+      "hash": "f730097082d3c86924d0c85cc145217faef1ddaa5dd405e4f59f66e2d00b98c8",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-ii8": {
+      "hash": "64a3da8898883435f22666d8f866231a550b03880f6305aab671487ce686aba2",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-ii9": {
+      "hash": "65ae01994d8e7aa82ae410f5c04cbdfeea7c8d1ad0180db10a420b49c96b8c30",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g6s-20002878-v4": {
+      "hash": "f9426217f711902043e55493a59b642f5d7636c7310830ece540101a77a59094",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20000773-i1a": {
+      "hash": "58d2325ff76ddd9dac9b7170d9a0c9d2da34ba3d965b626161230d001473990c",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
+    },
+    "phase2-g1h-20003306-vii1": {
+      "hash": "97a9047678942ffe53760a72116bd4ce3644fec154c6efcabf5beb70c5f00a14",
+      "status": "approved",
+      "reviewer": "primary source review + fresh answer-blind independent solver + phase2_falsifier",
+      "evidence": "docs/content-review/finals131-followup-20261107/README.md"
     }
   },
   "templates": {

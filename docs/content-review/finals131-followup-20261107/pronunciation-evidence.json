@@ -1,0 +1,51 @@
+{
+  "scope": "7 new context-sensitive pronunciation rules; no global東西/長/景 rewrite",
+  "rules": {
+    "長長的道路旁": [
+      "ㄔㄤˊ",
+      "ㄔㄤˊ",
+      "˙ㄉㄜ",
+      "ㄉㄠˋ",
+      "ㄌㄨˋ",
+      "ㄆㄤˊ"
+    ],
+    "長耳兔": [
+      "ㄔㄤˊ",
+      "ㄦˇ",
+      "ㄊㄨˋ"
+    ],
+    "的長鼻": [
+      "˙ㄉㄜ",
+      "ㄔㄤˊ",
+      "ㄅㄧˊ"
+    ],
+    "沒看到東西": [
+      "ㄇㄟˊ",
+      "ㄎㄢˋ",
+      "ㄉㄠˋ",
+      "ㄉㄨㄥ",
+      "˙ㄒㄧ"
+    ],
+    "陸佰元": [
+      "ㄌㄧㄡˋ",
+      "ㄅㄞˇ",
+      "ㄩㄢˊ"
+    ],
+    "鹿柴": [
+      "ㄌㄨˋ",
+      "ㄓㄞˋ"
+    ],
+    "返景": [
+      "ㄈㄢˇ",
+      "ㄧㄥˇ"
+    ]
+  },
+  "sources": {
+    "physicalLength": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=32100&la=0&powerMode=1",
+    "eastwestObjectNeutral": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=9787&la=0&powerMode=0",
+    "financialSix": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=14609&la=0&powerMode=0",
+    "luzhai": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=66107&q=1&word=%E6%9F%B4",
+    "fanying": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=35251&la=0&powerMode=0"
+  },
+  "inheritedRulesUnchanged": 428
+}

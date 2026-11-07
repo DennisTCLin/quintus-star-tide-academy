@@ -1,0 +1,105 @@
+{
+  "environment": "CUA IAB Chromium, local synthetic fixture, no real account/DB",
+  "cases": [
+    {
+      "grade": 1,
+      "width": 375,
+      "beforeCoins": 1234,
+      "afterReloadCoins": 1244,
+      "beforeIndex": 0,
+      "afterReloadIndex": 1,
+      "commands": [
+        {
+          "type": "answer",
+          "index": 0,
+          "result": true
+        },
+        {
+          "type": "advance-question",
+          "index": 0
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "grade": 2,
+      "width": 375,
+      "beforeCoins": 1234,
+      "afterReloadCoins": 1244,
+      "beforeIndex": 0,
+      "afterReloadIndex": 1,
+      "commands": [
+        {
+          "type": "answer",
+          "index": 0,
+          "result": true
+        },
+        {
+          "type": "advance-question",
+          "index": 0
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "grade": 5,
+      "width": 768,
+      "beforeCoins": 1234,
+      "afterReloadCoins": 1244,
+      "beforeIndex": 0,
+      "afterReloadIndex": 1,
+      "commands": [
+        {
+          "type": "answer",
+          "index": 0,
+          "result": true
+        },
+        {
+          "type": "advance-question",
+          "index": 0
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "grade": 6,
+      "width": 375,
+      "beforeCoins": 1234,
+      "afterReloadCoins": 1244,
+      "beforeIndex": 0,
+      "afterReloadIndex": 1,
+      "commands": [
+        {
+          "type": "answer",
+          "index": 0,
+          "result": true
+        },
+        {
+          "type": "advance-question",
+          "index": 0
+        }
+      ],
+      "result": "PASS"
+    }
+  ],
+  "screenshots": {
+    "g6-after-reload.png": "c6afa383c4a2c9a20226d61d807992e2643419d98dda8395f09fea3f1ca9d586",
+    "g5-before.png": "05dd647387c713fdf932d9c3b7600379a7d766032b89d3423c64cd2c143e0820",
+    "g2-after-reload.png": "697d06487028df1b664bf94452dd6debbc40bae5a344b864bd6d962e14e1c6fc",
+    "g2-before.png": "94a4d0a331fb502171abbe4f08b448914f32b62a365a180719b4007485200043",
+    "g1-before.png": "b800714fa4a253653b9086589c8bb55f86e1256e6900eaa745c27154ec7dc85e",
+    "g5-after-reload.png": "6d91c2dd5cf7f0d8aeb0f00640b6a9146a0ac54b0266f816321a5193d3166d1a",
+    "g1-after-reload.png": "57cf5cb4651d38482aedabe2e02b1fd88893df68e055764ec2c73f554d497973",
+    "g6-before.png": "56c4209db3c295774f9a80f752a61fc6e5fbc3e1020bcd3b6b0207a15ac61194"
+  },
+  "phoneticRendering": {
+    "g1ToneChoices": "3 choices,3 SVGs observed",
+    "g2Pairs": "large phonetic-only options observed;no reading hint answer leak"
+  },
+  "notClaimed": [
+    "physical audio quality",
+    "iPad Safari",
+    "fix of pre-existing non-phonetic grade2 ruby gap"
+  ],
+  "allPassed": true
+}

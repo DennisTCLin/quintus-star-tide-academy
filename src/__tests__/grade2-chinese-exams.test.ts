@@ -1,8 +1,9 @@
+import {preFinalsLearning} from './helpers/pre-finals-learning';
 import {createElement as h} from 'react';
 import {it,expect} from 'vitest';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {GRADE2_CHINESE_EXAMS as bank} from '../grade2-chinese-exams';
-import {allocateQuestions,allocateAdventureQuestions,freshLearning} from '../learning-engine';
+import {allocateQuestions,allocateAdventureQuestions} from '../learning-engine';
 import {questionById} from '../learning';
 import {markMastered} from '../mastered-questions';
 import {examSourceLabel} from '../exam-sources';
@@ -22,13 +23,13 @@ it('has unique stable, source-backed second-grade questions with valid answers',
 });
 it('uses both schools supplied sources before general questions, preserving grade isolation and mastery',()=>{
  for(const school of ['yongchun','nantun'] as const)for(const course of ['words','pairs'] as const){
-  const s={...freshLearning(),school};
+  const s={...preFinalsLearning(2),school};
   for(const level of [1,2,3] as const)for(const picked of [allocateQuestions(s,2,course,6),allocateAdventureQuestions(s,2,course,6,level)]){
    expect(picked).toHaveLength(6);expect(new Set(picked.map(q=>q.id)).size).toBe(6);
    for(const q of picked){expect(q.id.startsWith('cxg2-')).toBe(true);expect(questionById(q.id)?.course).toBe(course);}
   }
   bank.forEach(q=>markMastered(s,q.id));expect(allocateQuestions(s,2,course,6).every(q=>!q.id.startsWith('cxg2-'))).toBe(true);
-  expect(allocateQuestions(freshLearning(),2,course,6).every(q=>!q.id.startsWith('cxg2-'))).toBe(true);
+  expect(allocateQuestions(preFinalsLearning(2),2,course,6).every(q=>!q.id.startsWith('cxg2-'))).toBe(true);
   for(const grade of [1,4] as const)expect(allocateQuestions(s,grade,grade===1?'pairs':'chinese',6).every(q=>!q.id.startsWith('cxg2-'))).toBe(true);
  }
 });
