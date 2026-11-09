@@ -1,6 +1,7 @@
 import { elementScenery, ELEMENT_MATERIALS } from './conquest-element-art';
 import { BATTLE_FRAME_WIDTH, BATTLE_ISLAND_WIDTH, figureSpan } from './conquest-scale';
 import { fitCharacter, fitPortrait, fitCameraToPoints } from './conquest-body-fit';
+import { placeHealthLabels } from './conquest-health-labels';
 import { sizeOrderedOffsets } from './creature-body';
 import { useEffect, useRef, useState } from 'react';
 import * as T from 'three';
@@ -18,7 +19,7 @@ import { health, maxHealth, ELEMENT_COLOR } from './conquest';
 import { islandSurfaceTexture, makeOcean, release } from './conquest-art';
 import type { BattleSetup, BattleUnit } from './conquest-battle';
 
-type Actor = { root: T.Group; body: T.Group; marker: T.Mesh<T.TorusGeometry, T.MeshBasicMaterial>; markerColor: T.Color; hpLabel: T.Sprite | null; initialHp: number; maxHp: number; lastHp: number; key: string; height: number; span: number; radius: number; slotOffset: number; victoryOffset: number; side: number; index: number; count: number; commander?: boolean; heroId?: string; motion?: ReturnType<typeof attachHeroMotion>; joints: { bone: T.Bone; rest: T.Quaternion }[] };
+type Actor = { root: T.Group; body: T.Group; marker: T.Mesh<T.TorusGeometry, T.MeshBasicMaterial>; markerColor: T.Color; hpLabel: HTMLDivElement | null; healthVisible: boolean; initialHp: number; maxHp: number; lastHp: number; key: string; height: number; span: number; radius: number; slotOffset: number; victoryOffset: number; side: number; index: number; count: number; commander?: boolean; heroId?: string; motion?: ReturnType<typeof attachHeroMotion>; joints: { bone: T.Bone; rest: T.Quaternion }[] };
 type Field = { manualView: boolean; scene: T.Scene; actors: Actor[]; units: T.Group; effects: ReturnType<typeof createCombatEffects>; victory: ReturnType<typeof createVictory>; heroEffects: ReturnType<typeof createHeroEffects>; gentle: boolean; playerSide: number; ground: number; surface: T.Object3D | null; groundCache: Map<string, number>; clock: { value: number }; camera: T.PerspectiveCamera; controls: OrbitControls; savedCamera: T.Vector3 | null; settlementCamera: T.Vector3 | null; settlementTarget: T.Vector3; savedTarget: T.Vector3; lastProgress: number; render: () => void };
 // Each actor retains its real identity while its textured Higgsfield mesh loads.
 // Unmodeled collection members use their original art, never a different creature.
@@ -59,10 +60,13 @@ function pose(field: Field, progress: number, attackWon: boolean, beats: CombatB
     if (impacts.length) hp = impacts[impacts.length - 1].targetHp;
     const knockout = impacts.find(b => b.knockedOut);
     actor.root.visible = !!commander || hp > 0 || !!knockout && p < knockout.end;
-    if (actor.hpLabel) actor.hpLabel.visible = settlement < .45;
+    actor.healthVisible = settlement < .45 && actor.root.visible;
     if (actor.hpLabel && Math.ceil(hp) !== actor.lastHp) {
-      const map = (actor.hpLabel.material as T.SpriteMaterial).map!, canvas = map.image as HTMLCanvasElement, ink = canvas.getContext('2d')!;
-      ink.clearRect(0,0,192,48); ink.fillStyle = '#082735e8'; ink.fillRect(0,0,192,48); ink.fillStyle = hp / actor.maxHp < .2 ? '#e6a068' : '#74d2ae'; ink.fillRect(7,7,178 * hp / actor.maxHp,10); ink.fillStyle = '#fff5db'; ink.font = '20px sans-serif'; ink.textAlign = 'center'; ink.fillText(hp <= 0 ? '倒地撤回' : `${Math.ceil(hp)} / ${actor.maxHp}`,96,39); map.needsUpdate = true; actor.lastHp = Math.ceil(hp);
+      actor.hpLabel.querySelector('i')!.style.width = `${Math.max(0, Math.min(100, hp / actor.maxHp * 100))}%`;
+      actor.hpLabel.querySelector('span')!.textContent = hp <= 0 ? '倒地撤回' : `${Math.ceil(hp)} / ${actor.maxHp}`;
+      actor.hpLabel.dataset.hp = String(Math.ceil(Math.max(0, hp)));
+      actor.hpLabel.dataset.low = String(hp / actor.maxHp < .2);
+      actor.lastHp = Math.ceil(hp);
     }
     actor.marker.material.color.copy(actor.markerColor); actor.marker.scale.setScalar(1);
     if (beat && (actor === source || actor === target)) { actor.marker.material.color.set(actor === source ? '#fff1b1' : '#ffac79'); actor.marker.scale.setScalar(actor === source ? 1.65 : 1.35); }
@@ -188,7 +192,7 @@ function pose(field: Field, progress: number, attackWon: boolean, beats: CombatB
   field.render();
 }
 export default function ConquestBattlefield({ setup, progress, cinematic, gentle, onReady }: { setup: BattleSetup; progress: number; cinematic: boolean; gentle: boolean; onReady: (ready: boolean) => void }) {
-  const host = useRef<HTMLDivElement>(null), field = useRef<Field | null>(null), current = useRef({ setup, progress, cinematic, gentle }); current.current = { setup, progress, cinematic, gentle };
+  const host = useRef<HTMLDivElement>(null), healthLayer = useRef<HTMLDivElement>(null), field = useRef<Field | null>(null), current = useRef({ setup, progress, cinematic, gentle }); current.current = { setup, progress, cinematic, gentle };
   const [ready, setReady] = useState(false), [error, setError] = useState(''), [artState, setArtState] = useState('loading'), [terrainReady, setTerrainReady] = useState(false);
   useEffect(() => { onReady(!!error || (terrainReady && artState !== 'loading')); }, [error, terrainReady, artState, onReady]);
   const signature = [...setup.attackers, ...setup.defenders].map(u => `${u.id}:${u.speciesId}:${u.image}:${u.element}:${u.wild}:${u.model}`).join('|') + `:${setup.commander?.id ?? ''}:${setup.defenderCommander?.id ?? ''}`;
@@ -211,7 +215,29 @@ export default function ConquestBattlefield({ setup, progress, cinematic, gentle
     const fallback = new T.Mesh(new T.CylinderGeometry(BATTLE_ISLAND_WIDTH * .45, BATTLE_ISLAND_WIDTH * .49, fallbackHeight, 20), new T.MeshStandardMaterial({ color: '#6b9561', roughness: 1 })); fallback.position.y = fallbackHeight / 2; fallback.receiveShadow = true; scene.add(fallback);
     const composer = new EffectComposer(renderer), basePass = new RenderPass(scene, camera), bloom = new UnrealBloomPass(new T.Vector2(1, 1), .24, .45, 1.35), outputPass = new OutputPass();
     composer.addPass(basePass); composer.addPass(bloom); composer.addPass(outputPass);
-    const render = () => { if (!disposed) composer.render(); }; controls.addEventListener('change', render);
+    const render = () => {
+      if (disposed) return;
+      composer.render();
+      const runtime = field.current, layer = healthLayer.current;
+      if (!runtime || !layer) return;
+      const width = container.clientWidth, height = container.clientHeight;
+      const anchors = runtime.actors.flatMap(actor => {
+        if (!actor.hpLabel) return [];
+        const point = actor.root.getWorldPosition(new T.Vector3()).add(new T.Vector3(0, actor.height + .19, 0)).project(camera);
+        const visible = actor.healthVisible && point.z >= -1 && point.z <= 1 && Math.abs(point.x) <= 1 && Math.abs(point.y) <= 1;
+        actor.hpLabel.hidden = !visible;
+        return visible ? [{ key: actor.key, x: (point.x + 1) * width / 2, y: (1 - point.y) * height / 2 }] : [];
+      });
+      const labelWidth = runtime.actors.some(a => a.maxHp >= 10000) ? 100 : runtime.actors.some(a => a.maxHp >= 1000) ? 84 : 66;
+      for (const label of placeHealthLabels(anchors, width, Math.max(26, height - 22), labelWidth)) {
+        const element = runtime.actors.find(actor => actor.key === label.key)!.hpLabel!;
+        element.style.width = `${labelWidth}px`;
+        element.style.transform = `translate(${label.left}px, ${label.top}px)`;
+        const tether = element.querySelector('b')!, dx = label.x - (label.left + labelWidth / 2), dy = label.y - (label.top + 26);
+        tether.style.width = `${Math.hypot(dx, dy)}px`;
+        tether.style.transform = `rotate(${Math.atan2(dy, dx)}rad)`;
+      }
+    }; controls.addEventListener('change', render);
     const runtime: Field = { manualView: false, scene, units, effects, heroEffects, gentle, playerSide: setup.mode === 'drill' ? 1 : -1, camera, controls, savedCamera: null, settlementCamera: null, settlementTarget: new T.Vector3(), savedTarget: new T.Vector3(), lastProgress: 0, victory, actors: [], ground: fallbackHeight + .02, surface: null, groundCache: new Map(), clock, render }; field.current = runtime;
     controls.addEventListener('start', () => { runtime.manualView = true; });
     let previousFit = 0, ambientFrame = 0, lastAmbient = 0;
@@ -232,7 +258,11 @@ export default function ConquestBattlefield({ setup, progress, cinematic, gentle
       const offset = camera.position.clone().sub(controls.target);
       if (!previousFit && camera.aspect < 1) offset.set(.5, 8.0, 8.4);
       if (previousFit) offset.multiplyScalar(fit / previousFit); else offset.setLength(fit);
-      camera.position.copy(controls.target).add(offset); previousFit = fit; controls.update(); pose(runtime, current.current.progress, current.current.setup.result.won, createChoreography(current.current.setup), current.current.cinematic);
+      camera.position.copy(controls.target).add(offset); previousFit = fit; controls.update();
+      // Orientation changes get one safe refit; ordinary dragging/zooming remains manual.
+      const manual = runtime.manualView; runtime.manualView = false; runtime.savedCamera = null; runtime.settlementCamera = null;
+      pose(runtime, current.current.progress, current.current.setup.result.won, createChoreography(current.current.setup), current.current.cinematic);
+      runtime.manualView = manual;
     };
     const observer = new ResizeObserver(resize); observer.observe(container); resize(); setReady(true);
     const terrainDeadline = setTimeout(() => { if (!disposed) setTerrainReady(true); }, 10000);
@@ -278,12 +308,16 @@ export default function ConquestBattlefield({ setup, progress, cinematic, gentle
     });
     const add = (unit: Pick<BattleUnit, 'id' | 'image' | 'model' | 'element' | 'speciesId' | 'name' | 'level' | 'hp' | 'maxHp'>, side: number, index: number, count: number, commander = false, slotOffset = 0, victoryOffset = 0) => {
       const { root, body, portrait, marker } = characterBase(unit, commander); root.userData.archer = unit.id === 'hero-elf'; group.add(root);
-      let hpLabel: T.Sprite | null = null;
-      if (!commander) { const canvas = document.createElement('canvas'); canvas.width = 192; canvas.height = 48; hpLabel = new T.Sprite(new T.SpriteMaterial({ map: new T.CanvasTexture(canvas), transparent: true, depthWrite: false, depthTest: false })); hpLabel.position.y = figureSpan(unit.speciesId ?? unit.id) + .19; hpLabel.scale.set(.7,.175,1); hpLabel.renderOrder = 10; root.add(hpLabel); }
-      const actor: Actor = { root, body, marker, hpLabel, initialHp: health(unit), maxHp: maxHealth(unit), lastHp: -1, markerColor: marker.material.color.clone(), key: combatKey(side, unit.id), height: figureSpan(unit.speciesId ?? unit.id), span: figureSpan(unit.speciesId ?? unit.id), radius: figureSpan(unit.speciesId ?? unit.id) * .32, slotOffset, victoryOffset, side, index, count, commander, heroId: commander ? unit.id : undefined, joints: [] }; runtime.actors.push(actor);
+      let hpLabel: HTMLDivElement | null = null;
+      if (!commander) {
+        hpLabel = document.createElement('div'); hpLabel.className = 'cq-floating-health'; hpLabel.dataset.unit = combatKey(side, unit.id);
+        hpLabel.style.setProperty('--health-color', ELEMENT_COLOR[unit.element]);
+        const track = document.createElement('div'), fill = document.createElement('i'), value = document.createElement('span'), tether = document.createElement('b');
+        track.append(fill); hpLabel.append(track, value, tether); healthLayer.current!.append(hpLabel);
+      }
+      const actor: Actor = { root, body, marker, hpLabel, healthVisible: true, initialHp: health(unit), maxHp: maxHealth(unit), lastHp: -1, markerColor: marker.material.color.clone(), key: combatKey(side, unit.id), height: figureSpan(unit.speciesId ?? unit.id), span: figureSpan(unit.speciesId ?? unit.id), radius: figureSpan(unit.speciesId ?? unit.id) * .32, slotOffset, victoryOffset, side, index, count, commander, heroId: commander ? unit.id : undefined, joints: [] }; runtime.actors.push(actor);
       const dimensions = (size: {height: number; width: number; depth?: number}, art: string) => {
         actor.height = size.height; actor.radius = Math.max(.1, Math.max(size.width, size.depth ?? size.width * .65) * .4);
-        actor.hpLabel?.position.set(0, actor.height + .19, 0);
         marker.geometry.dispose(); marker.geometry = new T.TorusGeometry(actor.radius, .012, 6, 40);
         root.userData.bodySize = { id: unit.speciesId ?? unit.id, span: actor.span, ...size, radius: actor.radius, art, slotOffset };
         if (host.current) host.current.dataset.bodySizes = JSON.stringify(runtime.actors.map(a => a.root.userData.bodySize).filter(Boolean));
@@ -322,8 +356,8 @@ export default function ConquestBattlefield({ setup, progress, cinematic, gentle
     if (setup.defenderCommander && setup.mode === 'claim') add({ ...setup.defenderCommander, element: 'metal', level: 0 }, 1, 0, 1, true);
     pose(runtime, progress, setup.result.won, createChoreography(setup), cinematic);
     void Promise.all(requests).then(results => { if (!cancelled) { setArtState(results.every(Boolean) ? 'ready' : 'portraits'); pose(runtime, current.current.progress, current.current.setup.result.won, createChoreography(current.current.setup), current.current.cinematic); } });
-    return () => { cancelled = true; timers.forEach(clearTimeout); runtime.actors.forEach(a => a.motion?.dispose()); runtime.units.remove(group); release(group); };
+    return () => { cancelled = true; timers.forEach(clearTimeout); runtime.actors.forEach(a => { a.motion?.dispose(); a.hpLabel?.remove(); }); runtime.units.remove(group); release(group); };
   }, [signature]);
   useEffect(() => { if (field.current) { field.current.gentle = gentle; for (const actor of field.current.actors) { const unit = (actor.side === -1 ? setup.attackers : setup.defenders).find(u => u.id === actor.key.slice(actor.key.indexOf(':') + 1)); if (unit) { actor.initialHp = health(unit); actor.maxHp = maxHealth(unit); } } pose(field.current, progress, setup.result.won, createChoreography(setup), cinematic); } }, [progress, setup, cinematic, gentle]);
-  return <div ref={host} className="cq-battlefield" data-element={setup.element} data-island-width={BATTLE_ISLAND_WIDTH} data-frame-width={BATTLE_FRAME_WIDTH} data-ready={ready ? 'true' : 'false'} data-art={artState} data-defender-commander={setup.defenderCommander?.id ?? ''} data-commander={setup.commander?.id ?? ''} data-characters={[...setup.attackers, ...setup.defenders].map(u => u.speciesId ?? u.id).join(',')}><span className="cq-art-status" role="status">{artState === 'loading' ? '正在召集角色模型…' : artState === 'portraits' ? '部分角色以原畫或名稱標示' : progress >= 0 && progress < 1 && cinematic ? '跟隨交戰視角' : '拖曳旋轉視角'}</span>{error && <div className="cq-battlefield-error" role="status">{error}</div>}</div>;
+  return <div ref={host} className="cq-battlefield" data-element={setup.element} data-island-width={BATTLE_ISLAND_WIDTH} data-frame-width={BATTLE_FRAME_WIDTH} data-ready={ready ? 'true' : 'false'} data-art={artState} data-defender-commander={setup.defenderCommander?.id ?? ''} data-commander={setup.commander?.id ?? ''} data-characters={[...setup.attackers, ...setup.defenders].map(u => u.speciesId ?? u.id).join(',')}><div ref={healthLayer} className="cq-health-layer" aria-hidden="true" /><span className="cq-art-status" role="status">{artState === 'loading' ? '正在召集角色模型…' : artState === 'portraits' ? '部分角色以原畫或名稱標示' : progress >= 0 && progress < 1 && cinematic ? '跟隨交戰視角' : '拖曳旋轉視角'}</span>{error && <div className="cq-battlefield-error" role="status">{error}</div>}</div>;
 }
