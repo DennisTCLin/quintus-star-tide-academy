@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110/output/adaptive-learning-20261110/progression-final/browser-check.py", line 16, in <module>
+    buttons=p.get_by_role('button').filter(has_text='挑戰神獸');assert buttons.count()==1;assert buttons.is_disabled()
+                                                                       ^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -128,6 +128,29 @@ suite('Math Island PostgreSQL transactions',()=>{
   expect(replay.data.family.profiles.doudou.tickets).toBe(1);
   expect(replay.data.family.profiles.doudou.mathIsland.run.id).not.toBe(run.id);
  });
+ for(const correct of [0,3])for(const previouslyPassed of [false,true])
+ it(`persists ${correct}/6 without newly passing play; old pass=${previouslyPassed}`,async()=>{
+  const c=await client(),f=await raw(c);
+  f.profiles.doudou.mathIsland={units:{'1A-01':{learn:true,...(previouslyPassed?{play:true}:{})}},pool:[],stats:{},day:c.state.day,attempted:[]};
+  await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)',[c.username,f]);
+  c.state=(await call('state',undefined,c)).data;
+  expect((await cmd(c,{type:'island-start',mode:'play',unit:'1A-01'})).status).toBe(200);
+  const run=(await raw(c)).profiles.doudou.mathIsland.run;
+  for(let i=0;i<6;i++)expect((await cmd(c,{type:'island-answer',runId:run.id,index:i,choice:i<correct?run.items[i].answer:run.items[i].choices.find(a=>a!==run.items[i].answer)})).status).toBe(200);
+  const payload=body(c,{type:'island-finish',runId:run.id});let settled;
+  for(let i=0;i<2;i++){
+   const r=await call('command',payload,c);expect(r.status).toBe(200);
+   const p=r.data.family.profiles.doudou;
+   expect(p.mathIsland.run.completed).toBe(true);expect(p.mathIsland.run.savedStar).toBe(false);
+   expect(Boolean(p.mathIsland.units['1A-01'].play)).toBe(previouslyPassed);expect(p.rewardRounds).toBe(0);
+   if(settled)expect(r.data.family).toEqual(settled);settled=r.data.family;
+  }
+  const second=await call('login',{username:c.username,password});expect(second.status).toBe(200);
+  expect(second.data.family).toEqual(settled);c.state=second.data;c.cookie=second.cookie;c.csrf=second.data.csrf;
+  expect((await cmd(c,{type:'island-start',mode:'play',unit:'1A-01'})).status).toBe(200);
+  expect(c.state.family.profiles.doudou.mathIsland.run.id).not.toBe(run.id);
+ });
+
  it('rejects early finish in gentle practice and redacts future answers',async()=>{
   const c=await client();await cmd(c,{type:'island-start',mode:'learn',unit:'1A-01'});
   let run=(await raw(c)).profiles.doudou.mathIsland.run;

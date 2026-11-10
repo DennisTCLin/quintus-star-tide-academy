@@ -111,11 +111,11 @@ export function finishIsland(s:Family,id:PlayerId,runId:string,day:string,captur
   if(r!.completed) return r!;
   tick(p,day);
   const run=r!,right=run.answers.filter((a,i)=>a===run.items[i].answer).length,ratio=right/run.items.length;
-  if(run.practice) {if(run.unit&&!islandFailed(run))finishStage(island!,run.unit,'play',ratio);}
+  // Completing gentle practice does not change the original four-of-six pass threshold.
+  const won=run.mode!=='learn' && run.answers.length===CHALLENGE_QUESTIONS && right>=CHALLENGE_QUESTIONS-2;
+  if(run.practice) {if(run.unit&&won)finishStage(island!,run.unit,'play',ratio);}
   else if(run.mode==='mock') {const grade=run.grade??1;if(grade===1)island!.mock=Math.max(island!.mock??0,ratio);else (island!.mocks??={})[grade]=Math.max(island!.mocks?.[grade]??0,ratio);}
   else if(run.mode==='boss' || !islandFailed(run)) finishStage(island!,run.unit!,run.mode,ratio);
-  // Gentle practice removes early defeat, not the original four-of-six reward.
-  const won=run.mode!=='learn' && run.answers.length===CHALLENGE_QUESTIONS && right>=CHALLENGE_QUESTIONS-2;
   if(won) p.milestones=completeVoyage(p.milestones,Math.min(120,run.points));
   if(won && run.day===day) {
     p.rewardRounds++;run.savedStar=true;

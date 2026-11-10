@@ -64,3 +64,14 @@ Release through the official GitHub PR/main workflow after the coordinator's fre
 Persisted learning phases and the optional `CaptureTrial.deferred: true` representation with empty questions/answers extend the saved JSON schema. Deferred captures remain pending until prepared or explicitly skipped. Older binaries, including ed248ea, reject this representation; this is a persistence compatibility change even though there is no SQL migration. Roll back with a compatible forward fix, not an old validator or clearing child progress. A backup is for verified recovery, never overwriting later child activity. The pre-existing floating companion overlap is reserved for the separately requested next PR.
 
 Production release and AFTER verification remain pending until recorded separately.
+
+
+## Final progression correction after 66d92
+
+The final reviewer found that completing gentle practice at 0/6 or 3/6 also set the existing `unit.play` pass flag. That flag drives the island's next-stage recommendation and unlock, so practice completion now uses `run.completed` alone; the original minimum 4/6 is still required to newly mark play passed. Existing `play:true` is never cleared. The only product delta after 66d92 is the ordering and guard in `src/island/server.ts`; rewards and preserved capture logic are unchanged.
+
+`progression-final/` binds this last source version. Full unit run: 193 files / 1688 tests PASS (39 DB-gated files / 379 tests skipped in that run). Four affected fresh PostgreSQL suites: 40 tests PASS, including 0/3 scores, existing pass retention, command receipts and second-device login. The earlier 41-suite / 380-test run remains evidence for 66d92, not a claim that those 41 suites were rerun after this flag correction. Two browser engines verify the actual island recommendation remains 玩一玩 after 3/6 and the boss button is disabled.
+
+Initial harness failures are retained: sandbox prohibited a local listen socket; a fourth PG suite name was mistyped; a UI selector failed because rendered low-grade text includes pronunciation. Final runs corrected those harness conditions without relaxing product assertions. Recovery hold patch and explicit runbook are prepared but not activated; 32 local HTTP cases reject all API traffic and preserve health, with zero cloud-service invocations. The compatible source and saved JSON readers stay in place, no database is restored.
+
+This candidate remains undeployed until final independent gate and production BEFORE/AFTER binding by the integration owner. Historical manifests bind their original candidate snapshots; use `progression-final/artifact-sha256.json` for this final evidence set.
