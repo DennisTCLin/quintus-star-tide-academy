@@ -1,7 +1,7 @@
-import { allocateCaptureMastered, allocateMastered, challengeEligible, LearningPreparationNeeded } from './adaptive-learning';
+import { allocateMastered, challengeEligible, LearningPreparationNeeded } from './adaptive-learning';
 import { startLearning } from './study-review';
 import {decodeFamilySeen,withCompactSeen} from './family-seen-codec';
-import { createCaptureTrial, validateCaptureTrial, capturePending } from "./capture-trial";
+import { reserveCaptureTrial, validateCaptureTrial, capturePending } from "./capture-trial";
 import { freshMastered, hasMastered, markMastered } from "./mastered-questions";
 import { routeForCourse } from "./subject-islands";
 import { newChallenge, openChallenge, readingSeconds, challengeExpired, correctNeeded, validateChallenge, type TieredChallenge, type TimingMode } from "./tiered-challenge";
@@ -844,15 +844,11 @@ export function settleCapture(p: Profile, run: Pick<Run, "encounter" | "capture"
   else {
     if (p.captureQuota?.day !== day) p.captureQuota = { day, attempts: 0 };
     requireValue(Number.isFinite(roll) && roll >= 0 && roll < 1);
-    if(p.learning.adaptive && trialContext) {
-      try{allocateCaptureMastered(p.learning,trialContext.grade,trialContext.course,trialContext.exclude);}
-      catch(e){if(!(e instanceof LearningPreparationNeeded))throw e;result.reason='learning';run.capture=result;return;}
-    }
     p.captureQuota!.attempts++;
     if ((p.owned[monster.id] ?? 0) >= 10000) result.reason = "capacity";
     else if (trialContext) {
       result.version=3;result.chance=100;result.outcome="pending";
-      result.trial=createCaptureTrial(p,trialContext.grade,trialContext.course,trialContext.exclude);
+      result.trial=reserveCaptureTrial(p,trialContext.grade,trialContext.course,trialContext.exclude);
     } else if (roll * 100 < result.chance) {
       result.outcome = p.owned[monster.id] ? "duplicate" : "joined";
       grantCard(p, monster.id, day);

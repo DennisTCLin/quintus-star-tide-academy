@@ -4,7 +4,7 @@ import {enableAdaptive,reportSchoolExposure,observeAdaptive,challengeEligible,al
 import {TOPIC_BY_ID,LEARNING_TOPICS,topicForQuestion} from '../adaptive-catalog';
 import {freshLearning,validateLearning,mergeLearning,allocateQuestions,allocateAdventureQuestions} from '../learning-engine';
 import {startStudy,startLearning,learningScope,learningLesson,answerStudy,nextStudy,pauseStudy,publicLearningLesson,observeStudy} from '../study-review';
-import {createCaptureTrial} from '../capture-trial';
+import {createCaptureTrial,reserveCaptureTrial,validateCaptureTrial,skipCapture,adaptCapture,answerCapture,capturePending} from '../capture-trial';
 import {questionById,LEARNING_BANK,COURSES,type Grade} from '../learning';
 import {markMastered} from '../mastered-questions';
 import {startIsland,answerIsland,finishIsland} from '../island/server';
@@ -74,9 +74,9 @@ describe('teach then practise without spending progress or rewards',()=>{
   ready(p.learning);const t=createCaptureTrial(p,4,'math',[]);expect(t.questions.every(id=>challengeEligible(p.learning,questionById(id),4))).toBe(true);
   const a=allocateBattleQuestion(f,'quintus','math','token');reportSchoolExposure(p.learning,4,topic.id,'not-yet',day);expect(()=>recordBattleAnswer(f,'quintus','token',a.id,true,day)).toThrow();
  });
- it('does not spend a capture attempt or invalidate earned completion when there are too few learned questions',()=>{
+ it('reserves the earned capture opportunity without granting a card when learned capacity is insufficient',()=>{
   const f=newFamily(),p=f.profiles.quintus;startRun(f,'quintus','math','old',1,false,day);enableAdaptive(p.learning);const r=p.run!;const before=p.captureQuota?.attempts??0;
-  settleCapture(p,r,day,.1,{grade:4,course:'math',exclude:[]});expect(r.capture?.reason).toBe('learning');expect(p.captureQuota?.attempts??0).toBe(before);
+  settleCapture(p,r,day,.1,{grade:4,course:'math',exclude:[]});expect(r.capture?.outcome).toBe('pending');expect(r.capture?.version).toBe(3);expect(p.captureQuota?.attempts).toBe(before+1);expect(r.capture?.trial?.answers).toEqual([]);expect(r.capture?.trial?.questions).toEqual([]);expect(r.capture?.trial?.deferred).toBe(true);const saved=structuredClone(p);settleCapture(p,r,day,.8,{grade:4,course:'math',exclude:[]});expect(p).toEqual(saved);
  });
 });
 describe('separate math-island policy',()=>{
@@ -138,4 +138,38 @@ it('pauses the clock of a blocked old voyage before teaching, preserving correct
 it('a small mastered bank can support capture without importing unfamiliar filler',()=>{
  const f=newFamily(),p=f.profiles.quintus;enableAdaptive(p.learning);ready(p.learning,6);const ids=questions.slice(0,6).map(q=>q.id);
  const t=createCaptureTrial(p,4,'math',ids);expect(new Set(t.questions).size).toBe(3);expect(t.questions.every(id=>challengeEligible(p.learning,questionById(id),4))).toBe(true);
+});
+
+for(const prefix of [5,6])it(`preserves legacy island capture with ${prefix} answers, then resumes after learning across a day boundary`,()=>{
+ const f=newFamily(),p=f.profiles.qingqing;p.mathIsland={units:{'1A-01':{learn:true}},pool:[],stats:{},day,attempted:[]};
+ const r=startIsland(f,'qingqing','play','1A-01','aaaaaaaa-aaaa-4aaa-aaaa-aaaaaaaaaaaa',day);
+ for(let i=0;i<prefix;i++)answerIsland(f,'qingqing',r.id,i,r.items[i].answer,day);
+ enableAdaptive(p.learning);protectIslandReservation(p.mathIsland,p.learning,1);
+ for(let i=prefix;i<6;i++)answerIsland(f,'qingqing',r.id,i,r.items[i].answer,day);
+ finishIsland(f,'qingqing',r.id,day);expect(r.capture?.outcome).toBe('pending');expect(capturePending(p)).toBe(true);
+ const before=balances(p),quota=structuredClone(p.captureQuota),monster=r.capture!.monster;
+ expect(()=>answerCapture(f,'qingqing','island',r.id,0,0,day)).toThrow('先練熟');
+ expect(adaptCapture(f,'qingqing','island',r.id,day)).toBe('learn');expect(balances(p)).toBe(before);expect(r.capture!.monster).toBe(monster);
+ expect(()=>startIsland(f,'qingqing','play','1A-01','new',day)).toThrow('降服');
+ const t=TOPIC_BY_ID['1:math:add-1'];reportSchoolExposure(p.learning,1,t.id,'taught','2026-11-11');
+ t.questions.slice(0,6).forEach(id=>observeAdaptive(p.learning,questionById(id)!,true,false,'2026-11-11'));
+ expect(adaptCapture(f,'qingqing','island',r.id,'2026-11-11')).toBe(true);
+ expect(r.capture!.trial!.questions).toHaveLength(3);expect(r.capture!.trial!.deferred).toBeUndefined();expect(r.capture!.trial!.questions.every(id=>challengeEligible(p.learning,questionById(id),1,'math'))).toBe(true);
+ for(let i=0;i<3;i++)answerCapture(f,'qingqing','island',r.id,i,questionById(r.capture!.trial!.questions[i])!.answer,'2026-11-11');
+ expect(['joined','duplicate']).toContain(r.capture!.outcome);expect(p.captureQuota).toEqual(quota);
+ const settled=structuredClone(p);finishIsland(f,'qingqing',r.id,'2026-11-11');expect(p).toEqual(settled);expect(()=>validateFamily(f)).not.toThrow();
+});
+
+it('keeps a valid recoverable capture even with an empty reviewed catalog',()=>{
+ const f=newFamily(),p=f.profiles.quintus;enableAdaptive(p.learning);const topics=LEARNING_TOPICS.splice(0);
+ try{const t=reserveCaptureTrial(p,4,'math',[]);expect(t).toMatchObject({deferred:true,questions:[],answers:[]});expect(()=>validateCaptureTrial({version:3,chance:100,monster:'metal-storm-dragon',outcome:'pending',trial:t},4,'math')).not.toThrow();}
+ finally{LEARNING_TOPICS.push(...topics);}
+});
+it('accepts only consistent deferred states and preserves explicit abandonment',()=>{
+ const f=newFamily(),p=f.profiles.quintus;startRun(f,'quintus','math','old-deferred',1,false,day);const r=p.run!;enableAdaptive(p.learning);r.status='won';
+ settleCapture(p,r,day,.1,{grade:4,course:'math',exclude:[]});const valid=structuredClone(r.capture!);expect(()=>validateCaptureTrial(valid,4,'math')).not.toThrow();
+ for(const alter of [(c:any)=>delete c.trial.deferred,(c:any)=>c.trial.deferred=false,(c:any)=>c.trial.questions=['bad'],(c:any)=>c.trial.answers=[{choice:0,correct:true}],(c:any)=>c.outcome='joined',(c:any)=>c.outcome='unavailable',(c:any)=>c.trial.skipped=true,(c:any)=>c.trial.course='tones']){
+  const c=structuredClone(valid);alter(c);expect(()=>validateCaptureTrial(c,4,'math')).toThrow();
+ }
+ skipCapture(f,'quintus','voyage',r.id);expect(r.capture!.outcome).toBe('escaped');expect(()=>validateCaptureTrial(r.capture!,4,'math')).not.toThrow();expect(()=>adaptCapture(f,'quintus','voyage',r.id,day)).toThrow();
 });

@@ -108,6 +108,7 @@ function publicState(row, user, csrf) {
     for(const captureRun of [r,p.mathIsland?.run]) {
       const capture=captureRun?.capture;
       if(capture?.version===3&&capture.trial) {
+        if(capture.trial.deferred){if(capture.outcome==='pending')captureBlocks[captureRun.id]=true;continue;}
         const index=captureIndex(capture), source=questionById(capture.trial.questions[index]);
         const {answer,explanation,target,...question}=source;
         if(capture.outcome==='pending'&&!challengeEligible(p.learning,source,player.grade))captureBlocks[captureRun.id]=true;

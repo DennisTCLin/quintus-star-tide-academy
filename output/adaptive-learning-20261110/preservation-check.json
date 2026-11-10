@@ -6,5 +6,6 @@
   "questionDataFilesChanged": [],
   "schemaSqlMigrations": 0,
   "productionWritesPerformed": false,
-  "serverBundleSha256": "bc44d3edd4a82193f8f7982ada35779aec244926c0c4fc35d7210ce073aa4c8a"
+  "serverBundleSha256": "06801796ce9a8cf8c562960aafdcb26e48da1fef82327fd55f1ba857642d8609",
+  "persistentShapeAddition": "CaptureTrial.deferred:true with empty questions/answers; old validators require a compatible forward fix"
 }

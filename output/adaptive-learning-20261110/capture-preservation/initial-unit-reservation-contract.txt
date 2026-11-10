@@ -1,0 +1,34 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110
+
+ ❯ src/__tests__/adaptive-transfer.test.ts (8 tests | 2 failed) 27ms
+   ❯ gentle island play retains the existing reward contract (3)
+     × retains 4/6 reward, command replay and a genuine new round 4ms
+     × retains 6/6 reward, command replay and a genuine new round 1ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/adaptive-transfer.test.ts > gentle island play retains the existing reward contract > retains 4/6 reward, command replay and a genuine new round
+ FAIL  src/__tests__/adaptive-transfer.test.ts > gentle island play retains the existing reward contract > retains 6/6 reward, command replay and a genuine new round
+Error: 先完成或放棄這次降服挑戰，通關獎勵已保留
+ ❯ need src/island/server.ts:17:65
+     15| import { emptyPlayer, stageOpen, kingOpen, playMixKeys, recordAnswer, …
+     16| import { islandFailed, type CloudIsland, type IslandRun, type IslandAn…
+     17| const need = (ok: unknown, message: string) => { if (!ok) throw Error(…
+       |                                                                 ^
+     18| function profile(s: Family,id: PlayerId) {
+     19|   need(PLAYERS.some(p => p.id === id),'找不到航海員');
+ ❯ startIsland src/island/server.ts:28:3
+ ❯ src/__tests__/adaptive-transfer.test.ts:19:283
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+
+ Test Files  1 failed | 192 passed | 39 skipped (232)
+      Tests  2 failed | 1681 passed | 375 skipped (2058)
+   Start at  14:34:50
+   Duration  24.71s (import 56%, tests 35%, transform 8%, worker 1%)
+
+    Isolate  232 workers spawned · ~58ms startup each (spawn + environment, per file)
+             at least ~3.29s faster with isolate: false — reuses workers across files instead of one per file
+

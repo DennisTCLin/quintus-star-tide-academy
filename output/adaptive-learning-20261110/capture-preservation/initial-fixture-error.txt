@@ -1,0 +1,31 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110
+
+ ❯ src/__tests__/adaptive-capture-reservation-cloud.test.mjs (3 tests | 3 skipped) 77ms
+   ❯ earned capture reservations survive adaptive preparation (3)
+     ↓ settles the old earned rewards and reserves the same monster once with zero unlearned question payloads
+     ↓ rejects old-client direct answers and replacement runs atomically without consuming rewards or reservation
+     ↓ resumes the same entitlement after trusted preparation; two-device replay cannot reroll or award twice
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/adaptive-capture-reservation-cloud.test.mjs > earned capture reservations survive adaptive preparation
+Error: Valid child identity, four-digit string password and supported grade required
+ ❯ provisionChildAccount server/child-account.mjs:11:11
+      9|       typeof password !== 'string' || !/^\d{4}$/.test(password) ||
+     10|       typeof displayName !== 'string' || !displayName.trim() || displa…
+     11|     throw Error('Valid child identity, four-digit string password and …
+       |           ^
+     12|   }
+     13|   username = username.toLowerCase();
+ ❯ src/__tests__/adaptive-capture-reservation-cloud.test.mjs:19:70
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  3 skipped (3)
+   Start at  14:33:25
+   Duration  2.15s (transform 68%, import 28%, tests 4%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110/output/adaptive-learning-20261110/expanded/cloud-per-file/adaptive-capture-reservation-cloud.test.json
