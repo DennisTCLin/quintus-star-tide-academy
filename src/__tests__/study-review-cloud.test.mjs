@@ -1,3 +1,4 @@
+import {preparedFamily} from './helpers/adaptive-fixture.mjs';
 import { describe,it,expect,beforeAll,afterAll } from 'vitest';
 import { randomUUID } from 'node:crypto';
 import { createAppServer } from '../../server.mjs';
@@ -14,7 +15,7 @@ suite('review transactions, permissions and zero rewards',()=>{
  beforeAll(async()=>{
   api=await createCloudApi({connectionString:process.env.TEST_DATABASE_URL,production:false});await api.pool.query('DELETE FROM request_limits');server=createAppServer({api});await new Promise(r=>server.listen(0,'127.0.0.1',r));url=`http://127.0.0.1:${server.address().port}`;
   username='study_'+randomUUID().slice(0,10).replaceAll('-','');await provisionChildAccount(api.pool,{username,grade:4,password,displayName:'Synthetic Review QA'});
-  const raw=newFamily(); startRun(raw,'quintus','math',randomUUID(),1,false,taipeiDay());const run=raw.profiles.quintus.run;
+  const raw=preparedFamily(); startRun(raw,'quintus','math',randomUUID(),1,false,taipeiDay());const run=raw.profiles.quintus.run;
   for(let i=0;i<6;i++){answerRun(raw,'quintus',run.id,i,questionById(run.questions[i]).answer,taipeiDay());if(i<5)nextQuestion(raw,'quintus',run.id,i);}
   if(run.capture?.outcome==='pending')skipCapture(raw,'quintus','voyage',run.id);
   baseline=structuredClone(raw.profiles.quintus);
@@ -56,10 +57,12 @@ suite('review transactions, permissions and zero rewards',()=>{
   expect(raw.learning.mastered).toEqual(baseline.learning.mastered);
   expect(a.state.studySummaries.quintus.independent).toBe(6); // Same-day review never pumps assessment totals.
  });
- it('refuses review while a normal challenge is active without losing saved progress',async()=>{
+ it('keeps the saved voyage and rewards while practice opens low-stakes learning',async()=>{
   await send({type:'start',course:'math',practice:true,timing:'relaxed'});
-  const previous=structuredClone(a.state.family.profiles.quintus.learning.study);
-  expect((await call('command',payload({type:'review-start',mode:'all'}))).status).toBe(400);
-  expect((await call('state')).data.family.profiles.quintus.learning.study).toEqual(previous);
+  const previous=structuredClone(a.state.family.profiles.quintus);
+  expect(previous.learning.study.session.mode).toBe('learn');
+  await send({type:'review-start',mode:'all'});
+  const current=(await call('state')).data.family.profiles.quintus;
+  expect(current.run).toEqual(previous.run);expect(current.coins).toBe(previous.coins);expect(current.growth).toEqual(previous.growth);expect(current.learning.study.session.id).toBe(previous.learning.study.session.id);
  });
 });

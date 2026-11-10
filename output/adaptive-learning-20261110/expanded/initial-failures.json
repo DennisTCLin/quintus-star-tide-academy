@@ -1,0 +1,368 @@
+[
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > quintus: all matching subject voyages save and reload without cross-school sources",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > alan: all matching subject voyages save and reload without cross-school sources",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > brownie: all matching subject voyages save and reload without cross-school sources",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > jay: all matching subject voyages save and reload without cross-school sources",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > alston: all matching subject voyages save and reload without cross-school sources",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > jimmy: all matching subject voyages save and reload without cross-school sources",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > feifei: all matching subject voyages save and reload without cross-school sources",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > olivia: all matching subject voyages save and reload without cross-school sources",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > sunny: all matching subject voyages save and reload without cross-school sources",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > jasper: all matching subject voyages save and reload without cross-school sources",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > quintus: preserves an actual pinned-base voyage in both array and prefix storage",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > alan: preserves an actual pinned-base voyage in both array and prefix storage",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > brownie: preserves an actual pinned-base voyage in both array and prefix storage",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > jay: preserves an actual pinned-base voyage in both array and prefix storage",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > alston: preserves an actual pinned-base voyage in both array and prefix storage",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > jimmy: preserves an actual pinned-base voyage in both array and prefix storage",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > feifei: preserves an actual pinned-base voyage in both array and prefix storage",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > olivia: preserves an actual pinned-base voyage in both array and prefix storage",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > sunny: preserves an actual pinned-base voyage in both array and prefix storage",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "all-child-curriculum-cloud.test.mjs",
+    "test": "all parent-confirmed child curriculum routing > jasper: preserves an actual pinned-base voyage in both array and prefix storage",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "capture-cloud.test.mjs",
+    "test": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > hides future capture questions and commits three correct answers exactly once across competing devices",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "capture-cloud.test.mjs",
+    "test": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > persists a wrong capture answer without retry, keeps rewards and isolates another account",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "capture-cloud.test.mjs",
+    "test": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > compensates legacy mastery once across concurrent commands, reads and another device",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "capture-cloud.test.mjs",
+    "test": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > persists third-mistake defeat once across concurrent replay and a second device",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "capture-cloud.test.mjs",
+    "test": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > does not double-count a wrong answer submitted with competing request IDs",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "capture-cloud.test.mjs",
+    "test": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > commits capture, quota and ownership once across concurrent receipt replay and another login",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "capture-cloud.test.mjs",
+    "test": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > rejects a competing request ID and all client-authored capture fields",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "capture-cloud.test.mjs",
+    "test": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > persists misses without rerolling and still allows a fourth capture",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "capture-cloud.test.mjs",
+    "test": "capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > preserves legacy fights and rejects forged monster import atomically",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "island-api.test.mjs",
+    "test": "Math Island PostgreSQL transactions > persists lower-semester quantities, money and calendar rounds through the actual API",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "island-api.test.mjs",
+    "test": "Math Island PostgreSQL transactions > settles island capture and a ticket once after three previous successes, with stable replay after a new round",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "island-api.test.mjs",
+    "test": "Math Island PostgreSQL transactions > redacts unsubmitted answers even from early-finish receipts",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "mastered-cloud.test.mjs",
+    "test": "durable successes across cloud devices > never reissues 48 correct question IDs when alternating devices, retries and server restart",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "ready-screen-cloud.test.mjs",
+    "test": "preparation preferences and image preflight > defaults by grade and persists an explicit choice without practice overwriting it",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "ready-screen-cloud.test.mjs",
+    "test": "preparation preferences and image preflight > new clients advance without starting a clock; ready is still idempotent",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "remediation-cloud.test.mjs",
+    "test": "remediation authoritative transaction and projection > reveals no future questions and automatically opens the next clock exactly once",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "remediation-cloud.test.mjs",
+    "test": "remediation authoritative transaction and projection > projects only wrong completed questions, rejects forged commands, and resumes corrections",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "remediation-cloud.test.mjs",
+    "test": "remediation authoritative transaction and projection > commits the last correction/reward once under duplicate and competing final requests",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > routes authenticated Jasper to first-grade exams and preserves existing saves and rewards",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > supports three consecutive grade-six battle questions and denies unavailable grade-one courses",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > opens authenticated grade-six English, hides answers and persists progress without changing math mastery",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > saves authenticated sixth-grade Chinese, science and social answers without leaking answers",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > routes Jay by the authenticated account and saves supplied and fallback courses without answer leakage",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > serves continuation questions after old-source mastery without resetting rewards",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > persists new math/social and English intersection voyages while retaining prior source mastery",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > allocates the right publisher server-side without sending future questions or answers",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > routes grade-one math for the authenticated Yongchun student and hides answers",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > serves and grades source phonetics for grade one without exposing future answers",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > routes English practice by each authenticated account without leaking answers",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > routes science battle questions for both schools and keeps answers server-only",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > routes social battle questions for both schools and keeps answers server-only",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > routes math by authenticated school and keeps younger math age appropriate",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > authenticates Dunhua, persists Nanyi math progress and keeps book 3 out of English",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > serves the new social supplement for three authenticated schools after prior mastery",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "school-curriculum-cloud.test.mjs",
+    "test": "school routing through authenticated cloud API > serves the new science supplement for three authenticated schools after prior mastery",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "study-review-cloud.test.mjs",
+    "test": "review transactions, permissions and zero rewards > respects ownership, rejects forged dates/rewards and hides future answers",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "study-review-cloud.test.mjs",
+    "test": "review transactions, permissions and zero rewards > duplicate/concurrent answers settle once, stale devices resync and can resume the same question",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "study-review-cloud.test.mjs",
+    "test": "review transactions, permissions and zero rewards > keeps all reward ledgers and old completion/compensation exactly unchanged across the group",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "subject-islands-cloud.test.mjs",
+    "test": "server-authoritative elemental voyages (PostgreSQL) > persists one same-element encounter across racing start replay and another device",
+    "classification": "pending",
+    "replacementContract": null
+  },
+  {
+    "suite": "subject-islands-cloud.test.mjs",
+    "test": "server-authoritative elemental voyages (PostgreSQL) > rejects forged elements, routes and species without changing the saved state",
+    "classification": "pending",
+    "replacementContract": null
+  }
+]

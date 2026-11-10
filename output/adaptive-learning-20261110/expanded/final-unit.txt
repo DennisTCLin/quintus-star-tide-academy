@@ -1,0 +1,12 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110
+
+
+ Test Files  193 passed | 38 skipped (231)
+      Tests  1679 passed | 372 skipped (2051)
+   Start at  14:23:32
+   Duration  24.99s (import 56%, tests 35%, transform 8%, worker 1%)
+
+    Isolate  231 workers spawned · ~59ms startup each (spawn + environment, per file)
+             at least ~3.35s faster with isolate: false — reuses workers across files instead of one per file
+

@@ -1,3 +1,4 @@
+import {preparedFamily} from './helpers/adaptive-fixture.mjs';
 import { beforeAll,afterAll,describe,it,expect } from 'vitest';
 import { randomUUID } from 'node:crypto';
 import { createAppServer } from '../../server.mjs';
@@ -16,7 +17,7 @@ suite('Math Island PostgreSQL transactions',()=>{
  it('persists lower-semester quantities, money and calendar rounds through the actual API',async()=>{
   const c=await client();
   for(const unit of ['1B-04','1B-06','1B-07']) {
-   for(const mode of ['learn','play','boss']) {
+   for(const mode of ['learn']) {
     expect((await cmd(c,{type:'island-start',mode,unit})).status).toBe(200);
     const run=(await raw(c)).profiles.doudou.mathIsland.run;
     expect(run.items.every(q=>Number(q.answer)>=0&&Number(q.answer)<=100)).toBe(true);
@@ -24,7 +25,8 @@ suite('Math Island PostgreSQL transactions',()=>{
     expect((await cmd(c,{type:'island-finish',runId:run.id})).status).toBe(200);
     if(c.state.family.profiles.doudou.mathIsland.run.capture?.outcome==='pending')expect((await cmd(c,{type:'capture-skip',source:'island',runId:run.id})).status).toBe(200);
     const again=await call('state',undefined,c);expect(again.status).toBe(200);c.state=again.data;
-    expect(c.state.family.profiles.doudou.mathIsland.units[unit][mode==='boss'?'boss':mode]).toBeTruthy();
+    expect(c.state.family.profiles.doudou.mathIsland.units[unit][mode]).toBeTruthy();
+    const saved=structuredClone(c.state.family);for(const locked of ['play','boss'])expect((await cmd(c,{type:'island-start',mode:locked,unit})).status).toBe(400);expect((await call('state',undefined,c)).data.family).toEqual(saved);
    }
   }
  },20000);
@@ -100,7 +102,7 @@ suite('Math Island PostgreSQL transactions',()=>{
   expect(c.state.family.profiles.doudou.mathIsland.attempted).toEqual(attempted);
  });
  it('settles island capture and a ticket once after three previous successes, with stable replay after a new round',async()=>{
-  const c=await client(),f=newFamily(),p=f.profiles.doudou;
+  const c=await client(),f=preparedFamily(),p=f.profiles.doudou;
   p.rewardRounds=3;p.rewardStars=1;p.captureQuota={day:c.state.day,attempts:3};
   p.mathIsland={units:{'1A-01':{learn:true}},pool:[],stats:{},day:'',attempted:[]};
   await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)',[c.username,f]);
@@ -126,19 +128,18 @@ suite('Math Island PostgreSQL transactions',()=>{
   expect(replay.data.family.profiles.doudou.tickets).toBe(1);
   expect(replay.data.family.profiles.doudou.mathIsland.run.id).not.toBe(run.id);
  });
- it('redacts unsubmitted answers even from early-finish receipts',async()=>{
+ it('rejects early finish in gentle practice and redacts future answers',async()=>{
   const c=await client();await cmd(c,{type:'island-start',mode:'learn',unit:'1A-01'});
   let run=(await raw(c)).profiles.doudou.mathIsland.run;
   for(let i=0;i<run.items.length;i++)await cmd(c,{type:'island-answer',runId:run.id,index:i,choice:run.items[i].answer});
   await cmd(c,{type:'island-finish',runId:run.id});await cmd(c,{type:'island-start',mode:'play',unit:'1A-01'});
   run=(await raw(c)).profiles.doudou.mathIsland.run;
   for(let i=0;i<3;i++)await cmd(c,{type:'island-answer',runId:run.id,index:i,choice:run.items[i].choices.find(a=>a!==run.items[i].answer)});
+  const early=await cmd(c,{type:'island-finish',runId:run.id});expect(early.status).toBe(400);
+  expect(c.state.family.profiles.doudou.mathIsland.run.items.slice(3).every(q=>q.answer==='')).toBe(true);
+  for(let i=3;i<6;i++)expect((await cmd(c,{type:'island-answer',runId:run.id,index:i,choice:run.items[i].choices.find(a=>a!==run.items[i].answer)})).status).toBe(200);
   const payload=body(c,{type:'island-finish',runId:run.id});
-  for(let i=0;i<2;i++){
-   const r=await call('command',payload,c);expect(r.status).toBe(200);
-   expect(r.data.result.items.slice(3).every(q=>q.answer==='')).toBe(true);
-   expect(r.data.family.profiles.doudou.mathIsland.units['1A-01'].play).toBeUndefined();
-  }
+  for(let i=0;i<2;i++){const r=await call('command',payload,c);expect(r.status).toBe(200);expect(r.data.result.savedStar).toBe(false);expect(r.data.family.profiles.doudou.rewardRounds).toBe(0);}
  });
 
 });

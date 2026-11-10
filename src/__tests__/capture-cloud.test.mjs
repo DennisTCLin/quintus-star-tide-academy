@@ -1,3 +1,4 @@
+import {preparedFamily} from './helpers/adaptive-fixture.mjs';
 import { beforeAll, afterAll, describe, it, expect, vi } from "vitest";
 const rng = vi.hoisted(() => ({ value: 0 }));
 vi.mock("node:crypto", async importOriginal => ({ ...await importOriginal(), randomInt: (_min, max) => Math.min(rng.value, max - 1) }));
@@ -26,7 +27,7 @@ suite("capture transactions, legacy receipts and three-question guarantees (Post
   }
   async function state(c) { const res = await call("state", undefined, c); expect(res.status).toBe(200); c.state = res.data; return res.data; }
   async function seed(c, alter = () => {}) {
-    const family = newFamily(), day = taipeiDay();
+    const family = preparedFamily(), day = taipeiDay();
     startRun(family, "quintus", "math", randomUUID(), 0, false, day);
     for (let i = 0; i < 5; i++) { const r = family.profiles.quintus.run; answerRun(family, "quintus", r.id, i, questionById(r.questions[i]).answer, day); nextQuestion(family, "quintus", r.id, i); }
     // Most cases below explicitly protect persisted pre-upgrade fights.
@@ -65,7 +66,8 @@ suite("capture transactions, legacy receipts and three-question guarantees (Post
       expect(c.state.family.profiles.quintus.owned[monster]??0).toBe(i===2?1:0);
     }
     const p=c.state.family.profiles.quintus;expect(p.run.capture.outcome).toBe('joined');
-    for(const k of ['coins','tickets','growth','rewardStars','rewardRounds','learning'])expect(p[k]).toEqual(reward[k]);
+    for(const k of ['coins','tickets','growth','rewardStars','rewardRounds'])expect(p[k]).toEqual(reward[k]);
+    expect({...p.learning,adaptive:reward.learning.adaptive}).toEqual(reward.learning);expect(p.learning.adaptive.sequence).toBe(reward.learning.adaptive.sequence+3);
     const replay=await call('command',command(c,{type:'capture-answer',source:'voyage',runId:run.id,index:2,choice:0}),c);expect(replay.status).toBe(400);
     const login=await call('login',{username:c.username,password});expect(login.data.family.profiles.quintus.owned[monster]).toBe(1);
   });
@@ -82,7 +84,7 @@ suite("capture transactions, legacy receipts and three-question guarantees (Post
     expect((await state(c)).family.profiles.quintus.run.capture.outcome).toBe('escaped');
   });
   it("compensates legacy mastery once across concurrent commands, reads and another device", async () => {
-    const c=await client(), old=newFamily();old.version=6;
+    const c=await client(), old=preparedFamily();old.version=6;
     old.profiles.quintus.coins=7;old.profiles.quintus.milestones.masteryPoints=39;
     for(const p of Object.values(old.profiles)) delete p.masteryConversion;
     await api.pool.query("UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)",[c.username,old]);
@@ -205,7 +207,7 @@ suite("capture transactions, legacy receipts and three-question guarantees (Post
     const c = await client(); await seed(c, s => { delete s.profiles.quintus.run.encounter.combat; delete s.profiles.quintus.run.encounter.route; });
     const res = await call("command", lastAnswer(c), c); expect(res.status).toBe(200);
     expect(res.data.family.profiles.quintus.run.capture.reason).toBe("legacy");
-    const fresh = await client(), snapshot = newFamily(), monster = MONSTER_CATALOG[0].id;
+    const fresh = await client(), snapshot = preparedFamily(), monster = MONSTER_CATALOG[0].id;
     snapshot.profiles.quintus.owned[monster] = 1; snapshot.profiles.quintus.firstAcquired[monster] = taipeiDay();
     const rejected = await call("migrate", { id: randomUUID(), revision: 0, snapshot }, fresh);
     expect(rejected.status).toBe(400);

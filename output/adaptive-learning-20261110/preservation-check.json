@@ -2,7 +2,9 @@
   "base": "a4d1e62a20286d62fa555d4d8b1a73a31f0d24e8",
   "existingPronunciationPhrases": 28183,
   "existingPronunciationChanges": 0,
+  "existingCharacterChanges": 0,
   "questionDataFilesChanged": [],
   "schemaSqlMigrations": 0,
-  "productionWritesPerformed": false
+  "productionWritesPerformed": false,
+  "serverBundleSha256": "bc44d3edd4a82193f8f7982ada35779aec244926c0c4fc35d7210ce073aa4c8a"
 }

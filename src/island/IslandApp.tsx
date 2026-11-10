@@ -552,7 +552,7 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
                   </span>
                   <span className="tx">
                     <b><Zy text={`${current?"繼續":""}${STAGE_INFO[st].name}`}/></b>
-                    <small><Zy text={current?`已完成 ${me.run!.answers.length} / ${me.run!.items.length} 題，接著玩。`:open ? embed.adaptive&&st==='play'?'先自己試，錯了會教你；不扣血、不計通關獎勵。':STAGE_INFO[st].kid : st === "play" ? "先完成「學一學」" : "先完成「玩一玩」"}/></small>
+                    <small><Zy text={current?`已完成 ${me.run!.answers.length} / ${me.run!.items.length} 題，接著玩。`:open ? embed.adaptive&&st==='play'?'先自己試，錯了會教你；不扣血，答對四題可得通關獎勵。':STAGE_INFO[st].kid : st === "play" ? "先完成「學一學」" : "先完成「玩一玩」"}/></small>
                   </span>
                   <span className="ok">{doneMark ? "✅" : ""}</span>
                 </button>

@@ -1,4 +1,5 @@
-import { scopeKey, previewAllowed, chooseLearningTopic, mappedQuestion, challengeEligible, independentSuccess, observeAdaptive, reportSchoolExposure, schoolExposure, showExample } from './adaptive-learning';
+import {teachingExample} from './adaptive-teaching';
+import { scopeKey, previewAllowed, chooseLearningTopic, reviewEligible, mappedQuestion, challengeEligible, independentSuccess, observeAdaptive, reportSchoolExposure, schoolExposure, showExample } from './adaptive-learning';
 import { TOPIC_BY_ID, topicForQuestion } from './adaptive-catalog';
 import type { LearningState } from './learning-engine';
 import { questionById, questionCapacity, type LearningQuestion, type Grade, type Course } from './learning';
@@ -88,7 +89,7 @@ function compatible(s: LearningState, grade: Grade, q: LearningQuestion | undefi
   return !!q && (allowRetired || !q.retired) && q.grade === grade && (!course || q.course === course)
     && COURSES[grade].some(c => c.id === q.course)
     && (!q.examSources?.length || eligibleExam(s.school, grade, q.course, q))
-    && (!s.adaptive || mappedQuestion(s,q,grade,course) && (schoolExposure(s,topicForQuestion(q)!.id)==='taught'||previewAllowed(s,topicForQuestion(q)!.id)));
+    && (!s.adaptive || reviewEligible(s,q,grade,course));
 }
 /** Enumerate only earned bits, never render the entire generated bank for summaries. */
 function knownIds(s: LearningState): string[] {
@@ -104,7 +105,9 @@ function knownIds(s: LearningState): string[] {
 }
 export function studySummary(s: LearningState, grade: Grade, day: string) {
   const d = studyDay(day);
-  const entries = Object.entries(s.study?.entries ?? {}).filter(([id]) => compatible(s, grade, questionById(id)));
+  // Historical assessment totals remain visible even when an item is held from play.
+  const entries = Object.entries(s.study?.entries ?? {}).filter(([id]) => {const q=questionById(id);return q?.grade===grade;});
+  const held=entries.filter(([id])=>!compatible(s,grade,questionById(id))).length;
   const skills: Record<string, { skill: string; course: Course; attempts: number; correct: number; assisted: number }> = {};
   let attempts = 0, independent = 0, correct = 0, crossDay = 0, due = 0, mistakes = 0;
   for (const [id, e] of entries) {
@@ -115,7 +118,7 @@ export function studySummary(s: LearningState, grade: Grade, day: string) {
     const k = skills[key] ??= { skill: key, course: q.course, attempts: 0, correct: 0, assisted: 0 };
     k.attempts += e.independent; k.correct += e.correct; k.assisted += e.attempts - e.independent;
   }
-  return { attempts, independent, assisted: attempts - independent, correct, crossDay, due, mistakes,
+  return { held, attempts, independent, assisted: attempts - independent, correct, crossDay, due, mistakes,
     accuracy: independent ? Math.round(correct / independent * 100) : null,
     weak: Object.values(skills).filter(x => x.attempts + x.assisted >= 3 && x.correct / (x.attempts + x.assisted) < .8)
       .sort((a, b) => a.correct / (a.attempts + a.assisted) - b.correct / (b.attempts + b.assisted)).slice(0, 3) };
@@ -145,6 +148,7 @@ export function startStudy(s: LearningState, grade: Grade, day: string, id: stri
     if (family) families.add(family);
   }
   need(questions.length, '這題需要先間隔兩題再試；可以先挑戰其他題目，或明天再複習。');
+  if(s.adaptive)for(const id of questions)if(independentSuccess(s,questionById(id)!))(s.adaptive.reviewKnown??={})[id]=true;
   study.session = { id, mode, ...(course ? { course } : {}), questions, index: 0, answers: [], retries: questions.flatMap((id, i) => study.entries[id]?.needsPractice ? [i] : []), settled: false, assisted: false, status: 'active' };
   return true;
 }
@@ -224,5 +228,5 @@ export function publicLearningLesson(s:LearningState) {
  const r=s.study?.session;if(r?.mode!=='learn')return;
  const t=TOPIC_BY_ID[r.topic!],example=questionById(r.questions[r.index])!;
  return {topic:t.id,title:t.title,lesson:t.lesson,exposure:schoolExposure(s,t.id)??'unknown',
-  ...(r.phase==='lesson'?{example}: {})};
+  ...(r.phase==='lesson'?{example:teachingExample(example)}: {})};
 }

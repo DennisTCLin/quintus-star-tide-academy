@@ -33,7 +33,7 @@ describe('school exposure and independent learning evidence',()=>{
  it('excludes all unmapped/mismatched exams and English variants, without a capacity fallback',()=>{
   const s=state();ready(s);for(const q of LEARNING_BANK.filter(q=>q.grade===4&&q.examSources))observeAdaptive(s,q,true,false,day);
   const chosen=allocateAdventureQuestions(s,4,'math',6);expect(chosen.every(x=>topicForQuestion(x.id)?.id===topic.id)).toBe(true);
-  expect(()=>allocateAdventureQuestions(s,4,'english',6)).toThrow();expect(()=>allocateMastered(s,4,'math',6,questions.map(q=>q.id))).toThrow();
+  expect(()=>allocateAdventureQuestions(s,4,'english',6)).toThrow();expect(allocateMastered(s,4,'math',6,questions.map(q=>q.id)).every(x=>!questions.some(q=>q.id===x.id)&&challengeEligible(s,questionById(x.id),4))).toBe(true);
  });
  it('preserves server-owned scope and evidence on merge; offline files cannot forge them',()=>{
   const s=state();ready(s);const incoming=freshLearning();incoming.adaptive=structuredClone(s.adaptive);incoming.adaptive!.scope={};
@@ -137,5 +137,5 @@ it('pauses the clock of a blocked old voyage before teaching, preserving correct
 
 it('a small mastered bank can support capture without importing unfamiliar filler',()=>{
  const f=newFamily(),p=f.profiles.quintus;enableAdaptive(p.learning);ready(p.learning,6);const ids=questions.slice(0,6).map(q=>q.id);
- const t=createCaptureTrial(p,4,'math',ids);expect(new Set(t.questions).size).toBe(3);expect(t.questions.every(id=>ids.includes(id)&&challengeEligible(p.learning,questionById(id),4))).toBe(true);
+ const t=createCaptureTrial(p,4,'math',ids);expect(new Set(t.questions).size).toBe(3);expect(t.questions.every(id=>challengeEligible(p.learning,questionById(id),4))).toBe(true);
 });

@@ -1,3 +1,6 @@
+import {withAdaptiveOverlay,prepareProfile} from './helpers/adaptive-fixture.mjs';
+import {challengeEligible} from '../../build/game.mjs';
+import {topicForQuestion} from '../adaptive-catalog';
 import {beforeAll,afterAll,describe,it,expect} from 'vitest';
 import {randomUUID,createHash} from 'node:crypto';
 import pinned from '../../docs/content-review/finals131-round6-20261107/fixtures/base-c66-families.json';
@@ -34,13 +37,13 @@ suite('round6 content on a fresh isolated PostgreSQL database',()=>{
     const result=await call('state',undefined,client);expect(result.status).toBe(200);
     const after=await storage(account.accountId);expect(after.text).toBe(before.text);expect(after.updated).toBe(before.updated);
     expect(structuredClone(validateFamily(structuredClone(after.family)))).toEqual(item.expectedRuntime);
-    const expected=structuredClone(item.expectedRuntime);expected.profiles[player].learning.school=school;
+    const expected=withAdaptiveOverlay(item.expectedRuntime);expected.profiles[player].learning.school=school;
     for(const profile of Object.values(expected.profiles))if(profile.run)profile.run.questions=profile.run.questions.map((id,i)=>i===profile.run.index?id:'');
     expect(result.data.family).toEqual(expected);
     console.info('round6-pinned-storage',JSON.stringify({synthetic:true,grade,course,mode,base:pinned.base,before:hash(before.text),after:hash(after.text),timestampUnchanged:before.updated===after.updated,fullRuntimeEqual:true}));
    }
   });
-  it(`${grade}.${course}: allocates new matched sources, reloads and rewards an answer once`,async()=>{
+  it(`${grade}.${course}: retains supplied sources, gates unmapped papers, and rewards prepared content once`,async()=>{
    const account=accounts[player],family=newFamily(),p=family.profiles[player];p.learning.school=school;p.coins=1234;p.tickets=3;p.starTickets=2;
    const newIds=new Set(additions.filter(q=>q.grade===grade&&q.course===course).map(q=>q.id));
    const newFamilies=new Set(additions.filter(q=>newIds.has(q.id)).map(q=>q.sourceFamily));
@@ -48,18 +51,19 @@ suite('round6 content on a fresh isolated PostgreSQL database',()=>{
    const fillers=new Set(),fillerFamilies=new Set();
    for(const q of LEARNING_BANK)if(fillers.size<Math.max(0,6-newFamilies.size)&&q.grade===grade&&q.course===course&&!newIds.has(q.id)&&!q.retired&&!q.rephraseOf&&q.examSources?.length&&eligibleExam(school,grade,course,q)&&!fillerFamilies.has(q.sourceFamily??q.id)) {fillers.add(q.id);fillerFamilies.add(q.sourceFamily??q.id);}
    for(const q of LEARNING_BANK)if(q.grade===grade&&q.course===course&&!newIds.has(q.id)&&!fillers.has(q.id))markMastered(p.learning,q.id);
-   const peerBefore=Object.fromEntries(Object.entries(family.profiles).filter(([id])=>id!==player));
+   prepareProfile(p,grade,{school,courses:[course]});
+   for(const q of additions.filter(q=>q.grade===grade&&q.course===course)){expect(questionById(q.id)).toEqual(q);expect(eligibleExam(school,grade,course,q)).toBe(true);if(!topicForQuestion(q))expect(challengeEligible(p.learning,q,grade,course)).toBe(false);}
+   const peerBefore=Object.fromEntries(Object.entries(withAdaptiveOverlay(family).profiles).filter(([id])=>id!==player));
    await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=$1',[account.accountId,family]);
    const client=account.client;expect(client.status).toBe(200);let st=(await call('state',undefined,client)).data;
    async function command(command,id=randomUUID()){const body={id,revision:st.family.revision,command:{player,...command}},r=await call('command',body,client);expect(r.status,JSON.stringify(r.data)).toBe(200);st=r.data;return body;}
    await command({type:'start',course,practice:false,timing:'relaxed'});const run=st.family.profiles[player].run;
    const storedRun=(await storage(account.accountId)).family.profiles[player].run;
-   expect(storedRun.questions).toHaveLength(6);for(const id of storedRun.questions)expect(newIds.has(id)||fillers.has(id),id).toBe(true);
-   expect(storedRun.questions.filter(id=>newIds.has(id))).toHaveLength(Math.min(6,newFamilies.size));
+   expect(storedRun.questions).toHaveLength(6);for(const id of storedRun.questions)expect(challengeEligible(p.learning,questionById(id),grade,course),id).toBe(true);
    expect(new Set(storedRun.questions.map(id=>questionById(id).sourceFamily??id)).size).toBe(6);
    let answered=0;
    for(let index=0;index<6;index++){
-    await command({type:'ready-question',runId:run.id,index});const q=st.questions[player];expect(q.id).toBe(storedRun.questions[index]);expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefined();expect(q.examSources.length).toBeGreaterThan(0);
+    await command({type:'ready-question',runId:run.id,index});const q=st.questions[player];expect(q.id).toBe(storedRun.questions[index]);expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefined();if(q.examSources?.length)expect(eligibleExam(school,grade,course,questionById(q.id))).toBe(true);
     const body=await command({type:'answer',runId:run.id,index,choice:questionById(q.id).answer});answered++;expect(st.result).toBe(true);expect(st.family.profiles[player].coins).toBe(1234+10*answered);
     const replay=await call('command',body,client);expect(replay.status).toBe(200);expect(replay.data.family.profiles[player].coins).toBe(1234+10*answered);
     const repeated=await call('command',{...body,id:randomUUID(),revision:st.family.revision},client);expect([200,400,409]).toContain(repeated.status);

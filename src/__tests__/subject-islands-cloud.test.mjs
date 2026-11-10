@@ -1,3 +1,4 @@
+import {preparedFamily} from './helpers/adaptive-fixture.mjs';
 import { beforeAll, afterAll, describe, it, expect } from 'vitest';
 import { randomUUID } from 'node:crypto';
 import { createAppServer } from '../../server.mjs';
@@ -14,7 +15,7 @@ suite('server-authoritative elemental voyages (PostgreSQL)',()=>{
  async function client(){
   const username='island_'+randomUUID().replaceAll('-','').slice(0,16),r=await call('register',{username,password});expect(r.status).toBe(200);
   const c={username,cookie:r.cookie,csrf:r.data.csrf,state:r.data};
-  await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)',[username,newFamily()]);
+  await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)',[username,preparedFamily()]);
   c.state=(await call('state',undefined,c)).data;return c;
  }
  function command(c,body){return {id:randomUUID(),revision:c.state.family.revision,command:{player:'quintus',...body}};}

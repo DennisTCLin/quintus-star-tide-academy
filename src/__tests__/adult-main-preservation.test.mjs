@@ -1,3 +1,4 @@
+import {withAdaptiveOverlay} from './helpers/adaptive-fixture.mjs';
 import {beforeAll,afterAll,describe,it,expect} from 'vitest';
 import {createHash} from 'node:crypto';
 import pinned from '../../docs/adult-shared-game/rebind-4543cdeb/fixtures/main-families.json';
@@ -31,7 +32,7 @@ suite('adult integration retains exact-main child saves on login and state',()=>
       const cookie=login.headers.get('set-cookie')?.split(';')[0];
       const state=await fetch(url+'/api/state',{headers:{Cookie:cookie}});expect(state.status).toBe(200);const actual=await state.json();
       const after=await storage(account.accountId);expect(after.text).toBe(before.text);expect(after.updated).toBe(before.updated);expect(structuredClone(validateFamily(structuredClone(after.family)))).toEqual(item.expectedRuntime);
-      const expected=structuredClone(item.expectedRuntime);for(const profile of Object.values(expected.profiles))if(profile.run)profile.run.questions=profile.run.questions.map((id,i)=>i===profile.run.index?id:'');
+      const expected=withAdaptiveOverlay(item.expectedRuntime);for(const profile of Object.values(expected.profiles))if(profile.run)profile.run.questions=profile.run.questions.map((id,i)=>i===profile.run.index?id:'');
       expect(actual.family).toEqual(expected);
       console.info('adult-main-storage',JSON.stringify({synthetic:true,base:pinned.base,grade:item.grade,course:item.course,mode,before:hash(before.text),after:hash(after.text),timestampUnchanged:before.updated===after.updated,fullRuntimeEqual:true}));
     }

@@ -114,7 +114,8 @@ export function finishIsland(s:Family,id:PlayerId,runId:string,day:string,captur
   if(run.practice) {if(run.unit&&!islandFailed(run))finishStage(island!,run.unit,'play',ratio);}
   else if(run.mode==='mock') {const grade=run.grade??1;if(grade===1)island!.mock=Math.max(island!.mock??0,ratio);else (island!.mocks??={})[grade]=Math.max(island!.mocks?.[grade]??0,ratio);}
   else if(run.mode==='boss' || !islandFailed(run)) finishStage(island!,run.unit!,run.mode,ratio);
-  const won=run.mode!=='learn' && !run.practice && run.answers.length===CHALLENGE_QUESTIONS && !islandFailed(run);
+  // Gentle practice removes early defeat, not the original four-of-six reward.
+  const won=run.mode!=='learn' && run.answers.length===CHALLENGE_QUESTIONS && right>=CHALLENGE_QUESTIONS-2;
   if(won) p.milestones=completeVoyage(p.milestones,Math.min(120,run.points));
   if(won && run.day===day) {
     p.rewardRounds++;run.savedStar=true;

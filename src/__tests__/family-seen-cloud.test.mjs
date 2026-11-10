@@ -1,3 +1,4 @@
+import {preparedFamily} from './helpers/adaptive-fixture.mjs';
 import {describe,it,expect,beforeAll,afterAll} from 'vitest';
 import {randomUUID} from 'node:crypto';
 import {createAppServer} from '../../server.mjs';
@@ -14,7 +15,7 @@ suite('lossless seen history through real PostgreSQL and existing public API',()
  beforeAll(async()=>{
   api=await createCloudApi({connectionString:process.env.TEST_DATABASE_URL,production:false});server=createAppServer({api});await new Promise(r=>server.listen(0,'127.0.0.1',r));url=`http://127.0.0.1:${server.address().port}`;
   account=await provisionChildAccount(api.pool,{username,grade:4,password,displayName:'Synthetic codec QA'});
-  baseline=newFamily();startRun(baseline,'quintus','math','codec-cloud-active',0,false,taipeiDay(),'relaxed');
+  baseline=preparedFamily();startRun(baseline,'quintus','math','codec-cloud-active',0,false,taipeiDay(),'relaxed');
   baseline.profiles.quintus.learning.seen=[];
   // The source IDs in this complete legacy cohort are independently known.
   for(let i=1;i<=13;i++)baseline.profiles.quintus.learning.seen.push(`cx1-dd114-2-${i}`);

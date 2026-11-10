@@ -22,7 +22,7 @@ export function StudySummary({ summary, name, grade }: { summary?: Summary; name
     <dl><div><dt>不用提示的正確率</dt><dd>{summary?.accuracy == null ? '尚無紀錄' : `${summary.accuracy}%`}</dd></div>
       <div><dt>獨立作答</dt><dd>{summary?.correct ?? 0} / {summary?.independent ?? 0} 題次</dd></div>
       <div><dt>今日到期</dt><dd>{summary?.due ?? 0} 題</dd></div><div><dt>跨日再次答對</dt><dd>{summary?.crossDay ?? 0} 題次</dd></div></dl>
-    <h3>值得再練的能力</h3>{summary?.weak.length ? <ul>{summary.weak.map(x => <li key={x.skill}>{SKILL_NAMES[x.skill] ?? COURSES[grade].find(c => c.id === x.course)?.name}：{x.correct} / {x.attempts} 次獨立答對、{x.assisted} 次使用提示</li>)}</ul> : <p>目前沒有足夠紀錄判定弱項；每項至少累積三次作答（含使用提示）。</p>}
+    {Boolean(summary?.held)&&<p>另有 {summary?.held} 題的內容或學習證據待確認，作答紀錄仍保留。</p>}<h3>值得再練的能力</h3>{summary?.weak.length ? <ul>{summary.weak.map(x => <li key={x.skill}>{SKILL_NAMES[x.skill] ?? COURSES[grade].find(c => c.id === x.course)?.name}：{x.correct} / {x.attempts} 次獨立答對、{x.assisted} 次使用提示</li>)}</ul> : <p>目前沒有足夠紀錄判定弱項；每項至少累積三次作答（含使用提示）。</p>}
     <p className="f-muted">第一次獨立答對後隔 1 天，再次跨日答對後隔 3 天、7 天複習。舊精熟紀錄保留，沒有日期的舊題不列為逾期。</p>
   </section>;
 }
@@ -77,7 +77,7 @@ export default function StudyReview({ lesson, plan, session: r, question: q, gra
       <div className="f-actions"><button className="f-primary" disabled={locked} onClick={() => onStart(r.mode==='learn'?'learn':'all', r.course)}>再練一組</button><button disabled={locked} onClick={() => onStart('mistakes', r.course)}>複習錯題</button><button onClick={onCourse}>換個科目</button><button onClick={onHome}>休息一下</button></div></div>
       : <div className="f-actions">{r.settled && <button className="f-primary" disabled={locked} onClick={() => void act('review-next')}>看懂了，下一題</button>}<button disabled={locked} onClick={async () => { if (await act('review-pause')) onHome(); }}>先休息，保留這組</button><button disabled={locked} onClick={async () => { if (await act('review-finish')) onHome(); }}>結束這組</button></div>}
     {progressPanel}
-    <p className="f-muted">到期題與錯題優先，搭配已學題目；舊題沒有作答日期，也可以從這裡開始複習。</p>
+    <p className="f-muted">到期題與錯題優先，搭配已學題目；已確認學過的題目，可以從這裡開始複習。</p>
     <p className="f-muted">這裡不計時、不扣血。每組最多六題，數量不足時以實際可用題數練習。</p>
   </section>;
 }

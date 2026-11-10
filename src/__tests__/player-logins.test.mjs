@@ -1,3 +1,4 @@
+import {withAdaptiveOverlay} from './helpers/adaptive-fixture.mjs';
 import { beforeAll, afterAll, beforeEach, describe, it, expect } from 'vitest';
 import { randomUUID, createHash } from 'node:crypto';
 import { createCloudApi } from '../../server/cloud.mjs';
@@ -59,7 +60,7 @@ suite('individual logins preserve the existing household (real PostgreSQL)', () 
     for (const e of members) {
       const r=await login(e); expect(r.status).toBe(200); expect(r.data.playerId).toBe(e.playerId);
       expect(r.data.displayName).toBe(e.displayName); expect(r.data.canMigrate).toBe(false);
-      expect(r.data.family.profiles).toEqual(family.profiles);
+      expect(r.data.family.profiles).toEqual(withAdaptiveOverlay(family).profiles);
       expect(r.data.verified).toEqual({quintus:20,doudou:40,qingqing:60,feifei:80});
       expect(JSON.stringify(r.data)).not.toContain('password_hash');
     }

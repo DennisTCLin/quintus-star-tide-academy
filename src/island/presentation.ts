@@ -33,7 +33,7 @@ export function resumePosition(run:IslandRun,segs:Seg[]) {
 /** One result contract for spoken feedback, mood and the visible completion state. */
 export function islandOutcome(r: {practice?:true;mode:Mode;size:number;right:number;wrong:number}, guardianName = "神獸") {
   const failed=!r.practice && r.mode!=='learn' && r.wrong>=MAX_MISTAKES;
-  const pass=r.mode==='learn' || (!failed && r.size===CHALLENGE_QUESTIONS && r.right+r.wrong===CHALLENGE_QUESTIONS);
+  const pass=r.mode==='learn' || (!failed && r.size===CHALLENGE_QUESTIONS && r.right+r.wrong===CHALLENGE_QUESTIONS && r.right>=CHALLENGE_QUESTIONS-2);
   const head=failed ? "已經答錯三題，這次挑戰先結束。休息一下，再來試試！"
     : r.mode==='learn' ? `學一學完成了！答對${cnq(r.right)}題。接著去玩一玩，自己試試看！`
     : pass ? isExam(r.mode) ? `六題挑戰完成，你打敗了${guardianName}！` : `六題挑戰完成！答對${cnq(r.right)}題。`
