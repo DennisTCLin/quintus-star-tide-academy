@@ -1,0 +1,35 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110
+
+stdout | src/__tests__/finals-round6-cloud.test.mjs > round6 content on a fresh isolated PostgreSQL database > 1.math: preserves actual-mainc66 progress and raw storage on login/state
+round6-pinned-storage {"synthetic":true,"grade":1,"course":"math","mode":"array","base":"c66f492811c51298673fede44d0997d33aa64494","before":"1f8050837b6f034dc48273a79dfb1451d214e6aba0b9890cba7160915ce59564","after":"1f8050837b6f034dc48273a79dfb1451d214e6aba0b9890cba7160915ce59564","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round6-cloud.test.mjs > round6 content on a fresh isolated PostgreSQL database > 1.math: preserves actual-mainc66 progress and raw storage on login/state
+round6-pinned-storage {"synthetic":true,"grade":1,"course":"math","mode":"prefix","base":"c66f492811c51298673fede44d0997d33aa64494","before":"29c3662db068cfbae51ac3d2fc5260728c0a429c89e7995ad60ae84dda1b50fa","after":"29c3662db068cfbae51ac3d2fc5260728c0a429c89e7995ad60ae84dda1b50fa","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round6-cloud.test.mjs > round6 content on a fresh isolated PostgreSQL database > 5.chinese: preserves actual-mainc66 progress and raw storage on login/state
+round6-pinned-storage {"synthetic":true,"grade":5,"course":"chinese","mode":"array","base":"c66f492811c51298673fede44d0997d33aa64494","before":"a121170ea9de64b9b43ce7848521c67b1d30ec0b08b51ef2424dbfa246e01c38","after":"a121170ea9de64b9b43ce7848521c67b1d30ec0b08b51ef2424dbfa246e01c38","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round6-cloud.test.mjs > round6 content on a fresh isolated PostgreSQL database > 5.chinese: preserves actual-mainc66 progress and raw storage on login/state
+round6-pinned-storage {"synthetic":true,"grade":5,"course":"chinese","mode":"prefix","base":"c66f492811c51298673fede44d0997d33aa64494","before":"45cc0711ae10e209cd13eae24c6e7abcc7fddbff00c06bcd7d5a06526a40394d","after":"45cc0711ae10e209cd13eae24c6e7abcc7fddbff00c06bcd7d5a06526a40394d","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round6-cloud.test.mjs > round6 content on a fresh isolated PostgreSQL database > 6.chinese: preserves actual-mainc66 progress and raw storage on login/state
+round6-pinned-storage {"synthetic":true,"grade":6,"course":"chinese","mode":"array","base":"c66f492811c51298673fede44d0997d33aa64494","before":"798076bbd641952de901bc494849edf71c282431a2aa7c65f8d2035485c944b5","after":"798076bbd641952de901bc494849edf71c282431a2aa7c65f8d2035485c944b5","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round6-cloud.test.mjs > round6 content on a fresh isolated PostgreSQL database > 6.chinese: preserves actual-mainc66 progress and raw storage on login/state
+round6-pinned-storage {"synthetic":true,"grade":6,"course":"chinese","mode":"prefix","base":"c66f492811c51298673fede44d0997d33aa64494","before":"6764abf9e5331e35098dff9f8632f4f98f04a2c1739ed53cbee32677c29c02f6","after":"6764abf9e5331e35098dff9f8632f4f98f04a2c1739ed53cbee32677c29c02f6","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+ ✓ src/__tests__/finals-round6-cloud.test.mjs (6 tests) 3356ms
+   ✓ round6 content on a fresh isolated PostgreSQL database (6)
+     ✓ 1.math: preserves actual-mainc66 progress and raw storage on login/state 411ms
+     ✓ 1.math: retains supplied sources, gates unmapped papers, and rewards prepared content once 397ms
+     ✓ 5.chinese: preserves actual-mainc66 progress and raw storage on login/state 386ms
+     ✓ 5.chinese: retains supplied sources, gates unmapped papers, and rewards prepared content once 310ms
+     ✓ 6.chinese: preserves actual-mainc66 progress and raw storage on login/state 393ms
+
+ Test Files  1 passed (1)
+      Tests  6 passed (6)
+   Start at  14:25:57
+   Duration  4.20s (tests 81%, import 12%, transform 6%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110/output/adaptive-learning-20261110/expanded/cloud-per-file/finals-round6-cloud.test.json

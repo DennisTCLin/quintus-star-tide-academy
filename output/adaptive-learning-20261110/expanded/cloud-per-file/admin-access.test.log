@@ -1,0 +1,19 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110
+
+stderr | src/__tests__/admin-access.test.mjs > delegated administrator boundaries and revocation > rolls policy edits back when their audit write fails
+Cloud operation failed P0001
+
+ ✓ src/__tests__/admin-access.test.mjs (17 tests) 6069ms
+   ✓ delegated administrator boundaries and revocation (17)
+     ✓ requires initial password replacement before any child or grant access 1170ms
+     ✓ supports readers without grant permission and denies every grant endpoint 955ms
+     ✓ includes future children for owner/all scope, excludes them for assigned scope 1340ms
+     ✓ password reset and disable revoke every old session permanently 392ms
+
+ Test Files  1 passed (1)
+      Tests  17 passed (17)
+   Start at  14:23:41
+   Duration  6.62s (tests 93%, import 5%, transform 2%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110/output/adaptive-learning-20261110/expanded/cloud-per-file/admin-access.test.json
