@@ -55,7 +55,7 @@ dist/assets/game-view.v-D6OFIFwv.js           1,780.04 kB │ gzip: 676.00 kB
 dist/assets/styles.v-Dm15k6tU.js              3,759.63 kB │ gzip: 820.44 kB
 
 ✓ built in 4.40s
-[plugin builtin:vite-reporter] 
+[plugin builtin:vite-reporter]
 (!) Some chunks are larger than 500 kB after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
