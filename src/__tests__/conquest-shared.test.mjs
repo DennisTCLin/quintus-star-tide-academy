@@ -1,3 +1,4 @@
+import {prepareProfile} from './helpers/adaptive-fixture.mjs';
 import { beforeAll,afterAll,beforeEach,describe,it,expect } from 'vitest';
 import { randomUUID } from 'node:crypto';
 import { createCloudApi } from '../../server/cloud.mjs';
@@ -204,7 +205,7 @@ suite('shared conquest authoritative world',()=>{
   expect(await familyBytes()).toBe(learningBefore);
  });
  it('credits authenticated learning answers once inside the same transaction',async()=>{
-  const f=newFamily();f.profiles.quintus.growth.xp.tideglow=45;startRun(f,'quintus','math','shared-energy',1,false,taipeiDay());
+  const f=newFamily();prepareProfile(f.profiles.quintus,4);f.profiles.quintus.growth.xp.tideglow=45;startRun(f,'quintus','math','shared-energy',1,false,taipeiDay());
   await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=$1',[players[0].account,f]);
   await setPlayer(0,{units:{tideglow:{id:'tideglow',element:'water',level:1,hp:40,maxHp:80}},updatedAt:Date.now()+60000});
   const state=(await call('state')).data,p=f.profiles.quintus,q=questionById(p.run.questions[0]);

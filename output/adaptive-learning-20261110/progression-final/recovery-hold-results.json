@@ -1,0 +1,167 @@
+{
+  "allPassed": true,
+  "apiInvocations": 0,
+  "health": 200,
+  "cases": [
+    {
+      "path": "/api/state",
+      "method": "GET",
+      "status": 503
+    },
+    {
+      "path": "/api/state",
+      "method": "POST",
+      "status": 503
+    },
+    {
+      "path": "/api/state",
+      "method": "PUT",
+      "status": 503
+    },
+    {
+      "path": "/api/state",
+      "method": "DELETE",
+      "status": 503
+    },
+    {
+      "path": "/api/command",
+      "method": "GET",
+      "status": 503
+    },
+    {
+      "path": "/api/command",
+      "method": "POST",
+      "status": 503
+    },
+    {
+      "path": "/api/command",
+      "method": "PUT",
+      "status": 503
+    },
+    {
+      "path": "/api/command",
+      "method": "DELETE",
+      "status": 503
+    },
+    {
+      "path": "/api/practice",
+      "method": "GET",
+      "status": 503
+    },
+    {
+      "path": "/api/practice",
+      "method": "POST",
+      "status": 503
+    },
+    {
+      "path": "/api/practice",
+      "method": "PUT",
+      "status": 503
+    },
+    {
+      "path": "/api/practice",
+      "method": "DELETE",
+      "status": 503
+    },
+    {
+      "path": "/api/migrate",
+      "method": "GET",
+      "status": 503
+    },
+    {
+      "path": "/api/migrate",
+      "method": "POST",
+      "status": 503
+    },
+    {
+      "path": "/api/migrate",
+      "method": "PUT",
+      "status": 503
+    },
+    {
+      "path": "/api/migrate",
+      "method": "DELETE",
+      "status": 503
+    },
+    {
+      "path": "/api/login",
+      "method": "GET",
+      "status": 503
+    },
+    {
+      "path": "/api/login",
+      "method": "POST",
+      "status": 503
+    },
+    {
+      "path": "/api/login",
+      "method": "PUT",
+      "status": 503
+    },
+    {
+      "path": "/api/login",
+      "method": "DELETE",
+      "status": 503
+    },
+    {
+      "path": "/api/adult/game/command",
+      "method": "GET",
+      "status": 503
+    },
+    {
+      "path": "/api/adult/game/command",
+      "method": "POST",
+      "status": 503
+    },
+    {
+      "path": "/api/adult/game/command",
+      "method": "PUT",
+      "status": 503
+    },
+    {
+      "path": "/api/adult/game/command",
+      "method": "DELETE",
+      "status": 503
+    },
+    {
+      "path": "/api/admin/command",
+      "method": "GET",
+      "status": 503
+    },
+    {
+      "path": "/api/admin/command",
+      "method": "POST",
+      "status": 503
+    },
+    {
+      "path": "/api/admin/command",
+      "method": "PUT",
+      "status": 503
+    },
+    {
+      "path": "/api/admin/command",
+      "method": "DELETE",
+      "status": 503
+    },
+    {
+      "path": "/api%2Fcommand",
+      "method": "GET",
+      "status": 503
+    },
+    {
+      "path": "/api%2Fcommand",
+      "method": "POST",
+      "status": 503
+    },
+    {
+      "path": "/api%2Fcommand",
+      "method": "PUT",
+      "status": 503
+    },
+    {
+      "path": "/api%2Fcommand",
+      "method": "DELETE",
+      "status": 503
+    }
+  ]
+}

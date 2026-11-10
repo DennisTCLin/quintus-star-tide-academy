@@ -1,0 +1,264 @@
+{
+  "allPassed": true,
+  "passedTests": 40,
+  "completedFiles": 4,
+  "results": [
+    {
+      "startedAt": "2026-11-10T06:52:29.577751+00:00",
+      "finishedAt": "2026-11-10T06:52:40.628039+00:00",
+      "file": "island-api.test.mjs",
+      "exitCode": 0,
+      "passedTests": 10,
+      "failedTests": 0,
+      "freshDatabasePerFile": true,
+      "databaseName": "adaptive_check_bd77771ea673",
+      "publicTablesBefore": 0,
+      "log": "island-api.test.log",
+      "assertions": [
+        {
+          "file": "src/__tests__/island-api.test.mjs",
+          "fullName": "Math Island PostgreSQL transactions persists lower-semester quantities, money and calendar rounds through the actual API",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/island-api.test.mjs",
+          "fullName": "Math Island PostgreSQL transactions deduplicates concurrent submissions, rejects stale and forged commands, resumes from a second session",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/island-api.test.mjs",
+          "fullName": "Math Island PostgreSQL transactions saves upper-grade card answers for existing players and keeps future solutions private",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/island-api.test.mjs",
+          "fullName": "Math Island PostgreSQL transactions finishes exactly once and preserves progress/first attempts after leaving the round",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/island-api.test.mjs",
+          "fullName": "Math Island PostgreSQL transactions settles island capture and a ticket once after three previous successes, with stable replay after a new round",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/island-api.test.mjs",
+          "fullName": "Math Island PostgreSQL transactions persists 0/6 without newly passing play; old pass=false",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/island-api.test.mjs",
+          "fullName": "Math Island PostgreSQL transactions persists 0/6 without newly passing play; old pass=true",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/island-api.test.mjs",
+          "fullName": "Math Island PostgreSQL transactions persists 3/6 without newly passing play; old pass=false",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/island-api.test.mjs",
+          "fullName": "Math Island PostgreSQL transactions persists 3/6 without newly passing play; old pass=true",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/island-api.test.mjs",
+          "fullName": "Math Island PostgreSQL transactions rejects early finish in gentle practice and redacts future answers",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "startedAt": "2026-11-10T06:52:40.686922+00:00",
+      "finishedAt": "2026-11-10T06:52:43.032249+00:00",
+      "file": "adaptive-capture-reservation-cloud.test.mjs",
+      "exitCode": 0,
+      "passedTests": 3,
+      "failedTests": 0,
+      "freshDatabasePerFile": true,
+      "databaseName": "adaptive_check_e68d2abc0320",
+      "publicTablesBefore": 0,
+      "log": "adaptive-capture-reservation-cloud.test.log",
+      "assertions": [
+        {
+          "file": "src/__tests__/adaptive-capture-reservation-cloud.test.mjs",
+          "fullName": "earned capture reservations survive adaptive preparation settles the old earned rewards and reserves the same monster once with zero unlearned question payloads",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/adaptive-capture-reservation-cloud.test.mjs",
+          "fullName": "earned capture reservations survive adaptive preparation rejects old-client direct answers and replacement runs atomically without consuming rewards or reservation",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/adaptive-capture-reservation-cloud.test.mjs",
+          "fullName": "earned capture reservations survive adaptive preparation resumes the same entitlement after trusted preparation; two-device replay cannot reroll or award twice",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "startedAt": "2026-11-10T06:52:43.071927+00:00",
+      "finishedAt": "2026-11-10T06:52:45.400019+00:00",
+      "file": "adaptive-learning-cloud.test.mjs",
+      "exitCode": 0,
+      "passedTests": 6,
+      "failedTests": 0,
+      "freshDatabasePerFile": true,
+      "databaseName": "adaptive_check_7b642defa119",
+      "publicTablesBefore": 0,
+      "log": "adaptive-learning-cloud.test.log",
+      "assertions": [
+        {
+          "file": "src/__tests__/adaptive-learning-cloud.test.mjs",
+          "fullName": "adaptive policy in authenticated cloud transactions routes a new child into school scope, strips future questions, rejects forged fields",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/adaptive-learning-cloud.test.mjs",
+          "fullName": "adaptive policy in authenticated cloud transactions synchronizes the same teaching and assessment session across devices without exposing an answer",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/adaptive-learning-cloud.test.mjs",
+          "fullName": "adaptive policy in authenticated cloud transactions commits one assisted answer once under retry; stale devices cannot overwrite it or balances",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/adaptive-learning-cloud.test.mjs",
+          "fullName": "adaptive policy in authenticated cloud transactions allocates only independently learned content for real voyages; a scope change blocks old reservations without losses",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/adaptive-learning-cloud.test.mjs",
+          "fullName": "adaptive policy in authenticated cloud transactions also gates the legacy practice endpoint instead of filling from the old bank",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/adaptive-learning-cloud.test.mjs",
+          "fullName": "adaptive policy in authenticated cloud transactions keeps imported study history but rejects imported school/mastery authority",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "startedAt": "2026-11-10T06:53:49.941026+00:00",
+      "finishedAt": "2026-11-10T06:54:00.044323+00:00",
+      "file": "school-curriculum-cloud.test.mjs",
+      "exitCode": 0,
+      "passedTests": 21,
+      "failedTests": 0,
+      "freshDatabasePerFile": true,
+      "databaseName": "adaptive_check_abdb60bc113b",
+      "publicTablesBefore": 0,
+      "log": "school-curriculum-cloud.test.log",
+      "assertions": [
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness quintus: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness quintus: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness alan: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness alan: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness brownie: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness brownie: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness jay: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness jay: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness alston: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness alston: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness jimmy: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness jimmy: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness feifei: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness feifei: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness olivia: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness olivia: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness sunny: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness sunny: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness jasper: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness jasper: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness rejects school/grade spoofing and unavailable younger courses without changing any save",
+          "status": "passed"
+        }
+      ]
+    }
+  ],
+  "initialHarnessErrors": "original fourth suite filename did not exist; raw failure retained; corrected school-curriculum-cloud suite run once"
+}

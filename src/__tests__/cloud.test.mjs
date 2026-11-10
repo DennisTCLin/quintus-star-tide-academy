@@ -1,3 +1,5 @@
+import {validateFamily} from '../../build/game.mjs';
+import {prepareProfile,preparedFamily,withAdaptiveOverlay} from './helpers/adaptive-fixture.mjs';
 import { grantStarTickets } from "../../server/star-ticket-admin.mjs";
 import { beforeAll, afterAll, describe, it, expect } from "vitest";
 import { request as httpRequest } from "node:http";
@@ -65,7 +67,7 @@ suite("authoritative cloud game (real PostgreSQL)", () => {
     await api.pool.query("DELETE FROM request_limits");
     a = await registration();
     // The existing suite exercises a historical account, independently of onboarding.
-    await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)', [a.username, newFamily()]);
+    await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)', [a.username, preparedFamily()]);
     await state(a);
     account = a.username;
     recovery = a.recovery;
@@ -93,7 +95,7 @@ suite("authoritative cloud game (real PostgreSQL)", () => {
     expect(persisted).toEqual({...scores,alston:0,jay:0});
   });
   it("atomically credits the fifth learning answer and pending materials once across receipt retries", async () => {
-    const c=await registration(),f=newFamily(),p=f.profiles.quintus,day=taipeiDay();
+    const c=await registration(),f=preparedFamily(),p=f.profiles.quintus,day=taipeiDay();
     startRun(f,'quintus','math','material-r',1,false,day);
     for(let i=0;i<4;i++){const q=questionById(p.run.questions[i]);answerRun(f,'quintus','material-r',i,q.answer,day);nextQuestion(f,'quintus','material-r',i);}
     await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)',[c.username,f]);await state(c);
@@ -149,7 +151,7 @@ suite("authoritative cloud game (real PostgreSQL)", () => {
     expect(current.learningRewards.pending).toEqual({wood:0,stone:0,star:0});
     const second=await call('login',{username:c.username,password});
     expect(second.data.family.profiles.quintus.territory).toEqual(current.territory);
-    for(const id of ['feifei','qingqing','doudou'])expect(second.data.family.profiles[id]).toEqual(f.profiles[id]);
+    for(const id of ['feifei','qingqing','doudou'])expect(second.data.family.profiles[id]).toEqual(withAdaptiveOverlay(f).profiles[id]);
     expect((await send({action:'castle-style',style:'__proto__'})).status).toBe(400);
     await state(c);expect(c.state.family.profiles.quintus.territory.castleStyle).toBe('forest');
     expect((await call('command',command(c,{type:'territory',player:'feifei',action:'start'}),c)).status).toBe(200);
@@ -213,7 +215,7 @@ suite("authoritative cloud game (real PostgreSQL)", () => {
     expect((await state(device)).family.profiles.quintus.onboarding).toEqual({pet,confirmed:false});
     expect((await send({type:'starter-confirm',player:'quintus'})).status).toBe(200);
     expect((await send({type:'starter-confirm',player:'quintus'})).status).toBe(200);
-    expect((await send({type:'start',player:'quintus',course:'math',practice:false})).data.family.profiles.quintus.run.companion).toBe(pet);
+    const learned=await send({type:'start',player:'quintus',course:'math',practice:false});expect(learned.data.result).toBe('learn');expect(learned.data.family.profiles.quintus.run).toBeNull();expect(learned.data.family.profiles.quintus.equipped).toBe(pet);
     expect((await send({type:'starter-draw',player:'quintus'})).data.family.profiles.quintus.owned).toEqual({[pet]:1});
     expect(c.state.family.profiles.qingqing.onboarding).toEqual({pet:null,confirmed:false});
   });
@@ -288,17 +290,18 @@ suite("authoritative cloud game (real PostgreSQL)", () => {
     expect(replay.data.family.profiles.quintus.lastDraw).toEqual(second.data.family.profiles.quintus.lastDraw);
     expect(replay.data.family.profiles.quintus.tickets).toBe(0);expect(replay.data.family.profiles.quintus.draws).toBe(2);
   });
-  it("resumes retired grade-one words but starts new English voyages and battle questions", async () => {
+  it("retains retired grade-one history, protects its reservation, and prepares current English", async () => {
     const c=await registration(),family=newFamily();startRun(family,'qingqing','english','legacy-words',1);
     const p=family.profiles.qingqing,ids=selectQuestions(1,'words',[],0);
     delete p.run.answers;delete p.run.encounter.route;p.run.review=Array(5).fill(false);p.run.course='words';p.run.questions=ids;p.learning.seen=ids;p.learning.review.words=1;
     p.learning.skills.words={level:1,recent:'1',answered:1,correct:1,reviewDay:''};
     await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)',[c.username,family]);await state(c);
-    expect(c.state.questions.qingqing.course).toBe('words');expect(c.state.questions.qingqing.answer).toBeUndefined();
+    expect(c.state.questions.qingqing).toBeUndefined();expect(c.state.learningBlocks.qingqing).toBe(true);expect(c.state.family.profiles.qingqing.run.id).toBe('legacy-words');
     const send=async value=>{const r=await call('command',command(c,{player:'qingqing',...value}),c);if(r.status===200)c.state=r.data;return r;};
-    expect((await send({type:'answer',runId:'legacy-words',index:0,choice:questionById(ids[0]).answer})).status).toBe(200);
+    expect((await send({type:'answer',runId:'legacy-words',index:0,choice:questionById(ids[0]).answer})).status).toBe(400);
     expect((await send({type:'quit',runId:'legacy-words'})).status).toBe(200);
     expect((await send({type:'start',course:'words',practice:false})).status).toBe(400);
+    const prepared=(await api.pool.query('SELECT family FROM game_states WHERE account_id=(SELECT id FROM accounts WHERE username=$1)',[c.username])).rows[0].family;prepareProfile(prepared.profiles.qingqing,1);await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)',[c.username,prepared]);await state(c);
     expect((await send({type:'start',course:'english',practice:false})).status).toBe(200);
     expect(c.state.questions.qingqing).toBeUndefined();
     expect((await send({type:'ready-question',runId:c.state.family.profiles.qingqing.run.id,index:0})).status).toBe(200);
@@ -308,7 +311,7 @@ suite("authoritative cloud game (real PostgreSQL)", () => {
     expect(battle.data.result.question.course).toBe('english');expect(battle.data.result.question.answer).toBeUndefined();
     const practice=await call('practice',{type:'start',player:'qingqing',used:[]},c);
     expect(practice.status).toBe(200);expect(practice.data.course).toBe('english');
-    expect((await state(c)).family.profiles.qingqing.learning.skills.words.answered).toBe(2);
+    expect((await state(c)).family.profiles.qingqing.learning.skills.words.answered).toBe(1);
   });
   it("imports do not grant new starter eligibility", async () => {
     const c=await registration();
@@ -546,7 +549,7 @@ suite("authoritative cloud game (real PostgreSQL)", () => {
   async function finish(c, player = "doudou", correction = false) {
     const prior = structuredClone(c.state.family.profiles[player]);
     const legacy=(await api.pool.query("SELECT family FROM game_states WHERE account_id=(SELECT id FROM accounts WHERE username=$1)",[c.username])).rows[0].family;
-    startRun(legacy,player,'math',randomUUID(),1,false,taipeiDay());delete legacy.profiles[player].run.captureRule;
+    prepareProfile(legacy.profiles[player],player==='quintus'?4:player==='feifei'?2:1);startRun(legacy,player,'math',randomUUID(),1,false,taipeiDay());delete legacy.profiles[player].run.captureRule;
     await api.pool.query("UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)",[c.username,legacy]);await state(c);
     for (let i = 0; i < 6; i++) {
       const run = c.state.family.profiles[player].run;
@@ -592,7 +595,7 @@ suite("authoritative cloud game (real PostgreSQL)", () => {
     ]) expect((await call("command", command(a, op), a)).status).toBe(400);
     const body = command(a, { type: "claim-reward", player: "doudou", runId, choice: "save" });
     const pair = await Promise.all([call("command", body, a), call("command", body, b)]);
-    expect(pair.map(r => r.status)).toEqual([200, 200]);
+    expect(pair.map(r => r.status),JSON.stringify(pair.map(r=>r.data))).toEqual([200, 200]);
     expect(pair.map(r => r.data.result)).toEqual(["saved", "saved"]);
     await state(a); await state(b);
     expect(a.state.family).toEqual(b.state.family);
@@ -650,11 +653,13 @@ suite("authoritative cloud game (real PostgreSQL)", () => {
     expect(c.state.family.profiles.qingqing.run.encounter.earned).toBe(0);
   });
   it("persists adaptive allocation and battle answers through one authoritative transaction path", async () => {
+    await state(other);if(other.state.family.profiles.quintus.onboarding&&!other.state.family.profiles.quintus.onboarding.confirmed){await send(other,{type:'starter-draw',player:'quintus'});await send(other,{type:'starter-confirm',player:'quintus'});}
+    const prepared=validateFamily((await api.pool.query('SELECT family FROM game_states WHERE account_id=(SELECT id FROM accounts WHERE username=$1)',[other.username])).rows[0].family);prepareProfile(prepared.profiles.quintus,4);await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)',[other.username,prepared]);
     await state(other);
     const before = structuredClone(other.state.verified);
     const start = command(other, { type: "battle-start", player: "quintus", course: "math", used: [] });
     const pair = await Promise.all([call("command", start, other), call("command", start, other)]);
-    expect(pair.map(r => r.status)).toEqual([200, 200]);
+    expect(pair.map(r => r.status),JSON.stringify(pair.map(r=>r.data))).toEqual([200, 200]);
     expect(pair[0].data.result).toEqual(pair[1].data.result);
     other.state = pair[0].data;
     const allocation = pair[0].data.result;
@@ -674,13 +679,11 @@ suite("authoritative cloud game (real PostgreSQL)", () => {
     expect(other.state.verified).toEqual(before);
     expect((await call("command", command(other, input), other)).status).toBe(400);
     await send(other, { type: "start", player: "quintus", course: "math", practice: true });
-    await send(other,{type:'ready-question',player:'quintus',runId:other.state.family.profiles.quintus.run.id,index:0});
-    const run = other.state.family.profiles.quintus.run;
-    expect(run.questions[0]).not.toBe(allocation.question.id);
-    const q = questionById(run.questions[0]);
-    await send(other, { type: "hint", player: "quintus", runId: run.id, index: 0 });
-    expect(other.state.family.profiles.quintus.run.assisted).toBe(true);
-    await send(other, { type: "answer", player: "quintus", runId: run.id, index: 0, choice: q.answer });
+    const run=other.state.family.profiles.quintus.learning.study.session,q=other.state.studyQuestions.quintus;
+    expect(run.mode).toBe('learn');expect(q.answer).toBeUndefined();
+    await send(other,{type:'review-hint',player:'quintus',sessionId:run.id,index:0});
+    expect(other.state.family.profiles.quintus.learning.study.session.assisted).toBe(true);
+    await send(other,{type:'review-answer',player:'quintus',sessionId:run.id,index:0,choice:questionById(q.id).answer});
     expect(other.state.verified).toEqual(before);
     expect((await state(other)).family.profiles.quintus.learning.cursors).toEqual(other.state.family.profiles.quintus.learning.cursors);
   });
@@ -801,7 +804,7 @@ suite("authoritative cloud game (real PostgreSQL)", () => {
       { type: "start", player: "quintus", used: [] },
       other,
     );
-    expect(q.status).toBe(200);
+    expect(q.status,JSON.stringify(q.data)).toBe(200);
     expect(q.data.answer).toBeUndefined();
     expect(
       (

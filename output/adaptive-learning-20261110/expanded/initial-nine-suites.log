@@ -1,0 +1,1047 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110
+
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs (30 tests | 20 failed) 7956ms
+   ❯ all parent-confirmed child curriculum routing (30)
+     × quintus: all matching subject voyages save and reload without cross-school sources 26ms
+     × quintus: preserves an actual pinned-base voyage in both array and prefix storage 199ms
+     × alan: all matching subject voyages save and reload without cross-school sources 21ms
+     × alan: preserves an actual pinned-base voyage in both array and prefix storage 197ms
+     × brownie: all matching subject voyages save and reload without cross-school sources 21ms
+     × brownie: preserves an actual pinned-base voyage in both array and prefix storage 198ms
+     × jay: all matching subject voyages save and reload without cross-school sources 20ms
+     × jay: preserves an actual pinned-base voyage in both array and prefix storage 199ms
+     × alston: all matching subject voyages save and reload without cross-school sources 20ms
+     × alston: preserves an actual pinned-base voyage in both array and prefix storage 199ms
+     × jimmy: all matching subject voyages save and reload without cross-school sources 21ms
+     × jimmy: preserves an actual pinned-base voyage in both array and prefix storage 195ms
+     × feifei: all matching subject voyages save and reload without cross-school sources 20ms
+     × feifei: preserves an actual pinned-base voyage in both array and prefix storage 195ms
+     × olivia: all matching subject voyages save and reload without cross-school sources 21ms
+     × olivia: preserves an actual pinned-base voyage in both array and prefix storage 194ms
+     × sunny: all matching subject voyages save and reload without cross-school sources 22ms
+     × sunny: preserves an actual pinned-base voyage in both array and prefix storage 195ms
+     × jasper: all matching subject voyages save and reload without cross-school sources 21ms
+     × jasper: preserves an actual pinned-base voyage in both array and prefix storage 197ms
+ ❯ src/__tests__/capture-cloud.test.mjs (9 tests | 9 failed) 2126ms
+   ❯ capture transactions, legacy receipts and three-question guarantees (PostgreSQL) (9)
+     × hides future capture questions and commits three correct answers exactly once across competing devices 244ms
+     × persists a wrong capture answer without retry, keeps rewards and isolates another account 205ms
+     × compensates legacy mastery once across concurrent commands, reads and another device 425ms
+     × persists third-mistake defeat once across concurrent replay and a second device 206ms
+     × does not double-count a wrong answer submitted with competing request IDs 205ms
+     × commits capture, quota and ownership once across concurrent receipt replay and another login 204ms
+     × rejects a competing request ID and all client-authored capture fields 202ms
+     × persists misses without rerolling and still allows a fourth capture 203ms
+     × preserves legacy fights and rejects forged monster import atomically 204ms
+ ❯ src/__tests__/island-api.test.mjs (6 tests | 3 failed) 2425ms
+   ❯ Math Island PostgreSQL transactions (6)
+     × persists lower-semester quantities, money and calendar rounds through the actual API 343ms
+     × settles island capture and a ticket once after three previous successes, with stable replay after a new round 293ms
+     × redacts unsubmitted answers even from early-finish receipts 307ms
+ ❯ src/__tests__/mastered-cloud.test.mjs (1 test | 1 failed) 459ms
+   ❯ durable successes across cloud devices (1)
+     × never reissues 48 correct question IDs when alternating devices, retries and server restart 17ms
+ ❯ src/__tests__/ready-screen-cloud.test.mjs (3 tests | 2 failed) 275ms
+   ❯ preparation preferences and image preflight (3)
+     × defaults by grade and persists an explicit choice without practice overwriting it 14ms
+     × new clients advance without starting a clock; ready is still idempotent 0ms
+ ❯ src/__tests__/remediation-cloud.test.mjs (3 tests | 3 failed) 290ms
+   ❯ remediation authoritative transaction and projection (3)
+     × reveals no future questions and automatically opens the next clock exactly once 11ms
+     × projects only wrong completed questions, rejects forged commands, and resumes corrections 6ms
+     × commits the last correction/reward once under duplicate and competing final requests 13ms
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs (21 tests | 18 failed) 5296ms
+   ❯ school routing through authenticated cloud API (21)
+     × routes authenticated Jasper to first-grade exams and preserves existing saves and rewards 16ms
+     × supports three consecutive grade-six battle questions and denies unavailable grade-one courses 9ms
+     × opens authenticated grade-six English, hides answers and persists progress without changing math mastery 14ms
+     × saves authenticated sixth-grade Chinese, science and social answers without leaking answers 13ms
+     × routes Jay by the authenticated account and saves supplied and fallback courses without answer leakage 12ms
+     × serves continuation questions after old-source mastery without resetting rewards 16ms
+     × persists new math/social and English intersection voyages while retaining prior source mastery 15ms
+     × allocates the right publisher server-side without sending future questions or answers 9ms
+     × saves grade-two source answers and points for both schools in normal play 12ms
+     × routes grade-one math for the authenticated Yongchun student and hides answers 9ms
+     × serves and grades source phonetics for grade one without exposing future answers 10ms
+     × routes English practice by each authenticated account without leaking answers 5ms
+     × routes science battle questions for both schools and keeps answers server-only 9ms
+     × routes social battle questions for both schools and keeps answers server-only 8ms
+     × routes math by authenticated school and keeps younger math age appropriate 9ms
+     × authenticates Dunhua, persists Nanyi math progress and keeps book 3 out of English 13ms
+     × serves the new social supplement for three authenticated schools after prior mastery 10ms
+     × serves the new science supplement for three authenticated schools after prior mastery 10ms
+ ❯ src/__tests__/study-review-cloud.test.mjs (4 tests | 3 failed) 869ms
+   ❯ review transactions, permissions and zero rewards (4)
+     × respects ownership, rejects forged dates/rewards and hides future answers 21ms
+     × duplicate/concurrent answers settle once, stale devices resync and can resume the same question 0ms
+     × keeps all reward ledgers and old completion/compensation exactly unchanged across the group 0ms
+ ❯ src/__tests__/subject-islands-cloud.test.mjs (2 tests | 2 failed) 515ms
+   ❯ server-authoritative elemental voyages (PostgreSQL) (2)
+     × persists one same-element encounter across racing start replay and another device 246ms
+     × rejects forged elements, routes and species without changing the saved state 243ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 61 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > quintus: all matching subject voyages save and reload without cross-school sources
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > alan: all matching subject voyages save and reload without cross-school sources
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > brownie: all matching subject voyages save and reload without cross-school sources
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > jay: all matching subject voyages save and reload without cross-school sources
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > alston: all matching subject voyages save and reload without cross-school sources
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > jimmy: all matching subject voyages save and reload without cross-school sources
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > feifei: all matching subject voyages save and reload without cross-school sources
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > olivia: all matching subject voyages save and reload without cross-school sources
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > sunny: all matching subject voyages save and reload without cross-school sources
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > jasper: all matching subject voyages save and reload without cross-school sources
+TypeError: Cannot read properties of null (reading 'questions')
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs:52:126
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/61]⎯
+
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > quintus: preserves an actual pinned-base voyage in both array and prefix storage
+AssertionError: expected { seen: [ 'g4mk1-1-1', …(5) ], …(9) } to deeply equal { Object (version, mastered, ...) }
+
+- Expected
++ Received
+
+@@ -1,6 +1,13 @@
+  {
++   "adaptive": {
++     "evidence": {},
++     "examples": {},
++     "scope": {},
++     "sequence": 0,
++     "version": 1,
++   },
+    "cursors": {},
+    "mastered": {
+      "generated": {},
+      "ids": [
+        "c1-g4-science-01",
+
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs:92:29
+     90|     const actual=state.data.family.profiles[player],expected=original.…
+     91|     expect(actual.run.id).toBe(expected.run.id);expect(actual.run.inde…
+     92|     expect(actual.learning).toEqual({...expected.learning,school});
+       |                             ^
+     93|     expect(actual.learning.seen).toEqual(expected.learning.seen);expec…
+     94|     for(const key of ['coins','tickets','starTickets','rewardStars','r…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/61]⎯
+
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > alan: preserves an actual pinned-base voyage in both array and prefix storage
+AssertionError: expected { seen: [ 'mx1-hm1-1-1', …(5) ], …(9) } to deeply equal { Object (version, mastered, ...) }
+
+- Expected
++ Received
+
+@@ -1,6 +1,13 @@
+  {
++   "adaptive": {
++     "evidence": {},
++     "examples": {},
++     "scope": {},
++     "sequence": 0,
++     "version": 1,
++   },
+    "cursors": {},
+    "mastered": {
+      "generated": {},
+      "ids": [
+        "c1-g4-science-01",
+
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs:92:29
+     90|     const actual=state.data.family.profiles[player],expected=original.…
+     91|     expect(actual.run.id).toBe(expected.run.id);expect(actual.run.inde…
+     92|     expect(actual.learning).toEqual({...expected.learning,school});
+       |                             ^
+     93|     expect(actual.learning.seen).toEqual(expected.learning.seen);expec…
+     94|     for(const key of ['coins','tickets','starTickets','rewardStars','r…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/61]⎯
+
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > brownie: preserves an actual pinned-base voyage in both array and prefix storage
+AssertionError: expected { seen: [ 'mx1-nm1-1-1', …(5) ], …(9) } to deeply equal { Object (version, mastered, ...) }
+
+- Expected
++ Received
+
+@@ -1,6 +1,13 @@
+  {
++   "adaptive": {
++     "evidence": {},
++     "examples": {},
++     "scope": {},
++     "sequence": 0,
++     "version": 1,
++   },
+    "cursors": {},
+    "mastered": {
+      "generated": {},
+      "ids": [
+        "c1-g4-science-01",
+
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs:92:29
+     90|     const actual=state.data.family.profiles[player],expected=original.…
+     91|     expect(actual.run.id).toBe(expected.run.id);expect(actual.run.inde…
+     92|     expect(actual.learning).toEqual({...expected.learning,school});
+       |                             ^
+     93|     expect(actual.learning.seen).toEqual(expected.learning.seen);expec…
+     94|     for(const key of ['coins','tickets','starTickets','rewardStars','r…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/61]⎯
+
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > jay: preserves an actual pinned-base voyage in both array and prefix storage
+AssertionError: expected { seen: [ …(6) ], …(9) } to deeply equal { Object (version, mastered, ...) }
+
+- Expected
++ Received
+
+@@ -1,6 +1,13 @@
+  {
++   "adaptive": {
++     "evidence": {},
++     "examples": {},
++     "scope": {},
++     "sequence": 0,
++     "version": 1,
++   },
+    "cursors": {},
+    "mastered": {
+      "generated": {},
+      "ids": [
+        "g5-general-chinese-01",
+
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs:92:29
+     90|     const actual=state.data.family.profiles[player],expected=original.…
+     91|     expect(actual.run.id).toBe(expected.run.id);expect(actual.run.inde…
+     92|     expect(actual.learning).toEqual({...expected.learning,school});
+       |                             ^
+     93|     expect(actual.learning.seen).toEqual(expected.learning.seen);expec…
+     94|     for(const key of ['coins','tickets','starTickets','rewardStars','r…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/61]⎯
+
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > alston: preserves an actual pinned-base voyage in both array and prefix storage
+AssertionError: expected { seen: [ …(6) ], …(9) } to deeply equal { Object (version, mastered, ...) }
+
+- Expected
++ Received
+
+@@ -1,6 +1,13 @@
+  {
++   "adaptive": {
++     "evidence": {},
++     "examples": {},
++     "scope": {},
++     "sequence": 0,
++     "version": 1,
++   },
+    "cursors": {},
+    "mastered": {
+      "generated": {},
+      "ids": [
+        "g6gp-c01",
+
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs:92:29
+     90|     const actual=state.data.family.profiles[player],expected=original.…
+     91|     expect(actual.run.id).toBe(expected.run.id);expect(actual.run.inde…
+     92|     expect(actual.learning).toEqual({...expected.learning,school});
+       |                             ^
+     93|     expect(actual.learning.seen).toEqual(expected.learning.seen);expec…
+     94|     for(const key of ['coins','tickets','starTickets','rewardStars','r…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/61]⎯
+
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > jimmy: preserves an actual pinned-base voyage in both array and prefix storage
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > feifei: preserves an actual pinned-base voyage in both array and prefix storage
+AssertionError: expected { seen: [ …(6) ], …(9) } to deeply equal { Object (version, mastered, ...) }
+
+- Expected
++ Received
+
+@@ -1,6 +1,13 @@
+  {
++   "adaptive": {
++     "evidence": {},
++     "examples": {},
++     "scope": {},
++     "sequence": 0,
++     "version": 1,
++   },
+    "cursors": {},
+    "mastered": {
+      "generated": {},
+      "ids": [
+        "g2-word-market-0",
+
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs:92:29
+     90|     const actual=state.data.family.profiles[player],expected=original.…
+     91|     expect(actual.run.id).toBe(expected.run.id);expect(actual.run.inde…
+     92|     expect(actual.learning).toEqual({...expected.learning,school});
+       |                             ^
+     93|     expect(actual.learning.seen).toEqual(expected.learning.seen);expec…
+     94|     for(const key of ['coins','tickets','starTickets','rewardStars','r…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/61]⎯
+
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > olivia: preserves an actual pinned-base voyage in both array and prefix storage
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > sunny: preserves an actual pinned-base voyage in both array and prefix storage
+ FAIL  src/__tests__/all-child-curriculum-cloud.test.mjs > all parent-confirmed child curriculum routing > jasper: preserves an actual pinned-base voyage in both array and prefix storage
+AssertionError: expected { seen: [ …(6) ], …(9) } to deeply equal { Object (version, mastered, ...) }
+
+- Expected
++ Received
+
+@@ -1,6 +1,13 @@
+  {
++   "adaptive": {
++     "evidence": {},
++     "examples": {},
++     "scope": {},
++     "sequence": 0,
++     "version": 1,
++   },
+    "cursors": {},
+    "mastered": {
+      "generated": {},
+      "ids": [
+        "g1-word-market-0",
+
+ ❯ src/__tests__/all-child-curriculum-cloud.test.mjs:92:29
+     90|     const actual=state.data.family.profiles[player],expected=original.…
+     91|     expect(actual.run.id).toBe(expected.run.id);expect(actual.run.inde…
+     92|     expect(actual.learning).toEqual({...expected.learning,school});
+       |                             ^
+     93|     expect(actual.learning.seen).toEqual(expected.learning.seen);expec…
+     94|     for(const key of ['coins','tickets','starTickets','rewardStars','r…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/61]⎯
+
+ FAIL  src/__tests__/capture-cloud.test.mjs > capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > hides future capture questions and commits three correct answers exactly once across competing devices
+AssertionError: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/capture-cloud.test.mjs:50:78
+     48|   it("hides future capture questions and commits three correct answers…
+     49|     const c=await client();await seed(c,f=>f.profiles.quintus.run.capt…
+     50|     const finish=await call('command',lastAnswer(c),c);expect(finish.s…
+       |                                                                              ^
+     51|     const run=c.state.family.profiles.quintus.run,monster=run.encounte…
+     52|     expect(run.capture.outcome).toBe('pending');expect(c.state.family.…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/61]⎯
+
+ FAIL  src/__tests__/capture-cloud.test.mjs > capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > persists a wrong capture answer without retry, keeps rewards and isolates another account
+TypeError: Cannot read properties of undefined (reading 'profiles')
+ ❯ src/__tests__/capture-cloud.test.mjs:75:28
+     73|     const c=await client();await seed(c,f=>f.profiles.quintus.run.capt…
+     74|     c.state=(await call('command',lastAnswer(c),c)).data;
+     75|     const r=c.state.family.profiles.quintus.run,q=c.state.captureQuest…
+       |                            ^
+     76|     expect((await call('command',command(c,{type:'start',course:'math'…
+     77|     const other=await client();const cmd={type:'capture-answer',source…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/61]⎯
+
+ FAIL  src/__tests__/capture-cloud.test.mjs > capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > compensates legacy mastery once across concurrent commands, reads and another device
+TypeError: Cannot read properties of null (reading 'id')
+ ❯ src/__tests__/capture-cloud.test.mjs:105:89
+    103|     const started=await call("command",command(c,{type:"start",course:…
+    104|     const preparation=c.state.family.profiles.quintus.run;
+    105|     const ready=await call('command',command(c,{type:'ready-question',…
+       |                                                                                         ^
+    106|     const r=c.state.family.profiles.quintus.run,q=questionById(r.quest…
+    107|     const answer=await call("command",command(c,{type:"answer",runId:r…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/61]⎯
+
+ FAIL  src/__tests__/capture-cloud.test.mjs > capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > persists third-mistake defeat once across concurrent replay and a second device
+AssertionError: expected [ 400, 400 ] to deeply equal [ 200, 200 ]
+
+- Expected
++ Received
+
+  [
+-   200,
+-   200,
++   400,
++   400,
+  ]
+
+ ❯ src/__tests__/capture-cloud.test.mjs:128:42
+    126|     const body = command(c, {type: "answer", runId: r.id, index: r.ind…
+    127|     const responses = await Promise.all([call("command", body, c), cal…
+    128|     expect(responses.map(r => r.status)).toEqual([200, 200]);
+       |                                          ^
+    129|     for (const res of responses) {
+    130|       const p = res.data.family.profiles.quintus;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/61]⎯
+
+ FAIL  src/__tests__/capture-cloud.test.mjs > capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > does not double-count a wrong answer submitted with competing request IDs
+AssertionError: expected [ 400, 400 ] to deeply equal [ 200, 409 ]
+
+- Expected
++ Received
+
+  [
+-   200,
+-   409,
++   400,
++   400,
+  ]
+
+ ❯ src/__tests__/capture-cloud.test.mjs:150:43
+    148|     const body = command(c, {type: "answer", runId:r.id, index:r.index…
+    149|     const raced = await Promise.all([call("command", body, c), call("c…
+    150|     expect(raced.map(r=>r.status).sort()).toEqual([200,409]);
+       |                                           ^
+    151|     const p = (await state(c)).family.profiles.quintus;
+    152|     expect(p.run.streak).toBe(1); expect(p.run.answers.filter(x=>!x)).…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[13/61]⎯
+
+ FAIL  src/__tests__/capture-cloud.test.mjs > capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > commits capture, quota and ownership once across concurrent receipt replay and another login
+AssertionError: expected [ 400, 400 ] to deeply equal [ 200, 200 ]
+
+- Expected
++ Received
+
+  [
+-   200,
+-   200,
++   400,
++   400,
+  ]
+
+ ❯ src/__tests__/capture-cloud.test.mjs:157:42
+    155|     const c = await client(); await seed(c); const body = lastAnswer(c…
+    156|     const responses = await Promise.all([call("command", body, c), cal…
+    157|     expect(responses.map(r => r.status)).toEqual([200, 200]);
+       |                                          ^
+    158|     for (const res of responses) {
+    159|       const p = res.data.family.profiles.quintus;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[14/61]⎯
+
+ FAIL  src/__tests__/capture-cloud.test.mjs > capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > rejects a competing request ID and all client-authored capture fields
+AssertionError: expected [ 400, 400 ] to deeply equal [ 200, 409 ]
+
+- Expected
++ Received
+
+  [
+-   200,
+-   409,
++   400,
++   400,
+  ]
+
+ ❯ src/__tests__/capture-cloud.test.mjs:189:45
+    187|     const forged = await call("command", { ...body, command: { ...body…
+    188|     const raced = await Promise.all([call("command", body, c), call("c…
+    189|     expect(raced.map(r => r.status).sort()).toEqual([200, 409]);
+       |                                             ^
+    190|     const p = (await state(c)).family.profiles.quintus;
+    191|     expect(p.captureQuota.attempts).toBe(1); expect(p.owned[p.run.enco…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[15/61]⎯
+
+ FAIL  src/__tests__/capture-cloud.test.mjs > capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > persists misses without rerolling and still allows a fourth capture
+AssertionError: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/capture-cloud.test.mjs:195:70
+    193|   it("persists misses without rerolling and still allows a fourth capt…
+    194|     const c = await client(); await seed(c); const body = lastAnswer(c…
+    195|     const miss = await call("command", body, c); expect(miss.status).t…
+       |                                                                      ^
+    196|     expect(miss.data.family.profiles.quintus.run.capture.outcome).toBe…
+    197|     rng.value = 0;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[16/61]⎯
+
+ FAIL  src/__tests__/capture-cloud.test.mjs > capture transactions, legacy receipts and three-question guarantees (PostgreSQL) > preserves legacy fights and rejects forged monster import atomically
+AssertionError: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/capture-cloud.test.mjs:206:77
+    204|   it("preserves legacy fights and rejects forged monster import atomic…
+    205|     const c = await client(); await seed(c, s => { delete s.profiles.q…
+    206|     const res = await call("command", lastAnswer(c), c); expect(res.st…
+       |                                                                             ^
+    207|     expect(res.data.family.profiles.quintus.run.capture.reason).toBe("…
+    208|     const fresh = await client(), snapshot = newFamily(), monster = MO…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[17/61]⎯
+
+ FAIL  src/__tests__/island-api.test.mjs > Math Island PostgreSQL transactions > persists lower-semester quantities, money and calendar rounds through the actual API
+AssertionError: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/island-api.test.mjs:20:67
+     18|   for(const unit of ['1B-04','1B-06','1B-07']) {
+     19|    for(const mode of ['learn','play','boss']) {
+     20|     expect((await cmd(c,{type:'island-start',mode,unit})).status).toBe…
+       |                                                                   ^
+     21|     const run=(await raw(c)).profiles.doudou.mathIsland.run;
+     22|     expect(run.items.every(q=>Number(q.answer)>=0&&Number(q.answer)<=1…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[18/61]⎯
+
+ FAIL  src/__tests__/island-api.test.mjs > Math Island PostgreSQL transactions > settles island capture and a ticket once after three previous successes, with stable replay after a new round
+AssertionError: expected { day: '2026-11-10', run: null, …(21) } to match object { tickets: 1, rewardStars: +0, …(2) }
+(54 matching properties omitted from actual)
+
+- Expected
++ Received
+
+  {
+    "captureQuota": {
+-     "attempts": 4,
++     "attempts": 3,
+    },
+-   "rewardRounds": 4,
+-   "rewardStars": 0,
+-   "tickets": 1,
++   "rewardRounds": 3,
++   "rewardStars": 1,
++   "tickets": 0,
+  }
+
+ ❯ src/__tests__/island-api.test.mjs:116:42
+    114|   expect(pair.map(r=>r.status)).toEqual([200,200]);expect(pair[0].data…
+    115|   c.state=pair[0].data;
+    116|   expect(c.state.family.profiles.doudou).toMatchObject({tickets:1,rewa…
+       |                                          ^
+    117|   expect(pair[0].data.result.capture.outcome).toBe('pending');
+    118|   expect(pair[0].data.result.capture.trial.questions.filter(Boolean)).…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[19/61]⎯
+
+ FAIL  src/__tests__/island-api.test.mjs > Math Island PostgreSQL transactions > redacts unsubmitted answers even from early-finish receipts
+AssertionError: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/island-api.test.mjs:138:61
+    136|   const payload=body(c,{type:'island-finish',runId:run.id});
+    137|   for(let i=0;i<2;i++){
+    138|    const r=await call('command',payload,c);expect(r.status).toBe(200);
+       |                                                             ^
+    139|    expect(r.data.result.items.slice(3).every(q=>q.answer==='')).toBe(t…
+    140|    expect(r.data.family.profiles.doudou.mathIsland.units['1A-01'].play…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[20/61]⎯
+
+ FAIL  src/__tests__/mastered-cloud.test.mjs > durable successes across cloud devices > never reissues 48 correct question IDs when alternating devices, retries and server restart
+TypeError: Cannot read properties of null (reading 'id')
+ ❯ src/__tests__/mastered-cloud.test.mjs:19:130
+     17|   for(let round=0;round<8;round++){
+     18|    const c=round%2?a:b;c.state=(await call('state',undefined,c)).data;
+     19|    await send(c,{type:'start',course:'english',practice:false,timing:'…
+       |                                                                                                                                  ^
+     20|    for(let index=0;index<6;index++){
+     21|     await send(c,{type:'ready-question',runId,index});const q=c.state.…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[21/61]⎯
+
+ FAIL  src/__tests__/ready-screen-cloud.test.mjs > preparation preferences and image preflight > defaults by grade and persists an explicit choice without practice overwriting it
+TypeError: Cannot read properties of null (reading 'challenge')
+ ❯ src/__tests__/ready-screen-cloud.test.mjs:16:15
+     14|   for(const [player,expected] of [['qingqing','relaxed'],['feifei','re…
+     15|    await send({type:'start',player,course:'math',practice:false});let …
+     16|    expect(run.challenge.mode).toBe(expected);expect(run.challenge.cloc…
+       |               ^
+     17|    expect(c.state.questions[player]).toBeUndefined();expect(run.questi…
+     18|    expect(Object.keys(c.state.questionAssets[player]).sort()).toEqual(…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[22/61]⎯
+
+ FAIL  src/__tests__/ready-screen-cloud.test.mjs > preparation preferences and image preflight > new clients advance without starting a clock; ready is still idempotent
+TypeError: Cannot read properties of null (reading 'id')
+ ❯ src/__tests__/ready-screen-cloud.test.mjs:29:52
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[23/61]⎯
+
+ FAIL  src/__tests__/remediation-cloud.test.mjs > remediation authoritative transaction and projection > reveals no future questions and automatically opens the next clock exactly once
+AssertionError: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/remediation-cloud.test.mjs:19:112
+     17|   const run=raw.profiles.doudou.run;
+     18|   expect(c.state.reviews.doudou).toBeUndefined();expect(c.state.questi…
+     19|   const ready=await call('command',payload({type:'ready-question',runI…
+       |                                                                                                                ^
+     20|   expect(c.state.questions.doudou.answer).toBeUndefined();const q=ques…
+     21|   c.state=(await call('command',payload({type:'answer',runId:run.id,in…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[24/61]⎯
+
+ FAIL  src/__tests__/remediation-cloud.test.mjs > remediation authoritative transaction and projection > projects only wrong completed questions, rejects forged commands, and resumes corrections
+AssertionError: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/remediation-cloud.test.mjs:28:193
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[25/61]⎯
+
+ FAIL  src/__tests__/remediation-cloud.test.mjs > remediation authoritative transaction and projection > commits the last correction/reward once under duplicate and competing final requests
+AssertionError: expected 0 to be greater than or equal to 1
+ ❯ src/__tests__/remediation-cloud.test.mjs:37:141
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[26/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > routes authenticated Jasper to first-grade exams and preserves existing saves and rewards
+AssertionError: expected { log: [], version: 9, …(3) } to deeply equal { version: 9, revision: +0, …(4) }
+
+- Expected
++ Received
+
+@@ -17,10 +17,17 @@
+          "credited": [],
+          "day": "2026-11-10",
+          "xp": {},
+        },
+        "learning": {
++         "adaptive": {
++           "evidence": {},
++           "examples": {},
++           "scope": {},
++           "sequence": 0,
++           "version": 1,
++         },
+          "cursors": {},
+          "mastered": {
+            "generated": {},
+            "ids": [],
+          },
+@@ -89,10 +96,17 @@
+          "credited": [],
+          "day": "2026-11-10",
+          "xp": {},
+        },
+        "learning": {
++         "adaptive": {
++           "evidence": {},
++           "examples": {},
++           "scope": {},
++           "sequence": 0,
++           "version": 1,
++         },
+          "cursors": {},
+          "mastered": {
+            "generated": {},
+            "ids": [],
+          },
+@@ -161,10 +175,17 @@
+          "credited": [],
+          "day": "2026-11-10",
+          "xp": {},
+        },
+        "learning": {
++         "adaptive": {
++           "evidence": {},
++           "examples": {},
++           "scope": {},
++           "sequence": 0,
++           "version": 1,
++         },
+          "cursors": {},
+          "mastered": {
+            "generated": {},
+            "ids": [],
+          },
+@@ -233,10 +254,17 @@
+          "credited": [],
+          "day": "2026-11-10",
+          "xp": {},
+        },
+        "learning": {
++         "adaptive": {
++           "evidence": {},
++           "examples": {},
++           "scope": {},
++           "sequence": 0,
++           "version": 1,
++         },
+          "cursors": {},
+          "mastered": {
+            "generated": {},
+            "ids": [],
+          },
+@@ -305,10 +333,17 @@
+          "credited": [],
+          "day": "2026-11-10",
+          "xp": {},
+        },
+        "learning": {
++         "adaptive": {
++           "evidence": {},
++           "examples": {},
++           "scope": {},
++           "sequence": 0,
++           "version": 1,
++         },
+          "cursors": {},
+          "mastered": {
+            "generated": {},
+            "ids": [],
+          },
+@@ -377,10 +412,17 @@
+          "credited": [],
+          "day": "2026-11-10",
+          "xp": {},
+        },
+        "learning": {
++         "adaptive": {
++           "evidence": {},
++           "examples": {},
++           "scope": {},
++           "sequence": 0,
++           "version": 1,
++         },
+          "cursors": {},
+          "mastered": {
+            "generated": {},
+            "ids": [],
+          },
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:45:115
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[27/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > supports three consecutive grade-six battle questions and denies unavailable grade-one courses
+AssertionError: {"error":"先到「跟著我學」練熟這個科目，再回來挑戰；原有進度與獎勵都保留。"}: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:67:44
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[28/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > opens authenticated grade-six English, hides answers and persists progress without changing math mastery
+TypeError: Cannot read properties of null (reading 'questions')
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:82:54
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[29/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves authenticated sixth-grade Chinese, science and social answers without leaking answers
+TypeError: Cannot read properties of null (reading 'questions')
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:97:124
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[30/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > routes Jay by the authenticated account and saves supplied and fallback courses without answer leakage
+TypeError: Cannot read properties of null (reading 'id')
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:113:52
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[31/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > serves continuation questions after old-source mastery without resetting rewards
+TypeError: Cannot read properties of null (reading 'id')
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:131:52
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[32/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > persists new math/social and English intersection voyages while retaining prior source mastery
+TypeError: Cannot read properties of null (reading 'id')
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:146:52
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[33/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > allocates the right publisher server-side without sending future questions or answers
+TypeError: Cannot read properties of null (reading 'id')
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:163:140
+    161|    expect(started.status,JSON.stringify(started.data)).toBe(200);
+    162|    const run=started.data.family.profiles[player].run;
+    163|    const ready=await call('command',{id:randomUUID(),revision:started.…
+       |                                                                                                                                            ^
+    164|    expect(ready.status,JSON.stringify(ready.data)).toBe(200);
+    165|    const q=ready.data.questions[player];expect(q.answer).toBeUndefined…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[34/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > saves grade-two source answers and points for both schools in normal play
+TypeError: Cannot read properties of null (reading 'id')
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:184:149
+    182|    expect(started.status,JSON.stringify(started.data)).toBe(200);
+    183|    const run=started.data.family.profiles.feifei.run;
+    184|    const ready=await call('command',{id:randomUUID(),revision:started.…
+       |                                                                                                                                                     ^
+    185|    expect(ready.status,JSON.stringify(ready.data)).toBe(200);
+    186|    const q=ready.data.questions.feifei;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[35/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > routes grade-one math for the authenticated Yongchun student and hides answers
+AssertionError: {"error":"先到「跟著我學」練熟這個科目，再回來挑戰；原有進度與獎勵都保留。"}: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:215:43
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[36/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > serves and grades source phonetics for grade one without exposing future answers
+TypeError: Cannot read properties of null (reading 'id')
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:227:151
+    225|    expect(started.status,JSON.stringify(started.data)).toBe(200);
+    226|    const run=started.data.family.profiles.qingqing.run;
+    227|    const ready=await call('command',{id:randomUUID(),revision:started.…
+       |                                                                                                                                                       ^
+    228|    expect(ready.status,JSON.stringify(ready.data)).toBe(200);
+    229|    const q=ready.data.questions.qingqing;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[37/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > routes English practice by each authenticated account without leaking answers
+AssertionError: {"error":"先到「跟著我學」練熟這個科目，再回來挑戰；原有進度與獎勵都保留。"}: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:244:44
+    242|    const c=clients[name];
+    243|    const r=await call('practice',{type:'start',player:'quintus',used:[…
+    244|    expect(r.status,JSON.stringify(r.data)).toBe(200);
+       |                                            ^
+    245|    const q=r.data;
+    246|    expect(q.publisher).toBe(publisher);expect(q.examSources.length).to…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[38/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > routes science battle questions for both schools and keeps answers server-only
+AssertionError: {"error":"先到「跟著我學」練熟這個科目，再回來挑戰；原有進度與獎勵都保留。"}: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:255:44
+    253|    const c=clients[name];const state=await call('state',undefined,c);
+    254|    const r=await call('command',{id:randomUUID(),revision:state.data.f…
+    255|    expect(r.status,JSON.stringify(r.data)).toBe(200);
+       |                                            ^
+    256|    const q=r.data.result.question;
+    257|    expect(q.course).toBe('science');expect(q.publisher).toBe('康軒');exp…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[39/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > routes social battle questions for both schools and keeps answers server-only
+AssertionError: {"error":"先到「跟著我學」練熟這個科目，再回來挑戰；原有進度與獎勵都保留。"}: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:270:44
+    268|    const c=clients[name];const state=await call('state',undefined,c);
+    269|    const r=await call('command',{id:randomUUID(),revision:state.data.f…
+    270|    expect(r.status,JSON.stringify(r.data)).toBe(200);
+       |                                            ^
+    271|    const q=r.data.result.question;
+    272|    expect(q.course).toBe('social');expect(q.publisher).toBe('康軒');expe…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[40/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > routes math by authenticated school and keeps younger math age appropriate
+AssertionError: {"error":"先到「跟著我學」練熟這個科目，再回來挑戰；原有進度與獎勵都保留。"}: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:286:44
+    284|    const c=clients[name];const state=await call('state',undefined,c);
+    285|    const r=await call('command',{id:randomUUID(),revision:state.data.f…
+    286|    expect(r.status,JSON.stringify(r.data)).toBe(200);
+       |                                            ^
+    287|    const q=r.data.result.question;
+    288|    expect(q.course).toBe('math');expect(q.grade).toBe(name==='jimmy'?2…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[41/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > authenticates Dunhua, persists Nanyi math progress and keeps book 3 out of English
+TypeError: Cannot read properties of null (reading 'id')
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:309:149
+    307|   expect(started.status,JSON.stringify(started.data)).toBe(200);
+    308|   const run=started.data.family.profiles.quintus.run;
+    309|   const ready=await call('command',{id:randomUUID(),revision:started.d…
+       |                                                                                                                                                     ^
+    310|   expect(ready.status,JSON.stringify(ready.data)).toBe(200);
+    311|   const q=ready.data.questions.quintus;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[42/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > serves the new social supplement for three authenticated schools after prior mastery
+AssertionError: {"error":"先到「跟著我學」練熟這個科目，再回來挑戰；原有進度與獎勵都保留。"}: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:350:44
+    348|    const state=await call('state',undefined,c);
+    349|    const r=await call('command',{id:randomUUID(),revision:state.data.f…
+    350|    expect(r.status,JSON.stringify(r.data)).toBe(200);
+       |                                            ^
+    351|    const q=r.data.result.question;
+    352|    expect(socialSupplement.has(q.id)).toBe(true);expect(q.publisher).t…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[43/61]⎯
+
+ FAIL  src/__tests__/school-curriculum-cloud.test.mjs > school routing through authenticated cloud API > serves the new science supplement for three authenticated schools after prior mastery
+AssertionError: {"error":"先到「跟著我學」練熟這個科目，再回來挑戰；原有進度與獎勵都保留。"}: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ src/__tests__/school-curriculum-cloud.test.mjs:366:44
+    364|    const state=await call('state',undefined,c);
+    365|    const r=await call('command',{id:randomUUID(),revision:state.data.f…
+    366|    expect(r.status,JSON.stringify(r.data)).toBe(200);
+       |                                            ^
+    367|    const q=r.data.result.question;
+    368|    expect(scienceSupplement.has(q.id)).toBe(true);expect(q.publisher).…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[44/61]⎯
+
+ FAIL  src/__tests__/study-review-cloud.test.mjs > review transactions, permissions and zero rewards > respects ownership, rejects forged dates/rewards and hides future answers
+AssertionError: {"error":"先完成幾道挑戰，再來複習學過的題目。"}: expected 400 to be 200 // Object.is equality
+
+- Expected
++ Received
+
+- 200
++ 400
+
+ ❯ send src/__tests__/study-review-cloud.test.mjs:13:126
+
+ ❯ src/__tests__/study-review-cloud.test.mjs:28:3
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[45/61]⎯
+
+ FAIL  src/__tests__/study-review-cloud.test.mjs > review transactions, permissions and zero rewards > duplicate/concurrent answers settle once, stale devices resync and can resume the same question
+TypeError: Cannot read properties of null (reading 'id')
+ ❯ src/__tests__/study-review-cloud.test.mjs:35:51
+     33|  it('duplicate/concurrent answers settle once, stale devices resync an…
+     34|   const r=a.state.family.profiles.quintus.learning.study.session,q=a.s…
+     35|   const command={type:'review-answer',sessionId:r.id,index:0,choice:(q…
+       |                                                   ^
+     36|   const rs=await Promise.all([call('command',body),call('command',body…
+     37|   expect((await call('command',payload(command,b),b)).status).toBe(409…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[46/61]⎯
+
+ FAIL  src/__tests__/study-review-cloud.test.mjs > review transactions, permissions and zero rewards > keeps all reward ledgers and old completion/compensation exactly unchanged across the group
+TypeError: Cannot read properties of null (reading 'id')
+ ❯ src/__tests__/study-review-cloud.test.mjs:47:67
+     45|  });
+     46|  it('keeps all reward ledgers and old completion/compensation exactly …
+     47|   const id=a.state.family.profiles.quintus.learning.study.session.id;
+       |                                                                   ^
+     48|   for(let i=1;i<6;i++){
+     49|    await send({type:'review-next',sessionId:id,index:i-1});const q=a.s…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[47/61]⎯
+
+ FAIL  src/__tests__/subject-islands-cloud.test.mjs > server-authoritative elemental voyages (PostgreSQL) > persists one same-element encounter across racing start replay and another device
+TypeError: Cannot read properties of null (reading 'encounter')
+ ❯ src/__tests__/subject-islands-cloud.test.mjs:27:12
+     25|   const pair=await Promise.all([call('command',body,c),call('command',…
+     26|   const r=pair[0].data.family.profiles.quintus.run;
+     27|   expect(r.encounter.route).toEqual({version:1,island:'fire',element:'…
+       |            ^
+     28|   expect(pair[1].data.family.profiles.quintus.run).toEqual(r);expect(r…
+     29|   const login=await call('login',{username:c.username,password});expec…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[48/61]⎯
+
+ FAIL  src/__tests__/subject-islands-cloud.test.mjs > server-authoritative elemental voyages (PostgreSQL) > rejects forged elements, routes and species without changing the saved state
+TypeError: Cannot read properties of null (reading 'encounter')
+ ❯ src/__tests__/subject-islands-cloud.test.mjs:41:48
+     39|   const saved=(await call('state',undefined,c)).data.family;expect(sav…
+     40|   const valid=await call('command',command(c,{type:'start',player:'fei…
+     41|   expect(valid.data.family.profiles.feifei.run.encounter.route).toEqua…
+       |                                                ^
+     42|  });
+     43| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[49/61]⎯
+
+
+ Test Files  9 failed (9)
+      Tests  61 failed | 18 passed (79)
+   Start at  13:53:13
+   Duration  24.30s (tests 85%, import 13%, transform 1%)
+

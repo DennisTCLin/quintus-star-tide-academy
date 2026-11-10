@@ -1,7 +1,9 @@
+import { observeAdaptive, allocateCaptureMastered, allocateMastered, challengeEligible, LearningPreparationNeeded } from './adaptive-learning';
+import { startLearning } from './study-review';
 import type { Family, Profile, Run } from './adventure';
 import type { IslandRun } from './island/schema';
 import { PLAYERS, type PlayerId } from './game-view';
-import { LEARNING_BANK, questionById, type Course, type Grade } from './learning';
+import { LEARNING_BANK, COURSES, questionById, type Course, type Grade } from './learning';
 import { allocateQuestions } from './learning-engine';
 import { eligibleExam } from './school-curriculum';
 import { monsterById } from './monsters';
@@ -9,12 +11,13 @@ import type { CaptureOutcome } from './creature-rules';
 
 export type CaptureTrial = {
   version: 1; grade: Grade; course: Course; questions: string[];
-  answers: { choice: number; correct: boolean }[]; skipped?: true;
+  answers: { choice: number; correct: boolean }[]; skipped?: true; deferred?: true;
 };
 const need = (ok: unknown, message='降服挑戰已更新，請重新確認畫面') => { if (!ok) throw Error(message); };
 export function createCaptureTrial(p: Profile, grade: Grade, course: Course, exclude: string[]): CaptureTrial {
   // A separate three-question assessment must never change the adventure cursor,
   // replenish ordinary rewards, or escape the child's grade/school boundary.
+  if(p.learning.adaptive)return {version:1,grade,course,questions:allocateCaptureMastered(p.learning,grade,course,exclude).map(q=>q.id),answers:[]};
   const draft=structuredClone(p.learning);
   let questions: string[];
   try { questions=allocateQuestions(draft,grade,course,3,undefined,exclude).map(q=>q.id); }
@@ -26,11 +29,28 @@ export function createCaptureTrial(p: Profile, grade: Grade, course: Course, exc
   }
   return {version:1,grade,course,questions,answers:[]};
 }
+/** Reserve the earned entitlement without assigning any unlearned questions.
+ * The existing pending capture survives until preparation succeeds or the child
+ * explicitly abandons it. Empty/insufficient catalogs never erase the chance. */
+export function reserveCaptureTrial(p:Profile,grade:Grade,course:Course,exclude:string[]):CaptureTrial {
+ try{return createCaptureTrial(p,grade,course,exclude);}
+ catch(e){
+  if(!(e instanceof LearningPreparationNeeded))throw e;
+  return {version:1,grade,course,questions:[],answers:[],deferred:true};
+ }
+}
 export function validateCaptureTrial(c: CaptureOutcome, grade?: Grade, course?: Course) {
   need(c&&typeof c==='object');
   if(c.version!==3){need(c.trial===undefined&&c.outcome!=='pending');return;}
   const t=c.trial;
   need(c.chance===100&&t?.version===1&&PLAYERS.some(p=>p.grade===t.grade)&&(grade===undefined||t.grade===grade)&&(course===undefined||t.course===course));
+  need(t!.deferred===undefined||t!.deferred===true);
+  if(t!.deferred){
+    need(COURSES[t!.grade].some(x=>x.id===t!.course)&&Array.isArray(t!.questions)&&t!.questions.length===0
+      &&Array.isArray(t!.answers)&&t!.answers.length===0&&c.copies===undefined&&c.reason===undefined
+      &&(c.outcome==='pending'&&t!.skipped===undefined||c.outcome==='escaped'&&t!.skipped===true));
+    return;
+  }
   need(Array.isArray(t!.questions)&&t!.questions.length===3&&new Set(t!.questions).size===3
     &&t!.questions.every(id=>{const q=questionById(id);return q?.grade===t!.grade&&q.course===t!.course;}));
   need(Array.isArray(t!.answers)&&t!.answers.length<=3&&t!.answers.every((a,i)=>{
@@ -56,9 +76,11 @@ function active(s:Family,id:PlayerId,source:CaptureSource,runId:string) {
   return {p,c:c!,t:c!.trial!};
 }
 export function answerCapture(s:Family,id:PlayerId,source:CaptureSource,runId:string,index:number,choice:number,day:string) {
-  const {p,c,t}=active(s,id,source,runId);need(index===t.answers.length);
+  const {p,c,t}=active(s,id,source,runId);need(!t.deferred,'先練熟這個概念，再接續降服；本次沒有扣除機會');need(index===t.answers.length);
   const q=questionById(t.questions[index]);need(q&&Number.isInteger(choice)&&choice>=0&&choice<q.options.length,'請選一個答案');
+  need(challengeEligible(p.learning,q,t.grade,t.course),'先練熟這個概念，再接續降服；本次沒有扣除機會');
   const correct=choice===q!.answer;t.answers.push({choice,correct});
+  observeAdaptive(p.learning,q!,correct,false,day);
   if(!correct)c.outcome='escaped';
   else if(t.answers.length===3){
     const monster=monsterById(c.monster);need(monster);
@@ -71,4 +93,11 @@ export function answerCapture(s:Family,id:PlayerId,source:CaptureSource,runId:st
 }
 export function skipCapture(s:Family,id:PlayerId,source:CaptureSource,runId:string) {
   const {c,t}=active(s,id,source,runId);t.skipped=true;c.outcome='escaped';return true;
+}
+
+export function adaptCapture(s:Family,id:PlayerId,source:CaptureSource,runId:string,day:string) {
+ const {p,c,t}=active(s,id,source,runId),count=3-t.answers.length;
+ if(!t.deferred&&t.questions.slice(t.answers.length).every(id=>challengeEligible(p.learning,questionById(id),t.grade,t.course)))return true;
+ try{const qs=t.deferred?allocateCaptureMastered(p.learning,t.grade,t.course,[]):allocateMastered(p.learning,t.grade,t.course,count,t.questions.slice(0,t.answers.length));t.questions.splice(t.answers.length,count,...qs.map(q=>q.id));delete t.deferred;return true;}
+ catch(e){if(!(e instanceof LearningPreparationNeeded))throw e;startLearning(p.learning,t.grade,day,runId+'-learn',t.course);return 'learn';}
 }

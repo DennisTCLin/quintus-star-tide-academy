@@ -1,0 +1,13 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110
+
+ ✓ src/__tests__/mastered-cloud.test.mjs (1 test) 5949ms
+   ✓ durable successes across cloud devices (1)
+     ✓ uses 48 distinct mastered-template math questions when alternating devices, retries and server restart 5447ms
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  14:26:12
+   Duration  6.77s (tests 89%, import 8%, transform 4%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110/output/adaptive-learning-20261110/expanded/cloud-per-file/mastered-cloud.test.json

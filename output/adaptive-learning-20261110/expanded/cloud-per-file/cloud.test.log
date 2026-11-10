@@ -1,0 +1,19 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110
+
+ ✓ src/__tests__/cloud.test.mjs (27 tests) 7754ms
+   ✓ authoritative cloud game (real PostgreSQL) (27)
+     ✓ atomically credits the fifth learning answer and pending materials once across receipt retries 537ms
+     ✓ authorizes castle expansion from server growth, retains land, and persists cosmetics across devices 434ms
+     ✓ preserves all player progress through territory transactions, conflict and replay 415ms
+     ✓ persists one randomized starter across competing devices, reloads and fresh request IDs 453ms
+     ✓ recovers a charged gacha across retries/devices, isolates players and strips imported receipts 404ms
+     ✓ legacy server completion choices survive devices and concurrent/replayed claims without double rewards 1595ms
+     ✓ migrates oldest milestone format and can replace a lost recovery code with password confirmation 558ms
+
+ Test Files  1 passed (1)
+      Tests  27 passed (27)
+   Start at  14:25:08
+   Duration  8.57s (tests 91%, import 6%, transform 3%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110/output/adaptive-learning-20261110/expanded/cloud-per-file/cloud.test.json

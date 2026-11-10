@@ -1,3 +1,4 @@
+import {preparedFamily} from './helpers/adaptive-fixture.mjs';
 import { describe,it,expect,beforeAll,afterAll } from 'vitest';
 import { randomUUID } from 'node:crypto';
 import { createAppServer } from '../../server.mjs';
@@ -10,7 +11,7 @@ suite('remediation authoritative transaction and projection',()=>{
  const payload=command=>({id:randomUUID(),revision:c.state.family.revision,command:{player:'doudou',...command}});
  beforeAll(async()=>{api=await createCloudApi({connectionString:process.env.TEST_DATABASE_URL,production:false});server=createAppServer({api});await new Promise(r=>server.listen(0,'127.0.0.1',r));url=`http://127.0.0.1:${server.address().port}`;
  const username='review_'+randomUUID().slice(0,12).replaceAll('-','');const r=await call('register',{username,password:'isolated-remediation-fixture-2026'});expect(r.status).toBe(200);c={username,cookie:r.cookie,state:r.data};
- raw=newFamily();startRun(raw,'doudou','math',randomUUID(),1,false,taipeiDay(),'relaxed');
+ raw=preparedFamily();startRun(raw,'doudou','math',randomUUID(),1,false,taipeiDay(),'relaxed');
  await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)',[username,raw]);c.state=(await call('state')).data;});
  afterAll(async()=>{await new Promise(r=>server.close(r));await api.close();});
  it('reveals no future questions and automatically opens the next clock exactly once',async()=>{

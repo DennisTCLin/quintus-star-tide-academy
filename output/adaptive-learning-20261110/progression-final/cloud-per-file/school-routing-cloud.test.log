@@ -1,0 +1,10 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110
+
+No test files found, exiting with code 1
+
+filter: src/__tests__/school-routing-cloud.test.mjs
+include: src/__tests__/**/*.test.ts, src/__tests__/**/*.test.mjs
+exclude:  **/node_modules/**, **/.git/**
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110/output/adaptive-learning-20261110/progression-final/cloud-per-file/school-routing-cloud.test.json

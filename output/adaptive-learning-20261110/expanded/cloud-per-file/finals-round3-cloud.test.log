@@ -1,0 +1,69 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 1.tones: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":1,"course":"tones","mode":"array","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"1d01e9db5ef04f6d4e4cffd367e12f1e43a2734c082bd0556fee96bcd81aaae1","after":"1d01e9db5ef04f6d4e4cffd367e12f1e43a2734c082bd0556fee96bcd81aaae1","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 1.tones: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":1,"course":"tones","mode":"prefix","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"7d28c15837339ede1e7cb96506863ecc98007f403f7db7cc083955a2a9b900a2","after":"7d28c15837339ede1e7cb96506863ecc98007f403f7db7cc083955a2a9b900a2","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 1.pairs: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":1,"course":"pairs","mode":"array","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"192b71bac9439b8d1b6a4bb4443cea70a47570bc47bca33ba5ec6a27eabc69e8","after":"192b71bac9439b8d1b6a4bb4443cea70a47570bc47bca33ba5ec6a27eabc69e8","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 1.pairs: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":1,"course":"pairs","mode":"prefix","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"c7394a7fbfaaf0099042592b708f97a40fd89fa830989442b332b21453d78801","after":"c7394a7fbfaaf0099042592b708f97a40fd89fa830989442b332b21453d78801","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 2.words: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":2,"course":"words","mode":"array","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"013e083cce2d783e592e262273e22c875085d9ad10342a9f3acefcdb88020c29","after":"013e083cce2d783e592e262273e22c875085d9ad10342a9f3acefcdb88020c29","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 2.words: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":2,"course":"words","mode":"prefix","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"898eeed239f5e686d6a921d7d3138d91722a41807aa05d9ab5afdbc956001cab","after":"898eeed239f5e686d6a921d7d3138d91722a41807aa05d9ab5afdbc956001cab","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 2.pairs: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":2,"course":"pairs","mode":"array","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"d02572aee86154b8985da19b738c253495acb847500041b31b138c4706bcf379","after":"d02572aee86154b8985da19b738c253495acb847500041b31b138c4706bcf379","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 2.pairs: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":2,"course":"pairs","mode":"prefix","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"72788c1bb06111be4f35f7e9c88f5e19a7ee7af75769dae0c947c9516d81b0f6","after":"72788c1bb06111be4f35f7e9c88f5e19a7ee7af75769dae0c947c9516d81b0f6","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 5.math: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":5,"course":"math","mode":"array","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"d3f20e3aa9c2339cc9a0c8df533eb5668036c4ed939e9bdee61b0693714ca9c7","after":"d3f20e3aa9c2339cc9a0c8df533eb5668036c4ed939e9bdee61b0693714ca9c7","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 5.math: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":5,"course":"math","mode":"prefix","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"324a4aafc0b16946586e5d94e83bd788d009c50019301d2c2a1eb59324029f14","after":"324a4aafc0b16946586e5d94e83bd788d009c50019301d2c2a1eb59324029f14","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 5.social: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":5,"course":"social","mode":"array","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"05de0bedd4f3ade154a5c5cdf6769a4363e7a044da7eec363e65ac1ba83df940","after":"05de0bedd4f3ade154a5c5cdf6769a4363e7a044da7eec363e65ac1ba83df940","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 5.social: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":5,"course":"social","mode":"prefix","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"c2a5b447e69bcfe4446b266d24b3f2b37c4ad7e3a9fb851483a654d5093dc9de","after":"c2a5b447e69bcfe4446b266d24b3f2b37c4ad7e3a9fb851483a654d5093dc9de","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 6.science: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":6,"course":"science","mode":"array","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"8ee806c74f4266502605a991d0f97d7813e8d045c4a49b43113747a36cd30169","after":"8ee806c74f4266502605a991d0f97d7813e8d045c4a49b43113747a36cd30169","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 6.science: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":6,"course":"science","mode":"prefix","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"c216b75dd23fd83844a7ed0e20e8291c35b189927e2762c833dcff2dce049295","after":"c216b75dd23fd83844a7ed0e20e8291c35b189927e2762c833dcff2dce049295","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 6.math: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":6,"course":"math","mode":"array","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"514c7fc981ccc71f9a1fe9b7181faaa01a76b1a92723513d6b10596bea341f28","after":"514c7fc981ccc71f9a1fe9b7181faaa01a76b1a92723513d6b10596bea341f28","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+stdout | src/__tests__/finals-round3-cloud.test.mjs > round3 content on a fresh isolated PostgreSQL database > 6.math: preserves actual-main8465 progress and raw storage on login/state
+round3-pinned-storage {"synthetic":true,"grade":6,"course":"math","mode":"prefix","base":"8465de69f91ff51d6f8c677a634fb68f7dbfb45a","before":"28efd3350ecc9d396fc4059c3545751b886a07b36c038c71bcd8a0282ca81357","after":"28efd3350ecc9d396fc4059c3545751b886a07b36c038c71bcd8a0282ca81357","timestampUnchanged":true,"fullRuntimeEqual":true}
+
+ ✓ src/__tests__/finals-round3-cloud.test.mjs (16 tests) 6824ms
+   ✓ round3 content on a fresh isolated PostgreSQL database (16)
+     ✓ 1.tones: preserves actual-main8465 progress and raw storage on login/state 405ms
+     ✓ 1.pairs: preserves actual-main8465 progress and raw storage on login/state 415ms
+     ✓ 2.words: preserves actual-main8465 progress and raw storage on login/state 379ms
+     ✓ 2.words: retains supplied sources, gates unmapped papers, and rewards prepared content once 322ms
+     ✓ 2.pairs: preserves actual-main8465 progress and raw storage on login/state 384ms
+     ✓ 5.math: preserves actual-main8465 progress and raw storage on login/state 379ms
+     ✓ 5.social: preserves actual-main8465 progress and raw storage on login/state 380ms
+     ✓ 6.science: preserves actual-main8465 progress and raw storage on login/state 381ms
+     ✓ 6.math: preserves actual-main8465 progress and raw storage on login/state 381ms
+
+ Test Files  1 passed (1)
+      Tests  16 passed (16)
+   Start at  14:25:49
+   Duration  7.63s (tests 90%, import 7%, transform 3%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110/output/adaptive-learning-20261110/expanded/cloud-per-file/finals-round3-cloud.test.json

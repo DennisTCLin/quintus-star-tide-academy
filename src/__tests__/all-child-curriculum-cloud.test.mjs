@@ -1,3 +1,5 @@
+import {prepareProfile,withAdaptiveOverlay,emptyAdaptive,completeLearning} from './helpers/adaptive-fixture.mjs';
+import {challengeEligible,hasMastered} from '../../build/game.mjs';
 import {beforeAll,afterAll,describe,it,expect} from 'vitest';
 import {randomUUID,createHash} from 'node:crypto';
 import pinned from '../../docs/content-review/finals131-20261107/fixtures/base3437-cloud-families.json';
@@ -48,16 +50,17 @@ suite('all parent-confirmed child curriculum routing',()=>{
    const c=clients[username],earned=[];let st=(await call('state',undefined,c)).data;
    async function command(command){const r=await call('command',{id:randomUUID(),revision:st.family.revision,command:{player,...command}},c);expect(r.status,JSON.stringify(r.data)).toBe(200);st=r.data;}
    await command({type:'quit',runId:st.family.profiles[player].run.id});
+   const prepared=(await storage(c.accountId)).family;prepareProfile(prepared.profiles[player],grade,{school});await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=$1',[c.accountId,prepared]);st=(await call('state',undefined,c)).data;
    for(const [course,[publisher]] of Object.entries(courses)){
-    await command({type:'start',course,practice:false,timing:'relaxed'});const run=st.family.profiles[player].run;expect(run.questions).toHaveLength(6);
+    await command({type:'start',course,practice:false,timing:'relaxed'});if(st.result==='learn'){await completeLearning(command,()=>st,player);await command({type:'start',course,practice:false,timing:'relaxed'});}const run=st.family.profiles[player].run;expect(run.questions).toHaveLength(6);
     for(let index=0;index<6;index++){
-     await command({type:'ready-question',runId:run.id,index});const q=st.questions[player];expect(q.grade).toBe(grade);expect(q.course).toBe(course);expect(q.publisher).toBe(publisher);expect(q.examSources?.length).toBeGreaterThan(0);expect(eligibleExam(school,grade,course,questionById(q.id))).toBe(true);expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefined();
+     await command({type:'ready-question',runId:run.id,index});const q=st.questions[player];expect(q.grade).toBe(grade);expect(q.course).toBe(course);if(q.examSources?.length){expect(q.publisher).toBe(publisher);expect(eligibleExam(school,grade,course,questionById(q.id))).toBe(true);}expect(challengeEligible((await storage(c.accountId)).family.profiles[player].learning,questionById(q.id),grade,course)).toBe(true);expect(q.answer).toBeUndefined();expect(q.explanation).toBeUndefined();
      await command({type:'answer',runId:run.id,index,choice:questionById(q.id).answer});expect(st.result).toBe(true);earned.push(q.id);expect((await call('state',undefined,c)).data.family).toEqual(st.family);
      if(index<5)await command({type:'next',runId:run.id,index});
     }
     expect(st.family.profiles[player].run.status).toBe('won');
     if(st.family.profiles[player].run.capture?.outcome==='pending')await command({type:'capture-skip',source:'voyage',runId:run.id});
-    const battle=await call('command',{id:randomUUID(),revision:st.family.revision,command:{type:'battle-start',player,course,used:[]}},c);expect(battle.status,JSON.stringify(battle.data)).toBe(200);const bq=battle.data.result.question;expect(bq.publisher).toBe(publisher);expect(bq.grade).toBe(grade);expect(bq.course).toBe(course);expect(eligibleExam(school,grade,course,questionById(bq.id))).toBe(true);expect(bq.answer).toBeUndefined();st=battle.data;
+    const battle=await call('command',{id:randomUUID(),revision:st.family.revision,command:{type:'battle-start',player,course,used:[]}},c);expect(battle.status,JSON.stringify(battle.data)).toBe(200);const bq=battle.data.result.question;if(bq.examSources?.length)expect(bq.publisher).toBe(publisher);expect(bq.grade).toBe(grade);expect(bq.course).toBe(course);if(bq.examSources?.length)expect(eligibleExam(school,grade,course,questionById(bq.id))).toBe(true);expect(bq.answer).toBeUndefined();st=battle.data;
     await command({type:'battle-answer',token:battle.data.result.token,question:bq.id,choice:questionById(bq.id).answer});earned.push(bq.id);
 
    }
@@ -67,9 +70,9 @@ suite('all parent-confirmed child curriculum routing',()=>{
     const practice=await call('practice',{type:'start',player,used:Array.from({length:i},(_,j)=>'synthetic-used-'+j)},c);expect(practice.status,JSON.stringify(practice.data)).toBe(200);const q=practice.data;expect(q.grade).toBe(grade);expect(q.answer).toBeUndefined();if(q.examSources)expect(eligibleExam(school,grade,q.course,questionById(q.id))).toBe(true);
     const before=(await call('state',undefined,c)).data.family.profiles[player];
     const answered=await call('practice',{type:'answer',question:q.id,choice:questionById(q.id).answer},c);expect(answered.status,JSON.stringify(answered.data)).toBe(200);earned.push(q.id);
-    const after=(await call('state',undefined,c)).data.family.profiles[player];expect(after.learning.mastered.ids).toContain(q.id);expect(after.coins).toBe(before.coins);expect(after.tickets).toBe(before.tickets);
+    const after=(await call('state',undefined,c)).data.family.profiles[player];expect(hasMastered(after.learning,q.id)).toBe(true);expect(after.coins).toBe(before.coins);expect(after.tickets).toBe(before.tickets);
    }
-   const final=(await call('state',undefined,c)).data.family;expect(final.profiles[player].learning.school).toBe(school);for(const id of [...c.original.profiles[player].learning.mastered.ids,...earned])expect(final.profiles[player].learning.mastered.ids).toContain(id);expect(final.profiles[player].coins).toBeGreaterThanOrEqual(735);expect(final.profiles[player].tickets).toBeGreaterThanOrEqual(5);for(const [id,p] of Object.entries(c.original.profiles))if(id!==player)expect(final.profiles[id]).toEqual(p);
+   const final=(await call('state',undefined,c)).data.family;expect(final.profiles[player].learning.school).toBe(school);for(const id of [...c.original.profiles[player].learning.mastered.ids,...earned])expect(hasMastered(final.profiles[player].learning,id)).toBe(true);expect(final.profiles[player].coins).toBeGreaterThanOrEqual(735);expect(final.profiles[player].tickets).toBeGreaterThanOrEqual(5);for(const [id,p] of Object.entries(c.original.profiles))if(id!==player)expect(final.profiles[id]).toEqual(withAdaptiveOverlay(c.original).profiles[id]);
   },60000);
   it(`${username}: preserves an actual pinned-base voyage in both array and prefix storage`,async()=>{
    expect(pinned.sourceCommit).toBe('3437ad63e8bfb8e0b689440176d94a0ea223be8c');
@@ -89,7 +92,7 @@ suite('all parent-confirmed child curriculum routing',()=>{
     const decoded=validateFamily(structuredClone(after.family));expect(decoded,mode).toEqual(original);
     const actual=state.data.family.profiles[player],expected=original.profiles[player];
     expect(actual.run.id).toBe(expected.run.id);expect(actual.run.index).toBe(expected.run.index);expect(actual.run.answers).toEqual(expected.run.answers);
-    expect(actual.learning).toEqual({...expected.learning,school});
+    expect(actual.learning).toEqual({...expected.learning,school,adaptive:emptyAdaptive()});
     expect(actual.learning.seen).toEqual(expected.learning.seen);expect(actual.learning.mastered).toEqual(expected.learning.mastered);
     for(const key of ['coins','tickets','starTickets','rewardStars','rewardRounds','owned','firstAcquired','equipped','growth'])expect(actual[key],`${mode}.${key}`).toEqual(expected[key]);
     console.info('pinned-legacy-storage-evidence',JSON.stringify({synthetic:true,case:username,mode,sourceCommit:pinned.sourceCommit,before:createHash('sha256').update(before.family_text).digest('hex'),after:createHash('sha256').update(after.family_text).digest('hex'),updatedAtUnchanged:after.updated_at===before.updated_at,oldRun:actual.run.id,index:actual.run.index,fullRuntimeEqual:true}));

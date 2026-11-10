@@ -1,3 +1,4 @@
+import type { IslandReadiness } from './adaptive';
 import { validateCaptureTrial, captureIndex } from "../capture-trial";
 import { isLocalDayKey } from '../core';
 import { CHALLENGE_QUESTIONS, MAX_MISTAKES } from '../challenge-rules';
@@ -12,6 +13,7 @@ import { petById } from '../game-view';
 import { UPPER_PLANS } from './upper-plans';
 
 export type IslandRun = {
+  practice?:true;
   id: string; day: string; mode: Mode; unit?: string; companion: string;
   items: Item[]; answers: string[]; completed: boolean; skillUsed: boolean; help?: {index: number; eliminated: string | null};
   coins: number; points: number; rewarded: number; xp: number; packs: number; found: number;
@@ -21,7 +23,7 @@ export type IslandRun = {
   captureRule?: "three-correct-v1";
   grade?: number;
 };
-export type CloudIsland = PlayerIsland & { run?: IslandRun };
+export type CloudIsland = PlayerIsland & { run?: IslandRun; readiness?:IslandReadiness };
 export type IslandAnswer = { correct: boolean; answer: string; coins: number; points: number; star: 'lost' | 'found' | 'home' | null };
 
 /** Stable Math Island IDs only; ordinary course validators keep their own grade rules. */
@@ -40,6 +42,11 @@ export function validateIsland(value: unknown): asserts value is CloudIsland {
   need(obj(p.units) && Object.entries(p.units).every(([k, u]) => Object.prototype.hasOwnProperty.call(UNIT_BY_ID,k) && obj(u)
     && (u.learn === undefined || typeof u.learn === 'boolean') && (u.play === undefined || typeof u.play === 'boolean')
     && (u.boss === undefined || ratio(u.boss)) && (!u.play || u.learn) && (u.boss === undefined || u.play)));
+  if(p.readiness!==undefined){
+    const a=p.readiness;need(obj(a)&&obj(a.scope)&&obj(a.evidence)&&Object.keys(a.scope).length<=1000&&Object.keys(a.evidence).length<=Object.keys(GAME_UNITS).length);
+    for(const [key,v] of Object.entries(a.scope))need(/^(yongchun|nantun|dunhua|jianan|dongmen|xingan|unconfirmed):115-1:[1-6]A-\d{2}$/.test(key)&&!!UNIT_BY_ID[key.split(':')[2]]&&typeof v==='boolean');
+    for(const [key,v] of Object.entries(a.evidence))need(!!GAME_UNITS[key]&&obj(v)&&Array.isArray(v.ids)&&v.ids.length<=2&&new Set(v.ids).size===v.ids.length&&v.ids.every(isIslandQuestion)&&typeof v.ready==='boolean'&&v.ready===(v.ids.length>=2));
+  }
   need(p.mock === undefined || ratio(p.mock));
   need(p.mocks === undefined || (obj(p.mocks)&&Object.entries(p.mocks).every(([grade,score])=>/^[1-6]$/.test(grade)&&ratio(score))));
   need(Array.isArray(p.pool) && p.pool.length <= Object.keys(GAME_UNITS).length && new Set(p.pool.map(x => x?.k)).size === p.pool.length
@@ -58,6 +65,7 @@ export function validateIsland(value: unknown): asserts value is CloudIsland {
     && ['learn','play','boss','mock'].includes(r.mode) && (r.mode === 'mock' ? r.unit === undefined : typeof r.unit === 'string' && Object.prototype.hasOwnProperty.call(UNIT_BY_ID,r.unit))
     && typeof r.companion === 'string' && typeof r.completed === 'boolean' && typeof r.skillUsed === 'boolean');
   need(r.grade===undefined || (Number.isInteger(r.grade)&&r.grade>=1&&r.grade<=6&&(!r.unit||Number(r.unit[0])===r.grade)));
+  need(r.practice===undefined||r.practice===true&&r.mode!=='learn');
   const size = r.mode === 'learn' ? UNIT_BY_ID[r.unit!].learn.reduce((a,b)=>a+b,0) : CHALLENGE_QUESTIONS;
   need(Array.isArray(r.items) && r.items.length === size && r.items.every(q => obj(q) && isIslandQuestion(q.id)
     && Object.prototype.hasOwnProperty.call(GAME_UNITS,q.k) && GAME_UNITS[q.k].unit === q.unit && isIslandNumber(q.answer) && Number(q.answer) <= answerLimit(q.unit)
@@ -98,7 +106,7 @@ export function validateIsland(value: unknown): asserts value is CloudIsland {
     need(obj(c) && monster && r.completed && !islandFailed(r) && r.answers.length===CHALLENGE_QUESTIONS
       && c.monster===monster!.id && validCaptureRate(c,monster!.rarity));
     if(c.outcome==='joined'||c.outcome==='duplicate') need(num(c.copies,10000) && c.copies!>0 && c.reason===undefined);
-    else if(c.outcome==='unavailable') need(['old-day','capacity','legacy'].includes(c.reason!) && c.copies===undefined);
+    else if(c.outcome==='unavailable') need(['old-day','capacity','legacy','learning'].includes(c.reason!) && c.copies===undefined);
     else need((c.outcome==='escaped'||c.outcome==='pending') && c.reason===undefined && c.copies===undefined);
   }
 }
@@ -111,4 +119,4 @@ export function publicIslandRun(r: IslandRun): IslandRun {
   return out;
 }
 
-export const islandFailed = (r: IslandRun) => r.mode !== "learn" && r.answers.filter((a,i)=>a !== r.items[i]?.answer).length >= MAX_MISTAKES;
+export const islandFailed = (r: IslandRun) => r.mode !== "learn" && !r.practice && r.answers.filter((a,i)=>a !== r.items[i]?.answer).length >= MAX_MISTAKES;

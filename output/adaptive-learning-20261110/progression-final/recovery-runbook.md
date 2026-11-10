@@ -1,0 +1,22 @@
+# Compatible forward recovery — PR 29
+
+This is a prepared incident procedure, not an active maintenance switch. Do not apply during a successful rollout. Release owner performs it only if a regression needs containment. Preserve the production database and its later child activity; do not restore the pre-release database or redeploy a4d1e62 / ed248ea validators.
+
+## Preserve readable saved state
+
+Use the exact released PR 29 commit as the recovery base. Keep its `server/cloud.mjs`, `src/adventure.ts`, `src/study-review.ts`, `src/capture-trial.ts`, adaptive learning modules and rebuilt `build/game.mjs` together. The current source accepts learning `scope`/`learn` phases and pending `trial.deferred:true` with empty questions and answers. `adaptive-learning.test.ts`, `adaptive-capture-reservation-cloud.test.mjs` and `adaptive-learning-cloud.test.mjs` exercise round trips, pending entitlement, preparation and continuation. Never strip those fields, flatten learning to old phases, invent capture questions or discard pending capture.
+
+## Contain an incident
+
+1. Integration owner locks the existing main/Railway deployment window and records the active deployment ID, commit and fresh read-only production snapshot using the already approved preservation procedure. Keep a copy of both BEFORE and current snapshots; do not write either back to production.
+2. From a fresh isolated checkout of the actual deployed main commit, create `codex/adaptive-compatible-recovery`. Check that it contains PR 29's final compatible readers and that no later change altered `server.mjs`. Use `git apply --check output/adaptive-learning-20261110/progression-final/recovery-hold.patch`, then `git apply` that same file. If the check fails, adapt only this small server gate in review; never revert unrelated main changes.
+3. The patch returns HTTP 503 + Retry-After for ALL child/adult/admin API methods, including login, reads and commands. It does not construct the cloud service, open PostgreSQL or start its background cleanup. Health and static resources remain available. This deliberately pauses learning and account operations for everyone while preserving stored data. It is not a read-only live learning mode and makes no claim that old in-flight clients can continue.
+4. Run `npm run build`, the preserved compatibility unit tests and fresh local PostgreSQL suites named above. Validate the patched server's `/health` is 200, API routes are 503, and no cloud service is invoked. `recovery-hold-check.mjs` demonstrates this against the unpatched release source in an isolated temporary directory; its raw results cover 32 blocked requests. Review the actual production patch again before merge.
+5. Commit only the server gate and an incident verification note. Open/merge a normal PR to the existing GitHub main with the integration owner's release window. Let the existing Railway service auto-deploy; do not create another service/database or run old-checkout `railway up`. Verify the new expected commit is SUCCESS, health is 200 and API state/command return 503. Wait for the old deployment to drain; collect another read-only snapshot to account for legitimate operations that finished before the hold became active.
+
+## Repair and resume
+
+6. Start a second forward-fix PR from the held compatible main. Repair the actual defect without changing established IDs, reward ledgers, answered prefixes, reserved monsters/quotas or new learning phases. Use synthetic cases reproducing the incident plus current compatibility, preservation and real PostgreSQL replay tests. A data repair requires a separate explicit, reviewed per-record reconciliation; this runbook authorizes no SQL UPDATE/DELETE or blanket restoration.
+7. Remove ONLY the maintenance gate and restore cloud-service construction from the compatible PR 29 implementation. Do not revert the entire first recovery commit if later edits overlap. Rebuild, verify browser learning/preparation/resume and immutable artifacts, then take a fresh production BEFORE snapshot. Merge through the same GitHub/Railway flow, verify expected deployment and exact public assets, and collect AFTER. Resume only after preserved progress/rewards and compatible state reads pass.
+
+No recovery action has been executed against production. Prepared hold test is local HTTP only; release tests use disposable local PostgreSQL databases. Formal production snapshots and incident activation belong to the integration owner.

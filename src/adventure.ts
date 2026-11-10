@@ -1,5 +1,7 @@
+import { allocateMastered, challengeEligible, LearningPreparationNeeded } from './adaptive-learning';
+import { startLearning } from './study-review';
 import {decodeFamilySeen,withCompactSeen} from './family-seen-codec';
-import { createCaptureTrial, validateCaptureTrial, capturePending } from "./capture-trial";
+import { reserveCaptureTrial, validateCaptureTrial, capturePending } from "./capture-trial";
 import { freshMastered, hasMastered, markMastered } from "./mastered-questions";
 import { routeForCourse } from "./subject-islands";
 import { newChallenge, openChallenge, readingSeconds, challengeExpired, correctNeeded, validateChallenge, type TieredChallenge, type TimingMode } from "./tiered-challenge";
@@ -62,6 +64,7 @@ export type MasteryConversion = { version: 1; points: number; coins: number };
 export const masteryConversion = (points: number): MasteryConversion => ({ version: 1, points, coins: Math.floor(points / 20) * 10 });
 export type Remediation = { version: 1; coinTarget: number; xpTarget: number; corrected: number[]; receipt: { coins: number; xp: number; skipped: boolean } | null };
 export type Run = {
+  adaptive?: 1;
   remediation?: Remediation;
   challenge?: TieredChallenge;
   /** Server-set first-answer ledger. Absent only on completed legacy voyages. */
@@ -451,6 +454,7 @@ export function validateFamily(value: unknown): Family {
           && sameStats(combat.ally, encounterStats(combat.version as 1 | 2, petById(String(r.companion))!.rarity, Number(r.encounter.level)))
           && sameStats(combat.foe, encounterStats(combat.version as 1 | 2, species.rarity, Number(r.encounter.level))));
       }
+      requireValue(r.adaptive===undefined||r.adaptive===1);
       requireValue(r.captureRule === undefined || r.captureRule === "three-correct-v1");
       if (r.capture !== undefined) {
         validateCaptureTrial(r.capture as CaptureOutcome, player.grade, r.course as Course);
@@ -463,7 +467,7 @@ export function validateFamily(value: unknown): Family {
           requireValue(integer(capture.copies, 10000) && Number(capture.copies) > 0 && capture.reason === undefined
             && Object.prototype.hasOwnProperty.call(p.firstAcquired, species.id));
         } else if (capture.outcome === "unavailable") {
-          requireValue(["practice", "old-day", "daily-limit", "legacy", "capacity"].includes(String(capture.reason)) && capture.copies === undefined);
+          requireValue(["practice", "old-day", "daily-limit", "legacy", "capacity", "learning"].includes(String(capture.reason)) && capture.copies === undefined);
         } else requireValue(capture.reason === undefined && capture.copies === undefined);
       }
       if (legacyLearning) {
@@ -599,6 +603,7 @@ export function reconcileMasteredQuestions(p: Profile, grade: Grade) {
       ...(run?.remediation?.corrected.map(i => run.questions[i]) ?? [])];
     for (const id of successes) if (questionById(id)?.grade === grade) markMastered(p.learning, id);
   }
+  if(p.learning.adaptive)return; // Adaptive assessments intentionally reuse learned questions.
   if (p.learning.pending && hasMastered(p.learning, p.learning.pending.question)) p.learning.pending = null;
   const run = p.run;
   if (!run || run.status !== 'active') return;
@@ -658,16 +663,22 @@ export function startRun(
   requireValue(!pendingRemediation(p.run), "先完成補練，或選擇略過這次補練");
   const grade = PLAYERS.find((x) => x.id === id)!.grade;
   const route = routeForCourse(grade, course);
+  if(p.learning.adaptive&&(practice||p.learning.adaptive.lastLearningDay!==day||(p.day===day&&p.rewardRounds>0&&p.rewardRounds%3===0&&p.learning.adaptive.coachedRound!==`${day}:${p.rewardRounds}`))){
+    startLearning(p.learning,grade,day,runId,course);p.learning.adaptive.coachedRound=`${day}:${p.rewardRounds}`;return 'learn';
+  }
   tick(p, day);
   const previousMonster = p.run?.encounter.monster ?? monsterById(p.lastMonsterVariant)?.family;
   const level = growthProgress(p.growth.xp[p.equipped] ?? 0).level;
   const monster = chooseMonster(level, seed, previousMonster, route.element);
   const combat = { version:2 as const, ally:encounterStats(2,petById(p.equipped)!.rarity,level), foe:encounterStats(2,monster.rarity,level) };
   const challenge = timing !== undefined ? newChallenge(combat.foe.level,grade,practice?'relaxed':timing) : undefined;
-  const allocated = allocateAdventureQuestions(p.learning,grade,course,CHALLENGE_QUESTIONS,challenge?.targetDifficulty, p.learning.pending ? [p.learning.pending.question] : []);
+  let allocated:QuestionAllocation[];
+  try {allocated=allocateAdventureQuestions(p.learning,grade,course,CHALLENGE_QUESTIONS,challenge?.targetDifficulty,p.learning.pending?[p.learning.pending.question]:[]);}
+  catch(e){if(!(e instanceof LearningPreparationNeeded))throw e;startLearning(p.learning,grade,day,runId,course);return 'learn';}
   if(challenge) challenge.difficultyLevels=allocated.map(q=>questionDifficulty(questionById(q.id)!));
   p.lastMonsterVariant = monster.id;
   p.run = {
+    ...(p.learning.adaptive?{adaptive:1 as const}:{}),
     captureRule: "three-correct-v1",
     ...(challenge?{challenge}:{}),
     remediation: { version: 1,
@@ -711,6 +722,7 @@ export function readyQuestion(s:Family,id:PlayerId,runId:string,index:number,now
   const r=s.profiles[id].run;
   requireValue(r&&r.id===runId&&r.index===index&&r.status==='active'&&!r.settled&&r.challenge,'題目已更新');
   const q=questionById(r.questions[index])!;
+  requireValue(challengeEligible(s.profiles[id].learning,q,PLAYERS.find(x=>x.id===id)!.grade,r.course),'先到跟著我學練熟，再依目前能力接續這趟；獎勵已保留');
   openChallenge(r.challenge,index,now,readingSeconds(q.prompt+' '+q.options.map(o=>o.text).join(' '),q.audio?(q.end??0):0));
   return true;
 }
@@ -735,6 +747,7 @@ export function answerRun(
     "這題已更新，請重新查看",
   );
   const q = questionById(r.questions[r.index])!;
+  requireValue(challengeEligible(p.learning,q,PLAYERS.find(x=>x.id===id)!.grade,r.course),'這題尚未練熟，先到跟著我學；本次沒有扣血或扣獎勵');
   requireValue(Array.isArray(r.answers), "請重新載入，更新這趟挑戰規則");
   requireValue(!r.challenge || !!r.challenge.clock, "先按開始這題");
   const expired = r.challenge ? challengeExpired(r.challenge,now) : false;
@@ -835,7 +848,7 @@ export function settleCapture(p: Profile, run: Pick<Run, "encounter" | "capture"
     if ((p.owned[monster.id] ?? 0) >= 10000) result.reason = "capacity";
     else if (trialContext) {
       result.version=3;result.chance=100;result.outcome="pending";
-      result.trial=createCaptureTrial(p,trialContext.grade,trialContext.course,trialContext.exclude);
+      result.trial=reserveCaptureTrial(p,trialContext.grade,trialContext.course,trialContext.exclude);
     } else if (roll * 100 < result.chance) {
       result.outcome = p.owned[monster.id] ? "duplicate" : "joined";
       grantCard(p, monster.id, day);
@@ -1247,6 +1260,7 @@ export function recordBattleAnswer(
     pending && pending.token === token && pending.question === question,
     "助戰題目已在另一個分頁更新",
   );
+  requireValue(challengeEligible(p.learning,questionById(question),PLAYERS.find(x=>x.id===id)!.grade),'先練熟這個概念再答題助戰，原有獎勵已保留');
   recordLearning(
     p.learning,
     questionById(question)!,
@@ -1256,4 +1270,24 @@ export function recordBattleAnswer(
     day,
   );
   p.learning.pending = null;
+}
+
+/** Replace only unanswered reservations; previous answers and all reward ledgers remain intact. */
+export function adaptRun(s:Family,id:PlayerId,runId:string,day:string) {
+ const p=s.profiles[id],r=p.run,grade=PLAYERS.find(x=>x.id===id)!.grade;
+ requireValue(r?.id===runId&&r.status==='active');
+ const start=r.index+Number(r.settled), count=r.questions.length-start;
+ if(!count)return true;
+ let allocated:QuestionAllocation[];
+ try{allocated=allocateMastered(p.learning,grade,r.course,count,r.questions.slice(0,start));}
+ catch(e){if(!(e instanceof LearningPreparationNeeded))throw e;startLearning(p.learning,grade,day,runId+'-learn',r.course);return 'learn';}
+ r.questions.splice(start,count,...allocated.map(q=>q.id));r.review.splice(start,count,...allocated.map(q=>q.review));r.adaptive=1;
+ if(r.challenge){r.challenge.difficultyLevels=r.questions.map(id=>questionDifficulty(questionById(id)!));if(!r.settled)r.challenge.clock=null;}
+ if(!r.settled){r.assisted=false;r.eliminated=null;r.wrong=[];}return true;
+}
+
+/** A hidden question must not keep counting down while the learner prepares. */
+export function protectAdventureReservation(p:Profile,grade:Grade) {
+ const r=p.run;
+ if(p.learning.adaptive&&r?.status==='active'&&!r.settled&&r.challenge&&!challengeEligible(p.learning,questionById(r.questions[r.index]),grade,r.course))r.challenge.clock=null;
 }

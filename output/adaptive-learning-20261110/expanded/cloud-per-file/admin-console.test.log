@@ -1,0 +1,14 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110
+
+ ✓ src/__tests__/admin-console.test.mjs (16 tests) 4532ms
+   ✓ separate super-admin authority and audited grants (16)
+     ✓ creates only an explicit hashed admin, refusing credential overwrite 372ms
+     ✓ rate limits repeated admin authentication 1907ms
+
+ Test Files  1 passed (1)
+      Tests  16 passed (16)
+   Start at  14:23:48
+   Duration  5.07s (tests 91%, import 7%, transform 2%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110/output/adaptive-learning-20261110/expanded/cloud-per-file/admin-console.test.json

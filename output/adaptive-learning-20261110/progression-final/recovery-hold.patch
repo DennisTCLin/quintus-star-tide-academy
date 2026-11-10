@@ -1,0 +1,26 @@
+--- a/server.mjs
++++ b/server.mjs
+@@ -126,6 +126,12 @@
+     badRequest(res)
+     return
+   }
++  // Emergency forward fix: keep compatible artifacts, stop ALL API traffic.
++  // No cloud service is constructed below, so no background DB tasks run.
++  if (decoded.startsWith('/api/') || url.pathname.startsWith('/api/')) {
++    res.writeHead(503, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store', 'Retry-After': '300' });
++    res.end(JSON.stringify({ error: '學習服務正在維修，已儲存的進度與獎勵會保留，請稍後重新開啟。' })); return
++  }
+   if (url.pathname.startsWith('/api/')) {
+     if (api) { void api(req, res); return }
+     res.writeHead(503, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
+@@ -175,8 +181,8 @@
+ 
+ const isMain = process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1])
+ if (isMain) {
+-  const { createCloudApi } = await import('./server/cloud.mjs')
+-  const api = await createCloudApi()
++  // Do not connect to PostgreSQL during the incident hold.
++  const api = { close: async () => {} }
+   const server = createAppServer({ api })
+   server.requestTimeout = 15000
+   process.on('SIGTERM', () => server.close(() => api.close().then(() => process.exit(0))))

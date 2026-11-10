@@ -1,0 +1,20 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110
+
+stderr | src/__tests__/conquest-shared.test.mjs > shared conquest authoritative world > rolls back defender reports, both armies and ownership when receipt persistence fails
+Cloud operation failed P0001
+
+ ✓ src/__tests__/conquest-shared.test.mjs (15 tests) 5777ms
+   ✓ shared conquest authoritative world (15)
+     ✓ allows same-species opponents, saves defeated defenders to their owner and survives relogin 354ms
+     ✓ serializes real collection trading against PvP without overwriting XP, wounds or returning an unowned garrison 371ms
+     ✓ updates a fully logged-out defender from attacker reads and commits exact PvP wounds without changing learning saves 402ms
+     ✓ synchronizes a same-household doudou attack against offline quintus: win 1200ms
+     ✓ synchronizes a same-household doudou attack against offline quintus: loss 1141ms
+
+ Test Files  1 passed (1)
+      Tests  15 passed (15)
+   Start at  14:36:44
+   Duration  6.69s (tests 87%, import 9%, transform 4%)
+
+JSON report written to /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110/output/adaptive-learning-20261110/capture-preservation/cloud-per-file/conquest-shared.test.json

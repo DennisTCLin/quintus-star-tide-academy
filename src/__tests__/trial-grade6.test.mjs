@@ -3,6 +3,10 @@ import {applySchoolCurriculum,SCHOOL_ROSTER} from '../../server/school-roster.mj
 import {newFamily,startRun,answerRun,nextQuestion,readyQuestion} from '../adventure';
 import {answerCapture} from '../capture-trial';
 import {questionById} from '../learning';
+import {topicsFor} from '../adaptive-catalog';
+import {reportSchoolExposure,observeAdaptive} from '../adaptive-learning';
+const day='2026-10-27';
+const certify=(s,course)=>{for(const t of topicsFor(6,course)){reportSchoolExposure(s,6,t.id,'taught',day);for(const id of t.questions)observeAdaptive(s,questionById(id),true,false,day);}s.adaptive.lastLearningDay=day;};
 const user={member_id:'trial-member',username:'trial_g6',player_id:'alston'};
 describe('isolated grade-six trial readiness',()=>{
  it('selects a usable curriculum for every subject without claiming a real student identity',()=>{
@@ -10,15 +14,15 @@ describe('isolated grade-six trial readiness',()=>{
   for(const course of ['math','english','chinese','science','social']){
    const f=newFamily();applySchoolCurriculum(f,user);const p=f.profiles.alston;p.growth.xp[p.equipped]=350;
    startRun(f,'alston',course,'trial-'+course,0,false,'2026-10-27','relaxed');
-   expect(p.run.questions).toHaveLength(6);
-   for(const id of p.run.questions)expect(questionById(id)).toMatchObject({grade:6,course});
+   expect(p.run).toBeNull();expect(p.learning.study.session.mode).toBe('learn');expect(p.learning.study.session.questions.length).toBeGreaterThan(0);
+   for(const id of p.learning.study.session.questions)expect(questionById(id)).toMatchObject({grade:6,course});
   }
  });
  it('allows a new boss battle and genuine three-answer capture using the trial curriculum',()=>{
   let chosen;
   for(let seed=0;seed<40;seed++){
    const f=newFamily();applySchoolCurriculum(f,user);const p=f.profiles.alston;p.growth.xp[p.equipped]=350;
-   startRun(f,'alston','math','trial-boss',seed*10000,false,'2026-10-27','relaxed');
+   certify(p.learning,'math');startRun(f,'alston','math','trial-boss',seed*10000,false,'2026-10-27','relaxed');
    if(p.run.encounter.variant.startsWith('wave4-')){chosen=f;break;}
   }
   expect(chosen).toBeDefined();const p=chosen.profiles.alston,r=p.run;

@@ -1,0 +1,128 @@
+{
+  "integratedBase": "a4d1e62a20286d62fa555d4d8b1a73a31f0d24e8",
+  "expectedFiles": 1,
+  "completedFiles": 1,
+  "allPassed": true,
+  "passedTests": 21,
+  "results": [
+    {
+      "startedAt": "2026-11-10T06:53:49.941026+00:00",
+      "finishedAt": "2026-11-10T06:54:00.044323+00:00",
+      "file": "school-curriculum-cloud.test.mjs",
+      "exitCode": 0,
+      "passedTests": 21,
+      "failedTests": 0,
+      "freshDatabasePerFile": true,
+      "databaseName": "adaptive_check_abdb60bc113b",
+      "publicTablesBefore": 0,
+      "log": "school-curriculum-cloud.test.log",
+      "assertions": [
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness quintus: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness quintus: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness alan: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness alan: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness brownie: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness brownie: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness jay: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness jay: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness alston: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness alston: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness jimmy: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness jimmy: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness feifei: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness feifei: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness olivia: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness olivia: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness sunny: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness sunny: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness jasper: keeps school, source metadata and ledgers while unfamiliar subjects open teaching",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness jasper: genuine school-scope and independent learning enables safe redacted play across devices",
+          "status": "passed"
+        },
+        {
+          "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+          "fullName": "authenticated school routing and adaptive readiness rejects school/grade spoofing and unavailable younger courses without changing any save",
+          "status": "passed"
+        }
+      ]
+    }
+  ]
+}

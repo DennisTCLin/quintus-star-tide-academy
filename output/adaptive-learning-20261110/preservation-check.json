@@ -1,0 +1,11 @@
+{
+  "base": "a4d1e62a20286d62fa555d4d8b1a73a31f0d24e8",
+  "existingPronunciationPhrases": 28183,
+  "existingPronunciationChanges": 0,
+  "existingCharacterChanges": 0,
+  "questionDataFilesChanged": [],
+  "schemaSqlMigrations": 0,
+  "productionWritesPerformed": false,
+  "serverBundleSha256": "3c926d3814c8b4576e51793003744dc12000b50f8d4aa8e15fa5daab03dae23b",
+  "persistentShapeAddition": "CaptureTrial.deferred:true with empty questions/answers; old validators require a compatible forward fix"
+}

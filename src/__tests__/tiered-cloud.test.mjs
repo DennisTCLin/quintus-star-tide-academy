@@ -1,3 +1,4 @@
+import {preparedFamily} from './helpers/adaptive-fixture.mjs';
 import {describe,it,expect,beforeAll,afterAll} from 'vitest';
 import {randomUUID} from 'node:crypto';
 import {createAppServer} from '../../server.mjs';
@@ -11,7 +12,7 @@ suite('tiered challenge authoritative PostgreSQL protocol',()=>{
  async function send(command){const r=await call('command',payload(command));expect(r.status,JSON.stringify(r.data)).toBe(200);c.state=r.data;return r;}
  beforeAll(async()=>{api=await createCloudApi({connectionString:process.env.TEST_DATABASE_URL,production:false});await api.pool.query('DELETE FROM request_limits');server=createAppServer({api});await new Promise(r=>server.listen(0,'127.0.0.1',r));url=`http://127.0.0.1:${server.address().port}`;
  const username='tier_'+randomUUID().slice(0,16).replaceAll('-','');const r=await call('register',{username,password:'isolated-local-tier-test-2026'});expect(r.status).toBe(200);c={username,cookie:r.cookie,state:r.data};
- await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)',[username,newFamily()]);c.state=(await call('state')).data;});
+ await api.pool.query('UPDATE game_states SET family=$2 WHERE account_id=(SELECT id FROM accounts WHERE username=$1)',[username,preparedFamily()]);c.state=(await call('state')).data;});
  afterAll(async()=>{await new Promise(r=>server.close(r));await api.close();});
  it('rejects falsy/forged timing and conceals question until a durable ready command',async()=>{
   for(const timing of [false,0,'',null,'forever'])expect((await call('command',payload({type:'start',course:'math',practice:false,timing}))).status).toBe(400);

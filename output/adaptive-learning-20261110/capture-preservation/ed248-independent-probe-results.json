@@ -1,0 +1,1211 @@
+{
+  "at": "2026-11-10T06:29:22.662Z",
+  "base": "a4d1e62a20286d62fa555d4d8b1a73a31f0d24e8",
+  "candidate": "ed248ea627e0a5219afa88a7b386cd687d750a63",
+  "databaseAccess": false,
+  "productionDataAccess": false,
+  "syntheticOnly": true,
+  "results": [
+    {
+      "case": "new-play-6-of-6",
+      "expected": {
+        "ledger": {
+          "coins": 110,
+          "tickets": 8,
+          "rewardStars": 0,
+          "rewardRounds": 1,
+          "growth": {
+            "xp": {
+              "tideglow": 60
+            },
+            "day": "2026-11-10",
+            "credited": [
+              "isl-count-6-2",
+              "isl-find-s-9",
+              "isl-find-s-10",
+              "isl-count-7-4",
+              "isl-find-s-6",
+              "isl-count-3-4"
+            ]
+          },
+          "owned": {
+            "tideglow": 1
+          },
+          "firstAcquired": {
+            "tideglow": null
+          },
+          "milestones": {
+            "version": 3,
+            "masteryPoints": 120,
+            "completedVoyages": 1,
+            "bestVoyagePoints": 120,
+            "awardedByDay": {
+              "2026-11-10": [
+                "isl-count-6-2",
+                "isl-find-s-9",
+                "isl-find-s-10",
+                "isl-count-7-4",
+                "isl-find-s-6",
+                "isl-count-3-4"
+              ]
+            },
+            "subjectGrowth": {
+              "math": {
+                "masteryPoints": 120,
+                "creditedAnswers": 6
+              },
+              "chinese": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "english": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "science": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "social": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              }
+            }
+          },
+          "credited": [
+            "isl-count-6-2",
+            "isl-find-s-9",
+            "isl-find-s-10",
+            "isl-count-7-4",
+            "isl-find-s-6",
+            "isl-count-3-4"
+          ],
+          "learningRewards": {
+            "progress": 1,
+            "pending": {
+              "wood": 20,
+              "stone": 12,
+              "star": 6
+            },
+            "goal": null,
+            "packs": 1
+          }
+        },
+        "capture": {
+          "version": 3,
+          "monster": "cloud-scout-metal",
+          "chance": 100,
+          "outcome": "pending",
+          "trial": {
+            "version": 1,
+            "grade": 1,
+            "course": "math",
+            "questions": [
+              "n1-g1-add-1-5",
+              "n1-g1-sub-1-k",
+              "n1-g1-add-1-6"
+            ],
+            "answers": []
+          }
+        },
+        "captureQuota": {
+          "day": "2026-11-10",
+          "attempts": 1
+        },
+        "run": {
+          "savedStar": true,
+          "tickets": 1,
+          "bonus": 0,
+          "practice": false,
+          "answers": 6
+        },
+        "unit": {
+          "learn": true,
+          "play": true
+        }
+      },
+      "actual": {
+        "ledger": {
+          "coins": 110,
+          "tickets": 8,
+          "rewardStars": 0,
+          "rewardRounds": 1,
+          "growth": {
+            "xp": {
+              "tideglow": 60
+            },
+            "day": "2026-11-10",
+            "credited": [
+              "isl-count-6-2",
+              "isl-find-s-9",
+              "isl-find-s-10",
+              "isl-count-7-4",
+              "isl-find-s-6",
+              "isl-count-3-4"
+            ]
+          },
+          "owned": {
+            "tideglow": 1
+          },
+          "firstAcquired": {
+            "tideglow": null
+          },
+          "milestones": {
+            "version": 3,
+            "masteryPoints": 120,
+            "completedVoyages": 1,
+            "bestVoyagePoints": 120,
+            "awardedByDay": {
+              "2026-11-10": [
+                "isl-count-6-2",
+                "isl-find-s-9",
+                "isl-find-s-10",
+                "isl-count-7-4",
+                "isl-find-s-6",
+                "isl-count-3-4"
+              ]
+            },
+            "subjectGrowth": {
+              "math": {
+                "masteryPoints": 120,
+                "creditedAnswers": 6
+              },
+              "chinese": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "english": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "science": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "social": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              }
+            }
+          },
+          "credited": [
+            "isl-count-6-2",
+            "isl-find-s-9",
+            "isl-find-s-10",
+            "isl-count-7-4",
+            "isl-find-s-6",
+            "isl-count-3-4"
+          ],
+          "learningRewards": {
+            "progress": 1,
+            "pending": {
+              "wood": 20,
+              "stone": 12,
+              "star": 6
+            },
+            "goal": null,
+            "packs": 1
+          }
+        },
+        "capture": {
+          "version": 2,
+          "monster": "cloud-scout-metal",
+          "chance": 30,
+          "outcome": "unavailable",
+          "reason": "learning"
+        },
+        "captureQuota": {
+          "day": "2026-11-10",
+          "attempts": 0
+        },
+        "run": {
+          "savedStar": true,
+          "tickets": 1,
+          "bonus": 0,
+          "practice": true,
+          "answers": 6
+        },
+        "unit": {
+          "learn": true,
+          "play": true
+        }
+      },
+      "ledgerEqual": true,
+      "duplicateFinishUnchanged": true
+    },
+    {
+      "case": "new-play-4-of-6",
+      "expected": {
+        "ledger": {
+          "coins": 90,
+          "tickets": 8,
+          "rewardStars": 0,
+          "rewardRounds": 1,
+          "growth": {
+            "xp": {
+              "tideglow": 40
+            },
+            "day": "2026-11-10",
+            "credited": [
+              "isl-find-f-10",
+              "isl-count-9-1",
+              "isl-count-7-0",
+              "isl-find-s-3"
+            ]
+          },
+          "owned": {
+            "tideglow": 1
+          },
+          "firstAcquired": {
+            "tideglow": null
+          },
+          "milestones": {
+            "version": 3,
+            "masteryPoints": 80,
+            "completedVoyages": 1,
+            "bestVoyagePoints": 80,
+            "awardedByDay": {
+              "2026-11-10": [
+                "isl-find-f-10",
+                "isl-count-9-1",
+                "isl-count-7-0",
+                "isl-find-s-3"
+              ]
+            },
+            "subjectGrowth": {
+              "math": {
+                "masteryPoints": 80,
+                "creditedAnswers": 4
+              },
+              "chinese": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "english": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "science": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "social": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              }
+            }
+          },
+          "credited": [
+            "isl-find-f-10",
+            "isl-count-9-1",
+            "isl-count-7-0",
+            "isl-find-s-3"
+          ],
+          "learningRewards": {
+            "progress": 4,
+            "pending": {
+              "wood": 0,
+              "stone": 0,
+              "star": 0
+            },
+            "goal": null
+          }
+        },
+        "capture": {
+          "version": 3,
+          "monster": "cloud-scout-metal",
+          "chance": 100,
+          "outcome": "pending",
+          "trial": {
+            "version": 1,
+            "grade": 1,
+            "course": "math",
+            "questions": [
+              "n1-g1-add-1-5",
+              "n1-g1-sub-1-k",
+              "n1-g1-add-1-6"
+            ],
+            "answers": []
+          }
+        },
+        "captureQuota": {
+          "day": "2026-11-10",
+          "attempts": 1
+        },
+        "run": {
+          "savedStar": true,
+          "tickets": 1,
+          "bonus": 0,
+          "practice": false,
+          "answers": 6
+        },
+        "unit": {
+          "learn": true,
+          "play": true
+        }
+      },
+      "actual": {
+        "ledger": {
+          "coins": 90,
+          "tickets": 8,
+          "rewardStars": 0,
+          "rewardRounds": 1,
+          "growth": {
+            "xp": {
+              "tideglow": 40
+            },
+            "day": "2026-11-10",
+            "credited": [
+              "isl-find-f-10",
+              "isl-count-9-1",
+              "isl-count-7-0",
+              "isl-find-s-3"
+            ]
+          },
+          "owned": {
+            "tideglow": 1
+          },
+          "firstAcquired": {
+            "tideglow": null
+          },
+          "milestones": {
+            "version": 3,
+            "masteryPoints": 80,
+            "completedVoyages": 1,
+            "bestVoyagePoints": 80,
+            "awardedByDay": {
+              "2026-11-10": [
+                "isl-find-f-10",
+                "isl-count-9-1",
+                "isl-count-7-0",
+                "isl-find-s-3"
+              ]
+            },
+            "subjectGrowth": {
+              "math": {
+                "masteryPoints": 80,
+                "creditedAnswers": 4
+              },
+              "chinese": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "english": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "science": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "social": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              }
+            }
+          },
+          "credited": [
+            "isl-find-f-10",
+            "isl-count-9-1",
+            "isl-count-7-0",
+            "isl-find-s-3"
+          ],
+          "learningRewards": {
+            "progress": 4,
+            "pending": {
+              "wood": 0,
+              "stone": 0,
+              "star": 0
+            },
+            "goal": null
+          }
+        },
+        "capture": {
+          "version": 2,
+          "monster": "cloud-scout-metal",
+          "chance": 30,
+          "outcome": "unavailable",
+          "reason": "learning"
+        },
+        "captureQuota": {
+          "day": "2026-11-10",
+          "attempts": 0
+        },
+        "run": {
+          "savedStar": true,
+          "tickets": 1,
+          "bonus": 0,
+          "practice": true,
+          "answers": 6
+        },
+        "unit": {
+          "learn": true,
+          "play": true
+        }
+      },
+      "ledgerEqual": true,
+      "duplicateFinishUnchanged": true
+    },
+    {
+      "case": "new-play-3-of-6",
+      "expected": {
+        "ledger": {
+          "coins": 80,
+          "tickets": 7,
+          "rewardStars": 1,
+          "rewardRounds": 0,
+          "growth": {
+            "xp": {
+              "tideglow": 30
+            },
+            "day": "2026-11-10",
+            "credited": [
+              "isl-count-3-4",
+              "isl-find-f-4",
+              "isl-find-d-3"
+            ]
+          },
+          "owned": {
+            "tideglow": 1
+          },
+          "firstAcquired": {
+            "tideglow": null
+          },
+          "milestones": {
+            "version": 3,
+            "masteryPoints": 60,
+            "completedVoyages": 0,
+            "bestVoyagePoints": 0,
+            "awardedByDay": {
+              "2026-11-10": [
+                "isl-count-3-4",
+                "isl-find-f-4",
+                "isl-find-d-3"
+              ]
+            },
+            "subjectGrowth": {
+              "math": {
+                "masteryPoints": 60,
+                "creditedAnswers": 3
+              },
+              "chinese": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "english": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "science": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "social": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              }
+            }
+          },
+          "credited": [
+            "isl-count-3-4",
+            "isl-find-f-4",
+            "isl-find-d-3"
+          ],
+          "learningRewards": {
+            "progress": 3,
+            "pending": {
+              "wood": 0,
+              "stone": 0,
+              "star": 0
+            },
+            "goal": null
+          }
+        },
+        "capture": null,
+        "captureQuota": null,
+        "run": {
+          "savedStar": false,
+          "tickets": 0,
+          "bonus": 0,
+          "practice": false,
+          "answers": 6
+        },
+        "unit": {
+          "learn": true
+        }
+      },
+      "actual": {
+        "ledger": {
+          "coins": 80,
+          "tickets": 7,
+          "rewardStars": 1,
+          "rewardRounds": 0,
+          "growth": {
+            "xp": {
+              "tideglow": 30
+            },
+            "day": "2026-11-10",
+            "credited": [
+              "isl-count-3-4",
+              "isl-find-f-4",
+              "isl-find-d-3"
+            ]
+          },
+          "owned": {
+            "tideglow": 1
+          },
+          "firstAcquired": {
+            "tideglow": null
+          },
+          "milestones": {
+            "version": 3,
+            "masteryPoints": 60,
+            "completedVoyages": 0,
+            "bestVoyagePoints": 0,
+            "awardedByDay": {
+              "2026-11-10": [
+                "isl-count-3-4",
+                "isl-find-f-4",
+                "isl-find-d-3"
+              ]
+            },
+            "subjectGrowth": {
+              "math": {
+                "masteryPoints": 60,
+                "creditedAnswers": 3
+              },
+              "chinese": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "english": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "science": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "social": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              }
+            }
+          },
+          "credited": [
+            "isl-count-3-4",
+            "isl-find-f-4",
+            "isl-find-d-3"
+          ],
+          "learningRewards": {
+            "progress": 3,
+            "pending": {
+              "wood": 0,
+              "stone": 0,
+              "star": 0
+            },
+            "goal": null
+          }
+        },
+        "capture": null,
+        "captureQuota": null,
+        "run": {
+          "savedStar": false,
+          "tickets": 0,
+          "bonus": 0,
+          "practice": true,
+          "answers": 6
+        },
+        "unit": {
+          "learn": true,
+          "play": true
+        }
+      },
+      "ledgerEqual": true,
+      "duplicateFinishUnchanged": true
+    },
+    {
+      "case": "legacy-play-5-answered-before-upgrade",
+      "retainedImmediately": true,
+      "expected": {
+        "ledger": {
+          "coins": 110,
+          "tickets": 8,
+          "rewardStars": 0,
+          "rewardRounds": 1,
+          "growth": {
+            "xp": {
+              "tideglow": 60
+            },
+            "day": "2026-11-10",
+            "credited": [
+              "isl-find-s-2",
+              "isl-count-10-1",
+              "isl-count-6-1",
+              "isl-find-d-8",
+              "isl-find-d-4",
+              "isl-count-7-4"
+            ]
+          },
+          "owned": {
+            "tideglow": 1
+          },
+          "firstAcquired": {
+            "tideglow": null
+          },
+          "milestones": {
+            "version": 3,
+            "masteryPoints": 120,
+            "completedVoyages": 1,
+            "bestVoyagePoints": 120,
+            "awardedByDay": {
+              "2026-11-10": [
+                "isl-find-s-2",
+                "isl-count-10-1",
+                "isl-count-6-1",
+                "isl-find-d-8",
+                "isl-find-d-4",
+                "isl-count-7-4"
+              ]
+            },
+            "subjectGrowth": {
+              "math": {
+                "masteryPoints": 120,
+                "creditedAnswers": 6
+              },
+              "chinese": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "english": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "science": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "social": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              }
+            }
+          },
+          "credited": [
+            "isl-find-s-2",
+            "isl-count-10-1",
+            "isl-count-6-1",
+            "isl-find-d-8",
+            "isl-find-d-4",
+            "isl-count-7-4"
+          ],
+          "learningRewards": {
+            "progress": 1,
+            "pending": {
+              "wood": 20,
+              "stone": 12,
+              "star": 6
+            },
+            "goal": null,
+            "packs": 1
+          }
+        },
+        "capture": {
+          "version": 3,
+          "monster": "cloud-scout-metal",
+          "chance": 100,
+          "outcome": "pending",
+          "trial": {
+            "version": 1,
+            "grade": 1,
+            "course": "math",
+            "questions": [
+              "n1-g1-add-1-5",
+              "n1-g1-sub-1-k",
+              "n1-g1-add-1-6"
+            ],
+            "answers": []
+          }
+        },
+        "captureQuota": {
+          "day": "2026-11-10",
+          "attempts": 1
+        },
+        "run": {
+          "savedStar": true,
+          "tickets": 1,
+          "bonus": 0,
+          "practice": false,
+          "answers": 6
+        },
+        "unit": {
+          "learn": true,
+          "play": true
+        }
+      },
+      "actual": {
+        "ledger": {
+          "coins": 110,
+          "tickets": 8,
+          "rewardStars": 0,
+          "rewardRounds": 1,
+          "growth": {
+            "xp": {
+              "tideglow": 60
+            },
+            "day": "2026-11-10",
+            "credited": [
+              "isl-find-s-2",
+              "isl-count-10-1",
+              "isl-count-6-1",
+              "isl-find-d-8",
+              "isl-find-d-4",
+              "isl-count-7-4"
+            ]
+          },
+          "owned": {
+            "tideglow": 1
+          },
+          "firstAcquired": {
+            "tideglow": null
+          },
+          "milestones": {
+            "version": 3,
+            "masteryPoints": 120,
+            "completedVoyages": 1,
+            "bestVoyagePoints": 120,
+            "awardedByDay": {
+              "2026-11-10": [
+                "isl-find-s-2",
+                "isl-count-10-1",
+                "isl-count-6-1",
+                "isl-find-d-8",
+                "isl-find-d-4",
+                "isl-count-7-4"
+              ]
+            },
+            "subjectGrowth": {
+              "math": {
+                "masteryPoints": 120,
+                "creditedAnswers": 6
+              },
+              "chinese": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "english": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "science": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "social": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              }
+            }
+          },
+          "credited": [
+            "isl-find-s-2",
+            "isl-count-10-1",
+            "isl-count-6-1",
+            "isl-find-d-8",
+            "isl-find-d-4",
+            "isl-count-7-4"
+          ],
+          "learningRewards": {
+            "progress": 1,
+            "pending": {
+              "wood": 20,
+              "stone": 12,
+              "star": 6
+            },
+            "goal": null,
+            "packs": 1
+          }
+        },
+        "capture": {
+          "version": 2,
+          "monster": "cloud-scout-metal",
+          "chance": 30,
+          "outcome": "unavailable",
+          "reason": "learning"
+        },
+        "captureQuota": {
+          "day": "2026-11-10",
+          "attempts": 0
+        },
+        "run": {
+          "savedStar": true,
+          "tickets": 1,
+          "bonus": 0,
+          "practice": true,
+          "answers": 6
+        },
+        "unit": {
+          "learn": true,
+          "play": true
+        }
+      },
+      "ledgerEqual": true,
+      "captureEqual": false
+    },
+    {
+      "case": "legacy-play-6-answered-before-upgrade",
+      "retainedImmediately": true,
+      "expected": {
+        "ledger": {
+          "coins": 110,
+          "tickets": 8,
+          "rewardStars": 0,
+          "rewardRounds": 1,
+          "growth": {
+            "xp": {
+              "tideglow": 60
+            },
+            "day": "2026-11-10",
+            "credited": [
+              "isl-count-4-0",
+              "isl-find-f-3",
+              "isl-count-6-2",
+              "isl-find-s-1",
+              "isl-count-3-2",
+              "isl-find-d-3"
+            ]
+          },
+          "owned": {
+            "tideglow": 1
+          },
+          "firstAcquired": {
+            "tideglow": null
+          },
+          "milestones": {
+            "version": 3,
+            "masteryPoints": 120,
+            "completedVoyages": 1,
+            "bestVoyagePoints": 120,
+            "awardedByDay": {
+              "2026-11-10": [
+                "isl-count-4-0",
+                "isl-find-f-3",
+                "isl-count-6-2",
+                "isl-find-s-1",
+                "isl-count-3-2",
+                "isl-find-d-3"
+              ]
+            },
+            "subjectGrowth": {
+              "math": {
+                "masteryPoints": 120,
+                "creditedAnswers": 6
+              },
+              "chinese": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "english": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "science": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "social": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              }
+            }
+          },
+          "credited": [
+            "isl-count-4-0",
+            "isl-find-f-3",
+            "isl-count-6-2",
+            "isl-find-s-1",
+            "isl-count-3-2",
+            "isl-find-d-3"
+          ],
+          "learningRewards": {
+            "progress": 1,
+            "pending": {
+              "wood": 20,
+              "stone": 12,
+              "star": 6
+            },
+            "goal": null,
+            "packs": 1
+          }
+        },
+        "capture": {
+          "version": 3,
+          "monster": "cloud-scout-metal",
+          "chance": 100,
+          "outcome": "pending",
+          "trial": {
+            "version": 1,
+            "grade": 1,
+            "course": "math",
+            "questions": [
+              "n1-g1-add-1-5",
+              "n1-g1-sub-1-k",
+              "n1-g1-add-1-6"
+            ],
+            "answers": []
+          }
+        },
+        "captureQuota": {
+          "day": "2026-11-10",
+          "attempts": 1
+        },
+        "run": {
+          "savedStar": true,
+          "tickets": 1,
+          "bonus": 0,
+          "practice": false,
+          "answers": 6
+        },
+        "unit": {
+          "learn": true,
+          "play": true
+        }
+      },
+      "actual": {
+        "ledger": {
+          "coins": 110,
+          "tickets": 8,
+          "rewardStars": 0,
+          "rewardRounds": 1,
+          "growth": {
+            "xp": {
+              "tideglow": 60
+            },
+            "day": "2026-11-10",
+            "credited": [
+              "isl-count-4-0",
+              "isl-find-f-3",
+              "isl-count-6-2",
+              "isl-find-s-1",
+              "isl-count-3-2",
+              "isl-find-d-3"
+            ]
+          },
+          "owned": {
+            "tideglow": 1
+          },
+          "firstAcquired": {
+            "tideglow": null
+          },
+          "milestones": {
+            "version": 3,
+            "masteryPoints": 120,
+            "completedVoyages": 1,
+            "bestVoyagePoints": 120,
+            "awardedByDay": {
+              "2026-11-10": [
+                "isl-count-4-0",
+                "isl-find-f-3",
+                "isl-count-6-2",
+                "isl-find-s-1",
+                "isl-count-3-2",
+                "isl-find-d-3"
+              ]
+            },
+            "subjectGrowth": {
+              "math": {
+                "masteryPoints": 120,
+                "creditedAnswers": 6
+              },
+              "chinese": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "english": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "science": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              },
+              "social": {
+                "masteryPoints": 0,
+                "creditedAnswers": 0
+              }
+            }
+          },
+          "credited": [
+            "isl-count-4-0",
+            "isl-find-f-3",
+            "isl-count-6-2",
+            "isl-find-s-1",
+            "isl-count-3-2",
+            "isl-find-d-3"
+          ],
+          "learningRewards": {
+            "progress": 1,
+            "pending": {
+              "wood": 20,
+              "stone": 12,
+              "star": 6
+            },
+            "goal": null,
+            "packs": 1
+          }
+        },
+        "capture": {
+          "version": 2,
+          "monster": "cloud-scout-metal",
+          "chance": 30,
+          "outcome": "unavailable",
+          "reason": "learning"
+        },
+        "captureQuota": {
+          "day": "2026-11-10",
+          "attempts": 0
+        },
+        "run": {
+          "savedStar": true,
+          "tickets": 1,
+          "bonus": 0,
+          "practice": false,
+          "answers": 6
+        },
+        "unit": {
+          "learn": true,
+          "play": true
+        }
+      },
+      "ledgerEqual": true,
+      "captureEqual": false,
+      "captureAfterLearning": {
+        "version": 2,
+        "monster": "cloud-scout-metal",
+        "chance": 30,
+        "outcome": "unavailable",
+        "reason": "learning"
+      }
+    },
+    {
+      "case": "math-template-readiness-and-repeat",
+      "twoExamplesSixAllocation": [
+        {
+          "id": "n1-g4-mul-1-1s",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-1t",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-1u",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-2",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-20",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-21",
+          "review": false
+        }
+      ],
+      "unseenSameTemplateEligible": true,
+      "first": [
+        {
+          "id": "n1-g4-mul-1-10",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-14",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-15",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-16",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-17",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-1c",
+          "review": false
+        }
+      ],
+      "second": [
+        {
+          "id": "n1-g4-mul-1-10",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-14",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-15",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-16",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-17",
+          "review": false
+        },
+        {
+          "id": "n1-g4-mul-1-1c",
+          "review": false
+        }
+      ],
+      "identicalAllocation": true,
+      "allAlreadyAnswered": false,
+      "nextQuestion": {
+        "id": "n1-g4-mul-1-6",
+        "prompt": "12 × 8 = ?"
+      }
+    },
+    {
+      "case": "existing-negative-readiness-guards",
+      "falseCases": [
+        {
+          "mode": "not-yet",
+          "eligible": false
+        },
+        {
+          "mode": "different-school",
+          "eligible": false
+        },
+        {
+          "mode": "hint",
+          "eligible": false
+        },
+        {
+          "mode": "exposed-answer",
+          "eligible": false
+        },
+        {
+          "mode": "wrong-then-correct-same-day",
+          "eligible": false
+        }
+      ]
+    },
+    {
+      "case": "persisted-learn-old-binary",
+      "phase": "scope",
+      "newReader": "accepted",
+      "oldReader": "複習紀錄格式不正確，原有進度未更動",
+      "balancesUnchanged": true
+    }
+  ]
+}

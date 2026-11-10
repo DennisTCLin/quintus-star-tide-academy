@@ -42,3 +42,10 @@ export { growthProgress } from '../src/companion-growth';
 export { chooseMonster } from '../src/monsters';
 export { encounterStats } from '../src/creature-rules';
 export { initialCompanion, needsOnboarding } from '../src/starter';
+
+export { enableAdaptive, challengeEligible, adaptiveSummary, reportSchoolExposure, observeAdaptive, LearningPreparationNeeded } from '../src/adaptive-learning';
+export { startLearning, learningScope, learningLesson, publicLearningLesson } from '../src/study-review';
+export { adaptCapture } from '../src/capture-trial';
+export { reportIslandScope, protectIslandReservation } from '../src/island/adaptive';
+
+export { protectAdventureReservation } from '../src/adventure';
