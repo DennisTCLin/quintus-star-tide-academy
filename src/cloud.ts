@@ -13,6 +13,10 @@ export type CloudState = {
   questionAssets?: Partial<Record<PlayerId, {runId:string;index:number;images:string[]}>>;
   family: Family;
   questions: Partial<Record<PlayerId, PublicQuestion>>;
+  learningLessons?:Partial<Record<PlayerId,ReturnType<typeof import('./study-review').publicLearningLesson>>>;
+  learningPlans?:Partial<Record<PlayerId,ReturnType<typeof import('./adaptive-learning').adaptiveSummary>>>;
+  learningBlocks?:Partial<Record<PlayerId,boolean>>;
+  captureBlocks?:Record<string,boolean>;
   studyQuestions?: Partial<Record<PlayerId, PublicQuestion>>;
   studySummaries?: Partial<Record<PlayerId, ReturnType<typeof import("./study-review").studySummary>>>;
   reviews?: Partial<Record<PlayerId, { index: number; question: LearningQuestion }[]>>;

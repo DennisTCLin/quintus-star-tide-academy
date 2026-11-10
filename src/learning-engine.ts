@@ -1,3 +1,4 @@
+import { validateAdaptive, allocateMastered, observeAdaptive, type AdaptiveState } from './adaptive-learning';
 import { observeStudy, validateStudy, type StudyState } from "./study-review";
 import { eligibleExam, examPracticePriority, type SchoolId } from "./school-curriculum";
 import { freshMastered, remainingGenerated, hasMastered, markMastered, mergeMastered, validateMastered, type MasteredQuestions } from "./mastered-questions";
@@ -28,6 +29,7 @@ export type LearningState = {
   version: 1;
   school?: SchoolId;
   study?: StudyState;
+  adaptive?: AdaptiveState;
   mastered?: MasteredQuestions;
   cursors: Record<string, number>;
   seen: string[];
@@ -72,6 +74,7 @@ export function validateLearning(value: unknown, grade: Grade): LearningState {
   requireValue(s.school === undefined || s.school === "yongchun" || s.school === "nantun" || s.school === "dunhua" || s.school === "jianan" || s.school === "dongmen" || s.school === "xingan");
   validateMastered(s.mastered, grade);
   validateStudy(s.study, grade);
+  validateAdaptive(s.adaptive, grade);
   requireValue(
     Object.keys(s.cursors).length <= GENERATED_POOLS.length &&
       Object.keys(s.skills).length <= allSkills.size &&
@@ -397,6 +400,7 @@ function allocateEligibleQuestions(
 }
 export function allocateQuestions(s: LearningState, grade: Grade, course: Course, count: number,
   targetDifficulty?: 1 | 2 | 3, excluded: string[] = []): QuestionAllocation[] {
+  if(s.adaptive)return allocateMastered(s,grade,course,count,excluded);
   const draft = structuredClone(s);
   const result = allocateEligibleQuestions(draft, grade, course, count, targetDifficulty, excluded);
   Object.assign(s.cursors, draft.cursors);
@@ -412,6 +416,7 @@ export function recordLearning(
   day: string,
 ) {
   observeStudy(s, q, correct, assisted, day);
+  observeAdaptive(s,q,correct,assisted,day);
   if (correct) markMastered(s, q.id);
   const skill = questionSkill(q),
     p = { ...progress(s, skill) };
@@ -459,6 +464,8 @@ export function mergeLearning(
     if (!out.skills[k] || p.answered >= out.skills[k].answered)
       out.skills[k] = structuredClone(p);
   if (current.study) out.study = structuredClone(current.study);
+  if(current.adaptive) out.adaptive=structuredClone(current.adaptive);
+  else delete out.adaptive; // Incoming offline files cannot certify mastery or school progress.
   out.pending = null;
   return out;
 }
@@ -473,6 +480,7 @@ export function learningSummary(s: LearningState) {
 /** One occasional paraphrase per full fresh round; finite variants may fill exhausted pools. */
 export function allocateAdventureQuestions(s:LearningState, grade:Grade, course:Course, count:number,
   targetDifficulty?:1|2|3, excluded:string[]=[], random:()=>number=Math.random):QuestionAllocation[] {
+  if(s.adaptive)return allocateMastered(s,grade,course,count,excluded);
   if(grade!==4 || course!=='english')return allocateQuestions(s,grade,course,count,targetDifficulty,excluded);
   const draft=structuredClone(s);
   const variants=ENGLISH_REPHRASES.filter(q=>hasMastered(s,q.rephraseOf!)&&!hasMastered(s,q.id)&&!excluded.includes(q.id));

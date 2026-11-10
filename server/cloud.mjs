@@ -26,6 +26,7 @@ import { backfillPresenceHistory, hasAdventureHistory, recordPlayerSeen } from "
 import { readPlayerCollections } from "./player-collections.mjs";
 import { ensurePlayerFriendships, connectedPlayerFriends } from "./player-friends.mjs";
 import {
+  enableAdaptive, challengeEligible, adaptiveSummary, reportSchoolExposure, observeAdaptive, LearningPreparationNeeded, startLearning, learningScope, learningLesson, publicLearningLesson, adaptRun, adaptCapture, reportIslandScope,
   ACTIVITIES,
   startIsland, answerIsland, finishIsland, quitIsland, helpIsland, publicIslandRun,
   territoryTransition,
@@ -89,17 +90,19 @@ const uuid = (value) =>
 const zeroScores = () => Object.fromEntries(PLAYERS.map((p) => [p.id, 0]));
 function publicState(row, user, csrf) {
   const family = applySchoolCurriculum(validateFamily(row.family), user),
-    questions = {}, questionAssets = {}, reviews = {}, studyQuestions = {}, studySummaries = {}, captureQuestions = {};
+    questions = {}, questionAssets = {}, reviews = {}, studyQuestions = {}, studySummaries = {}, captureQuestions = {}, learningLessons = {}, learningPlans = {}, learningBlocks = {}, captureBlocks = {};
   for (const player of PLAYERS) {
     const p = family.profiles[player.id],
       r = p.run;
     delete p.legacyGarden;
     studySummaries[player.id] = studySummary(p.learning, player.grade, taipeiDay());
+    if(p.learning.adaptive)learningPlans[player.id]=adaptiveSummary(p.learning,player.grade);
+    learningLessons[player.id]=publicLearningLesson(p.learning);
     const study = p.learning.study?.session;
     if (study) {
       const source = questionById(study.questions[study.index]);
       const { answer, explanation, target, ...question } = source;
-      studyQuestions[player.id] = { ...question, ...(study.settled ? { answer, explanation, target } : {}) };
+      if(study.mode!=='learn'||study.phase==='answer')studyQuestions[player.id] = { ...question, ...(study.settled ? { answer, explanation, target } : {}) };
       study.questions = study.questions.map((id, index) => index === study.index ? id : "");
     }
     for(const captureRun of [r,p.mathIsland?.run]) {
@@ -107,7 +110,8 @@ function publicState(row, user, csrf) {
       if(capture?.version===3&&capture.trial) {
         const index=captureIndex(capture), source=questionById(capture.trial.questions[index]);
         const {answer,explanation,target,...question}=source;
-        captureQuestions[captureRun.id]={...question,...(capture.outcome==='pending'?{}:{answer,explanation,target})};
+        if(capture.outcome==='pending'&&!challengeEligible(p.learning,source,player.grade))captureBlocks[captureRun.id]=true;
+        else captureQuestions[captureRun.id]={...question,...(capture.outcome==='pending'?{}:{answer,explanation,target})};
         capture.trial.questions=capture.trial.questions.map((id,i)=>i===index?id:'');
       }
     }
@@ -127,6 +131,7 @@ function publicState(row, user, csrf) {
           ? { answer, explanation, target }
           : {}),
       };
+      if(r.status==='active'&&!r.settled&&!challengeEligible(p.learning,source,player.grade,r.course)){learningBlocks[player.id]=true;delete questions[player.id];delete questionAssets[player.id];}
       // Future questions and their identifiers stay on the server.
       r.questions = r.questions.map((id, i) => (i === r.index && (!r.challenge || r.challenge.clock || r.settled) ? id : ""));
     }
@@ -138,7 +143,7 @@ function publicState(row, user, csrf) {
     reviews,
     studyQuestions,
     studySummaries,
-    captureQuestions,
+    captureQuestions,learningLessons,learningPlans,learningBlocks,captureBlocks,
     username: user.username,
     playerId: user.player_id ?? null,
     displayName: user.display_name ?? null,
@@ -164,8 +169,20 @@ function applyCommand(family, c, day, receivedAt=Date.now()) {
     assert(["starter-draw", "starter-confirm"].includes(c.type), "請先迎接你的初始夥伴");
   const studyFields = [...common, "sessionId", "index"];
   const grade = PLAYERS.find(player => player.id === id).grade;
-  const idleForStudy = () => assert(p.run?.status !== "active" && (!p.mathIsland?.run || p.mathIsland.run.completed), "先完成或結束目前挑戰，再來複習");
+  const idleForStudy = () => assert(p.learning.adaptive || p.run?.status !== "active" && (!p.mathIsland?.run || p.mathIsland.run.completed), "先完成或結束目前挑戰，再來複習");
   switch (c.type) {
+    case 'learning-scope':
+      fields(c,[...common,'sessionId','state']);return learningScope(p.learning,grade,c.sessionId,c.state,day);
+    case 'learning-lesson':
+      fields(c,[...studyFields,'done']);assert(typeof c.done==='boolean');return learningLesson(p.learning,c.sessionId,c.index,day,c.done);
+    case 'learning-progress':
+      fields(c,[...common,'topic','state']);return reportSchoolExposure(p.learning,grade,c.topic,c.state,day);
+    case 'island-scope':
+      fields(c,[...common,'unit','taught']);assert(p.mathIsland,'先進入數學島');return reportIslandScope(p.mathIsland,p.learning,c.unit,c.taught,grade);
+    case 'run-adapt':
+      fields(c,[...common,'runId']);return adaptRun(family,id,c.runId,day);
+    case 'capture-adapt':
+      fields(c,[...common,'runId','source']);return adaptCapture(family,id,c.source,c.runId,day);
     case "capture-answer":
       fields(c,[...runFields,"source","choice"]);
       return answerCapture(family,id,c.source,c.runId,c.index,c.choice,day);
@@ -180,14 +197,14 @@ function applyCommand(family, c, day, receivedAt=Date.now()) {
       return answerStudy(p.learning, grade, c.sessionId, c.index, c.choice, day);
     case "review-next":
       fields(c, studyFields); idleForStudy();
-      return nextStudy(p.learning, c.sessionId, c.index);
+      return nextStudy(p.learning, c.sessionId, c.index, day);
     case "review-hint":
       fields(c, studyFields); idleForStudy();
       return hintStudy(p.learning, c.sessionId, c.index);
     case "review-pause":
     case "review-finish":
       fields(c, [...common, "sessionId"]);
-      return pauseStudy(p.learning, c.sessionId, c.type === "review-finish");
+      return pauseStudy(p.learning, c.sessionId, c.type === "review-finish", day);
     case "island-start":
       fields(c, [...common, "mode", "unit", "grade"]);
       return publicIslandRun(startIsland(family, id, c.mode, c.unit, randomUUID(), day, randomInt(0, 2 ** 32), c.grade));
@@ -230,7 +247,7 @@ function applyCommand(family, c, day, receivedAt=Date.now()) {
           ),
       );
       assert(c.timing===undefined || c.timing==='standard' || c.timing==='relaxed','請選擇挑戰節奏');
-      startRun(
+      const started=startRun(
         family,
         id,
         c.course,
@@ -240,7 +257,7 @@ function applyCommand(family, c, day, receivedAt=Date.now()) {
         day,
         c.timing ?? p.challengeTiming ?? (PLAYERS.find(x => x.id === id).grade <= 2 ? "relaxed" : "standard"),
       );
-      return true;
+      return started==='learn'?'learn':true;
     case "challenge-mode":
       fields(c,[...common,"runId","mode"]);
       return setChallengeMode(family,id,c.runId,c.mode);
@@ -913,6 +930,8 @@ export async function createCloudApi({
             q = questionById(saved.id);
             assert(q && Number.isInteger(body.choice) && body.choice >= 0 && body.choice < q.options.length);
             if (saved.answered) { assert(saved.choice === body.choice, "這題已作答", 409); return q; }
+            assert(challengeEligible(family.profiles[saved.player].learning,q,PLAYERS.find(x=>x.id===saved.player).grade),'先到跟著我學練熟，再答題助戰');
+            observeAdaptive(family.profiles[saved.player].learning,q,body.choice===q.answer,false,taipeiDay());
             observeStudy(family.profiles[saved.player].learning, q, body.choice === q.answer, false, taipeiDay());
             if (body.choice === q.answer) markMastered(family.profiles[saved.player].learning, q.id);
             saved = { ...saved, answered: true, choice: body.choice };
@@ -1036,6 +1055,8 @@ export async function createCloudApi({
             const p = family.profiles[id];
             if (p.run?.reward !== "pending") p.run = null;
             p.learning.pending = null;
+            delete p.learning.adaptive;
+            enableAdaptive(p.learning).ignoreLegacyEvidence=true; // Imported history remains visible, but is not assessment evidence.
             // Territory rewards can only originate in authenticated server commands.
             delete p.mathIsland;
             delete p.territory;

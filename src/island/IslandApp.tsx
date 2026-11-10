@@ -28,6 +28,7 @@ import { gradeName, MATH_BOOKS } from './curriculum';
 export type IslandCompanion = { name: string; image: string; skill: "focus" | "shield" | "spark"; skillName: string; skillIcon: string };
 /** 嵌在家庭版遊戲內時由 App 提供：語音開關、發獎勵與回港口。 */
 export type IslandEmbed = {
+  adaptive?:boolean; school?:string; onScope?:(unit:string,taught:boolean)=>Promise<unknown>;
   voice: boolean; reduced: boolean; online: boolean; day: string; progress: CloudIsland;
   onStart: (mode: Mode, unit?: string, grade?: number) => Promise<IslandRun | undefined>;
   onAnswer: (runId: string, index: number, choice: string) => Promise<IslandAnswer | undefined>;
@@ -39,6 +40,7 @@ export type IslandEmbed = {
 
 import { islandSegments, resumePosition, islandOutcome, islandWrongFeedback, islandGuardian, type Seg } from "./presentation";
 type Round = {
+  practice?:true;
   mode: Mode;
   title: string;
   unit?: string;
@@ -101,7 +103,7 @@ export function resultFromIslandRun(saved: IslandRun): Result {
   const correct = saved.answers.filter((a,i) => a === saved.items[i].answer).length;
   return { guardianId:islandGuardian(saved)?.id, tickets:saved.tickets, bonus:saved.bonus, prevBest:saved.prevBest, savedStar:saved.savedStar,
     xp:saved.xp, packs:saved.packs, capture:saved.capture, legacyCapture:saved.mode !== 'learn' && !saved.encounter,
-    round:{ mode:saved.mode, title:'上次的結果', unit:saved.unit, segs:islandSegments(saved), i:0,
+    round:{ practice:saved.practice,mode:saved.practice?'play':saved.mode, title:'上次的結果', unit:saved.unit, segs:islandSegments(saved), i:0,
       size:saved.items.length, right:correct, wrong:saved.answers.length-correct,
       rewarded:saved.rewarded, points:saved.points, coins:saved.coins, found:saved.found,
       view:{}, step:0, demoDone:false, tries:[], first:null, done:true, gain:0,
@@ -202,13 +204,13 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
     activeRun.current = saved;
     const segs = islandSegments(saved);
     const title = mode === "mock" ? "島主大挑戰" : `${UNIT_BY_ID[unit!].place}・${STAGE_INFO[mode].name}`;
-    startRound(mode,segs,title,unit?{unit,stage:mode as Stage}:{});
-    setRound(r=>r?{...r,skillUsed:saved.skillUsed}:r);
+    startRound(saved.practice?'play':mode,segs,title,unit?{unit,stage:mode as Stage}:{});
+    setRound(r=>r?{...r,practice:saved.practice,skillUsed:saved.skillUsed}:r);
     const count = saved.answers.length;
     if(count > 0) setBubble(segs[resumePosition(saved,segs)]?.t === "demo" ? "看我示範喔！" : "我們一起玩！");
     if(count > 0) setRound(previous => {
       if(!previous) return previous;
-      const failed=saved.mode !== "learn" && saved.answers.filter((a,i)=>a!==saved.items[i].answer).length >= MAX_MISTAKES;
+      const failed=saved.mode !== "learn" && !saved.practice && saved.answers.filter((a,i)=>a!==saved.items[i].answer).length >= MAX_MISTAKES;
       const at = resumePosition(saved,segs);
       const correct = saved.answers.filter((a,i)=>a === saved.items[i].answer).length;
       let r = enter({...previous,i:at,right:correct,wrong:count-correct,coins:saved.coins,points:saved.points,
@@ -219,6 +221,7 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
   }
   const startStage = (unit: string, stage: Stage) => void startCloud(stage,unit);
   const startKing = () => void startCloud("mock",undefined,false,grade);
+  const adaptiveUnitReady=(unit:string)=>Number(unit[0])===(player.grade??1)&&unit[1]==='A'&&me.readiness?.scope[`${embed.school??'unconfirmed'}:115-1:${unit}`]===true&&UNIT_BY_ID[unit].games.every(k=>me.readiness?.evidence[k]?.ready);
 
   // 題目：學一學、玩一玩進來先唸題目；考卷模式要自己讀，按耳朵才唸。
   useEffect(() => {
@@ -278,7 +281,7 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
       say(`再想一想。${g.tip}`);
       return;
     }
-    const feedback = islandWrongFeedback(r.mode,r.wrong,g.answerText?.(item)??say0(item.answer));
+    const feedback = islandWrongFeedback(r.mode,r.wrong,g.answerText?.(item)??say0(item.answer),!!r.practice);
     const segs = [...r.segs];
     if (feedback.reteach) segs.splice(r.i + 1, 0, { t: "demo", k: item.k, again: true });
     r = { ...r, segs, done: true, tries: [...r.tries, v] };
@@ -302,7 +305,7 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
   async function next() {
     if (!round || busy) return;
     setMood("idle");
-    if (round.i + 1 < round.segs.length && !(round.mode !== "learn" && round.wrong >= MAX_MISTAKES)) {
+    if (round.i + 1 < round.segs.length && !(round.mode !== "learn" && !round.practice && round.wrong >= MAX_MISTAKES)) {
       const r = enter({ ...round, i: round.i + 1 });
       setRound(r);
       setBubble(isExam(r.mode) ? "下一題，加油！" : r.segs[r.i].t === "demo" ? "看我示範喔！" : "我們一起玩！");
@@ -441,7 +444,7 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
                 <div className="isl-actions">
                   {round.gain > 0 && <span className="isl-gain">+{round.gain} 🟡</span>}
                   <button className="isl-btn isl-next" autoFocus onClick={() => void next()} disabled={busy}>
-                    {round.i + 1 < round.segs.length && !(round.mode !== "learn" && round.wrong >= MAX_MISTAKES) ? (round.segs[round.i + 1].t === "demo" ? "看夥伴教 ▶" : "下一題 ▶") : "看結果 ▶"}
+                    {round.i + 1 < round.segs.length && !(round.mode !== "learn" && !round.practice && round.wrong >= MAX_MISTAKES) ? (round.segs[round.i + 1].t === "demo" ? "看夥伴教 ▶" : "下一題 ▶") : "看結果 ▶"}
                   </button>
                 </div>
               )}
@@ -501,15 +504,15 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
             <button className="isl-btn ghost small" onClick={()=>say(joined ? `${recruit.name}加入了！現在共有${capture.copies}張夥伴卡。` : '這次沒有加入。通關獎勵已經存好了，下次再來交朋友。')}>🔊 聽結果</button>
           </div>
         </section>}
-        <p className="isl-muted">每兩場六題挑戰成功換一張券，星星可跨日保留，沒有每日次數上限。</p>
+        <p className="isl-muted">{r.practice?"練習不扣血，也不消耗降服機會。先學會，再來挑戰。":"每兩場六題挑戰成功換一張券，星星可跨日保留，沒有每日次數上限。"}</p>
         {r.found > 0 && <p className="isl-muted">⭐ 這趟找回了 {r.found} 顆迷路的星星！</p>}
         {embed && r.right > r.rewarded && <p className="isl-muted">今天已作答的同一道題，或跨日的舊航程不再發星幣；學習進度一樣會保存。</p>}
         {r.wrong > 0 && <p className="isl-muted">答錯的題目會變成迷路的星星，明天回到牠的小島等你。</p>}
         {r.mode === "learn" && <p className="isl-muted">學一學不計戰鬥完成獎勵。接著去「玩一玩」，挑戰六題存星星！</p>}
-        {r.mode === "play" && !failed && r.unit && !bossBeaten(me, r.unit) && <p className="isl-muted">下一關：挑戰守關神獸！</p>}
+        {r.mode === "play" && !failed && r.unit && (!embed.adaptive||adaptiveUnitReady(r.unit)) && !bossBeaten(me, r.unit) && <p className="isl-muted">下一關：挑戰守關神獸！</p>}
         {r.mode === "boss" && !pass && <p className="isl-muted">要完成六題，錯不到三題才能打敗牠。去「玩一玩」練習一下再來！</p>}
         <div className="isl-actions center">
-          {r.unit&&pass&&(r.mode==='learn'||r.mode==='play')&&<button className="isl-btn" disabled={busy||!embed.online} onClick={()=>startStage(r.unit!,r.mode==='learn'?'play':'boss')}><Zy text={`下一關：${r.mode==='learn'?'玩一玩':'挑戰神獸'}`}/> →</button>}
+          {r.unit&&pass&&(r.mode==='learn'||r.mode==='play'&&(!embed.adaptive||adaptiveUnitReady(r.unit)))&&<button className="isl-btn" disabled={busy||!embed.online} onClick={()=>startStage(r.unit!,r.mode==='learn'?'play':'boss')}><Zy text={`下一關：${r.mode==='learn'?'玩一玩':'挑戰神獸'}`}/> →</button>}
           {r.unit && <button className="isl-btn ghost" onClick={() => setScreen({ s: "unit", id: r.unit! })}>🏝️ 回小島</button>}
           <button className="isl-btn ghost" onClick={leave}>🗺️ 回地圖</button>
           <button className="isl-btn" onClick={() => embed.onExit("lottery")}>🎟️ 去扭蛋</button>
@@ -535,9 +538,10 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
             {g && <CharacterPortrait characterId={g.id} paused={embed.reduced} pose="greet" src={g.image} alt={`守關神獸 ${g.name}`} className={bossBeaten(me, u.id) ? "tamed" : ""} />}
           </div>
           <div className="isl-unit-ability"><IslandAbility progress={me} unit={u.id} details/></div>
+          {embed.adaptive&&<div className="isl-panel"><p>這個概念學校教過了嗎？「玩一玩」不扣血，先練會再挑戰神獸。</p><button disabled={busy||!embed.online} onClick={()=>void embed.onScope?.(u.id,true)}>學校教過了</button><button disabled={busy||!embed.online} onClick={()=>void embed.onScope?.(u.id,false)}>學校還沒教</button></div>}
           <div className="isl-stagelist">
             {(["learn", "play", "boss"] as Stage[]).map((st, i) => {
-              const open = stageOpen(me, u.id, st);
+              const open = stageOpen(me,u.id,st)&&(!embed.adaptive||st==='learn'||Number(u.id[0])===(player.grade??1)&&u.id[1]==='A'&&(st!=='boss'||adaptiveUnitReady(u.id)));
               const doneMark = st === "boss" ? bossBeaten(me, u.id) : !!prog[st];
               const current=me.run&&!me.run.completed&&me.run.unit===u.id&&me.run.mode===st;
               return (
@@ -548,7 +552,7 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
                   </span>
                   <span className="tx">
                     <b><Zy text={`${current?"繼續":""}${STAGE_INFO[st].name}`}/></b>
-                    <small><Zy text={current?`已完成 ${me.run!.answers.length} / ${me.run!.items.length} 題，接著玩。`:open ? STAGE_INFO[st].kid : st === "play" ? "先完成「學一學」" : "先完成「玩一玩」"}/></small>
+                    <small><Zy text={current?`已完成 ${me.run!.answers.length} / ${me.run!.items.length} 題，接著玩。`:open ? embed.adaptive&&st==='play'?'先自己試，錯了會教你；不扣血、不計通關獎勵。':STAGE_INFO[st].kid : st === "play" ? "先完成「學一學」" : "先完成「玩一玩」"}/></small>
                   </span>
                   <span className="ok">{doneMark ? "✅" : ""}</span>
                 </button>
@@ -611,7 +615,7 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
   } else {
     const yearUnits=gradeUnits(grade);
     const beaten = yearUnits.filter((u) => bossBeaten(me, u.id)).length;
-    const king = kingOpen(me,grade);
+    const king = embed.adaptive?yearUnits.some(u=>adaptiveUnitReady(u.id)):kingOpen(me,grade);
     const units = semesterUnits(semester);
     const recommended = units.find(u => !bossBeaten(me,u.id));
     const completed = units.filter(u => bossBeaten(me,u.id)).length;
@@ -676,7 +680,7 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
             <CharacterPortrait characterId={ISLAND_KING} paused={embed.reduced} pose={king ? "idle" : "locked"} className="ic" src={petById(ISLAND_KING)?.image} alt="" aria-hidden="true" />
             <span className="tx">
               <b>{king ? "島主大挑戰" : "🔒 島主大挑戰"}</b>
-              <small>{!king ? `完成${gradeName(grade)}全學年單元就會出現（${beaten}/${yearUnits.length}）` : (grade===1?me.mock??0:me.mocks?.[grade]??0) >= PASS_MARK ? "再挑戰一次？" : "全學年隨機抽六個單元各一題，錯不到 3 題就過關！"}</small>
+              <small>{!king ? embed.adaptive?'先把一個已教過的單元練熟，再來挑戰':`完成${gradeName(grade)}全學年單元就會出現（${beaten}/${yearUnits.length}）` : (grade===1?me.mock??0:me.mocks?.[grade]??0) >= PASS_MARK ? "再挑戰一次？" : embed.adaptive?"從學校已教、自己練會的單元出六題。":"全學年隨機抽六個單元各一題，錯不到 3 題就過關！"}</small>
             </span>
           </button>
           {LOCKED_UNITS.length > 0 && <details className="isl-unreleased">

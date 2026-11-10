@@ -1,3 +1,5 @@
+import { scopeKey, previewAllowed, chooseLearningTopic, mappedQuestion, challengeEligible, independentSuccess, observeAdaptive, reportSchoolExposure, schoolExposure, showExample } from './adaptive-learning';
+import { TOPIC_BY_ID, topicForQuestion } from './adaptive-catalog';
 import type { LearningState } from './learning-engine';
 import { questionById, questionCapacity, type LearningQuestion, type Grade, type Course } from './learning';
 import { COURSES } from './course-catalog';
@@ -11,7 +13,8 @@ export type StudyEntry = {
   attempts: number; independent: number; correct: number; crossDay: number;
 };
 export type StudySession = {
-  id: string; mode: 'due' | 'mistakes' | 'all'; course?: Course;
+  id: string; mode: 'due' | 'mistakes' | 'all' | 'learn';
+  topic?:string; phase?:'scope'|'lesson'|'answer'; example?:string; preview?:boolean; course?: Course;
   questions: string[]; index: number; answers: boolean[]; retries: number[];
   settled: boolean; assisted: boolean; status: 'active' | 'paused' | 'complete';
 };
@@ -40,8 +43,10 @@ export function validateStudy(value: unknown, grade: Grade) {
   }
   if (s.session === null) return;
   const r = s.session;
+  need(obj(r));
+  if(r.mode==='learn')need(TOPIC_BY_ID[r.topic??'']?.grade===grade&&['scope','lesson','answer'].includes(r.phase??'')&&TOPIC_BY_ID[r.topic!].questions.includes(r.example??'')&&r.questions.every(id=>TOPIC_BY_ID[r.topic!].questions.includes(id))&&(r.preview===undefined||typeof r.preview==='boolean'));
   need(obj(r) && typeof r.id === 'string' && /^[a-zA-Z0-9-]{1,100}$/.test(r.id)
-    && ['due', 'mistakes', 'all'].includes(r.mode)
+    && ['due', 'mistakes', 'all', 'learn'].includes(r.mode)
     && (r.course === undefined || COURSES[grade].some(c => c.id === r.course))
     && Array.isArray(r.questions) && r.questions.length > 0 && r.questions.length <= 6
     && r.questions.every(id => typeof id === 'string' && questionById(id)?.grade === grade)
@@ -82,7 +87,8 @@ export function observeStudy(s: LearningState, q: LearningQuestion, correct: boo
 function compatible(s: LearningState, grade: Grade, q: LearningQuestion | undefined, course?: Course, allowRetired=false): q is LearningQuestion {
   return !!q && (allowRetired || !q.retired) && q.grade === grade && (!course || q.course === course)
     && COURSES[grade].some(c => c.id === q.course)
-    && (!q.examSources?.length || eligibleExam(s.school, grade, q.course, q));
+    && (!q.examSources?.length || eligibleExam(s.school, grade, q.course, q))
+    && (!s.adaptive || mappedQuestion(s,q,grade,course) && (schoolExposure(s,topicForQuestion(q)!.id)==='taught'||previewAllowed(s,topicForQuestion(q)!.id)));
 }
 /** Enumerate only earned bits, never render the entire generated bank for summaries. */
 function knownIds(s: LearningState): string[] {
@@ -115,9 +121,10 @@ export function studySummary(s: LearningState, grade: Grade, day: string) {
       .sort((a, b) => a.correct / (a.attempts + a.assisted) - b.correct / (b.attempts + b.assisted)).slice(0, 3) };
 }
 export function startStudy(s: LearningState, grade: Grade, day: string, id: string, mode: StudySession['mode'], course?: Course) {
-  need(['due', 'mistakes', 'all'].includes(mode), '請選擇複習方式');
+  need(['due', 'mistakes', 'all', 'learn'].includes(mode), '請選擇複習方式');
   need(course === undefined || COURSES[grade].some(c => c.id === course), '找不到這個科目');
   const study = s.study ??= fresh(), d = studyDay(day);
+  if(mode==='learn')return startLearning(s,grade,day,id,course);
   if (study.session && study.session.status !== 'complete') {
     need(study.session.questions.every(id => compatible(s, grade, questionById(id), study.session!.course, true)), '學校版本已更新，請結束這組複習後重新選擇');
     study.session.status = 'active'; return true;
@@ -148,30 +155,74 @@ function active(s: LearningState, id: string, index: number) {
 }
 export function answerStudy(s: LearningState, grade: Grade, id: string, index: number, choice: number, day: string) {
   const r = active(s, id, index), q = questionById(r.questions[index])!;
-  need(!r.settled && compatible(s, grade, q, r.course, true) && nat(choice, q.options.length - 1), '這題已作答或題目已更新');
+  need(!r.settled && (r.mode==='learn' ? r.phase==='answer'&&mappedQuestion(s,q,grade,r.course) : compatible(s, grade, q, r.course, true)) && nat(choice, q.options.length - 1), '這題已作答或題目已更新');
   const entry = s.study!.entries[q.id];
   need(!entry || entry.last < studyDay(day) || entry.retryAfter <= s.study!.sequence + 1, "這題剛練過，請先完成另外兩題或明天再試；也可以結束這組重新選擇。");
   const correct = choice === q.answer;
   observeStudy(s, q, correct, r.assisted, day);
+  observeAdaptive(s,q,correct,r.assisted,day);
   if (correct) markMastered(s, q.id);
   r.answers.push(correct); r.settled = true;
-  if ((!correct || r.assisted) && index + 3 < r.questions.length && !r.questions.slice(index + 1).includes(q.id)) {
+  if (r.mode!=='learn' && (!correct || r.assisted) && index + 3 < r.questions.length && !r.questions.slice(index + 1).includes(q.id)) {
     r.questions[index + 3] = q.id; if (!r.retries.includes(index + 3)) r.retries.push(index + 3);
   }
   if (index === r.questions.length - 1) r.status = 'complete';
   return true;
 }
-export function nextStudy(s: LearningState, id: string, index: number) {
+export function nextStudy(s: LearningState, id: string, index: number, day?:string) {
   const r = active(s, id, index);
   need(r.settled && index + 1 < r.questions.length, '先完成這一題');
-  r.index++; r.settled = false; r.assisted = false; return true;
+  const teach=r.mode==='learn'&&(r.preview||!r.answers[r.index]||r.assisted);
+  r.index++; r.settled = false; r.assisted = false; if(teach){r.phase='lesson';showExample(s,r.questions[r.index],day??s.adaptive!.lastLearningDay!);} return true;
 }
 export function hintStudy(s: LearningState, id: string, index: number) {
   const r = active(s, id, index); need(!r.settled, '這題已作答'); r.assisted = true; return true;
 }
-export function pauseStudy(s: LearningState, id: string, finish = false) {
+export function pauseStudy(s: LearningState, id: string, finish = false, day?:string) {
   const r = s.study?.session; need(r && r.id === id, '複習已更新，請確認同步');
+  if(r!.mode==='learn'&&r!.phase==='lesson')showExample(s,r!.questions[r!.index],day??s.adaptive!.lastLearningDay!);
   if (finish) s.study!.session = null;
   else if (r!.status === 'active') r!.status = 'paused';
   return true;
+}
+
+/** Low-stakes teaching. Worked answers are assisted practice, never independent evidence. */
+export function startLearning(s:LearningState,grade:Grade,day:string,id:string,course?:Course,requested?:string) {
+ const study=s.study??=fresh();
+ if(study.session&&study.session.status!=='complete'&&!requested){study.session.status='active';return true;}
+ const topic=chooseLearningTopic(s,grade,course,requested);
+ need(topic,'這個科目目前沒有已教過的內容；可在學習安排更新進度，或先選其他科目。');
+ const t=topic!, candidates=t.questions.map(id=>questionById(id)!).filter(q=>mappedQuestion(s,q,grade));
+ const d=studyDay(day);
+ const example=candidates[0];need(example);
+ const ordered=candidates.sort((a,b)=>{
+  const ea=study.entries[a.id],eb=study.entries[b.id];
+  const rank=(q:LearningQuestion,e:StudyEntry|undefined)=>s.adaptive?.examples[q.id]===day||s.adaptive?.evidence[q.id]?.day===day&&(s.adaptive.evidence[q.id].assisted||s.adaptive.evidence[q.id].taughtExample)?4:e?.due!==undefined&&e.due<=d?0:e?.needsPractice?1:independentSuccess(s,q)?3:2;
+  return rank(a,ea)-rank(b,eb)||(ea?.order??0)-(eb?.order??0)||a.id.localeCompare(b.id);
+ }).filter(q=>{const e=study.entries[q.id];return !e||e.last<d||e.retryAfter<=study.sequence+1;});
+ const questions=ordered.slice(0,6).map(q=>q.id);need(questions.length,'這些題目剛練過，先換個概念，讓記憶休息一下。');
+ const known=schoolExposure(s,t.id)==='taught',preview=previewAllowed(s,t.id);
+ if(preview)showExample(s,questions[0],day);
+ if(s.adaptive)s.adaptive.lastLearningDay=day;
+ study.session={id,mode:'learn',course:t.course,topic:t.id,phase:known?'answer':preview?'lesson':'scope',...(preview?{preview:true}:{}),example:example.id,questions,index:0,answers:[],retries:[],settled:false,assisted:false,status:'active'};
+ return true;
+}
+export function learningScope(s:LearningState,grade:Grade,id:string,state:'taught'|'not-yet'|'preview',day:string) {
+ const r=active(s,id,0);need(r.mode==='learn'&&r.phase==='scope'&&['taught','not-yet','preview'].includes(state));
+ reportSchoolExposure(s,grade,r.topic!,state==='taught'?'taught':'not-yet',day);
+ if(state==='not-yet') {s.study!.session=null;return true;}
+ if(state==='preview')s.adaptive!.scope[scopeKey(s,r.topic!)].preview=true;
+ r.preview=state==='preview';r.phase=state==='taught'?'answer':'lesson';if(r.phase==='lesson')showExample(s,r.questions[r.index],day);return true;
+}
+export function learningLesson(s:LearningState,id:string,index:number,day:string,done=false) {
+ const r=active(s,id,index);need(r.mode==='learn'&&!r.settled&&r.phase!=='scope');
+ if(done){need(r.phase==='lesson');showExample(s,r.questions[r.index],day);r.phase='answer';r.assisted=true;}
+ else {r.phase='lesson';showExample(s,r.questions[r.index],day);}
+ return true;
+}
+export function publicLearningLesson(s:LearningState) {
+ const r=s.study?.session;if(r?.mode!=='learn')return;
+ const t=TOPIC_BY_ID[r.topic!],example=questionById(r.questions[r.index])!;
+ return {topic:t.id,title:t.title,lesson:t.lesson,exposure:schoolExposure(s,t.id)??'unknown',
+  ...(r.phase==='lesson'?{example}: {})};
 }

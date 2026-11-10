@@ -16,7 +16,7 @@ export type CaptureOutcome = {
   trial?: CaptureTrial;
   monster: string; chance: number;
   outcome: "pending" | "joined" | "duplicate" | "escaped" | "unavailable";
-  reason?: "practice" | "old-day" | "daily-limit" | "legacy" | "capacity";
+  reason?: "practice" | "old-day" | "daily-limit" | "legacy" | "capacity" | "learning";
   copies?: number;
 };
 
@@ -47,6 +47,7 @@ export function sameStats(value: unknown, expected: CombatStats): boolean {
 }
 
 export const CAPTURE_SKIP_TEXT = {
+  learning: "先在跟著我學練熟更多題目，再來降服；本次未使用降服機會，通關獎勵已保留。",
   practice: "練習航程不使用降服機會。",
   "old-day": "這是先前日期的航程，開始新航程才有降服機會。",
   "daily-limit": "這是舊版已結算的結果。新挑戰每次成功都有降服機會。",

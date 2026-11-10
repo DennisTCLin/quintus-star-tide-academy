@@ -1,3 +1,4 @@
+import { enableAdaptive, protectAdventureReservation, protectIslandReservation, PLAYERS } from '../build/game.mjs';
 import {trialCurriculumFor} from './trial-curricula.mjs';
 /** Parent-confirmed school roster, 2026-10-26. Server-only: never import into the browser bundle.
  * Account/grade mappings verified against prior parent instructions; a slot is NOT an identity.
@@ -15,7 +16,9 @@ export const SCHOOL_ROSTER = [
   {username:'brownie',name:'林軒凱',playerId:'quintus',grade:4,school:'dunhua',schoolLocation:'臺北',schoolNote:'115學年度教科書表已核對；英文Here We Go 7題庫待補'},
 ];
 export function applySchoolCurriculum(family,user){
-  if(user.adult_id || !user.member_id || !user.player_id)return family;
+  if(user.adult_id)return family;
+  for(const player of PLAYERS)if(family.profiles[player.id]){const p=family.profiles[player.id];enableAdaptive(p.learning);protectAdventureReservation(p,player.grade);protectIslandReservation(p.mathIsland,p.learning,player.grade);}
+  if(!user.member_id || !user.player_id)return family;
   const student=SCHOOL_ROSTER.find(s=>s.username===user.username?.toLowerCase() && s.playerId===user.player_id);
   // The authenticated account, never a supplied display name or profile slot, owns its school.
   const learning=family.profiles[user.player_id]?.learning;
@@ -26,5 +29,6 @@ export function applySchoolCurriculum(family,user){
     if(school)learning.school=school;
     else delete learning.school;
   }
+  for(const player of PLAYERS){const p=family.profiles[player.id];if(p){protectAdventureReservation(p,player.grade);protectIslandReservation(p.mathIsland,p.learning,player.grade);}}
   return family;
 }

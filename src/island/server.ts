@@ -1,3 +1,4 @@
+import { islandConceptReady, observeIslandReadiness } from './adaptive';
 import { capturePending } from "../capture-trial";
 import type { Family, Profile } from '../adventure';
 import { saveCompletionStar, settleCapture, pendingRemediation } from '../adventure';
@@ -32,17 +33,21 @@ export function startIsland(s: Family,id: PlayerId,mode: Mode,unit: string|undef
   const grade=unit?unitGrade(unit):requestedGrade??1;
   need(Number.isInteger(grade)&&grade>=1&&grade<=6,'找不到這個年級');
   need(requestedGrade===undefined||requestedGrade===grade,'年級與單元不一致');
-  need(mode === 'mock' ? unit === undefined && kingOpen(island,grade) : !!unit && Object.prototype.hasOwnProperty.call(UNIT_BY_ID,unit) && stageOpen(island,unit,mode),'先完成前一關再挑戰');
   if (island.run && !island.run.completed) {
     need(island.run.mode === mode && island.run.unit === unit && (island.run.mode!=='mock'||(island.run.grade??1)===grade),'先繼續或結束數學島目前這一關');
     return island.run;
   }
+  if(p.learning.adaptive && mode!=='learn')need(grade===PLAYERS.find(x=>x.id===id)!.grade&&(!unit||unit[1]==='A'),'先練目前年級上學期的內容；其他單元可以先看學一學');
+  const readyUnits=Object.values(UNIT_BY_ID).filter(u=>Number(u.id[0])===grade&&u.games.every(k=>islandConceptReady(island,p.learning,{unit:u.id,k},grade)));
+  if(p.learning.adaptive && (mode==='boss'||mode==='mock'))need(mode==='mock'?readyUnits.length>0:readyUnits.some(u=>u.id===unit),'先回學一學、玩一玩，獨立完成不同題目並確認學校教過，再挑戰神獸');
+  need(mode === 'mock' ? unit === undefined && (p.learning.adaptive?readyUnits.length>0:kingOpen(island,grade)) : !!unit && Object.prototype.hasOwnProperty.call(UNIT_BY_ID,unit) && stageOpen(island,unit,mode),'先完成前一關再挑戰');
   tick(p,day);
   const seen=new Set(island.day===day?island.attempted:[]);
   let items;
   if(mode==='learn') items=UNIT_BY_ID[unit!].games.flatMap((k,j)=>Array.from({length:UNIT_BY_ID[unit!].learn[j]},()=>makeItem(k,seen)));
-  else if(mode==='mock') items=mixedExam(CHALLENGE_QUESTIONS,seen,grade);
+  else if(mode==='mock') items=p.learning.adaptive?itemSet(readyUnits.map(u=>u.id),CHALLENGE_QUESTIONS,seen,true):mixedExam(CHALLENGE_QUESTIONS,seen,grade);
   else if(mode==='boss') items=itemSet([unit!],CHALLENGE_QUESTIONS,seen,true);
+  else if(p.learning.adaptive)items=itemSet([unit!],CHALLENGE_QUESTIONS,seen);
   else {
     const mix=playMixKeys(island,unit!,day);
     const own=itemSet([unit!],CHALLENGE_QUESTIONS-mix.filter(x=>x.why!=='own').length,seen);
@@ -62,7 +67,7 @@ export function startIsland(s: Family,id: PlayerId,mode: Mode,unit: string|undef
   // Existing runs resume above; only newly created math encounters use metal.
   const monster=chooseMonster(level,seed,monsterById(p.lastMonsterVariant)?.family,'金');
   if(mode!=='learn') p.lastMonsterVariant=monster.id;
-  return island.run={captureRule:"three-correct-v1",id:runId,day,mode,...(unit?{unit}:{}),...(grade>1?{grade}:{}),companion:p.equipped,items,answers:[],completed:false,skillUsed:false,
+  return island.run={...(p.learning.adaptive&&mode==='play'?{practice:true as const}:{}),captureRule:"three-correct-v1",id:runId,day,mode,...(unit?{unit}:{}),...(grade>1?{grade}:{}),companion:p.equipped,items,answers:[],completed:false,skillUsed:false,
     ...(mode==='learn'?{}:{encounter:{monster:monster.family,variant:monster.id,level,earned:0,
       combat:{version:2,ally:encounterStats(2,petById(p.equipped)!.rarity,level),foe:encounterStats(2,monster.rarity,level)}}}),
     coins:0,points:0,rewarded:0,xp:0,packs:0,found:0,tickets:0,bonus:0,savedStar:false,prevBest:prev===undefined?null:Math.round(prev*items.length)};
@@ -72,11 +77,14 @@ export function answerIsland(s:Family,id:PlayerId,runId:string,index:number,choi
   need(r && r.id===runId && !r.completed && !islandFailed(r) && index===r.answers.length && index<r.items.length,'這一題已更新，請回小島繼續');
   need(isIslandNumber(choice),'請填零到一百的數字');
   const run=r!, q=run.items[index];
+  if(p.learning.adaptive&&run.mode==='play')run.practice=true;
   need(['boss','mock'].includes(run.mode) || q.choices.includes(choice),'請選題目提供的答案');
   need(Number(q.unit[0])===1||q.choices.includes(choice),'請選題目提供的答案');
+  if(p.learning.adaptive && !run.practice && ['boss','mock'].includes(run.mode))need(islandConceptReady(island!,p.learning,q,PLAYERS.find(x=>x.id===id)!.grade),'這個概念還沒練熟；本次沒有扣血，先回學一學或玩一玩');
   tick(p,day);
   const first=takeFirstAttempt(island!,q.id,day);
   const correct=choice===q.answer;
+  if(p.learning.adaptive)observeIslandReadiness(island!,q,correct,run.mode==='learn'||!!run.help&&run.help.index===index||!first);
   const star=recordAnswer(island!,q,correct,new Date(`${day}T12:00:00`));
   run.answers.push(choice);
   if(star==='found'||star==='home') run.found++;
@@ -103,9 +111,10 @@ export function finishIsland(s:Family,id:PlayerId,runId:string,day:string,captur
   if(r!.completed) return r!;
   tick(p,day);
   const run=r!,right=run.answers.filter((a,i)=>a===run.items[i].answer).length,ratio=right/run.items.length;
-  if(run.mode==='mock') {const grade=run.grade??1;if(grade===1)island!.mock=Math.max(island!.mock??0,ratio);else (island!.mocks??={})[grade]=Math.max(island!.mocks?.[grade]??0,ratio);}
+  if(run.practice) {if(run.unit&&!islandFailed(run))finishStage(island!,run.unit,'play',ratio);}
+  else if(run.mode==='mock') {const grade=run.grade??1;if(grade===1)island!.mock=Math.max(island!.mock??0,ratio);else (island!.mocks??={})[grade]=Math.max(island!.mocks?.[grade]??0,ratio);}
   else if(run.mode==='boss' || !islandFailed(run)) finishStage(island!,run.unit!,run.mode,ratio);
-  const won=run.mode!=='learn' && run.answers.length===CHALLENGE_QUESTIONS && !islandFailed(run);
+  const won=run.mode!=='learn' && !run.practice && run.answers.length===CHALLENGE_QUESTIONS && !islandFailed(run);
   if(won) p.milestones=completeVoyage(p.milestones,Math.min(120,run.points));
   if(won && run.day===day) {
     p.rewardRounds++;run.savedStar=true;

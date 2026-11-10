@@ -1,0 +1,13 @@
+
+ RUN  v5.0.5 /Users/dennistclin/Documents/ChatGPT/星潮網站開發/content-finals-20261110
+
+
+ Test Files  190 passed | 38 skipped (228)
+      Tests  1663 passed | 372 skipped (2035)
+   Start at  13:49:46
+   Duration  41.93s (import 58%, tests 40%, transform 2%, worker 1%)
+
+     Import  601 modules were evaluated 983 times · 40.85s total, 58% of tracked time
+             ~4.22s faster with isolate: false — shared modules are evaluated once per worker instead of once per file
+             learn more: https://vitest.dev/guide/improving-performance#test-isolation
+

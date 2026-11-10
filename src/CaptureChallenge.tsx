@@ -8,8 +8,8 @@ import {stopVoice} from './voice';
 import {annotateTree} from './readability';
 import {allowsReadAloud} from './ReadAloud';
 import './capture-challenge.css';
-export default function CaptureChallenge({capture,question,busy,online,reduced=false,onAnswer,onSkip,onClose,onListen}: {
- capture:CaptureOutcome;question?:PublicQuestion;busy:boolean;online:boolean;reduced?:boolean;
+export default function CaptureChallenge({capture,question,blocked,onPrepare,busy,online,reduced=false,onAnswer,onSkip,onClose,onListen}: {
+ capture:CaptureOutcome;blocked?:boolean;onPrepare?:()=>void;question?:PublicQuestion;busy:boolean;online:boolean;reduced?:boolean;
  onAnswer:(index:number,choice:number)=>Promise<unknown>;onSkip:()=>Promise<unknown>;onClose:()=>void;
  onListen:(q:PublicQuestion,done:()=>void)=>void;
 }) {
@@ -31,7 +31,7 @@ export default function CaptureChallenge({capture,question,busy,online,reduced=f
    {active?<>
     <p>再連續答對三題，就能邀請{monster.name}成為夥伴。答錯一題，這次降服就會結束。</p>
     <small>{trial.grade} 年級 · 本階段不另發星幣或完成獎勵</small>
-    {question?<>
+    {blocked?<div><p>先練熟這些內容再接續降服；已答對的星星與通關獎勵都保留。</p><button disabled={busy||!online} onClick={onPrepare}>先學會，再接續降服</button></div>:question?<>
      <div className="capture-prompt"><h3>{question.prompt}</h3>{(allowsReadAloud(trial.grade)||!!question.audio)&&<button aria-label={question.audio?'播放題目音檔':'聽題目'} disabled={busy||!online} onClick={()=>onListen(question,()=>setHeard(question.id))}>{question.audio?'播放題目音檔':'🔊 聽題目'}</button>}</div>
      {question.visual&&<p className="math-visual" data-learning-content>{question.visual}</p>}
      {question.image&&<img className="capture-question-image" src={question.image} alt="題目圖片"/>}
