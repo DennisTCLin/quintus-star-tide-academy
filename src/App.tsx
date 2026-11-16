@@ -695,6 +695,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
     setTerritoryGoalRequest(null);
     setCoursePicker(false);
     setIslandChoice(null);
+    setHarborExtrasOpen(false);
     setPage(next);
     setNotice("");
   }
