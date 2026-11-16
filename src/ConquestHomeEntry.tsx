@@ -10,12 +10,17 @@ import { protectionStatus } from './conquest-presentation';
 import './conquest-home.css';
 
 export type ConquestDestination = { tileId?: string; owned?: boolean; reports?: boolean };
-type Props = { controller:SharedConquestController; account: string; player: PlayerId; name: string; onEnter: (destination: ConquestDestination) => void };
-export default function ConquestHomeEntry({ controller, player, name, onEnter }: Props) {
+type Props = { compact?: boolean; controller:SharedConquestController; account: string; player: PlayerId; name: string; onEnter: (destination: ConquestDestination) => void };
+export default function ConquestHomeEntry({ compact=false, controller, player, name, onEnter }: Props) {
   const state=controller.snapshot?.state, now=controller.now(), error=!!controller.error;
   const islands=(state ? islandDisplayTiles(state.tiles) : []).filter(t=>t.owner===controller.snapshot?.me).sort((a,b)=>(b.capturedAt??0)-(a.capturedAt??0))??[];
   const protectedCount = islands.filter(t => shieldActive(t, now)).length;
   const waitingCount = islands.filter(t => (t.shieldStartsAt ?? 0) > now).length;
+  if(compact)return <section className="conquest-primary-entry" aria-label="群島遠征">
+    <img src="/assets/navigation/conquest-fortress.v-c1549f292cd3.webp" width="72" height="72" alt="" />
+    <div><h2>群島遠征</h2><span>{error?'暫時離線':state?`⚑ ${islands.length} · ⚡ ${state.energy}`:'…'}</span></div>
+    <button className="f-primary" onClick={()=>onEnter({})} aria-label="群島遠征">▶ 出發</button>
+  </section>;
   return <section className="cq-home-entry" aria-labelledby="cq-home-title">
     <div className="cq-home-copy">
       <div className="cq-home-owner"><PlayerAvatar id={player} /><span>{name} 的征服航程{state?.enrollment && <small>{allianceById(state.enrollment.allianceId)?.name}</small>}</span></div>

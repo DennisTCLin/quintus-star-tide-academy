@@ -106,3 +106,13 @@ body .family-app.game-first-ui > .family-nav > button { display:flex;flex-direct
  .family-app.game-first-ui.home-page .player-chip { width:auto;justify-content:flex-start;padding-inline:8px!important; }
  .family-app.game-first-ui.home-page .player-chip b { display:block;font-size:15px; }
 }
+
+/* Conquest is a primary destination, never gated behind More or harbor details. */
+body .family-app.game-first-ui > .family-nav { grid-template-columns:repeat(5,minmax(0,1fr)); }
+.family-app.game-first-ui .conquest-primary-entry { display:flex;align-items:center;gap:12px;width:calc(100% - 24px);max-width:1440px;box-sizing:border-box;margin:6px auto;padding:12px 16px;background:linear-gradient(110deg,#214f60,#103447);border:1px solid #d5bc78;border-radius:18px; }
+.conquest-primary-entry img { width:64px;height:64px;object-fit:contain; }
+.conquest-primary-entry > div { flex:1;min-width:0; }
+.family-app .conquest-primary-entry h2 { margin:0;font-size:22px;color:#ffe5a5; }
+.conquest-primary-entry span { font-size:13px; }
+.family-app .conquest-primary-entry button { min-height:48px;white-space:nowrap;padding:8px 12px;font-size:17px; }
+@media(max-width:600px) { .family-app.game-first-ui .conquest-primary-entry { padding:8px;gap:8px; }.conquest-primary-entry img { width:44px;height:44px; }.family-app .conquest-primary-entry h2 { font-size:19px; }.family-app .conquest-primary-entry button { font-size:15px; } }

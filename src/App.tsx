@@ -1118,6 +1118,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
             </button></ReadAloud>
           </header>
           {page !== "home" && page !== "conquest" && page !== "learn" && page !== "review" && <ConquestRaidNotice key={`${player.id}:${page}`} controller={sharedConquest} onOpen={() => { setConquestDestination({ reports: true }); navigate("conquest"); }} />}
+          {page === "home" && (!isAdult||cloud.state.learner?.socialApproved) && <ConquestHomeEntry compact controller={sharedConquest} key={`${cloud.state.username}:${id}`} account={cloud.state.username} player={id} name={player.name} onEnter={destination => { setConquestDestination(destination); navigate("conquest"); }} />}
           {page === "home" && <section id="harbor-departure" className="harbor-departure" aria-labelledby="harbor-departure-title" tabIndex={-1}>
             <CharacterPortrait characterId={pet.id} src={pet.thumbnail ?? pet.image} paused={battleReducedMotion} alt="同行夥伴" />
             <div className="harbor-departure-copy">
@@ -1136,7 +1137,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
           <OnlineBattle key={player.id} controller={social} profile={p} reduced={battleReducedMotion} quiet={socialQuiet} />
           {page !== "home" && page !== "review" && <ResourceRibbon profile={p} online={cloud.online} onVisit={() => navigate("territory")} />}
           <nav className="family-nav" aria-label="主要導覽">
-            {navs.filter(n => ["home", "collection", "battle"].includes(n.page)).map((n) => (
+            {["home", "conquest", "collection", "battle"].map(page=>navs.find(n=>n.page===page)!).map((n) => (
               <button
                 key={n.page}
                 className={page === n.page || (page === "bestiary" && n.page === "collection") ? "selected" : ""}
@@ -1149,7 +1150,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
             ))}
             <button aria-label="更多功能" aria-expanded={moreNav} onClick={()=>setMoreNav(true)}><span aria-hidden="true">☷</span><span>更多</span></button>
           </nav>
-          {moreNav && <Dialog title="想玩什麼？" close={()=>setMoreNav(false)}><div className="game-menu-grid">{navs.filter(n=>!["home","collection","battle"].includes(n.page)).map(n=><button key={n.page} onClick={()=>{setMoreNav(false);if(n.page==="conquest")setConquestDestination({});navigate(n.page);}}><NavIcon name={n.page}/><span>{isAdult&&n.page==="parent"?"紀錄":n.name}</span></button>)}</div></Dialog>}
+          {moreNav && <Dialog title="想玩什麼？" close={()=>setMoreNav(false)}><div className="game-menu-grid">{navs.filter(n=>!["home","conquest","collection","battle"].includes(n.page)).map(n=><button key={n.page} onClick={()=>{setMoreNav(false);if(n.page==="conquest")setConquestDestination({});navigate(n.page);}}><NavIcon name={n.page}/><span>{isAdult&&n.page==="parent"?"紀錄":n.name}</span></button>)}</div></Dialog>}
           <TideglowCompanion mascot={mascot} key={`${cloud.state.csrf}:${id}`} player={id} csrf={cloud.state.csrf} name={player.name} grade={grade} facts={guideFacts(p)} petName={petById(p.equipped)?.name}
             reduced={battleReducedMotion} online={cloud.online} onReady={requestLearning} page={page} completed={page === 'learn' && !!run && run.status !== 'active'}
             courseName={run ? COURSES[grade].find(c => c.id === run.course)?.name : undefined}
@@ -1222,7 +1223,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                   </div>
                 </section>
 
-                  {page === "home" && (!isAdult||cloud.state.learner?.socialApproved) && <ConquestHomeEntry controller={sharedConquest} key={`${cloud.state.username}:${id}`} account={cloud.state.username} player={id} name={player.name} onEnter={destination => { setConquestDestination(destination); navigate("conquest"); }} />}
+                  
                   <StoryCinemaEntry onOpen={story=>{setCinemaStart(story);navigate("cinema");}} />
                 {!isAdult&&<StudyEntry summary={cloud.state.studySummaries?.[id]} session={p.learning.study?.session} disabled={busy || !cloud.online} onStart={mode => void beginReview(mode)} onFinish={() => { void change({ type: "review-finish", player: id, sessionId: p.learning.study?.session?.id }); }} />}
                 <TrainingPanel adultToday={isAdult?(p.milestones.awardedByDay[cloud.state.day]?.length??0):undefined} key={id} profile={p} day={cloud.state.day} online={cloud.online} busy={busy}
