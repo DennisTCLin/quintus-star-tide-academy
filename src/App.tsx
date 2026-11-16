@@ -1223,7 +1223,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                   </div>
                 </section>
 
-                  
+
                   <StoryCinemaEntry onOpen={story=>{setCinemaStart(story);navigate("cinema");}} />
                 {!isAdult&&<StudyEntry summary={cloud.state.studySummaries?.[id]} session={p.learning.study?.session} disabled={busy || !cloud.online} onStart={mode => void beginReview(mode)} onFinish={() => { void change({ type: "review-finish", player: id, sessionId: p.learning.study?.session?.id }); }} />}
                 <TrainingPanel adultToday={isAdult?(p.milestones.awardedByDay[cloud.state.day]?.length??0):undefined} key={id} profile={p} day={cloud.state.day} online={cloud.online} busy={busy}
