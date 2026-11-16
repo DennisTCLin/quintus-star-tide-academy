@@ -108,10 +108,12 @@ export function challengeCandidates(s:LearningState,grade:Grade,course:Course,ex
  .sort((a,b)=>Number(independentSuccess(s,a))-Number(independentSuccess(s,b))||(s.adaptive?.evidence[a.id]?.order??s.study?.entries[a.id]?.order??0)-(s.adaptive?.evidence[b.id]?.order??s.study?.entries[b.id]?.order??0)||a.id.localeCompare(b.id));
 }
 export class LearningPreparationNeeded extends Error {constructor(){super('先到「跟著我學」練熟這個科目，再回來挑戰；原有進度與獎勵都保留。');}}
-export function allocateMastered(s:LearningState,grade:Grade,course:Course,count:number,excluded:string[]=[]):QuestionAllocation[] {
+export function allocateMastered(s:LearningState,grade:Grade,course:Course,count:number,excluded:string[]=[],priority?:(q:LearningQuestion)=>number):QuestionAllocation[] {
  need(Number.isInteger(count)&&count>0&&count<=6);
  const families=new Set<string>(), chosen:LearningQuestion[]=[];
- for(const q of challengeCandidates(s,grade,course,excluded)){
+ const pool=challengeCandidates(s,grade,course,excluded);
+ if(priority)pool.sort((a,b)=>priority(a)-priority(b));
+ for(const q of pool){
   if(q.sourceFamily&&families.has(q.sourceFamily))continue;
   chosen.push(q);if(q.sourceFamily)families.add(q.sourceFamily);if(chosen.length===count)break;
  }
@@ -144,6 +146,11 @@ export function hasChallengeCapacity(s:LearningState,grade:Grade,course:Course,c
   families.add(q.sourceFamily??q.id);if(families.size>=count)return true;
  }
  return false;
+}
+/** Snapshot the assessment predicate once; never recompute all evidence per item. */
+export function needsAssessment(s:LearningState,grade:Grade,course:Course) {
+ const ready=learningReadiness(s);
+ return (q:LearningQuestion|undefined)=>mappedQuestion(s,q,grade,course)&&!eligibleWith(s,q,grade,course,ready);
 }
 
 /** Prefer different voyage items, but a small mastered bank may safely reuse them.

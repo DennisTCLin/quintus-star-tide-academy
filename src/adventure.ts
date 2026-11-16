@@ -663,8 +663,12 @@ export function startRun(
   requireValue(!pendingRemediation(p.run), "先完成補練，或選擇略過這次補練");
   const grade = PLAYERS.find((x) => x.id === id)!.grade;
   const route = routeForCourse(grade, course);
-  if(p.learning.adaptive&&practice){
-    startLearning(p.learning,grade,day,runId,course);return 'learn';
+  // An earned checkpoint survives midnight; calendar changes alone add no quiz.
+  const pilotCheckpoint=`${p.day||day}:${Math.floor(p.rewardRounds/3)*3}`;
+  const nextStep=p.learning.adaptive&&p.rewardRounds>=3&&p.learning.adaptive.coachedRound!==pilotCheckpoint;
+  if(p.learning.adaptive&&(practice||nextStep)){
+    const started=startLearning(p.learning,grade,day,runId,course,undefined,!practice);
+    if(started){p.learning.adaptive.coachedRound=pilotCheckpoint;return 'learn';}
   }
   const previousMonster = p.run?.encounter.monster ?? monsterById(p.lastMonsterVariant)?.family;
   const level = growthProgress(p.growth.xp[p.equipped] ?? 0).level;

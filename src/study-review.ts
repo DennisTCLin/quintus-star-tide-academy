@@ -16,7 +16,7 @@ export type StudyEntry = {
 };
 export type StudySession = {
   id: string; mode: 'due' | 'mistakes' | 'all' | 'learn';
-  pilot?:1; topic?:string; phase?:'scope'|'lesson'|'answer'; example?:string; preview?:boolean; course?: Course;
+  pilot?:1; advance?:true; topic?:string; phase?:'scope'|'lesson'|'answer'; example?:string; preview?:boolean; course?: Course;
   questions: string[]; index: number; answers: boolean[]; retries: number[];
   settled: boolean; assisted: boolean; status: 'active' | 'paused' | 'complete';
 };
@@ -57,6 +57,7 @@ export function validateStudy(value: unknown, grade: Grade) {
     && typeof r.assisted === 'boolean' && typeof r.settled === 'boolean' && ['active', 'paused', 'complete'].includes(r.status)
     && (r.status !== 'complete' || (r.settled && r.index === r.questions.length - 1)));
   need(r.pilot === undefined || r.pilot === 1 && r.mode === 'learn');
+  need(r.advance===undefined||r.advance===true&&r.pilot===1);
   if(r.mode==='learn') {
     const t=TOPIC_BY_ID[r.topic??''];
     need(t?.grade===grade&&['scope','lesson','answer'].includes(r.phase??'')&&t.questions.includes(r.example??'')
@@ -195,7 +196,7 @@ export function nextStudy(s: LearningState, id: string, index: number, day?:stri
     const q=questionById(r.questions[r.index])!,prefix=r.questions.slice(0,r.index+1);
     const independent=r.answers[r.index]&&!r.assisted&&independentSuccess(s,q);
     const focus=!r.answers[r.index]?(TOPIC_BY_ID[r.topic!].prerequisite??r.topic):r.topic;
-    const remaining=pilotQuestions(s,q.grade,r.course!,today,r.questions.length-prefix.length,prefix,focus,!independent);
+    const remaining=pilotQuestions(s,q.grade,r.course!,today,r.questions.length-prefix.length,prefix,focus,!independent,r.advance===true&&independent);
     r.questions=[...prefix,...remaining];
     if(!remaining.length){r.status='complete';return true;}
   }
@@ -221,7 +222,7 @@ function prepareExample(s:LearningState,r:StudySession,day:string) {
  showExample(s,r.example,day);
 }
 /** Low-stakes probes reuse dated independent history, never earned reward bits. */
-export function startLearning(s:LearningState,grade:Grade,day:string,id:string,course?:Course,requested?:string) {
+export function startLearning(s:LearningState,grade:Grade,day:string,id:string,course?:Course,requested?:string,advance=false) {
  enableAdaptive(s);
  const study=s.study??=fresh();
  if(study.session&&study.session.status!=='complete'&&!requested){
@@ -234,12 +235,13 @@ export function startLearning(s:LearningState,grade:Grade,day:string,id:string,c
  }
  const topic=chooseLearningTopic(s,grade,course,requested);
  need(topic,'這個科目的內容準備中，先選其他島嶼。');
- const questions=pilotQuestions(s,grade,topic!.course,day,6,[],requested);
+ const questions=pilotQuestions(s,grade,topic!.course,day,6,[],requested,false,advance);
+ if(advance&&!questions.length)return false;
  need(questions.length,'這些題目剛練過，先換個概念，讓記憶休息一下。');
  const first=questionById(questions[0])!,t=topicForQuestion(first)!,previous=s.adaptive?.evidence[first.id];
  const teach=!!(previous&&(!previous.correct||previous.assisted)||study.entries[first.id]?.needsPractice);
  if(s.adaptive)s.adaptive.lastLearningDay=day;
- const r:StudySession={id,mode:'learn',pilot:1,course:t.course,topic:t.id,phase:teach?'lesson':'answer',example:first.id,questions,index:0,answers:[],retries:[],settled:false,assisted:false,status:'active'};
+ const r:StudySession={id,mode:'learn',pilot:1,...(advance?{advance:true as const}:{}),course:t.course,topic:t.id,phase:teach?'lesson':'answer',example:first.id,questions,index:0,answers:[],retries:[],settled:false,assisted:false,status:'active'};
  study.session=r;if(teach)prepareExample(s,r,day);
  return true;
 }

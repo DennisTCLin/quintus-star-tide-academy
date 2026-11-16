@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "size": [
+        375,
+        667
+      ],
+      "earnedCheckpoint": true,
+      "threeFreshProbes": true,
+      "resumesSixQuestionBattle": true,
+      "economyUnchanged": true,
+      "controlsFirstScreen": true
+    },
+    {
+      "engine": "chromium",
+      "size": [
+        820,
+        1180
+      ],
+      "earnedCheckpoint": true,
+      "threeFreshProbes": true,
+      "resumesSixQuestionBattle": true,
+      "economyUnchanged": true,
+      "controlsFirstScreen": true
+    },
+    {
+      "engine": "webkit",
+      "size": [
+        375,
+        667
+      ],
+      "earnedCheckpoint": true,
+      "threeFreshProbes": true,
+      "resumesSixQuestionBattle": true,
+      "economyUnchanged": true,
+      "controlsFirstScreen": true
+    },
+    {
+      "engine": "webkit",
+      "size": [
+        820,
+        1180
+      ],
+      "earnedCheckpoint": true,
+      "threeFreshProbes": true,
+      "resumesSixQuestionBattle": true,
+      "economyUnchanged": true,
+      "controlsFirstScreen": true
+    }
+  ],
+  "errors": [],
+  "syntheticAccountsOnly": true
+}
