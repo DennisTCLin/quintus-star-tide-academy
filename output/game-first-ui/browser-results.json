@@ -1,0 +1,1674 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        320,
+        568
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        390,
+        844
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        768,
+        1024
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        1440,
+        900
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        320,
+        568
+      ],
+      "startBottom": 558,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        375,
+        667
+      ],
+      "startBottom": 657,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        768,
+        1024
+      ],
+      "startBottom": 1014,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        820,
+        1180
+      ],
+      "startBottom": 1170,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        1180,
+        820
+      ],
+      "startBottom": 810,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        320,
+        568
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        390,
+        844
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        768,
+        1024
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        1440,
+        900
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        320,
+        568
+      ],
+      "startBottom": 558,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        375,
+        667
+      ],
+      "startBottom": 657,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        768,
+        1024
+      ],
+      "startBottom": 1014,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        820,
+        1180
+      ],
+      "startBottom": 1170,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        1180,
+        820
+      ],
+      "startBottom": 810,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        320,
+        568
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        390,
+        844
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        768,
+        1024
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        1440,
+        900
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        320,
+        568
+      ],
+      "startBottom": 558,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        375,
+        667
+      ],
+      "startBottom": 657,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        768,
+        1024
+      ],
+      "startBottom": 1014,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        820,
+        1180
+      ],
+      "startBottom": 1170,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        1180,
+        820
+      ],
+      "startBottom": 810,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        320,
+        568
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        390,
+        844
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        768,
+        1024
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        1440,
+        900
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        320,
+        568
+      ],
+      "startBottom": 558,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        375,
+        667
+      ],
+      "startBottom": 657,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        768,
+        1024
+      ],
+      "startBottom": 1014,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        820,
+        1180
+      ],
+      "startBottom": 1170,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        1180,
+        820
+      ],
+      "startBottom": 810,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        320,
+        568
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        390,
+        844
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        768,
+        1024
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        1440,
+        900
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        320,
+        568
+      ],
+      "startBottom": 558,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        375,
+        667
+      ],
+      "startBottom": 657,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        768,
+        1024
+      ],
+      "startBottom": 1014,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        820,
+        1180
+      ],
+      "startBottom": 1170,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        1180,
+        820
+      ],
+      "startBottom": 810,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        320,
+        568
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        390,
+        844
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        768,
+        1024
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        1440,
+        900
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        320,
+        568
+      ],
+      "startBottom": 558,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        375,
+        667
+      ],
+      "startBottom": 657,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        768,
+        1024
+      ],
+      "startBottom": 1014,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        820,
+        1180
+      ],
+      "startBottom": 1170,
+      "startHit": true
+    },
+    {
+      "engine": "chromium",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        1180,
+        820
+      ],
+      "startBottom": 810,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        320,
+        568
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        390,
+        844
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        768,
+        1024
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "new",
+      "viewport": [
+        1440,
+        900
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        320,
+        568
+      ],
+      "startBottom": 558,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        375,
+        667
+      ],
+      "startBottom": 657,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        768,
+        1024
+      ],
+      "startBottom": 1014,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        820,
+        1180
+      ],
+      "startBottom": 1170,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        1180,
+        820
+      ],
+      "startBottom": 810,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        320,
+        568
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        390,
+        844
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        768,
+        1024
+      ],
+      "homeStartBottom": 197,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeStartBottom": 197,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeStartBottom": 197,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "ready",
+      "viewport": [
+        1440,
+        900
+      ],
+      "homeStartBottom": 197,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        320,
+        568
+      ],
+      "startBottom": 558,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        375,
+        667
+      ],
+      "startBottom": 657,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        768,
+        1024
+      ],
+      "startBottom": 1014,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        820,
+        1180
+      ],
+      "startBottom": 1170,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 1,
+      "state": "preparing",
+      "viewport": [
+        1180,
+        820
+      ],
+      "startBottom": 810,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        320,
+        568
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        390,
+        844
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        768,
+        1024
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "new",
+      "viewport": [
+        1440,
+        900
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        320,
+        568
+      ],
+      "startBottom": 558,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        375,
+        667
+      ],
+      "startBottom": 657,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        768,
+        1024
+      ],
+      "startBottom": 1014,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        820,
+        1180
+      ],
+      "startBottom": 1170,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        1180,
+        820
+      ],
+      "startBottom": 810,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        320,
+        568
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        390,
+        844
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        768,
+        1024
+      ],
+      "homeStartBottom": 197,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeStartBottom": 197,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeStartBottom": 197,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "ready",
+      "viewport": [
+        1440,
+        900
+      ],
+      "homeStartBottom": 197,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        320,
+        568
+      ],
+      "startBottom": 558,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        375,
+        667
+      ],
+      "startBottom": 657,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        768,
+        1024
+      ],
+      "startBottom": 1014,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        820,
+        1180
+      ],
+      "startBottom": 1170,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 2,
+      "state": "preparing",
+      "viewport": [
+        1180,
+        820
+      ],
+      "startBottom": 810,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        320,
+        568
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        390,
+        844
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        768,
+        1024
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "new",
+      "viewport": [
+        1440,
+        900
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        320,
+        568
+      ],
+      "startBottom": 558,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        375,
+        667
+      ],
+      "startBottom": 657,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        768,
+        1024
+      ],
+      "startBottom": 1014,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        820,
+        1180
+      ],
+      "startBottom": 1170,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        1180,
+        820
+      ],
+      "startBottom": 810,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        320,
+        568
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        375,
+        667
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        390,
+        844
+      ],
+      "homeStartBottom": 169,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        768,
+        1024
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        820,
+        1180
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        1180,
+        820
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "ready",
+      "viewport": [
+        1440,
+        900
+      ],
+      "homeStartBottom": 179,
+      "homeStartHit": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        320,
+        568
+      ],
+      "startBottom": 558,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        375,
+        667
+      ],
+      "startBottom": 657,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        768,
+        1024
+      ],
+      "startBottom": 1014,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        820,
+        1180
+      ],
+      "startBottom": 1170,
+      "startHit": true
+    },
+    {
+      "engine": "webkit",
+      "grade": 4,
+      "state": "preparing",
+      "viewport": [
+        1180,
+        820
+      ],
+      "startBottom": 810,
+      "startHit": true
+    }
+  ],
+  "errors": [],
+  "preservation": "Synthetic UI navigation/reload exact profile comparison; answer settlement and balances verified against actual local server."
+}

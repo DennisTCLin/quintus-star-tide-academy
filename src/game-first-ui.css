@@ -1,0 +1,108 @@
+/* Game controls: a small HUD, one launch action, then the islands. */
+.family-app.game-first-ui { --game-dock:76px; padding-bottom:calc(var(--game-dock) + env(safe-area-inset-bottom)); }
+.family-app.game-first-ui .sr-only { position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0; }
+.family-app.game-first-ui.home-page > .cloud-status:not(.offline) { padding:3px 12px;font-size:12px;min-height:28px; }
+.family-app.game-first-ui.home-page > .cloud-status:not(.offline) button { min-height:32px;padding:3px 8px;font-size:12px; }
+.family-app.game-first-ui.home-page > .family-header { display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:8px 0;margin:0 auto; }
+.family-app.game-first-ui.home-page .family-brand { display:none; }
+.family-app.game-first-ui.home-page .player-chip { padding:4px 8px;min-height:44px;margin-right:auto; }
+.family-app.game-first-ui.home-page .player-chip small { display:none; }
+.family-app.game-first-ui.home-page .player-chip img { width:36px;height:36px; }
+.family-app.game-first-ui.home-page .wallet { display:flex;gap:12px;margin:0;font-size:14px; }
+.family-app.game-first-ui.home-page > .harbor-departure { padding:12px 16px;margin-block:4px 10px;gap:12px;flex-wrap:nowrap;background:linear-gradient(110deg,#174d5d,#0b283d); }
+.family-app.game-first-ui .harbor-departure > :is(img,.character-portrait) { width:64px;height:64px;object-fit:contain;flex:none; }
+.family-app.game-first-ui .harbor-departure-copy { flex:1; }
+.family-app.game-first-ui .harbor-departure h1 { font-size:24px; }
+.family-app.game-first-ui .harbor-departure-start { min-width:130px;min-height:56px;font-size:20px!important;padding:8px 16px; }
+.family-app.game-first-ui .harbor-departure-listen { min-width:44px; }
+.family-app.game-first-ui.home-page > .family-main { margin-top:0;min-height:0; }
+.family-app.game-first-ui.home-page #adventure-islands { margin-top:0; }
+.family-app.game-first-ui .subject-islands .section-title { margin:0 0 6px; }
+.family-app.game-first-ui .subject-islands .section-title h2 { margin:0;font-size:20px; }
+.family-app.game-first-ui .course-listen { width:44px;min-width:44px;min-height:44px; }
+.family-app.game-first-ui .course-availability:empty { display:none; }
+.family-app.game-first-ui .journey-islands .journey-card { display:grid;grid-template-columns:48px minmax(0,1fr) auto;gap:10px;padding:8px 12px;margin-bottom:10px;border-radius:16px; }
+.family-app.game-first-ui .journey-portrait { width:48px;height:48px; }
+.family-app.game-first-ui .journey-portrait img { width:100%;height:100%; }
+.family-app.game-first-ui .journey-islands .course-current-copy strong { font-size:17px;line-height:1.3; }
+.family-app.game-first-ui .journey-islands .journey-resume { grid-column:auto;min-width:78px;width:auto;min-height:48px;padding:8px;font-size:16px; }
+.family-app.game-first-ui .journey-count { font-size:12px; }
+.family-app.game-first-ui .journey-stones { gap:5px;margin-top:4px; }
+.family-app.game-first-ui .journey-stones i { width:12px;height:8px; }
+.family-app.game-first-ui .journey-islands .archipelago-scene { max-height:440px; }
+.family-app.game-first-ui .archipelago { position:relative; }
+.family-app.game-first-ui .archipelago-toolbar { position:absolute;top:6px;right:6px;margin:0;z-index:5; }
+.family-app.game-first-ui .archipelago-toolbar button { width:44px;min-height:44px;padding:8px;background:#08283be8; }
+.family-app.game-first-ui .journey-islands .archipelago-stop { gap:3px; }
+.family-app.game-first-ui .island-choice-icon { display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#0b3048f0;border:1px solid #9bdcdb; }
+.family-app.game-first-ui .island-choice-icon .brand-glyph { font-size:24px; }
+.family-app.game-first-ui .journey-islands .archipelago-stop-name { padding:3px 8px;min-height:28px;line-height:1.3; }
+.family-app.game-first-ui .island-course-details { margin-top:8px; }
+.family-app.game-first-ui .island-course-details > summary { font-size:14px;min-height:44px;padding:6px 10px;background:transparent; }
+.family-app.game-first-ui .harbor-shortcuts { display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:12px 0; }
+.family-app.game-first-ui .harbor-shortcuts > button { display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:8px 4px;min-width:0;min-height:80px; }
+.family-app.game-first-ui .harbor-shortcuts :is(img,.character-portrait,.nav-icon) { width:36px;height:36px;object-fit:contain; }
+.family-app.game-first-ui .harbor-shortcuts b { font-size:14px; }
+.family-app.game-first-ui .harbor-shortcuts > button > span:not(.nav-icon) { font-size:28px; }
+.family-app.game-first-ui .harbor-extras { margin-top:8px; }
+.family-app.game-first-ui .harbor-extras > summary { cursor:pointer;min-height:44px;display:flex;align-items:center;justify-content:center;border-top:1px solid #457482;color:#bdd8df; }
+.family-app.game-first-ui .harbor-extras[open] > summary { margin-bottom:16px; }
+body .family-app.game-first-ui > .family-nav { position:fixed;z-index:35;bottom:0;left:0;right:0;box-sizing:border-box;width:100%;max-width:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;margin:0;padding:6px max(8px,calc((100vw - 720px)/2)) calc(6px + env(safe-area-inset-bottom));border-top:1px solid #62949d;background:#08283bf5;overflow:visible; }
+body .family-app.game-first-ui > .family-nav > button { display:flex;flex-direction:column;min-height:58px;gap:2px;padding:3px 6px;font-size:12px; }
+.family-app.game-first-ui .family-nav .nav-icon { width:28px;height:28px;flex-basis:28px; }
+.family-app.game-first-ui .game-menu-grid { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px; }
+.family-app.game-first-ui .game-menu-grid button { display:flex;flex-direction:column;align-items:center;gap:8px;padding:12px 6px;min-width:0; }
+.family-app.game-first-ui .game-menu-grid .nav-icon { width:48px;height:48px; }
+.family-app.game-first-ui .course-picker-grid { grid-template-columns:repeat(3,minmax(0,1fr));gap:10px; }
+.family-app.game-first-ui .course-picker-card { min-height:100px;padding:12px 6px;gap:6px; }
+.family-app.game-first-ui .course-picker-card strong { font-size:17px; }
+.family-app.game-first-ui.quiz-preparing .challenge-goal { display:flex;align-items:center;justify-content:center;gap:10px;font-size:28px; }
+.family-app.game-first-ui.quiz-preparing .challenge-goal > span:last-child { font-size:14px;color:#bdd8df; }
+.family-app.game-first-ui.quiz-preparing .challenge-modes label { display:flex;align-items:center;justify-content:center;min-height:68px; }
+.family-app.game-first-ui.quiz-preparing .challenge-modes .ready-mode-icon { height:auto;margin-bottom:2px; }
+.family-app.game-first-ui.quiz-preparing .ready-help { margin-top:8px; }
+.family-app.game-first-ui.quiz-preparing .ready-hearts { margin:0 0 8px; }
+.family-app.game-first-ui.quiz-preparing > .family-nav,.family-app.game-first-ui.quiz-focused > .family-nav { display:none; }
+@media(max-width:600px) {
+ .family-app.game-first-ui.home-page > :is(.family-header,.harbor-departure,.family-main) { width:calc(100% - 24px); }
+ .family-app.game-first-ui.home-page > .family-header { gap:6px;padding:6px 0; }
+ .family-app.game-first-ui.home-page .family-header > .voice-button { display:none; }
+ .family-app.game-first-ui.home-page .wallet { font-size:12px;gap:6px; }
+ .family-app.game-first-ui .harbor-departure > :is(img,.character-portrait) { width:48px;height:48px; }
+ .family-app.game-first-ui .harbor-departure h1 { font-size:19px; }
+ .family-app.game-first-ui.home-page > .harbor-departure { padding:10px;gap:8px; }
+ .family-app.game-first-ui .harbor-departure-start { min-width:90px;padding:8px;font-size:18px!important; }
+ .family-app.game-first-ui .harbor-departure-actions { gap:5px; }
+ .family-app.game-first-ui .harbor-departure-listen { display:none; }
+ .family-app.game-first-ui .journey-islands .archipelago-scene { aspect-ratio:1.45; }
+ .family-app.game-first-ui .journey-islands .archipelago-scene > img { height:100%;object-fit:cover; }
+ .family-app.game-first-ui .course-picker-card { min-height:88px; }
+}
+@media(max-width:360px) { .family-app.game-first-ui .harbor-departure > :is(img,.character-portrait) { width:38px;height:38px; }.family-app.game-first-ui .harbor-departure h1 { font-size:17px; }.family-app.game-first-ui .course-picker-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(prefers-reduced-motion:reduce) { .family-app.game-first-ui .island-choice-icon { animation:none; } }
+/* Keep the home HUD in one row, even with long player names. */
+.family-app.game-first-ui.home-page > .family-header { display:grid;grid-template-columns:44px minmax(0,1fr) 44px 64px;grid-template-areas:"player wallet friends world"; }
+.family-app.game-first-ui.home-page .player-chip { grid-area:player;width:44px;height:44px;padding:2px!important;margin:0;justify-content:center; }
+.family-app.game-first-ui.home-page .player-chip b,.family-app.game-first-ui.home-page .family-header > .voice-button { display:none; }
+.family-app.game-first-ui.home-page .family-header .wallet { grid-area:wallet;flex:none;justify-content:flex-start;flex-wrap:nowrap;margin:0;gap:8px; }
+.family-app.game-first-ui.home-page .family-header .friends-presence { grid-area:friends;margin:0; }
+.family-app.game-first-ui.home-page .friends-toggle { width:44px;height:44px;min-height:44px;padding:6px;justify-content:center; }
+.family-app.game-first-ui.home-page .world-entry { grid-area:world; }
+.family-app.game-first-ui.home-page .world-toggle { width:64px;padding:6px;justify-content:center;font-size:14px; }
+.family-app.game-first-ui.home-page > .harbor-departure { flex-direction:row;align-items:center; }
+.family-app.game-first-ui.home-page .family-footer { display:none; }
+/* Home has a dedicated Chat tile. The corner companion still follows other pages. */
+.family-app.game-first-ui.home-page .tide-launcher { display:none; }
+.family-app.game-first-ui .tide-launcher { bottom:calc(var(--game-dock) + 12px + env(safe-area-inset-bottom)); }
+.family-app.game-first-ui :is(.harbor-shortcuts,.game-menu-grid) .nav-icon { display:inline-block;background-image:url('/assets/navigation/star-tide-icons.webp');background-size:300% 300%;background-repeat:no-repeat; }
+.family-app.game-first-ui :is(.harbor-shortcuts,.game-menu-grid) :is(.nav-icon--territory,.nav-icon--conquest,.nav-icon--cinema) { display:grid;place-items:center;background:none; }
+.family-app.game-first-ui .game-menu-grid .nav-icon--conquest img { width:100%;height:100%;object-fit:contain; }
+/* Preview thumbnails need recognizable silhouettes on a compact stage. */
+.family-app.game-first-ui.quiz-preparing .quiz-stage.duel-stage { height:clamp(150px,25vh,240px); }
+.family-app.game-first-ui.quiz-preparing .creature-stage-size { width:calc(68% + var(--creature-stage-scale)*32%);height:calc(68% + var(--creature-stage-scale)*32%); }
+@media(min-width:700px) and (orientation:landscape) { .family-app.game-first-ui.quiz-preparing .quiz-stage.duel-stage { height:clamp(180px,40vh,340px); } }
+@media(min-width:700px) {
+ .family-app.game-first-ui.home-page > .family-header { grid-template-columns:minmax(120px,220px) minmax(0,1fr) 44px 64px; }
+ .family-app.game-first-ui.home-page .player-chip { width:auto;justify-content:flex-start;padding-inline:8px!important; }
+ .family-app.game-first-ui.home-page .player-chip b { display:block;font-size:15px; }
+}
