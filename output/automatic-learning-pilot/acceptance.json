@@ -1,6 +1,6 @@
 {
   "baseline": "37e91d634305c1475abfa032d4929eac16ad12e5",
-  "unitTests": 1730,
+  "unitTests": 1738,
   "databaseFiles": 41,
   "databaseTests": 384,
   "browserChecks": 64,
@@ -9,6 +9,11 @@
   "productionDatabaseWrites": false,
   "sourceQuestionEdits": false,
   "performanceThresholdsChanged": false,
-  "independentVerifier": "No unresolved blockers; legacy exposure counterexample fixed and reverified",
-  "rollback": "Retain pilot-compatible validation and continuation; no blanket old-build rollback"
+  "independentVerifier": "No unresolved blockers; legacy exposure and twelve-voyage stagnation counterexamples fixed and reverified",
+  "rollback": "Retain pilot/advance-compatible validation and continuation; no blanket old-build rollback",
+  "twelveVoyageRegressions": [
+    "standard",
+    "relaxed"
+  ],
+  "checkpointBrowserFlows": 4
 }

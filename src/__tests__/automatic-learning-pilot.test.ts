@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { freshLearning, validateLearning } from '../learning-engine';
-import { newFamily, startRun, answerRun, nextQuestion, validateFamily } from '../adventure';
+import { freshLearning, validateLearning, allocateAdventureQuestions, questionDifficulty } from '../learning-engine';
+import { newFamily, startRun, answerRun, nextQuestion, readyQuestion, validateFamily } from '../adventure';
+import { skipCapture } from '../capture-trial';
 import { enableAdaptive, observeAdaptive, independentSuccess, hasChallengeCapacity, challengeEligible, showExample } from '../adaptive-learning';
 import { TOPIC_BY_ID, topicForQuestion } from '../adaptive-catalog';
 import { questionById, COURSES, type Grade } from '../learning';
@@ -27,14 +28,88 @@ describe('automatic learning pilot',()=>{
     expect(s.study!.session!.status).toBe('complete');expect(new Set(answered).size).toBe(answered.length);
     expect(s.adaptive!.scope).toEqual({});expect(hasChallengeCapacity(s,grade,course.id)).toBe(false);
   });
-  it('uses independent dated history immediately, without daily or three-round re-onboarding',()=>{
+  it('uses independent dated history immediately, without daily re-onboarding',()=>{
     const f=newFamily(),p=f.profiles.feifei;enableAdaptive(p.learning);
     for(const id of cluster().slice(0,2))observeStudy(p.learning,questionById(id)!,true,false,'2026-11-15');
-    const history=structuredClone(p.learning.study!.entries);p.rewardRounds=3;p.day=day;
+    const history=structuredClone(p.learning.study!.entries);p.day=day;
     expect(startRun(f,'feifei','math','battle',1,false,day)).not.toBe('learn');
     expect(p.run!.questions).toHaveLength(6);expect(p.learning.study!.entries).toEqual(history);expect(p.learning.adaptive!.scope).toEqual({});
     for(let i=0;i<3;i++){const q=questionById(p.run!.questions[i])!;answerRun(f,'feifei','battle',i,(q.answer+1)%q.options.length,day);if(i<2)nextQuestion(f,'feifei','battle',i);}
     expect(p.run!.status).toBe('failed');expect(()=>validateFamily(f)).not.toThrow();
+  });
+  it('automatically probes a reviewed next step once after three rewarded rounds, without charging rewards',()=>{
+    const f=newFamily(),p=f.profiles.feifei;enableAdaptive(p.learning);p.day=day;p.rewardRounds=3;
+    cluster().slice(0,2).forEach(id=>observeAdaptive(p.learning,questionById(id)!,true,false,day));
+    const ledger=()=>{const {learning,...rest}=p;return structuredClone(rest);},before=ledger();
+    expect(startRun(f,'feifei','math','step-up',1,false,day)).toBe('learn');
+    expect(p.learning.study!.session!.topic).toBe('2:math:add-2');expect(p.learning.study!.session!.phase).toBe('answer');
+    expect(p.learning.adaptive!.coachedRound).toBe(`${day}:3`);expect(ledger()).toEqual(before);
+    // The same milestone cannot demand another probe or duplicate a reward.
+    expect(startRun(f,'feifei','math','continue',1,false,day)).not.toBe('learn');expect(p.run!.questions).toHaveLength(6);
+  });
+  it('does not force fully evidenced content back into a probe at a three-round milestone',()=>{
+    const f=newFamily(),p=f.profiles.alston;enableAdaptive(p.learning);p.day=day;p.rewardRounds=3;
+    for(const id of TOPIC_BY_ID['6:english:vocabulary'].questions)observeAdaptive(p.learning,questionById(id)!,true,false,day);
+    expect(startRun(f,'alston','english','known',1,false,day)).not.toBe('learn');expect(p.run!.questions).toHaveLength(6);expect(p.learning.study?.session).toBeFalsy();
+  });
+  it('keeps an earned checkpoint across midnight and preserves paused learning',()=>{
+    const f=newFamily(),p=f.profiles.feifei;enableAdaptive(p.learning);p.day='2026-11-15';p.rewardRounds=4;
+    cluster().slice(0,2).forEach(id=>observeAdaptive(p.learning,questionById(id)!,true,false,'2026-11-15'));
+    startLearning(p.learning,2,'2026-11-15','saved','math');pauseStudy(p.learning,'saved',false,'2026-11-15');
+    const saved=structuredClone(p.learning.study!.session!);expect(startRun(f,'feifei','math','ignored',1,false,day)).toBe('learn');
+    expect(p.learning.study!.session).toEqual({...saved,status:'active'});expect(p.learning.adaptive!.coachedRound).toBe('2026-11-15:3');expect(p.day).toBe('2026-11-15');expect(p.rewardRounds).toBe(4);
+  });
+  it('scheduled probes select unmet facts instead of due, already independent vocabulary',()=>{
+    const f=newFamily(),p=f.profiles.alston;enableAdaptive(p.learning);p.day=day;p.rewardRounds=3;
+    const old=TOPIC_BY_ID['6:english:vocabulary'].questions.slice(0,6);
+    old.forEach(id=>observeStudy(p.learning,questionById(id)!,true,false,'2026-11-10'));
+    expect(startRun(f,'alston','english','expand',1,false,day)).toBe('learn');
+    expect(p.learning.study!.session!.advance).toBe(true);expect(p.learning.study!.session!.questions.every(id=>!old.includes(id))).toBe(true);
+  });
+  it('uses the requested battle difficulty only within the independently safe pool',()=>{
+    const s=fresh();for(const topic of ['2:math:add-1','2:math:add-2'])cluster(topic).slice(0,2).forEach(id=>observeAdaptive(s,questionById(id)!,true,false,day));
+    const got=allocateAdventureQuestions(s,2,'math',6,2);expect(got).toHaveLength(6);expect(got.every(x=>questionDifficulty(questionById(x.id)!)===2&&challengeEligible(s,questionById(x.id),2))).toBe(true);
+    expect(allocateAdventureQuestions(s,2,'math',6,3).every(x=>questionDifficulty(questionById(x.id)!)<=2&&challengeEligible(s,questionById(x.id),2))).toBe(true);
+  });
+  it.each(['relaxed','standard'] as const)('advances automatically during twelve real %s voyages',mode=>{
+    const f=newFamily(),p=f.profiles.feifei;enableAdaptive(p.learning);
+    cluster().slice(0,2).forEach(id=>observeAdaptive(p.learning,questionById(id)!,true,false,day));
+    const checkpoints:number[]=[],probedTopics=new Set<string>();
+    for(let round=1;round<=12;round++){
+      const result=startRun(f,'feifei','math',`departure-${round}`,round,false,day,mode);
+      if(result==='learn'){
+        checkpoints.push(round);const study=p.learning.study!.session!;expect(study.advance).toBe(true);
+        while(study.status!=='complete'){
+          probedTopics.add(study.topic!);
+          if(study.phase==='lesson')learningLesson(p.learning,study.id,study.index,day,true);
+          const q=questionById(study.questions[study.index])!;
+          answerStudy(p.learning,2,study.id,study.index,q.answer,day);expect(()=>validateFamily(f)).not.toThrow();
+          if(p.learning.study!.session!.status!=='complete'){nextStudy(p.learning,study.id,study.index,day);expect(()=>validateFamily(f)).not.toThrow();}
+        }
+        expect(study.answers).toHaveLength(3);
+        expect(startRun(f,'feifei','math',`voyage-${round}`,round,false,day,mode)).not.toBe('learn');
+      }
+      const run=p.run!;expect(run.questions).toHaveLength(6);
+      expect(run.questions.every(id=>challengeEligible(p.learning,questionById(id),2,'math'))).toBe(true);
+      for(let index=0;index<6;index++){
+        const q=questionById(run.questions[index])!;readyQuestion(f,'feifei',run.id,index,1000);
+        answerRun(f,'feifei',run.id,index,q.answer,day,0.9,2000);
+        if(index<5)nextQuestion(f,'feifei',run.id,index);expect(()=>validateFamily(f)).not.toThrow();
+      }
+      expect(run.status).toBe('won');expect(p.rewardRounds).toBe(round);
+      if(run.capture?.outcome==='pending')skipCapture(f,'feifei','voyage',run.id);
+      expect(()=>validateFamily(f)).not.toThrow();
+    }
+    expect(checkpoints).toEqual([4,7,10]);expect(probedTopics.has('2:math:add-2')).toBe(true);expect(probedTopics.has('2:math:sub-2')).toBe(true);
+  });
+  it('bypasses coaching when the only gap is still retry-spacing blocked',()=>{
+    const f=newFamily(),p=f.profiles.alston;enableAdaptive(p.learning);p.day=day;p.rewardRounds=3;
+    const ids=TOPIC_BY_ID['6:english:vocabulary'].questions;
+    ids.slice(0,-1).forEach(id=>observeAdaptive(p.learning,questionById(id)!,true,false,day));
+    const gap=questionById(ids.at(-1)!)!;observeStudy(p.learning,gap,false,false,day);observeAdaptive(p.learning,gap,false,false,day);
+    expect(startRun(f,'alston','english','blocked-gap',1,false,day)).not.toBe('learn');expect(p.run!.questions).toHaveLength(6);expect(p.run!.questions).not.toContain(gap.id);
+    expect(p.run!.questions.every(id=>challengeEligible(p.learning,questionById(id),6,'english'))).toBe(true);
+    expect(p.learning.study!.session).toBeNull();expect(p.learning.adaptive!.coachedRound).toBeUndefined();expect(()=>validateFamily(f)).not.toThrow();
   });
   it('keeps a reserved six-question fact battle usable after errors in different concepts',()=>{
     const f=newFamily(),p=f.profiles.quintus;enableAdaptive(p.learning);

@@ -1,15 +1,16 @@
 import type { LearningState } from './learning-engine';
 import { questionById, type Course, type Grade, type LearningQuestion } from './learning';
 import { topicForQuestion } from './adaptive-catalog';
-import { availableLearningTopics, independentSuccess, learningReadiness, mappedQuestion } from './adaptive-learning';
+import { availableLearningTopics, independentSuccess, learningReadiness, mappedQuestion, needsAssessment } from './adaptive-learning';
 import { transferSignature } from './adaptive-transfer';
 
 /** Plan only reviewed, source-compatible items. The server replans the unanswered
  * suffix after each response; answered items and existing rewards never move.
  * A probe is not a claim about what a school has taught. */
 export function pilotQuestions(s: LearningState, grade: Grade, course: Course, day: string,
-  count: number, excluded: string[] = [], preferred?: string, stay = false) {
+  count: number, excluded: string[] = [], preferred?: string, stay = false, seekGap = false) {
   const topics = availableLearningTopics(s, grade, course), ready = learningReadiness(s).topics;
+  const gap=seekGap?needsAssessment(s,grade,course):undefined;
   const d = Date.parse(day + 'T00:00:00Z') / 86400000;
   const recent = new Map<string, number>();
   for (const [id, e] of Object.entries(s.adaptive?.evidence ?? {})) {
@@ -21,7 +22,7 @@ export function pilotQuestions(s: LearningState, grade: Grade, course: Course, d
   // its reviewed next step, then another unassessed concept. Due gaps come first
   // when starting a fresh group, not on every turn (which would oscillate).
   const rankTopic = (id: string, prerequisite?: string) =>
-    id === preferred && (stay || !ready.has(id)) ? 0 : prerequisite === preferred ? 1 :
+    id === preferred && (stay || !ready.has(id)) ? 0 : preferred !== undefined && prerequisite === preferred ? 1 :
       !preferred && recent.has(id) ? 0 : !ready.has(id) ? 2 : id === preferred ? 3 : 4;
   topics.sort((a, b) => rankTopic(a.id, a.prerequisite) - rankTopic(b.id, b.prerequisite));
   const used = new Set(excluded), families = new Set(excluded.map(id => questionById(id)?.sourceFamily ?? id));
@@ -35,7 +36,7 @@ export function pilotQuestions(s: LearningState, grade: Grade, course: Course, d
       return independentSuccess(s, q) ? 3 : 2;
     };
     const candidates = t.questions.map(questionById).filter((q): q is LearningQuestion => {
-      if (!mappedQuestion(s, q, grade, course) || used.has(q.id) || families.has(q.sourceFamily ?? q.id)) return false;
+      if (!mappedQuestion(s, q, grade, course) || gap&&!gap(q) || used.has(q.id) || families.has(q.sourceFamily ?? q.id)) return false;
       const e = s.study?.entries[q.id];
       return !e || e.last < d || e.retryAfter <= (s.study?.sequence ?? 0) + 1;
     }).sort((a, b) => rank(a) - rank(b) ||

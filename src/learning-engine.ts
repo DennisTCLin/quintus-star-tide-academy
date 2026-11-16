@@ -400,7 +400,7 @@ function allocateEligibleQuestions(
 }
 export function allocateQuestions(s: LearningState, grade: Grade, course: Course, count: number,
   targetDifficulty?: 1 | 2 | 3, excluded: string[] = []): QuestionAllocation[] {
-  if(s.adaptive)return allocateMastered(s,grade,course,count,excluded);
+  if(s.adaptive)return allocateMastered(s,grade,course,count,excluded,targetDifficulty===undefined?undefined:q=>Math.abs(questionDifficulty(q)-targetDifficulty));
   const draft = structuredClone(s);
   const result = allocateEligibleQuestions(draft, grade, course, count, targetDifficulty, excluded);
   Object.assign(s.cursors, draft.cursors);
@@ -480,7 +480,7 @@ export function learningSummary(s: LearningState) {
 /** One occasional paraphrase per full fresh round; finite variants may fill exhausted pools. */
 export function allocateAdventureQuestions(s:LearningState, grade:Grade, course:Course, count:number,
   targetDifficulty?:1|2|3, excluded:string[]=[], random:()=>number=Math.random):QuestionAllocation[] {
-  if(s.adaptive)return allocateMastered(s,grade,course,count,excluded);
+  if(s.adaptive)return allocateMastered(s,grade,course,count,excluded,targetDifficulty===undefined?undefined:q=>Math.abs(questionDifficulty(q)-targetDifficulty));
   if(grade!==4 || course!=='english')return allocateQuestions(s,grade,course,count,targetDifficulty,excluded);
   const draft=structuredClone(s);
   const variants=ENGLISH_REPHRASES.filter(q=>hasMastered(s,q.rephraseOf!)&&!hasMastered(s,q.id)&&!excluded.includes(q.id));
