@@ -74,7 +74,7 @@ export default function CourseSelection({ grade, profile, run, islandRun, online
     const action = isMathCurrent ? '繼續數學島' : isCurrent ? pending ? '領取獎勵' : '繼續挑戰' : journey || mathActive ? '前往這座島' : '出發探險';
     const label = isMathCurrent ? '繼續數學島冒險' : isCurrent ? `${pending ? '領取' : '繼續'}${course.name}${pending ? '獎勵' : '挑戰'}` : `開始${course.name}`;
     const choose = () => act(() => isMathCurrent ? onIsland?.() : isCurrent ? onResume() : onStart(course.id));
-    const [x, y] = [[23,43],[65,45],[49,77],[86,80],[18,84]][index];
+    const [x, y] = [[24.8,31.5],[65.5,31.5],[49.4,71.7],[86.2,71.7],[18,74.8]][index];
     const style = { '--island-tone': island.color, '--map-x': `${x}%`, '--map-y': `${y}%` } as CSSProperties;
     return { island, course, isCurrent, isMathCurrent, progress, action, label, choose, style, number:index+1 };
   });
@@ -89,10 +89,10 @@ export default function CourseSelection({ grade, profile, run, islandRun, online
       progress={mathJourneyProgress(islandRun!)} pending={false} disabled={blocked || !onIsland} onResume={() => act(() => onIsland?.())} />}
 
     <p className="course-availability" role="status">{!online ? '目前離線，進度已保留，連線後再出發。' : busy ? '正在儲存，請等一下。' : pending ? '獎勵還在等你！先領好，再出發。' : ''}</p>
-    <AnimatedArchipelago reduced={reduced} granted={motionGranted} suspended={motionSuspended} onActivity={onMotionActivity}>
+    <AnimatedArchipelago landmarks reduced={reduced} granted={motionGranted} suspended={motionSuspended} onActivity={onMotionActivity}>
       {stops.map(stop => <button type="button" key={stop.island.id} className={`archipelago-stop ${stop.isCurrent || stop.isMathCurrent ? 'is-current' : ''}`} style={stop.style} disabled={blocked} aria-current={stop.isCurrent || stop.isMathCurrent ? "location" : undefined} aria-label={`從群島${stop.label}`} onClick={stop.choose}>
         {(stop.isCurrent || stop.isMathCurrent) && <span className="island-location" aria-hidden="true">▶</span>}
-        <span className="island-choice-icon" aria-hidden="true">{stop.course.icon}</span><span className="archipelago-stop-name"><IslandText text={stop.course.name} zy={stop.course.zy} grade={grade} /></span>
+        <span className="archipelago-stop-name"><IslandText text={stop.course.name} zy={stop.course.zy} grade={grade} /></span>
       </button>)}
     </AnimatedArchipelago>
     <details className="island-course-details"><summary>科目與夥伴</summary><div className="subject-island-grid">

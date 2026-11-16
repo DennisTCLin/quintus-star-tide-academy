@@ -74,3 +74,22 @@
  .family-app .archipelago-stop { font-size:14px; }
  .archipelago-stop .auto-ruby { line-height:1.5; }
 }
+
+/* Labels sit on the generated stone plaques; transparent hit areas stay generous. */
+.family-app.game-first-ui .journey-islands .archipelago-scene.map-landmarks { container-type:inline-size; aspect-ratio:1344/752; max-height:none; }
+.family-app.game-first-ui .journey-islands .map-landmarks .archipelago-stop {
+ width:18%; min-width:64px; max-width:none; min-height:48px; height:10cqw;
+ padding:0; gap:0; border:0; border-radius:20%; color:#302615;
+ background:transparent; box-shadow:none; font-size:clamp(14px,1.8cqw,26px);
+}
+.family-app.game-first-ui .journey-islands .map-landmarks .archipelago-stop-name {
+ width:100%; min-height:0; padding:0; background:none; border:0; border-radius:0;
+ box-shadow:none; line-height:1.2; font-size:inherit; font-weight:800; text-shadow:0 1px #fff5d8;
+}
+.family-app.game-first-ui .journey-islands .map-landmarks .archipelago-stop:hover:not(:disabled) .archipelago-stop-name { color:#075a67; }
+.family-app.game-first-ui .journey-islands .map-landmarks .archipelago-stop:is(.is-current,:focus-visible) { outline:3px solid #075e6b; outline-offset:1px; box-shadow:0 0 0 5px #fff6d9; }
+.map-landmarks .island-location { position:absolute; top:-4px; left:50%; transform:translateX(-50%); color:#075e6b; text-shadow:0 1px white; }
+.map-landmarks .archipelago-water,.map-landmarks .archipelago-ripples,.map-landmarks .archipelago-ember { display:none; }
+@media(max-width:650px) {
+ .family-app.game-first-ui .journey-islands .map-landmarks .archipelago-stop-name { background:#fff1cfee; border:1px solid #a98037; border-radius:40% 40% 30% 30% / 25%; padding:4px 2px; box-shadow:0 2px 3px #67441c45; }
+}
