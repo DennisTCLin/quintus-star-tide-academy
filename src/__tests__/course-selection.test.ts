@@ -61,9 +61,9 @@ describe('clickable island entries',()=>{
       expect(v.onSpeak).toHaveBeenCalledOnce();expect(v.onStart).not.toHaveBeenCalled();expect(v.onResume).not.toHaveBeenCalled();expect(v.onIsland).not.toHaveBeenCalled();
     }
   });
-  it('retains historical five-question picture course and scoped grade-two subject ruby',()=>{
+  it('retains historical five-question picture course without interface ruby',()=>{
     const v=view(journey({course:'words',index:4,questions:['a','b','c','d','e']}),{grade:1});expect(v.html).toContain('聽音找圖');expect(v.html).toContain('value="4" max="5"');
-    expect(view(journey(),{grade:2}).html).toContain('class="island-ruby"');
+    expect(view(journey(),{grade:2}).html).not.toContain('<rt>');
     expect(view(journey(),{grade:4}).html).not.toContain('<rt>');
   });
 });
@@ -88,10 +88,10 @@ describe('honest challenge progress and switching policy',()=>{
 describe('compact journey presentation',()=>{
  it('keeps zero and five-question progress truthful and marks only the actual current island',()=>{
    const zero=view(journey({index:0}));
-   expect(zero.html).toContain('已答 0 / 6 題');
+   expect(zero.html).toContain('0 / 6');
    expect(zero.html.match(/aria-current="location"/g)).toHaveLength(1);
    const historical=view(journey({course:'words',index:2,questions:['a','b','c','d','e']}),{grade:1});
-   expect(historical.html).toContain('已答 2 / 5 題');
+   expect(historical.html).toContain('2 / 5');
    expect(historical.html).not.toContain('aria-current="location"');
  });
  it('preserves pending rewards and failed remediation instead of calling them a new challenge',()=>{

@@ -1,3 +1,4 @@
+import BrandIcon from './BrandIcon';
 import CrewPanel from './CrewPanel';
 import { useEffect, useState } from "react";
 import { PLAYERS, type PlayerId, type Profile } from "./game-view";
@@ -8,7 +9,7 @@ import SocialDialog from "./SocialDialog";
 import { PetSelect, selectedOwnedPet } from "./OnlineBattle";
 import type { OnlineController } from "./online-battle";
 
-export default function FriendsPresence({ player, snapshot, profile, social, onCollection }: { player: PlayerId; snapshot: PresenceSnapshot; profile?:Profile; social?:OnlineController; onCollection?:(key:string)=>void }) {
+export default function FriendsPresence({ player, snapshot, profile, social, onCollection, compact = false }: { compact?: boolean; player: PlayerId; snapshot: PresenceSnapshot; profile?:Profile; social?:OnlineController; onCollection?:(key:string)=>void }) {
   const [crewOpen,setCrewOpen]=useState(false);
   const [now,setNow]=useState(Date.now()),[open,setOpen]=useState(false),[selected,setSelected]=useState<string|null>(null),[pet,setPet]=useState(profile?.equipped??"");
   useEffect(()=>{const timer=setInterval(()=>setNow(Date.now()),1000);return()=>clearInterval(timer);},[]);
@@ -23,8 +24,8 @@ export default function FriendsPresence({ player, snapshot, profile, social, onC
   const occupied=social?.state?.room&&['pending','active'].includes(social.state.room.status);
   const close=()=>{setOpen(false);setSelected(null);};
   return <div className="friends-presence" data-learning-content="true">
-    <button className="friends-toggle" aria-haspopup="dialog" aria-expanded={open} onClick={()=>{setPet(profile?.equipped??"");setOpen(true);}}>
-      <span className={`presence-dot ${count?"is-online":""}`} aria-hidden="true"/><span>好友 <b>{known?`${count} 人在線`:"連線中…"}</b></span><span aria-hidden="true">⌄</span>
+    <button className="friends-toggle" aria-label={compact ? `好友 · ${known?count:"…"} 人在線` : undefined} aria-haspopup="dialog" aria-expanded={open} onClick={()=>{setPet(profile?.equipped??"");setOpen(true);}}>
+      {compact ? <BrandIcon name="people"/> : <><span className={`presence-dot ${count?"is-online":""}`} aria-hidden="true"/><span>好友 <b>{known?`${count} 人在線`:"連線中…"}</b></span><span aria-hidden="true">⌄</span></>}
     </button>
     {open&&<SocialDialog title={friend?friend.name:"一起冒險的好友"} onClose={close}>
       {friend?<>

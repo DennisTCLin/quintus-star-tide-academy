@@ -36,9 +36,9 @@ export default function AnimatedArchipelago({ reduced = false, granted = true, s
       {children}
     </div>
     <div className="archipelago-toolbar">
-      <p>點選島上的科目，開始冒險。</p>
-      <button type="button" disabled={still || fallback} aria-pressed={paused} onClick={() => setPaused(v => !v)}>
-        {still || fallback ? '靜態群島' : paused ? '▶ 播放動畫' : 'Ⅱ 暫停動畫'}
+
+      <button type="button" disabled={still || fallback} aria-label={still || fallback ? '靜態群島' : paused ? '播放動畫' : '暫停動畫'} aria-pressed={paused} onClick={() => setPaused(v => !v)}>
+        {still || fallback ? '◇' : paused ? '▶' : 'Ⅱ'}
       </button>
     </div>
   </div>, grade);

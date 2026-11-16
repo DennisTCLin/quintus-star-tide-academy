@@ -24,18 +24,18 @@ export function ChallengePreparation({challenge,index,busy,online,onReady,onMode
  },[index,media.status,online,visible,busy,blocked,failures]);
  const sentence=`這場有六題，要答對${challenge.requiredCorrect}題。答錯或超時三次就結束。${challenge.mode==='relaxed'?'慢慢想，不計時。':`每題先有讀題時間，再有${challenge.seconds}秒作答。`}`;
  return readyReading(<section className="f-panel challenge-preparation" aria-label="挑戰準備">
-  <header className="ready-heading"><button onClick={onBack} aria-label="回到港口">⛵</button><h1>{index===0?'一起出發！':'下一題準備中'}</h1><span>{TIER_NAMES[challenge.tier]}</span></header>
+  <header className="ready-heading"><button onClick={onBack} aria-label="回到港口">⛵</button><h1>{index===0?'準備出發':'下一題'}</h1><span>{TIER_NAMES[challenge.tier]}</span></header>
   {index===0 ? <>
-   <strong className="challenge-goal">共 6 題，答對 {challenge.requiredCorrect} 題獲勝</strong>
-   <p className="ready-hearts"><span aria-hidden="true">❤️ ❤️ ❤️</span> 三次失誤結束</p>
+   <strong className="challenge-goal" aria-label={`共6題，答對${challenge.requiredCorrect}題獲勝`}><span aria-hidden="true">🎯</span> {challenge.requiredCorrect} / 6 <span>答對</span></strong>
+   <p className="ready-hearts"><span aria-hidden="true">❤️ ❤️ ❤️</span><span className="sr-only">三次失誤結束</span></p>
    <fieldset className="challenge-modes" disabled={busy||!online}>
-    <legend>選擇節奏</legend>
+    <legend className="sr-only">選擇節奏</legend>
     <label className={challenge.mode==='relaxed'?'is-selected':''}><input type="radio" name="challenge-timing" checked={challenge.mode==='relaxed'} onChange={()=>onMode('relaxed')} /><span><b><span className="ready-mode-icon" aria-hidden="true">🌱</span>{"慢慢想"}</b><small>不計時</small></span></label>
-    <label className={challenge.mode==='standard'?'is-selected':''}><input type="radio" name="challenge-timing" checked={challenge.mode==='standard'} onChange={()=>onMode('standard')} /><span><b><span className="ready-mode-icon" aria-hidden="true">⏳</span>{"限時"}</b><small>每題 {challenge.seconds} 秒</small></span></label>
+    <label className={challenge.mode==='standard'?'is-selected':''}><input type="radio" name="challenge-timing" checked={challenge.mode==='standard'} onChange={()=>onMode('standard')} /><span><b><span className="ready-mode-icon" aria-hidden="true">⏳</span>{"限時"}</b><small>{challenge.seconds} 秒</small></span></label>
    </fieldset>
   </> : <p>第 {index+1}／6 題 · 已答對 {correct} 題</p>}
-  <div className="ready-help"><ReadAloud grade={grade}><button data-read-aloud className="voice-button" onClick={()=>onSpeak(sentence)}>🔊 聽玩法</button></ReadAloud>
-   <details><summary>看玩法</summary><p>{sentence}</p><p>{challenge.mode==='standard'?'開始後離開畫面或重新整理，本題仍會計時。':'答對要求和獎勵都相同。'}答對的星幣會保留。</p><button disabled={busy||!online} onClick={onQuit}>結束這場</button></details>
+  <div className="ready-help"><ReadAloud grade={grade}><button data-read-aloud aria-label="聽玩法" className="voice-button" onClick={()=>onSpeak(sentence)}>🔊</button></ReadAloud>
+   <details><summary aria-label="玩法與結束挑戰">ⓘ 玩法</summary><p>{sentence}</p><p>{challenge.mode==='standard'?'開始後離開畫面或重新整理，本題仍會計時。':'答對要求和獎勵都相同。'}答對的星幣會保留。</p><button disabled={busy||!online} onClick={onQuit}>結束這場</button></details>
   </div>
   {correct+6-answered<challenge.requiredCorrect&&<p role="status">這場已經無法達到目標，還可以完成剩下題目，拿答題星幣。</p>}
   <div className="ready-start-dock">

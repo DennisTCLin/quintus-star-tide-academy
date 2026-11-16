@@ -1,0 +1,169 @@
+[
+  {
+    "file": "src/__tests__/adaptive-capture-reservation-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/adaptive-learning-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/admin-access.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/admin-console.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/admin-live-reports.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/admin-trials.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/adult-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/adult-legacy-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/adult-main-preservation.test.mjs",
+    "exit": 0,
+    "initialExit": 1
+  },
+  {
+    "file": "src/__tests__/adult-placement-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/adult-shared-game.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/capture-cloud.test.mjs",
+    "exit": 0,
+    "initialExit": 1
+  },
+  {
+    "file": "src/__tests__/child-account.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/companion-voice-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/conquest-shared.test.mjs",
+    "exit": 0,
+    "initialExit": 1
+  },
+  {
+    "file": "src/__tests__/dragon-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/family-seen-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/finals-followup-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/finals-next100-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/finals-round3-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/finals-round6-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/friend-trades.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/home-decor-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/island-api.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/mastered-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/online-battle.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/player-friends.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/player-logins.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/presence-history.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/presence.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/ready-screen-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/remediation-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/schema-migration.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/study-review-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/subject-islands-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/tiered-cloud.test.mjs",
+    "exit": 0
+  },
+  {
+    "file": "src/__tests__/world-lobby.test.mjs",
+    "exit": 0
+  }
+]

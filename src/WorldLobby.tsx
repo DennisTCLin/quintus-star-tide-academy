@@ -2,7 +2,6 @@ import{useContext,useEffect,useRef,useState}from'react';
 import BrandIcon from'./BrandIcon';
 import SocialDialog from'./SocialDialog';
 import CharacterPortrait from'./CharacterPortrait';
-import{Ruby}from'./ChoiceView';
 import ReadAloud from'./ReadAloud';
 import{ReadingContext}from'./readability';
 import{petById,type PlayerId,type Profile}from'./game-view';
@@ -16,10 +15,10 @@ import{WORLD_PHRASES,WORLD_STATUS,WORLD_LABELS,worldNameReading}from'./world-cat
 import{speak}from'./voice';
 import'./world.css';
 type Label=keyof typeof WORLD_LABELS;
-export function WorldText({item}:{item:{text:string;zy:string}}){const{grade}=useContext(ReadingContext);return grade===1||grade===2?<Ruby text={item.text} zy={item.zy}/>:<>{item.text}</>;}
+export function WorldText({item}:{item:{text:string;zy:string}}){return <>{item.text}</>;}
 function Label({name}:{name:Label}){return<WorldText item={WORLD_LABELS[name]}/>;}
 function Name({name}:{name:string}){const reading=worldNameReading(name);return<><WorldText item={{text:reading.name,zy:reading.zy}}/><span className="world-number">{reading.number}</span></>;}
-export default function WorldLobby({player,account,csrf,profile,social,presence,occupied=false}:{player:PlayerId;account:string;csrf:string;profile:Profile;social:OnlineController;presence:PresenceSnapshot;occupied?:boolean}){
+export default function WorldLobby({player,account,csrf,profile,social,presence,occupied=false,compact=false}:{compact?:boolean;player:PlayerId;account:string;csrf:string;profile:Profile;social:OnlineController;presence:PresenceSnapshot;occupied?:boolean}){
  const{grade}=useContext(ReadingContext),[open,setOpen]=useState(false),[view,setView]=useState<WorldView|null>(null),[selected,setSelected]=useState<string|null>(null),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false),[pending,setPending]=useState<Record<string,unknown>|null>(null),[pet,setPet]=useState(profile.equipped),[version,setVersion]=useState(0);
  const narration=useRef<ReturnType<typeof speak>|null>(null);
  const say=(text:string)=>{narration.current?.();narration.current=speak(text,setNotice);};
@@ -38,7 +37,7 @@ export default function WorldLobby({player,account,csrf,profile,social,presence,
  if(eligible===false)return null;
  const person=view?.roster.find(p=>p.key===selected),chosen=selectedOwnedPet(profile,pet),locked=busy||!!pending,roomBusy=social.state?.room&&['pending','active'].includes(social.state.room.status),outgoing=view?.requests.some(r=>!r.incoming&&r.key===person?.key),canInteract=person?.status==='harbor'&&!occupied&&!locked;
  const close=()=>{setOpen(false);setSelected(null);narration.current?.();};
- return<div className="world-entry"><button className="world-toggle" aria-label={`世界 · ${known&&eligible?presence!.data.world!.online:"確認中"} 位在線`} aria-haspopup="dialog" aria-expanded={open} disabled={!known||!eligible||occupied} onClick={()=>{setOpen(true);setPet(profile.equipped);}}><BrandIcon name="compass"/><span><Label name="world"/> · {known&&eligible?presence!.data.world!.online:'…'} <Label name="online"/></span></button>
+ return<div className="world-entry"><button className="world-toggle" aria-label={`世界 · ${known&&eligible?presence!.data.world!.online:"確認中"} 位在線`} aria-haspopup="dialog" aria-expanded={open} disabled={!known||!eligible||occupied} onClick={()=>{setOpen(true);setPet(profile.equipped);}}><BrandIcon name="compass"/><span>{compact ? (known&&eligible?presence!.data.world!.online:'…') : <><Label name="world"/> · {known&&eligible?presence!.data.world!.online:'…'} <Label name="online"/></>}</span></button>
  {open&&<SocialDialog title="世界港口" titleContent={<Label name="title"/>} onClose={close} scrollBody wide>
  <p>用世界暱稱相遇。好友要雙方確認；學習中不會被邀請打斷。</p><ReadAloud grade={grade}><button aria-label="聽說明" onClick={()=>say('這裡是世界港口。點一位航海員，可以打招呼或邀請加好友。三張圖卡分別是大家好、一起對戰嗎、謝謝你。先聽招呼，再點圖卡送出。雙方確認後才能對戰。學習中的朋友，等他回港口再邀請。')}><BrandIcon name="speaker"/><Label name="listen"/></button></ReadAloud>
  {notice&&<p role="status">{notice}</p>}{pending&&<button disabled={busy} onClick={()=>void act()}><Label name="retry"/></button>}
