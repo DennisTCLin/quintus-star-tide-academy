@@ -145,10 +145,10 @@ suite('adult and child shared star-tide game',()=>{
  it('allocates adult English for assist questions and never charges child curriculum to an adult',async()=>{
   await gameRead();const start=await gameCommand(adult,{type:'battle-start',course:'english',used:[]});expect(start.status).toBe(200);const q=start.data.result.question;expect(q.programme).toBe('adult-english');expect(q.grade).toBeNull();expect(q.id).toMatch(/^adult-en-v1-/);expect(q.answer).toBeUndefined();
   const source=exerciseById(q.id),answer=source.options.indexOf(source.answer);const result=await gameCommand(adult,{type:'battle-answer',token:start.data.result.token,question:q.id,choice:answer});expect(result.status).toBe(200);expect(result.data.result.answer).toBe(answer);expect(await children()).toEqual(beforeChildren);
-  // A child now learns the school-confirmed concept before a paid/challenge allocation.
+  // A child now probes the reviewed concept without a school questionnaire before a paid/challenge allocation.
   await gameRead(child);let prep=await gameCommand(child,{type:'review-start',mode:'learn',course:'math'});expect(prep.status).toBe(200);
-  const studyId=prep.data.family.profiles.quintus.learning.study.session.id;expect((await gameCommand(child,{type:'learning-scope',sessionId:studyId,state:'taught'})).status).toBe(200);
-  for(let i=0;i<6;i++){if(i)expect((await gameCommand(child,{type:'review-next',sessionId:studyId,index:i-1})).status).toBe(200);const cq=child.game.studyQuestions.quintus;expect((await gameCommand(child,{type:'review-answer',sessionId:studyId,index:i,choice:questionById(cq.id).answer})).status).toBe(200);}
+  const studyId=prep.data.family.profiles.quintus.learning.study.session.id;expect(prep.data.family.profiles.quintus.learning.study.session.phase).toBe('answer');
+  for(let i=0;i<6;i++){if(i)expect((await gameCommand(child,{type:'review-next',sessionId:studyId,index:i-1})).status).toBe(200);const cq=child.game.studyQuestions.quintus;expect((await gameCommand(child,{type:'review-answer',sessionId:studyId,index:i,choice:questionById(cq.id).answer})).status).toBe(200);if(child.game.family.profiles.quintus.learning.study.session.status==='complete')break;}
   const school=await gameCommand(child,{type:'battle-start',course:'math',used:[]});expect(school.status).toBe(200);expect(school.data.result.question.grade).toBe(4);expect(school.data.result.question.programme).toBeUndefined();
   expect([400,409]).toContain((await gameCommand(adult,{type:'battle-answer',token:school.data.result.token,question:school.data.result.question.id,choice:0})).status);
   // Child assist allocation legitimately advances its own durable history. No adult ID may enter it.

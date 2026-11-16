@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "question": "g1-tone-ba-2",
+      "recordingHTTP": 200,
+      "actualMediaPlayback": true,
+      "choicesLockedUntilHeard": true,
+      "lessonRecordingControl": true
+    },
+    {
+      "engine": "webkit",
+      "question": "g1-tone-ba-2",
+      "recordingHTTP": 200,
+      "actualMediaPlayback": true,
+      "choicesLockedUntilHeard": true,
+      "lessonRecordingControl": true
+    }
+  ],
+  "limits": "Browser media playback observed, no physical-device audibility or microphone claim; TTS depends on device-installed zh-TW/en voices."
+}

@@ -53,13 +53,20 @@ export function independentSuccess(s:LearningState,q:LearningQuestion) {
 export function reviewEligible(s:LearningState,q:LearningQuestion|undefined,grade:Grade,course?:Course):q is LearningQuestion {
  if(!q||q.retired||q.grade!==grade||course&&q.course!==course||!examEvidenceMatches(s.school,q))return false;
  const topic=topicForQuestion(q);
- if(topic&&(schoolExposure(s,topic.id)==='taught'||previewAllowed(s,topic.id)))return true;
+ if(topic&&mappedQuestion(s,q,grade,course))return true;
  const prior=s.study?.entries[q.id];
  const trustedHistory=!s.adaptive?.ignoreLegacyEvidence&&!!prior&&prior.correct>0&&prior.independent>0;
  return independentSuccess(s,q)||trustedHistory||!!s.adaptive?.reviewKnown?.[q.id];
 }
-function readiness(s:LearningState) {
- const topicFamilies=new Map<string,Set<string>>(), templateFamilies=new Map<string,Set<string>>();
+export function learningReadiness(s:LearningState) {
+ const topicFamilies=new Map<string,Set<string>>(), templateFamilies=new Map<string,Set<string>>(), certifiedFamilies=new Map<string,Set<string>>();
+ // A later slip on one item does not erase independently learned neighbouring
+ // facts. Transfer to UNSEEN items still needs two currently sound examples.
+ for(const id of new Set([...Object.keys(s.adaptive?.reviewKnown??{}),...(!s.adaptive?.ignoreLegacyEvidence?Object.keys(s.study?.entries??{}):[])])){
+  const q=questionById(id),t=q&&topicForQuestion(q),e=s.study?.entries[id];
+  if(!q||!t||!mappedQuestion(s,q,q.grade)||!(s.adaptive?.reviewKnown?.[id]||e&&e.correct>0&&e.independent>0))continue;
+  const families=certifiedFamilies.get(t.id)??new Set<string>();families.add(q.sourceFamily??q.id);certifiedFamilies.set(t.id,families);
+ }
  for(const id of new Set([...Object.keys(s.adaptive?.evidence??{}),...Object.keys(s.study?.entries??{})])) {
   const q=questionById(id),t=q&&topicForQuestion(q);
   if(!q||!t||!mappedQuestion(s,q,q.grade)||!independentSuccess(s,q))continue;
@@ -67,13 +74,12 @@ function readiness(s:LearningState) {
   const add=(map:Map<string,Set<string>>,key:string)=>{const set=map.get(key)??new Set<string>();set.add(family);map.set(key,set);};
   add(topicFamilies,t.id);const sig=transferSignature(q);if(sig)add(templateFamilies,sig);
  }
- return {topics:new Set([...topicFamilies].filter(([,ids])=>ids.size>=2).map(([k])=>k)),templates:new Set([...templateFamilies].filter(([,ids])=>ids.size>=2).map(([k])=>k))};
+ return {certifiedTopics:new Set([...certifiedFamilies].filter(([,ids])=>ids.size>=2).map(([k])=>k)),topics:new Set([...topicFamilies].filter(([,ids])=>ids.size>=2).map(([k])=>k)),templates:new Set([...templateFamilies].filter(([,ids])=>ids.size>=2).map(([k])=>k))};
 }
-function eligibleWith(s:LearningState,q:LearningQuestion|undefined,grade:Grade,course:Course|undefined,ready:ReturnType<typeof readiness>):q is LearningQuestion {
+function eligibleWith(s:LearningState,q:LearningQuestion|undefined,grade:Grade,course:Course|undefined,ready:ReturnType<typeof learningReadiness>):q is LearningQuestion {
  if(!mappedQuestion(s,q,grade,course))return false;
  const t=topicForQuestion(q)!;
- if(schoolExposure(s,t.id)!=='taught')return false;
- if(independentSuccess(s,q))return ready.topics.has(t.id);
+ if(independentSuccess(s,q))return ready.topics.has(t.id)||ready.certifiedTopics.has(t.id);
  // A failed, assisted or exposed item must be relearned independently. A
  // neighbouring template cannot erase its own contrary learning evidence.
  const session=s.study?.session;
@@ -83,7 +89,7 @@ function eligibleWith(s:LearningState,q:LearningQuestion|undefined,grade:Grade,c
 }
 export function challengeEligible(s:LearningState,q:LearningQuestion|undefined,grade:Grade,course?:Course):q is LearningQuestion {
  if(!s.adaptive)return !!q&&q.grade===grade&&(!course||q.course===course);
- return eligibleWith(s,q,grade,course,readiness(s));
+ return eligibleWith(s,q,grade,course,learningReadiness(s));
 }
 export function observeAdaptive(s:LearningState,q:LearningQuestion,correct:boolean,assisted:boolean,day:string) {
  if(!s.adaptive)return;
@@ -95,11 +101,11 @@ export function observeAdaptive(s:LearningState,q:LearningQuestion,correct:boole
 }
 export function showExample(s:LearningState,id:string,day:string){const a=enableAdaptive(s);a.examples[id]=day;}
 export function challengeCandidates(s:LearningState,grade:Grade,course:Course,excluded:string[]=[]) {
- const ready=readiness(s);
- const ids=new Set(topicsFor(grade,course).filter(t=>schoolExposure(s,t.id)==='taught').flatMap(t=>t.questions));
+ const ready=learningReadiness(s);
+ const ids=new Set(topicsFor(grade,course).flatMap(t=>t.questions));
  const excludedIds=new Set(excluded),families=new Set(excluded.map(id=>questionById(id)?.sourceFamily).filter(Boolean));
  return [...ids].map(questionById).filter((q):q is LearningQuestion=>eligibleWith(s,q,grade,course,ready)&&!excludedIds.has(q.id)&&(!q.sourceFamily||!families.has(q.sourceFamily)))
- .sort((a,b)=>(s.adaptive?.evidence[a.id]?.order??0)-(s.adaptive?.evidence[b.id]?.order??0)||a.id.localeCompare(b.id));
+ .sort((a,b)=>Number(independentSuccess(s,a))-Number(independentSuccess(s,b))||(s.adaptive?.evidence[a.id]?.order??s.study?.entries[a.id]?.order??0)-(s.adaptive?.evidence[b.id]?.order??s.study?.entries[b.id]?.order??0)||a.id.localeCompare(b.id));
 }
 export class LearningPreparationNeeded extends Error {constructor(){super('先到「跟著我學」練熟這個科目，再回來挑戰；原有進度與獎勵都保留。');}}
 export function allocateMastered(s:LearningState,grade:Grade,course:Course,count:number,excluded:string[]=[]):QuestionAllocation[] {
@@ -113,25 +119,35 @@ export function allocateMastered(s:LearningState,grade:Grade,course:Course,count
  return chosen.map(q=>({id:q.id,review:independentSuccess(s,q)}));
 }
 export function adaptiveSummary(s:LearningState,grade:Grade) {
- const counts:Record<string,{ready:number;practicing:number}>={}, ready=readiness(s);
+ const counts:Record<string,{ready:number;practicing:number}>={}, ready=learningReadiness(s);
  for(const id of new Set([...Object.keys(s.adaptive?.evidence??{}),...Object.keys(s.study?.entries??{})])) {
   const t=topicForQuestion(id),q=questionById(id);if(!t||t.grade!==grade||!q)continue;
   const c=counts[t.id]??={ready:0,practicing:0};c.practicing++;if(eligibleWith(s,q,grade,undefined,ready))c.ready++;
  }
  return topicsFor(grade).map(t=>({id:t.id,course:t.course,title:t.title,exposure:schoolExposure(s,t.id)??'unknown',...counts[t.id]??{ready:0,practicing:0}}));
 }
+/** School reports remain historical claims; demonstrated ability selects the route. */
+export function availableLearningTopics(s:LearningState,grade:Grade,course?:Course) {
+ const ready=learningReadiness(s).topics;
+ return topicsFor(grade,course).filter(t=>(!t.prerequisite||ready.has(t.prerequisite))&&t.questions.some(id=>mappedQuestion(s,questionById(id),grade,course)));
+}
 export function chooseLearningTopic(s:LearningState,grade:Grade,course?:Course,requested?:string) {
- const all=topicsFor(grade,course);
- const ready=(id:string)=>{const t=TOPIC_BY_ID[id];return t&&t.questions.filter(q=>independentSuccess(s,questionById(q)!)).length>=2;};
- const available=all.filter(t=>(schoolExposure(s,t.id)!=='not-yet'||previewAllowed(s,t.id))&&(!t.prerequisite||ready(t.prerequisite)));
- const selected=requested?available.find(t=>t.id===requested):undefined;
- if(requested)need(selected,'這個概念尚未開放，請先練前面的內容或更新學校進度。');
- // The smallest known gap first. Unknown scope is asked once in-context, never inferred from scores.
- return selected??available.find(t=>schoolExposure(s,t.id)==='taught'&&(!ready(t.id)||t.questions.some(id=>s.adaptive?.evidence[id]?.correct===false)))??available.find(t=>!schoolExposure(s,t.id))??available[0]??null;
+ const available=availableLearningTopics(s,grade,course), ready=learningReadiness(s).topics;
+ if(requested){const selected=available.find(t=>t.id===requested);need(selected,'先練前面的內容，再試這個概念。');return selected!;}
+ return available.find(t=>!ready.has(t.id))??available[0]??null;
+}
+/** Bounded scan for the next-action UI; no allocation, rewards or saved-state mutation. */
+export function hasChallengeCapacity(s:LearningState,grade:Grade,course:Course,count=6) {
+ const ready=learningReadiness(s), families=new Set<string>();
+ for(const t of topicsFor(grade,course))for(const id of t.questions){
+  const q=questionById(id);if(!eligibleWith(s,q,grade,course,ready))continue;
+  families.add(q.sourceFamily??q.id);if(families.size>=count)return true;
+ }
+ return false;
 }
 
 /** Prefer different voyage items, but a small mastered bank may safely reuse them.
- * The pool is still exclusively independently mastered, school-taught content.
+ * The pool is still exclusively independently mastered, source-compatible content.
  */
 export function allocateCaptureMastered(s:LearningState,grade:Grade,course:Course,previousVoyage:string[]):QuestionAllocation[] {
  const pool=challengeCandidates(s,grade,course).sort((a,b)=>Number(previousVoyage.includes(a.id))-Number(previousVoyage.includes(b.id)));

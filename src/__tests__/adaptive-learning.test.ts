@@ -18,16 +18,16 @@ const state=()=>{const s=freshLearning();s.school='yongchun';enableAdaptive(s);r
 function ready(s:ReturnType<typeof state>,count=10){reportSchoolExposure(s,4,topic.id,'taught',day);questions.slice(0,count).forEach(q=>observeAdaptive(s,q,true,false,day));}
 const balances=(p:ReturnType<typeof newFamily>['profiles']['quintus'])=>JSON.stringify({coins:p.coins,tickets:p.tickets,growth:p.growth,owned:p.owned,milestones:p.milestones,credited:p.credited,rewardStars:p.rewardStars});
 describe('school exposure and independent learning evidence',()=>{
- it('never treats unknown scope, correct-after-hint, or earned bits as readiness',()=>{
+ it('never treats correct-after-hint or earned bits as readiness',()=>{
   const s=state();markMastered(s,questions[0].id);expect(challengeEligible(s,questions[0],4)).toBe(false);
   ready(s,1);expect(challengeEligible(s,questions[0],4)).toBe(false);
   observeAdaptive(s,questions[1],true,true,day);expect(()=>allocateMastered(s,4,'math',1)).toThrow(LearningPreparationNeeded);
   observeAdaptive(s,questions[1],true,false,day);expect(challengeEligible(s,questions[1],4)).toBe(false);
   observeAdaptive(s,questions[1],true,false,'2026-11-11');expect(challengeEligible(s,questions[1],4)).toBe(true);
-  reportSchoolExposure(s,4,topic.id,'not-yet',day);expect(()=>allocateMastered(s,4,'math',1)).toThrow();
+  reportSchoolExposure(s,4,topic.id,'not-yet',day);expect(allocateMastered(s,4,'math',1)).toHaveLength(1);
  });
- it('keeps school progress separate from ability; school changes revoke eligibility without deleting evidence',()=>{
-  const s=state();ready(s);const before=structuredClone(s.adaptive!.evidence);s.school='nantun';expect(()=>allocateQuestions(s,4,'math',6)).toThrow();expect(s.adaptive!.evidence).toEqual(before);
+ it('keeps school progress separate from ability; generic ability survives school changes without deleting evidence',()=>{
+  const s=state();ready(s);const before=structuredClone(s.adaptive!.evidence);s.school='nantun';expect(allocateQuestions(s,4,'math',6)).toHaveLength(6);expect(s.adaptive!.evidence).toEqual(before);
   expect(()=>reportSchoolExposure(s,1,topic.id,'taught',day)).toThrow();
  });
  it('excludes all unmapped/mismatched exams and English variants, without a capacity fallback',()=>{
@@ -46,22 +46,22 @@ describe('school exposure and independent learning evidence',()=>{
  });
 });
 describe('teach then practise without spending progress or rewards',()=>{
- it('starts a low-stakes scope question for a novice; specific worked answer remains exposed for the day',()=>{
+ it('starts a low-stakes probe for a novice; specific worked answer remains exposed for the day',()=>{
   const f=newFamily(),p=f.profiles.quintus;enableAdaptive(p.learning);const before=balances(p);
   expect(startRun(f,'quintus','math','start',1,false,day)).toBe('learn');expect(p.run).toBeNull();expect(balances(p)).toBe(before);
-  const r=p.learning.study!.session!;expect(r.phase).toBe('scope');expect(publicLearningLesson(p.learning)?.example).toBeUndefined();
-  learningScope(p.learning,4,r.id,'preview',day);expect(r.phase).toBe('lesson');expect(publicLearningLesson(p.learning)?.example?.answer).toBeDefined();expect(publicLearningLesson(p.learning)?.example?.id).toBe(r.questions[0]);
+  const r=p.learning.study!.session!;expect(r.phase).toBe('answer');expect(publicLearningLesson(p.learning)?.example).toBeUndefined();
+  learningLesson(p.learning,r.id,0,day);expect(r.phase).toBe('lesson');expect(publicLearningLesson(p.learning)?.example?.answer).toBeDefined();expect(publicLearningLesson(p.learning)?.example?.id).toBe(r.example);
   learningLesson(p.learning,r.id,0,day,true);const q=questionById(r.questions[0])!;answerStudy(p.learning,4,r.id,0,q.answer,day);expect(challengeEligible(p.learning,q,4)).toBe(false);
   expect(balances(p)).toBe(before);expect(()=>validateFamily(f)).not.toThrow();
  });
  it('wrong independent answer leads to teaching before the next different question; hints never certify',()=>{
   const s=state();reportSchoolExposure(s,4,topic.id,'taught',day);startLearning(s,4,day,'learn','math');const r=s.study!.session!,q=questionById(r.questions[0])!;
-  answerStudy(s,4,r.id,0,(q.answer+1)%q.options.length,day);nextStudy(s,r.id,0);expect(r.phase).toBe('lesson');expect(r.questions[1]).not.toBe(q.id);expect(s.adaptive!.examples[r.questions[1]]).toBe(day);
-  const exposed=questionById(r.questions[1])!;pauseStudy(s,r.id,true,day);observeAdaptive(s,exposed,true,false,day);expect(challengeEligible(s,exposed,4)).toBe(false);startLearning(s,4,day,'replacement','math');s.study!.session=r;
+  answerStudy(s,4,r.id,0,(q.answer+1)%q.options.length,day);nextStudy(s,r.id,0);expect(r.phase).toBe('lesson');expect(r.questions[1]).not.toBe(q.id);expect(s.adaptive!.examples[r.example!]).toBe(day);
+  const exposed=questionById(r.example!)!;pauseStudy(s,r.id,true,day);observeAdaptive(s,exposed,true,false,day);expect(challengeEligible(s,exposed,4)).toBe(false);startLearning(s,4,day,'replacement','math');s.study!.session=r;
   learningLesson(s,r.id,1,day,true);expect(r.phase).toBe('answer');expect(()=>validateLearning(s,4)).not.toThrow();
  });
  it('not yet taught persists even when no replacement scope is available, without a failed transaction',()=>{
-  const s=state();startLearning(s,4,day,'learn','science');learningScope(s,4,'learn','not-yet',day);expect(s.study!.session).toBeNull();expect(Object.values(s.adaptive!.scope)[0].state).toBe('not-yet');
+  const s=state();startLearning(s,4,day,'learn','science');delete s.study!.session!.pilot;s.study!.session!.questions=s.study!.session!.questions.filter(id=>topicForQuestion(id)?.id===s.study!.session!.topic);s.study!.session!.phase='scope';learningScope(s,4,'learn','not-yet',day);expect(s.study!.session).toBeNull();expect(Object.values(s.adaptive!.scope)[0].state).toBe('not-yet');
  });
  it('keeps pending old voyage answers/ledgers and replaces only unanswered questions',()=>{
   const f=newFamily(),p=f.profiles.quintus;startRun(f,'quintus','math','old',1,false,day);const r=p.run!;const q=questionById(r.questions[0])!;answerRun(f,'quintus',r.id,0,q.answer,day);nextQuestion(f,'quintus',r.id,0);
@@ -72,7 +72,7 @@ describe('teach then practise without spending progress or rewards',()=>{
  it('blocks capture and battle without mastered capacity; eligible capture uses only learned IDs',()=>{
   const f=newFamily(),p=f.profiles.quintus;enableAdaptive(p.learning);expect(()=>createCaptureTrial(p,4,'math',[])).toThrow();expect(()=>allocateBattleQuestion(f,'quintus','math','token')).toThrow();
   ready(p.learning);const t=createCaptureTrial(p,4,'math',[]);expect(t.questions.every(id=>challengeEligible(p.learning,questionById(id),4))).toBe(true);
-  const a=allocateBattleQuestion(f,'quintus','math','token');reportSchoolExposure(p.learning,4,topic.id,'not-yet',day);expect(()=>recordBattleAnswer(f,'quintus','token',a.id,true,day)).toThrow();
+  const a=allocateBattleQuestion(f,'quintus','math','token');observeAdaptive(p.learning,questionById(a.id)!,false,false,day);expect(()=>recordBattleAnswer(f,'quintus','token',a.id,true,day)).toThrow();
  });
  it('reserves the earned capture opportunity without granting a card when learned capacity is insufficient',()=>{
   const f=newFamily(),p=f.profiles.quintus;startRun(f,'quintus','math','old',1,false,day);enableAdaptive(p.learning);const r=p.run!;const before=p.captureQuota?.attempts??0;
@@ -96,7 +96,7 @@ describe('separate math-island policy',()=>{
 
 describe('reported counterexamples',()=>{
  it('teaches the actual unfamiliar word before practice and preserves preview for another session',()=>{
-  const s=freshLearning();enableAdaptive(s);startLearning(s,6,day,'preview','english');learningScope(s,6,'preview','preview',day);
+  const s=freshLearning();enableAdaptive(s);startLearning(s,6,day,'preview','english');delete s.study!.session!.pilot;s.study!.session!.phase='scope';learningScope(s,6,'preview','preview',day);
   const r=s.study!.session!;
   for(let i=0;i<r.questions.length;i++){
    if(i)nextStudy(s,r.id,i-1);
@@ -105,7 +105,7 @@ describe('reported counterexamples',()=>{
    learningLesson(s,r.id,i,day,true);answerStudy(s,6,r.id,i,questionById(r.questions[i])!.answer,day);
    expect(challengeEligible(s,questionById(r.questions[i]),6)).toBe(false);
   }
-  expect(()=>startLearning(s,6,day,'again','english')).not.toThrow();expect(s.study!.session!.phase).toBe('lesson');
+  expect(()=>startLearning(s,6,day,'again','english')).not.toThrow();expect(s.study!.session!.phase).toBe('answer');
  });
  it('uses attainable distinct-item readiness and allows a mock from ready A units only',()=>{
   const f=newFamily(),p=f.profiles.qingqing;enableAdaptive(p.learning);p.mathIsland={units:{'1A-02':{learn:true,play:true}},pool:[],stats:{},day,attempted:[]};

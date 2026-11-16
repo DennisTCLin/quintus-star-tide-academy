@@ -1,0 +1,14 @@
+{
+  "baseline": "37e91d634305c1475abfa032d4929eac16ad12e5",
+  "unitTests": 1730,
+  "databaseFiles": 41,
+  "databaseTests": 384,
+  "browserChecks": 64,
+  "recordedAudioFlows": 2,
+  "realChildrenAccessed": false,
+  "productionDatabaseWrites": false,
+  "sourceQuestionEdits": false,
+  "performanceThresholdsChanged": false,
+  "independentVerifier": "No unresolved blockers; legacy exposure counterexample fixed and reverified",
+  "rollback": "Retain pilot-compatible validation and continuation; no blanket old-build rollback"
+}

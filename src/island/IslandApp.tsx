@@ -221,7 +221,7 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
   }
   const startStage = (unit: string, stage: Stage) => void startCloud(stage,unit);
   const startKing = () => void startCloud("mock",undefined,false,grade);
-  const adaptiveUnitReady=(unit:string)=>Number(unit[0])===(player.grade??1)&&unit[1]==='A'&&me.readiness?.scope[`${embed.school??'unconfirmed'}:115-1:${unit}`]===true&&UNIT_BY_ID[unit].games.every(k=>me.readiness?.evidence[k]?.ready);
+  const adaptiveUnitReady=(unit:string)=>Number(unit[0])===(player.grade??1)&&unit[1]==='A'&&UNIT_BY_ID[unit].games.every(k=>me.readiness?.evidence[k]?.ready);
 
   // 題目：學一學、玩一玩進來先唸題目；考卷模式要自己讀，按耳朵才唸。
   useEffect(() => {
@@ -538,7 +538,7 @@ export default function IslandApp({ player, companion, embed }: { player: { id: 
             {g && <CharacterPortrait characterId={g.id} paused={embed.reduced} pose="greet" src={g.image} alt={`守關神獸 ${g.name}`} className={bossBeaten(me, u.id) ? "tamed" : ""} />}
           </div>
           <div className="isl-unit-ability"><IslandAbility progress={me} unit={u.id} details/></div>
-          {embed.adaptive&&<div className="isl-panel"><p>這個概念學校教過了嗎？「玩一玩」不扣血，先練會再挑戰神獸。</p><button disabled={busy||!embed.online} onClick={()=>void embed.onScope?.(u.id,true)}>學校教過了</button><button disabled={busy||!embed.online} onClick={()=>void embed.onScope?.(u.id,false)}>學校還沒教</button></div>}
+          {embed.adaptive&&<p className="isl-muted">🧭 {adaptiveUnitReady(u.id)?"可以挑戰了！":"先玩一玩，夥伴會幫你領航。"}</p>}
           <div className="isl-stagelist">
             {(["learn", "play", "boss"] as Stage[]).map((st, i) => {
               const open = stageOpen(me,u.id,st)&&(!embed.adaptive||st==='learn'||Number(u.id[0])===(player.grade??1)&&u.id[1]==='A'&&(st!=='boss'||adaptiveUnitReady(u.id)));
