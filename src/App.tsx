@@ -1117,7 +1117,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
               🔊
             </button></ReadAloud>
           </header>
-          {page !== "conquest" && page !== "learn" && <ConquestRaidNotice controller={sharedConquest} onOpen={() => { setConquestDestination({ reports: true }); navigate("conquest"); }} />}
+          {page !== "home" && page !== "conquest" && page !== "learn" && <ConquestRaidNotice key={`${player.id}:${page}`} controller={sharedConquest} onOpen={() => { setConquestDestination({ reports: true }); navigate("conquest"); }} />}
           {page === "home" && <section id="harbor-departure" className="harbor-departure" aria-labelledby="harbor-departure-title" tabIndex={-1}>
             <CharacterPortrait characterId={pet.id} src={pet.thumbnail ?? pet.image} paused={battleReducedMotion} alt="同行夥伴" />
             <div className="harbor-departure-copy">
@@ -1185,6 +1185,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                   <button onClick={()=>navigate("lottery")}><NavIcon name="lottery"/><b>扭蛋</b></button>
                   <button onClick={()=>navigate("territory")}><NavIcon name="territory"/><b>我的家</b></button>
                 </div>
+                <ConquestRaidNotice key={player.id} controller={sharedConquest} onOpen={() => { setConquestDestination({ reports: true }); navigate("conquest"); }} />
                 <details className="harbor-extras" onToggle={e=>setHarborExtrasOpen(e.currentTarget.open)}><summary>☷ 我的港口</summary>
                 {harborExtrasOpen && <>
                 <section className="family-hero">

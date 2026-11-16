@@ -30,3 +30,9 @@ Raw production data and credentials are not stored in this repository. A new pro
 ## iPad acceptance
 
 Refresh the existing URL. The first screen should show departure and islands. Tap a subject, choose timing and use the bottom Start button. Answer one question, return to the harbor and confirm Continue resumes the same voyage. Open More, and use Chat from the homepage. Verify the bottom navigation remains unobscured in both orientations.
+
+## Unread report follow-up — 2026-11-16
+
+The unread defense report banner previously appeared above departure and could dominate the page with 30 reports. It now appears below the homepage map and shortcuts as a closed, 46-pixel row: report icon, short label and unread count. Expanding reveals the existing outcome summary and link to the full reports. Returning home or reloading starts closed. Opening the disclosure or report page does not mark reports read. The course disclosure label is also shorter.
+
+Build/content/pronunciation checks and 29 focused report/course/departure tests pass. Fourteen Chrome/WebKit viewport checks (320–1440 pixels wide, including tablet portrait and landscape) use a synthetic response with 30 unread reports. Departure and all five island buttons remain visible and hittable on the first screen. Touch, Enter and Space toggle the disclosure; full-report navigation, navigation back and reload preserve the synthetic profile and all unread reports, with no conquest writes. No production account was used. Evidence: `output/raid-notice/browser-results.json`.

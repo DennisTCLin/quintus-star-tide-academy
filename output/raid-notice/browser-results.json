@@ -1,0 +1,178 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "viewport": [
+        320,
+        568
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "viewport": [
+        375,
+        667
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "viewport": [
+        390,
+        844
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "viewport": [
+        768,
+        1024
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "viewport": [
+        820,
+        1180
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "viewport": [
+        1180,
+        820
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    },
+    {
+      "engine": "chromium",
+      "viewport": [
+        1440,
+        900
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        320,
+        568
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        375,
+        667
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        390,
+        844
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        768,
+        1024
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        820,
+        1180
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        1180,
+        820
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        1440,
+        900
+      ],
+      "collapsedHeight": 46,
+      "firstScreenStartAndIslands": true,
+      "unreadCount": 30,
+      "summaryKeyboardAndTouch": true,
+      "noOverflow": true
+    }
+  ],
+  "errors": [],
+  "conquestWrites": [],
+  "profileUnchanged": true,
+  "navigationAndReloadRemainCollapsed": true,
+  "fullReportNavigation": true,
+  "note": "Synthetic local accounts; conquest response intercepted with 30 unread reports."
+}
