@@ -9,7 +9,8 @@
     "reducedMotion": true,
     "companionClearsNavigation": true,
     "offlineBlocks": true,
-    "profileUnchanged": true
+    "profileUnchanged": true,
+    "navigationReturnUnmounts": true
   },
   {
     "viewport": [
@@ -21,7 +22,8 @@
     "reducedMotion": true,
     "companionClearsNavigation": true,
     "offlineBlocks": true,
-    "profileUnchanged": true
+    "profileUnchanged": true,
+    "navigationReturnUnmounts": true
   },
   {
     "viewport": [
@@ -33,6 +35,7 @@
     "reducedMotion": true,
     "companionClearsNavigation": true,
     "offlineBlocks": true,
-    "profileUnchanged": true
+    "profileUnchanged": true,
+    "navigationReturnUnmounts": true
   }
 ]

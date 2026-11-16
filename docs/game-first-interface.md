@@ -18,7 +18,7 @@ This batch changes the existing Railway Star Tide Academy interface, based on th
 - `npm test -- --maxWorkers=2`: 194 files / 1,692 tests pass; 39 database-gated files / 379 tests skipped in this command.
 - All 41 database-dependent test files pass when each owns a separate fresh local PostgreSQL database. Shared-database execution produced fixture collisions. Three initially timed-out isolated suites also pass on fresh rerun under their original timeout settings. No timeout, performance threshold or assertion was relaxed.
 - Production-build browser checks: Chrome and WebKit, grades 1/2/4, new and resumed voyages, 320×568, 375×667, 390×844, 768×1024, 820×1180, 1180×820 and 1440×900. 144 layout/flow checks pass, including hit testing, no horizontal overflow, first-screen Start, real local-server answers and exact profile equality through navigation/reload.
-- Three additional WebKit checks cover phone and tablet portrait/landscape: Chat panel, unopened harbor panels unmounted, reduced motion, companion/navigation separation and offline blocking.
+- Three additional WebKit checks cover phone and tablet portrait/landscape: Chat panel, unopened harbor panels unmounted, reduced motion, companion/navigation separation and offline blocking. The navigation-return case also verifies that a previously expanded harbor is closed and its scene is unmounted on return.
 - This is browser-engine and viewport coverage, not hands-on testing of a physical iPad or microphone. Audio transport is unchanged.
 
 ## Data preservation boundary
