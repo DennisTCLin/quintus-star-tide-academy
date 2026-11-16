@@ -10,8 +10,8 @@ const POSTER = '/assets/subject-islands/panorama-v2-1600.webp';
 const FALLBACK = '/assets/subject-islands/panorama.webp?v=20261025';
 const SOURCES = [960, 1600, 2560, 4096].map(width => `/assets/subject-islands/panorama-v2-${width}.webp ${width}w`).join(', ');
 
-export default function AnimatedArchipelago({ reduced = false, granted = true, suspended = false, onActivity, children }: {
-  reduced?: boolean; granted?: boolean; suspended?: boolean; onActivity?: (active: boolean) => void; children: ReactNode;
+export default function AnimatedArchipelago({ reduced = false, granted = true, suspended = false, landmarks = false, onActivity, children }: {
+  landmarks?: boolean; reduced?: boolean; granted?: boolean; suspended?: boolean; onActivity?: (active: boolean) => void; children: ReactNode;
 }) {
   const { grade } = useContext(ReadingContext);
   const { stageRef, visible } = useStageVisibility();
@@ -30,8 +30,8 @@ export default function AnimatedArchipelago({ reduced = false, granted = true, s
   const eligible = visible && !still && !paused && !fallback && !suspended;
   useEffect(() => { onActivity?.(eligible); return () => onActivity?.(false); }, [eligible, onActivity]);
   return annotateTree(<div className="archipelago">
-    <div className={`archipelago-scene ${eligible && granted ? "map-moving" : "map-still"}`} ref={stageRef} role="group" aria-label="群島冒險地圖">
-      <img src={fallback ? FALLBACK : POSTER} srcSet={fallback ? undefined : SOURCES} sizes="(max-width: 760px) calc(100vw - 48px), (max-width: 1600px) calc(100vw - 96px), 1600px" width="5456" height="3072" loading="lazy" decoding="async" alt="五座漂浮在雲海上的冒險島嶼" onError={() => setFallback(true)} />
+    <div className={`archipelago-scene ${eligible && granted ? "map-moving" : "map-still"}${landmarks ? " map-landmarks" : ""}`} ref={stageRef} role="group" aria-label="群島冒險地圖">
+      <img src={fallback ? FALLBACK : landmarks ? "/assets/subject-islands/landmarks-20261116-1344.webp" : POSTER} srcSet={fallback ? undefined : landmarks ? "/assets/subject-islands/landmarks-20261116-768.webp 768w, /assets/subject-islands/landmarks-20261116-1344.webp 1344w" : SOURCES} sizes="(max-width: 760px) calc(100vw - 48px), (max-width: 1600px) calc(100vw - 96px), 1600px" width="5456" height="3072" loading="lazy" decoding="async" alt="五座漂浮在雲海上的冒險島嶼" onError={() => setFallback(true)} />
       {eligible && granted && <ArchipelagoAtmosphere /> }
       {children}
     </div>
