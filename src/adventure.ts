@@ -663,10 +663,9 @@ export function startRun(
   requireValue(!pendingRemediation(p.run), "先完成補練，或選擇略過這次補練");
   const grade = PLAYERS.find((x) => x.id === id)!.grade;
   const route = routeForCourse(grade, course);
-  if(p.learning.adaptive&&(practice||p.learning.adaptive.lastLearningDay!==day||(p.day===day&&p.rewardRounds>0&&p.rewardRounds%3===0&&p.learning.adaptive.coachedRound!==`${day}:${p.rewardRounds}`))){
-    startLearning(p.learning,grade,day,runId,course);p.learning.adaptive.coachedRound=`${day}:${p.rewardRounds}`;return 'learn';
+  if(p.learning.adaptive&&practice){
+    startLearning(p.learning,grade,day,runId,course);return 'learn';
   }
-  tick(p, day);
   const previousMonster = p.run?.encounter.monster ?? monsterById(p.lastMonsterVariant)?.family;
   const level = growthProgress(p.growth.xp[p.equipped] ?? 0).level;
   const monster = chooseMonster(level, seed, previousMonster, route.element);
@@ -675,6 +674,7 @@ export function startRun(
   let allocated:QuestionAllocation[];
   try {allocated=allocateAdventureQuestions(p.learning,grade,course,CHALLENGE_QUESTIONS,challenge?.targetDifficulty,p.learning.pending?[p.learning.pending.question]:[]);}
   catch(e){if(!(e instanceof LearningPreparationNeeded))throw e;startLearning(p.learning,grade,day,runId,course);return 'learn';}
+  tick(p, day);
   if(challenge) challenge.difficultyLevels=allocated.map(q=>questionDifficulty(questionById(q.id)!));
   p.lastMonsterVariant = monster.id;
   p.run = {

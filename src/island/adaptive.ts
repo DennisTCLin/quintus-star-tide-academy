@@ -9,7 +9,7 @@ export function reportIslandScope(p:CloudIsland,s:LearningState,unit:string,taug
  (p.readiness??={scope:{},evidence:{}}).scope[islandScopeKey(s,unit)]=taught;return true;
 }
 export function islandConceptReady(p:CloudIsland,s:LearningState,q:Pick<Item,'unit'|'k'>,grade:number){
- return Number(q.unit[0])===grade&&q.unit[1]==='A'&&p.readiness?.scope[islandScopeKey(s,q.unit)]===true&&p.readiness.evidence[q.k]?.ready===true;
+ return Number(q.unit[0])===grade&&q.unit[1]==='A'&&p.readiness?.evidence[q.k]?.ready===true;
 }
 export function observeIslandReadiness(p:CloudIsland,q:Item,correct:boolean,assisted:boolean){
  const r=p.readiness??={scope:{},evidence:{}};

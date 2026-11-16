@@ -39,7 +39,7 @@ export function startIsland(s: Family,id: PlayerId,mode: Mode,unit: string|undef
   }
   if(p.learning.adaptive && mode!=='learn')need(grade===PLAYERS.find(x=>x.id===id)!.grade&&(!unit||unit[1]==='A'),'先練目前年級上學期的內容；其他單元可以先看學一學');
   const readyUnits=Object.values(UNIT_BY_ID).filter(u=>Number(u.id[0])===grade&&u.games.every(k=>islandConceptReady(island,p.learning,{unit:u.id,k},grade)));
-  if(p.learning.adaptive && (mode==='boss'||mode==='mock'))need(mode==='mock'?readyUnits.length>0:readyUnits.some(u=>u.id===unit),'先回學一學、玩一玩，獨立完成不同題目並確認學校教過，再挑戰神獸');
+  if(p.learning.adaptive && (mode==='boss'||mode==='mock'))need(mode==='mock'?readyUnits.length>0:readyUnits.some(u=>u.id===unit),'先回學一學、玩一玩，獨立完成不同題目，再挑戰神獸');
   need(mode === 'mock' ? unit === undefined && (p.learning.adaptive?readyUnits.length>0:kingOpen(island,grade)) : !!unit && Object.prototype.hasOwnProperty.call(UNIT_BY_ID,unit) && stageOpen(island,unit,mode),'先完成前一關再挑戰');
   tick(p,day);
   const seen=new Set(island.day===day?island.attempted:[]);

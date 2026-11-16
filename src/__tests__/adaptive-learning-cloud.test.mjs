@@ -19,14 +19,13 @@ suite('adaptive policy in authenticated cloud transactions',()=>{
   if(a.state.family.profiles[player].onboarding&&!a.state.family.profiles[player].onboarding.confirmed){await send({type:'starter-draw'});await send({type:'starter-confirm'});baseline=ledger(a.state.family.profiles[player]);}
  });
  afterAll(async()=>{await new Promise(r=>server.close(r));await api.close();});
- it('routes a new child into school scope, strips future questions, rejects forged fields',async()=>{
-  const r=await send({type:'start',course:'math',practice:false});expect(r.result).toBe('learn');expect(r.family.profiles[player].run).toBeNull();expect(r.learningLessons[player].example).toBeUndefined();expect(r.studyQuestions[player]).toBeUndefined();
+ it('routes a new child directly into safe probes, strips future questions, rejects forged fields',async()=>{
+  const r=await send({type:'start',course:'math',practice:false});expect(r.result).toBe('learn');expect(r.family.profiles[player].run).toBeNull();expect(r.learningLessons[player].example).toBeUndefined();expect(r.studyQuestions[player].answer).toBeUndefined();expect(r.family.profiles[player].learning.study.session.phase).toBe('answer');expect(r.family.profiles[player].learning.adaptive.scope).toEqual({});expect(r.family.profiles[player].learning.study.session.questions.slice(1).every(id=>id==='')).toBe(true);
   expect((await call('command',body({type:'learning-progress',topic:r.learningLessons[player].topic,state:'taught',ready:true}))).status).toBe(400);
   expect(ledger(r.family.profiles[player])).toEqual(baseline);
  });
  it('synchronizes the same teaching and assessment session across devices without exposing an answer',async()=>{
   let r=a.state.family.profiles[player].learning.study.session;
-  await send({type:'learning-scope',sessionId:r.id,state:'taught'});
   await send({type:'learning-lesson',sessionId:r.id,index:0,done:false});expect(a.state.learningLessons[player].example.answer).toBeTypeOf('number');
   const other=await call('state',undefined,b);expect(other.status).toBe(200);expect(other.data.family.profiles[player].learning.study.session.id).toBe(r.id);expect(other.data.learningLessons[player].title).toBe(a.state.learningLessons[player].title);
   await send({type:'learning-lesson',sessionId:r.id,index:0,done:true});expect(a.state.studyQuestions[player].answer).toBeUndefined();expect(a.state.studyQuestions[player].explanation).toBeUndefined();expect(a.state.family.profiles[player].learning.study.session.assisted).toBe(true);expect(a.state.learningPlans[player].some(t=>t.ready>0)).toBe(false);
@@ -36,21 +35,20 @@ suite('adaptive policy in authenticated cloud transactions',()=>{
   const first=await call('command',command);expect(first.status).toBe(200);a.state=first.data;const duplicate=await call('command',command);expect(duplicate.status).toBe(200);expect(duplicate.data.family.revision).toBe(first.data.family.revision);
   expect(ledger(a.state.family.profiles[player])).toEqual(baseline);
   expect((await call('command',body({type:'review-answer',sessionId:r.id,index:0,choice:0},b),b)).status).toBe(409);
-  for(let i=1;i<6;i++){await send({type:'review-next',sessionId:r.id,index:i-1});await send({type:'learning-lesson',sessionId:r.id,index:i,done:true});q=a.state.studyQuestions[player];await send({type:'review-answer',sessionId:r.id,index:i,choice:questionById(q.id).answer});}
+  for(let i=1;i<6;i++){await send({type:'review-next',sessionId:r.id,index:i-1});await send({type:'learning-lesson',sessionId:r.id,index:i,done:false});await send({type:'learning-lesson',sessionId:r.id,index:i,done:true});q=a.state.studyQuestions[player];await send({type:'review-answer',sessionId:r.id,index:i,choice:questionById(q.id).answer});}
   expect(a.state.learningPlans[player].some(t=>t.ready>0)).toBe(false);
   await send({type:'review-start',mode:'learn',course:'math'});r=a.state.family.profiles[player].learning.study.session;
-  for(let i=0;i<6;i++){if(i)await send({type:'review-next',sessionId:r.id,index:i-1});q=a.state.studyQuestions[player];await send({type:'review-answer',sessionId:r.id,index:i,choice:questionById(q.id).answer});}
-  expect(a.state.learningPlans[player].some(t=>t.ready>=6)).toBe(true);expect(ledger(a.state.family.profiles[player])).toEqual(baseline);
+  for(let i=0;i<6;i++){if(i)await send({type:'review-next',sessionId:r.id,index:i-1});q=a.state.studyQuestions[player];await send({type:'review-answer',sessionId:r.id,index:i,choice:questionById(q.id).answer});if(a.state.family.profiles[player].learning.study.session.status==='complete')break;}
+  expect(a.state.learningPlans[player].some(t=>t.ready>=2)).toBe(true);expect(ledger(a.state.family.profiles[player])).toEqual(baseline);
  });
- it('allocates only independently learned content for real voyages; a scope change blocks old reservations without losses',async()=>{
+ it('allocates only independently learned content for real voyages; school reports cannot revoke demonstrated generic ability or mutate balances',async()=>{
   await send({type:'start',course:'math',practice:false});const r=a.state.family.profiles[player].run;expect(r.adaptive).toBe(1);
-  await send({type:'ready-question',runId:r.id,index:0});expect(a.state.questions[player]).toBeDefined();const topic=a.state.learningPlans[player].find(t=>t.ready>=6).id;
-  await send({type:'learning-progress',topic,state:'not-yet'});expect(a.state.learningBlocks[player]).toBe(true);expect(a.state.questions[player]).toBeUndefined();const before=ledger(a.state.family.profiles[player]);
-  expect((await call('command',body({type:'answer',runId:r.id,index:0,choice:0}))).status).toBe(400);
+  await send({type:'ready-question',runId:r.id,index:0});expect(a.state.questions[player]).toBeDefined();const topic=a.state.learningPlans[player].find(t=>t.ready>=2).id;
+  await send({type:'learning-progress',topic,state:'not-yet'});expect(a.state.learningBlocks[player]).not.toBe(true);expect(a.state.questions[player]).toBeDefined();const before=ledger(a.state.family.profiles[player]);
   const after=await call('state');expect(ledger(after.data.family.profiles[player])).toEqual(before);expect(after.data.family.profiles[player].run.id).toBe(r.id);
  });
  it('also gates the legacy practice endpoint instead of filling from the old bank',async()=>{
-  const r=await call('practice',{type:'start',player,used:[]});expect(r.status).toBe(400);expect(r.data.error).toContain('跟著我學');
+  const r=await call('practice',{type:'start',player,used:['c1-g4-chinese-01']});expect(r.status).toBe(400);expect(r.data.error).toContain('跟著我學');
  });
  it('keeps imported study history but rejects imported school/mastery authority',async()=>{
   const registered=await call('register',{username:'import_'+randomUUID().slice(0,8),password:'Synthetic-import-passphrase'},null);expect(registered.status).toBe(200);

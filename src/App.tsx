@@ -1058,14 +1058,14 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
   const pickedPet = petDetail ? petById(petDetail) : undefined;
   const harborAction = isAdult?(adult?.learning.snapshot?.state.session&&!adult.learning.snapshot.state.session.complete?"繼續英文挑戰":"選一座英文島出發"):departure!.action;
   const harborHint = isAdult?"學英文、養夥伴，和家人一起航向星海。":departure!.hint;
-  const companionPageQuiet = (isAdult&&page==="learn") || !!quizPreparing || page === "cinema" || page === "leaderboard" || page === "battle" || page === "conquest" || companionQuiet(page, !!quizCombatActive, arenaCombatActive, false);
+  const companionPageQuiet = (isAdult&&page==="learn") || !!quizPreparing || page === "review" || page === "cinema" || page === "leaderboard" || page === "battle" || page === "conquest" || companionQuiet(page, !!quizCombatActive, arenaCombatActive, false);
   const companionOverlay = !!(moreNav || viewCollection || chooser || coursePicker || pickedPet || leave || handoff || islandChoice);
 
   return (
     <ReadingContext.Provider value={{ grade: readingGrade, voice: voice && allowsReadAloud(readingGrade) }}>
       {annotateTree(
         <div
-          className={`family-app game-first-ui ${isAdult?"adult-game":""} ${page === "home" ? "home-page" : ""} ${quizFocused ? "quiz-focused" : ""} ${quizPreparing ? "quiz-preparing" : ""} ${questionExpanded ? "question-expanded" : ""} grade-${readingGrade} ${isAdult&&page==="learn"&&adultSession?`quiz-active ${adultFinished?"quiz-complete quiz-result-ready":""}`:page === "learn" && run ? `quiz-active ${run.status !== "active" ? "quiz-complete" : ""} ${resultReady ? `quiz-result-ready ${run.status === "failed" ? "quiz-result-failed" : ""}` : ""}` : ""} ${reduceMotion ? "reduce-motion" : ""} ${contrast ? "high-contrast" : ""}`}
+          className={`family-app game-first-ui ${isAdult?"adult-game":""} ${page === "home" ? "home-page" : page === "review" ? "pilot-page" : ""} ${quizFocused ? "quiz-focused" : ""} ${quizPreparing ? "quiz-preparing" : ""} ${questionExpanded ? "question-expanded" : ""} grade-${readingGrade} ${isAdult&&page==="learn"&&adultSession?`quiz-active ${adultFinished?"quiz-complete quiz-result-ready":""}`:page === "learn" && run ? `quiz-active ${run.status !== "active" ? "quiz-complete" : ""} ${resultReady ? `quiz-result-ready ${run.status === "failed" ? "quiz-result-failed" : ""}` : ""}` : ""} ${reduceMotion ? "reduce-motion" : ""} ${contrast ? "high-contrast" : ""}`}
         >
           <a className="skip-link" href={page === "home" ? "#harbor-departure" : "#family-main"}>
             跳到主要內容
@@ -1117,7 +1117,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
               🔊
             </button></ReadAloud>
           </header>
-          {page !== "home" && page !== "conquest" && page !== "learn" && <ConquestRaidNotice key={`${player.id}:${page}`} controller={sharedConquest} onOpen={() => { setConquestDestination({ reports: true }); navigate("conquest"); }} />}
+          {page !== "home" && page !== "conquest" && page !== "learn" && page !== "review" && <ConquestRaidNotice key={`${player.id}:${page}`} controller={sharedConquest} onOpen={() => { setConquestDestination({ reports: true }); navigate("conquest"); }} />}
           {page === "home" && <section id="harbor-departure" className="harbor-departure" aria-labelledby="harbor-departure-title" tabIndex={-1}>
             <CharacterPortrait characterId={pet.id} src={pet.thumbnail ?? pet.image} paused={battleReducedMotion} alt="同行夥伴" />
             <div className="harbor-departure-copy">
@@ -1134,7 +1134,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
           </section>}
 
           <OnlineBattle key={player.id} controller={social} profile={p} reduced={battleReducedMotion} quiet={socialQuiet} />
-          {page !== "home" && <ResourceRibbon profile={p} online={cloud.online} onVisit={() => navigate("territory")} />}
+          {page !== "home" && page !== "review" && <ResourceRibbon profile={p} online={cloud.online} onVisit={() => navigate("territory")} />}
           <nav className="family-nav" aria-label="主要導覽">
             {navs.filter(n => ["home", "collection", "battle"].includes(n.page)).map((n) => (
               <button
@@ -2252,8 +2252,8 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                 )}
               </>
             )}
-            {page === "review" && <StudyReview lesson={cloud.state.learningLessons?.[id]} plan={cloud.state.learningPlans?.[id]} session={p.learning.study?.session} question={cloud.state.studyQuestions?.[id]} grade={grade} busy={busy} online={cloud.online}
-              onCommand={(type, extra) => change({ type, player: id, ...extra })} onStart={beginReview} onHome={() => navigate('home')} onCourse={() => { navigate('home'); setCoursePicker(true); }} onError={setNotice} />}
+            {page === "review" && <StudyReview lesson={cloud.state.learningLessons?.[id]} session={p.learning.study?.session} question={cloud.state.studyQuestions?.[id]} grade={grade} busy={busy} online={cloud.online}
+              onCommand={(type, extra) => change({ type, player: id, ...extra })} onStart={beginReview} onChallenge={course=>{if(pendingCapture||unfinishedJourney(run))requestLearning();else void begin(course);}} onHome={() => navigate('home')} onCourse={() => { navigate('home'); setCoursePicker(true); }} onError={setNotice} />}
             {isAdult&&adult&&page==="parent"&&<Suspense fallback={<p role="status">正在讀取英文紀錄…</p>}><AdultRecord learning={adult.learning}/></Suspense>}
             {!isAdult && page === "parent" && (
               <>

@@ -1,0 +1,216 @@
+{
+  "files": 41,
+  "tests": 384,
+  "results": [
+    {
+      "file": "src/__tests__/adaptive-capture-reservation-cloud.test.mjs",
+      "passed": 3,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/adaptive-learning-cloud.test.mjs",
+      "passed": 6,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/admin-access.test.mjs",
+      "passed": 17,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/admin-console.test.mjs",
+      "passed": 16,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/admin-live-reports.test.mjs",
+      "passed": 10,
+      "run": "retry"
+    },
+    {
+      "file": "src/__tests__/admin-trials.test.mjs",
+      "passed": 10,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/adult-cloud.test.mjs",
+      "passed": 13,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/adult-legacy-cloud.test.mjs",
+      "passed": 3,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/adult-main-preservation.test.mjs",
+      "passed": 9,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/adult-placement-cloud.test.mjs",
+      "passed": 6,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/adult-shared-game.test.mjs",
+      "passed": 15,
+      "run": "retry"
+    },
+    {
+      "file": "src/__tests__/all-child-curriculum-cloud.test.mjs",
+      "passed": 30,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/capture-cloud.test.mjs",
+      "passed": 9,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/child-account.test.mjs",
+      "passed": 6,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/cloud.test.mjs",
+      "passed": 27,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/companion-voice-cloud.test.mjs",
+      "passed": 7,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/conquest-npc-automatic.test.mjs",
+      "passed": 11,
+      "run": "serial"
+    },
+    {
+      "file": "src/__tests__/conquest-shared.test.mjs",
+      "passed": 15,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/dragon-cloud.test.mjs",
+      "passed": 6,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/family-seen-cloud.test.mjs",
+      "passed": 2,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/finals-followup-cloud.test.mjs",
+      "passed": 16,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/finals-next100-cloud.test.mjs",
+      "passed": 10,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/finals-round3-cloud.test.mjs",
+      "passed": 16,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/finals-round6-cloud.test.mjs",
+      "passed": 6,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/friend-trades.test.mjs",
+      "passed": 9,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/home-decor-cloud.test.mjs",
+      "passed": 3,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/island-api.test.mjs",
+      "passed": 10,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/mastered-cloud.test.mjs",
+      "passed": 1,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/online-battle.test.mjs",
+      "passed": 11,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/player-friends.test.mjs",
+      "passed": 7,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/player-logins.test.mjs",
+      "passed": 6,
+      "run": "retry"
+    },
+    {
+      "file": "src/__tests__/presence-history.test.mjs",
+      "passed": 11,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/presence.test.mjs",
+      "passed": 9,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/ready-screen-cloud.test.mjs",
+      "passed": 3,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/remediation-cloud.test.mjs",
+      "passed": 3,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/schema-migration.test.mjs",
+      "passed": 1,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/school-curriculum-cloud.test.mjs",
+      "passed": 21,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/study-review-cloud.test.mjs",
+      "passed": 4,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/subject-islands-cloud.test.mjs",
+      "passed": 2,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/tiered-cloud.test.mjs",
+      "passed": 2,
+      "run": "initial"
+    },
+    {
+      "file": "src/__tests__/world-lobby.test.mjs",
+      "passed": 12,
+      "run": "initial"
+    }
+  ],
+  "initialFailures": [
+    "adult-shared-game old school-confirmation fixture; updated to automatic probes",
+    "admin-live-reports / conquest-npc-automatic / player-logins local lock/statement/test timeouts; fresh isolated reruns passed without threshold changes"
+  ],
+  "productionWrites": false
+}
