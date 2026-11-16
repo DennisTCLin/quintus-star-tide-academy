@@ -95,7 +95,7 @@ export default function CourseSelection({ grade, profile, run, islandRun, online
         <span className="island-choice-icon" aria-hidden="true">{stop.course.icon}</span><span className="archipelago-stop-name"><IslandText text={stop.course.name} zy={stop.course.zy} grade={grade} /></span>
       </button>)}
     </AnimatedArchipelago>
-    <details className="island-course-details"><summary>查看全部科目與夥伴</summary><div className="subject-island-grid">
+    <details className="island-course-details"><summary>科目與夥伴</summary><div className="subject-island-grid">
       {stops.map(({island,course,isCurrent,isMathCurrent,progress,action,label,choose,style,number}) => {
         return <div key={`${grade}-${island.id}`} className="subject-island-destination" style={style}>
           <button type="button" className={`subject-island-card ${isCurrent || isMathCurrent ? 'is-current' : ''}`} disabled={blocked} aria-label={label} onClick={choose}>
