@@ -1,0 +1,131 @@
+{
+  "flows": [
+    {
+      "engine": "chromium",
+      "viewport": [
+        375,
+        667
+      ],
+      "motion": "no-preference",
+      "pilotThenFormalBattle": true,
+      "pilotEconomyUnchanged": true,
+      "turns": [
+        {
+          "question": 1,
+          "correct": true,
+          "clipPlayed": true,
+          "serverStatus": "active"
+        },
+        {
+          "question": 2,
+          "correct": true,
+          "clipPlayed": true,
+          "serverStatus": "active"
+        },
+        {
+          "question": 3,
+          "correct": true,
+          "clipPlayed": true,
+          "serverStatus": "active"
+        },
+        {
+          "question": 4,
+          "correct": true,
+          "clipPlayed": true,
+          "serverStatus": "active"
+        },
+        {
+          "question": 5,
+          "correct": true,
+          "clipPlayed": true,
+          "serverStatus": "active"
+        },
+        {
+          "question": 6,
+          "correct": true,
+          "clipPlayed": true,
+          "serverStatus": "won"
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        820,
+        1180
+      ],
+      "motion": "no-preference",
+      "pilotThenFormalBattle": true,
+      "pilotEconomyUnchanged": true,
+      "turns": [
+        {
+          "question": 1,
+          "correct": true,
+          "clipPlayed": true,
+          "serverStatus": "active"
+        },
+        {
+          "question": 2,
+          "correct": true,
+          "clipPlayed": true,
+          "serverStatus": "active"
+        },
+        {
+          "question": 3,
+          "correct": true,
+          "clipPlayed": true,
+          "serverStatus": "active"
+        },
+        {
+          "question": 4,
+          "correct": true,
+          "clipPlayed": true,
+          "serverStatus": "active"
+        },
+        {
+          "question": 5,
+          "correct": true,
+          "clipPlayed": true,
+          "serverStatus": "active"
+        },
+        {
+          "question": 6,
+          "correct": true,
+          "clipPlayed": true,
+          "serverStatus": "won"
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "viewport": [
+        1180,
+        820
+      ],
+      "motion": "reduce",
+      "pilotThenFormalBattle": true,
+      "pilotEconomyUnchanged": true,
+      "turns": [
+        {
+          "question": 1,
+          "correct": false,
+          "clipPlayed": false,
+          "serverStatus": "active"
+        },
+        {
+          "question": 2,
+          "correct": false,
+          "clipPlayed": false,
+          "serverStatus": "active"
+        },
+        {
+          "question": 3,
+          "correct": false,
+          "clipPlayed": false,
+          "serverStatus": "failed"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

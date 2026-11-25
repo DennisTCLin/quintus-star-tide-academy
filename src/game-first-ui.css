@@ -99,7 +99,8 @@ body .family-app.game-first-ui > .family-nav > button { display:flex;flex-direct
 .family-app.game-first-ui .game-menu-grid .nav-icon--conquest img { width:100%;height:100%;object-fit:contain; }
 /* Preview thumbnails need recognizable silhouettes on a compact stage. */
 .family-app.game-first-ui.quiz-preparing .quiz-stage.duel-stage { height:clamp(150px,25vh,240px); }
-.family-app.game-first-ui.quiz-preparing .creature-stage-size { width:calc(68% + var(--creature-stage-scale)*32%);height:calc(68% + var(--creature-stage-scale)*32%); }
+.family-app.game-first-ui.quiz-preparing .creature-stage-size,
+.family-app.game-first-ui.quiz-focused .quiz-stage .creature-stage-size { width:calc(68% + var(--creature-stage-scale)*32%);height:calc(68% + var(--creature-stage-scale)*32%); }
 @media(min-width:700px) and (orientation:landscape) { .family-app.game-first-ui.quiz-preparing .quiz-stage.duel-stage { height:clamp(180px,40vh,340px); } }
 @media(min-width:700px) {
  .family-app.game-first-ui.home-page > .family-header { grid-template-columns:minmax(120px,220px) minmax(0,1fr) 44px 64px; }
