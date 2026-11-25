@@ -294,7 +294,6 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
     [chooser, setChooser] = useState(false),
     [coursePicker, setCoursePicker] = useState(false);
   const [moreNav, setMoreNav] = useState(false);
-  const [harborExtrasOpen, setHarborExtrasOpen] = useState(false);
   const [conquestDestination, setConquestDestination] = useState<ConquestDestination>({});
   const [cinemaStart, setCinemaStart] = useState<StoryId>(() => storyFromSearch(window.location.search) ?? 'opening');
   const [companionOpenRequest, setCompanionOpenRequest] = useState(0);
@@ -695,7 +694,6 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
     setTerritoryGoalRequest(null);
     setCoursePicker(false);
     setIslandChoice(null);
-    setHarborExtrasOpen(false);
     setPage(next);
     setNotice("");
   }
@@ -1060,6 +1058,11 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
   const harborHint = isAdult?"學英文、養夥伴，和家人一起航向星海。":departure!.hint;
   const companionPageQuiet = (isAdult&&page==="learn") || !!quizPreparing || page === "review" || page === "cinema" || page === "leaderboard" || page === "battle" || page === "conquest" || companionQuiet(page, !!quizCombatActive, arenaCombatActive, false);
   const companionOverlay = !!(moreNav || viewCollection || chooser || coursePicker || pickedPet || leave || handoff || islandChoice);
+  const companion = <TideglowCompanion mascot={mascot} key={`${cloud.state.csrf}:${id}`} player={id} csrf={cloud.state.csrf} name={player.name} grade={grade} facts={guideFacts(p)} petName={petById(p.equipped)?.name}
+            reduced={battleReducedMotion} online={cloud.online} onReady={requestLearning} page={page} completed={page === 'learn' && !!run && run.status !== 'active'}
+            courseName={run ? COURSES[grade].find(c => c.id === run.course)?.name : undefined}
+            suppressed={companionPageQuiet || companionOverlay}
+            openRequest={companionOpenRequest} onOpenChange={setCompanionOpen} />;
 
   return (
     <ReadingContext.Provider value={{ grade: readingGrade, voice: voice && allowsReadAloud(readingGrade) }}>
@@ -1151,11 +1154,6 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
             <button aria-label="更多功能" aria-expanded={moreNav} onClick={()=>setMoreNav(true)}><span aria-hidden="true">☷</span><span>更多</span></button>
           </nav>
           {moreNav && <Dialog title="想玩什麼？" close={()=>setMoreNav(false)}><div className="game-menu-grid">{navs.filter(n=>!["home","conquest","collection","battle"].includes(n.page)).map(n=><button key={n.page} onClick={()=>{setMoreNav(false);if(n.page==="conquest")setConquestDestination({});navigate(n.page);}}><NavIcon name={n.page}/><span>{isAdult&&n.page==="parent"?"紀錄":n.name}</span></button>)}</div></Dialog>}
-          <TideglowCompanion mascot={mascot} key={`${cloud.state.csrf}:${id}`} player={id} csrf={cloud.state.csrf} name={player.name} grade={grade} facts={guideFacts(p)} petName={petById(p.equipped)?.name}
-            reduced={battleReducedMotion} online={cloud.online} onReady={requestLearning} page={page} completed={page === 'learn' && !!run && run.status !== 'active'}
-            courseName={run ? COURSES[grade].find(c => c.id === run.course)?.name : undefined}
-            suppressed={companionPageQuiet || companionOverlay}
-            openRequest={companionOpenRequest} onOpenChange={setCompanionOpen} />
           <main id="family-main" className="family-main">
             {page!=="home"&&pendingCapture&&!focusedCapture&&<button className="capture-resume" disabled={busy||!cloud.online} onClick={e=>{e.currentTarget.focus({preventScroll:true});requestLearning();}}>繼續降服挑戰 · 三題全對就能加入</button>}
             {notice && (
@@ -1175,7 +1173,20 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
             {page === "territory" && <TerritoryPage key={id} onLoadBack={()=>navigate("home")} goalRequest={territoryGoalRequest} profile={p} reduced={battleReducedMotion} busy={busy} online={cloud.online} serverNow={cloud.state.serverNow} musicControl={musicControl} onRoom={()=>navigate("room")} onTrain={requestLearning} onAction={command => change({ ...command, player: id })} />}
             {page === "room" && <RoomEditor key={id} onLoadBack={()=>navigate("home")} profile={p} reduced={battleReducedMotion} busy={busy} online={cloud.online} onDirtyChange={setHomeDirty} onBack={()=>navigate("territory")} onTrain={requestLearning} onAction={command=>change({...command,player:id})}/>}
             {page === "home" && (
+                <section className="family-hero family-hero--media">
+                  <HeroVideoCarousel reduceMotion={reduceMotion} suspended={companionOpen} />
+                  <div className="family-hero-copy">
+                    <span className="voyager-badge"><PlayerAvatar id={player.id} /> {player.name}</span>
+                    <h2>一起去冒險</h2>
+                    {musicControl}
+                    {run && run.status!=='active' && run.reward!=='pending' && <button onClick={()=>navigate('learn')}>🎁 {label('查看上次挑戰')}</button>}
+                  </div>
+                </section>
+            )}
+            {companion}
+            {page === "home" && (
               <>
+                <StoryCinemaEntry onOpen={story=>{setCinemaStart(story);navigate("cinema");}} />
                 {isAdult&&adult?<Suspense fallback={<p role="status">正在展開英文航線…</p>}><AdultCourseMap learning={adult.learning} onStart={()=>navigate("learn")}/></Suspense>:<CourseSelection profile={p} onIsland={() => selectIsland("island")} islandRun={p.mathIsland?.run} grade={grade} run={run} online={cloud.online} busy={busy}
                   reduced={battleReducedMotion} motionGranted={islandMapActive} motionSuspended={companionOpen} onMotionActivity={setIslandMapActive}
                   onStart={selectIsland} onResume={() => navigate("learn")}
@@ -1187,44 +1198,6 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                   <button onClick={()=>navigate("territory")}><NavIcon name="territory"/><b>我的家</b></button>
                 </div>
                 <ConquestRaidNotice key={player.id} controller={sharedConquest} onOpen={() => { setConquestDestination({ reports: true }); navigate("conquest"); }} />
-                <details className="harbor-extras" onToggle={e=>setHarborExtrasOpen(e.currentTarget.open)}><summary>☷ 我的港口</summary>
-                {harborExtrasOpen && <>
-                <section className="family-hero">
-                  <HeroVideoCarousel reduceMotion={reduceMotion} suspended={islandMapActive || companionOpen} />
-                  <div className="family-hero-copy">
-                    {musicControl}
-                    <span className="voyager-badge">
-                      <PlayerAvatar id={player.id} /> {player.name} 的航海誌
-                    </span>
-                    <h2>
-                      {grade === 1 ? (
-                        <>
-                          👂 🧩 ✨<br />
-                          一起去冒險
-                        </>
-                      ) : (
-                        <>
-                          知識，讓我們
-                          <br />
-                          航向更遠的星海。
-                        </>
-                      )}
-                    </h2>
-                    <p>
-                      {grade === 1 ? (
-                        "點下方的島嶼，選喜歡的科目出發。"
-                      ) : grade === 2 ? (
-                        <AutoRuby text="和夥伴一起學習" />
-                      ) : (
-                        "完成六題挑戰，收集星願，和你的夥伴一起成長。"
-                      )}
-                    </p>
-                    {run && run.status!=='active' && run.reward!=='pending' && <button onClick={()=>navigate('learn')}>🎁 {label('查看上次挑戰')}</button>}
-                  </div>
-                </section>
-
-
-                  <StoryCinemaEntry onOpen={story=>{setCinemaStart(story);navigate("cinema");}} />
                 {!isAdult&&<StudyEntry summary={cloud.state.studySummaries?.[id]} session={p.learning.study?.session} disabled={busy || !cloud.online} onStart={mode => void beginReview(mode)} onFinish={() => { void change({ type: "review-finish", player: id, sessionId: p.learning.study?.session?.id }); }} />}
                 <TrainingPanel adultToday={isAdult?(p.milestones.awardedByDay[cloud.state.day]?.length??0):undefined} key={id} profile={p} day={cloud.state.day} online={cloud.online} busy={busy}
                   onSelect={pet => change<boolean>({ type: "equip", player: id, pet })}
@@ -1234,6 +1207,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                   <p>{label("上次完成六題的獎勵還在，先選好再出發。")}</p>
                 </div>}
                 <button className="territory-harbor-link" onClick={() => navigate("territory")}><span aria-hidden="true">⛰️</span><span><b>{label("建造自己的領地")}</b><small>{label("種樹、蓋城堡，和夥伴一起住下來。")}</small></span><span aria-hidden="true">➜</span></button>
+                <details className="harbor-ledger"><summary>☷ 我的港口</summary>
                 <div className="harbor-strip">
                   <div>
                     <b>{p.coins}</b>
@@ -1256,6 +1230,7 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                   </div>
                 </div>
 
+                </details>
                 <section className="harbor-bottom">
                   <div className="companion-dock f-panel">
                     <Art pet={pet} large />
@@ -1294,14 +1269,13 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                       />
                     </div>
                   ) : (
-                    <div className="f-panel route-note">
-                      <span>🌟</span>
-                      <h2>
+                    <details className="f-panel route-note">
+                      <summary>🌟
                         {label(
                           "每天一點點",
                           "ㄇㄟˇ ㄊㄧㄢ ㄧˋ ㄉㄧㄢˇ ㄉㄧㄢˇ",
                         )}
-                      </h2>
+                      </summary>
                       <p>
                         {grade === 1 ? (
                           "👂 → 🖼️ → 🐾"
@@ -1319,11 +1293,9 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                       >
                         🔊
                       </button></ReadAloud>
-                    </div>
+                    </details>
                   )}
                 </section>
-                </>}
-                </details>
               </>
             )}
             {isAdult&&adult&&page==="learn"&&<Suspense fallback={<p role="status">正在準備英文挑戰…</p>}><AdultGameStudy learning={adult.learning} profile={p} onHome={()=>navigate("home")} refreshGame={cloud.refresh} reduced={battleReducedMotion} onEquip={pet=>change({type:"equip",player:id,pet})}/></Suspense>}

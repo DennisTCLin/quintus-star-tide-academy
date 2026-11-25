@@ -1,0 +1,438 @@
+{
+  "target": "http://127.0.0.1:4388",
+  "checks": [
+    {
+      "engine": "chromium",
+      "viewport": [
+        320,
+        740
+      ],
+      "grade": 1,
+      "motion": "no-preference",
+      "clips": [
+        {
+          "source": "/assets/hero-departure-mobile.mp4?v=e4076f4c9770",
+          "playing": true,
+          "decoded": [
+            720,
+            1280
+          ]
+        },
+        {
+          "source": "/assets/hero-companion-mobile.mp4?v=faa45de61aba",
+          "playing": true,
+          "decoded": [
+            720,
+            1280
+          ]
+        },
+        {
+          "source": "/assets/hero-shield-mobile.mp4?v=3d443ecdb058",
+          "playing": true,
+          "decoded": [
+            720,
+            1280
+          ]
+        },
+        {
+          "source": "/assets/hero-starwhale-mobile.mp4?v=e13e2914497b",
+          "playing": true,
+          "decoded": [
+            540,
+            960
+          ]
+        },
+        {
+          "source": "/assets/hero-aurora-mobile.mp4?v=0cf4cf93574a",
+          "playing": true,
+          "decoded": [
+            540,
+            960
+          ]
+        },
+        {
+          "source": "/assets/hero-meteor-mobile.mp4?v=e76d6f976d45",
+          "playing": true,
+          "decoded": [
+            540,
+            960
+          ]
+        }
+      ],
+      "twoStoriesPlayed": true,
+      "launcherAndHome": true,
+      "mediaOutsideDisclosures": true,
+      "pauseResumeOffscreen": true,
+      "economyAndLearningUnchanged": true
+    },
+    {
+      "engine": "chromium",
+      "viewport": [
+        375,
+        812
+      ],
+      "grade": 2,
+      "motion": "no-preference",
+      "clips": [
+        {
+          "source": "/assets/hero-departure-mobile.mp4?v=e4076f4c9770",
+          "playing": true,
+          "decoded": [
+            720,
+            1280
+          ]
+        },
+        {
+          "source": "/assets/hero-companion-mobile.mp4?v=faa45de61aba",
+          "playing": true,
+          "decoded": [
+            720,
+            1280
+          ]
+        },
+        {
+          "source": "/assets/hero-shield-mobile.mp4?v=3d443ecdb058",
+          "playing": true,
+          "decoded": [
+            720,
+            1280
+          ]
+        },
+        {
+          "source": "/assets/hero-starwhale-mobile.mp4?v=e13e2914497b",
+          "playing": true,
+          "decoded": [
+            540,
+            960
+          ]
+        },
+        {
+          "source": "/assets/hero-aurora-mobile.mp4?v=0cf4cf93574a",
+          "playing": true,
+          "decoded": [
+            540,
+            960
+          ]
+        },
+        {
+          "source": "/assets/hero-meteor-mobile.mp4?v=e76d6f976d45",
+          "playing": true,
+          "decoded": [
+            540,
+            960
+          ]
+        }
+      ],
+      "twoStoriesPlayed": true,
+      "launcherAndHome": true,
+      "mediaOutsideDisclosures": true,
+      "pauseResumeOffscreen": true,
+      "economyAndLearningUnchanged": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        820,
+        1180
+      ],
+      "grade": 4,
+      "motion": "no-preference",
+      "clips": [
+        {
+          "source": "/assets/hero-departure-desktop.mp4?v=6749bb1f1bd5",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-companion-desktop.mp4?v=59dee1235519",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-shield-desktop.mp4?v=5fab70311401",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-starwhale-desktop.mp4?v=d80ef2b491bc",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-aurora-desktop.mp4?v=8aec5fc6f65f",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-meteor-desktop.mp4?v=525f809e3616",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        }
+      ],
+      "twoStoriesPlayed": true,
+      "launcherAndHome": true,
+      "mediaOutsideDisclosures": true,
+      "pauseResumeOffscreen": true,
+      "economyAndLearningUnchanged": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        1180,
+        820
+      ],
+      "grade": 6,
+      "motion": "no-preference",
+      "clips": [
+        {
+          "source": "/assets/hero-departure-desktop.mp4?v=6749bb1f1bd5",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-companion-desktop.mp4?v=59dee1235519",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-shield-desktop.mp4?v=5fab70311401",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-starwhale-desktop.mp4?v=d80ef2b491bc",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-aurora-desktop.mp4?v=8aec5fc6f65f",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-meteor-desktop.mp4?v=525f809e3616",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        }
+      ],
+      "twoStoriesPlayed": true,
+      "launcherAndHome": true,
+      "mediaOutsideDisclosures": true,
+      "pauseResumeOffscreen": true,
+      "economyAndLearningUnchanged": true
+    },
+    {
+      "case": "hero-map-simultaneous",
+      "playing": true
+    },
+    {
+      "engine": "chromium",
+      "viewport": [
+        1440,
+        1800
+      ],
+      "grade": 4,
+      "motion": "no-preference",
+      "clips": [
+        {
+          "source": "/assets/hero-departure-desktop.mp4?v=6749bb1f1bd5",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-companion-desktop.mp4?v=59dee1235519",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-shield-desktop.mp4?v=5fab70311401",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-starwhale-desktop.mp4?v=d80ef2b491bc",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-aurora-desktop.mp4?v=8aec5fc6f65f",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        },
+        {
+          "source": "/assets/hero-meteor-desktop.mp4?v=525f809e3616",
+          "playing": true,
+          "decoded": [
+            1280,
+            720
+          ]
+        }
+      ],
+      "twoStoriesPlayed": true,
+      "launcherAndHome": true,
+      "mediaOutsideDisclosures": true,
+      "pauseResumeOffscreen": true,
+      "economyAndLearningUnchanged": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        390,
+        844
+      ],
+      "grade": 1,
+      "motion": "reduce",
+      "clips": [],
+      "twoStoriesPlayed": true,
+      "launcherAndHome": true,
+      "mediaOutsideDisclosures": true,
+      "pauseResumeOffscreen": false,
+      "economyAndLearningUnchanged": true
+    }
+  ],
+  "errors": [],
+  "apiWrites": [
+    {
+      "engine": "chromium",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "chromium",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "chromium",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "chromium",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "chromium",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "chromium",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "chromium",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "chromium",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "chromium",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    }
+  ],
+  "productionAccountWrites": 0
+}

@@ -44,9 +44,9 @@
 .family-app.game-first-ui .harbor-shortcuts :is(img,.character-portrait,.nav-icon) { width:36px;height:36px;object-fit:contain; }
 .family-app.game-first-ui .harbor-shortcuts b { font-size:14px; }
 .family-app.game-first-ui .harbor-shortcuts > button > span:not(.nav-icon) { font-size:28px; }
-.family-app.game-first-ui .harbor-extras { margin-top:8px; }
-.family-app.game-first-ui .harbor-extras > summary { cursor:pointer;min-height:44px;display:flex;align-items:center;justify-content:center;border-top:1px solid #457482;color:#bdd8df; }
-.family-app.game-first-ui .harbor-extras[open] > summary { margin-bottom:16px; }
+.family-app.game-first-ui .harbor-ledger { margin-top:8px; }
+.family-app.game-first-ui .harbor-ledger > summary { cursor:pointer;min-height:44px;display:flex;align-items:center;justify-content:center;border-top:1px solid #457482;color:#bdd8df; }
+.family-app.game-first-ui .harbor-ledger[open] > summary { margin-bottom:16px; }
 body .family-app.game-first-ui > .family-nav { position:fixed;z-index:35;bottom:0;left:0;right:0;box-sizing:border-box;width:100%;max-width:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;margin:0;padding:6px max(8px,calc((100vw - 720px)/2)) calc(6px + env(safe-area-inset-bottom));border-top:1px solid #62949d;background:#08283bf5;overflow:visible; }
 body .family-app.game-first-ui > .family-nav > button { display:flex;flex-direction:column;min-height:58px;gap:2px;padding:3px 6px;font-size:12px; }
 .family-app.game-first-ui .family-nav .nav-icon { width:28px;height:28px;flex-basis:28px; }
@@ -91,8 +91,6 @@ body .family-app.game-first-ui > .family-nav > button { display:flex;flex-direct
 .family-app.game-first-ui.home-page .world-toggle { width:64px;padding:6px;justify-content:center;font-size:14px; }
 .family-app.game-first-ui.home-page > .harbor-departure { flex-direction:row;align-items:center; }
 .family-app.game-first-ui.home-page .family-footer { display:none; }
-/* Home has a dedicated Chat tile. The corner companion still follows other pages. */
-.family-app.game-first-ui.home-page .tide-launcher { display:none; }
 .family-app.game-first-ui .tide-launcher { bottom:calc(var(--game-dock) + 12px + env(safe-area-inset-bottom)); }
 .family-app.game-first-ui :is(.harbor-shortcuts,.game-menu-grid) .nav-icon { display:inline-block;background-image:url('/assets/navigation/star-tide-icons.webp');background-size:300% 300%;background-repeat:no-repeat; }
 .family-app.game-first-ui :is(.harbor-shortcuts,.game-menu-grid) :is(.nav-icon--territory,.nav-icon--conquest,.nav-icon--cinema) { display:grid;place-items:center;background:none; }
@@ -117,3 +115,26 @@ body .family-app.game-first-ui > .family-nav { grid-template-columns:repeat(5,mi
 .conquest-primary-entry span { font-size:13px; }
 .family-app .conquest-primary-entry button { min-height:48px;white-space:nowrap;padding:8px 12px;font-size:17px; }
 @media(max-width:600px) { .family-app.game-first-ui .conquest-primary-entry { padding:8px;gap:8px; }.conquest-primary-entry img { width:44px;height:44px; }.family-app .conquest-primary-entry h2 { font-size:19px; }.family-app .conquest-primary-entry button { font-size:15px; } }
+
+/* Restore the original films as a visible stage; only supporting prose folds away. */
+.family-app.game-first-ui .family-hero--media { min-height:440px;margin-bottom:20px; }
+.family-app.game-first-ui .family-hero--media:after { background:linear-gradient(180deg,#041c2e88,transparent 45%,#041c2e66); }
+.family-app.game-first-ui .family-hero--media .family-hero-copy { padding:24px;max-width:380px; }
+.family-app.game-first-ui .family-hero--media h2 { margin:12px 0;font-size:28px; }
+.family-app.game-first-ui .family-hero--media .home-music-toggle { margin-bottom:0; }
+.family-app.game-first-ui .family-hero--media .hero-carousel-controls { left:16px;right:16px;max-width:none; }
+.family-app.game-first-ui .family-hero--media .hero-route-tabs { flex:1; }
+.family-app.game-first-ui .family-hero--media .hero-route-tabs button { min-height:44px; }
+.family-app.game-first-ui .route-note > summary { cursor:pointer;font-size:20px;color:#ffe3ab; }
+@media(max-width:720px) {
+ .family-app.game-first-ui .family-hero--media { min-height:460px; }
+ .family-app.game-first-ui .family-hero--media .family-hero-copy { padding:18px; }
+ .family-app.game-first-ui .family-hero--media .hero-route-tabs { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));flex-basis:100%; }
+ .family-app.game-first-ui .family-hero--media .hero-route-tabs button { min-width:0; }
+}
+
+/* On home, give the animated companion its own row instead of covering film controls. */
+.family-app.game-first-ui.home-page .tide-companion { width:100%;height:auto;margin:12px 0;--tide-base-size:64px; }
+.family-app.game-first-ui.home-page .tide-launcher { position:static;width:100%; }
+.family-app.game-first-ui.home-page .tide-launch { width:100%;max-width:none;padding:8px 16px;border:1px solid #57717a;border-radius:18px;background:#0c2935; }
+.family-app.game-first-ui.home-page .tide-launch > span { border:0;background:transparent;font-size:16px; }
