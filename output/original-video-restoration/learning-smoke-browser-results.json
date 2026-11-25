@@ -1,0 +1,144 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "viewport": [
+        375,
+        667
+      ],
+      "motion": "no-preference",
+      "stageAndActors": true,
+      "imageAndBackdropLoaded": true,
+      "answerFeedback": true,
+      "lessonStage": true,
+      "economyPreserved": true,
+      "localAPIOnly": true,
+      "builtAssets": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        820,
+        1180
+      ],
+      "motion": "no-preference",
+      "stageAndActors": true,
+      "imageAndBackdropLoaded": true,
+      "answerFeedback": true,
+      "lessonStage": true,
+      "economyPreserved": true,
+      "localAPIOnly": true,
+      "builtAssets": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": [
+        1180,
+        820
+      ],
+      "motion": "reduce",
+      "stageAndActors": true,
+      "imageAndBackdropLoaded": true,
+      "answerFeedback": true,
+      "lessonStage": true,
+      "economyPreserved": true,
+      "localAPIOnly": true,
+      "builtAssets": true
+    }
+  ],
+  "errors": [],
+  "interceptedWrites": [
+    {
+      "engine": "chromium",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "chromium",
+      "path": "/api/command",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "chromium",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "chromium",
+      "path": "/api/command",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "chromium",
+      "path": "/api/command",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "chromium",
+      "path": "/api/command",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/command",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/command",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/command",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/command",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/command",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/presence",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/command",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/command",
+      "target": "isolated localhost"
+    },
+    {
+      "engine": "webkit",
+      "path": "/api/command",
+      "target": "isolated localhost"
+    }
+  ],
+  "productionAccountWrites": 0,
+  "target": "http://127.0.0.1:4388"
+}
