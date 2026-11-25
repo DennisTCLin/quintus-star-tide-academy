@@ -2253,7 +2253,8 @@ export function Game({ cloud }: { cloud: ReturnType<typeof useCloud> }) {
                 )}
               </>
             )}
-            {page === "review" && <StudyReview lesson={cloud.state.learningLessons?.[id]} session={p.learning.study?.session} question={cloud.state.studyQuestions?.[id]} grade={grade} busy={busy} online={cloud.online}
+            {page === "review" && <StudyReview key={id} lesson={cloud.state.learningLessons?.[id]} session={p.learning.study?.session} question={cloud.state.studyQuestions?.[id]} grade={grade} busy={busy} online={cloud.online}
+              companion={p.equipped} opponent={p.lastMonsterVariant} reduced={battleReducedMotion}
               onCommand={(type, extra) => change({ type, player: id, ...extra })} onStart={beginReview} onChallenge={course=>{if(pendingCapture||unfinishedJourney(run))requestLearning();else void begin(course);}} onHome={() => navigate('home')} onCourse={() => { navigate('home'); setCoursePicker(true); }} onError={setNotice} />}
             {isAdult&&adult&&page==="parent"&&<Suspense fallback={<p role="status">正在讀取英文紀錄…</p>}><AdultRecord learning={adult.learning}/></Suspense>}
             {!isAdult && page === "parent" && (

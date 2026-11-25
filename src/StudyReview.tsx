@@ -1,6 +1,7 @@
 import { resetFamilyScroll } from './family-scroll';
 import QuestionFigure,{useQuestionFigure} from './QuestionFigure';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
+import StudyBattle, { useStudyBattle } from './StudyBattle';
 import type { PublicQuestion } from './cloud';
 import type { StudySession, studySummary } from './study-review';
 import type { Grade, Course } from './learning';
@@ -32,14 +33,16 @@ export function StudyEntry({ summary, session, disabled, onStart, onFinish }: { 
     <details><summary>複習</summary><div className="f-actions"><button disabled={disabled} onClick={() => onStart('due')}>到期 · {summary?.due ?? 0}</button><button disabled={disabled} onClick={() => onStart('mistakes')}>再練練 · {summary?.mistakes ?? 0}</button><button disabled={disabled} onClick={() => onStart('all')}>自由複習</button>{resume&&<button disabled={disabled} onClick={onFinish}>結束這組</button>}</div></details>
   </div></section>;
 }
-export default function StudyReview({ lesson, session: r, question: q, grade, busy, online, onCommand, onStart, onHome, onCourse, onChallenge, onError }: {
+export default function StudyReview({ lesson, session: r, question: q, grade, busy, online, companion, opponent, reduced, onCommand, onStart, onHome, onCourse, onChallenge, onError }: {
   lesson?:ReturnType<typeof import('./study-review').publicLearningLesson>;
   session?: StudySession | null; question?: PublicQuestion; grade: Grade; busy: boolean; online: boolean;
+  companion: string; opponent?: string; reduced: boolean;
   onCommand: (type: string, extra?: Record<string, unknown>) => Promise<unknown>;
   onStart: (mode: StudySession['mode'], course?: Course) => void; onHome: () => void; onCourse: () => void;
   onChallenge: (course: Course) => void; onError: (message: string) => void;
 }) {
   const figure=useQuestionFigure(q), lessonFigure=useQuestionFigure(lesson?.example);
+  const battle = useStudyBattle(r, companion, reduced);
   const [heard, setHeard] = useState('');
   const heading = useRef<HTMLHeadingElement>(null);
   const key = `${r?.id}:${r?.index}:${r?.phase}`;
@@ -48,19 +51,23 @@ export default function StudyReview({ lesson, session: r, question: q, grade, bu
   const act=(type:string,extra:Record<string,unknown>={})=>onCommand(type,{sessionId:r!.id,...(type==='review-pause'||type==='review-finish'?{}:{index:r!.index}),...extra});
   const rest=async()=>{stopVoice();if(!r||r.status==='complete'||await act('review-pause'))onHome();};
   const chrome=<header className="pilot-header"><span>🧭 {r?.mode==='learn'?'自動領航':'複習'}</span>{r&&<span className="pilot-steps" aria-label={`第 ${r.index+1} 題，共 ${r.questions.length} 題`}>{r.questions.map((_,i)=><i key={i} className={i<r.index||i===r.index&&r.settled?'done':i===r.index?'current':''}/>)}</span>}<button className="pilot-rest" aria-label="休息，保留進度" disabled={locked} onClick={()=>void rest()}>⏸</button></header>;
-  if(!r)return <section className="f-panel study-session pilot-session">{chrome}<h1 ref={heading} tabIndex={-1}>去哪一座島？</h1><div className="pilot-courses">{COURSES[grade].map(c=><button className="f-primary" key={c.id} disabled={locked} onClick={()=>onStart('learn',c.id)}>{c.name}</button>)}</div></section>;
-  if(r.status==='paused'||r.phase==='scope')return <section className="f-panel study-session pilot-session">{chrome}<h1 ref={heading} tabIndex={-1}>接著玩</h1><button className="f-primary" disabled={locked} onClick={()=>onStart(r.mode,r.course)}>▶ 繼續</button></section>;
-  if(r.mode==='learn'&&r.phase==='lesson')return <section className="f-panel study-session pilot-session">{chrome}
+  const frame = (content: ReactNode) => <section className="f-panel study-session pilot-session" aria-label={r?.mode==='learn'?'領航題目':'複習題目'}>{chrome}
+    <StudyBattle session={r} companion={companion} opponent={opponent} reduced={reduced} motion={battle.motion} onSkip={battle.skip} />
+    <div className="pilot-controls">{content}</div>
+  </section>;
+  if(!r)return frame(<><h1 ref={heading} tabIndex={-1}>去哪一座島？</h1><div className="pilot-courses">{COURSES[grade].map(c=><button className="f-primary" key={c.id} disabled={locked} onClick={()=>onStart('learn',c.id)}>{c.name}</button>)}</div></>);
+  if(r.status==='paused'||r.phase==='scope')return frame(<><h1 ref={heading} tabIndex={-1}>接著玩</h1><button className="f-primary" disabled={locked} onClick={()=>onStart(r.mode,r.course)}>▶ 繼續</button></>);
+  if(r.mode==='learn'&&r.phase==='lesson')return frame(<>
     <div className="pilot-heading"><h1 ref={heading} tabIndex={-1}>一起看</h1><button aria-label="聽示範" disabled={locked} onClick={()=>speak([lesson?.example?.prompt,lesson?.example?.options[lesson.example.answer]?.text,lesson?.example?.explanation??lesson?.lesson].filter(Boolean).join('。'),onError)}>🔊 聽</button></div>
     {lesson?.example&&<div className="pilot-example"><QuestionPrompt question={lesson.example} grade={grade}/>{lesson.example.visual&&<p className="math-visual">{lesson.example.visual}</p>}<QuestionFigure question={lesson.example} onReady={lessonFigure.onReady}/>
       {lesson.example.audio&&<button aria-label="聽示範題的聲音" onClick={()=>playRecording(lesson.example!.audio!,lesson.example!.end,()=>{},onError)}>👂 聽聲音</button>}
       <p className="pilot-solution">→ <ChoiceView choice={lesson.example.options[lesson.example.answer]} grade={grade}/></p><p>{lesson.example.explanation}</p></div>}
     <div className="pilot-next"><button className="f-primary" disabled={locked||!lessonFigure.ready} onClick={()=>void act('learning-lesson',{done:true})}>▶ 換我試試</button></div>
-  </section>;
-  if(!q)return <section className="f-panel study-session pilot-session">{chrome}<p role="status">正在同步題目…</p></section>;
+  </>);
+  if(!q)return frame(<p role="status">正在同步題目…</p>);
   const needsAudio=grade<=2&&!!q.audio;
   const listen=()=>q.audio?playRecording(q.audio,q.end,()=>setHeard(key),onError):speak(questionSpeech({...q,grade}),onError,q.course==='english'?'en-US':'zh-TW');
-  return <section className="f-panel study-session pilot-session" aria-label={r.mode==='learn'?'領航題目':'複習題目'}>{chrome}
+  return frame(<>
     <div className="pilot-heading"><span className="study-eyebrow">{r.mode==='learn'?(r.assisted?'練一練':'探路'):'複習'} · {r.index+1} / {r.questions.length}</span><button data-read-aloud aria-label="聽題目" disabled={locked} onClick={listen}>👂 聽 {heard===key?'✓':''}</button></div>
     <h1 ref={heading} tabIndex={-1}><QuestionPrompt question={q} grade={grade}/></h1>
     {q.visual&&<p className="math-visual" data-learning-content>{q.visual}</p>}<QuestionFigure question={q} onReady={figure.onReady}/>
@@ -73,7 +80,7 @@ export default function StudyReview({ lesson, session: r, question: q, grade, bu
     {r.settled&&<div className="answer-explanation" role="status"><div className="pilot-heading"><h2>{r.answers[r.index]?'✓ 答對了':'一起看解法'}</h2><button aria-label="聽解法" onClick={()=>speak(q.explanation??'',onError,q.course==='english'?'en-US':'zh-TW')}>🔊 聽</button></div>
       {!r.answers[r.index]&&q.answer!==undefined&&<p>→ <ChoiceView choice={q.options[q.answer]} grade={grade} hideReadingHints={q.hideReadingHints}/></p>}
       <p>{q.explanation}</p>{q.target&&<ChoiceView choice={q.target} grade={grade}/>}</div>}
-    {r.status==='complete'?<div className="pilot-next study-complete"><button className="f-primary" disabled={locked} onClick={()=>r.mode==='learn'&&lesson?.challengeReady&&r.course?onChallenge(r.course):onStart(r.mode==='learn'?'learn':'all',r.course)}>{r.mode==='learn'&&lesson?.challengeReady?'⚔ 出發挑戰':'▶ 繼續'}</button><button disabled={locked} onClick={onCourse}>🗺 換島</button></div>
-      :r.settled&&<div className="pilot-next"><button className="f-primary" disabled={locked} onClick={()=>{stopVoice();void act('review-next');}}>▶ 下一步</button></div>}
-  </section>;
+    {r.status==='complete'?<div className="pilot-next study-complete"><button className="f-primary" disabled={locked||!!battle.motion} onClick={()=>r.mode==='learn'&&lesson?.challengeReady&&r.course?onChallenge(r.course):onStart(r.mode==='learn'?'learn':'all',r.course)}>{r.mode==='learn'&&lesson?.challengeReady?'⚔ 出發挑戰':'▶ 繼續'}</button><button disabled={locked} onClick={onCourse}>🗺 換島</button></div>
+      :r.settled&&<div className="pilot-next"><button className="f-primary" disabled={locked||!!battle.motion} onClick={()=>{stopVoice();void act('review-next');}}>▶ 下一步</button></div>}
+  </>);
 }
