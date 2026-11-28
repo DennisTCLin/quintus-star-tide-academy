@@ -10,7 +10,7 @@ import { ensureSchema } from './schema-migration.mjs';
 import { grantTickets } from './star-ticket-admin.mjs';
 import { applySchoolCurriculum, SCHOOL_ROSTER } from './school-roster.mjs';
 import { collectionIdentity } from './player-collections.mjs';
-import { validateFamily, PLAYERS, selectAbilitySnapshot } from '../build/game.mjs';
+import { validateFamily, PLAYERS, selectAbilitySnapshot, updateLearningProgress, TOPIC_BY_ID, taipeiDay } from '../build/game.mjs';
 
 const hash = value => createHash('sha256').update(value).digest('hex');
 const token = () => randomBytes(32).toString('hex');
@@ -131,10 +131,35 @@ export async function createAdminService({pool, production, limit, readBody, sen
     if(await trials(req,res,path,admin)) return;
     if(await invites(req,res,path,admin)) return;
     if(path==='/api/admin/presence' && req.method==='GET'){send(res,200,await readAdminPresence(pool,admin));return;}
-    if(path.startsWith('/api/admin/parent/') && req.method==='GET'){
-      need(admin.role==='super_admin','家長艙目前由超級管理員查看',403);
+    if(path.startsWith('/api/admin/parent/') && ['GET','POST'].includes(req.method)){
+      need(admin.role==='super_admin','家長艙目前由超級管理員操作',403);
       const id=path.slice('/api/admin/parent/'.length);
       need(/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id),'孩子編號不正確');
+      if(req.method==='POST'){
+        const body=await readBody(req);fields(body,['topic','state']);
+        need(TOPIC_BY_ID[body.topic]?.nanyiPilot&&['taught','not-yet'].includes(body.state),'找不到可設定的學校進度');
+        const db=await pool.connect();
+        try {
+          await db.query('BEGIN');
+          const current=await authenticate(req,db,true);
+          need(current.role==='super_admin'&&!current.must_change_password&&current.csrf===admin.csrf,'權限已更新',403);
+          const row=(await db.query(`SELECT m.id AS member_id,m.account_id,m.player_id,m.username,m.trial_curriculum,g.family
+            FROM game_states g JOIN player_logins m ON m.account_id=g.account_id
+            WHERE m.id=$1 AND (${await schoolMemberPredicate(db)}) FOR UPDATE OF g`,[id])).rows[0];
+          need(row,'找不到這位孩子',404);
+          const grade=PLAYERS.find(player=>player.id===row.player_id)?.grade;
+          const learning=applySchoolCurriculum(validateFamily(structuredClone(row.family)),row).profiles[row.player_id].learning;
+          need(grade===4&&learning.school==='dunhua','這位孩子未使用此教材版本');
+          updateLearningProgress(learning,grade,body.topic,body.state,taipeiDay());
+          const saved=row.family.profiles[row.player_id].learning;
+          saved.adaptive=learning.adaptive;
+          if(saved.study)saved.study.session=learning.study?.session??null;
+          row.family.revision++;
+          validateFamily(structuredClone(row.family));
+          await db.query('UPDATE game_states SET family=$2,updated_at=now() WHERE account_id=$1',[row.account_id,row.family]);
+          await db.query('COMMIT');
+        }catch(error){await db.query('ROLLBACK');throw error;}finally{db.release();}
+      }
       send(res,200,await readAdminParentReport(pool,id));return;
     }
     if(path==='/api/admin/students' && req.method==='GET') {send(res,200,{students:await readAdminStudents(pool,admin),updatedAt:new Date().toISOString()});return;}

@@ -1,7 +1,7 @@
 import type { LearningState } from './learning-engine';
 import { questionById, type Course, type Grade, type LearningQuestion } from './learning';
 import { topicForQuestion } from './adaptive-catalog';
-import { availableLearningTopics, independentSuccess, learningReadiness, mappedQuestion, needsAssessment } from './adaptive-learning';
+import { availableLearningTopics, independentSuccess, learningReadiness, mappedQuestion, nanyiExamReady, needsAssessment, schoolExposure } from './adaptive-learning';
 import { transferSignature } from './adaptive-transfer';
 
 /** Plan only reviewed, source-compatible items. The server replans the unanswered
@@ -24,7 +24,18 @@ export function pilotQuestions(s: LearningState, grade: Grade, course: Course, d
   const rankTopic = (id: string, prerequisite?: string) =>
     id === preferred && (stay || !ready.has(id)) ? 0 : preferred !== undefined && prerequisite === preferred ? 1 :
       !preferred && recent.has(id) ? 0 : !ready.has(id) ? 2 : id === preferred ? 3 : 4;
-  topics.sort((a, b) => rankTopic(a.id, a.prerequisite) - rankTopic(b.id, b.prerequisite));
+  const prioritizedExam = (id: string) => {
+    const examId=topics.find(t=>t.id===id)?.nanyiPilot?.exam, q=examId&&questionById(examId);
+    return !!q&&!excluded.includes(q.id)&&!s.study?.entries[q.id]&&nanyiExamReady(s,q);
+  };
+  const pilotRank = (id:string) => {
+    const topic=topics.find(t=>t.id===id);
+    if(id===preferred)return prioritizedExam(id)||stay||!ready.has(id)?0:3;
+    if(!topic?.nanyiPilot)return 4;
+    return schoolExposure(s,id)==='taught'?1:2;
+  };
+  if(topics.some(t=>t.nanyiPilot))topics.sort((a,b)=>pilotRank(a.id)-pilotRank(b.id)||rankTopic(a.id,a.prerequisite)-rankTopic(b.id,b.prerequisite));
+  else topics.sort((a, b) => rankTopic(a.id, a.prerequisite) - rankTopic(b.id, b.prerequisite));
   const used = new Set(excluded), families = new Set(excluded.map(id => questionById(id)?.sourceFamily ?? id));
   const chosen: string[] = [];
   for (const t of topics) {
@@ -32,11 +43,12 @@ export function pilotQuestions(s: LearningState, grade: Grade, course: Course, d
       const e = s.study?.entries[q.id], a = s.adaptive?.evidence[q.id];
       if (s.adaptive?.examples[q.id] === day || a?.day === day && (!a.correct || a.assisted || a.taughtExample)) return 5;
       if (e && e.due <= d) return 0;
+      if (q.id===t.nanyiPilot?.exam&&!e) return 0;
       if (e?.needsPractice || a && !a.correct) return 1;
       return independentSuccess(s, q) ? 3 : 2;
     };
     const candidates = t.questions.map(questionById).filter((q): q is LearningQuestion => {
-      if (!mappedQuestion(s, q, grade, course) || gap&&!gap(q) || used.has(q.id) || families.has(q.sourceFamily ?? q.id)) return false;
+      if (!mappedQuestion(s, q, grade, course) || !nanyiExamReady(s,q) || gap&&!gap(q) || used.has(q.id) || families.has(q.sourceFamily ?? q.id)) return false;
       const e = s.study?.entries[q.id];
       return !e || e.last < d || e.retryAfter <= (s.study?.sequence ?? 0) + 1;
     }).sort((a, b) => rank(a) - rank(b) ||
@@ -57,6 +69,7 @@ export function pilotQuestions(s: LearningState, grade: Grade, course: Course, d
  * Both remain assisted; later independent retrieval is assessed separately. */
 export function pilotExample(s: LearningState, q: LearningQuestion, used: string[]) {
   const signature = transferSignature(q), topic = topicForQuestion(q);
+  if (topic?.nanyiPilot) return topic.nanyiPilot.example;
   if (signature && topic) {
     const other = topic.questions.map(questionById).find(x => mappedQuestion(s, x, q.grade, q.course)
       && x.id !== q.id && !used.includes(x.id) && transferSignature(x) === signature);

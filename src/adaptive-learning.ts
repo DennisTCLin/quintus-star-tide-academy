@@ -1,3 +1,4 @@
+import {coursePublisher} from './school-curriculum';
 import {examEvidenceMatches} from './adaptive-source-evidence';
 import type { LearningState, QuestionAllocation } from './learning-engine';
 import { questionById, type LearningQuestion, type Grade, type Course } from './learning';
@@ -21,7 +22,8 @@ export const enableAdaptive=(s:LearningState)=>s.adaptive??={version:1,sequence:
 export const scopeKey=(s:LearningState,topic:string)=>`${s.school??'unconfirmed'}:115-1:${topic}`;
 export function schoolExposure(s:LearningState,topic:string){return s.adaptive?.scope[scopeKey(s,topic)]?.state;}
 export function reportSchoolExposure(s:LearningState,grade:Grade,topic:string,state:SchoolExposure,day:string) {
- need(TOPIC_BY_ID[topic]?.grade===grade&&['taught','not-yet'].includes(state)&&date(day));
+ const definition=TOPIC_BY_ID[topic];
+ need(definition?.grade===grade&&(!definition.nanyiPilot||coursePublisher(s.school,grade,definition.course)==='南一')&&['taught','not-yet'].includes(state)&&date(day));
  enableAdaptive(s).scope[scopeKey(s,topic)]={state,day,source:'learner'};return true;
 }
 export const previewAllowed=(s:LearningState,topic:string)=>s.adaptive?.scope[scopeKey(s,topic)]?.preview===true;
@@ -38,7 +40,16 @@ export function validateAdaptive(value:unknown,grade:Grade) {
  for(const [id,day] of Object.entries(a.examples))need(questionById(id)?.grade===grade&&date(day));
 }
 export function mappedQuestion(s:LearningState,q:LearningQuestion|undefined,grade:Grade,course?:Course):q is LearningQuestion {
- return !!q&&!q.retired&&q.grade===grade&&(!course||q.course===course)&&!!topicForQuestion(q)&&examEvidenceMatches(s.school,q);
+ const topic=q&&topicForQuestion(q);
+ return !!q&&!q.retired&&q.grade===grade&&(!course||q.course===course)&&!!topic
+   &&(!topic.nanyiPilot||coursePublisher(s.school,grade,topic.course)==='南一')&&examEvidenceMatches(s.school,q);
+}
+export function nanyiExamReady(s:LearningState,q:LearningQuestion) {
+ const topic=topicForQuestion(q);
+ if(!topic?.nanyiPilot||q.id!==topic.nanyiPilot.exam)return true;
+ if(schoolExposure(s,topic.id)!=='taught')return false;
+ return topic.questions.filter(id=>id!==q.id).map(questionById)
+   .filter((practice):practice is LearningQuestion=>mappedQuestion(s,practice,q.grade)&&independentSuccess(s,practice)).length>=2;
 }
 export function independentSuccess(s:LearningState,q:LearningQuestion) {
  const session=s.study?.session;if(session?.mode==='learn'&&session.phase==='lesson'&&session.questions[session.index]===q.id)return false;
@@ -53,6 +64,7 @@ export function independentSuccess(s:LearningState,q:LearningQuestion) {
 export function reviewEligible(s:LearningState,q:LearningQuestion|undefined,grade:Grade,course?:Course):q is LearningQuestion {
  if(!q||q.retired||q.grade!==grade||course&&q.course!==course||!examEvidenceMatches(s.school,q))return false;
  const topic=topicForQuestion(q);
+ if(topic?.nanyiPilot&&(!mappedQuestion(s,q,grade,course)||schoolExposure(s,topic.id)==='not-yet'||!nanyiExamReady(s,q)))return false;
  if(topic&&mappedQuestion(s,q,grade,course))return true;
  const prior=s.study?.entries[q.id];
  const trustedHistory=!s.adaptive?.ignoreLegacyEvidence&&!!prior&&prior.correct>0&&prior.independent>0;
@@ -79,6 +91,7 @@ export function learningReadiness(s:LearningState) {
 function eligibleWith(s:LearningState,q:LearningQuestion|undefined,grade:Grade,course:Course|undefined,ready:ReturnType<typeof learningReadiness>):q is LearningQuestion {
  if(!mappedQuestion(s,q,grade,course))return false;
  const t=topicForQuestion(q)!;
+ if(t.nanyiPilot&&(schoolExposure(s,t.id)==='not-yet'||!nanyiExamReady(s,q)))return false;
  if(independentSuccess(s,q))return ready.topics.has(t.id)||ready.certifiedTopics.has(t.id);
  // A failed, assisted or exposed item must be relearned independently. A
  // neighbouring template cannot erase its own contrary learning evidence.
@@ -126,12 +139,14 @@ export function adaptiveSummary(s:LearningState,grade:Grade) {
   const t=topicForQuestion(id),q=questionById(id);if(!t||t.grade!==grade||!q)continue;
   const c=counts[t.id]??={ready:0,practicing:0};c.practicing++;if(eligibleWith(s,q,grade,undefined,ready))c.ready++;
  }
- return topicsFor(grade).map(t=>({id:t.id,course:t.course,title:t.title,exposure:schoolExposure(s,t.id)??'unknown',...counts[t.id]??{ready:0,practicing:0}}));
+ return topicsFor(grade).filter(t=>!t.nanyiPilot||coursePublisher(s.school,grade,t.course)==='南一')
+  .map(t=>({id:t.id,course:t.course,title:t.title,exposure:schoolExposure(s,t.id)??'unknown',
+    ...(t.nanyiPilot?{schoolProgressPilot:true as const}:{}),...counts[t.id]??{ready:0,practicing:0}}));
 }
 /** School reports remain historical claims; demonstrated ability selects the route. */
 export function availableLearningTopics(s:LearningState,grade:Grade,course?:Course) {
  const ready=learningReadiness(s).topics;
- return topicsFor(grade,course).filter(t=>(!t.prerequisite||ready.has(t.prerequisite))&&t.questions.some(id=>mappedQuestion(s,questionById(id),grade,course)));
+ return topicsFor(grade,course).filter(t=>(!t.nanyiPilot||schoolExposure(s,t.id)!=='not-yet')&&(!t.prerequisite||ready.has(t.prerequisite))&&t.questions.some(id=>mappedQuestion(s,questionById(id),grade,course)));
 }
 export function chooseLearningTopic(s:LearningState,grade:Grade,course?:Course,requested?:string) {
  const available=availableLearningTopics(s,grade,course), ready=learningReadiness(s).topics;

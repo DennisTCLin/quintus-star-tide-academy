@@ -28,7 +28,7 @@ export function StudySummary({ summary, name, grade }: { summary?: Summary; name
 }
 export function StudyEntry({ summary, session, disabled, onStart, onFinish }: { summary?: Summary; session?: StudySession | null; disabled: boolean; onStart: (mode: StudySession['mode']) => void; onFinish: () => void }) {
   const resume = session && session.status !== 'complete';
-  return <section className="f-panel study-entry"><h2>🧭 自動領航</h2><div className="f-actions">
+  return <section className="f-panel study-entry"><h2>🧭 今天練什麼</h2><div className="f-actions">
     <button className="f-primary" disabled={disabled} onClick={() => onStart(resume ? session.mode : 'learn')}>{resume ? '▶ 繼續' : '▶ 開始'}</button>
     <details><summary>複習</summary><div className="f-actions"><button disabled={disabled} onClick={() => onStart('due')}>到期 · {summary?.due ?? 0}</button><button disabled={disabled} onClick={() => onStart('mistakes')}>再練練 · {summary?.mistakes ?? 0}</button><button disabled={disabled} onClick={() => onStart('all')}>自由複習</button>{resume&&<button disabled={disabled} onClick={onFinish}>結束這組</button>}</div></details>
   </div></section>;
@@ -58,7 +58,7 @@ export default function StudyReview({ lesson, session: r, question: q, grade, bu
   if(!r)return frame(<><h1 ref={heading} tabIndex={-1}>去哪一座島？</h1><div className="pilot-courses">{COURSES[grade].map(c=><button className="f-primary" key={c.id} disabled={locked} onClick={()=>onStart('learn',c.id)}>{c.name}</button>)}</div></>);
   if(r.status==='paused'||r.phase==='scope')return frame(<><h1 ref={heading} tabIndex={-1}>接著玩</h1><button className="f-primary" disabled={locked} onClick={()=>onStart(r.mode,r.course)}>▶ 繼續</button></>);
   if(r.mode==='learn'&&r.phase==='lesson')return frame(<>
-    <div className="pilot-heading"><h1 ref={heading} tabIndex={-1}>一起看</h1><button aria-label="聽示範" disabled={locked} onClick={()=>speak([lesson?.example?.prompt,lesson?.example?.options[lesson.example.answer]?.text,lesson?.example?.explanation??lesson?.lesson].filter(Boolean).join('。'),onError)}>🔊 聽</button></div>
+    <div className="pilot-heading"><h1 ref={heading} tabIndex={-1}>一起看</h1>{!lesson?.stage&&<button aria-label="聽示範" disabled={locked} onClick={()=>speak([lesson?.example?.prompt,lesson?.example?.options[lesson.example.answer]?.text,lesson?.example?.explanation??lesson?.lesson].filter(Boolean).join('。'),onError)}>🔊 聽</button>}</div>
     {lesson?.example&&<div className="pilot-example"><QuestionPrompt question={lesson.example} grade={grade}/>{lesson.example.visual&&<p className="math-visual">{lesson.example.visual}</p>}<QuestionFigure question={lesson.example} onReady={lessonFigure.onReady}/>
       {lesson.example.audio&&<button aria-label="聽示範題的聲音" onClick={()=>playRecording(lesson.example!.audio!,lesson.example!.end,()=>{},onError)}>👂 聽聲音</button>}
       <p className="pilot-solution">→ <ChoiceView choice={lesson.example.options[lesson.example.answer]} grade={grade}/></p><p>{lesson.example.explanation}</p></div>}
@@ -68,7 +68,7 @@ export default function StudyReview({ lesson, session: r, question: q, grade, bu
   const needsAudio=grade<=2&&!!q.audio;
   const listen=()=>q.audio?playRecording(q.audio,q.end,()=>setHeard(key),onError):speak(questionSpeech({...q,grade}),onError,q.course==='english'?'en-US':'zh-TW');
   return frame(<>
-    <div className="pilot-heading"><span className="study-eyebrow">{r.mode==='learn'?(r.assisted?'練一練':'探路'):'複習'} · {r.index+1} / {r.questions.length}</span><button data-read-aloud aria-label="聽題目" disabled={locked} onClick={listen}>👂 聽 {heard===key?'✓':''}</button></div>
+    <div className="pilot-heading"><span className="study-eyebrow">{r.mode==='learn'?(r.assisted?'練一練':lesson?.stage==='exam'?'考題驗收':lesson?.stage==='practice'?'自己試試':'探路'):'複習'} · {r.index+1} / {r.questions.length}</span>{!lesson?.stage&&<button data-read-aloud aria-label="聽題目" disabled={locked} onClick={listen}>👂 聽 {heard===key?'✓':''}</button>}</div>
     <h1 ref={heading} tabIndex={-1}><QuestionPrompt question={q} grade={grade}/></h1>
     {q.visual&&<p className="math-visual" data-learning-content>{q.visual}</p>}<QuestionFigure question={q} onReady={figure.onReady}/>
     {needsAudio&&heard!==key&&!r.settled&&<p className="pilot-audio-cue">👆 先聽，再選</p>}
@@ -77,7 +77,7 @@ export default function StudyReview({ lesson, session: r, question: q, grade, bu
     </AnswerOption>)}</div>
     {!r.settled&&<div className="pilot-help">{r.mode==='learn'?<button disabled={locked} onClick={()=>{stopVoice();void act('learning-lesson',{done:false});}}>💡 教我</button>:<button disabled={locked||r.assisted} onClick={()=>void act('review-hint')}>💡 提示</button>}<span>♡ 不扣血 · 不計時</span></div>}
     {r.assisted&&!r.settled&&r.mode!=='learn'&&<p className="hint-box">{q.hint}</p>}
-    {r.settled&&<div className="answer-explanation" role="status"><div className="pilot-heading"><h2>{r.answers[r.index]?'✓ 答對了':'一起看解法'}</h2><button aria-label="聽解法" onClick={()=>speak(q.explanation??'',onError,q.course==='english'?'en-US':'zh-TW')}>🔊 聽</button></div>
+    {r.settled&&<div className="answer-explanation" role="status"><div className="pilot-heading"><h2>{r.answers[r.index]?'✓ 答對了':'一起看解法'}</h2>{!lesson?.stage&&<button aria-label="聽解法" onClick={()=>speak(q.explanation??'',onError,q.course==='english'?'en-US':'zh-TW')}>🔊 聽</button>}</div>
       {!r.answers[r.index]&&q.answer!==undefined&&<p>→ <ChoiceView choice={q.options[q.answer]} grade={grade} hideReadingHints={q.hideReadingHints}/></p>}
       <p>{q.explanation}</p>{q.target&&<ChoiceView choice={q.target} grade={grade}/>}</div>}
     {r.status==='complete'?<div className="pilot-next study-complete"><button className="f-primary" disabled={locked||!!battle.motion} onClick={()=>r.mode==='learn'&&lesson?.challengeReady&&r.course?onChallenge(r.course):onStart(r.mode==='learn'?'learn':'all',r.course)}>{r.mode==='learn'&&lesson?.challengeReady?'⚔ 出發挑戰':'▶ 繼續'}</button><button disabled={locked} onClick={onCourse}>🗺 換島</button></div>

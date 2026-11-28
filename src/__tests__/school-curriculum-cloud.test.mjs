@@ -34,7 +34,7 @@ suite('authenticated school routing and adaptive readiness',()=>{
     const papers=LEARNING_BANK.filter(q=>!q.retired&&q.grade===grade&&q.course===course&&eligibleExam(school,grade,course,q));expect(papers.length).toBeGreaterThan(0);
     for(const q of papers){expect(q.publisher).toBe(publisher);expect(q.examSources.every(s=>!!EXAM_SOURCES[s.id])).toBe(true);expect(questionById(q.id)).toEqual(q);}
     const sent=await call('command',{id:randomUUID(),revision:st.family.revision,command:{type:'start',player,course,practice:false,timing:'relaxed'}},c);expect(sent.status,JSON.stringify(sent.data)).toBe(200);st=sent.data;
-    expect(st.result).toBe('learn');expect(st.family.profiles[player].run).toBeNull();expect(st.learningLessons[player].example).toBeUndefined();expect(st.questions[player]).toBeUndefined();expect(ledger(st.family.profiles[player])).toEqual(ledger(p));
+    expect(st.result).toBe('learn');expect(st.family.profiles[player].run).toBeNull();if(school==='dunhua'&&grade===4&&course==='math')expect(st.learningLessons[player].example?.id).toBe('ny4-fraction-kind-0');else expect(st.learningLessons[player].example).toBeUndefined();expect(st.questions[player]).toBeUndefined();expect(ledger(st.family.profiles[player])).toEqual(ledger(p));
     expect(st.family.profiles[player].learning.mastered).toEqual(p.learning.mastered);
     const end=await call('command',{id:randomUUID(),revision:st.family.revision,command:{type:'review-finish',player,sessionId:st.family.profiles[player].learning.study.session.id}},c);expect(end.status).toBe(200);st=end.data;
     const battle=await call('command',{id:randomUUID(),revision:st.family.revision,command:{type:'battle-start',player,course,used:[]}},c);expect(battle.status).toBe(400);

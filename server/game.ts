@@ -22,7 +22,7 @@ export { markMastered, hasMastered } from "../src/mastered-questions";
 export { collectionWeekStart } from "../src/game-view";
 export { creatureProgress } from "../src/companion-growth";
 
-export { startStudy, answerStudy, nextStudy, hintStudy, pauseStudy, observeStudy, studySummary } from "../src/study-review";
+export { startStudy, answerStudy, updateLearningProgress, nextStudy, hintStudy, pauseStudy, observeStudy, studySummary } from "../src/study-review";
 export { selectAbilitySnapshot } from "../src/growth";
 
 export { answerCapture, skipCapture, captureIndex } from "../src/capture-trial";
@@ -49,3 +49,6 @@ export { adaptCapture } from '../src/capture-trial';
 export { reportIslandScope, protectIslandReservation } from '../src/island/adaptive';
 
 export { protectAdventureReservation } from '../src/adventure';
+
+export { TOPIC_BY_ID } from '../src/adaptive-catalog';
+export { nanyiExamReady } from '../src/adaptive-learning';

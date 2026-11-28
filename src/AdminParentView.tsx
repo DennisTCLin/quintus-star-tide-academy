@@ -1,19 +1,21 @@
 import {StudySummary} from './StudyReview';
 import type {Grade} from './learning';
+import type { adaptiveSummary } from './adaptive-learning';
 import type {studySummary} from './study-review';
 import {useEffect,useRef,useState} from 'react';
 import {SKILL_NAMES} from './learning-catalog';
-export type ParentReport={memberId:string;username:string;displayName:string;grade:Grade;study?:ReturnType<typeof studySummary>;cloudSavedAt:string;cloudVerified:number|null;gardenImported:boolean;
+export type ParentReport={memberId:string;username:string;displayName:string;grade:Grade;schoolProgress?:ReturnType<typeof adaptiveSummary>;study?:ReturnType<typeof studySummary>;cloudSavedAt:string;cloudVerified:number|null;gardenImported:boolean;
  collection:{species:number;copies:number;draws:number};rewards:{stars:number;starsPerTicket:number;completedRounds:number};
  run:{course:string;day:string;status:string;answered:number|null;correct:number|null;total:number;practice:boolean}|null;
  lastDraw:{name:string;rarity:string|null;ticketType:string;duplicate:boolean}|null;
  grants:{grantId:string;amount:number;ticketType:string;reason:string;createdAt:string}[];updatedAt:string};
 const date=(v:string)=>new Date(v).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false});
 const kind=(v:string)=>v==='standard'?'一般扭蛋券':'星耀券';
-export default function AdminParentView({memberId,refreshToken,load}:{memberId:string;refreshToken:string|null;load:(id:string,signal:AbortSignal)=>Promise<ParentReport>}){
- const read=useRef(load);read.current=load;const [data,setData]=useState<ParentReport|null>(null),[error,setError]=useState(''),[retry,setRetry]=useState(0);
- useEffect(()=>{const controller=new AbortController();let active=true;setError('');const timeout=setTimeout(()=>controller.abort(new Error('讀取逾時，請重試')),10000);
-  void read.current(memberId,controller.signal).then(value=>{if(active){if(value.memberId!==memberId)throw Error('孩子資料已變更，請重新整理');setData(value);}}).catch(e=>{if(active)setError(e.message);}).finally(()=>clearTimeout(timeout));
+export default function AdminParentView({memberId,refreshToken,load,saveProgress}:{memberId:string;refreshToken:string|null;load:(id:string,signal:AbortSignal)=>Promise<ParentReport>;
+ saveProgress:(id:string,topic:string,state:'taught'|'not-yet')=>Promise<ParentReport>}){
+ const read=useRef(load),saveRevision=useRef(0),pendingSave=useRef(false);read.current=load;const [data,setData]=useState<ParentReport|null>(null),[error,setError]=useState(''),[retry,setRetry]=useState(0),[saving,setSaving]=useState(false);
+ useEffect(()=>{if(pendingSave.current)return;const controller=new AbortController(), revision=saveRevision.current;let active=true;setError('');const timeout=setTimeout(()=>controller.abort(new Error('讀取逾時，請重試')),10000);
+  void read.current(memberId,controller.signal).then(value=>{if(active&&revision===saveRevision.current){if(value.memberId!==memberId)throw Error('孩子資料已變更，請重新整理');setData(value);}}).catch(e=>{if(active&&revision===saveRevision.current)setError(e.message);}).finally(()=>clearTimeout(timeout));
   return()=>{active=false;clearTimeout(timeout);controller.abort();};
  },[memberId,refreshToken,retry]);
  return <section className="admin-parent" aria-label="所選孩子的家長艙">
@@ -21,6 +23,18 @@ export default function AdminParentView({memberId,refreshToken,load}:{memberId:s
   {error&&<div role="alert"><p>{error}</p><button onClick={()=>setRetry(n=>n+1)}>重新讀取家長艙</button></div>}
   {!data&&!error&&<p role="status">正在讀取家長艙…</p>}
   {data&&<><p className="admin-help">{data.displayName}（{data.username}） · 資料更新於 {date(data.updatedAt)}</p>
+   {Boolean(data.schoolProgress?.length)&&<div className="admin-parent-section"><h3>四上南一數學進度</h3>
+    {data.schoolProgress?.map(topic=><p key={topic.id}><label>{topic.title}{' '}
+      <select disabled={saving} value={topic.exposure} onChange={event=>{
+        const selection=event.currentTarget.value;
+        if(selection!=='taught'&&selection!=='not-yet')return;
+        pendingSave.current=true;saveRevision.current++;setSaving(true);setError('');
+        void saveProgress(memberId,topic.id,selection).then(setData).catch(error=>setError(error.message)).finally(()=>{pendingSave.current=false;setSaving(false);});
+      }}>
+        <option value="unknown" disabled>待確認</option><option value="taught">學校已教</option><option value="not-yet">學校還沒教</option>
+      </select>
+    </label></p>)}
+   </div>}
    <StudySummary name={data.displayName} grade={data.grade} summary={data.study}/>
    <div className="admin-parent-section"><h3>收藏與獎勵</h3><dl className="admin-stats"><div><dt>夥伴種類</dt><dd>{data.collection.species}</dd></div><div><dt>夥伴卡片</dt><dd>{data.collection.copies}</dd></div><div><dt>累計扭蛋</dt><dd>{data.collection.draws}</dd></div><div><dt>已存星星</dt><dd>{data.rewards.stars} / {data.rewards.starsPerTicket}</dd></div></dl>
     <p>每存滿 {data.rewards.starsPerTicket} 顆星，自動換一張一般扭蛋券。使用券不會扣除學習成就。</p>

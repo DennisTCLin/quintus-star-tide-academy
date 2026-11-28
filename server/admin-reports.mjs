@@ -1,6 +1,6 @@
 import {schoolMemberPredicate} from './learner-programme.mjs';
 import {allStudents} from './admin-access.mjs';
-import {validateFamily,STARS_PER_TICKET,petById,PLAYERS,ACTIVITIES,studySummary,taipeiDay} from '../build/game.mjs';
+import {validateFamily,STARS_PER_TICKET,petById,PLAYERS,ACTIVITIES,studySummary,adaptiveSummary,taipeiDay} from '../build/game.mjs';
 import {applySchoolCurriculum} from './school-roster.mjs';
 
 // A view never writes a heartbeat. The real member, not a shared grade slot,
@@ -33,6 +33,7 @@ export async function readAdminParentReport(pool,memberId){
  const counts=Object.values(p.owned).filter(n=>n>0),pet=p.lastDraw?petById(p.lastDraw.pet):null;
  const verified=row.verified?.[row.player_id];
  return {memberId,username:row.username,displayName:row.display_name,grade:PLAYERS.find(x=>x.id===row.player_id).grade,
+  schoolProgress:adaptiveSummary(p.learning,PLAYERS.find(x=>x.id===row.player_id).grade).filter(topic=>topic.schoolProgressPilot),
   study:studySummary(p.learning,PLAYERS.find(x=>x.id===row.player_id).grade,taipeiDay()),
   cloudSavedAt:row.updated_at.toISOString(),cloudVerified:Number.isSafeInteger(verified)&&verified>=0?verified:null,gardenImported:p.gardenImported,
   collection:{species:counts.length,copies:counts.reduce((a,b)=>a+b,0),draws:p.draws},

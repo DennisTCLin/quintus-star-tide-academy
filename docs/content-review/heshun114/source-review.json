@@ -1,0 +1,311 @@
+{
+  "sourceId": "20003314",
+  "status": "source_review_complete",
+  "book": 7,
+  "publisher": "南一",
+  "unitNames": {
+    "6": "分數",
+    "7": "數量關係",
+    "8": "整數四則",
+    "9": "小數",
+    "10": "長度"
+  },
+  "publisherEvidence": "https://schoolweb.tn.edu.tw/~hses_www/modules/tadnews/index.php?files_sn=8589&op=tufdl",
+  "curriculumEvidence": "https://www.cp.ptc.edu.tw/storage/134652/134652_114_B-04_4A.pdf?1774945981=",
+  "files": [
+    {
+      "kind": "q",
+      "path": "tcool-20003314-q.pdf",
+      "sha256": "bb6214c4bbfdff2e306ccf77084d693141e4af0a61d014261c34249b2df291c5"
+    },
+    {
+      "kind": "a",
+      "path": "tcool-20003314-a.pdf",
+      "sha256": "dd9389b346ede80e72fe6fd0090b12e70b0dc5d30a3db21084f2e4ea4000f689"
+    }
+  ],
+  "items": [
+    {
+      "section": "一",
+      "number": 1,
+      "unit": 6,
+      "answer": "④",
+      "reason": "分子和分母一樣大時，分數為假分數。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 2,
+      "unit": 6,
+      "answer": "③",
+      "reason": "2 顆占 10 顆的 2/10。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 3,
+      "unit": 6,
+      "answer": "③",
+      "reason": "4/5 距離 1 最小。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 4,
+      "unit": 6,
+      "answer": "②",
+      "reason": "圖上每個單位分成六等份，8/6 在 1 右側第二個刻度 B。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 5,
+      "unit": 6,
+      "answer": "④",
+      "reason": "4×7+3=31。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 6,
+      "unit": 7,
+      "answer": "②",
+      "reason": "月曆同一欄每往下一格增加 7。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 7,
+      "unit": 7,
+      "answer": "②",
+      "reason": "對照前三組，空位延續下排同方向的兩格圖案。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 8,
+      "unit": 7,
+      "answer": "③",
+      "reason": "93 為奇數，九個數中有五個奇數。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 9,
+      "unit": 7,
+      "answer": "③",
+      "reason": "33 與 77 都是奇數，相加為偶數。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 10,
+      "unit": 8,
+      "answer": "③",
+      "reason": "先扣除 40，再把 160 平分給 5 人。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 11,
+      "unit": 8,
+      "answer": "②",
+      "reason": "先算括號 20−10=10，再乘以 60。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 12,
+      "unit": 8,
+      "answer": "①",
+      "reason": "6 箱乘每箱 18，除以 9 人。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 13,
+      "unit": 9,
+      "answer": "④",
+      "reason": "7 在百分位。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 14,
+      "unit": 9,
+      "answer": "①",
+      "reason": "60+0.5+0.12=60.62。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "一",
+      "number": 15,
+      "unit": 9,
+      "answer": "②",
+      "reason": "百格板有 30 格著色，即 30/100=0.3。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "二",
+      "number": 1,
+      "unit": 8,
+      "answer": "481",
+      "reason": "300+181",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "二",
+      "number": 2,
+      "unit": 8,
+      "answer": "270",
+      "reason": "90×3",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "二",
+      "number": 3,
+      "unit": 8,
+      "answer": "100",
+      "reason": "300−200",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "二",
+      "number": 4,
+      "unit": 8,
+      "answer": "90",
+      "reason": "6300÷70",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "二",
+      "number": 5,
+      "unit": 9,
+      "answer": "5.2",
+      "reason": "79+441=520 個百分之一",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "二",
+      "number": 6,
+      "unit": 9,
+      "answer": "13.14",
+      "reason": "1440−126=1314 個百分之一",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "三",
+      "number": 1,
+      "unit": 6,
+      "answer": "5又1/12箱",
+      "reason": "61÷12 商5餘1",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "三",
+      "number": 2,
+      "unit": 8,
+      "answer": "4包",
+      "reason": "126÷14−5=4",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "三",
+      "number": 3,
+      "unit": 10,
+      "answer": "15分鐘",
+      "reason": "1000÷200×3=15",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "三",
+      "number": 4,
+      "unit": 10,
+      "answer": "2599公尺",
+      "reason": "3000+84−485=2599",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "四（一）",
+      "number": 1,
+      "unit": 9,
+      "answer": "③",
+      "reason": "依題目提供資料，9.58+10.11=19.69。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "四（二）",
+      "number": 1,
+      "unit": 7,
+      "answer": "④",
+      "reason": "兩個完整排共 12 人，第三排第 4 個是第 16 人。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "四（二）",
+      "number": 2,
+      "unit": 7,
+      "answer": "②",
+      "reason": "四個完整排共 24 人，第 28 人是第五排第 4 個 D。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "五（一）",
+      "number": 1,
+      "unit": 10,
+      "answer": "公里",
+      "reason": "環臺尺度",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "五（一）",
+      "number": 2,
+      "unit": 10,
+      "answer": "公分",
+      "reason": "鉛筆尺度",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "五（一）",
+      "number": 3,
+      "unit": 10,
+      "answer": "公尺",
+      "reason": "大樓尺度",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "五（二）",
+      "number": 1,
+      "unit": 10,
+      "answer": "8公里95公尺",
+      "reason": "8095=8000+95。",
+      "matchesSourceKey": true
+    },
+    {
+      "section": "五（二）",
+      "number": 2,
+      "unit": 10,
+      "answer": "4公里",
+      "reason": "400000 公分=4000 公尺。",
+      "matchesSourceKey": true
+    }
+  ],
+  "notes": [
+    "兩頁題目版和答案版均核對。純文字抽取會把答案圖層混進題目版，圖示及題面應採原卷渲染。",
+    "四（一）跑步數據屬題內資料，若移植需保留題內資料的語境。",
+    "來源內容核對不代表已進題庫，還需題目去重、圖示或題型移植、既有 ID 與資料保全測試。"
+  ],
+  "batch": [
+    "g4m-tcool-20003314-i1",
+    "g4m-tcool-20003314-i2",
+    "g4m-tcool-20003314-i3",
+    "g4m-tcool-20003314-i5",
+    "g4m-tcool-20003314-i8",
+    "g4m-tcool-20003314-i9",
+    "g4m-tcool-20003314-i10",
+    "g4m-tcool-20003314-i11",
+    "g4m-tcool-20003314-i12",
+    "g4m-tcool-20003314-i13",
+    "g4m-tcool-20003314-i14"
+  ]
+}
