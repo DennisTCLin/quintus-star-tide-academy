@@ -1,3 +1,4 @@
+import { NANYI_FOUR_TOPICS } from './nanyi-four-pilot';
 import { LEARNING_BANK, questionById, type LearningQuestion, type Grade, type Course } from './learning';
 import { GENERATED_POOLS, generatedId } from './question-generator';
 
@@ -5,7 +6,7 @@ import { GENERATED_POOLS, generatedId } from './question-generator';
  * Unknown questions remain in the bank/history, but cannot enter adaptive assessment.
  * These are original foundation lessons; publisher-aligned exams need an explicit mapping.
  */
-export type LearningTopic = { id:string; grade:Grade; course:Course; title:string; lesson:string; questions:string[]; prerequisite?:string };
+export type LearningTopic = { id:string; grade:Grade; course:Course; title:string; lesson:string; questions:string[]; prerequisite?:string; nanyiPilot?:{example:string; exam:string} };
 export const LEARNING_TOPICS: LearningTopic[] = [];
 const ids = (prefix:string, numbers:number[]) => numbers.map(n=>prefix+String(n).padStart(2,'0'));
 function add(grade:Grade,course:Course,key:string,title:string,lesson:string,questions:string[],prerequisite?:string) {
@@ -87,6 +88,10 @@ const examLinks:Record<string,string[]>={
 for(const [id,questions] of Object.entries(examLinks)){
  const t=LEARNING_TOPICS.find(t=>t.id===id)!;
  for(const qid of questions){const q=questionById(qid);if(!q||q.grade!==t.grade||q.course!==t.course||!q.examSources)throw Error('Invalid reviewed concept link '+qid);t.questions.push(qid);}
+}
+for (const {key,title,lesson,example,practice,exam} of NANYI_FOUR_TOPICS) {
+  LEARNING_TOPICS.push({id:`4:math:${key}`,grade:4,course:'math',title,lesson,questions:[...practice,exam],
+    nanyiPilot:{example,exam}});
 }
 export const TOPIC_BY_ID = Object.fromEntries(LEARNING_TOPICS.map(t=>[t.id,t]));
 const QUESTION_TOPIC = new Map<string,LearningTopic>();

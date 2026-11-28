@@ -1,3 +1,4 @@
+import { NANYI_FOUR_QUESTIONS } from './nanyi-four-pilot';
 import heshunMathRows from './data/heshun-g4-math-114.json';
 import {FINALS_ROUND6_20261107} from './finals-round6-20261107';
 import {FINALS_NEXT100_20261107} from './finals-next100-20261107';
@@ -287,7 +288,7 @@ const heshunMath: LearningQuestion[] = heshunMathRows.map(row => ({
   options: row.options.map(text => ({ text })),
   examSources: row.examSources.map(source => ({ ...source, id: 'g4m20003314' })),
 }));
-LEARNING_BANK.push(...heshunMath);
+LEARNING_BANK.push(...heshunMath, ...NANYI_FOUR_QUESTIONS);
 LEARNING_BANK.push(...ENGLISH_FOUNDATIONS);
 LEARNING_BANK.push(...GRADE1_TONES_MEDIALS_GENERATED);
 LEARNING_BANK.push(...SCIENCE_INQUIRY_V1);

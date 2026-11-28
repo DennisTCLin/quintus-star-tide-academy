@@ -1,6 +1,6 @@
 import { pilotQuestions, pilotExample } from './adaptive-pilot';
 import {teachingExample} from './adaptive-teaching';
-import { scopeKey, enableAdaptive, hasChallengeCapacity, chooseLearningTopic, reviewEligible, mappedQuestion, challengeEligible, independentSuccess, observeAdaptive, reportSchoolExposure, schoolExposure, showExample } from './adaptive-learning';
+import { scopeKey, enableAdaptive, hasChallengeCapacity, chooseLearningTopic, independentSuccess, reviewEligible, mappedQuestion, nanyiExamReady, challengeEligible, observeAdaptive, reportSchoolExposure, schoolExposure, showExample } from './adaptive-learning';
 import { TOPIC_BY_ID, topicForQuestion } from './adaptive-catalog';
 import type { LearningState } from './learning-engine';
 import { questionById, questionCapacity, type LearningQuestion, type Grade, type Course } from './learning';
@@ -60,7 +60,7 @@ export function validateStudy(value: unknown, grade: Grade) {
   need(r.advance===undefined||r.advance===true&&r.pilot===1);
   if(r.mode==='learn') {
     const t=TOPIC_BY_ID[r.topic??''];
-    need(t?.grade===grade&&['scope','lesson','answer'].includes(r.phase??'')&&t.questions.includes(r.example??'')
+    need(t?.grade===grade&&['scope','lesson','answer'].includes(r.phase??'')&&(t.questions.includes(r.example??'')||!!r.example&&t.nanyiPilot?.example===r.example)
       && (r.preview===undefined||typeof r.preview==='boolean'));
     need(r.pilot===1
       ? r.course===t.course && r.phase!=='scope' && topicForQuestion(r.questions[r.index])?.id===t.id
@@ -140,7 +140,7 @@ export function startStudy(s: LearningState, grade: Grade, day: string, id: stri
   const study = s.study ??= fresh(), d = studyDay(day);
   if(mode==='learn')return startLearning(s,grade,day,id,course);
   if (study.session && study.session.status !== 'complete') {
-    need(study.session.questions.every(id => compatible(s, grade, questionById(id), study.session!.course, true)), '學校版本已更新，請結束這組複習後重新選擇');
+    need(study.session.questions.slice(study.session.index + Number(study.session.settled)).every(id => compatible(s, grade, questionById(id), study.session!.course, true)), '學校版本已更新，請結束這組複習後重新選擇');
     study.session.status = 'active'; return true;
   }
   const candidates = knownIds(s).filter(id => compatible(s, grade, questionById(id), course));
@@ -170,7 +170,7 @@ function active(s: LearningState, id: string, index: number) {
 }
 export function answerStudy(s: LearningState, grade: Grade, id: string, index: number, choice: number, day: string) {
   const r = active(s, id, index), q = questionById(r.questions[index])!;
-  need(!r.settled && (r.mode==='learn' ? r.phase==='answer'&&mappedQuestion(s,q,grade,r.course) : compatible(s, grade, q, r.course, true)) && nat(choice, q.options.length - 1), '這題已作答或題目已更新');
+  need(!r.settled && (r.mode==='learn' ? r.phase==='answer'&&mappedQuestion(s,q,grade,r.course)&&nanyiExamReady(s,q) : compatible(s, grade, q, r.course, true)) && nat(choice, q.options.length - 1), '這題已作答或題目已更新');
   const entry = s.study!.entries[q.id];
   need(!entry || entry.last < studyDay(day) || entry.retryAfter <= s.study!.sequence + 1, "這題剛練過，請先完成另外兩題或明天再試；也可以結束這組重新選擇。");
   const correct = choice === q.answer;
@@ -181,9 +181,10 @@ export function answerStudy(s: LearningState, grade: Grade, id: string, index: n
   if (r.mode!=='learn' && (!correct || r.assisted) && index + 3 < r.questions.length && !r.questions.slice(index + 1).includes(q.id)) {
     r.questions[index + 3] = q.id; if (!r.retries.includes(index + 3)) r.retries.push(index + 3);
   }
+  if(r.mode!=='learn')pruneReview(s,r,id=>!nanyiExamReady(s,questionById(id)!));
   // Three probes are enough when six safe battle items are already available.
   // Only the unasked suffix is removed; the actual battle still has six items.
-  if(r.pilot===1 && index>=2 && correct && !r.assisted && hasChallengeCapacity(s,grade,r.course!))r.questions.length=index+1;
+  if(r.pilot===1 && !topicForQuestion(q)?.nanyiPilot && index>=2 && correct && !r.assisted && hasChallengeCapacity(s,grade,r.course!))r.questions.length=index+1;
   if (index === r.questions.length - 1) r.status = 'complete';
   return true;
 }
@@ -202,7 +203,8 @@ export function nextStudy(s: LearningState, id: string, index: number, day?:stri
   }
   r.index++; r.settled=false; r.assisted=false;
   if(r.pilot===1){r.topic=topicForQuestion(r.questions[r.index])!.id;r.example=r.questions[r.index];r.phase='answer';}
-  if(teach){r.phase='lesson';prepareExample(s,r,today);}
+  const current=questionById(r.questions[r.index])!;
+  if(teach||needsNanyiExample(s,current)){r.phase='lesson';prepareExample(s,r,today);}
   return true;
 }
 export function hintStudy(s: LearningState, id: string, index: number) {
@@ -220,6 +222,11 @@ function prepareExample(s:LearningState,r:StudySession,day:string) {
  const q=questionById(r.questions[r.index])!;
  r.example=r.pilot===1?pilotExample(s,q,r.questions):q.id;
  showExample(s,r.example,day);
+}
+function needsNanyiExample(s: LearningState, question: LearningQuestion) {
+ const topic=topicForQuestion(question);
+ return !!topic?.nanyiPilot&&!s.adaptive?.examples[topic.nanyiPilot.example]&&
+   !topic.questions.some(id=>{const q=questionById(id);return !!q&&independentSuccess(s,q);});
 }
 /** Low-stakes probes reuse dated independent history, never earned reward bits. */
 export function startLearning(s:LearningState,grade:Grade,day:string,id:string,course?:Course,requested?:string,advance=false) {
@@ -239,10 +246,46 @@ export function startLearning(s:LearningState,grade:Grade,day:string,id:string,c
  if(advance&&!questions.length)return false;
  need(questions.length,'這些題目剛練過，先換個概念，讓記憶休息一下。');
  const first=questionById(questions[0])!,t=topicForQuestion(first)!,previous=s.adaptive?.evidence[first.id];
- const teach=!!(previous&&(!previous.correct||previous.assisted)||study.entries[first.id]?.needsPractice);
+ const teach=needsNanyiExample(s,first)||!!(previous&&(!previous.correct||previous.assisted)||study.entries[first.id]?.needsPractice);
  if(s.adaptive)s.adaptive.lastLearningDay=day;
  const r:StudySession={id,mode:'learn',pilot:1,...(advance?{advance:true as const}:{}),course:t.course,topic:t.id,phase:teach?'lesson':'answer',example:first.id,questions,index:0,answers:[],retries:[],settled:false,assisted:false,status:'active'};
  study.session=r;if(teach)prepareExample(s,r,day);
+ return true;
+}
+function pruneReview(s: LearningState, r: StudySession, exclude: (id: string) => boolean) {
+ const answered=r.index+Number(r.settled);
+ const kept=r.questions.map((id,index)=>({id,index})).filter(({id,index})=>index<answered||!exclude(id));
+ if(kept.length===r.questions.length)return;
+ if(!kept.length){s.study!.session=null;return;}
+ const retries=new Set(r.retries);
+ r.questions=kept.map(({id})=>id);
+ r.retries=kept.flatMap(({index},newIndex)=>retries.has(index)?[newIndex]:[]);
+ if(!r.settled&&r.index>=r.questions.length){r.index--;r.settled=true;}
+ if(!r.settled&&kept[r.index].index!==r.index)r.assisted=false;
+ if(r.settled&&r.index===r.questions.length-1)r.status='complete';
+}
+
+/** Apply school progress without discarding earlier answers or changing the ledger. */
+export function updateLearningProgress(s:LearningState,grade:Grade,topic:string,state:'taught'|'not-yet',day:string) {
+ reportSchoolExposure(s,grade,topic,state,day);
+ const r=s.study?.session;
+ if(state!=='not-yet'||!TOPIC_BY_ID[topic]?.nanyiPilot||!r||r.status==='complete')return true;
+ if(r.mode!=='learn'){ pruneReview(s,r,id=>topicForQuestion(id)?.id===topic);return true; }
+ if(r.pilot!==1||r.topic!==topic||r.settled)return true;
+ const prefix=r.questions.slice(0,r.index), course=r.course!;
+ const replacement=pilotQuestions(s,grade,course,day,r.questions.length-prefix.length,prefix);
+ if(!replacement.length){
+   if(!prefix.length)s.study!.session=null;
+   else {
+     r.questions=prefix;r.index--;r.settled=true;r.status='complete';r.phase='answer';r.assisted=false;
+     r.topic=topicForQuestion(r.questions[r.index])!.id;r.example=r.questions[r.index];
+   }
+   return true;
+ }
+ r.questions=[...prefix,...replacement];r.assisted=false;r.example=replacement[0];
+ const current=questionById(replacement[0])!;
+ r.topic=topicForQuestion(current)!.id;r.phase=needsNanyiExample(s,current)?'lesson':'answer';
+ if(r.phase==='lesson')prepareExample(s,r,day);
  return true;
 }
 export function learningScope(s:LearningState,grade:Grade,id:string,state:'taught'|'not-yet'|'preview',day:string) {
@@ -254,13 +297,13 @@ export function learningScope(s:LearningState,grade:Grade,id:string,state:'taugh
 }
 export function learningLesson(s:LearningState,id:string,index:number,day:string,done=false) {
  const r=active(s,id,index);need(r.mode==='learn'&&!r.settled&&r.phase!=='scope');
- if(done){need(r.phase==='lesson');showExample(s,r.pilot===1?r.example!:r.questions[r.index],day);r.phase='answer';r.assisted=true;}
- else {r.phase='lesson';prepareExample(s,r,day);}
+ if(done){need(r.phase==='lesson');showExample(s,r.pilot===1?r.example!:r.questions[r.index],day);r.phase='answer';if(!TOPIC_BY_ID[r.topic!].nanyiPilot||r.pilot!==1)r.assisted=true;}
+ else {r.phase='lesson';if(TOPIC_BY_ID[r.topic!].nanyiPilot)r.assisted=true;prepareExample(s,r,day);}
  return true;
 }
 export function publicLearningLesson(s:LearningState) {
  const r=s.study?.session;if(r?.mode!=='learn')return;
  const t=TOPIC_BY_ID[r.topic!],example=questionById(r.pilot===1?r.example!:r.questions[r.index])!;
- return {topic:t.id,title:t.title,lesson:t.lesson,challengeReady:r.status==='complete'&&hasChallengeCapacity(s,t.grade,t.course),exposure:schoolExposure(s,t.id)??'unknown',
+ return {topic:t.id,title:t.title,lesson:t.lesson,challengeReady:r.status==='complete'&&hasChallengeCapacity(s,t.grade,t.course),exposure:schoolExposure(s,t.id)??'unknown',...(t.nanyiPilot?{stage:r.questions[r.index]===t.nanyiPilot.exam?'exam' as const:'practice' as const}:{}),
   ...(r.phase==='lesson'?{example:teachingExample(example)}: {})};
 }

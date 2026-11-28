@@ -26,7 +26,7 @@ import { backfillPresenceHistory, hasAdventureHistory, recordPlayerSeen } from "
 import { readPlayerCollections } from "./player-collections.mjs";
 import { ensurePlayerFriendships, connectedPlayerFriends } from "./player-friends.mjs";
 import {
-  enableAdaptive, challengeEligible, adaptiveSummary, reportSchoolExposure, observeAdaptive, LearningPreparationNeeded, startLearning, learningScope, learningLesson, publicLearningLesson, adaptRun, adaptCapture, reportIslandScope,
+  TOPIC_BY_ID, enableAdaptive, challengeEligible, adaptiveSummary, updateLearningProgress, nanyiExamReady, observeAdaptive, LearningPreparationNeeded, startLearning, learningScope, learningLesson, publicLearningLesson, adaptRun, adaptCapture, reportIslandScope,
   ACTIVITIES,
   startIsland, answerIsland, finishIsland, quitIsland, helpIsland, publicIslandRun,
   territoryTransition,
@@ -102,7 +102,7 @@ function publicState(row, user, csrf) {
     if (study) {
       const source = questionById(study.questions[study.index]);
       const { answer, explanation, target, ...question } = source;
-      if(study.mode!=='learn'||study.phase==='answer')studyQuestions[player.id] = { ...question, ...(study.settled ? { answer, explanation, target } : {}) };
+      if((study.mode!=='learn'||study.phase==='answer')&&(study.settled||nanyiExamReady(p.learning,source)))studyQuestions[player.id] = { ...question, ...(study.settled ? { answer, explanation, target } : {}) };
       study.questions = study.questions.map((id, index) => index === study.index ? id : "");
     }
     for(const captureRun of [r,p.mathIsland?.run]) {
@@ -177,7 +177,7 @@ function applyCommand(family, c, day, receivedAt=Date.now()) {
     case 'learning-lesson':
       fields(c,[...studyFields,'done']);assert(typeof c.done==='boolean');return learningLesson(p.learning,c.sessionId,c.index,day,c.done);
     case 'learning-progress':
-      fields(c,[...common,'topic','state']);return reportSchoolExposure(p.learning,grade,c.topic,c.state,day);
+      fields(c,[...common,'topic','state']);return updateLearningProgress(p.learning,grade,c.topic,c.state,day);
     case 'island-scope':
       fields(c,[...common,'unit','taught']);assert(p.mathIsland,'先進入數學島');return reportIslandScope(p.mathIsland,p.learning,c.unit,c.taught,grade);
     case 'run-adapt':
@@ -980,6 +980,8 @@ export async function createCloudApi({
       if (user.member_id) {
         assert(path !== "/api/migrate", "舊家庭進度請由家長轉入", 403);
         assert(object(body.command) && body.command.player === user.player_id, "只能操作自己的航海員", 403);
+        assert(body.command.type !== 'learning-progress' || !TOPIC_BY_ID[body.command.topic]?.nanyiPilot,
+          '請由家長帳號在家長艙設定學校進度', 403);
       }
       const digest = hash(JSON.stringify({ path, ...body }));
       const result = await transaction(async (db) => {
