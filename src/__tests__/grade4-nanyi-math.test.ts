@@ -6,7 +6,7 @@ import rows from '../data/math-nanyi-20261026.json';
 import originalRows from '../data/math-exams-20261025.json';
 import {MATH_EXAMS} from '../math-exams';
 import {EXAM_SOURCES} from '../exam-sources';
-import {questionById} from '../learning';
+import {LEARNING_BANK,questionById} from '../learning';
 import {allocateQuestions,allocateAdventureQuestions,freshLearning,validateLearning} from '../learning-engine';
 import {markMastered} from '../mastered-questions';
 import {coursePublisher,englishCurriculumNotice} from '../school-curriculum';
@@ -63,11 +63,13 @@ it('preserves old runs and mastered progress, then falls back without changing p
  const ids=[...family.profiles.quintus.run!.questions];family.profiles.quintus.learning.school='dunhua';
  expect(validateFamily(JSON.parse(JSON.stringify(family))).profiles.quintus.run!.questions).toEqual(ids);
  const s={...freshLearning(),school:'dunhua' as const};
- for(const q of exams.slice(0,-2))markMastered(s,q.id);
+ const allExams=LEARNING_BANK.filter(q=>q.grade===4&&q.course==='math'&&q.publisher==='南一');
+ const remaining=new Set(exams.slice(-2).map(q=>q.id));
+ for(const q of allExams)if(!remaining.has(q.id))markMastered(s,q.id);
  const restored=validateLearning(JSON.parse(JSON.stringify(s)),4);
  const chosen=allocateQuestions(restored,4,'math',6);
  expect(chosen.filter(q=>q.id.startsWith('mx1-')).map(q=>q.id).sort()).toEqual(exams.slice(-2).map(q=>q.id).sort());
- for(const q of exams)markMastered(restored,q.id);
+ for(const q of allExams)markMastered(restored,q.id);
  expect(allocateQuestions(restored,4,'math',6).every(q=>q.id.startsWith('n1-'))).toBe(true);
 });
 it('covers source pitfalls: equality, place value, remainder, clock context and missing conditions',()=>{

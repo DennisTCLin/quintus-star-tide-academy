@@ -1,0 +1,310 @@
+[
+  {
+    "id": "g4m-tcool-20003314-i1",
+    "grade": 4,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "skill": "分數",
+    "prompt": "下列關於分數的敘述，何者正確？",
+    "options": [
+      "分子比分母小的分數是帶分數",
+      "分子比分母大的分數是真分數",
+      "帶有整數和真分數的分數是假分數",
+      "分子和分母一樣大的分數是假分數"
+    ],
+    "answer": 3,
+    "level": 2,
+    "hint": "比較分子和分母的大小。",
+    "explanation": "分子等於分母時，分數等於 1，屬於假分數。",
+    "sourceFamily": "tcool-20003314-p1-i1",
+    "examSources": [
+      {
+        "id": "g4m20003314",
+        "page": 1,
+        "locator": "一1",
+        "kind": "第6單元，原題整理為自足文字"
+      }
+    ]
+  },
+  {
+    "id": "g4m-tcool-20003314-i2",
+    "grade": 4,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "skill": "分數",
+    "prompt": "一盒巧克力有 10 顆，吃掉 2 顆，相當於吃了幾盒？",
+    "options": [
+      "2/8 盒",
+      "2 盒",
+      "2/10 盒",
+      "8 盒"
+    ],
+    "answer": 2,
+    "level": 2,
+    "hint": "把一整盒看作 10 等份。",
+    "explanation": "每顆是 1/10 盒，2 顆是 2/10 盒。",
+    "sourceFamily": "tcool-20003314-p1-i2",
+    "examSources": [
+      {
+        "id": "g4m20003314",
+        "page": 1,
+        "locator": "一2",
+        "kind": "第6單元，原題整理為自足文字"
+      }
+    ]
+  },
+  {
+    "id": "g4m-tcool-20003314-i3",
+    "grade": 4,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "skill": "分數",
+    "prompt": "哪一段繩子的長度最接近 1 公尺？",
+    "options": [
+      "2/5 公尺",
+      "3/5 公尺",
+      "4/5 公尺",
+      "1 又 2/5 公尺"
+    ],
+    "answer": 2,
+    "level": 2,
+    "hint": "比較每個長度和 1 公尺的差。",
+    "explanation": "4/5 公尺與 1 公尺相差 1/5 公尺，差最小。",
+    "sourceFamily": "tcool-20003314-p1-i3",
+    "examSources": [
+      {
+        "id": "g4m20003314",
+        "page": 1,
+        "locator": "一3",
+        "kind": "第6單元，原題整理為自足文字"
+      }
+    ]
+  },
+  {
+    "id": "g4m-tcool-20003314-i5",
+    "grade": 4,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "skill": "分數",
+    "prompt": "4 又 3/7 等於幾個 1/7？",
+    "options": [
+      "3 個",
+      "12 個",
+      "28 個",
+      "31 個"
+    ],
+    "answer": 3,
+    "level": 2,
+    "hint": "1 可以分成 7 個 1/7。",
+    "explanation": "4 有 28 個 1/7，再加上 3 個，一共 31 個。",
+    "sourceFamily": "tcool-20003314-p1-i5",
+    "examSources": [
+      {
+        "id": "g4m20003314",
+        "page": 1,
+        "locator": "一5",
+        "kind": "第6單元，原題整理為自足文字"
+      }
+    ]
+  },
+  {
+    "id": "g4m-tcool-20003314-i8",
+    "grade": 4,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "skill": "數量關係",
+    "prompt": "35、68、99、106、125、180、201、230、499 這九個數，分別乘以 93。有幾個乘積是奇數？",
+    "options": [
+      "1 個",
+      "4 個",
+      "5 個",
+      "9 個"
+    ],
+    "answer": 2,
+    "level": 2,
+    "hint": "93 是奇數。想想奇數乘奇數的結果。",
+    "explanation": "35、99、125、201、499 都是奇數，乘以 93 後仍是奇數。",
+    "sourceFamily": "tcool-20003314-p1-i8",
+    "examSources": [
+      {
+        "id": "g4m20003314",
+        "page": 1,
+        "locator": "一8",
+        "kind": "第7單元，原題整理為自足文字"
+      }
+    ]
+  },
+  {
+    "id": "g4m-tcool-20003314-i9",
+    "grade": 4,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "skill": "數量關係",
+    "prompt": "下列哪個數和 77 相加，結果不是奇數？",
+    "options": [
+      "12",
+      "28",
+      "33",
+      "46"
+    ],
+    "answer": 2,
+    "level": 2,
+    "hint": "77 是奇數。哪一種數加上奇數會得到偶數？",
+    "explanation": "33 是奇數，33＋77＝110，是偶數。",
+    "sourceFamily": "tcool-20003314-p1-i9",
+    "examSources": [
+      {
+        "id": "g4m20003314",
+        "page": 1,
+        "locator": "一9",
+        "kind": "第7單元，原題整理為自足文字"
+      }
+    ]
+  },
+  {
+    "id": "g4m-tcool-20003314-i10",
+    "grade": 4,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "skill": "整數四則",
+    "prompt": "採了 200 顆水蜜桃，留下 40 顆，把其餘的平分給 5 位朋友。哪個算式和答案都正確？",
+    "options": [
+      "200－40÷5＝60÷5＝12 顆",
+      "200－40÷5＝200－8＝192 顆",
+      "(200－40)÷5＝160÷5＝32 顆",
+      "(200－40)÷5＝200－8＝112 顆"
+    ],
+    "answer": 2,
+    "level": 2,
+    "hint": "先算出可以分的水蜜桃有幾顆。",
+    "explanation": "先扣掉留下的 40 顆，再把 160 顆分成 5 份，每份 32 顆。",
+    "sourceFamily": "tcool-20003314-p1-i10",
+    "examSources": [
+      {
+        "id": "g4m20003314",
+        "page": 1,
+        "locator": "一10",
+        "kind": "第8單元，原題整理為自足文字"
+      }
+    ]
+  },
+  {
+    "id": "g4m-tcool-20003314-i11",
+    "grade": 4,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "skill": "整數四則",
+    "prompt": "下列哪個算式正確？",
+    "options": [
+      "100－50＋10＝100－60＝40",
+      "60×(20－10)＝60×10＝600",
+      "45÷5×3＝45÷15＝3",
+      "50＋20÷2＝70÷2＝35"
+    ],
+    "answer": 1,
+    "level": 2,
+    "hint": "先算括號。沒有括號時，先乘除，再加減。",
+    "explanation": "括號內的 20－10＝10，所以 60×(20－10)＝600。",
+    "sourceFamily": "tcool-20003314-p1-i11",
+    "examSources": [
+      {
+        "id": "g4m20003314",
+        "page": 1,
+        "locator": "一11",
+        "kind": "第8單元，原題整理為自足文字"
+      }
+    ]
+  },
+  {
+    "id": "g4m-tcool-20003314-i12",
+    "grade": 4,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "skill": "整數四則",
+    "prompt": "一箱有 18 隻玩偶，9 人合買 6 箱後平分。哪個算式可以求出每人拿到幾隻？",
+    "options": [
+      "18×6÷9",
+      "18×9÷6",
+      "9÷6×18",
+      "6×9÷18"
+    ],
+    "answer": 0,
+    "level": 2,
+    "hint": "先求玩偶總數，再除以人數。",
+    "explanation": "6 箱有 18×6＝108 隻，108÷9＝12，每人可拿到 12 隻。",
+    "sourceFamily": "tcool-20003314-p1-i12",
+    "examSources": [
+      {
+        "id": "g4m20003314",
+        "page": 1,
+        "locator": "一12",
+        "kind": "第8單元，原題整理為自足文字"
+      }
+    ]
+  },
+  {
+    "id": "g4m-tcool-20003314-i13",
+    "grade": 4,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "skill": "小數",
+    "prompt": "401.27 中的 7 代表什麼？",
+    "options": [
+      "7 個 400",
+      "7 個 1",
+      "7 個 0.1",
+      "7 個 0.01"
+    ],
+    "answer": 3,
+    "level": 2,
+    "hint": "找小數點右邊第二位的位值。",
+    "explanation": "7 在百分位，代表 7 個 0.01。",
+    "sourceFamily": "tcool-20003314-p1-i13",
+    "examSources": [
+      {
+        "id": "g4m20003314",
+        "page": 1,
+        "locator": "一13",
+        "kind": "第9單元，原題整理為自足文字"
+      }
+    ]
+  },
+  {
+    "id": "g4m-tcool-20003314-i14",
+    "grade": 4,
+    "course": "math",
+    "subject": "math",
+    "publisher": "南一",
+    "skill": "小數",
+    "prompt": "6 個 10、5 個 0.1 和 12 個 0.01 加起來是多少？",
+    "options": [
+      "60.62",
+      "6.512",
+      "60.52",
+      "6.62"
+    ],
+    "answer": 0,
+    "level": 2,
+    "hint": "先把三個部分各自寫成數字。",
+    "explanation": "60＋0.5＋0.12＝60.62。",
+    "sourceFamily": "tcool-20003314-p1-i14",
+    "examSources": [
+      {
+        "id": "g4m20003314",
+        "page": 1,
+        "locator": "一14",
+        "kind": "第9單元，原題整理為自足文字"
+      }
+    ]
+  }
+]

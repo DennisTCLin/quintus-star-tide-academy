@@ -1,3 +1,4 @@
+import heshunMathRows from './data/heshun-g4-math-114.json';
 import {FINALS_ROUND6_20261107} from './finals-round6-20261107';
 import {FINALS_NEXT100_20261107} from './finals-next100-20261107';
 import {FINALS_ROUND3_20261107} from './finals-round3-20261107';
@@ -276,6 +277,17 @@ LEARNING_BANK.push(...FINALS_FOLLOWUP_20261107);
 LEARNING_BANK.push(...FINALS_ROUND3_20261107);
 LEARNING_BANK.push(...FINALS_NEXT100_20261107);
 LEARNING_BANK.push(...FINALS_ROUND6_20261107);
+const heshunMath: LearningQuestion[] = heshunMathRows.map(row => ({
+  ...row,
+  grade: 4,
+  course: 'math',
+  subject: 'math',
+  publisher: '南一',
+  level: 2,
+  options: row.options.map(text => ({ text })),
+  examSources: row.examSources.map(source => ({ ...source, id: 'g4m20003314' })),
+}));
+LEARNING_BANK.push(...heshunMath);
 LEARNING_BANK.push(...ENGLISH_FOUNDATIONS);
 LEARNING_BANK.push(...GRADE1_TONES_MEDIALS_GENERATED);
 LEARNING_BANK.push(...SCIENCE_INQUIRY_V1);
